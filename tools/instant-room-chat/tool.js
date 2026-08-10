@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentRoom = null;
   let currentNickname = 'Anonymous';
   let broadcastChannel = null;
-  let storagePollInterval = null;
+  let pollTimer = null;
+  let lastRenderedLength = -1;
 
   const TTL_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
@@ -39,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Run cleanup on initial load
   cleanExpiredMessages();
 
   function generateRoomCode() {
@@ -67,7 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderMessages() {
     if (!currentRoom) return;
     const msgs = getRoomMessages(currentRoom);
-    messagesContainer.innerHTML = '<div style="text-align: center; color: #888; font-size: 0.82rem; margin: 0.5rem 0;">🔒 Room created! Share room code with your phone or friends to start chatting. Messages self-destruct 24 hours after room exit.</div>';
+    if (msgs.length === lastRenderedLength) return; // Prevent unnecessary DOM reflows if unchanged
+
+    lastRenderedLength = msgs.length;
+    messagesContainer.innerHTML = '<div style="text-align: center; color: #888; font-size: 0.78rem; margin: 0.25rem 0;">🔒 Room active! Share room code with another tab, phone, or friend. All messages self-destruct 24h after exit.</div>';
 
     msgs.forEach(m => {
       const isMe = m.sender === currentNickname;
@@ -75,27 +78,27 @@ document.addEventListener('DOMContentLoaded', () => {
       bubble.style.display = 'flex';
       bubble.style.flexDirection = 'column';
       bubble.style.alignItems = isMe ? 'flex-end' : 'flex-start';
-      bubble.style.margin = '0.2rem 0';
+      bubble.style.margin = '0.15rem 0';
 
       const content = document.createElement('div');
-      content.style.maxWidth = '80%';
-      content.style.padding = '0.65rem 0.9rem';
-      content.style.borderRadius = isMe ? '16px 16px 2px 16px' : '16px 16px 16px 2px';
+      content.style.maxWidth = '78%';
+      content.style.padding = '0.55rem 0.85rem';
+      content.style.borderRadius = isMe ? '14px 14px 2px 14px' : '14px 14px 14px 2px';
       content.style.background = isMe ? 'var(--green)' : '#ffffff';
       content.style.color = isMe ? '#ffffff' : 'var(--ink)';
-      content.style.boxShadow = '0 1px 3px rgba(0,0,0,0.08)';
-      content.style.border = isMe ? 'none' : '1px solid #e2e8e4';
+      content.style.boxShadow = '0 1px 3px rgba(0,0,0,0.06)';
+      content.style.border = isMe ? 'none' : '1px solid #e1e7e3';
       content.style.wordBreak = 'break-word';
 
       const meta = document.createElement('div');
-      meta.style.fontSize = '0.72rem';
-      meta.style.marginBottom = '0.25rem';
+      meta.style.fontSize = '0.7rem';
+      meta.style.marginBottom = '0.2rem';
       meta.style.opacity = '0.85';
       meta.style.fontWeight = '700';
       meta.textContent = m.sender + ' • ' + new Date(m.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
       const textNode = document.createElement('div');
-      textNode.style.fontSize = '0.92rem';
+      textNode.style.fontSize = '0.88rem';
       textNode.style.lineHeight = '1.4';
       textNode.textContent = m.text;
 
@@ -108,6 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
   }
 
+  // Real-time window storage event listener for cross-tab & cross-window instant sync
+  window.addEventListener('storage', (e) => {
+    if (currentRoom && e.key === `niktool_chat_${currentRoom}`) {
+      lastRenderedLength = -1;
+      renderMessages();
+    }
+  });
+
   function startRoom(roomId, nickname) {
     currentRoom = roomId;
     currentNickname = nickname || 'Anonymous';
@@ -118,20 +129,22 @@ document.addEventListener('DOMContentLoaded', () => {
     userBadge.textContent = `You: ${currentNickname}`;
     msgEl.textContent = `Active in room ${currentRoom}. Messages will auto-delete in 24h.`;
 
+    lastRenderedLength = -1;
     renderMessages();
 
     if (window.BroadcastChannel) {
       if (broadcastChannel) broadcastChannel.close();
       broadcastChannel = new window.BroadcastChannel(`niktool_channel_${currentRoom}`);
       broadcastChannel.onmessage = () => {
+        lastRenderedLength = -1;
         renderMessages();
       };
     }
 
-    if (storagePollInterval) clearInterval(storagePollInterval);
-    storagePollInterval = setInterval(() => {
+    if (pollTimer) clearInterval(pollTimer);
+    pollTimer = setInterval(() => {
       renderMessages();
-    }, 1200);
+    }, 400);
   }
 
   createRoomBtn?.addEventListener('click', () => {
@@ -166,6 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (broadcastChannel) broadcastChannel.postMessage('new_msg');
 
     chatInput.value = '';
+    lastRenderedLength = -1;
     renderMessages();
   }
 
@@ -186,9 +200,9 @@ document.addEventListener('DOMContentLoaded', () => {
       broadcastChannel.close();
       broadcastChannel = null;
     }
-    if (storagePollInterval) {
-      clearInterval(storagePollInterval);
-      storagePollInterval = null;
+    if (pollTimer) {
+      clearInterval(pollTimer);
+      pollTimer = null;
     }
     currentRoom = null;
     chatScreen.style.display = 'none';
