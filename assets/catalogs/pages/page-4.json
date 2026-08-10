@@ -1,5 +1,19 @@
 [
   {
+    "name": "English Name Generator for Students",
+    "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
+    "path": "/tools/english-name-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "english name generator",
+      "english name generator for students",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
     "name": "ER Diagram Maker",
     "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
     "path": "/tools/er-diagram-maker/",
@@ -351,23 +365,6 @@
       "check notice format",
       "notice structure checker",
       "school notice checker"
-    ]
-  },
-  {
-    "name": "Formal Letter Format Checker",
-    "description": "Check your formal letter format for essential elements like subject, salutation, and closing. Free, fast, and fully private.",
-    "path": "/tools/formal-letter-format-checker/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "formal letter format checker",
-      "letter writing checker",
-      "CBSE formal letter format",
-      "letter format class 10",
-      "formal letter checker",
-      "check letter format",
-      "letter structure checker",
-      "school letter checker"
     ]
   }
 ]

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instant Anonymous Room Chat - Free Online Tool | NikTool</title>
+  <meta name="description" content="Create or join temporary private chat rooms instantly without login. Send messages between phone and laptop. Messages auto-delete after 24 hours.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/instant-room-chat/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Instant Anonymous Room Chat | NikTool">
+  <meta property="og:description" content="Create or join temporary private chat rooms instantly without login. Send messages between phone and laptop.">
+  <meta property="og:url" content="https://niktool.in/tools/instant-room-chat/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3039559152735742" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJB9MSVTRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HJB9MSVTRN');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Instant Anonymous Room Chat",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/instant-room-chat/",
+        "description": "Create or join temporary private chat rooms instantly without login. Send text between phone and laptop.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I use this tool?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Enter your display name, click Create Room or enter an existing Room Code to join, and start chatting instantly across your devices." }
+          },
+          {
+            "@type": "Question",
+            "name": "Are chat messages automatically deleted?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, all room messages and chat logs auto-delete completely after 24 hours of disconnection." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I connect my phone and laptop?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes! Simply share the 6-digit Room Code or link to chat and transfer text seamlessly between phone and laptop." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="tool-hero">
+      <h1>Instant Anonymous Room Chat</h1>
+      <p>Connect phone to laptop or chat with friends in private temporary rooms. No signup, no installation, 100% auto-deleting after 24 hours.</p>
+    </section>
+
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>Private Room Chat (ChatNest)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Auto-deletes in 24h</span>
+      </div>
+
+      <!-- Step 1: Join / Create Room screen -->
+      <div id="setup-screen" style="max-width: 480px; margin: 1rem auto; padding: 1.5rem; border: 1px solid var(--line); border-radius: 18px; background: #fafbf8;">
+        <h3 style="margin: 0 0 1rem; text-align: center;">Enter Details to Start</h3>
+        
+        <label class="editor-label" for="user-nickname">Your Display Name</label>
+        <input type="text" class="tool-textarea" id="user-nickname" placeholder="e.g. Alex" style="margin-bottom: 1.2rem;" />
+
+        <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+          <button class="button" id="create-room-btn" type="button" style="flex: 1;">⚡ Create New Room</button>
+        </div>
+
+        <div style="text-align: center; margin: 0.8rem 0; color: #888; font-size: 0.85rem;">— OR JOIN EXISTING ROOM —</div>
+
+        <label class="editor-label" for="room-code-input">Enter Room Code</label>
+        <input type="text" class="tool-textarea" id="room-code-input" placeholder="e.g. ROOM-7482" style="margin-bottom: 1rem; text-transform: uppercase;" />
+
+        <button class="button secondary" id="join-room-btn" type="button" style="width: 100%;">🔑 Join Room</button>
+      </div>
+
+      <!-- Step 2: Full-screen Chat Screen -->
+      <div id="chat-screen" style="display: none; flex-direction: column; min-height: 480px; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: #fff;">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.2rem; background: var(--green-dark); color: white;">
+          <div>
+            <span style="font-weight: 700; font-size: 1rem;" id="current-room-badge">ROOM: ----</span>
+            <span style="font-size: 0.8rem; background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 99px; margin-left: 0.5rem;" id="user-badge">You: Anonymous</span>
+          </div>
+          <div style="display: flex; gap: 0.4rem;">
+            <button class="button secondary" id="copy-room-code-btn" type="button" style="padding: 0.35rem 0.75rem; min-height: 32px; font-size: 0.8rem;">Copy Code</button>
+            <button class="button secondary" id="leave-room-btn" type="button" style="padding: 0.35rem 0.75rem; min-height: 32px; font-size: 0.8rem; background: #fee9e5; color: #b23a32; border-color: #f7cac4;">Leave</button>
+          </div>
+        </div>
+
+        <div id="messages-container" style="flex: 1; padding: 1.2rem; overflow-y: auto; max-height: 380px; min-height: 300px; background: #f6f8f6; display: flex; flex-direction: column; gap: 0.75rem;">
+          <div style="text-align: center; color: #888; font-size: 0.82rem; margin: 0.5rem 0;">🔒 Room created! Share room code with your phone or friends to start chatting. Messages self-destruct 24 hours after room exit.</div>
+        </div>
+
+        <div style="padding: 0.85rem; background: #fff; border-top: 1px solid var(--line); display: flex; gap: 0.6rem;">
+          <input type="text" class="tool-textarea" id="chat-input" placeholder="Type a message or paste text here..." style="flex: 1; margin: 0;" />
+          <button class="button" id="send-msg-btn" type="button" style="flex: none; padding: 0 1.25rem;">Send 🚀</button>
+        </div>
+      </div>
+
+      <p class="message" id="instant-room-chat-message" role="status" style="margin-top: 0.75rem;">Ready. Enter display name above to create or join a room.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to connect phone to laptop & chat anonymously</h2>
+      <ol>
+        <li>Enter your preferred display name in the input box.</li>
+        <li>Click <strong>Create New Room</strong> to generate a unique 6-digit Room Code.</li>
+        <li>Open NikTool on your phone or second device, click <strong>Join Room</strong>, and enter the code.</li>
+        <li>Start chatting and sharing links instantly across devices without registering or logging in.</li>
+      </ol>
+
+      <h2>Key Features & Privacy</h2>
+      <p>This anonymous temporary room chat (ChatNest) is designed for instant text transfers between mobile and desktop devices. Messages are transmitted securely and stored in an encrypted ephemeral storage buffer that automatically wipes all room history 24 hours after room disconnect. No account creation, email address, or phone number is ever required.</p>
+
+      <h2>Common Use Cases</h2>
+      <p>Users frequently use this tool to quickly send links, notes, and text clips from phone to laptop. Friends and gamers use it as an instant anonymous chat room to talk with strangers or group members without sharing personal phone numbers or social media handles.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How do I use this tool?</summary>
+        <p>Simply enter a display name, click Create Room or enter a Room Code to join, and start chatting across your devices.</p>
+      </details>
+      <details>
+        <summary>Is my data secure?</summary>
+        <p>Yes! All messages are auto-deleted 24 hours after room disconnect, and no personal user logs are saved.</p>
+      </details>
+      <details>
+        <summary>Can I connect my phone and laptop?</summary>
+        <p>Yes! Open NikTool on both devices, join the same Room Code, and copy-paste text back and forth instantly.</p>
+      </details>
+      <details>
+        <summary>Does it require account registration?</summary>
+        <p>No, NikTool room chat is 100% free with zero registration or login needed.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/instant-room-chat/tool.js"></script>
+</body>
+</html>

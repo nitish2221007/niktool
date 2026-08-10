@@ -1,5 +1,22 @@
 [
   {
+    "name": "Lens Formula Calculator",
+    "description": "Solve the lens formula 1/f = 1/v - 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/lens-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lens formula calculator",
+      "lens equation calculator",
+      "class 10 lens formula",
+      "focal length calculator lens",
+      "u v f calculator lens",
+      "magnification lens calculator",
+      "school optics calculator",
+      "ray optics lens calculator"
+    ]
+  },
+  {
     "name": "PDF Merger",
     "description": "Merge multiple PDF files into one document securely in your browser.",
     "path": "/tools/pdf-merger/",
@@ -356,20 +373,6 @@
       "sorting",
       "graph",
       "dp"
-    ]
-  },
-  {
-    "name": "English Name Generator for Students",
-    "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
-    "path": "/tools/english-name-generator/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "english name generator",
-      "english name generator for students",
-      "online tool",
-      "free tool",
-      "niktool"
     ]
   }
 ]

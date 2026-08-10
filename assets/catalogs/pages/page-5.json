@@ -1,5 +1,22 @@
 [
   {
+    "name": "Formal Letter Format Checker",
+    "description": "Check your formal letter format for essential elements like subject, salutation, and closing. Free, fast, and fully private.",
+    "path": "/tools/formal-letter-format-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "formal letter format checker",
+      "letter writing checker",
+      "CBSE formal letter format",
+      "letter format class 10",
+      "formal letter checker",
+      "check letter format",
+      "letter structure checker",
+      "school letter checker"
+    ]
+  },
+  {
     "name": "Remove Last Two PDF Pages",
     "description": "Delete the trailing 2 pages from any PDF document locally in your browser.",
     "path": "/tools/remove-last-two-pdf-pages/",
@@ -388,25 +405,6 @@
       "JSON data converter",
       "CSV converter JSON",
       "local JSON converter"
-    ]
-  },
-  {
-    "name": "CSV to JSON Converter",
-    "description": "Convert CSV text to JSON array with support for commas, semicolons, tabs, and quoted values. Free and fully private.",
-    "path": "/tools/csv-to-json-converter/",
-    "category": "Developer",
-    "icon": "code",
-    "keywords": [
-      "CSV to JSON converter",
-      "CSV JSON converter",
-      "convert CSV to JSON",
-      "CSV parser online",
-      "CSV data to JSON",
-      "online CSV converter",
-      "CSV array JSON",
-      "developer CSV tool",
-      "CSV formatter",
-      "local CSV converter"
     ]
   }
 ]

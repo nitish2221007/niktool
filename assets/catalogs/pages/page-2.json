@@ -1,5 +1,20 @@
 [
   {
+    "name": "Midpoint Calculator",
+    "description": "Find the midpoint between two coordinate points using the midpoint formula with substitution shown. Free and private.",
+    "path": "/tools/midpoint-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "midpoint calculator",
+      "midpoint formula calculator",
+      "class 10 midpoint calculator",
+      "coordinate midpoint calculator",
+      "midpoint of two points",
+      "coordinate geometry midpoint"
+    ]
+  },
+  {
     "name": "Section Formula Calculator",
     "description": "Find the point dividing a line segment internally in a given ratio using the section formula with steps. Free and private.",
     "path": "/tools/section-formula-calculator/",
@@ -346,23 +361,6 @@
       "pop",
       "data structure",
       "visualizer"
-    ]
-  },
-  {
-    "name": "Lens Formula Calculator",
-    "description": "Solve the lens formula 1/f = 1/v - 1/u for focal length, image distance or object distance with magnification. Free and private.",
-    "path": "/tools/lens-formula-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "lens formula calculator",
-      "lens equation calculator",
-      "class 10 lens formula",
-      "focal length calculator lens",
-      "u v f calculator lens",
-      "magnification lens calculator",
-      "school optics calculator",
-      "ray optics lens calculator"
     ]
   }
 ]

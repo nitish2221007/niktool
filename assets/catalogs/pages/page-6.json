@@ -1,5 +1,24 @@
 [
   {
+    "name": "CSV to JSON Converter",
+    "description": "Convert CSV text to JSON array with support for commas, semicolons, tabs, and quoted values. Free and fully private.",
+    "path": "/tools/csv-to-json-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "CSV to JSON converter",
+      "CSV JSON converter",
+      "convert CSV to JSON",
+      "CSV parser online",
+      "CSV data to JSON",
+      "online CSV converter",
+      "CSV array JSON",
+      "developer CSV tool",
+      "CSV formatter",
+      "local CSV converter"
+    ]
+  },
+  {
     "name": "Unit Converter",
     "description": "Convert length, mass, speed, area, and volume units with clear conversion factors. Free, fast, and fully private.",
     "path": "/tools/unit-converter/",
@@ -422,25 +441,6 @@
       "btech study planner",
       "engineering student tool",
       "local student dashboard"
-    ]
-  },
-  {
-    "name": "Molarity Calculator",
-    "description": "Calculate molarity, moles, or volume of a solution using the standard concentration formula. Free and fully private.",
-    "path": "/tools/molarity-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "molarity calculator",
-      "molar concentration calculator",
-      "moles volume molarity",
-      "chemistry molarity calculator",
-      "class 10 chemistry concentration",
-      "molarity formula",
-      "solution concentration calculator",
-      "school chemistry calculator",
-      "molarity online",
-      "chemistry concentration tool"
     ]
   }
 ]

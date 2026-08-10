@@ -1,5 +1,24 @@
 [
   {
+    "name": "Molarity Calculator",
+    "description": "Calculate molarity, moles, or volume of a solution using the standard concentration formula. Free and fully private.",
+    "path": "/tools/molarity-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "molarity calculator",
+      "molar concentration calculator",
+      "moles volume molarity",
+      "chemistry molarity calculator",
+      "class 10 chemistry concentration",
+      "molarity formula",
+      "solution concentration calculator",
+      "school chemistry calculator",
+      "molarity online",
+      "chemistry concentration tool"
+    ]
+  },
+  {
     "name": "Mole Calculator",
     "description": "Calculate moles, mass, or molar mass using the mole concept formula with Avogadro's number. Free and fully private.",
     "path": "/tools/mole-calculator/",
