@@ -256,15 +256,21 @@ a { color: inherit; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #25a36f; box-shadow: 0 0 0 4px rgba(37,163,111,.12); }
 .tool-textarea {
   width: 100%;
-  min-height: 160px;
+  min-height: 110px;
   resize: vertical;
-  padding: .85rem;
+  padding: .75rem .85rem;
   border: 1px solid var(--line);
-  border-radius: 14px;
+  border-radius: 12px;
   outline: none;
   color: var(--ink);
   background: #fafbf8;
-  line-height: 1.6;
+  line-height: 1.5;
+}
+input.tool-textarea, select.tool-textarea, input.tool-input, select.tool-input {
+  min-height: 44px !important;
+  height: 44px !important;
+  padding: 0 .85rem !important;
+  resize: none;
 }
 .tool-textarea:focus, .control-input:focus { border-color: #65a68b; box-shadow: 0 0 0 4px rgba(23,107,77,.09); }
 .stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; margin-top: .75rem; }
