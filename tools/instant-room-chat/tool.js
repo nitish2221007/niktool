@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const mainWorkspace = document.getElementById('main-workspace');
+  const popToggleBtn = document.getElementById('pop-toggle-btn');
   const setupScreen = document.getElementById('setup-screen');
   const chatScreen = document.getElementById('chat-screen');
   const nicknameInput = document.getElementById('user-nickname');
@@ -21,6 +23,20 @@ document.addEventListener('DOMContentLoaded', () => {
   let lastRenderedLength = -1;
 
   const TTL_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+
+  // Pop-out mode toggle (Teeno features combined: Pop-up overlay + Zen Mode + Instant Focus)
+  popToggleBtn?.addEventListener('click', () => {
+    const isPop = mainWorkspace.classList.toggle('fullscreen-pop');
+    document.body.classList.toggle('has-pop-open', isPop);
+    popToggleBtn.textContent = isPop ? '✕ Exit Pop-out' : '⛶ Pop-out Mode';
+  });
+
+  // Auto-scroll focus to Workspace on page load
+  setTimeout(() => {
+    if (mainWorkspace && window.scrollY < 100) {
+      mainWorkspace.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, 250);
 
   function cleanExpiredMessages() {
     const now = Date.now();
@@ -67,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderMessages() {
     if (!currentRoom) return;
     const msgs = getRoomMessages(currentRoom);
-    if (msgs.length === lastRenderedLength) return; // Prevent unnecessary DOM reflows if unchanged
+    if (msgs.length === lastRenderedLength) return;
 
     lastRenderedLength = msgs.length;
     messagesContainer.innerHTML = '<div style="text-align: center; color: #888; font-size: 0.78rem; margin: 0.25rem 0;">🔒 Room active! Share room code with another tab, phone, or friend. All messages self-destruct 24h after exit.</div>';
@@ -144,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (pollTimer) clearInterval(pollTimer);
     pollTimer = setInterval(() => {
       renderMessages();
-    }, 400);
+    }, 300);
   }
 
   createRoomBtn?.addEventListener('click', () => {

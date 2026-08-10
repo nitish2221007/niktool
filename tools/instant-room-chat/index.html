@@ -78,14 +78,17 @@
   </header>
 
   <main id="main" class="container">
-    <section class="tool-hero">
+    <section class="tool-hero" style="padding-bottom: 0.8rem;">
       <h1>Instant Anonymous Room Chat</h1>
       <p>Connect phone to laptop or chat with friends in private temporary rooms. No signup, 100% auto-deleting after 24 hours.</p>
     </section>
 
-    <section class="tool-workspace">
+    <section class="tool-workspace" id="main-workspace">
       <div class="workspace-header">
-        <h2>Private Room Workspace</h2>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <h2>Private Room Workspace</h2>
+          <button class="button secondary" id="pop-toggle-btn" type="button" style="padding: 0.25rem 0.6rem; min-height: 28px; font-size: 0.76rem; border-radius: 8px;">⛶ Pop-out Mode</button>
+        </div>
         <span class="workspace-status"><span class="status-dot"></span>Auto-deletes in 24h</span>
       </div>
 
