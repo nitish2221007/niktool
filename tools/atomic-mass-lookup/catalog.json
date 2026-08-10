@@ -1,0 +1,20 @@
+﻿{
+  "name": "Atomic Mass Lookup",
+  "description": "Quickly search atomic masses, symbols, and atomic numbers for common school chemistry elements. Free and fully private.",
+  "path": "/tools/atomic-mass-lookup/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "atomic mass calculator",
+    "atomic mass of elements",
+    "atomic mass table",
+    "periodic table atomic mass",
+    "class 10 atomic mass",
+    "chemistry atomic mass",
+    "element atomic weights",
+    "school chemistry periodic table",
+    "atomic mass lookup",
+    "chemistry reference tool"
+  ],
+  "order": 102
+}

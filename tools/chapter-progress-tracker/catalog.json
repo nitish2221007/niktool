@@ -1,0 +1,18 @@
+﻿{
+  "name": "Chapter Progress Tracker",
+  "description": "Track your revised versus practiced chapters to identify untouched syllabus before board exams. Free and fully private.",
+  "path": "/tools/chapter-progress-tracker/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "chapter tracker",
+    "class 10 chapter tracker",
+    "study tracker",
+    "chapter progress tracker",
+    "board preparation tracker",
+    "class 10 study tracker",
+    "syllabus tracker",
+    "exam preparation tracker"
+  ],
+  "order": 71
+}

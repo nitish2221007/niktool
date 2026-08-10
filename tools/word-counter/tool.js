@@ -1,32 +1,50 @@
-const input = document.querySelector('#text-input');
-const nodes = {
-  words: document.querySelector('#words'),
-  characters: document.querySelector('#characters'),
-  sentences: document.querySelector('#sentences'),
-  readingTime: document.querySelector('#reading-time'),
-  detail: document.querySelector('#detail-count')
-};
+﻿(function() {
+  'use strict';
+  var slug = 'word-counter';
+  var inputEl = document.getElementById(slug + '-input');
+  var outputEl = document.getElementById(slug + '-output');
+  var msgEl = document.getElementById(slug + '-message');
+  var btn = document.getElementById('primary-action-btn');
+  var copyBtn = document.getElementById('copy-output');
+  var clearBtn = document.getElementById('clear-text');
+  function setMsg(t, e){ msgEl.textContent=t; msgEl.classList.toggle('is-error', !!e); }
+  
+  function analyze() {
+    var text = inputEl.value;
+    var words = text.trim() ? text.trim().split(/\s+/).length : 0;
+    var charsNoSpace = text.replace(/\s/g, '').length;
+    var charsWithSpace = text.length;
+    var sentences = text.split(/[.!?]+/).filter(function(s){return s.trim().length > 0;}).length;
+    var paragraphs = text.split(/\n+/).filter(function(p){return p.trim().length > 0;}).length;
+    var readingTime = Math.ceil(words / 200);
+    
+    var out = 'Words: ' + words + '\n';
+    out += 'Characters (no spaces): ' + charsNoSpace + '\n';
+    out += 'Characters (with spaces): ' + charsWithSpace + '\n';
+    out += 'Sentences: ' + sentences + '\n';
+    out += 'Paragraphs: ' + paragraphs + '\n';
+    out += 'Estimated Reading Time: ' + readingTime + ' min (at 200 wpm)';
+    return out;
+  }
+  
+  inputEl.addEventListener('input', function() {
+    outputEl.value = analyze();
+    copyBtn.disabled = !inputEl.value.trim();
+  });
 
-function updateCounts() {
-  const text = input.value;
-  const trimmed = text.trim();
-  const words = trimmed ? trimmed.split(/\s+/u).length : 0;
-  const sentences = trimmed ? (trimmed.match(/[^.!?]+(?:[.!?]+|$)/gu) || []).filter((part) => part.trim()).length : 0;
-  const paragraphs = trimmed ? trimmed.split(/\n\s*\n/u).filter((part) => part.trim()).length : 0;
-  const noSpaces = text.replace(/\s/gu, '').length;
-  const minutes = words === 0 ? '0 min' : words < 225 ? '< 1 min' : `${Math.ceil(words / 225)} min`;
-
-  nodes.words.textContent = words.toLocaleString();
-  nodes.characters.textContent = text.length.toLocaleString();
-  nodes.sentences.textContent = sentences.toLocaleString();
-  nodes.readingTime.textContent = minutes;
-  nodes.detail.textContent = `${paragraphs.toLocaleString()} ${paragraphs === 1 ? 'paragraph' : 'paragraphs'} · ${noSpaces.toLocaleString()} characters without spaces`;
-}
-
-input.addEventListener('input', updateCounts);
-document.querySelector('#clear-button').addEventListener('click', () => {
-  input.value = '';
-  updateCounts();
-  input.focus();
-});
-
+  btn.addEventListener('click', function() {
+    if (!inputEl.value.trim()) { setMsg('Please enter some text.', true); return; }
+    outputEl.value = analyze();
+    copyBtn.disabled = false;
+    setMsg('Text analyzed successfully.');
+  });
+  copyBtn.addEventListener('click', function() {
+    if (window.NikTool && typeof window.NikTool.copy === 'function') { window.NikTool.copy(outputEl.value, copyBtn); }
+    else if (navigator.clipboard) { navigator.clipboard.writeText(outputEl.value); }
+    setMsg('Result copied to clipboard.');
+  });
+  clearBtn.addEventListener('click', function() {
+    inputEl.value=''; outputEl.value=''; copyBtn.disabled=true;
+    setMsg('Cleared. Enter text above.');
+  });
+})();

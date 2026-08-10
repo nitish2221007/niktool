@@ -1,0 +1,20 @@
+﻿{
+  "name": "Ohm's Law Triangle Helper",
+  "description": "Interactive VIR triangle helper to choose the right formula and solve V, I, or R. Free, fast, and fully private.",
+  "path": "/tools/ohms-law-triangle-helper/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "Ohm law triangle",
+    "VIR triangle calculator",
+    "Ohm triangle calculator",
+    "Ohms law helper",
+    "voltage current resistance triangle",
+    "class 10 electricity formula",
+    "physics formula triangle",
+    "school electricity helper",
+    "Ohm law shortcut",
+    "electricity formula tool"
+  ],
+  "order": 94
+}

@@ -1,0 +1,20 @@
+﻿{
+  "name": "Sentence Counter",
+  "description": "Count sentences, words, and average sentence length in your text instantly. Free, fast, and fully private browser tool.",
+  "path": "/tools/sentence-counter/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "sentence counter",
+    "sentence count calculator",
+    "count sentences online",
+    "essay sentence counter",
+    "paragraph sentence counter",
+    "student sentence counter",
+    "class 10 sentence counter",
+    "writing sentence count",
+    "text sentence counter",
+    "free sentence counter"
+  ],
+  "order": 104
+}

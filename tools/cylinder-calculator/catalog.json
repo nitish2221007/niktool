@@ -1,0 +1,20 @@
+﻿{
+  "name": "Cylinder Calculator",
+  "description": "Calculate cylinder CSA, TSA, and volume from radius and height with formula steps. Free and fully private.",
+  "path": "/tools/cylinder-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cylinder volume calculator",
+    "cylinder calculator",
+    "cylinder surface area calculator",
+    "CSA TSA cylinder",
+    "class 10 cylinder calculator",
+    "10th maths cylinder",
+    "cylinder volume formula",
+    "school cylinder calculator",
+    "mensuration cylinder",
+    "cylinder area"
+  ],
+  "order": 108
+}

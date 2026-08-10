@@ -1,0 +1,15 @@
+{
+  "name": "English Name Generator for Students",
+  "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
+  "path": "/tools/english-name-generator/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "english name generator",
+    "english name generator for students",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 50
+}

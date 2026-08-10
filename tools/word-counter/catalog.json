@@ -1,9 +1,18 @@
-{
+﻿{
   "name": "Word Counter",
-  "description": "Count words, characters, sentences, and reading time as you type.",
+  "description": "Count words, characters, sentences, paragraphs, and reading time instantly. Free, fast, and fully private browser-based text tool.",
   "path": "/tools/word-counter/",
   "category": "Text",
   "icon": "text",
-  "keywords": ["word", "character", "sentence", "reading time", "text"],
-  "order": 10
+  "keywords": [
+    "word counter",
+    "word count tool",
+    "online word counter",
+    "character counter",
+    "sentence counter",
+    "paragraph counter",
+    "reading time calculator",
+    "essay word counter"
+  ],
+  "order": 56
 }

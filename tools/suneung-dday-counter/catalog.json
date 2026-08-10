@@ -1,0 +1,9 @@
+﻿{
+  "name": "Suneung D-Day Counter",
+  "description": "Calculate days remaining until your Suneung exam. Free Korean exam countdown tool.",
+  "path": "/tools/suneung-dday-counter/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": ["suneung d-day counter", "suneung countdown", "exam calculator"],
+  "order": 1
+}

@@ -1,0 +1,16 @@
+﻿{
+  "name": "Grade Calculator",
+  "description": "Convert marks into percentage and grade using standard or letter grade scales. Free, fast, and fully private in your browser.",
+  "path": "/tools/grade-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "grade calculator",
+    "marks to grade calculator",
+    "percentage to grade calculator",
+    "student grade calculator",
+    "class 10 grade calculator",
+    "letter grade calculator"
+  ],
+  "order": 7
+}

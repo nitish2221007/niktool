@@ -1,0 +1,20 @@
+﻿{
+  "name": "URL Encoder Decoder",
+  "description": "Encode text to URL-safe format or decode percent-encoded URLs instantly. Free, fast, and fully private browser tool.",
+  "path": "/tools/url-encoder-decoder/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "URL encoder",
+    "URL decoder",
+    "URL encode decode",
+    "percent encoding calculator",
+    "URL encoding tool",
+    "encode URL online",
+    "decode URL online",
+    "percent encode",
+    "URL component encoder",
+    "developer URL tool"
+  ],
+  "order": 78
+}

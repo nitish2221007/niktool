@@ -1,0 +1,15 @@
+{
+  "name": "Project Planner",
+  "description": "Create structured project milestones and tasks, and save your plans locally. Organize your workflow efficiently with our free project planning tool.",
+  "path": "/tools/project-planner/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "project planner",
+    "project planner",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 50
+}

@@ -1,0 +1,16 @@
+﻿{
+  "name": "Electrical Power Calculator",
+  "description": "Calculate electrical power using P=VI, P=I^2R, or P=V^2/R with the applied formula shown and zero-division safety. Free and private.",
+  "path": "/tools/electrical-power-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "electrical power calculator",
+    "electric power calculator",
+    "power formula calculator",
+    "class 10 electricity power calculator",
+    "P VI calculator",
+    "physics power solver"
+  ],
+  "order": 15
+}

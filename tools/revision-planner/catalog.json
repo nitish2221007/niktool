@@ -1,0 +1,18 @@
+﻿{
+  "name": "Revision Planner",
+  "description": "Calculate your daily chapter targets and time per chapter based on days left and daily study hours. Free and private.",
+  "path": "/tools/revision-planner/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "revision planner",
+    "study revision planner",
+    "class 10 revision planner",
+    "board exam revision planner",
+    "exam revision schedule",
+    "study timetable generator",
+    "revision timetable generator",
+    "student revision schedule"
+  ],
+  "order": 70
+}

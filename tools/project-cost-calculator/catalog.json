@@ -1,0 +1,15 @@
+{
+  "name": "Project Cost Calculator",
+  "description": "Estimate your project expenses quickly with our free Project Cost Calculator. Add tasks, assign costs, and get instant budget totals locally.",
+  "path": "/tools/project-cost-calculator/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "project cost calculator",
+    "project cost calculator",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 50
+}

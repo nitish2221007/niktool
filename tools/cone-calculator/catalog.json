@@ -1,0 +1,20 @@
+﻿{
+  "name": "Cone Calculator",
+  "description": "Calculate cone CSA, TSA, volume, and slant height from radius and height. Free and fully private.",
+  "path": "/tools/cone-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cone volume calculator",
+    "cone calculator",
+    "cone surface area calculator",
+    "CSA TSA cone",
+    "class 10 cone calculator",
+    "10th maths cone",
+    "cone volume formula",
+    "school cone calculator",
+    "mensuration cone",
+    "cone area"
+  ],
+  "order": 109
+}

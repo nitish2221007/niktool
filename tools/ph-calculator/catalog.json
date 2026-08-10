@@ -1,0 +1,20 @@
+﻿{
+  "name": "pH Calculator",
+  "description": "Calculate pH, pOH, and ion concentrations with acid/base classification. Free and fully private.",
+  "path": "/tools/ph-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "pH calculator",
+    "pOH calculator",
+    "hydrogen ion concentration calculator",
+    "class 10 pH calculator",
+    "acid base calculator",
+    "pH formula calculator",
+    "chemistry pH calculator",
+    "school pH tool",
+    "pH scale calculator",
+    "acids bases calculator"
+  ],
+  "order": 113
+}

@@ -1,0 +1,16 @@
+﻿{
+  "name": "Linear Equations Solver",
+  "description": "Solve a pair of linear equations in two variables with unique, no or infinite solution detection. Free and fully private.",
+  "path": "/tools/linear-equations-solver/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "linear equations solver",
+    "pair of linear equations solver",
+    "simultaneous equations calculator",
+    "class 10 linear equations",
+    "two variable equations calculator",
+    "elimination method calculator"
+  ],
+  "order": 31
+}

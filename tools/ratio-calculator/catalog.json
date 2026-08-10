@@ -1,0 +1,16 @@
+﻿{
+  "name": "Ratio Calculator",
+  "description": "Simplify ratios of two or more values using the HCF method with equivalent ratio shown. Free, fast, and fully private.",
+  "path": "/tools/ratio-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "ratio calculator",
+    "simplify ratio calculator",
+    "ratio simplifier",
+    "equivalent ratio calculator",
+    "class 10 ratio calculator",
+    "ratio solver"
+  ],
+  "order": 16
+}

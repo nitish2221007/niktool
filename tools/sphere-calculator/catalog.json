@@ -1,0 +1,20 @@
+﻿{
+  "name": "Sphere Calculator",
+  "description": "Calculate sphere surface area and volume from radius with formula steps. Free and fully private.",
+  "path": "/tools/sphere-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "sphere volume calculator",
+    "sphere calculator",
+    "sphere surface area calculator",
+    "class 10 sphere calculator",
+    "10th maths sphere",
+    "sphere volume formula",
+    "school sphere calculator",
+    "mensuration sphere",
+    "sphere area calculator",
+    "sphere volume"
+  ],
+  "order": 110
+}

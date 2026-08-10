@@ -1,0 +1,16 @@
+﻿{
+  "name": "Compound Interest Calculator",
+  "description": "Calculate compound interest and amount with yearly, half-yearly or quarterly compounding using A=P(1+r/n)^nt. Free and private.",
+  "path": "/tools/compound-interest-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "compound interest calculator",
+    "CI calculator",
+    "class 10 compound interest calculator",
+    "compound interest formula calculator",
+    "half yearly compound interest",
+    "compound amount calculator"
+  ],
+  "order": 20
+}

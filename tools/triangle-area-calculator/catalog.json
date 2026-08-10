@@ -1,0 +1,16 @@
+﻿{
+  "name": "Triangle Area Calculator",
+  "description": "Find triangle area using base-height or Heron's formula with validation for impossible triangles. Free, fast, and fully private.",
+  "path": "/tools/triangle-area-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "triangle area calculator",
+    "area of triangle calculator",
+    "Heron formula calculator",
+    "base height triangle calculator",
+    "class 10 triangle area calculator",
+    "three sides triangle area"
+  ],
+  "order": 34
+}

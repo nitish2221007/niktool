@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Turn an idea into a complete static web app with a local offline Gemma model, live preview, logs, source code, and GitHub setup.">
+  <title>Offline AI Tool Builder</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to builder</a>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Offline AI Tool Builder home">
+      <span class="brand-mark" aria-hidden="true">AI</span>
+      <span>Tool Builder <em>Offline Studio</em></span>
+    </a>
+    <div class="status-pill warning" id="local-model-pill">
+      <span aria-hidden="true"></span>
+      <strong id="local-model-pill-text">Checking local AI...</strong>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Private. Local. GitHub-ready.</p>
+      <h1 id="page-title">Describe the idea. Get the working code.</h1>
+      <p class="hero-copy">Run Gemma locally through Ollama, generate a complete browser app, inspect every file and execution log, test it in a live preview, then publish it with the included GitHub Pages workflow.</p>
+
+      <section class="model-card" aria-labelledby="model-title">
+        <div class="model-card-copy">
+          <p class="panel-kicker">Local AI setup</p>
+          <h2 id="model-title">Gemma 3 4B, downloaded once and used offline</h2>
+          <p id="model-status-message">Checking Ollama and your local models...</p>
+        </div>
+        <div class="model-controls">
+          <label for="model-input">Ollama model tag</label>
+          <div class="model-input-row">
+            <input id="model-input" type="text" value="{{ local_model }}" maxlength="120" autocomplete="off" spellcheck="false" aria-describedby="model-status-message">
+            <button id="model-action-button" type="button">Check model</button>
+          </div>
+          <div class="model-progress" id="model-progress" hidden>
+            <div><span id="model-progress-bar"></span></div>
+            <strong id="model-progress-value">0%</strong>
+          </div>
+          <div class="install-command" id="install-command" hidden>
+            <code>winget install Ollama.Ollama</code>
+            <button id="copy-install-button" type="button">Copy install command</button>
+          </div>
+          <pre class="model-logs" id="model-logs" hidden></pre>
+        </div>
+      </section>
+
+      <form class="niche-form" id="niche-form">
+        <label for="niche-input">What should the app do?</label>
+        <div class="input-row">
+          <textarea id="niche-input" name="idea" minlength="2" maxlength="1200" rows="5" placeholder="Example: Build an expense splitter for trips. Let me add people and expenses, calculate who owes whom, and copy the final settlement." required></textarea>
+          <button id="submit-button" type="submit">Generate app <span aria-hidden="true">&rarr;</span></button>
+        </div>
+        <p class="form-hint">The local model receives only this idea and the generation contract. No cloud API key is required.</p>
+      </form>
+
+      <div class="example-row" aria-label="Example ideas">
+        <span>Try:</span>
+        <button type="button" data-example="Build a Pomodoro timer with custom work and break durations, session count, and a clear visual progress ring.">Pomodoro timer</button>
+        <button type="button" data-example="Create an invoice total calculator with line items, tax, discount, currency choice, and a printable summary.">Invoice calculator</button>
+        <button type="button" data-example="Make a text cleaner that removes duplicate spaces and blank lines, changes case, counts words, and copies the result.">Text cleaner</button>
+      </div>
+    </section>
+
+    <section class="process-card" id="process-card" aria-labelledby="process-title" hidden>
+      <div class="process-head">
+        <div>
+          <p class="eyebrow">Local generation run</p>
+          <h2 id="process-title">Building from <span id="active-niche"></span></h2>
+        </div>
+        <strong id="progress-value">0%</strong>
+      </div>
+      <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+      <ol class="steps" id="stage-list">
+        <li data-stage="ideation"><span>1</span><div><strong>Plan app</strong><small>Turn the idea into a build brief</small></div></li>
+        <li data-stage="research"><span>2</span><div><strong>Offline check</strong><small>Confirm browser-only feasibility</small></div></li>
+        <li data-stage="gap_analysis"><span>3</span><div><strong>Design UX</strong><small>Inputs, outputs, and user flow</small></div></li>
+        <li data-stage="generation"><span>4</span><div><strong>Generate code</strong><small>HTML, CSS, JavaScript, docs</small></div></li>
+        <li data-stage="validation"><span>5</span><div><strong>Validate</strong><small>Security, syntax, files, preview</small></div></li>
+      </ol>
+      <article class="idea-preview" id="idea-preview" aria-live="polite" hidden>
+        <div>
+          <p class="panel-kicker">First idea ready</p>
+          <h3 id="preview-name"></h3>
+          <p id="preview-purpose"></p>
+        </div>
+        <strong id="preview-status">Validating demand...</strong>
+      </article>
+
+      <div class="console-wrapper">
+        <div class="console-header">
+          <div class="console-title">
+            <span class="console-dot green"></span>
+            <span class="console-dot yellow"></span>
+            <span class="console-dot red"></span>
+            <strong>Local Generation Logs</strong>
+          </div>
+          <span class="console-status" id="console-model-badge">{{ model }}</span>
+        </div>
+        <pre class="console-logs" id="console-logs"><code id="console-code">[00:00:00] Waiting to start execution...</code></pre>
+      </div>
+
+      <p class="live-message" id="live-message" role="status" aria-live="polite">Waiting to start</p>
+    </section>
+
+    <section class="results" id="results" hidden>
+      <div class="result-hero">
+        <div>
+          <p class="eyebrow">Generated application</p>
+          <h2 id="winner-name"></h2>
+          <p id="winner-purpose"></p>
+        </div>
+        <div class="confidence"><span>Confidence</span><strong id="winner-confidence"></strong></div>
+      </div>
+
+      <div class="result-grid">
+        <article class="panel gap-panel">
+          <p class="panel-kicker">Build plan</p>
+          <h3 id="gap-statement"></h3>
+          <p id="winner-rationale"></p>
+          <div class="chip-list" id="keyword-gaps" aria-label="Keyword gaps"></div>
+        </article>
+
+        <article class="panel artifact-panel">
+          <p class="panel-kicker">Build complete</p>
+          <h3>Self-contained project folder</h3>
+          <p class="artifact-path" id="artifact-path"></p>
+          <ul class="file-list" id="file-list"></ul>
+          <div class="action-row">
+            <button class="primary-action" id="preview-button" type="button">Preview app live</button>
+            <a class="secondary-action" id="download-link" href="#">Download ZIP</a>
+            <a class="secondary-action" id="report-link" href="#">Build report</a>
+          </div>
+        </article>
+      </div>
+
+      <section class="code-workspace" aria-labelledby="code-title">
+        <div class="code-workspace-head">
+          <div><p class="panel-kicker">Source preview</p><h2 id="code-title">Inspect every generated file</h2></div>
+          <button class="secondary-action" id="copy-code-button" type="button">Copy current file</button>
+        </div>
+        <div class="code-browser">
+          <nav class="code-file-tabs" id="code-file-tabs" aria-label="Generated files"></nav>
+          <div class="code-viewer">
+            <div class="code-viewer-title"><span id="code-filename">Select a file</span><span>read-only</span></div>
+            <pre><code id="code-content">Generated source will appear here.</code></pre>
+          </div>
+        </div>
+        <p class="code-status" id="code-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="github-card" aria-labelledby="github-title">
+        <div>
+          <p class="panel-kicker">GitHub setup included</p>
+          <h2 id="github-title">Publish with one repository</h2>
+          <p>The ZIP includes a README, license, ignore rules, and a GitHub Pages Actions workflow.</p>
+        </div>
+        <div class="github-controls">
+          <label for="github-username">GitHub username</label>
+          <input id="github-username" type="text" placeholder="your-username" maxlength="39" autocomplete="off">
+          <label for="github-repository">Repository name</label>
+          <input id="github-repository" type="text" placeholder="generated-tool" maxlength="100" autocomplete="off">
+          <pre><code id="github-commands">Generate an app to prepare the commands.</code></pre>
+          <button class="primary-action" id="copy-github-button" type="button">Copy GitHub commands</button>
+        </div>
+      </section>
+
+      <div class="preview-modal" id="preview-modal" hidden>
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-card">
+          <div class="modal-header">
+            <div>
+              <p class="panel-kicker">Interactive Live Preview</p>
+              <h3 id="modal-tool-title">Generated Tool Preview</h3>
+            </div>
+            <div class="modal-controls">
+              <a class="secondary-action" id="modal-open-tab" href="#" target="_blank" rel="noopener">Open in new tab</a>
+              <button type="button" class="close-modal" id="close-modal" aria-label="Close preview">&times;</button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <iframe id="preview-iframe" src="about:blank" title="Live Tool Preview"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <section class="idea-section" aria-labelledby="ideas-title">
+        <div class="section-head">
+          <div><p class="eyebrow">On-demand variation</p><h2 id="ideas-title">Build concepts</h2></div>
+          <div class="idea-section-actions">
+            <p>Ask the local model for another browser-only interpretation.</p>
+            <button class="secondary-action" id="alternative-button" type="button">Generate another concept</button>
+            <span id="alternative-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="idea-grid" id="idea-grid"></div>
+      </section>
+
+      <section class="source-section offline-note" aria-labelledby="sources-title">
+        <div class="section-head">
+          <div><p class="eyebrow">Offline privacy</p><h2 id="sources-title">No web search during local builds</h2></div>
+        </div>
+        <div class="source-list" id="source-list"></div>
+        <p class="research-note" id="research-note"></p>
+      </section>
+    </section>
+
+    <section class="error-card" id="error-card" role="alert" hidden>
+      <strong>The local builder could not finish this run.</strong>
+      <p id="error-message"></p>
+      <button type="button" id="retry-button">Edit the idea and retry</button>
+    </section>
+
+    <section class="how-it-works" aria-labelledby="how-title">
+      <p class="eyebrow">How it works</p>
+      <h2 id="how-title">Local generation with practical guardrails.</h2>
+      <div class="feature-grid">
+        <article><span>01</span><h3>Offline after download</h3><p>Ollama stores Gemma on your computer. Once downloaded, generation needs no cloud model or API key.</p></article>
+        <article><span>02</span><h3>Live code review</h3><p>Test the app in the preview, inspect each source file, follow logs, and download the complete project.</p></article>
+        <article><span>03</span><h3>Validated output</h3><p>Unsafe DOM APIs, runtime networking, broken paths, invalid JavaScript, and incomplete files are rejected.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Offline AI Tool Builder</p>
+    <p>Runtime: Ollama &middot; Default model: {{ local_model }} &middot; Generation: local</p>
+  </footer>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

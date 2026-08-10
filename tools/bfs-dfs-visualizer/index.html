@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BFS / DFS Grid Visualizer | NikTool</title>
+  <meta name="description" content="Watch BFS and DFS explore a grid step by step. Place walls, set start/end, and animate traversal.">
+  <link rel="canonical" href="https://niktool.in/tools/bfs-dfs-visualizer/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+  <section class="tool-hero">
+    <h1>BFS / DFS Grid Visualizer</h1>
+    <p>Place walls on a grid, choose a start and target, then watch BFS or DFS explore the grid cell by cell.</p>
+  </section>
+
+  <section class="tool-workspace">
+    <div class="workspace-header">
+      <h2>Grid Traversal</h2>
+      <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+    </div>
+    <div class="toolbar" style="margin-bottom:0.75rem;">
+      <select id="algo-sel" class="tool-textarea" style="height:40px; padding:0.4rem;">
+        <option value="bfs">BFS</option>
+        <option value="dfs">DFS</option>
+      </select>
+      <button class="button" id="grid-run" type="button">▶ Run</button>
+      <button class="button secondary" id="grid-wall" type="button">🧱 Random Walls</button>
+      <button class="button secondary" id="grid-clear" type="button">Clear Grid</button>
+    </div>
+    <p style="font-size:0.8rem; opacity:0.6; margin-bottom:0.5rem;">Click cells to toggle walls. Green = start, Red = target (auto-placed).</p>
+    <canvas id="grid-canvas" style="width:100%; height:360px; border-radius:8px; background:#1a1a2e;"></canvas>
+    <p class="message" id="grid-msg" role="status">Toggle walls, then press Run.</p>
+    <div style="margin-top:0.5rem; font-size:0.8rem; opacity:0.7; display:flex; gap:1rem; flex-wrap:wrap;">
+      <span><span style="display:inline-block;width:12px;height:12px;background:#66bb6a;border-radius:2px;"></span> Start</span>
+      <span><span style="display:inline-block;width:12px;height:12px;background:#ef5350;border-radius:2px;"></span> Target</span>
+      <span><span style="display:inline-block;width:12px;height:12px;background:#37474f;border-radius:2px;"></span> Wall</span>
+      <span><span style="display:inline-block;width:12px;height:12px;background:#4fc3f7;border-radius:2px;"></span> Visited</span>
+      <span><span style="display:inline-block;width:12px;height:12px;background:#ffd54f;border-radius:2px;"></span> Path</span>
+    </div>
+  </section>
+
+  <article class="seo-content">
+    <h2>BFS vs DFS on a Grid</h2>
+    <ol>
+      <li><strong>BFS</strong> explores outward uniformly — guarantees shortest path on unweighted grids.</li>
+      <li><strong>DFS</strong> dives deep along one branch before backtracking — faster but no shortest-path guarantee.</li>
+    </ol>
+    <h2>FAQ</h2>
+    <details><summary>Why is BFS better for shortest path?</summary><p>BFS explores all cells at distance d before any at distance d+1, so the first time it reaches the target is via the shortest path.</p></details>
+  </article>  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/bfs-dfs-visualizer/tool.js"></script>
+</body>
+</html>

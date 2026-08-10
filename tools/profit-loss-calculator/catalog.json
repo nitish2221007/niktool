@@ -1,0 +1,16 @@
+﻿{
+  "name": "Profit Loss Calculator",
+  "description": "Calculate profit or loss amount and percentage from cost price and selling price with clear break-even handling. Free and private.",
+  "path": "/tools/profit-loss-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "profit loss calculator",
+    "profit percentage calculator",
+    "loss percentage calculator",
+    "CP SP calculator",
+    "class 10 profit loss",
+    "cost price selling price calculator"
+  ],
+  "order": 18
+}

@@ -1,0 +1,375 @@
+[
+  {
+    "name": "Queue Visualizer",
+    "description": "Enqueue and dequeue elements on an interactive visual queue (FIFO).",
+    "path": "/tools/queue-visualizer/",
+    "category": "DSA",
+    "icon": "list",
+    "keywords": [
+      "queue",
+      "fifo",
+      "enqueue",
+      "dequeue",
+      "data structure"
+    ]
+  },
+  {
+    "name": "Linked List Visualizer",
+    "description": "Add, delete and reverse nodes in an animated linked list.",
+    "path": "/tools/linked-list-visualizer/",
+    "category": "DSA",
+    "icon": "link",
+    "keywords": [
+      "linked list",
+      "nodes",
+      "pointers",
+      "reverse",
+      "data structure"
+    ]
+  },
+  {
+    "name": "Mirror Formula Calculator",
+    "description": "Solve the mirror formula 1/f = 1/v + 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/mirror-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mirror formula calculator",
+      "mirror equation calculator",
+      "class 10 mirror formula",
+      "focal length mirror calculator",
+      "u v f mirror calculator",
+      "magnification mirror calculator",
+      "school optics calculator",
+      "ray optics mirror calculator"
+    ]
+  },
+  {
+    "name": "Binary Tree Visualizer",
+    "description": "Build a BST and animate Inorder, Preorder, Postorder, and Level-order traversals.",
+    "path": "/tools/binary-tree-visualizer/",
+    "category": "DSA",
+    "icon": "git-branch",
+    "keywords": [
+      "binary tree",
+      "bst",
+      "traversal",
+      "inorder",
+      "preorder",
+      "postorder"
+    ]
+  },
+  {
+    "name": "Power of Lens Calculator",
+    "description": "Calculate lens power in diopters from focal length with automatic unit conversion and correct sign convention. Free and private.",
+    "path": "/tools/power-of-lens-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "power of lens calculator",
+      "lens power calculator",
+      "diopter calculator",
+      "focal length to power",
+      "power of lens class 10",
+      "dioptre calculator",
+      "lens focal length calculator",
+      "school optics tool"
+    ]
+  },
+  {
+    "name": "Remove First Five Pages from PDF",
+    "description": "Instantly strip the first 5 pages from any PDF file. 100% browser-based, private, and free.",
+    "path": "/tools/pdf-remove-first-five-pages/",
+    "category": "PDF",
+    "icon": "shield",
+    "keywords": [
+      "pdf",
+      "remove pages",
+      "trim pdf",
+      "delete first pages",
+      "pdf cutter",
+      "remove first 5 pages",
+      "pdf editor"
+    ]
+  },
+  {
+    "name": "B.Tech CGPA Calculator",
+    "description": "Calculate your overall B.Tech CGPA and equivalent percentage across all 8 semesters. Free, instant, and 100% private.",
+    "path": "/tools/btech-cgpa-calculator/",
+    "category": "Education",
+    "icon": "graduation-cap",
+    "keywords": [
+      "cgpa calculator",
+      "btech cgpa",
+      "sgpa to cgpa",
+      "engineering calculator",
+      "cgpa to percentage",
+      "semester calculator"
+    ]
+  },
+  {
+    "name": "Graph Visualizer",
+    "description": "Create nodes and edges interactively, then animate BFS and DFS traversal.",
+    "path": "/tools/graph-visualizer/",
+    "category": "DSA",
+    "icon": "share-2",
+    "keywords": [
+      "graph",
+      "nodes",
+      "edges",
+      "bfs",
+      "dfs",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Wave Speed Calculator",
+    "description": "Calculate wave speed, frequency, or wavelength using v = f lambda with division safety. Free, fast, and fully private.",
+    "path": "/tools/wave-speed-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "wave speed calculator",
+      "speed frequency wavelength calculator",
+      "v f lambda calculator",
+      "wave equation calculator",
+      "physics wave calculator",
+      "frequency wavelength speed",
+      "wavelength calculator",
+      "frequency calculator"
+    ]
+  },
+  {
+    "name": "BFS/DFS Grid Visualizer",
+    "description": "Watch BFS and DFS explore a grid step by step with walls and pathfinding.",
+    "path": "/tools/bfs-dfs-visualizer/",
+    "category": "DSA",
+    "icon": "grid",
+    "keywords": [
+      "bfs",
+      "dfs",
+      "grid",
+      "traversal",
+      "pathfinding",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Density Calculator",
+    "description": "Calculate density, mass, or volume using rho = m/V with division safety and clear units. Free, fast, and fully private.",
+    "path": "/tools/density-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "density calculator",
+      "density mass volume calculator",
+      "density formula calculator",
+      "class 10 density calculator",
+      "mass volume calculator",
+      "physics density solver",
+      "science density calculator",
+      "density online"
+    ]
+  },
+  {
+    "name": "Pathfinding Visualizer",
+    "description": "Visualize BFS, DFS, Dijkstra and A* pathfinding on an interactive grid.",
+    "path": "/tools/pathfinding-visualizer/",
+    "category": "DSA",
+    "icon": "map",
+    "keywords": [
+      "pathfinding",
+      "dijkstra",
+      "a*",
+      "bfs",
+      "dfs",
+      "grid",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Work Energy Power Calculator",
+    "description": "Solve work, kinetic energy, potential energy, and power numericals in one place with formulas shown. Free and private.",
+    "path": "/tools/work-energy-power-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "work energy power calculator",
+      "physics work calculator",
+      "power calculator physics",
+      "energy calculator physics",
+      "work formula calculator",
+      "class 10 physics calculator",
+      "kinetic potential energy calculator",
+      "WEP calculator"
+    ]
+  },
+  {
+    "name": "Kinetic Energy Calculator",
+    "description": "Calculate kinetic energy from mass and velocity using KE = half mv squared with formula shown. Free, fast, and fully private.",
+    "path": "/tools/kinetic-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "kinetic energy calculator",
+      "KE calculator",
+      "kinetic energy formula calculator",
+      "class 10 kinetic energy",
+      "mass velocity energy calculator",
+      "school kinetic energy tool",
+      "10th physics energy calculator",
+      "KE formula online"
+    ]
+  },
+  {
+    "name": "Recursion Visualizer",
+    "description": "Display recursive calls as an animated tree for Fibonacci, Factorial and Power.",
+    "path": "/tools/recursion-visualizer/",
+    "category": "DSA",
+    "icon": "git-branch",
+    "keywords": [
+      "recursion",
+      "call tree",
+      "fibonacci",
+      "factorial",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "DSA Progress Tracker",
+    "description": "Track DSA topics and problems completed with LocalStorage persistence.",
+    "path": "/tools/dsa-progress-tracker/",
+    "category": "DSA",
+    "icon": "check-circle",
+    "keywords": [
+      "dsa",
+      "progress",
+      "tracker",
+      "roadmap",
+      "leetcode",
+      "interview prep"
+    ]
+  },
+  {
+    "name": "Potential Energy Calculator",
+    "description": "Calculate gravitational potential energy from mass, gravity and height using PE = mgh. Free, fast, and fully private browser tool.",
+    "path": "/tools/potential-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "potential energy calculator",
+      "PE calculator",
+      "gravitational potential energy calculator",
+      "mgh calculator",
+      "class 10 potential energy",
+      "mass height energy calculator",
+      "school potential energy tool",
+      "PE formula calculator"
+    ]
+  },
+  {
+    "name": "DSA Random Question Picker",
+    "description": "Get a random DSA practice question by topic and difficulty.",
+    "path": "/tools/dsa-random-question-picker/",
+    "category": "DSA",
+    "icon": "shuffle",
+    "keywords": [
+      "dsa",
+      "random question",
+      "interview prep",
+      "leetcode",
+      "practice"
+    ]
+  },
+  {
+    "name": "Molar Mass Calculator",
+    "description": "Calculate molar mass from a chemical formula with element-by-element breakdown and parenthesis support. Free and fully private.",
+    "path": "/tools/molar-mass-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "molar mass calculator",
+      "molecular mass calculator",
+      "molar mass from formula",
+      "chemical formula molar mass",
+      "class 10 molar mass",
+      "chemistry molar mass calculator",
+      "molecular weight calculator",
+      "formula mass calculator"
+    ]
+  },
+  {
+    "name": "Chemical Equation Balancer",
+    "description": "Balance common Class 10 chemical equations locally with atom count verification shown. Free, fast, and fully private browser tool.",
+    "path": "/tools/chemical-equation-balancer/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chemical equation balancer",
+      "balance chemical equations",
+      "equation balancer",
+      "class 10 chemical equation balancer",
+      "chemistry equation solver",
+      "balancing equations online",
+      "school chemistry tool",
+      "chemical reaction balancer"
+    ]
+  },
+  {
+    "name": "Data Structure Cheat Sheet",
+    "description": "Interactive reference for common data structures with complexity tables.",
+    "path": "/tools/data-structure-cheat-sheet/",
+    "category": "DSA",
+    "icon": "book",
+    "keywords": [
+      "data structures",
+      "cheat sheet",
+      "complexity",
+      "reference",
+      "interview"
+    ]
+  },
+  {
+    "name": "Algorithm Cheat Sheet",
+    "description": "Searchable reference of algorithms with time and space complexity.",
+    "path": "/tools/algorithm-cheat-sheet/",
+    "category": "DSA",
+    "icon": "book-open",
+    "keywords": [
+      "algorithms",
+      "cheat sheet",
+      "complexity",
+      "sorting",
+      "graph",
+      "dp"
+    ]
+  },
+  {
+    "name": "English Name Generator for Students",
+    "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
+    "path": "/tools/english-name-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "english name generator",
+      "english name generator for students",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "ER Diagram Maker",
+    "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
+    "path": "/tools/er-diagram-maker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "er diagram maker",
+      "er diagram maker",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  }
+]

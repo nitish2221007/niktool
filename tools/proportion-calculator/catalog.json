@@ -1,0 +1,16 @@
+﻿{
+  "name": "Proportion Calculator",
+  "description": "Solve proportions a:b = c:d for a missing value with cross-multiplication steps and zero-division safety. Free and private.",
+  "path": "/tools/proportion-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "proportion calculator",
+    "proportion solver",
+    "ratio proportion calculator",
+    "cross multiplication calculator",
+    "class 10 proportion calculator",
+    "missing value proportion"
+  ],
+  "order": 17
+}

@@ -1,9 +1,18 @@
-{
+﻿{
   "name": "Case Converter",
-  "description": "Convert text to uppercase, lowercase, title case, camelCase, and more.",
+  "description": "Convert text to uppercase, lowercase, sentence case, or title case instantly. Free, fast, and fully private browser tool.",
   "path": "/tools/case-converter/",
   "category": "Text",
   "icon": "text",
-  "keywords": ["case", "uppercase", "lowercase", "title case", "camelcase", "snake case", "kebab case", "text"],
-  "order": 50
+  "keywords": [
+    "case converter",
+    "uppercase lowercase converter",
+    "text case converter",
+    "sentence case converter",
+    "title case converter",
+    "capitalization tool",
+    "change case online",
+    "text capitalization"
+  ],
+  "order": 62
 }

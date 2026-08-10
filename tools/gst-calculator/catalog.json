@@ -1,0 +1,16 @@
+﻿{
+  "name": "GST Calculator",
+  "description": "Calculate GST inclusive and exclusive prices with CGST and SGST split for any tax rate. Free, fast, and fully private.",
+  "path": "/tools/gst-calculator/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "GST calculator",
+    "GST calculator India",
+    "CGST SGST calculator",
+    "GST inclusive calculator",
+    "GST exclusive calculator",
+    "GST percentage calculator"
+  ],
+  "order": 27
+}

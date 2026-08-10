@@ -1,0 +1,18 @@
+﻿{
+  "name": "Password Strength Checker",
+  "description": "Test your password strength locally in the browser. 100% private, secure, and never sends your data to a server.",
+  "path": "/tools/password-strength-checker/",
+  "category": "Security",
+  "icon": "shield",
+  "keywords": [
+    "password strength checker",
+    "password checker",
+    "strong password checker",
+    "password security checker",
+    "password strength test",
+    "secure password checker",
+    "password entropy calculator",
+    "private password checker"
+  ],
+  "order": 75
+}

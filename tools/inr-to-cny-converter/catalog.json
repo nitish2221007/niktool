@@ -1,0 +1,9 @@
+﻿{
+  "name": "INR to CNY Converter",
+  "description": "Convert Indian Rupees to Chinese Yuan instantly. Free, private, and browser-based.",
+  "path": "/tools/inr-to-cny-converter/",
+  "category": "Finance",
+  "icon": "yen-sign",
+  "keywords": ["inr to cny", "rupee to yuan", "indian rupee", "chinese yuan", "renminbi", "currency converter"],
+  "order": 51
+}

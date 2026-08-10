@@ -1,0 +1,16 @@
+﻿{
+  "name": "SI vs CI Calculator",
+  "description": "Compare simple interest and compound interest on the same principal, rate and time, and see the exact difference. Free and private.",
+  "path": "/tools/si-vs-ci-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "SI vs CI calculator",
+    "simple vs compound interest calculator",
+    "interest comparison calculator",
+    "difference between SI and CI",
+    "class 10 SI CI calculator",
+    "interest difference calculator"
+  ],
+  "order": 28
+}

@@ -1,0 +1,20 @@
+﻿{
+  "name": "Mole Calculator",
+  "description": "Calculate moles, mass, or molar mass using the mole concept formula with Avogadro's number. Free and fully private.",
+  "path": "/tools/mole-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "mole calculator",
+    "moles calculator",
+    "mass to moles calculator",
+    "moles from mass",
+    "chemistry mole calculator",
+    "class 10 mole concept",
+    "molar mass moles calculator",
+    "school chemistry mole tool",
+    "mole formula calculator",
+    "chemistry calculation"
+  ],
+  "order": 101
+}

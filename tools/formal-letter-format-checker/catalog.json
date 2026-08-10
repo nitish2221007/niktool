@@ -1,0 +1,18 @@
+﻿{
+  "name": "Formal Letter Format Checker",
+  "description": "Check your formal letter format for essential elements like subject, salutation, and closing. Free, fast, and fully private.",
+  "path": "/tools/formal-letter-format-checker/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "formal letter format checker",
+    "letter writing checker",
+    "CBSE formal letter format",
+    "letter format class 10",
+    "formal letter checker",
+    "check letter format",
+    "letter structure checker",
+    "school letter checker"
+  ],
+  "order": 60
+}

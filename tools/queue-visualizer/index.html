@@ -1,0 +1,79 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queue Data Structure Visualizer | NikTool</title>
+  <meta name="description" content="Enqueue and dequeue elements visually. See FIFO behavior with animated operations.">
+  <link rel="canonical" href="https://niktool.in/tools/queue-visualizer/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+  <section class="tool-hero">
+    <h1>Queue Visualizer</h1>
+    <p>Enqueue and dequeue elements on a visual queue. Watch the FIFO (First-In-First-Out) principle in action.</p>
+  </section>
+
+  <section class="tool-workspace">
+    <div class="workspace-header">
+      <h2>Queue</h2>
+      <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+    </div>
+    <div class="toolbar" style="margin-bottom:1rem;">
+      <input type="number" id="queue-val" class="tool-textarea" placeholder="Value" style="height:40px; padding:0.4rem; width:100px;">
+      <button class="button" id="enq-btn" type="button">Enqueue</button>
+      <button class="button secondary" id="deq-btn" type="button">Dequeue</button>
+      <button class="button secondary" id="front-btn" type="button">Front</button>
+      <button class="button secondary" id="queue-clear" type="button">Clear</button>
+    </div>
+    <div style="position:relative; margin:1rem 0;">
+      <div style="display:flex;justify-content:space-between;font-size:0.8rem;opacity:0.6;margin-bottom:4px;">
+        <span>◀ FRONT (dequeue here)</span><span>REAR (enqueue here) ▶</span>
+      </div>
+      <div id="queue-display" style="min-height:100px; display:flex; align-items:center; gap:6px; padding:1rem; border:2px dashed rgba(255,255,255,0.15); border-radius:8px; overflow-x:auto;">
+        <span id="queue-empty" style="opacity:0.4;">Queue is empty</span>
+      </div>
+    </div>
+    <div style="font-size:0.85rem; opacity:0.7;">
+      <p>Size: <span id="queue-size">0</span> | Front: <span id="queue-front">—</span> | Rear: <span id="queue-rear">—</span></p>
+    </div>
+    <p class="message" id="queue-msg" role="status">Use Enqueue to add elements to the rear.</p>
+  </section>
+
+  <article class="seo-content">
+    <h2>What is a Queue?</h2>
+    <p>A queue follows <strong>First-In-First-Out (FIFO)</strong> ordering. Like a line at a ticket counter — the first person in line is served first.</p>
+    <h2>Operations</h2>
+    <ol>
+      <li><strong>Enqueue(x)</strong> — add to rear — O(1)</li>
+      <li><strong>Dequeue()</strong> — remove from front — O(1)</li>
+      <li><strong>Front()/Peek()</strong> — view front element — O(1)</li>
+    </ol>
+    <h2>FAQ</h2>
+    <details><summary>Where are queues used?</summary><p>Task scheduling, BFS traversal, printer spooling, message queues (Kafka, RabbitMQ), and buffering.</p></details>
+    <details><summary>What is a Circular Queue?</summary><p>A queue where the rear wraps around to the front when full, avoiding wasted space in array implementations.</p></details>
+  </article>  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/queue-visualizer/tool.js"></script>
+</body>
+</html>

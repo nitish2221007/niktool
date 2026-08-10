@@ -1,0 +1,19 @@
+﻿{
+  "name": "Hash Generator",
+  "description": "Generate SHA-256, SHA-384, SHA-512, and SHA-1 hashes from text locally in your browser. Free, fast, and fully private.",
+  "path": "/tools/hash-generator/",
+  "category": "Security",
+  "icon": "shield",
+  "keywords": [
+    "hash generator",
+    "SHA256 hash generator",
+    "SHA-256 calculator",
+    "MD5 hash generator",
+    "text hash generator",
+    "checksum generator",
+    "hash calculator online",
+    "local hash generator",
+    "browser hash generator"
+  ],
+  "order": 76
+}

@@ -1,0 +1,16 @@
+﻿{
+  "name": "B.Tech CGPA Calculator",
+  "description": "Calculate your overall B.Tech CGPA and equivalent percentage across all 8 semesters. Free, instant, and 100% private.",
+  "path": "/tools/btech-cgpa-calculator/",
+  "category": "Education",
+  "icon": "graduation-cap",
+  "keywords": [
+    "cgpa calculator",
+    "btech cgpa",
+    "sgpa to cgpa",
+    "engineering calculator",
+    "cgpa to percentage",
+    "semester calculator"
+  ],
+  "order": 43
+}

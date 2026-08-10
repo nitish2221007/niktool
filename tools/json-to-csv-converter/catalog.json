@@ -1,0 +1,20 @@
+﻿{
+  "name": "JSON to CSV Converter",
+  "description": "Convert JSON arrays to CSV format with proper escaping and automatic header detection. Free, fast, and fully private.",
+  "path": "/tools/json-to-csv-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "JSON to CSV converter",
+    "JSON CSV converter",
+    "convert JSON to CSV",
+    "JSON array to CSV",
+    "online JSON to CSV",
+    "developer converter",
+    "JSON export CSV",
+    "JSON data converter",
+    "CSV converter JSON",
+    "local JSON converter"
+  ],
+  "order": 80
+}

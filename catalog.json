@@ -1,30 +1,480 @@
 [
   {
-    "name": "Word Counter",
-    "description": "Count words, characters, sentences, and reading time as you type.",
-    "path": "/tools/word-counter/",
-    "category": "Text",
-    "icon": "text",
+    "name": "Class 10 Percentage Calculator",
+    "description": "Calculate your Class 10 board exam percentage from subject-wise marks. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/class-10-percentage-calculator/",
+    "category": "Math",
+    "icon": "calculator",
     "keywords": [
-      "word",
-      "character",
-      "sentence",
-      "reading time",
-      "text"
+      "class 10 percentage calculator",
+      "10th percentage calculator",
+      "board percentage calculator",
+      "marks to percentage",
+      "student percentage calculator",
+      "CBSE percentage calculator",
+      "class 10 marks calculator"
     ]
   },
   {
-    "name": "JSON Formatter",
-    "description": "Format, validate, minify, and copy JSON without uploading your data.",
-    "path": "/tools/json-formatter/",
-    "category": "Developer",
+    "name": "Suneung D-Day Counter",
+    "description": "Calculate days remaining until your Suneung exam. Free Korean exam countdown tool.",
+    "path": "/tools/suneung-dday-counter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "suneung d-day counter",
+      "suneung countdown",
+      "exam calculator"
+    ]
+  },
+  {
+    "name": "Marks to Percentage Calculator",
+    "description": "Convert obtained marks and total marks into percentage instantly. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/marks-to-percentage-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "marks to percentage calculator",
+      "marks percentage calculator",
+      "percentage from marks",
+      "calculate percentage from marks",
+      "student marks calculator",
+      "exam percentage calculator"
+    ]
+  },
+  {
+    "name": "Best of Five Calculator",
+    "description": "Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/best-of-five-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "best of five calculator",
+      "best 5 percentage calculator",
+      "best five marks calculator",
+      "class 10 best of five",
+      "CBSE best five calculator",
+      "student best five calculator"
+    ]
+  },
+  {
+    "name": "Marks Needed Calculator",
+    "description": "Calculate how many marks you need to achieve your target percentage. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/marks-needed-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "marks needed calculator",
+      "marks required calculator",
+      "marks needed for 90 percent",
+      "target marks calculator",
+      "exam target calculator",
+      "student marks planner"
+    ]
+  },
+  {
+    "name": "Quadratic Equation Solver",
+    "description": "Solve quadratic equations ax² + bx + c = 0 with discriminant and roots. Free, fast, and 100% private browser-based solver.",
+    "path": "/tools/quadratic-equation-solver/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "quadratic equation solver",
+      "quadratic formula calculator",
+      "solve quadratic equation",
+      "discriminant calculator",
+      "roots of quadratic equation",
+      "class 10 quadratic equation solver"
+    ]
+  },
+  {
+    "name": "Board Marks Calculator",
+    "description": "Calculate your board exam total marks and percentage from subject-wise scores with configurable maximum marks. Free and private.",
+    "path": "/tools/board-marks-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "board marks calculator",
+      "board exam marks calculator",
+      "class 10 board marks calculator",
+      "board result calculator",
+      "board percentage calculator",
+      "10th board marks calculator"
+    ]
+  },
+  {
+    "name": "Grade Calculator",
+    "description": "Convert marks into percentage and grade using standard or letter grade scales. Free, fast, and fully private in your browser.",
+    "path": "/tools/grade-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "grade calculator",
+      "marks to grade calculator",
+      "percentage to grade calculator",
+      "student grade calculator",
+      "class 10 grade calculator",
+      "letter grade calculator"
+    ]
+  },
+  {
+    "name": "Student Average Calculator",
+    "description": "Calculate the average of marks across tests or subjects with count, sum, highest and lowest values. Free and private.",
+    "path": "/tools/student-average-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "average marks calculator",
+      "student average calculator",
+      "marks average calculator",
+      "average percentage calculator",
+      "exam average calculator",
+      "mean marks calculator"
+    ]
+  },
+  {
+    "name": "Weighted Average Calculator",
+    "description": "Calculate weighted marks where assignments, tests, and exams have different weights, with a clear total-weight check. Free and private.",
+    "path": "/tools/weighted-average-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "weighted average calculator",
+      "weighted marks calculator",
+      "weighted grade calculator",
+      "student weighted average",
+      "final grade calculator",
+      "weighted score calculator"
+    ]
+  },
+  {
+    "name": "Arithmetic Progression Calculator",
+    "description": "Calculate the nth term and sum of an arithmetic progression from a, d, and n, with a preview of the first terms. Free and private.",
+    "path": "/tools/arithmetic-progression-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "AP calculator",
+      "arithmetic progression calculator",
+      "nth term AP calculator",
+      "sum of AP calculator",
+      "class 10 AP calculator",
+      "arithmetic sequence calculator"
+    ]
+  },
+  {
+    "name": "Mean Median Mode Calculator",
+    "description": "Calculate mean, median, mode and range from a list of numbers with the sorted data shown for verification. Free and private.",
+    "path": "/tools/mean-median-mode-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mean median mode calculator",
+      "statistics calculator",
+      "median calculator",
+      "mode calculator",
+      "mean calculator",
+      "class 10 statistics calculator"
+    ]
+  },
+  {
+    "name": "HCF Calculator",
+    "description": "Find the HCF or GCD of two or more positive integers using the Euclidean algorithm. Free, fast, and fully private.",
+    "path": "/tools/hcf-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "HCF calculator",
+      "GCD calculator",
+      "highest common factor calculator",
+      "greatest common divisor calculator",
+      "class 10 HCF calculator",
+      "HCF of two numbers"
+    ]
+  },
+  {
+    "name": "LCM Calculator",
+    "description": "Find the LCM of two or more positive integers using the HCF-based formula for accuracy. Free, fast, and fully private.",
+    "path": "/tools/lcm-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "LCM calculator",
+      "least common multiple calculator",
+      "LCM of two numbers",
+      "class 10 LCM calculator",
+      "LCM method",
+      "LCM online"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator",
+    "description": "Solve V=IR for voltage, current, or resistance with the formula shown and division-by-zero protection. Free and private.",
+    "path": "/tools/ohms-law-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator",
+      "voltage current resistance calculator",
+      "class 10 electricity calculator",
+      "resistance calculator",
+      "VIR calculator",
+      "physics electricity calculator"
+    ]
+  },
+  {
+    "name": "Electrical Power Calculator",
+    "description": "Calculate electrical power using P=VI, P=I^2R, or P=V^2/R with the applied formula shown and zero-division safety. Free and private.",
+    "path": "/tools/electrical-power-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electrical power calculator",
+      "electric power calculator",
+      "power formula calculator",
+      "class 10 electricity power calculator",
+      "P VI calculator",
+      "physics power solver"
+    ]
+  },
+  {
+    "name": "Ratio Calculator",
+    "description": "Simplify ratios of two or more values using the HCF method with equivalent ratio shown. Free, fast, and fully private.",
+    "path": "/tools/ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "ratio calculator",
+      "simplify ratio calculator",
+      "ratio simplifier",
+      "equivalent ratio calculator",
+      "class 10 ratio calculator",
+      "ratio solver"
+    ]
+  },
+  {
+    "name": "Proportion Calculator",
+    "description": "Solve proportions a:b = c:d for a missing value with cross-multiplication steps and zero-division safety. Free and private.",
+    "path": "/tools/proportion-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "proportion calculator",
+      "proportion solver",
+      "ratio proportion calculator",
+      "cross multiplication calculator",
+      "class 10 proportion calculator",
+      "missing value proportion"
+    ]
+  },
+  {
+    "name": "Profit Loss Calculator",
+    "description": "Calculate profit or loss amount and percentage from cost price and selling price with clear break-even handling. Free and private.",
+    "path": "/tools/profit-loss-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "profit loss calculator",
+      "profit percentage calculator",
+      "loss percentage calculator",
+      "CP SP calculator",
+      "class 10 profit loss",
+      "cost price selling price calculator"
+    ]
+  },
+  {
+    "name": "Simple Interest Calculator",
+    "description": "Calculate simple interest and total amount from principal, rate and time using the standard school formula. Free and private.",
+    "path": "/tools/simple-interest-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "simple interest calculator",
+      "SI calculator",
+      "class 10 SI calculator",
+      "principal rate time calculator",
+      "simple interest formula calculator",
+      "interest calculator"
+    ]
+  },
+  {
+    "name": "Compound Interest Calculator",
+    "description": "Calculate compound interest and amount with yearly, half-yearly or quarterly compounding using A=P(1+r/n)^nt. Free and private.",
+    "path": "/tools/compound-interest-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "compound interest calculator",
+      "CI calculator",
+      "class 10 compound interest calculator",
+      "compound interest formula calculator",
+      "half yearly compound interest",
+      "compound amount calculator"
+    ]
+  },
+  {
+    "name": "Distance Formula Calculator",
+    "description": "Calculate the distance between two coordinate points with full formula substitution shown. Free, fast, and fully private.",
+    "path": "/tools/distance-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "distance formula calculator",
+      "distance between two points calculator",
+      "class 10 distance formula",
+      "coordinate distance calculator",
+      "distance formula solver",
+      "coordinate geometry calculator"
+    ]
+  },
+  {
+    "name": "Midpoint Calculator",
+    "description": "Find the midpoint between two coordinate points using the midpoint formula with substitution shown. Free and private.",
+    "path": "/tools/midpoint-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "midpoint calculator",
+      "midpoint formula calculator",
+      "class 10 midpoint calculator",
+      "coordinate midpoint calculator",
+      "midpoint of two points",
+      "coordinate geometry midpoint"
+    ]
+  },
+  {
+    "name": "Section Formula Calculator",
+    "description": "Find the point dividing a line segment internally in a given ratio using the section formula with steps. Free and private.",
+    "path": "/tools/section-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "section formula calculator",
+      "section formula solver",
+      "class 10 section formula",
+      "internal division calculator",
+      "coordinate section formula",
+      "section formula class 10"
+    ]
+  },
+  {
+    "name": "Probability Calculator",
+    "description": "Calculate basic probability from favorable and total outcomes with fraction, decimal, percent and complement. Free and private.",
+    "path": "/tools/probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "probability calculator",
+      "class 10 probability calculator",
+      "simple probability calculator",
+      "probability formula calculator",
+      "favorable outcomes calculator",
+      "probability solver"
+    ]
+  },
+  {
+    "name": "CGPA to Percentage Calculator",
+    "description": "Convert CGPA to percentage with selectable formulas including CBSE-style 9.5 and custom multipliers. Free and private.",
+    "path": "/tools/cgpa-to-percentage-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "CGPA to percentage calculator",
+      "CGPA percentage calculator",
+      "convert CGPA to percentage",
+      "class 10 CGPA calculator",
+      "CGPA converter India",
+      "percentage from CGPA"
+    ]
+  },
+  {
+    "name": "Discount Calculator",
+    "description": "Calculate discount amount and final sale price from original price and discount percentage with savings shown. Free and private.",
+    "path": "/tools/discount-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "discount calculator",
+      "discount percentage calculator",
+      "sale price calculator",
+      "discount amount calculator",
+      "final price calculator",
+      "class 10 discount calculator"
+    ]
+  },
+  {
+    "name": "GST Calculator",
+    "description": "Calculate GST inclusive and exclusive prices with CGST and SGST split for any tax rate. Free, fast, and fully private.",
+    "path": "/tools/gst-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "GST calculator",
+      "GST calculator India",
+      "CGST SGST calculator",
+      "GST inclusive calculator",
+      "GST exclusive calculator",
+      "GST percentage calculator"
+    ]
+  },
+  {
+    "name": "SI vs CI Calculator",
+    "description": "Compare simple interest and compound interest on the same principal, rate and time, and see the exact difference. Free and private.",
+    "path": "/tools/si-vs-ci-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "SI vs CI calculator",
+      "simple vs compound interest calculator",
+      "interest comparison calculator",
+      "difference between SI and CI",
+      "class 10 SI CI calculator",
+      "interest difference calculator"
+    ]
+  },
+  {
+    "name": "Prime Factorization Calculator",
+    "description": "Break any integer into prime factors with exponent notation and a full factor list. Free, fast, and fully private browser tool.",
+    "path": "/tools/prime-factorization-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "prime factorization calculator",
+      "prime factors calculator",
+      "factorization calculator",
+      "prime decomposition calculator",
+      "class 10 prime factorization",
+      "prime factor tool"
+    ]
+  },
+  {
+    "name": "Class 11 Chemistry Chapter 1 Hub",
+    "description": "Master Class 11 Chemistry Chapter 1 (Some Basic Concepts of Chemistry) with all essential calculators, formulas, and tools in one place.",
+    "path": "/tools/class-11/chemistry/ch-1/some-basic-concepts/",
+    "category": "Utilities",
     "icon": "code",
     "keywords": [
-      "json",
-      "format",
-      "validate",
-      "minify",
-      "developer"
+      "class 11 chemistry",
+      "class 11 chapter 1",
+      "some basic concepts of chemistry",
+      "chemistry tools",
+      "class 11 chemistry hub",
+      "mole concept tools"
+    ]
+  },
+  {
+    "name": "Discriminant Calculator",
+    "description": "Calculate b squared minus 4ac and classify the nature of quadratic roots with full substitution shown. Free and private.",
+    "path": "/tools/discriminant-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "discriminant calculator",
+      "quadratic discriminant calculator",
+      "nature of roots calculator",
+      "class 10 discriminant",
+      "D calculator quadratic",
+      "discriminant formula calculator"
     ]
   },
   {
@@ -42,6 +492,223 @@
     ]
   },
   {
+    "name": "Linear Equations Solver",
+    "description": "Solve a pair of linear equations in two variables with unique, no or infinite solution detection. Free and fully private.",
+    "path": "/tools/linear-equations-solver/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "linear equations solver",
+      "pair of linear equations solver",
+      "simultaneous equations calculator",
+      "class 10 linear equations",
+      "two variable equations calculator",
+      "elimination method calculator"
+    ]
+  },
+  {
+    "name": "Polynomial Calculator",
+    "description": "Evaluate a polynomial at a given x value and view its degree and leading coefficient. Free, fast, and fully private browser tool.",
+    "path": "/tools/polynomial-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "polynomial calculator",
+      "polynomial evaluator",
+      "class 10 polynomial calculator",
+      "evaluate polynomial",
+      "polynomial degree calculator",
+      "polynomial solver"
+    ]
+  },
+  {
+    "name": "Trigonometry Ratio Calculator",
+    "description": "Calculate sin, cos, tan and the reciprocal trig ratios for any angle in degrees or radians. Free, fast, and fully private.",
+    "path": "/tools/trigonometry-ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "trigonometry calculator",
+      "trigonometric ratios calculator",
+      "sin cos tan calculator",
+      "class 10 trigonometry calculator",
+      "trig ratio calculator",
+      "six trigonometric ratios"
+    ]
+  },
+  {
+    "name": "Triangle Area Calculator",
+    "description": "Find triangle area using base-height or Heron's formula with validation for impossible triangles. Free, fast, and fully private.",
+    "path": "/tools/triangle-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "triangle area calculator",
+      "area of triangle calculator",
+      "Heron formula calculator",
+      "base height triangle calculator",
+      "class 10 triangle area calculator",
+      "three sides triangle area"
+    ]
+  },
+  {
+    "name": "Surface Area and Volume Calculator",
+    "description": "Compute CSA, TSA and volume for cube, cuboid, cylinder, cone, sphere and hemisphere with formulas shown. Free and private.",
+    "path": "/tools/surface-area-volume-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "surface area volume calculator",
+      "mensuration calculator",
+      "CSA TSA calculator",
+      "volume calculator",
+      "class 10 surface area calculator",
+      "solid geometry calculator"
+    ]
+  },
+  {
+    "name": "Big-O Complexity Guide",
+    "description": "Interactive Big-O notation reference with operation calculator and growth charts.",
+    "path": "/tools/big-o-calculator/",
+    "category": "DSA",
+    "icon": "chart-line",
+    "keywords": [
+      "big-o",
+      "time complexity",
+      "space complexity",
+      "algorithm analysis",
+      "dsa"
+    ]
+  },
+  {
+    "name": "Electrical Energy Calculator",
+    "description": "Calculate electrical energy in joules and kWh from power and time with clear unit conversion. Free, fast, and fully private.",
+    "path": "/tools/electrical-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electrical energy calculator",
+      "energy calculator physics",
+      "kWh calculator",
+      "joules calculator",
+      "class 10 electrical energy",
+      "power time energy calculator",
+      "electric energy formula calculator",
+      "physics energy tool"
+    ]
+  },
+  {
+    "name": "Electricity Bill Calculator",
+    "description": "Estimate an electricity bill from units consumed, rate per unit, and fixed charge with an editable tariff. Free and private.",
+    "path": "/tools/electricity-bill-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "electricity bill calculator",
+      "electric bill calculator",
+      "power bill calculator",
+      "electricity bill calculator India",
+      "kWh bill calculator",
+      "electricity cost calculator",
+      "unit electricity bill calculator",
+      "home electricity calculator"
+    ]
+  },
+  {
+    "name": "Sorting Visualizer",
+    "description": "Animate Bubble, Selection, Insertion, Merge and Quick Sort step by step.",
+    "path": "/tools/sorting-visualizer/",
+    "category": "DSA",
+    "icon": "bar-chart",
+    "keywords": [
+      "sorting",
+      "bubble sort",
+      "merge sort",
+      "quick sort",
+      "visualizer",
+      "dsa"
+    ]
+  },
+  {
+    "name": "Searching Visualizer",
+    "description": "Animate Linear Search and Binary Search step by step.",
+    "path": "/tools/searching-visualizer/",
+    "category": "DSA",
+    "icon": "search",
+    "keywords": [
+      "linear search",
+      "binary search",
+      "searching algorithm",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Series Resistance Calculator",
+    "description": "Calculate the equivalent resistance of resistors in series by summing all values. Free, fast, and fully private browser tool.",
+    "path": "/tools/series-resistance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "series resistance calculator",
+      "resistors in series calculator",
+      "series resistor calculator",
+      "equivalent resistance series",
+      "class 10 series resistance",
+      "physics series circuit calculator",
+      "resistance series formula",
+      "school resistor calculator"
+    ]
+  },
+  {
+    "name": "Parallel Resistance Calculator",
+    "description": "Calculate the equivalent resistance of resistors in parallel using the reciprocal formula. Free, fast, and fully private.",
+    "path": "/tools/parallel-resistance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "parallel resistance calculator",
+      "resistors in parallel calculator",
+      "parallel resistor calculator",
+      "equivalent resistance parallel",
+      "class 10 parallel resistance",
+      "physics parallel circuit calculator",
+      "parallel resistance formula",
+      "school resistor calculator"
+    ]
+  },
+  {
+    "name": "Stack Visualizer",
+    "description": "Push and pop elements on an interactive visual stack (LIFO).",
+    "path": "/tools/stack-visualizer/",
+    "category": "DSA",
+    "icon": "layers",
+    "keywords": [
+      "stack",
+      "lifo",
+      "push",
+      "pop",
+      "data structure",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Lens Formula Calculator",
+    "description": "Solve the lens formula 1/f = 1/v - 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/lens-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lens formula calculator",
+      "lens equation calculator",
+      "class 10 lens formula",
+      "focal length calculator lens",
+      "u v f calculator lens",
+      "magnification lens calculator",
+      "school optics calculator",
+      "ray optics lens calculator"
+    ]
+  },
+  {
     "name": "PDF Merger",
     "description": "Merge multiple PDF files into one document securely in your browser.",
     "path": "/tools/pdf-merger/",
@@ -56,20 +723,733 @@
     ]
   },
   {
-    "name": "Case Converter",
-    "description": "Convert text to uppercase, lowercase, title case, camelCase, and more.",
-    "path": "/tools/case-converter/",
+    "name": "Queue Visualizer",
+    "description": "Enqueue and dequeue elements on an interactive visual queue (FIFO).",
+    "path": "/tools/queue-visualizer/",
+    "category": "DSA",
+    "icon": "list",
+    "keywords": [
+      "queue",
+      "fifo",
+      "enqueue",
+      "dequeue",
+      "data structure"
+    ]
+  },
+  {
+    "name": "Linked List Visualizer",
+    "description": "Add, delete and reverse nodes in an animated linked list.",
+    "path": "/tools/linked-list-visualizer/",
+    "category": "DSA",
+    "icon": "link",
+    "keywords": [
+      "linked list",
+      "nodes",
+      "pointers",
+      "reverse",
+      "data structure"
+    ]
+  },
+  {
+    "name": "Mirror Formula Calculator",
+    "description": "Solve the mirror formula 1/f = 1/v + 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/mirror-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mirror formula calculator",
+      "mirror equation calculator",
+      "class 10 mirror formula",
+      "focal length mirror calculator",
+      "u v f mirror calculator",
+      "magnification mirror calculator",
+      "school optics calculator",
+      "ray optics mirror calculator"
+    ]
+  },
+  {
+    "name": "Binary Tree Visualizer",
+    "description": "Build a BST and animate Inorder, Preorder, Postorder, and Level-order traversals.",
+    "path": "/tools/binary-tree-visualizer/",
+    "category": "DSA",
+    "icon": "git-branch",
+    "keywords": [
+      "binary tree",
+      "bst",
+      "traversal",
+      "inorder",
+      "preorder",
+      "postorder"
+    ]
+  },
+  {
+    "name": "Power of Lens Calculator",
+    "description": "Calculate lens power in diopters from focal length with automatic unit conversion and correct sign convention. Free and private.",
+    "path": "/tools/power-of-lens-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "power of lens calculator",
+      "lens power calculator",
+      "diopter calculator",
+      "focal length to power",
+      "power of lens class 10",
+      "dioptre calculator",
+      "lens focal length calculator",
+      "school optics tool"
+    ]
+  },
+  {
+    "name": "Remove First Five Pages from PDF",
+    "description": "Instantly strip the first 5 pages from any PDF file. 100% browser-based, private, and free.",
+    "path": "/tools/pdf-remove-first-five-pages/",
+    "category": "PDF",
+    "icon": "shield",
+    "keywords": [
+      "pdf",
+      "remove pages",
+      "trim pdf",
+      "delete first pages",
+      "pdf cutter",
+      "remove first 5 pages",
+      "pdf editor"
+    ]
+  },
+  {
+    "name": "B.Tech CGPA Calculator",
+    "description": "Calculate your overall B.Tech CGPA and equivalent percentage across all 8 semesters. Free, instant, and 100% private.",
+    "path": "/tools/btech-cgpa-calculator/",
+    "category": "Education",
+    "icon": "graduation-cap",
+    "keywords": [
+      "cgpa calculator",
+      "btech cgpa",
+      "sgpa to cgpa",
+      "engineering calculator",
+      "cgpa to percentage",
+      "semester calculator"
+    ]
+  },
+  {
+    "name": "Graph Visualizer",
+    "description": "Create nodes and edges interactively, then animate BFS and DFS traversal.",
+    "path": "/tools/graph-visualizer/",
+    "category": "DSA",
+    "icon": "share-2",
+    "keywords": [
+      "graph",
+      "nodes",
+      "edges",
+      "bfs",
+      "dfs",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Wave Speed Calculator",
+    "description": "Calculate wave speed, frequency, or wavelength using v = f lambda with division safety. Free, fast, and fully private.",
+    "path": "/tools/wave-speed-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "wave speed calculator",
+      "speed frequency wavelength calculator",
+      "v f lambda calculator",
+      "wave equation calculator",
+      "physics wave calculator",
+      "frequency wavelength speed",
+      "wavelength calculator",
+      "frequency calculator"
+    ]
+  },
+  {
+    "name": "BFS/DFS Grid Visualizer",
+    "description": "Watch BFS and DFS explore a grid step by step with walls and pathfinding.",
+    "path": "/tools/bfs-dfs-visualizer/",
+    "category": "DSA",
+    "icon": "grid",
+    "keywords": [
+      "bfs",
+      "dfs",
+      "grid",
+      "traversal",
+      "pathfinding",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Density Calculator",
+    "description": "Calculate density, mass, or volume using rho = m/V with division safety and clear units. Free, fast, and fully private.",
+    "path": "/tools/density-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "density calculator",
+      "density mass volume calculator",
+      "density formula calculator",
+      "class 10 density calculator",
+      "mass volume calculator",
+      "physics density solver",
+      "science density calculator",
+      "density online"
+    ]
+  },
+  {
+    "name": "Pathfinding Visualizer",
+    "description": "Visualize BFS, DFS, Dijkstra and A* pathfinding on an interactive grid.",
+    "path": "/tools/pathfinding-visualizer/",
+    "category": "DSA",
+    "icon": "map",
+    "keywords": [
+      "pathfinding",
+      "dijkstra",
+      "a*",
+      "bfs",
+      "dfs",
+      "grid",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Work Energy Power Calculator",
+    "description": "Solve work, kinetic energy, potential energy, and power numericals in one place with formulas shown. Free and private.",
+    "path": "/tools/work-energy-power-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "work energy power calculator",
+      "physics work calculator",
+      "power calculator physics",
+      "energy calculator physics",
+      "work formula calculator",
+      "class 10 physics calculator",
+      "kinetic potential energy calculator",
+      "WEP calculator"
+    ]
+  },
+  {
+    "name": "Kinetic Energy Calculator",
+    "description": "Calculate kinetic energy from mass and velocity using KE = half mv squared with formula shown. Free, fast, and fully private.",
+    "path": "/tools/kinetic-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "kinetic energy calculator",
+      "KE calculator",
+      "kinetic energy formula calculator",
+      "class 10 kinetic energy",
+      "mass velocity energy calculator",
+      "school kinetic energy tool",
+      "10th physics energy calculator",
+      "KE formula online"
+    ]
+  },
+  {
+    "name": "Recursion Visualizer",
+    "description": "Display recursive calls as an animated tree for Fibonacci, Factorial and Power.",
+    "path": "/tools/recursion-visualizer/",
+    "category": "DSA",
+    "icon": "git-branch",
+    "keywords": [
+      "recursion",
+      "call tree",
+      "fibonacci",
+      "factorial",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "DSA Progress Tracker",
+    "description": "Track DSA topics and problems completed with LocalStorage persistence.",
+    "path": "/tools/dsa-progress-tracker/",
+    "category": "DSA",
+    "icon": "check-circle",
+    "keywords": [
+      "dsa",
+      "progress",
+      "tracker",
+      "roadmap",
+      "leetcode",
+      "interview prep"
+    ]
+  },
+  {
+    "name": "Potential Energy Calculator",
+    "description": "Calculate gravitational potential energy from mass, gravity and height using PE = mgh. Free, fast, and fully private browser tool.",
+    "path": "/tools/potential-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "potential energy calculator",
+      "PE calculator",
+      "gravitational potential energy calculator",
+      "mgh calculator",
+      "class 10 potential energy",
+      "mass height energy calculator",
+      "school potential energy tool",
+      "PE formula calculator"
+    ]
+  },
+  {
+    "name": "DSA Random Question Picker",
+    "description": "Get a random DSA practice question by topic and difficulty.",
+    "path": "/tools/dsa-random-question-picker/",
+    "category": "DSA",
+    "icon": "shuffle",
+    "keywords": [
+      "dsa",
+      "random question",
+      "interview prep",
+      "leetcode",
+      "practice"
+    ]
+  },
+  {
+    "name": "Molar Mass Calculator",
+    "description": "Calculate molar mass from a chemical formula with element-by-element breakdown and parenthesis support. Free and fully private.",
+    "path": "/tools/molar-mass-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "molar mass calculator",
+      "molecular mass calculator",
+      "molar mass from formula",
+      "chemical formula molar mass",
+      "class 10 molar mass",
+      "chemistry molar mass calculator",
+      "molecular weight calculator",
+      "formula mass calculator"
+    ]
+  },
+  {
+    "name": "Chemical Equation Balancer",
+    "description": "Balance common Class 10 chemical equations locally with atom count verification shown. Free, fast, and fully private browser tool.",
+    "path": "/tools/chemical-equation-balancer/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chemical equation balancer",
+      "balance chemical equations",
+      "equation balancer",
+      "class 10 chemical equation balancer",
+      "chemistry equation solver",
+      "balancing equations online",
+      "school chemistry tool",
+      "chemical reaction balancer"
+    ]
+  },
+  {
+    "name": "Data Structure Cheat Sheet",
+    "description": "Interactive reference for common data structures with complexity tables.",
+    "path": "/tools/data-structure-cheat-sheet/",
+    "category": "DSA",
+    "icon": "book",
+    "keywords": [
+      "data structures",
+      "cheat sheet",
+      "complexity",
+      "reference",
+      "interview"
+    ]
+  },
+  {
+    "name": "Algorithm Cheat Sheet",
+    "description": "Searchable reference of algorithms with time and space complexity.",
+    "path": "/tools/algorithm-cheat-sheet/",
+    "category": "DSA",
+    "icon": "book-open",
+    "keywords": [
+      "algorithms",
+      "cheat sheet",
+      "complexity",
+      "sorting",
+      "graph",
+      "dp"
+    ]
+  },
+  {
+    "name": "English Name Generator for Students",
+    "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
+    "path": "/tools/english-name-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "english name generator",
+      "english name generator for students",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "ER Diagram Maker",
+    "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
+    "path": "/tools/er-diagram-maker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "er diagram maker",
+      "er diagram maker",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Flowchart Maker",
+    "description": "Build flowcharts by connecting shapes and steps. Generate standard Mermaid flowchart syntax from simple text inputs for easy documentation.",
+    "path": "/tools/flowchart-maker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "flowchart maker",
+      "flowchart maker",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Height and Distance Calculator",
+    "description": "Solve height and distance word problems using the tangent ratio with angle and known side. Free, fast, and fully private.",
+    "path": "/tools/height-and-distance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "height and distance calculator",
+      "class 10 height and distance",
+      "height distance trigonometry calculator",
+      "angle height distance calculator",
+      "tower height calculator",
+      "trigonometry height calculator",
+      "school height distance calculator",
+      "10th trigonometry word problem"
+    ]
+  },
+  {
+    "name": "JSON Formatter & Validator",
+    "description": "Format, validate, and beautify your JSON data instantly online.",
+    "path": "/tools/json-formatter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "json formatter",
+      "json validator",
+      "beautify json",
+      "format json",
+      "json parser"
+    ]
+  },
+  {
+    "name": "Project Cost Calculator",
+    "description": "Estimate your project expenses quickly with our free Project Cost Calculator. Add tasks, assign costs, and get instant budget totals locally.",
+    "path": "/tools/project-cost-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project cost calculator",
+      "project cost calculator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Idea Generator",
+    "description": "Discover unique project ideas filtered by branch, technology, and difficulty. Get inspired for your next coding or engineering project instantly.",
+    "path": "/tools/project-idea-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project idea generator",
+      "project idea generator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Planner",
+    "description": "Create structured project milestones and tasks, and save your plans locally. Organize your workflow efficiently with our free project planning tool.",
+    "path": "/tools/project-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project planner",
+      "project planner",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Presentation Planner",
+    "description": "Build slide-by-slide presentation structures. Organize your titles and bullet points to create a compelling outline for your next pitch.",
+    "path": "/tools/project-presentation-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project presentation planner",
+      "project presentation planner",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Report Builder",
+    "description": "Fill in your project information and generate structured, professional report content. Perfect for executive summaries and status updates.",
+    "path": "/tools/project-report-builder/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project report builder",
+      "project report builder",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Team Task Board",
+    "description": "Create a local Kanban board to track team tasks. Categorize tasks into To Do, In Progress, and Done instantly without any server uploads.",
+    "path": "/tools/project-team-task-board/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project team task board",
+      "project team task board",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Timeline Generator",
+    "description": "Generate visual text-based project timelines by entering start dates, end dates, and key milestones. Perfect for quick roadmaps.",
+    "path": "/tools/project-timeline-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project timeline generator",
+      "project timeline generator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "README Generator",
+    "description": "Fill in your project details and generate a clean, structured Markdown README file. Perfect for GitHub repositories and open-source projects.",
+    "path": "/tools/readme-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "readme generator",
+      "readme generator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "USD to INR Converter",
+    "description": "Convert US Dollars to Indian Rupees instantly. Free, private, and browser-based.",
+    "path": "/tools/usd-to-inr-converter/",
+    "category": "Finance",
+    "icon": "dollar-sign",
+    "keywords": [
+      "usd to inr",
+      "dollar to rupee",
+      "currency converter",
+      "us dollar",
+      "indian rupee",
+      "forex"
+    ]
+  },
+  {
+    "name": "Coordinate Geometry Calculator",
+    "description": "Calculate distance, midpoint, and section formula for Class 10 coordinate geometry in one hub tool. Free and fully private.",
+    "path": "/tools/coordinate-geometry-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "coordinate geometry calculator",
+      "class 10 coordinate geometry calculator",
+      "distance midpoint section formula",
+      "coordinate calculator",
+      "10th coordinate geometry",
+      "school coordinate geometry tool",
+      "coordinate formula calculator",
+      "coordinate geometry online"
+    ]
+  },
+  {
+    "name": "INR to CNY Converter",
+    "description": "Convert Indian Rupees to Chinese Yuan instantly. Free, private, and browser-based.",
+    "path": "/tools/inr-to-cny-converter/",
+    "category": "Finance",
+    "icon": "yen-sign",
+    "keywords": [
+      "inr to cny",
+      "rupee to yuan",
+      "indian rupee",
+      "chinese yuan",
+      "renminbi",
+      "currency converter"
+    ]
+  },
+  {
+    "name": "Percentage Change Calculator",
+    "description": "Calculate percentage increase or decrease between old and new values with direction labelled. Free, fast, and fully private.",
+    "path": "/tools/percentage-change-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "percentage change calculator",
+      "percentage increase calculator",
+      "percentage decrease calculator",
+      "percent change formula",
+      "increase decrease calculator",
+      "class 10 percentage change",
+      "price increase percentage",
+      "percentage difference calculator"
+    ]
+  },
+  {
+    "name": "Pythagoras Calculator",
+    "description": "Find a missing side of a right triangle using the Pythagorean theorem with validation. Free, fast, and fully private browser tool.",
+    "path": "/tools/pythagoras-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "Pythagoras calculator",
+      "Pythagorean theorem calculator",
+      "right triangle calculator",
+      "hypotenuse calculator",
+      "missing side triangle calculator",
+      "class 10 Pythagoras",
+      "school triangle calculator",
+      "Pythagorean theorem online"
+    ]
+  },
+  {
+    "name": "Scientific Notation Calculator",
+    "description": "Convert numbers to and from scientific notation with coefficient, exponent and e-notation shown. Free, fast, and fully private.",
+    "path": "/tools/scientific-notation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "scientific notation calculator",
+      "standard form calculator",
+      "scientific notation converter",
+      "class 10 scientific notation",
+      "physics scientific notation",
+      "exponent notation calculator",
+      "number to scientific notation",
+      "scientific form calculator"
+    ]
+  },
+  {
+    "name": "Significant Figures Calculator",
+    "description": "Count significant figures and round to N sig figs with the zero rules explained. Free, fast, and fully private browser tool.",
+    "path": "/tools/significant-figures-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "significant figures calculator",
+      "sig fig calculator",
+      "significant figures counter",
+      "round to significant figures",
+      "class 10 significant figures",
+      "science significant figures",
+      "physics sig figs",
+      "significant digits calculator"
+    ]
+  },
+  {
+    "name": "Word Counter",
+    "description": "Count words, characters, sentences, paragraphs, and reading time instantly. Free, fast, and fully private browser-based text tool.",
+    "path": "/tools/word-counter/",
     "category": "Text",
     "icon": "text",
     "keywords": [
-      "case",
-      "uppercase",
-      "lowercase",
-      "title case",
-      "camelcase",
-      "snake case",
-      "kebab case",
-      "text"
+      "word counter",
+      "word count tool",
+      "online word counter",
+      "character counter",
+      "sentence counter",
+      "paragraph counter",
+      "reading time calculator",
+      "essay word counter"
+    ]
+  },
+  {
+    "name": "Essay Word Counter",
+    "description": "Count words in your essay and track your progress against a target word limit. Free, fast, and fully private browser tool.",
+    "path": "/tools/essay-word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "essay word counter",
+      "essay word count",
+      "word limit checker",
+      "assignment word counter",
+      "student essay checker",
+      "writing word limit",
+      "essay length checker",
+      "word count target"
+    ]
+  },
+  {
+    "name": "Notice Word Counter",
+    "description": "Check the word count of your notice draft against the standard 50-word limit. Free, fast, and fully private browser tool.",
+    "path": "/tools/notice-word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "notice word counter",
+      "notice writing word count",
+      "CBSE notice word limit",
+      "notice format word count",
+      "class 10 notice counter",
+      "notice writing checker",
+      "50 words notice",
+      "school notice word count"
+    ]
+  },
+  {
+    "name": "Notice Format Checker",
+    "description": "Check your notice writing format for essential elements like date, heading, and sign-off. Free, fast, and fully private.",
+    "path": "/tools/notice-format-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "notice format checker",
+      "notice writing checker",
+      "CBSE notice format",
+      "notice format class 10",
+      "notice writing tool",
+      "check notice format",
+      "notice structure checker",
+      "school notice checker"
+    ]
+  },
+  {
+    "name": "Formal Letter Format Checker",
+    "description": "Check your formal letter format for essential elements like subject, salutation, and closing. Free, fast, and fully private.",
+    "path": "/tools/formal-letter-format-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "formal letter format checker",
+      "letter writing checker",
+      "CBSE formal letter format",
+      "letter format class 10",
+      "formal letter checker",
+      "check letter format",
+      "letter structure checker",
+      "school letter checker"
     ]
   },
   {
@@ -87,6 +1467,159 @@
     ]
   },
   {
+    "name": "Text Cleaner",
+    "description": "Remove extra spaces, blank lines, and weird formatting from pasted text. Free, fast, and fully private browser tool.",
+    "path": "/tools/text-cleaner/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "text cleaner",
+      "clean text online",
+      "remove extra spaces",
+      "remove blank lines",
+      "whitespace remover",
+      "text formatter",
+      "clean up text",
+      "duplicate spaces remover"
+    ]
+  },
+  {
+    "name": "Case Converter",
+    "description": "Convert text to uppercase, lowercase, sentence case, or title case instantly. Free, fast, and fully private browser tool.",
+    "path": "/tools/case-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "case converter",
+      "uppercase lowercase converter",
+      "text case converter",
+      "sentence case converter",
+      "title case converter",
+      "capitalization tool",
+      "change case online",
+      "text capitalization"
+    ]
+  },
+  {
+    "name": "Duplicate Word Finder",
+    "description": "Find repeated words in your text to improve writing variety and reduce repetition. Free, fast, and fully private.",
+    "path": "/tools/duplicate-word-finder/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "duplicate word finder",
+      "repeated words checker",
+      "find repeated words",
+      "word repetition checker",
+      "essay duplicate words",
+      "writing cleanup tool",
+      "repeated word detector",
+      "text duplicate finder"
+    ]
+  },
+  {
+    "name": "Word Frequency Counter",
+    "description": "Analyze text to see how many times each word appears with a sorted frequency table. Free, fast, and fully private.",
+    "path": "/tools/word-frequency-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "word frequency counter",
+      "word frequency calculator",
+      "word count frequency",
+      "most common words checker",
+      "text word frequency",
+      "keyword density checker",
+      "word occurrence counter",
+      "frequency of words"
+    ]
+  },
+  {
+    "name": "Alphabetical Text Sorter",
+    "description": "Sort any list of words or names alphabetically in ascending or descending order. Free, fast, and fully private.",
+    "path": "/tools/alphabetical-text-sorter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "alphabetical order words",
+      "alphabetical text sorter",
+      "sort words alphabetically",
+      "alphabetizer",
+      "sort list alphabetically",
+      "alphabetical order calculator",
+      "dictionary order calculator",
+      "sort names alphabetically"
+    ]
+  },
+  {
+    "name": "Study Time Calculator",
+    "description": "Calculate your realistic daily self-study hours by subtracting school, coaching, and breaks from your awake time. Free and private.",
+    "path": "/tools/study-time-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "study time calculator",
+      "study hours calculator",
+      "daily study planner",
+      "how many hours should I study",
+      "student study time calculator",
+      "class 10 study time",
+      "exam study hours",
+      "study schedule calculator"
+    ]
+  },
+  {
+    "name": "Exam Countdown",
+    "description": "Track the exact days, hours, and minutes left until your next board or school exam. Free, fast, and fully private.",
+    "path": "/tools/exam-countdown/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "exam countdown",
+      "exam countdown timer",
+      "board exam countdown",
+      "class 10 exam countdown",
+      "days left for exam",
+      "exam days calculator",
+      "study countdown",
+      "CBSE exam countdown"
+    ]
+  },
+  {
+    "name": "Days Between Dates",
+    "description": "Calculate the exact number of days, weeks, and hours between any two dates. Free, fast, and fully private browser tool.",
+    "path": "/tools/days-between-dates/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "days between dates calculator",
+      "date difference calculator",
+      "number of days between dates",
+      "days calculator",
+      "date duration calculator",
+      "exam days calculator",
+      "study days calculator",
+      "days left calculator"
+    ]
+  },
+  {
+    "name": "Syllabus Progress Calculator",
+    "description": "Track your board exam preparation by calculating the percentage of syllabus completed versus remaining. Free and private.",
+    "path": "/tools/syllabus-progress-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "syllabus progress calculator",
+      "syllabus completion calculator",
+      "study progress calculator",
+      "chapter completion calculator",
+      "class 10 syllabus tracker",
+      "board exam syllabus tracker",
+      "study progress percentage",
+      "exam preparation tracker"
+    ]
+  },
+  {
     "name": "Remove First Page of PDF",
     "description": "Delete the title or cover page from any PDF document locally in your browser.",
     "path": "/tools/remove-first-page-of-pdf/",
@@ -98,6 +1631,182 @@
       "delete cover page",
       "trim pdf",
       "delete page 1"
+    ]
+  },
+  {
+    "name": "Revision Planner",
+    "description": "Calculate your daily chapter targets and time per chapter based on days left and daily study hours. Free and private.",
+    "path": "/tools/revision-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "revision planner",
+      "study revision planner",
+      "class 10 revision planner",
+      "board exam revision planner",
+      "exam revision schedule",
+      "study timetable generator",
+      "revision timetable generator",
+      "student revision schedule"
+    ]
+  },
+  {
+    "name": "Chapter Progress Tracker",
+    "description": "Track your revised versus practiced chapters to identify untouched syllabus before board exams. Free and fully private.",
+    "path": "/tools/chapter-progress-tracker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "chapter tracker",
+      "class 10 chapter tracker",
+      "study tracker",
+      "chapter progress tracker",
+      "board preparation tracker",
+      "class 10 study tracker",
+      "syllabus tracker",
+      "exam preparation tracker"
+    ]
+  },
+  {
+    "name": "Target Percentage Planner",
+    "description": "Calculate the exact total marks and per-subject average needed to achieve your target board percentage. Free and private.",
+    "path": "/tools/target-percentage-planner/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "target percentage calculator",
+      "target marks planner",
+      "90 percent marks calculator",
+      "95 percent marks calculator",
+      "marks needed for 90 percent",
+      "target score calculator",
+      "student marks planner",
+      "board target marks"
+    ]
+  },
+  {
+    "name": "GPA Calculator",
+    "description": "Calculate your weighted GPA from grades and credits using standard 4.0 or 10-point scales. Free, fast, and fully private.",
+    "path": "/tools/gpa-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "GPA calculator",
+      "student GPA calculator",
+      "grade point average calculator",
+      "GPA calculator online",
+      "school GPA calculator",
+      "weighted GPA calculator",
+      "unweighted GPA calculator",
+      "GPA from marks"
+    ]
+  },
+  {
+    "name": "Attendance Calculator",
+    "description": "Calculate your current attendance percentage and find out exactly how many classes you can miss or must attend. Free and private.",
+    "path": "/tools/attendance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "attendance calculator",
+      "attendance percentage calculator",
+      "attendance shortage calculator",
+      "how many classes can I miss",
+      "classes needed for 75 attendance",
+      "student attendance calculator",
+      "75 percent attendance calculator",
+      "college attendance calculator"
+    ]
+  },
+  {
+    "name": "Password Strength Checker",
+    "description": "Test your password strength locally in the browser. 100% private, secure, and never sends your data to a server.",
+    "path": "/tools/password-strength-checker/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "password strength checker",
+      "password checker",
+      "strong password checker",
+      "password security checker",
+      "password strength test",
+      "secure password checker",
+      "password entropy calculator",
+      "private password checker"
+    ]
+  },
+  {
+    "name": "Hash Generator",
+    "description": "Generate SHA-256, SHA-384, SHA-512, and SHA-1 hashes from text locally in your browser. Free, fast, and fully private.",
+    "path": "/tools/hash-generator/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "hash generator",
+      "SHA256 hash generator",
+      "SHA-256 calculator",
+      "MD5 hash generator",
+      "text hash generator",
+      "checksum generator",
+      "hash calculator online",
+      "local hash generator",
+      "browser hash generator"
+    ]
+  },
+  {
+    "name": "Base64 Encoder Decoder",
+    "description": "Encode text to Base64 or decode Base64 to text with UTF-8 support. Free, fast, and fully private browser-based tool.",
+    "path": "/tools/base64-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "base64 encoder",
+      "base64 decoder",
+      "base64 encode decode",
+      "base64 converter",
+      "online base64 encoder",
+      "text to base64",
+      "base64 decode online",
+      "developer base64 tool",
+      "base64 string decoder"
+    ]
+  },
+  {
+    "name": "URL Encoder Decoder",
+    "description": "Encode text to URL-safe format or decode percent-encoded URLs instantly. Free, fast, and fully private browser tool.",
+    "path": "/tools/url-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "URL encoder",
+      "URL decoder",
+      "URL encode decode",
+      "percent encoding calculator",
+      "URL encoding tool",
+      "encode URL online",
+      "decode URL online",
+      "percent encode",
+      "URL component encoder",
+      "developer URL tool"
+    ]
+  },
+  {
+    "name": "JSON Formatter Validator",
+    "description": "Format, validate, and minify JSON locally with detailed error messages. Free, fast, and fully private browser-based tool.",
+    "path": "/tools/json-formatter-validator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "JSON formatter",
+      "JSON validator",
+      "JSON beautifier",
+      "JSON minifier",
+      "format JSON online",
+      "validate JSON",
+      "JSON pretty print",
+      "JSON parser online",
+      "JSON formatter validator",
+      "developer JSON tool"
     ]
   },
   {
@@ -113,6 +1822,885 @@
       "delete page range",
       "remove page range",
       "delete pages"
+    ]
+  },
+  {
+    "name": "JSON to CSV Converter",
+    "description": "Convert JSON arrays to CSV format with proper escaping and automatic header detection. Free, fast, and fully private.",
+    "path": "/tools/json-to-csv-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "JSON to CSV converter",
+      "JSON CSV converter",
+      "convert JSON to CSV",
+      "JSON array to CSV",
+      "online JSON to CSV",
+      "developer converter",
+      "JSON export CSV",
+      "JSON data converter",
+      "CSV converter JSON",
+      "local JSON converter"
+    ]
+  },
+  {
+    "name": "CSV to JSON Converter",
+    "description": "Convert CSV text to JSON array with support for commas, semicolons, tabs, and quoted values. Free and fully private.",
+    "path": "/tools/csv-to-json-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "CSV to JSON converter",
+      "CSV JSON converter",
+      "convert CSV to JSON",
+      "CSV parser online",
+      "CSV data to JSON",
+      "online CSV converter",
+      "CSV array JSON",
+      "developer CSV tool",
+      "CSV formatter",
+      "local CSV converter"
+    ]
+  },
+  {
+    "name": "Unit Converter",
+    "description": "Convert length, mass, speed, area, and volume units with clear conversion factors. Free, fast, and fully private.",
+    "path": "/tools/unit-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "unit converter",
+      "unit conversion calculator",
+      "length converter",
+      "weight converter",
+      "mass converter",
+      "speed converter",
+      "temperature converter",
+      "school unit converter",
+      "physics unit converter",
+      "online unit converter"
+    ]
+  },
+  {
+    "name": "Temperature Converter",
+    "description": "Convert between Celsius, Fahrenheit, and Kelvin with all three scales shown simultaneously. Free and fully private.",
+    "path": "/tools/temperature-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "temperature converter",
+      "Celsius Fahrenheit converter",
+      "C to F calculator",
+      "F to C calculator",
+      "Kelvin converter",
+      "temperature conversion calculator",
+      "class 10 temperature converter",
+      "school temperature calculator",
+      "temperature formula",
+      "online temperature converter"
+    ]
+  },
+  {
+    "name": "Time Converter",
+    "description": "Convert between seconds, minutes, hours, and days with all equivalents shown. Free, fast, and fully private browser tool.",
+    "path": "/tools/time-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "time converter",
+      "hours to minutes calculator",
+      "minutes to seconds converter",
+      "seconds to minutes",
+      "hours to seconds",
+      "time conversion calculator",
+      "study time converter",
+      "school time converter",
+      "online time converter",
+      "duration converter"
+    ]
+  },
+  {
+    "name": "Statistics Frequency Table Calculator",
+    "description": "Build a frequency table from data values with relative frequencies and weighted mean. Free, fast, and fully private.",
+    "path": "/tools/statistics-frequency-table-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "frequency table calculator",
+      "statistics frequency table",
+      "frequency distribution calculator",
+      "class 10 statistics calculator",
+      "frequency table maker",
+      "mean from frequency table",
+      "school statistics tool",
+      "10th maths statistics",
+      "frequency calculator",
+      "statistics online tool"
+    ]
+  },
+  {
+    "name": "Empirical Relation Calculator",
+    "description": "Calculate mean, median, or mode using the school-level empirical relation Mode = 3Median - 2Mean. Free and private.",
+    "path": "/tools/empirical-relation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "empirical relation calculator",
+      "mean median mode relation",
+      "mode formula calculator",
+      "class 10 empirical relation",
+      "statistics empirical formula",
+      "3 median 2 mean formula",
+      "mode median mean calculator",
+      "school statistics formula",
+      "empirical formula statistics"
+    ]
+  },
+  {
+    "name": "Slope Calculator",
+    "description": "Calculate slope between two points with line equation, y-intercept, and slope type. Free, fast, and fully private.",
+    "path": "/tools/slope-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "slope calculator",
+      "gradient calculator",
+      "slope between two points",
+      "slope formula calculator",
+      "class 10 slope calculator",
+      "line slope calculator",
+      "coordinate slope calculator",
+      "slope of line",
+      "math slope solver",
+      "school coordinate geometry"
+    ]
+  },
+  {
+    "name": "Line Equation Calculator",
+    "description": "Find the equation of a line from two points or slope and point with both forms shown. Free, fast, and fully private.",
+    "path": "/tools/line-equation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "line equation calculator",
+      "equation of line calculator",
+      "straight line equation",
+      "slope intercept calculator",
+      "class 10 line equation",
+      "coordinate geometry line",
+      "line through two points",
+      "school line equation",
+      "math line solver",
+      "point slope calculator"
+    ]
+  },
+  {
+    "name": "Factor Calculator",
+    "description": "Find all factors of a number with factor pairs and prime/composite classification. Free, fast, and fully private.",
+    "path": "/tools/factor-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "factor calculator",
+      "factors of a number",
+      "factor finder",
+      "number factor calculator",
+      "prime factor calculator",
+      "class 10 factor calculator",
+      "factor pairs calculator",
+      "divisors calculator",
+      "school factor finder",
+      "factors online"
+    ]
+  },
+  {
+    "name": "LCM HCF Calculator",
+    "description": "Calculate HCF and LCM together with prime factorizations and product verification. Free, fast, and fully private.",
+    "path": "/tools/lcm-hcf-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "HCF LCM calculator",
+      "LCM HCF calculator",
+      "HCF and LCM",
+      "class 10 HCF LCM",
+      "HCF LCM solver",
+      "least common multiple highest common factor",
+      "school HCF LCM",
+      "10th maths HCF LCM",
+      "HCF LCM formula",
+      "math HCF LCM"
+    ]
+  },
+  {
+    "name": "Unitary Method Calculator",
+    "description": "Solve unitary method problems step by step showing the one-unit value and final answer. Free, fast, and fully private.",
+    "path": "/tools/unitary-method-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "unitary method calculator",
+      "unitary method solver",
+      "class 10 unitary method",
+      "unit price calculator",
+      "unit rate calculator",
+      "quantity price calculator",
+      "school unitary method",
+      "math word problem calculator",
+      "unitary method online",
+      "unitary method questions"
+    ]
+  },
+  {
+    "name": "Fraction Calculator",
+    "description": "Add, subtract, multiply, and divide fractions with simplification and mixed number display. Free and fully private.",
+    "path": "/tools/fraction-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "fraction calculator",
+      "fraction simplifier",
+      "fraction addition calculator",
+      "fraction subtraction calculator",
+      "fraction multiplication calculator",
+      "fraction division calculator",
+      "class 10 fraction calculator",
+      "school fraction solver",
+      "simplify fractions online",
+      "math fraction tool"
+    ]
+  },
+  {
+    "name": "Scientific Calculator",
+    "description": "A clean browser scientific calculator with trig, log, powers, and DEG/RAD modes. Free, fast, and fully private.",
+    "path": "/tools/student-scientific-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "scientific calculator",
+      "online scientific calculator",
+      "student scientific calculator",
+      "school scientific calculator",
+      "class 10 calculator",
+      "math scientific calculator",
+      "free scientific calculator",
+      "trigonometric calculator",
+      "scientific calculator online",
+      "exam calculator"
+    ]
+  },
+  {
+    "name": "Ohm's Law Triangle Helper",
+    "description": "Interactive VIR triangle helper to choose the right formula and solve V, I, or R. Free, fast, and fully private.",
+    "path": "/tools/ohms-law-triangle-helper/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "Ohm law triangle",
+      "VIR triangle calculator",
+      "Ohm triangle calculator",
+      "Ohms law helper",
+      "voltage current resistance triangle",
+      "class 10 electricity formula",
+      "physics formula triangle",
+      "school electricity helper",
+      "Ohm law shortcut",
+      "electricity formula tool"
+    ]
+  },
+  {
+    "name": "Electricity Units Converter",
+    "description": "Convert between watts, kilowatts, joules, and kWh with power/energy type validation. Free, fast, and fully private.",
+    "path": "/tools/electricity-units-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electricity units converter",
+      "kWh to joules",
+      "joules to kWh",
+      "watts to kilowatts",
+      "electricity unit conversion",
+      "class 10 electricity units",
+      "physics unit converter electricity",
+      "school electricity calculator",
+      "energy conversion calculator",
+      "power unit converter"
+    ]
+  },
+  {
+    "name": "Expense Tracker",
+    "description": "Track your daily expenses, categorize spending, and view summaries locally. A 100% free, secure, and private browser-based expense tracker.",
+    "path": "/tools/expense-tracker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "expense tracker",
+      "budget app",
+      "spending log",
+      "personal finance",
+      "daily expenses",
+      "money tracker",
+      "local storage app",
+      "free budget tool"
+    ]
+  },
+  {
+    "name": "Focal Length Calculator",
+    "description": "Calculate focal length from object and image distances for lenses and mirrors with sign convention support. Free and private.",
+    "path": "/tools/focal-length-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "focal length calculator",
+      "lens focal length calculator",
+      "mirror focal length calculator",
+      "class 10 focal length",
+      "10th physics optics calculator",
+      "u v focal length",
+      "school optics solver",
+      "focal length online",
+      "physics lens mirror tool"
+    ]
+  },
+  {
+    "name": "Expense Splitter",
+    "description": "Split bills and calculate who owes whom instantly. A 100% free, secure, and private browser-based expense splitter for friends and roommates.",
+    "path": "/tools/expense-splitter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "expense splitter",
+      "splitwise alternative",
+      "bill splitter",
+      "group budget",
+      "shared expenses",
+      "roommate calculator",
+      "trip expense split",
+      "free splitter tool"
+    ]
+  },
+  {
+    "name": "Magnification Calculator",
+    "description": "Calculate magnification, image height, or object height for lenses and mirrors with image nature explanation. Free and private.",
+    "path": "/tools/magnification-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "magnification calculator",
+      "magnification formula calculator",
+      "lens magnification calculator",
+      "mirror magnification calculator",
+      "class 10 magnification",
+      "10th physics magnification",
+      "image height calculator",
+      "object height magnification",
+      "school optics calculator",
+      "physics magnification tool"
+    ]
+  },
+  {
+    "name": "Electricity Consumption Calculator",
+    "description": "Calculate appliance energy consumption in kWh and estimate electricity costs based on your tariff. Free and fully private.",
+    "path": "/tools/electricity-consumption-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "electricity consumption calculator",
+      "electricity usage calculator",
+      "appliance electricity calculator",
+      "power consumption calculator",
+      "kWh consumption calculator",
+      "electricity units calculator",
+      "home energy calculator",
+      "class 10 electricity project",
+      "watt to kWh calculator",
+      "energy usage calculator"
+    ]
+  },
+  {
+    "name": "Trip Budget Planner",
+    "description": "Plan your travel budget, calculate total and per-person costs instantly. A 100% free, secure, and private browser-based trip budget planner.",
+    "path": "/tools/trip-budget-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip budget planner",
+      "travel cost calculator",
+      "vacation budget",
+      "trip expense estimator",
+      "per person travel cost",
+      "holiday budget",
+      "group trip calculator",
+      "free travel planner"
+    ]
+  },
+  {
+    "name": "Chemical Formula Builder",
+    "description": "Build ionic chemical formulas using the cross-over valency method with automatic simplification. Free, fast, and fully private.",
+    "path": "/tools/chemical-formula-builder/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chemical formula calculator",
+      "chemical formula builder",
+      "formula from valency",
+      "chemical formula using valency",
+      "class 10 chemical formula",
+      "chemistry formula generator",
+      "ionic compound formula",
+      "school chemistry formula tool",
+      "valency formula calculator",
+      "chemical formula maker"
+    ]
+  },
+  {
+    "name": "College Resource Manager",
+    "description": "Save and organize college links, notes, and resources locally. A 100% free, secure, and private browser-based tool for students and academics.",
+    "path": "/tools/college-resource-manager/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "college resource manager",
+      "student link saver",
+      "study notes organizer",
+      "academic resource tracker",
+      "project reference manager",
+      "student dashboard tool",
+      "local storage notes",
+      "free student app"
+    ]
+  },
+  {
+    "name": "B.Tech Student Dashboard",
+    "description": "Track your CGPA, attendance, assignments, and study goals locally. A 100% free, secure, and private browser-based dashboard for engineering students.",
+    "path": "/tools/btech-student-dashboard/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "btech student dashboard",
+      "engineering cgpa tracker",
+      "college attendance app",
+      "student assignment tracker",
+      "academic progress hub",
+      "btech study planner",
+      "engineering student tool",
+      "local student dashboard"
+    ]
+  },
+  {
+    "name": "Molarity Calculator",
+    "description": "Calculate molarity, moles, or volume of a solution using the standard concentration formula. Free and fully private.",
+    "path": "/tools/molarity-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "molarity calculator",
+      "molar concentration calculator",
+      "moles volume molarity",
+      "chemistry molarity calculator",
+      "class 10 chemistry concentration",
+      "molarity formula",
+      "solution concentration calculator",
+      "school chemistry calculator",
+      "molarity online",
+      "chemistry concentration tool"
+    ]
+  },
+  {
+    "name": "Mole Calculator",
+    "description": "Calculate moles, mass, or molar mass using the mole concept formula with Avogadro's number. Free and fully private.",
+    "path": "/tools/mole-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mole calculator",
+      "moles calculator",
+      "mass to moles calculator",
+      "moles from mass",
+      "chemistry mole calculator",
+      "class 10 mole concept",
+      "molar mass moles calculator",
+      "school chemistry mole tool",
+      "mole formula calculator",
+      "chemistry calculation"
+    ]
+  },
+  {
+    "name": "Atomic Mass Lookup",
+    "description": "Quickly search atomic masses, symbols, and atomic numbers for common school chemistry elements. Free and fully private.",
+    "path": "/tools/atomic-mass-lookup/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "atomic mass calculator",
+      "atomic mass of elements",
+      "atomic mass table",
+      "periodic table atomic mass",
+      "class 10 atomic mass",
+      "chemistry atomic mass",
+      "element atomic weights",
+      "school chemistry periodic table",
+      "atomic mass lookup",
+      "chemistry reference tool"
+    ]
+  },
+  {
+    "name": "Reading Time Calculator",
+    "description": "Estimate how long it takes to read text based on word count and adjustable WPM. Free, fast, and fully private.",
+    "path": "/tools/reading-time-calculator/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "reading time calculator",
+      "reading time estimator",
+      "how long to read text",
+      "text reading time calculator",
+      "student reading time",
+      "article reading time",
+      "words per minute calculator",
+      "WPM reading calculator",
+      "study reading time",
+      "reading speed calculator"
+    ]
+  },
+  {
+    "name": "Sentence Counter",
+    "description": "Count sentences, words, and average sentence length in your text instantly. Free, fast, and fully private browser tool.",
+    "path": "/tools/sentence-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "sentence counter",
+      "sentence count calculator",
+      "count sentences online",
+      "essay sentence counter",
+      "paragraph sentence counter",
+      "student sentence counter",
+      "class 10 sentence counter",
+      "writing sentence count",
+      "text sentence counter",
+      "free sentence counter"
+    ]
+  },
+  {
+    "name": "Character Counter",
+    "description": "Count characters with and without spaces, words, and lines in real-time. Free, fast, and fully private browser tool.",
+    "path": "/tools/character-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "character counter",
+      "character count tool",
+      "characters with spaces",
+      "characters without spaces",
+      "text character counter",
+      "essay character counter",
+      "student character count",
+      "online character counter",
+      "writing character limit",
+      "free character counter"
+    ]
+  },
+  {
+    "name": "Speed Distance Time Calculator",
+    "description": "Calculate speed, distance, or time using the S=D/T formula with unit conversions. Free, fast, and fully private.",
+    "path": "/tools/speed-distance-time-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "speed distance time calculator",
+      "speed calculator",
+      "distance calculator",
+      "time calculator",
+      "S D T calculator",
+      "speed formula calculator",
+      "class 10 speed calculator",
+      "physics motion calculator",
+      "distance time speed",
+      "school physics calculator"
+    ]
+  },
+  {
+    "name": "Circle Area Calculator",
+    "description": "Calculate circle area, circumference, and diameter from radius with 22/7 or precise pi. Free and fully private.",
+    "path": "/tools/circle-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circle area calculator",
+      "circumference calculator",
+      "circle calculator",
+      "area of circle",
+      "class 10 circle calculator",
+      "pi r squared calculator",
+      "circle diameter calculator",
+      "school circle calculator",
+      "mensuration circle",
+      "10th maths circle"
+    ]
+  },
+  {
+    "name": "Cylinder Calculator",
+    "description": "Calculate cylinder CSA, TSA, and volume from radius and height with formula steps. Free and fully private.",
+    "path": "/tools/cylinder-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cylinder volume calculator",
+      "cylinder calculator",
+      "cylinder surface area calculator",
+      "CSA TSA cylinder",
+      "class 10 cylinder calculator",
+      "10th maths cylinder",
+      "cylinder volume formula",
+      "school cylinder calculator",
+      "mensuration cylinder",
+      "cylinder area"
+    ]
+  },
+  {
+    "name": "Cone Calculator",
+    "description": "Calculate cone CSA, TSA, volume, and slant height from radius and height. Free and fully private.",
+    "path": "/tools/cone-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cone volume calculator",
+      "cone calculator",
+      "cone surface area calculator",
+      "CSA TSA cone",
+      "class 10 cone calculator",
+      "10th maths cone",
+      "cone volume formula",
+      "school cone calculator",
+      "mensuration cone",
+      "cone area"
+    ]
+  },
+  {
+    "name": "Sphere Calculator",
+    "description": "Calculate sphere surface area and volume from radius with formula steps. Free and fully private.",
+    "path": "/tools/sphere-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "sphere volume calculator",
+      "sphere calculator",
+      "sphere surface area calculator",
+      "class 10 sphere calculator",
+      "10th maths sphere",
+      "sphere volume formula",
+      "school sphere calculator",
+      "mensuration sphere",
+      "sphere area calculator",
+      "sphere volume"
+    ]
+  },
+  {
+    "name": "Hemisphere Calculator",
+    "description": "Calculate hemisphere CSA, TSA, and volume from radius with formula steps. Free and fully private.",
+    "path": "/tools/hemisphere-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "hemisphere calculator",
+      "hemisphere volume calculator",
+      "hemisphere surface area calculator",
+      "class 10 hemisphere calculator",
+      "10th maths hemisphere",
+      "hemisphere volume formula",
+      "school hemisphere calculator",
+      "mensuration hemisphere",
+      "CSA TSA hemisphere",
+      "hemisphere area"
+    ]
+  },
+  {
+    "name": "Pressure Calculator",
+    "description": "Calculate pressure, force, or area using P=F/A with unit conversions. Free and fully private.",
+    "path": "/tools/pressure-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pressure calculator",
+      "force area calculator",
+      "P F A calculator",
+      "class 10 pressure calculator",
+      "physics pressure calculator",
+      "pressure formula calculator",
+      "school pressure solver",
+      "science pressure tool",
+      "pressure online calculator",
+      "force pressure area"
+    ]
+  },
+  {
+    "name": "pH Calculator",
+    "description": "Calculate pH, pOH, and ion concentrations with acid/base classification. Free and fully private.",
+    "path": "/tools/ph-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pH calculator",
+      "pOH calculator",
+      "hydrogen ion concentration calculator",
+      "class 10 pH calculator",
+      "acid base calculator",
+      "pH formula calculator",
+      "chemistry pH calculator",
+      "school pH tool",
+      "pH scale calculator",
+      "acids bases calculator"
+    ]
+  },
+  {
+    "name": "Concentration Calculator",
+    "description": "Calculate solution concentration, mass of solute, or volume using C=m/V. Free and fully private.",
+    "path": "/tools/concentration-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "concentration calculator",
+      "solution concentration calculator",
+      "class 10 concentration calculator",
+      "chemistry concentration calculator",
+      "mass volume concentration",
+      "solute solvent calculator",
+      "school chemistry concentration",
+      "concentration formula calculator",
+      "solution calculator",
+      "molarity concentration"
+    ]
+  },
+  {
+    "name": "Valency Helper",
+    "description": "Look up common element valencies for Class 10 chemistry with instant search. Free and fully private.",
+    "path": "/tools/valency-helper/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "valency calculator",
+      "valency chart",
+      "valency of elements",
+      "class 10 valency",
+      "chemistry valency",
+      "common valencies",
+      "element valency finder",
+      "school chemistry valency",
+      "valency table",
+      "valency helper"
+    ]
+  },
+  {
+    "name": "Letter Writing Word Counter",
+    "description": "Count words and check format in formal/informal letters for Class 10 English. Free and fully private.",
+    "path": "/tools/letter-writing-word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "letter writing word counter",
+      "formal letter word count",
+      "informal letter word count",
+      "class 10 letter writing",
+      "CBSE letter format",
+      "letter writing checker",
+      "English letter counter",
+      "letter format checker",
+      "school letter writing",
+      "letter word limit"
+    ]
+  },
+  {
+    "name": "Active Passive Voice Converter",
+    "description": "Learn active to passive voice conversion with step-by-step patterns and examples. Free and fully private.",
+    "path": "/tools/active-passive-voice-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "active passive voice converter",
+      "active to passive converter",
+      "passive voice converter",
+      "class 10 active passive",
+      "voice change converter",
+      "English grammar passive voice",
+      "active passive examples",
+      "grammar voice converter",
+      "school passive voice",
+      "voice change tool"
+    ]
+  },
+  {
+    "name": "Direct Indirect Speech Converter",
+    "description": "Learn direct to indirect speech conversion with complete rules and examples. Free and fully private.",
+    "path": "/tools/direct-indirect-speech-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "direct indirect speech converter",
+      "reported speech converter",
+      "direct to indirect converter",
+      "class 10 reported speech",
+      "indirect speech converter",
+      "English grammar reported speech",
+      "direct indirect examples",
+      "speech converter",
+      "school reported speech",
+      "voice speech converter"
+    ]
+  },
+  {
+    "name": "Parts of Speech Checker",
+    "description": "Identify the part of speech for common English words with definitions and tips. Free and fully private.",
+    "path": "/tools/parts-of-speech-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "parts of speech checker",
+      "part of speech identifier",
+      "noun verb adjective checker",
+      "class 10 parts of speech",
+      "English grammar checker",
+      "word type checker",
+      "grammar parts of speech",
+      "school grammar tool",
+      "parts of speech tool",
+      "identify word type"
+    ]
+  },
+  {
+    "name": "ASCII Table Lookup",
+    "description": "Look up ASCII character codes in decimal, hex, binary, and octal formats. Free and fully private.",
+    "path": "/tools/ascii-table/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "ASCII table",
+      "ASCII converter",
+      "ASCII character codes",
+      "ASCII lookup",
+      "character to ASCII",
+      "ASCII decimal hex",
+      "ASCII binary converter",
+      "computer applications ASCII",
+      "developer ASCII tool",
+      "ASCII code finder"
+    ]
+  },
+  {
+    "name": "NCERT Discovery Matrix",
+    "description": "Explore the NCERT class 11 physics scientists and their discoveries table tool. Quiz and database for Physical World chapter scientists.",
+    "path": "/tools/class-11/physics/ch-1/ncert-discovery-matrix/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ncert class 11 physics scientists and their discoveries table tool",
+      "NCERT physics scientists",
+      "scientists and discoveries physics",
+      "Physical World scientist table",
+      "class 11 physics discovery quiz",
+      "physics history table",
+      "scientists class 11 physics",
+      "physical world chapter scientists"
     ]
   }
 ]

@@ -1,0 +1,19 @@
+﻿{
+  "name": "Focal Length Calculator",
+  "description": "Calculate focal length from object and image distances for lenses and mirrors with sign convention support. Free and private.",
+  "path": "/tools/focal-length-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "focal length calculator",
+    "lens focal length calculator",
+    "mirror focal length calculator",
+    "class 10 focal length",
+    "10th physics optics calculator",
+    "u v focal length",
+    "school optics solver",
+    "focal length online",
+    "physics lens mirror tool"
+  ],
+  "order": 96
+}

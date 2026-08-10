@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Class 10 Percentage Calculator",
+    "description": "Calculate your Class 10 board exam percentage from subject-wise marks. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/class-10-percentage-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "class 10 percentage calculator",
+      "10th percentage calculator",
+      "board percentage calculator",
+      "marks to percentage",
+      "student percentage calculator",
+      "CBSE percentage calculator",
+      "class 10 marks calculator"
+    ]
+  },
+  {
+    "name": "Suneung D-Day Counter",
+    "description": "Calculate days remaining until your Suneung exam. Free Korean exam countdown tool.",
+    "path": "/tools/suneung-dday-counter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "suneung d-day counter",
+      "suneung countdown",
+      "exam calculator"
+    ]
+  },
+  {
+    "name": "Marks to Percentage Calculator",
+    "description": "Convert obtained marks and total marks into percentage instantly. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/marks-to-percentage-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "marks to percentage calculator",
+      "marks percentage calculator",
+      "percentage from marks",
+      "calculate percentage from marks",
+      "student marks calculator",
+      "exam percentage calculator"
+    ]
+  },
+  {
+    "name": "Best of Five Calculator",
+    "description": "Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/best-of-five-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "best of five calculator",
+      "best 5 percentage calculator",
+      "best five marks calculator",
+      "class 10 best of five",
+      "CBSE best five calculator",
+      "student best five calculator"
+    ]
+  },
+  {
+    "name": "Marks Needed Calculator",
+    "description": "Calculate how many marks you need to achieve your target percentage. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/marks-needed-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "marks needed calculator",
+      "marks required calculator",
+      "marks needed for 90 percent",
+      "target marks calculator",
+      "exam target calculator",
+      "student marks planner"
+    ]
+  },
+  {
+    "name": "Quadratic Equation Solver",
+    "description": "Solve quadratic equations ax² + bx + c = 0 with discriminant and roots. Free, fast, and 100% private browser-based solver.",
+    "path": "/tools/quadratic-equation-solver/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "quadratic equation solver",
+      "quadratic formula calculator",
+      "solve quadratic equation",
+      "discriminant calculator",
+      "roots of quadratic equation",
+      "class 10 quadratic equation solver"
+    ]
+  },
+  {
+    "name": "Board Marks Calculator",
+    "description": "Calculate your board exam total marks and percentage from subject-wise scores with configurable maximum marks. Free and private.",
+    "path": "/tools/board-marks-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "board marks calculator",
+      "board exam marks calculator",
+      "class 10 board marks calculator",
+      "board result calculator",
+      "board percentage calculator",
+      "10th board marks calculator"
+    ]
+  },
+  {
+    "name": "Grade Calculator",
+    "description": "Convert marks into percentage and grade using standard or letter grade scales. Free, fast, and fully private in your browser.",
+    "path": "/tools/grade-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "grade calculator",
+      "marks to grade calculator",
+      "percentage to grade calculator",
+      "student grade calculator",
+      "class 10 grade calculator",
+      "letter grade calculator"
+    ]
+  },
+  {
+    "name": "Student Average Calculator",
+    "description": "Calculate the average of marks across tests or subjects with count, sum, highest and lowest values. Free and private.",
+    "path": "/tools/student-average-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "average marks calculator",
+      "student average calculator",
+      "marks average calculator",
+      "average percentage calculator",
+      "exam average calculator",
+      "mean marks calculator"
+    ]
+  },
+  {
+    "name": "Weighted Average Calculator",
+    "description": "Calculate weighted marks where assignments, tests, and exams have different weights, with a clear total-weight check. Free and private.",
+    "path": "/tools/weighted-average-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "weighted average calculator",
+      "weighted marks calculator",
+      "weighted grade calculator",
+      "student weighted average",
+      "final grade calculator",
+      "weighted score calculator"
+    ]
+  },
+  {
+    "name": "Arithmetic Progression Calculator",
+    "description": "Calculate the nth term and sum of an arithmetic progression from a, d, and n, with a preview of the first terms. Free and private.",
+    "path": "/tools/arithmetic-progression-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "AP calculator",
+      "arithmetic progression calculator",
+      "nth term AP calculator",
+      "sum of AP calculator",
+      "class 10 AP calculator",
+      "arithmetic sequence calculator"
+    ]
+  },
+  {
+    "name": "Mean Median Mode Calculator",
+    "description": "Calculate mean, median, mode and range from a list of numbers with the sorted data shown for verification. Free and private.",
+    "path": "/tools/mean-median-mode-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mean median mode calculator",
+      "statistics calculator",
+      "median calculator",
+      "mode calculator",
+      "mean calculator",
+      "class 10 statistics calculator"
+    ]
+  },
+  {
+    "name": "HCF Calculator",
+    "description": "Find the HCF or GCD of two or more positive integers using the Euclidean algorithm. Free, fast, and fully private.",
+    "path": "/tools/hcf-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "HCF calculator",
+      "GCD calculator",
+      "highest common factor calculator",
+      "greatest common divisor calculator",
+      "class 10 HCF calculator",
+      "HCF of two numbers"
+    ]
+  },
+  {
+    "name": "LCM Calculator",
+    "description": "Find the LCM of two or more positive integers using the HCF-based formula for accuracy. Free, fast, and fully private.",
+    "path": "/tools/lcm-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "LCM calculator",
+      "least common multiple calculator",
+      "LCM of two numbers",
+      "class 10 LCM calculator",
+      "LCM method",
+      "LCM online"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator",
+    "description": "Solve V=IR for voltage, current, or resistance with the formula shown and division-by-zero protection. Free and private.",
+    "path": "/tools/ohms-law-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator",
+      "voltage current resistance calculator",
+      "class 10 electricity calculator",
+      "resistance calculator",
+      "VIR calculator",
+      "physics electricity calculator"
+    ]
+  },
+  {
+    "name": "Electrical Power Calculator",
+    "description": "Calculate electrical power using P=VI, P=I^2R, or P=V^2/R with the applied formula shown and zero-division safety. Free and private.",
+    "path": "/tools/electrical-power-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electrical power calculator",
+      "electric power calculator",
+      "power formula calculator",
+      "class 10 electricity power calculator",
+      "P VI calculator",
+      "physics power solver"
+    ]
+  },
+  {
+    "name": "Ratio Calculator",
+    "description": "Simplify ratios of two or more values using the HCF method with equivalent ratio shown. Free, fast, and fully private.",
+    "path": "/tools/ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "ratio calculator",
+      "simplify ratio calculator",
+      "ratio simplifier",
+      "equivalent ratio calculator",
+      "class 10 ratio calculator",
+      "ratio solver"
+    ]
+  },
+  {
+    "name": "Proportion Calculator",
+    "description": "Solve proportions a:b = c:d for a missing value with cross-multiplication steps and zero-division safety. Free and private.",
+    "path": "/tools/proportion-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "proportion calculator",
+      "proportion solver",
+      "ratio proportion calculator",
+      "cross multiplication calculator",
+      "class 10 proportion calculator",
+      "missing value proportion"
+    ]
+  },
+  {
+    "name": "Profit Loss Calculator",
+    "description": "Calculate profit or loss amount and percentage from cost price and selling price with clear break-even handling. Free and private.",
+    "path": "/tools/profit-loss-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "profit loss calculator",
+      "profit percentage calculator",
+      "loss percentage calculator",
+      "CP SP calculator",
+      "class 10 profit loss",
+      "cost price selling price calculator"
+    ]
+  },
+  {
+    "name": "Simple Interest Calculator",
+    "description": "Calculate simple interest and total amount from principal, rate and time using the standard school formula. Free and private.",
+    "path": "/tools/simple-interest-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "simple interest calculator",
+      "SI calculator",
+      "class 10 SI calculator",
+      "principal rate time calculator",
+      "simple interest formula calculator",
+      "interest calculator"
+    ]
+  },
+  {
+    "name": "Compound Interest Calculator",
+    "description": "Calculate compound interest and amount with yearly, half-yearly or quarterly compounding using A=P(1+r/n)^nt. Free and private.",
+    "path": "/tools/compound-interest-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "compound interest calculator",
+      "CI calculator",
+      "class 10 compound interest calculator",
+      "compound interest formula calculator",
+      "half yearly compound interest",
+      "compound amount calculator"
+    ]
+  },
+  {
+    "name": "Distance Formula Calculator",
+    "description": "Calculate the distance between two coordinate points with full formula substitution shown. Free, fast, and fully private.",
+    "path": "/tools/distance-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "distance formula calculator",
+      "distance between two points calculator",
+      "class 10 distance formula",
+      "coordinate distance calculator",
+      "distance formula solver",
+      "coordinate geometry calculator"
+    ]
+  },
+  {
+    "name": "Midpoint Calculator",
+    "description": "Find the midpoint between two coordinate points using the midpoint formula with substitution shown. Free and private.",
+    "path": "/tools/midpoint-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "midpoint calculator",
+      "midpoint formula calculator",
+      "class 10 midpoint calculator",
+      "coordinate midpoint calculator",
+      "midpoint of two points",
+      "coordinate geometry midpoint"
+    ]
+  },
+  {
+    "name": "Section Formula Calculator",
+    "description": "Find the point dividing a line segment internally in a given ratio using the section formula with steps. Free and private.",
+    "path": "/tools/section-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "section formula calculator",
+      "section formula solver",
+      "class 10 section formula",
+      "internal division calculator",
+      "coordinate section formula",
+      "section formula class 10"
+    ]
+  }
+]

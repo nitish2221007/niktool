@@ -1,0 +1,15 @@
+{
+  "name": "ER Diagram Maker",
+  "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
+  "path": "/tools/er-diagram-maker/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "er diagram maker",
+    "er diagram maker",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 50
+}

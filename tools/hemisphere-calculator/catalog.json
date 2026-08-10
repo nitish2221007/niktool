@@ -1,0 +1,20 @@
+﻿{
+  "name": "Hemisphere Calculator",
+  "description": "Calculate hemisphere CSA, TSA, and volume from radius with formula steps. Free and fully private.",
+  "path": "/tools/hemisphere-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "hemisphere calculator",
+    "hemisphere volume calculator",
+    "hemisphere surface area calculator",
+    "class 10 hemisphere calculator",
+    "10th maths hemisphere",
+    "hemisphere volume formula",
+    "school hemisphere calculator",
+    "mensuration hemisphere",
+    "CSA TSA hemisphere",
+    "hemisphere area"
+  ],
+  "order": 111
+}

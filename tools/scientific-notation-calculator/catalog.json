@@ -1,0 +1,18 @@
+﻿{
+  "name": "Scientific Notation Calculator",
+  "description": "Convert numbers to and from scientific notation with coefficient, exponent and e-notation shown. Free, fast, and fully private.",
+  "path": "/tools/scientific-notation-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "scientific notation calculator",
+    "standard form calculator",
+    "scientific notation converter",
+    "class 10 scientific notation",
+    "physics scientific notation",
+    "exponent notation calculator",
+    "number to scientific notation",
+    "scientific form calculator"
+  ],
+  "order": 54
+}

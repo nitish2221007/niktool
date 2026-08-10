@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stack Data Structure Visualizer | NikTool</title>
+  <meta name="description" content="Push and pop elements on an interactive visual stack. See LIFO behavior with animations.">
+  <link rel="canonical" href="https://niktool.in/tools/stack-visualizer/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+  <section class="tool-hero">
+    <h1>Stack Visualizer</h1>
+    <p>Push, pop, and peek at elements on a visual stack. Watch the LIFO (Last-In-First-Out) principle in action.</p>
+  </section>
+
+  <section class="tool-workspace">
+    <div class="workspace-header">
+      <h2>Stack</h2>
+      <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+    </div>
+    <div class="toolbar" style="margin-bottom:1rem;">
+      <input type="number" id="stack-val" class="tool-textarea" placeholder="Value" style="height:40px; padding:0.4rem; width:100px;">
+      <button class="button" id="push-btn" type="button">Push</button>
+      <button class="button secondary" id="pop-btn" type="button">Pop</button>
+      <button class="button secondary" id="peek-btn" type="button">Peek</button>
+      <button class="button secondary" id="stack-clear" type="button">Clear</button>
+    </div>
+    <div id="stack-display" style="min-height:320px; display:flex; flex-direction:column-reverse; align-items:center; gap:4px; padding:1rem; border:2px dashed rgba(255,255,255,0.15); border-radius:8px; position:relative;">
+      <span id="stack-empty" style="position:absolute; top:50%; transform:translateY(-50%); opacity:0.4;">Stack is empty</span>
+    </div>
+    <div style="margin-top:0.75rem; font-size:0.85rem; opacity:0.7;">
+      <p>Size: <span id="stack-size">0</span> | Top: <span id="stack-top">—</span></p>
+    </div>
+    <p class="message" id="stack-msg" role="status">Use Push to add elements. Stack follows LIFO order.</p>
+  </section>
+
+  <article class="seo-content">
+    <h2>What is a Stack?</h2>
+    <p>A stack is a linear data structure that follows <strong>Last-In-First-Out (LIFO)</strong>. The last element pushed is the first one popped. Think of a stack of plates.</p>
+    <h2>Operations</h2>
+    <ol>
+      <li><strong>Push(x)</strong> — add element to top — O(1)</li>
+      <li><strong>Pop()</strong> — remove top element — O(1)</li>
+      <li><strong>Peek()/Top()</strong> — view top without removing — O(1)</li>
+      <li><strong>isEmpty()</strong> — check if stack is empty — O(1)</li>
+    </ol>
+    <h2>Real-world uses</h2>
+    <details><summary>Where are stacks used?</summary><p>Undo/Redo in editors, function call stack, browser back button, expression evaluation, DFS traversal, and parenthesis matching.</p></details>
+  </article>  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/stack-visualizer/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿{
+  "name": "Discriminant Calculator",
+  "description": "Calculate b squared minus 4ac and classify the nature of quadratic roots with full substitution shown. Free and private.",
+  "path": "/tools/discriminant-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "discriminant calculator",
+    "quadratic discriminant calculator",
+    "nature of roots calculator",
+    "class 10 discriminant",
+    "D calculator quadratic",
+    "discriminant formula calculator"
+  ],
+  "order": 30
+}

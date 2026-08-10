@@ -1,0 +1,18 @@
+﻿{
+  "name": "Expense Tracker",
+  "description": "Track your daily expenses, categorize spending, and view summaries locally. A 100% free, secure, and private browser-based expense tracker.",
+  "path": "/tools/expense-tracker/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "expense tracker",
+    "budget app",
+    "spending log",
+    "personal finance",
+    "daily expenses",
+    "money tracker",
+    "local storage app",
+    "free budget tool"
+  ],
+  "order": 96
+}

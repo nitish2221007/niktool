@@ -1,0 +1,16 @@
+﻿{
+  "name": "Student Average Calculator",
+  "description": "Calculate the average of marks across tests or subjects with count, sum, highest and lowest values. Free and private.",
+  "path": "/tools/student-average-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "average marks calculator",
+    "student average calculator",
+    "marks average calculator",
+    "average percentage calculator",
+    "exam average calculator",
+    "mean marks calculator"
+  ],
+  "order": 8
+}

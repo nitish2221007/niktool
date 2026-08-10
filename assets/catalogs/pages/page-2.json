@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Probability Calculator",
+    "description": "Calculate basic probability from favorable and total outcomes with fraction, decimal, percent and complement. Free and private.",
+    "path": "/tools/probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "probability calculator",
+      "class 10 probability calculator",
+      "simple probability calculator",
+      "probability formula calculator",
+      "favorable outcomes calculator",
+      "probability solver"
+    ]
+  },
+  {
+    "name": "CGPA to Percentage Calculator",
+    "description": "Convert CGPA to percentage with selectable formulas including CBSE-style 9.5 and custom multipliers. Free and private.",
+    "path": "/tools/cgpa-to-percentage-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "CGPA to percentage calculator",
+      "CGPA percentage calculator",
+      "convert CGPA to percentage",
+      "class 10 CGPA calculator",
+      "CGPA converter India",
+      "percentage from CGPA"
+    ]
+  },
+  {
+    "name": "Discount Calculator",
+    "description": "Calculate discount amount and final sale price from original price and discount percentage with savings shown. Free and private.",
+    "path": "/tools/discount-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "discount calculator",
+      "discount percentage calculator",
+      "sale price calculator",
+      "discount amount calculator",
+      "final price calculator",
+      "class 10 discount calculator"
+    ]
+  },
+  {
+    "name": "GST Calculator",
+    "description": "Calculate GST inclusive and exclusive prices with CGST and SGST split for any tax rate. Free, fast, and fully private.",
+    "path": "/tools/gst-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "GST calculator",
+      "GST calculator India",
+      "CGST SGST calculator",
+      "GST inclusive calculator",
+      "GST exclusive calculator",
+      "GST percentage calculator"
+    ]
+  },
+  {
+    "name": "SI vs CI Calculator",
+    "description": "Compare simple interest and compound interest on the same principal, rate and time, and see the exact difference. Free and private.",
+    "path": "/tools/si-vs-ci-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "SI vs CI calculator",
+      "simple vs compound interest calculator",
+      "interest comparison calculator",
+      "difference between SI and CI",
+      "class 10 SI CI calculator",
+      "interest difference calculator"
+    ]
+  },
+  {
+    "name": "Prime Factorization Calculator",
+    "description": "Break any integer into prime factors with exponent notation and a full factor list. Free, fast, and fully private browser tool.",
+    "path": "/tools/prime-factorization-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "prime factorization calculator",
+      "prime factors calculator",
+      "factorization calculator",
+      "prime decomposition calculator",
+      "class 10 prime factorization",
+      "prime factor tool"
+    ]
+  },
+  {
+    "name": "Class 11 Chemistry Chapter 1 Hub",
+    "description": "Master Class 11 Chemistry Chapter 1 (Some Basic Concepts of Chemistry) with all essential calculators, formulas, and tools in one place.",
+    "path": "/tools/class-11/chemistry/ch-1/some-basic-concepts/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "class 11 chemistry",
+      "class 11 chapter 1",
+      "some basic concepts of chemistry",
+      "chemistry tools",
+      "class 11 chemistry hub",
+      "mole concept tools"
+    ]
+  },
+  {
+    "name": "Discriminant Calculator",
+    "description": "Calculate b squared minus 4ac and classify the nature of quadratic roots with full substitution shown. Free and private.",
+    "path": "/tools/discriminant-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "discriminant calculator",
+      "quadratic discriminant calculator",
+      "nature of roots calculator",
+      "class 10 discriminant",
+      "D calculator quadratic",
+      "discriminant formula calculator"
+    ]
+  },
+  {
+    "name": "Password Generator",
+    "description": "Create strong, customizable passwords locally in your browser.",
+    "path": "/tools/password-generator/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "password",
+      "random",
+      "secure",
+      "generator",
+      "security"
+    ]
+  },
+  {
+    "name": "Linear Equations Solver",
+    "description": "Solve a pair of linear equations in two variables with unique, no or infinite solution detection. Free and fully private.",
+    "path": "/tools/linear-equations-solver/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "linear equations solver",
+      "pair of linear equations solver",
+      "simultaneous equations calculator",
+      "class 10 linear equations",
+      "two variable equations calculator",
+      "elimination method calculator"
+    ]
+  },
+  {
+    "name": "Polynomial Calculator",
+    "description": "Evaluate a polynomial at a given x value and view its degree and leading coefficient. Free, fast, and fully private browser tool.",
+    "path": "/tools/polynomial-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "polynomial calculator",
+      "polynomial evaluator",
+      "class 10 polynomial calculator",
+      "evaluate polynomial",
+      "polynomial degree calculator",
+      "polynomial solver"
+    ]
+  },
+  {
+    "name": "Trigonometry Ratio Calculator",
+    "description": "Calculate sin, cos, tan and the reciprocal trig ratios for any angle in degrees or radians. Free, fast, and fully private.",
+    "path": "/tools/trigonometry-ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "trigonometry calculator",
+      "trigonometric ratios calculator",
+      "sin cos tan calculator",
+      "class 10 trigonometry calculator",
+      "trig ratio calculator",
+      "six trigonometric ratios"
+    ]
+  },
+  {
+    "name": "Triangle Area Calculator",
+    "description": "Find triangle area using base-height or Heron's formula with validation for impossible triangles. Free, fast, and fully private.",
+    "path": "/tools/triangle-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "triangle area calculator",
+      "area of triangle calculator",
+      "Heron formula calculator",
+      "base height triangle calculator",
+      "class 10 triangle area calculator",
+      "three sides triangle area"
+    ]
+  },
+  {
+    "name": "Surface Area and Volume Calculator",
+    "description": "Compute CSA, TSA and volume for cube, cuboid, cylinder, cone, sphere and hemisphere with formulas shown. Free and private.",
+    "path": "/tools/surface-area-volume-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "surface area volume calculator",
+      "mensuration calculator",
+      "CSA TSA calculator",
+      "volume calculator",
+      "class 10 surface area calculator",
+      "solid geometry calculator"
+    ]
+  },
+  {
+    "name": "Big-O Complexity Guide",
+    "description": "Interactive Big-O notation reference with operation calculator and growth charts.",
+    "path": "/tools/big-o-calculator/",
+    "category": "DSA",
+    "icon": "chart-line",
+    "keywords": [
+      "big-o",
+      "time complexity",
+      "space complexity",
+      "algorithm analysis",
+      "dsa"
+    ]
+  },
+  {
+    "name": "Electrical Energy Calculator",
+    "description": "Calculate electrical energy in joules and kWh from power and time with clear unit conversion. Free, fast, and fully private.",
+    "path": "/tools/electrical-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electrical energy calculator",
+      "energy calculator physics",
+      "kWh calculator",
+      "joules calculator",
+      "class 10 electrical energy",
+      "power time energy calculator",
+      "electric energy formula calculator",
+      "physics energy tool"
+    ]
+  },
+  {
+    "name": "Electricity Bill Calculator",
+    "description": "Estimate an electricity bill from units consumed, rate per unit, and fixed charge with an editable tariff. Free and private.",
+    "path": "/tools/electricity-bill-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "electricity bill calculator",
+      "electric bill calculator",
+      "power bill calculator",
+      "electricity bill calculator India",
+      "kWh bill calculator",
+      "electricity cost calculator",
+      "unit electricity bill calculator",
+      "home electricity calculator"
+    ]
+  },
+  {
+    "name": "Sorting Visualizer",
+    "description": "Animate Bubble, Selection, Insertion, Merge and Quick Sort step by step.",
+    "path": "/tools/sorting-visualizer/",
+    "category": "DSA",
+    "icon": "bar-chart",
+    "keywords": [
+      "sorting",
+      "bubble sort",
+      "merge sort",
+      "quick sort",
+      "visualizer",
+      "dsa"
+    ]
+  },
+  {
+    "name": "Searching Visualizer",
+    "description": "Animate Linear Search and Binary Search step by step.",
+    "path": "/tools/searching-visualizer/",
+    "category": "DSA",
+    "icon": "search",
+    "keywords": [
+      "linear search",
+      "binary search",
+      "searching algorithm",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Series Resistance Calculator",
+    "description": "Calculate the equivalent resistance of resistors in series by summing all values. Free, fast, and fully private browser tool.",
+    "path": "/tools/series-resistance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "series resistance calculator",
+      "resistors in series calculator",
+      "series resistor calculator",
+      "equivalent resistance series",
+      "class 10 series resistance",
+      "physics series circuit calculator",
+      "resistance series formula",
+      "school resistor calculator"
+    ]
+  },
+  {
+    "name": "Parallel Resistance Calculator",
+    "description": "Calculate the equivalent resistance of resistors in parallel using the reciprocal formula. Free, fast, and fully private.",
+    "path": "/tools/parallel-resistance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "parallel resistance calculator",
+      "resistors in parallel calculator",
+      "parallel resistor calculator",
+      "equivalent resistance parallel",
+      "class 10 parallel resistance",
+      "physics parallel circuit calculator",
+      "parallel resistance formula",
+      "school resistor calculator"
+    ]
+  },
+  {
+    "name": "Stack Visualizer",
+    "description": "Push and pop elements on an interactive visual stack (LIFO).",
+    "path": "/tools/stack-visualizer/",
+    "category": "DSA",
+    "icon": "layers",
+    "keywords": [
+      "stack",
+      "lifo",
+      "push",
+      "pop",
+      "data structure",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Lens Formula Calculator",
+    "description": "Solve the lens formula 1/f = 1/v - 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/lens-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lens formula calculator",
+      "lens equation calculator",
+      "class 10 lens formula",
+      "focal length calculator lens",
+      "u v f calculator lens",
+      "magnification lens calculator",
+      "school optics calculator",
+      "ray optics lens calculator"
+    ]
+  },
+  {
+    "name": "PDF Merger",
+    "description": "Merge multiple PDF files into one document securely in your browser.",
+    "path": "/tools/pdf-merger/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "merge",
+      "combine",
+      "join",
+      "document"
+    ]
+  }
+]

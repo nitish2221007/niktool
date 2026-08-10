@@ -1,0 +1,16 @@
+﻿{
+  "name": "Distance Formula Calculator",
+  "description": "Calculate the distance between two coordinate points with full formula substitution shown. Free, fast, and fully private.",
+  "path": "/tools/distance-formula-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "distance formula calculator",
+    "distance between two points calculator",
+    "class 10 distance formula",
+    "coordinate distance calculator",
+    "distance formula solver",
+    "coordinate geometry calculator"
+  ],
+  "order": 21
+}

@@ -1,0 +1,18 @@
+﻿{
+  "name": "B.Tech Student Dashboard",
+  "description": "Track your CGPA, attendance, assignments, and study goals locally. A 100% free, secure, and private browser-based dashboard for engineering students.",
+  "path": "/tools/btech-student-dashboard/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "btech student dashboard",
+    "engineering cgpa tracker",
+    "college attendance app",
+    "student assignment tracker",
+    "academic progress hub",
+    "btech study planner",
+    "engineering student tool",
+    "local student dashboard"
+  ],
+  "order": 100
+}

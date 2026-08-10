@@ -1,0 +1,16 @@
+﻿{
+  "name": "Trigonometry Ratio Calculator",
+  "description": "Calculate sin, cos, tan and the reciprocal trig ratios for any angle in degrees or radians. Free, fast, and fully private.",
+  "path": "/tools/trigonometry-ratio-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "trigonometry calculator",
+    "trigonometric ratios calculator",
+    "sin cos tan calculator",
+    "class 10 trigonometry calculator",
+    "trig ratio calculator",
+    "six trigonometric ratios"
+  ],
+  "order": 33
+}

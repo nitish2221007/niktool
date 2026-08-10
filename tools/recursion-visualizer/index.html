@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recursion Visualizer | NikTool</title>
+  <meta name="description" content="See recursive function calls rendered as an animated call tree for Fibonacci, Factorial and Power functions.">
+  <link rel="canonical" href="https://niktool.in/tools/recursion-visualizer/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+  <section class="tool-hero">
+    <h1>Recursion Visualizer</h1>
+    <p>Watch how recursive functions like Fibonacci and Factorial branch into a call tree, step by step.</p>
+  </section>
+
+  <section class="tool-workspace">
+    <div class="workspace-header">
+      <h2>Call Tree</h2>
+      <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+    </div>
+    <div class="toolbar" style="margin-bottom:0.75rem;">
+      <select id="rec-func" class="tool-textarea" style="height:40px; padding:0.4rem;">
+        <option value="fib">Fibonacci(n)</option>
+        <option value="fact">Factorial(n)</option>
+        <option value="pow">Power(x, n)</option>
+      </select>
+      <input type="number" id="rec-n" class="tool-textarea" value="6" min="1" max="12" style="height:40px; padding:0.4rem; width:80px;">
+      <button class="button" id="rec-run" type="button">▶ Visualize</button>
+      <button class="button secondary" id="rec-clear" type="button">Clear</button>
+    </div>
+    <canvas id="rec-canvas" style="width:100%; height:420px; border-radius:8px; background:#1a1a2e;"></canvas>
+    <p class="message" id="rec-msg" role="status">Choose a function and press Visualize. Keep n ≤ 12 for readable trees.</p>
+  </section>
+
+  <article class="seo-content">
+    <h2>What is Recursion?</h2>
+    <p>Recursion is when a function calls itself with a smaller sub-problem until it reaches a base case. Every recursive call is pushed onto the call stack.</p>
+    <h2>Key Concepts</h2>
+    <ol>
+      <li><strong>Base case</strong> — the condition that stops recursion</li>
+      <li><strong>Recursive case</strong> — the function calling itself with smaller input</li>
+      <li><strong>Call stack</strong> — each call creates a new stack frame</li>
+    </ol>
+    <h2>FAQ</h2>
+    <details><summary>Why is naive Fibonacci O(2ⁿ)?</summary><p>fib(n) calls fib(n-1) and fib(n-2), causing overlapping sub-problems. The call tree doubles in width at each level.</p></details>
+    <details><summary>How to optimize recursive Fibonacci?</summary><p>Use memoization (top-down DP) to cache results, reducing time to O(n).</p></details>
+  </article>  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/recursion-visualizer/tool.js"></script>
+</body>
+</html>

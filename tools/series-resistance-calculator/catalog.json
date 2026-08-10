@@ -1,0 +1,18 @@
+﻿{
+  "name": "Series Resistance Calculator",
+  "description": "Calculate the equivalent resistance of resistors in series by summing all values. Free, fast, and fully private browser tool.",
+  "path": "/tools/series-resistance-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "series resistance calculator",
+    "resistors in series calculator",
+    "series resistor calculator",
+    "equivalent resistance series",
+    "class 10 series resistance",
+    "physics series circuit calculator",
+    "resistance series formula",
+    "school resistor calculator"
+  ],
+  "order": 38
+}

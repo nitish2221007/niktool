@@ -1,0 +1,20 @@
+﻿{
+  "name": "Circle Area Calculator",
+  "description": "Calculate circle area, circumference, and diameter from radius with 22/7 or precise pi. Free and fully private.",
+  "path": "/tools/circle-area-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "circle area calculator",
+    "circumference calculator",
+    "circle calculator",
+    "area of circle",
+    "class 10 circle calculator",
+    "pi r squared calculator",
+    "circle diameter calculator",
+    "school circle calculator",
+    "mensuration circle",
+    "10th maths circle"
+  ],
+  "order": 107
+}

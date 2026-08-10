@@ -1,0 +1,20 @@
+﻿{
+  "name": "JSON Formatter Validator",
+  "description": "Format, validate, and minify JSON locally with detailed error messages. Free, fast, and fully private browser-based tool.",
+  "path": "/tools/json-formatter-validator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "JSON formatter",
+    "JSON validator",
+    "JSON beautifier",
+    "JSON minifier",
+    "format JSON online",
+    "validate JSON",
+    "JSON pretty print",
+    "JSON parser online",
+    "JSON formatter validator",
+    "developer JSON tool"
+  ],
+  "order": 79
+}

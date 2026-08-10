@@ -1,0 +1,18 @@
+﻿{
+  "name": "Attendance Calculator",
+  "description": "Calculate your current attendance percentage and find out exactly how many classes you can miss or must attend. Free and private.",
+  "path": "/tools/attendance-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "attendance calculator",
+    "attendance percentage calculator",
+    "attendance shortage calculator",
+    "how many classes can I miss",
+    "classes needed for 75 attendance",
+    "student attendance calculator",
+    "75 percent attendance calculator",
+    "college attendance calculator"
+  ],
+  "order": 74
+}

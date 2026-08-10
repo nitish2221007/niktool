@@ -1,0 +1,18 @@
+﻿{
+  "name": "Alphabetical Text Sorter",
+  "description": "Sort any list of words or names alphabetically in ascending or descending order. Free, fast, and fully private.",
+  "path": "/tools/alphabetical-text-sorter/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "alphabetical order words",
+    "alphabetical text sorter",
+    "sort words alphabetically",
+    "alphabetizer",
+    "sort list alphabetically",
+    "alphabetical order calculator",
+    "dictionary order calculator",
+    "sort names alphabetically"
+  ],
+  "order": 65
+}

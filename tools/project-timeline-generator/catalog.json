@@ -1,0 +1,15 @@
+{
+  "name": "Project Timeline Generator",
+  "description": "Generate visual text-based project timelines by entering start dates, end dates, and key milestones. Perfect for quick roadmaps.",
+  "path": "/tools/project-timeline-generator/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "project timeline generator",
+    "project timeline generator",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 50
+}

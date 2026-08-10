@@ -1,0 +1,18 @@
+﻿{
+  "name": "Electrical Energy Calculator",
+  "description": "Calculate electrical energy in joules and kWh from power and time with clear unit conversion. Free, fast, and fully private.",
+  "path": "/tools/electrical-energy-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "electrical energy calculator",
+    "energy calculator physics",
+    "kWh calculator",
+    "joules calculator",
+    "class 10 electrical energy",
+    "power time energy calculator",
+    "electric energy formula calculator",
+    "physics energy tool"
+  ],
+  "order": 36
+}

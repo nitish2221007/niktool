@@ -1,0 +1,18 @@
+﻿{
+  "name": "Syllabus Progress Calculator",
+  "description": "Track your board exam preparation by calculating the percentage of syllabus completed versus remaining. Free and private.",
+  "path": "/tools/syllabus-progress-calculator/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "syllabus progress calculator",
+    "syllabus completion calculator",
+    "study progress calculator",
+    "chapter completion calculator",
+    "class 10 syllabus tracker",
+    "board exam syllabus tracker",
+    "study progress percentage",
+    "exam preparation tracker"
+  ],
+  "order": 69
+}

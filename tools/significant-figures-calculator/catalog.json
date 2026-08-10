@@ -1,0 +1,18 @@
+﻿{
+  "name": "Significant Figures Calculator",
+  "description": "Count significant figures and round to N sig figs with the zero rules explained. Free, fast, and fully private browser tool.",
+  "path": "/tools/significant-figures-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "significant figures calculator",
+    "sig fig calculator",
+    "significant figures counter",
+    "round to significant figures",
+    "class 10 significant figures",
+    "science significant figures",
+    "physics sig figs",
+    "significant digits calculator"
+  ],
+  "order": 55
+}

@@ -1,0 +1,20 @@
+﻿{
+  "name": "Scientific Calculator",
+  "description": "A clean browser scientific calculator with trig, log, powers, and DEG/RAD modes. Free, fast, and fully private.",
+  "path": "/tools/student-scientific-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "scientific calculator",
+    "online scientific calculator",
+    "student scientific calculator",
+    "school scientific calculator",
+    "class 10 calculator",
+    "math scientific calculator",
+    "free scientific calculator",
+    "trigonometric calculator",
+    "scientific calculator online",
+    "exam calculator"
+  ],
+  "order": 93
+}

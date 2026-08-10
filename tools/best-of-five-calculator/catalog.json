@@ -1,0 +1,16 @@
+﻿{
+  "name": "Best of Five Calculator",
+  "description": "Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.",
+  "path": "/tools/best-of-five-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "best of five calculator",
+    "best 5 percentage calculator",
+    "best five marks calculator",
+    "class 10 best of five",
+    "CBSE best five calculator",
+    "student best five calculator"
+  ],
+  "order": 3
+}

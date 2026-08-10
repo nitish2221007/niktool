@@ -1,0 +1,18 @@
+﻿{
+  "name": "Density Calculator",
+  "description": "Calculate density, mass, or volume using rho = m/V with division safety and clear units. Free, fast, and fully private.",
+  "path": "/tools/density-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "density calculator",
+    "density mass volume calculator",
+    "density formula calculator",
+    "class 10 density calculator",
+    "mass volume calculator",
+    "physics density solver",
+    "science density calculator",
+    "density online"
+  ],
+  "order": 44
+}

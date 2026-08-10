@@ -1,0 +1,18 @@
+﻿{
+  "name": "Mirror Formula Calculator",
+  "description": "Solve the mirror formula 1/f = 1/v + 1/u for focal length, image distance or object distance with magnification. Free and private.",
+  "path": "/tools/mirror-formula-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "mirror formula calculator",
+    "mirror equation calculator",
+    "class 10 mirror formula",
+    "focal length mirror calculator",
+    "u v f mirror calculator",
+    "magnification mirror calculator",
+    "school optics calculator",
+    "ray optics mirror calculator"
+  ],
+  "order": 41
+}

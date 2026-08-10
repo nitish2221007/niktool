@@ -1,0 +1,16 @@
+﻿{
+  "name": "Prime Factorization Calculator",
+  "description": "Break any integer into prime factors with exponent notation and a full factor list. Free, fast, and fully private browser tool.",
+  "path": "/tools/prime-factorization-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "prime factorization calculator",
+    "prime factors calculator",
+    "factorization calculator",
+    "prime decomposition calculator",
+    "class 10 prime factorization",
+    "prime factor tool"
+  ],
+  "order": 29
+}

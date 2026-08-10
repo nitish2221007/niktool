@@ -1,0 +1,20 @@
+﻿{
+  "name": "Unit Converter",
+  "description": "Convert length, mass, speed, area, and volume units with clear conversion factors. Free, fast, and fully private.",
+  "path": "/tools/unit-converter/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "unit converter",
+    "unit conversion calculator",
+    "length converter",
+    "weight converter",
+    "mass converter",
+    "speed converter",
+    "temperature converter",
+    "school unit converter",
+    "physics unit converter",
+    "online unit converter"
+  ],
+  "order": 82
+}

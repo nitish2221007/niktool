@@ -1,0 +1,20 @@
+﻿{
+  "name": "Chemical Formula Builder",
+  "description": "Build ionic chemical formulas using the cross-over valency method with automatic simplification. Free, fast, and fully private.",
+  "path": "/tools/chemical-formula-builder/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "chemical formula calculator",
+    "chemical formula builder",
+    "formula from valency",
+    "chemical formula using valency",
+    "class 10 chemical formula",
+    "chemistry formula generator",
+    "ionic compound formula",
+    "school chemistry formula tool",
+    "valency formula calculator",
+    "chemical formula maker"
+  ],
+  "order": 99
+}

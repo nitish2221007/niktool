@@ -1,0 +1,20 @@
+﻿{
+  "name": "Factor Calculator",
+  "description": "Find all factors of a number with factor pairs and prime/composite classification. Free, fast, and fully private.",
+  "path": "/tools/factor-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "factor calculator",
+    "factors of a number",
+    "factor finder",
+    "number factor calculator",
+    "prime factor calculator",
+    "class 10 factor calculator",
+    "factor pairs calculator",
+    "divisors calculator",
+    "school factor finder",
+    "factors online"
+  ],
+  "order": 89
+}

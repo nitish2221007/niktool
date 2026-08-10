@@ -1,0 +1,16 @@
+﻿{
+  "name": "LCM Calculator",
+  "description": "Find the LCM of two or more positive integers using the HCF-based formula for accuracy. Free, fast, and fully private.",
+  "path": "/tools/lcm-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "LCM calculator",
+    "least common multiple calculator",
+    "LCM of two numbers",
+    "class 10 LCM calculator",
+    "LCM method",
+    "LCM online"
+  ],
+  "order": 13
+}

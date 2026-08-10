@@ -1,0 +1,16 @@
+﻿{
+  "name": "Marks to Percentage Calculator",
+  "description": "Convert obtained marks and total marks into percentage instantly. Free, fast, and 100% private browser-based calculator.",
+  "path": "/tools/marks-to-percentage-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "marks to percentage calculator",
+    "marks percentage calculator",
+    "percentage from marks",
+    "calculate percentage from marks",
+    "student marks calculator",
+    "exam percentage calculator"
+  ],
+  "order": 2
+}

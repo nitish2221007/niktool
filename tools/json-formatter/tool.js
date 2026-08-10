@@ -1,46 +1,90 @@
-const input = document.querySelector('#json-input');
-const output = document.querySelector('#json-output');
-const message = document.querySelector('#json-message');
+document.addEventListener('DOMContentLoaded', () => {
+    const jsonInput = document.getElementById('json-input');
+    const jsonOutput = document.getElementById('json-output');
+    const formatBtn = document.getElementById('format-btn');
+    const minifyBtn = document.getElementById('minify-btn');
+    const clearBtn = document.getElementById('clear-btn');
+    const copyBtn = document.getElementById('copy-btn');
+    const statusMessage = document.getElementById('status-message');
 
-function transform(spaces) {
-  const source = input.value.trim();
-  if (!source) {
-    output.value = '';
-    setMessage('Paste JSON to get started.');
-    return;
-  }
+    const showStatus = (message, type = 'info') => {
+        statusMessage.textContent = message;
+        statusMessage.className = `status-message status-${type}`;
+    };
 
-  try {
-    output.value = JSON.stringify(JSON.parse(source), null, spaces);
-    setMessage(spaces === 0 ? 'Valid JSON · Minified successfully.' : 'Valid JSON · Formatted successfully.', 'success');
-  } catch (error) {
-    output.value = '';
-    setMessage(`Invalid JSON · ${error.message}`, 'error');
-  }
-}
+    const clearStatus = () => {
+        statusMessage.textContent = '';
+        statusMessage.className = 'status-message';
+    };
 
-function setMessage(text, type = '') {
-  message.textContent = text;
-  message.className = `message${type ? ` ${type}` : ''}`;
-}
+    const processJson = (spacing) => {
+        clearStatus();
+        const rawJson = jsonInput.value.trim();
+        
+        if (!rawJson) {
+            showStatus('Please enter some JSON data.', 'error');
+            return;
+        }
 
-document.querySelector('#format-button').addEventListener('click', () => transform(2));
-document.querySelector('#minify-button').addEventListener('click', () => transform(0));
-document.querySelector('#clear-button').addEventListener('click', () => {
-  input.value = '';
-  output.value = '';
-  setMessage('Paste JSON to get started.');
-  input.focus();
-});
-document.querySelector('#copy-button').addEventListener('click', async (event) => {
-  if (!output.value) {
-    setMessage('Format or minify JSON before copying.', 'error');
-    return;
-  }
-  try {
-    await NikTool.copy(output.value, event.currentTarget);
-    setMessage('Output copied to your clipboard.', 'success');
-  } catch {
-    setMessage('Clipboard access was blocked. Select and copy the output manually.', 'error');
-  }
+        showStatus('Processing...', 'loading');
+        formatBtn.disabled = true;
+        minifyBtn.disabled = true;
+
+        // Small timeout to simulate processing and show loading state for UX
+        setTimeout(() => {
+            try {
+                const parsed = JSON.parse(rawJson);
+                const formatted = JSON.stringify(parsed, null, spacing);
+                jsonOutput.textContent = formatted;
+                showStatus('Valid JSON! Processed successfully.', 'success');
+            } catch (error) {
+                jsonOutput.textContent = '';
+                showStatus(`Invalid JSON: ${error.message}`, 'error');
+            } finally {
+                formatBtn.disabled = false;
+                minifyBtn.disabled = false;
+            }
+        }, 300);
+    };
+
+    formatBtn.addEventListener('click', () => processJson(4));
+    minifyBtn.addEventListener('click', () => processJson(0));
+
+    clearBtn.addEventListener('click', () => {
+        jsonInput.value = '';
+        jsonOutput.textContent = '';
+        clearStatus();
+    });
+
+    copyBtn.addEventListener('click', () => {
+        const textToCopy = jsonOutput.textContent;
+        if (!textToCopy) {
+            showStatus('Nothing to copy!', 'error');
+            return;
+        }
+        
+        if (window.NikTool && window.NikTool.copy) {
+            window.NikTool.copy(textToCopy).then(() => {
+                showStatus('Copied to clipboard!', 'success');
+            }).catch(() => {
+                fallbackCopy(textToCopy);
+            });
+        } else {
+            fallbackCopy(textToCopy);
+        }
+    });
+
+    const fallbackCopy = (text) => {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+            document.execCommand('copy');
+            showStatus('Copied to clipboard!', 'success');
+        } catch (err) {
+            showStatus('Failed to copy text.', 'error');
+        }
+        document.body.removeChild(textarea);
+    };
 });

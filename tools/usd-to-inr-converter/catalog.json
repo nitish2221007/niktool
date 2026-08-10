@@ -1,0 +1,9 @@
+﻿{
+  "name": "USD to INR Converter",
+  "description": "Convert US Dollars to Indian Rupees instantly. Free, private, and browser-based.",
+  "path": "/tools/usd-to-inr-converter/",
+  "category": "Finance",
+  "icon": "dollar-sign",
+  "keywords": ["usd to inr", "dollar to rupee", "currency converter", "us dollar", "indian rupee", "forex"],
+  "order": 50
+}

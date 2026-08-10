@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Algorithm Cheat Sheet | NikTool</title>
+  <meta name="description" content="Searchable reference of sorting, searching, graph, DP and greedy algorithms with time/space complexity.">
+  <link rel="canonical" href="https://niktool.in/tools/algorithm-cheat-sheet/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+  <section class="tool-hero">
+    <h1>Algorithm Cheat Sheet</h1>
+    <p>Search and browse common algorithms — sorting, searching, graph traversal, dynamic programming, and more.</p>
+  </section>
+
+  <section class="tool-workspace">
+    <div class="workspace-header">
+      <h2>Reference</h2>
+      <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+    </div>
+    <input type="text" id="algo-search" class="tool-textarea" placeholder="Search algorithms... (e.g. quicksort, dijkstra, kadane)" style="height:44px; padding:0.5rem; margin-bottom:1rem;">
+    <div id="algo-list" style="display:flex; flex-direction:column; gap:8px;"></div>
+    <p class="message" id="algo-msg" role="status">Showing all algorithms.</p>
+  </section>
+
+  <article class="seo-content">
+    <h2>Why memorize algorithm complexities?</h2>
+    <p>In interviews, you're often asked to state and justify the time/space complexity of your solution. This cheat sheet helps you build that intuition.</p>
+    <h2>FAQ</h2>
+    <details><summary>Which sorting algorithm should I default to?</summary><p>Use your language's built-in sort (typically Timsort or Introsort — O(n log n)). For interviews, know Merge Sort and Quick Sort inside-out.</p></details>
+    <details><summary>What is the difference between greedy and DP?</summary><p>Greedy makes the locally optimal choice at each step (no backtracking). DP considers all sub-problems and combines results. DP is more general but slower.</p></details>
+  </article>  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/algorithm-cheat-sheet/tool.js"></script>
+</body>
+</html>

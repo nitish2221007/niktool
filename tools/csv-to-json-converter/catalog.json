@@ -1,0 +1,20 @@
+﻿{
+  "name": "CSV to JSON Converter",
+  "description": "Convert CSV text to JSON array with support for commas, semicolons, tabs, and quoted values. Free and fully private.",
+  "path": "/tools/csv-to-json-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "CSV to JSON converter",
+    "CSV JSON converter",
+    "convert CSV to JSON",
+    "CSV parser online",
+    "CSV data to JSON",
+    "online CSV converter",
+    "CSV array JSON",
+    "developer CSV tool",
+    "CSV formatter",
+    "local CSV converter"
+  ],
+  "order": 81
+}

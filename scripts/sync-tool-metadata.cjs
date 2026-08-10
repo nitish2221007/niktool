@@ -18,7 +18,7 @@ function fail(message) {
 }
 
 function readText(filePath) {
-  return fs.readFileSync(filePath, 'utf8');
+  return fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
 }
 
 function writeIfChanged(filePath, content) {
@@ -34,15 +34,34 @@ function xmlValue(xml, tag, filePath) {
   return match[1].trim();
 }
 
-function loadTool(folderName) {
-  const folder = path.join(toolsRoot, folderName);
+// Recursive catalog finder supporting arbitrarily deep nested folders (e.g. tools/class-11/chemistry/ch-1/slug)
+function findToolFolderRelPaths(dir, baseDir = dir) {
+  let results = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  
+  const hasCatalog = entries.some(e => e.isFile() && e.name === 'catalog.json');
+  if (hasCatalog) {
+    const relPath = path.relative(baseDir, dir).replace(/\\/g, '/');
+    results.push(relPath);
+  }
+
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      results = results.concat(findToolFolderRelPaths(path.join(dir, entry.name), baseDir));
+    }
+  }
+  return results;
+}
+
+function loadTool(relPath) {
+  const folder = path.join(toolsRoot, relPath);
   const catalogPath = path.join(folder, 'catalog.json');
   const sitemapPath = path.join(folder, 'sitemap.xml');
   const pagePath = path.join(folder, 'index.html');
 
-  if (!fs.existsSync(pagePath)) fail(`${folderName}: missing index.html.`);
-  if (!fs.existsSync(catalogPath)) fail(`${folderName}: missing catalog.json.`);
-  if (!fs.existsSync(sitemapPath)) fail(`${folderName}: missing sitemap.xml.`);
+  if (!fs.existsSync(pagePath)) fail(`${relPath}: missing index.html.`);
+  if (!fs.existsSync(catalogPath)) fail(`${relPath}: missing catalog.json.`);
+  if (!fs.existsSync(sitemapPath)) fail(`${relPath}: missing sitemap.xml.`);
 
   let source;
   try {
@@ -75,7 +94,7 @@ function loadTool(folderName) {
     fail(`${catalogPath}: "keywords" must be a non-empty array of strings.`);
   }
 
-  const expectedPath = `/tools/${folderName}/`;
+  const expectedPath = `/tools/${relPath}/`;
   if (source.path !== expectedPath) {
     fail(`${catalogPath}: path must be "${expectedPath}".`);
   }
@@ -112,14 +131,11 @@ function loadTool(folderName) {
   return { catalog, changefreq, loc, order, priority };
 }
 
-const folderNames = fs.readdirSync(toolsRoot, { withFileTypes: true })
-  .filter((entry) => entry.isDirectory())
-  .map((entry) => entry.name)
-  .sort();
+const relFolderPaths = findToolFolderRelPaths(toolsRoot).sort();
 
-if (folderNames.length === 0) fail('No tool folders were found.');
+if (relFolderPaths.length === 0) fail('No tool folders were found.');
 
-const tools = folderNames.map(loadTool).sort((left, right) =>
+const tools = relFolderPaths.map(loadTool).sort((left, right) =>
   left.order - right.order || left.catalog.name.localeCompare(right.catalog.name)
 );
 
@@ -156,6 +172,25 @@ const sitemapOutput = [
 
 const catalogChanged = writeIfChanged(path.join(root, 'catalog.json'), catalogOutput);
 const sitemapChanged = writeIfChanged(path.join(root, 'sitemap.xml'), sitemapOutput);
+
+// High-scale scalability chunks generation (assets/catalogs/)
+const catalogsDir = path.join(root, 'assets', 'catalogs');
+const pagesDir = path.join(catalogsDir, 'pages');
+if (!fs.existsSync(pagesDir)) {
+  fs.mkdirSync(pagesDir, { recursive: true });
+}
+
+const catalogList = tools.map((tool) => tool.catalog);
+const pageSize = 24;
+const totalPages = Math.ceil(catalogList.length / pageSize) || 1;
+
+for (let p = 1; p <= totalPages; p++) {
+  const pageItems = catalogList.slice((p - 1) * pageSize, p * pageSize);
+  writeIfChanged(path.join(pagesDir, `page-${p}.json`), `${JSON.stringify(pageItems, null, 2)}\n`);
+}
+
+const categories = ['All', ...new Set(catalogList.map((item) => item.category))];
+writeIfChanged(path.join(catalogsDir, 'categories.json'), `${JSON.stringify(categories, null, 2)}\n`);
 
 console.log(
   `Validated ${tools.length} tools. ` +
