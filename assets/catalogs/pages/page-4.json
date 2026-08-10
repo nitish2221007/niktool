@@ -1,5 +1,19 @@
 [
   {
+    "name": "ER Diagram Maker",
+    "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
+    "path": "/tools/er-diagram-maker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "er diagram maker",
+      "er diagram maker",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
     "name": "Flowchart Maker",
     "description": "Build flowcharts by connecting shapes and steps. Generate standard Mermaid flowchart syntax from simple text inputs for easy documentation.",
     "path": "/tools/flowchart-maker/",
@@ -354,20 +368,6 @@
       "check letter format",
       "letter structure checker",
       "school letter checker"
-    ]
-  },
-  {
-    "name": "Remove Last Two PDF Pages",
-    "description": "Delete the trailing 2 pages from any PDF document locally in your browser.",
-    "path": "/tools/remove-last-two-pdf-pages/",
-    "category": "PDF",
-    "icon": "text",
-    "keywords": [
-      "pdf",
-      "remove pages",
-      "delete pdf pages",
-      "trim pdf",
-      "last two pages"
     ]
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "name": "PDF Merger",
+    "description": "Merge multiple PDF files into one document securely in your browser.",
+    "path": "/tools/pdf-merger/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "merge",
+      "combine",
+      "join",
+      "document"
+    ]
+  },
+  {
     "name": "Queue Visualizer",
     "description": "Enqueue and dequeue elements on an interactive visual queue (FIFO).",
     "path": "/tools/queue-visualizer/",
@@ -353,20 +367,6 @@
     "keywords": [
       "english name generator",
       "english name generator for students",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "ER Diagram Maker",
-    "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
-    "path": "/tools/er-diagram-maker/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "er diagram maker",
-      "er diagram maker",
       "online tool",
       "free tool",
       "niktool"

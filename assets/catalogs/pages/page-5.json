@@ -1,5 +1,19 @@
 [
   {
+    "name": "Remove Last Two PDF Pages",
+    "description": "Delete the trailing 2 pages from any PDF document locally in your browser.",
+    "path": "/tools/remove-last-two-pdf-pages/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "remove pages",
+      "delete pdf pages",
+      "trim pdf",
+      "last two pages"
+    ]
+  },
+  {
     "name": "Text Cleaner",
     "description": "Remove extra spaces, blank lines, and weird formatting from pasted text. Free, fast, and fully private browser tool.",
     "path": "/tools/text-cleaner/",
@@ -393,25 +407,6 @@
       "developer CSV tool",
       "CSV formatter",
       "local CSV converter"
-    ]
-  },
-  {
-    "name": "Unit Converter",
-    "description": "Convert length, mass, speed, area, and volume units with clear conversion factors. Free, fast, and fully private.",
-    "path": "/tools/unit-converter/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "unit converter",
-      "unit conversion calculator",
-      "length converter",
-      "weight converter",
-      "mass converter",
-      "speed converter",
-      "temperature converter",
-      "school unit converter",
-      "physics unit converter",
-      "online unit converter"
     ]
   }
 ]

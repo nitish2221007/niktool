@@ -1,5 +1,20 @@
 [
   {
+    "name": "Section Formula Calculator",
+    "description": "Find the point dividing a line segment internally in a given ratio using the section formula with steps. Free and private.",
+    "path": "/tools/section-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "section formula calculator",
+      "section formula solver",
+      "class 10 section formula",
+      "internal division calculator",
+      "coordinate section formula",
+      "section formula class 10"
+    ]
+  },
+  {
     "name": "Probability Calculator",
     "description": "Calculate basic probability from favorable and total outcomes with fraction, decimal, percent and complement. Free and private.",
     "path": "/tools/probability-calculator/",
@@ -348,20 +363,6 @@
       "magnification lens calculator",
       "school optics calculator",
       "ray optics lens calculator"
-    ]
-  },
-  {
-    "name": "PDF Merger",
-    "description": "Merge multiple PDF files into one document securely in your browser.",
-    "path": "/tools/pdf-merger/",
-    "category": "PDF",
-    "icon": "text",
-    "keywords": [
-      "pdf",
-      "merge",
-      "combine",
-      "join",
-      "document"
     ]
   }
 ]
