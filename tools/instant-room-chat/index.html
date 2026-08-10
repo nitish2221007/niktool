@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Instant Anonymous Room Chat - Free Online Tool | NikTool</title>
   <meta name="description" content="Create or join temporary private chat rooms instantly without login. Send messages between phone and laptop. Messages auto-delete after 24 hours.">
   <meta name="robots" content="index, follow">
@@ -61,6 +61,7 @@
     ]
   }
   </script>
+  <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -114,7 +115,7 @@
       <!-- Step 2: Full-screen Compact Chat Screen -->
       <div id="chat-screen" style="display: none; flex-direction: column; height: 500px; max-width: 900px; margin: 0 auto; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.04);">
         <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.7rem 1rem; background: var(--green-dark); color: white;">
-          <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
             <span style="font-weight: 800; font-size: 0.95rem; letter-spacing: -0.02em;" id="current-room-badge">ROOM: ----</span>
             <span style="font-size: 0.76rem; background: rgba(255,255,255,0.18); padding: 0.15rem 0.5rem; border-radius: 99px;" id="user-badge">You: Anonymous</span>
           </div>

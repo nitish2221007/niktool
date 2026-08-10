@@ -18,13 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentRoom = null;
   let currentNickname = 'Anonymous';
+  let peer = null;
+  let activeConnections = [];
   let broadcastChannel = null;
   let pollTimer = null;
   let lastRenderedLength = -1;
 
   const TTL_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
-  // Pop-out mode toggle (Teeno features combined: Pop-up overlay + Zen Mode + Instant Focus)
+  // Pop-out mode toggle (Mobile-responsive 100dvh)
   popToggleBtn?.addEventListener('click', () => {
     const isPop = mainWorkspace.classList.toggle('fullscreen-pop');
     document.body.classList.toggle('has-pop-open', isPop);
@@ -76,8 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function saveRoomMessage(roomId, msgObj) {
     const msgs = getRoomMessages(roomId);
-    msgs.push(msgObj);
-    localStorage.setItem(`niktool_chat_${roomId}`, JSON.stringify(msgs));
+    if (!msgs.some(m => m.id === msgObj.id)) {
+      msgs.push(msgObj);
+      localStorage.setItem(`niktool_chat_${roomId}`, JSON.stringify(msgs));
+    }
   }
 
   function renderMessages() {
@@ -97,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bubble.style.margin = '0.15rem 0';
 
       const content = document.createElement('div');
-      content.style.maxWidth = '78%';
+      content.style.maxWidth = '82%';
       content.style.padding = '0.55rem 0.85rem';
       content.style.borderRadius = isMe ? '14px 14px 2px 14px' : '14px 14px 14px 2px';
       content.style.background = isMe ? 'var(--green)' : '#ffffff';
@@ -127,13 +131,50 @@ document.addEventListener('DOMContentLoaded', () => {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
   }
 
-  // Real-time window storage event listener for cross-tab & cross-window instant sync
+  // Local storage listener for same-device cross-tab
   window.addEventListener('storage', (e) => {
     if (currentRoom && e.key === `niktool_chat_${currentRoom}`) {
       lastRenderedLength = -1;
       renderMessages();
     }
   });
+
+  // Setup WebRTC P2P for cross-device Laptop <-> Phone real-time messaging
+  function setupPeerConnection(roomId) {
+    if (!window.Peer) return;
+
+    try {
+      const myPeerId = 'niktool_' + roomId.toLowerCase().replace(/[^a-z0-0]/g, '') + '_' + Math.random().toString(36).substr(2, 5);
+      peer = new window.Peer(myPeerId);
+
+      peer.on('open', () => {
+        // Connect to main room host or broadcast
+        const hostPeerId = 'niktool_host_' + roomId.toLowerCase().replace(/[^a-z0-0]/g, '');
+        if (myPeerId !== hostPeerId) {
+          const conn = peer.connect(hostPeerId);
+          bindConnEvents(conn);
+        }
+      });
+
+      peer.on('connection', (conn) => {
+        bindConnEvents(conn);
+      });
+    } catch (err) {}
+  }
+
+  function bindConnEvents(conn) {
+    activeConnections.push(conn);
+    conn.on('data', (data) => {
+      if (data && data.text) {
+        saveRoomMessage(currentRoom, data);
+        lastRenderedLength = -1;
+        renderMessages();
+      }
+    });
+    conn.on('close', () => {
+      activeConnections = activeConnections.filter(c => c !== conn);
+    });
+  }
 
   function startRoom(roomId, nickname) {
     currentRoom = roomId;
@@ -156,6 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
         renderMessages();
       };
     }
+
+    setupPeerConnection(currentRoom);
 
     if (pollTimer) clearInterval(pollTimer);
     pollTimer = setInterval(() => {
@@ -192,6 +235,12 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     saveRoomMessage(currentRoom, msgObj);
+
+    // Broadcast to P2P peer connections (Laptop <-> Phone)
+    activeConnections.forEach(conn => {
+      if (conn.open) conn.send(msgObj);
+    });
+
     if (broadcastChannel) broadcastChannel.postMessage('new_msg');
 
     chatInput.value = '';
@@ -212,6 +261,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   leaveRoomBtn?.addEventListener('click', () => {
+    if (peer) {
+      peer.destroy();
+      peer = null;
+    }
     if (broadcastChannel) {
       broadcastChannel.close();
       broadcastChannel = null;
@@ -220,9 +273,15 @@ document.addEventListener('DOMContentLoaded', () => {
       clearInterval(pollTimer);
       pollTimer = null;
     }
+    activeConnections = [];
     currentRoom = null;
     chatScreen.style.display = 'none';
     setupScreen.style.display = 'block';
+    if (document.body.classList.contains('has-pop-open')) {
+      mainWorkspace.classList.remove('fullscreen-pop');
+      document.body.classList.remove('has-pop-open');
+      popToggleBtn.textContent = '⛶ Pop-out Mode';
+    }
     msgEl.textContent = 'Left room. Enter details to join or create another room.';
   });
 });
