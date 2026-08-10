@@ -203,8 +203,8 @@ a { color: inherit; }
 
 .tool-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .tool-card {
-  min-height: 230px;
-  padding: 1.45rem;
+  min-height: 170px;
+  padding: 1.15rem;
   display: flex;
   flex-direction: column;
   border: 1px solid var(--line);
@@ -216,14 +216,14 @@ a { color: inherit; }
 }
 .tool-card:hover { border-color: #b5cdbf; box-shadow: var(--shadow); transform: translateY(-4px); }
 .tool-card-top { display: flex; align-items: start; justify-content: space-between; }
-.tool-icon { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 14px; color: var(--green-dark); background: var(--mint); }
-.tool-icon svg { width: 24px; }
-.tool-arrow { width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; color: #758079; background: #f0f3ef; transition: color .2s, transform .2s; }
+.tool-icon { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 12px; color: var(--green-dark); background: var(--mint); }
+.tool-icon svg { width: 20px; }
+.tool-arrow { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; color: #758079; background: #f0f3ef; transition: color .2s, transform .2s; }
 .tool-card:hover .tool-arrow { color: white; background: var(--green); transform: rotate(-8deg); }
-.tool-arrow svg { width: 16px; }
-.tool-card h3 { margin: 1.4rem 0 .45rem; font-family: "Manrope", sans-serif; font-size: 1.15rem; letter-spacing: -.025em; }
-.tool-card p { margin: 0; color: var(--muted); font-size: .93rem; line-height: 1.55; }
-.tool-category { margin-top: auto; padding-top: 1rem; color: #748078; font-size: .75rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.tool-arrow svg { width: 14px; }
+.tool-card h3 { margin: 1rem 0 .35rem; font-family: "Manrope", sans-serif; font-size: 1.08rem; letter-spacing: -.02em; }
+.tool-card p { margin: 0; color: var(--muted); font-size: .88rem; line-height: 1.5; }
+.tool-category { margin-top: auto; padding-top: .75rem; color: #748078; font-size: .72rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
 .empty-state { grid-column: 1 / -1; padding: 3rem 1rem; border: 1px dashed #c9d2cb; border-radius: var(--radius); color: var(--muted); text-align: center; }
 
 .privacy-strip { margin-bottom: 6rem; padding: clamp(1.5rem, 4vw, 2.5rem); display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; overflow: hidden; border-radius: 28px; color: white; background: var(--green-dark); }
@@ -244,27 +244,27 @@ a { color: inherit; }
 .breadcrumbs a { text-decoration: none; }
 .breadcrumbs a:hover { color: var(--green); }
 .breadcrumbs svg { width: 14px; }
-.tool-hero { padding: clamp(3rem, 7vw, 5rem) 0 2.4rem; text-align: center; }
+.tool-hero { padding: 2rem 0 1.25rem; text-align: center; }
 .tool-hero .tool-icon { margin: 0 auto 1rem; }
-.tool-hero h1 { max-width: 780px; font-size: clamp(2.35rem, 6vw, 4.35rem); }
-.tool-hero > p { max-width: 650px; margin: 1rem auto 0; color: var(--muted); font-size: 1.06rem; }
+.tool-hero h1 { max-width: 780px; font-size: clamp(1.85rem, 5vw, 3.2rem); }
+.tool-hero > p { max-width: 650px; margin: .6rem auto 0; color: var(--muted); font-size: 1rem; }
 
-.tool-workspace { margin-bottom: 4.5rem; padding: clamp(1rem, 3vw, 1.5rem); border: 1px solid var(--line); border-radius: 28px; background: rgba(255,255,255,.9); box-shadow: var(--shadow); }
-.workspace-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+.tool-workspace { margin-bottom: 3.5rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,255,255,.9); box-shadow: var(--shadow); }
+.workspace-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .85rem; }
 .workspace-header h2 { margin: 0; font-family: "Manrope", sans-serif; font-size: 1.05rem; letter-spacing: -.02em; }
 .workspace-status { display: flex; align-items: center; gap: .4rem; color: #77827c; font-size: .8rem; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #25a36f; box-shadow: 0 0 0 4px rgba(37,163,111,.12); }
 .tool-textarea {
   width: 100%;
-  min-height: 310px;
+  min-height: 160px;
   resize: vertical;
-  padding: 1rem;
+  padding: .85rem;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 14px;
   outline: none;
   color: var(--ink);
   background: #fafbf8;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 .tool-textarea:focus, .control-input:focus { border-color: #65a68b; box-shadow: 0 0 0 4px rgba(23,107,77,.09); }
 .stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; margin-top: .75rem; }
