@@ -39,7 +39,9 @@
       </a>
       <div class="nav-links">
         <a class="home-link" href="#tools">All tools</a>
-        <a href="#privacy">Privacy</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
       </div>
     </nav>
   </header>
@@ -68,11 +70,46 @@
           <h2 id="tools-title">Explore the toolbox</h2>
           <p>Pick a tool and get straight to work.</p>
         </div>
-        <span class="tool-count" id="tool-count" aria-live="polite">Loading…</span>
+        <span class="tool-count" id="tool-count" aria-live="polite">150+ Tools</span>
       </div>
       <div class="filters" id="category-filters" aria-label="Filter tools by category"></div>
       <div class="tool-grid" id="tool-grid" aria-live="polite">
-        <div class="empty-state">Loading tools…</div>
+        <a class="tool-card" href="/tools/word-counter/">
+          <div class="tool-card-top"><div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div><div class="tool-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div></div>
+          <h3>Word Counter</h3>
+          <p>Count words, characters, sentences, paragraphs, and reading time in real time.</p>
+          <span class="tool-category">Text</span>
+        </a>
+        <a class="tool-card" href="/tools/json-formatter/">
+          <div class="tool-card-top"><div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></div><div class="tool-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div></div>
+          <h3>JSON Formatter &amp; Validator</h3>
+          <p>Prettify, validate, format, and minify JSON data instantly in your browser.</p>
+          <span class="tool-category">Developer</span>
+        </a>
+        <a class="tool-card" href="/tools/password-generator/">
+          <div class="tool-card-top"><div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="tool-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div></div>
+          <h3>Strong Password Generator</h3>
+          <p>Generate secure, random, cryptographically strong passwords locally.</p>
+          <span class="tool-category">Security</span>
+        </a>
+        <a class="tool-card" href="/tools/arithmetic-progression-calculator/">
+          <div class="tool-card-top"><div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19L19 4M4 4h15v15"/></svg></div><div class="tool-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div></div>
+          <h3>Arithmetic Progression Calculator</h3>
+          <p>Calculate nth term and sum of arithmetic sequences with step-by-step solutions.</p>
+          <span class="tool-category">Math</span>
+        </a>
+        <a class="tool-card" href="/tools/class-10-percentage-calculator/">
+          <div class="tool-card-top"><div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 7h6m-3-3v6M9 17h6"/></svg></div><div class="tool-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div></div>
+          <h3>Class 10 Percentage Calculator</h3>
+          <p>Calculate Class 10 board exam marks, percentage, and best-of-five performance.</p>
+          <span class="tool-category">Math</span>
+        </a>
+        <a class="tool-card" href="/tools/pdf-merger/">
+          <div class="tool-card-top"><div class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg></div><div class="tool-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></div></div>
+          <h3>PDF Merger &amp; Combiner</h3>
+          <p>Combine multiple PDF files into a single document locally in your browser.</p>
+          <span class="tool-category">PDF</span>
+        </a>
       </div>
       <noscript><div class="noscript">JavaScript is required for live search. You can still open <a href="/tools/word-counter/">Word Counter</a>, <a href="/tools/json-formatter/">JSON Formatter</a>, or <a href="/tools/password-generator/">Password Generator</a>.</div></noscript>
     </section>
@@ -80,7 +117,7 @@
     <aside class="privacy-strip container" id="privacy">
       <div>
         <h2>Your data stays yours.</h2>
-        <p>These tools run locally in your browser whenever possible. Your text, JSON, and passwords are not sent to a server.</p>
+        <p>These tools run locally in your browser whenever possible. Your text, JSON, and passwords are not sent to a server. Learn more in our <a href="/privacy/" style="color: var(--lime); text-decoration: underline;">Privacy Policy</a>.</p>
       </div>
       <div class="privacy-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
     </aside>
@@ -89,7 +126,15 @@
   <footer class="site-footer">
     <div class="footer-inner container">
       <p>© <span data-year></span> NikTool. Built for useful little moments.</p>
-      <div class="footer-links"><a href="/">Home</a><a href="#tools">Tools</a></div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="#tools">Tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+        <a href="/disclaimer/">Disclaimer</a>
+      </div>
     </div>
   </footer>
   <script src="/assets/shared.js"></script>

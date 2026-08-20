@@ -156,6 +156,14 @@ const sitemapEntries = tools.map((tool) => [
   `    <priority>${tool.priority}</priority>`,
   '  </url>'
 ].join('\n'));
+const staticLegalPages = ['privacy', 'about', 'contact', 'terms', 'disclaimer'].map((page) => [
+  '  <url>',
+  `    <loc>${siteOrigin}/${page}/</loc>`,
+  '    <changefreq>monthly</changefreq>',
+  '    <priority>0.5</priority>',
+  '  </url>'
+].join('\n'));
+
 const sitemapOutput = [
   '<?xml version="1.0" encoding="UTF-8"?>',
   '<!-- Generated from tools/*/sitemap.xml by scripts/sync-tool-metadata.cjs. -->',
@@ -165,6 +173,7 @@ const sitemapOutput = [
   '    <changefreq>weekly</changefreq>',
   '    <priority>1.0</priority>',
   '  </url>',
+  ...staticLegalPages,
   ...sitemapEntries,
   '</urlset>',
   ''

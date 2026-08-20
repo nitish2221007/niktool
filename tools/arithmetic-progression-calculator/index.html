@@ -1,20 +1,30 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Arithmetic Progression Calculator - Free Online Tool | NikTool</title>
-  <meta name="description" content="Calculate the nth term and sum of an arithmetic progression from a, d, and n, with a preview of the first terms. Free and private.">
+  <meta name="description" content="Calculate the nth term and sum of an arithmetic progression (AP) instantly. Includes step-by-step formulas, worked examples, and term previews. 100% free and private.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://niktool.in/tools/arithmetic-progression-calculator/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Arithmetic Progression Calculator | NikTool">
-  <meta property="og:description" content="Calculate the nth term and sum of an arithmetic progression from a, d, and n, with a preview of the first terms. Free and private.">
+  <meta property="og:description" content="Calculate the nth term and sum of an arithmetic progression instantly with formulas and step previews.">
   <meta property="og:url" content="https://niktool.in/tools/arithmetic-progression-calculator/">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#176b4d">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/styles.css">
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3039559152735742" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJB9MSVTRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HJB9MSVTRN');
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -25,17 +35,41 @@
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Any",
         "url": "https://niktool.in/tools/arithmetic-progression-calculator/",
-        "description": "Calculate the nth term and sum of an arithmetic progression from a, d, and n, with a preview of the first terms. Free and private.",
+        "description": "Calculate the nth term and sum of an arithmetic progression (AP) from a, d, and n.",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://niktool.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Math", "item": "https://niktool.in/#tools" },
+          { "@type": "ListItem", "position": 3, "name": "Arithmetic Progression Calculator", "item": "https://niktool.in/tools/arithmetic-progression-calculator/" }
+        ]
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-  { "@type": "Question", "name": "How do I use this tool?", "acceptedAnswer": { "@type": "Answer", "text": "Simply paste your input data into the input field and click the primary action button to get instant results." } },
-  { "@type": "Question", "name": "Is my data secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, all processing happens locally in your browser." } },
-  { "@type": "Question", "name": "Is this tool free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, NikTool is 100% free with no account or registration required." } },
-  { "@type": "Question", "name": "Does it work offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, once loaded, the tool works completely offline in your browser." } }
-]
+          {
+            "@type": "Question",
+            "name": "How do I use the Arithmetic Progression Calculator?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Enter the first term (a), common difference (d), and number of terms (n) into the input fields, then click Process to compute the nth term and sum of terms." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the formula for the nth term of an AP?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The nth term of an Arithmetic Progression is given by a_n = a + (n - 1)d, where a is the first term and d is the common difference." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the formula for the sum of n terms in an AP?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The sum of the first n terms of an AP is calculated using S_n = (n / 2) * [2a + (n - 1)d] or S_n = (n / 2) * (a + l), where l is the last term." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between AP and GP?",
+            "acceptedAnswer": { "@type": "Answer", "text": "An Arithmetic Progression (AP) adds a constant common difference between consecutive terms, whereas a Geometric Progression (GP) multiplies consecutive terms by a common ratio." }
+          }
+        ]
       }
     ]
   }
@@ -43,6 +77,7 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="/">
@@ -51,33 +86,49 @@
         </span>
         <span class="brand-text">NikTool</span>
       </a>
-      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+      <div class="nav-links">
+        <a class="home-link" href="/">Home</a>
+        <a href="/#tools">All tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </div>
     </nav>
   </header>
+
   <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <a href="/#tools">Math</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Arithmetic Progression Calculator</span>
+    </div>
+
     <section class="tool-hero">
       <h1>Arithmetic Progression Calculator</h1>
-      <p>Find the nth term and sum of any AP instantly using the standard formulas, with step values shown for verification.</p>
+      <p>Find the nth term and sum of any AP sequence instantly with exact step-by-step mathematical formulas.</p>
     </section>
+
     <section class="tool-workspace">
       <div class="workspace-header">
         <h2>Workspace</h2>
         <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
       </div>
       <div class="json-layout">
-  <div class="editor-panel">
-    <label class="editor-label" for="arithmetic-progression-calculator-input">First Term (a)</label>
-    <input type="number" class="tool-textarea" id="arithmetic-progression-calculator-input" placeholder="e.g. 2" step="any">
-    <label class="editor-label" for="arithmetic-progression-calculator-d">Common Difference (d)</label>
-    <input type="number" class="tool-textarea" id="arithmetic-progression-calculator-d" placeholder="e.g. 3" step="any">
-    <label class="editor-label" for="arithmetic-progression-calculator-n">Number of Terms (n)</label>
-    <input type="number" class="tool-textarea" id="arithmetic-progression-calculator-n" placeholder="e.g. 10" step="1">
-  </div>
-  <div class="editor-panel">
-    <label class="editor-label" for="arithmetic-progression-calculator-output">Result</label>
-    <textarea class="tool-textarea" id="arithmetic-progression-calculator-output" placeholder="nth term and sum will appear here..." readonly></textarea>
-  </div>
-</div>
+        <div class="editor-panel">
+          <label class="editor-label" for="arithmetic-progression-calculator-input">First Term (a)</label>
+          <input type="number" class="tool-textarea" id="arithmetic-progression-calculator-input" placeholder="e.g. 2" step="any">
+          <label class="editor-label" for="arithmetic-progression-calculator-d">Common Difference (d)</label>
+          <input type="number" class="tool-textarea" id="arithmetic-progression-calculator-d" placeholder="e.g. 3" step="any">
+          <label class="editor-label" for="arithmetic-progression-calculator-n">Number of Terms (n)</label>
+          <input type="number" class="tool-textarea" id="arithmetic-progression-calculator-n" placeholder="e.g. 10" step="1">
+        </div>
+        <div class="editor-panel">
+          <label class="editor-label" for="arithmetic-progression-calculator-output">Result</label>
+          <textarea class="tool-textarea" id="arithmetic-progression-calculator-output" placeholder="nth term and sum will appear here..." readonly></textarea>
+        </div>
+      </div>
       <div class="toolbar">
         <button class="button" id="primary-action-btn" type="button">Process</button>
         <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
@@ -85,42 +136,69 @@
       </div>
       <p class="message" id="arithmetic-progression-calculator-message" role="status">Ready. Enter input above.</p>
     </section>
+
     <article class="seo-content">
-      <h2>How to use Arithmetic Progression Calculator</h2>
-<ol>
-  <li>Enter the first term <strong>a</strong> and the common difference <strong>d</strong>.</li>
-  <li>Enter the number of terms <strong>n</strong>.</li>
-  <li>Click <strong>Process</strong> to get the nth term, the sum of n terms, and a preview of the first terms.</li>
-</ol>
-<h2>Key Features &amp; Privacy</h2>
-<p>The calculator applies the standard AP formulas: nth term = a + (n-1)d and sum = n/2 [2a + (n-1)d]. It also lists the first few terms so you can verify the sequence visually. Everything is computed locally.</p>
-<h2>Common Use Cases</h2>
-<p>Class 10 students use it to check homework on arithmetic progressions, verify nth-term and sum answers, and explore how changing a or d affects the sequence.</p>
-      <h2>Frequently asked questions</h2>
+      <h2>How to use the Arithmetic Progression Calculator</h2>
+      <ol>
+        <li>Enter the <strong>first term (a)</strong> of your sequence.</li>
+        <li>Enter the <strong>common difference (d)</strong> between successive terms (can be positive, negative, or zero).</li>
+        <li>Enter the total <strong>number of terms (n)</strong> you wish to evaluate.</li>
+        <li>Click <strong>Process</strong> to view the exact nth term, sum of terms ($S_n$), and a sequence preview.</li>
+      </ol>
+
+      <h2>Mathematical Formulas for Arithmetic Progression</h2>
+      <p>An <strong>Arithmetic Progression (AP)</strong> is a sequence of numbers in which the difference between consecutive terms is constant. This constant value is known as the common difference ($d$).</p>
+      <ul>
+        <li><strong>Nth Term Formula ($a_n$):</strong> $a_n = a + (n - 1)d$</li>
+        <li><strong>Sum of $n$ Terms Formula ($S_n$):</strong> $S_n = \frac{n}{2} \cdot [2a + (n - 1)d]$</li>
+        <li><strong>Alternative Sum Formula:</strong> $S_n = \frac{n}{2} \cdot (a + l)$ where $l$ is the last term ($a_n$).</li>
+      </ul>
+
+      <h2>Step-by-Step Worked Example</h2>
+      <p><strong>Problem:</strong> Find the 10th term and the sum of the first 10 terms for the sequence starting with $a = 2$ and difference $d = 3$.</p>
+      <ol>
+        <li>First Term $a = 2$, Common Difference $d = 3$, $n = 10$.</li>
+        <li>Calculation for $a_{10}$: $a_{10} = 2 + (10 - 1) \times 3 = 2 + (9 \times 3) = 2 + 27 = 29$.</li>
+        <li>Calculation for $S_{10}$: $S_{10} = \frac{10}{2} \times [2(2) + (10 - 1)3] = 5 \times [4 + 27] = 5 \times 31 = 155$.</li>
+      </ol>
+
+      <h2>Key Features &amp; Privacy</h2>
+      <p>This calculator handles integers, decimals, positive, and negative common differences. All computations take place completely inside your web browser without sending any calculations to an external server.</p>
+
+      <h2>Frequently Asked Questions</h2>
       <details>
-  <summary>How do I use this tool?</summary>
-  <p>Simply paste or type your input in the input area, click Process, and copy your result.</p>
-</details>
-<details>
-  <summary>Is my data secure?</summary>
-  <p>Yes, all calculations happen locally in your browser without server uploads.</p>
-</details>
-<details>
-  <summary>Is this tool free to use?</summary>
-  <p>Yes, NikTool is 100% free with no account or registration required.</p>
-</details>
-<details>
-  <summary>Does it work offline?</summary>
-  <p>Yes, once loaded, the tool works completely offline in your browser.</p>
-</details>
+        <summary>How do I use the Arithmetic Progression Calculator?</summary>
+        <p>Enter the first term (a), common difference (d), and number of terms (n) into the input fields, then click Process to compute the nth term and sum of terms.</p>
+      </details>
+      <details>
+        <summary>What is the formula for the nth term of an AP?</summary>
+        <p>The nth term of an Arithmetic Progression is given by $a_n = a + (n - 1)d$, where $a$ is the first term and $d$ is the common difference.</p>
+      </details>
+      <details>
+        <summary>What is the formula for the sum of n terms in an AP?</summary>
+        <p>The sum of the first $n$ terms of an AP is calculated using $S_n = \frac{n}{2} \times [2a + (n - 1)d]$ or $S_n = \frac{n}{2} \times (a + l)$.</p>
+      </details>
+      <details>
+        <summary>What is the difference between AP and GP?</summary>
+        <p>An Arithmetic Progression (AP) adds a constant common difference between consecutive terms, whereas a Geometric Progression (GP) multiplies consecutive terms by a common ratio.</p>
+      </details>
     </article>
   </main>
+
   <footer class="site-footer">
     <div class="footer-inner container">
-      <p>&copy; <span data-year></span> NikTool.</p>
-      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+      <p>&copy; <span data-year></span> NikTool. Built for useful little moments.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">Tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/contact/">Contact</a>
+      </div>
     </div>
   </footer>
+
   <script src="/assets/shared.js"></script>
   <script src="/tools/arithmetic-progression-calculator/tool.js"></script>
 </body>

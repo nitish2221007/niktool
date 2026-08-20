@@ -19,16 +19,17 @@ CRITICAL DESIGN & CODE CONSTRAINTS
 3. COPY HELPER: Use `window.NikTool.copy(text, copyBtn)` for copy functionality.
 
 ==================================================
-MINIMUM SEO & CONTENT REQUIREMENTS
+MINIMUM SEO & CONTENT REQUIREMENTS (ADSENSE COMPLIANT)
 ==================================================
 - Title Tag: "[Tool Title] - Free Online Tool | NikTool"
 - Meta Description: Compelling 140-160 character description summarizing the tool.
-- JSON-LD Schema: Must include both `@type: "SoftwareApplication"` and `@type: "FAQPage"`.
+- Header Links: MUST include Home, All tools, About (/about/), Privacy (/privacy/), Contact (/contact/).
+- Breadcrumb Navigation: MUST include HTML breadcrumbs and JSON-LD `@type: "BreadcrumbList"`.
+- JSON-LD Schema: Must include `@type: "SoftwareApplication"`, `@type: "BreadcrumbList"`, and `@type: "FAQPage"`.
 - SEO Content Article (<article class="seo-content">):
   * Minimum 1 Step-by-step guide (<ol> with at least 3 steps).
-  * Minimum 3 H2 content sections ("How to use", "Features & Privacy", "Common Use Cases").
-  * Minimum 4 to 5 FAQ items using <details> and <summary> tags.
-  * MANDATORY FAQ ITEM: Must include an explicit "How do I use this tool?" FAQ item in both HTML and JSON-LD schema!
+  * Minimum 3-4 H2 content sections ("How to use", "Mathematical / Theoretical Formulas", "Worked Examples", "Features & Privacy").
+  * Minimum 4 TOOL-SPECIFIC FAQ items using <details> and <summary> tags (STRICTLY PROHIBITED: generic placeholder FAQ text!).
 - Catalog Metadata (catalog.json):
   * MUST be a SINGLE JSON OBJECT `{ ... }` (Do NOT wrap in array `[ ]`).
   * `name`: Tool Title string
@@ -115,17 +116,25 @@ EXACT HTML BOILERPLATE TEMPLATE (index.html)
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
       },
       {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://niktool.in/" },
+          { "@type": "ListItem", "position": 2, "name": "[Category]", "item": "https://niktool.in/#tools" },
+          { "@type": "ListItem", "position": 3, "name": "[Tool Title]", "item": "https://niktool.in/tools/[tool-slug]/" }
+        ]
+      },
+      {
         "@type": "FAQPage",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How do I use this tool?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Simply paste your input data into the input field and click the primary action button to get instant results." }
+            "name": "[Tool Specific Question 1]?",
+            "acceptedAnswer": { "@type": "Answer", "text": "[Detailed Tool Specific Answer 1]" }
           },
           {
             "@type": "Question",
-            "name": "Is my data secure?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes, all processing happens locally in your browser." }
+            "name": "[Tool Specific Question 2]?",
+            "acceptedAnswer": { "@type": "Answer", "text": "[Detailed Tool Specific Answer 2]" }
           }
         ]
       }
@@ -144,9 +153,24 @@ EXACT HTML BOILERPLATE TEMPLATE (index.html)
         </span>
         <span class="brand-text">NikTool</span>
       </a>
-      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+      <div class="nav-links">
+        <a class="home-link" href="/">Home</a>
+        <a href="/#tools">All tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </div>
     </nav>
   </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <a href="/#tools">[Category]</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>[Tool Title]</span>
+    </div>
 
   <main id="main" class="container">
     <section class="tool-hero">
