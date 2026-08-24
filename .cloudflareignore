@@ -1,0 +1,10 @@
+# Cloudflare Pages Ignore List
+tools/
+ai-tool-builder/
+scratch/
+scripts/
+.git/
+.github/
+.agents/
+*.log
+*.zip
