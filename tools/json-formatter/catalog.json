@@ -1,9 +1,0 @@
-{
-  "name": "JSON Formatter & Validator",
-  "description": "Format, validate, and beautify your JSON data instantly online.",
-  "path": "/tools/json-formatter/",
-  "category": "Developer",
-  "icon": "code",
-  "keywords": ["json formatter", "json validator", "beautify json", "format json", "json parser"],
-  "order": 50
-}

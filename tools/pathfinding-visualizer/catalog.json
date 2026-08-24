@@ -1,1 +1,0 @@
-﻿{"name":"Pathfinding Visualizer","description":"Visualize BFS, DFS, Dijkstra and A* pathfinding on an interactive grid.","path":"/tools/pathfinding-visualizer/","category":"DSA","icon":"map","keywords":["pathfinding","dijkstra","a*","bfs","dfs","grid","visualizer"],"order":45}
