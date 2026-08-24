@@ -1,0 +1,15 @@
+{
+  "name": "Convert 20 Nautical Miles to KM",
+  "description": "Convert 20 nautical miles (NM) to kilometers (37.04 km). 100% free and local.",
+  "path": "/tools/convert-20-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 20 nautical miles to km",
+    "Convert 20 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

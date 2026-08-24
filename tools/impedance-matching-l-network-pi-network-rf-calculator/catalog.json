@@ -1,0 +1,16 @@
+{
+  "name": "L-Network Impedance Matching RF Circuit Calculator",
+  "description": "Calculate inductor L and capacitor C component values for RF L-network and Pi-network impedance matching circuits.",
+  "path": "/tools/impedance-matching-l-network-pi-network-rf-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "impedance matching l network pi network rf calculator",
+    "L-Network Impedance Matching RF Circuit Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

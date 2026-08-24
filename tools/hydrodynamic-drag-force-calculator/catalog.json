@@ -1,0 +1,15 @@
+{
+  "name": "Aerodynamic & Hydrodynamic Drag Force Calculator",
+  "description": "Calculate vehicle and aircraft aerodynamic drag resistance force (Fd = ½ · ρ · v² · Cd · A) and required engine power to overcome drag.",
+  "path": "/tools/hydrodynamic-drag-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "aerodynamic drag calculator",
+    "drag force calculator online",
+    "air resistance power calculator",
+    "cd drag coefficient calculator",
+    "vehicle aerodynamics drag formula"
+  ],
+  "order": 188
+}

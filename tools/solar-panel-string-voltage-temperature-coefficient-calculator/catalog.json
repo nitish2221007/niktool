@@ -1,0 +1,15 @@
+{
+  "name": "Solar PV String Voltage & Cold Temperature Safety Calculator",
+  "description": "Calculate maximum open-circuit voltage (V_oc(max) = V_oc(STC) · (1 + γ_Voc · (T_min - 25))) for solar PV strings under extreme cold winter conditions to prevent inverter overvoltage destruction.",
+  "path": "/tools/solar-panel-string-voltage-temperature-coefficient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar string voltage calculator",
+    "solar voc temperature coefficient calculator",
+    "cold weather solar panel voc formula",
+    "inverter max input voltage solar string sizing",
+    "nec 690 7 solar voltage calculator"
+  ],
+  "order": 434
+}

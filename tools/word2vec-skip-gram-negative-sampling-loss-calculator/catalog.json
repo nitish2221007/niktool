@@ -1,0 +1,15 @@
+{
+  "name": "Word2Vec Skip-Gram Negative Sampling (SGNS) Objective Loss Calculator",
+  "description": "Calculate Word2Vec Skip-Gram Negative Sampling (SGNS) objective function loss (ℒ = -ln σ(v'_wO · v_wI) - ∑ ln σ(-v'_wi · v_wI)) for self-supervised word embedding training.",
+  "path": "/tools/word2vec-skip-gram-negative-sampling-loss-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "word2vec calculator",
+    "skip gram negative sampling sgns loss formula online",
+    "word embedding dot product loss calculator",
+    "mikolov word2vec nlp loss calculator",
+    "natural language processing word embeddings online"
+  ],
+  "order": 1230
+}

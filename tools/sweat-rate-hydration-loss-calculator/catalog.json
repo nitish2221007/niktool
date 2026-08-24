@@ -1,0 +1,15 @@
+{
+  "name": "Workout Sweat Rate & Athletic Hydration Calculator",
+  "description": "Calculate hourly sweat rate (Liters / hour = (Pre Weight - Post Weight + Fluid Drank) / Hours) and dehydration percentage for endurance training.",
+  "path": "/tools/sweat-rate-hydration-loss-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "sweat rate calculator",
+    "hydration loss calculator endurance",
+    "hourly sweat rate formula",
+    "athlete dehydration percentage calculator",
+    "marathon hydration sweat loss online"
+  ],
+  "order": 302
+}

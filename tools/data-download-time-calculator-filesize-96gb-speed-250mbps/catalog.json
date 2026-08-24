@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (96 GB File, 250 Mbps Speed)",
+  "description": "Calculate file transfer download time (~52.4 minutes / 3146s) for 96 GB file at 250 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-96gb-speed-250mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 96gb speed 250mbps",
+    "Data Download Time Calculator (96 GB File, 250 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

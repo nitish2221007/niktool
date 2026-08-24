@@ -1,0 +1,15 @@
+{
+  "name": "Codon Adaptation Index (CAI = (∏ w_i)^(1/L)) Synonymous Codon Bias Calculator",
+  "description": "Calculate recombinant gene Codon Adaptation Index (CAI geometric mean from 0.0 to 1.0) and synonymous codon optimization efficiency for heterologous gene expression in E. coli or yeast.",
+  "path": "/tools/codon-usage-bias-cai-codon-adaptation-index-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "codon adaptation index calculator",
+    "cai formula geometric mean relative adaptiveness online",
+    "synonymous codon usage bias e coli expression calculator",
+    "gene codon optimization score calculator",
+    "bioinformatics molecular genetics biotechnology online"
+  ],
+  "order": 1204
+}

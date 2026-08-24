@@ -1,0 +1,15 @@
+{
+  "name": "Convert 35 Miles to KM",
+  "description": "Convert 35 miles to kilometers (56.33 km). 100% free and local.",
+  "path": "/tools/convert-35-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 35 miles to km",
+    "Convert 35 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 145V, Current 6A)",
+  "description": "Calculate Resistance (24.17 Ω) and Electric Power (870.0 W) for 145V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-145v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 145v current 6a",
+    "Ohm's Law Calculator (Voltage 145V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

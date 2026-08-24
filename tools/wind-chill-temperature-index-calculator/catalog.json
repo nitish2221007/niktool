@@ -1,0 +1,15 @@
+{
+  "name": "Wind Chill Index & Frostbite Danger Calculator",
+  "description": "Calculate effective Wind Chill apparent temperature (NWS formula: T_wc = 35.74 + 0.6215·T - 35.75·V^0.16 + 0.4275·T·V^0.16) and minutes to frostbite.",
+  "path": "/tools/wind-chill-temperature-index-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "wind chill calculator",
+    "nws wind chill temperature formula",
+    "apparent temperature wind chill online",
+    "frostbite time wind chill calculator",
+    "feels like winter cold calculator"
+  ],
+  "order": 349
+}

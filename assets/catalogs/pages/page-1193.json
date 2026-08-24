@@ -1,0 +1,385 @@
+[
+  {
+    "name": "README Generator",
+    "description": "Fill in your project details and generate a clean, structured Markdown README file. Perfect for GitHub repositories and open-source projects.",
+    "path": "/tools/readme-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "readme generator",
+      "readme generator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "URL Slug Generator",
+    "description": "Transform any article title, product name, or phrase into a clean, lowercase, SEO-friendly URL slug with stop-word filtering.",
+    "path": "/tools/url-slug-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "url slug generator",
+      "slugify online",
+      "seo slug generator",
+      "permalink generator",
+      "title to url slug",
+      "url string cleaner"
+    ]
+  },
+  {
+    "name": "USD to INR Converter",
+    "description": "Convert US Dollars to Indian Rupees instantly. Free, private, and browser-based.",
+    "path": "/tools/usd-to-inr-converter/",
+    "category": "Finance",
+    "icon": "dollar-sign",
+    "keywords": [
+      "usd to inr",
+      "dollar to rupee",
+      "currency converter",
+      "us dollar",
+      "indian rupee",
+      "forex"
+    ]
+  },
+  {
+    "name": "Coordinate Geometry Calculator",
+    "description": "Calculate distance, midpoint, and section formula for Class 10 coordinate geometry in one hub tool. Free and fully private.",
+    "path": "/tools/coordinate-geometry-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "coordinate geometry calculator",
+      "class 10 coordinate geometry calculator",
+      "distance midpoint section formula",
+      "coordinate calculator",
+      "10th coordinate geometry",
+      "school coordinate geometry tool",
+      "coordinate formula calculator",
+      "coordinate geometry online"
+    ]
+  },
+  {
+    "name": "CSS Glassmorphism Generator",
+    "description": "Design modern frosted glass UI cards with customizable backdrop blur, transparency, border reflection, and copy-ready CSS code.",
+    "path": "/tools/css-glassmorphism-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css glassmorphism generator",
+      "frosted glass css generator",
+      "backdrop filter blur generator",
+      "glassmorphism ui builder",
+      "css glass effect generator"
+    ]
+  },
+  {
+    "name": "INR to CNY Converter",
+    "description": "Convert Indian Rupees to Chinese Yuan instantly. Free, private, and browser-based.",
+    "path": "/tools/inr-to-cny-converter/",
+    "category": "Finance",
+    "icon": "yen-sign",
+    "keywords": [
+      "inr to cny",
+      "rupee to yuan",
+      "indian rupee",
+      "chinese yuan",
+      "renminbi",
+      "currency converter"
+    ]
+  },
+  {
+    "name": "Percentage Change Calculator",
+    "description": "Calculate percentage increase or decrease between old and new values with direction labelled. Free, fast, and fully private.",
+    "path": "/tools/percentage-change-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "percentage change calculator",
+      "percentage increase calculator",
+      "percentage decrease calculator",
+      "percent change formula",
+      "increase decrease calculator",
+      "class 10 percentage change",
+      "price increase percentage",
+      "percentage difference calculator"
+    ]
+  },
+  {
+    "name": "Standard Deviation Calculator",
+    "description": "Calculate sample and population standard deviation, variance, mean, sum, count, and margin of error from any comma- or space-separated dataset.",
+    "path": "/tools/standard-deviation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "standard deviation calculator",
+      "variance calculator",
+      "sample standard deviation",
+      "population standard deviation",
+      "statistics calculator",
+      "mean and standard deviation"
+    ]
+  },
+  {
+    "name": "Permutation and Combination Calculator",
+    "description": "Calculate permutations (nPr) and combinations (nCr) with step-by-step factorial formulas and instant probability computation.",
+    "path": "/tools/permutation-combination-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "permutation and combination calculator",
+      "npr calculator",
+      "ncr calculator",
+      "combinatorics calculator",
+      "permutations formula",
+      "combinations online"
+    ]
+  },
+  {
+    "name": "Pythagoras Calculator",
+    "description": "Find a missing side of a right triangle using the Pythagorean theorem with validation. Free, fast, and fully private browser tool.",
+    "path": "/tools/pythagoras-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "Pythagoras calculator",
+      "Pythagorean theorem calculator",
+      "right triangle calculator",
+      "hypotenuse calculator",
+      "missing side triangle calculator",
+      "class 10 Pythagoras",
+      "school triangle calculator",
+      "Pythagorean theorem online"
+    ]
+  },
+  {
+    "name": "Color Contrast Checker",
+    "description": "Calculate WCAG 2.1 color contrast ratios for foreground and background colors with pass/fail compliance ratings for AA and AAA levels.",
+    "path": "/tools/color-contrast-checker/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "color contrast checker",
+      "wcag contrast checker",
+      "accessibility contrast ratio",
+      "accessible colors test",
+      "web accessibility contrast",
+      "wcag 2.1 checker"
+    ]
+  },
+  {
+    "name": "Scientific Notation Calculator",
+    "description": "Convert numbers to and from scientific notation with coefficient, exponent and e-notation shown. Free, fast, and fully private.",
+    "path": "/tools/scientific-notation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "scientific notation calculator",
+      "standard form calculator",
+      "scientific notation converter",
+      "class 10 scientific notation",
+      "physics scientific notation",
+      "exponent notation calculator",
+      "number to scientific notation",
+      "scientific form calculator"
+    ]
+  },
+  {
+    "name": "Cron Expression Explainer",
+    "description": "Translate standard 5-part cron expressions into plain English explanations and preview calculated upcoming execution dates.",
+    "path": "/tools/cron-expression-descriptor/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "cron expression explainer",
+      "cron descriptor",
+      "crontab generator",
+      "cron schedule parser",
+      "cron syntax explainer",
+      "cron to english"
+    ]
+  },
+  {
+    "name": "JWT Debugger & Decoder",
+    "description": "Decode and inspect JSON Web Tokens safely in your browser. View header, payload claims, expiration time, and validity status with 100% privacy.",
+    "path": "/tools/jwt-debugger/",
+    "category": "Developer",
+    "icon": "shield",
+    "keywords": [
+      "jwt debugger",
+      "jwt decoder",
+      "decode jwt online",
+      "json web token decoder",
+      "jwt inspector",
+      "jwt claims viewer",
+      "jwt exp calculator",
+      "jwt parser",
+      "decode bearer token"
+    ]
+  },
+  {
+    "name": "Significant Figures Calculator",
+    "description": "Count significant figures and round to N sig figs with the zero rules explained. Free, fast, and fully private browser tool.",
+    "path": "/tools/significant-figures-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "significant figures calculator",
+      "sig fig calculator",
+      "significant figures counter",
+      "round to significant figures",
+      "class 10 significant figures",
+      "science significant figures",
+      "physics sig figs",
+      "significant digits calculator"
+    ]
+  },
+  {
+    "name": "HEX to RGB HSL Converter",
+    "description": "Convert color codes between HEX, RGB, RGBA, HSL, HSLA, and CSS color functions with real-time swatch preview and 1-click copy.",
+    "path": "/tools/hex-to-rgb-hsl-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "hex to rgb converter",
+      "hex to hsl",
+      "rgb to hex",
+      "hsl to hex",
+      "color code converter",
+      "css color converter"
+    ]
+  },
+  {
+    "name": "Unix Timestamp Converter",
+    "description": "Convert Unix epoch timestamps in seconds and milliseconds to human-readable UTC and local dates, or convert dates to timestamps. Free and 100% private.",
+    "path": "/tools/unix-timestamp-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "unix timestamp converter",
+      "epoch converter",
+      "epoch to date",
+      "date to timestamp",
+      "timestamp to human date",
+      "unix time converter",
+      "utc timestamp converter",
+      "epoch time online",
+      "current unix epoch"
+    ]
+  },
+  {
+    "name": "Word Counter",
+    "description": "Count words, characters, sentences, paragraphs, and reading time instantly. Free, fast, and fully private browser-based text tool.",
+    "path": "/tools/word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "word counter",
+      "word count tool",
+      "online word counter",
+      "character counter",
+      "sentence counter",
+      "paragraph counter",
+      "reading time calculator",
+      "essay word counter"
+    ]
+  },
+  {
+    "name": "Essay Word Counter",
+    "description": "Count words in your essay and track your progress against a target word limit. Free, fast, and fully private browser tool.",
+    "path": "/tools/essay-word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "essay word counter",
+      "essay word count",
+      "word limit checker",
+      "assignment word counter",
+      "student essay checker",
+      "writing word limit",
+      "essay length checker",
+      "word count target"
+    ]
+  },
+  {
+    "name": "Percentage Increase & Decrease Calculator",
+    "description": "Calculate percentage increase, percentage decrease, percentage change, and absolute difference between two numbers.",
+    "path": "/tools/percentage-increase-decrease-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "percentage increase calculator",
+      "percentage decrease calculator",
+      "percent change calculator",
+      "percentage difference calculator",
+      "calculate percentage growth"
+    ]
+  },
+  {
+    "name": "Text Diff & Compare Tool",
+    "description": "Compare two texts or code snippets to find differences line-by-line. Free, fast, and 100% private browser comparison tool.",
+    "path": "/tools/text-diff-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "text diff checker",
+      "diff checker online",
+      "compare text online",
+      "code difference checker",
+      "find text differences",
+      "lcs diff tool",
+      "compare two texts",
+      "line by line diff",
+      "text compare tool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Calculator",
+    "description": "Solve for pressure (P), volume (V), moles (n), or temperature (T) using the ideal gas equation PV = nRT in standard chemistry units.",
+    "path": "/tools/ideal-gas-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law calculator",
+      "pv nrt calculator",
+      "chemistry gas calculator",
+      "ideal gas equation solver",
+      "pressure volume temperature moles"
+    ]
+  },
+  {
+    "name": "Notice Word Counter",
+    "description": "Check the word count of your notice draft against the standard 50-word limit. Free, fast, and fully private browser tool.",
+    "path": "/tools/notice-word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "notice word counter",
+      "notice writing word count",
+      "CBSE notice word limit",
+      "notice format word count",
+      "class 10 notice counter",
+      "notice writing checker",
+      "50 words notice",
+      "school notice word count"
+    ]
+  },
+  {
+    "name": "Notice Format Checker",
+    "description": "Check your notice writing format for essential elements like date, heading, and sign-off. Free, fast, and fully private.",
+    "path": "/tools/notice-format-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "notice format checker",
+      "notice writing checker",
+      "CBSE notice format",
+      "notice format class 10",
+      "notice writing tool",
+      "check notice format",
+      "notice structure checker",
+      "school notice checker"
+    ]
+  }
+]

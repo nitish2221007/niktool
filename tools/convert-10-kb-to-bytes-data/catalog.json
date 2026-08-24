@@ -1,0 +1,15 @@
+{
+  "name": "Convert 10 KB to Bytes Data",
+  "description": "Convert 10 Kilobytes (KB) to Bytes (10240 bytes). 100% free and local.",
+  "path": "/tools/convert-10-kb-to-bytes-data/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 10 kb to bytes data",
+    "Convert 10 KB to Bytes Data",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

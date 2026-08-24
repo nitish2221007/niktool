@@ -1,0 +1,15 @@
+{
+  "name": "Nyquist Stability Criterion (Z = N + P) Encirclements Calculator",
+  "description": "Calculate closed-loop right-half-plane (RHP) unstable poles Z (Z = N + P) using the Nyquist Stability Criterion from number of clockwise encirclements N of critical point (-1 + j0) and open-loop unstable poles P.",
+  "path": "/tools/nyquist-stability-criterion-encirclements-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "nyquist stability calculator",
+    "nyquist criterion formula z equals n plus p online",
+    "critical point minus 1 plus j0 encirclements calculator",
+    "closed loop rhp poles stability nyquist calculator",
+    "frequency domain control theory stability online"
+  ],
+  "order": 1318
+}

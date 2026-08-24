@@ -1,0 +1,15 @@
+{
+  "name": "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 3m)",
+  "description": "Calculate soil bearing pressure (q = 55.56 kPa) for 500 kN load on a 3m x 3m square footing.",
+  "path": "/tools/footing-bearing-pressure-calculator-columnload-500kn-footing-3m/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "footing bearing pressure calculator columnload 500kn footing 3m",
+    "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 3m)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

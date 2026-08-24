@@ -1,0 +1,15 @@
+{
+  "name": "Convert 45 KM/H to MPH Speed",
+  "description": "Convert 45 kilometers per hour (km/h) to miles per hour (27.96 mph).",
+  "path": "/tools/convert-45-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 45 kmh to mph speed",
+    "Convert 45 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Insulation R-Value to U-Factor Converter",
+  "description": "Convert building thermal insulation values across Imperial R-Value (h·ft²·°F/BTU), Metric RSI (m²·K/W), and Overall Heat Transfer U-Factor (U = 1/R).",
+  "path": "/tools/r-value-u-factor-thermal-insulation-converter/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "r value to u factor converter",
+    "u value to r value calculator",
+    "thermal resistance rsi calculator",
+    "building insulation heat loss formula",
+    "r value imperial to metric rsi online"
+  ],
+  "order": 330
+}

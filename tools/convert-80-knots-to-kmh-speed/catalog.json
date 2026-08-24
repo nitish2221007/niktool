@@ -1,0 +1,15 @@
+{
+  "name": "Convert 80 Knots to KM/H Speed",
+  "description": "Convert 80 knots speed to kilometers per hour (148.16 km/h).",
+  "path": "/tools/convert-80-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 80 knots to kmh speed",
+    "Convert 80 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

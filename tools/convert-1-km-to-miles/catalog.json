@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 KM to Miles",
+  "description": "Convert 1 kilometers to miles (0.62 miles). 100% free and local.",
+  "path": "/tools/convert-1-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 1 km to miles",
+    "Convert 1 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 52 KM to Miles",
+  "description": "Convert 52 kilometers to miles (32.31 miles). 100% free and local.",
+  "path": "/tools/convert-52-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 52 km to miles",
+    "Convert 52 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

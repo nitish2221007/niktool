@@ -1,0 +1,16 @@
+{
+  "name": "Flip Image Horizontally Online",
+  "description": "Flip image horizontally (mirror effect) online.",
+  "path": "/tools/flip-image-horizontally-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "flip image horizontally online",
+    "Flip Image Horizontally Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

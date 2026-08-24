@@ -1,0 +1,15 @@
+{
+  "name": "Convert 21 EM to PX Value",
+  "description": "Convert 21 EM units to pixels (336 px) based on 16px font context.",
+  "path": "/tools/convert-21-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 21 em to px value",
+    "Convert 21 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

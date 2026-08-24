@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rayleigh Criterion Optical Angular Resolution Limit Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate diffraction-limited angular resolution (θ = 1.22 · λ / D) in arcseconds, microradians, and resolvable spot size for telescopes, microscopes, and cameras.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/rayleigh-criterion-angular-resolution-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rayleigh Criterion Optical Angular Resolution Limit Calculator | NikTool">
+  <meta property="og:description" content="Calculate diffraction-limited angular resolution (θ = 1.22 · λ / D) in arcseconds, microradians, and resolvable spot size for telescopes, microscopes, and cameras.">
+  <meta property="og:url" content="https://niktool.in/tools/rayleigh-criterion-angular-resolution-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rayleigh Criterion Optical Angular Resolution Limit Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/rayleigh-criterion-angular-resolution-calculator/",
+        "description": "Calculate diffraction-limited angular resolution (θ = 1.22 · λ / D) in arcseconds, microradians, and resolvable spot size for telescopes, microscopes, and cameras.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the theoretical resolution of an 8-inch (200 mm) amateur telescope in visible light?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$\\theta = 1.22 \times (550 \times 10^{-9}) / 0.200 = 3.355 \times 10^{-6}\\text{ radians} = 0.692\\text{ arcseconds}$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Rayleigh Criterion Optical Angular Resolution Limit Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Rayleigh Criterion Optical Angular Resolution Limit Calculator</h1>
+      <p>Calculate diffraction-limited angular resolution (θ = 1.22 · λ / D) in arcseconds, microradians, and resolvable spot size for telescopes, microscopes, and cameras.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Wavelength λ (nm) & Aperture / Objective Diameter D (mm or inches)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ray-lam">Wavelength λ (nm)</label>
+          <input class="tool-textarea" id="ray-lam" type="number" step="any" value="550" placeholder="550 nm (Green Visible Light)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ray-d">Aperture Diameter D (mm)</label>
+          <input class="tool-textarea" id="ray-d" type="number" step="any" value="200" placeholder="200 mm (8-inch Telescope)" />
+        </div>
+      </div>
+      <div id="ray-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ray-res-arcsec" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">0.693 Arcseconds</span>
+            <span class="stat-label">Angular Resolution Limit (θ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ray-res-rad" style="font-weight:700;">3.36 μrad (Airy Disk Size)</span>
+            <span class="stat-label">Microradians (1.22 · λ / D)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Rayleigh Criterion Optical Angular Resolution Limit Calculator</h2>
+      <ol>
+        <li>Enter light optical wavelength $\lambda$ in nanometers (550 nm standard for visible light).</li>
+        <li>Enter telescope mirror, camera lens, or human pupil aperture diameter D in millimeters.</li>
+        <li>Inspect theoretical diffraction-limited angular resolution limit in arcseconds and microradians.</li>
+      </ol>
+
+      <h2>Lord Rayleigh's 1879 Airy Disk Separation Limit</h2>
+      <p>Two distinct point stars are resolved when the center of one star's central Airy diffraction peak falls on the first dark diffraction ring minimum of the other ($\theta = 1.22\lambda / D$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the theoretical resolution of an 8-inch (200 mm) amateur telescope in visible light?</summary>
+        <p>$\theta = 1.22 	imes (550 	imes 10^{-9}) / 0.200 = 3.355 	imes 10^{-6}\text{ radians} = 0.692\text{ arcseconds}$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/rayleigh-criterion-angular-resolution-calculator/tool.js"></script>
+</body>
+</html>

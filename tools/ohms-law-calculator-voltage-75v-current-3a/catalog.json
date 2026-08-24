@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 75V, Current 3A)",
+  "description": "Calculate Resistance (25.00 Ω) and Electric Power (225.0 W) for 75V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-75v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 75v current 3a",
+    "Ohm's Law Calculator (Voltage 75V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

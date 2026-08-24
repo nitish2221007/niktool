@@ -1,0 +1,15 @@
+{
+  "name": "Restaurant Split Bill & Tip Calculator",
+  "description": "Split restaurant dining bills evenly across people, calculate custom tip percentages (10%, 15%, 18%, 20%), and individual payment shares.",
+  "path": "/tools/split-bill-tip-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "split bill calculator",
+    "tip calculator online",
+    "restaurant bill splitter",
+    "calculate tip per person",
+    "split dinner bill evenly"
+  ],
+  "order": 178
+}

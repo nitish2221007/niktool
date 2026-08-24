@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (16 GB File, 10 Mbps Speed)",
+  "description": "Calculate file transfer download time (~218.4 minutes / 13107s) for 16 GB file at 10 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-16gb-speed-10mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 16gb speed 10mbps",
+    "Data Download Time Calculator (16 GB File, 10 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

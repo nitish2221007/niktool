@@ -1,0 +1,15 @@
+{
+  "name": "NOAA Heat Index & Summer Apparent Temperature Calculator",
+  "description": "Calculate summer Heat Index (\"Feels Like\" temperature) and OSHA heat exhaustion danger levels from dry-bulb temperature (°F) and Relative Humidity (%).",
+  "path": "/tools/heat-index-apparent-temperature-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "heat index calculator",
+    "noaa heat index formula",
+    "summer feels like temperature calculator",
+    "heat exhaustion danger humidity index",
+    "apparent temperature heat index online"
+  ],
+  "order": 350
+}

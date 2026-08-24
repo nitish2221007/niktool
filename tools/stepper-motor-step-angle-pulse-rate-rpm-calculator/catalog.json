@@ -1,0 +1,15 @@
+{
+  "name": "Stepper Motor Step Angle, Microstepping Pulse Rate & RPM Calculator",
+  "description": "Calculate 2-phase hybrid stepper motor shaft rotational speed in RPM (RPM = (PPS · 60) / (Steps/Rev · Microstepping)), step angle θ_s (360° / 200 = 1.8°), step frequency pulse rate, and linear lead screw speed.",
+  "path": "/tools/stepper-motor-step-angle-pulse-rate-rpm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "stepper motor calculator",
+    "step angle pulse rate rpm formula online",
+    "microstepping 1 16 1 32 steps per revolution calculator",
+    "pulses per second pps to rpm stepper calculator",
+    "cnc 3d printing robotics mechatronics online"
+  ],
+  "order": 1315
+}

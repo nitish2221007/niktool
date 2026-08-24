@@ -1,0 +1,15 @@
+{
+  "name": "Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator",
+  "description": "Calculate downstream biopharmaceutical protein concentration Tangential Flow Filtration Transmembrane Pressure (TMP = (P_feed + P_retentate)/2 - P_permeate) in bar/psi and filtrate permeate flux (J = TMP / (μ · [R_m + R_c])) in LMH (L/m²·h).",
+  "path": "/tools/tangential-flow-ultrafiltration-flux-tff-membrane-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "tff filtration calculator",
+    "transmembrane pressure formula tmp equals pfeed plus pretentate over 2 minus ppermeate",
+    "tangential flow ultrafiltration flux lmh calculator",
+    "biopharmaceutical protein concentration tff calculator online",
+    "membrane fouling resistance tff flux online"
+  ],
+  "order": 861
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Theis Non-Equilibrium Aquifer Drawdown (s = Q / (4π·T) · W(u)) Well Function Calculator",
+  "description": "Calculate transient pumping well drawdown s in meters (s = Q / (4π·T) · W(u)), Theis Well Function W(u) exponential integral, and aquifer dimensionless parameter u (u = r²·S / (4·T·t)) in hydrogeology.",
+  "path": "/tools/theis-unsteady-aquifer-drawdown-well-function-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "theis equation calculator",
+    "well function w of u exponential integral formula online",
+    "confined aquifer transient drawdown theis calculator",
+    "transmissivity storativity aquifer pumping test calculator",
+    "hydrogeology water resources groundwater engineering online"
+  ],
+  "order": 1294
+}

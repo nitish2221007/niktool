@@ -1,0 +1,15 @@
+{
+  "name": "Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator",
+  "description": "Calculate 2-state and 3-state ergodic discrete Markov chain long-term stationary equilibrium probability vectors (π · P = π with Σ π_i = 1) from transition transition matrices.",
+  "path": "/tools/markov-chain-steady-state-stationary-distribution-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "markov chain calculator",
+    "stationary distribution formula pi p equals pi online",
+    "steady state transition probability matrix calculator",
+    "ergodic markov chain equilibrium vector calculator",
+    "stochastic process pagerank markov online"
+  ],
+  "order": 833
+}

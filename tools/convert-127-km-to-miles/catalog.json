@@ -1,0 +1,15 @@
+{
+  "name": "Convert 127 KM to Miles",
+  "description": "Convert 127 kilometers to miles (78.91 miles). 100% free and local.",
+  "path": "/tools/convert-127-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 127 km to miles",
+    "Convert 127 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

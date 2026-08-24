@@ -1,0 +1,15 @@
+{
+  "name": "Cosmological Redshift (z) & Hubble-Lemaître Cosmic Expansion Calculator",
+  "description": "Calculate expanding universe cosmological redshift (1 + z = a_now / a_then = λ_obs / λ_emit), recession velocity (v = H₀·d), and cosmic lookback travel time in billions of years under the Standard ΛCDM Cosmology model.",
+  "path": "/tools/cosmological-redshift-hubble-lemaitre-expansion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cosmological redshift calculator",
+    "hubble lemaitre law formula v equals h0 d online",
+    "cosmic lookback time expanding universe calculator",
+    "jwst high redshift galaxy z 13 calculator online",
+    "lambda cdm scale factor expansion calculator"
+  ],
+  "order": 879
+}

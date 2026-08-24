@@ -1,0 +1,15 @@
+{
+  "name": "Cyclotron Gyrofrequency (ω_c) & Larmor Radius (r_L) Calculator",
+  "description": "Calculate charged particle magnetic gyration Cyclotron Frequency (ω_c = q·B / m) in MHz/GHz and Larmor gyroradius (r_L = m·v_⊥ / (q·B) = √(2·m·E_⊥) / (q·B)) in mm/μm.",
+  "path": "/tools/cyclotron-frequency-larmor-gyroradius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cyclotron frequency calculator",
+    "larmor radius formula r_l equals m v over q b online",
+    "gyrofrequency electron ion magnetic field calculator",
+    "plasma physics gyroradius cyclotron resonance calculator",
+    "magnetic confinement larmor orbit online"
+  ],
+  "order": 820
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 148cm, Weight 90kg)",
+  "description": "Calculate Body Mass Index (BMI 41.1) for height 148 cm and weight 90 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-148cm-weight-90kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 148cm weight 90kg",
+    "BMI Calculator (Height 148cm, Weight 90kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

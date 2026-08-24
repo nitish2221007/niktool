@@ -1,0 +1,15 @@
+{
+  "name": "Convert 64°C Celsius to Fahrenheit",
+  "description": "Convert 64 degrees Celsius (°C) to Fahrenheit (147.2°F).",
+  "path": "/tools/convert-64-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 64 celsius to fahrenheit",
+    "Convert 64°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 87 Knots to KM/H Speed",
+  "description": "Convert 87 knots speed to kilometers per hour (161.12 km/h).",
+  "path": "/tools/convert-87-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 87 knots to kmh speed",
+    "Convert 87 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

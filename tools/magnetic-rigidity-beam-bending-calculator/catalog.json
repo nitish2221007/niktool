@@ -1,0 +1,15 @@
+{
+  "name": "Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator",
+  "description": "Calculate particle accelerator magnetic rigidity (B · ρ = p / q = √(E_k² + 2 · E_k · m₀c²) / (q · c)) in Tesla-meters (T·m) and required dipole magnet bending fields.",
+  "path": "/tools/magnetic-rigidity-beam-bending-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "magnetic rigidity calculator",
+    "b rho formula particle accelerator",
+    "tesla meters beam rigidity calculator online",
+    "cyclotron dipole bending radius calculator",
+    "proton beam magnetic rigidity online"
+  ],
+  "order": 545
+}

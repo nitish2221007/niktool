@@ -1,0 +1,15 @@
+{
+  "name": "Convert HSL Color to HEX",
+  "description": "Convert HSL color values to 6-digit HEX color code.",
+  "path": "/tools/hsl-to-hex-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "hsl to hex converter",
+    "Convert HSL Color to HEX",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

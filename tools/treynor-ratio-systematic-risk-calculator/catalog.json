@@ -1,0 +1,15 @@
+{
+  "name": "Treynor Ratio (Systematic Market Beta Risk) Calculator",
+  "description": "Calculate the Treynor Ratio (T = (R_p - R_f) / β_p) to measure excess portfolio return earned per unit of non-diversifiable systematic market risk (Beta).",
+  "path": "/tools/treynor-ratio-systematic-risk-calculator/",
+  "category": "Finance",
+  "icon": "chart",
+  "keywords": [
+    "treynor ratio calculator",
+    "systematic risk treynor formula",
+    "treynor ratio beta excess return online",
+    "jack treynor portfolio performance calculator",
+    "capm treynor measure online"
+  ],
+  "order": 485
+}

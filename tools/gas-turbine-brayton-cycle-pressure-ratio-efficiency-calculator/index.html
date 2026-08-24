@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate ideal Brayton cycle gas turbine thermal efficiency (η = 1 - r_p^(-(γ-1)/γ)), compressor and turbine exit temperatures, and specific work output from compressor pressure ratio r_p and turbine inlet temperature (TIT).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/gas-turbine-brayton-cycle-pressure-ratio-efficiency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate ideal Brayton cycle gas turbine thermal efficiency (η = 1 - r_p^(-(γ-1)/γ)), compressor and turbine exit temperatures, and specific work output from compressor pressure ratio r_p and turbine inlet temperature (TIT).">
+  <meta property="og:url" content="https://niktool.in/tools/gas-turbine-brayton-cycle-pressure-ratio-efficiency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/gas-turbine-brayton-cycle-pressure-ratio-efficiency-calculator/",
+        "description": "Calculate ideal Brayton cycle gas turbine thermal efficiency (η = 1 - r_p^(-(γ-1)/γ)), compressor and turbine exit temperatures, and specific work output from compressor pressure ratio r_p and turbine inlet temperature (TIT).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What limits the maximum pressure ratio in real jet engines?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Extremely high pressure ratios increase compressor exit temperature $T_2$, leaving less margin for fuel combustion before exceeding turbine blade melting limits."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator</h1>
+      <p>Calculate ideal Brayton cycle gas turbine thermal efficiency (η = 1 - r_p^(-(γ-1)/γ)), compressor and turbine exit temperatures, and specific work output from compressor pressure ratio r_p and turbine inlet temperature (TIT).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Compressor Pressure Ratio r_p (e.g. 15 to 40) & Turbine Inlet Temp TIT (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bc-rp">Pressure Ratio r_p</label>
+          <input class="tool-textarea" id="bc-rp" type="number" step="5" value="25.0" placeholder="25.0 (Modern Jet Engine)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bc-tit">TIT (°C)</label>
+          <input class="tool-textarea" id="bc-tit" type="number" step="50" value="1400.0" placeholder="1,400 °C (Turbine Inlet)" />
+        </div>
+      </div>
+      <div id="bc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bc-res-eff" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Ideal Efficiency η = 60.1%</span>
+            <span class="stat-label">Brayton Cycle Thermal Efficiency (η = 1 - r_p^(-(γ-1)/γ))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bc-res-temps" style="color:var(--green-dark); font-weight:700;">Compressor Exit T₂ = 450 °C (723 K) | Turbine Exhaust T₄ = 437 °C (Combustor ΔT = 950 K)</span>
+            <span class="stat-label">Compressor & Turbine Thermodynamic State Temperatures</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator</h2>
+      <ol>
+        <li>Enter compressor overall pressure ratio $r_p = P_2 / P_1$.</li>
+        <li>Enter Turbine Inlet Temperature (TIT) in $^circ	ext{C}$.</li>
+        <li>Inspect Brayton thermal efficiency $eta$ and state temperatures ($T_2, T_4$).</li>
+      </ol>
+
+      <h2>George Brayton 1872 Constant-Pressure Thermodynamic Cycle</h2>
+      <p>The Brayton cycle models jet engines and power-plant gas turbines; higher compressor pressure ratios ($r_p$) directly increase thermal efficiency ($1 - r_p^{-rac{gamma-1}{gamma}}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What limits the maximum pressure ratio in real jet engines?</summary>
+        <p>Extremely high pressure ratios increase compressor exit temperature $T_2$, leaving less margin for fuel combustion before exceeding turbine blade melting limits.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/gas-turbine-brayton-cycle-pressure-ratio-efficiency-calculator/tool.js"></script>
+</body>
+</html>

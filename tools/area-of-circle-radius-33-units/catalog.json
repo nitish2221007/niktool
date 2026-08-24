@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 33 Units)",
+  "description": "Calculate the exact area of a circle with radius 33 units (A = πr² = 3421.19).",
+  "path": "/tools/area-of-circle-radius-33-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 33 units",
+    "Area of Circle (Radius 33 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

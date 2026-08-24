@@ -1,0 +1,15 @@
+{
+  "name": "Hydraulic Excavator Hourly Earthmoving Productivity Calculator",
+  "description": "Calculate hourly excavation production rate (Q = (q · k_f · 3600 · E) / (t_c · S_w)) in Bank Cubic Meters (BCM/hr) and Cubic Yards per hour from bucket size and cycle time.",
+  "path": "/tools/excavator-cycle-time-productivity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "excavator productivity calculator",
+    "excavator cycle time production formula",
+    "hourly earthmoving volume calculator online",
+    "excavator bucket fill factor swell",
+    "earthwork excavation rate per hour online"
+  ],
+  "order": 441
+}

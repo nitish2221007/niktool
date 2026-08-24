@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator",
+    "description": "Calculate optical photodiode spectral Responsivity R in A/W (R = η · q · λ / (h · c)), Quantum Efficiency η (QE%), and generated photocurrent I_ph from incident laser optical power P_opt.",
+    "path": "/tools/photodetector-responsivity-quantum-efficiency-nep-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "photodetector responsivity calculator",
+      "quantum efficiency formula r equals eta q lambda over hc online",
+      "photodiode responsivity amps per watt calculator",
+      "photocurrent optical power detector calculator",
+      "optoelectronics photonics optical communications online"
+    ]
+  },
+  {
+    "name": "Schottky Barrier Diode Thermionic Emission & Ideality Factor (n) Calculator",
+    "description": "Calculate metal-semiconductor Schottky barrier diode forward current density J in A/cm² (Bethe Thermionic Emission: J = A* · T² · e^(-q·Φ_B / kT) · (e^(q·V / n·kT) - 1)) from barrier height Φ_B and Richardson constant A*.",
+    "path": "/tools/schottky-barrier-diode-ideality-factor-richardson-emission-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "schottky barrier calculator",
+      "thermionic emission formula richardson constant online",
+      "schottky barrier height phi b ideality factor n calculator",
+      "metal semiconductor junction forward voltage drop calculator",
+      "power electronics semiconductor devices microelectronics online"
+    ]
+  },
+  {
+    "name": "CMOS Inverter Dynamic Switching & Leakage Power Dissipation (P = α·C_L·V_DD²·f) Calculator",
+    "description": "Calculate VLSI digital CMOS logic gate dynamic switching power P_dyn in mW (P_dyn = α · C_L · V_DD² · f), static subthreshold leakage power P_leak = I_leak · V_DD, and total energy per clock cycle.",
+    "path": "/tools/cmos-inverter-dynamic-switching-power-dissipation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cmos power dissipation calculator",
+      "dynamic switching power formula alpha c vdd squared f online",
+      "static leakage power subthreshold mosfet calculator",
+      "vlsi digital ic clock frequency power calculator",
+      "computer architecture vlsi electrical engineering microelectronics online"
+    ]
+  },
+  {
+    "name": "FinFET RC Propagation Delay & Elmore Gate Delay Calculator",
+    "description": "Calculate sub-5nm 3D FinFET and Gate-All-Around (GAA) nanosheet digital logic stage propagation delay t_pd in picoseconds (Elmore RC Delay: t_pd = ln(2) · R_on · C_L = 0.693 · R_on · C_L) and maximum clock frequency.",
+    "path": "/tools/finfet-gate-delay-rc-propagation-delay-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "finfet gate delay calculator",
+      "elmore rc propagation delay formula online",
+      "cmos stage delay 0.69 ron cl calculator",
+      "nanosheet finfet switching speed calculator",
+      "vlsi digital design microelectronics physical design online"
+    ]
+  },
+  {
+    "name": "Fowler-Nordheim Quantum Tunneling Current Flash Memory Calculator",
+    "description": "Calculate quantum mechanical Fowler-Nordheim field emission tunneling current density J_FN in A/cm² (J_FN = A · E_ox² · e^(-B / E_ox)) through thin dielectric oxide barriers in 3D NAND Flash memory program/erase cycles.",
+    "path": "/tools/fowler-nordheim-tunneling-current-flash-memory-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fowler nordheim calculator",
+      "quantum tunneling current density formula online",
+      "flash memory program erase electric field calculator",
+      "fn tunneling dielectric breakdown calculator",
+      "quantum mechanics semiconductor memory solid state online"
+    ]
+  },
+  {
+    "name": "Quantum Well Energy Eigenvalues (E_n = n²·π²·ℏ² / (2m*·L²)) Calculator",
+    "description": "Calculate quantum well quantized discrete energy levels E_n in meV and eV (1D Infinite Potential Box: E_n = n² · π² · ℏ² / (2·m* · L²)), subband energy transitions, and photon emission wavelengths for semiconductor QW lasers.",
+    "path": "/tools/quantum-well-energy-eigenvalues-infinite-potential-box-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quantum well energy eigenvalues calculator",
+      "particle in a box formula en online",
+      "quantum well subband energy transition calculator",
+      "effective mass quantum well width mev calculator",
+      "quantum mechanics semiconductor nanostructures photonics online"
+    ]
+  },
+  {
+    "name": "Bloch Sphere Qubit State (|ψ⟩ = cos(θ/2)|0⟩ + e^(iφ)·sin(θ/2)|1⟩) Probability Calculator",
+    "description": "Calculate single-qubit quantum state superposition |ψ⟩ = cos(θ/2)|0⟩ + e^(iφ)·sin(θ/2)|1⟩, measurement collapse probabilities P(|0⟩) = cos²(θ/2) and P(|1⟩) = sin²(θ/2), and Cartesian Bloch vector coordinates [x, y, z].",
+    "path": "/tools/bloch-sphere-qubit-state-rotation-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "bloch sphere calculator",
+      "qubit quantum state superposition formula online",
+      "quantum measurement probability cos squared theta over 2 calculator",
+      "quantum computing bloch sphere coordinates calculator",
+      "quantum information quantum mechanics computing online"
+    ]
+  },
+  {
+    "name": "Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator",
+    "description": "Calculate resonant Rabi frequency Ω_R in MHz (Ω_R = μ · E₀ / ℏ), generalized off-resonance Rabi frequency Ω = √(Ω_R² + Δ²), and quantum bit inversion π-pulse transition time t_π = π / Ω_R.",
+    "path": "/tools/rabi-oscillation-frequency-two-level-quantum-system-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rabi oscillation calculator",
+      "rabi frequency formula omega r online",
+      "quantum bit pi pulse transition time calculator",
+      "two level atom electric dipole laser rabi calculator",
+      "quantum computing atomic physics quantum optics online"
+    ]
+  },
+  {
+    "name": "Optical Fiber Numerical Aperture (NA), Acceptance Angle & V-Number Calculator",
+    "description": "Calculate optical fiber Numerical Aperture NA (NA = √(n_core² - n_clad²)), maximum acceptance cone half-angle θ_acc = arcsin(NA), Normalized Frequency V-number (V = 2π·a/λ · NA), and single-mode cutoff limit (V under 2.405).",
+    "path": "/tools/optical-fiber-numerical-aperture-acceptance-angle-v-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "optical fiber numerical aperture calculator",
+      "na formula acceptance angle online",
+      "v number normalized frequency single mode cutoff calculator",
+      "core cladding refractive index fiber optic calculator",
+      "photonics optical communications telecommunications online"
+    ]
+  },
+  {
+    "name": "Mach-Zehnder Interferometer (MZI) Phase Shift & Extinction Ratio Calculator",
+    "description": "Calculate integrated photonics Mach-Zehnder Interferometer (MZI) electro-optic intensity transmission T(Δφ) = cos²(Δφ / 2), output optical power P_out, and Extinction Ratio ER in dB (ER = 10·log₁₀(P_max / P_min)).",
+    "path": "/tools/mach-zehnder-interferometer-phase-shift-extinction-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mach zehnder interferometer calculator",
+      "mzi transmission formula cos squared delta phi over 2 online",
+      "extinction ratio decibels optical modulator calculator",
+      "electro optic phase shift mach zehnder calculator",
+      "integrated photonics silicon photonics optical communications online"
+    ]
+  },
+  {
+    "name": "Distributed Bragg Reflector (DBR) Stopband & Peak Reflectivity Calculator",
+    "description": "Calculate quarter-wavelength multilayer Distributed Bragg Reflector (DBR) peak mirror reflectivity R (R = [(1 - (n₁/n₂)^(2N)) / (1 + (n₁/n₂)^(2N))]²), photonic bandgap stopband bandwidth Δλ, and layer thicknesses (d = λ₀ / 4n) for VCSEL lasers.",
+    "path": "/tools/dbr-distributed-bragg-reflector-stopband-reflectivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dbr calculator",
+      "distributed bragg reflector peak reflectivity formula online",
+      "stopband bandwidth quarter wave dbr calculator",
+      "vcsel laser mirror dielectric stack calculator",
+      "photonics optoelectronics dielectric mirrors online"
+    ]
+  },
+  {
+    "name": "Pockels Effect Electro-Optic Modulator Half-Wave Voltage (V_π = λ / 2n₀³·r₆₃) Calculator",
+    "description": "Calculate electro-optic Pockels cell Half-Wave Voltage V_π in Volts (V_π = λ / (2 · n₀³ · r₆₃)), induced birefringence phase retardation Δφ, and electro-optic coefficient r for LiNbO₃ and KDP laser Q-switches.",
+    "path": "/tools/pockels-effect-electro-optic-half-wave-voltage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pockels effect calculator",
+      "half wave voltage formula v pi online",
+      "electro optic coefficient r63 lithium niobate calculator",
+      "pockels cell q switch phase retardation calculator",
+      "nonlinear optics laser engineering photonics online"
+    ]
+  },
+  {
+    "name": "Optical Kerr Effect Nonlinear Refractive Index (Δn = n₂·I) Phase Shift Calculator",
+    "description": "Calculate intensity-dependent optical Kerr effect refractive index change Δn (Δn = n₂ · I), nonlinear Self-Phase Modulation (SPM) phase shift Φ_NL in radians (Φ_NL = (2π / λ) · n₂ · I · L), and B-integral.",
+    "path": "/tools/kerr-effect-nonlinear-optical-phase-shift-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "optical kerr effect calculator",
+      "nonlinear refractive index n2 formula online",
+      "self phase modulation spm phase shift calculator",
+      "b integral laser pulse filamentation calculator",
+      "nonlinear optics ultrafast photonics laser engineering online"
+    ]
+  },
+  {
+    "name": "Optical Fiber Attenuation (dB/km) & Link Budget Power Loss Calculator",
+    "description": "Calculate telecommunications fiber optic link budget optical power loss in dB (Total Loss = α · L + N_splice · Loss_splice + N_conn · Loss_conn), received optical power P_rx in dBm, and maximum transmission reach distance.",
+    "path": "/tools/optical-attenuation-decibels-per-kilometer-fiber-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fiber link budget calculator",
+      "optical attenuation db per km formula online",
+      "received optical power dbm fiber loss calculator",
+      "fiber optic splice connector power margin calculator",
+      "optical communications telecommunications networking online"
+    ]
+  },
+  {
+    "name": "Quantum Key Distribution QBER (BB84 QKD Protocol Security Threshold) Calculator",
+    "description": "Calculate Quantum Key Distribution Quantum Bit Error Rate percentage (QBER = N_error / N_sifted · 100%), Shor-Preskill secret key generation rate R_key (R_key = 1 - 2·H_2(QBER)), and eavesdropper (Eve) detection security threshold (QBER under 11.0%).",
+    "path": "/tools/quantum-bit-error-rate-qber-bb84-qkd-security-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "qber calculator",
+      "quantum bit error rate formula bb84 qkd online",
+      "quantum cryptography secret key rate calculator",
+      "shor preskill 11 percent qber security threshold calculator",
+      "quantum cryptography quantum information cybersecurity online"
+    ]
+  },
+  {
+    "name": "Superconducting Josephson Junction Critical Current (I_c) & Flux Quantum (Φ₀) Calculator",
+    "description": "Calculate superconducting Josephson tunnel junction maximum critical current I_c in μA (Ambegaokar-Baratoff Formula: I_c = π·Δ(T) / (2·e·R_n)), Josephson inductance L_J (L_J = Φ₀ / (2π·I_c)), and AC Josephson oscillation frequency f = 2eV / h.",
+    "path": "/tools/josephson-junction-critical-current-flux-quantum-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "josephson junction calculator",
+      "ambegaokar baratoff critical current formula online",
+      "josephson inductance flux quantum calculator",
+      "superconducting transmon qubit ac josephson frequency calculator",
+      "quantum computing superconductivity solid state physics online"
+    ]
+  },
+  {
+    "name": "Lawson Criterion Fusion Triple Product (n·T·τ_E) & Ignition Calculator",
+    "description": "Calculate magnetic confinement nuclear fusion Lawson Criterion Triple Product (n · T · τ_E in keV·s/m³), energy confinement time τ_E, and evaluate Deuterium-Tritium (D-T) thermonuclear ignition (n·T·τ_E ≥ 3 × 10²¹ keV·s/m³).",
+    "path": "/tools/lawson-criterion-triple-product-fusion-plasma-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lawson criterion calculator",
+      "fusion triple product formula n t tau online",
+      "deuterium tritium ignition threshold calculator",
+      "energy confinement time tokamak stellarator calculator",
+      "plasma physics nuclear fusion nuclear engineering online"
+    ]
+  },
+  {
+    "name": "Radioactive Decay Bateman Equations & Daughter Isotope Activity Calculator",
+    "description": "Calculate radioactive decay series daughter isotope atom populations N₂(t) and activities A₂(t) in Becquerels (Bateman Equations: N₂(t) = λ₁·N₁(0)/(λ₂ - λ₁) · (e^(-λ₁·t) - e^(-λ₂·t))), secular equilibrium, and transient equilibrium.",
+    "path": "/tools/radioactive-decay-bateman-equations-daughter-isotope-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bateman equations calculator",
+      "radioactive decay chain daughter activity formula online",
+      "secular transient equilibrium radioisotope calculator",
+      "radionuclide half life activity becquerel curie calculator",
+      "nuclear physics radiation protection radiochemistry online"
+    ]
+  },
+  {
+    "name": "Neutron Diffusion Length (L = √(D/Σ_a)) & Reactor Migration Area (M²) Calculator",
+    "description": "Calculate nuclear reactor thermal neutron diffusion length L in cm (L = √(D / Σ_a)), Fermi age to thermalization τ, total Migration Area M² = L² + τ, and non-leakage probability P_NL = 1 / (1 + M²·B_g²).",
+    "path": "/tools/neutron-diffusion-length-fermi-age-thermalization-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "neutron diffusion length calculator",
+      "fermi age migration area formula m squared online",
+      "reactor non leakage probability buckling calculator",
+      "macroscopic absorption cross section sigma a calculator",
+      "nuclear engineering reactor physics core design online"
+    ]
+  },
+  {
+    "name": "Four-Factor Formula Infinite Multiplication Factor (k_∞ = ε·p·η·f) Calculator",
+    "description": "Calculate nuclear reactor infinite multiplication factor k_∞ (Fermi Four-Factor Formula: k_∞ = ε · p · η · f), thermal utilization factor f, resonance escape probability p, and reproduction factor η.",
+    "path": "/tools/four-factor-formula-infinite-multiplication-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "four factor formula calculator",
+      "infinite multiplication factor k infinity formula online",
+      "thermal utilization resonance escape reproduction factor calculator",
+      "reactor criticality keff fermi four factor calculator",
+      "nuclear reactor physics nuclear engineering core design online"
+    ]
+  },
+  {
+    "name": "Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator",
+    "description": "Calculate nuclear reactor stable asymptotic period T in seconds from reactivity ρ in pcm/dollars ($) using the Nordheim Inhour Equation (ρ = l* / (k·T) + ∑ β_i / (1 + λ_i·T)) and total delayed neutron fraction β.",
+    "path": "/tools/reactor-period-inhour-equation-delayed-neutrons-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "inhour equation calculator",
+      "reactor period formula reactivity rho online",
+      "delayed neutron fraction beta prompt neutron lifetime calculator",
+      "nordheim inhour equation nuclear kinetics calculator",
+      "reactor dynamics safety nuclear engineering physics online"
+    ]
+  },
+  {
+    "name": "Xenon-135 Reactor Poisoning & Post-Shutdown Iodine Pit Calculator",
+    "description": "Calculate nuclear reactor thermal neutron poison Xenon-135 reactivity worth in pcm (σ_a = 2.6 × 10⁶ barns), steady-state equilibrium poisoning, post-shutdown Iodine-135 decay peak (Iodine Pit / Xenon dead time ~9 to 11 hours).",
+    "path": "/tools/xenon-135-iodine-135-reactor-poisoning-pit-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "xenon 135 calculator",
+      "reactor poisoning iodine pit formula online",
+      "post shutdown xenon peak dead time calculator",
+      "iodine 135 decay xenon reactivity worth calculator",
+      "nuclear reactor physics operations chernobyl physics online"
+    ]
+  },
+  {
+    "name": "Plasma Bremsstrahlung Radiation Power Loss (P_Br = 5.35×10⁻³⁷·Z_eff·n_e²·√T_e) Calculator",
+    "description": "Calculate magnetically confined thermonuclear fusion plasma Bremsstrahlung X-ray radiative power loss density P_Br in MW/m³ (P_Br = 5.35 × 10⁻³⁷ · Z_eff · n_e² · √T_e) from effective charge Z_eff, electron density n_e, and temperature T_e.",
+    "path": "/tools/bremsstrahlung-radiation-power-loss-fusion-plasma-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bremsstrahlung radiation calculator",
+      "fusion plasma radiation loss formula online",
+      "bremsstrahlung x ray power density mw m3 calculator",
+      "zeff effective ion charge plasma calculator",
+      "plasma physics nuclear fusion tokamak astrophysics online"
+    ]
+  },
+  {
+    "name": "Tokamak Plasma Cyclotron Synchrotron Radiation Loss Calculator",
+    "description": "Calculate magnetized fusion plasma electron cyclotron synchrotron radiation emission frequency f_ce in GHz (f_ce = e·B / (2π·m_e) = 28.0 GHz / Tesla) and magnetic gyro-orbit radiation power density.",
+    "path": "/tools/cyclotron-synchrotron-radiation-loss-tokamak-plasma-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cyclotron radiation calculator",
+      "synchrotron radiation formula plasma online",
+      "electron cyclotron frequency 28 ghz per tesla calculator",
+      "tokamak magnetic field electron gyrofrequency calculator",
+      "plasma physics nuclear fusion electrodynamics online"
+    ]
+  }
+]

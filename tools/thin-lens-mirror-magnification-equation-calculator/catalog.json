@@ -1,0 +1,15 @@
+{
+  "name": "Thin Lens & Spherical Mirror (1/f = 1/d_o + 1/d_i) & Magnification Calculator",
+  "description": "Calculate optical focal length, image distance (1/d_i = 1/f - 1/d_o), lateral magnification (m = -d_i / d_o), and image properties (Real vs Virtual, Inverted vs Upright) for convex and concave lenses/mirrors.",
+  "path": "/tools/thin-lens-mirror-magnification-equation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thin lens equation calculator",
+    "lens formula 1 over f equals 1 over do plus 1 over di online",
+    "concave convex mirror magnification calculator",
+    "real virtual image distance thin lens calculator",
+    "geometrical optics focal length magnification online"
+  ],
+  "order": 1036
+}

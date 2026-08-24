@@ -1,0 +1,15 @@
+{
+  "name": "Chemical Vapor Deposition (CVD) Thin Film Growth Rate Calculator",
+  "description": "Calculate semiconductor CVD thin film deposition growth rate in nm/min across Mass-Transfer Limited (high temp) and Surface-Reaction Limited (low temp Arrhenius) regimes.",
+  "path": "/tools/chemical-vapor-deposition-cvd-thin-film-growth-rate-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cvd growth rate calculator",
+    "chemical vapor deposition thin film formula online",
+    "deal grove cvd mass transfer surface reaction calculator",
+    "semiconductor thin film deposition rate calculator",
+    "cvd reactor temperature growth rate online"
+  ],
+  "order": 672
+}

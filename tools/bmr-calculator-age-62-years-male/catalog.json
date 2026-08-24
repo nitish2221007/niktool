@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calculator (Age 62 Years Male)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1458 kcal/day) for 62-year-old male.",
+  "path": "/tools/bmr-calculator-age-62-years-male/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calculator age 62 years male",
+    "BMR Calculator (Age 62 Years Male)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

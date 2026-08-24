@@ -1,0 +1,15 @@
+{
+  "name": "K-Means Clustering Within-Cluster Sum of Squares (WCSS / Inertia) Calculator",
+  "description": "Calculate K-Means clustering Within-Cluster Sum of Squares (WCSS Inertia = ∑ ‖x_i - μ_k‖²) and determine optimal cluster count K using the Elbow Method heuristic.",
+  "path": "/tools/k-means-clustering-inertia-elbow-silhouette-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "kmeans inertia calculator",
+    "elbow method k means wcss formula online",
+    "within cluster sum of squares clustering calculator",
+    "optimal number of clusters k means calculator",
+    "unsupervised machine learning clustering online"
+  ],
+  "order": 1220
+}

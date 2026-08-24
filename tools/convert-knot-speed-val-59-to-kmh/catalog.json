@@ -1,0 +1,15 @@
+{
+  "name": "Convert 59 Knots Speed Val to KM/H",
+  "description": "Convert 59 knots speed to kilometers per hour (109.27 km/h).",
+  "path": "/tools/convert-knot-speed-val-59-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 59 to kmh",
+    "Convert 59 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

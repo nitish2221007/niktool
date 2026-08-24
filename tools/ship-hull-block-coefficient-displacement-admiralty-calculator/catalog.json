@@ -1,0 +1,15 @@
+{
+  "name": "Ship Hull Block Coefficient (C_b = ∇ / (L·B·T)) & Displacement Calculator",
+  "description": "Calculate naval architecture ship hull Block Coefficient (C_b = ∇ / (L · B · T)), volumetric displacement ∇ in m³, seawater displacement tonnage Δ in metric tons, and hull form fullness classification.",
+  "path": "/tools/ship-hull-block-coefficient-displacement-admiralty-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ship block coefficient calculator",
+    "hull displacement volume formula cb equals nabla over l b t online",
+    "naval architecture ship tonnage displacement calculator",
+    "prismatic waterline block coefficient ship design calculator",
+    "marine engineering naval architecture online"
+  ],
+  "order": 1128
+}

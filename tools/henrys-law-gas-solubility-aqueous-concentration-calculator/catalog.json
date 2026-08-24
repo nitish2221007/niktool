@@ -1,0 +1,15 @@
+{
+  "name": "Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator",
+  "description": "Calculate dissolved aqueous gas concentration (C = k_H · P_gas) in mol/L and mg/L for Oxygen (O₂), Carbon Dioxide (CO₂), and Nitrogen (N₂) from partial pressure for marine biology and decompression sickness physics.",
+  "path": "/tools/henrys-law-gas-solubility-aqueous-concentration-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "henrys law calculator",
+    "gas solubility formula c equals kh times p online",
+    "dissolved oxygen nitrogen solubility water calculator",
+    "scuba diving decompression sickness henrys law calculator",
+    "environmental aquatic gas solubility online"
+  ],
+  "order": 1010
+}

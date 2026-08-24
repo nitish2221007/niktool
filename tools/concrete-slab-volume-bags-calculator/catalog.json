@@ -1,0 +1,15 @@
+{
+  "name": "Concrete Slab Volume & Bags (60lb / 80lb) Calculator",
+  "description": "Calculate concrete volume in Cubic Yards and Cubic Meters, and determine exact counts of 60 lb and 80 lb premix bags required for driveways, patios, and footings.",
+  "path": "/tools/concrete-slab-volume-bags-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "concrete slab calculator",
+    "concrete volume cubic yards calculator",
+    "how many bags of concrete do i need",
+    "80 lb bags concrete calculator",
+    "patio slab concrete yards formula"
+  ],
+  "order": 329
+}

@@ -1,0 +1,15 @@
+{
+  "name": "SIP Calculator (₹10,000/Month, 14 Years)",
+  "description": "Calculate maturity returns for ₹10,000 monthly SIP over 14 years.",
+  "path": "/tools/sip-calculator-10000-per-month-tenure-14-years/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "sip calculator 10000 per month tenure 14 years",
+    "SIP Calculator (₹10,000/Month, 14 Years)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

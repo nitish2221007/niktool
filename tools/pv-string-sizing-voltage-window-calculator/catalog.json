@@ -1,0 +1,15 @@
+{
+  "name": "PV String Sizing & Cold Weather Voc Voltage Window Calculator",
+  "description": "Calculate maximum series solar panel string size and coldest record winter open-circuit voltage (V_oc(cold) = V_oc · [1 + β_v · (T_min - 25°C)]) to prevent damaging MPPT inverter limits.",
+  "path": "/tools/pv-string-sizing-voltage-window-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pv string sizing calculator",
+    "voc temperature coefficient formula cold weather",
+    "mppt voltage window maximum string size calculator",
+    "nec 690 solar string sizing online",
+    "solar inverter mppt min max string voltage calculator"
+  ],
+  "order": 588
+}

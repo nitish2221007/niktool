@@ -1,0 +1,15 @@
+{
+  "name": "Dew Point Calculator",
+  "description": "Calculate ambient dew point temperature, comfort level, and moisture condensation threshold from air temperature and relative humidity.",
+  "path": "/tools/dew-point-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dew point calculator",
+    "calculate dew point from humidity",
+    "relative humidity to dew point",
+    "magnus formula dew point",
+    "weather moisture calculator"
+  ],
+  "order": 86
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Binary, Hex, Decimal & Octal Base Matrix Converter",
+  "description": "Convert numbers simultaneously across Decimal (Base 10), Binary (Base 2), Hexadecimal (Base 16), and Octal (Base 8) in real time.",
+  "path": "/tools/binary-hex-octal-decimal-matrix-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "binary hex decimal converter",
+    "hex to decimal converter online",
+    "binary to hex converter",
+    "octal to binary converter",
+    "number base matrix converter"
+  ],
+  "order": 226
+}

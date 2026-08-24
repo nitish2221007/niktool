@@ -1,0 +1,15 @@
+{
+  "name": "CNN Layer Output Dimension (O = ⌊(W - K + 2P) / S⌋ + 1) & Parameter Count Calculator",
+  "description": "Calculate 2D Convolutional Neural Network (CNN) layer output spatial feature map dimensions (O = ⌊(W - K + 2P)/S⌋ + 1), total trainable parameter weights, and MAC floating-point operations.",
+  "path": "/tools/convolutional-neural-network-cnn-output-dimension-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cnn output size calculator",
+    "convolutional layer dimension formula online",
+    "cnn padding stride kernel size calculator",
+    "cnn layer parameter count calculator deep learning",
+    "deep learning computer vision neural networks online"
+  ],
+  "order": 1218
+}

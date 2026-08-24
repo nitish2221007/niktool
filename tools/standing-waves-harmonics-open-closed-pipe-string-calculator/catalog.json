@@ -1,0 +1,15 @@
+{
+  "name": "Standing Wave Harmonics (String & Open/Closed Pipe Resonance) Calculator",
+  "description": "Calculate standing wave resonant harmonic frequencies (Open Pipe / Stretched String f_n = n·v / (2L), Closed Pipe f_n = n·v / (4L) for odd n) and wavelength nodes for acoustics and musical physics.",
+  "path": "/tools/standing-waves-harmonics-open-closed-pipe-string-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "standing waves calculator",
+    "harmonics open closed pipe formula f equals n v over 2l online",
+    "stretched string fundamental frequency resonant harmonics calculator",
+    "acoustics musical pitch harmonics calculator",
+    "physics standing waves nodes antinodes online"
+  ],
+  "order": 1034
+}

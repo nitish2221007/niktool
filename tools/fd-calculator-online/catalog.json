@@ -1,0 +1,15 @@
+{
+  "name": "Fixed Deposit (FD) Maturity Calculator",
+  "description": "Calculate FD interest payout and maturity value.",
+  "path": "/tools/fd-calculator-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fd calculator online",
+    "Fixed Deposit (FD) Maturity Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

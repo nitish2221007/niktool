@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Gelatin Bloom Strength Mass Converter (Bronze, Silver, Gold, Platinum)",
+    "description": "Convert recipe gelatin mass between different Bloom gel strengths (Bronze 140, Silver 160, Gold 200, Platinum 250) using the Bloom conversion rule (m₂ = m₁ · √(Bloom₁ / Bloom₂)).",
+    "path": "/tools/gelatin-bloom-strength-mass-converter/",
+    "category": "Daily",
+    "icon": "chart",
+    "keywords": [
+      "gelatin bloom converter",
+      "gelatin bloom strength mass formula",
+      "bronze silver gold platinum gelatin converter",
+      "gelatin sheet to powder bloom calculator",
+      "pastry gelatin bloom conversion online"
+    ]
+  },
+  {
+    "name": "Polymer Copolymer Glass Transition (Fox Equation) Calculator",
+    "description": "Calculate miscibility copolymer glass transition temperature (1 / T_g = w₁ / T_g1 + w₂ / T_g2) in Kelvin and Celsius using the Thomas G. Fox equation.",
+    "path": "/tools/polymer-glass-transition-fox-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fox equation polymer calculator",
+      "copolymer glass transition calculator",
+      "tg copolymer blend formula online",
+      "fox equation kelvin to celsius",
+      "polymer physics glass transition online"
+    ]
+  },
+  {
+    "name": "Polymer Melt Flow Index (MFI / MFR) & Extrusion Rheology Calculator",
+    "description": "Calculate Melt Flow Rate (MFR = (Mass / Extrusion Time) · 600) in g/10 min and estimate zero-shear dynamic melt viscosity (η₀) per ASTM D1238 / ISO 1133 standards.",
+    "path": "/tools/melt-flow-index-mfi-viscosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "melt flow index calculator",
+      "mfi mfr formula polymer astm d1238",
+      "melt flow rate to viscosity calculator",
+      "plastics extrusion melt index online",
+      "polymer rheology zero shear viscosity calculator"
+    ]
+  },
+  {
+    "name": "Arrhenius Reaction Rate & Activation Energy (E_a) Calculator",
+    "description": "Calculate temperature-dependent chemical reaction rate constants (k = A · e^(-E_a / (R · T))) and accelerated thermal aging factors using the Svante Arrhenius equation.",
+    "path": "/tools/arrhenius-thermal-degradation-activation-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "arrhenius equation calculator",
+      "activation energy formula k a exp",
+      "accelerated aging temperature factor calculator",
+      "svante arrhenius reaction rate online",
+      "thermal shelf life arrhenius calculator"
+    ]
+  },
+  {
+    "name": "Polymer Crosslink Density & Swelling (Flory-Rehner Theory) Calculator",
+    "description": "Estimate vulcanized rubber crosslink network density (ν = - (ln(1 - v_r) + v_r + χ · v_r²) / (V_s · (v_r^(1/3) - v_r / 2))) in mol/cm³ from solvent swelling equilibrium.",
+    "path": "/tools/crosslink-density-flory-rehner-swelling-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flory rehner calculator",
+      "crosslink density rubber swelling formula",
+      "polymer gel equilibrium swelling ratio",
+      "vulcanization network density mol cm3",
+      "flory huggins chi interaction parameter online"
+    ]
+  },
+  {
+    "name": "Mooney-Rivlin Hyperelastic Rubber Tensile Stress Calculator",
+    "description": "Calculate uniaxial tensile engineering stress (σ = 2 · (λ - 1 / λ²) · (C₁₀ + C₀₁ / λ)) for hyperelastic vulcanized elastomers and silicone rubber.",
+    "path": "/tools/mooney-rivlin-rubber-hyperelasticity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mooney rivlin calculator",
+      "hyperelastic rubber stress strain formula",
+      "c10 c01 mooney rivlin strain energy",
+      "elastomer tensile stretch ratio lambda",
+      "finite element rubber material model online"
+    ]
+  },
+  {
+    "name": "First-Order Reaction Kinetics & Half-Life (t₁/₂) Calculator",
+    "description": "Calculate remaining reactant concentration (C_t = C₀ · e^(-k · t)), half-life (t₁/₂ = ln(2) / k = 0.69315 / k), and reaction duration for first-order chemical and radioactive decay.",
+    "path": "/tools/half-life-radioactive-first-order-decay-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "first order reaction half life calculator",
+      "radioactive decay formula n0 exp minus kt",
+      "t1 2 ln2 over k calculator",
+      "chemical reaction kinetics first order online",
+      "pharmacokinetic drug elimination half life online"
+    ]
+  },
+  {
+    "name": "Second-Order Reaction Kinetics & Half-Life Calculator",
+    "description": "Calculate remaining reactant concentration (1 / [A]_t = 1 / [A]₀ + k · t) and concentration-dependent half-life (t₁/₂ = 1 / (k · [A]₀)) for bimolecular second-order chemical reactions.",
+    "path": "/tools/second-order-reaction-rate-half-life-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "second order reaction calculator",
+      "second order kinetics half life formula",
+      "1 over a0 plus kt calculator online",
+      "bimolecular reaction rate calculator",
+      "chemical kinetics second order online"
+    ]
+  },
+  {
+    "name": "Plug Flow Reactor (PFR) Space-Time (τ) & Sizing Calculator",
+    "description": "Calculate ideal Plug Flow Tubular Reactor volume (V = v₀ · τ) and space-time (τ = - ln(1 - X) / k) for isothermal first-order liquid and gas reactions.",
+    "path": "/tools/pfr-plug-flow-reactor-space-time-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pfr reactor calculator",
+      "plug flow reactor space time tau formula",
+      "tubular reactor volume sizing calculator",
+      "pfr first order reaction conversion online",
+      "chemical reaction engineering pfr calculator"
+    ]
+  },
+  {
+    "name": "Continuous Stirred-Tank Reactor (CSTR) Volume Sizing Calculator",
+    "description": "Calculate ideal CSTR tank volume (V = (v₀ · X) / (k · (1 - X))) for isothermal first-order liquid reactions and compare volume efficiency against PFR reactors.",
+    "path": "/tools/cstr-continuous-stirred-tank-reactor-volume-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cstr reactor calculator",
+      "continuous stirred tank reactor volume formula",
+      "cstr first order reaction sizing online",
+      "cstr vs pfr volume comparison calculator",
+      "chemical reaction engineering cstr online"
+    ]
+  },
+  {
+    "name": "Damköhler Number (Da_I) Chemical Reaction vs Flow Scaling Calculator",
+    "description": "Calculate First Damköhler Number (Da_I = k · C_A0^(n-1) · τ) to determine whether chemical reactor conversion is reaction-rate limited (low Da) or convection/flow limited (high Da).",
+    "path": "/tools/damkohler-number-mass-transfer-reactor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "damkohler number calculator",
+      "damkohler number chemical reactor formula",
+      "da1 k tau conversion calculator",
+      "reaction rate vs residence time ratio online",
+      "dimensionless numbers reactor engineering calculator"
+    ]
+  },
+  {
+    "name": "Creatinine Clearance (Cockcroft-Gault Kidney GFR) Calculator",
+    "description": "Calculate estimated renal creatinine clearance (CrCl = ((140 - Age) · Weight · (0.85 if Female)) / (72 · S_cr)) in mL/min for clinical drug dosing adjustments.",
+    "path": "/tools/creatinine-clearance-cockcroft-gault-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "creatinine clearance calculator",
+      "cockcroft gault formula online",
+      "crcl kidney function calculator",
+      "serum creatinine gfr calculator",
+      "renal drug dosing cockcroft gault online"
+    ]
+  },
+  {
+    "name": "Body Surface Area (BSA - Mosteller & Du Bois) Calculator",
+    "description": "Calculate patient total Body Surface Area (BSA = √((Height_cm · Weight_kg) / 3600)) in square meters (m²) using Mosteller, Du Bois, and Haycock clinical formulas.",
+    "path": "/tools/body-surface-area-mosteller-du-bois-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bsa calculator",
+      "body surface area mosteller formula",
+      "du bois bsa calculator online",
+      "chemotherapy drug bsa dosing calculator",
+      "cardiac index bsa normalizer online"
+    ]
+  },
+  {
+    "name": "Mean Arterial Pressure (MAP) Hemodynamics Calculator",
+    "description": "Calculate cardiovascular Mean Arterial Pressure (MAP = DBP + ⅓ · (SBP - DBP)) in mmHg, Pulse Pressure (PP = SBP - DBP), and organ perfusion safety margin.",
+    "path": "/tools/mean-arterial-pressure-map-cardiac-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "map calculator",
+      "mean arterial pressure formula",
+      "pulse pressure sbp dbp calculator",
+      "organ perfusion map calculator online",
+      "icu hemodynamics mean arterial pressure online"
+    ]
+  },
+  {
+    "name": "Cardiac Output (Fick Principle) Hemodynamic Calculator",
+    "description": "Calculate total heart blood flow cardiac output (CO = VO₂ / (C_a - C_v) · 100) in L/min and Cardiac Index (CI = CO / BSA) using Adolf Fick's oxygen mass balance.",
+    "path": "/tools/cardiac-output-fick-principle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fick cardiac output calculator",
+      "fick principle oxygen consumption formula",
+      "cardiac index ci calculator online",
+      "arteriovenous oxygen difference avo2 calculator",
+      "hemodynamic catheterization fick calculator"
+    ]
+  },
+  {
+    "name": "Henderson-Hasselbalch Blood pH & Acid-Base ABG Calculator",
+    "description": "Calculate arterial blood pH (pH = 6.10 + log₁₀([HCO₃⁻] / (0.0307 · PaCO₂))) from Bicarbonate and partial pressure of CO₂ to diagnose respiratory and metabolic acidosis/alkalosis.",
+    "path": "/tools/henderson-hasselbalch-blood-ph-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "henderson hasselbalch blood ph calculator",
+      "arterial blood gas abg calculator",
+      "acid base balance hco3 paco2 formula",
+      "metabolic respiratory acidosis alkalosis calculator",
+      "blood bicarbonate ph henderson online"
+    ]
+  },
+  {
+    "name": "Schwarzschild Radius (Black Hole Event Horizon) Calculator",
+    "description": "Calculate the Schwarzschild event horizon radius (R_s = (2 · G · M) / c²) in kilometers, miles, and AU for stellar, intermediate, and supermassive black holes.",
+    "path": "/tools/schwarzschild-radius-black-hole-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "schwarzschild radius calculator",
+      "black hole event horizon formula",
+      "rs 2gm over c squared online",
+      "supermassive black hole radius calculator",
+      "karl schwarzschild general relativity calculator"
+    ]
+  },
+  {
+    "name": "Hubble-Lemaître Law Cosmic Expansion & Recession Velocity Calculator",
+    "description": "Calculate galactic recession velocity (v = H₀ · d) in km/s and cosmological redshift (z = v / c) from distance in Megaparsecs (Mpc) using the Hubble Constant H₀.",
+    "path": "/tools/hubble-lemaitre-law-cosmic-expansion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hubble law calculator",
+      "cosmic expansion velocity formula v h0 d",
+      "galaxy redshift z calculator online",
+      "megaparsecs to recession velocity calculator",
+      "edwin hubble cosmological expansion online"
+    ]
+  },
+  {
+    "name": "Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator",
+    "description": "Calculate total stellar energy radiation luminosity (L = 4 · π · R² · σ · T⁴) in Solar Luminosities (L_☉) and stellar radius from photosphere effective temperature.",
+    "path": "/tools/stefan-boltzmann-stellar-luminosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stellar luminosity calculator",
+      "stefan boltzmann stellar radius formula",
+      "l 4 pi r2 sigma t4 online",
+      "hertzsprung russell diagram luminosity calculator",
+      "astrophysics blackbody star luminosity online"
+    ]
+  },
+  {
+    "name": "Kepler's Third Law Planetary & Exoplanet Orbital Period Calculator",
+    "description": "Calculate planetary and exoplanetary orbital period (T² = (4 · π² / (G · M_star)) · a³ = a³ / M_star) in Earth years or days from semi-major axis (AU) and host star mass.",
+    "path": "/tools/kepler-third-law-orbital-period-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kepler third law calculator",
+      "planetary orbital period formula online",
+      "t squared equals a cubed over m calculator",
+      "exoplanet semi major axis orbital period online",
+      "johannes kepler orbital mechanics calculator"
+    ]
+  },
+  {
+    "name": "Gravitational Time Dilation (General Relativity) Calculator",
+    "description": "Calculate Einstein gravitational time dilation (t_0 = t_f · √(1 - 2 · G · M / (r · c²))) near massive planets, neutron stars, and black holes.",
+    "path": "/tools/gravitational-time-dilation-general-relativity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravitational time dilation calculator",
+      "general relativity time dilation formula",
+      "einstein gravitational time slowing online",
+      "gps gravitational time dilation calculator",
+      "black hole time dilation calculator online"
+    ]
+  },
+  {
+    "name": "Fresnel Reflection Coefficients & Brewster's Angle Calculator",
+    "description": "Calculate dielectric interface optical reflectance (R_s, R_p, R_unpolarized) and Brewster polarization angle (θ_B = arctan(n₂ / n₁)) from refractive indices.",
+    "path": "/tools/fresnel-reflection-snell-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fresnel reflection calculator",
+      "brewster angle calculator online",
+      "fresnel s and p polarization reflection formula",
+      "dielectric surface reflectance calculator",
+      "optics fresnel equations online"
+    ]
+  },
+  {
+    "name": "Abbe Number & Optical Glass Chromatic Dispersion Calculator",
+    "description": "Calculate Abbe number V-number (V_d = (n_d - 1) / (n_F - n_C)) to evaluate chromatic dispersion and design achromatic doublet camera lenses.",
+    "path": "/tools/abbe-number-chromatic-dispersion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "abbe number calculator",
+      "vd formula chromatic dispersion online",
+      "optical glass dispersion calculator",
+      "achromatic doublet lens design online",
+      "ernst abbe v number calculator"
+    ]
+  },
+  {
+    "name": "Rayleigh Criterion Optical Angular Resolution Limit Calculator",
+    "description": "Calculate diffraction-limited angular resolution (θ = 1.22 · λ / D) in arcseconds, microradians, and resolvable spot size for telescopes, microscopes, and cameras.",
+    "path": "/tools/rayleigh-criterion-angular-resolution-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rayleigh criterion calculator",
+      "angular resolution formula theta 1.22 lambda over d",
+      "telescope diffraction limit calculator arcseconds",
+      "optical resolving power calculator online",
+      "airy disk radius calculator online"
+    ]
+  }
+]

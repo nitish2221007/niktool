@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 25 CIDR Prefix, Net #24)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (126 usable IPs) for /25 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-25-net-24/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 25 net 24",
+    "IP Subnet Mask & Host Calculator (/ 25 CIDR Prefix, Net #24)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

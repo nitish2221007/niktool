@@ -1,0 +1,15 @@
+{
+  "name": "Mean Arterial Pressure (MAP = DBP + ⅓·(SBP - DBP)) & Pulse Pressure Calculator",
+  "description": "Calculate clinical Mean Arterial Pressure (MAP = DBP + ⅓·(SBP - DBP)) in mmHg, Pulse Pressure (PP = SBP - DBP), and verify critical organ perfusion threshold (MAP ≥ 65 mmHg) for ICU hemodynamics.",
+  "path": "/tools/mean-arterial-pressure-map-pulse-pressure-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "mean arterial pressure calculator",
+    "map formula dbp plus one third pulse pressure online",
+    "pulse pressure sbp minus dbp calculator mmhg",
+    "icu organ perfusion map 65 mmhg threshold calculator",
+    "cardiovascular hemodynamics blood pressure online"
+  ],
+  "order": 1141
+}

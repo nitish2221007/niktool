@@ -1,0 +1,16 @@
+{
+  "name": "Invert Image Colors Online",
+  "description": "Invert photo colors to produce negative color effect online.",
+  "path": "/tools/invert-image-colors-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "invert image colors online",
+    "Invert Image Colors Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

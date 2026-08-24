@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Road Trip Fuel Cost & Gas Mileage Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate total gasoline fuel costs, required fuel liters/gallons, and per-passenger travel costs from trip distance and vehicle fuel economy.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/fuel-gas-trip-cost-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Road Trip Fuel Cost & Gas Mileage Calculator | NikTool">
+  <meta property="og:description" content="Calculate total gasoline fuel costs, required fuel liters/gallons, and per-passenger travel costs from trip distance and vehicle fuel economy.">
+  <meta property="og:url" content="https://niktool.in/tools/fuel-gas-trip-cost-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Road Trip Fuel Cost & Gas Mileage Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/fuel-gas-trip-cost-calculator/",
+        "description": "Calculate total gasoline fuel costs, required fuel liters/gallons, and per-passenger travel costs from trip distance and vehicle fuel economy.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How to convert MPG (US) to L/100km?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "L/100km = 235.215 / MPG (e.g. 30 MPG = ~7.84 L/100km)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Road Trip Fuel Cost & Gas Mileage Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Road Trip Fuel Cost & Gas Mileage Calculator</h1>
+      <p>Calculate total gasoline fuel costs, required fuel liters/gallons, and per-passenger travel costs from trip distance and vehicle fuel economy.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Trip Distance, Mileage & Gas Price</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="gas-dist">One-Way / Total Distance (km)</label>
+          <input class="tool-textarea" id="gas-dist" type="number" step="any" value="450" placeholder="450 km" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gas-mileage">Fuel Economy (L / 100km)</label>
+          <input class="tool-textarea" id="gas-mileage" type="number" step="any" value="7.5" placeholder="7.5 L/100km" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gas-price">Fuel Price ($ or ₹ / Liter)</label>
+          <input class="tool-textarea" id="gas-price" type="number" step="any" value="1.50" placeholder="1.50 per Liter" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gas-pass">Passengers</label>
+          <input class="tool-textarea" id="gas-pass" type="number" min="1" step="1" value="3" placeholder="3" />
+        </div>
+      </div>
+      <div id="gas-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gas-res-total" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">$50.63</span>
+            <span class="stat-label">Total Fuel Trip Cost</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gas-res-liters" style="font-weight:700;">33.75 Liters</span>
+            <span class="stat-label">Total Fuel Required</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gas-res-split">$16.88 / person</span>
+            <span class="stat-label">Cost per Passenger</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Road Trip Fuel Cost & Gas Mileage Calculator</h2>
+      <ol>
+        <li>Enter total trip road driving distance in kilometers.</li>
+        <li>Enter vehicle fuel consumption (L/100km or convert from MPG).</li>
+        <li>Enter local fuel gas price per Liter.</li>
+        <li>Inspect total trip fuel expenditure and carpool split per passenger.</li>
+      </ol>
+
+      <h2>Accurate Carpool Road Trip Budgeting</h2>
+      <p>Calculating fuel expenses before embarking on road trips allows fair expense splitting between passengers while projecting refueling stops.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How to convert MPG (US) to L/100km?</summary>
+        <p>L/100km = 235.215 / MPG (e.g. 30 MPG = ~7.84 L/100km).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/fuel-gas-trip-cost-calculator/tool.js"></script>
+</body>
+</html>

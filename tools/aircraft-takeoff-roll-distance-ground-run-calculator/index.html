@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate fixed-wing airplane takeoff ground roll distance S_G in meters (S_G = 1.21 · (W/S) / (g · ρ · C_L,max · (T/W - μ_r))) from wing loading W/S, thrust-to-weight ratio T/W, maximum lift coefficient C_L,max, and runway rolling friction μ_r.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/aircraft-takeoff-roll-distance-ground-run-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator | NikTool">
+  <meta property="og:description" content="Calculate fixed-wing airplane takeoff ground roll distance S_G in meters (S_G = 1.21 · (W/S) / (g · ρ · C_L,max · (T/W - μ_r))) from wing loading W/S, thrust-to-weight ratio T/W, maximum lift coefficient C_L,max, and runway rolling friction μ_r.">
+  <meta property="og:url" content="https://niktool.in/tools/aircraft-takeoff-roll-distance-ground-run-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/aircraft-takeoff-roll-distance-ground-run-calculator/",
+        "description": "Calculate fixed-wing airplane takeoff ground roll distance S_G in meters (S_G = 1.21 · (W/S) / (g · ρ · C_L,max · (T/W - μ_r))) from wing loading W/S, thrust-to-weight ratio T/W, maximum lift coefficient C_L,max, and runway rolling friction μ_r.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do high-altitude airports require much longer runways?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Low air density $\rho$ raises liftoff speed ($V_{\text{LOF}} propto 1/sqrt{\rho}$) and reduces jet engine thrust $T$, quadratically increasing takeoff roll distance ($S_G propto 1/\rho^2$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator</h1>
+      <p>Calculate fixed-wing airplane takeoff ground roll distance S_G in meters (S_G = 1.21 · (W/S) / (g · ρ · C_L,max · (T/W - μ_r))) from wing loading W/S, thrust-to-weight ratio T/W, maximum lift coefficient C_L,max, and runway rolling friction μ_r.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Wing Loading W/S (kg/m² or N/m²), Thrust/Weight T/W, Max Lift C_L,max & Air Density ρ (kg/m³)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="to-ws">Wing Loading W/S</label>
+          <input class="tool-textarea" id="to-ws" type="number" step="50" value="550.0" placeholder="550.0 kg/m² (Airliner)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="to-tw">Thrust/Weight T/W</label>
+          <input class="tool-textarea" id="to-tw" type="number" step="0.05" value="0.30" placeholder="0.30 (Twin Jet)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="to-clmax">Max Lift C_L,max</label>
+          <input class="tool-textarea" id="to-clmax" type="number" step="0.1" value="2.20" placeholder="2.20 (Flaps/Slats)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="to-rho">Density ρ (kg/m³)</label>
+          <input class="tool-textarea" id="to-rho" type="number" step="0.05" value="1.225" placeholder="1.225 kg/m³ (Sea Level)" />
+        </div>
+      </div>
+      <div id="to-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="to-res-sg" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Ground Roll S_G = 926 Meters (3,038 ft)</span>
+            <span class="stat-label">Aircraft Takeoff Ground Run Distance to Liftoff (V_LOF = 1.1 · V_stall)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="to-res-vlof" style="color:var(--green-dark); font-weight:700;">Liftoff Speed V_LOF = 69.4 m/s (134.9 Knots / 250 km/h) | Stall V_s = 122.6 kts</span>
+            <span class="stat-label">Liftoff Velocity & Balanced Field Runway Planning</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator</h2>
+      <ol>
+        <li>Enter aircraft Takeoff Wing Loading $W/S$ in $	ext{kg/m}^2$ (e.g. 50–100 $	ext{kg/m}^2$ general aviation, 400–650 $	ext{kg/m}^2$ commercial jet airliner).</li>
+        <li>Enter Takeoff Thrust-to-Weight ratio $T/W$ (typically 0.25 to 0.35).</li>
+        <li>Enter maximum takeoff flap configuration lift coefficient $C_{L,max}$ (1.8 to 2.6).</li>
+        <li>Enter runway ambient air density $ho$ in $	ext{kg/m}^3$ (accounting for airport elevation and temperature).</li>
+        <li>Inspect takeoff ground roll distance $S_G$ in meters/feet and liftoff speed $V_{	ext{LOF}}$ in knots.</li>
+      </ol>
+
+      <h2>Daniel P. Raymer Aircraft Performance Sizing Standard</h2>
+      <p>Evaluates runway takeoff field length requirements and hot-and-high density altitude performance penalties to prevent runway excursion overruns.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do high-altitude airports require much longer runways?</summary>
+        <p>Low air density $ho$ raises liftoff speed ($V_{	ext{LOF}} propto 1/sqrt{ho}$) and reduces jet engine thrust $T$, quadratically increasing takeoff roll distance ($S_G propto 1/ho^2$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/aircraft-takeoff-roll-distance-ground-run-calculator/tool.js"></script>
+</body>
+</html>

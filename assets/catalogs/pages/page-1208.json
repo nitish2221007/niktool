@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Reinforcing Steel Rebar Weight & Sizing Calculator",
+    "description": "Calculate total linear weight (lbs and kg) for standard ASTM reinforcing steel rebar sizes (#3 to #10) across total rod lengths.",
+    "path": "/tools/rebar-weight-reinforcement-steel-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "rebar weight calculator",
+      "rebar weight per foot chart",
+      "astm rebar size weight calculator",
+      "reinforcement steel weight formula",
+      "metric rebar weight kg per meter"
+    ]
+  },
+  {
+    "name": "Roof Pitch, Slope Angle & Rafter Multiplier Calculator",
+    "description": "Convert roof pitch (Rise/12, e.g. 6/12 pitch) into slope angle (degrees), grade percentage (%), and rafter length expansion multiplier.",
+    "path": "/tools/roof-pitch-slope-angle-multiplier-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "roof pitch calculator",
+      "roof slope angle calculator",
+      "rafter length multiplier formula",
+      "pitch to degrees converter roof",
+      "6 12 roof pitch angle online"
+    ]
+  },
+  {
+    "name": "Gravel, Sand & Aggregate Tonnage Calculator",
+    "description": "Calculate volume (Cubic Yards / m³) and estimated weight (US Tons and Metric Tonnes) for gravel, crushed stone, sand, and landscape mulch.",
+    "path": "/tools/gravel-sand-aggregate-tonnage-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "gravel tonnage calculator",
+      "crushed stone tons calculator",
+      "sand gravel cubic yards to tons",
+      "landscape aggregate calculator online",
+      "cubic yards of gravel to tons formula"
+    ]
+  },
+  {
+    "name": "Lineweaver-Burk Double Reciprocal Kinetics Calculator",
+    "description": "Calculate double-reciprocal coordinates (1/v = (K_m / V_max) · (1/[S]) + 1/V_max), x-intercept (-1/K_m), and y-intercept (1/V_max) for enzyme inhibitor classification.",
+    "path": "/tools/lineweaver-burk-double-reciprocal-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lineweaver burk calculator",
+      "double reciprocal plot calculator",
+      "enzyme inhibitor type lineweaver burk",
+      "1 v vs 1 s plot calculator",
+      "competitive noncompetitive inhibition online"
+    ]
+  },
+  {
+    "name": "Isoelectric Point (pI) Amino Acid & Peptide Calculator",
+    "description": "Calculate the isoelectric point (pI = (pK₁ + pK₂) / 2) and net molecular electrical charge for amino acids and peptides across pH gradients.",
+    "path": "/tools/isoelectric-point-pi-amino-acids-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "isoelectric point calculator",
+      "pi calculator amino acids",
+      "peptide isoelectric point formula",
+      "zwitterion net charge zero pi",
+      "gel electrophoresis pi calculator"
+    ]
+  },
+  {
+    "name": "Arrhenius Equation & Activation Energy (Eₐ) Calculator",
+    "description": "Calculate reaction rate constants (k = A · e^(-Eₐ / (R·T))) and determine chemical activation energy Eₐ from two temperatures (T₁, T₂) and rates (k₁, k₂).",
+    "path": "/tools/arrhenius-equation-activation-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "arrhenius equation calculator",
+      "activation energy ea calculator",
+      "reaction rate temperature dependence",
+      "arrhenius formula k a exp",
+      "two temperature activation energy online"
+    ]
+  },
+  {
+    "name": "Van 't Hoff Reaction Equilibrium & Enthalpy Calculator",
+    "description": "Calculate equilibrium constant temperature shifts (ln(K₂/K₁) = (-ΔH° / R) · (1/T₂ - 1/T₁)) and reaction standard enthalpy ΔH° for endothermic and exothermic reactions.",
+    "path": "/tools/van-t-hoff-equation-isochore-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "van t hoff equation calculator",
+      "equilibrium constant temperature calculator",
+      "reaction enthalpy van t hoff formula",
+      "k1 k2 equilibrium shift calculator",
+      "chemical thermodynamics isochore online"
+    ]
+  },
+  {
+    "name": "Hardy-Weinberg Equilibrium Allele Frequency Calculator",
+    "description": "Calculate homozygous dominant (p²), heterozygous carrier (2pq), and homozygous recessive (q²) genotype frequencies from recessive phenotype incidence in population genetics.",
+    "path": "/tools/hardy-weinberg-allele-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hardy weinberg calculator",
+      "allele frequency p2 2pq q2 calculator",
+      "population genetics calculator online",
+      "carrier frequency hardy weinberg formula",
+      "recessive allele frequency calculator"
+    ]
+  },
+  {
+    "name": "DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator",
+    "description": "Calculate nucleotide Guanine-Cytosine GC percentage (%GC), molecular weight, and PCR primer annealing melting temperature (Tm) using the Marmur-Doty and Nearest-Neighbor formulas.",
+    "path": "/tools/dna-gc-content-melting-temp-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dna gc content calculator",
+      "pcr primer tm calculator",
+      "melting temperature primer formula",
+      "oligonucleotide gc percentage online",
+      "marmur doty primer annealing tm"
+    ]
+  },
+  {
+    "name": "Bacterial Growth Doubling & Generation Time Calculator",
+    "description": "Calculate bacterial doubling generation time (g = t / n, n = 3.32 · log₁₀(N/N₀)) and specific growth rate constant (μ) from initial and final colony counts.",
+    "path": "/tools/bacterial-growth-doubling-time-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bacterial doubling time calculator",
+      "generation time microbiology calculator",
+      "bacterial exponential growth formula",
+      "specific growth rate mu calculator",
+      "colony doubling time online"
+    ]
+  },
+  {
+    "name": "Dihybrid Cross & Punnett Square Ratio Calculator",
+    "description": "Calculate 16-box Mendelian dihybrid cross genotypic and phenotypic inheritance ratios (e.g. 9:3:3:1 classical ratio) for two unlinked heterozygous genes (AaBb × AaBb).",
+    "path": "/tools/dihybrid-cross-punnett-square-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dihybrid cross calculator",
+      "punnett square 9 3 3 1 ratio calculator",
+      "mendelian dihybrid inheritance calculator",
+      "aabb x aabb punnett square online",
+      "genotypic phenotypic ratio calculator"
+    ]
+  },
+  {
+    "name": "Serial Dilution & Colony Forming Units (CFU/mL) Calculator",
+    "description": "Calculate viable bacterial cell concentration in Colony Forming Units per mL (CFU/mL = (Colonies Counted · Dilution Factor) / Plated Volume) from agar plates.",
+    "path": "/tools/serial-dilution-colony-cfu-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "serial dilution calculator",
+      "cfu per ml calculator",
+      "colony forming units formula",
+      "microbiology plate count cfu calculator",
+      "10 fold serial dilution online"
+    ]
+  },
+  {
+    "name": "Nautical Miles, Knots & Statute Speed Converter",
+    "description": "Convert distance and navigational speed across Nautical Miles (NM), Knots (kts = NM/hr), Statute Miles (mph), Kilometers (km), and km/h in real time.",
+    "path": "/tools/nautical-miles-knots-statute-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "nautical miles to knots converter",
+      "knots to mph calculator",
+      "statute miles to nautical miles online",
+      "aviation knot converter",
+      "marine knots to kmh formula"
+    ]
+  },
+  {
+    "name": "True Airspeed (TAS) & Density Altitude Calculator",
+    "description": "Calculate aircraft True Airspeed (TAS = CAS · √(ρ₀ / ρ)) in knots from Calibrated Airspeed (CAS), Pressure Altitude (feet), and Outside Air Temperature (°C).",
+    "path": "/tools/true-airspeed-tas-indicated-cas-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "true airspeed calculator",
+      "tas from cas calculator",
+      "aviation density altitude tas formula",
+      "indicated airspeed to true airspeed online",
+      "aircraft tas knots calculation"
+    ]
+  },
+  {
+    "name": "Aircraft Climb Gradient & Rate of Climb (ROC) Calculator",
+    "description": "Convert aircraft climb gradient (ft/NM and %) to required Rate of Climb (ROC in ft/min = Groundspeed · Gradient / 60) for obstacle clearance departure procedures (ODP).",
+    "path": "/tools/aircraft-climb-gradient-rate-of-climb-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "aircraft climb gradient calculator",
+      "rate of climb ft min calculator",
+      "climb gradient feet per nautical mile",
+      "aviation odp climb requirement online",
+      "groundspeed climb rate formula"
+    ]
+  },
+  {
+    "name": "Displacement Boat Hull Speed & Froude Number Calculator",
+    "description": "Calculate maximum theoretical displacement hull speed (v_hull = 1.34 · √(LWL in feet)) in knots from boat waterline length (LWL) and Froude number.",
+    "path": "/tools/displacement-hull-speed-marine-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "displacement hull speed calculator",
+      "boat hull speed knots formula",
+      "lwl waterline length hull speed",
+      "froude number boat speed calculator",
+      "sailboat maximum speed online"
+    ]
+  },
+  {
+    "name": "Runway Crosswind & Headwind Component Calculator",
+    "description": "Calculate orthogonal Crosswind (Wind Speed · sin(θ)) and Headwind/Tailwind (Wind Speed · cos(θ)) components for airport runways from wind velocity and magnetic heading.",
+    "path": "/tools/crosswind-headwind-runway-component-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "crosswind component calculator",
+      "runway wind calculator aviation",
+      "headwind crosswind formula",
+      "runway crosswind limit calculator",
+      "aviation landing wind components online"
+    ]
+  },
+  {
+    "name": "Wind Chill Index & Frostbite Danger Calculator",
+    "description": "Calculate effective Wind Chill apparent temperature (NWS formula: T_wc = 35.74 + 0.6215·T - 35.75·V^0.16 + 0.4275·T·V^0.16) and minutes to frostbite.",
+    "path": "/tools/wind-chill-temperature-index-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "wind chill calculator",
+      "nws wind chill temperature formula",
+      "apparent temperature wind chill online",
+      "frostbite time wind chill calculator",
+      "feels like winter cold calculator"
+    ]
+  },
+  {
+    "name": "NOAA Heat Index & Summer Apparent Temperature Calculator",
+    "description": "Calculate summer Heat Index (\"Feels Like\" temperature) and OSHA heat exhaustion danger levels from dry-bulb temperature (°F) and Relative Humidity (%).",
+    "path": "/tools/heat-index-apparent-temperature-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "heat index calculator",
+      "noaa heat index formula",
+      "summer feels like temperature calculator",
+      "heat exhaustion danger humidity index",
+      "apparent temperature heat index online"
+    ]
+  },
+  {
+    "name": "Vapor Pressure Deficit (VPD) Greenhouse Calculator",
+    "description": "Calculate Vapor Pressure Deficit (VPD = VP_sat · (1 - RH/100)) in kiloPascals (kPa) for indoor hydroponics, greenhouse cultivation, and plant transpiration control.",
+    "path": "/tools/vapor-pressure-deficit-vpd-horticulture-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "vpd calculator",
+      "vapor pressure deficit calculator",
+      "greenhouse vpd formula kpa",
+      "plant transpiration vpd chart",
+      "hydroponics leaf temperature vpd online"
+    ]
+  },
+  {
+    "name": "Barometric Altimeter & Hypsometric Elevation Calculator",
+    "description": "Calculate physical altitude elevation (meters and feet) from measured barometric pressure (hPa/mbar or inHg) using the international barometric hypsometric formula.",
+    "path": "/tools/barometric-altitude-hypsometric-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "barometric altitude calculator",
+      "hypsometric formula elevation calculator",
+      "pressure to altitude calculator",
+      "hpa to elevation meters online",
+      "altimeter barometric pressure formula"
+    ]
+  },
+  {
+    "name": "Wet-Bulb Globe Temperature (WBGT) Heat Stress Calculator",
+    "description": "Calculate military and athletic Wet-Bulb Globe Temperature (WBGT = 0.7·T_w + 0.2·T_g + 0.1·T_d) to determine heat casualty flags and safe training work-rest cycles.",
+    "path": "/tools/wet-bulb-globe-temperature-wbgt-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "wbgt calculator",
+      "wet bulb globe temperature formula",
+      "military wbgt flag conditions",
+      "heat stress work rest cycle calculator",
+      "outdoor athletic wbgt calculator online"
+    ]
+  },
+  {
+    "name": "Electric Field Strength (Coulomb's Law) Calculator",
+    "description": "Calculate electrostatic electric field strength (E = (k · |q|) / r²) in Newtons per Coulomb (N/C) and Volts per meter (V/m) from point charge magnitude and distance.",
+    "path": "/tools/coulomb-law-electric-field-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "electric field calculator",
+      "coulomb law electric field formula",
+      "point charge electric field strength",
+      "electrostatic field intensity n c online",
+      "electric field distance calculator"
+    ]
+  },
+  {
+    "name": "Magnetic Field Around Straight Wire (Ampère's Law) Calculator",
+    "description": "Calculate magnetic flux density (B = (μ₀ · I) / (2 · π · r)) in Tesla and Gauss around a straight current-carrying electrical conductor.",
+    "path": "/tools/biot-savart-magnetic-field-wire-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magnetic field straight wire calculator",
+      "biot savart law wire calculator",
+      "amperes law magnetic field formula",
+      "tesla to gauss magnetic field wire",
+      "magnetic flux density wire online"
+    ]
+  }
+]

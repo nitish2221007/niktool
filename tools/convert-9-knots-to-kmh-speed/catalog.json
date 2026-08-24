@@ -1,0 +1,15 @@
+{
+  "name": "Convert 9 Knots to KM/H Speed",
+  "description": "Convert 9 knots speed to kilometers per hour (16.67 km/h).",
+  "path": "/tools/convert-9-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 9 knots to kmh speed",
+    "Convert 9 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

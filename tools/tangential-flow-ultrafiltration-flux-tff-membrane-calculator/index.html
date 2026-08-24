@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate downstream biopharmaceutical protein concentration Tangential Flow Filtration Transmembrane Pressure (TMP = (P_feed + P_retentate)/2 - P_permeate) in bar/psi and filtrate permeate flux (J = TMP / (μ · [R_m + R_c])) in LMH (L/m²·h).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/tangential-flow-ultrafiltration-flux-tff-membrane-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator | NikTool">
+  <meta property="og:description" content="Calculate downstream biopharmaceutical protein concentration Tangential Flow Filtration Transmembrane Pressure (TMP = (P_feed + P_retentate)/2 - P_permeate) in bar/psi and filtrate permeate flux (J = TMP / (μ · [R_m + R_c])) in LMH (L/m²·h).">
+  <meta property="og:url" content="https://niktool.in/tools/tangential-flow-ultrafiltration-flux-tff-membrane-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/tangential-flow-ultrafiltration-flux-tff-membrane-calculator/",
+        "description": "Calculate downstream biopharmaceutical protein concentration Tangential Flow Filtration Transmembrane Pressure (TMP = (P_feed + P_retentate)/2 - P_permeate) in bar/psi and filtrate permeate flux (J = TMP / (μ · [R_m + R_c])) in LMH (L/m²·h).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the definition of TMP in Tangential Flow Filtration?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$\text{TMP} = \frac{P_{\text{feed}} + P_{\text{retentate}}}{2} - P_{\text{permeate}}$ represents the average net hydraulic pressure gradient driving solvent through the membrane pores."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator</h1>
+      <p>Calculate downstream biopharmaceutical protein concentration Tangential Flow Filtration Transmembrane Pressure (TMP = (P_feed + P_retentate)/2 - P_permeate) in bar/psi and filtrate permeate flux (J = TMP / (μ · [R_m + R_c])) in LMH (L/m²·h).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Feed Pressure P_feed (bar), Retentate P_retentate (bar), Permeate P_permeate (bar) & Membrane Area (m²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="tff-pfeed">P_feed (bar)</label>
+          <input class="tool-textarea" id="tff-pfeed" type="number" step="0.2" value="2.2" placeholder="2.2 bar (Inlet)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tff-pret">P_retentate (bar)</label>
+          <input class="tool-textarea" id="tff-pret" type="number" step="0.2" value="1.4" placeholder="1.4 bar (Outlet)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tff-pperm">P_permeate (bar)</label>
+          <input class="tool-textarea" id="tff-pperm" type="number" step="0.1" value="0.2" placeholder="0.2 bar (Filtrate)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tff-area">Area (m²)</label>
+          <input class="tool-textarea" id="tff-area" type="number" step="0.5" value="2.5" placeholder="2.5 m² Cassette" />
+        </div>
+      </div>
+      <div id="tff-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="tff-res-tmp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">TMP = 1.60 bar (23.2 psi)</span>
+            <span class="stat-label">Transmembrane Pressure Driving Force (TMP)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tff-res-flux" style="color:var(--green-dark); font-weight:700;">Permeate Flux J = 64.0 LMH (160.0 L/h Total Flow Rate | ΔP_channel = 0.80 bar)</span>
+            <span class="stat-label">Volumetric Permeate Flux (LMH = L / m²·h) & Total Filtrate Rate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator</h2>
+      <ol>
+        <li>Enter cassette feed inlet pressure $P_{	ext{feed}}$ in bar.</li>
+        <li>Enter retentate outlet valve pressure $P_{	ext{retentate}}$ in bar.</li>
+        <li>Enter permeate filtrate line pressure $P_{	ext{permeate}}$ in bar.</li>
+        <li>Enter total ultrafiltration cassette membrane surface area in $m^2$.</li>
+        <li>Inspect Transmembrane Pressure (TMP) driving force in bar/psi, crossflow channel pressure drop ($Delta P = P_{	ext{feed}} - P_{	ext{retentate}}$), and volumetric permeate flux in LMH ($	ext{L/m}^2cdot	ext{h}$).</li>
+      </ol>
+
+      <h2>Tangential Crossflow Ultrafiltration & Diafiltration</h2>
+      <p>Unlike dead-end filters that rapidly clog with cake fouling, TFF sweeps fluid parallel to the membrane surface at high crossflow velocity ($Delta P_{	ext{channel}}$), creating hydrodynamic shear that prevents gel-layer polarization and concentrates fragile therapeutic monoclonal antibodies (mAbs) to $>150	ext{ g/L}$.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the definition of TMP in Tangential Flow Filtration?</summary>
+        <p>$	ext{TMP} = rac{P_{	ext{feed}} + P_{	ext{retentate}}}{2} - P_{	ext{permeate}}$ represents the average net hydraulic pressure gradient driving solvent through the membrane pores.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/tangential-flow-ultrafiltration-flux-tff-membrane-calculator/tool.js"></script>
+</body>
+</html>

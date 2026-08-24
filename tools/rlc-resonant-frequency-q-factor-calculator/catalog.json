@@ -1,0 +1,15 @@
+{
+  "name": "RLC Resonant Frequency & Q-Factor Calculator",
+  "description": "Calculate natural resonant frequency (f₀ = 1 / (2π·√(L·C))), Quality Factor (Q), and -3dB bandwidth (BW) for series and parallel RLC tuned circuits.",
+  "path": "/tools/rlc-resonant-frequency-q-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rlc resonant frequency calculator",
+    "q factor calculator rlc",
+    "lc resonance tank circuit calculator",
+    "series parallel rlc bandwidth formula",
+    "radio tuner lc calculator online"
+  ],
+  "order": 246
+}

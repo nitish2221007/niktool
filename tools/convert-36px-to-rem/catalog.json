@@ -1,0 +1,15 @@
+{
+  "name": "Convert 36px to REM",
+  "description": "Convert 36 pixels (px) to REM units based on 16px root font size (2.2500rem).",
+  "path": "/tools/convert-36px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 36px to rem",
+    "Convert 36px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

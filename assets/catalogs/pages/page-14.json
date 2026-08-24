@@ -1,0 +1,347 @@
+[
+  {
+    "name": "URL Encoder Online",
+    "description": "Percent-encode special characters in URLs for web queries.",
+    "path": "/tools/url-encoder-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "url encoder online",
+      "URL Encoder Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Board Marks Calculator",
+    "description": "Calculate your board exam total marks and percentage from subject-wise scores with configurable maximum marks. Free and private.",
+    "path": "/tools/board-marks-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "board marks calculator",
+      "board exam marks calculator",
+      "class 10 board marks calculator",
+      "board result calculator",
+      "board percentage calculator",
+      "10th board marks calculator"
+    ]
+  },
+  {
+    "name": "Instant Anonymous Room Chat",
+    "description": "Create or join temporary private chat rooms instantly without login. Send messages between phone and laptop. Messages auto-delete after 24 hours.",
+    "path": "/tools/instant-room-chat/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "chat with stranger",
+      "connect laptop to phone",
+      "anonymous chat room",
+      "instant room chat",
+      "private temporary chat room",
+      "browser p2p chat",
+      "send text from phone to laptop",
+      "no registration online chat",
+      "ephemeral chat room",
+      "disappearing messages chat online"
+    ]
+  },
+  {
+    "name": "Grade Calculator",
+    "description": "Convert marks into percentage and grade using standard or letter grade scales. Free, fast, and fully private in your browser.",
+    "path": "/tools/grade-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "grade calculator",
+      "marks to grade calculator",
+      "percentage to grade calculator",
+      "student grade calculator",
+      "class 10 grade calculator",
+      "letter grade calculator"
+    ]
+  },
+  {
+    "name": "Student Average Calculator",
+    "description": "Calculate the average of marks across tests or subjects with count, sum, highest and lowest values. Free and private.",
+    "path": "/tools/student-average-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "average marks calculator",
+      "student average calculator",
+      "marks average calculator",
+      "average percentage calculator",
+      "exam average calculator",
+      "mean marks calculator"
+    ]
+  },
+  {
+    "name": "Weighted Average Calculator",
+    "description": "Calculate weighted marks where assignments, tests, and exams have different weights, with a clear total-weight check. Free and private.",
+    "path": "/tools/weighted-average-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "weighted average calculator",
+      "weighted marks calculator",
+      "weighted grade calculator",
+      "student weighted average",
+      "final grade calculator",
+      "weighted score calculator"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹100 Amount)",
+    "description": "Calculate 18% GST tax amount (₹18.00) on ₹100 base value.",
+    "path": "/tools/gst-18-percent-calculator-100-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 100 rupees",
+      "18% GST Calculator (₹100 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1000 Amount)",
+    "description": "Calculate 18% GST tax amount (₹180.00) on ₹1000 base value.",
+    "path": "/tools/gst-18-percent-calculator-1000-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1000 rupees",
+      "18% GST Calculator (₹1000 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹10000 Amount)",
+    "description": "Calculate 18% GST tax amount (₹1800.00) on ₹10000 base value.",
+    "path": "/tools/gst-18-percent-calculator-10000-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 10000 rupees",
+      "18% GST Calculator (₹10000 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1100 Amount)",
+    "description": "Calculate 18% GST tax amount (₹198.00) on ₹1100 base value.",
+    "path": "/tools/gst-18-percent-calculator-1100-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1100 rupees",
+      "18% GST Calculator (₹1100 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1200 Amount)",
+    "description": "Calculate 18% GST tax amount (₹216.00) on ₹1200 base value.",
+    "path": "/tools/gst-18-percent-calculator-1200-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1200 rupees",
+      "18% GST Calculator (₹1200 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1300 Amount)",
+    "description": "Calculate 18% GST tax amount (₹234.00) on ₹1300 base value.",
+    "path": "/tools/gst-18-percent-calculator-1300-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1300 rupees",
+      "18% GST Calculator (₹1300 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1400 Amount)",
+    "description": "Calculate 18% GST tax amount (₹252.00) on ₹1400 base value.",
+    "path": "/tools/gst-18-percent-calculator-1400-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1400 rupees",
+      "18% GST Calculator (₹1400 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1500 Amount)",
+    "description": "Calculate 18% GST tax amount (₹270.00) on ₹1500 base value.",
+    "path": "/tools/gst-18-percent-calculator-1500-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1500 rupees",
+      "18% GST Calculator (₹1500 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1600 Amount)",
+    "description": "Calculate 18% GST tax amount (₹288.00) on ₹1600 base value.",
+    "path": "/tools/gst-18-percent-calculator-1600-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1600 rupees",
+      "18% GST Calculator (₹1600 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1700 Amount)",
+    "description": "Calculate 18% GST tax amount (₹306.00) on ₹1700 base value.",
+    "path": "/tools/gst-18-percent-calculator-1700-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1700 rupees",
+      "18% GST Calculator (₹1700 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1800 Amount)",
+    "description": "Calculate 18% GST tax amount (₹324.00) on ₹1800 base value.",
+    "path": "/tools/gst-18-percent-calculator-1800-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1800 rupees",
+      "18% GST Calculator (₹1800 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹1900 Amount)",
+    "description": "Calculate 18% GST tax amount (₹342.00) on ₹1900 base value.",
+    "path": "/tools/gst-18-percent-calculator-1900-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 1900 rupees",
+      "18% GST Calculator (₹1900 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹200 Amount)",
+    "description": "Calculate 18% GST tax amount (₹36.00) on ₹200 base value.",
+    "path": "/tools/gst-18-percent-calculator-200-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 200 rupees",
+      "18% GST Calculator (₹200 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹2000 Amount)",
+    "description": "Calculate 18% GST tax amount (₹360.00) on ₹2000 base value.",
+    "path": "/tools/gst-18-percent-calculator-2000-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 2000 rupees",
+      "18% GST Calculator (₹2000 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹2100 Amount)",
+    "description": "Calculate 18% GST tax amount (₹378.00) on ₹2100 base value.",
+    "path": "/tools/gst-18-percent-calculator-2100-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 2100 rupees",
+      "18% GST Calculator (₹2100 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹2200 Amount)",
+    "description": "Calculate 18% GST tax amount (₹396.00) on ₹2200 base value.",
+    "path": "/tools/gst-18-percent-calculator-2200-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 2200 rupees",
+      "18% GST Calculator (₹2200 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹2300 Amount)",
+    "description": "Calculate 18% GST tax amount (₹414.00) on ₹2300 base value.",
+    "path": "/tools/gst-18-percent-calculator-2300-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 2300 rupees",
+      "18% GST Calculator (₹2300 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "18% GST Calculator (₹2400 Amount)",
+    "description": "Calculate 18% GST tax amount (₹432.00) on ₹2400 base value.",
+    "path": "/tools/gst-18-percent-calculator-2400-rupees/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "gst 18 percent calculator 2400 rupees",
+      "18% GST Calculator (₹2400 Amount)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

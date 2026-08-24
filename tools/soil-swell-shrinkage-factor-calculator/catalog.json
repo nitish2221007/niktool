@@ -1,0 +1,15 @@
+{
+  "name": "Soil Swell, Bulking & Shrinkage Factor Calculator",
+  "description": "Convert soil volumes between Bank Cubic Yards (BCY), Loose Cubic Yards (LCY), and Compacted Cubic Yards (CCY) from soil material swell and shrinkage percentages.",
+  "path": "/tools/soil-swell-shrinkage-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "soil swell calculator",
+    "soil shrinkage factor calculator",
+    "bcy to lcy to ccy converter",
+    "earthwork bulking factor online",
+    "cut and fill soil compaction volume calculator"
+  ],
+  "order": 443
+}

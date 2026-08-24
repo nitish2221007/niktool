@@ -1,0 +1,15 @@
+{
+  "name": "Convert Color HEX #808080 to RGB",
+  "description": "Convert color hex code #808080 to RGB values rgb(128, 128, 128). 100% free and local.",
+  "path": "/tools/convert-color-hex-808080-to-rgb/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert color hex 808080 to rgb",
+    "Convert Color HEX #808080 to RGB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

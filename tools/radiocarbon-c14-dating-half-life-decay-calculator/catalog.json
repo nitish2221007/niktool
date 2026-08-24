@@ -1,0 +1,15 @@
+{
+  "name": "Radiocarbon C-14 Archaeological Dating & Radioisotope Decay Calculator",
+  "description": "Calculate organic archaeological artifact age (t = (t_½ / ln 2) · ln(N₀ / N_t)) in years Before Present (BP) from residual Carbon-14 activity (% Modern Carbon pMC) using the Libby half-life (t_½ = 5,730 years).",
+  "path": "/tools/radiocarbon-c14-dating-half-life-decay-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "radiocarbon dating calculator",
+    "carbon 14 dating formula t equals t half over ln 2 ln n0 over nt online",
+    "c14 half life 5730 years archaeological age calculator",
+    "percent modern carbon pmc to age in years bp calculator",
+    "radioactive decay dating carbon 14 online"
+  ],
+  "order": 916
+}

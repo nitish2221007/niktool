@@ -1,0 +1,15 @@
+{
+  "name": "Equivalent Continuous Sound Level (L_eq Industrial Noise Exposure) Calculator",
+  "description": "Calculate cumulative energy-averaged Equivalent Continuous Sound Level L_eq in dBA (L_eq = 10 · log₁₀(1/T · ∑ t_i · 10^(L_i/10))) and OSHA/NIOSH Daily Noise Dose (D%) for occupational safety.",
+  "path": "/tools/equivalent-continuous-sound-level-leq-noise-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "leq calculator",
+    "equivalent continuous sound level formula online",
+    "osha daily noise dose d percentage calculator",
+    "energy average sound level leq decibels calculator",
+    "occupational safety acoustics industrial hygiene online"
+  ],
+  "order": 1344
+}

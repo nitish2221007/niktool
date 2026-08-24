@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in 2012)",
+  "description": "Calculate exact age (14 years old in 2026) for someone born in year 2012.",
+  "path": "/tools/age-calculator-born-in-2012/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in 2012",
+    "Age Calculator (Born in 2012)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

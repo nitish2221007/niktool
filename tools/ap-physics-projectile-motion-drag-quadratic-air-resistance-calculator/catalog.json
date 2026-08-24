@@ -1,0 +1,15 @@
+{
+  "name": "AP Physics 2D Projectile Motion with Quadratic Air Resistance Drag Calculator",
+  "description": "Calculate 2D projectile trajectory range, apex height, and time of flight comparing ideal vacuum parabolic motion against real quadratic aerodynamic drag (F_drag = ½·C_d·ρ·A·v²).",
+  "path": "/tools/ap-physics-projectile-motion-drag-quadratic-air-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "projectile motion air resistance calculator",
+    "ap physics 2d kinematics quadratic drag trajectory calculator",
+    "baseball trajectory with drag range calculator online",
+    "terminal velocity projectile apex height calculator",
+    "physics projectile flight time drag online"
+  ],
+  "order": 903
+}

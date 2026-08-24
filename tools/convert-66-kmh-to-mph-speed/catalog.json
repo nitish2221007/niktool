@@ -1,0 +1,15 @@
+{
+  "name": "Convert 66 KM/H to MPH Speed",
+  "description": "Convert 66 kilometers per hour (km/h) to miles per hour (41.01 mph).",
+  "path": "/tools/convert-66-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 66 kmh to mph speed",
+    "Convert 66 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

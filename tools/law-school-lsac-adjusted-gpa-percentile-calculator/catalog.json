@@ -1,0 +1,15 @@
+{
+  "name": "Law School LSAC Adjusted GPA & Admissions Index Calculator",
+  "description": "Calculate official Law School Admission Council (LSAC) cumulative GPA adjustments (counting A+ as 4.33 and punitive failing grades) and compute law school admission Index scores from LSAT and GPA.",
+  "path": "/tools/law-school-lsac-adjusted-gpa-percentile-calculator/",
+  "category": "Education",
+  "icon": "calculator",
+  "keywords": [
+    "lsac gpa calculator",
+    "law school admission index formula lsat gpa online",
+    "lsac 4.33 a plus gpa converter calculator",
+    "t14 law school admission index calculator",
+    "lsat score and gpa admissions predictor online"
+  ],
+  "order": 920
+}

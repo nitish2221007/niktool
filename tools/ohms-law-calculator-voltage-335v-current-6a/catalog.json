@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 335V, Current 6A)",
+  "description": "Calculate Resistance (55.83 Ω) and Electric Power (2010.0 W) for 335V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-335v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 335v current 6a",
+    "Ohm's Law Calculator (Voltage 335V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

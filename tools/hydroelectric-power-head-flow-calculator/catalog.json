@@ -1,0 +1,15 @@
+{
+  "name": "Hydroelectric Power (Head & Flow) Generator Calculator",
+  "description": "Calculate hydroelectric power generation (P = η · ρ · g · Q · H) in kW and Megawatts (MW) from water head height (H in meters), flow rate (Q in m³/s), and turbine-generator efficiency.",
+  "path": "/tools/hydroelectric-power-head-flow-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hydroelectric power calculator",
+    "hydro turbine power formula online",
+    "water head flow rate kw calculator",
+    "hydropower p eta rho g q h calculator",
+    "micro hydro power output online"
+  ],
+  "order": 432
+}

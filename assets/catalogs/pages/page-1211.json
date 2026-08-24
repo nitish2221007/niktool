@@ -1,0 +1,338 @@
+[
+  {
+    "name": "CNC Lead Screw Pitch & Steps per mm Calibration Calculator",
+    "description": "Calculate 3D printer and CNC linear axis steps per millimeter (Steps/mm = (Steps per Rev · Microsteps) / Lead Screw Pitch) and linear speed.",
+    "path": "/tools/lead-screw-pitch-linear-travel-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "steps per mm calculator lead screw",
+      "cnc lead screw travel calculator",
+      "t8 lead screw steps per mm formula",
+      "3d printer z axis calibration calculator",
+      "lead screw pitch linear travel online"
+    ]
+  },
+  {
+    "name": "Fourier's Law 1D Thermal Conduction Heat Rate Calculator",
+    "description": "Calculate conductive heat transfer rate (q = (k · A · ΔT) / L) in Watts, heat flux (q\" = q/A in W/m²), and thermal conduction resistance (R_th = L / (k·A)).",
+    "path": "/tools/fourier-law-thermal-conduction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fourier law thermal conduction calculator",
+      "conductive heat transfer rate formula",
+      "thermal conductivity k a delta t over l",
+      "heat flux watts per square meter online",
+      "thermal resistance rth conduction calculator"
+    ]
+  },
+  {
+    "name": "Newton's Law of Cooling & Convective Heat Transfer Calculator",
+    "description": "Calculate convective heat dissipation (q = h · A · (T_s - T_∞)) in Watts from surface temperature T_s, ambient fluid temperature T_∞, and convective heat transfer coefficient h.",
+    "path": "/tools/newton-law-cooling-convection-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "newtons law of cooling calculator",
+      "convective heat transfer calculator",
+      "q h a delta t formula online",
+      "heat transfer coefficient convection calculator",
+      "heatsink convective cooling online"
+    ]
+  },
+  {
+    "name": "Lumped Capacitance Transient Thermal Cooling Calculator",
+    "description": "Calculate transient cooling temperature profiles (T(t) = T_inf + (T0 - T_inf) · e^(-t / tau)), thermal time constant (tau = rho · V · c / (h · A)), and verify Biot number validity (Bi below 0.1).",
+    "path": "/tools/lumped-capacitance-transient-thermal-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lumped capacitance calculator",
+      "transient thermal cooling calculator",
+      "biot number calculator online",
+      "thermal time constant tau formula",
+      "unsteady state heat transfer online"
+    ]
+  },
+  {
+    "name": "Heat Exchanger Log Mean Temperature Difference (LMTD) Calculator",
+    "description": "Calculate Logarithmic Mean Temperature Difference (LMTD = (ΔT₁ - ΔT₂) / ln(ΔT₁ / ΔT₂)) and total thermal duty (Q = U · A · LMTD) for parallel-flow and counter-flow heat exchangers.",
+    "path": "/tools/heat-exchanger-lmtd-log-mean-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lmtd calculator",
+      "heat exchanger lmtd formula",
+      "log mean temperature difference calculator",
+      "counter flow parallel flow lmtd online",
+      "q u a lmtd heat exchanger sizing"
+    ]
+  },
+  {
+    "name": "Thermal Radiation Heat Exchange & Emissivity Calculator",
+    "description": "Calculate net radiative heat transfer (q = ε · σ · A · (T₁⁴ - T₂⁴)) in Watts and thermal radiation heat flux from surface emissivity (ε) and absolute temperatures (Kelvin).",
+    "path": "/tools/blackbody-radiation-emissivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thermal radiation calculator",
+      "stefan boltzmann emissivity calculator",
+      "net radiative heat transfer formula",
+      "radiation heat loss watts online",
+      "emissivity sigma t4 calculator"
+    ]
+  },
+  {
+    "name": "Caesar Cipher (ROT-N) Encoder & Decoder",
+    "description": "Encrypt and decrypt text messages using the classical Julius Caesar rotation cipher (ROT-1 to ROT-25) and ROT-13 with custom shift values.",
+    "path": "/tools/caesar-cipher-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "caesar cipher decoder",
+      "rot13 encoder online",
+      "caesar cipher shift calculator",
+      "rot n cipher generator",
+      "classical substitution cipher online"
+    ]
+  },
+  {
+    "name": "Vigenère Cipher Polyalphabetic Encryptor & Decryptor",
+    "description": "Encrypt and decrypt messages using the polyalphabetic Blaise de Vigenère tabula recta cipher with custom passphrase keys.",
+    "path": "/tools/vigenere-cipher-polyalphabetic-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "vigenere cipher calculator",
+      "vigenere cipher decoder online",
+      "polyalphabetic cipher generator",
+      "tabula recta vigenere encryption",
+      "vigenere cipher key solver online"
+    ]
+  },
+  {
+    "name": "JSON Web Token (JWT) Decoder & Claims Inspector",
+    "description": "Decode Base64Url-encoded JSON Web Tokens (JWT) into raw Header, Claims Payload, expiration time (exp), and signature components client-side with zero data transmission.",
+    "path": "/tools/jwt-token-decoder-payload-inspector/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "jwt decoder online",
+      "json web token payload inspector",
+      "jwt claims expiry decoder",
+      "base64url jwt parser online",
+      "jwt token debugger privacy client side"
+    ]
+  },
+  {
+    "name": "URL Slug SEO Generator & String Sanitizer",
+    "description": "Transform article headlines and blog titles into clean, lowercase, URL-friendly hyphenated slugs with Unicode diacritic stripping.",
+    "path": "/tools/url-slug-seo-generator-sanitizer/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "url slug generator",
+      "seo slug generator online",
+      "string to slug converter",
+      "clean url slug generator",
+      "blog post permalink slug generator"
+    ]
+  },
+  {
+    "name": "International Morse Code Translator & Audio Generator",
+    "description": "Translate text to/from standard International Morse Code (dots and dashes) and play audio beeps using Web Audio API synthesis.",
+    "path": "/tools/morse-code-audio-visual-translator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "morse code translator",
+      "morse code audio generator online",
+      "text to morse code converter",
+      "sos morse code translator",
+      "dots and dashes morse code online"
+    ]
+  },
+  {
+    "name": "Osmotic Pressure (Van 't Hoff) Calculator",
+    "description": "Calculate solution osmotic pressure (Π = i · M · R · T) in atmospheres (atm), bar, and kPa from solute molarity, van 't Hoff factor (i), and temperature.",
+    "path": "/tools/osmotic-pressure-van-t-hoff-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "osmotic pressure calculator",
+      "van t hoff osmotic pressure formula",
+      "pi i m r t calculator online",
+      "colligative osmotic pressure atm online",
+      "reverse osmosis osmotic pressure calculator"
+    ]
+  },
+  {
+    "name": "Boiling Point Elevation (Ebullioscopy) Calculator",
+    "description": "Calculate boiling point increase (ΔT_b = i · K_b · m) and elevated boiling temperature for solutions from solute molality and solvent ebullioscopic constant (K_b).",
+    "path": "/tools/boiling-point-elevation-ebullioscopic-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "boiling point elevation calculator",
+      "ebullioscopic constant kb formula",
+      "delta tb i kb m calculator online",
+      "solution boiling point elevation calculator",
+      "colligative boiling point online"
+    ]
+  },
+  {
+    "name": "Freezing Point Depression (Cryoscopy) Calculator",
+    "description": "Calculate freezing point lowering (ΔT_f = i · K_f · m) and antifreeze / road de-icing temperatures from solute molality and cryoscopic constant (K_f).",
+    "path": "/tools/freezing-point-depression-cryoscopic-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "freezing point depression calculator",
+      "cryoscopic constant kf formula",
+      "delta tf i kf m calculator online",
+      "road salt de icing freezing point calculator",
+      "antifreeze ethylene glycol freezing calculator"
+    ]
+  },
+  {
+    "name": "Solution Dilution (M₁V₁ = M₂V₂) Calculator",
+    "description": "Calculate required stock solution volume (V₁) or target concentration (M₂) using the fundamental chemical dilution equation M₁ · V₁ = M₂ · V₂ (C₁V₁ = C₂V₂).",
+    "path": "/tools/dilution-law-m1v1-m2v2-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "m1v1 m2v2 calculator",
+      "solution dilution calculator",
+      "c1v1 c2v2 formula online",
+      "stock solution dilution calculator",
+      "laboratory molarity dilution calculator"
+    ]
+  },
+  {
+    "name": "Molarity (M) to Molality (m) & Density Converter",
+    "description": "Convert between Molarity (mol/L solution) and Molality (mol/kg solvent) using solution density (d in g/mL) and solute molecular weight (MW in g/mol).",
+    "path": "/tools/molarity-to-molality-density-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "molarity to molality calculator",
+      "molality to molarity formula",
+      "convert molar to molal online",
+      "molarity density molecular weight molality",
+      "solution concentration converter chemistry"
+    ]
+  },
+  {
+    "name": "Brinell Hardness Number (HBW / BHN) Calculator",
+    "description": "Calculate Brinell hardness (HBW = (2 · F) / (π · D · (D - √(D² - d²)))) in kgf/mm² from indenter tungsten carbide ball diameter (D), indentation impression diameter (d), and test load (F).",
+    "path": "/tools/brinell-hardness-number-bhn-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "brinell hardness calculator",
+      "bhn hardness formula calculator",
+      "hbw hardness number calculation",
+      "tungsten carbide ball indentation hardness",
+      "metallurgy brinell test online"
+    ]
+  },
+  {
+    "name": "Vickers Pyramid Diamond Hardness (HV) Calculator",
+    "description": "Calculate Vickers microhardness (HV = (1.8544 · F) / d²) in kgf/mm² from applied test force (F in kgf or grams) and square diamond indentation diagonal lengths (d).",
+    "path": "/tools/vickers-hardness-number-vhn-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "vickers hardness calculator",
+      "hv hardness formula calculator",
+      "diamond pyramid hardness vhn online",
+      "microhardness vickers tester online",
+      "vickers diagonal d1 d2 hardness calculator"
+    ]
+  },
+  {
+    "name": "Hardness Scale Converter (Rockwell HRC/HRB, Brinell, Vickers)",
+    "description": "Convert between Rockwell C (HRC), Rockwell B (HRB), Brinell (HBW), Vickers (HV), and approximate steel tensile strength (ASTM E140).",
+    "path": "/tools/rockwell-hardness-scale-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rockwell to brinell converter",
+      "hrc to vickers conversion table",
+      "hardness scale conversion astm e140",
+      "hrc to hrb hardness converter",
+      "metal hardness conversion calculator online"
+    ]
+  },
+  {
+    "name": "Crystal Lattice Interplanar Spacing (d_hkl) Calculator",
+    "description": "Calculate crystallographic interplanar spacing (d_hkl = a / √(h² + k² + l²)) for cubic crystal systems (SC, BCC, FCC) from lattice parameter (a) and Miller indices (h k l).",
+    "path": "/tools/crystal-lattice-interplanar-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "interplanar spacing calculator",
+      "miller indices d hkl formula",
+      "cubic lattice spacing calculator online",
+      "fcc bcc interplanar distance calculator",
+      "xrd lattice plane spacing online"
+    ]
+  },
+  {
+    "name": "Bragg's Law X-Ray Diffraction (XRD) Angle Calculator",
+    "description": "Calculate X-ray diffraction peak angle (2θ) and atomic d-spacing (n · λ = 2 · d · sin θ) for Cu-Kα laboratory X-ray diffractometers.",
+    "path": "/tools/bragg-law-xray-diffraction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "braggs law calculator",
+      "xrd 2theta calculator online",
+      "n lambda 2d sin theta formula",
+      "cu k alpha xray diffraction calculator",
+      "xrd peak angle to d spacing online"
+    ]
+  },
+  {
+    "name": "Binomial Distribution Probability & CDF Calculator",
+    "description": "Calculate exact binomial probability (P(X = k) = C(n, k) · p^k · (1-p)^(n-k)), cumulative probability P(X ≤ k), expected value (E[X] = n·p), and variance.",
+    "path": "/tools/binomial-distribution-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "binomial distribution calculator",
+      "binomial probability formula online",
+      "p x equals k binomial calculator",
+      "cumulative binomial cdf calculator online",
+      "bernoulli trials probability calculator"
+    ]
+  },
+  {
+    "name": "Poisson Distribution Probability & Rate Calculator",
+    "description": "Calculate Poisson probability (P(X = k) = (λ^k · e^(-λ)) / k!) and cumulative event arrival counts from average event rate (λ).",
+    "path": "/tools/poisson-distribution-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "poisson distribution calculator",
+      "poisson probability formula online",
+      "lambda k poisson calculator",
+      "call center arrival rate poisson online",
+      "poisson cumulative probability calculator"
+    ]
+  },
+  {
+    "name": "Geometric Distribution (Trials to First Success) Calculator",
+    "description": "Calculate geometric probability (P(X = k) = (1 - p)^(k - 1) · p), cumulative probability P(X ≤ k), and expected number of trials until the first success (E[X] = 1 / p).",
+    "path": "/tools/geometric-distribution-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "geometric distribution calculator",
+      "trials until first success formula",
+      "geometric probability calculator online",
+      "1 minus p to the k minus 1 p online",
+      "memoryless distribution calculator"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 181cm, Weight 40kg)",
+  "description": "Calculate Body Mass Index (BMI 12.2) for height 181 cm and weight 40 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-181cm-weight-40kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 181cm weight 40kg",
+    "BMI Calculator (Height 181cm, Weight 40kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 44°F Fahrenheit to Celsius Temp",
+  "description": "Convert 44 degrees Fahrenheit (°F) to Celsius (6.7°C) instantly.",
+  "path": "/tools/convert-44-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 44 fahrenheit to celsius temp",
+    "Convert 44°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

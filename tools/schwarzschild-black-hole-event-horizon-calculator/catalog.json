@@ -1,0 +1,15 @@
+{
+  "name": "Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator",
+  "description": "Calculate non-rotating black hole Schwarzschild event horizon radius (r_s = 2·G·M / c²) and quantum Hawking radiation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)).",
+  "path": "/tools/schwarzschild-black-hole-event-horizon-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "schwarzschild black hole calculator",
+    "event horizon radius formula rs 2gm over c squared",
+    "hawking radiation temperature black hole calculator",
+    "black hole mass to radius online",
+    "astrophysics event horizon calculator"
+  ],
+  "order": 631
+}

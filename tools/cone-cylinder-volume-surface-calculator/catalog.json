@@ -1,0 +1,15 @@
+{
+  "name": "Cone & Cylinder Volume Comparison Calculator",
+  "description": "Compare 3D volume and surface area between a cone (V = ⅓·π·r²·h) and cylinder (V = π·r²·h) with identical base radius and height.",
+  "path": "/tools/cone-cylinder-volume-surface-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cone volume calculator",
+    "cylinder volume calculator",
+    "cone vs cylinder volume ratio",
+    "cone surface area calculator",
+    "geometry cone cylinder formula"
+  ],
+  "order": 157
+}

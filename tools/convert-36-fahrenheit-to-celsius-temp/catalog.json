@@ -1,0 +1,15 @@
+{
+  "name": "Convert 36°F Fahrenheit to Celsius Temp",
+  "description": "Convert 36 degrees Fahrenheit (°F) to Celsius (2.2°C) instantly.",
+  "path": "/tools/convert-36-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 36 fahrenheit to celsius temp",
+    "Convert 36°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

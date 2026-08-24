@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (42 GB File, 10 Mbps Speed)",
+  "description": "Calculate file transfer download time (~573.4 minutes / 34406s) for 42 GB file at 10 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-42gb-speed-10mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 42gb speed 10mbps",
+    "Data Download Time Calculator (42 GB File, 10 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

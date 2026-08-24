@@ -1,0 +1,15 @@
+{
+  "name": "State-Space Controllability & Observability Matrix (Rank Check) Calculator",
+  "description": "Calculate 2-state system Controllability Matrix C = [B, AB] and Observability Matrix O = [C; CA], determinant, and Kalman rank condition to verify full state feedback controllability and observer design.",
+  "path": "/tools/state-space-system-controllability-observability-gramian-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "state space controllability calculator",
+    "observability matrix rank kalman condition online",
+    "controllability matrix c equals b ab calculator",
+    "state feedback pole placement observability calculator",
+    "modern control theory state space mechatronics online"
+  ],
+  "order": 1319
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate chemical reaction half-life (Zero-order t_½ = [A]₀/(2k), 1st-order t_½ = ln(2)/k, 2nd-order t_½ = 1/(k·[A]₀)) and remaining reactant concentration [A]_t over elapsed reaction time t.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/first-order-second-order-chemical-reaction-half-life-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator | NikTool">
+  <meta property="og:description" content="Calculate chemical reaction half-life (Zero-order t_½ = [A]₀/(2k), 1st-order t_½ = ln(2)/k, 2nd-order t_½ = 1/(k·[A]₀)) and remaining reactant concentration [A]_t over elapsed reaction time t.">
+  <meta property="og:url" content="https://niktool.in/tools/first-order-second-order-chemical-reaction-half-life-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/first-order-second-order-chemical-reaction-half-life-calculator/",
+        "description": "Calculate chemical reaction half-life (Zero-order t_½ = [A]₀/(2k), 1st-order t_½ = ln(2)/k, 2nd-order t_½ = 1/(k·[A]₀)) and remaining reactant concentration [A]_t over elapsed reaction time t.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is first-order half-life independent of concentration?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because the decay rate is strictly proportional to the number of remaining molecules, yielding an exponential decay function whose half-life depends purely on the rate constant k."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator</h1>
+      <p>Calculate chemical reaction half-life (Zero-order t_½ = [A]₀/(2k), 1st-order t_½ = ln(2)/k, 2nd-order t_½ = 1/(k·[A]₀)) and remaining reactant concentration [A]_t over elapsed reaction time t.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Reaction Order (0, 1st, 2nd), Rate Constant k, Initial [A]₀ (M) & Elapsed Time t (s)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rk-ord">Reaction Order</label>
+          <select class="tool-textarea" id="rk-ord">
+            <option value="1" selected>1st Order (t_½ = ln(2)/k - Independent of [A]₀)</option>
+            <option value="2">2nd Order (t_½ = 1/(k·[A]₀))</option>
+            <option value="0">Zero Order (t_½ = [A]₀/(2k))</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rk-k">Rate Constant k</label>
+          <input class="tool-textarea" id="rk-k" type="number" step="0.01" value="0.05" placeholder="0.05" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rk-a0">Initial [A]₀ (M)</label>
+          <input class="tool-textarea" id="rk-a0" type="number" step="0.1" value="1.0" placeholder="1.0 M" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rk-t">Time t (s)</label>
+          <input class="tool-textarea" id="rk-t" type="number" step="5" value="20.0" placeholder="20.0 Seconds" />
+        </div>
+      </div>
+      <div id="rk-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rk-res-t12" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Half-Life t_½ = 13.86 s</span>
+            <span class="stat-label">Reaction Half-Life (t_½ = ln(2) / k)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rk-res-at" style="color:var(--green-dark); font-weight:700;">Remaining [A]_t = 0.368 M (36.8% Remaining | 63.2% Reacted at t = 20.0 s)</span>
+            <span class="stat-label">Integrated Rate Law Concentration at Time t</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator</h2>
+      <ol>
+        <li>Select reaction kinetic order (Zero, 1st, or 2nd order).</li>
+        <li>Enter rate constant k in appropriate units ($	ext{M/s}, 	ext{s}^{-1},	ext{ or }	ext{M}^{-1}	ext{s}^{-1}$).</li>
+        <li>Enter initial starting reactant concentration $[A]_0$ in Molar (M).</li>
+        <li>Enter elapsed reaction time t in seconds.</li>
+        <li>Inspect reaction half-life $t_{1/2}$ and remaining reactant concentration $[A]_t$.</li>
+      </ol>
+
+      <h2>Integrated Rate Laws & Half-Life Physics</h2>
+      <p>For first-order processes (like radioactive decay and pharmacological drug clearance), half-life is strictly constant and independent of initial concentration ($t_{1/2} = rac{ln 2}{k}$), whereas for second-order reactions half-life doubles as reactant is consumed.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is first-order half-life independent of concentration?</summary>
+        <p>Because the decay rate is strictly proportional to the number of remaining molecules, yielding an exponential decay function whose half-life depends purely on the rate constant k.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/first-order-second-order-chemical-reaction-half-life-calculator/tool.js"></script>
+</body>
+</html>

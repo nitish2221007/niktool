@@ -1,0 +1,338 @@
+[
+  {
+    "name": "MRI Spin-Lattice T1 & T2 Relaxation Signal Intensity (Spin Echo) Calculator",
+    "description": "Calculate Magnetic Resonance Imaging (MRI) spin echo tissue signal intensity (S = S₀ · (1 - e^(-TR / T₁)) · e^(-TE / T₂)) and optimize T1-weighted vs T2-weighted tissue contrast.",
+    "path": "/tools/mri-spin-lattice-t1-t2-relaxation-signal-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "mri signal intensity calculator",
+      "spin echo formula s equals s0 1 minus exp minus tr over t1 exp minus te over t2",
+      "mri t1 t2 weighted image contrast calculator online",
+      "repetition time tr echo time te mri calculator",
+      "medical physics mri signal equation online"
+    ]
+  },
+  {
+    "name": "X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator",
+    "description": "Calculate Computed Tomography X-ray attenuation Hounsfield Units (HU = 1000 · (μ - μ_water) / (μ_water - μ_air)) and identify tissue types (Air -1000, Lung -700, Fat -100, Water 0, Muscle +40, Bone +1000).",
+    "path": "/tools/xray-ct-hounsfield-unit-attenuation-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "hounsfield unit calculator",
+      "ct hu number linear attenuation coefficient formula online",
+      "computed tomography hounsfield scale tissue calculator",
+      "ct window width window level hu calculator",
+      "medical imaging ct density online"
+    ]
+  },
+  {
+    "name": "Black-Scholes Option Pricing & Greeks (Delta, Gamma, Vega, Theta) Calculator",
+    "description": "Calculate European call/put option fair value and first/second-order risk Greeks (Delta Δ, Gamma Γ, Vega ν, Theta Θ, Rho ρ) from spot price S, strike K, volatility σ, and risk-free rate r.",
+    "path": "/tools/black-scholes-merton-option-greeks-delta-gamma-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "black scholes calculator",
+      "option greeks formula delta gamma vega theta online",
+      "black scholes merton option pricing calculator",
+      "implied volatility call put option price calculator",
+      "quantitative finance option greeks online"
+    ]
+  },
+  {
+    "name": "Portfolio Value-at-Risk (VaR) & Conditional VaR (Expected Shortfall) Calculator",
+    "description": "Calculate quantitative financial portfolio Value-at-Risk (VaR_α = Portfolio · z_α · σ · √t) and Conditional VaR (CVaR / Expected Shortfall) at 95% and 99% confidence intervals.",
+    "path": "/tools/value-at-risk-var-parametric-monte-carlo-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "value at risk calculator",
+      "var formula parametric delta normal online",
+      "conditional var expected shortfall cvar calculator",
+      "portfolio risk management var 95 99 calculator",
+      "financial risk quantitative var online"
+    ]
+  },
+  {
+    "name": "Bond Macaulay Duration, Modified Duration & Convexity Price Sensitivity Calculator",
+    "description": "Calculate fixed income bond Macaulay duration in years, Modified duration (D_mod = D_mac / (1 + y/m)), convexity C, and percentage price change (ΔP/P ≈ -D_mod·Δy + 1/2·C·(Δy)²) for interest rate shifts.",
+    "path": "/tools/bond-macaulay-modified-duration-convexity-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "bond duration calculator",
+      "macaulay modified duration formula online",
+      "bond convexity price sensitivity calculator",
+      "interest rate risk bond duration calculator online",
+      "fixed income modified duration calculator"
+    ]
+  },
+  {
+    "name": "CAPM Expected Return (E(R_i) = R_f + β_i·(E(R_m) - R_f)) & Jensen Alpha Calculator",
+    "description": "Calculate equity cost of capital expected return (E(R_i) = R_f + β · (E(R_m) - R_f)) and Jensen's Alpha (α = R_actual - E(R_i)) from asset systematic market Beta.",
+    "path": "/tools/capm-capital-asset-pricing-model-beta-alpha-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "capm calculator",
+      "capital asset pricing model formula expected return online",
+      "jensen alpha beta calculator online",
+      "cost of equity capm market risk premium calculator",
+      "security market line sml capm online"
+    ]
+  },
+  {
+    "name": "Portfolio Risk-Adjusted Returns (Sharpe, Sortino & Treynor Ratios) Calculator",
+    "description": "Calculate investment performance metrics: Sharpe Ratio ((R_p - R_f) / σ_p), Sortino Ratio ((R_p - R_f) / σ_downside), and Treynor Ratio ((R_p - R_f) / β_p).",
+    "path": "/tools/sharpe-sortino-treynor-portfolio-risk-ratios-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "sharpe ratio calculator",
+      "sortino ratio formula downside deviation online",
+      "treynor ratio portfolio performance calculator",
+      "risk adjusted return investment calculator online",
+      "hedge fund performance ratios online"
+    ]
+  },
+  {
+    "name": "Single Degree of Freedom (SDOF) Natural Frequency & Damping Calculator",
+    "description": "Calculate building structural dynamics SDOF natural circular frequency (ω_n = √(k / m)), natural period (T_n = 2π / ω_n) in seconds, and damped frequency (f_d = f_n · √(1 - ζ²)).",
+    "path": "/tools/single-degree-of-freedom-sdof-natural-frequency-damping-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sdof natural frequency calculator",
+      "structural dynamics natural period formula 2 pi sqrt m over k",
+      "damped natural frequency calculator online",
+      "building structural stiffness mass period calculator",
+      "earthquake structural dynamics sdof online"
+    ]
+  },
+  {
+    "name": "Earthquake Equivalent Lateral Force (ELF) Seismic Base Shear (V_b) Calculator",
+    "description": "Calculate ASCE 7 / IBC building earthquake design base shear force (V_b = C_s · W = (S_DS / (R / I_e)) · W) in kN and kips from spectral design acceleration S_DS and ductility R.",
+    "path": "/tools/earthquake-elastic-response-spectrum-base-shear-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "seismic base shear calculator",
+      "equivalent lateral force elf formula asce 7 ibc online",
+      "earthquake design response spectrum cs coefficient calculator",
+      "structural seismic weight base shear calculator",
+      "building earthquake design base shear online"
+    ]
+  },
+  {
+    "name": "Logarithmic Decrement Structural Damping Ratio (δ & ζ) Calculator",
+    "description": "Calculate experimental vibration logarithmic decrement (δ = 1/n · ln(x₀ / x_n)) and viscous modal damping ratio (ζ ≈ δ / 2π) from free decay test amplitude peaks.",
+    "path": "/tools/logarithmic-decrement-structural-damping-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "logarithmic decrement calculator",
+      "damping ratio formula delta equals 1 over n ln x0 over xn",
+      "vibration decay damping ratio zeta calculator online",
+      "free vibration decay structural damping calculator",
+      "experimental modal analysis damping online"
+    ]
+  },
+  {
+    "name": "Dynamic Amplification Factor (DAF / Transmissibility) Resonance Calculator",
+    "description": "Calculate structural vibration dynamic amplification factor (DAF = 1 / √((1 - β²)² + (2·ζ·β)²)) and dynamic load multiplier at frequency ratio β = ω / ω_n.",
+    "path": "/tools/dynamic-amplification-factor-daf-resonance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dynamic amplification factor calculator",
+      "daf formula 1 over sqrt 1 minus beta squared squared",
+      "resonance amplification multiplier calculator online",
+      "structural dynamic magnification factor daf online",
+      "vibration transmissibility resonance calculator"
+    ]
+  },
+  {
+    "name": "Euler Column Buckling Critical Load (P_cr) & Slenderness Ratio Calculator",
+    "description": "Calculate structural column elastic critical buckling load (P_cr = π²·E·I / (K·L)²) in kN/kips and slenderness ratio (λ = K·L / r) across Fixed, Pinned, and Free boundary supports.",
+    "path": "/tools/structural-buckling-euler-effective-length-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "euler column buckling calculator",
+      "critical buckling load formula pi squared e i over k l squared",
+      "column slenderness ratio lambda calculator online",
+      "effective length factor k euler buckling calculator",
+      "structural steel column buckling online"
+    ]
+  },
+  {
+    "name": "Biochemical Oxygen Demand (BOD₅ & Ultimate BOD_u) Decay Kinetics Calculator",
+    "description": "Calculate wastewater organic pollution decay kinetics (BOD_t = BOD_u · (1 - e^(-k·t))) and temperature-corrected deoxygenation rate (k_T = k₂₀ · 1.047^(T - 20)).",
+    "path": "/tools/activated-sludge-biochemical-oxygen-demand-bod-kinetics-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bod kinetics calculator",
+      "biochemical oxygen demand formula bod5 to ultimate bodu",
+      "deoxygenation rate constant k temperature correction calculator",
+      "wastewater treatment bod decay kinetics online",
+      "environmental engineering water quality bod calculator"
+    ]
+  },
+  {
+    "name": "Wastewater Activated Sludge Mean Cell Residence Time (MCRT / Sludge Age) Calculator",
+    "description": "Calculate wastewater biological treatment Mean Cell Residence Time (MCRT / θ_c = (V·X) / (Q_w·X_w + Q_e·X_e)) in days and daily waste sludge volume Q_w in m³/day.",
+    "path": "/tools/mean-cell-residence-time-sludge-age-mcrt-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mcrt calculator",
+      "sludge age formula mean cell residence time online",
+      "activated sludge solids retention time srt calculator",
+      "wastewater treatment waste sludge rate qw calculator",
+      "aeration tank mlss mcrt online"
+    ]
+  },
+  {
+    "name": "Food-to-Microorganism (F/M) Organic Loading Ratio Calculator",
+    "description": "Calculate wastewater aeration tank organic loading Food-to-Microorganism ratio (F/M = (Q · BOD₅) / (V · MLVSS)) in kg BOD₅ / (kg MLVSS · day) for conventional vs extended aeration.",
+    "path": "/tools/food-to-microorganism-f-m-ratio-aeration-tank-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "food to microorganism ratio calculator",
+      "f to m ratio formula q times bod5 over v times mlvss",
+      "aeration tank organic loading rate calculator online",
+      "activated sludge process control f m ratio calculator",
+      "wastewater mlvss f to m online"
+    ]
+  },
+  {
+    "name": "Water Coagulation & Flocculation Camp-Stein Velocity Gradient (G) Calculator",
+    "description": "Calculate water treatment flash mixing and flocculation velocity gradient (G = √(P / (μ·V))) in s⁻¹ and dimensionless Camp number (G·t) from impeller power P and tank volume V.",
+    "path": "/tools/coagulation-flocculation-camp-stein-velocity-gradient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "camp stein velocity gradient calculator",
+      "flocculation velocity gradient g formula sqrt p over mu v",
+      "camp number g times t flocculator calculator online",
+      "water treatment coagulation rapid mix calculator",
+      "water clarification paddle flocculator online"
+    ]
+  },
+  {
+    "name": "Drinking Water Chlorine Disinfection CT Value & Pathogen Log Inactivation Calculator",
+    "description": "Calculate drinking water disinfection Contact Time product (CT = C · T) in mg·min/L and verify EPA pathogen Log Reduction credits (Giardia 3-log 99.9%, Virus 4-log 99.99%, Cryptosporidium).",
+    "path": "/tools/chlorine-disinfection-ct-disinfection-log-kill-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "chlorine ct value calculator",
+      "disinfection contact time ct formula c times t online",
+      "giardia virus log inactivation epa ct calculator",
+      "drinking water chlorine residual ct credit online",
+      "water treatment plant chlorine contact chamber calculator"
+    ]
+  },
+  {
+    "name": "Quarter-Wave Transmission Line Impedance Matching (Z₀ = √(Z_in·Z_L)) Calculator",
+    "description": "Calculate RF transmission line quarter-wavelength impedance matching section characteristic impedance (Z₀ = √(Z_in · Z_L)) and physical microstrip line length (λ/4) in mm.",
+    "path": "/tools/quarter-wave-transformer-impedance-matching-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quarter wave transformer calculator",
+      "impedance matching formula z0 equals sqrt zin times zl",
+      "quarter wavelength microstrip length calculator online",
+      "rf transmission line matching section calculator",
+      "microwave engineering quarter wave transformer online"
+    ]
+  },
+  {
+    "name": "Coplanar Waveguide (CPW) Characteristic Impedance (Z₀) Calculator",
+    "description": "Calculate Coplanar Waveguide (CPW) characteristic impedance Z₀ in Ohms and effective dielectric constant ε_eff from center conductor trace width w, ground slot gap s, and substrate ε_r.",
+    "path": "/tools/coplanar-waveguide-cpw-characteristic-impedance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "coplanar waveguide calculator",
+      "cpw characteristic impedance formula online",
+      "grounded coplanar waveguide gcpw calculator",
+      "conformal mapping complete elliptic integral cpw calculator",
+      "microwave transmission line cpw online"
+    ]
+  },
+  {
+    "name": "Skin Depth & High-Frequency AC Conductor Resistance (R_AC / R_DC) Calculator",
+    "description": "Calculate electromagnetic skin depth (δ = √(ρ / (π·f·μ))) in μm and high-frequency AC copper wire resistance increase ratio (R_AC / R_DC) due to the skin effect.",
+    "path": "/tools/skin-depth-ac-conductor-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "skin depth calculator",
+      "ac resistance skin effect formula delta equals sqrt rho over pi f mu",
+      "high frequency copper wire resistance calculator online",
+      "skin effect depth copper aluminum gold calculator",
+      "rf eddy current skin depth online"
+    ]
+  },
+  {
+    "name": "Smith Chart Complex Reflection Coefficient (Γ), Return Loss & VSWR Calculator",
+    "description": "Calculate RF complex reflection coefficient (Γ = (Z_L - Z₀) / (Z_L + Z₀)), Voltage Standing Wave Ratio (VSWR = (1 + |Γ|) / (1 - |Γ|)), Return Loss (RL in dB), and Mismatch Loss.",
+    "path": "/tools/smith-chart-reflection-coefficient-vswr-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "smith chart calculator",
+      "reflection coefficient gamma formula zl minus z0 over zl plus z0",
+      "vswr return loss mismatch loss calculator online",
+      "rf transmission line reflection coefficient calculator",
+      "microwave vswr to return loss db online"
+    ]
+  },
+  {
+    "name": "RF Filter Minimum Order (Chebyshev & Butterworth n) Calculator",
+    "description": "Calculate RF/microwave low-pass/bandpass filter minimum order n from passband ripple A_p (dB), stopband attenuation A_s (dB), and selectivity cutoff ratio (ω_s / ω_p).",
+    "path": "/tools/microstrip-interdigital-bandpass-filter-order-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rf filter order calculator",
+      "chebyshev filter order formula arccosh online",
+      "butterworth filter order calculator online",
+      "microwave filter attenuation selectivity calculator",
+      "analog active passive filter design calculator"
+    ]
+  },
+  {
+    "name": "Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator",
+    "description": "Calculate Concentrated Solar Power (CSP) parabolic trough optical concentration ratio (C = (W - D) / (π·D)) and useful thermal heat gain rate (Q_u = A_aperture · DNI · η_optical - Heat_Loss) in kW.",
+    "path": "/tools/parabolic-trough-solar-thermal-concentration-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "concentrated solar power calculator",
+      "parabolic trough concentration ratio formula online",
+      "csp thermal heat collection rate calculator",
+      "direct normal irradiance dni parabolic trough online",
+      "solar thermal molten salt power plant calculator"
+    ]
+  },
+  {
+    "name": "Sensible Heat Thermal Energy Storage (Q = m·c_p·ΔT) Mass & Volume Calculator",
+    "description": "Calculate sensible heat thermal energy storage capacity (Q = m · c_p · ΔT) in kWh/MWh and storage medium tank volume for Molten Solar Salt, Water, Concrete, and Thermal Oil.",
+    "path": "/tools/sensible-heat-thermal-energy-storage-mass-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sensible heat storage calculator",
+      "thermal energy storage formula q equals m cp delta t",
+      "molten salt thermal storage mwh calculator online",
+      "hot water thermal buffer tank storage calculator",
+      "csp thermal energy storage tank sizing online"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "NE555 Timer Astable Oscillator & PWM Calculator",
+  "description": "Calculate oscillation frequency (f = 1.44 / ((R₁ + 2·R₂) · C)), high/low pulse times (t_high, t_low), and duty cycle percentage for 555 timer astable square-wave circuits.",
+  "path": "/tools/ne555-timer-astable-oscillator-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "555 timer astable calculator",
+    "ne555 frequency duty cycle calculator",
+    "555 timer pulse generator online",
+    "555 oscillator resistor capacitor calculator",
+    "ne555 square wave formula"
+  ],
+  "order": 397
+}

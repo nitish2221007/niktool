@@ -1,0 +1,15 @@
+{
+  "name": "Convert 31px to REM",
+  "description": "Convert 31 pixels (px) to REM units based on 16px root font size (1.9375rem).",
+  "path": "/tools/convert-31px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 31px to rem",
+    "Convert 31px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

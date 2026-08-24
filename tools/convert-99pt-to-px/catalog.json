@@ -1,0 +1,15 @@
+{
+  "name": "Convert 99pt to PX",
+  "description": "Convert 99 points (pt) to pixels (132.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-99pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 99pt to px",
+    "Convert 99pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

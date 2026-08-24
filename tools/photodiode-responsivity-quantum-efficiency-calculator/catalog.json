@@ -1,0 +1,15 @@
+{
+  "name": "Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator",
+  "description": "Calculate photodetector spectral responsivity (R = (η · q · λ) / (h · c) = η · λ / 1239.8) in Amperes per Watt (A/W) from quantum efficiency percentage (η%) and wavelength.",
+  "path": "/tools/photodiode-responsivity-quantum-efficiency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "photodiode responsivity calculator",
+    "quantum efficiency to responsivity formula",
+    "r eta lambda over 1240 online",
+    "silicon photodetector amps per watt calculator",
+    "optoelectronics quantum efficiency calculator"
+  ],
+  "order": 527
+}

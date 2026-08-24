@@ -1,0 +1,15 @@
+{
+  "name": "Knudsen Number (Kn = λ / L) & Rarefied Gas Continuum Flow Regime Calculator",
+  "description": "Calculate molecular mean free path λ (λ = k_B·T / (√2·π·d²·P)) and Knudsen number (Kn = λ / L) to determine Continuum (Navier-Stokes), Slip Flow, Transitional, or Free Molecular regimes.",
+  "path": "/tools/mesh-knudsen-number-continuum-navier-stokes-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "knudsen number calculator",
+    "rarefied gas continuum flow formula kn equals lambda over l",
+    "molecular mean free path calculator online",
+    "navier stokes validity slip flow dsmc calculator",
+    "hypersonic space re entry knudsen number online"
+  ],
+  "order": 714
+}

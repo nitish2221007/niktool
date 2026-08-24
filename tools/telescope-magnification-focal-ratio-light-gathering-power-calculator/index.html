@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate astronomical telescope visual magnification (M = f_scope / f_eye), optical Focal Ratio (f/N = f_scope / D), Light Gathering Power (LGP relative to 7mm human eye), and exit pupil diameter.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/telescope-magnification-focal-ratio-light-gathering-power-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator | NikTool">
+  <meta property="og:description" content="Calculate astronomical telescope visual magnification (M = f_scope / f_eye), optical Focal Ratio (f/N = f_scope / D), Light Gathering Power (LGP relative to 7mm human eye), and exit pupil diameter.">
+  <meta property="og:url" content="https://niktool.in/tools/telescope-magnification-focal-ratio-light-gathering-power-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/telescope-magnification-focal-ratio-light-gathering-power-calculator/",
+        "description": "Calculate astronomical telescope visual magnification (M = f_scope / f_eye), optical Focal Ratio (f/N = f_scope / D), Light Gathering Power (LGP relative to 7mm human eye), and exit pupil diameter.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the maximum useful magnification for a telescope?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Rule of thumb: maximum useful magnification is approximately $2\times$ the aperture diameter in millimeters ($2\times D_{\text{mm}}$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator</h1>
+      <p>Calculate astronomical telescope visual magnification (M = f_scope / f_eye), optical Focal Ratio (f/N = f_scope / D), Light Gathering Power (LGP relative to 7mm human eye), and exit pupil diameter.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Telescope Aperture D (mm), Telescope Focal Length f_scope (mm) & Eyepiece Focal Length f_eye (mm)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="to-d">Aperture D (mm)</label>
+          <input class="tool-textarea" id="to-d" type="number" step="10" value="203.0" placeholder="203.0 mm (8 inch)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="to-fscope">Focal Scope (mm)</label>
+          <input class="tool-textarea" id="to-fscope" type="number" step="100" value="1000.0" placeholder="1,000 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="to-feye">Eyepiece (mm)</label>
+          <input class="tool-textarea" id="to-feye" type="number" step="5" value="10.0" placeholder="10.0 mm" />
+        </div>
+      </div>
+      <div id="to-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="to-res-mag" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Magnification = 100×</span>
+            <span class="stat-label">Visual Telescopic Magnification (M = f_scope / f_eye)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="to-res-lgp" style="color:var(--green-dark); font-weight:700;">Light Gathering Power = 841× Human Eye | Focal Ratio = f/4.9 | Exit Pupil = 2.03 mm</span>
+            <span class="stat-label">Light Gathering Power (vs 7mm Pupil) & Optical Speed</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator</h2>
+      <ol>
+        <li>Enter telescope objective aperture diameter in millimeters.</li>
+        <li>Enter telescope optical focal length in mm.</li>
+        <li>Enter eyepiece focal length in mm.</li>
+        <li>Inspect magnification power, optical focal ratio ($f/#$), light gathering factor, and exit pupil diameter.</li>
+      </ol>
+
+      <h2>Amateur Astronomy Optical Geometry</h2>
+      <p>Light gathering power scales with the square of aperture ($LGP propto D^2$), allowing large mirrors to reveal faint deep-sky nebulae and galaxies invisible to the human eye.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the maximum useful magnification for a telescope?</summary>
+        <p>Rule of thumb: maximum useful magnification is approximately $2	imes$ the aperture diameter in millimeters ($2	imes D_{	ext{mm}}$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/telescope-magnification-focal-ratio-light-gathering-power-calculator/tool.js"></script>
+</body>
+</html>

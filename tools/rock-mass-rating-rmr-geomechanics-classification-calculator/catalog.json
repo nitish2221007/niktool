@@ -1,0 +1,15 @@
+{
+  "name": "Rock Mass Rating (Bieniawski 1989 RMR Geomechanics Classification) Calculator",
+  "description": "Calculate engineering Rock Mass Rating (RMR = R₁ + R₂ + R₃ + R₄ + R₅ + R₆ from 0 to 100) based on Bieniawski's 6 geomechanics parameters to determine tunnel stand-up time, cohesion, and friction angle.",
+  "path": "/tools/rock-mass-rating-rmr-geomechanics-classification-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rock mass rating calculator",
+    "bieniawski rmr geomechanics classification formula online",
+    "tunnel stand up time rock mass rating calculator",
+    "rock mass cohesion friction angle rmr calculator",
+    "mining civil rock mechanics tunneling engineering online"
+  ],
+  "order": 1309
+}

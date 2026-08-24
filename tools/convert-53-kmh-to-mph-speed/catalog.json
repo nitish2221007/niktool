@@ -1,0 +1,15 @@
+{
+  "name": "Convert 53 KM/H to MPH Speed",
+  "description": "Convert 53 kilometers per hour (km/h) to miles per hour (32.93 mph).",
+  "path": "/tools/convert-53-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 53 kmh to mph speed",
+    "Convert 53 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

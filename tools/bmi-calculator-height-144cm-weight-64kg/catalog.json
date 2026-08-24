@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 144cm, Weight 64kg)",
+  "description": "Calculate Body Mass Index (BMI 30.9) for height 144 cm and weight 64 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-144cm-weight-64kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 144cm weight 64kg",
+    "BMI Calculator (Height 144cm, Weight 64kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

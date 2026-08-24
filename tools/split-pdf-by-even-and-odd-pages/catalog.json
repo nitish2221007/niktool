@@ -1,0 +1,16 @@
+{
+  "name": "Split PDF By Even and Odd Pages",
+  "description": "Split a PDF file into two separate files containing even pages and odd pages.",
+  "path": "/tools/split-pdf-by-even-and-odd-pages/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "split pdf by even and odd pages",
+    "Split PDF By Even and Odd Pages",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Word Length Checker (6 Words)",
+  "description": "Check word length and readability metrics for text with target 6 words count.",
+  "path": "/tools/word-length-checker-6-words-count/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word length checker 6 words count",
+    "Word Length Checker (6 Words)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

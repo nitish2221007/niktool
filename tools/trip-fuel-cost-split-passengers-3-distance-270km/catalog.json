@@ -1,0 +1,15 @@
+{
+  "name": "Trip Fuel Cost Split (3 Passengers, 270 km)",
+  "description": "Calculate per-person fuel cost (₹579/person) for 3 passengers on a 270 km trip.",
+  "path": "/tools/trip-fuel-cost-split-passengers-3-distance-270km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "trip fuel cost split passengers 3 distance 270km",
+    "Trip Fuel Cost Split (3 Passengers, 270 km)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

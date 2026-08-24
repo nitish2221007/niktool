@@ -1,0 +1,15 @@
+{
+  "name": "Battery Charge Time & Charger Current Calculator",
+  "description": "Calculate battery charging time (Hours = (Capacity mAh / Charger mA) / Efficiency) for Li-ion, LiFePO4, NiMH, and Lead-Acid battery banks.",
+  "path": "/tools/battery-charge-time-efficiency-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "battery charge time calculator",
+    "lipo charge duration calculator",
+    "mah to charging hours calculator",
+    "battery charger current formula",
+    "lifepo4 battery charging time online"
+  ],
+  "order": 322
+}

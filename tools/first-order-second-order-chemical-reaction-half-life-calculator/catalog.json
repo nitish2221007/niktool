@@ -1,0 +1,15 @@
+{
+  "name": "Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator",
+  "description": "Calculate chemical reaction half-life (Zero-order t_½ = [A]₀/(2k), 1st-order t_½ = ln(2)/k, 2nd-order t_½ = 1/(k·[A]₀)) and remaining reactant concentration [A]_t over elapsed reaction time t.",
+  "path": "/tools/first-order-second-order-chemical-reaction-half-life-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "reaction half life calculator",
+    "first order second order kinetics half life formula online",
+    "integrated rate law concentration time calculator",
+    "zero order first order second order reaction solver",
+    "chemical kinetics half life calculator online"
+  ],
+  "order": 1013
+}

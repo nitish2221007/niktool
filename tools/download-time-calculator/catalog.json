@@ -1,0 +1,15 @@
+{
+  "name": "Download Time Calculator",
+  "description": "Calculate exact file download and upload times across internet speeds (Mbps, Gbps, 4G, 5G, Fiber) for any file size.",
+  "path": "/tools/download-time-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "download time calculator",
+    "bandwidth time calculator",
+    "file transfer speed calculator",
+    "upload speed time",
+    "how long to download file"
+  ],
+  "order": 67
+}

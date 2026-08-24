@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (33 GB File, 100 Mbps Speed)",
+  "description": "Calculate file transfer download time (~45.0 minutes / 2703s) for 33 GB file at 100 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-33gb-speed-100mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 33gb speed 100mbps",
+    "Data Download Time Calculator (33 GB File, 100 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

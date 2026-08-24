@@ -1,0 +1,15 @@
+{
+  "name": "GCSE Math Quadratic Sequence nth Term (a·n² + b·n + c) Calculator",
+  "description": "Calculate quadratic sequence nth term algebraic formula (T_n = a·n² + b·n + c) from sequence terms using second difference analysis (2a = Second Difference, 3a + b = First Difference, a + b + c = Term 1) for GCSE and Edexcel Maths.",
+  "path": "/tools/gcse-math-quadratic-sequence-nth-term-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "quadratic sequence nth term calculator",
+    "find nth term quadratic sequence formula online",
+    "gcse maths quadratic sequence second difference calculator",
+    "an squared plus bn plus c nth term solver",
+    "edexcel gcse math sequence formula online"
+  ],
+  "order": 901
+}

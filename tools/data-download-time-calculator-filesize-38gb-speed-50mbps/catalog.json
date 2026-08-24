@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (38 GB File, 50 Mbps Speed)",
+  "description": "Calculate file transfer download time (~103.8 minutes / 6226s) for 38 GB file at 50 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-38gb-speed-50mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 38gb speed 50mbps",
+    "Data Download Time Calculator (38 GB File, 50 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=250 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 22.36 m/s) using Bernoulli's equation for ΔP=250 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-250kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 250kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=250 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=260 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 22.80 m/s) using Bernoulli's equation for ΔP=260 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-260kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 260kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=260 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=270 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 23.24 m/s) using Bernoulli's equation for ΔP=270 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-270kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 270kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=270 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=280 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 23.66 m/s) using Bernoulli's equation for ΔP=280 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-280kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 280kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=280 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=290 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 24.08 m/s) using Bernoulli's equation for ΔP=290 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-290kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 290kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=290 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=30 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 7.75 m/s) using Bernoulli's equation for ΔP=30 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-30kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 30kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=30 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=300 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 24.49 m/s) using Bernoulli's equation for ΔP=300 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-300kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 300kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=300 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=310 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 24.90 m/s) using Bernoulli's equation for ΔP=310 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-310kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 310kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=310 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=320 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 25.30 m/s) using Bernoulli's equation for ΔP=320 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-320kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 320kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=320 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=330 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 25.69 m/s) using Bernoulli's equation for ΔP=330 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-330kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 330kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=330 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=340 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 26.08 m/s) using Bernoulli's equation for ΔP=340 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-340kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 340kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=340 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=350 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 26.46 m/s) using Bernoulli's equation for ΔP=350 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-350kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 350kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=350 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=360 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 26.83 m/s) using Bernoulli's equation for ΔP=360 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-360kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 360kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=360 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=370 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 27.20 m/s) using Bernoulli's equation for ΔP=370 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-370kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 370kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=370 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=380 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 27.57 m/s) using Bernoulli's equation for ΔP=380 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-380kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 380kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=380 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=390 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 27.93 m/s) using Bernoulli's equation for ΔP=390 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-390kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 390kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=390 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=40 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 8.94 m/s) using Bernoulli's equation for ΔP=40 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-40kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 40kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=40 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=400 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 28.28 m/s) using Bernoulli's equation for ΔP=400 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-400kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 400kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=400 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=50 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 10.00 m/s) using Bernoulli's equation for ΔP=50 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-50kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 50kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=50 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=60 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 10.95 m/s) using Bernoulli's equation for ΔP=60 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-60kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 60kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=60 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=70 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 11.83 m/s) using Bernoulli's equation for ΔP=70 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-70kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 70kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=70 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=80 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 12.65 m/s) using Bernoulli's equation for ΔP=80 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-80kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 80kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=80 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Bernoulli Fluid Velocity Calculator (ΔP=90 kPa Pressure Drop)",
+    "description": "Calculate fluid flow velocity (v = 13.42 m/s) using Bernoulli's equation for ΔP=90 kPa pressure drop.",
+    "path": "/tools/bernoulli-fluid-velocity-calculator-pdiff-90kpa/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bernoulli fluid velocity calculator pdiff 90kpa",
+      "Bernoulli Fluid Velocity Calculator (ΔP=90 kPa Pressure Drop)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "BMI Calculator (Height 120cm, Weight 40kg)",
+    "description": "Calculate Body Mass Index (BMI 27.8) for height 120 cm and weight 40 kg. 100% free and local.",
+    "path": "/tools/bmi-calculator-height-120cm-weight-40kg/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "bmi calculator height 120cm weight 40kg",
+      "BMI Calculator (Height 120cm, Weight 40kg)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  }
+]

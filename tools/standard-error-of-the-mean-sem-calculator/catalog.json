@@ -1,0 +1,15 @@
+{
+  "name": "Standard Error of the Mean (SEM) Calculator",
+  "description": "Calculate Standard Error of the Mean (SEM = s / √n) and precision margin from sample standard deviation and sample size.",
+  "path": "/tools/standard-error-of-the-mean-sem-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "standard error of the mean calculator",
+    "sem calculator statistics",
+    "standard error formula online",
+    "sample mean precision calculator",
+    "sem vs standard deviation calculator"
+  ],
+  "order": 314
+}

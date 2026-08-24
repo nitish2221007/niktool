@@ -1,0 +1,15 @@
+{
+  "name": "Convert 70 Knots Speed Val to KM/H",
+  "description": "Convert 70 knots speed to kilometers per hour (129.64 km/h).",
+  "path": "/tools/convert-knot-speed-val-70-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 70 to kmh",
+    "Convert 70 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Thermodynamic Cycles (Carnot, Otto & Diesel Thermal Efficiency) Calculator",
+  "description": "Calculate theoretical thermodynamic maximum thermal efficiency (Carnot η = 1 - T_C / T_H, Otto Petrol η = 1 - 1/r^(γ-1), Diesel η = 1 - (1/r^(γ-1)) · [(r_c^γ - 1) / (γ·(r_c - 1))]) for internal combustion engines.",
+  "path": "/tools/thermodynamic-carnot-otto-diesel-cycle-thermal-efficiency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "carnot efficiency calculator",
+    "otto cycle thermal efficiency formula 1 minus 1 over r to gamma minus 1 online",
+    "diesel cycle compression ratio cutoff ratio calculator",
+    "internal combustion engine thermal efficiency calculator",
+    "thermodynamics carnot limit calculator online"
+  ],
+  "order": 973
+}

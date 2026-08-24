@@ -1,0 +1,15 @@
+{
+  "name": "Convert 30px to REM",
+  "description": "Convert 30 pixels (px) to REM units based on 16px root font size (1.8750rem).",
+  "path": "/tools/convert-30px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 30px to rem",
+    "Convert 30px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

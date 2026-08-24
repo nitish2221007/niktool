@@ -1,0 +1,16 @@
+{
+  "name": "Split PDF Into 2 Equal Parts",
+  "description": "Split any PDF document into 2 equal parts or segments instantly in your browser.",
+  "path": "/tools/split-pdf-into-2-equal-parts/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "split pdf into 2 equal parts",
+    "Split PDF Into 2 Equal Parts",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

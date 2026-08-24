@@ -1,0 +1,15 @@
+{
+  "name": "Convert 88 Hours to Seconds",
+  "description": "Convert 88 hours to minutes (5280 min) and seconds (3,16,800 sec).",
+  "path": "/tools/convert-88-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 88 hours to seconds time",
+    "Convert 88 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

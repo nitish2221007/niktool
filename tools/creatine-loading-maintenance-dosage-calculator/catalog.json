@@ -1,0 +1,15 @@
+{
+  "name": "Creatine Monohydrate Dosage & Loading Calculator",
+  "description": "Calculate daily creatine monohydrate loading phase (0.3g/kg for 5-7 days) and maintenance dosage (0.03g to 0.05g/kg or 3-5g/day) based on body mass.",
+  "path": "/tools/creatine-loading-maintenance-dosage-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "creatine dosage calculator",
+    "creatine loading phase calculator",
+    "how much creatine to take daily",
+    "creatine monohydrate grams per kg",
+    "creatine maintenance dose calculator"
+  ],
+  "order": 303
+}

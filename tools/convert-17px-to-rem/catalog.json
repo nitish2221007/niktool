@@ -1,0 +1,15 @@
+{
+  "name": "Convert 17px to REM",
+  "description": "Convert 17 pixels (px) to REM units based on 16px root font size (1.0625rem).",
+  "path": "/tools/convert-17px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 17px to rem",
+    "Convert 17px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

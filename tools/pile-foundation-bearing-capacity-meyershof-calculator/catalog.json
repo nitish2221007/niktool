@@ -1,0 +1,15 @@
+{
+  "name": "Deep Foundation Pile Bearing Capacity (Meyerhof Method Q_u = Q_b + Q_s) Calculator",
+  "description": "Calculate deep foundation driven/bored pile ultimate axial load capacity (Q_u = q_p·A_p + Σ f_s·A_s) in kN and allowable working load (Q_all = Q_u / FS) across Sand and Clay strata.",
+  "path": "/tools/pile-foundation-bearing-capacity-meyershof-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pile bearing capacity calculator",
+    "meyerhof deep foundation formula q equals qb plus qs",
+    "end bearing skin friction pile capacity calculator online",
+    "driven concrete steel pile axial capacity calculator",
+    "geotechnical deep foundation pile sizing online"
+  ],
+  "order": 773
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator",
+  "description": "Calculate nonlinear elastic-plastic true total strain ε (epsilon = σ/E + 0.002 · (σ / σ₀)^n), elastic strain, plastic offset strain, and tangent modulus E_t using the Ramberg-Osgood constitutive model.",
+  "path": "/tools/ramberg-osgood-nonlinear-stress-strain-plasticity-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "ramberg osgood calculator",
+    "nonlinear stress strain curve formula online",
+    "plasticity strain hardening exponent n calculator",
+    "tangent modulus ramberg osgood plastic deformation calculator",
+    "finite element analysis solid mechanics materials science online"
+  ],
+  "order": 1280
+}

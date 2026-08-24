@@ -1,0 +1,15 @@
+{
+  "name": "Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator",
+  "description": "Calculate tubular Plug Flow Reactor (PFR) vessel volume V in m³ (V = F_A0 · ∫ dX / -r_A), space time τ (tau = V / v₀), Damköhler number (Da), and fractional conversion X for chemical reaction engineering.",
+  "path": "/tools/plug-flow-reactor-pfr-volume-space-time-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pfr reactor calculator",
+    "plug flow reactor volume formula space time tau online",
+    "chemical reactor design pfr conversion calculator",
+    "damkohler number space velocity pfr calculator",
+    "chemical engineering reaction kinetics reactor design online"
+  ],
+  "order": 1240
+}

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Shannon information entropy (H(X) = -∑ p_i · log₂ p_i) in bits/shannons, maximum possible entropy (log₂ N), coding efficiency, and redundancy for data compression and machine learning.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/shannon-entropy-information-theory-bit-uncertainty-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator | NikTool">
+  <meta property="og:description" content="Calculate Shannon information entropy (H(X) = -∑ p_i · log₂ p_i) in bits/shannons, maximum possible entropy (log₂ N), coding efficiency, and redundancy for data compression and machine learning.">
+  <meta property="og:url" content="https://niktool.in/tools/shannon-entropy-information-theory-bit-uncertainty-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/shannon-entropy-information-theory-bit-uncertainty-calculator/",
+        "description": "Calculate Shannon information entropy (H(X) = -∑ p_i · log₂ p_i) in bits/shannons, maximum possible entropy (log₂ N), coding efficiency, and redundancy for data compression and machine learning.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What probability distribution maximizes entropy?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The uniform distribution ($p_i = 1/N$) maximizes entropy ($H = log_2 N$), representing maximum unpredictability and total lack of bias."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator</h1>
+      <p>Calculate Shannon information entropy (H(X) = -∑ p_i · log₂ p_i) in bits/shannons, maximum possible entropy (log₂ N), coding efficiency, and redundancy for data compression and machine learning.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Probability Distribution p₁, p₂, p₃, p₄ (Must sum to 1.0)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(110px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sh-p1">Prob p₁</label>
+          <input class="tool-textarea" id="sh-p1" type="number" step="0.05" min="0" max="1" value="0.50" placeholder="0.50" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-p2">Prob p₂</label>
+          <input class="tool-textarea" id="sh-p2" type="number" step="0.05" min="0" max="1" value="0.25" placeholder="0.25" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-p3">Prob p₃</label>
+          <input class="tool-textarea" id="sh-p3" type="number" step="0.05" min="0" max="1" value="0.125" placeholder="0.125" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-p4">Prob p₄</label>
+          <input class="tool-textarea" id="sh-p4" type="number" step="0.05" min="0" max="1" value="0.125" placeholder="0.125" />
+        </div>
+      </div>
+      <div id="sh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sh-res-h" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Entropy H(X) = 1.750 Bits / Symbol</span>
+            <span class="stat-label">Shannon Information Content (H(X) = -Σ p_i·log₂ p_i)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sh-res-eff" style="color:var(--green-dark); font-weight:700;">Max Entropy H_max = 2.000 Bits (log₂ 4) | Coding Efficiency = 87.5% (Redundancy = 12.5%)</span>
+            <span class="stat-label">Theoretical Compression Bound & Channel Redundancy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator</h2>
+      <ol>
+        <li>Enter discrete event probabilities $p_1, p_2, p_3, p_4$ (e.g. symbol frequencies in text).</li>
+        <li>Inspect Shannon Entropy $H(X)$ in bits per symbol.</li>
+        <li>Inspect maximum theoretical entropy $H_{max} = log_2 N$, source coding efficiency, and compression redundancy.</li>
+      </ol>
+
+      <h2>Claude Shannon 1948 Mathematical Theory of Communication</h2>
+      <p>Shannon entropy measures the fundamental lower bound on lossless data compression; according to Shannon's Source Coding Theorem, no compression algorithm (like ZIP, JPEG, or MP3) can compress a message stream to fewer than $H(X)$ bits per symbol without losing information.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What probability distribution maximizes entropy?</summary>
+        <p>The uniform distribution ($p_i = 1/N$) maximizes entropy ($H = log_2 N$), representing maximum unpredictability and total lack of bias.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/shannon-entropy-information-theory-bit-uncertainty-calculator/tool.js"></script>
+</body>
+</html>

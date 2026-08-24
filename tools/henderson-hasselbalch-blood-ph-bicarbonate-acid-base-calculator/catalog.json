@@ -1,0 +1,15 @@
+{
+  "name": "Henderson-Hasselbalch Blood pH & Arterial Bicarbonate Acid-Base Calculator",
+  "description": "Calculate human arterial blood pH (Henderson-Hasselbalch Equation: pH = 6.10 + log₁₀([HCO₃⁻] / (0.0307 · PaCO₂))), evaluate metabolic vs respiratory acidosis and alkalosis, and calculate expected compensation.",
+  "path": "/tools/henderson-hasselbalch-blood-ph-bicarbonate-acid-base-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "henderson hasselbalch blood ph calculator",
+    "arterial blood gas abg formula online",
+    "bicarbonate hco3 paco2 acid base calculator",
+    "metabolic respiratory acidosis alkalosis calculator",
+    "clinical medicine nephrology intensive care physiology online"
+  ],
+  "order": 1446
+}

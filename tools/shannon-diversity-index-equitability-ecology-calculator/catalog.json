@@ -1,0 +1,15 @@
+{
+  "name": "Shannon-Wiener Diversity Index (H') & Pielou's Evenness (J') Calculator",
+  "description": "Calculate ecological community biodiversity (H' = -Σ p_i · ln(p_i)) and Pielou's equitability species evenness (J' = H' / ln(S)) from individual species abundance counts.",
+  "path": "/tools/shannon-diversity-index-equitability-ecology-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "shannon diversity index calculator",
+    "shannon wiener index formula minus sum pi ln pi online",
+    "pielou evenness j prime calculator online",
+    "ecology biodiversity species richness evenness calculator",
+    "microbiome shannon entropy diversity online"
+  ],
+  "order": 760
+}

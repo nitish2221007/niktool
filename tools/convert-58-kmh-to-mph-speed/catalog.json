@@ -1,0 +1,15 @@
+{
+  "name": "Convert 58 KM/H to MPH Speed",
+  "description": "Convert 58 kilometers per hour (km/h) to miles per hour (36.04 mph).",
+  "path": "/tools/convert-58-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 58 kmh to mph speed",
+    "Convert 58 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

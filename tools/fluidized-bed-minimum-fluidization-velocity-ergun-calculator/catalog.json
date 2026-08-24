@@ -1,0 +1,15 @@
+{
+  "name": "Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator",
+  "description": "Calculate chemical reactor minimum fluidization superficial velocity (u_mf in m/s) from particle diameter d_p, solid particle density ρ_s, fluid density ρ, and bed voidage ε using the Ergun equation.",
+  "path": "/tools/fluidized-bed-minimum-fluidization-velocity-ergun-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "minimum fluidization velocity calculator",
+    "ergun equation fluidization velocity u mf online",
+    "fluidized bed reactor particle density voidage calculator",
+    "wen yu correlation minimum fluidization velocity calculator",
+    "chemical reaction engineering fluidized bed online"
+  ],
+  "order": 1030
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator",
+  "description": "Calculate astronomical telescope visual magnification (M = f_scope / f_eye), optical Focal Ratio (f/N = f_scope / D), Light Gathering Power (LGP relative to 7mm human eye), and exit pupil diameter.",
+  "path": "/tools/telescope-magnification-focal-ratio-light-gathering-power-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "telescope magnification calculator",
+    "telescope focal ratio f number formula online",
+    "light gathering power lgp relative to human eye calculator",
+    "exit pupil eyepiece focal length telescope calculator",
+    "amateur astronomy optics telescope calculator online"
+  ],
+  "order": 1179
+}

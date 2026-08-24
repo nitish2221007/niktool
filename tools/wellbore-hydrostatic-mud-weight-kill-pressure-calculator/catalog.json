@@ -1,0 +1,15 @@
+{
+  "name": "Wellbore Hydrostatic Pressure & Kill Mud Weight (PPG) Calculator",
+  "description": "Calculate drilling wellbore hydrostatic bottomhole pressure (P_hyd = 0.052 · MW · TVD) in psi and kill mud weight required to control gas kicks.",
+  "path": "/tools/wellbore-hydrostatic-mud-weight-kill-pressure-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hydrostatic pressure drilling calculator",
+    "mud weight ppg to psi formula 0.052 mw tvd",
+    "kill mud weight calculator online",
+    "oil drilling well control kick pressure calculator",
+    "petroleum drilling engineering hydrostatic pressure online"
+  ],
+  "order": 668
+}

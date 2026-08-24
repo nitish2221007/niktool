@@ -1,0 +1,15 @@
+{
+  "name": "Convert 110 REM to PX Value",
+  "description": "Convert 110 REM units to pixels (1760 px) based on standard 16px root font.",
+  "path": "/tools/convert-110-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 110 rem to px value",
+    "Convert 110 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

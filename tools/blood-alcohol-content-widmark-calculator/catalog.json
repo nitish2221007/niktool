@@ -1,0 +1,15 @@
+{
+  "name": "Blood Alcohol Content (BAC) Widmark Calculator",
+  "description": "Estimate Blood Alcohol Concentration (BAC %) and hours until sober using the Swedish physician Erik Widmark pharmacokinetic formula.",
+  "path": "/tools/blood-alcohol-content-widmark-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "bac calculator widmark formula",
+    "blood alcohol content calculator",
+    "hours to sober calculator",
+    "standard drinks to bac online",
+    "widmark alcohol elimination rate"
+  ],
+  "order": 268
+}

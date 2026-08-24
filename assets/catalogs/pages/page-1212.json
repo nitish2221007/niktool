@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Hypergeometric Distribution (Sampling Without Replacement) Calculator",
+    "description": "Calculate hypergeometric probability (P(X = k) = C(K, k) · C(N - K, n - k) / C(N, n)) for lottery draws and card games sampled without replacement.",
+    "path": "/tools/hypergeometric-distribution-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "hypergeometric distribution calculator",
+      "sampling without replacement probability",
+      "card deck hypergeometric calculator",
+      "lottery probability formula online",
+      "finite population sampling calculator"
+    ]
+  },
+  {
+    "name": "Exponential Distribution Reliability & MTBF Calculator",
+    "description": "Calculate component survival reliability (R(t) = e^(-λ · t) = e^(-t / MTBF)), cumulative failure probability (F(t) = 1 - e^(-λt)), and failure rate (λ).",
+    "path": "/tools/exponential-distribution-reliability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "exponential distribution calculator",
+      "reliability function r t formula",
+      "mtbf failure rate calculator online",
+      "mean time between failures exponential",
+      "component survival probability calculator"
+    ]
+  },
+  {
+    "name": "Wind Turbine Betz Limit & Aerodynamic Power Calculator",
+    "description": "Calculate theoretical maximum aerodynamic wind power (P_Betz = 16/27 · ½ · ρ · A · v³ = 0.593 · P_wind) and actual generator electrical output in kW.",
+    "path": "/tools/wind-turbine-betz-limit-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "betz limit calculator",
+      "wind turbine power calculator online",
+      "16 over 27 wind power formula",
+      "rotor swept area wind turbine calculator",
+      "wind speed to kw calculator online"
+    ]
+  },
+  {
+    "name": "Hydroelectric Power (Head & Flow) Generator Calculator",
+    "description": "Calculate hydroelectric power generation (P = η · ρ · g · Q · H) in kW and Megawatts (MW) from water head height (H in meters), flow rate (Q in m³/s), and turbine-generator efficiency.",
+    "path": "/tools/hydroelectric-power-head-flow-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydroelectric power calculator",
+      "hydro turbine power formula online",
+      "water head flow rate kw calculator",
+      "hydropower p eta rho g q h calculator",
+      "micro hydro power output online"
+    ]
+  },
+  {
+    "name": "Heat Pump COP & Carnot Efficiency Calculator",
+    "description": "Calculate heating and cooling Coefficient of Performance (COP_heat = T_hot / (T_hot - T_cold)), seasonal efficiency ratio, and running cost savings over electrical resistance heaters.",
+    "path": "/tools/heat-pump-cop-carnot-efficiency-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "heat pump cop calculator",
+      "coefficient of performance heat pump formula",
+      "carnot heat pump efficiency online",
+      "heat pump heating cop vs resistance",
+      "seer to cop heat pump converter"
+    ]
+  },
+  {
+    "name": "Solar PV String Voltage & Cold Temperature Safety Calculator",
+    "description": "Calculate maximum open-circuit voltage (V_oc(max) = V_oc(STC) · (1 + γ_Voc · (T_min - 25))) for solar PV strings under extreme cold winter conditions to prevent inverter overvoltage destruction.",
+    "path": "/tools/solar-panel-string-voltage-temperature-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar string voltage calculator",
+      "solar voc temperature coefficient calculator",
+      "cold weather solar panel voc formula",
+      "inverter max input voltage solar string sizing",
+      "nec 690 7 solar voltage calculator"
+    ]
+  },
+  {
+    "name": "Optimal Solar Panel Tilt Angle & Azimuth Calculator",
+    "description": "Calculate optimum fixed and seasonal solar photovoltaic panel tilt angles (Latitude · 0.9 for year-round, +15° for winter, -15° for summer) based on geographic latitude.",
+    "path": "/tools/solar-pv-tilt-angle-optimal-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar panel tilt angle calculator",
+      "optimum solar angle latitude calculator",
+      "solar panel winter summer tilt formula",
+      "pv array orientation angle online",
+      "solar roof pitch angle calculator"
+    ]
+  },
+  {
+    "name": "Centrifugal Pump Affinity Laws (Speed & Diameter) Calculator",
+    "description": "Calculate changes in centrifugal pump discharge flow rate (Q₂ ∝ N), total head (H₂ ∝ N²), and brake horsepower power (P₂ ∝ N³) when changing pump RPM speed or impeller diameter.",
+    "path": "/tools/pump-affinity-laws-speed-diameter-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pump affinity laws calculator",
+      "centrifugal pump speed scaling formula",
+      "vfd pump power savings calculator",
+      "affinity law flow head power online",
+      "pump impeller trim calculator"
+    ]
+  },
+  {
+    "name": "Net Positive Suction Head Available (NPSHA) Cavitation Calculator",
+    "description": "Calculate pump suction margin (NPSHA = H_atm + H_s - H_f - H_vp) in feet and meters to prevent destructive impeller cavitation pitting.",
+    "path": "/tools/npsh-net-positive-suction-head-cavitation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "npsha calculator",
+      "net positive suction head formula",
+      "pump cavitation safety margin calculator",
+      "npsh available vs required online",
+      "suction pipe head loss cavitation calculator"
+    ]
+  },
+  {
+    "name": "Marine Boat Propeller Pitch, Slip & Speed Calculator",
+    "description": "Calculate actual boat speed (Knots = (Engine RPM / Gear Ratio · Pitch · (1 - Slip)) / 1215.2) and determine propeller slip percentage.",
+    "path": "/tools/marine-propeller-pitch-slip-boat-speed-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "boat propeller speed calculator",
+      "propeller slip calculator marine",
+      "boat mph knots propeller pitch formula",
+      "outboard gear ratio pitch speed calculator",
+      "marine propeller efficiency online"
+    ]
+  },
+  {
+    "name": "Pitot-Static Tube Fluid Velocity & Airspeed Calculator",
+    "description": "Calculate fluid flow speed and aircraft true airspeed (v = √(2 · (P_total - P_static) / ρ)) from stagnation impact pressure differential and fluid density.",
+    "path": "/tools/bernoulli-pitot-tube-fluid-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pitot tube calculator",
+      "pitot static tube airspeed formula",
+      "dynamic pressure to velocity calculator",
+      "bernoulli pitot velocity formula online",
+      "differential pressure flow velocity online"
+    ]
+  },
+  {
+    "name": "Open Channel V-Notch & Rectangular Weir Flow Rate Calculator",
+    "description": "Calculate open channel water discharge rate (Q = 8/15 · C_d · √(2g) · tan(θ/2) · H^(5/2)) for 90° V-notch (Thomson weir) and sharp-crested rectangular weirs.",
+    "path": "/tools/weir-flow-rate-v-notch-rectangular-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "v notch weir flow calculator",
+      "weir discharge formula calculator",
+      "thomson 90 degree weir calculator",
+      "open channel flow rate over weir",
+      "rectangular weir flow calculator online"
+    ]
+  },
+  {
+    "name": "Hydraulic Excavator Hourly Earthmoving Productivity Calculator",
+    "description": "Calculate hourly excavation production rate (Q = (q · k_f · 3600 · E) / (t_c · S_w)) in Bank Cubic Meters (BCM/hr) and Cubic Yards per hour from bucket size and cycle time.",
+    "path": "/tools/excavator-cycle-time-productivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "excavator productivity calculator",
+      "excavator cycle time production formula",
+      "hourly earthmoving volume calculator online",
+      "excavator bucket fill factor swell",
+      "earthwork excavation rate per hour online"
+    ]
+  },
+  {
+    "name": "Dump Truck Fleet Sizing & Match Factor Calculator",
+    "description": "Calculate optimal haul truck fleet count (N_trucks = Total Cycle Time / Loading Time) and Caterpillar Match Factor (MF) to eliminate excavator idle waiting time.",
+    "path": "/tools/dump-truck-haul-cycle-fleet-sizing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dump truck fleet sizing calculator",
+      "match factor earthmoving calculator",
+      "haul truck fleet calculation online",
+      "excavator truck matching formula",
+      "earthmoving haul cycle fleet calculator"
+    ]
+  },
+  {
+    "name": "Soil Swell, Bulking & Shrinkage Factor Calculator",
+    "description": "Convert soil volumes between Bank Cubic Yards (BCY), Loose Cubic Yards (LCY), and Compacted Cubic Yards (CCY) from soil material swell and shrinkage percentages.",
+    "path": "/tools/soil-swell-shrinkage-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "soil swell calculator",
+      "soil shrinkage factor calculator",
+      "bcy to lcy to ccy converter",
+      "earthwork bulking factor online",
+      "cut and fill soil compaction volume calculator"
+    ]
+  },
+  {
+    "name": "Mobile Crane Load Radius & Lift Capacity Safety Calculator",
+    "description": "Calculate mobile crane tipping moment (M_tip = Load · Radius), boom angle (θ = arccos(Radius / Boom Length)), and verify 75% OSHA tipping stability margin.",
+    "path": "/tools/crane-boom-lift-capacity-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "crane load radius calculator",
+      "crane lift capacity chart calculator",
+      "mobile crane tipping load formula",
+      "crane boom angle to radius calculator",
+      "osha 75 percent crane stability online"
+    ]
+  },
+  {
+    "name": "Rankine Retaining Wall Active Earth Pressure Calculator",
+    "description": "Calculate lateral active earth pressure coefficient (K_a = (1 - sin φ) / (1 + sin φ)) and total resultant lateral thrust force (P_a = ½ · K_a · γ · H²) acting on cantilever retaining walls.",
+    "path": "/tools/retaining-wall-active-earth-pressure-rankine-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "retaining wall earth pressure calculator",
+      "rankine active earth pressure formula",
+      "ka 1 minus sin phi over 1 plus sin phi",
+      "lateral earth pressure thrust calculator",
+      "geotechnical retaining wall force online"
+    ]
+  },
+  {
+    "name": "Bond Work Index (Grinding Energy) Calculator",
+    "description": "Calculate specific electrical energy required (W = 10 · W_i · (1 / √P₈₀ - 1 / √F₈₀)) in kWh per metric ton for comminution ball mills and rod mills from Bond Work Index (W_i).",
+    "path": "/tools/bond-work-index-grinding-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bond work index calculator",
+      "ball mill grinding energy formula",
+      "fred c bond comminution equation",
+      "specific energy kwh per ton grinding",
+      "mineral processing grinding calculator online"
+    ]
+  },
+  {
+    "name": "Ball Mill Critical Speed (RPM) & Operating Speed Calculator",
+    "description": "Calculate theoretical ball mill critical speed (N_c = 42.29 / √D) in RPM and recommended operating tumbling speed (typically 70% to 75% of N_c).",
+    "path": "/tools/ball-mill-critical-speed-rpm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ball mill critical speed calculator",
+      "ball mill rpm formula",
+      "nc 42.29 over sqrt d online",
+      "ball mill tumbling cataracting speed calculator",
+      "sag mill critical rotational speed online"
+    ]
+  },
+  {
+    "name": "Froth Flotation Recovery Rate & Concentration Ratio Calculator",
+    "description": "Calculate metallurgical recovery percentage (R = 100 · c · (f - t) / (f · (c - t))) and ratio of concentration (K = (c - t) / (f - t)) from feed (f), concentrate (c), and tailings (t) assays.",
+    "path": "/tools/froth-flotation-recovery-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flotation recovery calculator",
+      "mineral processing recovery formula",
+      "concentration ratio flotation online",
+      "metallurgical recovery percentage calculator",
+      "feed concentrate tailings assay formula"
+    ]
+  },
+  {
+    "name": "Mineral Slurry Specific Gravity & Percent Solids Calculator",
+    "description": "Calculate slurry pulp density (SG_slurry = 100 / (C_w / SG_solids + (100 - C_w) / 1.0)), volume percent solids (C_v), and dry solid tonnage in mineral pipelines.",
+    "path": "/tools/slurry-specific-gravity-solids-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "slurry specific gravity calculator",
+      "pulp density percent solids formula",
+      "slurry weight solids to volume solids",
+      "marcy scale pulp density online",
+      "mineral processing slurry sg calculator"
+    ]
+  },
+  {
+    "name": "Hydrocyclone Classification Cut Size (d₅₀) Calculator",
+    "description": "Estimate hydrocyclone separation cut size (d₅₀) in micrometers from cyclone body diameter (D_c in cm), operating pressure drop (P in kPa), and feed percent solids.",
+    "path": "/tools/hydrocyclone-cut-size-d50-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydrocyclone cut size calculator",
+      "d50 cyclone formula online",
+      "plitt hydrocyclone model calculator",
+      "cyclone classification separation size",
+      "mineral processing hydrocyclone sizing online"
+    ]
+  },
+  {
+    "name": "AISC High-Strength Bolt Shear & Bearing Strength Calculator",
+    "description": "Calculate nominal bolt shear capacity (R_nv = F_nv · A_b) and hole bearing capacity (R_nb = 2.4 · d · t · F_u) for ASTM A325 and A490 structural steel bolts (AISC 360-16).",
+    "path": "/tools/bolt-shear-bearing-capacity-aisc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bolt shear capacity calculator",
+      "aisc bolt shear bearing calculator",
+      "astm a325 a490 bolt strength",
+      "structural bolt double shear formula",
+      "bolt bearing strength 2.4 d t fu online"
+    ]
+  },
+  {
+    "name": "Structural Fillet Weld Throat Size & LRFD Strength Calculator",
+    "description": "Calculate effective throat dimension (t_e = 0.707 · w) and design shear strength (ϕR_n = 0.75 · 0.60 · F_EXX · t_e · L) for E70XX and E80XX fillet welds.",
+    "path": "/tools/fillet-weld-throat-strength-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fillet weld strength calculator",
+      "weld throat size formula",
+      "e70xx fillet weld capacity kips per inch",
+      "aisc fillet weld shear strength calculator",
+      "0.707 weld leg size calculator online"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 19pt to PX",
+  "description": "Convert 19 points (pt) to pixels (25.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-19pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 19pt to px",
+    "Convert 19pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

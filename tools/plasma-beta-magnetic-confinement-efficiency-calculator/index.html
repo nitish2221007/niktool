@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate dimensionless plasma beta (β = (2·μ₀·n·k_B·T) / B²) and evaluate Troyon beta limit (β_N) for economic magnetic fusion power reactor design.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/plasma-beta-magnetic-confinement-efficiency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator | NikTool">
+  <meta property="og:description" content="Calculate dimensionless plasma beta (β = (2·μ₀·n·k_B·T) / B²) and evaluate Troyon beta limit (β_N) for economic magnetic fusion power reactor design.">
+  <meta property="og:url" content="https://niktool.in/tools/plasma-beta-magnetic-confinement-efficiency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/plasma-beta-magnetic-confinement-efficiency-calculator/",
+        "description": "Calculate dimensionless plasma beta (β = (2·μ₀·n·k_B·T) / B²) and evaluate Troyon beta limit (β_N) for economic magnetic fusion power reactor design.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is beta (β) typically only 3% to 5% in conventional tokamaks?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Higher plasma pressure drives ballooning and kink instability modes that push magnetic field lines outwards until the plasma touches the walls."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator</h1>
+      <p>Calculate dimensionless plasma beta (β = (2·μ₀·n·k_B·T) / B²) and evaluate Troyon beta limit (β_N) for economic magnetic fusion power reactor design.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Ion Density n (10²⁰ m⁻³), Total Temp T (keV) & Toroidal Magnetic Field B (Tesla)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="beta-n">Density n (10²⁰ m⁻³)</label>
+          <input class="tool-textarea" id="beta-n" type="number" step="0.1" value="1.0" placeholder="1.0 (10²⁰ m⁻³)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="beta-t">Temp T (keV)</label>
+          <input class="tool-textarea" id="beta-t" type="number" step="1" value="15.0" placeholder="15.0 keV" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="beta-b">Field B (Tesla)</label>
+          <input class="tool-textarea" id="beta-b" type="number" step="0.5" value="5.30" placeholder="5.30 Tesla" />
+        </div>
+      </div>
+      <div id="beta-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="beta-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">β = 4.31% Efficiency</span>
+            <span class="stat-label">Total Plasma Beta (β = p_plasma / p_magnetic)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="beta-res-press" style="font-weight:700;">p_plasma = 480 kPa (4.8 bar) vs Magnetic Pressure p_mag = 11.18 MPa (111.8 bar)</span>
+            <span class="stat-label">Kinetic Plasma Pressure vs Confining Magnetic Field Pressure</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator</h2>
+      <ol>
+        <li>Enter plasma core density n in $10^{20}	ext{ ions/m}^3$.</li>
+        <li>Enter total plasma thermal kinetic temperature T in keV.</li>
+        <li>Enter confining magnetic field B in Tesla.</li>
+        <li>Inspect dimensionless Plasma Beta ($eta = p_{	ext{plasma}} / p_{	ext{mag}}$) and magnetic pressure utilization efficiency.</li>
+      </ol>
+
+      <h2>Magnetic Fusion Economic Efficiency Parameter</h2>
+      <p>Fusion power density scales as $	ext{Power} propto eta^2 B^4$; maximizing plasma beta ($eta$) allows smaller, cheaper superconducting magnets to contain dense fusion plasmas up to the Troyon MHD ballooning pressure limit ($eta_N approx 3.5$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is beta (β) typically only 3% to 5% in conventional tokamaks?</summary>
+        <p>Higher plasma pressure drives ballooning and kink instability modes that push magnetic field lines outwards until the plasma touches the walls.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/plasma-beta-magnetic-confinement-efficiency-calculator/tool.js"></script>
+</body>
+</html>

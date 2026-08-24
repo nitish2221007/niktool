@@ -1,0 +1,15 @@
+{
+  "name": "Convert 19px to REM",
+  "description": "Convert 19 pixels (px) to REM units based on 16px root font size (1.1875rem).",
+  "path": "/tools/convert-19px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 19px to rem",
+    "Convert 19px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

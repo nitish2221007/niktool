@@ -1,0 +1,15 @@
+{
+  "name": "Convert 160 Knots Speed Val to KM/H",
+  "description": "Convert 160 knots speed to kilometers per hour (296.32 km/h).",
+  "path": "/tools/convert-knot-speed-val-160-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 160 to kmh",
+    "Convert 160 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Aircraft Wing Aspect Ratio (AR = b² / S) & Induced Drag (C_Di = C_L² / (π·e·AR)) Calculator",
+  "description": "Calculate aircraft wing Aspect Ratio (AR = b² / S), Oswald wing efficiency factor e, and induced vortex drag coefficient (C_Di = C_L² / (π · e · AR)) for aeronautical wing design.",
+  "path": "/tools/aircraft-wing-aspect-ratio-induced-drag-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wing aspect ratio calculator",
+    "induced drag formula c di equals cl squared over pi e ar online",
+    "oswald efficiency wing aspect ratio calculator",
+    "vortex drag lift induced drag aircraft calculator",
+    "aeronautical wing design aspect ratio online"
+  ],
+  "order": 1115
+}

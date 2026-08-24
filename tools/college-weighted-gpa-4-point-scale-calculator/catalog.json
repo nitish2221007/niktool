@@ -1,0 +1,15 @@
+{
+  "name": "College Weighted & Unweighted GPA (4.0 Scale & Credit Hours) Calculator",
+  "description": "Calculate semester and cumulative college Grade Point Average (GPA = Σ (Grade Points_i · Credit Hours_i) / Σ Credit Hours) on the standard US 4.0 grading scale with Honors / AP 5.0 weighting options.",
+  "path": "/tools/college-weighted-gpa-4-point-scale-calculator/",
+  "category": "Education",
+  "icon": "calculator",
+  "keywords": [
+    "college gpa calculator",
+    "weighted unweighted 4.0 scale gpa formula online",
+    "credit hours semester gpa calculator university",
+    "cumulative gpa dean list honors calculator",
+    "college grade point average converter online"
+  ],
+  "order": 894
+}

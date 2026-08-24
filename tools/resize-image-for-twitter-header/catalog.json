@@ -1,0 +1,15 @@
+{
+  "name": "Resize Image for Twitter Header",
+  "description": "Resize banner photo to 1500x500 pixels for Twitter profile headers.",
+  "path": "/tools/resize-image-for-twitter-header/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image for twitter header",
+    "Resize Image for Twitter Header",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

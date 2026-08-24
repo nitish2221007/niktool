@@ -1,0 +1,15 @@
+{
+  "name": "College GPA 4.0 Scale Calculator",
+  "description": "Calculate semester and cumulative Grade Point Average (GPA) on a 4.0 scale with credit hour weightings and letter grade conversions.",
+  "path": "/tools/grade-point-average-gpa-scale-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "gpa calculator",
+    "college gpa calculator 4.0 scale",
+    "weighted gpa calculator",
+    "calculate semester gpa",
+    "letter grade to gpa converter"
+  ],
+  "order": 134
+}

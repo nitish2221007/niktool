@@ -1,0 +1,15 @@
+{
+  "name": "Bragg's Law X-Ray Diffraction (nλ = 2d·sin θ) & Interplanar Spacing Calculator",
+  "description": "Calculate crystal lattice interplanar spacing d (d = n·λ / (2·sin θ) in Ångströms and nm), diffraction Bragg angle θ, and lattice parameter a from X-ray diffraction (XRD) peak 2θ positions.",
+  "path": "/tools/bragg-law-xray-diffraction-xrd-interplanar-spacing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bragg law calculator",
+    "xray diffraction interplanar spacing formula n lambda equals 2d sin theta online",
+    "xrd 2theta peak to d spacing calculator angstroms",
+    "crystallography lattice spacing bragg diffraction calculator",
+    "materials science crystallography solid state physics online"
+  ],
+  "order": 1260
+}

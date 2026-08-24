@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 144cm, Weight 70kg)",
+  "description": "Calculate Body Mass Index (BMI 33.8) for height 144 cm and weight 70 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-144cm-weight-70kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 144cm weight 70kg",
+    "BMI Calculator (Height 144cm, Weight 70kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 28 Miles to KM",
+  "description": "Convert 28 miles to kilometers (45.06 km). 100% free and local.",
+  "path": "/tools/convert-28-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 28 miles to km",
+    "Convert 28 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

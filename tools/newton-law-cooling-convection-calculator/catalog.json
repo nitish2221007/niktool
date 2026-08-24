@@ -1,0 +1,15 @@
+{
+  "name": "Newton's Law of Cooling & Convective Heat Transfer Calculator",
+  "description": "Calculate convective heat dissipation (q = h · A · (T_s - T_∞)) in Watts from surface temperature T_s, ambient fluid temperature T_∞, and convective heat transfer coefficient h.",
+  "path": "/tools/newton-law-cooling-convection-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "newtons law of cooling calculator",
+    "convective heat transfer calculator",
+    "q h a delta t formula online",
+    "heat transfer coefficient convection calculator",
+    "heatsink convective cooling online"
+  ],
+  "order": 407
+}

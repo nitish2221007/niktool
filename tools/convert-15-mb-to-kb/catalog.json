@@ -1,0 +1,15 @@
+{
+  "name": "Convert 15 MB to KB",
+  "description": "Convert 15 Megabytes (MB) to Kilobytes (15360 KB). 100% free and local.",
+  "path": "/tools/convert-15-mb-to-kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 15 mb to kb",
+    "Convert 15 MB to KB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

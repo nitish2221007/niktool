@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (100 Hz, 3 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 530.52 Ω) for 100 Hz frequency and 3 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-100hz-capacitor-3uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 100hz capacitor 3uf",
+    "Capacitive Reactance Calculator (100 Hz, 3 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

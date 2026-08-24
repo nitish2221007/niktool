@@ -1,0 +1,15 @@
+{
+  "name": "Worm Gear Drive Lead Angle (tan γ = z₁·p_x / (π·d₁)) & Efficiency Calculator",
+  "description": "Calculate worm gear drive lead angle (tan γ = z₁ · p_x / (π · d₁)), self-locking threshold (lead angle less than friction angle φ), and forward mechanical power transmission efficiency (η = tan γ / tan(γ + φ_v)) for machine design.",
+  "path": "/tools/worm-gear-lead-angle-mechanical-efficiency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "worm gear calculator",
+    "worm gear lead angle formula tan gamma online",
+    "self locking worm gear efficiency calculator",
+    "lead angle friction angle worm drive efficiency calculator",
+    "mechanical engineering machine design gear drive online"
+  ],
+  "order": 1131
+}

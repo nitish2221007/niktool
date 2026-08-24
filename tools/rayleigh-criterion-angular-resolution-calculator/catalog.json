@@ -1,0 +1,15 @@
+{
+  "name": "Rayleigh Criterion Optical Angular Resolution Limit Calculator",
+  "description": "Calculate diffraction-limited angular resolution (θ = 1.22 · λ / D) in arcseconds, microradians, and resolvable spot size for telescopes, microscopes, and cameras.",
+  "path": "/tools/rayleigh-criterion-angular-resolution-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rayleigh criterion calculator",
+    "angular resolution formula theta 1.22 lambda over d",
+    "telescope diffraction limit calculator arcseconds",
+    "optical resolving power calculator online",
+    "airy disk radius calculator online"
+  ],
+  "order": 525
+}

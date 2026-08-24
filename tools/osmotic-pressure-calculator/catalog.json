@@ -1,0 +1,15 @@
+{
+  "name": "Van 't Hoff Osmotic Pressure Calculator",
+  "description": "Calculate osmotic pressure (Π = i · M · R · T) across semipermeable membranes in atmospheres, bar, and kPa for biological cells and reverse osmosis.",
+  "path": "/tools/osmotic-pressure-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "osmotic pressure calculator",
+    "van t hoff osmotic pressure",
+    "reverse osmosis pressure calculator",
+    "pi imrt chemistry formula",
+    "cell osmosis calculator"
+  ],
+  "order": 163
+}

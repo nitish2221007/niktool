@@ -1,0 +1,15 @@
+{
+  "name": "Biochemical Oxygen Demand (BOD₅ & Ultimate BOD) Calculator",
+  "description": "Calculate exerted biochemical oxygen demand (BOD_t = BOD_u · (1 - e^(-k · t))) in mg/L, ultimate carbonaceous BOD (BOD_u), and temperature-corrected reaction rate constant k_T.",
+  "path": "/tools/biochemical-oxygen-demand-bod5-kinetics-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bod5 calculator",
+    "biochemical oxygen demand kinetics formula",
+    "ultimate bod bodu calculator",
+    "wastewater bod reaction rate k online",
+    "streeter phelps bod exertion calculator"
+  ],
+  "order": 461
+}

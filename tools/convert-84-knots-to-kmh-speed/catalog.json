@@ -1,0 +1,15 @@
+{
+  "name": "Convert 84 Knots to KM/H Speed",
+  "description": "Convert 84 knots speed to kilometers per hour (155.57 km/h).",
+  "path": "/tools/convert-84-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 84 knots to kmh speed",
+    "Convert 84 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

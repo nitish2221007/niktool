@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 150 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 150 units (V = 4/3 πr³ = 14137166.94).",
+  "path": "/tools/volume-of-sphere-radius-150-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 150 units",
+    "Volume of Sphere (Radius 150 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

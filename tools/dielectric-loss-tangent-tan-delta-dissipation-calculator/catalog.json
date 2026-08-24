@@ -1,0 +1,15 @@
+{
+  "name": "Dielectric Loss Tangent (tan δ) & RF Thermal Power Dissipation Calculator",
+  "description": "Calculate dielectric loss tangent dissipation factor (tan δ = ε'' / ε' = 1 / (ω·R_p·C_p)) and internal volumetric RF dielectric heating power loss (P_loss = ω·C·V²·tan δ) in Watts.",
+  "path": "/tools/dielectric-loss-tangent-tan-delta-dissipation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dielectric loss tangent calculator",
+    "tan delta formula eps double prime over eps prime online",
+    "dissipation factor capacitor power loss calculator",
+    "dielectric heating high frequency dissipation factor calculator",
+    "rf pcb substrate tan delta online"
+  ],
+  "order": 853
+}

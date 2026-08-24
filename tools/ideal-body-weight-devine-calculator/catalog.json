@@ -1,0 +1,15 @@
+{
+  "name": "Ideal Body Weight (IBW) Multi-Formula Calculator",
+  "description": "Compare clinical Ideal Body Weight (IBW) across the Devine (1974), Robinson (1983), Miller (1983), and Hamwi (1964) medical standards.",
+  "path": "/tools/ideal-body-weight-devine-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "ideal body weight calculator",
+    "devine formula ibw calculator",
+    "robinson miller hamwi ibw comparison",
+    "clinical ideal weight calculator online",
+    "ventilator tidal volume ibw formula"
+  ],
+  "order": 260
+}

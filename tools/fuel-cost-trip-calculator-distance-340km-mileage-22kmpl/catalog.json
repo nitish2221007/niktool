@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (340 km Distance, 22 km/l Mileage)",
+  "description": "Calculate fuel needed (15.5 L) and cost (₹1496) for 340 km trip at 22 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-340km-mileage-22kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 340km mileage 22kmpl",
+    "Fuel Cost Trip Calculator (340 km Distance, 22 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

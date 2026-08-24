@@ -1,0 +1,15 @@
+{
+  "name": "Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator",
+  "description": "Calculate hydrodynamic journal bearing dimensionless Sommerfeld Number (S = (r/c)² · (μ·N / P)) and minimum oil film thickness (h₀ = c · (1 - ε)) in μm to prevent bearing seizure.",
+  "path": "/tools/hydrodynamic-journal-bearing-sommerfeld-number-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sommerfeld number calculator",
+    "hydrodynamic journal bearing formula s equals r over c squared mu n over p",
+    "minimum oil film thickness h0 bearing calculator online",
+    "bearing eccentricity ratio sommerfeld calculator",
+    "tribology journal bearing design online"
+  ],
+  "order": 798
+}

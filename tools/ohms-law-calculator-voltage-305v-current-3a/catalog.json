@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 305V, Current 3A)",
+  "description": "Calculate Resistance (101.67 Ω) and Electric Power (915.0 W) for 305V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-305v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 305v current 3a",
+    "Ohm's Law Calculator (Voltage 305V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

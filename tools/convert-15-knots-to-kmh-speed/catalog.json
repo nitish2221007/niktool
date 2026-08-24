@@ -1,0 +1,15 @@
+{
+  "name": "Convert 15 Knots to KM/H Speed",
+  "description": "Convert 15 knots speed to kilometers per hour (27.78 km/h).",
+  "path": "/tools/convert-15-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 15 knots to kmh speed",
+    "Convert 15 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

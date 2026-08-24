@@ -1,0 +1,15 @@
+{
+  "name": "SCS-CN Runoff Curve Number Rainfall-Runoff Depth (Q = (P - 0.2S)² / (P + 0.8S)) Calculator",
+  "description": "Calculate storm event direct runoff depth Q in mm (USDA NRCS / SCS Runoff Curve Number method: Q = (P - 0.2·S)² / (P + 0.8·S)), maximum soil potential retention S = (25400/CN - 254), and initial abstraction I_a.",
+  "path": "/tools/scs-curve-number-runoff-precipitation-depth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "scs curve number calculator",
+    "rainfall runoff depth formula online",
+    "nrcs runoff curve number cn calculator",
+    "initial abstraction potential retention s calculator",
+    "hydrology stormwater management civil engineering online"
+  ],
+  "order": 1341
+}

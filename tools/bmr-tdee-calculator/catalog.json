@@ -1,0 +1,16 @@
+{
+  "name": "BMR and TDEE Calculator",
+  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using the clinically validated Mifflin-St Jeor equation.",
+  "path": "/tools/bmr-tdee-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "bmr calculator",
+    "tdee calculator",
+    "basal metabolic rate",
+    "total daily energy expenditure",
+    "mifflin st jeor calculator",
+    "daily calorie burn calculator"
+  ],
+  "order": 61
+}

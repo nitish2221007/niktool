@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (180 km Distance, 25 km/l Mileage)",
+  "description": "Calculate total fuel required (7.2 L) and estimated cost (₹695) for 180 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-180km-mileage-25kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 180km mileage 25kmpl",
+    "Fuel Cost Calculator (180 km Distance, 25 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

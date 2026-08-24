@@ -1,0 +1,15 @@
+{
+  "name": "Sensible Heat Thermal Energy Storage (Q = m·c_p·ΔT) Mass & Volume Calculator",
+  "description": "Calculate sensible heat thermal energy storage capacity (Q = m · c_p · ΔT) in kWh/MWh and storage medium tank volume for Molten Solar Salt, Water, Concrete, and Thermal Oil.",
+  "path": "/tools/sensible-heat-thermal-energy-storage-mass-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sensible heat storage calculator",
+    "thermal energy storage formula q equals m cp delta t",
+    "molten salt thermal storage mwh calculator online",
+    "hot water thermal buffer tank storage calculator",
+    "csp thermal energy storage tank sizing online"
+  ],
+  "order": 742
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (19 GB File, 250 Mbps Speed)",
+  "description": "Calculate file transfer download time (~10.4 minutes / 623s) for 19 GB file at 250 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-19gb-speed-250mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 19gb speed 250mbps",
+    "Data Download Time Calculator (19 GB File, 250 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

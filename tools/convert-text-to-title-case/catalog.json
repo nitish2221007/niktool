@@ -1,0 +1,15 @@
+{
+  "name": "Convert Text to Title Case",
+  "description": "Capitalize the first letter of every word in text.",
+  "path": "/tools/convert-text-to-title-case/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "convert text to title case",
+    "Convert Text to Title Case",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

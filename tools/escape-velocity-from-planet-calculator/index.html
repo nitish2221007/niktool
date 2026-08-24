@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planetary Escape Velocity & Surface Gravity Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate escape velocity (v_esc = √(2 · G · M / R)) and surface gravitational acceleration (g = G · M / R²) for planets, moons, and black holes.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/escape-velocity-from-planet-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Planetary Escape Velocity & Surface Gravity Calculator | NikTool">
+  <meta property="og:description" content="Calculate escape velocity (v_esc = √(2 · G · M / R)) and surface gravitational acceleration (g = G · M / R²) for planets, moons, and black holes.">
+  <meta property="og:url" content="https://niktool.in/tools/escape-velocity-from-planet-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Planetary Escape Velocity & Surface Gravity Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/escape-velocity-from-planet-calculator/",
+        "description": "Calculate escape velocity (v_esc = √(2 · G · M / R)) and surface gravitational acceleration (g = G · M / R²) for planets, moons, and black holes.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Earth's surface escape velocity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Earth's surface escape velocity is exactly 11.186 km/s (~25,020 mph)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Planetary Escape Velocity & Surface Gravity Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Planetary Escape Velocity & Surface Gravity Calculator</h1>
+      <p>Calculate escape velocity (v_esc = √(2 · G · M / R)) and surface gravitational acceleration (g = G · M / R²) for planets, moons, and black holes.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Celestial Body Mass (kg) & Mean Radius (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="esc-preset">Celestial Body Preset</label>
+          <select class="tool-textarea" id="esc-preset">
+            <option value="5.972e24,6371" selected>Earth (M = 5.97 × 10²⁴ kg, R = 6,371 km)</option>
+            <option value="7.342e22,1737">Moon (M = 7.34 × 10²² kg, R = 1,737 km)</option>
+            <option value="6.417e23,3390">Mars (M = 6.42 × 10²³ kg, R = 3,390 km)</option>
+            <option value="1.898e27,69911">Jupiter (M = 1.90 × 10²⁷ kg, R = 69,911 km)</option>
+            <option value="1.989e30,696340">Sun (M = 1.99 × 10³⁰ kg, R = 696,340 km)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="esc-r">Orbital Radius r (km)</label>
+          <input class="tool-textarea" id="esc-r" type="number" step="any" value="6371" placeholder="6,371 km" />
+        </div>
+      </div>
+      <div id="esc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="esc-res-vesc" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">11.186 km / s</span>
+            <span class="stat-label">Escape Velocity (v_esc = √(2GM/r))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="esc-res-vorb" style="font-weight:700;">7.910 km / s</span>
+            <span class="stat-label">Circular Orbital Speed (v_orb = v_esc / √2)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="esc-res-g">g = 9.82 m/s² (1.00 g)</span>
+            <span class="stat-label">Surface Gravity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Planetary Escape Velocity & Surface Gravity Calculator</h2>
+      <ol>
+        <li>Select celestial body preset (Earth, Moon, Mars, Jupiter, Sun).</li>
+        <li>Adjust radius distance in kilometers.</li>
+        <li>Inspect gravitational escape velocity (km/s), minimum circular orbital velocity, and surface acceleration g.</li>
+      </ol>
+
+      <h2>Zero-Energy Parabolic Trajectory Threshold</h2>
+      <p>Escape velocity represents the minimum initial speed an unpropelled projectile needs to completely break free from a planet's gravitational well to infinity without ever falling back (kinetic energy balances gravitational potential energy: ½mv² = GMm/r).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Earth's surface escape velocity?</summary>
+        <p>Earth's surface escape velocity is exactly 11.186 km/s (~25,020 mph).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/escape-velocity-from-planet-calculator/tool.js"></script>
+</body>
+</html>

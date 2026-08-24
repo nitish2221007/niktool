@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Rocket Engine Characteristic Exhaust Velocity (c*) Combustion Efficiency Calculator",
+    "description": "Calculate rocket combustion chamber performance characteristic velocity (c* = (p_c · A_t) / ṁ = √(γ·R·T_c) / (γ · √[2/(γ+1)]^((γ+1)/(γ-1)))) in m/s and evaluate c* combustion efficiency (η_c*).",
+    "path": "/tools/rocket-combustion-c-star-characteristic-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket c star calculator",
+      "characteristic velocity formula c star equals pc at over m dot online",
+      "rocket combustion efficiency eta c star calculator",
+      "propulsion chamber c star specific heat ratio gamma calculator",
+      "liquid rocket propellant c star online"
+    ]
+  },
+  {
+    "name": "Froude Number (Fn) Ship Wave-Making Resistance & Hull Speed Calculator",
+    "description": "Calculate naval architectural volumetric Froude number (Fn = v / √(g · L_wl)) and displacement hull maximum theoretical displacement hull speed (v_hull = 1.34 · √(L_wl_ft)) in knots.",
+    "path": "/tools/froude-number-ship-wave-making-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "froude number calculator",
+      "ship hull speed formula 1.34 sqrt lwl online",
+      "displacement hull wave making resistance froude calculator",
+      "naval architecture fn speed length ratio calculator",
+      "planing semi displacement froude number online"
+    ]
+  },
+  {
+    "name": "Ship Metacentric Height (GM) & Intact Hydrostatic Stability Calculator",
+    "description": "Calculate ship transverse metacentric height (GM = KB + BM - KG, where BM = I_xx / ∇) in meters and evaluate IMO intact stability righting lever (GZ = GM · sin θ).",
+    "path": "/tools/ship-metacentric-height-gm-intact-stability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "metacentric height calculator",
+      "ship stability gm formula kb plus bm minus kg online",
+      "transverse metacenter bm equals i over volume calculator",
+      "imo intact stability righting moment gz calculator",
+      "naval architecture ship stability online"
+    ]
+  },
+  {
+    "name": "Morison Equation Offshore Cylindrical Pile Wave Force Calculator",
+    "description": "Calculate hydrodynamic inline wave force on offshore oil platform jacket legs and wind turbine monopiles (F = 1/2·C_d·ρ·D·u|u| + C_m·ρ·(π·D²/4)·u̇) in kN/m.",
+    "path": "/tools/morison-equation-wave-force-offshore-pile-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "morison equation calculator",
+      "offshore wave force formula cd cm drag inertia online",
+      "monopile wave load morison equation calculator",
+      "ocean wave water particle velocity force calculator online",
+      "jacket platform offshore hydrodynamics online"
+    ]
+  },
+  {
+    "name": "Savitsky Planing Hull Hydrodynamic Lift & Resistance Calculator",
+    "description": "Calculate high-speed powerboat planing hull hydrodynamic lift coefficient (C_L0 = τ^1.1 · [0.0120·λ^0.5 + 0.0055·(λ^2.5 / C_v²)]) and wetted length λ using the Savitsky method.",
+    "path": "/tools/planing-hull-savitsky-lift-drag-speed-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "savitsky planing hull calculator",
+      "planing boat lift drag formula savitsky method online",
+      "high speed powerboat resistance savitsky calculator",
+      "deadrise angle trim angle planing hull online",
+      "naval architecture planing speed calculator"
+    ]
+  },
+  {
+    "name": "Marine Propeller Advance Coefficient (J), Thrust (K_T) & Open-Water Efficiency Calculator",
+    "description": "Calculate marine ship propeller Advance Coefficient (J = V_a / (n · D)), Thrust Coefficient K_T, Torque Coefficient K_Q, and open-water propulsion efficiency (η₀ = (J / 2π) · (K_T / K_Q)).",
+    "path": "/tools/marine-propeller-advance-coefficient-thrust-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "marine propeller calculator",
+      "advance coefficient formula j equals va over n d online",
+      "propeller thrust coefficient kt kq efficiency calculator",
+      "open water propeller efficiency eta 0 calculator online",
+      "naval architecture ship propulsion online"
+    ]
+  },
+  {
+    "name": "Stribeck Curve Lubrication Regime & Hersey Number (H = μ·N / P) Calculator",
+    "description": "Calculate journal bearing Hersey friction number (H = μ · N / P) in mPa·s·rpm / MPa to identify Boundary Lubrication, Mixed Lubrication, and Hydrodynamic Full-Film regimes.",
+    "path": "/tools/stribeck-curve-lubrication-regime-hersey-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stribeck curve calculator",
+      "hersey number formula h equals mu n over p online",
+      "lubrication regime boundary mixed hydrodynamic calculator",
+      "bearing friction coefficient stribeck curve calculator",
+      "tribology oil film thickness hersey number online"
+    ]
+  },
+  {
+    "name": "Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator",
+    "description": "Calculate hydrodynamic journal bearing dimensionless Sommerfeld Number (S = (r/c)² · (μ·N / P)) and minimum oil film thickness (h₀ = c · (1 - ε)) in μm to prevent bearing seizure.",
+    "path": "/tools/hydrodynamic-journal-bearing-sommerfeld-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sommerfeld number calculator",
+      "hydrodynamic journal bearing formula s equals r over c squared mu n over p",
+      "minimum oil film thickness h0 bearing calculator online",
+      "bearing eccentricity ratio sommerfeld calculator",
+      "tribology journal bearing design online"
+    ]
+  },
+  {
+    "name": "Hertzian Contact Stress (Sphere & Cylinder Elastic Contact) Calculator",
+    "description": "Calculate elastic non-conforming Hertzian contact stress peak pressure (p_max = 3·F / (2π·a²)) in GPa and maximum subsurface shear stress (τ_max = 0.31·p_max at depth z = 0.48·a) in ball and roller bearings.",
+    "path": "/tools/hertzian-contact-stress-cylinder-sphere-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hertzian contact stress calculator",
+      "peak contact pressure formula p max sphere cylinder online",
+      "subsurface shear stress hertzian fatigue calculator",
+      "ball bearing roller contact stress hertz calculator",
+      "tribology elastic contact mechanics online"
+    ]
+  },
+  {
+    "name": "Archard Wear Law Sliding Volume Loss (V = K · W · s / H) Calculator",
+    "description": "Calculate abrasive/adhesive mechanical wear volumetric material loss (V = K · W · s / H) in mm³ and linear wear depth (h = V / A) from normal load W, sliding distance s, and hardness H.",
+    "path": "/tools/archard-wear-law-volume-loss-sliding-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "archard wear law calculator",
+      "adhesive abrasive wear volume formula v equals k w s over h",
+      "sliding wear depth calculator online",
+      "tribology archard wear coefficient k calculator",
+      "pin on disc wear test volume loss online"
+    ]
+  },
+  {
+    "name": "Petroff's Journal Bearing Friction Torque & Heat Power Loss Calculator",
+    "description": "Calculate hydrodynamic concentric journal bearing viscous shear friction torque (T = 2π·μ·ω·r³·L / c) in N·m and thermal heat dissipation loss (P_loss = T · ω) in Watts/kW.",
+    "path": "/tools/petroff-bearing-friction-power-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "petroff equation calculator",
+      "journal bearing friction torque formula 2 pi mu omega r cubed l over c",
+      "bearing power loss heat dissipation calculator online",
+      "concentric journal bearing viscous friction petroff online",
+      "turbomachinery bearing parasitic loss calculator"
+    ]
+  },
+  {
+    "name": "Weibull Modulus Brittle Ceramic Fracture Probability (P_f) Calculator",
+    "description": "Calculate brittle ceramic material fracture failure probability (P_f = 1 - exp[- (σ / σ₀)^m]) and survival reliability from applied tensile stress σ, characteristic strength σ₀, and Weibull modulus m.",
+    "path": "/tools/weibull-modulus-brittle-ceramic-fracture-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "weibull modulus calculator",
+      "ceramic brittle fracture probability formula 1 minus exp minus sigma over sigma 0 power m",
+      "weibull statistics ceramic reliability calculator online",
+      "silicon nitride alumina fracture strength weibull calculator",
+      "structural ceramics weibull distribution online"
+    ]
+  },
+  {
+    "name": "Thermal Shock Resistance Parameters (R & R') Refractory Calculator",
+    "description": "Calculate ceramic refractory thermal shock resistance parameters (R = σ_f·(1 - ν) / (E·α)) in °C and thermal stress fracture resistance (R' = R · k) in W/m.",
+    "path": "/tools/thermal-shock-resistance-parameter-r-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thermal shock resistance calculator",
+      "thermal shock parameter r formula sigma f 1 minus nu over e alpha",
+      "ceramic thermal shock cracking delta t calculator",
+      "refractory thermal stress resistance r prime calculator online",
+      "fused silica alumina thermal shock online"
+    ]
+  },
+  {
+    "name": "Vogel-Fulcher-Tammann (VFT) Glass Viscosity & Working Range Calculator",
+    "description": "Calculate silicate glass dynamic melt viscosity (log₁₀ η = A + B / (T - T₀)) in dPa·s (Poise) across Melting, Working, Softening, Annealing, and Strain reference points.",
+    "path": "/tools/vogel-fulcher-tammann-vft-glass-viscosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "vft glass viscosity calculator",
+      "vogel fulcher tammann equation log10 eta a plus b over t minus t0",
+      "glass softening annealing strain point calculator online",
+      "soda lime glass working temperature viscosity calculator",
+      "glass manufacturing vft viscosity online"
+    ]
+  },
+  {
+    "name": "Pyrometric Cone Equivalent (PCE & Orton/Seger Cones) Temperature Calculator",
+    "description": "Calculate ceramic kiln pyrometric cone heat-work equivalence (PCE to °C / °F) across standard Orton / Seger cones (Cone 022 to Cone 42) for refractory brick firing.",
+    "path": "/tools/pyrometric-cone-equivalent-refractory-temperature-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pyrometric cone calculator",
+      "orton cone temperature chart seger cone calculator online",
+      "pce pyrometric cone equivalent refractory temp online",
+      "ceramic kiln heat work firing cone calculator",
+      "cone 06 cone 6 cone 10 temperature converter online"
+    ]
+  },
+  {
+    "name": "Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator",
+    "description": "Calculate superalloy high-temperature creep rupture lifetime (LMP = T_Kelvin · (log₁₀ t_rupture + C) · 10⁻³) in hours and predict master stress-rupture curves in jet engine turbine blades.",
+    "path": "/tools/larson-miller-parameter-high-temp-creep-rupture-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "larson miller parameter calculator",
+      "creep rupture lifetime formula lmp equals t times log tr plus c online",
+      "superalloy high temperature creep life calculator",
+      "inconel turbine blade creep stress rupture calculator online",
+      "larson miller master curve online"
+    ]
+  },
+  {
+    "name": "J₂ Geopotential Nodal Precession (Ω̇) & Sun-Synchronous Orbit Calculator",
+    "description": "Calculate Earth oblateness J₂ gravitational nodal precession rate (Ω̇ = -3/2 · J₂ · (R_E / p)² · n · cos i) in °/day and solve required retrograde inclination i for Sun-Synchronous Orbits (SSO).",
+    "path": "/tools/j2-nodal-precession-sun-synchronous-orbit-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "j2 nodal precession calculator",
+      "sun synchronous orbit inclination formula j2 online",
+      "earth oblateness j2 orbital precession calculator",
+      "satellite orbital nodal regression rate online",
+      "astrodynamics sun synchronous orbit calculator"
+    ]
+  },
+  {
+    "name": "Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator",
+    "description": "Calculate orbital launch vehicle zero-lift gravity turn steering dynamics (γ̇ = - (g / v) · cos γ + (v / r) · cos γ) and gravity drag delta-V penalty losses.",
+    "path": "/tools/gravity-turn-rocket-launch-pitchover-trajectory-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravity turn calculator",
+      "rocket launch pitchover trajectory formula gamma dot online",
+      "orbital ascent gravity loss delta v calculator",
+      "launch vehicle flight path angle gravity turn online",
+      "rocket trajectory optimization astrodynamics online"
+    ]
+  },
+  {
+    "name": "Patched Conics Hyperbolic Excess Velocity (v_∞) & Trans-Injection Calculator",
+    "description": "Calculate interplanetary hyperbolic excess escape velocity (v_∞ = √(v_inj² - 2·μ / r₀)) in km/s and required Trans-Mars/Venus Injection (TMI/TVI) burn delta-V from Low Earth Orbit.",
+    "path": "/tools/patched-conics-hyperbolic-excess-velocity-v-inf-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hyperbolic excess velocity calculator",
+      "v infinity formula v inj squared minus 2 mu over r0 online",
+      "trans mars injection delta v calculator patched conics",
+      "interplanetary trajectory escape velocity calculator",
+      "astrodynamics hyperbolic departure burn online"
+    ]
+  },
+  {
+    "name": "Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator",
+    "description": "Calculate 3-impulse Bi-Elliptic orbital transfer total delta-V (Δv_total = Δv₁ + Δv₂ + Δv₃) and compare against standard 2-impulse Hohmann transfer for large orbital radius ratios (r_final / r_initial exceeding 11.94).",
+    "path": "/tools/bi-elliptic-transfer-delta-v-hohmann-comparison-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bi elliptic transfer calculator",
+      "hohmann vs bi elliptic transfer delta v formula online",
+      "three burn bi elliptic orbital maneuver calculator",
+      "astrodynamics orbital transfer efficiency calculator",
+      "satellite orbit raising delta v online"
+    ]
+  },
+  {
+    "name": "Lagrange Points (L₁, L₂ Distance) & Gravitational Hill Sphere Radius Calculator",
+    "description": "Calculate three-body gravitational Lagrange collinear equilibrium points (L₁, L₂ distance r_L ≈ R · ∛(m₂ / 3·m₁)) in km and gravitational Hill Sphere stability radius.",
+    "path": "/tools/lagrange-point-l1-l2-location-hill-sphere-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lagrange point calculator",
+      "l1 l2 distance formula r cube root m2 over 3 m1 online",
+      "hill sphere radius calculator online",
+      "james webb space telescope l2 halo orbit calculator",
+      "three body gravitational equilibrium lagrange online"
+    ]
+  },
+  {
+    "name": "Schrödinger 1D Particle in a Box (Infinite Potential Well E_n) Calculator",
+    "description": "Calculate quantum mechanical energy eigenlevels (E_n = n²·π²·ℏ² / (2·m·L²)) in eV/Joules and photon transition emission wavelength (λ = h·c / ΔE) in nm for electrons in quantum wells.",
+    "path": "/tools/schrodinger-infinite-potential-well-energy-levels-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "particle in a box calculator",
+      "schrodinger infinite square well energy formula e_n online",
+      "quantum well energy levels electron volt calculator",
+      "quantum mechanics 1d potential well calculator online",
+      "planck de broglie quantum energy levels online"
+    ]
+  },
+  {
+    "name": "Quantum Mechanical Barrier Tunneling Probability (WKB T) Calculator",
+    "description": "Calculate quantum mechanical barrier tunneling transmission probability (T ≈ exp[-2·a·√(2·m·(V₀ - E)) / ℏ]) for electrons tunneling through rectangular energy barriers in STM microscopes and flash memory.",
+    "path": "/tools/quantum-tunneling-transmission-coefficient-wkb-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quantum tunneling calculator",
+      "wkb transmission coefficient formula t equals exp minus 2 k a online",
+      "electron rectangular barrier tunneling probability calculator",
+      "scanning tunneling microscope stm tunneling current calculator",
+      "quantum barrier transmission coefficient online"
+    ]
+  },
+  {
+    "name": "Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator",
+    "description": "Calculate quantum statistical Fermi-Dirac state occupancy probability (f(E) = 1 / [exp((E - E_F) / (k_B·T)) + 1]) and density of states in metals and semiconductors.",
+    "path": "/tools/fermi-dirac-distribution-occupancy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fermi dirac distribution calculator",
+      "electron occupancy probability formula f of e online",
+      "fermi level ef semiconductor thermal occupancy calculator",
+      "boltzmann approximation vs fermi dirac calculator online",
+      "condensed matter physics fermi energy online"
+    ]
+  }
+]

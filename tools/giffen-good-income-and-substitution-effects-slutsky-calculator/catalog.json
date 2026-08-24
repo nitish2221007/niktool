@@ -1,0 +1,15 @@
+{
+  "name": "Slutsky Equation Income & Substitution Effects (Δx = Δx^s + Δx^m) Calculator",
+  "description": "Decompose total consumer demand response to price changes into the pure Substitution Effect (Δx^s negative) and Income Effect (Δx^m) using the Slutsky Equation to identify Normal, Inferior, and Giffen goods.",
+  "path": "/tools/giffen-good-income-and-substitution-effects-slutsky-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "slutsky equation calculator",
+    "income and substitution effect decomposition formula online",
+    "giffen good inferior good normal good calculator",
+    "hicksian vs slutsky demand substitution effect calculator",
+    "microeconomics consumer choice theory online"
+  ],
+  "order": 1006
+}

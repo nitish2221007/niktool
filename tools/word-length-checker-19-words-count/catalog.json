@@ -1,0 +1,15 @@
+{
+  "name": "Word Length Checker (19 Words)",
+  "description": "Check word length and readability metrics for text with target 19 words count.",
+  "path": "/tools/word-length-checker-19-words-count/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word length checker 19 words count",
+    "Word Length Checker (19 Words)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

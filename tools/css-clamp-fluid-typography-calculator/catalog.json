@@ -1,0 +1,15 @@
+{
+  "name": "CSS clamp() Fluid Typography Calculator",
+  "description": "Calculate responsive fluid CSS clamp(min, val, max) font sizes and spacing that scale smoothly between mobile and desktop viewports.",
+  "path": "/tools/css-clamp-fluid-typography-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "css clamp calculator",
+    "fluid typography calculator",
+    "clamp font size generator",
+    "responsive fluid text css",
+    "css clamp generator online"
+  ],
+  "order": 168
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Gamma Ray Half-Value Layer (HVL) Radiation Shielding Calculator",
+  "description": "Calculate gamma ray and X-ray radiation shielding attenuation (I = I₀ · e^(-μ · x) = I₀ · (1/2)^(x / HVL)) from linear attenuation coefficient μ and shield thickness.",
+  "path": "/tools/gamma-ray-half-value-layer-hvl-shielding-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "half value layer calculator",
+    "radiation shielding hvl formula",
+    "gamma ray lead shielding attenuation calculator",
+    "linear attenuation coefficient mu online",
+    "radiation protection tenth value layer tvl calculator"
+  ],
+  "order": 536
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=250Ω, R2=70Ω)",
+  "description": "Calculate Series Equivalent (320 Ω) and Parallel Equivalent (54.69 Ω) for resistors R1=250Ω and R2=70Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-250ohm-r2-70ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 250ohm r2 70ohm",
+    "Resistor Circuit Calculator (R1=250Ω, R2=70Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

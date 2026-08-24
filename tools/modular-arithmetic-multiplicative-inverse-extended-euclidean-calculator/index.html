@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate modular multiplicative inverse x = a⁻¹ mod m such that (a · x) mod m = 1 using the Extended Euclidean Algorithm (Bézout's identity a·x + m·y = gcd(a,m)) for RSA and number theory.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/modular-arithmetic-multiplicative-inverse-extended-euclidean-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator | NikTool">
+  <meta property="og:description" content="Calculate modular multiplicative inverse x = a⁻¹ mod m such that (a · x) mod m = 1 using the Extended Euclidean Algorithm (Bézout's identity a·x + m·y = gcd(a,m)) for RSA and number theory.">
+  <meta property="og:url" content="https://niktool.in/tools/modular-arithmetic-multiplicative-inverse-extended-euclidean-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/modular-arithmetic-multiplicative-inverse-extended-euclidean-calculator/",
+        "description": "Calculate modular multiplicative inverse x = a⁻¹ mod m such that (a · x) mod m = 1 using the Extended Euclidean Algorithm (Bézout's identity a·x + m·y = gcd(a,m)) for RSA and number theory.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "When does a modular inverse fail to exist?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A modular inverse fails to exist if and only if $gcd(a, m) > 1$ (the numbers share a common factor greater than 1)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator</h1>
+      <p>Calculate modular multiplicative inverse x = a⁻¹ mod m such that (a · x) mod m = 1 using the Extended Euclidean Algorithm (Bézout's identity a·x + m·y = gcd(a,m)) for RSA and number theory.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Integer a & Modulus m (Must be coprime: gcd(a, m) = 1)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mi-a">Integer a</label>
+          <input class="tool-textarea" id="mi-a" type="number" step="1" value="17" placeholder="17 (e.g. RSA e)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mi-m">Modulus m</label>
+          <input class="tool-textarea" id="mi-m" type="number" step="1" value="3120" placeholder="3120 (e.g. φ(n))" />
+        </div>
+      </div>
+      <div id="mi-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mi-res-inv" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Inverse a⁻¹ mod m = 2753</span>
+            <span class="stat-label">Modular Multiplicative Inverse (17 · 2753 ≡ 1 mod 3120)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mi-res-bezout" style="color:var(--green-dark); font-weight:700;">gcd(17, 3120) = 1 | Bézout: 17·(2753) + 3120·(-15) = 1</span>
+            <span class="stat-label">Bézout's Identity & Greatest Common Divisor</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator</h2>
+      <ol>
+        <li>Enter base integer a (e.g. public exponent e = 17 or 65537 in RSA).</li>
+        <li>Enter modulus m (e.g. Euler totient $phi(n)$ or prime p).</li>
+        <li>Inspect unique modular multiplicative inverse $x in [1, m-1]$ satisfying $a cdot x equiv 1 pmod m$ and Bézout coefficient verification.</li>
+      </ol>
+
+      <h2>Euclid of Alexandria & Étienne Bézout Number Theory Standard</h2>
+      <p>Division is undefined in modular arithmetic ($mathbb{Z}/mmathbb{Z}$); multiplying by the modular inverse ($a^{-1} pmod m$) replaces division, forming the mathematical backbone of RSA private key generation ($d equiv e^{-1} pmod{phi(n)}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>When does a modular inverse fail to exist?</summary>
+        <p>A modular inverse fails to exist if and only if $gcd(a, m) > 1$ (the numbers share a common factor greater than 1).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/modular-arithmetic-multiplicative-inverse-extended-euclidean-calculator/tool.js"></script>
+</body>
+</html>

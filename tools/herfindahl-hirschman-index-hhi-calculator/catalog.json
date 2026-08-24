@@ -1,0 +1,15 @@
+{
+  "name": "Herfindahl-Hirschman Index (HHI) Market Concentration Calculator",
+  "description": "Calculate DOJ/FTC antitrust market concentration index (HHI = Σ s_i²) and assess post-merger antitrust regulatory scrutiny thresholds.",
+  "path": "/tools/herfindahl-hirschman-index-hhi-calculator/",
+  "category": "Finance",
+  "icon": "chart",
+  "keywords": [
+    "hhi calculator",
+    "herfindahl hirschman index formula",
+    "market concentration hhi calculator online",
+    "doj ftc antitrust merger hhi calculator",
+    "market share sum of squares online"
+  ],
+  "order": 491
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fusion Energy Gain Factor (Q = P_fusion / P_heating) & Scientific Breakeven Calculator",
+  "description": "Calculate nuclear fusion energy gain factor Q (Q = P_fusion / P_aux_heating), net electrical gain Q_eng, alpha-particle self-heating power fraction f_alpha, and evaluate scientific breakeven (Q = 1), burning plasma (Q ≥ 5), and ignition (Q = ∞).",
+  "path": "/tools/fusion-energy-gain-factor-q-plasma-scientific-breakeven-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fusion energy gain factor calculator",
+    "fusion q factor formula p fusion over p heating online",
+    "scientific breakeven q equals 1 burning plasma calculator",
+    "alpha self heating fraction fusion calculator",
+    "nuclear fusion plasma physics tokamak iter nif online"
+  ],
+  "order": 1409
+}

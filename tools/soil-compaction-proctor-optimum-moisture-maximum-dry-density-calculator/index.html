@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate geotechnical soil dry density (γ_d = γ_wet / (1 + w)) in kN/m³, zero-air-voids theoretical density (γ_zav = G_s·γ_w / (1 + w·G_s)), and field Relative Compaction percentage (RC = γ_d_field / γ_d_max · 100).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/soil-compaction-proctor-optimum-moisture-maximum-dry-density-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator | NikTool">
+  <meta property="og:description" content="Calculate geotechnical soil dry density (γ_d = γ_wet / (1 + w)) in kN/m³, zero-air-voids theoretical density (γ_zav = G_s·γ_w / (1 + w·G_s)), and field Relative Compaction percentage (RC = γ_d_field / γ_d_max · 100).">
+  <meta property="og:url" content="https://niktool.in/tools/soil-compaction-proctor-optimum-moisture-maximum-dry-density-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/soil-compaction-proctor-optimum-moisture-maximum-dry-density-calculator/",
+        "description": "Calculate geotechnical soil dry density (γ_d = γ_wet / (1 + w)) in kN/m³, zero-air-voids theoretical density (γ_zav = G_s·γ_w / (1 + w·G_s)), and field Relative Compaction percentage (RC = γ_d_field / γ_d_max · 100).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Optimum Moisture Content (OMC)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "OMC is the exact water content at which soil reaches its maximum possible dry density for a given compaction energy effort."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator</h1>
+      <p>Calculate geotechnical soil dry density (γ_d = γ_wet / (1 + w)) in kN/m³, zero-air-voids theoretical density (γ_zav = G_s·γ_w / (1 + w·G_s)), and field Relative Compaction percentage (RC = γ_d_field / γ_d_max · 100).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Field Moist Unit Weight γ_wet (kN/m³), Moisture Content w (%), Lab Max γ_d_max (kN/m³) & Specific Gravity G_s</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pr-gwet">Moist γ_wet (kN/m³)</label>
+          <input class="tool-textarea" id="pr-gwet" type="number" step="0.5" value="20.5" placeholder="20.5 kN/m³" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pr-w">Moisture w (%)</label>
+          <input class="tool-textarea" id="pr-w" type="number" step="0.5" value="12.0" placeholder="12.0%" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pr-max">Lab Max γ_d_max</label>
+          <input class="tool-textarea" id="pr-max" type="number" step="0.5" value="19.0" placeholder="19.0 kN/m³ (Standard Proctor)" />
+        </div>
+      </div>
+      <div id="pr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pr-res-gd" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Dry Density γ_d = 18.30 kN / m³</span>
+            <span class="stat-label">Soil Dry Unit Weight (γ_d = γ_wet / (1 + w))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pr-res-rc" style="color:var(--green-dark); font-weight:700;">Relative Compaction RC = 96.3% (PASSES: Exceeds standard 95% specification threshold)</span>
+            <span class="stat-label">Field Relative Compaction Quality Control Assessment</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator</h2>
+      <ol>
+        <li>Enter field wet soil unit weight $gamma_{	ext{wet}}$ in $	ext{kN/m}^3$ (from nuclear gauge or sand cone test).</li>
+        <li>Enter soil water moisture content w (%).</li>
+        <li>Enter laboratory maximum dry density $gamma_{d,max}$ from standard/modified Proctor test.</li>
+        <li>Inspect dry unit weight $gamma_d$ and verify field Relative Compaction percentage compliance ($RC ge 95%$).</li>
+      </ol>
+
+      <h2>Ralph R. Proctor 1933 Earthwork Compaction Standard</h2>
+      <p>Compaction expels air voids from soil, increasing shear strength, reducing hydraulic permeability, and minimizing future post-construction building foundation settlement.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Optimum Moisture Content (OMC)?</summary>
+        <p>OMC is the exact water content at which soil reaches its maximum possible dry density for a given compaction energy effort.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/soil-compaction-proctor-optimum-moisture-maximum-dry-density-calculator/tool.js"></script>
+</body>
+</html>

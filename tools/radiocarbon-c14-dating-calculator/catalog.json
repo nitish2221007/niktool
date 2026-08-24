@@ -1,0 +1,15 @@
+{
+  "name": "Radiocarbon (C-14) Archeological Dating Calculator",
+  "description": "Calculate the archeological age of organic fossils, ancient wood, and artifacts from residual Carbon-14 radioactive isotope percentage.",
+  "path": "/tools/radiocarbon-c14-dating-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "radiocarbon dating calculator",
+    "carbon 14 dating calculator",
+    "archeological fossil age calculator",
+    "half life carbon 14 formula",
+    "radiometric dating online"
+  ],
+  "order": 186
+}

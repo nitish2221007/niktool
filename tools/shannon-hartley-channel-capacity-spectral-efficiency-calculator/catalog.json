@@ -1,0 +1,15 @@
+{
+  "name": "Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator",
+  "description": "Calculate fundamental telecommunications information theory Shannon Channel Capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps and determine theoretical minimum energy per bit Shannon Limit (E_b/N₀ = ln 2 = -1.59 dB).",
+  "path": "/tools/shannon-hartley-channel-capacity-spectral-efficiency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "shannon hartley theorem calculator",
+    "channel capacity formula c equals b log2 1 plus snr online",
+    "spectral efficiency bits per second per hertz calculator",
+    "shannon limit minus 1.59 db calculator online",
+    "telecom 5g 6g wifi channel capacity online"
+  ],
+  "order": 878
+}

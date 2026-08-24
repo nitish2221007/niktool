@@ -1,0 +1,15 @@
+{
+  "name": "Convert 20°C Celsius to Fahrenheit",
+  "description": "Convert 20 degrees Celsius (°C) to Fahrenheit (68.0°F).",
+  "path": "/tools/convert-20-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 20 celsius to fahrenheit",
+    "Convert 20°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

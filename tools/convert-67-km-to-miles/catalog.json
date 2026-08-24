@@ -1,0 +1,15 @@
+{
+  "name": "Convert 67 KM to Miles",
+  "description": "Convert 67 kilometers to miles (41.63 miles). 100% free and local.",
+  "path": "/tools/convert-67-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 67 km to miles",
+    "Convert 67 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

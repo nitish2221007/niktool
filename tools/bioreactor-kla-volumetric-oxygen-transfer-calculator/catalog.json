@@ -1,0 +1,15 @@
+{
+  "name": "Bioreactor Volumetric Oxygen Mass Transfer (k_L·a) & Oxygen Transfer Rate (OTR) Calculator",
+  "description": "Calculate aerobic fermentation bioreactor Oxygen Transfer Rate (OTR = k_L·a · (C* - C_L)) in mmol/(L·h) and estimate volumetric mass transfer coefficient k_L·a (h⁻¹) from gas sparging superficial velocity and impeller power input.",
+  "path": "/tools/bioreactor-kla-volumetric-oxygen-transfer-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "kla calculator",
+    "volumetric oxygen mass transfer coefficient formula kla online",
+    "oxygen transfer rate otr bioreactor calculator",
+    "aerobic fermentation dissolved oxygen kla calculator",
+    "biochemical engineering kla gassing out online"
+  ],
+  "order": 859
+}

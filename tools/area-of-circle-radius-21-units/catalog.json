@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 21 Units)",
+  "description": "Calculate the exact area of a circle with radius 21 units (A = πr² = 1385.44).",
+  "path": "/tools/area-of-circle-radius-21-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 21 units",
+    "Area of Circle (Radius 21 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

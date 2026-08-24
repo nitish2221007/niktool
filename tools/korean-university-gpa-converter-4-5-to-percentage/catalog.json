@@ -1,0 +1,15 @@
+{
+  "name": "Korean University GPA to Percentage Calculator (4.5 학점 ↔ 백분율)",
+  "description": "Convert 4.5 GPA score to 100% percentage grade.",
+  "path": "/tools/korean-university-gpa-converter-4-5-to-percentage/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "korean university gpa converter 4 5 to percentage",
+    "Korean University GPA to Percentage Calculator (4.5 학점 ↔ 백분율)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator",
+  "description": "Calculate interplanetary spacecraft Solar Radiation Pressure photon thrust force F_SRP in μN (F_SRP = (P_sun / c) · A · (1 + R) · cos θ) from solar irradiance (1361 W/m² @ 1 AU), surface reflectivity R, and solar sail acceleration.",
+  "path": "/tools/spacecraft-solar-radiation-pressure-photon-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar radiation pressure calculator",
+    "srp photon force formula solar sail online",
+    "solar photon momentum thrust micronewtons calculator",
+    "spacecraft attitude perturbation solar pressure calculator",
+    "astrodynamics space mission design orbital perturbations online"
+  ],
+  "order": 1423
+}

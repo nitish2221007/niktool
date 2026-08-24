@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate clinical hemodynamic Cardiac Output CO in L/min (Adolf Fick Direct Principle: CO = VO₂ / (CaO₂ - CvO₂) = VO₂ / (13.4 · Hb · (SaO₂ - SvO₂))), Cardiac Index CI in L/min/m², and Stroke Volume.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/cardiac-output-fick-principle-oxygen-consumption-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator | NikTool">
+  <meta property="og:description" content="Calculate clinical hemodynamic Cardiac Output CO in L/min (Adolf Fick Direct Principle: CO = VO₂ / (CaO₂ - CvO₂) = VO₂ / (13.4 · Hb · (SaO₂ - SvO₂))), Cardiac Index CI in L/min/m², and Stroke Volume.">
+  <meta property="og:url" content="https://niktool.in/tools/cardiac-output-fick-principle-oxygen-consumption-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/cardiac-output-fick-principle-oxygen-consumption-calculator/",
+        "description": "Calculate clinical hemodynamic Cardiac Output CO in L/min (Adolf Fick Direct Principle: CO = VO₂ / (CaO₂ - CvO₂) = VO₂ / (13.4 · Hb · (SaO₂ - SvO₂))), Cardiac Index CI in L/min/m², and Stroke Volume.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is low mixed venous oxygen saturation (SvO2 < 60%) alarming?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When cardiac output drops, tissues must extract a higher percentage of oxygen from each milliliter of circulating blood, causing $S_v\text{O}_2$ to drop steeply."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator</h1>
+      <p>Calculate clinical hemodynamic Cardiac Output CO in L/min (Adolf Fick Direct Principle: CO = VO₂ / (CaO₂ - CvO₂) = VO₂ / (13.4 · Hb · (SaO₂ - SvO₂))), Cardiac Index CI in L/min/m², and Stroke Volume.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Oxygen Consumption VO₂ (mL/min), Hemoglobin Hb (g/dL), SaO₂ (e.g. 0.98), SvO₂ (e.g. 0.70) & BSA (m²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="fk-vo2">VO₂ (mL/min)</label>
+          <input class="tool-textarea" id="fk-vo2" type="number" step="10" value="250.0" placeholder="250.0 mL/min (Rest)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fk-hb">Hemoglobin (g/dL)</label>
+          <input class="tool-textarea" id="fk-hb" type="number" step="1" value="14.0" placeholder="14.0 g/dL" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fk-sao2">Arterial SaO₂</label>
+          <input class="tool-textarea" id="fk-sao2" type="number" step="0.01" value="0.98" placeholder="0.98 (98%)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fk-svo2">Mixed Venous SvO₂</label>
+          <input class="tool-textarea" id="fk-svo2" type="number" step="0.02" value="0.70" placeholder="0.70 (70% PAC)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fk-bsa">BSA (m²)</label>
+          <input class="tool-textarea" id="fk-bsa" type="number" step="0.1" value="1.80" placeholder="1.80 m²" />
+        </div>
+      </div>
+      <div id="fk-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="fk-res-co" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Cardiac Output CO = 4.76 L / min (NORMAL FLOW)</span>
+            <span class="stat-label">Direct Fick Principle (CO = VO₂ / (CaO₂ - CvO₂))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="fk-res-ci" style="color:var(--green-dark); font-weight:700;">Cardiac Index CI = 2.64 L/min/m² (Normal: 2.5 - 4.0) | A-V O₂ Diff = 52.5 mL/L</span>
+            <span class="stat-label">Arteriovenous Oxygen Extraction Difference & Hemodynamic Index</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator</h2>
+      <ol>
+        <li>Enter total body oxygen consumption rate $V	ext{O}_2$ in mL/min (typically $125	ext{ mL/min/m}^2$ or $sim 250	ext{ mL/min}$ at rest).</li>
+        <li>Enter blood hemoglobin concentration Hb in g/dL.</li>
+        <li>Enter arterial oxygen saturation $S_a	ext{O}_2$ (e.g. 0.98 for 98%).</li>
+        <li>Enter mixed venous oxygen saturation $S_v	ext{O}_2$ measured from a Swan-Ganz pulmonary artery catheter (e.g. 0.70 for 70%).</li>
+        <li>Enter patient Body Surface Area (BSA) in $	ext{m}^2$.</li>
+        <li>Inspect Cardiac Output in L/min and normalized Cardiac Index in $	ext{L/min/m}^2$.</li>
+      </ol>
+
+      <h2>Adolf Fick 1870 Mass Balance Hemodynamic Standard</h2>
+      <p>The gold-standard reference method for measuring human blood flow and diagnosing cardiogenic shock during right heart catheterization.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is low mixed venous oxygen saturation (SvO2 < 60%) alarming?</summary>
+        <p>When cardiac output drops, tissues must extract a higher percentage of oxygen from each milliliter of circulating blood, causing $S_v	ext{O}_2$ to drop steeply.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/cardiac-output-fick-principle-oxygen-consumption-calculator/tool.js"></script>
+</body>
+</html>

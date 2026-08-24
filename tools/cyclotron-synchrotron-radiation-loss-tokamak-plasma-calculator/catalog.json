@@ -1,0 +1,15 @@
+{
+  "name": "Tokamak Plasma Cyclotron Synchrotron Radiation Loss Calculator",
+  "description": "Calculate magnetized fusion plasma electron cyclotron synchrotron radiation emission frequency f_ce in GHz (f_ce = e·B / (2π·m_e) = 28.0 GHz / Tesla) and magnetic gyro-orbit radiation power density.",
+  "path": "/tools/cyclotron-synchrotron-radiation-loss-tokamak-plasma-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cyclotron radiation calculator",
+    "synchrotron radiation formula plasma online",
+    "electron cyclotron frequency 28 ghz per tesla calculator",
+    "tokamak magnetic field electron gyrofrequency calculator",
+    "plasma physics nuclear fusion electrodynamics online"
+  ],
+  "order": 1392
+}

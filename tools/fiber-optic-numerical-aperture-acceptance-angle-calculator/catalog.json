@@ -1,0 +1,15 @@
+{
+  "name": "Fiber Optic Numerical Aperture (NA) & Acceptance Angle Calculator",
+  "description": "Calculate optical fiber Numerical Aperture (NA = √(n_core² - n_clad²)), critical total internal reflection angle (θ_c), and maximum light coupling acceptance cone half-angle (θ_max).",
+  "path": "/tools/fiber-optic-numerical-aperture-acceptance-angle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "numerical aperture fiber calculator",
+    "fiber optic acceptance angle calculator",
+    "core cladding refractive index calculator",
+    "total internal reflection fiber optic formula",
+    "fiber na online calculator"
+  ],
+  "order": 384
+}

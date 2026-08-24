@@ -1,0 +1,15 @@
+{
+  "name": "McCabe-Thiele Distillation Column (Theoretical Equilibrium Stages & Minimum Reflux R_min) Calculator",
+  "description": "Calculate binary fractional distillation column theoretical equilibrium separation stages, rectifying operating line (ROL), stripping operating line (SOL), feed line q-slope, and minimum reflux ratio R_min.",
+  "path": "/tools/mccabe-thiele-fractional-distillation-stages-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mccabe thiele calculator",
+    "distillation column theoretical stages formula online",
+    "minimum reflux ratio rmin mccabe thiele calculator",
+    "binary distillation equilibrium stages calculator",
+    "chemical engineering separation processes distillation online"
+  ],
+  "order": 1239
+}

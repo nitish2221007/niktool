@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (500 Hz, 42 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 7.58 Ω) for 500 Hz frequency and 42 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-500hz-capacitor-42uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 500hz capacitor 42uf",
+    "Capacitive Reactance Calculator (500 Hz, 42 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 15 Nautical Miles to KM",
+  "description": "Convert 15 nautical miles (NM) to kilometers (27.78 km). 100% free and local.",
+  "path": "/tools/convert-15-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 15 nautical miles to km",
+    "Convert 15 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

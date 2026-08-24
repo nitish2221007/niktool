@@ -1,0 +1,15 @@
+{
+  "name": "Shaft Torque Calculator (90 kW Power, 500 RPM)",
+  "description": "Calculate mechanical shaft torque (T = 1718.87 N·m) for 90 kW power at 500 RPM.",
+  "path": "/tools/shaft-torque-calculator-power-90kw-speed-500rpm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "shaft torque calculator power 90kw speed 500rpm",
+    "Shaft Torque Calculator (90 kW Power, 500 RPM)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

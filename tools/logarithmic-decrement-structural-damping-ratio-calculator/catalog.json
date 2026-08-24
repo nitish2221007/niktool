@@ -1,0 +1,15 @@
+{
+  "name": "Logarithmic Decrement Structural Damping Ratio (δ & ζ) Calculator",
+  "description": "Calculate experimental vibration logarithmic decrement (δ = 1/n · ln(x₀ / x_n)) and viscous modal damping ratio (ζ ≈ δ / 2π) from free decay test amplitude peaks.",
+  "path": "/tools/logarithmic-decrement-structural-damping-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "logarithmic decrement calculator",
+    "damping ratio formula delta equals 1 over n ln x0 over xn",
+    "vibration decay damping ratio zeta calculator online",
+    "free vibration decay structural damping calculator",
+    "experimental modal analysis damping online"
+  ],
+  "order": 728
+}

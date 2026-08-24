@@ -1,0 +1,15 @@
+{
+  "name": "Convert 73 REM to PX Value",
+  "description": "Convert 73 REM units to pixels (1168 px) based on standard 16px root font.",
+  "path": "/tools/convert-73-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 73 rem to px value",
+    "Convert 73 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

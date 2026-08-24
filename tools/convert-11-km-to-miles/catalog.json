@@ -1,0 +1,15 @@
+{
+  "name": "Convert 11 KM to Miles",
+  "description": "Convert 11 kilometers to miles (6.84 miles). 100% free and local.",
+  "path": "/tools/convert-11-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 11 km to miles",
+    "Convert 11 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

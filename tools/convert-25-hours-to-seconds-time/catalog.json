@@ -1,0 +1,15 @@
+{
+  "name": "Convert 25 Hours to Seconds",
+  "description": "Convert 25 hours to minutes (1500 min) and seconds (90,000 sec).",
+  "path": "/tools/convert-25-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 25 hours to seconds time",
+    "Convert 25 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

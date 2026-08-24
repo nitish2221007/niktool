@@ -1,0 +1,15 @@
+{
+  "name": "Convert 101 Miles to KM",
+  "description": "Convert 101 miles to kilometers (162.54 km). 100% free and local.",
+  "path": "/tools/convert-101-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 101 miles to km",
+    "Convert 101 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

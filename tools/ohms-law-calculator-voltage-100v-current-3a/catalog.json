@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 100V, Current 3A)",
+  "description": "Calculate Resistance (33.33 Ω) and Electric Power (300.0 W) for 100V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-100v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 100v current 3a",
+    "Ohm's Law Calculator (Voltage 100V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Cooling Tower Approach, Range & Thermal Effectiveness Calculator",
+    "description": "Calculate evaporative cooling tower thermal effectiveness (η = (T_in - T_out) / (T_in - T_wb) · 100%), Range, Approach, and heat rejection load in kW/Tons.",
+    "path": "/tools/cooling-tower-approach-range-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cooling tower approach calculator",
+      "cooling tower range effectiveness formula online",
+      "wet bulb approach temperature calculator",
+      "evaporative cooling tower efficiency online",
+      "hvac chiller heat rejection calculator"
+    ]
+  },
+  {
+    "name": "Air Duct Friction Loss & Pressure Drop (Darcy-Weisbach) Calculator",
+    "description": "Calculate HVAC air duct friction pressure drop (ΔP = f · (L/D) · (ρ·v²/2)) in Pascals and in. w.g. per 100 ft from airflow velocity and duct diameter.",
+    "path": "/tools/duct-friction-loss-darcy-colebrook-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "air duct friction loss calculator",
+      "darcy weisbach duct pressure drop formula",
+      "hvac duct sizing in wg per 100 ft calculator",
+      "sheet metal air duct friction loss online",
+      "duct velocity pressure drop calculator"
+    ]
+  },
+  {
+    "name": "Friis Transmission Equation Free-Space Link Budget Calculator",
+    "description": "Calculate wireless radio free-space path loss (P_r = P_t + G_t + G_r - FSPL) in dBm and Watts from frequency, antenna gains, and distance.",
+    "path": "/tools/friis-transmission-equation-link-budget-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "friis transmission equation calculator",
+      "free space path loss fspl formula online",
+      "link budget calculator rx power dbm",
+      "wireless path loss friis equation online",
+      "rf communication distance link budget calculator"
+    ]
+  },
+  {
+    "name": "Parabolic Dish Antenna Gain (G = (π·D/λ)²·η) & Beamwidth Calculator",
+    "description": "Calculate parabolic dish antenna gain in dBi (G = (π·D / λ)² · η), half-power 3dB beamwidth (θ_3dB ≈ 70°·λ / D), and effective aperture area in m².",
+    "path": "/tools/antenna-aperture-gain-beamwidth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "parabolic antenna gain calculator",
+      "dish antenna gain formula dbi lambda",
+      "antenna 3db beamwidth theta formula online",
+      "satellite dish gain beamwidth calculator",
+      "rf aperture efficiency antenna calculator"
+    ]
+  },
+  {
+    "name": "Half-Wave Dipole Antenna Length & Radiation Resistance Calculator",
+    "description": "Calculate resonant half-wave dipole wire antenna length (L = 0.475 · c / f) in meters/feet accounting for end effect velocity factor and 73.13 Ω radiation resistance.",
+    "path": "/tools/dipole-antenna-length-radiation-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dipole antenna length calculator",
+      "half wave dipole formula 468 over f mhz",
+      "antenna radiation resistance 73 ohm calculator",
+      "ham radio dipole wire length calculator online",
+      "rf dipole antenna resonance calculator"
+    ]
+  },
+  {
+    "name": "First Fresnel Zone Clearance (r₁ = √(λ·d₁·d₂ / (d₁+d₂))) Calculator",
+    "description": "Calculate RF microwave line-of-sight First Fresnel Zone radius (r₁ = √(λ · d₁ · d₂ / D)) and 60% minimum obstruction clearance to prevent diffraction signal fading.",
+    "path": "/tools/fresnel-zone-clearance-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fresnel zone calculator",
+      "first fresnel zone radius formula r1 online",
+      "60 percent fresnel clearance microwave link calculator",
+      "rf line of sight fresnel obstruction calculator",
+      "wireless link fresnel zone online"
+    ]
+  },
+  {
+    "name": "Urban Cellular Path Loss (Okumura-Hata Model) Calculator",
+    "description": "Calculate 4G/5G mobile cellular empirical propagation path loss in dB (PL = 69.55 + 26.16·log₁₀f - 13.82·log₁₀h_b - a(h_m) + (44.9 - 6.55·log₁₀h_b)·log₁₀d) across urban, suburban, and open rural areas.",
+    "path": "/tools/cellular-path-loss-hata-cost231-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hata okumura path loss calculator",
+      "cellular path loss formula mobile height online",
+      "urban suburban rural cellular coverage calculator",
+      "cost 231 hata path loss online",
+      "telecom rf propagation model calculator"
+    ]
+  },
+  {
+    "name": "Roche Limit Tidal Disruption Radius & Planetary Ring Calculator",
+    "description": "Calculate celestial Roche tidal disruption limit distance (d = R_M · (2 · ρ_M / ρ_m)^(1/3) for rigid bodies and d = 2.44 · R_M · (ρ_M / ρ_m)^(1/3) for fluid moons) to predict moon destruction and planetary ring formation.",
+    "path": "/tools/roche-limit-tidal-disruption-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "roche limit calculator",
+      "tidal disruption radius formula roche limit",
+      "planetary ring formation roche distance calculator",
+      "fluid vs rigid satellite roche limit online",
+      "astrophysics tidal gravity moon breakup calculator"
+    ]
+  },
+  {
+    "name": "Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator",
+    "description": "Calculate non-rotating black hole Schwarzschild event horizon radius (r_s = 2·G·M / c²) and quantum Hawking radiation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)).",
+    "path": "/tools/schwarzschild-black-hole-event-horizon-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "schwarzschild black hole calculator",
+      "event horizon radius formula rs 2gm over c squared",
+      "hawking radiation temperature black hole calculator",
+      "black hole mass to radius online",
+      "astrophysics event horizon calculator"
+    ]
+  },
+  {
+    "name": "Hubble-Lemaître Cosmological Expansion & Redshift (v = H₀·d) Calculator",
+    "description": "Calculate cosmological universe expansion recession velocity (v = H₀ · d) in km/s, cosmological redshift z, and lookback light travel time across megaparsecs.",
+    "path": "/tools/hubble-lemaitre-expansion-redshift-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hubble lemaitre calculator",
+      "hubble law formula v equals h0 d online",
+      "cosmological redshift z recession velocity calculator",
+      "megaparsecs to light years expansion calculator",
+      "astrophysics universe expansion rate online"
+    ]
+  },
+  {
+    "name": "Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator",
+    "description": "Calculate stellar radiant power luminosity (L/L_☉ = (R/R_☉)² · (T/T_☉)⁴) in Solar Luminosities and absolute bolometric magnitude from star radius and effective temperature.",
+    "path": "/tools/stellar-luminosity-stefan-boltzmann-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stellar luminosity calculator",
+      "stefan boltzmann star radius formula l equals 4 pi r2 sigma t4",
+      "absolute bolometric magnitude star luminosity online",
+      "hertzsprung russell star temperature luminosity calculator",
+      "astrophysics stellar radius online"
+    ]
+  },
+  {
+    "name": "Gravitational Wave Strain (Binary Black Hole Inspiral) Calculator",
+    "description": "Calculate LIGO/Virgo gravitational wave metric strain amplitude (h = (4/r) · (G·M_c / c²)^(5/3) · (π·f_gw / c)^(2/3)) and Chirp Mass M_c from binary inspirals.",
+    "path": "/tools/gravitational-wave-strain-binary-inspiral-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravitational wave strain calculator",
+      "chirp mass formula binary merger online",
+      "ligo gravitational wave amplitude h calculator",
+      "binary black hole merger gw frequency calculator",
+      "astrophysics ligo virgo strain online"
+    ]
+  },
+  {
+    "name": "VO₂ Max & Aerobic Running Performance (ACSM Equation) Calculator",
+    "description": "Calculate maximal oxygen uptake VO₂ Max (mL/kg/min = 0.2·Speed + 0.9·Speed·Grade + 3.5) from running treadmill speed and incline grade.",
+    "path": "/tools/vo2-max-treadmill-running-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "vo2 max running calculator",
+      "acsm treadmill metabolic equation vo2 online",
+      "maximal oxygen consumption ml kg min calculator",
+      "aerobic fitness vo2 max rating calculator",
+      "running speed grade vo2 max online"
+    ]
+  },
+  {
+    "name": "Projectile Motion with Quadratic Drag Trajectory Calculator",
+    "description": "Calculate ballistic projectile range, flight time, apex altitude, and impact velocity accounting for atmospheric quadratic air resistance drag (F_drag = 1/2 · ρ · C_d · A · v²).",
+    "path": "/tools/projectile-motion-drag-trajectory-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "projectile motion drag calculator",
+      "ballistics trajectory air resistance formula",
+      "quadratic drag projectile range calculator online",
+      "aerodynamic drag bullet trajectory online",
+      "physics projectile motion with drag calculator"
+    ]
+  },
+  {
+    "name": "Biomechanical Muscle Lever Arm & Joint Tendon Force Calculator",
+    "description": "Calculate human musculoskeletal joint tendon tension forces (F_tendon = (W_load · d_load + W_arm · d_arm) / d_tendon) and joint reaction compression loads.",
+    "path": "/tools/muscle-force-lever-arm-torque-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "muscle tendon force calculator",
+      "biomechanics joint lever arm torque formula",
+      "biceps tendon tension force calculator online",
+      "elbow joint compression reaction force calculator",
+      "human musculoskeletal mechanics calculator"
+    ]
+  },
+  {
+    "name": "Vertical Jump Height & Peak Ground Reaction Force (GRF) Calculator",
+    "description": "Calculate athletic vertical jump height (h = v_takeoff² / 2g) in cm/inches, flight hang time, and peak ground reaction impulse force (GRF = m · (g + a)).",
+    "path": "/tools/jump-height-ground-reaction-force-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "vertical jump calculator",
+      "jump height take off velocity formula v2 over 2g",
+      "ground reaction force vertical jump calculator online",
+      "hang time jump height calculator online",
+      "sports biomechanics force plate jump calculator"
+    ]
+  },
+  {
+    "name": "Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator",
+    "description": "Calculate bicycle rider mechanical power output (P_total = P_aero + P_rolling + P_gravity) in Watts and W/kg from speed, slope grade, and frontal aerodynamic CdA.",
+    "path": "/tools/cycling-power-aerodynamic-drag-climbing-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "cycling power calculator",
+      "cycling watts formula aero rolling gravity online",
+      "cycling w kg climbing power calculator",
+      "cda aerodynamic drag power cycling online",
+      "bicycle speed to power calculator"
+    ]
+  },
+  {
+    "name": "Sound Pressure Level (SPL) Inverse Square Law Distance Calculator",
+    "description": "Calculate acoustic sound pressure level drop over distance (L_p2 = L_p1 - 20 · log₁₀(r₂ / r₁)) in dB SPL, acoustic power in Watts, and safe exposure durations.",
+    "path": "/tools/sound-pressure-level-inverse-square-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound pressure level calculator",
+      "spl inverse square law formula 20 log r2 over r1",
+      "decibel drop with distance calculator online",
+      "audio acoustic distance attenuation calculator",
+      "db spl distance drop calculator"
+    ]
+  },
+  {
+    "name": "Room Reverberation Time (RT60 - Sabine & Eyring Formula) Calculator",
+    "description": "Calculate architectural room acoustic reverberation time (RT60 = 0.161 · V / A) in seconds for concert halls, recording studios, and classrooms.",
+    "path": "/tools/reverberation-time-sabine-eyring-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rt60 reverberation time calculator",
+      "sabine formula rt60 0.161 v over a",
+      "eyring reverberation time calculator online",
+      "room acoustic treatment rt60 calculator",
+      "recording studio acoustics rt60 online"
+    ]
+  },
+  {
+    "name": "Acoustic Doppler Effect Frequency Shift (f' = f₀·(v ± v_o)/(v ∓ v_s)) Calculator",
+    "description": "Calculate acoustic Doppler frequency shift and perceived audio pitch from moving sound sources (sirens, vehicles, trains) and moving listeners.",
+    "path": "/tools/doppler-effect-moving-source-observer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "doppler effect calculator",
+      "acoustic doppler shift formula moving source observer",
+      "siren frequency pitch shift calculator online",
+      "sound speed doppler effect online",
+      "physics wave doppler shift calculator"
+    ]
+  },
+  {
+    "name": "Room Modes & Standing Wave Resonance (Rayleigh Formula) Calculator",
+    "description": "Calculate rectangular acoustic room mode resonant frequencies (f = (c/2) · √((p/L)² + (q/W)² + (r/H)²)) for axial, tangential, and oblique standing wave bass peaks.",
+    "path": "/tools/room-modes-standing-waves-axial-tangential-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "room modes calculator",
+      "standing waves room acoustics formula rayleigh",
+      "axial tangential oblique room modes calculator",
+      "bass standing wave room resonance calculator online",
+      "studio acoustic bass trap calculator"
+    ]
+  },
+  {
+    "name": "Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator",
+    "description": "Calculate perceived human psychoacoustic loudness (Sones = 2^((Phons - 40) / 10)) and equal-loudness Fletcher-Munson / ISO 226 perceived volume scaling.",
+    "path": "/tools/loudness-phon-sone-stevens-power-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "phon to sone calculator",
+      "psychoacoustic loudness formula 2 to power phon minus 40 over 10",
+      "stevens power law sound loudness calculator online",
+      "fletcher munson perceived loudness calculator",
+      "iso 226 equal loudness online"
+    ]
+  },
+  {
+    "name": "Arrhenius Equation Reaction Rate Constant (k = A·e^(-E_a / RT)) Calculator",
+    "description": "Calculate chemical reaction rate constant k (k = A · e^(-E_a / (R·T))) and temperature acceleration from Arrhenius activation energy E_a and pre-exponential factor A.",
+    "path": "/tools/arrhenius-equation-activation-energy-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "arrhenius equation calculator",
+      "reaction rate constant formula k equals a exp minus ea over rt",
+      "activation energy chemical kinetics calculator",
+      "temperature coefficient reaction rate online",
+      "physical chemistry arrhenius kinetics online"
+    ]
+  },
+  {
+    "name": "Michaelis-Menten Enzyme Kinetics & Lineweaver-Burk Calculator",
+    "description": "Calculate enzymatic reaction velocity (v = V_max · [S] / (K_m + [S])), turnover rate k_cat, catalytic efficiency (k_cat / K_m), and Lineweaver-Burk double reciprocal parameters.",
+    "path": "/tools/michaelis-menten-enzyme-kinetics-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "michaelis menten calculator",
+      "enzyme kinetics formula vmax s over km plus s",
+      "lineweaver burk double reciprocal calculator online",
+      "enzyme catalytic efficiency kcat over km calculator",
+      "biochemistry enzyme reaction rate online"
+    ]
+  }
+]

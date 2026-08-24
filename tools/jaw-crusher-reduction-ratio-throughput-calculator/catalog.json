@@ -1,0 +1,15 @@
+{
+  "name": "Jaw & Cone Crusher Reduction Ratio & Throughput (TPH) Calculator",
+  "description": "Calculate primary/secondary mining rock crusher reduction ratio (R_r = F₈₀ / P₈₀) and hourly tonnage capacity from Closed Side Setting (CSS) and gape dimensions.",
+  "path": "/tools/jaw-crusher-reduction-ratio-throughput-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "jaw crusher reduction ratio calculator",
+    "crusher reduction ratio formula f80 over p80",
+    "cone crusher closed side setting css capacity calculator",
+    "mining rock crusher throughput tph online",
+    "quarry aggregate crusher sizing online"
+  ],
+  "order": 663
+}

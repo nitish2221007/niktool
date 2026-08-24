@@ -1,0 +1,15 @@
+{
+  "name": "Convert 2pt to PX",
+  "description": "Convert 2 points (pt) to pixels (2.67 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-2pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 2pt to px",
+    "Convert 2pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

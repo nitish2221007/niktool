@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (200 Hz, 8 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 10.05 Ω) for 200 Hz frequency and 8 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-8mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 200hz inductor 8mh",
+    "Inductive Reactance Calculator (200 Hz, 8 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

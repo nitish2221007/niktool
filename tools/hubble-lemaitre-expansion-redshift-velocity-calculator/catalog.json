@@ -1,0 +1,15 @@
+{
+  "name": "Hubble-Lemaître Cosmological Expansion & Redshift (v = H₀·d) Calculator",
+  "description": "Calculate cosmological universe expansion recession velocity (v = H₀ · d) in km/s, cosmological redshift z, and lookback light travel time across megaparsecs.",
+  "path": "/tools/hubble-lemaitre-expansion-redshift-velocity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hubble lemaitre calculator",
+    "hubble law formula v equals h0 d online",
+    "cosmological redshift z recession velocity calculator",
+    "megaparsecs to light years expansion calculator",
+    "astrophysics universe expansion rate online"
+  ],
+  "order": 632
+}

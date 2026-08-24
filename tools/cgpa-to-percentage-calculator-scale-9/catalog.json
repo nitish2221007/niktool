@@ -1,0 +1,15 @@
+{
+  "name": "CGPA to Percentage Calculator (Scale 9)",
+  "description": "Convert cumulative grade point average (CGPA) on a 9-point scale to exact percentage.",
+  "path": "/tools/cgpa-to-percentage-calculator-scale-9/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cgpa to percentage calculator scale 9",
+    "CGPA to Percentage Calculator (Scale 9)",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

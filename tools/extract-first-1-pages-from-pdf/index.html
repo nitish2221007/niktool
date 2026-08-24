@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Extract First 1 Page From PDF - Free Online Tool | NikTool</title>
+  <meta name="description" content="Extract only the first 1 page of a PDF file into a clean new document. 100% free and private.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/extract-first-1-pages-from-pdf/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Extract First 1 Page From PDF | NikTool">
+  <meta property="og:description" content="Extract only the first 1 page of a PDF file into a clean new document. 100% free and private.">
+  <meta property="og:url" content="https://niktool.in/tools/extract-first-1-pages-from-pdf/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <style>
+    .tool-hero h1 {
+      color: #e53935 !important;
+      font-size: clamp(2.1rem, 5.5vw, 3.4rem) !important;
+      line-height: 1.25 !important;
+      letter-spacing: -0.02em !important;
+      margin-top: 0.85rem !important;
+      margin-bottom: 1rem !important;
+    }
+    .tool-hero p {
+      margin-top: 0.85rem !important;
+      line-height: 1.6 !important;
+      font-size: 1.05rem !important;
+    }
+    .pdf-hero-box {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      border: 2px dashed #b5cdbf;
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(247, 248, 244, 0.6) 0%, rgba(223, 245, 233, 0.3) 100%);
+      transition: all 0.25s ease;
+      cursor: pointer;
+      margin-bottom: 1.5rem;
+    }
+    .pdf-hero-box:hover, .pdf-hero-box.dragover {
+      border-color: var(--green);
+      background: rgba(223, 245, 233, 0.6);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(23, 107, 77, 0.12);
+    }
+    .pdf-hero-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 1rem;
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      background: var(--green);
+      color: white;
+      box-shadow: 0 8px 20px rgba(23, 107, 77, 0.25);
+    }
+    .pdf-hero-icon svg { width: 32px; height: 32px; }
+    .pdf-select-btn {
+      min-height: 52px;
+      padding: 0.8rem 2.2rem;
+      font-size: 1.1rem;
+      border-radius: 14px;
+      background: #e53935;
+      color: white;
+      border: 0;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      box-shadow: 0 8px 24px rgba(229, 57, 53, 0.3);
+      transition: all 0.2s ease;
+    }
+    .pdf-select-btn:hover {
+      background: #d32f2f;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(229, 57, 53, 0.4);
+    }
+    .drop-hint { margin-top: 0.85rem; color: #66736c; font-size: 0.92rem; font-weight: 500; }
+    .pdf-file-details {
+      display: none;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+    .pdf-file-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 1rem;
+    }
+    .pdf-file-title {
+      font-family: "Manrope", sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .pdf-file-badge {
+      background: var(--mint);
+      color: var(--green-dark);
+      padding: 0.25rem 0.65rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+    .pdf-presets-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+    .preset-btn {
+      padding: 0.4rem 0.85rem;
+      border: 1px solid var(--line);
+      border-radius: 99px;
+      background: #fafbf8;
+      color: #48564f;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .preset-btn:hover { border-color: var(--green); color: var(--green-dark); background: var(--mint); }
+    .preset-btn.active { background: var(--green); color: white; border-color: var(--green); }
+    .pages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+      gap: 0.75rem;
+      max-height: 320px;
+      overflow-y: auto;
+      padding: 0.5rem;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fcfdfa;
+    }
+    .page-card {
+      position: relative;
+      border: 2px solid var(--line);
+      border-radius: 12px;
+      padding: 0.85rem 0.5rem;
+      text-align: center;
+      background: white;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .page-card:hover { border-color: var(--green); }
+    .page-card.removed { border-color: #e53935; background: #fdeded; opacity: 0.75; }
+    .page-card.removed::after {
+      content: "REMOVED";
+      position: absolute;
+      top: 4px; right: 4px;
+      background: #e53935; color: white;
+      font-size: 0.6rem; font-weight: 800;
+      padding: 1px 4px; border-radius: 4px;
+    }
+    .page-num { font-family: "Manrope", sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--ink); }
+    .page-card.removed .page-num { color: #b71c1c; text-decoration: line-through; }
+    .page-label { font-size: 0.72rem; color: #728078; }
+    .download-action-bar { margin-top: 1.25rem; display: flex; align-items: center; gap: 0.85rem; }
+    @media (max-width: 600px) {
+      .pdf-file-header { flex-direction: column; align-items: flex-start; }
+      .pages-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3039559152735742" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJB9MSVTRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HJB9MSVTRN');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Extract First 1 Page From PDF",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/extract-first-1-pages-from-pdf/",
+        "description": "Extract only the first 1 page of a PDF file into a clean new document. 100% free and private.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://niktool.in/" },
+          { "@type": "ListItem", "position": 2, "name": "PDF", "item": "https://niktool.in/#tools" },
+          { "@type": "ListItem", "position": 3, "name": "Extract First 1 Page From PDF", "item": "https://niktool.in/tools/extract-first-1-pages-from-pdf/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I use Extract First 1 Page From PDF?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Select or drag your PDF file into the upload dropzone, review the page selection, and click Process & Download PDF to save your file." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my PDF uploaded to a server?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No, 100% of PDF processing takes place locally inside your web browser using WebAssembly. Your files never touch an external server." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Extract First 1 Page From PDF free?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, NikTool PDF utilities are 100% free with no file size limits, subscription, or account creation." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links">
+        <a class="home-link" href="/">Home</a>
+        <a href="/#tools">All tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <a href="/#tools">PDF</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Extract First 1 Page From PDF</span>
+    </div>
+
+    <section class="tool-hero">
+      <h1>Extract First 1 Page From PDF</h1>
+      <p>Extract only the first 1 page of a PDF file into a clean new document. 100% free and private.</p>
+    </section>
+
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>PDF Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed 100% locally in browser</span>
+      </div>
+
+      <div class="pdf-hero-box" id="pdf-dropzone">
+        <div class="pdf-hero-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="12" y1="18" x2="12" y2="12"></line>
+            <polyline points="9 15 12 12 15 15"></polyline>
+          </svg>
+        </div>
+        <button class="pdf-select-btn" type="button" id="btn-select-pdf">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          Select PDF file
+        </button>
+        <div class="drop-hint">or drop PDF file here</div>
+        <input type="file" id="pdf-file-input" accept="application/pdf" style="display:none;">
+      </div>
+
+      <div class="pdf-file-details" id="pdf-details-panel">
+        <div class="pdf-file-header">
+          <div class="pdf-file-title" id="pdf-file-name">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e53935" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            document.pdf
+          </div>
+          <div class="pdf-file-badge" id="pdf-file-info">10 Pages | 1.2 MB</div>
+        </div>
+
+        <div style="font-size:0.88rem; font-weight:700; color:#3b4841; margin-bottom:0.5rem;">Page Selection:</div>
+        
+        <div class="pdf-presets-bar">
+          <button type="button" class="preset-btn active" id="preset-default">Default Operation</button>
+          <button type="button" class="preset-btn" id="preset-clear">Clear Selection</button>
+        </div>
+
+        <div class="pages-grid" id="pages-container"></div>
+
+        <div class="download-action-bar">
+          <button class="button" id="btn-process-download" type="button" style="min-height:48px; padding:0.8rem 1.6rem; font-size:1rem;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Process &amp; Download PDF
+          </button>
+          <button class="button secondary" id="btn-reset-file" type="button">Select Another File</button>
+        </div>
+      </div>
+
+      <p class="message" id="extract-first-1-pages-from-pdf-message" role="status">Ready. Select a PDF file above to get started.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Extract First 1 Page From PDF</h2>
+      <ol>
+        <li>Click <strong>Select PDF file</strong> or drop your document into the upload dropzone.</li>
+        <li>Review auto-selected pages in the interactive page grid. Click cards to adjust selection.</li>
+        <li>Click <strong>Process &amp; Download PDF</strong> to save your clean document instantly.</li>
+      </ol>
+
+      <h2>100% Private Client-Side PDF Engine</h2>
+      <p>NikTool processes your PDF entirely within your web browser using WebAssembly technology. Your files never touch an external server, guaranteeing total privacy for personal, legal, or financial documents.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How do I use Extract First 1 Page From PDF?</summary>
+        <p>Select or drag your PDF file into the upload dropzone, review the page selection, and click Process &amp; Download PDF to save your file.</p>
+      </details>
+      <details>
+        <summary>Is my PDF uploaded to a server?</summary>
+        <p>No, 100% of PDF processing takes place locally inside your web browser using WebAssembly. Your files never touch an external server.</p>
+      </details>
+      <details>
+        <summary>Is Extract First 1 Page From PDF free?</summary>
+        <p>Yes, NikTool PDF utilities are 100% free with no file size limits, subscription, or account creation.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/extract-first-1-pages-from-pdf/tool.js"></script>
+</body>
+</html>

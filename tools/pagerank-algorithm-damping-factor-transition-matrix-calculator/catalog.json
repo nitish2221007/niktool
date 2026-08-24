@@ -1,0 +1,15 @@
+{
+  "name": "Google PageRank Algorithm (PR(p_i) = (1 - d)/N + d·∑ PR(p_j)/L(p_j)) Calculator",
+  "description": "Calculate Google PageRank web link stationary Markov transition probability (PR(p_i) = (1 - d)/N + d · ∑ PR(p_j) / L(p_j)) with random surfer damping factor d (standard d = 0.85).",
+  "path": "/tools/pagerank-algorithm-damping-factor-transition-matrix-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "pagerank calculator",
+    "google pagerank formula damping factor online",
+    "random surfer markov chain pagerank calculator",
+    "web link authority pagerank calculation",
+    "computer science algorithms graph theory search engines online"
+  ],
+  "order": 1225
+}

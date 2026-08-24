@@ -1,0 +1,15 @@
+{
+  "name": "Convert 69 Knots Speed Val to KM/H",
+  "description": "Convert 69 knots speed to kilometers per hour (127.79 km/h).",
+  "path": "/tools/convert-knot-speed-val-69-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 69 to kmh",
+    "Convert 69 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

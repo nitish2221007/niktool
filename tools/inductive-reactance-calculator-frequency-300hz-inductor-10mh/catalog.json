@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (300 Hz, 10 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 18.85 Ω) for 300 Hz frequency and 10 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-300hz-inductor-10mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 300hz inductor 10mh",
+    "Inductive Reactance Calculator (300 Hz, 10 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

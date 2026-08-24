@@ -1,0 +1,15 @@
+{
+  "name": "Convert 161 Knots Speed Val to KM/H",
+  "description": "Convert 161 knots speed to kilometers per hour (298.17 km/h).",
+  "path": "/tools/convert-knot-speed-val-161-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 161 to kmh",
+    "Convert 161 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

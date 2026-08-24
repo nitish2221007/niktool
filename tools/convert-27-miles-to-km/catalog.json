@@ -1,0 +1,15 @@
+{
+  "name": "Convert 27 Miles to KM",
+  "description": "Convert 27 miles to kilometers (43.45 km). 100% free and local.",
+  "path": "/tools/convert-27-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 27 miles to km",
+    "Convert 27 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

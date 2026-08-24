@@ -1,0 +1,15 @@
+{
+  "name": "Convert PDF First Page to PNG",
+  "description": "Extract and convert the first page of a PDF file to high-resolution PNG image.",
+  "path": "/tools/pdf-first-page-to-png/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "pdf first page to png",
+    "Convert PDF First Page to PNG",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

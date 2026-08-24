@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (35 GB File, 250 Mbps Speed)",
+  "description": "Calculate file transfer download time (~19.1 minutes / 1147s) for 35 GB file at 250 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-35gb-speed-250mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 35gb speed 250mbps",
+    "Data Download Time Calculator (35 GB File, 250 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

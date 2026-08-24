@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 41 x Height 30)",
+  "description": "Calculate volume of a cylinder with radius 41 and height 30 (V = πr²h = 158430.52).",
+  "path": "/tools/volume-of-cylinder-radius-41-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 41 height 30 units",
+    "Volume of Cylinder (Radius 41 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Rankine Lateral Earth Pressure (K_a = tan²(45° - φ/2) & K_p = tan²(45° + φ/2)) Calculator",
+  "description": "Calculate Rankine active earth pressure coefficient K_a (K_a = (1 - sin φ) / (1 + sin φ)), passive earth pressure coefficient K_p (K_p = (1 + sin φ) / (1 - sin φ)), and total lateral thrust on vertical retaining walls.",
+  "path": "/tools/rankine-active-passive-earth-pressure-coefficient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rankine earth pressure calculator",
+    "active earth pressure coefficient formula ka online",
+    "passive earth pressure coefficient kp rankine calculator",
+    "retaining wall lateral earth thrust calculator",
+    "geotechnical engineering civil retaining walls soil mechanics online"
+  ],
+  "order": 1288
+}

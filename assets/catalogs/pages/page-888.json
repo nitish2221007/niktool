@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 2A)",
+    "description": "Calculate Resistance (172.50 Ω) and Electric Power (690.0 W) for 345V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 2a",
+      "Ohm's Law Calculator (Voltage 345V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 3A)",
+    "description": "Calculate Resistance (115.00 Ω) and Electric Power (1035.0 W) for 345V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 3a",
+      "Ohm's Law Calculator (Voltage 345V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 4A)",
+    "description": "Calculate Resistance (86.25 Ω) and Electric Power (1380.0 W) for 345V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 4a",
+      "Ohm's Law Calculator (Voltage 345V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 5A)",
+    "description": "Calculate Resistance (69.00 Ω) and Electric Power (1725.0 W) for 345V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 5a",
+      "Ohm's Law Calculator (Voltage 345V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 6A)",
+    "description": "Calculate Resistance (57.50 Ω) and Electric Power (2070.0 W) for 345V voltage and 6A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-6a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 6a",
+      "Ohm's Law Calculator (Voltage 345V, Current 6A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 7A)",
+    "description": "Calculate Resistance (49.29 Ω) and Electric Power (2415.0 W) for 345V voltage and 7A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-7a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 7a",
+      "Ohm's Law Calculator (Voltage 345V, Current 7A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 8A)",
+    "description": "Calculate Resistance (43.13 Ω) and Electric Power (2760.0 W) for 345V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 8a",
+      "Ohm's Law Calculator (Voltage 345V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 345V, Current 9A)",
+    "description": "Calculate Resistance (38.33 Ω) and Electric Power (3105.0 W) for 345V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-345v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 345v current 9a",
+      "Ohm's Law Calculator (Voltage 345V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 10A)",
+    "description": "Calculate Resistance (35.00 Ω) and Electric Power (3500.0 W) for 350V voltage and 10A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-10a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 10a",
+      "Ohm's Law Calculator (Voltage 350V, Current 10A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 1A)",
+    "description": "Calculate Resistance (350.00 Ω) and Electric Power (350.0 W) for 350V voltage and 1A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-1a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 1a",
+      "Ohm's Law Calculator (Voltage 350V, Current 1A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 2A)",
+    "description": "Calculate Resistance (175.00 Ω) and Electric Power (700.0 W) for 350V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 2a",
+      "Ohm's Law Calculator (Voltage 350V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 3A)",
+    "description": "Calculate Resistance (116.67 Ω) and Electric Power (1050.0 W) for 350V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 3a",
+      "Ohm's Law Calculator (Voltage 350V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 4A)",
+    "description": "Calculate Resistance (87.50 Ω) and Electric Power (1400.0 W) for 350V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 4a",
+      "Ohm's Law Calculator (Voltage 350V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 5A)",
+    "description": "Calculate Resistance (70.00 Ω) and Electric Power (1750.0 W) for 350V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 5a",
+      "Ohm's Law Calculator (Voltage 350V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 6A)",
+    "description": "Calculate Resistance (58.33 Ω) and Electric Power (2100.0 W) for 350V voltage and 6A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-6a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 6a",
+      "Ohm's Law Calculator (Voltage 350V, Current 6A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 7A)",
+    "description": "Calculate Resistance (50.00 Ω) and Electric Power (2450.0 W) for 350V voltage and 7A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-7a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 7a",
+      "Ohm's Law Calculator (Voltage 350V, Current 7A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 8A)",
+    "description": "Calculate Resistance (43.75 Ω) and Electric Power (2800.0 W) for 350V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 8a",
+      "Ohm's Law Calculator (Voltage 350V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 350V, Current 9A)",
+    "description": "Calculate Resistance (38.89 Ω) and Electric Power (3150.0 W) for 350V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-350v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 350v current 9a",
+      "Ohm's Law Calculator (Voltage 350V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 355V, Current 10A)",
+    "description": "Calculate Resistance (35.50 Ω) and Electric Power (3550.0 W) for 355V voltage and 10A current.",
+    "path": "/tools/ohms-law-calculator-voltage-355v-current-10a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 355v current 10a",
+      "Ohm's Law Calculator (Voltage 355V, Current 10A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 355V, Current 1A)",
+    "description": "Calculate Resistance (355.00 Ω) and Electric Power (355.0 W) for 355V voltage and 1A current.",
+    "path": "/tools/ohms-law-calculator-voltage-355v-current-1a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 355v current 1a",
+      "Ohm's Law Calculator (Voltage 355V, Current 1A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 355V, Current 2A)",
+    "description": "Calculate Resistance (177.50 Ω) and Electric Power (710.0 W) for 355V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-355v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 355v current 2a",
+      "Ohm's Law Calculator (Voltage 355V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 355V, Current 3A)",
+    "description": "Calculate Resistance (118.33 Ω) and Electric Power (1065.0 W) for 355V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-355v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 355v current 3a",
+      "Ohm's Law Calculator (Voltage 355V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 355V, Current 4A)",
+    "description": "Calculate Resistance (88.75 Ω) and Electric Power (1420.0 W) for 355V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-355v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 355v current 4a",
+      "Ohm's Law Calculator (Voltage 355V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 355V, Current 5A)",
+    "description": "Calculate Resistance (71.00 Ω) and Electric Power (1775.0 W) for 355V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-355v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 355v current 5a",
+      "Ohm's Law Calculator (Voltage 355V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Simply Supported Beam Bending Moment Calculator (Span 23m, Load 30kN/m)",
+  "description": "Calculate maximum bending moment (Mmax = 1983.75 kN·m) for simply supported beam of 23m span under 30 kN/m load.",
+  "path": "/tools/simple-beam-bending-moment-calculator-span-23m-load-30knm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "simple beam bending moment calculator span 23m load 30knm",
+    "Simply Supported Beam Bending Moment Calculator (Span 23m, Load 30kN/m)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

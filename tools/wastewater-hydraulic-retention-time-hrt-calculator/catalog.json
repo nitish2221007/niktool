@@ -1,0 +1,15 @@
+{
+  "name": "Wastewater Hydraulic Retention Time (HRT) Calculator",
+  "description": "Calculate liquid hydraulic retention / detention time (HRT = V / Q) in hours and minutes for wastewater treatment basins, contact tanks, and digesters.",
+  "path": "/tools/wastewater-hydraulic-retention-time-hrt-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hydraulic retention time calculator",
+    "hrt formula wastewater",
+    "detention time v over q calculator",
+    "aeration basin retention time hours online",
+    "hydraulic residence time calculator"
+  ],
+  "order": 464
+}

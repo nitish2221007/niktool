@@ -1,0 +1,15 @@
+{
+  "name": "Add Suffix to Each Line of Text",
+  "description": "Append custom suffix or string to the end of every text line.",
+  "path": "/tools/add-suffix-to-each-line-of-text/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "add suffix to each line of text",
+    "Add Suffix to Each Line of Text",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

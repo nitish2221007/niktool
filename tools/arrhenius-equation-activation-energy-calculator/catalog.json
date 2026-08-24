@@ -1,0 +1,15 @@
+{
+  "name": "Arrhenius Equation & Activation Energy (Eₐ) Calculator",
+  "description": "Calculate reaction rate constants (k = A · e^(-Eₐ / (R·T))) and determine chemical activation energy Eₐ from two temperatures (T₁, T₂) and rates (k₁, k₂).",
+  "path": "/tools/arrhenius-equation-activation-energy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "arrhenius equation calculator",
+    "activation energy ea calculator",
+    "reaction rate temperature dependence",
+    "arrhenius formula k a exp",
+    "two temperature activation energy online"
+  ],
+  "order": 337
+}

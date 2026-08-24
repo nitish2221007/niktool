@@ -1,0 +1,15 @@
+{
+  "name": "Bloch Sphere Qubit State Coordinates (|ψ⟩) Calculator",
+  "description": "Calculate quantum qubit state vector (|ψ⟩ = cos(θ/2)|0⟩ + e^(i·ϕ)·sin(θ/2)|1⟩) probabilities and 3D Bloch sphere Cartesian coordinates (x, y, z).",
+  "path": "/tools/bloch-sphere-qubit-state-coordinates-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bloch sphere calculator",
+    "qubit state vector formula theta phi",
+    "bloch sphere cartesian coordinates x y z calculator",
+    "quantum superposition probability 0 1 online",
+    "quantum computing bloch sphere online"
+  ],
+  "order": 594
+}

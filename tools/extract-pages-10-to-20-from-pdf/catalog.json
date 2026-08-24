@@ -1,0 +1,16 @@
+{
+  "name": "Extract Pages 10 to 20 From PDF",
+  "description": "Extract pages 10 through 20 from any PDF file into a new PDF document.",
+  "path": "/tools/extract-pages-10-to-20-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "extract pages 10 to 20 from pdf",
+    "Extract Pages 10 to 20 From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate wind-driven ocean surface Ekman layer depth (D_E = π · √(2 · A_z / |f|)) in meters and net mass transport volume deflected 90° by Coriolis force.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ekman-spiral-transport-depth-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator | NikTool">
+  <meta property="og:description" content="Calculate wind-driven ocean surface Ekman layer depth (D_E = π · √(2 · A_z / |f|)) in meters and net mass transport volume deflected 90° by Coriolis force.">
+  <meta property="og:url" content="https://niktool.in/tools/ekman-spiral-transport-depth-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ekman-spiral-transport-depth-calculator/",
+        "description": "Calculate wind-driven ocean surface Ekman layer depth (D_E = π · √(2 · A_z / |f|)) in meters and net mass transport volume deflected 90° by Coriolis force.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How does Ekman transport cause coastal upwelling?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When equatorward winds blow along western continental coasts, Ekman transport drives surface water 90° offshore, pulling nutrient-rich cold deep water to the surface."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator</h1>
+      <p>Calculate wind-driven ocean surface Ekman layer depth (D_E = π · √(2 · A_z / |f|)) in meters and net mass transport volume deflected 90° by Coriolis force.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Latitude (° N / S), Vertical Eddy Viscosity A_z (m²/s) & Wind Stress τ (N/m²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ek-lat">Latitude (°)</label>
+          <input class="tool-textarea" id="ek-lat" type="number" step="any" value="35.0" placeholder="35.0° (California Upwelling)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ek-az">Eddy Viscosity A_z (m²/s)</label>
+          <input class="tool-textarea" id="ek-az" type="number" step="any" value="0.05" placeholder="0.05 m²/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ek-tau">Wind Stress τ (N/m²)</label>
+          <input class="tool-textarea" id="ek-tau" type="number" step="any" value="0.10" placeholder="0.10 N/m² (~10 m/s Wind)" />
+        </div>
+      </div>
+      <div id="ek-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ek-res-de" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">108.6 m Depth</span>
+            <span class="stat-label">Ekman Layer Boundary Depth (D_E)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ek-res-trans" style="font-weight:700;">Transport: 1,196 kg/m·s (Deflected 90° Right of Wind)</span>
+            <span class="stat-label">Net Depth-Integrated Ekman Volume Transport (M_E)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator</h2>
+      <ol>
+        <li>Enter ocean latitude in degrees (positive for Northern hemisphere, negative for Southern).</li>
+        <li>Enter turbulent vertical eddy viscosity A_z in m²/s.</li>
+        <li>Enter surface wind friction stress tau in N/m².</li>
+        <li>Inspect depth of the Ekman layer D_E and net integrated volume transport deflected 90° to the right or left of prevailing winds.</li>
+      </ol>
+
+      <h2>Vagn Walfrid Ekman 1905 Ocean Boundary Layer</h2>
+      <p>Coriolis force deflects surface water 45° relative to wind; as momentum diffuses deeper into the ocean, current vectors rotate into a decaying spiral, causing net depth-integrated mass transport to flow exactly 90° perpendicular to the wind.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How does Ekman transport cause coastal upwelling?</summary>
+        <p>When equatorward winds blow along western continental coasts, Ekman transport drives surface water 90° offshore, pulling nutrient-rich cold deep water to the surface.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ekman-spiral-transport-depth-calculator/tool.js"></script>
+</body>
+</html>

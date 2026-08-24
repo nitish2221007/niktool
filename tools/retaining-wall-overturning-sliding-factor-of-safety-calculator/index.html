@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate cantilever/gravity retaining wall stability Factors of Safety against Overturning (FS_overturn = Σ M_R / Σ M_O ≥ 2.0) and Base Sliding (FS_slide = μ·R_v / P_h ≥ 1.5).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/retaining-wall-overturning-sliding-factor-of-safety-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator | NikTool">
+  <meta property="og:description" content="Calculate cantilever/gravity retaining wall stability Factors of Safety against Overturning (FS_overturn = Σ M_R / Σ M_O ≥ 2.0) and Base Sliding (FS_slide = μ·R_v / P_h ≥ 1.5).">
+  <meta property="og:url" content="https://niktool.in/tools/retaining-wall-overturning-sliding-factor-of-safety-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/retaining-wall-overturning-sliding-factor-of-safety-calculator/",
+        "description": "Calculate cantilever/gravity retaining wall stability Factors of Safety against Overturning (FS_overturn = Σ M_R / Σ M_O ≥ 2.0) and Base Sliding (FS_slide = μ·R_v / P_h ≥ 1.5).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How do civil engineers fix a sliding failure (FS_slide < 1.5)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "By extending the footing heel/toe width, casting a concrete shear key beneath the base slab, or installing tieback soil anchors."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator</h1>
+      <p>Calculate cantilever/gravity retaining wall stability Factors of Safety against Overturning (FS_overturn = Σ M_R / Σ M_O ≥ 2.0) and Base Sliding (FS_slide = μ·R_v / P_h ≥ 1.5).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Resisting Moment M_R (kN·m/m), Overturning M_O (kN·m/m), Vertical Weight R_v (kN/m) & Base Friction μ</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rw-mr">Resisting M_R</label>
+          <input class="tool-textarea" id="rw-mr" type="number" step="any" value="220.0" placeholder="220.0 kN·m/m (Weight)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rw-mo">Overturn M_O</label>
+          <input class="tool-textarea" id="rw-mo" type="number" step="any" value="85.0" placeholder="85.0 kN·m/m (Thrust)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rw-rv">Total Weight R_v</label>
+          <input class="tool-textarea" id="rw-rv" type="number" step="any" value="160.0" placeholder="160.0 kN/m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rw-ph">Lateral Thrust P_h</label>
+          <input class="tool-textarea" id="rw-ph" type="number" step="any" value="50.0" placeholder="50.0 kN/m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rw-mu">Base Friction μ</label>
+          <input class="tool-textarea" id="rw-mu" type="number" step="0.05" value="0.55" placeholder="0.55 (Concrete on Sand)" />
+        </div>
+      </div>
+      <div id="rw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rw-res-fso" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">FS_overturn = 2.59 (SAFE ≥ 2.0)</span>
+            <span class="stat-label">Factor of Safety Against Overturning About Toe</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rw-res-fss" style="color:var(--green-dark); font-weight:700;">FS_sliding = 1.76 (SAFE ≥ 1.5 | Sliding Resistance F_r = 88.0 kN/m)</span>
+            <span class="stat-label">Factor of Safety Against Base Sliding</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator</h2>
+      <ol>
+        <li>Enter total restoring stabilizing moment $M_R$ about the footing toe in $	ext{kN}cdot	ext{m/m}$.</li>
+        <li>Enter total destabilizing overturning moment $M_O$ in $	ext{kN}cdot	ext{m/m}$.</li>
+        <li>Enter total vertical downward foundation weight $R_v$ in kN/m.</li>
+        <li>Enter total lateral horizontal soil thrust $P_h$ in kN/m.</li>
+        <li>Enter base concrete-to-soil friction coefficient $mu$ (typically 0.45 to 0.60).</li>
+        <li>Inspect structural safety verification factors for Overturning ($FS ge 2.0$) and Base Sliding ($FS ge 1.5$).</li>
+      </ol>
+
+      <h2>Geotechnical Retaining Wall Stability Verification</h2>
+      <p>Building codes (IBC / Eurocode 7) mandate strict minimum safety margins ($FS_{	ext{overturn}} ge 2.0, FS_{	ext{sliding}} ge 1.5$) to guard against soil saturation, hydrostatic water pressure buildup, and earthquake ground shaking.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How do civil engineers fix a sliding failure (FS_slide < 1.5)?</summary>
+        <p>By extending the footing heel/toe width, casting a concrete shear key beneath the base slab, or installing tieback soil anchors.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/retaining-wall-overturning-sliding-factor-of-safety-calculator/tool.js"></script>
+</body>
+</html>

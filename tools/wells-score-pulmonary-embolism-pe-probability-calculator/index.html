@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Wells PE probability score (0 to 12.5 points) to risk-stratify acute Pulmonary Embolism and determine D-dimer vs CT Pulmonary Angiography (CTPA) diagnostic imaging protocol.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/wells-score-pulmonary-embolism-pe-probability-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator | NikTool">
+  <meta property="og:description" content="Calculate Wells PE probability score (0 to 12.5 points) to risk-stratify acute Pulmonary Embolism and determine D-dimer vs CT Pulmonary Angiography (CTPA) diagnostic imaging protocol.">
+  <meta property="og:url" content="https://niktool.in/tools/wells-score-pulmonary-embolism-pe-probability-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/wells-score-pulmonary-embolism-pe-probability-calculator/",
+        "description": "Calculate Wells PE probability score (0 to 12.5 points) to risk-stratify acute Pulmonary Embolism and determine D-dimer vs CT Pulmonary Angiography (CTPA) diagnostic imaging protocol.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the PERC Rule in low-risk PE evaluation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Pulmonary Embolism Rule-out Criteria (PERC) allows clinicians to rule out PE with zero lab tests if the patient meets all 8 PERC criteria."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator</h1>
+      <p>Calculate Wells PE probability score (0 to 12.5 points) to risk-stratify acute Pulmonary Embolism and determine D-dimer vs CT Pulmonary Angiography (CTPA) diagnostic imaging protocol.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Wells Pulmonary Embolism Criteria Checklist</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr; gap:0.5rem;">
+        <label><input type="checkbox" id="wp-dvt" /> Clinical signs/symptoms of DVT (leg swelling, tenderness) (+3.0)</label>
+        <label><input type="checkbox" id="wp-alt" /> PE is #1 diagnosis OR equally likely as other differential (+3.0)</label>
+        <label><input type="checkbox" id="wp-hr" /> Heart Rate > 100 BPM (Tachycardia) (+1.5)</label>
+        <label><input type="checkbox" id="wp-imm" /> Immobilization ≥ 3 days OR surgery in past 4 weeks (+1.5)</label>
+        <label><input type="checkbox" id="wp-prior" /> Previous objectively diagnosed DVT or PE (+1.5)</label>
+        <label><input type="checkbox" id="wp-hem" /> Hemoptysis (coughing up blood) (+1.0)</label>
+        <label><input type="checkbox" id="wp-can" /> Active Malignancy (treatment ongoing or within 6 months) (+1.0)</label>
+      </div>
+      <div id="wp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="wp-res-score" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Wells PE Score = 0.0</span>
+            <span class="stat-label">Total Wells PE Score (Range: 0 to 12.5)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="wp-res-strat" style="color:var(--green-dark); font-weight:700;">PE UNLIKELY (Score ≤ 4.0: High-sensitivity D-dimer indicated to rule out PE)</span>
+            <span class="stat-label">Clinical Probability & CT Pulmonary Angiography (CTPA) Indication</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator</h2>
+      <ol>
+        <li>Check all present clinical signs and risk factors for pulmonary embolism.</li>
+        <li>Inspect total Wells PE score and determine whether high-sensitivity D-dimer or CT Pulmonary Angiography is indicated.</li>
+      </ol>
+
+      <h2>Philip S. Wells 2000 Pulmonary Embolism Standard</h2>
+      <p>Reduces unnecessary radiation and IV iodinated contrast exposure from CT scans by safely ruling out PE in low-probability patients with a negative D-dimer.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the PERC Rule in low-risk PE evaluation?</summary>
+        <p>The Pulmonary Embolism Rule-out Criteria (PERC) allows clinicians to rule out PE with zero lab tests if the patient meets all 8 PERC criteria.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/wells-score-pulmonary-embolism-pe-probability-calculator/tool.js"></script>
+</body>
+</html>

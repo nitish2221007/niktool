@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 158cm, Weight 75kg)",
+  "description": "Calculate Body Mass Index (BMI 30.0) for height 158 cm and weight 75 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-158cm-weight-75kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 158cm weight 75kg",
+    "BMI Calculator (Height 158cm, Weight 75kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

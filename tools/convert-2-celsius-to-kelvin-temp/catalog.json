@@ -1,0 +1,15 @@
+{
+  "name": "Convert 2°C Celsius to Kelvin Temp",
+  "description": "Convert 2 degrees Celsius (°C) to Kelvin (275.15 K) instantly.",
+  "path": "/tools/convert-2-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 2 celsius to kelvin temp",
+    "Convert 2°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

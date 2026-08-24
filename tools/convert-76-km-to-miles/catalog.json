@@ -1,0 +1,15 @@
+{
+  "name": "Convert 76 KM to Miles",
+  "description": "Convert 76 kilometers to miles (47.22 miles). 100% free and local.",
+  "path": "/tools/convert-76-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 76 km to miles",
+    "Convert 76 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

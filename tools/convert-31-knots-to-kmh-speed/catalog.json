@@ -1,0 +1,15 @@
+{
+  "name": "Convert 31 Knots to KM/H Speed",
+  "description": "Convert 31 knots speed to kilometers per hour (57.41 km/h).",
+  "path": "/tools/convert-31-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 31 knots to kmh speed",
+    "Convert 31 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

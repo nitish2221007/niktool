@@ -1,0 +1,15 @@
+{
+  "name": "Single-Slit Fraunhofer Diffraction (a·sin θ = m·λ) & Central Maximum Width Calculator",
+  "description": "Calculate single-slit diffraction minima angles (sin θ = m·λ / a) and linear width of the central diffraction maximum (W = 2·λ·L / a) in mm for wave optics physics.",
+  "path": "/tools/single-slit-diffraction-central-maximum-width-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "single slit diffraction calculator",
+    "central maximum width formula w equals 2 lambda L over a online",
+    "fraunhofer diffraction single slit minima calculator",
+    "slit width airy disk wave optics calculator",
+    "optics single slit diffraction solver online"
+  ],
+  "order": 1038
+}

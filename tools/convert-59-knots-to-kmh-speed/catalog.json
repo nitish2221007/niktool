@@ -1,0 +1,15 @@
+{
+  "name": "Convert 59 Knots to KM/H Speed",
+  "description": "Convert 59 knots speed to kilometers per hour (109.27 km/h).",
+  "path": "/tools/convert-59-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 59 knots to kmh speed",
+    "Convert 59 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

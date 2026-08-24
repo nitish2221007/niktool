@@ -1,0 +1,15 @@
+{
+  "name": "Schmid's Law Critical Resolved Shear Stress (CRSS) Calculator",
+  "description": "Calculate single-crystal plastic slip yield stress (τ_crss = σ · cos φ · cos λ) from tensile stress σ, slip plane normal angle φ, and slip direction angle λ (Schmid Factor m = cos φ · cos λ).",
+  "path": "/tools/schmid-law-critical-resolved-shear-stress-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "schmids law calculator",
+    "critical resolved shear stress crss formula tau equals sigma cos phi cos lambda",
+    "schmid factor m calculator online",
+    "single crystal slip yielding calculator",
+    "materials crystallography dislocation slip online"
+  ],
+  "order": 684
+}

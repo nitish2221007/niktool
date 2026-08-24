@@ -1,0 +1,15 @@
+{
+  "name": "Korean Military Discharge D-Day Calculator (Marine Corps (해병대))",
+  "description": "Calculate exact discharge date and D-Day countdown for Marine Corps (해병대) (18 months service).",
+  "path": "/tools/korean-military-discharge-dday-calculator-marines/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "korean military discharge dday calculator marines",
+    "Korean Military Discharge D-Day Calculator (Marine Corps (해병대))",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

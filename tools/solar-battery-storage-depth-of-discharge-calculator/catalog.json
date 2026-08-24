@@ -1,0 +1,15 @@
+{
+  "name": "Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator",
+  "description": "Calculate solar home energy storage usable energy (E_usable = Total_kWh · DoD · η_rt) and backup autonomy duration from battery chemistry (LiFePO4, NMC, Lead-Acid).",
+  "path": "/tools/solar-battery-storage-depth-of-discharge-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar battery storage calculator",
+    "depth of discharge dod formula usable kwh",
+    "lifepo4 battery backup runtime calculator online",
+    "lithium vs lead acid dod round trip efficiency calculator",
+    "home solar battery sizing calculator"
+  ],
+  "order": 587
+}

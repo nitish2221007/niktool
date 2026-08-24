@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate discrete-time digital filter transfer function H(z) poles and zeros, evaluate BIBO stability inside the Unit Circle (|z| less than 1), and compute impulse and frequency response for DSP signal processing.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/z-transform-discrete-transfer-function-pole-zero-stability-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator | NikTool">
+  <meta property="og:description" content="Calculate discrete-time digital filter transfer function H(z) poles and zeros, evaluate BIBO stability inside the Unit Circle (|z| less than 1), and compute impulse and frequency response for DSP signal processing.">
+  <meta property="og:url" content="https://niktool.in/tools/z-transform-discrete-transfer-function-pole-zero-stability-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/z-transform-discrete-transfer-function-pole-zero-stability-calculator/",
+        "description": "Calculate discrete-time digital filter transfer function H(z) poles and zeros, evaluate BIBO stability inside the Unit Circle (|z| less than 1), and compute impulse and frequency response for DSP signal processing.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens if a digital filter pole lies outside the unit circle (|z| > 1)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The filter impulse response grows exponentially without bound, causing digital overflow and system instability."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator</h1>
+      <p>Calculate discrete-time digital filter transfer function H(z) poles and zeros, evaluate BIBO stability inside the Unit Circle (|z| less than 1), and compute impulse and frequency response for DSP signal processing.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">1st-Order Discrete Filter: H(z) = (b₀ + b₁·z⁻¹) / (1 - a₁·z⁻¹)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="zt-b0">Numerator b₀</label>
+          <input class="tool-textarea" id="zt-b0" type="number" step="0.1" value="1.0" placeholder="1.0" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="zt-b1">Numerator b₁</label>
+          <input class="tool-textarea" id="zt-b1" type="number" step="0.1" value="0.5" placeholder="0.5" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="zt-a1">Feedback a₁</label>
+          <input class="tool-textarea" id="zt-a1" type="number" step="0.1" value="0.70" placeholder="0.70 (Pole z = a₁)" />
+        </div>
+      </div>
+      <div id="zt-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="zt-res-stab" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">BIBO STABLE (|z_pole| = 0.70 < 1.00)</span>
+            <span class="stat-label">Discrete System Stability & Pole Location</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="zt-res-hz" style="color:var(--green-dark); font-weight:700;">H(z) = (z + 0.50) / (z - 0.70) | Zero at z = -0.50 | Pole at z = +0.70</span>
+            <span class="stat-label">Z-Domain Transfer Function & Pole-Zero Constellation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator</h2>
+      <ol>
+        <li>Enter digital filter feedforward numerator coefficients $b_0$ and $b_1$.</li>
+        <li>Enter feedback denominator pole coefficient $a_1$.</li>
+        <li>Inspect discrete-time transfer function $H(z)$ and verify BIBO stability by checking if all poles lie strictly inside the complex Unit Circle ($|z_{	ext{pole}}| < 1.0$).</li>
+      </ol>
+
+      <h2>Digital Signal Processing (DSP) Stability Criterion</h2>
+      <p>In discrete-time sampled signals ($z = e^{sT}$), the continuous imaginary frequency axis maps onto the perimeter of the Unit Circle ($|z| = 1$); poles inside the unit circle guarantee stable bounded-input bounded-output (BIBO) recursive IIR digital filtering.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens if a digital filter pole lies outside the unit circle (|z| > 1)?</summary>
+        <p>The filter impulse response grows exponentially without bound, causing digital overflow and system instability.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/z-transform-discrete-transfer-function-pole-zero-stability-calculator/tool.js"></script>
+</body>
+</html>

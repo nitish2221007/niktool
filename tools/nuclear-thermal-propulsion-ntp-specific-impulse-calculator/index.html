@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate nuclear thermal rocket reactor specific impulse (I_sp = (1/g₀) · √[2·γ/(γ-1) · (R_univ·T_chamber / M_prop)]) in seconds and thrust-to-weight performance in Hydrogen and Ammonia for NASA Mars crewed transfer vehicles.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/nuclear-thermal-propulsion-ntp-specific-impulse-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate nuclear thermal rocket reactor specific impulse (I_sp = (1/g₀) · √[2·γ/(γ-1) · (R_univ·T_chamber / M_prop)]) in seconds and thrust-to-weight performance in Hydrogen and Ammonia for NASA Mars crewed transfer vehicles.">
+  <meta property="og:url" content="https://niktool.in/tools/nuclear-thermal-propulsion-ntp-specific-impulse-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/nuclear-thermal-propulsion-ntp-specific-impulse-calculator/",
+        "description": "Calculate nuclear thermal rocket reactor specific impulse (I_sp = (1/g₀) · √[2·γ/(γ-1) · (R_univ·T_chamber / M_prop)]) in seconds and thrust-to-weight performance in Hydrogen and Ammonia for NASA Mars crewed transfer vehicles.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is liquid hydrogen (LH2) preferred over other gases?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hydrogen has the lowest molecular mass of any element ($M = 2\text{ g/mol}$), yielding the maximum possible exhaust velocity for any given reactor operating temperature."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator</h1>
+      <p>Calculate nuclear thermal rocket reactor specific impulse (I_sp = (1/g₀) · √[2·γ/(γ-1) · (R_univ·T_chamber / M_prop)]) in seconds and thrust-to-weight performance in Hydrogen and Ammonia for NASA Mars crewed transfer vehicles.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Reactor Chamber Temperature T_c (Kelvin), Chamber Pressure P_c (bar) & Propellant Gas (H₂, NH₃, CH₄)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ntp-temp">Core Temp T_c (K)</label>
+          <input class="tool-textarea" id="ntp-temp" type="number" step="100" value="2750.0" placeholder="2750.0 K (NERVA Target)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ntp-press">Pressure P_c (bar)</label>
+          <input class="tool-textarea" id="ntp-press" type="number" step="5" value="45.0" placeholder="45.0 bar" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ntp-gas">Propellant</label>
+          <select class="tool-textarea" id="ntp-gas">
+            <option value="h2" selected>Liquid Hydrogen LH₂ (M = 2.016 g/mol, γ = 1.40)</option>
+            <option value="nh3">Ammonia NH₃ (M = 17.03 g/mol, γ = 1.33)</option>
+            <option value="ch4">Methane CH₄ (M = 16.04 g/mol, γ = 1.32)</option>
+          </select>
+        </div>
+      </div>
+      <div id="ntp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ntp-res-isp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">I_sp = 912.4 s (8.95 km/s v_e)</span>
+            <span class="stat-label">Nuclear Thermal Specific Impulse (I_sp)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ntp-res-perf" style="color:var(--green-dark); font-weight:700;">2.03× HIGHER THAN CHEMICAL: Cuts Earth-Mars transit time from 9 months to 4 months!</span>
+            <span class="stat-label">Crewed Mars Transit Performance vs Hydrolox (450 s)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator</h2>
+      <ol>
+        <li>Enter nuclear reactor fuel element core chamber temperature in Kelvin (typically 2500 K to 2800 K in NERVA / DRACO solid core reactors).</li>
+        <li>Enter chamber stagnation pressure in bar.</li>
+        <li>Select light molecular propellant (Liquid Hydrogen $LH_2$, Ammonia, Methane).</li>
+        <li>Inspect specific impulse $I_{	ext{sp}}$ in seconds, effective exhaust velocity $v_e$ in km/s, and transit time reduction for human Mars missions.</li>
+      </ol>
+
+      <h2>Project NERVA & DARPA DRACO Nuclear Fission Thermal Propulsion</h2>
+      <p>Rocket exhaust velocity scales inversely with molecular weight ($I_{	ext{sp}} propto sqrt{T/M}$); by heating pure low-molecular-weight hydrogen ($M = 2	ext{ g/mol}$) directly with a fission reactor rather than heavy water vapor ($M = 18	ext{ g/mol}$), NTP doubles specific impulse to $>900	ext{ s}$, slashing round-trip Mars mission times in half.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is liquid hydrogen (LH2) preferred over other gases?</summary>
+        <p>Hydrogen has the lowest molecular mass of any element ($M = 2	ext{ g/mol}$), yielding the maximum possible exhaust velocity for any given reactor operating temperature.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/nuclear-thermal-propulsion-ntp-specific-impulse-calculator/tool.js"></script>
+</body>
+</html>

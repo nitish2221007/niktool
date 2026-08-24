@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 35 Units)",
+  "description": "Calculate the exact area of a circle with radius 35 units (A = πr² = 3848.45).",
+  "path": "/tools/area-of-circle-radius-35-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 35 units",
+    "Area of Circle (Radius 35 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

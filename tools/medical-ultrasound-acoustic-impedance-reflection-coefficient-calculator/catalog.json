@@ -1,0 +1,15 @@
+{
+  "name": "Medical Ultrasound Acoustic Impedance (Z = ρ·c) & Reflection Coefficient Calculator",
+  "description": "Calculate medical ultrasound tissue Acoustic Impedance Z in MRayl (Z = ρ · c), sound wave Intensity Reflection Coefficient R = ((Z₂ - Z₁) / (Z₂ + Z₁))², Transmitted Intensity T = 1 - R, and echo signal amplitude.",
+  "path": "/tools/medical-ultrasound-acoustic-impedance-reflection-coefficient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ultrasound acoustic impedance calculator",
+    "reflection coefficient formula r equals z2 minus z1 online",
+    "ultrasound gel acoustic matching calculator",
+    "soft tissue bone air acoustic boundary calculator",
+    "medical ultrasound imaging biomedical engineering physics online"
+  ],
+  "order": 1443
+}

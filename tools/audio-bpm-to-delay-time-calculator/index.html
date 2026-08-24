@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio BPM to Delay & Reverb Time (ms / Hz) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate tempo-synced delay times in milliseconds (ms) and LFO modulation frequencies (Hz) for whole, quarter, dotted, and triplet musical note subdivisions.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/audio-bpm-to-delay-time-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Audio BPM to Delay & Reverb Time (ms / Hz) Calculator | NikTool">
+  <meta property="og:description" content="Calculate tempo-synced delay times in milliseconds (ms) and LFO modulation frequencies (Hz) for whole, quarter, dotted, and triplet musical note subdivisions.">
+  <meta property="og:url" content="https://niktool.in/tools/audio-bpm-to-delay-time-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Audio BPM to Delay & Reverb Time (ms / Hz) Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/audio-bpm-to-delay-time-calculator/",
+        "description": "Calculate tempo-synced delay times in milliseconds (ms) and LFO modulation frequencies (Hz) for whole, quarter, dotted, and triplet musical note subdivisions.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is quarter-note delay time at 120 BPM?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "60,000 ms / 120 BPM = exactly 500.0 milliseconds."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Audio BPM to Delay & Reverb Time (ms / Hz) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Audio BPM to Delay & Reverb Time (ms / Hz) Calculator</h1>
+      <p>Calculate tempo-synced delay times in milliseconds (ms) and LFO modulation frequencies (Hz) for whole, quarter, dotted, and triplet musical note subdivisions.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Song Tempo (Beats Per Minute BPM)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="bpm-val">Tempo (BPM)</label>
+        <input class="tool-textarea" id="bpm-val" type="number" min="20" max="300" value="120" placeholder="120 BPM" />
+      </div>
+      <div id="bpm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+          <div class="stat">
+            <span class="stat-value" id="bpm-res-1-4" style="color:var(--green-dark); font-weight:800; font-size:1.4rem;">500.0 ms</span>
+            <span class="stat-label">1/4 Quarter Note (Standard)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bpm-res-1-8d" style="color:#2563eb; font-weight:800; font-size:1.4rem;">375.0 ms</span>
+            <span class="stat-label">1/8 Dotted (U2 Edge Delay)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bpm-res-1-8" style="font-weight:700;">250.0 ms</span>
+            <span class="stat-label">1/8 Eighth Note</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bpm-res-1-8t" style="font-weight:700;">166.7 ms</span>
+            <span class="stat-label">1/8 Triplet</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Audio BPM to Delay & Reverb Time (ms / Hz) Calculator</h2>
+      <ol>
+        <li>Enter music track tempo in Beats Per Minute (BPM).</li>
+        <li>Inspect millisecond timing values for quarter notes, dotted eighth notes, and triplets for hardware delay pedals and VST reverb plugins.</li>
+      </ol>
+
+      <h2>The Famous "Dotted Eighth" Rhythmic Delay</h2>
+      <p>Setting delay repeats to a dotted 8th note (3/16 note = 0.75 · quarter note time) creates the signature galloping rhythmic delay popularized by Pink Floyd and U2.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is quarter-note delay time at 120 BPM?</summary>
+        <p>60,000 ms / 120 BPM = exactly 500.0 milliseconds.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/audio-bpm-to-delay-time-calculator/tool.js"></script>
+</body>
+</html>

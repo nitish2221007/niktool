@@ -1,0 +1,15 @@
+{
+  "name": "Lineweaver-Burk Double-Reciprocal Enzyme Kinetics (K_m & V_max) Calculator",
+  "description": "Calculate enzyme kinetic parameters (K_m and V_max) and classify Competitive, Non-Competitive, and Uncompetitive enzyme inhibition from double-reciprocal plots (1/V = (K_m / V_max) · (1/[S]) + 1/V_max).",
+  "path": "/tools/lineweaver-burk-enzyme-inhibition-km-vmax-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lineweaver burk calculator",
+    "double reciprocal enzyme kinetics formula 1 over v equals km over vmax 1 over s online",
+    "enzyme inhibition competitive noncompetitive calculator",
+    "michaelis menten km vmax lineweaver burk calculator online",
+    "biochemistry enzyme kinetics linear plot online"
+  ],
+  "order": 858
+}

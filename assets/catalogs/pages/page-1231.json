@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Australian ATAR Aggregate & Scaled Study Score (VCE / HSC / QCE) Calculator",
+    "description": "Calculate Australian Tertiary Admission Rank (ATAR on a 0.00 to 99.95 scale) from top 4 primary subjects plus 10% increments of 5th and 6th subjects under VTAC / UAC scaling standards.",
+    "path": "/tools/australian-atar-aggregate-scaled-study-score-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "atar calculator",
+      "australian tertiary admission rank formula aggregate score online",
+      "vce study score to atar calculator vtac",
+      "hsc uac atar scaling calculator online",
+      "atar 99.95 aggregate score predictor australia"
+    ]
+  },
+  {
+    "name": "Singapore GCE A-Level University Admission Score (UAS 70 / 90 RP) Calculator",
+    "description": "Calculate Singapore GCE A-Level University Admission Score (UAS Rank Points on the new 70-point / legacy 90-point system) from 3 H2 subjects, General Paper (GP), and Project Work for NUS, NTU, and SMU university admissions.",
+    "path": "/tools/singapore-gce-a-level-university-admission-score-uas-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "singapore a level rank points calculator",
+      "uas 70 points calculator nus ntu smu online",
+      "singapore uas 90 point system rank calculator",
+      "h2 h1 grade to rank points converter singapore",
+      "moe a level university admission score online"
+    ]
+  },
+  {
+    "name": "German Abitur 15-Point Grade & Modified Bavarian Formula (GPA 1.0 to 4.0) Converter",
+    "description": "Convert international and German high school grades into German GPA using the official Modified Bavarian Formula (N = 1 + 3 · (N_max - N_d) / (N_max - N_min)) where 1.0 is highest distinction (Sehr Gut) and 4.0 is passing.",
+    "path": "/tools/german-abitur-15-point-grade-to-gpa-converter/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "bavarian formula calculator",
+      "german gpa converter modified bavarian formula online",
+      "abitur 15 point scale to german gpa calculator",
+      "study in germany university admission grade calculator",
+      "daad german grade converter online"
+    ]
+  },
+  {
+    "name": "French Baccalauréat (/20 Point Scale) Weighted Average & Mention Honors Calculator",
+    "description": "Calculate official French Baccalauréat weighted composite score out of 20 (Moyenne Générale = Σ (Note_i · Coeff_i) / Σ Coeff_i) and determine Mention honors (Très Bien avec Félicitations ≥ 18, Très Bien ≥ 16, Bien ≥ 14, Assez Bien ≥ 12).",
+    "path": "/tools/french-baccalaureat-weighted-grade-point-mention-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "baccalaureat calculator",
+      "french bac grade calculator out of 20 online",
+      "mention tres bien baccalaureat calculator",
+      "french high school grading coefficient calculator",
+      "parcoursup french bac moyenne generale online"
+    ]
+  },
+  {
+    "name": "Ontario OSSD Top 6 Grade 12 Average (OUAC University Admission) Calculator",
+    "description": "Calculate Canadian Ontario Secondary School Diploma (OSSD) Top 6 Grade 12 4U/4M university admission average percentage for University of Toronto, Waterloo, and McMaster applications.",
+    "path": "/tools/ontario-ossd-top-6-grade-12-university-average-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "ossd top 6 calculator",
+      "ontario grade 12 university average calculator ouac online",
+      "top 6 4u 4m average calculator u of t waterloo",
+      "canadian high school admission average calculator",
+      "ontario secondary school diploma average calculator"
+    ]
+  },
+  {
+    "name": "College Weighted & Unweighted GPA (4.0 Scale & Credit Hours) Calculator",
+    "description": "Calculate semester and cumulative college Grade Point Average (GPA = Σ (Grade Points_i · Credit Hours_i) / Σ Credit Hours) on the standard US 4.0 grading scale with Honors / AP 5.0 weighting options.",
+    "path": "/tools/college-weighted-gpa-4-point-scale-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "college gpa calculator",
+      "weighted unweighted 4.0 scale gpa formula online",
+      "credit hours semester gpa calculator university",
+      "cumulative gpa dean list honors calculator",
+      "college grade point average converter online"
+    ]
+  },
+  {
+    "name": "Final Exam Grade Needed Target (G_final = (Target - Current·(1-w)) / w) Calculator",
+    "description": "Calculate the exact minimum score needed on your final exam (G_final = (G_target - G_current · (1 - w)) / w) to pass a course or secure your target letter grade (A, B, C) based on exam weighting.",
+    "path": "/tools/final-exam-grade-needed-target-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "final exam calculator",
+      "what grade do i need on my final exam formula online",
+      "grade needed on final calculator course weight percentage",
+      "target grade exam score required calculator",
+      "semester grade final exam percentage needed online"
+    ]
+  },
+  {
+    "name": "College Board SAT to ACT Official Concordance & Percentile Score Converter",
+    "description": "Convert standardized college admissions SAT total scores (400 to 1600) to equivalent ACT Composite scores (1 to 36) and national percentile ranks using official College Board & ACT concordance tables.",
+    "path": "/tools/sat-to-act-score-concordance-percentile-converter/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "sat to act converter",
+      "sat act score concordance table online",
+      "sat 1500 to act equivalent score calculator",
+      "college board act score comparison percentile calculator",
+      "act to sat score chart 2025 2026 online"
+    ]
+  },
+  {
+    "name": "Organic Chemistry Degree of Unsaturation & Index of Hydrogen Deficiency (IHD) Calculator",
+    "description": "Calculate molecular formula Degree of Unsaturation / Index of Hydrogen Deficiency (DoU / IHD = C + 1 - H/2 - X/2 + N/2) to determine the exact total number of pi bonds (double/triple bonds) and rings in unknown chemical structures.",
+    "path": "/tools/organic-chemistry-degree-of-unsaturation-ihd-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "degree of unsaturation calculator",
+      "ihd formula c plus 1 minus h over 2 online",
+      "index of hydrogen deficiency organic chemistry calculator",
+      "pi bonds and rings calculator chemical formula",
+      "nmr spectrometry structural elucidation ihd online"
+    ]
+  },
+  {
+    "name": "Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator",
+    "description": "Calculate conjugate acid-base buffer solution equilibrium pH (pH = pKa + log([Conjugate Base] / [Weak Acid])) and buffer capacity for acetic acid, phosphate, and biological blood bicarbonate buffer systems under AP and College Chemistry.",
+    "path": "/tools/ap-chemistry-buffer-solution-henderson-hasselbalch-ph-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "henderson hasselbalch calculator",
+      "buffer solution ph formula pka plus log base over acid online",
+      "ap chemistry buffer ph calculator conjugate acid base",
+      "bicarbonate blood buffer ph calculator online",
+      "weak acid dissociation constant pka to ph calculator"
+    ]
+  },
+  {
+    "name": "AP Calculus Riemann Sum (Left, Right, Midpoint & Trapezoidal Rule) Calculator",
+    "description": "Calculate numerical definite integral approximations using Left Riemann Sum (LRAM), Right Riemann Sum (RRAM), Midpoint Rule (MRAM), and Trapezoidal Rule (T = (L + R)/2) for AP Calculus AB/BC exams.",
+    "path": "/tools/ap-calculus-riemann-sum-left-right-trapezoidal-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "riemann sum calculator",
+      "trapezoidal rule numerical integration formula ap calculus online",
+      "left right midpoint riemann sum calculator",
+      "definite integral approximation subintervals calculator",
+      "ap calculus ab bc riemann sum online"
+    ]
+  },
+  {
+    "name": "AP Statistics Two-Sample Independent t-Test (Welch's t-Statistic & df) Calculator",
+    "description": "Calculate two-sample independent Welch's t-test statistic (t = (x̄₁ - x̄₂) / √(s₁²/n₁ + s₂²/n₂)), Welch-Satterthwaite degrees of freedom (df), and two-tailed p-values for AP Statistics hypothesis testing.",
+    "path": "/tools/ap-statistics-two-sample-t-test-p-value-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "two sample t test calculator",
+      "welch t test formula x1 minus x2 over sqrt s1 squared over n1 online",
+      "ap statistics two sample t test p value calculator",
+      "degrees of freedom welch satterthwaite calculator",
+      "hypothesis testing difference of means online"
+    ]
+  },
+  {
+    "name": "GCSE Math Quadratic Sequence nth Term (a·n² + b·n + c) Calculator",
+    "description": "Calculate quadratic sequence nth term algebraic formula (T_n = a·n² + b·n + c) from sequence terms using second difference analysis (2a = Second Difference, 3a + b = First Difference, a + b + c = Term 1) for GCSE and Edexcel Maths.",
+    "path": "/tools/gcse-math-quadratic-sequence-nth-term-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "quadratic sequence nth term calculator",
+      "find nth term quadratic sequence formula online",
+      "gcse maths quadratic sequence second difference calculator",
+      "an squared plus bn plus c nth term solver",
+      "edexcel gcse math sequence formula online"
+    ]
+  },
+  {
+    "name": "A-Level Physics SUVAT Kinematics Constant Acceleration Equations Calculator",
+    "description": "Calculate linear motion variables using SUVAT equations (v = u + at, s = ut + ½at², s = vt - ½at², v² = u² + 2as, s = ½(u+v)t) from any 3 known quantities for UK A-Level, GCSE, and AP Physics.",
+    "path": "/tools/a-level-physics-suvat-kinematics-equations-motion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "suvat calculator",
+      "suvat equations of motion calculator a level physics online",
+      "displacement initial final velocity acceleration time suvat solver",
+      "v squared equals u squared plus 2as calculator",
+      "constant acceleration kinematics suvat online"
+    ]
+  },
+  {
+    "name": "AP Physics 2D Projectile Motion with Quadratic Air Resistance Drag Calculator",
+    "description": "Calculate 2D projectile trajectory range, apex height, and time of flight comparing ideal vacuum parabolic motion against real quadratic aerodynamic drag (F_drag = ½·C_d·ρ·A·v²).",
+    "path": "/tools/ap-physics-projectile-motion-drag-quadratic-air-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "projectile motion air resistance calculator",
+      "ap physics 2d kinematics quadratic drag trajectory calculator",
+      "baseball trajectory with drag range calculator online",
+      "terminal velocity projectile apex height calculator",
+      "physics projectile flight time drag online"
+    ]
+  },
+  {
+    "name": "Victorian VCE Study Score Scaling & VTAC Aggregate Score Calculator",
+    "description": "Calculate Victorian Certificate of Education (VCE) raw-to-scaled study score adjustments and VTAC aggregate totals across Specialist Mathematics, Math Methods, Chemistry, Physics, and English.",
+    "path": "/tools/vce-study-score-scaled-aggregate-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "vce study score calculator",
+      "vce scaling calculator specialist maths methods chemistry online",
+      "vtac study score to atar aggregate calculator",
+      "victorian high school study score scaler online",
+      "vce raw vs scaled study score calculator"
+    ]
+  },
+  {
+    "name": "CBSE Class 12 Best of Five Percentage & Stream Eligibility Calculator",
+    "description": "Calculate official CBSE Class 12 Senior Secondary Board Exam aggregate percentage (Best of 5 Rule = (Sum of Top 5 Marks / 500) · 100) including mandatory Language subject for Delhi University (DU CUET) and engineering/medical counseling.",
+    "path": "/tools/cbse-class-12-best-of-five-percentage-stream-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "cbse class 12 percentage calculator",
+      "best of five percentage formula cbse class 12 online",
+      "delhi university du admission percentage calculator",
+      "cbse 12th board marks percentage converter",
+      "cbse stream eligibility percentage calculator"
+    ]
+  },
+  {
+    "name": "IB Math IA Sample Size & 95% Confidence Interval Margin of Error Calculator",
+    "description": "Calculate statistical sample size requirements (n = (z*·s / MOE)²) and 95% confidence interval margin of error for International Baccalaureate (IB Math AA / AI) Internal Assessment (IA) exploration projects.",
+    "path": "/tools/ib-math-internal-assessment-ia-sample-size-confidence-interval-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "ib math ia sample size calculator",
+      "confidence interval margin of error formula moe equals z s over sqrt n online",
+      "ib math exploration statistics sample size calculator",
+      "95 confidence interval sample size calculator online",
+      "sample size determination standard error ib math"
+    ]
+  },
+  {
+    "name": "Nursing Dosage IV Flow Drop Rate (gtt/min) & Infusion Time Calculator",
+    "description": "Calculate clinical intravenous (IV) medication flow drop rate in drops per minute (gtt/min = (Volume in mL · Drop Factor in gtt/mL) / Time in minutes) and infusion pump rate (mL/h) for nursing NCLEX exams.",
+    "path": "/tools/medical-nursing-dosage-iv-flow-drop-rate-gtt-min-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "iv drop rate calculator",
+      "gtt per min formula volume times drop factor over time online",
+      "nclex nursing dosage calculation iv flow rate calculator",
+      "intravenous drip rate macrodrip microdrip calculator",
+      "nursing student iv math calculator online"
+    ]
+  },
+  {
+    "name": "Pediatric Drug Dosage (Clark's Rule, Young's Rule & Fried's Rule) Calculator",
+    "description": "Calculate safe child medication dosage from adult standard dose using Clark's Rule (Dose = (Weight in lbs / 150) · Adult Dose), Young's Rule (Dose = (Age / (Age + 12)) · Adult Dose), and Fried's Infant Rule for nursing pharmacology.",
+    "path": "/tools/pediatric-clark-rule-young-rule-drug-dosage-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "pediatric dosage calculator",
+      "clarks rule formula weight in lbs over 150 times adult dose online",
+      "youngs rule child drug dose calculator age",
+      "nursing pharmacology pediatric dose calculator",
+      "frieds rule infant drug dosage calculator online"
+    ]
+  },
+  {
+    "name": "Creatinine Clearance (Cockcroft-Gault CrCl / eGFR) Kidney Function Calculator",
+    "description": "Calculate renal drug dosing Creatinine Clearance (CrCl = [(140 - Age) · Weight in kg] / [72 · Serum Creatinine in mg/dL] · (0.85 if Female)) in mL/min and classify chronic kidney disease (CKD) stages.",
+    "path": "/tools/creatinine-clearance-cockcroft-gault-gfr-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "creatinine clearance calculator",
+      "cockcroft gault formula crcl online",
+      "gfr kidney function creatinine clearance calculator",
+      "renal drug dosing cockcroft gault calculator",
+      "ckd stage egfr creatinine clearance online"
+    ]
+  },
+  {
+    "name": "Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator",
+    "description": "Calculate patient Body Surface Area (Mosteller BSA = √[(Height in cm · Weight in kg) / 3600]) in m² for precision oncology chemotherapy dosing, cardiac index, and burn Parkland resuscitation.",
+    "path": "/tools/body-surface-area-mosteller-du-bois-bsa-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "body surface area calculator",
+      "mosteller bsa formula sqrt height times weight over 3600 online",
+      "chemotherapy drug dosing bsa calculator",
+      "du bois body surface area square meters calculator",
+      "cardiac index bsa medical calculator online"
+    ]
+  },
+  {
+    "name": "Mean Arterial Pressure (MAP = DBP + ⅓(SBP - DBP)) Perfusion Calculator",
+    "description": "Calculate average systemic organ perfusion pressure Mean Arterial Pressure (MAP = DBP + ⅓ · (SBP - DBP)) in mmHg from systolic and diastolic blood pressure and evaluate vital organ perfusion thresholds (MAP ≥ 65 mmHg).",
+    "path": "/tools/mean-arterial-pressure-map-cardiovascular-perfusion-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "mean arterial pressure calculator",
+      "map formula dbp plus one third pulse pressure online",
+      "icu vital organ perfusion map 65 mmhg calculator",
+      "systolic diastolic blood pressure map calculator",
+      "nursing hemodynamics mean arterial pressure online"
+    ]
+  },
+  {
+    "name": "Hemocytometer Cell Counting & Trypan Blue Viability (% = Live / Total) Calculator",
+    "description": "Calculate tissue culture cell concentration in cells/mL (Total = (Live Cells / Squares Counted) · 10⁴ · Dilution Factor) and percentage viability (% = [Live / (Live + Dead)] · 100) from hemocytometer grid counts.",
+    "path": "/tools/hemocytometer-cell-counting-viability-trypan-blue-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hemocytometer calculator",
+      "cell counting formula live cells over squares counted times 10 to the 4th online",
+      "trypan blue cell viability percentage calculator",
+      "tissue culture cell density dilution factor calculator",
+      "biotech lab hemocytometer cell count online"
+    ]
+  }
+]

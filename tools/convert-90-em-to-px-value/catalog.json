@@ -1,0 +1,15 @@
+{
+  "name": "Convert 90 EM to PX Value",
+  "description": "Convert 90 EM units to pixels (1440 px) based on 16px font context.",
+  "path": "/tools/convert-90-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 90 em to px value",
+    "Convert 90 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

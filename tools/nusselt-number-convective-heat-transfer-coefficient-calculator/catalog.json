@@ -1,0 +1,15 @@
+{
+  "name": "Nusselt Number (Nu = h·D / k) & Dittus-Boelter Convective Coefficient Calculator",
+  "description": "Calculate turbulent internal pipe flow Nusselt Number (Nu = 0.023 · Re^0.8 · Pr^0.4) using the Dittus-Boelter empirical correlation and evaluate convective heat transfer coefficient h in W/(m²·K).",
+  "path": "/tools/nusselt-number-convective-heat-transfer-coefficient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "nusselt number calculator",
+    "dittus boelter formula convective heat transfer coefficient online",
+    "pipe heat transfer nusselt calculator reynolds prandtl",
+    "convective heat transfer coefficient h calculator w per m2 k",
+    "heat transfer thermal engineering chemical engineering online"
+  ],
+  "order": 1246
+}

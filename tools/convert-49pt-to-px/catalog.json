@@ -1,0 +1,15 @@
+{
+  "name": "Convert 49pt to PX",
+  "description": "Convert 49 points (pt) to pixels (65.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-49pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 49pt to px",
+    "Convert 49pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

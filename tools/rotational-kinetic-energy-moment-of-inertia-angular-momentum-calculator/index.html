@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate rotational kinetic energy (K_rot = ½ · I · ω²) in Joules, angular momentum (L = I · ω) in kg·m²/s, and moment of inertia I for solid cylinders (½·m·r²), spheres (⅖·m·r²), and thin rods (1/12·m·L²).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/rotational-kinetic-energy-moment-of-inertia-angular-momentum-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator | NikTool">
+  <meta property="og:description" content="Calculate rotational kinetic energy (K_rot = ½ · I · ω²) in Joules, angular momentum (L = I · ω) in kg·m²/s, and moment of inertia I for solid cylinders (½·m·r²), spheres (⅖·m·r²), and thin rods (1/12·m·L²).">
+  <meta property="og:url" content="https://niktool.in/tools/rotational-kinetic-energy-moment-of-inertia-angular-momentum-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/rotational-kinetic-energy-moment-of-inertia-angular-momentum-calculator/",
+        "description": "Calculate rotational kinetic energy (K_rot = ½ · I · ω²) in Joules, angular momentum (L = I · ω) in kg·m²/s, and moment of inertia I for solid cylinders (½·m·r²), spheres (⅖·m·r²), and thin rods (1/12·m·L²).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does mass placed farther from the axis increase moment of inertia so dramatically?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because moment of inertia scales with radius squared ($I propto r^2$), placing mass on outer rims quadruples rotational resistance for the same mass."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator</h1>
+      <p>Calculate rotational kinetic energy (K_rot = ½ · I · ω²) in Joules, angular momentum (L = I · ω) in kg·m²/s, and moment of inertia I for solid cylinders (½·m·r²), spheres (⅖·m·r²), and thin rods (1/12·m·L²).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Geometry (Cylinder Flywheel, Solid Sphere, Thin Rod), Mass m (kg), Radius r / Length L (m) & Rotational Speed ω (RPM or rad/s)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rd-geom">Body Shape</label>
+          <select class="tool-textarea" id="rd-geom">
+            <option value="cylinder" selected>Solid Cylinder / Flywheel Disk (I = ½·m·r²)</option>
+            <option value="sphere">Solid Sphere (I = ⅖·m·r²)</option>
+            <option value="hoop">Thin Cylindrical Hoop / Ring (I = m·r²)</option>
+            <option value="rod">Thin Rod about Center (I = 1/12·m·L²)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rd-m">Mass m (kg)</label>
+          <input class="tool-textarea" id="rd-m" type="number" step="5" value="50.0" placeholder="50.0 kg" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rd-r">Radius / Length (m)</label>
+          <input class="tool-textarea" id="rd-r" type="number" step="0.1" value="0.40" placeholder="0.40 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rd-rpm">Speed (RPM)</label>
+          <input class="tool-textarea" id="rd-rpm" type="number" step="500" value="3000" placeholder="3000 RPM" />
+        </div>
+      </div>
+      <div id="rd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rd-res-krot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Energy K_rot = 197.39 kJ</span>
+            <span class="stat-label">Rotational Kinetic Energy (K_rot = ½·I·ω²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rd-res-i" style="color:var(--green-dark); font-weight:700;">Inertia I = 4.00 kg·m² | Angular Momentum L = 1,256.6 kg·m²/s (ω = 314.16 rad/s)</span>
+            <span class="stat-label">Moment of Inertia (I) & Conserved Angular Momentum (L)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator</h2>
+      <ol>
+        <li>Select rotational geometry (Flywheel Cylinder $rac{1}{2}mr^2$, Sphere $rac{2}{5}mr^2$, Thin Hoop $mr^2$, Thin Rod $rac{1}{12}mL^2$).</li>
+        <li>Enter body mass m in kg.</li>
+        <li>Enter radius r or rod length L in meters.</li>
+        <li>Enter rotational speed in Revolutions Per Minute (RPM).</li>
+        <li>Inspect stored Rotational Kinetic Energy in kJ, Moment of Inertia I, and Angular Momentum L.</li>
+      </ol>
+
+      <h2>Rotational Analog of Linear Newtonian Mechanics</h2>
+      <p>Moment of Inertia ($I = sum m_i r_i^2$) represents rotational inertia; flywheels store grid kinetic energy ($K_{	ext{rot}} = rac{1}{2} I omega^2$), while conservation of angular momentum ($L = Iomega = 	ext{constant}$) governs ice skater spins and pulsar neutron stars.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does mass placed farther from the axis increase moment of inertia so dramatically?</summary>
+        <p>Because moment of inertia scales with radius squared ($I propto r^2$), placing mass on outer rims quadruples rotational resistance for the same mass.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/rotational-kinetic-energy-moment-of-inertia-angular-momentum-calculator/tool.js"></script>
+</body>
+</html>

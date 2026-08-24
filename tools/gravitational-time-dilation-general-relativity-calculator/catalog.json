@@ -1,0 +1,15 @@
+{
+  "name": "Gravitational Time Dilation (General Relativity) Calculator",
+  "description": "Calculate Einstein gravitational time dilation (t_0 = t_f · √(1 - 2 · G · M / (r · c²))) near massive planets, neutron stars, and black holes.",
+  "path": "/tools/gravitational-time-dilation-general-relativity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gravitational time dilation calculator",
+    "general relativity time dilation formula",
+    "einstein gravitational time slowing online",
+    "gps gravitational time dilation calculator",
+    "black hole time dilation calculator online"
+  ],
+  "order": 522
+}

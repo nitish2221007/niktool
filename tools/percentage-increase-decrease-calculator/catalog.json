@@ -1,0 +1,15 @@
+{
+  "name": "Percentage Increase & Decrease Calculator",
+  "description": "Calculate percentage increase, percentage decrease, percentage change, and absolute difference between two numbers.",
+  "path": "/tools/percentage-increase-decrease-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "percentage increase calculator",
+    "percentage decrease calculator",
+    "percent change calculator",
+    "percentage difference calculator",
+    "calculate percentage growth"
+  ],
+  "order": 57
+}

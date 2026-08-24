@@ -1,0 +1,15 @@
+{
+  "name": "1D Discrete Kalman Filter State Estimate & Measurement Update (K_k) Calculator",
+  "description": "Calculate 1D discrete Kalman filter measurement update: Kalman Gain K_k (K_k = P / (P + R)), optimal state estimate x̂_k (x̂ = x̂_prior + K_k·(z - x̂_prior)), and updated error variance P_post.",
+  "path": "/tools/kalman-filter-1d-state-estimate-measurement-update-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "kalman filter calculator",
+    "kalman gain formula k equals p over p plus r online",
+    "measurement update state estimate 1d kalman calculator",
+    "sensor fusion variance reduction kalman filter calculator",
+    "robotics autonomous navigation signal processing online"
+  ],
+  "order": 1324
+}

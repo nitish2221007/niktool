@@ -1,0 +1,15 @@
+{
+  "name": "Interstellar Reddening Color Excess (E(B - V)) & Dust Extinction (A_V = R_V·E(B - V)) Calculator",
+  "description": "Calculate interstellar dust extinction in magnitudes (A_V = R_V · E(B - V)) and true de-reddened stellar magnitude from observed vs intrinsic color excess E(B - V) in observational astrophysics.",
+  "path": "/tools/interstellar-reddening-color-excess-extinction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "interstellar extinction calculator",
+    "color excess formula e b minus v online",
+    "interstellar reddening dust extinction a_v calculator",
+    "total to selective extinction ratio r_v calculator",
+    "observational astronomy interstellar dust online"
+  ],
+  "order": 1183
+}

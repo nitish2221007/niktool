@@ -1,0 +1,15 @@
+{
+  "name": "Convert 20 KG to LBS",
+  "description": "Convert 20 kilograms (20 kg) to pounds (44.09 lbs) instantly in your browser.",
+  "path": "/tools/convert-20-kg-to-lbs/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 20 kg to lbs",
+    "Convert 20 KG to LBS",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

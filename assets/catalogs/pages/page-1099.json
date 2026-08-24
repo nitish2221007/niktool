@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=60°C, Thick 9mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 333333 W) across 9mm steel wall at ΔT=60°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-60c-thickness-9mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 60c thickness 9mm",
+      "Thermal Heat Conduction Calculator (ΔT=60°C, Thick 9mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 10mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 350000 W) across 10mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 10mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 11mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 318182 W) across 11mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-11mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 11mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 11mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 12mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 291667 W) across 12mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-12mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 12mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 12mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 13mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 269231 W) across 13mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-13mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 13mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 13mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 14mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 250000 W) across 14mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-14mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 14mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 14mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 15mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 233333 W) across 15mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-15mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 15mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 15mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 16mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 218750 W) across 16mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-16mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 16mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 16mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 17mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 205882 W) across 17mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-17mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 17mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 17mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 18mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 194444 W) across 18mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-18mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 18mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 18mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 19mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 184211 W) across 19mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-19mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 19mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 19mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 1mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 3500000 W) across 1mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-1mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 1mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 1mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 20mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 175000 W) across 20mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-20mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 20mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 20mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 21mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 166667 W) across 21mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-21mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 21mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 21mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 22mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 159091 W) across 22mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-22mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 22mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 22mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 23mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 152174 W) across 23mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-23mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 23mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 23mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 24mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 145833 W) across 24mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-24mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 24mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 24mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 25mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 140000 W) across 25mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-25mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 25mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 25mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 26mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 134615 W) across 26mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-26mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 26mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 26mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 27mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 129630 W) across 27mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-27mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 27mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 27mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 28mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 125000 W) across 28mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-28mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 28mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 28mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 29mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 120690 W) across 29mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-29mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 29mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 29mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 2mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 1750000 W) across 2mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-2mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 2mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 2mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 30mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 116667 W) across 30mm steel wall at ΔT=70°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-70c-thickness-30mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 70c thickness 30mm",
+      "Thermal Heat Conduction Calculator (ΔT=70°C, Thick 30mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

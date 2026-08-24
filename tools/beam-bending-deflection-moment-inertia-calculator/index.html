@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate simply supported beam center-point maximum deflection δ in mm (δ = F·L³ / (48·E·I)), maximum bending moment M (M = F·L / 4), and maximum outer fiber tensile/compressive flexural bending stress σ.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/beam-bending-deflection-moment-inertia-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator | NikTool">
+  <meta property="og:description" content="Calculate simply supported beam center-point maximum deflection δ in mm (δ = F·L³ / (48·E·I)), maximum bending moment M (M = F·L / 4), and maximum outer fiber tensile/compressive flexural bending stress σ.">
+  <meta property="og:url" content="https://niktool.in/tools/beam-bending-deflection-moment-inertia-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/beam-bending-deflection-moment-inertia-calculator/",
+        "description": "Calculate simply supported beam center-point maximum deflection δ in mm (δ = F·L³ / (48·E·I)), maximum bending moment M (M = F·L / 4), and maximum outer fiber tensile/compressive flexural bending stress σ.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Section Modulus S (or Z)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Section modulus $S = I / c$ measures cross-sectional bending resistance; bending stress simplifies directly to $sigma = M / S$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator</h1>
+      <p>Calculate simply supported beam center-point maximum deflection δ in mm (δ = F·L³ / (48·E·I)), maximum bending moment M (M = F·L / 4), and maximum outer fiber tensile/compressive flexural bending stress σ.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Applied Center Point Load F (kN), Beam Span L (m), Modulus E (GPa) & Moment of Inertia I (cm⁴)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bm-f">Point Load F (kN)</label>
+          <input class="tool-textarea" id="bm-f" type="number" step="5" value="25.0" placeholder="25.0 kN" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bm-l">Span L (m)</label>
+          <input class="tool-textarea" id="bm-l" type="number" step="0.5" value="5.0" placeholder="5.0 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bm-e">Modulus E (GPa)</label>
+          <input class="tool-textarea" id="bm-e" type="number" step="10" value="200.0" placeholder="200.0 GPa (Steel)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bm-i">Inertia I (cm⁴)</label>
+          <input class="tool-textarea" id="bm-i" type="number" step="500" value="4500" placeholder="4,500 cm⁴ (I-Beam)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bm-c">Half-Height c (mm)</label>
+          <input class="tool-textarea" id="bm-c" type="number" step="10" value="100.0" placeholder="100.0 mm (h/2)" />
+        </div>
+      </div>
+      <div id="bm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bm-res-def" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Center Deflection δ = 7.23 mm (L / 691)</span>
+            <span class="stat-label">Maximum Midspan Deflection (δ = F·L³ / 48·E·I)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bm-res-stress" style="color:var(--green-dark); font-weight:700;">Max Bending Moment M = 31.25 kN·m | Max Bending Stress σ = 69.4 MPa</span>
+            <span class="stat-label">Maximum Bending Moment & Outer Fiber Flexural Stress (σ = M·c / I)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator</h2>
+      <ol>
+        <li>Enter concentrated midspan center point load F in kN.</li>
+        <li>Enter simply supported beam clear span length L in meters.</li>
+        <li>Enter Young's Modulus E in GPa and second moment of area I in $	ext{cm}^4$.</li>
+        <li>Enter distance from neutral axis to extreme outer fiber c in mm.</li>
+        <li>Inspect center deflection $delta$ in mm, span deflection ratio (e.g. L/691), and peak bending stress $sigma$.</li>
+      </ol>
+
+      <h2>Euler-Bernoulli Elastic Beam Theory</h2>
+      <p>Standard structural engineering formulation for calculating beam stiffness and strength, ensuring commercial building floors meet deflection limits ($L/360$) and structural stress limits.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Section Modulus S (or Z)?</summary>
+        <p>Section modulus $S = I / c$ measures cross-sectional bending resistance; bending stress simplifies directly to $sigma = M / S$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/beam-bending-deflection-moment-inertia-calculator/tool.js"></script>
+</body>
+</html>

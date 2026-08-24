@@ -1,0 +1,15 @@
+{
+  "name": "Convert 217 Knots Speed Val to KM/H",
+  "description": "Convert 217 knots speed to kilometers per hour (401.88 km/h).",
+  "path": "/tools/convert-knot-speed-val-217-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 217 to kmh",
+    "Convert 217 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

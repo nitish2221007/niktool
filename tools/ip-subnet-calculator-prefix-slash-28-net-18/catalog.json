@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 28 CIDR Prefix, Net #18)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (14 usable IPs) for /28 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-28-net-18/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 28 net 18",
+    "IP Subnet Mask & Host Calculator (/ 28 CIDR Prefix, Net #18)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

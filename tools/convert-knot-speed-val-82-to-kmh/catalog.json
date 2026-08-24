@@ -1,0 +1,15 @@
+{
+  "name": "Convert 82 Knots Speed Val to KM/H",
+  "description": "Convert 82 knots speed to kilometers per hour (151.86 km/h).",
+  "path": "/tools/convert-knot-speed-val-82-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 82 to kmh",
+    "Convert 82 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

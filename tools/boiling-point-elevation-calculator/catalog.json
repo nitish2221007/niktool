@@ -1,0 +1,15 @@
+{
+  "name": "Boiling Point Elevation Calculator",
+  "description": "Calculate solution boiling point elevation (ΔTb = i · Kb · m) and elevated boiling temperature for aqueous and non-aqueous solutions.",
+  "path": "/tools/boiling-point-elevation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "boiling point elevation calculator",
+    "ebullioscopic calculator",
+    "delta tb calculator",
+    "boiling point of salt water",
+    "colligative boiling point formula"
+  ],
+  "order": 162
+}

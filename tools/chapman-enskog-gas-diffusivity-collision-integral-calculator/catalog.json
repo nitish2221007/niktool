@@ -1,0 +1,15 @@
+{
+  "name": "Chapman-Enskog Binary Gas Diffusivity (D_AB = 1.858·10⁻³·T^(3/2)·√(1/M_A + 1/M_B) / (P·σ_AB²·Ω_D)) Calculator",
+  "description": "Calculate low-pressure binary gas molecular diffusion coefficient D_AB in cm²/s and m²/s using the rigorous Chapman-Enskog kinetic gas theory with Lennard-Jones collision parameters (σ_AB, Ω_D).",
+  "path": "/tools/chapman-enskog-gas-diffusivity-collision-integral-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "chapman enskog calculator",
+    "binary gas diffusivity formula online",
+    "lennard jones collision integral gas diffusion calculator",
+    "kinetic theory of gases molecular diffusivity calculator",
+    "chemical engineering transport phenomena gas diffusion online"
+  ],
+  "order": 1252
+}

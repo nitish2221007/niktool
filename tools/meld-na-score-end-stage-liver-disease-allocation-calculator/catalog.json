@@ -1,0 +1,15 @@
+{
+  "name": "MELD-Na Score for End-Stage Liver Disease (OPTN / UNOS Transplant Allocation) Calculator",
+  "description": "Calculate MELD-Na liver disease severity score (Model for End-Stage Liver Disease incorporating serum Sodium, Bilirubin, INR, and Creatinine) for UNOS liver transplant waitlist prioritization.",
+  "path": "/tools/meld-na-score-end-stage-liver-disease-allocation-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "meld na calculator",
+    "model for end stage liver disease formula online",
+    "meld score liver transplant allocation calculator",
+    "bilirubin inr creatinine sodium meld calculator",
+    "hepatology gastroenterology liver failure meld online"
+  ],
+  "order": 1152
+}

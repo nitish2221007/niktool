@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 30V, Current 1A)",
+  "description": "Calculate Resistance (30.00 Ω) and Electric Power (30.0 W) for 30V voltage and 1A current.",
+  "path": "/tools/ohms-law-calculator-voltage-30v-current-1a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 30v current 1a",
+    "Ohm's Law Calculator (Voltage 30V, Current 1A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

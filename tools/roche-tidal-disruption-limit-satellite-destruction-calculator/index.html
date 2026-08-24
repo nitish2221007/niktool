@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate celestial Roche tidal disruption limit distance (d = R_M · (2 · ρ_M / ρ_m)^(1/3) for rigid bodies, d = 2.44 · R_M · (ρ_M / ρ_m)^(1/3) for fluid bodies) to predict planetary ring formation and moon tidal destruction.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/roche-tidal-disruption-limit-satellite-destruction-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator | NikTool">
+  <meta property="og:description" content="Calculate celestial Roche tidal disruption limit distance (d = R_M · (2 · ρ_M / ρ_m)^(1/3) for rigid bodies, d = 2.44 · R_M · (ρ_M / ρ_m)^(1/3) for fluid bodies) to predict planetary ring formation and moon tidal destruction.">
+  <meta property="og:url" content="https://niktool.in/tools/roche-tidal-disruption-limit-satellite-destruction-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/roche-tidal-disruption-limit-satellite-destruction-calculator/",
+        "description": "Calculate celestial Roche tidal disruption limit distance (d = R_M · (2 · ρ_M / ρ_m)^(1/3) for rigid bodies, d = 2.44 · R_M · (ρ_M / ρ_m)^(1/3) for fluid bodies) to predict planetary ring formation and moon tidal destruction.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do artificial satellites not break apart inside the Roche limit?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Artificial satellites are tiny and held together by electromagnetic chemical tensile bonds of metal/composite materials, not self-gravity."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator</h1>
+      <p>Calculate celestial Roche tidal disruption limit distance (d = R_M · (2 · ρ_M / ρ_m)^(1/3) for rigid bodies, d = 2.44 · R_M · (ρ_M / ρ_m)^(1/3) for fluid bodies) to predict planetary ring formation and moon tidal destruction.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Host Planet Radius R_M (km), Host Density ρ_M (g/cm³) & Satellite Density ρ_m (g/cm³)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rc-r">Planet Radius R (km)</label>
+          <input class="tool-textarea" id="rc-r" type="number" step="500" value="58232" placeholder="58,232 km (Saturn)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rc-rhom">Planet Density ρ_M</label>
+          <input class="tool-textarea" id="rc-rhom" type="number" step="0.1" value="0.687" placeholder="0.687 g/cm³ (Saturn)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rc-rhos">Moon Density ρ_m</label>
+          <input class="tool-textarea" id="rc-rhos" type="number" step="0.1" value="1.00" placeholder="1.00 g/cm³ (Icy Moon)" />
+        </div>
+      </div>
+      <div id="rc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rc-res-fluid" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Fluid Roche Limit d = 125,487 km (2.15 R_Saturn)</span>
+            <span class="stat-label">Fluid Satellite Tidal Disruption Boundary (Planetary Rings Envelope)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rc-res-rigid" style="color:var(--green-dark); font-weight:700;">Rigid Limit d = 64,570 km (1.11 R_Saturn) | Rings of Saturn lie inside Fluid Limit ✓</span>
+            <span class="stat-label">Rigid Solid Rock Limit & Ring Stability Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator</h2>
+      <ol>
+        <li>Enter primary host planet equatorial radius $R_M$ in km.</li>
+        <li>Enter primary planet bulk mean density $ho_M$ in $	ext{g/cm}^3$.</li>
+        <li>Enter orbiting satellite bulk mean density $ho_m$ in $	ext{g/cm}^3$.</li>
+        <li>Inspect fluid ($2.44 R_M$) and rigid ($1.26 R_M$) Roche tidal destruction thresholds.</li>
+      </ol>
+
+      <h2>Édouard Roche 1848 Gravitational Tidal Limit</h2>
+      <p>When a moon crosses inside a planet's Roche limit, differential gravitational tidal pull exceeds the moon's self-gravitational cohesion, shredding it into debris that flattens into planetary rings (e.g. Saturn's rings).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do artificial satellites not break apart inside the Roche limit?</summary>
+        <p>Artificial satellites are tiny and held together by electromagnetic chemical tensile bonds of metal/composite materials, not self-gravity.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/roche-tidal-disruption-limit-satellite-destruction-calculator/tool.js"></script>
+</body>
+</html>

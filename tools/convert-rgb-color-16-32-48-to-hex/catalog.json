@@ -1,0 +1,15 @@
+{
+  "name": "Convert RGB Color rgb(16, 32, 48) to HEX",
+  "description": "Convert RGB values rgb(16, 32, 48) to HEX color code #102030. 100% free and local.",
+  "path": "/tools/convert-rgb-color-16-32-48-to-hex/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert rgb color 16 32 48 to hex",
+    "Convert RGB Color rgb(16, 32, 48) to HEX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

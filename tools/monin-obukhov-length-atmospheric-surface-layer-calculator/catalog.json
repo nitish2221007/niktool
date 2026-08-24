@@ -1,0 +1,15 @@
+{
+  "name": "Monin-Obukhov Similarity Length (L) Atmospheric Surface Layer Calculator",
+  "description": "Calculate boundary layer atmospheric stability Monin-Obukhov Length (L = -u_*³·θ_v / (κ·g·w'θ_v')) in meters to quantify dynamic shear vs buoyant convective turbulence production.",
+  "path": "/tools/monin-obukhov-length-atmospheric-surface-layer-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "monin obukhov length calculator",
+    "atmospheric surface layer stability formula l online",
+    "friction velocity u star kinematic heat flux calculator",
+    "micrometeorology monin obukhov similarity calculator",
+    "eddy covariance boundary layer stability online"
+  ],
+  "order": 828
+}

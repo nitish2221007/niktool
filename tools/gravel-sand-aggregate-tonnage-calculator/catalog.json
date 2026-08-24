@@ -1,0 +1,15 @@
+{
+  "name": "Gravel, Sand & Aggregate Tonnage Calculator",
+  "description": "Calculate volume (Cubic Yards / m³) and estimated weight (US Tons and Metric Tonnes) for gravel, crushed stone, sand, and landscape mulch.",
+  "path": "/tools/gravel-sand-aggregate-tonnage-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "gravel tonnage calculator",
+    "crushed stone tons calculator",
+    "sand gravel cubic yards to tons",
+    "landscape aggregate calculator online",
+    "cubic yards of gravel to tons formula"
+  ],
+  "order": 333
+}

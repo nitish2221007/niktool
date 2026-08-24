@@ -1,0 +1,15 @@
+{
+  "name": "Resize Image to 800KB Online",
+  "description": "Reduce image file size to 800KB for online forms and job applications. Fast and 100% private.",
+  "path": "/tools/resize-image-to-800kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image to 800kb",
+    "Resize Image to 800KB Online",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

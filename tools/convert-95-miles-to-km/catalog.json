@@ -1,0 +1,15 @@
+{
+  "name": "Convert 95 Miles to KM",
+  "description": "Convert 95 miles to kilometers (152.89 km). 100% free and local.",
+  "path": "/tools/convert-95-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 95 miles to km",
+    "Convert 95 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

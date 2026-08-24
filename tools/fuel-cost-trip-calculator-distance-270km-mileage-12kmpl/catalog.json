@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (270 km Distance, 12 km/l Mileage)",
+  "description": "Calculate fuel needed (22.5 L) and cost (₹2171) for 270 km trip at 12 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-270km-mileage-12kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 270km mileage 12kmpl",
+    "Fuel Cost Trip Calculator (270 km Distance, 12 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

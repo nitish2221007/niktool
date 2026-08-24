@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 6 x Height 30)",
+  "description": "Calculate volume of a cylinder with radius 6 and height 30 (V = πr²h = 3392.92).",
+  "path": "/tools/volume-of-cylinder-radius-6-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 6 height 30 units",
+    "Volume of Cylinder (Radius 6 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

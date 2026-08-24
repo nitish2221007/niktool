@@ -1,0 +1,15 @@
+{
+  "name": "MOSFET Gate Oxide Capacitance (C_ox) & Transconductance Parameter Calculator",
+  "description": "Calculate gate dielectric oxide capacitance per unit area (C_ox = ε_ox / t_ox) in fF/μm² and process transconductance parameter (k_n' = μ_n · C_ox) in μA/V².",
+  "path": "/tools/mosfet-gate-oxide-capacitance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mosfet gate oxide capacitance calculator",
+    "cox eps over tox formula",
+    "process transconductance parameter kn prime calculator",
+    "high k dielectric gate capacitance online",
+    "cmos vlsi mosfet capacitance calculator"
+  ],
+  "order": 552
+}

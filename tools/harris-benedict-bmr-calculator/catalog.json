@@ -1,0 +1,15 @@
+{
+  "name": "Revised Harris-Benedict BMR Calculator",
+  "description": "Calculate basal metabolic rate (BMR) calories using the Roza and Shizgal revised Harris-Benedict clinical equation.",
+  "path": "/tools/harris-benedict-bmr-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "harris benedict bmr calculator",
+    "revised harris benedict equation",
+    "basal metabolic rate calculator online",
+    "daily basal calories formula",
+    "roza shizgal bmr calculator"
+  ],
+  "order": 265
+}

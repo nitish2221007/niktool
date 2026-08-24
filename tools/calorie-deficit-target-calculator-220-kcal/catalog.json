@@ -1,0 +1,15 @@
+{
+  "name": "Calorie Deficit Target Calculator (220 kcal/day)",
+  "description": "Calculate estimated weekly weight loss (0.20 kg/week) for a 220 kcal daily deficit.",
+  "path": "/tools/calorie-deficit-target-calculator-220-kcal/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "calorie deficit target calculator 220 kcal",
+    "Calorie Deficit Target Calculator (220 kcal/day)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

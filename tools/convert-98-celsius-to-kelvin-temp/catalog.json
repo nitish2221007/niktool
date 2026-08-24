@@ -1,0 +1,15 @@
+{
+  "name": "Convert 98°C Celsius to Kelvin Temp",
+  "description": "Convert 98 degrees Celsius (°C) to Kelvin (371.15 K) instantly.",
+  "path": "/tools/convert-98-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 98 celsius to kelvin temp",
+    "Convert 98°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

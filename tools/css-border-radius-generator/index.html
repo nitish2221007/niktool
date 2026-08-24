@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Fancy Border Radius Generator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Create organic, blob-like, and smooth asymmetric 8-point CSS border-radius shapes with live visual preview and CSS code export.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/css-border-radius-generator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CSS Fancy Border Radius Generator | NikTool">
+  <meta property="og:description" content="Create organic, blob-like, and smooth asymmetric 8-point CSS border-radius shapes with live visual preview and CSS code export.">
+  <meta property="og:url" content="https://niktool.in/tools/css-border-radius-generator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "CSS Fancy Border Radius Generator",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/css-border-radius-generator/",
+        "description": "Create organic, blob-like, and smooth asymmetric 8-point CSS border-radius shapes with live visual preview and CSS code export.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Is 8-point border-radius supported in all modern browsers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, full 8-point border-radius is standard CSS3 supported in Chrome, Safari, Firefox, and Edge."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>CSS Fancy Border Radius Generator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>CSS Fancy Border Radius Generator</h1>
+      <p>Create organic, blob-like, and smooth asymmetric 8-point CSS border-radius shapes with live visual preview and CSS code export.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">8-Point Radius Sliders</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="br-tl">Top-Left Corner (%): <span id="br-tl-val">60%</span></label>
+          <input type="range" id="br-tl" min="10" max="90" value="60" style="width:100%;" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-tr">Top-Right Corner (%): <span id="br-tr-val">40%</span></label>
+          <input type="range" id="br-tr" min="10" max="90" value="40" style="width:100%;" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-br">Bottom-Right Corner (%): <span id="br-br-val">70%</span></label>
+          <input type="range" id="br-br" min="10" max="90" value="70" style="width:100%;" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-bl">Bottom-Left Corner (%): <span id="br-bl-val">30%</span></label>
+          <input type="range" id="br-bl" min="10" max="90" value="30" style="width:100%;" />
+        </div>
+      </div>
+      <div style="display:flex; justify-content:center; align-items:center; padding:3rem 1rem; background:var(--paper); border-radius:16px; margin:1.5rem 0;">
+        <div id="br-preview-box" style="width:180px; height:180px; background:linear-gradient(135deg, #176b4d, #dff36a); display:grid; place-items:center; font-weight:700; color:#18211d;">Blob Shape</div>
+      </div>
+      <div id="br-res-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+          <label class="control-label" style="margin-bottom:0;">Generated CSS</label>
+          <button class="button secondary" id="copy-br-btn" type="button" style="padding:0.25rem 0.6rem; font-size:0.8rem;">Copy CSS</button>
+        </div>
+        <input class="tool-textarea" id="br-css-output" type="text" readonly style="font-family:monospace; font-weight:700;" />
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use CSS Fancy Border Radius Generator</h2>
+      <ol>
+        <li>Adjust each corner percentage slider to morph the organic shape.</li>
+        <li>Check the live gradient blob shape preview.</li>
+        <li>Copy the 8-point slash syntax border-radius CSS rule.</li>
+      </ol>
+
+      <h2>Understanding the 8-Value Border Radius Slash Syntax</h2>
+      <p>CSS border-radius supports a slash syntax (e.g. 60% 40% 70% 30% / 40% 30% 70% 60%) where values before the slash define horizontal radii, and values after the slash define vertical radii for asymmetric organic curvature.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Is 8-point border-radius supported in all modern browsers?</summary>
+        <p>Yes, full 8-point border-radius is standard CSS3 supported in Chrome, Safari, Firefox, and Edge.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/css-border-radius-generator/tool.js"></script>
+</body>
+</html>

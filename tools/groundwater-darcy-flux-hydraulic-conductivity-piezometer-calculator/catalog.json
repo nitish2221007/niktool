@@ -1,0 +1,15 @@
+{
+  "name": "Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator",
+  "description": "Calculate hydrogeological aquifer groundwater flow Darcy flux (q = -K · (dh / dl)) in m/day, linear seepage pore velocity (v_s = q / n_e), and hydraulic gradient for environmental soil contamination transport.",
+  "path": "/tools/groundwater-darcy-flux-hydraulic-conductivity-piezometer-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "darcy flux calculator",
+    "groundwater flow formula q equals k dh over dl online",
+    "hydraulic conductivity aquifer seepage velocity calculator",
+    "effective porosity linear groundwater velocity calculator",
+    "hydrogeology contaminant transport darcy law online"
+  ],
+  "order": 989
+}

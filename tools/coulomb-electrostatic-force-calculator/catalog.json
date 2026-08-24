@@ -1,0 +1,15 @@
+{
+  "name": "Coulomb's Law Electrostatic Force Calculator",
+  "description": "Calculate electrostatic attraction and repulsion forces (F = k_e · |q₁·q₂| / r²) between point charges in microcoulombs (μC) and separation distance.",
+  "path": "/tools/coulomb-electrostatic-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "coulombs law calculator",
+    "electrostatic force calculator",
+    "coulomb constant ke formula",
+    "point charges electric force online",
+    "attraction repulsion electric charges"
+  ],
+  "order": 247
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 17 EM to PX Value",
+  "description": "Convert 17 EM units to pixels (272 px) based on 16px font context.",
+  "path": "/tools/convert-17-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 17 em to px value",
+    "Convert 17 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

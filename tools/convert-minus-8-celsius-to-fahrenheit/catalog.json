@@ -1,0 +1,15 @@
+{
+  "name": "Convert -8°C Celsius to Fahrenheit",
+  "description": "Convert -8 degrees Celsius (°C) to Fahrenheit (17.6°F).",
+  "path": "/tools/convert-minus-8-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert minus 8 celsius to fahrenheit",
+    "Convert -8°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

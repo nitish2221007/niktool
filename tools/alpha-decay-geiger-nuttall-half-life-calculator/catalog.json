@@ -1,0 +1,15 @@
+{
+  "name": "Alpha Decay Half-Life (Geiger-Nuttall Law) Calculator",
+  "description": "Calculate radioactive alpha decay half-life (log₁₀(t₁/₂) = A + B · Z / √E_α) and Gamow quantum tunneling probability through the nuclear Coulomb barrier.",
+  "path": "/tools/alpha-decay-geiger-nuttall-half-life-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "geiger nuttall law calculator",
+    "alpha decay half life formula",
+    "gamow quantum tunneling alpha decay calculator",
+    "coulomb barrier alpha particle energy online",
+    "nuclear physics alpha decay calculator"
+  ],
+  "order": 537
+}

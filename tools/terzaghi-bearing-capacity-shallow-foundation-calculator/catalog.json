@@ -1,0 +1,15 @@
+{
+  "name": "Terzaghi Ultimate Soil Bearing Capacity Shallow Foundation Calculator",
+  "description": "Calculate shallow foundation ultimate soil bearing capacity (q_ult = c · N_c + q · N_q + 0.5 · γ · B · N_γ) and allowable bearing pressure using Karl Terzaghi bearing capacity factors.",
+  "path": "/tools/terzaghi-bearing-capacity-shallow-foundation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "terzaghi bearing capacity calculator",
+    "shallow footing ultimate bearing capacity formula",
+    "nc nq n_gamma soil factors calculator",
+    "geotechnical allowable bearing pressure online",
+    "foundation engineering terzaghi calculator"
+  ],
+  "order": 564
+}

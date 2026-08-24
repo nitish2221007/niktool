@@ -1,0 +1,15 @@
+{
+  "name": "Area of Square (Side 22 Units)",
+  "description": "Calculate the area of a square with side length 22 units (A = a² = 484).",
+  "path": "/tools/area-of-square-side-22-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of square side 22 units",
+    "Area of Square (Side 22 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

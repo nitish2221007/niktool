@@ -1,0 +1,15 @@
+{
+  "name": "Mohr's Circle 2D Principal Stresses (σ₁, σ₂) & Maximum Shear Stress (τ_max) Calculator",
+  "description": "Calculate 2D plane stress transformation principal stresses (σ₁,₂ = (σ_x + σ_y)/2 ± √[((σ_x - σ_y)/2)² + τ_xy²]), maximum in-plane shear stress τ_max, and principal plane orientation angle θ_p for mechanics of materials.",
+  "path": "/tools/mohr-circle-2d-principal-stresses-maximum-shear-stress-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mohrs circle calculator",
+    "principal stresses formula sigma 1 sigma 2 online",
+    "maximum shear stress tau max mohrs circle calculator",
+    "plane stress transformation angle theta p calculator",
+    "mechanics of materials mohrs circle solver online"
+  ],
+  "order": 961
+}

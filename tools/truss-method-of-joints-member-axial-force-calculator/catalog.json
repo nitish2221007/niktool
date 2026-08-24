@@ -1,0 +1,15 @@
+{
+  "name": "2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator",
+  "description": "Calculate planar pin-connected structural truss joint equilibrium member forces (Tension vs Compression in kN) using static Method of Joints (ΣF_x = 0, ΣF_y = 0) for civil and mechanical engineering.",
+  "path": "/tools/truss-method-of-joints-member-axial-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "truss calculator",
+    "method of joints truss member force formula online",
+    "pin jointed truss tension compression calculator",
+    "structural statics truss joint equilibrium calculator",
+    "civil engineering bridge truss analysis online"
+  ],
+  "order": 1073
+}

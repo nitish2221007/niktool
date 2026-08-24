@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Von Mises & Tresca Yield Criterion Equivalent Stress Calculator",
+    "description": "Calculate multi-axial equivalent stress under complex loading using Von Mises Distortion Energy (σ_vm) and Tresca Maximum Shear Stress (σ_tresca = σ₁ - σ₃) failure criteria.",
+    "path": "/tools/von-mises-tresca-yield-criterion-equivalent-stress-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "von mises calculator",
+      "tresca yield criterion equivalent stress formula online",
+      "distortion energy theory von mises stress calculator",
+      "maximum shear stress theory tresca calculator",
+      "mechanical design failure theories solid mechanics online"
+    ]
+  },
+  {
+    "name": "Euler Column Buckling Critical Load (P_cr = π²·E·I / (K·L)²) Calculator",
+    "description": "Calculate slender column elastic buckling critical load P_cr in kN (P_cr = π²·E·I / (K·L)²), critical buckling stress σ_cr, and slenderness ratio λ (lambda = K·L / r) for structural steel and civil engineering.",
+    "path": "/tools/euler-buckling-load-slenderness-ratio-column-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "euler buckling calculator",
+      "critical buckling load formula p cr equals pi squared e i over kl squared online",
+      "column slenderness ratio effective length factor calculator",
+      "structural steel column buckling calculator",
+      "civil structural mechanical engineering column design online"
+    ]
+  },
+  {
+    "name": "Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator",
+    "description": "Calculate simply supported beam center-point maximum deflection δ in mm (δ = F·L³ / (48·E·I)), maximum bending moment M (M = F·L / 4), and maximum outer fiber tensile/compressive flexural bending stress σ.",
+    "path": "/tools/beam-bending-deflection-moment-inertia-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "beam deflection calculator",
+      "bending stress formula my over i online",
+      "simply supported beam center load deflection calculator",
+      "moment of inertia section modulus beam calculator",
+      "civil structural mechanical engineering beam bending online"
+    ]
+  },
+  {
+    "name": "Shaft Torsion (τ = T·r / J) & Angle of Twist (θ = T·L / G·J) Calculator",
+    "description": "Calculate circular driveshaft torsional shear stress τ in MPa (τ = T · r / J), angle of twist θ in degrees (θ = T · L / (G · J)), and polar moment of inertia J (J = π·D⁴ / 32) for rotating power transmission machinery.",
+    "path": "/tools/torsion-polar-moment-shear-stress-shaft-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "shaft torsion calculator",
+      "torsional shear stress formula tau equals tr over j online",
+      "angle of twist degrees shaft calculator",
+      "polar moment of inertia circular shaft calculator",
+      "mechanical engineering machine design power transmission online"
+    ]
+  },
+  {
+    "name": "Thin-Walled Pressure Vessel Stress (Hoop σ_h = P·r/t & Long σ_L = P·r/2t) Calculator",
+    "description": "Calculate cylindrical and spherical thin-walled pressure vessel circumferential Hoop stress (σ_h = P·r / t), Longitudinal axial stress (σ_L = P·r / 2t), and minimum required wall thickness t (ASME Boiler & Pressure Vessel Code).",
+    "path": "/tools/thin-walled-pressure-vessel-hoop-longitudinal-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thin walled pressure vessel calculator",
+      "hoop stress formula pr over t online",
+      "longitudinal stress pressure vessel calculator",
+      "asme boiler pressure vessel wall thickness calculator",
+      "mechanical chemical engineering pressure vessels online"
+    ]
+  },
+  {
+    "name": "Thick-Walled Cylinder Lamé Equations (Radial σ_r & Hoop σ_θ Stress Distribution) Calculator",
+    "description": "Calculate thick-walled hydraulic cylinder and gun barrel radial stress σ_r and tangential hoop stress σ_θ across cylinder wall thickness using Gabriel Lamé's exact elasticity equations.",
+    "path": "/tools/thick-walled-cylinder-lame-equation-radial-hoop-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lame equations calculator",
+      "thick walled cylinder stress distribution formula online",
+      "radial hoop stress hydraulic cylinder lame calculator",
+      "internal external pressure thick cylinder calculator",
+      "mechanical engineering solid mechanics pressure vessels online"
+    ]
+  },
+  {
+    "name": "Goodman, Soderberg & Gerber Mean Stress Fatigue Endurance Limit Calculator",
+    "description": "Calculate fluctuating mean stress fatigue design safety factors (Goodman: σ_a/S_e + σ_m/S_ut = 1, Soderberg: σ_a/S_e + σ_m/S_y = 1, and Gerber parabola) for cyclical machine components.",
+    "path": "/tools/goodman-soderberg-gerber-fatigue-endurance-limit-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "goodman fatigue calculator",
+      "soderberg gerber mean stress fatigue formula online",
+      "fluctuating stress amplitude endurance limit calculator",
+      "fatigue safety factor alternating stress calculator",
+      "mechanical design machine elements fatigue online"
+    ]
+  },
+  {
+    "name": "Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator",
+    "description": "Calculate nonlinear elastic-plastic true total strain ε (epsilon = σ/E + 0.002 · (σ / σ₀)^n), elastic strain, plastic offset strain, and tangent modulus E_t using the Ramberg-Osgood constitutive model.",
+    "path": "/tools/ramberg-osgood-nonlinear-stress-strain-plasticity-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "ramberg osgood calculator",
+      "nonlinear stress strain curve formula online",
+      "plasticity strain hardening exponent n calculator",
+      "tangent modulus ramberg osgood plastic deformation calculator",
+      "finite element analysis solid mechanics materials science online"
+    ]
+  },
+  {
+    "name": "Taylor Hardening Flow Stress & Dislocation Density (Δτ = α·G·b·√ρ) Calculator",
+    "description": "Calculate work hardening flow stress increase Δτ in MPa (Δτ = α · G · b · √ρ) and required dislocation density ρ (lines/m²) from forest dislocation forest cutting and Taylor hardening interactions.",
+    "path": "/tools/dislocation-density-taylor-hardening-flow-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "taylor hardening calculator",
+      "dislocation density flow stress formula delta tau equals alpha g b sqrt rho online",
+      "forest dislocation work hardening calculator",
+      "burgers vector shear modulus flow stress calculator",
+      "materials science dislocation mechanics crystal plasticity online"
+    ]
+  },
+  {
+    "name": "Soret Effect Thermodiffusion Steady-State Concentration Gradient Calculator",
+    "description": "Calculate thermal diffusion concentration separation gradients (∇C = -S_T · C · (1 - C) · ∇T) and Soret coefficient S_T (K⁻¹) for isotope separation, polymer thermophoresis, and magmatic petrology.",
+    "path": "/tools/soret-effect-thermodiffusion-concentration-gradient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "soret effect calculator",
+      "thermodiffusion concentration gradient formula online",
+      "soret coefficient st calculator thermophoresis",
+      "thermal diffusion separation ludwig soret calculator",
+      "physical chemistry transport phenomena thermodynamics online"
+    ]
+  },
+  {
+    "name": "Superplastic Forming Strain Rate Sensitivity (m = d ln σ / d ln ε̇) Calculator",
+    "description": "Calculate high-temperature superplastic alloy strain rate sensitivity exponent m (m = ∂ ln σ / ∂ ln ε̇), flow stress σ (σ = K·ε̇ᵐ), and necking resistance for titanium and aluminum aerospace forming.",
+    "path": "/tools/superplastic-forming-strain-rate-sensitivity-m-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "superplastic forming calculator",
+      "strain rate sensitivity m formula online",
+      "flow stress strain rate power law calculator",
+      "aerospace superplastic titanium forming calculator",
+      "metallurgy materials science manufacturing processes online"
+    ]
+  },
+  {
+    "name": "Pilling-Bedworth Ratio (PBR = M_ox·ρ_m / (n·M_m·ρ_ox)) Metal Oxidation Calculator",
+    "description": "Calculate the Pilling-Bedworth Ratio (PBR = (M_ox · ρ_m) / (n · M_m · ρ_ox)) to predict whether high-temperature surface metal oxides form protective passivating films (1.0 ≤ PBR ≤ 2.0) vs porous or spalling scales.",
+    "path": "/tools/pilling-bedworth-ratio-metal-oxide-passivation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pilling bedworth ratio calculator",
+      "pbr formula metal oxidation passivation online",
+      "protective oxide layer corrosion calculator",
+      "pilling bedworth rule high temperature oxidation calculator",
+      "materials science metallurgy corrosion engineering online"
+    ]
+  },
+  {
+    "name": "Darcy's Law Groundwater Flow & Hydraulic Conductivity (Q = -K·A·dh/dL) Calculator",
+    "description": "Calculate groundwater volumetric seepage discharge flow rate Q in m³/day (Q = K · A · i), hydraulic gradient i (dh/dL), Darcy flux velocity v, and pore seepage interstitial velocity v_s through porous soil aquifers.",
+    "path": "/tools/darcy-law-groundwater-hydraulic-gradient-permeability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "darcy law calculator",
+      "groundwater seepage flow rate formula q equals k a i online",
+      "hydraulic conductivity permeability aquifer calculator",
+      "hydraulic gradient seepage velocity calculator hydrogeology",
+      "geotechnical civil environmental engineering groundwater online"
+    ]
+  },
+  {
+    "name": "Terzaghi 1D Consolidation Primary Settlement (S_c = C_c·H/(1+e₀)·log₁₀(σ'/σ'₀)) Calculator",
+    "description": "Calculate normally consolidated clay primary consolidation settlement S_c in cm (S_c = C_c · H / (1 + e₀) · log₁₀((σ'₀ + Δσ') / σ'₀)), compression index C_c, and time rate of consolidation T_v.",
+    "path": "/tools/terzaghi-one-dimensional-consolidation-settlement-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "terzaghi consolidation calculator",
+      "primary settlement formula sc compression index cc online",
+      "clay consolidation settlement 1d terzaghi calculator",
+      "time factor tv degree of consolidation calculator",
+      "geotechnical engineering foundation settlement soil mechanics online"
+    ]
+  },
+  {
+    "name": "Terzaghi Ultimate Bearing Capacity Shallow Strip Footing (q_ult = c·N_c + q·N_q + ½γ·B·N_γ) Calculator",
+    "description": "Calculate shallow strip footing ultimate bearing capacity q_ult in kPa (q_ult = c·N_c + q·N_q + ½·γ·B·N_γ) and allowable bearing capacity q_all with safety factor FS for geotechnical foundation design.",
+    "path": "/tools/terzaghi-bearing-capacity-shallow-strip-footing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "terzaghi bearing capacity calculator",
+      "shallow foundation bearing capacity formula q ult online",
+      "bearing capacity factors nc nq ngamma calculator",
+      "allowable soil bearing pressure safety factor calculator",
+      "geotechnical engineering foundation design civil engineering online"
+    ]
+  },
+  {
+    "name": "Rankine Lateral Earth Pressure (K_a = tan²(45° - φ/2) & K_p = tan²(45° + φ/2)) Calculator",
+    "description": "Calculate Rankine active earth pressure coefficient K_a (K_a = (1 - sin φ) / (1 + sin φ)), passive earth pressure coefficient K_p (K_p = (1 + sin φ) / (1 - sin φ)), and total lateral thrust on vertical retaining walls.",
+    "path": "/tools/rankine-active-passive-earth-pressure-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rankine earth pressure calculator",
+      "active earth pressure coefficient formula ka online",
+      "passive earth pressure coefficient kp rankine calculator",
+      "retaining wall lateral earth thrust calculator",
+      "geotechnical engineering civil retaining walls soil mechanics online"
+    ]
+  },
+  {
+    "name": "Coulomb Lateral Earth Pressure (Active P_a & Wall Friction δ) Calculator",
+    "description": "Calculate Coulomb active earth pressure coefficient K_a accounting for soil-wall friction angle δ, retaining wall backface batter angle β, and backfill slope angle α.",
+    "path": "/tools/coulomb-lateral-earth-pressure-retaining-wall-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "coulomb earth pressure calculator",
+      "wall friction delta active thrust formula online",
+      "coulomb sliding wedge retaining wall calculator",
+      "backfill slope batter angle earth pressure calculator",
+      "geotechnical engineering civil foundation retaining walls online"
+    ]
+  },
+  {
+    "name": "Mohr-Coulomb Soil Shear Strength (τ_f = c' + σ'·tan φ') Calculator",
+    "description": "Calculate soil shear strength failure envelope τ_f in kPa (τ_f = c' + σ' · tan φ'), effective normal stress σ' (σ - u), and factor of safety against slope shear failure.",
+    "path": "/tools/mohr-coulomb-shear-strength-soil-cohesion-friction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mohr coulomb calculator",
+      "soil shear strength formula tau f equals c plus sigma tan phi online",
+      "effective stress pore water pressure shear strength calculator",
+      "soil cohesion internal friction angle calculator",
+      "geotechnical engineering soil mechanics slope stability online"
+    ]
+  },
+  {
+    "name": "Standard Penetration Test (SPT N₆₀ & (N₁)₆₀ Overburden Correction) Calculator",
+    "description": "Calculate geotechnical Standard Penetration Test energy-corrected blow count N₆₀ (N₆₀ = N · (E_m · C_B · C_S · C_R) / 60) and overburden-normalized (N₁)₆₀ = C_N · N₆₀ for soil liquefaction and bearing capacity.",
+    "path": "/tools/standard-penetration-test-spt-n-value-overburden-correction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spt calculator",
+      "standard penetration test n60 formula online",
+      "overburden correction factor cn n160 calculator",
+      "soil liquefaction spt blow count calculator",
+      "geotechnical site investigation soil mechanics online"
+    ]
+  },
+  {
+    "name": "Soil Phase Relationships (Void Ratio e, Porosity n, Bulk Density γ & Saturated Density) Calculator",
+    "description": "Calculate 3-phase soil volume-mass weight-volume relations: Void Ratio e (e = n / (1 - n)), Porosity n (n = e / (1 + e)), Dry Density γ_d, Saturated Density γ_sat, and Submerged Buoyant Density γ'.",
+    "path": "/tools/soil-porosity-void-ratio-bulk-density-phase-relations-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "soil phase relationships calculator",
+      "void ratio porosity formula e equals n over 1 minus n online",
+      "soil bulk density saturated density calculator",
+      "specific gravity gs dry unit weight calculator",
+      "geotechnical engineering soil mechanics weight volume online"
+    ]
+  },
+  {
+    "name": "Soil Degree of Saturation (S_r = w·G_s / e) & Moisture Content Calculator",
+    "description": "Calculate soil Degree of Saturation S_r percentage (S_r = w · G_s / e), gravimetric moisture content w (w = M_w / M_s · 100%), and volumetric water content θ for unsaturated soil mechanics.",
+    "path": "/tools/soil-moisture-content-degree-of-saturation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "soil saturation calculator",
+      "degree of saturation formula sr equals w gs over e online",
+      "gravimetric soil moisture content calculator",
+      "volumetric water content theta unsaturated soil calculator",
+      "geotechnical environmental engineering hydrology online"
+    ]
+  },
+  {
+    "name": "Theis Non-Equilibrium Aquifer Drawdown (s = Q / (4π·T) · W(u)) Well Function Calculator",
+    "description": "Calculate transient pumping well drawdown s in meters (s = Q / (4π·T) · W(u)), Theis Well Function W(u) exponential integral, and aquifer dimensionless parameter u (u = r²·S / (4·T·t)) in hydrogeology.",
+    "path": "/tools/theis-unsteady-aquifer-drawdown-well-function-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "theis equation calculator",
+      "well function w of u exponential integral formula online",
+      "confined aquifer transient drawdown theis calculator",
+      "transmissivity storativity aquifer pumping test calculator",
+      "hydrogeology water resources groundwater engineering online"
+    ]
+  },
+  {
+    "name": "Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator",
+    "description": "Calculate confined aquifer hydraulic transmissivity T in m²/day (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) and hydraulic conductivity K from equilibrium two-well pumping test drawdown measurements.",
+    "path": "/tools/thiem-steady-state-confined-aquifer-transmissivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thiem equation calculator",
+      "steady state confined aquifer transmissivity formula online",
+      "aquifer pumping test thiem method calculator",
+      "drawdown two observation wells permeability calculator",
+      "hydrogeology groundwater hydrology online"
+    ]
+  },
+  {
+    "name": "Dupuit-Forchheimer Unconfined Aquifer Seepage (q = K·(h₁² - h₂²) / 2L) Calculator",
+    "description": "Calculate unconfined water table aquifer 1D steady-state seepage discharge flow rate q in m³/day per meter (q = K · (h₁² - h₂²) / (2·L)) and phreatic free water surface parabolic profile between two open water bodies.",
+    "path": "/tools/dupuit-forchheimer-unconfined-aquifer-seepage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dupuit forchheimer calculator",
+      "unconfined aquifer seepage discharge formula online",
+      "phreatic water table parabolic profile calculator",
+      "groundwater flow unconfined aquifer calculator",
+      "hydrogeology civil geotechnical engineering seepage online"
+    ]
+  }
+]

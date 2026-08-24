@@ -1,0 +1,15 @@
+{
+  "name": "Gibbs Free Energy (ΔG° = ΔH° - T·ΔS°) & Van 't Hoff Equilibrium K Calculator",
+  "description": "Calculate chemical reaction standard Gibbs Free Energy change (ΔG° = ΔH° - T · ΔS°) in kJ/mol, thermodynamic equilibrium constant (K = e^(-ΔG° / RT)), and crossover spontaneous temperature T_eq for physical chemistry.",
+  "path": "/tools/gibbs-free-energy-reaction-spontaneity-van-t-hoff-isochore-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gibbs free energy calculator",
+    "delta g equals delta h minus t delta s formula online",
+    "van t hoff equilibrium constant k calculator",
+    "reaction spontaneity enthalpy entropy temperature calculator",
+    "physical chemistry thermodynamics free energy online"
+  ],
+  "order": 1007
+}

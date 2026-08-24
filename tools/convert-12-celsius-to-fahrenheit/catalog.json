@@ -1,0 +1,15 @@
+{
+  "name": "Convert 12°C Celsius to Fahrenheit",
+  "description": "Convert 12 degrees Celsius (°C) to Fahrenheit (53.6°F).",
+  "path": "/tools/convert-12-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 12 celsius to fahrenheit",
+    "Convert 12°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

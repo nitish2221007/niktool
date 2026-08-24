@@ -1,0 +1,15 @@
+{
+  "name": "Recombinant Protein Molecular Weight (kDa) & Extinction Coefficient Calculator",
+  "description": "Calculate recombinant protein molecular weight in Kilodaltons (kDa ≈ Amino Acids · 110 Da), molar extinction coefficient ε₂₈₀ (M⁻¹·cm⁻¹), and spectrophotometric A₂₈₀ absorbance from amino acid sequence or residue length.",
+  "path": "/tools/recombinant-protein-expression-molecular-weight-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "protein molecular weight calculator",
+    "amino acid to kda formula 110 daltons online",
+    "protein extinction coefficient e280 tryptophan tyrosine calculator",
+    "protein size molecular weight kda calculator",
+    "biochemistry recombinant protein expression online"
+  ],
+  "order": 1194
+}

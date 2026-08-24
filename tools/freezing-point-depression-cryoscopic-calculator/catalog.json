@@ -1,0 +1,15 @@
+{
+  "name": "Freezing Point Depression (Cryoscopy) Calculator",
+  "description": "Calculate freezing point lowering (ΔT_f = i · K_f · m) and antifreeze / road de-icing temperatures from solute molality and cryoscopic constant (K_f).",
+  "path": "/tools/freezing-point-depression-cryoscopic-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "freezing point depression calculator",
+    "cryoscopic constant kf formula",
+    "delta tf i kf m calculator online",
+    "road salt de icing freezing point calculator",
+    "antifreeze ethylene glycol freezing calculator"
+  ],
+  "order": 418
+}

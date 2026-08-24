@@ -1,0 +1,15 @@
+{
+  "name": "Distributed Bragg Reflector (DBR) Stopband & Peak Reflectivity Calculator",
+  "description": "Calculate quarter-wavelength multilayer Distributed Bragg Reflector (DBR) peak mirror reflectivity R (R = [(1 - (n₁/n₂)^(2N)) / (1 + (n₁/n₂)^(2N))]²), photonic bandgap stopband bandwidth Δλ, and layer thicknesses (d = λ₀ / 4n) for VCSEL lasers.",
+  "path": "/tools/dbr-distributed-bragg-reflector-stopband-reflectivity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dbr calculator",
+    "distributed bragg reflector peak reflectivity formula online",
+    "stopband bandwidth quarter wave dbr calculator",
+    "vcsel laser mirror dielectric stack calculator",
+    "photonics optoelectronics dielectric mirrors online"
+  ],
+  "order": 1379
+}

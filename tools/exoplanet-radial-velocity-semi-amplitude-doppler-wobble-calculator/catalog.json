@@ -1,0 +1,15 @@
+{
+  "name": "Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator",
+  "description": "Calculate stellar reflex Doppler wobble velocity semi-amplitude (K in m/s or cm/s) induced by an orbiting exoplanet to evaluate radial velocity spectroscopic detection thresholds (HARPS, ESPRESSO).",
+  "path": "/tools/exoplanet-radial-velocity-semi-amplitude-doppler-wobble-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "radial velocity calculator",
+    "doppler wobble semi amplitude k formula exoplanet online",
+    "stellar reflex motion exoplanet mass calculator m s",
+    "harps espresso radial velocity precision calculator",
+    "astrophysics exoplanet spectroscopy online"
+  ],
+  "order": 1175
+}

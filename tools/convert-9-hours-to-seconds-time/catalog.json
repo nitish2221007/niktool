@@ -1,0 +1,15 @@
+{
+  "name": "Convert 9 Hours to Seconds",
+  "description": "Convert 9 hours to minutes (540 min) and seconds (32,400 sec).",
+  "path": "/tools/convert-9-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 9 hours to seconds time",
+    "Convert 9 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

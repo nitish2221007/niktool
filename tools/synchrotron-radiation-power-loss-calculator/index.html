@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synchrotron Radiation Power Loss & Energy Radiated Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate relativistic synchrotron radiation power loss per electron turn (ΔE = (q² · γ⁴) / (3 · ε₀ · R) = 88.5 · E⁴ / R) in keV per revolution in circular particle storage rings.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/synchrotron-radiation-power-loss-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Synchrotron Radiation Power Loss & Energy Radiated Calculator | NikTool">
+  <meta property="og:description" content="Calculate relativistic synchrotron radiation power loss per electron turn (ΔE = (q² · γ⁴) / (3 · ε₀ · R) = 88.5 · E⁴ / R) in keV per revolution in circular particle storage rings.">
+  <meta property="og:url" content="https://niktool.in/tools/synchrotron-radiation-power-loss-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Synchrotron Radiation Power Loss & Energy Radiated Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/synchrotron-radiation-power-loss-calculator/",
+        "description": "Calculate relativistic synchrotron radiation power loss per electron turn (ΔE = (q² · γ⁴) / (3 · ε₀ · R) = 88.5 · E⁴ / R) in keV per revolution in circular particle storage rings.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do proton accelerators like the LHC radiate much less than electron rings?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Protons are 1,836× heavier than electrons, so their synchrotron radiation power is reduced by over 10 trillion times."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Synchrotron Radiation Power Loss & Energy Radiated Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Synchrotron Radiation Power Loss & Energy Radiated Calculator</h1>
+      <p>Calculate relativistic synchrotron radiation power loss per electron turn (ΔE = (q² · γ⁴) / (3 · ε₀ · R) = 88.5 · E⁴ / R) in keV per revolution in circular particle storage rings.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Beam Energy E (GeV), Bending Radius R (meters) & Current I (mA)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="syn-e">Beam Energy E (GeV)</label>
+          <input class="tool-textarea" id="syn-e" type="number" step="any" value="3.0" placeholder="3.0 GeV (3rd Gen Synchrotron)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="syn-r">Bending Radius R (m)</label>
+          <input class="tool-textarea" id="syn-r" type="number" step="any" value="8.0" placeholder="8.0 meters" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="syn-curr">Beam Current (mA)</label>
+          <input class="tool-textarea" id="syn-curr" type="number" step="any" value="500" placeholder="500 mA (0.5 A)" />
+        </div>
+      </div>
+      <div id="syn-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="syn-res-de" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">896.1 keV / turn</span>
+            <span class="stat-label">Energy Loss per Electron Revolution (ΔE)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="syn-res-pwr" style="font-weight:700;">448.0 kW Total X-Ray Power</span>
+            <span class="stat-label">Total Radiated Synchrotron Light Power</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Synchrotron Radiation Power Loss & Energy Radiated Calculator</h2>
+      <ol>
+        <li>Enter electron relativistic beam energy in Giga-electronvolts (GeV).</li>
+        <li>Enter dipole bending magnet trajectory radius R in meters.</li>
+        <li>Enter circulating electron beam stored current in milliamperes (mA).</li>
+        <li>Inspect energy lost per electron per turn in keV and total emitted synchrotron X-ray beam power in kilowatts (kW).</li>
+      </ol>
+
+      <h2>The E⁴ Relativistic Radiation Catastrophe</h2>
+      <p>Synchrotron radiation power scales with the fourth power of beam energy; doubling electron energy increases RF cavity replenishment power sixteen-fold, creating brilliant X-rays for molecular biology crystallography.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do proton accelerators like the LHC radiate much less than electron rings?</summary>
+        <p>Protons are 1,836× heavier than electrons, so their synchrotron radiation power is reduced by over 10 trillion times.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/synchrotron-radiation-power-loss-calculator/tool.js"></script>
+</body>
+</html>

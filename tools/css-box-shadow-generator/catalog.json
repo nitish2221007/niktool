@@ -1,0 +1,15 @@
+{
+  "name": "CSS Box Shadow Generator",
+  "description": "Design multi-layer modern CSS box shadows with live interactive preview, inset shadows, blur radius, spread, and 1-click copy CSS.",
+  "path": "/tools/css-box-shadow-generator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "css box shadow generator",
+    "box shadow generator online",
+    "multi layer shadow generator",
+    "css shadow builder",
+    "inset box shadow generator"
+  ],
+  "order": 94
+}

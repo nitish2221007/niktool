@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 23 x Height 20)",
+  "description": "Calculate volume of a cylinder with radius 23 and height 20 (V = πr²h = 33238.05).",
+  "path": "/tools/volume-of-cylinder-radius-23-height-20-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 23 height 20 units",
+    "Volume of Cylinder (Radius 23 x Height 20)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

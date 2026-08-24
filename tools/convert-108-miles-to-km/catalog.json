@@ -1,0 +1,15 @@
+{
+  "name": "Convert 108 Miles to KM",
+  "description": "Convert 108 miles to kilometers (173.81 km). 100% free and local.",
+  "path": "/tools/convert-108-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 108 miles to km",
+    "Convert 108 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

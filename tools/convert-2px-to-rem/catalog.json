@@ -1,0 +1,15 @@
+{
+  "name": "Convert 2px to REM",
+  "description": "Convert 2 pixels (px) to REM units based on 16px root font size (0.1250rem).",
+  "path": "/tools/convert-2px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 2px to rem",
+    "Convert 2px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

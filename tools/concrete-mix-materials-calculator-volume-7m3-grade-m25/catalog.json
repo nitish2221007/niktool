@@ -1,0 +1,15 @@
+{
+  "name": "Concrete Materials Calculator (7 m³ Volume, Grade M25)",
+  "description": "Calculate cement bags (56 bags), sand, and gravel quantities for 7 m³ of M25 concrete.",
+  "path": "/tools/concrete-mix-materials-calculator-volume-7m3-grade-m25/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "concrete mix materials calculator volume 7m3 grade m25",
+    "Concrete Materials Calculator (7 m³ Volume, Grade M25)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

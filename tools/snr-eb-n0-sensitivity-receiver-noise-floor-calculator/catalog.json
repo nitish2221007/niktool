@@ -1,0 +1,16 @@
+{
+  "name": "Receiver Noise Floor, SNR & Eb/N0 Conversion Calculator",
+  "description": "Calculate thermal noise floor Nfloor = kTB, receiver sensitivity, and convert between SNR (dB) and Eb/N0 (dB).",
+  "path": "/tools/snr-eb-n0-sensitivity-receiver-noise-floor-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "snr eb n0 sensitivity receiver noise floor calculator",
+    "Receiver Noise Floor, SNR & Eb/N0 Conversion Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

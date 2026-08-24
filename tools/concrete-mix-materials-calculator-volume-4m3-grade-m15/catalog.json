@@ -1,0 +1,15 @@
+{
+  "name": "Concrete Materials Calculator (4 m³ Volume, Grade M15)",
+  "description": "Calculate cement bags (32 bags), sand, and gravel quantities for 4 m³ of M15 concrete.",
+  "path": "/tools/concrete-mix-materials-calculator-volume-4m3-grade-m15/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "concrete mix materials calculator volume 4m3 grade m15",
+    "Concrete Materials Calculator (4 m³ Volume, Grade M15)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

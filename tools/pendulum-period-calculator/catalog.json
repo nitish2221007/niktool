@@ -1,0 +1,15 @@
+{
+  "name": "Simple Pendulum Period & Frequency Calculator",
+  "description": "Calculate pendulum oscillation period (T = 2π · √(L/g)), harmonic frequency (f = 1/T), and required string length from target timing.",
+  "path": "/tools/pendulum-period-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pendulum period calculator",
+    "simple pendulum formula",
+    "pendulum frequency calculator",
+    "physics pendulum oscillation time",
+    "length of pendulum for 1 second"
+  ],
+  "order": 152
+}

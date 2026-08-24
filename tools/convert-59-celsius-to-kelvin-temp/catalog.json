@@ -1,0 +1,15 @@
+{
+  "name": "Convert 59°C Celsius to Kelvin Temp",
+  "description": "Convert 59 degrees Celsius (°C) to Kelvin (332.15 K) instantly.",
+  "path": "/tools/convert-59-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 59 celsius to kelvin temp",
+    "Convert 59°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Psychrometric Sensible & Latent Cooling Load (CFM) Calculator",
+  "description": "Calculate HVAC total cooling coil enthalpy load (q_total = 4.5 · CFM · Δh), sensible heat (q_s = 1.08 · CFM · ΔT), and latent moisture heat (q_l = 4840 · CFM · ΔW).",
+  "path": "/tools/psychrometric-enthalpy-sensible-latent-heat-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "psychrometric cooling load calculator",
+    "sensible latent heat formula 1.08 cfm delta t",
+    "latent heat 4840 cfm delta w calculator",
+    "hvac sensible heat ratio shr calculator online",
+    "air conditioning coil sizing calculator"
+  ],
+  "order": 622
+}

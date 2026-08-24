@@ -1,0 +1,15 @@
+{
+  "name": "Convert 70°C Celsius to Fahrenheit",
+  "description": "Convert 70 degrees Celsius (°C) to Fahrenheit (158.0°F).",
+  "path": "/tools/convert-70-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 70 celsius to fahrenheit",
+    "Convert 70°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

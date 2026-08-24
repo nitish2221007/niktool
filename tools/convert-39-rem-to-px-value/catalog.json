@@ -1,0 +1,15 @@
+{
+  "name": "Convert 39 REM to PX Value",
+  "description": "Convert 39 REM units to pixels (624 px) based on standard 16px root font.",
+  "path": "/tools/convert-39-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 39 rem to px value",
+    "Convert 39 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

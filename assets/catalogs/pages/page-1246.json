@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Peng-Robinson Equation of State (PR-EOS Vapor-Liquid Equilibrium) Calculator",
+    "description": "Calculate petroleum reservoir and natural gas PVT properties using the cubic Peng-Robinson Equation of State (PR-EOS): attraction parameter a(T), co-volume b, and compressibility roots Z.",
+    "path": "/tools/peng-robinson-equation-of-state-fugacity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "peng robinson calculator",
+      "pr eos equation of state formula online",
+      "petroleum reservoir fluid pvt peng robinson calculator",
+      "acentric factor alpha temperature function calculator",
+      "chemical engineering thermodynamics petroleum engineering online"
+    ]
+  },
+  {
+    "name": "Antoine Equation Vapor Pressure (log₁₀ P = A - B / (T + C)) Calculator",
+    "description": "Calculate pure liquid equilibrium saturation vapor pressure P^sat (in mmHg, bar, and kPa) and boiling point temperature as a function of temperature using NIST Antoine empirical coefficients (A, B, C).",
+    "path": "/tools/antoine-equation-vapor-pressure-pure-liquids-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "antoine equation calculator",
+      "vapor pressure formula log10 p equals a minus b over t plus c online",
+      "boiling point vapor pressure nist antoine calculator",
+      "saturation pressure chemical engineering thermodynamics calculator",
+      "physical chemistry chemical engineering vapor pressure online"
+    ]
+  },
+  {
+    "name": "Raoult's & Dalton's Law Binary Vapor-Liquid Equilibrium (y_i·P = x_i·P_i^sat) Calculator",
+    "description": "Calculate ideal binary vapor-liquid equilibrium (VLE) Bubble Point Pressure (P_bubble = x_A·P_A^sat + x_B·P_B^sat), Dew Point Pressure, vapor composition y_A, and relative volatility α_AB.",
+    "path": "/tools/raoult-dalton-law-vapor-liquid-equilibrium-vle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "raoult law calculator",
+      "vapor liquid equilibrium vle formula bubble dew point online",
+      "daltons law partial pressure binary mixture calculator",
+      "relative volatility alpha ab vle calculator",
+      "chemical engineering distillation thermodynamics online"
+    ]
+  },
+  {
+    "name": "Chapman-Enskog Binary Gas Diffusivity (D_AB = 1.858·10⁻³·T^(3/2)·√(1/M_A + 1/M_B) / (P·σ_AB²·Ω_D)) Calculator",
+    "description": "Calculate low-pressure binary gas molecular diffusion coefficient D_AB in cm²/s and m²/s using the rigorous Chapman-Enskog kinetic gas theory with Lennard-Jones collision parameters (σ_AB, Ω_D).",
+    "path": "/tools/chapman-enskog-gas-diffusivity-collision-integral-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chapman enskog calculator",
+      "binary gas diffusivity formula online",
+      "lennard jones collision integral gas diffusion calculator",
+      "kinetic theory of gases molecular diffusivity calculator",
+      "chemical engineering transport phenomena gas diffusion online"
+    ]
+  },
+  {
+    "name": "Ergun Equation Packed Bed Pressure Drop (ΔP / L) Calculator",
+    "description": "Calculate fluid pressure drop through fixed packed catalytic beds and sand filters using the Ergun equation accounting for laminar viscous Blake-Kozeny and turbulent inertial Burke-Plummer terms.",
+    "path": "/tools/ergun-equation-packed-bed-pressure-drop-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ergun equation calculator",
+      "packed bed pressure drop formula delta p over l online",
+      "blake kozeny burke plummer packed column calculator",
+      "catalytic reactor bed voidage pressure drop calculator",
+      "chemical engineering fluidization packed beds online"
+    ]
+  },
+  {
+    "name": "Hagen-Poiseuille Capillary Viscometer (Q = π·R⁴·ΔP / (8·μ·L)) Calculator",
+    "description": "Calculate laminar volumetric flow rate Q in mL/min, fluid dynamic viscosity μ (in cP and Pa·s), and wall shear stress τ_w using the Hagen-Poiseuille law for Ostwald and Ubbelohde capillary viscometers.",
+    "path": "/tools/hagen-poiseuille-laminar-flow-capillary-viscometer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hagen poiseuille calculator",
+      "capillary viscometer flow rate formula online",
+      "ostwald viscometer viscosity calculator",
+      "laminar tube flow pressure drop poiseuille calculator",
+      "fluid mechanics rheology chemical engineering online"
+    ]
+  },
+  {
+    "name": "Stokes' Law Terminal Settling Velocity (v_t = 2·r²·(ρ_p - ρ_f)·g / 9·μ) Calculator",
+    "description": "Calculate small spherical particle gravitational terminal settling velocity v_t (in mm/s and m/s), particle Reynolds number Re_p, and drag force for sedimentation basins, wastewater clarifiers, and aerosol settling.",
+    "path": "/tools/stokes-law-terminal-settling-velocity-particle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stokes law calculator",
+      "terminal settling velocity formula particle online",
+      "sedimentation clarifier settling velocity calculator",
+      "particle reynolds number drag force calculator",
+      "environmental chemical engineering fluid mechanics online"
+    ]
+  },
+  {
+    "name": "Fluidized Bed Minimum Fluidization Velocity (u_mf) & Incipient Fluidization Calculator",
+    "description": "Calculate gas-solid and liquid-solid fluidized bed minimum fluidization superficial velocity u_mf in m/s (Wen & Yu equation) to determine the onset of bubbling fluidization in catalytic reactors.",
+    "path": "/tools/fluidized-bed-minimum-fluidization-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "minimum fluidization velocity calculator",
+      "umf formula wen and yu fluidized bed online",
+      "incipient fluidization gas solid reactor calculator",
+      "fluidized bed pressure drop voidage calculator",
+      "chemical engineering powder technology fluidization online"
+    ]
+  },
+  {
+    "name": "Cooling Tower Merkel Equation (NTU = KaV / L = ∫ c_w·dT_w / (h_s - h_a)) Calculator",
+    "description": "Calculate industrial evaporative cooling tower Number of Transfer Units (NTU = KaV / L) using Merkel's enthalpy driving force integral, cooling range (T_in - T_out), and wet-bulb approach temperature.",
+    "path": "/tools/cooling-tower-merkel-enthalpy-number-of-transfer-units-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cooling tower calculator",
+      "merkel equation ntu formula kav over l online",
+      "cooling tower range approach enthalpy calculator",
+      "evaporative cooling water tower ntu calculator",
+      "thermal chemical engineering hvac cooling towers online"
+    ]
+  },
+  {
+    "name": "Reverse Osmosis Water Flux (J_w = A·(ΔP - ΔΠ)) & Van 't Hoff Osmotic Pressure Calculator",
+    "description": "Calculate seawater and brackish water osmotic pressure (Π = i·M·R·T) and reverse osmosis (RO) membrane pure water permeate flux (J_w = A · (ΔP - ΔΠ) in LMH - Liters/m²·hr).",
+    "path": "/tools/membrane-osmotic-pressure-van-t-hoff-reverse-osmosis-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reverse osmosis calculator",
+      "osmotic pressure formula van t hoff pi equals imrt online",
+      "ro membrane water flux lmh calculator",
+      "seawater desalination reverse osmosis pressure calculator",
+      "chemical environmental engineering membrane separation online"
+    ]
+  },
+  {
+    "name": "Cyclone Dust Separator Cut Diameter (d_pc = √(9·μ·B / (2·π·N_e·v_i·(ρ_p - ρ_g)))) Calculator",
+    "description": "Calculate industrial gas cyclone separator particle cut diameter d_pc in μm (Lapple 50% collection size), overall collection efficiency η for dust particle size d_p, and centrifugal separation acceleration.",
+    "path": "/tools/cyclone-separator-cut-diameter-collection-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cyclone separator calculator",
+      "cut diameter dpc formula lapple cyclone online",
+      "cyclone dust collection efficiency calculator",
+      "centrifugal gas particle separation cyclone calculator",
+      "air pollution control chemical engineering dust collector online"
+    ]
+  },
+  {
+    "name": "Bragg's Law X-Ray Diffraction (nλ = 2d·sin θ) & Interplanar Spacing Calculator",
+    "description": "Calculate crystal lattice interplanar spacing d (d = n·λ / (2·sin θ) in Ångströms and nm), diffraction Bragg angle θ, and lattice parameter a from X-ray diffraction (XRD) peak 2θ positions.",
+    "path": "/tools/bragg-law-xray-diffraction-xrd-interplanar-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bragg law calculator",
+      "xray diffraction interplanar spacing formula n lambda equals 2d sin theta online",
+      "xrd 2theta peak to d spacing calculator angstroms",
+      "crystallography lattice spacing bragg diffraction calculator",
+      "materials science crystallography solid state physics online"
+    ]
+  },
+  {
+    "name": "Hall-Petch Grain Boundary Strengthening (σ_y = σ₀ + k_y·d^(-½)) Calculator",
+    "description": "Calculate polycrystalline metal yield strength σ_y in MPa (σ_y = σ₀ + k_y · d^(-½)), friction stress σ₀, and Hall-Petch grain refinement strengthening coefficient k_y.",
+    "path": "/tools/hall-petch-grain-boundary-strengthening-yield-strength-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hall petch calculator",
+      "grain boundary strengthening formula yield strength online",
+      "hall petch relation grain size d minus half calculator",
+      "grain refinement microalloyed steel yield strength calculator",
+      "metallurgy materials science mechanical properties online"
+    ]
+  },
+  {
+    "name": "Schmid's Law Critical Resolved Shear Stress (CRSS τ = σ·cos φ·cos λ) Calculator",
+    "description": "Calculate single-crystal dislocation slip resolved shear stress τ (tau = σ · cos φ · cos λ), Schmid Factor m (m = cos φ · cos λ), and required tensile yield stress σ for crystallographic plastic deformation.",
+    "path": "/tools/schmid-law-resolved-shear-stress-slip-system-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "schmid law calculator",
+      "critical resolved shear stress crss formula online",
+      "schmid factor cos phi cos lambda calculator",
+      "single crystal dislocation slip system calculator",
+      "materials science crystallography plastic deformation online"
+    ]
+  },
+  {
+    "name": "Lever Rule Binary Phase Diagram Phase Fraction (w_L & w_α) Calculator",
+    "description": "Calculate solid/liquid equilibrium phase mass fractions (w_L = (C_α - C₀)/(C_α - C_L) and w_α = (C₀ - C_L)/(C_α - C_L)) across tie-lines in binary alloy phase diagrams (Cu-Ni, Fe-C, Pb-Sn).",
+    "path": "/tools/lever-rule-binary-phase-diagram-mass-fraction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lever rule calculator",
+      "binary phase diagram mass fraction formula online",
+      "liquid solid phase fraction tie line calculator",
+      "metallurgy phase diagram lever rule calculator wt percent",
+      "metallurgy materials science phase transformations online"
+    ]
+  },
+  {
+    "name": "JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator",
+    "description": "Calculate isothermal phase transformation volume fraction X(t) in metallurgy and polymer crystallization using the Johnson-Mehl-Avrami-Kolmogorov (JMAK) sigmoidal kinetic equation.",
+    "path": "/tools/johnson-mehl-avrami-kolmogorov-jmak-phase-transformation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "jmak calculator",
+      "johnson mehl avrami kolmogorov formula online",
+      "isothermal phase transformation kinetics calculator",
+      "avrami exponent n crystallization calculator",
+      "metallurgy phase transitions materials science online"
+    ]
+  },
+  {
+    "name": "Griffith Fracture Mechanics Critical Stress (σ_c = √(2·E·γ_s / π·a)) & K_IC Calculator",
+    "description": "Calculate brittle material fracture stress σ_c in MPa (σ_c = √(2·E·γ_s / (π·a))), Mode I Stress Intensity Factor K_I (K_I = Y·σ·√(π·a)), and critical flaw crack size a_c for linear elastic fracture mechanics (LEFM).",
+    "path": "/tools/griffith-fracture-mechanics-critical-crack-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "griffith fracture mechanics calculator",
+      "critical fracture stress formula sigma c equals sqrt 2 e gamma online",
+      "stress intensity factor k1c fracture toughness calculator",
+      "critical crack length brittle fracture calculator",
+      "materials science solid mechanics fracture mechanics online"
+    ]
+  },
+  {
+    "name": "Paris' Law Fatigue Crack Propagation (da/dN = C·(ΔK)ᵐ) Calculator",
+    "description": "Calculate subcritical cyclical fatigue crack growth rate da/dN (in mm/cycle and m/cycle) from cyclic stress intensity range ΔK = Y·Δσ·√(π·a) using the Paris-Erdogan empirical power law.",
+    "path": "/tools/paris-law-fatigue-crack-growth-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "paris law calculator",
+      "fatigue crack growth rate formula da over dn online",
+      "cyclic stress intensity delta k paris law calculator",
+      "fatigue lifetime cycles to failure calculator",
+      "mechanical engineering aerospace fatigue fracture online"
+    ]
+  },
+  {
+    "name": "Larson-Miller Parameter Creep Rupture Lifetime (LMP = T·(C + log₁₀ t_r)) Calculator",
+    "description": "Calculate high-temperature creep rupture time t_r in hours and Larson-Miller Parameter (LMP = T · (C + log₁₀(t_r)) / 1000) for gas turbine superalloys, boiler tubes, and nuclear reactor vessels.",
+    "path": "/tools/larson-miller-parameter-creep-rupture-lifetime-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "larson miller parameter calculator",
+      "creep rupture lifetime formula lmp online",
+      "high temperature superalloy creep time to rupture calculator",
+      "larson miller constant c 20 calculator",
+      "metallurgy materials science high temperature mechanics online"
+    ]
+  },
+  {
+    "name": "Weibull Modulus (P_f = 1 - e^(-(σ / σ₀)ᵐ)) Brittle Ceramic Fracture Calculator",
+    "description": "Calculate brittle ceramic and glass statistical failure probability P_f (P_f = 1 - exp(-(σ / σ₀)^m)), Weibull modulus m, and characteristic characteristic strength σ₀ (63.2% failure stress).",
+    "path": "/tools/weibull-modulus-brittle-ceramic-fracture-probability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "weibull modulus calculator",
+      "ceramic fracture probability formula online",
+      "characteristic strength sigma 0 weibull distribution calculator",
+      "brittle materials statistical reliability calculator",
+      "materials science ceramic engineering reliability online"
+    ]
+  },
+  {
+    "name": "Miller Indices Cubic Interplanar Spacing (d_hkl = a / √(h² + k² + l²)) Calculator",
+    "description": "Calculate cubic crystal lattice plane interplanar spacing d_hkl in Ångströms (d_hkl = a / √(h² + k² + l²)), plane normal orientation, and Atomic Packing Factor (APF) for SC, BCC, and FCC crystal structures.",
+    "path": "/tools/miller-indices-cubic-crystal-interplanar-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "miller indices calculator",
+      "cubic crystal interplanar spacing formula d hkl online",
+      "lattice parameter a to d spacing calculator",
+      "bcc fcc sc atomic packing factor calculator",
+      "crystallography materials science solid state physics online"
+    ]
+  },
+  {
+    "name": "Hume-Rothery Solid Solubility Rules (Atomic Size, Crystal Structure & Electronegativity) Evaluator",
+    "description": "Evaluate substitutional complete solid solution solubility potential between solvent and solute elements using the 4 Hume-Rothery criteria (Atomic Size Difference under 15%, Crystal Structure, Valence, Electronegativity).",
+    "path": "/tools/hume-rothery-solid-solubility-rules-evaluator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hume rothery rules calculator",
+      "substitutional solid solution solubility criteria online",
+      "atomic radius difference 15 percent rule calculator",
+      "complete miscibility alloy hume rothery evaluator",
+      "metallurgy materials science phase diagrams online"
+    ]
+  },
+  {
+    "name": "Hardness Conversion (Vickers HV, Brinell HBW, Rockwell HRC & Tensile Strength) Calculator",
+    "description": "Calculate and convert metallurgical hardness test scales (ASTM E140): Vickers Diamond Pyramid Hardness (HV), Brinell (HBW 10/3000), Rockwell C (HRC), Rockwell B (HRB), and estimated Ultimate Tensile Strength (UTS in MPa).",
+    "path": "/tools/vickers-brinell-rockwell-hardness-conversion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hardness conversion calculator",
+      "vickers to rockwell hrc brinell hbw formula online",
+      "astm e140 hardness conversion tensile strength calculator",
+      "metallurgical hardness testing scales calculator",
+      "metallurgy mechanical engineering materials testing online"
+    ]
+  },
+  {
+    "name": "Mohr's Circle Principal Stresses (σ₁, σ₂) & Maximum In-Plane Shear (τ_max) Calculator",
+    "description": "Calculate 2D plane stress state Mohr's Circle center (σ_avg), circle radius (R), principal normal stresses (σ₁, σ₂), maximum in-plane shear stress (τ_max), and principal stress orientation angle (2θ_p).",
+    "path": "/tools/mohr-circle-principal-stresses-maximum-shear-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mohrs circle calculator",
+      "principal stresses formula sigma 1 sigma 2 online",
+      "maximum shear stress tau max mohrs circle calculator",
+      "plane stress transformation angle of principal plane calculator",
+      "solid mechanics mechanical civil engineering stress analysis online"
+    ]
+  }
+]

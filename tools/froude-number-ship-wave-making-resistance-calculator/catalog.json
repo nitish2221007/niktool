@@ -1,0 +1,15 @@
+{
+  "name": "Froude Number (Fn) Ship Wave-Making Resistance & Hull Speed Calculator",
+  "description": "Calculate naval architectural volumetric Froude number (Fn = v / √(g · L_wl)) and displacement hull maximum theoretical displacement hull speed (v_hull = 1.34 · √(L_wl_ft)) in knots.",
+  "path": "/tools/froude-number-ship-wave-making-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "froude number calculator",
+    "ship hull speed formula 1.34 sqrt lwl online",
+    "displacement hull wave making resistance froude calculator",
+    "naval architecture fn speed length ratio calculator",
+    "planing semi displacement froude number online"
+  ],
+  "order": 792
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in January 1944)",
+  "description": "Calculate exact age (82 years old in 2026) for someone born in january 1944.",
+  "path": "/tools/age-calculator-born-in-january-1944/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in january 1944",
+    "Age Calculator (Born in January 1944)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

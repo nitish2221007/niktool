@@ -1,0 +1,15 @@
+{
+  "name": "Convert 36 KM to Miles",
+  "description": "Convert 36 kilometers to miles (22.37 miles). 100% free and local.",
+  "path": "/tools/convert-36-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 36 km to miles",
+    "Convert 36 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

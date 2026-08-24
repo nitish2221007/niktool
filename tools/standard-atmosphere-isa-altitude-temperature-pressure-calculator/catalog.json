@@ -1,0 +1,15 @@
+{
+  "name": "Standard Atmosphere ISA (Troposphere & Stratosphere T(h), P(h), ρ(h)) Calculator",
+  "description": "Calculate 1976 International Standard Atmosphere (ISA) thermodynamic properties: temperature T(h) in °C/K, barometric air pressure P(h) in hPa/psi, density ρ(h) in kg/m³, and speed of sound a(h) in knots/m/s from flight altitude in feet or meters.",
+  "path": "/tools/standard-atmosphere-isa-altitude-temperature-pressure-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "isa standard atmosphere calculator",
+    "international standard atmosphere 1976 altitude calculator",
+    "air density temperature pressure altitude calculator aviation",
+    "speed of sound altitude isa calculator knots m s",
+    "aerospace flight aerodynamics isa online"
+  ],
+  "order": 1108
+}

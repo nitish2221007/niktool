@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calculator (Age 20 Years Male)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1668 kcal/day) for 20-year-old male.",
+  "path": "/tools/bmr-calculator-age-20-years-male/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calculator age 20 years male",
+    "BMR Calculator (Age 20 Years Male)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

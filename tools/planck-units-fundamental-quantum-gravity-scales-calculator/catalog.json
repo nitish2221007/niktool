@@ -1,0 +1,15 @@
+{
+  "name": "Planck Fundamental Physical Scales (Length l_p, Time t_p, Mass m_p & Energy E_p) Calculator",
+  "description": "Calculate fundamental quantum gravity dimensional Planck units (Planck Length l_p = √(ℏ·G/c³) = 1.616 × 10⁻³⁵ m, Planck Time t_p = √(ℏ·G/c⁵) = 5.391 × 10⁻⁴⁴ s, Planck Mass m_p = √(ℏ·c/G) = 21.76 μg, Planck Energy E_p = 1.956 GJ) from speed of light c, gravitational constant G, and Planck constant ℏ.",
+  "path": "/tools/planck-units-fundamental-quantum-gravity-scales-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "planck units calculator",
+    "planck length formula l_p equals sqrt hbar g over c cubed online",
+    "planck time 5.391e-44 seconds quantum gravity calculator",
+    "planck energy 1.956 gj string theory scale calculator",
+    "natural units max planck 1899 constants calculator"
+  ],
+  "order": 881
+}

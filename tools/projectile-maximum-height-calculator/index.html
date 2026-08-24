@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projectile Maximum Peak Height Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate the maximum vertical apex apex height (H_max = (v₀ · sin θ)² / (2g)) and time to apex for ballistic projectiles and sports balls.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/projectile-maximum-height-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projectile Maximum Peak Height Calculator | NikTool">
+  <meta property="og:description" content="Calculate the maximum vertical apex apex height (H_max = (v₀ · sin θ)² / (2g)) and time to apex for ballistic projectiles and sports balls.">
+  <meta property="og:url" content="https://niktool.in/tools/projectile-maximum-height-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Projectile Maximum Peak Height Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/projectile-maximum-height-calculator/",
+        "description": "Calculate the maximum vertical apex apex height (H_max = (v₀ · sin θ)² / (2g)) and time to apex for ballistic projectiles and sports balls.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What launch angle achieves maximum height?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A 90° straight vertical launch directs 100% of initial kinetic energy into vertical altitude."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Projectile Maximum Peak Height Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Projectile Maximum Peak Height Calculator</h1>
+      <p>Calculate the maximum vertical apex apex height (H_max = (v₀ · sin θ)² / (2g)) and time to apex for ballistic projectiles and sports balls.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Launch Speed & Launch Angle</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pmh-v0">Initial Velocity v₀ (m/s)</label>
+          <input class="tool-textarea" id="pmh-v0" type="number" step="any" value="30" placeholder="30 m/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pmh-angle">Launch Angle θ (Degrees)</label>
+          <input class="tool-textarea" id="pmh-angle" type="number" min="1" max="90" step="any" value="60" placeholder="60°" />
+        </div>
+      </div>
+      <div id="pmh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pmh-res-h" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">34.39 meters</span>
+            <span class="stat-label">Maximum Peak Height (H_max)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pmh-res-time" style="font-weight:700;">2.65 seconds</span>
+            <span class="stat-label">Time to Reach Apex (t_apex)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Projectile Maximum Peak Height Calculator</h2>
+      <ol>
+        <li>Enter initial muzzle or throw velocity (v₀) in meters per second (m/s).</li>
+        <li>Enter launch elevation angle θ in degrees.</li>
+        <li>Inspect the maximum peak trajectory altitude and time to reach apex.</li>
+      </ol>
+
+      <h2>Conservation of Mechanical Energy at Apex</h2>
+      <p>At the apex peak of ballistic flight, vertical velocity momentarily drops to exactly zero (vy = 0), converting all initial vertical kinetic energy into gravitational potential energy: m·g·h = ½·m·vy².</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What launch angle achieves maximum height?</summary>
+        <p>A 90° straight vertical launch directs 100% of initial kinetic energy into vertical altitude.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/projectile-maximum-height-calculator/tool.js"></script>
+</body>
+</html>

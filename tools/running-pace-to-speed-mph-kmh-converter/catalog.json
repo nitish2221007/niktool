@@ -1,0 +1,15 @@
+{
+  "name": "Running Pace to Speed (km/h & mph) Converter",
+  "description": "Convert running pace (minutes and seconds per km or mile) into speed in Kilometers per Hour (km/h), Miles per Hour (mph), and treadmill settings in real time.",
+  "path": "/tools/running-pace-to-speed-mph-kmh-converter/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "running pace to speed converter",
+    "pace to kmh converter",
+    "min per mile to mph calculator",
+    "treadmill speed pace chart online",
+    "running pace speed matrix calculator"
+  ],
+  "order": 299
+}

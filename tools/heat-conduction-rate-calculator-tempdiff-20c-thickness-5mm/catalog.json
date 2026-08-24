@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=20°C, Thick 5mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 200000 W) across 5mm steel wall at ΔT=20°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-20c-thickness-5mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 20c thickness 5mm",
+    "Thermal Heat Conduction Calculator (ΔT=20°C, Thick 5mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

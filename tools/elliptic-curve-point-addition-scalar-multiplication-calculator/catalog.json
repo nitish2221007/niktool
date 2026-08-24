@@ -1,0 +1,15 @@
+{
+  "name": "Elliptic Curve Point Addition (P + Q) & Doubling (2P on y² = x³ + ax + b mod p) Calculator",
+  "description": "Calculate Weierstrass elliptic curve point addition (P + Q = R) and point doubling (2P) over finite field 𝔽_p (y² ≡ x³ + ax + b mod p) for ECC cryptography (Bitcoin secp256k1 & Curve25519).",
+  "path": "/tools/elliptic-curve-point-addition-scalar-multiplication-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "elliptic curve point addition calculator",
+    "ecc group law formula y squared equals x cubed plus ax plus b online",
+    "elliptic curve point doubling slope lambda calculator",
+    "secp256k1 ecc cryptography point addition calculator",
+    "finite field cryptography elliptic curves online"
+  ],
+  "order": 1106
+}

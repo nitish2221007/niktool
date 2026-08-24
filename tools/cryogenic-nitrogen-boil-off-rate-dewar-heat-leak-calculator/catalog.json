@@ -1,0 +1,15 @@
+{
+  "name": "Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator",
+  "description": "Calculate cryogenic liquid boil-off evaporation rate (ṁ = Q_leak / ΔH_vap) in kg/h and Liters/day from Dewar vacuum insulation thermal heat leak Q_leak in Watts.",
+  "path": "/tools/cryogenic-nitrogen-boil-off-rate-dewar-heat-leak-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cryogenic boil off rate calculator",
+    "liquid nitrogen boil off formula m dot equals q over delta h vap",
+    "liquid helium dewar heat leak calculator online",
+    "lng lox lh2 boil off gas calculator",
+    "cryogenic storage tank evaporation rate online"
+  ],
+  "order": 777
+}

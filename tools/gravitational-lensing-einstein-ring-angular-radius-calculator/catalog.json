@@ -1,0 +1,15 @@
+{
+  "name": "Gravitational Lensing Einstein Ring Angular Radius (θ_E = √(4GM/c² · D_LS / (D_L·D_S))) Calculator",
+  "description": "Calculate strong gravitational lensing Einstein ring angular radius (θ_E) in arcseconds, physical lens Einstein radius in kiloparsecs, and total gravitational mass of lensing galaxies and dark matter halos.",
+  "path": "/tools/gravitational-lensing-einstein-ring-angular-radius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "einstein ring calculator",
+    "gravitational lensing formula theta e online",
+    "strong gravitational lensing angular radius arcseconds calculator",
+    "dark matter halo mass gravitational lens calculator",
+    "astrophysics general relativity gravitational lensing online"
+  ],
+  "order": 1171
+}

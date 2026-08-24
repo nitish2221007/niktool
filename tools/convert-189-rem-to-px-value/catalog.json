@@ -1,0 +1,15 @@
+{
+  "name": "Convert 189 REM to PX Value",
+  "description": "Convert 189 REM units to pixels (3024 px) based on standard 16px root font.",
+  "path": "/tools/convert-189-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 189 rem to px value",
+    "Convert 189 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

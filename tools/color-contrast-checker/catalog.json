@@ -1,0 +1,16 @@
+{
+  "name": "Color Contrast Checker",
+  "description": "Calculate WCAG 2.1 color contrast ratios for foreground and background colors with pass/fail compliance ratings for AA and AAA levels.",
+  "path": "/tools/color-contrast-checker/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "color contrast checker",
+    "wcag contrast checker",
+    "accessibility contrast ratio",
+    "accessible colors test",
+    "web accessibility contrast",
+    "wcag 2.1 checker"
+  ],
+  "order": 54
+}

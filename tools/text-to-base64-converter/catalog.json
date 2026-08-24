@@ -1,0 +1,15 @@
+{
+  "name": "Convert Text to Base64 Online",
+  "description": "Encode plain text string into Base64 format.",
+  "path": "/tools/text-to-base64-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "text to base64 converter",
+    "Convert Text to Base64 Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

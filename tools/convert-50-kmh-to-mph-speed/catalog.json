@@ -1,0 +1,15 @@
+{
+  "name": "Convert 50 KM/H to MPH Speed",
+  "description": "Convert 50 kilometers per hour (km/h) to miles per hour (31.07 mph).",
+  "path": "/tools/convert-50-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 50 kmh to mph speed",
+    "Convert 50 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

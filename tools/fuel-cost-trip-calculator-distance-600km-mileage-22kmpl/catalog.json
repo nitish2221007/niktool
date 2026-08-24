@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (600 km Distance, 22 km/l Mileage)",
+  "description": "Calculate fuel needed (27.3 L) and cost (₹2634) for 600 km trip at 22 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-600km-mileage-22kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 600km mileage 22kmpl",
+    "Fuel Cost Trip Calculator (600 km Distance, 22 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

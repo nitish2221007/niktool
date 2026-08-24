@@ -1,0 +1,15 @@
+{
+  "name": "Drinking Water Chlorine Disinfection CT Value & Pathogen Log Inactivation Calculator",
+  "description": "Calculate drinking water disinfection Contact Time product (CT = C · T) in mg·min/L and verify EPA pathogen Log Reduction credits (Giardia 3-log 99.9%, Virus 4-log 99.99%, Cryptosporidium).",
+  "path": "/tools/chlorine-disinfection-ct-disinfection-log-kill-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "chlorine ct value calculator",
+    "disinfection contact time ct formula c times t online",
+    "giardia virus log inactivation epa ct calculator",
+    "drinking water chlorine residual ct credit online",
+    "water treatment plant chlorine contact chamber calculator"
+  ],
+  "order": 735
+}

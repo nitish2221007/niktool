@@ -1,0 +1,15 @@
+{
+  "name": "FinFET RC Propagation Delay & Elmore Gate Delay Calculator",
+  "description": "Calculate sub-5nm 3D FinFET and Gate-All-Around (GAA) nanosheet digital logic stage propagation delay t_pd in picoseconds (Elmore RC Delay: t_pd = ln(2) · R_on · C_L = 0.693 · R_on · C_L) and maximum clock frequency.",
+  "path": "/tools/finfet-gate-delay-rc-propagation-delay-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "finfet gate delay calculator",
+    "elmore rc propagation delay formula online",
+    "cmos stage delay 0.69 ron cl calculator",
+    "nanosheet finfet switching speed calculator",
+    "vlsi digital design microelectronics physical design online"
+  ],
+  "order": 1372
+}

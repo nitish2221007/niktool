@@ -1,0 +1,15 @@
+{
+  "name": "Convert 11 KM/H to MPH Speed",
+  "description": "Convert 11 kilometers per hour (km/h) to miles per hour (6.84 mph).",
+  "path": "/tools/convert-11-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 11 kmh to mph speed",
+    "Convert 11 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

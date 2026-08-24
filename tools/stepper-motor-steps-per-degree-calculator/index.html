@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stepper Motor Steps per Degree & Resolution Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate total pulses per revolution (PPR = (360 / Step Angle) · Microstepping), step angular resolution in degrees and arcminutes for CNC and 3D printer drivers.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/stepper-motor-steps-per-degree-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stepper Motor Steps per Degree & Resolution Calculator | NikTool">
+  <meta property="og:description" content="Calculate total pulses per revolution (PPR = (360 / Step Angle) · Microstepping), step angular resolution in degrees and arcminutes for CNC and 3D printer drivers.">
+  <meta property="og:url" content="https://niktool.in/tools/stepper-motor-steps-per-degree-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Stepper Motor Steps per Degree & Resolution Calculator",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/stepper-motor-steps-per-degree-calculator/",
+        "description": "Calculate total pulses per revolution (PPR = (360 / Step Angle) · Microstepping), step angular resolution in degrees and arcminutes for CNC and 3D printer drivers.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How many microsteps are in one revolution of a 1.8° motor at 1/16 microstepping?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "200 full steps × 16 = 3,200 microsteps per revolution (0.1125° per microstep)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Stepper Motor Steps per Degree & Resolution Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Stepper Motor Steps per Degree & Resolution Calculator</h1>
+      <p>Calculate total pulses per revolution (PPR = (360 / Step Angle) · Microstepping), step angular resolution in degrees and arcminutes for CNC and 3D printer drivers.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Step Angle (°) & Microstep Driver Setting</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="stp-ang">Motor Full Step Angle</label>
+          <select class="tool-textarea" id="stp-ang">
+            <option value="1.8" selected>1.8° (200 Full Steps/Rev - Standard NEMA 17/23)</option>
+            <option value="0.9">0.9° (400 Full Steps/Rev - High Precision)</option>
+            <option value="7.5">7.5° (48 Full Steps/Rev - Can-Stack)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="stp-ustep">Microstepping Driver</label>
+          <select class="tool-textarea" id="stp-ustep">
+            <option value="1">1 (Full Step)</option>
+            <option value="2">1/2 Half Step</option>
+            <option value="4">1/4 Microstep</option>
+            <option value="8">1/8 Microstep</option>
+            <option value="16" selected>1/16 Microstep (A4988 / TMC2209 Standard)</option>
+            <option value="32">1/32 Microstep</option>
+            <option value="64">1/64 Microstep</option>
+          </select>
+        </div>
+      </div>
+      <div id="stp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="stp-res-ppr" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">3,200 Pulses / Rev</span>
+            <span class="stat-label">Total Pulses per Revolution</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stp-res-res" style="font-weight:700;">0.1125° per pulse (6.75 arcmin)</span>
+            <span class="stat-label">Angular Positioning Resolution</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stp-res-spd">8.89 Steps / Degree</span>
+            <span class="stat-label">Pulses per Degree of Rotation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Stepper Motor Steps per Degree & Resolution Calculator</h2>
+      <ol>
+        <li>Select motor step angle (1.8° standard or 0.9° high precision).</li>
+        <li>Select motor driver microstepping setting (Full Step up to 1/64 microstepping).</li>
+        <li>Inspect total pulses per revolution (PPR) and angular resolution per step.</li>
+      </ol>
+
+      <h2>TMC SilentStepStick Microstep Interpolation</h2>
+      <p>Microstepping divides full motor stator coil phases into sine-cosine current sub-steps, dramatically reducing low-speed acoustic resonance and vibration in 3D printers and telescope trackers.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How many microsteps are in one revolution of a 1.8° motor at 1/16 microstepping?</summary>
+        <p>200 full steps × 16 = 3,200 microsteps per revolution (0.1125° per microstep).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/stepper-motor-steps-per-degree-calculator/tool.js"></script>
+</body>
+</html>

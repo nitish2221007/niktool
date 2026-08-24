@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=40Ω, R2=140Ω)",
+  "description": "Calculate Series Equivalent (180 Ω) and Parallel Equivalent (31.11 Ω) for resistors R1=40Ω and R2=140Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-40ohm-r2-140ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 40ohm r2 140ohm",
+    "Resistor Circuit Calculator (R1=40Ω, R2=140Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

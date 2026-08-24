@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 110V, Current 9A)",
+  "description": "Calculate Resistance (12.22 Ω) and Electric Power (990.0 W) for 110V voltage and 9A current.",
+  "path": "/tools/ohms-law-calculator-voltage-110v-current-9a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 110v current 9a",
+    "Ohm's Law Calculator (Voltage 110V, Current 9A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

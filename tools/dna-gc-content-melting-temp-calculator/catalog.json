@@ -1,0 +1,15 @@
+{
+  "name": "DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator",
+  "description": "Calculate nucleotide Guanine-Cytosine GC percentage (%GC), molecular weight, and PCR primer annealing melting temperature (Tm) using the Marmur-Doty and Nearest-Neighbor formulas.",
+  "path": "/tools/dna-gc-content-melting-temp-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dna gc content calculator",
+    "pcr primer tm calculator",
+    "melting temperature primer formula",
+    "oligonucleotide gc percentage online",
+    "marmur doty primer annealing tm"
+  ],
+  "order": 340
+}

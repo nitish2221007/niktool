@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 196cm, Weight 41kg)",
+  "description": "Calculate Body Mass Index (BMI 10.7) for height 196 cm and weight 41 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-196cm-weight-41kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 196cm weight 41kg",
+    "BMI Calculator (Height 196cm, Weight 41kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

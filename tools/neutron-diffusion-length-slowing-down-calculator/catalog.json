@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Neutron Diffusion Length (L) & Migration Area (M²) Calculator",
+  "description": "Calculate nuclear reactor moderator thermal neutron diffusion length (L = √(D / Σ_a)) in cm and total migration area (M² = L² + τ) for Light Water, Heavy Water, and Graphite.",
+  "path": "/tools/neutron-diffusion-length-slowing-down-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "neutron diffusion length calculator",
+    "neutron migration area formula m squared equals l squared plus tau",
+    "fermi age neutron slowing down calculator online",
+    "nuclear reactor moderator diffusion length online",
+    "light water vs heavy water graphite neutron diffusion calculator"
+  ],
+  "order": 689
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Friis Transmission & Free-Space Path Loss Link Budget Calculator",
+  "description": "Calculate free-space path loss (FSPL), received signal power Pr, and RF link budget using the Friis transmission equation.",
+  "path": "/tools/friis-free-space-path-loss-link-budget-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "friis free space path loss link budget calculator",
+    "Friis Transmission & Free-Space Path Loss Link Budget Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

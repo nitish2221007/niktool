@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate gas/solid and liquid/carbon surface adsorption fractional monolayer coverage (θ = K·P / (1 + K·P)) and adsorbed capacity q_e under Langmuir and Freundlich models for environmental water purification.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/langmuir-freundlich-adsorption-isotherm-surface-coverage-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator | NikTool">
+  <meta property="og:description" content="Calculate gas/solid and liquid/carbon surface adsorption fractional monolayer coverage (θ = K·P / (1 + K·P)) and adsorbed capacity q_e under Langmuir and Freundlich models for environmental water purification.">
+  <meta property="og:url" content="https://niktool.in/tools/langmuir-freundlich-adsorption-isotherm-surface-coverage-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/langmuir-freundlich-adsorption-isotherm-surface-coverage-calculator/",
+        "description": "Calculate gas/solid and liquid/carbon surface adsorption fractional monolayer coverage (θ = K·P / (1 + K·P)) and adsorbed capacity q_e under Langmuir and Freundlich models for environmental water purification.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens at high pressure in the Langmuir isotherm?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At high pressure ($KP gg 1$), the surface coverage approaches $100%$ ($\theta \rightarrow 1.0$), reaching saturation where adsorption rate equals desorption rate."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator</h1>
+      <p>Calculate gas/solid and liquid/carbon surface adsorption fractional monolayer coverage (θ = K·P / (1 + K·P)) and adsorbed capacity q_e under Langmuir and Freundlich models for environmental water purification.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Adsorption Equilibrium Constant K (atm⁻¹ or L/mg) & Equilibrium Pressure/Concentration P</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="lg-k">Constant K</label>
+          <input class="tool-textarea" id="lg-k" type="number" step="0.5" value="2.5" placeholder="2.5 atm⁻¹ (Affinity)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lg-p">Pressure / Conc P</label>
+          <input class="tool-textarea" id="lg-p" type="number" step="0.2" value="1.0" placeholder="1.0 atm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lg-qmax">Max Capacity q_max</label>
+          <input class="tool-textarea" id="lg-qmax" type="number" step="10" value="150" placeholder="150 mg/g Carbon" />
+        </div>
+      </div>
+      <div id="lg-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="lg-res-theta" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Coverage θ = 0.714 (71.4% Monolayer)</span>
+            <span class="stat-label">Fractional Surface Monolayer Coverage (θ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lg-res-qe" style="color:var(--green-dark); font-weight:700;">Adsorbed Capacity q_e = 107.14 mg / g | Langmuir Linearity: 1/q_e = (1/(K·q_max))·(1/C) + 1/q_max</span>
+            <span class="stat-label">Adsorbed Mass Equilibrium Capacity (q_e = θ · q_max)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator</h2>
+      <ol>
+        <li>Enter Langmuir adsorption equilibrium constant K (affinity parameter).</li>
+        <li>Enter gas partial pressure P in atm or liquid solute concentration C in mg/L.</li>
+        <li>Enter maximum theoretical monolayer saturation capacity $q_{max}$ in mg/g.</li>
+        <li>Inspect fractional surface coverage $	heta = rac{KP}{1 + KP}$ and adsorbed mass capacity $q_e$.</li>
+      </ol>
+
+      <h2>Irving Langmuir 1918 Nobel Prize Surface Chemistry Model</h2>
+      <p>The Langmuir isotherm assumes monolayer coverage on a homogeneous surface with zero adsorbate-adsorbate lateral interactions, providing the theoretical basis for catalytic converters and water purification activated carbon filters.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens at high pressure in the Langmuir isotherm?</summary>
+        <p>At high pressure ($KP gg 1$), the surface coverage approaches $100%$ ($	heta ightarrow 1.0$), reaching saturation where adsorption rate equals desorption rate.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/langmuir-freundlich-adsorption-isotherm-surface-coverage-calculator/tool.js"></script>
+</body>
+</html>

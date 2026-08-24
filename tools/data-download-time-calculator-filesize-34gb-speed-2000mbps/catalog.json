@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (34 GB File, 2000 Mbps Speed)",
+  "description": "Calculate file transfer download time (~2.3 minutes / 139s) for 34 GB file at 2000 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-34gb-speed-2000mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 34gb speed 2000mbps",
+    "Data Download Time Calculator (34 GB File, 2000 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

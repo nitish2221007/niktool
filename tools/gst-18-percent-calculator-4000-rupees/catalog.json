@@ -1,0 +1,15 @@
+{
+  "name": "18% GST Calculator (₹4000 Amount)",
+  "description": "Calculate 18% GST tax amount (₹720.00) on ₹4000 base value.",
+  "path": "/tools/gst-18-percent-calculator-4000-rupees/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "gst 18 percent calculator 4000 rupees",
+    "18% GST Calculator (₹4000 Amount)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

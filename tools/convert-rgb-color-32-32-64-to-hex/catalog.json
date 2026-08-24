@@ -1,0 +1,15 @@
+{
+  "name": "Convert RGB Color rgb(32, 32, 64) to HEX",
+  "description": "Convert RGB values rgb(32, 32, 64) to HEX color code #202040. 100% free and local.",
+  "path": "/tools/convert-rgb-color-32-32-64-to-hex/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert rgb color 32 32 64 to hex",
+    "Convert RGB Color rgb(32, 32, 64) to HEX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

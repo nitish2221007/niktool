@@ -1,0 +1,15 @@
+{
+  "name": "Convert 46 KM/H to MPH Speed",
+  "description": "Convert 46 kilometers per hour (km/h) to miles per hour (28.58 mph).",
+  "path": "/tools/convert-46-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 46 kmh to mph speed",
+    "Convert 46 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

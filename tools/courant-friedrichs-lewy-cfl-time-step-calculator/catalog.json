@@ -1,0 +1,15 @@
+{
+  "name": "Courant-Friedrichs-Lewy (CFL / Courant Number) Time Step Calculator",
+  "description": "Calculate numerical simulation maximum stable transient time step (Δt = CFL · Δx / (u + c)) in microseconds/milliseconds from CFL condition and mesh cell spacing Δx.",
+  "path": "/tools/courant-friedrichs-lewy-cfl-time-step-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cfl condition calculator",
+    "courant friedrichs lewy formula max time step online",
+    "cfd cfl number time step delta t calculator",
+    "compressible acoustic cfl stability calculator",
+    "finite difference numerical stability online"
+  ],
+  "order": 713
+}

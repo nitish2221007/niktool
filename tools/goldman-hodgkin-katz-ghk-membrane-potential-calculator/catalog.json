@@ -1,0 +1,15 @@
+{
+  "name": "Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator",
+  "description": "Calculate multi-ion biological cell resting membrane potential (V_m = (RT/F) · ln((P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o))) in mV.",
+  "path": "/tools/goldman-hodgkin-katz-ghk-membrane-potential-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ghk equation calculator",
+    "goldman hodgkin katz resting membrane potential formula online",
+    "nernst vs ghk equation calculator",
+    "neuron resting potential ion permeability calculator",
+    "cellular electrophysiology membrane voltage online"
+  ],
+  "order": 762
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Flange Bolt Preload Torque (T = K · F · d) Calculator",
+  "description": "Calculate required bolt tightening torque (T = K · F_preload · d) in ft-lbs and N·m to achieve target gasket clamping preload force without exceeding bolt proof load.",
+  "path": "/tools/flange-bolt-torque-preload-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "flange bolt torque calculator",
+    "bolt preload torque formula t k f d",
+    "nut factor k torque calculator",
+    "asme flange bolt tightening torque online",
+    "bolt proof load preload calculator"
+  ],
+  "order": 475
+}

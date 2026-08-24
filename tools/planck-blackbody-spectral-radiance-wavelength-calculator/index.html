@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate spectral radiance B_λ(T) in W/(sr·m³), Rayleigh-Jeans classical ultraviolet catastrophe limit, and quantum spectral intensity across infrared, visible, and ultraviolet wavelengths.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/planck-blackbody-spectral-radiance-wavelength-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator | NikTool">
+  <meta property="og:description" content="Calculate spectral radiance B_λ(T) in W/(sr·m³), Rayleigh-Jeans classical ultraviolet catastrophe limit, and quantum spectral intensity across infrared, visible, and ultraviolet wavelengths.">
+  <meta property="og:url" content="https://niktool.in/tools/planck-blackbody-spectral-radiance-wavelength-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/planck-blackbody-spectral-radiance-wavelength-calculator/",
+        "description": "Calculate spectral radiance B_λ(T) in W/(sr·m³), Rayleigh-Jeans classical ultraviolet catastrophe limit, and quantum spectral intensity across infrared, visible, and ultraviolet wavelengths.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What was the Ultraviolet Catastrophe?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Classical physics falsely predicted that blackbodies would emit infinite energy at short ultraviolet wavelengths; Planck's quantum exponential term resolved this divergence."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator</h1>
+      <p>Calculate spectral radiance B_λ(T) in W/(sr·m³), Rayleigh-Jeans classical ultraviolet catastrophe limit, and quantum spectral intensity across infrared, visible, and ultraviolet wavelengths.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Wavelength λ (nm) & Blackbody Temperature T (K)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pl-lambda">Wavelength (nm)</label>
+          <input class="tool-textarea" id="pl-lambda" type="number" step="50" value="550" placeholder="550 nm (Green)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pl-temp">Temp T (K)</label>
+          <input class="tool-textarea" id="pl-temp" type="number" step="250" value="5778" placeholder="5,778 K (Solar Surface)" />
+        </div>
+      </div>
+      <div id="pl-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pl-res-b" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Radiance B_λ = 2.63 × 10¹³ W / (sr · m³)</span>
+            <span class="stat-label">Planck Spectral Radiance (B_λ(T))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pl-res-quant" style="color:var(--green-dark); font-weight:700;">Quantum Exponential Factor = 92.5 (Classical Rayleigh-Jeans fails by 46×)</span>
+            <span class="stat-label">Quantum Energy Quantization vs Classical Physics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator</h2>
+      <ol>
+        <li>Enter electromagnetic wavelength in nanometers (nm).</li>
+        <li>Enter blackbody surface temperature in Kelvin.</li>
+        <li>Inspect Planck spectral radiance $B_lambda(T)$ and compare quantum curve behavior against classical Rayleigh-Jeans ultraviolet catastrophe.</li>
+      </ol>
+
+      <h2>Max Planck 1900 Birth of Quantum Physics</h2>
+      <p>By postulating that light energy is emitted in discrete quanta ($E = h
+u$), Planck solved the ultraviolet catastrophe and launched 20th-century quantum mechanics.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What was the Ultraviolet Catastrophe?</summary>
+        <p>Classical physics falsely predicted that blackbodies would emit infinite energy at short ultraviolet wavelengths; Planck's quantum exponential term resolved this divergence.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/planck-blackbody-spectral-radiance-wavelength-calculator/tool.js"></script>
+</body>
+</html>

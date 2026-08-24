@@ -1,0 +1,15 @@
+{
+  "name": "Convert 60 Hours to Seconds",
+  "description": "Convert 60 hours to minutes (3600 min) and seconds (2,16,000 sec).",
+  "path": "/tools/convert-60-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 60 hours to seconds time",
+    "Convert 60 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

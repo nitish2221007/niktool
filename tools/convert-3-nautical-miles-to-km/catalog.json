@@ -1,0 +1,15 @@
+{
+  "name": "Convert 3 Nautical Miles to KM",
+  "description": "Convert 3 nautical miles (NM) to kilometers (5.56 km). 100% free and local.",
+  "path": "/tools/convert-3-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 3 nautical miles to km",
+    "Convert 3 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

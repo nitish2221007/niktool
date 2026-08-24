@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 32, Weight 49kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1398 kcal/day) for 32-year-old weighing 49 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-32-weight-49kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 32 weight 49kg",
+    "BMR Calorie Calculator (Age 32, Weight 49kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

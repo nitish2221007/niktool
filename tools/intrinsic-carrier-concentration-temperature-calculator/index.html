@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate intrinsic semiconductor carrier density (n_i = √(N_c · N_v) · e^(-E_g / (2 · k_B · T))) in Silicon, Germanium, and GaAs across operating temperatures.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/intrinsic-carrier-concentration-temperature-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator | NikTool">
+  <meta property="og:description" content="Calculate intrinsic semiconductor carrier density (n_i = √(N_c · N_v) · e^(-E_g / (2 · k_B · T))) in Silicon, Germanium, and GaAs across operating temperatures.">
+  <meta property="og:url" content="https://niktool.in/tools/intrinsic-carrier-concentration-temperature-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/intrinsic-carrier-concentration-temperature-calculator/",
+        "description": "Calculate intrinsic semiconductor carrier density (n_i = √(N_c · N_v) · e^(-E_g / (2 · k_B · T))) in Silicon, Germanium, and GaAs across operating temperatures.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is GaAs superior to Silicon for high-temperature electronics?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because GaAs has a wider 1.42 eV bandgap, its intrinsic leakage is millions of times lower than Silicon."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator</h1>
+      <p>Calculate intrinsic semiconductor carrier density (n_i = √(N_c · N_v) · e^(-E_g / (2 · k_B · T))) in Silicon, Germanium, and GaAs across operating temperatures.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Semiconductor Material & Operating Temperature (°C or K)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="nic-mat">Semiconductor</label>
+          <select class="tool-textarea" id="nic-mat">
+            <option value="si" selected>Silicon (Si, E_g = 1.12 eV @ 300K)</option>
+            <option value="ge">Germanium (Ge, E_g = 0.66 eV)</option>
+            <option value="gaas">Gallium Arsenide (GaAs, E_g = 1.42 eV)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="nic-t">Temperature T (°C)</label>
+          <input class="tool-textarea" id="nic-t" type="number" step="any" value="25.0" placeholder="25.0 °C (Room Temp)" />
+        </div>
+      </div>
+      <div id="nic-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="nic-res-ni" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">1.02 × 10¹⁰ cm⁻³</span>
+            <span class="stat-label">Intrinsic Carrier Concentration (n_i)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="nic-res-leak" style="font-weight:700;">Intrinsic Resistivity: 2.3 × 10⁵ Ω·cm</span>
+            <span class="stat-label">Pure Undoped Bulk Resistivity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator</h2>
+      <ol>
+        <li>Select semiconductor substrate material (Silicon, Germanium, Gallium Arsenide).</li>
+        <li>Enter operating chip junction temperature in Celsius.</li>
+        <li>Inspect intrinsic electron-hole carrier concentration n_i in cm⁻³ and temperature-dependent Varshni bandgap.</li>
+      </ol>
+
+      <h2>Thermal Leakage Current Doubling Every 8°C to 10°C</h2>
+      <p>Because thermal electron-hole generation scales exponentially with bandgap, high junction temperatures drastically increase reverse diode leakage current and limit silicon chips from operating above 150°C.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is GaAs superior to Silicon for high-temperature electronics?</summary>
+        <p>Because GaAs has a wider 1.42 eV bandgap, its intrinsic leakage is millions of times lower than Silicon.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/intrinsic-carrier-concentration-temperature-calculator/tool.js"></script>
+</body>
+</html>

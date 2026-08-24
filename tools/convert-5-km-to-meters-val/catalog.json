@@ -1,0 +1,15 @@
+{
+  "name": "Convert 5 KM to Meters Val",
+  "description": "Convert 5 kilometers (km) to meters (5000 m) instantly. 100% free and local.",
+  "path": "/tools/convert-5-km-to-meters-val/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 5 km to meters val",
+    "Convert 5 KM to Meters Val",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

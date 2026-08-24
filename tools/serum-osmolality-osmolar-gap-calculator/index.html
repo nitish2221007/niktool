@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate calculated serum osmolality (Osm_calc = 2·[Na⁺] + [Glucose]/18 + [BUN]/2.8) in mOsm/kg and evaluate Osmolar Gap (Gap = Measured - Calculated) to screen for toxic alcohol poisoning (Methanol, Ethylene Glycol).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/serum-osmolality-osmolar-gap-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator | NikTool">
+  <meta property="og:description" content="Calculate calculated serum osmolality (Osm_calc = 2·[Na⁺] + [Glucose]/18 + [BUN]/2.8) in mOsm/kg and evaluate Osmolar Gap (Gap = Measured - Calculated) to screen for toxic alcohol poisoning (Methanol, Ethylene Glycol).">
+  <meta property="og:url" content="https://niktool.in/tools/serum-osmolality-osmolar-gap-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator",
+        "applicationCategory": "MedicalWebPage",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/serum-osmolality-osmolar-gap-calculator/",
+        "description": "Calculate calculated serum osmolality (Osm_calc = 2·[Na⁺] + [Glucose]/18 + [BUN]/2.8) in mOsm/kg and evaluate Osmolar Gap (Gap = Measured - Calculated) to screen for toxic alcohol poisoning (Methanol, Ethylene Glycol).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why are glucose and BUN divided by 18 and 2.8?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To convert clinical concentration units (mg/dL) into molar osmotic concentrations (mOsm/L) based on molecular weights ($180\text{ g/mol}$ for glucose and $28\text{ g/mol}$ for nitrogen)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator</h1>
+      <p>Calculate calculated serum osmolality (Osm_calc = 2·[Na⁺] + [Glucose]/18 + [BUN]/2.8) in mOsm/kg and evaluate Osmolar Gap (Gap = Measured - Calculated) to screen for toxic alcohol poisoning (Methanol, Ethylene Glycol).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Measured Osmolality (mOsm/kg), Sodium Na⁺ (mEq/L), Glucose (mg/dL) & BUN (mg/dL)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="osm-meas">Measured Osm</label>
+          <input class="tool-textarea" id="osm-meas" type="number" step="5" value="315" placeholder="315 mOsm/kg" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="osm-na">Sodium Na⁺</label>
+          <input class="tool-textarea" id="osm-na" type="number" step="1" value="140" placeholder="140 mEq/L" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="osm-glu">Glucose (mg/dL)</label>
+          <input class="tool-textarea" id="osm-glu" type="number" step="10" value="90" placeholder="90 mg/dL" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="osm-bun">BUN (mg/dL)</label>
+          <input class="tool-textarea" id="osm-bun" type="number" step="5" value="14" placeholder="14 mg/dL" />
+        </div>
+      </div>
+      <div id="osm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="osm-res-gap" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Osmolar Gap = +25.0 mOsm/kg</span>
+            <span class="stat-label">Elevated Osmolar Gap (Measured - Calculated)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="osm-res-diag" style="color:var(--green-dark); font-weight:700;">TOXIC ALCOHOL INGESTION LIKELY (Gap > 10 mOsm/kg: Methanol, Ethylene Glycol antifreeze, Isopropanol)</span>
+            <span class="stat-label">Calculated Osm = 290.0 mOsm/kg & Toxicology Alert</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator</h2>
+      <ol>
+        <li>Enter freezing-point depression measured serum osmolality from laboratory osmometer (mOsm/kg).</li>
+        <li>Enter serum Sodium ($Na^+$ in mEq/L), Serum Glucose (mg/dL), and Blood Urea Nitrogen (BUN in mg/dL).</li>
+        <li>Inspect calculated serum osmolality and Osmolar Gap ($	ext{Measured} - 	ext{Calculated}$) to screen for toxic alcohol ingestions.</li>
+      </ol>
+
+      <h2>Emergency Medicine Toxicology Triage Metric</h2>
+      <p>An elevated Osmolar Gap ($>10	ext{ mOsm/kg}$) provides an immediate emergency diagnostic flag for lethal antifreeze (Ethylene Glycol) or windshield wiper fluid (Methanol) poisoning hours before gas chromatography lab results return.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why are glucose and BUN divided by 18 and 2.8?</summary>
+        <p>To convert clinical concentration units (mg/dL) into molar osmotic concentrations (mOsm/L) based on molecular weights ($180	ext{ g/mol}$ for glucose and $28	ext{ g/mol}$ for nitrogen).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/serum-osmolality-osmolar-gap-calculator/tool.js"></script>
+</body>
+</html>

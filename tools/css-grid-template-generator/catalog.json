@@ -1,0 +1,15 @@
+{
+  "name": "CSS Grid Template Columns & Rows Generator",
+  "description": "Design responsive CSS Grid column and row layouts (repeat, fr, minmax) with interactive grid preview and instant CSS code generation.",
+  "path": "/tools/css-grid-template-generator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "css grid generator",
+    "css grid template columns builder",
+    "css grid layout maker",
+    "responsive css grid online",
+    "css grid code generator"
+  ],
+  "order": 233
+}

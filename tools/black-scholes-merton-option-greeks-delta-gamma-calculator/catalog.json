@@ -1,0 +1,15 @@
+{
+  "name": "Black-Scholes Option Pricing & Greeks (Delta, Gamma, Vega, Theta) Calculator",
+  "description": "Calculate European call/put option fair value and first/second-order risk Greeks (Delta Δ, Gamma Γ, Vega ν, Theta Θ, Rho ρ) from spot price S, strike K, volatility σ, and risk-free rate r.",
+  "path": "/tools/black-scholes-merton-option-greeks-delta-gamma-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "black scholes calculator",
+    "option greeks formula delta gamma vega theta online",
+    "black scholes merton option pricing calculator",
+    "implied volatility call put option price calculator",
+    "quantitative finance option greeks online"
+  ],
+  "order": 721
+}

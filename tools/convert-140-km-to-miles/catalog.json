@@ -1,0 +1,15 @@
+{
+  "name": "Convert 140 KM to Miles",
+  "description": "Convert 140 kilometers to miles (86.99 miles). 100% free and local.",
+  "path": "/tools/convert-140-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 140 km to miles",
+    "Convert 140 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

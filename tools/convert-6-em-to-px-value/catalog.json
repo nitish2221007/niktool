@@ -1,0 +1,15 @@
+{
+  "name": "Convert 6 EM to PX Value",
+  "description": "Convert 6 EM units to pixels (96 px) based on 16px font context.",
+  "path": "/tools/convert-6-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 6 em to px value",
+    "Convert 6 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

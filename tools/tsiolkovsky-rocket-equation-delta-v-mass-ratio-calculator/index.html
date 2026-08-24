@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate rocket propulsion mission velocity change Delta-v in m/s (Tsiolkovsky Ideal Rocket Equation: Δv = I_sp · g₀ · ln(m₀ / m_f)), propellant mass fraction ζ, and initial wet mass to dry mass ratio m₀ / m_f.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/tsiolkovsky-rocket-equation-delta-v-mass-ratio-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator | NikTool">
+  <meta property="og:description" content="Calculate rocket propulsion mission velocity change Delta-v in m/s (Tsiolkovsky Ideal Rocket Equation: Δv = I_sp · g₀ · ln(m₀ / m_f)), propellant mass fraction ζ, and initial wet mass to dry mass ratio m₀ / m_f.">
+  <meta property="og:url" content="https://niktool.in/tools/tsiolkovsky-rocket-equation-delta-v-mass-ratio-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/tsiolkovsky-rocket-equation-delta-v-mass-ratio-calculator/",
+        "description": "Calculate rocket propulsion mission velocity change Delta-v in m/s (Tsiolkovsky Ideal Rocket Equation: Δv = I_sp · g₀ · ln(m₀ / m_f)), propellant mass fraction ζ, and initial wet mass to dry mass ratio m₀ / m_f.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is getting to Low Earth Orbit (LEO) so difficult?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "LEO requires $Delta v approx 9.4\text{ km/s}$ (including gravity/drag losses); with chemical propellants ($I_{\text{sp}} approx 350\text{s}$), over $90%$ of total liftoff weight must be pure propellant."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator</h1>
+      <p>Calculate rocket propulsion mission velocity change Delta-v in m/s (Tsiolkovsky Ideal Rocket Equation: Δv = I_sp · g₀ · ln(m₀ / m_f)), propellant mass fraction ζ, and initial wet mass to dry mass ratio m₀ / m_f.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Specific Impulse I_sp (Seconds), Initial Wet Mass m₀ (kg) & Final Dry Burnout Mass m_f (kg)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ts-isp">Specific I_sp (s)</label>
+          <input class="tool-textarea" id="ts-isp" type="number" step="10" value="350.0" placeholder="350.0 s (LOX/Methane Vac)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ts-m0">Initial Wet m₀ (kg)</label>
+          <input class="tool-textarea" id="ts-m0" type="number" step="5000" value="120000.0" placeholder="120,000 kg" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ts-mf">Final Dry m_f (kg)</label>
+          <input class="tool-textarea" id="ts-mf" type="number" step="1000" value="15000.0" placeholder="15,000 kg (Dry + Payload)" />
+        </div>
+      </div>
+      <div id="ts-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ts-res-dv" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Mission Δv = 7,143 m / s (7.14 km/s)</span>
+            <span class="stat-label">Tsiolkovsky Velocity Budget (Δv = I_sp · g₀ · ln(m₀ / m_f))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ts-res-frac" style="color:var(--green-dark); font-weight:700;">Mass Ratio m₀/m_f = 8.00 | Propellant Fraction = 87.5% (105,000 kg Fuel Burned)</span>
+            <span class="stat-label">Effective Exhaust Velocity c = 3,432 m/s & Fuel Mass</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator</h2>
+      <ol>
+        <li>Enter rocket engine vacuum or sea-level Specific Impulse $I_{	ext{sp}}$ in seconds (e.g. 310s RP-1/LOX, 360s Methane/LOX, 450s Hydrogen/LOX).</li>
+        <li>Enter initial total rocket wet mass $m_0$ at ignition in kg.</li>
+        <li>Enter final dry burnout mass $m_f$ (structural mass + dry engines + payload) in kg.</li>
+        <li>Inspect total ideal velocity change $Delta v$ in m/s and km/s, mass ratio, and burned propellant mass.</li>
+      </ol>
+
+      <h2>Konstantin Tsiolkovsky 1903 Rocket Equation Standard</h2>
+      <p>The foundational law of astronautics governing orbital launch, lunar landing, and interplanetary space exploration by linking momentum conservation ($m , dv = -c , dm$) to exponential fuel mass requirements.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is getting to Low Earth Orbit (LEO) so difficult?</summary>
+        <p>LEO requires $Delta v approx 9.4	ext{ km/s}$ (including gravity/drag losses); with chemical propellants ($I_{	ext{sp}} approx 350	ext{s}$), over $90%$ of total liftoff weight must be pure propellant.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/tsiolkovsky-rocket-equation-delta-v-mass-ratio-calculator/tool.js"></script>
+</body>
+</html>

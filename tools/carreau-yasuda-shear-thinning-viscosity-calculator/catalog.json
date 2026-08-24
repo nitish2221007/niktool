@@ -1,0 +1,15 @@
+{
+  "name": "Carreau-Yasuda Polymer Melt Shear-Thinning Viscosity Calculator",
+  "description": "Calculate non-Newtonian pseudoplastic polymer melt viscosity (η(γ̇) = η_∞ + (η₀ - η_∞) · [1 + (λ·γ̇)^a]^((n - 1)/a)) in Pa·s across extrusion and injection shear rates.",
+  "path": "/tools/carreau-yasuda-shear-thinning-viscosity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "carreau yasuda viscosity calculator",
+    "polymer melt shear thinning formula non newtonian",
+    "pseudoplastic polymer viscosity shear rate calculator",
+    "power law polymer rheology carreau calculator online",
+    "injection molding polymer viscosity online"
+  ],
+  "order": 693
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Convert 2.5 REM to PX",
+    "description": "Convert 2.5 REM units to pixels (px) based on 16px root font size (40px).",
+    "path": "/tools/convert-2.5rem-to-px/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 2.5rem to px",
+      "Convert 2.5 REM to PX",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert 2°C Celsius to Fahrenheit",
+    "description": "Convert 2 degrees Celsius (°C) to Fahrenheit (35.6°F).",
+    "path": "/tools/convert-2-celsius-to-fahrenheit/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 celsius to fahrenheit",
+      "Convert 2°C Celsius to Fahrenheit",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2°C Celsius to Kelvin Temp",
+    "description": "Convert 2 degrees Celsius (°C) to Kelvin (275.15 K) instantly.",
+    "path": "/tools/convert-2-celsius-to-kelvin-temp/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 celsius to kelvin temp",
+      "Convert 2°C Celsius to Kelvin Temp",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 CM to Inches Length",
+    "description": "Convert 20 centimeters (cm) to inches (7.87 in) instantly. 100% free and local.",
+    "path": "/tools/convert-20-cm-to-inches-length/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 cm to inches length",
+      "Convert 20 CM to Inches Length",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Days to Hours",
+    "description": "Convert 20 days to total hours (480 hours). 100% free and local.",
+    "path": "/tools/convert-20-days-to-hours-time/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 days to hours time",
+      "Convert 20 Days to Hours",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 EM to PX Value",
+    "description": "Convert 20 EM units to pixels (320 px) based on 16px font context.",
+    "path": "/tools/convert-20-em-to-px-value/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 20 em to px value",
+      "Convert 20 EM to PX Value",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Feet to Inches Val",
+    "description": "Convert 20 feet (ft) to inches (240 in) instantly. 100% free and local.",
+    "path": "/tools/convert-20-feet-to-inches-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 feet to inches val",
+      "Convert 20 Feet to Inches Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Feet to Meters Length",
+    "description": "Convert 20 feet (ft) to meters (6.10 m) instantly. 100% free and local.",
+    "path": "/tools/convert-20-feet-to-meters-length/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 feet to meters length",
+      "Convert 20 Feet to Meters Length",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 GB to MB",
+    "description": "Convert 20 Gigabytes (GB) to Megabytes (20480 MB). 100% free and local.",
+    "path": "/tools/convert-20-gb-to-mb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 gb to mb",
+      "Convert 20 GB to MB",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Grams to Ounces Weight",
+    "description": "Convert 20 grams (g) to ounces (0.71 oz) instantly. 100% free and local.",
+    "path": "/tools/convert-20-grams-to-ounces-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 grams to ounces weight",
+      "Convert 20 Grams to Ounces Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Hours to Seconds",
+    "description": "Convert 20 hours to minutes (1200 min) and seconds (72,000 sec).",
+    "path": "/tools/convert-20-hours-to-seconds-time/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 hours to seconds time",
+      "Convert 20 Hours to Seconds",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Inches to CM",
+    "description": "Convert 20 inches (in) to centimeters (50.80 cm). 100% free and local.",
+    "path": "/tools/convert-20-inches-to-cm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 inches to cm",
+      "Convert 20 Inches to CM",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KB to Bytes Data",
+    "description": "Convert 20 Kilobytes (KB) to Bytes (20480 bytes). 100% free and local.",
+    "path": "/tools/convert-20-kb-to-bytes-data/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 kb to bytes data",
+      "Convert 20 KB to Bytes Data",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KG to Grams Val",
+    "description": "Convert 20 kilograms (kg) to grams (20000 g) instantly. 100% free and local.",
+    "path": "/tools/convert-20-kg-to-grams-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 kg to grams val",
+      "Convert 20 KG to Grams Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KG to LBS",
+    "description": "Convert 20 kilograms (20 kg) to pounds (44.09 lbs) instantly in your browser.",
+    "path": "/tools/convert-20-kg-to-lbs/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 kg to lbs",
+      "Convert 20 KG to LBS",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KM to Meters Val",
+    "description": "Convert 20 kilometers (km) to meters (20000 m) instantly. 100% free and local.",
+    "path": "/tools/convert-20-km-to-meters-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 km to meters val",
+      "Convert 20 KM to Meters Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KM to Miles",
+    "description": "Convert 20 kilometers to miles (12.43 miles). 100% free and local.",
+    "path": "/tools/convert-20-km-to-miles/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 km to miles",
+      "Convert 20 KM to Miles",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KM to Miles Distance",
+    "description": "Convert 20 kilometers (20 km) to miles (12.43 miles) instantly. 100% free and local.",
+    "path": "/tools/convert-20-km-to-miles-distance/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 km to miles distance",
+      "Convert 20 KM to Miles Distance",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 KM/H to MPH Speed",
+    "description": "Convert 20 kilometers per hour (km/h) to miles per hour (12.43 mph).",
+    "path": "/tools/convert-20-kmh-to-mph-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 kmh to mph speed",
+      "Convert 20 KM/H to MPH Speed",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Knots Speed Val to KM/H",
+    "description": "Convert 20 knots speed to kilometers per hour (37.04 km/h).",
+    "path": "/tools/convert-knot-speed-val-20-to-kmh/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert knot speed val 20 to kmh",
+      "Convert 20 Knots Speed Val to KM/H",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Knots to KM/H Speed",
+    "description": "Convert 20 knots speed to kilometers per hour (37.04 km/h).",
+    "path": "/tools/convert-20-knots-to-kmh-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 knots to kmh speed",
+      "Convert 20 Knots to KM/H Speed",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 LBS to KG Weight",
+    "description": "Convert 20 pounds (lbs) to kilograms (9.07 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-20-lbs-to-kg-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 lbs to kg weight",
+      "Convert 20 LBS to KG Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 MB to KB",
+    "description": "Convert 20 Megabytes (MB) to Kilobytes (20480 KB). 100% free and local.",
+    "path": "/tools/convert-20-mb-to-kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 mb to kb",
+      "Convert 20 MB to KB",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 20 Meters to CM Val",
+    "description": "Convert 20 meters (m) to centimeters (2000 cm) instantly. 100% free and local.",
+    "path": "/tools/convert-20-meters-to-cm-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 20 meters to cm val",
+      "Convert 20 Meters to CM Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

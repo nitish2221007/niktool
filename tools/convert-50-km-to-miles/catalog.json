@@ -1,0 +1,15 @@
+{
+  "name": "Convert 50 KM to Miles",
+  "description": "Convert 50 kilometers to miles (31.07 miles). 100% free and local.",
+  "path": "/tools/convert-50-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 50 km to miles",
+    "Convert 50 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

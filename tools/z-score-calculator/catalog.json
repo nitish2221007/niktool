@@ -1,0 +1,15 @@
+{
+  "name": "Z-Score Calculator",
+  "description": "Calculate standard normal distribution Z-scores, percentile ranks, p-values, and probability area under the bell curve.",
+  "path": "/tools/z-score-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "z-score calculator",
+    "standard normal distribution calculator",
+    "z score to percentile",
+    "p value from z score",
+    "normal curve probability"
+  ],
+  "order": 77
+}

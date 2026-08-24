@@ -1,0 +1,15 @@
+{
+  "name": "Convert 13 KM/H to MPH Speed",
+  "description": "Convert 13 kilometers per hour (km/h) to miles per hour (8.08 mph).",
+  "path": "/tools/convert-13-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 13 kmh to mph speed",
+    "Convert 13 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

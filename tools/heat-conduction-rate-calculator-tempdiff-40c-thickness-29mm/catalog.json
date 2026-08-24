@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=40°C, Thick 29mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 68966 W) across 29mm steel wall at ΔT=40°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-40c-thickness-29mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 40c thickness 29mm",
+    "Thermal Heat Conduction Calculator (ΔT=40°C, Thick 29mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

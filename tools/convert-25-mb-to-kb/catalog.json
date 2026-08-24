@@ -1,0 +1,15 @@
+{
+  "name": "Convert 25 MB to KB",
+  "description": "Convert 25 Megabytes (MB) to Kilobytes (25600 KB). 100% free and local.",
+  "path": "/tools/convert-25-mb-to-kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 25 mb to kb",
+    "Convert 25 MB to KB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

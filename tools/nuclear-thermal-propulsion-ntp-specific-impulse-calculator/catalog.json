@@ -1,0 +1,15 @@
+{
+  "name": "Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator",
+  "description": "Calculate nuclear thermal rocket reactor specific impulse (I_sp = (1/g₀) · √[2·γ/(γ-1) · (R_univ·T_chamber / M_prop)]) in seconds and thrust-to-weight performance in Hydrogen and Ammonia for NASA Mars crewed transfer vehicles.",
+  "path": "/tools/nuclear-thermal-propulsion-ntp-specific-impulse-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "nuclear thermal propulsion calculator",
+    "ntp specific impulse formula i_sp proportional to sqrt t over m online",
+    "nasa nerva drakon nuclear thermal rocket calculator",
+    "hydrogen propellant specific impulse 900s calculator online",
+    "crewed mars mission nuclear thermal delta v online"
+  ],
+  "order": 875
+}

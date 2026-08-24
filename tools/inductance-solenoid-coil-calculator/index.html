@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air-Core & Ferromagnetic Solenoid Inductance Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate self-inductance (L = (μ₀ · μ_r · N² · A) / l) in microHenrys (μH) and milliHenrys (mH) for cylindrical coil inductors and electromagnets.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/inductance-solenoid-coil-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Air-Core & Ferromagnetic Solenoid Inductance Calculator | NikTool">
+  <meta property="og:description" content="Calculate self-inductance (L = (μ₀ · μ_r · N² · A) / l) in microHenrys (μH) and milliHenrys (mH) for cylindrical coil inductors and electromagnets.">
+  <meta property="og:url" content="https://niktool.in/tools/inductance-solenoid-coil-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Air-Core & Ferromagnetic Solenoid Inductance Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/inductance-solenoid-coil-calculator/",
+        "description": "Calculate self-inductance (L = (μ₀ · μ_r · N² · A) / l) in microHenrys (μH) and milliHenrys (mH) for cylindrical coil inductors and electromagnets.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do ferrite cores increase inductance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "High magnetic permeability materials (ferrites with μ_r ≈ 100-1000) concentrate magnetic flux lines, multiplying inductance by hundreds of times."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Air-Core & Ferromagnetic Solenoid Inductance Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Air-Core & Ferromagnetic Solenoid Inductance Calculator</h1>
+      <p>Calculate self-inductance (L = (μ₀ · μ_r · N² · A) / l) in microHenrys (μH) and milliHenrys (mH) for cylindrical coil inductors and electromagnets.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Turns (N), Radius (mm), Length (mm) & Core Material</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sol-n">Number of Turns (N)</label>
+          <input class="tool-textarea" id="sol-n" type="number" min="1" value="100" placeholder="100" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sol-r">Coil Radius r (mm)</label>
+          <input class="tool-textarea" id="sol-r" type="number" step="any" value="10" placeholder="10 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sol-l">Coil Length l (mm)</label>
+          <input class="tool-textarea" id="sol-l" type="number" step="any" value="50" placeholder="50 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sol-core">Core Material</label>
+          <select class="tool-textarea" id="sol-core">
+            <option value="1" selected>Air Core (μ_r = 1.0)</option>
+            <option value="250">Ferrite Core (μ_r ≈ 250)</option>
+            <option value="2000">Iron / Silicon Steel (μ_r ≈ 2,000)</option>
+          </select>
+        </div>
+      </div>
+      <div id="sol-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sol-res-l" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">78.96 μH</span>
+            <span class="stat-label">Calculated Self-Inductance (L)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sol-res-turns">2,000 turns/m</span>
+            <span class="stat-label">Turns Density (n = N / l)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Air-Core & Ferromagnetic Solenoid Inductance Calculator</h2>
+      <ol>
+        <li>Enter number of coil wire turns N.</li>
+        <li>Enter solenoid radius and coil length in millimeters.</li>
+        <li>Select magnetic core material (Air, Ferrite, or Iron core).</li>
+        <li>Inspect self-inductance in microHenrys (μH) or milliHenrys (mH).</li>
+      </ol>
+
+      <h2>N-Squared Inductance Scaling (N²)</h2>
+      <p>Inductance scales quadratically with turns (L ∝ N²): doubling the number of turns quadruples the total inductance for the same physical geometry.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do ferrite cores increase inductance?</summary>
+        <p>High magnetic permeability materials (ferrites with μ_r ≈ 100-1000) concentrate magnetic flux lines, multiplying inductance by hundreds of times.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/inductance-solenoid-coil-calculator/tool.js"></script>
+</body>
+</html>

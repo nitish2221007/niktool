@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate PCR oligonucleotide primer melting temperature T_m (Nearest-Neighbor thermodynamic model: T_m = ΔH / (ΔS + R·ln(C/4)) - 273.15 + 16.6·log₁₀[Na⁺]) in °C and GC content.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/dna-melting-temperature-nearest-neighbor-tm-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator | NikTool">
+  <meta property="og:description" content="Calculate PCR oligonucleotide primer melting temperature T_m (Nearest-Neighbor thermodynamic model: T_m = ΔH / (ΔS + R·ln(C/4)) - 273.15 + 16.6·log₁₀[Na⁺]) in °C and GC content.">
+  <meta property="og:url" content="https://niktool.in/tools/dna-melting-temperature-nearest-neighbor-tm-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/dna-melting-temperature-nearest-neighbor-tm-calculator/",
+        "description": "Calculate PCR oligonucleotide primer melting temperature T_m (Nearest-Neighbor thermodynamic model: T_m = ΔH / (ΔS + R·ln(C/4)) - 273.15 + 16.6·log₁₀[Na⁺]) in °C and GC content.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is 40% to 60% GC content ideal for PCR primers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Primers with 40–60% GC content ensure stable $T_m$ (55°C–65°C) with low secondary hairpin loop structure risk and strong 3' clamp binding."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator</h1>
+      <p>Calculate PCR oligonucleotide primer melting temperature T_m (Nearest-Neighbor thermodynamic model: T_m = ΔH / (ΔS + R·ln(C/4)) - 273.15 + 16.6·log₁₀[Na⁺]) in °C and GC content.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Primer Sequence 5' -> 3', Primer Concentration C (nM) & Monovalent Salt [Na⁺] (mM)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group" style="grid-column:1 / -1;">
+          <label class="control-label" for="dna-seq">Primer Sequence (5' to 3')</label>
+          <input class="tool-textarea" id="dna-seq" type="text" value="AGCTGATCGATCGATCGATC" placeholder="e.g. AGCTGATCGATCGATCGATC (20 bp)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="dna-conc">Primer Conc (nM)</label>
+          <input class="tool-textarea" id="dna-conc" type="number" step="50" value="200" placeholder="200 nM" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="dna-salt">[Na⁺] Salt (mM)</label>
+          <input class="tool-textarea" id="dna-salt" type="number" step="10" value="50" placeholder="50 mM (Standard PCR)" />
+        </div>
+      </div>
+      <div id="dna-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="dna-res-tm" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">T_m = 58.4 °C (Anneal: 53.4 °C)</span>
+            <span class="stat-label">Nearest-Neighbor Melting Temperature (T_m)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dna-res-gc" style="font-weight:700;">GC Content: 50.0% (10 GC / 10 AT) | Length: 20 nt | Wallace Rule: 60.0°C</span>
+            <span class="stat-label">GC Content & Recommended PCR Annealing Temperature</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator</h2>
+      <ol>
+        <li>Enter oligonucleotide PCR primer sequence (5' to 3').</li>
+        <li>Enter primer concentration in nM (typically 200 to 500 nM).</li>
+        <li>Enter monovalent salt $[Na^+]$ concentration in mM (typically 50 mM in standard PCR master mix).</li>
+        <li>Inspect Nearest-Neighbor melting temperature $T_m$ in Celsius, GC percentage, and recommended PCR thermal cycler annealing temperature ($T_m - 5^circ	ext{C}$).</li>
+      </ol>
+
+      <h2>John SantaLucia 1998 Nearest-Neighbor Thermodynamic Stacking</h2>
+      <p>Double-stranded DNA stability depends on base-stacking thermodynamics between adjacent dinucleotide pairs; nearest-neighbor calculations accurately predict primer annealing efficiency for qPCR, site-directed mutagenesis, and Sanger sequencing.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is 40% to 60% GC content ideal for PCR primers?</summary>
+        <p>Primers with 40–60% GC content ensure stable $T_m$ (55°C–65°C) with low secondary hairpin loop structure risk and strong 3' clamp binding.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/dna-melting-temperature-nearest-neighbor-tm-calculator/tool.js"></script>
+</body>
+</html>

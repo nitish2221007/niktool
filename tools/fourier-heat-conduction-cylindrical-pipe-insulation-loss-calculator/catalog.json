@@ -1,0 +1,15 @@
+{
+  "name": "Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator",
+  "description": "Calculate radial conductive heat loss rate (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) in Watts and critical insulation thickness radius (r_cr = k / h) for steam pipes and industrial thermal engineering.",
+  "path": "/tools/fourier-heat-conduction-cylindrical-pipe-insulation-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fourier heat conduction pipe calculator",
+    "radial heat transfer cylinder formula 2 pi k l delta t over ln r2 over r1 online",
+    "critical radius of insulation pipe heat loss calculator",
+    "steam pipe thermal insulation heat loss calculator",
+    "mechanical engineering heat conduction online"
+  ],
+  "order": 1025
+}

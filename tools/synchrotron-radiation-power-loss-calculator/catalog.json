@@ -1,0 +1,15 @@
+{
+  "name": "Synchrotron Radiation Power Loss & Energy Radiated Calculator",
+  "description": "Calculate relativistic synchrotron radiation power loss per electron turn (ΔE = (q² · γ⁴) / (3 · ε₀ · R) = 88.5 · E⁴ / R) in keV per revolution in circular particle storage rings.",
+  "path": "/tools/synchrotron-radiation-power-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "synchrotron radiation power loss calculator",
+    "delta e 88.5 e4 over r formula",
+    "electron storage ring synchrotron energy loss online",
+    "relativistic gamma fourth radiation calculator",
+    "particle accelerator synchrotron light calculator"
+  ],
+  "order": 544
+}

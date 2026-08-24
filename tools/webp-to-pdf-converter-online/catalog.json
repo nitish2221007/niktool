@@ -1,0 +1,15 @@
+{
+  "name": "Convert WebP to PDF Online",
+  "description": "Convert WebP photos into a PDF document instantly in your browser.",
+  "path": "/tools/webp-to-pdf-converter-online/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "webp to pdf converter online",
+    "Convert WebP to PDF Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

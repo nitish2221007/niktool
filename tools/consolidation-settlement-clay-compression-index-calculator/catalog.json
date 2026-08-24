@@ -1,0 +1,15 @@
+{
+  "name": "Clay Soil Consolidation Settlement (S_c = (C_c·H / (1 + e₀))·log₁₀[(σ₀' + Δσ') / σ₀']) Calculator",
+  "description": "Calculate primary 1D consolidation settlement of saturated clay layers (S_c = [C_c · H / (1 + e₀)] · log₁₀[(σ₀' + Δσ') / σ₀']) in mm from Compression Index C_c, initial void ratio e₀, and building load stress increase Δσ'.",
+  "path": "/tools/consolidation-settlement-clay-compression-index-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "consolidation settlement calculator",
+    "terzaghi 1d consolidation formula sc equals cc h over 1 plus e0 log online",
+    "clay compression index void ratio settlement calculator",
+    "soil mechanics effective stress increase settlement calculator",
+    "geotechnical foundation consolidation settlement online"
+  ],
+  "order": 1079
+}

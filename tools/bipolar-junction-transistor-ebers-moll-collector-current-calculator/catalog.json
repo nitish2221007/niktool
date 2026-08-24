@@ -1,0 +1,15 @@
+{
+  "name": "BJT Ebers-Moll Collector Current & Early Effect (V_A) Calculator",
+  "description": "Calculate Bipolar Junction Transistor (BJT) forward active collector current I_C in mA (I_C = I_S · (e^(q·V_BE / kT) - 1) · (1 + V_CE / V_A)), transconductance g_m = I_C / V_t, and base current I_B = I_C / β.",
+  "path": "/tools/bipolar-junction-transistor-ebers-moll-collector-current-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bjt ebers moll calculator",
+    "collector current formula ic equals is exp vbe over vt online",
+    "early voltage va output resistance ro bjt calculator",
+    "transconductance gm ic over vt bjt amplifier calculator",
+    "analog electronics semiconductor transistor circuit design online"
+  ],
+  "order": 1363
+}

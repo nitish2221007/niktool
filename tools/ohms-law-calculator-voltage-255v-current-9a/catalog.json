@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 255V, Current 9A)",
+  "description": "Calculate Resistance (28.33 Ω) and Electric Power (2295.0 W) for 255V voltage and 9A current.",
+  "path": "/tools/ohms-law-calculator-voltage-255v-current-9a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 255v current 9a",
+    "Ohm's Law Calculator (Voltage 255V, Current 9A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

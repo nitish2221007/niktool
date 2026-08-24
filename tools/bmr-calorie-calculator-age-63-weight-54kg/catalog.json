@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 63, Weight 54kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1293 kcal/day) for 63-year-old weighing 54 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-63-weight-54kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 63 weight 54kg",
+    "BMR Calorie Calculator (Age 63, Weight 54kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

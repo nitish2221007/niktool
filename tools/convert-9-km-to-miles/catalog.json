@@ -1,0 +1,15 @@
+{
+  "name": "Convert 9 KM to Miles",
+  "description": "Convert 9 kilometers to miles (5.59 miles). 100% free and local.",
+  "path": "/tools/convert-9-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 9 km to miles",
+    "Convert 9 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

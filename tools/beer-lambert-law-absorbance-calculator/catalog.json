@@ -1,0 +1,15 @@
+{
+  "name": "Beer-Lambert Law Spectrophotometry Calculator",
+  "description": "Calculate optical absorbance (A = ε · c · l) and molar concentration from spectrophotometer transmission percentage in analytical chemistry.",
+  "path": "/tools/beer-lambert-law-absorbance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "beer lambert law calculator",
+    "spectrophotometry absorbance calculator",
+    "molar absorptivity epsilon calculator",
+    "transmittance to absorbance formula",
+    "beer lambert concentration online"
+  ],
+  "order": 239
+}

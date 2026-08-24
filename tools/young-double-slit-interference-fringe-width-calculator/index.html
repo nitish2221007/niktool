@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate double-slit wave interference bright fringe position (y_m = m · λ · L / d) in mm, dark fringe minima, and uniform fringe spacing width (β = λ · L / d) for wave optics physics.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/young-double-slit-interference-fringe-width-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator | NikTool">
+  <meta property="og:description" content="Calculate double-slit wave interference bright fringe position (y_m = m · λ · L / d) in mm, dark fringe minima, and uniform fringe spacing width (β = λ · L / d) for wave optics physics.">
+  <meta property="og:url" content="https://niktool.in/tools/young-double-slit-interference-fringe-width-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/young-double-slit-interference-fringe-width-calculator/",
+        "description": "Calculate double-slit wave interference bright fringe position (y_m = m · λ · L / d) in mm, dark fringe minima, and uniform fringe spacing width (β = λ · L / d) for wave optics physics.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens to fringe width if the screen is moved further away?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fringe width increases linearly with screen distance L ($\beta propto L$), spreading the pattern further apart."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator</h1>
+      <p>Calculate double-slit wave interference bright fringe position (y_m = m · λ · L / d) in mm, dark fringe minima, and uniform fringe spacing width (β = λ · L / d) for wave optics physics.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Light Wavelength λ (nm, e.g. 632.8 nm He-Ne Laser), Slit Separation d (mm) & Screen Distance L (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="yd-lam">Wavelength λ (nm)</label>
+          <input class="tool-textarea" id="yd-lam" type="number" step="10" value="632.8" placeholder="632.8 nm (Red Laser)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="yd-d">Slit Spacing d (mm)</label>
+          <input class="tool-textarea" id="yd-d" type="number" step="0.05" value="0.25" placeholder="0.25 mm (250 μm)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="yd-l">Screen L (m)</label>
+          <input class="tool-textarea" id="yd-l" type="number" step="0.2" value="1.5" placeholder="1.5 m" />
+        </div>
+      </div>
+      <div id="yd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="yd-res-beta" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Fringe Width β = 3.80 mm</span>
+            <span class="stat-label">Interference Fringe Spacing (β = λ·L / d)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="yd-res-pos" style="color:var(--green-dark); font-weight:700;">1st Bright Max y₁ = 3.80 mm | 2nd y₂ = 7.60 mm | 1st Dark Min = 1.90 mm</span>
+            <span class="stat-label">Constructive & Destructive Interference Positions</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator</h2>
+      <ol>
+        <li>Enter monochromatic light wavelength $lambda$ in nanometers (nm).</li>
+        <li>Enter distance between the two slits d in millimeters (mm).</li>
+        <li>Enter distance from slits to projection screen L in meters.</li>
+        <li>Inspect fringe spacing width ($eta = rac{lambda L}{d}$) and positions of constructive bright maxima and destructive dark minima.</li>
+      </ol>
+
+      <h2>Thomas Young 1801 Wave Nature of Light Demonstration</h2>
+      <p>Young's double-slit experiment proved the wave theory of light by demonstrating that overlapping coherent light beams produce alternating constructive and destructive interference fringes ($dsin	heta = mlambda$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens to fringe width if the screen is moved further away?</summary>
+        <p>Fringe width increases linearly with screen distance L ($eta propto L$), spreading the pattern further apart.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/young-double-slit-interference-fringe-width-calculator/tool.js"></script>
+</body>
+</html>

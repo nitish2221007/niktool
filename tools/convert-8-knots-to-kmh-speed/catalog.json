@@ -1,0 +1,15 @@
+{
+  "name": "Convert 8 Knots to KM/H Speed",
+  "description": "Convert 8 knots speed to kilometers per hour (14.82 km/h).",
+  "path": "/tools/convert-8-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 8 knots to kmh speed",
+    "Convert 8 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

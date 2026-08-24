@@ -1,0 +1,15 @@
+{
+  "name": "Convert 13 KM to Miles",
+  "description": "Convert 13 kilometers to miles (8.08 miles). 100% free and local.",
+  "path": "/tools/convert-13-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 13 km to miles",
+    "Convert 13 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

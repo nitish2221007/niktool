@@ -1,0 +1,15 @@
+{
+  "name": "URL Decoder Online",
+  "description": "Decode percent-encoded URL parameters back to readable text.",
+  "path": "/tools/url-decoder-online/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "url decoder online",
+    "URL Decoder Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

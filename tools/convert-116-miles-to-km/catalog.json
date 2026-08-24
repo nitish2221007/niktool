@@ -1,0 +1,15 @@
+{
+  "name": "Convert 116 Miles to KM",
+  "description": "Convert 116 miles to kilometers (186.68 km). 100% free and local.",
+  "path": "/tools/convert-116-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 116 miles to km",
+    "Convert 116 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

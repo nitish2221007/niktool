@@ -1,0 +1,15 @@
+{
+  "name": "Activation Energy Arrhenius Calculator",
+  "description": "Calculate reaction activation energy (Ea) or reaction rate constant ratio (k2/k1) at two temperatures using the Arrhenius equation.",
+  "path": "/tools/activation-energy-arrhenius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "activation energy calculator",
+    "arrhenius equation calculator",
+    "reaction rate constant ratio",
+    "chemistry activation energy online",
+    "arrhenius kinetics calculator"
+  ],
+  "order": 113
+}

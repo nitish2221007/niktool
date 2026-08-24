@@ -1,0 +1,15 @@
+{
+  "name": "Debye Screening Length (λ_D) & Plasma Frequency (ω_pe) Calculator",
+  "description": "Calculate plasma Debye electrostatic screening shielding length λ_D in μm (λ_D = √(ε₀·k·T_e / (n_e·e²))), electron plasma oscillation frequency f_pe in GHz (f_pe = 1/2π · √(n_e·e² / (m_e·ε₀))), and plasma parameter N_D.",
+  "path": "/tools/debye-length-plasma-frequency-screening-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "debye length calculator",
+    "plasma frequency formula omega pe online",
+    "debye screening radius plasma parameter calculator",
+    "electron collective oscillation frequency calculator",
+    "plasma physics gas discharge fusion physics online"
+  ],
+  "order": 1393
+}

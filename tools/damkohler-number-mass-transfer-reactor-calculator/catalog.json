@@ -1,0 +1,15 @@
+{
+  "name": "Damköhler Number (Da_I) Chemical Reaction vs Flow Scaling Calculator",
+  "description": "Calculate First Damköhler Number (Da_I = k · C_A0^(n-1) · τ) to determine whether chemical reactor conversion is reaction-rate limited (low Da) or convection/flow limited (high Da).",
+  "path": "/tools/damkohler-number-mass-transfer-reactor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "damkohler number calculator",
+    "damkohler number chemical reactor formula",
+    "da1 k tau conversion calculator",
+    "reaction rate vs residence time ratio online",
+    "dimensionless numbers reactor engineering calculator"
+  ],
+  "order": 512
+}

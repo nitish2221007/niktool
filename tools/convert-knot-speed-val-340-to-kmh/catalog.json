@@ -1,0 +1,15 @@
+{
+  "name": "Convert 340 Knots Speed Val to KM/H",
+  "description": "Convert 340 knots speed to kilometers per hour (629.68 km/h).",
+  "path": "/tools/convert-knot-speed-val-340-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 340 to kmh",
+    "Convert 340 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

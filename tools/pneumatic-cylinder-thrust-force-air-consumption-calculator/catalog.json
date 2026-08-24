@@ -1,0 +1,15 @@
+{
+  "name": "Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator",
+  "description": "Calculate pneumatic air cylinder extension/retraction force (F = P · A) in Newtons/lbf and compressed air consumption rate in SCFM and L/min from bore and stroke.",
+  "path": "/tools/pneumatic-cylinder-thrust-force-air-consumption-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pneumatic cylinder force calculator",
+    "pneumatic thrust force formula f equals p times a",
+    "air cylinder cfm air consumption calculator online",
+    "double acting pneumatic cylinder sizing calculator",
+    "industrial automation pneumatic actuator online"
+  ],
+  "order": 655
+}

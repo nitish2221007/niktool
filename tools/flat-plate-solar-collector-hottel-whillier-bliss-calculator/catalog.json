@@ -1,0 +1,15 @@
+{
+  "name": "Flat-Plate Solar Collector (Hottel-Whillier-Bliss) Efficiency Calculator",
+  "description": "Calculate solar hot water flat-plate collector thermal efficiency (η = F_R·(τα) - F_R·U_L · (T_in - T_a) / G_T) and daily thermal heat yield (Q_u in kWh/day).",
+  "path": "/tools/flat-plate-solar-collector-hottel-whillier-bliss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "flat plate solar collector calculator",
+    "hottel whillier bliss equation formula online",
+    "solar thermal collector efficiency fr ul calculator",
+    "solar water heater daily heat yield calculator online",
+    "hwb solar collector efficiency curve online"
+  ],
+  "order": 744
+}

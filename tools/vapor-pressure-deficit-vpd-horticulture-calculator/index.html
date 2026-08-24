@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vapor Pressure Deficit (VPD) Greenhouse Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Vapor Pressure Deficit (VPD = VP_sat · (1 - RH/100)) in kiloPascals (kPa) for indoor hydroponics, greenhouse cultivation, and plant transpiration control.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/vapor-pressure-deficit-vpd-horticulture-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vapor Pressure Deficit (VPD) Greenhouse Calculator | NikTool">
+  <meta property="og:description" content="Calculate Vapor Pressure Deficit (VPD = VP_sat · (1 - RH/100)) in kiloPascals (kPa) for indoor hydroponics, greenhouse cultivation, and plant transpiration control.">
+  <meta property="og:url" content="https://niktool.in/tools/vapor-pressure-deficit-vpd-horticulture-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Vapor Pressure Deficit (VPD) Greenhouse Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/vapor-pressure-deficit-vpd-horticulture-calculator/",
+        "description": "Calculate Vapor Pressure Deficit (VPD = VP_sat · (1 - RH/100)) in kiloPascals (kPa) for indoor hydroponics, greenhouse cultivation, and plant transpiration control.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is ideal VPD for cannabis and vegetative crops?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "0.8 to 1.1 kPa for vegetative growth, increasing to 1.2 to 1.5 kPa during late flower/fruiting."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Vapor Pressure Deficit (VPD) Greenhouse Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Vapor Pressure Deficit (VPD) Greenhouse Calculator</h1>
+      <p>Calculate Vapor Pressure Deficit (VPD = VP_sat · (1 - RH/100)) in kiloPascals (kPa) for indoor hydroponics, greenhouse cultivation, and plant transpiration control.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Air Temp, Leaf Temp Offset & Relative Humidity</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="vpd-air">Air Temp (°C)</label>
+          <input class="tool-textarea" id="vpd-air" type="number" step="any" value="26.0" placeholder="26 °C" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vpd-leaf">Leaf Temp Offset (°C)</label>
+          <input class="tool-textarea" id="vpd-leaf" type="number" step="any" value="-1.5" placeholder="-1.5 °C (Transpiration Cooling)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vpd-rh">Relative Humidity (%)</label>
+          <input class="tool-textarea" id="vpd-rh" type="number" min="1" max="100" value="60" placeholder="60%" />
+        </div>
+      </div>
+      <div id="vpd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="vpd-res-kpa" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">1.06 kPa</span>
+            <span class="stat-label">Leaf Vapor Pressure Deficit (VPD)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="vpd-res-stage" style="color:var(--green-dark); font-weight:700;">Optimal Vegetative / Early Flowering</span>
+            <span class="stat-label">Horticultural Growth Zone</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Vapor Pressure Deficit (VPD) Greenhouse Calculator</h2>
+      <ol>
+        <li>Enter greenhouse ambient air temperature in Celsius.</li>
+        <li>Enter infrared leaf temperature offset in Celsius (typically -1°C to -2°C due to evaporative cooling).</li>
+        <li>Enter relative humidity percentage (%).</li>
+        <li>Inspect Leaf VPD in kiloPascals (kPa) and horticultural growth target band.</li>
+      </ol>
+
+      <h2>Driving Nutrient Uptake via Transpiration</h2>
+      <p>VPD represents the drying power of the air: maintaining VPD between 0.8 and 1.2 kPa ensures plant stomata stay open for continuous CO₂ assimilation and calcium nutrient uptake without causing dehydration stress.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is ideal VPD for cannabis and vegetative crops?</summary>
+        <p>0.8 to 1.1 kPa for vegetative growth, increasing to 1.2 to 1.5 kPa during late flower/fruiting.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/vapor-pressure-deficit-vpd-horticulture-calculator/tool.js"></script>
+</body>
+</html>

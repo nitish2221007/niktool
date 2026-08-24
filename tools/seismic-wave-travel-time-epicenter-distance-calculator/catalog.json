@@ -1,0 +1,15 @@
+{
+  "name": "Seismic P-Wave & S-Wave Earthquake Epicenter Distance Calculator",
+  "description": "Calculate earthquake epicenter distance (d = Δt / (1/v_s - 1/v_p)) in kilometers from primary P-wave and secondary S-wave seismogram arrival time differential.",
+  "path": "/tools/seismic-wave-travel-time-epicenter-distance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "seismic wave epicenter calculator",
+    "p wave s wave travel time difference formula",
+    "earthquake epicenter distance calculator online",
+    "seismology p s wave arrival time calculator",
+    "geophysics earthquake triangulation online"
+  ],
+  "order": 650
+}

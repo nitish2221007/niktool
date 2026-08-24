@@ -1,0 +1,15 @@
+{
+  "name": "Convert 18 REM to PX Value",
+  "description": "Convert 18 REM units to pixels (288 px) based on standard 16px root font.",
+  "path": "/tools/convert-18-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 18 rem to px value",
+    "Convert 18 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

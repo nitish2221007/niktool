@@ -1,0 +1,15 @@
+{
+  "name": "Softmax Activation Function (σ(z)_i = e^(z_i) / ∑ e^(z_j)) & Multi-Class Loss Calculator",
+  "description": "Calculate multi-class neural network Softmax probability distribution (σ(z)_i = e^(z_i) / ∑ e^(z_j)), categorical cross-entropy loss, and temperature-scaled Boltzmann probabilities.",
+  "path": "/tools/softmax-activation-function-cross-entropy-loss-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "softmax calculator",
+    "softmax activation function formula online",
+    "categorical cross entropy loss neural network calculator",
+    "temperature scaling softmax boltzmann calculator",
+    "deep learning machine learning neural networks online"
+  ],
+  "order": 1216
+}

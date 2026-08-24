@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 154cm, Weight 57kg)",
+  "description": "Calculate Body Mass Index (BMI 24.0) for height 154 cm and weight 57 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-154cm-weight-57kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 154cm weight 57kg",
+    "BMI Calculator (Height 154cm, Weight 57kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

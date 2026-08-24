@@ -1,0 +1,15 @@
+{
+  "name": "Remove URLs From Text",
+  "description": "Strip website URLs and HTTP links from text documents.",
+  "path": "/tools/remove-urls-from-text/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "remove urls from text",
+    "Remove URLs From Text",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

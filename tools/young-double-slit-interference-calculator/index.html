@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Young's Double Slit Interference Fringe Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate interference bright fringe spacing (Δy = λ · L / d), path difference (Δx = d · sin θ), and constructive interference order positions on screen.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/young-double-slit-interference-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Young's Double Slit Interference Fringe Calculator | NikTool">
+  <meta property="og:description" content="Calculate interference bright fringe spacing (Δy = λ · L / d), path difference (Δx = d · sin θ), and constructive interference order positions on screen.">
+  <meta property="og:url" content="https://niktool.in/tools/young-double-slit-interference-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Young's Double Slit Interference Fringe Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/young-double-slit-interference-calculator/",
+        "description": "Calculate interference bright fringe spacing (Δy = λ · L / d), path difference (Δx = d · sin θ), and constructive interference order positions on screen.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens to fringe spacing when moving the screen farther away?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fringe spacing increases linearly with distance L (Δy ∝ L), making fringes wider and easier to see."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Young's Double Slit Interference Fringe Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Young's Double Slit Interference Fringe Calculator</h1>
+      <p>Calculate interference bright fringe spacing (Δy = λ · L / d), path difference (Δx = d · sin θ), and constructive interference order positions on screen.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Slit Separation (d in mm), Wavelength & Screen Distance</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="yds-d">Slit Separation d (mm)</label>
+          <input class="tool-textarea" id="yds-d" type="number" step="any" value="0.25" placeholder="0.25 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="yds-lambda">Wavelength λ (nm)</label>
+          <input class="tool-textarea" id="yds-lambda" type="number" step="any" value="532" placeholder="532 nm (Green Laser)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="yds-l">Screen Distance L (m)</label>
+          <input class="tool-textarea" id="yds-l" type="number" step="any" value="1.5" placeholder="1.5 m" />
+        </div>
+      </div>
+      <div id="yds-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="yds-res-dy" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">3.19 mm</span>
+            <span class="stat-label">Fringe Separation (Δy = λL / d)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="yds-res-theta" style="font-weight:700;">0.122° (2.13 mrad)</span>
+            <span class="stat-label">Fringe Angular Separation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Young's Double Slit Interference Fringe Calculator</h2>
+      <ol>
+        <li>Enter distance between the two slit apertures (d) in millimeters.</li>
+        <li>Enter laser wavelength in nanometers (nm).</li>
+        <li>Enter distance to projection screen in meters.</li>
+        <li>Inspect physical millimeter separation between consecutive bright interference fringes (Δy).</li>
+      </ol>
+
+      <h2>Thomas Young's 1801 Wave Theory Experiment</h2>
+      <p>Young's double slit experiment proved conclusively that light behaves as a wave: overlapping wavefronts from the two slits interfere constructively when optical path difference is an integer wavelength (d·sin θ = mλ).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens to fringe spacing when moving the screen farther away?</summary>
+        <p>Fringe spacing increases linearly with distance L (Δy ∝ L), making fringes wider and easier to see.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/young-double-slit-interference-calculator/tool.js"></script>
+</body>
+</html>

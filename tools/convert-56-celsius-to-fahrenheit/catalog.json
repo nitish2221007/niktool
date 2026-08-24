@@ -1,0 +1,15 @@
+{
+  "name": "Convert 56°C Celsius to Fahrenheit",
+  "description": "Convert 56 degrees Celsius (°C) to Fahrenheit (132.8°F).",
+  "path": "/tools/convert-56-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 56 celsius to fahrenheit",
+    "Convert 56°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

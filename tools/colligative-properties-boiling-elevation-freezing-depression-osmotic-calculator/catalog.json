@@ -1,0 +1,15 @@
+{
+  "name": "Colligative Properties (Boiling Point Elevation, Freezing Point Depression & Osmotic Pressure) Calculator",
+  "description": "Calculate solution colligative properties: Freezing Point Depression (ΔT_f = i·K_f·m), Boiling Point Elevation (ΔT_b = i·K_b·m), and Osmotic Pressure (Π = i·M·R·T) in atm from van 't Hoff factor i and molality.",
+  "path": "/tools/colligative-properties-boiling-elevation-freezing-depression-osmotic-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "colligative properties calculator",
+    "freezing point depression boiling point elevation formula online",
+    "osmotic pressure pi equals i m r t calculator",
+    "van t hoff factor colligative calculator",
+    "chemistry solution colligative properties online"
+  ],
+  "order": 1021
+}

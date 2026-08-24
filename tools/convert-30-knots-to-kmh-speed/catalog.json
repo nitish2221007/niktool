@@ -1,0 +1,15 @@
+{
+  "name": "Convert 30 Knots to KM/H Speed",
+  "description": "Convert 30 knots speed to kilometers per hour (55.56 km/h).",
+  "path": "/tools/convert-30-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 30 knots to kmh speed",
+    "Convert 30 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

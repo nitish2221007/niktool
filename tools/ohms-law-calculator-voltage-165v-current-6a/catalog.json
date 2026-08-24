@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 165V, Current 6A)",
+  "description": "Calculate Resistance (27.50 Ω) and Electric Power (990.0 W) for 165V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-165v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 165v current 6a",
+    "Ohm's Law Calculator (Voltage 165V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

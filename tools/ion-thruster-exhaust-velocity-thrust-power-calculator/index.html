@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate electric space propulsion electrostatic gridded ion thruster ion exhaust velocity (v_e = √(2·q·V_acc / m_Xe)) in km/s, specific impulse (I_sp = v_e / g₀) in seconds, and thrust output (T = √(2·m_Xe / q) · I_beam · √V_acc) in mN for Deep Space 1 and Dawn NASA missions.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ion-thruster-exhaust-velocity-thrust-power-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator | NikTool">
+  <meta property="og:description" content="Calculate electric space propulsion electrostatic gridded ion thruster ion exhaust velocity (v_e = √(2·q·V_acc / m_Xe)) in km/s, specific impulse (I_sp = v_e / g₀) in seconds, and thrust output (T = √(2·m_Xe / q) · I_beam · √V_acc) in mN for Deep Space 1 and Dawn NASA missions.">
+  <meta property="og:url" content="https://niktool.in/tools/ion-thruster-exhaust-velocity-thrust-power-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ion-thruster-exhaust-velocity-thrust-power-calculator/",
+        "description": "Calculate electric space propulsion electrostatic gridded ion thruster ion exhaust velocity (v_e = √(2·q·V_acc / m_Xe)) in km/s, specific impulse (I_sp = v_e / g₀) in seconds, and thrust output (T = √(2·m_Xe / q) · I_beam · √V_acc) in mN for Deep Space 1 and Dawn NASA missions.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is a hollow cathode neutralizer required outside the ion thruster?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To inject electrons into the exiting positive ion beam, preventing the spacecraft from building up a negative electrical charge that would pull ions back."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator</h1>
+      <p>Calculate electric space propulsion electrostatic gridded ion thruster ion exhaust velocity (v_e = √(2·q·V_acc / m_Xe)) in km/s, specific impulse (I_sp = v_e / g₀) in seconds, and thrust output (T = √(2·m_Xe / q) · I_beam · √V_acc) in mN for Deep Space 1 and Dawn NASA missions.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Grid Accelerator Voltage V_acc (Volts), Ion Beam Current I_beam (Amps) & Propellant (Xenon, Krypton, Argon)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ion-vacc">Voltage V_acc (V)</label>
+          <input class="tool-textarea" id="ion-vacc" type="number" step="100" value="1280.0" placeholder="1280.0 V (NSTAR NASA)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ion-ibeam">Beam Current (A)</label>
+          <input class="tool-textarea" id="ion-ibeam" type="number" step="0.1" value="1.76" placeholder="1.76 A (Dawn Thruster)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ion-gas">Propellant Gas</label>
+          <select class="tool-textarea" id="ion-gas">
+            <option value="xe" selected>Xenon Xe (M = 131.29 amu)</option>
+            <option value="kr">Krypton Kr (M = 83.80 amu - Starlink)</option>
+            <option value="ar">Argon Ar (M = 39.95 amu)</option>
+          </select>
+        </div>
+      </div>
+      <div id="ion-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ion-res-isp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">I_sp = 3,180 s (31.2 km/s v_e)</span>
+            <span class="stat-label">Specific Impulse (I_sp) & Effective Exhaust Velocity</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ion-res-thrust" style="font-weight:700;">Thrust T = 91.8 mN | Beam Power P_beam = 2.25 kW (Efficiency η = 72.5%)</span>
+            <span class="stat-label">Electrostatic Thrust Output & Electrical Beam Power</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator</h2>
+      <ol>
+        <li>Enter grid electrostatic accelerating voltage $V_{	ext{acc}}$ in Volts (typically 1,000 V to 2,000 V).</li>
+        <li>Enter extracted ion beam current $I_{	ext{beam}}$ in Amperes.</li>
+        <li>Select noble propellant gas (Xenon, Krypton for SpaceX Starlink, Argon).</li>
+        <li>Inspect specific impulse $I_{	ext{sp}}$ in seconds ($10	imes$ higher than chemical rockets), exhaust velocity $v_e$ in km/s, and thrust output in milli-Newtons (mN).</li>
+      </ol>
+
+      <h2>Harold R. Kaufman 1960 Electrostatic Ion Propulsion</h2>
+      <p>While chemical rockets are limited to $I_{	ext{sp}} le 450	ext{ s}$ by molecular combustion bond energies, electrostatic ion thrusters accelerate ionized atoms across thousands of volts to reach $I_{	ext{sp}} > 3,000	ext{ s}$ ($v_e > 30	ext{ km/s}$), slashing satellite propellant launch mass by $>70%$ for deep space missions (NASA Dawn).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is a hollow cathode neutralizer required outside the ion thruster?</summary>
+        <p>To inject electrons into the exiting positive ion beam, preventing the spacecraft from building up a negative electrical charge that would pull ions back.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ion-thruster-exhaust-velocity-thrust-power-calculator/tool.js"></script>
+</body>
+</html>

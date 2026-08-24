@@ -1,0 +1,15 @@
+{
+  "name": "LM317 Adjustable Voltage Regulator Resistor Calculator",
+  "description": "Calculate output DC voltage (V_out = 1.25V · (1 + R₂ / R₁)) and feedback potentiometer resistor values for LM317, LM350, and LM338 adjustable linear regulators.",
+  "path": "/tools/lm317-adjustable-voltage-regulator-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "lm317 voltage calculator",
+    "lm317 resistor calculator online",
+    "adjustable voltage regulator formula",
+    "lm317 output voltage r1 r2 calculator",
+    "lm317 potentiometer calculator"
+  ],
+  "order": 398
+}

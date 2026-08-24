@@ -1,0 +1,15 @@
+{
+  "name": "Convert 38 Miles to KM",
+  "description": "Convert 38 miles to kilometers (61.15 km). 100% free and local.",
+  "path": "/tools/convert-38-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 38 miles to km",
+    "Convert 38 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

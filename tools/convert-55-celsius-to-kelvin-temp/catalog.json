@@ -1,0 +1,15 @@
+{
+  "name": "Convert 55°C Celsius to Kelvin Temp",
+  "description": "Convert 55 degrees Celsius (°C) to Kelvin (328.15 K) instantly.",
+  "path": "/tools/convert-55-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 55 celsius to kelvin temp",
+    "Convert 55°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

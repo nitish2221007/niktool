@@ -1,0 +1,15 @@
+{
+  "name": "Radiotherapy Biologically Effective Dose (BED & EQD2) Calculator",
+  "description": "Calculate cancer radiation oncology Biologically Effective Dose (BED = n · d · (1 + d / (α/β))) in Gy and Equivalent Dose in 2 Gy fractions (EQD2) across tumor and normal tissue α/β ratios.",
+  "path": "/tools/radiotherapy-linear-quadratic-biologically-effective-dose-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "bed calculator radiotherapy",
+    "biologically effective dose formula n times d times 1 plus d over alpha beta",
+    "eqd2 equivalent dose in 2 gy fractions calculator",
+    "radiation oncology linear quadratic model calculator",
+    "sbrt stereotactic fractionation bed online"
+  ],
+  "order": 716
+}

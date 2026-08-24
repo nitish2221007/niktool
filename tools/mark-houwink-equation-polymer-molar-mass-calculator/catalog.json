@@ -1,0 +1,15 @@
+{
+  "name": "Mark-Houwink Equation Polymer Viscosity-Average Molar Mass (M_v) Calculator",
+  "description": "Calculate polymer viscosity-average molecular weight (M_v = ([η] / K)^(1/a)) in g/mol from dilute solution intrinsic viscosity [η] in dL/g and Mark-Houwink constants K and a.",
+  "path": "/tools/mark-houwink-equation-polymer-molar-mass-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mark houwink equation calculator",
+    "intrinsic viscosity polymer molecular weight formula online",
+    "viscosity average molar mass mv calculator",
+    "polymer dilute solution viscometry mark houwink online",
+    "polystyrene pmma polyethylene molar mass calculator"
+  ],
+  "order": 691
+}

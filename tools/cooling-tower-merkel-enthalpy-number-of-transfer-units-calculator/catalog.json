@@ -1,0 +1,15 @@
+{
+  "name": "Cooling Tower Merkel Equation (NTU = KaV / L = ∫ c_w·dT_w / (h_s - h_a)) Calculator",
+  "description": "Calculate industrial evaporative cooling tower Number of Transfer Units (NTU = KaV / L) using Merkel's enthalpy driving force integral, cooling range (T_in - T_out), and wet-bulb approach temperature.",
+  "path": "/tools/cooling-tower-merkel-enthalpy-number-of-transfer-units-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cooling tower calculator",
+    "merkel equation ntu formula kav over l online",
+    "cooling tower range approach enthalpy calculator",
+    "evaporative cooling water tower ntu calculator",
+    "thermal chemical engineering hvac cooling towers online"
+  ],
+  "order": 1257
+}

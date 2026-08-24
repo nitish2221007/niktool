@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate conjugate acid-base buffer solution equilibrium pH (pH = pKa + log([Conjugate Base] / [Weak Acid])) and buffer capacity for acetic acid, phosphate, and biological blood bicarbonate buffer systems under AP and College Chemistry.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ap-chemistry-buffer-solution-henderson-hasselbalch-ph-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator | NikTool">
+  <meta property="og:description" content="Calculate conjugate acid-base buffer solution equilibrium pH (pH = pKa + log([Conjugate Base] / [Weak Acid])) and buffer capacity for acetic acid, phosphate, and biological blood bicarbonate buffer systems under AP and College Chemistry.">
+  <meta property="og:url" content="https://niktool.in/tools/ap-chemistry-buffer-solution-henderson-hasselbalch-ph-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ap-chemistry-buffer-solution-henderson-hasselbalch-ph-calculator/",
+        "description": "Calculate conjugate acid-base buffer solution equilibrium pH (pH = pKa + log([Conjugate Base] / [Weak Acid])) and buffer capacity for acetic acid, phosphate, and biological blood bicarbonate buffer systems under AP and College Chemistry.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "When is a buffer solution at its maximum buffering capacity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When $[A^-] = [HA]$, the ratio is 1 ($log 1 = 0$), so $pH = pK_a$, providing equal protection against added acids and bases."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator</h1>
+      <p>Calculate conjugate acid-base buffer solution equilibrium pH (pH = pKa + log([Conjugate Base] / [Weak Acid])) and buffer capacity for acetic acid, phosphate, and biological blood bicarbonate buffer systems under AP and College Chemistry.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Acid pKa, Weak Acid [HA] Molarity (M) & Conjugate Base [A⁻] Molarity (M)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hh-pka">Acid pKa</label>
+          <input class="tool-textarea" id="hh-pka" type="number" step="0.05" value="4.76" placeholder="4.76 (Acetic Acid)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hh-ha">Acid [HA] (M)</label>
+          <input class="tool-textarea" id="hh-ha" type="number" step="0.05" value="0.10" placeholder="0.10 M CH₃COOH" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hh-a">Base [A⁻] (M)</label>
+          <input class="tool-textarea" id="hh-a" type="number" step="0.05" value="0.15" placeholder="0.15 M CH₃COO⁻" />
+        </div>
+      </div>
+      <div id="hh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hh-res-ph" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">pH = 4.94 Buffer</span>
+            <span class="stat-label">Buffer Solution Equilibrium pH (pH = pKa + log([A⁻]/[HA]))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hh-res-cap" style="color:var(--green-dark); font-weight:700;">OPTIMAL BUFFER REGIME (pH within pKa ± 1.0: High Buffer Capacity against Added Acid/Base)</span>
+            <span class="stat-label">Buffer Capacity & Ratio [A⁻]/[HA] = 1.50</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Henderson-Hasselbalch Buffer Solution pH (pH = pKa + log([A⁻]/[HA])) Calculator</h2>
+      <ol>
+        <li>Enter weak acid acid dissociation constant $pK_a$ (e.g. 4.76 for acetic acid, 6.10 for blood carbonic acid, 7.20 for phosphate buffer).</li>
+        <li>Enter weak acid molarity $[HA]$ in M.</li>
+        <li>Enter conjugate base molarity $[A^-]$ in M.</li>
+        <li>Inspect equilibrium pH and check effective buffer capacity range ($pH = pK_a pm 1.0$).</li>
+      </ol>
+
+      <h2>Lawrence Joseph Henderson & Karl Albert Hasselbalch Equation</h2>
+      <p>Buffer solutions resist changes in hydronium ion concentration when small amounts of strong acid or base are added; the human blood bicarbonate buffer system maintains strict physiological pH ($7.35	ext{ to }7.45$) using this exact chemical equilibrium.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>When is a buffer solution at its maximum buffering capacity?</summary>
+        <p>When $[A^-] = [HA]$, the ratio is 1 ($log 1 = 0$), so $pH = pK_a$, providing equal protection against added acids and bases.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ap-chemistry-buffer-solution-henderson-hasselbalch-ph-calculator/tool.js"></script>
+</body>
+</html>

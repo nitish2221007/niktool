@@ -1,0 +1,15 @@
+{
+  "name": "Convert 44 Hours to Seconds",
+  "description": "Convert 44 hours to minutes (2640 min) and seconds (1,58,400 sec).",
+  "path": "/tools/convert-44-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 44 hours to seconds time",
+    "Convert 44 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

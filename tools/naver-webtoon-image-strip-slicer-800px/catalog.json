@@ -1,0 +1,15 @@
+{
+  "name": "Naver Webtoon Vertical Strip Image Slicer (네이버 웹툰 800px 규격)",
+  "description": "Slice long vertical webtoon image strips into 800px width cuts.",
+  "path": "/tools/naver-webtoon-image-strip-slicer-800px/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "naver webtoon image strip slicer 800px",
+    "Naver Webtoon Vertical Strip Image Slicer (네이버 웹툰 800px 규격)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

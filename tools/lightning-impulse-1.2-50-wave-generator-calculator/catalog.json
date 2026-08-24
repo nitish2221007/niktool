@@ -1,0 +1,15 @@
+{
+  "name": "Standard Lightning Impulse 1.2 / 50 μs Marx Generator Waveform Calculator",
+  "description": "Calculate IEC 60060-1 standardized lightning high-voltage surge impulse wave (V(t) = V₀ · (exp[-t / τ₂] - exp[-t / τ₁])) and tune front time T₁ = 1.2 μs and tail time T₂ = 50 μs Marx generator resistors.",
+  "path": "/tools/lightning-impulse-1.2-50-wave-generator-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lightning impulse calculator",
+    "marx generator 1.2 50 wave formula v of t online",
+    "iec 60060 lightning surge impulse voltage calculator",
+    "front time tail time lightning impulse calculator online",
+    "high voltage impulse test circuit sizing online"
+  ],
+  "order": 856
+}

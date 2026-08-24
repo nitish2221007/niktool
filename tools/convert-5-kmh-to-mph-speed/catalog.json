@@ -1,0 +1,15 @@
+{
+  "name": "Convert 5 KM/H to MPH Speed",
+  "description": "Convert 5 kilometers per hour (km/h) to miles per hour (3.11 mph).",
+  "path": "/tools/convert-5-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 5 kmh to mph speed",
+    "Convert 5 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

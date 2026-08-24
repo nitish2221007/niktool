@@ -1,0 +1,15 @@
+{
+  "name": "Panel Acoustic Coincidence Critical Frequency (f_c) Calculator",
+  "description": "Calculate acoustic coincidence critical dip frequency (f_c = (c² / 2π) · √(m / B)) in Hz where bending wave speed matches air sound speed, causing sharp soundproofing failure in glass and drywall panels.",
+  "path": "/tools/acoustic-coincidence-critical-frequency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "coincidence critical frequency calculator",
+    "acoustic coincidence dip formula c squared over 2 pi sqrt m over b",
+    "bending wave sound speed critical frequency calculator",
+    "window glass sound transmission coincidence dip online",
+    "architectural acoustics coincidence frequency online"
+  ],
+  "order": 749
+}

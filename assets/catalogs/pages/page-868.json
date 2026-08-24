@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 2A)",
+    "description": "Calculate Resistance (62.50 Ω) and Electric Power (250.0 W) for 125V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 2a",
+      "Ohm's Law Calculator (Voltage 125V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 3A)",
+    "description": "Calculate Resistance (41.67 Ω) and Electric Power (375.0 W) for 125V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 3a",
+      "Ohm's Law Calculator (Voltage 125V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 4A)",
+    "description": "Calculate Resistance (31.25 Ω) and Electric Power (500.0 W) for 125V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 4a",
+      "Ohm's Law Calculator (Voltage 125V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 5A)",
+    "description": "Calculate Resistance (25.00 Ω) and Electric Power (625.0 W) for 125V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 5a",
+      "Ohm's Law Calculator (Voltage 125V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 6A)",
+    "description": "Calculate Resistance (20.83 Ω) and Electric Power (750.0 W) for 125V voltage and 6A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-6a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 6a",
+      "Ohm's Law Calculator (Voltage 125V, Current 6A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 7A)",
+    "description": "Calculate Resistance (17.86 Ω) and Electric Power (875.0 W) for 125V voltage and 7A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-7a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 7a",
+      "Ohm's Law Calculator (Voltage 125V, Current 7A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 8A)",
+    "description": "Calculate Resistance (15.63 Ω) and Electric Power (1000.0 W) for 125V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 8a",
+      "Ohm's Law Calculator (Voltage 125V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 125V, Current 9A)",
+    "description": "Calculate Resistance (13.89 Ω) and Electric Power (1125.0 W) for 125V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-125v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 125v current 9a",
+      "Ohm's Law Calculator (Voltage 125V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 10A)",
+    "description": "Calculate Resistance (13.00 Ω) and Electric Power (1300.0 W) for 130V voltage and 10A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-10a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 10a",
+      "Ohm's Law Calculator (Voltage 130V, Current 10A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 1A)",
+    "description": "Calculate Resistance (130.00 Ω) and Electric Power (130.0 W) for 130V voltage and 1A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-1a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 1a",
+      "Ohm's Law Calculator (Voltage 130V, Current 1A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 2A)",
+    "description": "Calculate Resistance (65.00 Ω) and Electric Power (260.0 W) for 130V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 2a",
+      "Ohm's Law Calculator (Voltage 130V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 3A)",
+    "description": "Calculate Resistance (43.33 Ω) and Electric Power (390.0 W) for 130V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 3a",
+      "Ohm's Law Calculator (Voltage 130V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 4A)",
+    "description": "Calculate Resistance (32.50 Ω) and Electric Power (520.0 W) for 130V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 4a",
+      "Ohm's Law Calculator (Voltage 130V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 5A)",
+    "description": "Calculate Resistance (26.00 Ω) and Electric Power (650.0 W) for 130V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 5a",
+      "Ohm's Law Calculator (Voltage 130V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 6A)",
+    "description": "Calculate Resistance (21.67 Ω) and Electric Power (780.0 W) for 130V voltage and 6A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-6a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 6a",
+      "Ohm's Law Calculator (Voltage 130V, Current 6A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 7A)",
+    "description": "Calculate Resistance (18.57 Ω) and Electric Power (910.0 W) for 130V voltage and 7A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-7a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 7a",
+      "Ohm's Law Calculator (Voltage 130V, Current 7A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 8A)",
+    "description": "Calculate Resistance (16.25 Ω) and Electric Power (1040.0 W) for 130V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 8a",
+      "Ohm's Law Calculator (Voltage 130V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 130V, Current 9A)",
+    "description": "Calculate Resistance (14.44 Ω) and Electric Power (1170.0 W) for 130V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-130v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 130v current 9a",
+      "Ohm's Law Calculator (Voltage 130V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 135V, Current 10A)",
+    "description": "Calculate Resistance (13.50 Ω) and Electric Power (1350.0 W) for 135V voltage and 10A current.",
+    "path": "/tools/ohms-law-calculator-voltage-135v-current-10a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 135v current 10a",
+      "Ohm's Law Calculator (Voltage 135V, Current 10A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 135V, Current 1A)",
+    "description": "Calculate Resistance (135.00 Ω) and Electric Power (135.0 W) for 135V voltage and 1A current.",
+    "path": "/tools/ohms-law-calculator-voltage-135v-current-1a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 135v current 1a",
+      "Ohm's Law Calculator (Voltage 135V, Current 1A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 135V, Current 2A)",
+    "description": "Calculate Resistance (67.50 Ω) and Electric Power (270.0 W) for 135V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-135v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 135v current 2a",
+      "Ohm's Law Calculator (Voltage 135V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 135V, Current 3A)",
+    "description": "Calculate Resistance (45.00 Ω) and Electric Power (405.0 W) for 135V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-135v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 135v current 3a",
+      "Ohm's Law Calculator (Voltage 135V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 135V, Current 4A)",
+    "description": "Calculate Resistance (33.75 Ω) and Electric Power (540.0 W) for 135V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-135v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 135v current 4a",
+      "Ohm's Law Calculator (Voltage 135V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 135V, Current 5A)",
+    "description": "Calculate Resistance (27.00 Ω) and Electric Power (675.0 W) for 135V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-135v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 135v current 5a",
+      "Ohm's Law Calculator (Voltage 135V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

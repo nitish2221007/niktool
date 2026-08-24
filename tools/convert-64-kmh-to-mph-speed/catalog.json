@@ -1,0 +1,15 @@
+{
+  "name": "Convert 64 KM/H to MPH Speed",
+  "description": "Convert 64 kilometers per hour (km/h) to miles per hour (39.77 mph).",
+  "path": "/tools/convert-64-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 64 kmh to mph speed",
+    "Convert 64 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Relativistic Rocket Equation (Δv = c·tanh[(v_e/c)·ln(m₀/m_f)]) Calculator",
+  "description": "Calculate interstellar relativistic rocket final velocity (v/c = tanh[(v_e/c) · ln(m₀ / m_f)]), astronaut shipboard proper time vs Earth coordinate time, and Lorentz time dilation (γ) for near-lightspeed interstellar voyages.",
+  "path": "/tools/relativistic-rocket-tsiolkovsky-proper-time-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "relativistic rocket equation calculator",
+    "relativistic tsiolkovsky formula v equals c tanh ve over c ln m0 over mf online",
+    "interstellar spaceflight proper time twin paradox calculator",
+    "antimatter rocket relativistic velocity calculator online",
+    "special relativity lorentz gamma rocket speed online"
+  ],
+  "order": 876
+}

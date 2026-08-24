@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (930 km Distance, 13 km/l Mileage)",
+  "description": "Calculate fuel needed (71.5 L) and cost (₹6900) for 930 km trip at 13 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-930km-mileage-13kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 930km mileage 13kmpl",
+    "Fuel Cost Trip Calculator (930 km Distance, 13 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

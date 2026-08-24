@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calculator (Age 34 Years Male)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1598 kcal/day) for 34-year-old male.",
+  "path": "/tools/bmr-calculator-age-34-years-male/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calculator age 34 years male",
+    "BMR Calculator (Age 34 Years Male)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Rotate Odd Pages Of PDF",
+  "description": "Rotate all odd pages (1, 3, 5...) in a PDF document by 90 degrees.",
+  "path": "/tools/rotate-odd-pages-of-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "rotate odd pages of pdf",
+    "Rotate Odd Pages Of PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

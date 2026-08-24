@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 173cm, Weight 53kg)",
+  "description": "Calculate Body Mass Index (BMI 17.7) for height 173 cm and weight 53 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-173cm-weight-53kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 173cm weight 53kg",
+    "BMI Calculator (Height 173cm, Weight 53kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

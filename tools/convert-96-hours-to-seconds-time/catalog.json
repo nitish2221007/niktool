@@ -1,0 +1,15 @@
+{
+  "name": "Convert 96 Hours to Seconds",
+  "description": "Convert 96 hours to minutes (5760 min) and seconds (3,45,600 sec).",
+  "path": "/tools/convert-96-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 96 hours to seconds time",
+    "Convert 96 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 92 Knots to KM/H Speed",
+  "description": "Convert 92 knots speed to kilometers per hour (170.38 km/h).",
+  "path": "/tools/convert-92-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 92 knots to kmh speed",
+    "Convert 92 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

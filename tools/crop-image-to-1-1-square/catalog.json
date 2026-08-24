@@ -1,0 +1,16 @@
+{
+  "name": "Crop Image to 1:1 Square Ratio",
+  "description": "Crop any picture into a perfect 1:1 square ratio for profile avatars and Instagram.",
+  "path": "/tools/crop-image-to-1-1-square/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "crop image to 1 1 square",
+    "Crop Image to 1:1 Square Ratio",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

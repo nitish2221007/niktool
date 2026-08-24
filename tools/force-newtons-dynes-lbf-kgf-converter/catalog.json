@@ -1,0 +1,15 @@
+{
+  "name": "Force Unit Converter (Newtons, lbf, kgf, Dynes)",
+  "description": "Convert mechanical force units across Newtons (N), Pound-Force (lbf), Kilogram-Force (kgf / kp), Dynes (dyn), and Kilonewtons (kN).",
+  "path": "/tools/force-newtons-dynes-lbf-kgf-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "force unit converter",
+    "newtons to pound force lbf",
+    "kgf to newtons converter",
+    "dynes to newtons calculator",
+    "force conversion matrix online"
+  ],
+  "order": 220
+}

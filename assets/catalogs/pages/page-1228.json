@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Relativistic de Broglie Matter Wavelength (λ = h / p) Calculator",
+    "description": "Calculate relativistic electron/particle de Broglie matter wavelength (λ = h / √(2·m₀·E_k + E_k²/c²)) in picometers and Ångströms for Transmission Electron Microscopy (TEM).",
+    "path": "/tools/de-broglie-matter-wavelength-relativistic-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "de broglie wavelength calculator",
+      "relativistic matter wave formula lambda equals h over p online",
+      "electron microscope wavelength tem accelerator voltage calculator",
+      "matter wave picometer angstrom calculator online",
+      "louis de broglie wave particle duality calculator"
+    ]
+  },
+  {
+    "name": "Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator",
+    "description": "Calculate colloidal semiconductor quantum dot size-dependent bandgap blue-shift (Brus equation: ΔE_g = ℏ²π² / (2·R²) · [1/m_e* + 1/m_h*] - 1.8·e² / (4πε·R)) in eV and optical fluorescence emission wavelength in nm.",
+    "path": "/tools/quantum-dot-exciton-bohr-radius-bandgap-brus-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quantum dot brus equation calculator",
+      "quantum confinement bandgap formula delta eg online",
+      "colloidal quantum dot size to emission wavelength calculator",
+      "cdse quantum dot photoluminescence color calculator",
+      "nanotechnology quantum dot exciton bohr radius online"
+    ]
+  },
+  {
+    "name": "Nuclear Fusion Lawson Criterion & Triple Product (n·T·τ_E) Calculator",
+    "description": "Calculate magnetic fusion plasma Triple Product (n · T · τ_E in keV·s/m³) and evaluate Breakeven (Q = 1) and Ignition (Q = ∞) thresholds for Deuterium-Tritium (D-T) fusion.",
+    "path": "/tools/fusion-triple-product-lawson-criterion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lawson criterion calculator",
+      "fusion triple product formula n t tau e online",
+      "tokamak ignition breakeven q factor calculator",
+      "iter deuterium tritium fusion triple product calculator",
+      "nuclear fusion energy confinement time online"
+    ]
+  },
+  {
+    "name": "Plasma Debye Length (λ_D) & Electron Plasma Frequency (ω_pe) Calculator",
+    "description": "Calculate electrostatic screening Debye Length (λ_D = √(ε₀·k_B·T_e / (n_e·e²))) in μm and electron Langmuir plasma oscillation frequency (f_pe = (1/2π) · √(n_e·e² / (ε₀·m_e))) in GHz.",
+    "path": "/tools/plasma-debye-length-plasma-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "debye length calculator",
+      "plasma frequency formula omega pe equals sqrt ne e squared over eps0 me",
+      "electrostatic debye screening length calculator online",
+      "langmuir plasma oscillation frequency calculator",
+      "tokamak plasma debye sphere number online"
+    ]
+  },
+  {
+    "name": "Tokamak Safety Factor (q_a & Kruskal-Shafranov Limit) Calculator",
+    "description": "Calculate magnetic confinement tokamak safety factor (q_a = (a / R) · (B_T / B_p) · [(1 + κ²) / 2]) to ensure magnetohydrodynamic (MHD) stability against destructive Kruskal-Shafranov kink disruptions (q exceeding 2.0).",
+    "path": "/tools/tokamak-safety-factor-q-kink-instability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tokamak safety factor calculator",
+      "kruskal shafranov limit formula q greater than 2 online",
+      "mhd kink instability safety factor qa calculator",
+      "iter tokamak plasma current elongation q calculator",
+      "fusion magnetic confinement safety factor online"
+    ]
+  },
+  {
+    "name": "Cyclotron Gyrofrequency (ω_c) & Larmor Radius (r_L) Calculator",
+    "description": "Calculate charged particle magnetic gyration Cyclotron Frequency (ω_c = q·B / m) in MHz/GHz and Larmor gyroradius (r_L = m·v_⊥ / (q·B) = √(2·m·E_⊥) / (q·B)) in mm/μm.",
+    "path": "/tools/cyclotron-frequency-larmor-gyroradius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cyclotron frequency calculator",
+      "larmor radius formula r_l equals m v over q b online",
+      "gyrofrequency electron ion magnetic field calculator",
+      "plasma physics gyroradius cyclotron resonance calculator",
+      "magnetic confinement larmor orbit online"
+    ]
+  },
+  {
+    "name": "Plasma Beta (β = p_plasma / p_mag) Magnetic Confinement Efficiency Calculator",
+    "description": "Calculate dimensionless plasma beta (β = (2·μ₀·n·k_B·T) / B²) and evaluate Troyon beta limit (β_N) for economic magnetic fusion power reactor design.",
+    "path": "/tools/plasma-beta-magnetic-confinement-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "plasma beta calculator",
+      "magnetic confinement beta formula 2 mu0 p over b squared online",
+      "troyon beta limit normalized beta n calculator",
+      "tokamak magnetic pressure plasma beta calculator online",
+      "fusion reactor economics plasma beta online"
+    ]
+  },
+  {
+    "name": "RSA Asymmetric Key Generation & Fast Modular Exponentiation (c = m^e mod n) Calculator",
+    "description": "Calculate RSA public/private key pairs (d ≡ e⁻¹ mod φ(n)), Euler totient φ(n) = (p-1)·(q-1), and fast square-and-multiply modular exponentiation encryption (c = m^e mod n).",
+    "path": "/tools/rsa-modular-exponentiation-key-generation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rsa calculator",
+      "rsa key generation formula modular inverse d equals e inverse mod phi online",
+      "modular exponentiation c equals m power e mod n calculator",
+      "public private key rsa encryption calculator online",
+      "euler totient rsa cryptosystem calculator"
+    ]
+  },
+  {
+    "name": "Shamir's Secret Sharing (k-of-n Threshold Polynomial) Calculator",
+    "description": "Calculate Shamir's secret sharing polynomial shares (f(x) = S + a₁·x + a₂·x² mod p) and reconstruct master secret S using Lagrange polynomial interpolation across any k shares.",
+    "path": "/tools/shamir-secret-sharing-polynomial-threshold-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "shamir secret sharing calculator",
+      "threshold cryptography formula k of n secret sharing online",
+      "lagrange interpolation secret reconstruction calculator",
+      "distributed key management shamir secret online",
+      "multi signature threshold secret recovery online"
+    ]
+  },
+  {
+    "name": "Merkle Tree Binary Root Hash & Cryptographic Inclusion Proof Calculator",
+    "description": "Calculate cryptographic Merkle Tree root hashes (Root = Hash(H_L || H_R)) and generate compact O(log N) authentication branch inclusion proofs for blockchain and Git data verification.",
+    "path": "/tools/sha256-merkle-tree-root-hash-proof-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "merkle tree calculator",
+      "merkle root hash formula hash hl hr online",
+      "merkle proof inclusion verification calculator",
+      "blockchain transaction merkle tree root calculator",
+      "git git-tree merkle root online"
+    ]
+  },
+  {
+    "name": "Gradient Richardson Number (Ri) Atmospheric Turbulence Stability Calculator",
+    "description": "Calculate boundary layer atmospheric thermal stability Richardson number (Ri = (g / θ) · (dθ/dz) / (du/dz)²) to predict Clear Air Turbulence (CAT) when Ri drops below critical 0.25.",
+    "path": "/tools/richardson-number-atmospheric-turbulence-stability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "richardson number calculator",
+      "atmospheric turbulence stability formula ri equals g over theta online",
+      "clear air turbulence critical richardson number 0.25 calculator",
+      "wind shear temperature gradient richardson calculator",
+      "aviation turbulence meteorology online"
+    ]
+  },
+  {
+    "name": "Monin-Obukhov Similarity Length (L) Atmospheric Surface Layer Calculator",
+    "description": "Calculate boundary layer atmospheric stability Monin-Obukhov Length (L = -u_*³·θ_v / (κ·g·w'θ_v')) in meters to quantify dynamic shear vs buoyant convective turbulence production.",
+    "path": "/tools/monin-obukhov-length-atmospheric-surface-layer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "monin obukhov length calculator",
+      "atmospheric surface layer stability formula l online",
+      "friction velocity u star kinematic heat flux calculator",
+      "micrometeorology monin obukhov similarity calculator",
+      "eddy covariance boundary layer stability online"
+    ]
+  },
+  {
+    "name": "Solar Zenith Angle (θ_z), Elevation & Optical Air Mass (AM) Calculator",
+    "description": "Calculate astronomical Solar Zenith Angle (cos θ_z = sin φ·sin δ + cos φ·cos δ·cos ω) in degrees and optical atmospheric path Air Mass (AM = 1 / [cos θ_z + 0.50572·(96.07995° - θ_z)^(-1.6364)]).",
+    "path": "/tools/solar-zenith-angle-air-mass-solar-elevation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar zenith angle calculator",
+      "air mass coefficient formula am equals 1 over cos theta z online",
+      "solar elevation angle solar declination hour angle calculator",
+      "kasten young air mass calculator online",
+      "photovoltaic stc am1.5 solar spectrum calculator"
+    ]
+  },
+  {
+    "name": "Clear-Sky Rayleigh Atmospheric Optical Depth (τ_R) & Scattering Transmittance Calculator",
+    "description": "Calculate molecular atmospheric Rayleigh scattering optical depth (τ_R(λ) = 0.008569 · λ⁻⁴ · [1 + 0.0113·λ⁻² + 0.00013·λ⁻⁴] · (p / p₀)) and clear-sky atmospheric direct beam transmittance (T_dir = exp[-τ_R · AM]).",
+    "path": "/tools/rayleigh-optical-depth-clear-sky-scattering-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rayleigh optical depth calculator",
+      "molecular rayleigh scattering formula lambda power minus 4 online",
+      "atmospheric transmission clear sky optical depth calculator",
+      "aerosol optical depth aod rayleigh scattering calculator",
+      "sunlight direct beam attenuation rayleigh online"
+    ]
+  },
+  {
+    "name": "Wet-Bulb Globe Temperature (WBGT) Environmental Heat Stress Index Calculator",
+    "description": "Calculate outdoor occupational and athletic environmental heat stress Wet-Bulb Globe Temperature (WBGT = 0.7·T_w + 0.2·T_g + 0.1·T_d) in °C / °F and identify OSHA / ISO 7243 work-rest advisory limits.",
+    "path": "/tools/wet-bulb-globe-temperature-wbgt-heat-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wbgt calculator",
+      "wet bulb globe temperature formula 0.7 tw plus 0.2 tg plus 0.1 td online",
+      "osha military heat stress wbgt index calculator",
+      "black globe wet bulb temperature calculator online",
+      "occupational heat illness prevention wbgt online"
+    ]
+  },
+  {
+    "name": "Runge-Kutta 4th Order (RK4) ODE Numerical Integration Step Calculator",
+    "description": "Calculate 4th-order Runge-Kutta ODE numerical integration step updates (y_(n+1) = y_n + h/6·[k₁ + 2·k₂ + 2·k₃ + k₄]) and estimate O(h⁵) local truncation errors.",
+    "path": "/tools/runge-kutta-4th-order-ode-step-error-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "runge kutta 4th order calculator",
+      "rk4 numerical integration formula k1 k2 k3 k4 online",
+      "ordinary differential equation rk4 step calculator",
+      "rk4 vs euler method truncation error calculator",
+      "computational numerical mathematics rk4 online"
+    ]
+  },
+  {
+    "name": "Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator",
+    "description": "Calculate 2-state and 3-state ergodic discrete Markov chain long-term stationary equilibrium probability vectors (π · P = π with Σ π_i = 1) from transition transition matrices.",
+    "path": "/tools/markov-chain-steady-state-stationary-distribution-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "markov chain calculator",
+      "stationary distribution formula pi p equals pi online",
+      "steady state transition probability matrix calculator",
+      "ergodic markov chain equilibrium vector calculator",
+      "stochastic process pagerank markov online"
+    ]
+  },
+  {
+    "name": "Discrete Fourier Transform (DFT / FFT) Frequency Resolution & Windowing Calculator",
+    "description": "Calculate FFT spectral frequency bin resolution (Δf = f_s / N = 1 / T_record) in Hz and side-lobe spectral leakage attenuation across Rectangular, Hanning, Hamming, and Blackman window functions.",
+    "path": "/tools/discrete-fourier-transform-dft-sampling-spectral-leakage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fft frequency resolution calculator",
+      "dft frequency bin size formula delta f equals fs over n online",
+      "window function spectral leakage hanning blackman calculator",
+      "sampling rate record length dft resolution online",
+      "digital signal processing dft fft bins online"
+    ]
+  },
+  {
+    "name": "Simplex Linear Programming (Pivot & Slack Variables) Calculator",
+    "description": "Calculate 2-variable canonical linear programming optimal objective solutions (Maximize Z = c₁·x₁ + c₂·x₂ subject to A·x ≤ b) and identify corner-point simplex tableau pivots.",
+    "path": "/tools/simplex-linear-programming-slack-pivot-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "simplex method calculator",
+      "linear programming optimization maximize z equals c1 x1 plus c2 x2 online",
+      "simplex tableau pivot slack variables calculator",
+      "operations research linear programming graphical solver online",
+      "dual price shadow price linear programming online"
+    ]
+  },
+  {
+    "name": "Poisson Process Event Probability & M/M/1 Queueing Performance Calculator",
+    "description": "Calculate Poisson stochastic event arrival probabilities (P(k) = (λ·t)^k · e^(-λ·t) / k!) and Kendall M/M/1 queue performance (Server Utilization ρ = λ / μ, Mean Queue Length L_q = ρ² / (1 - ρ), Wait Time W_q).",
+    "path": "/tools/poisson-process-inter-arrival-time-queueing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "poisson process calculator",
+      "m m 1 queue calculator formula rho equals lambda over mu online",
+      "queueing theory average wait time wq lq calculator",
+      "poisson event arrival probability calculator online",
+      "operations research stochastic queueing model online"
+    ]
+  },
+  {
+    "name": "Fabry-Pérot Optical Resonator Finesse (ℱ) & Free Spectral Range (FSR) Calculator",
+    "description": "Calculate Fabry-Pérot optical cavity Free Spectral Range (FSR = c / (2·n·L)) in GHz and optical cavity finesse (ℱ = π·√R / (1 - R)) from mirror reflectivity R and cavity length L.",
+    "path": "/tools/fabry-perot-interferometer-finesse-free-spectral-range-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fabry perot calculator",
+      "optical cavity finesse formula script f equals pi sqrt r over 1 minus r",
+      "free spectral range fsr laser cavity calculator online",
+      "fabry perot interferometer resolution linewidth calculator",
+      "laser resonator mirror reflectivity online"
+    ]
+  },
+  {
+    "name": "Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator",
+    "description": "Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = π·w₀² / λ) in mm, far-field half-divergence angle (θ = λ / (π·w₀)) in mrad, and beam radius at distance z (w(z) = w₀·√(1 + (z/z_R)²)).",
+    "path": "/tools/gaussian-beam-waist-rayleigh-range-divergence-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gaussian beam calculator",
+      "rayleigh range formula z_r equals pi w0 squared over lambda online",
+      "laser beam waist divergence angle calculator",
+      "gaussian beam radius at distance w of z calculator",
+      "optics laser spot size rayleigh length online"
+    ]
+  },
+  {
+    "name": "Laser Diode Threshold Current (I_th) & Mirror Loss (α_m) Calculator",
+    "description": "Calculate semiconductor edge-emitting laser diode threshold current (I_th = (e·V / (η_i·τ)) · n_th) in mA and cavity mirror reflection loss (α_m = (1 / 2L) · ln(1 / (R₁·R₂))) in cm⁻¹.",
+    "path": "/tools/laser-diode-threshold-current-gain-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "laser diode threshold current calculator",
+      "mirror loss formula alpha m equals 1 over 2l ln 1 over r1 r2",
+      "semiconductor laser threshold current density jth calculator",
+      "optical gain cavity loss laser threshold online",
+      "laser diode slope efficiency calculator online"
+    ]
+  },
+  {
+    "name": "Photometry Illuminance Inverse-Square Law (E = I·cos θ / d²) Calculator",
+    "description": "Calculate lighting illuminance surface flux (E = (I · cos θ) / d²) in Lux (lumen/m²) and Foot-Candles (lumen/ft²) from luminous point source intensity I in Candela (cd) and distance d.",
+    "path": "/tools/lux-to-foot-candles-inverse-square-photometry-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lux to foot candles calculator",
+      "inverse square law lighting illuminance formula e equals i over d squared online",
+      "photometry candela to lux distance calculator",
+      "lighting design foot candles to lux converter online",
+      "architectural lighting lux calculator"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Official Korean Age Calculator (Born in 2020)",
+  "description": "Calculate official civil law Korean age (만 나이 - 6 years old) under June 2023 Korean Age Act.",
+  "path": "/tools/official-korean-age-calculator-born-in-2020/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "official korean age calculator born in 2020",
+    "Official Korean Age Calculator (Born in 2020)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

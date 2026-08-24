@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (70 km Distance, 25 km/l Mileage)",
+  "description": "Calculate total fuel required (2.8 L) and estimated cost (₹270) for 70 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-70km-mileage-25kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 70km mileage 25kmpl",
+    "Fuel Cost Calculator (70 km Distance, 25 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

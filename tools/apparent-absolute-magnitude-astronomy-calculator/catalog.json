@@ -1,0 +1,15 @@
+{
+  "name": "Apparent & Absolute Magnitude Distance Calculator",
+  "description": "Calculate astronomical distance (in Parsecs and Light-Years) from apparent magnitude (m) and absolute magnitude (M) using the distance modulus equation.",
+  "path": "/tools/apparent-absolute-magnitude-astronomy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "apparent magnitude calculator",
+    "absolute magnitude distance modulus",
+    "astronomy star distance calculator",
+    "parsecs light years distance modulus",
+    "star brightness calculator online"
+  ],
+  "order": 192
+}

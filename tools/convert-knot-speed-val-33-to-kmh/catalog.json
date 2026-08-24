@@ -1,0 +1,15 @@
+{
+  "name": "Convert 33 Knots Speed Val to KM/H",
+  "description": "Convert 33 knots speed to kilometers per hour (61.12 km/h).",
+  "path": "/tools/convert-knot-speed-val-33-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 33 to kmh",
+    "Convert 33 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "GCSE Physics Electrical Power (P = IV = I²R = V²/R) Calculator",
+  "description": "Calculate electrical circuit power dissipation (P = I·V = I²·R = V²/R) in watts (W), current in amperes (A), voltage in volts (V), and resistance in ohms (Ω) for UK GCSE, AQA, Edexcel, and middle school science.",
+  "path": "/tools/gcse-physics-electrical-power-p-equals-iv-i-squared-r-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "electrical power calculator",
+    "p equals iv formula p equals i squared r online",
+    "gcse physics electrical power equations calculator",
+    "voltage current resistance power ohms law calculator",
+    "joule heating power loss watts calculator online"
+  ],
+  "order": 932
+}

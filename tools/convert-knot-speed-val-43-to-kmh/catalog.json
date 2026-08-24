@@ -1,0 +1,15 @@
+{
+  "name": "Convert 43 Knots Speed Val to KM/H",
+  "description": "Convert 43 knots speed to kilometers per hour (79.64 km/h).",
+  "path": "/tools/convert-knot-speed-val-43-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 43 to kmh",
+    "Convert 43 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 53 KM to Miles",
+  "description": "Convert 53 kilometers to miles (32.93 miles). 100% free and local.",
+  "path": "/tools/convert-53-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 53 km to miles",
+    "Convert 53 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

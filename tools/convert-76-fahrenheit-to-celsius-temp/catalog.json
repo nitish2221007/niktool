@@ -1,0 +1,15 @@
+{
+  "name": "Convert 76°F Fahrenheit to Celsius Temp",
+  "description": "Convert 76 degrees Fahrenheit (°F) to Celsius (24.4°C) instantly.",
+  "path": "/tools/convert-76-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 76 fahrenheit to celsius temp",
+    "Convert 76°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

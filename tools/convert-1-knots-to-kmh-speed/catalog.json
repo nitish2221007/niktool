@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 Knot to KM/H Speed",
+  "description": "Convert 1 knots speed to kilometers per hour (1.85 km/h).",
+  "path": "/tools/convert-1-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 1 knots to kmh speed",
+    "Convert 1 Knot to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

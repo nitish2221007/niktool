@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = π·w₀² / λ) in mm, far-field half-divergence angle (θ = λ / (π·w₀)) in mrad, and beam radius at distance z (w(z) = w₀·√(1 + (z/z_R)²)).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/gaussian-beam-waist-rayleigh-range-divergence-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator | NikTool">
+  <meta property="og:description" content="Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = π·w₀² / λ) in mm, far-field half-divergence angle (θ = λ / (π·w₀)) in mrad, and beam radius at distance z (w(z) = w₀·√(1 + (z/z_R)²)).">
+  <meta property="og:url" content="https://niktool.in/tools/gaussian-beam-waist-rayleigh-range-divergence-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/gaussian-beam-waist-rayleigh-range-divergence-calculator/",
+        "description": "Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = π·w₀² / λ) in mm, far-field half-divergence angle (θ = λ / (π·w₀)) in mrad, and beam radius at distance z (w(z) = w₀·√(1 + (z/z_R)²)).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the definition of Rayleigh Range (zR)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$z_R$ is the distance from the waist where the beam cross-sectional area doubles and beam radius expands by $sqrt{2} approx 1.414 \times w_0$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator</h1>
+      <p>Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = π·w₀² / λ) in mm, far-field half-divergence angle (θ = λ / (π·w₀)) in mrad, and beam radius at distance z (w(z) = w₀·√(1 + (z/z_R)²)).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Beam Waist Radius w₀ (μm), Wavelength λ (nm) & Propagation Distance z (meters)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="gb-w0">Waist w₀ (μm)</label>
+          <input class="tool-textarea" id="gb-w0" type="number" step="10" value="50.0" placeholder="50.0 μm (Focal Spot)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gb-lam">Wavelength λ (nm)</label>
+          <input class="tool-textarea" id="gb-lam" type="number" step="10" value="1064.0" placeholder="1064.0 nm (Nd:YAG Fiber)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gb-z">Distance z (m)</label>
+          <input class="tool-textarea" id="gb-z" type="number" step="0.5" value="2.0" placeholder="2.0 m Target" />
+        </div>
+      </div>
+      <div id="gb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gb-res-wz" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Spot w(2m) = 13.56 mm Radius</span>
+            <span class="stat-label">Beam Radius at Distance z (w(z) = w₀·√(1 + (z/z_R)²))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gb-res-div" style="font-weight:700;">Divergence θ = 6.77 mrad (0.388°) | Rayleigh Range z_R = 7.38 mm</span>
+            <span class="stat-label">Far-Field Divergence Angle & Depth of Focus (2·z_R)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Gaussian Laser Beam Waist, Rayleigh Range (z_R) & Divergence (θ) Calculator</h2>
+      <ol>
+        <li>Enter minimum beam waist focus radius $w_0$ in micrometers ($mu	ext{m}$).</li>
+        <li>Enter laser emission wavelength $lambda$ in nanometers (nm).</li>
+        <li>Enter propagation distance z from beam waist in meters.</li>
+        <li>Inspect spot size radius $w(z)$, Rayleigh collimation range $z_R$ (Depth of Focus $= 2 z_R$), and far-field diffraction divergence angle $	heta$.</li>
+      </ol>
+
+      <h2>Paraxial Helmholtz Equation TEM₀₀ Spatial Profile</h2>
+      <p>Diffraction dictates an inescapable trade-off: tightly focused laser spots ($w_0 < 10 mu	ext{m}$) have immense optical intensity but short Rayleigh depths of focus ($z_R propto w_0^2$), while collimated laser beams require large initial beam diameters to suppress far-field angular beam expansion ($	heta = lambda / pi w_0$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the definition of Rayleigh Range (zR)?</summary>
+        <p>$z_R$ is the distance from the waist where the beam cross-sectional area doubles and beam radius expands by $sqrt{2} approx 1.414 	imes w_0$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/gaussian-beam-waist-rayleigh-range-divergence-calculator/tool.js"></script>
+</body>
+</html>

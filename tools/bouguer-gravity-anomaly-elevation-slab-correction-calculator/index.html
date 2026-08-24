@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Complete Bouguer Gravity Anomaly Δg_B in mGal (Δg_B = g_obs - g_0 + 0.3086·h - 0.04193·ρ·h) from observed gravity, theoretical latitude gravity g_0, Free-Air elevation correction, and crustal slab density.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/bouguer-gravity-anomaly-elevation-slab-correction-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator | NikTool">
+  <meta property="og:description" content="Calculate Complete Bouguer Gravity Anomaly Δg_B in mGal (Δg_B = g_obs - g_0 + 0.3086·h - 0.04193·ρ·h) from observed gravity, theoretical latitude gravity g_0, Free-Air elevation correction, and crustal slab density.">
+  <meta property="og:url" content="https://niktool.in/tools/bouguer-gravity-anomaly-elevation-slab-correction-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/bouguer-gravity-anomaly-elevation-slab-correction-calculator/",
+        "description": "Calculate Complete Bouguer Gravity Anomaly Δg_B in mGal (Δg_B = g_obs - g_0 + 0.3086·h - 0.04193·ρ·h) from observed gravity, theoretical latitude gravity g_0, Free-Air elevation correction, and crustal slab density.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why are Bouguer anomalies negative over high mountain ranges?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Airy isostasy creates low-density crustal mountain roots extending deep into the denser mantle, creating a negative mass deficit."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator</h1>
+      <p>Calculate Complete Bouguer Gravity Anomaly Δg_B in mGal (Δg_B = g_obs - g_0 + 0.3086·h - 0.04193·ρ·h) from observed gravity, theoretical latitude gravity g_0, Free-Air elevation correction, and crustal slab density.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Observed g_obs (mGal), Latitude g_0 (mGal), Station Elevation h (m) & Crust Density ρ (g/cm³)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bg-gobs">Observed g (mGal)</label>
+          <input class="tool-textarea" id="bg-gobs" type="number" step="10" value="980250.0" placeholder="980,250.0 mGal" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bg-g0">Theoretical g₀ (mGal)</label>
+          <input class="tool-textarea" id="bg-g0" type="number" step="10" value="980300.0" placeholder="980,300.0 mGal" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bg-elev">Elevation h (m)</label>
+          <input class="tool-textarea" id="bg-elev" type="number" step="50" value="450.0" placeholder="450.0 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bg-rho">Crust ρ (g/cm³)</label>
+          <input class="tool-textarea" id="bg-rho" type="number" step="0.05" value="2.67" placeholder="2.67 g/cm³ (Standard)" />
+        </div>
+      </div>
+      <div id="bg-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bg-res-boug" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Bouguer Anomaly Δg_B = +38.5 mGal</span>
+            <span class="stat-label">Complete Bouguer Gravity Anomaly (g_obs - g₀ + FAC - BC)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bg-res-fac" style="color:var(--green-dark); font-weight:700;">Free-Air Anomaly Δg_FA = +88.9 mGal (+0.3086·h) | Bouguer Slab Reduction = -50.4 mGal</span>
+            <span class="stat-label">Free-Air Anomaly & Bouguer Slab Mass Attraction</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator</h2>
+      <ol>
+        <li>Enter raw observed station gravity $g_{	ext{obs}}$ in milliGals (mGal).</li>
+        <li>Enter theoretical reference ellipsoid latitude gravity $g_0$ in mGal.</li>
+        <li>Enter gravimeter station elevation h above sea level in meters.</li>
+        <li>Enter average crustal rock slab density $ho$ in $	ext{g/cm}^3$ (standard reference is $2.67	ext{ g/cm}^3$).</li>
+        <li>Inspect Free-Air anomaly and Complete Bouguer anomaly.</li>
+      </ol>
+
+      <h2>Pierre Bouguer 1749 Gravimetric Reduction Standard</h2>
+      <p>Removes the gravitational effects of station elevation and intervening rock mass, revealing subsurface density anomalies caused by mineral deposits, salt domes, and deep isostatic crustal roots.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why are Bouguer anomalies negative over high mountain ranges?</summary>
+        <p>Airy isostasy creates low-density crustal mountain roots extending deep into the denser mantle, creating a negative mass deficit.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/bouguer-gravity-anomaly-elevation-slab-correction-calculator/tool.js"></script>
+</body>
+</html>

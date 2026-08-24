@@ -1,0 +1,15 @@
+{
+  "name": "Convert 72 KM/H to MPH Speed",
+  "description": "Convert 72 kilometers per hour (km/h) to miles per hour (44.74 mph).",
+  "path": "/tools/convert-72-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 72 kmh to mph speed",
+    "Convert 72 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

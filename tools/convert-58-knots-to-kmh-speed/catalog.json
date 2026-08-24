@@ -1,0 +1,15 @@
+{
+  "name": "Convert 58 Knots to KM/H Speed",
+  "description": "Convert 58 knots speed to kilometers per hour (107.42 km/h).",
+  "path": "/tools/convert-58-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 58 knots to kmh speed",
+    "Convert 58 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

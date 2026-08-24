@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 370V, Current 2A)",
+  "description": "Calculate Resistance (185.00 Ω) and Electric Power (740.0 W) for 370V voltage and 2A current.",
+  "path": "/tools/ohms-law-calculator-voltage-370v-current-2a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 370v current 2a",
+    "Ohm's Law Calculator (Voltage 370V, Current 2A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

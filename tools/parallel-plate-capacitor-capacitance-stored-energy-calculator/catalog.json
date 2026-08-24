@@ -1,0 +1,15 @@
+{
+  "name": "Parallel-Plate Capacitor Capacitance (C = κ·ε₀·A / d) & Stored Energy (U = ½·C·V²) Calculator",
+  "description": "Calculate parallel-plate electrostatic capacitance (C = κ · ε₀ · A / d) in pF/nF, stored electrical potential energy (U = ½ · C · V²) in Joules, and uniform electric field (E = V / d) in kV/m.",
+  "path": "/tools/parallel-plate-capacitor-capacitance-stored-energy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "capacitor capacitance calculator",
+    "parallel plate capacitor formula c equals kappa epsilon0 a over d online",
+    "stored electrical energy half c v squared calculator",
+    "dielectric constant capacitance voltage calculator",
+    "electronics electrostatic capacitor online"
+  ],
+  "order": 1042
+}

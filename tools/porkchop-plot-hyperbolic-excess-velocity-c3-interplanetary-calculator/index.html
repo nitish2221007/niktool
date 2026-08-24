@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate deep space and interplanetary probe Characteristic Launch Energy C3 in km²/s² (C3 = v_∞²), Hyperbolic Excess Velocity v_∞ in km/s, and required LEO Trans-Mars/Trans-Lunar injection burn velocity Δv_inj.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/porkchop-plot-hyperbolic-excess-velocity-c3-interplanetary-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator | NikTool">
+  <meta property="og:description" content="Calculate deep space and interplanetary probe Characteristic Launch Energy C3 in km²/s² (C3 = v_∞²), Hyperbolic Excess Velocity v_∞ in km/s, and required LEO Trans-Mars/Trans-Lunar injection burn velocity Δv_inj.">
+  <meta property="og:url" content="https://niktool.in/tools/porkchop-plot-hyperbolic-excess-velocity-c3-interplanetary-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/porkchop-plot-hyperbolic-excess-velocity-c3-interplanetary-calculator/",
+        "description": "Calculate deep space and interplanetary probe Characteristic Launch Energy C3 in km²/s² (C3 = v_∞²), Hyperbolic Excess Velocity v_∞ in km/s, and required LEO Trans-Mars/Trans-Lunar injection burn velocity Δv_inj.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What does C3 = 0 represent?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "C3 = 0 represents a parabolic escape trajectory with exactly zero residual velocity at infinity ($v_infty = 0$), precisely reaching the threshold to escape Earth's gravity."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator</h1>
+      <p>Calculate deep space and interplanetary probe Characteristic Launch Energy C3 in km²/s² (C3 = v_∞²), Hyperbolic Excess Velocity v_∞ in km/s, and required LEO Trans-Mars/Trans-Lunar injection burn velocity Δv_inj.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Hyperbolic Excess Velocity v_∞ (km/s) & Parking Orbit Altitude h (km, e.g. 200 km LEO)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="c3-vinf">Excess v_∞ (km/s)</label>
+          <input class="tool-textarea" id="c3-vinf" type="number" step="0.5" value="3.00" placeholder="3.00 km/s (Mars Window)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="c3-alt">LEO Altitude h (km)</label>
+          <input class="tool-textarea" id="c3-alt" type="number" step="50" value="200.0" placeholder="200.0 km Parking Orbit" />
+        </div>
+      </div>
+      <div id="c3-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="c3-res-c3" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Launch Energy C3 = 9.00 km² / s²</span>
+            <span class="stat-label">Characteristic Launch Energy (C3 = v_∞²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="c3-res-tmi" style="color:var(--green-dark); font-weight:700;">Injection Burn Δv_inj = 3.612 km / s | Injection Speed v_inj = 11.396 km/s</span>
+            <span class="stat-label">Trans-Mars Injection Burn from 200 km LEO (v_inj = √(v_esc² + C3))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator</h2>
+      <ol>
+        <li>Enter interplanetary hyperbolic excess arrival/departure velocity $v_infty$ in km/s (from Porkchop plot analysis).</li>
+        <li>Enter circular Low Earth Orbit parking altitude in km (typically 180–300 km).</li>
+        <li>Inspect Characteristic Launch Energy C3 in $	ext{km}^2/	ext{s}^2$ and required Trans-Mars Injection (TMI) velocity burn $Delta v_{	ext{inj}}$.</li>
+      </ol>
+
+      <h2>NASA Deep Space Mission Characteristic Energy Standard</h2>
+      <p>Specifies the rocket launch vehicle payload capability curve ($M_{	ext{payload}}$ vs C3) required to break free of Earth's gravity well and reach Mars, Jupiter, or the outer Solar System.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What does C3 = 0 represent?</summary>
+        <p>C3 = 0 represents a parabolic escape trajectory with exactly zero residual velocity at infinity ($v_infty = 0$), precisely reaching the threshold to escape Earth's gravity.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/porkchop-plot-hyperbolic-excess-velocity-c3-interplanetary-calculator/tool.js"></script>
+</body>
+</html>

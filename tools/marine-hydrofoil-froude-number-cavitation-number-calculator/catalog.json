@@ -1,0 +1,15 @@
+{
+  "name": "Marine Hydrofoil Cavitation Number (σ = (P₀ - P_v) / (½·ρ·v²)) Calculator",
+  "description": "Calculate marine hydrofoil and propeller Cavitation Number (σ = (P₀ - P_v) / (½ · ρ · v²)) to predict onset of destructive cavitation bubbles, erosion risk, and hydrofoil lift breakdown in naval architecture.",
+  "path": "/tools/marine-hydrofoil-froude-number-cavitation-number-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cavitation number calculator",
+    "hydrofoil cavitation inception formula sigma online",
+    "marine propeller cavitation number calculator",
+    "naval architecture hydrofoil flow calculator",
+    "fluid mechanics marine cavitation online"
+  ],
+  "order": 1127
+}

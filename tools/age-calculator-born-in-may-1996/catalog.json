@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in May 1996)",
+  "description": "Calculate exact age (30 years old in 2026) for someone born in may 1996.",
+  "path": "/tools/age-calculator-born-in-may-1996/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in may 1996",
+    "Age Calculator (Born in May 1996)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

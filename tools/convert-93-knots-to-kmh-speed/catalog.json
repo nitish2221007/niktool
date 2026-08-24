@@ -1,0 +1,15 @@
+{
+  "name": "Convert 93 Knots to KM/H Speed",
+  "description": "Convert 93 knots speed to kilometers per hour (172.24 km/h).",
+  "path": "/tools/convert-93-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 93 knots to kmh speed",
+    "Convert 93 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

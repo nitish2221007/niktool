@@ -1,0 +1,15 @@
+{
+  "name": "Convert 62°F Fahrenheit to Celsius Temp",
+  "description": "Convert 62 degrees Fahrenheit (°F) to Celsius (16.7°C) instantly.",
+  "path": "/tools/convert-62-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 62 fahrenheit to celsius temp",
+    "Convert 62°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

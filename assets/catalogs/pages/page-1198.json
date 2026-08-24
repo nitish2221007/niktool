@@ -1,0 +1,395 @@
+[
+  {
+    "name": "Centripetal Force Calculator",
+    "description": "Calculate centripetal force (Fc = m·v²/r), radial acceleration, and angular velocity for circular orbital motion.",
+    "path": "/tools/centripetal-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "centripetal force calculator",
+      "centripetal acceleration calculator",
+      "circular motion force",
+      "physics orbital force calculator"
+    ]
+  },
+  {
+    "name": "Character Counter",
+    "description": "Count characters with and without spaces, words, and lines in real-time. Free, fast, and fully private browser tool.",
+    "path": "/tools/character-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "character counter",
+      "character count tool",
+      "characters with spaces",
+      "characters without spaces",
+      "text character counter",
+      "essay character counter",
+      "student character count",
+      "online character counter",
+      "writing character limit",
+      "free character counter"
+    ]
+  },
+  {
+    "name": "Gravitational Force Calculator",
+    "description": "Calculate Newton's universal gravitational attraction force (F = G · m₁ · m₂ / r²) between any two masses across space.",
+    "path": "/tools/gravitational-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravitational force calculator",
+      "newton gravity calculator",
+      "gravitational attraction formula",
+      "universal gravitation calculator online"
+    ]
+  },
+  {
+    "name": "Speed Distance Time Calculator",
+    "description": "Calculate speed, distance, or time using the S=D/T formula with unit conversions. Free, fast, and fully private.",
+    "path": "/tools/speed-distance-time-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "speed distance time calculator",
+      "speed calculator",
+      "distance calculator",
+      "time calculator",
+      "S D T calculator",
+      "speed formula calculator",
+      "class 10 speed calculator",
+      "physics motion calculator",
+      "distance time speed",
+      "school physics calculator"
+    ]
+  },
+  {
+    "name": "Circle Area Calculator",
+    "description": "Calculate circle area, circumference, and diameter from radius with 22/7 or precise pi. Free and fully private.",
+    "path": "/tools/circle-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circle area calculator",
+      "circumference calculator",
+      "circle calculator",
+      "area of circle",
+      "class 10 circle calculator",
+      "pi r squared calculator",
+      "circle diameter calculator",
+      "school circle calculator",
+      "mensuration circle",
+      "10th maths circle"
+    ]
+  },
+  {
+    "name": "Elastic Potential Energy & Hooke's Law Calculator",
+    "description": "Calculate spring restoring force (F = k·x) and stored elastic potential energy (PE = ½·k·x²) from spring constant and displacement.",
+    "path": "/tools/elastic-potential-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "elastic potential energy calculator",
+      "hookes law calculator",
+      "spring energy calculator",
+      "spring constant force calculator",
+      "physics spring potential energy"
+    ]
+  },
+  {
+    "name": "Cylinder Calculator",
+    "description": "Calculate cylinder CSA, TSA, and volume from radius and height with formula steps. Free and fully private.",
+    "path": "/tools/cylinder-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cylinder volume calculator",
+      "cylinder calculator",
+      "cylinder surface area calculator",
+      "CSA TSA cylinder",
+      "class 10 cylinder calculator",
+      "10th maths cylinder",
+      "cylinder volume formula",
+      "school cylinder calculator",
+      "mensuration cylinder",
+      "cylinder area"
+    ]
+  },
+  {
+    "name": "Hydrostatic Pressure & Depth Calculator",
+    "description": "Calculate fluid hydrostatic pressure (P = ρ · g · h), total atmospheric pressure, and underwater depth pressure for water and oil.",
+    "path": "/tools/hydrostatic-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydrostatic pressure calculator",
+      "underwater pressure calculator",
+      "fluid depth pressure formula",
+      "fluid mechanics pressure calculator"
+    ]
+  },
+  {
+    "name": "Cone Calculator",
+    "description": "Calculate cone CSA, TSA, volume, and slant height from radius and height. Free and fully private.",
+    "path": "/tools/cone-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cone volume calculator",
+      "cone calculator",
+      "cone surface area calculator",
+      "CSA TSA cone",
+      "class 10 cone calculator",
+      "10th maths cone",
+      "cone volume formula",
+      "school cone calculator",
+      "mensuration cone",
+      "cone area"
+    ]
+  },
+  {
+    "name": "pH and pOH Hydrogen Ion Calculator",
+    "description": "Convert between pH, pOH, hydrogen ion concentration [H+], and hydroxide ion concentration [OH-] with automatic acidity classification.",
+    "path": "/tools/ph-poh-hydrogen-ion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ph poh calculator",
+      "hydrogen ion concentration calculator",
+      "ph to poh converter",
+      "h+ to ph calculator",
+      "acid base ph calculator"
+    ]
+  },
+  {
+    "name": "Henderson-Hasselbalch Buffer Calculator",
+    "description": "Calculate buffer solution pH (pH = pKa + log([A⁻]/[HA])) from acid dissociation constant pKa and conjugate acid-base concentrations.",
+    "path": "/tools/henderson-hasselbalch-buffer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "henderson hasselbalch calculator",
+      "buffer ph calculator",
+      "pka to ph calculator",
+      "acid buffer solution calculator",
+      "conjugate base acid ratio"
+    ]
+  },
+  {
+    "name": "Sphere Calculator",
+    "description": "Calculate sphere surface area and volume from radius with formula steps. Free and fully private.",
+    "path": "/tools/sphere-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "sphere volume calculator",
+      "sphere calculator",
+      "sphere surface area calculator",
+      "class 10 sphere calculator",
+      "10th maths sphere",
+      "sphere volume formula",
+      "school sphere calculator",
+      "mensuration sphere",
+      "sphere area calculator",
+      "sphere volume"
+    ]
+  },
+  {
+    "name": "Boyle's Law Gas Calculator",
+    "description": "Solve for pressure or volume in isothermal gas expansion and compression using Boyle's law P₁ · V₁ = P₂ · V₂.",
+    "path": "/tools/boyles-law-gas-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "boyles law calculator",
+      "isothermal gas calculator",
+      "p1v1 p2v2 calculator",
+      "gas pressure volume calculator",
+      "chemistry boyle formula"
+    ]
+  },
+  {
+    "name": "Hemisphere Calculator",
+    "description": "Calculate hemisphere CSA, TSA, and volume from radius with formula steps. Free and fully private.",
+    "path": "/tools/hemisphere-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "hemisphere calculator",
+      "hemisphere volume calculator",
+      "hemisphere surface area calculator",
+      "class 10 hemisphere calculator",
+      "10th maths hemisphere",
+      "hemisphere volume formula",
+      "school hemisphere calculator",
+      "mensuration hemisphere",
+      "CSA TSA hemisphere",
+      "hemisphere area"
+    ]
+  },
+  {
+    "name": "Charles's Law Gas Calculator",
+    "description": "Calculate volume or absolute temperature in isobaric gas heating and cooling using Charles's law V₁ / T₁ = V₂ / T₂.",
+    "path": "/tools/charles-law-gas-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "charles law calculator",
+      "isobaric gas calculator",
+      "v1 t1 v2 t2 calculator",
+      "gas volume temperature calculator",
+      "charles law formula online"
+    ]
+  },
+  {
+    "name": "Pressure Calculator",
+    "description": "Calculate pressure, force, or area using P=F/A with unit conversions. Free and fully private.",
+    "path": "/tools/pressure-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pressure calculator",
+      "force area calculator",
+      "P F A calculator",
+      "class 10 pressure calculator",
+      "physics pressure calculator",
+      "pressure formula calculator",
+      "school pressure solver",
+      "science pressure tool",
+      "pressure online calculator",
+      "force pressure area"
+    ]
+  },
+  {
+    "name": "Activation Energy Arrhenius Calculator",
+    "description": "Calculate reaction activation energy (Ea) or reaction rate constant ratio (k2/k1) at two temperatures using the Arrhenius equation.",
+    "path": "/tools/activation-energy-arrhenius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "activation energy calculator",
+      "arrhenius equation calculator",
+      "reaction rate constant ratio",
+      "chemistry activation energy online",
+      "arrhenius kinetics calculator"
+    ]
+  },
+  {
+    "name": "pH Calculator",
+    "description": "Calculate pH, pOH, and ion concentrations with acid/base classification. Free and fully private.",
+    "path": "/tools/ph-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pH calculator",
+      "pOH calculator",
+      "hydrogen ion concentration calculator",
+      "class 10 pH calculator",
+      "acid base calculator",
+      "pH formula calculator",
+      "chemistry pH calculator",
+      "school pH tool",
+      "pH scale calculator",
+      "acids bases calculator"
+    ]
+  },
+  {
+    "name": "Arithmetic Series Sum Calculator",
+    "description": "Calculate the nth term (an) and sum of arithmetic sequence progression (Sn = n/2 · (2a + (n-1)d)) with step-by-step expansion.",
+    "path": "/tools/arithmetic-series-sum-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "arithmetic series calculator",
+      "sum of ap calculator",
+      "nth term of arithmetic progression",
+      "arithmetic sequence sum online",
+      "gauss sum calculator"
+    ]
+  },
+  {
+    "name": "Concentration Calculator",
+    "description": "Calculate solution concentration, mass of solute, or volume using C=m/V. Free and fully private.",
+    "path": "/tools/concentration-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "concentration calculator",
+      "solution concentration calculator",
+      "class 10 concentration calculator",
+      "chemistry concentration calculator",
+      "mass volume concentration",
+      "solute solvent calculator",
+      "school chemistry concentration",
+      "concentration formula calculator",
+      "solution calculator",
+      "molarity concentration"
+    ]
+  },
+  {
+    "name": "Geometric Series & Infinite Sum Calculator",
+    "description": "Calculate the nth term, finite geometric series sum (Sn), and convergent infinite geometric series sum (S∞ = a / (1 - r)).",
+    "path": "/tools/geometric-series-sum-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "geometric series calculator",
+      "infinite geometric series sum",
+      "sum of gp calculator",
+      "geometric progression sum",
+      "convergent geometric series"
+    ]
+  },
+  {
+    "name": "Valency Helper",
+    "description": "Look up common element valencies for Class 10 chemistry with instant search. Free and fully private.",
+    "path": "/tools/valency-helper/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "valency calculator",
+      "valency chart",
+      "valency of elements",
+      "class 10 valency",
+      "chemistry valency",
+      "common valencies",
+      "element valency finder",
+      "school chemistry valency",
+      "valency table",
+      "valency helper"
+    ]
+  },
+  {
+    "name": "Harmonic Mean Calculator",
+    "description": "Calculate the harmonic mean of numbers, average trip speeds, financial P/E ratios, and rates of work with step-by-step reciprocal steps.",
+    "path": "/tools/harmonic-mean-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "harmonic mean calculator",
+      "average speed calculator harmonic mean",
+      "harmonic average online",
+      "statistics harmonic mean",
+      "sub-contrary mean"
+    ]
+  },
+  {
+    "name": "Letter Writing Word Counter",
+    "description": "Count words and check format in formal/informal letters for Class 10 English. Free and fully private.",
+    "path": "/tools/letter-writing-word-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "letter writing word counter",
+      "formal letter word count",
+      "informal letter word count",
+      "class 10 letter writing",
+      "CBSE letter format",
+      "letter writing checker",
+      "English letter counter",
+      "letter format checker",
+      "school letter writing",
+      "letter word limit"
+    ]
+  }
+]

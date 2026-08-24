@@ -1,0 +1,15 @@
+{
+  "name": "Convert 174 Knots Speed Val to KM/H",
+  "description": "Convert 174 knots speed to kilometers per hour (322.25 km/h).",
+  "path": "/tools/convert-knot-speed-val-174-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 174 to kmh",
+    "Convert 174 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 105 Miles to KM",
+  "description": "Convert 105 miles to kilometers (168.98 km). 100% free and local.",
+  "path": "/tools/convert-105-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 105 miles to km",
+    "Convert 105 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

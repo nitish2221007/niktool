@@ -1,0 +1,15 @@
+{
+  "name": "Fick's Second Law Case Hardening & Diffusion Depth Calculator",
+  "description": "Calculate steel surface carburization and solid-state diffusion profiles (C(x,t) = C_s - (C_s - C_0) · erf(x / 2√(D·t))) in mm and penetration time in hours.",
+  "path": "/tools/fick-second-law-case-hardening-diffusion-depth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fick second law calculator",
+    "carburization case depth formula erf error function",
+    "solid state diffusion depth calculator online",
+    "steel case hardening heat treatment calculator",
+    "diffusion coefficient time depth calculator"
+  ],
+  "order": 682
+}

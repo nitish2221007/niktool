@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voltage Divider Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate output voltage (Vout = Vin · R₂ / (R₁ + R₂)), current draw, and resistor power dissipation for resistor potential divider circuits.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/voltage-divider-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Voltage Divider Calculator | NikTool">
+  <meta property="og:description" content="Calculate output voltage (Vout = Vin · R₂ / (R₁ + R₂)), current draw, and resistor power dissipation for resistor potential divider circuits.">
+  <meta property="og:url" content="https://niktool.in/tools/voltage-divider-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Voltage Divider Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/voltage-divider-calculator/",
+        "description": "Calculate output voltage (Vout = Vin · R₂ / (R₁ + R₂)), current draw, and resistor power dissipation for resistor potential divider circuits.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Can a voltage divider be used as a power supply?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, connecting a heavy load in parallel with R₂ alters the effective resistance and sags Vout unless buffered by an op-amp follower."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Voltage Divider Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Voltage Divider Calculator</h1>
+      <p>Calculate output voltage (Vout = Vin · R₂ / (R₁ + R₂)), current draw, and resistor power dissipation for resistor potential divider circuits.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Voltage Divider Circuit Components</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="vd-vin">Input Voltage (Vin) [Volts]</label>
+          <input class="tool-textarea" id="vd-vin" type="number" step="any" value="12" placeholder="e.g. 12V" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vd-r1">Resistor R₁ (Top) [Ohms]</label>
+          <input class="tool-textarea" id="vd-r1" type="number" step="any" value="10000" placeholder="e.g. 10000 Ω (10k)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vd-r2">Resistor R₂ (Bottom) [Ohms]</label>
+          <input class="tool-textarea" id="vd-r2" type="number" step="any" value="10000" placeholder="e.g. 10000 Ω (10k)" />
+        </div>
+      </div>
+      <div id="vd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="vd-res-vout" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">6.00 V</span>
+            <span class="stat-label">Output Voltage (Vout)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="vd-res-current">0.60 mA</span>
+            <span class="stat-label">Divider Quiescent Current</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="vd-res-ratio">0.500</span>
+            <span class="stat-label">Division Ratio (Vout / Vin)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Voltage Divider Calculator</h2>
+      <ol>
+        <li>Enter the supply input voltage (Vin).</li>
+        <li>Enter the resistances of R₁ and R₂ in Ohms.</li>
+        <li>Inspect the scaled output voltage across R₂.</li>
+      </ol>
+
+      <h2>Resistive Voltage Divider Formula</h2>
+      <p>A voltage divider produces an output voltage that is a fraction of its input: Vout = Vin × (R₂ / (R₁ + R₂)). When R₁ = R₂, Vout is exactly half of Vin.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Can a voltage divider be used as a power supply?</summary>
+        <p>No, connecting a heavy load in parallel with R₂ alters the effective resistance and sags Vout unless buffered by an op-amp follower.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/voltage-divider-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator",
+  "description": "Calculate soil Plasticity Index (PI = LL - PL), determine A-Line boundary equation (PI = 0.73·(LL - 20)), and classify fine-grained cohesive soils (CL, CH, ML, MH) on the Casagrande plasticity chart under ASTM D2487.",
+  "path": "/tools/soil-uscs-soil-classification-liquid-plastic-limit-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "uscs soil classification calculator",
+    "plasticity index formula pi equals ll minus pl online",
+    "casagrande plasticity chart a line calculator",
+    "liquid limit plastic limit soil classification astm d2487",
+    "geotechnical engineering soil mechanics calculator online"
+  ],
+  "order": 997
+}

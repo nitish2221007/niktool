@@ -1,0 +1,15 @@
+{
+  "name": "GST Tax Calculator Online",
+  "description": "Calculate inclusive and exclusive Goods and Services Tax (GST 5%, 12%, 18%, 28%).",
+  "path": "/tools/gst-calculator-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "gst calculator online",
+    "GST Tax Calculator Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

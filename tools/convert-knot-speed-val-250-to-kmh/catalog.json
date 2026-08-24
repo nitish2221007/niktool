@@ -1,0 +1,15 @@
+{
+  "name": "Convert 250 Knots Speed Val to KM/H",
+  "description": "Convert 250 knots speed to kilometers per hour (463.00 km/h).",
+  "path": "/tools/convert-knot-speed-val-250-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 250 to kmh",
+    "Convert 250 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

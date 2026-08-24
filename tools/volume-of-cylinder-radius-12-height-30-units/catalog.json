@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 12 x Height 30)",
+  "description": "Calculate volume of a cylinder with radius 12 and height 30 (V = πr²h = 13571.68).",
+  "path": "/tools/volume-of-cylinder-radius-12-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 12 height 30 units",
+    "Volume of Cylinder (Radius 12 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

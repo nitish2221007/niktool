@@ -1,0 +1,15 @@
+{
+  "name": "Reinforced Concrete Beam Flexural Capacity (ACI 318 Whitney Stress Block M_n) Calculator",
+  "description": "Calculate singly reinforced concrete rectangular beam nominal flexural bending strength (M_n = A_s·f_y·(d - a/2)) in kN·m, equivalent Whitney stress block depth a, and design capacity (φ·M_n) under ACI 318.",
+  "path": "/tools/reinforced-concrete-beam-ultimate-moment-capacity-aci-318-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "reinforced concrete beam calculator",
+    "aci 318 nominal flexural moment capacity whitney stress block online",
+    "singly reinforced beam steel area as mn calculator",
+    "concrete beam design phi mn kn m calculator",
+    "structural engineering reinforced concrete bending online"
+  ],
+  "order": 1058
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (2 GB File, 5000 Mbps Speed)",
+  "description": "Calculate file transfer download time (~0.1 minutes / 3s) for 2 GB file at 5000 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-2gb-speed-5000mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 2gb speed 5000mbps",
+    "Data Download Time Calculator (2 GB File, 5000 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

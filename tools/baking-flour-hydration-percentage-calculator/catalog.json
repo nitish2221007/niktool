@@ -1,0 +1,15 @@
+{
+  "name": "Baker's Percentage & Bread Hydration Calculator",
+  "description": "Calculate bread dough hydration percentage ((Water / Flour) · 100), sourdough starter baker's percentages, and total dough weight.",
+  "path": "/tools/baking-flour-hydration-percentage-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "bakers percentage calculator",
+    "dough hydration calculator",
+    "sourdough bread hydration formula",
+    "baking flour water ratio",
+    "artisan bread dough calculator"
+  ],
+  "order": 176
+}

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate control system Phase-Lead frequency compensator G_c(s) = (s + 1/T) / (s + 1/(α·T)) maximum phase lead boost φ_m (sin φ_m = (1 - α) / (1 + α)), attenuation factor α, and geometric center frequency ω_m.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/lead-lag-compensator-frequency-response-phase-boost-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate control system Phase-Lead frequency compensator G_c(s) = (s + 1/T) / (s + 1/(α·T)) maximum phase lead boost φ_m (sin φ_m = (1 - α) / (1 + α)), attenuation factor α, and geometric center frequency ω_m.">
+  <meta property="og:url" content="https://niktool.in/tools/lead-lag-compensator-frequency-response-phase-boost-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/lead-lag-compensator-frequency-response-phase-boost-calculator/",
+        "description": "Calculate control system Phase-Lead frequency compensator G_c(s) = (s + 1/T) / (s + 1/(α·T)) maximum phase lead boost φ_m (sin φ_m = (1 - α) / (1 + α)), attenuation factor α, and geometric center frequency ω_m.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is phase lead limited to approximately 60° per stage?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Higher $phi_m$ requires extremely small $alpha$, amplifying high-frequency sensor noise excessively ($Gain = 1/alpha$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator</h1>
+      <p>Calculate control system Phase-Lead frequency compensator G_c(s) = (s + 1/T) / (s + 1/(α·T)) maximum phase lead boost φ_m (sin φ_m = (1 - α) / (1 + α)), attenuation factor α, and geometric center frequency ω_m.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Desired Phase Lead Boost φ_m (Degrees) & Target Center Frequency ω_m (rad/s)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ll-phi">Phase Boost φ_m (°)</label>
+          <input class="tool-textarea" id="ll-phi" type="number" step="5" min="5" max="80" value="45.0" placeholder="45.0° (Lead Boost)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ll-wm">Center Freq ω_m (rad/s)</label>
+          <input class="tool-textarea" id="ll-wm" type="number" step="10" value="50.0" placeholder="50.0 rad/s" />
+        </div>
+      </div>
+      <div id="ll-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ll-res-comp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Lead Compensator: Zero at -20.7 rad/s | Pole at -120.7 rad/s</span>
+            <span class="stat-label">Transfer Function Poles & Zeros: G_c(s) = (s + 20.7) / (s + 120.7)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ll-res-alpha" style="color:var(--green-dark); font-weight:700;">Attenuation α = 0.1716 (α < 1: Lead) | High Frequency Gain Boost = +15.3 dB (1/α = 5.83×)</span>
+            <span class="stat-label">Lead Parameter α = (1 - sin φ_m) / (1 + sin φ_m)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator</h2>
+      <ol>
+        <li>Enter required additional Phase Margin boost $phi_m$ in degrees (typically $30^circ	ext{ to }55^circ$).</li>
+        <li>Enter desired gain crossover frequency $omega_m$ in rad/s.</li>
+        <li>Inspect lead parameter $alpha$, compensator zero location $z = 1/T$, and pole location $p = 1/(alpha T)$.</li>
+      </ol>
+
+      <h2>Frequency Domain Loop Shaping Standard</h2>
+      <p>Injects positive phase lead around the gain crossover frequency to increase Phase Margin (PM), speeding up closed-loop transient response without destabilizing oscillations.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is phase lead limited to approximately 60° per stage?</summary>
+        <p>Higher $phi_m$ requires extremely small $alpha$, amplifying high-frequency sensor noise excessively ($Gain = 1/alpha$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/lead-lag-compensator-frequency-response-phase-boost-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (350 Hz, 13 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 34.98 Ω) for 350 Hz frequency and 13 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-350hz-capacitor-13uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 350hz capacitor 13uf",
+    "Capacitive Reactance Calculator (350 Hz, 13 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

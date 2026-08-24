@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 10 L Volume)",
+    "description": "Calculate gas moles (n = 14.305 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 10 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-10l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 10l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 10 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 2 L Volume)",
+    "description": "Calculate gas moles (n = 2.861 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 2 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-2l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 2l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 2 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 3 L Volume)",
+    "description": "Calculate gas moles (n = 4.292 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 3 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-3l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 3l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 3 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 4 L Volume)",
+    "description": "Calculate gas moles (n = 5.722 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 4 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-4l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 4l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 4 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 5 L Volume)",
+    "description": "Calculate gas moles (n = 7.153 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 5 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-5l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 5l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 5 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 6 L Volume)",
+    "description": "Calculate gas moles (n = 8.583 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 6 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-6l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 6l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 6 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 7 L Volume)",
+    "description": "Calculate gas moles (n = 10.014 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 7 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-7l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 7l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 7 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 8 L Volume)",
+    "description": "Calculate gas moles (n = 11.444 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 8 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-8l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 8l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 8 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (35 atm Pressure, 9 L Volume)",
+    "description": "Calculate gas moles (n = 12.875 mol) using Ideal Gas Law (PV=nRT) at 35 atm and 9 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-35atm-volume-9l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 35atm volume 9l",
+      "Ideal Gas Law Moles Calculator (35 atm Pressure, 9 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 1 L Volume)",
+    "description": "Calculate gas moles (n = 1.471 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 1 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-1l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 1l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 1 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 10 L Volume)",
+    "description": "Calculate gas moles (n = 14.714 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 10 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-10l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 10l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 10 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 2 L Volume)",
+    "description": "Calculate gas moles (n = 2.943 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 2 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-2l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 2l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 2 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 3 L Volume)",
+    "description": "Calculate gas moles (n = 4.414 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 3 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-3l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 3l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 3 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 4 L Volume)",
+    "description": "Calculate gas moles (n = 5.886 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 4 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-4l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 4l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 4 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 5 L Volume)",
+    "description": "Calculate gas moles (n = 7.357 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 5 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-5l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 5l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 5 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 6 L Volume)",
+    "description": "Calculate gas moles (n = 8.829 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 6 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-6l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 6l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 6 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 7 L Volume)",
+    "description": "Calculate gas moles (n = 10.300 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 7 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-7l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 7l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 7 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 8 L Volume)",
+    "description": "Calculate gas moles (n = 11.771 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 8 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-8l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 8l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 8 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (36 atm Pressure, 9 L Volume)",
+    "description": "Calculate gas moles (n = 13.243 mol) using Ideal Gas Law (PV=nRT) at 36 atm and 9 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-36atm-volume-9l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 36atm volume 9l",
+      "Ideal Gas Law Moles Calculator (36 atm Pressure, 9 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (37 atm Pressure, 1 L Volume)",
+    "description": "Calculate gas moles (n = 1.512 mol) using Ideal Gas Law (PV=nRT) at 37 atm and 1 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-37atm-volume-1l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 37atm volume 1l",
+      "Ideal Gas Law Moles Calculator (37 atm Pressure, 1 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (37 atm Pressure, 10 L Volume)",
+    "description": "Calculate gas moles (n = 15.123 mol) using Ideal Gas Law (PV=nRT) at 37 atm and 10 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-37atm-volume-10l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 37atm volume 10l",
+      "Ideal Gas Law Moles Calculator (37 atm Pressure, 10 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (37 atm Pressure, 2 L Volume)",
+    "description": "Calculate gas moles (n = 3.025 mol) using Ideal Gas Law (PV=nRT) at 37 atm and 2 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-37atm-volume-2l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 37atm volume 2l",
+      "Ideal Gas Law Moles Calculator (37 atm Pressure, 2 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (37 atm Pressure, 3 L Volume)",
+    "description": "Calculate gas moles (n = 4.537 mol) using Ideal Gas Law (PV=nRT) at 37 atm and 3 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-37atm-volume-3l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 37atm volume 3l",
+      "Ideal Gas Law Moles Calculator (37 atm Pressure, 3 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ideal Gas Law Moles Calculator (37 atm Pressure, 4 L Volume)",
+    "description": "Calculate gas moles (n = 6.049 mol) using Ideal Gas Law (PV=nRT) at 37 atm and 4 L.",
+    "path": "/tools/ideal-gas-law-moles-calculator-pressure-37atm-volume-4l/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ideal gas law moles calculator pressure 37atm volume 4l",
+      "Ideal Gas Law Moles Calculator (37 atm Pressure, 4 L Volume)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

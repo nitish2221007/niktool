@@ -1,0 +1,15 @@
+{
+  "name": "Sample Size & Margin of Error Survey Calculator",
+  "description": "Calculate statistically representative sample size (n = (Z² · p · (1-p)) / E²) based on Confidence Level (90%, 95%, 99%) and Margin of Error for polling and scientific research.",
+  "path": "/tools/sample-size-confidence-interval-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "sample size calculator",
+    "survey sample size formula",
+    "margin of error sample size",
+    "cochran sample size formula online",
+    "confidence level 95 sample size"
+  ],
+  "order": 252
+}

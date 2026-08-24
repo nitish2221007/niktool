@@ -1,0 +1,16 @@
+{
+  "name": "dBm, dBW, Watts & Voltage RF Power Conversion Calculator",
+  "description": "Convert RF power between dBm, dBW, Watts, milliwatts, and Vrms across 50-ohm load impedance instantly.",
+  "path": "/tools/dbm-dbw-watts-voltage-rf-power-conversion-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "dbm dbw watts voltage rf power conversion calculator",
+    "dBm, dBW, Watts & Voltage RF Power Conversion Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 3 Units)",
+  "description": "Calculate the exact area of a circle with radius 3 units (A = πr² = 28.27).",
+  "path": "/tools/area-of-circle-radius-3-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 3 units",
+    "Area of Circle (Radius 3 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 41 REM to PX Value",
+  "description": "Convert 41 REM units to pixels (656 px) based on standard 16px root font.",
+  "path": "/tools/convert-41-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 41 rem to px value",
+    "Convert 41 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

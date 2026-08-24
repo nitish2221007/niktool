@@ -1,0 +1,15 @@
+{
+  "name": "Convert 2 KB to Bytes Data",
+  "description": "Convert 2 Kilobytes (KB) to Bytes (2048 bytes). 100% free and local.",
+  "path": "/tools/convert-2-kb-to-bytes-data/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 2 kb to bytes data",
+    "Convert 2 KB to Bytes Data",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

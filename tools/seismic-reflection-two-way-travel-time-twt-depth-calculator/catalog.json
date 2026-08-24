@@ -1,0 +1,15 @@
+{
+  "name": "Seismic Reflection Normal Moveout (NMO Δt = √(t₀² + x²/v_rms²) - t₀) Calculator",
+  "description": "Calculate petroleum seismic reflection hyperbolic travel time t(x) (t² = t₀² + x² / v_rms²), Normal Moveout correction Δt_NMO, and subsurface reflector depth z₀ (z₀ = ½·v_rms·t₀).",
+  "path": "/tools/seismic-reflection-two-way-travel-time-twt-depth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "seismic reflection calculator",
+    "normal moveout nmo formula delta t online",
+    "two way travel time twt reflector depth calculator",
+    "rms velocity hyperbolic moveout geophysics calculator",
+    "geophysics petroleum exploration seismic processing online"
+  ],
+  "order": 1301
+}

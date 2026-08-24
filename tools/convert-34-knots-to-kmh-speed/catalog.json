@@ -1,0 +1,15 @@
+{
+  "name": "Convert 34 Knots to KM/H Speed",
+  "description": "Convert 34 knots speed to kilometers per hour (62.97 km/h).",
+  "path": "/tools/convert-34-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 34 knots to kmh speed",
+    "Convert 34 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

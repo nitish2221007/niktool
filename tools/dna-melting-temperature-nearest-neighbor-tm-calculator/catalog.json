@@ -1,0 +1,15 @@
+{
+  "name": "DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator",
+  "description": "Calculate PCR oligonucleotide primer melting temperature T_m (Nearest-Neighbor thermodynamic model: T_m = ΔH / (ΔS + R·ln(C/4)) - 273.15 + 16.6·log₁₀[Na⁺]) in °C and GC content.",
+  "path": "/tools/dna-melting-temperature-nearest-neighbor-tm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dna melting temperature calculator",
+    "pcr primer tm nearest neighbor formula online",
+    "primer gc content melting temp calculator",
+    "santa lucia nearest neighbor dna tm calculator",
+    "qpcr primer design melting temperature online"
+  ],
+  "order": 758
+}

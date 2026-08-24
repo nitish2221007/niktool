@@ -1,0 +1,15 @@
+{
+  "name": "PET Scanner Spatial Resolution & Positron Range (FWHM) Calculator",
+  "description": "Calculate Positron Emission Tomography (PET) image spatial resolution (R_FWHM = √(R_det² + R_range² + R_180² + R_block²)) in mm across F-18, C-11, Ga-68, and Rb-82 radiotracers.",
+  "path": "/tools/pet-scan-positron-range-non-collinearity-resolution-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "pet scan spatial resolution calculator",
+    "positron range fwhm formula f18 ga68 online",
+    "non collinearity photon angle pet resolution calculator",
+    "detector crystal width pet spatial resolution online",
+    "medical physics pet imaging resolution calculator"
+  ],
+  "order": 718
+}

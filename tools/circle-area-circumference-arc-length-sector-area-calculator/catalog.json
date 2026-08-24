@@ -1,0 +1,15 @@
+{
+  "name": "Circle Geometry (Area A = π·r², Circumference C = 2·π·r, Arc Length & Sector Area) Calculator",
+  "description": "Calculate circle area (A = π·r²), perimeter circumference (C = 2·π·r), circular arc length (s = r·θ), and pie sector area (A_sector = ½·r²·θ) from radius r and central angle θ in degrees.",
+  "path": "/tools/circle-area-circumference-arc-length-sector-area-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "circle area calculator",
+    "circle circumference formula c equals 2 pi r online",
+    "arc length sector area calculator radius central angle",
+    "area of a circle pi r squared calculator",
+    "circle geometry formulas solver online"
+  ],
+  "order": 945
+}

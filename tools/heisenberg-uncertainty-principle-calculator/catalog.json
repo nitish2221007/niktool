@@ -1,0 +1,15 @@
+{
+  "name": "Heisenberg Uncertainty Principle (Δx · Δp ≥ ℏ/2) Calculator",
+  "description": "Calculate quantum mechanical uncertainty limits in position (Δx) and momentum / velocity (Δv = ℏ / (2 · m · Δx)) for subatomic particles.",
+  "path": "/tools/heisenberg-uncertainty-principle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "heisenberg uncertainty principle calculator",
+    "delta x delta p hbar over 2 formula",
+    "position momentum uncertainty online",
+    "quantum uncertainty bound calculator",
+    "electron velocity uncertainty calculator"
+  ],
+  "order": 370
+}

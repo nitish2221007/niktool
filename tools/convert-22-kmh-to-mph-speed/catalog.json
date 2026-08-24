@@ -1,0 +1,15 @@
+{
+  "name": "Convert 22 KM/H to MPH Speed",
+  "description": "Convert 22 kilometers per hour (km/h) to miles per hour (13.67 mph).",
+  "path": "/tools/convert-22-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 22 kmh to mph speed",
+    "Convert 22 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

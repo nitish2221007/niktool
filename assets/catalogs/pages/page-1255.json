@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Digital Filter FIR Windowed Sinc Cutoff & Coefficient Calculator",
+    "description": "Design ideal windowed sinc FIR lowpass filters and calculate cutoff coefficients, impulse response taps, and stopband attenuation.",
+    "path": "/tools/digital-filter-fir-iir-cutoff-coefficient-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "digital filter fir iir cutoff coefficient calculator",
+      "Digital Filter FIR Windowed Sinc Cutoff & Coefficient Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Doppler Shift Frequency & Velocity Radar Calculator",
+    "description": "Calculate Doppler frequency shift Δf = 2·v·f0·cos(θ)/c and target velocity for radar, ultrasound, and RF sensing.",
+    "path": "/tools/doppler-shift-frequency-velocity-radar-ultrasound-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "doppler shift frequency velocity radar ultrasound calculator",
+      "Doppler Shift Frequency & Velocity Radar Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Eye Diagram Jitter & BER Floor High-Speed Serial Link Calculator",
+    "description": "Evaluate high-speed serial link eye diagram opening, total jitter (TJ), deterministic jitter (DJ), and BER floor.",
+    "path": "/tools/eye-diagram-jitter-ber-floor-high-speed-serial-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "eye diagram jitter ber floor high speed serial calculator",
+      "Eye Diagram Jitter & BER Floor High-Speed Serial Link Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Friis Transmission & Free-Space Path Loss Link Budget Calculator",
+    "description": "Calculate free-space path loss (FSPL), received signal power Pr, and RF link budget using the Friis transmission equation.",
+    "path": "/tools/friis-free-space-path-loss-link-budget-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "friis free space path loss link budget calculator",
+      "Friis Transmission & Free-Space Path Loss Link Budget Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "GSM / LTE Cellular Link Budget & Coverage Range Calculator",
+    "description": "Compute maximum allowable path loss (MAPL) and cell coverage radius for GSM, 4G LTE, and 5G cellular network deployment.",
+    "path": "/tools/gsm-lte-link-budget-indoor-outdoor-coverage-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "gsm lte link budget indoor outdoor coverage calculator",
+      "GSM / LTE Cellular Link Budget & Coverage Range Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "L-Network Impedance Matching RF Circuit Calculator",
+    "description": "Calculate inductor L and capacitor C component values for RF L-network and Pi-network impedance matching circuits.",
+    "path": "/tools/impedance-matching-l-network-pi-network-rf-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "impedance matching l network pi network rf calculator",
+      "L-Network Impedance Matching RF Circuit Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Microstrip Line Characteristic Impedance Calculator",
+    "description": "Calculate PCB microstrip trace characteristic impedance Z0, effective dielectric constant εeff, and propagation delay.",
+    "path": "/tools/microstrip-line-characteristic-impedance-pcb-rf-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "microstrip line characteristic impedance pcb rf calculator",
+      "Microstrip Line Characteristic Impedance Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "MIMO Spatial Multiplexing Capacity & Channel Matrix Calculator",
+    "description": "Calculate theoretical spectral efficiency and Shannon channel capacity for Nt x Nr MIMO spatial multiplexing systems.",
+    "path": "/tools/mimo-spatial-multiplexing-capacity-channel-matrix-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "mimo spatial multiplexing capacity channel matrix calculator",
+      "MIMO Spatial Multiplexing Capacity & Channel Matrix Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Nyquist Sampling Theorem & Aliasing Calculator",
+    "description": "Determine minimum Nyquist sampling rate (fs at least 2*fmax), foldover aliasing frequencies, and reconstruction filter requirements.",
+    "path": "/tools/nyquist-sampling-theorem-aliasing-minimum-sample-rate-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "nyquist sampling theorem aliasing minimum sample rate calculator",
+      "Nyquist Sampling Theorem & Aliasing Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "OFDM Subcarrier Spacing & Cyclic Prefix Calculator",
+    "description": "Calculate OFDM useful symbol time Tu, cyclic prefix duration Tcp, total symbol time, and subcarrier spacing for 4G/5G/WiFi.",
+    "path": "/tools/ofdm-subcarrier-spacing-symbol-duration-cyclic-prefix-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "ofdm subcarrier spacing symbol duration cyclic prefix calculator",
+      "OFDM Subcarrier Spacing & Cyclic Prefix Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Optical Fiber Attenuation & Power Budget Link Calculator",
+    "description": "Calculate total fiber optic link loss, power budget margin, connector/splice loss, and max link distance for telecom networks.",
+    "path": "/tools/optical-fiber-attenuation-power-budget-link-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "optical fiber attenuation power budget link calculator",
+      "Optical Fiber Attenuation & Power Budget Link Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Pulse Width / Duty Cycle / Frequency / Period Digital Signal Calculator",
+    "description": "Convert between frequency f, total period T, high pulse width tw, and percentage duty cycle D for digital PWM signals.",
+    "path": "/tools/pulse-width-duty-cycle-frequency-period-digital-signal-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "pulse width duty cycle frequency period digital signal calculator",
+      "Pulse Width / Duty Cycle / Frequency / Period Digital Signal Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "QAM Bit Error Rate (BER) vs SNR Calculator",
+    "description": "Compute bit error rate (BER), symbol error rate (SER), and spectral efficiency for M-QAM modulation (4, 16, 64, 256 QAM).",
+    "path": "/tools/qam-bit-error-rate-snr-modulation-order-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "qam bit error rate snr modulation order calculator",
+      "QAM Bit Error Rate (BER) vs SNR Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Radar Range Equation & Detection Range Calculator",
+    "description": "Calculate maximum radar detection range Rmax using peak power, antenna gain, target radar cross section (RCS), and receiver sensitivity.",
+    "path": "/tools/radar-range-equation-snr-detection-range-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "radar range equation snr detection range calculator",
+      "Radar Range Equation & Detection Range Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Radio Wave Propagation ITU-R Path Loss Model Calculator",
+    "description": "Estimate radio propagation path loss using ITU-R P.1238 indoor and Okumura-Hata outdoor propagation models.",
+    "path": "/tools/radio-wave-propagation-itu-r-path-loss-model-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "radio wave propagation itu r path loss model calculator",
+      "Radio Wave Propagation ITU-R Path Loss Model Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Receiver Noise Floor, SNR & Eb/N0 Conversion Calculator",
+    "description": "Calculate thermal noise floor Nfloor = kTB, receiver sensitivity, and convert between SNR (dB) and Eb/N0 (dB).",
+    "path": "/tools/snr-eb-n0-sensitivity-receiver-noise-floor-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "snr eb n0 sensitivity receiver noise floor calculator",
+      "Receiver Noise Floor, SNR & Eb/N0 Conversion Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Rectangular Waveguide Cutoff Frequency & Mode Calculator",
+    "description": "Compute TE/TM mode cutoff frequencies, guide wavelength, phase velocity, and wave impedance for rectangular metallic waveguides.",
+    "path": "/tools/rectangular-waveguide-cutoff-frequency-mode-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "rectangular waveguide cutoff frequency mode calculator",
+      "Rectangular Waveguide Cutoff Frequency & Mode Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "RF Amplifier Noise Figure & Cascaded Friis Noise Calculator",
+    "description": "Calculate total cascaded noise figure NFtotal, noise factor, and overall gain for multi-stage RF receiver front-ends.",
+    "path": "/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "rf amplifier noise figure cascaded friis noise calculator",
+      "RF Amplifier Noise Figure & Cascaded Friis Noise Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Shannon-Hartley Channel Capacity Calculator",
+    "description": "Calculate theoretical maximum channel data rate C = B log2(1 + SNR) in Mbps for additive white Gaussian noise (AWGN) channels.",
+    "path": "/tools/shannon-hartley-channel-capacity-snr-bandwidth-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "shannon hartley channel capacity snr bandwidth calculator",
+      "Shannon-Hartley Channel Capacity Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "VLSI CMOS Gate Propagation Delay & Power Dissipation Calculator",
+    "description": "Calculate CMOS gate propagation delay tp = 0.69·Req·CL and dynamic power dissipation P = α·CL·VDD²·f for digital IC design.",
+    "path": "/tools/vlsi-cmos-propagation-delay-power-dissipation-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "vlsi cmos propagation delay power dissipation calculator",
+      "VLSI CMOS Gate Propagation Delay & Power Dissipation Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate superalloy high-temperature creep rupture lifetime (LMP = T_Kelvin · (log₁₀ t_rupture + C) · 10⁻³) in hours and predict master stress-rupture curves in jet engine turbine blades.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/larson-miller-parameter-high-temp-creep-rupture-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator | NikTool">
+  <meta property="og:description" content="Calculate superalloy high-temperature creep rupture lifetime (LMP = T_Kelvin · (log₁₀ t_rupture + C) · 10⁻³) in hours and predict master stress-rupture curves in jet engine turbine blades.">
+  <meta property="og:url" content="https://niktool.in/tools/larson-miller-parameter-high-temp-creep-rupture-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/larson-miller-parameter-high-temp-creep-rupture-calculator/",
+        "description": "Calculate superalloy high-temperature creep rupture lifetime (LMP = T_Kelvin · (log₁₀ t_rupture + C) · 10⁻³) in hours and predict master stress-rupture curves in jet engine turbine blades.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the physical meaning of constant C in the Larson-Miller equation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Constant C is derived from the Arrhenius activation energy for vacancy self-diffusion and dislocation climb ($C = ln(A) / ln(10) approx 20$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator</h1>
+      <p>Calculate superalloy high-temperature creep rupture lifetime (LMP = T_Kelvin · (log₁₀ t_rupture + C) · 10⁻³) in hours and predict master stress-rupture curves in jet engine turbine blades.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Operating Temperature T (°C), Desired Service Life t_r (Hours) & Constant C (typically 20)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="lmp-temp">Operating Temp T (°C)</label>
+          <input class="tool-textarea" id="lmp-temp" type="number" step="25" value="850.0" placeholder="850.0 °C (Gas Turbine Blade)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lmp-time">Service Life t_r (h)</label>
+          <input class="tool-textarea" id="lmp-time" type="number" step="1000" value="10000" placeholder="10000 h (1.14 Years)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lmp-c">Constant C</label>
+          <input class="tool-textarea" id="lmp-c" type="number" step="1" value="20" placeholder="20 (Nickel Superalloys)" />
+        </div>
+      </div>
+      <div id="lmp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="lmp-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">LMP = 26.95 × 10³</span>
+            <span class="stat-label">Larson-Miller Creep Rupture Parameter (LMP)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lmp-res-acc" style="color:var(--green-dark); font-weight:700;">Accelerated Lab Test: 10.0 Hours @ 975°C yields identical creep damage!</span>
+            <span class="stat-label">Accelerated High-Temperature Creep Equivalence</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Larson-Miller Parameter (LMP = T·(log₁₀ t_r + C)·10⁻³) Creep Rupture Calculator</h2>
+      <ol>
+        <li>Enter long-term component operating temperature in Celsius (e.g. 850°C for Inconel 718 turbine disc).</li>
+        <li>Enter target creep service lifetime in hours (e.g. 10,000 hours).</li>
+        <li>Enter material-specific Larson-Miller constant C (typically $C = 20$ for nickel-base superalloys and steels).</li>
+        <li>Inspect dimensionless Larson-Miller Parameter (LMP) and determine accelerated short-duration laboratory test equivalence.</li>
+      </ol>
+
+      <h2>F.R. Larson & J. Miller 1952 Time-Temperature Creep Equivalence</h2>
+      <p>The LMP parameter collapses decades of high-temperature creep rupture data across different temperatures and stresses onto a single master curve, enabling aerospace engineers to certify 100,000-hour power plant turbine blades using 100-hour high-temperature lab tests.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the physical meaning of constant C in the Larson-Miller equation?</summary>
+        <p>Constant C is derived from the Arrhenius activation energy for vacancy self-diffusion and dislocation climb ($C = ln(A) / ln(10) approx 20$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/larson-miller-parameter-high-temp-creep-rupture-calculator/tool.js"></script>
+</body>
+</html>

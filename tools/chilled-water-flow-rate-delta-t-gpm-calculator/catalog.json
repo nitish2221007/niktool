@@ -1,0 +1,15 @@
+{
+  "name": "Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator",
+  "description": "Calculate hydronic chilled water distribution flow rate (GPM = (Tons · 24) / ΔT = Q_BTU / (500 · ΔT)) in gallons per minute from cooling plant tonnage and design temperature differential.",
+  "path": "/tools/chilled-water-flow-rate-delta-t-gpm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "chilled water gpm calculator",
+    "chiller delta t gpm formula",
+    "cooling tons to gpm calculator online",
+    "gpm 24 times tons over delta t",
+    "central chiller plant flow rate calculator"
+  ],
+  "order": 458
+}

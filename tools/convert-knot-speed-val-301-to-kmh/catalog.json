@@ -1,0 +1,15 @@
+{
+  "name": "Convert 301 Knots Speed Val to KM/H",
+  "description": "Convert 301 knots speed to kilometers per hour (557.45 km/h).",
+  "path": "/tools/convert-knot-speed-val-301-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 301 to kmh",
+    "Convert 301 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

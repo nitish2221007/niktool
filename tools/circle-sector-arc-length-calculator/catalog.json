@@ -1,0 +1,15 @@
+{
+  "name": "Circle Sector & Arc Length Calculator",
+  "description": "Calculate circle arc length (s = r·θ), sector area (A = ½·r²·θ), chord length, and segment area from radius and central angle.",
+  "path": "/tools/circle-sector-arc-length-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "circle sector calculator",
+    "arc length calculator",
+    "sector area calculator",
+    "chord length calculator",
+    "circle segment area formula"
+  ],
+  "order": 142
+}

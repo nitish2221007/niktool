@@ -1,0 +1,15 @@
+{
+  "name": "Convert 26 REM to PX Value",
+  "description": "Convert 26 REM units to pixels (416 px) based on standard 16px root font.",
+  "path": "/tools/convert-26-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 26 rem to px value",
+    "Convert 26 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

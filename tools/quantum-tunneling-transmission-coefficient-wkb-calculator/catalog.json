@@ -1,0 +1,15 @@
+{
+  "name": "Quantum Mechanical Barrier Tunneling Probability (WKB T) Calculator",
+  "description": "Calculate quantum mechanical barrier tunneling transmission probability (T ≈ exp[-2·a·√(2·m·(V₀ - E)) / ℏ]) for electrons tunneling through rectangular energy barriers in STM microscopes and flash memory.",
+  "path": "/tools/quantum-tunneling-transmission-coefficient-wkb-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "quantum tunneling calculator",
+    "wkb transmission coefficient formula t equals exp minus 2 k a online",
+    "electron rectangular barrier tunneling probability calculator",
+    "scanning tunneling microscope stm tunneling current calculator",
+    "quantum barrier transmission coefficient online"
+  ],
+  "order": 813
+}

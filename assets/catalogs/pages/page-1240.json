@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Discrete Logarithm (g^x ≡ h mod p Shanks' Baby-Step Giant-Step) Calculator",
+    "description": "Solve discrete logarithm problems (finding exponent x such that g^x ≡ h mod p) in O(√p) time and space using Daniel Shanks' Baby-Step Giant-Step algorithm for cryptographic cryptanalysis.",
+    "path": "/tools/discrete-logarithm-baby-step-giant-step-shanks-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "discrete logarithm calculator",
+      "shanks baby step giant step algorithm online",
+      "discrete log solver g to x equals h mod p calculator",
+      "cryptanalysis discrete logarithm calculator",
+      "number theory cryptography discrete log online"
+    ]
+  },
+  {
+    "name": "Elliptic Curve Point Addition (P + Q) & Doubling (2P on y² = x³ + ax + b mod p) Calculator",
+    "description": "Calculate Weierstrass elliptic curve point addition (P + Q = R) and point doubling (2P) over finite field 𝔽_p (y² ≡ x³ + ax + b mod p) for ECC cryptography (Bitcoin secp256k1 & Curve25519).",
+    "path": "/tools/elliptic-curve-point-addition-scalar-multiplication-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "elliptic curve point addition calculator",
+      "ecc group law formula y squared equals x cubed plus ax plus b online",
+      "elliptic curve point doubling slope lambda calculator",
+      "secp256k1 ecc cryptography point addition calculator",
+      "finite field cryptography elliptic curves online"
+    ]
+  },
+  {
+    "name": "Rocket Thrust-to-Weight Ratio (TWR) & Tsiolkovsky Delta-v (Δv = I_sp·g₀·ln(m₀/m_f)) Calculator",
+    "description": "Calculate rocket liftoff Thrust-to-Weight ratio (TWR = F_thrust / (m₀·g₀)), initial sea-level acceleration (a = (TWR - 1)·g₀) in m/s², and mission delta-v budget (Δv = I_sp · g₀ · ln(m₀ / m_f)) in m/s.",
+    "path": "/tools/thrust-to-weight-ratio-twr-rocket-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket twr calculator",
+      "tsiolkovsky rocket equation delta v formula online",
+      "thrust to weight ratio liftoff acceleration calculator",
+      "specific impulse isp wet dry mass rocket calculator",
+      "aerospace orbital mechanics rocket propulsion online"
+    ]
+  },
+  {
+    "name": "Standard Atmosphere ISA (Troposphere & Stratosphere T(h), P(h), ρ(h)) Calculator",
+    "description": "Calculate 1976 International Standard Atmosphere (ISA) thermodynamic properties: temperature T(h) in °C/K, barometric air pressure P(h) in hPa/psi, density ρ(h) in kg/m³, and speed of sound a(h) in knots/m/s from flight altitude in feet or meters.",
+    "path": "/tools/standard-atmosphere-isa-altitude-temperature-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "isa standard atmosphere calculator",
+      "international standard atmosphere 1976 altitude calculator",
+      "air density temperature pressure altitude calculator aviation",
+      "speed of sound altitude isa calculator knots m s",
+      "aerospace flight aerodynamics isa online"
+    ]
+  },
+  {
+    "name": "Aircraft Wing Aerodynamic Lift & Drag (L = ½·ρ·v²·S·C_L, D = ½·ρ·v²·S·C_D) & (L/D) Calculator",
+    "description": "Calculate aerodynamic aircraft wing lift force (L = ½ · ρ · v² · S · C_L) in kN, drag force (D = ½ · ρ · v² · S · C_D), lift-to-drag glide ratio (L/D), and engine thrust required for steady level flight in aeronautics.",
+    "path": "/tools/aircraft-lift-drag-coefficient-glide-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "aircraft lift drag calculator",
+      "lift formula l equals half rho v squared s cl online",
+      "drag coefficient lift to drag ratio glide ratio calculator",
+      "wing surface area air density flight aerodynamics calculator",
+      "aeronautical engineering lift drag online"
+    ]
+  },
+  {
+    "name": "Orbital Mechanics Hohmann Transfer Orbit (Δv₁ + Δv₂) & Travel Time Calculator",
+    "description": "Calculate two-impulse Hohmann transfer orbit velocity changes (Δv₁ = v_t1 - v₁, Δv₂ = v₂ - v_t2) in km/s and semi-major axis flight duration t_transfer between circular satellite orbits around Earth or the Sun.",
+    "path": "/tools/orbital-hohmann-transfer-delta-v-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hohmann transfer calculator",
+      "orbital transfer delta v formula online",
+      "two impulse hohmann orbit transfer calculator km s",
+      "interplanetary orbital mechanics transfer time calculator",
+      "astrodynamics satellite orbit maneuvering online"
+    ]
+  },
+  {
+    "name": "Vis-Viva Orbital Velocity (v = √(μ·(2/r - 1/a))) & Escape Velocity (v_esc = √(2μ/r)) Calculator",
+    "description": "Calculate instantaneous orbital speed (v = √(μ · (2/r - 1/a))) in km/s at any distance r on circular, elliptical, or hyperbolic trajectories, and calculate gravitational Escape Velocity (v_esc = √(2·μ / r)) for astrodynamics.",
+    "path": "/tools/vis-viva-orbital-speed-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "vis viva equation calculator",
+      "orbital speed formula v equals sqrt mu 2 over r minus 1 over a online",
+      "escape velocity calculator gravitational potential well",
+      "celestial mechanics satellite velocity calculator km s",
+      "astrodynamics orbital velocity online"
+    ]
+  },
+  {
+    "name": "Planetary Epicyclic Gear Train (Gear Ratio R = 1 + N_ring / N_sun) Calculator",
+    "description": "Calculate epicyclic planetary gear set gear ratio (R = 1 + N_ring / N_sun), output torque multiplication, output RPM, and Willis kinematic velocity equation for automotive automatic transmissions and robotics.",
+    "path": "/tools/planetary-gear-train-gear-ratio-epicyclic-sun-ring-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planetary gear ratio calculator",
+      "epicyclic gear train formula r equals 1 plus n ring over n sun online",
+      "automatic transmission planetary gear reduction calculator",
+      "sun planet carrier ring gear tooth count calculator",
+      "mechanical automotive drivetrain gear train online"
+    ]
+  },
+  {
+    "name": "Engine Brake Mean Effective Pressure (BMEP = 2π·n_R·T / V_d) & Power Calculator",
+    "description": "Calculate internal combustion engine Brake Mean Effective Pressure (BMEP = 2π · n_R · T / V_d) in bar/psi, Brake Horsepower (BHP), and engine torque volumetric efficiency from displacement V_d in liters and dyno torque T.",
+    "path": "/tools/internal-combustion-engine-bmep-indicated-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bmep calculator",
+      "brake mean effective pressure formula bmep online",
+      "engine torque displacement bmep calculator bar psi",
+      "brake horsepower engine power displacement calculator",
+      "automotive mechanical engine tuning online"
+    ]
+  },
+  {
+    "name": "Vehicle Dynamic Braking Weight Transfer (ΔW = (a/g)·(h/L)·W) Calculator",
+    "description": "Calculate automotive dynamic longitudinal weight transfer during braking (ΔW = (a/g) · (h/L) · W) in kg/N, front-to-rear dynamic axle load distribution, and brake bias percentage for chassis engineering.",
+    "path": "/tools/vehicle-stopping-braking-weight-transfer-center-of-gravity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "weight transfer calculator",
+      "braking weight transfer formula delta w equals a over g times h over l online",
+      "automotive brake bias front rear axle load calculator",
+      "center of gravity height wheelbase weight transfer calculator",
+      "vehicle dynamics automotive chassis engineering online"
+    ]
+  },
+  {
+    "name": "Aircraft Wing Aspect Ratio (AR = b² / S) & Induced Drag (C_Di = C_L² / (π·e·AR)) Calculator",
+    "description": "Calculate aircraft wing Aspect Ratio (AR = b² / S), Oswald wing efficiency factor e, and induced vortex drag coefficient (C_Di = C_L² / (π · e · AR)) for aeronautical wing design.",
+    "path": "/tools/aircraft-wing-aspect-ratio-induced-drag-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wing aspect ratio calculator",
+      "induced drag formula c di equals cl squared over pi e ar online",
+      "oswald efficiency wing aspect ratio calculator",
+      "vortex drag lift induced drag aircraft calculator",
+      "aeronautical wing design aspect ratio online"
+    ]
+  },
+  {
+    "name": "Supersonic Mach Cone Angle (sin μ = 1 / M) & Shock Angle Calculator",
+    "description": "Calculate supersonic Mach wave cone half-angle (μ = arcsin(1 / M)) in degrees, Prandtl-Meyer expansion angle, and flow properties across supersonic transitions in aerospace compressible aerodynamics.",
+    "path": "/tools/mach-cone-angle-prandtl-meyer-expansion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mach cone angle calculator",
+      "mach angle formula mu equals arcsin 1 over m online",
+      "supersonic shock cone angle calculator",
+      "compressible flow prandtl meyer mach calculator",
+      "aerospace supersonic aerodynamics online"
+    ]
+  },
+  {
+    "name": "Oblique Shock Wave (θ-β-M Relation & Deflection Angle) Calculator",
+    "description": "Calculate supersonic compressible oblique shock wave deflection angle θ, shock wave angle β, and downstream Mach number M₂ using the classic θ-β-M compressible flow equation for supersonic wedge intakes.",
+    "path": "/tools/oblique-shock-wave-theta-beta-mach-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "oblique shock wave calculator",
+      "theta beta mach relation formula online",
+      "supersonic shock wave deflection angle calculator",
+      "downstream mach number oblique shock calculator",
+      "aerospace compressible flow shock waves online"
+    ]
+  },
+  {
+    "name": "Pitot-Static Tube Airspeed (v = √(2·ΔP / ρ)) & Dynamic Pressure (q) Calculator",
+    "description": "Calculate indicated and true airspeed (v = √(2·(P_total - P_static) / ρ)) in knots and km/h from Pitot-static tube dynamic impact pressure (q = P_t - P_s) in hPa and local air density ρ for avionics.",
+    "path": "/tools/pitot-tube-airspeed-dynamic-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pitot tube calculator",
+      "pitot static airspeed formula v equals sqrt 2 delta p over rho online",
+      "dynamic pressure impact pressure airspeed calculator",
+      "indicated true airspeed pitot tube aviation calculator",
+      "avionics aerodynamics pitot tube online"
+    ]
+  },
+  {
+    "name": "Aircraft Stall Speed (v_s = √(2·W / (ρ·S·C_L_max))) & Wing Loading Calculator",
+    "description": "Calculate minimum aircraft aerodynamic stall speed (v_s = √(2·W / (ρ·S·C_L_max))) in knots and km/h, wing loading (W/S in kg/m²), and load factor g-turn accelerated stall speed for flight safety.",
+    "path": "/tools/aircraft-stall-speed-wing-loading-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stall speed calculator",
+      "aircraft stall speed formula vs equals sqrt 2 w over rho s cl max online",
+      "wing loading w over s calculator",
+      "accelerated stall speed load factor g calculator",
+      "flight aerodynamics aviation stall speed online"
+    ]
+  },
+  {
+    "name": "Aircraft Propeller Advance Ratio (J = v / (n·D)) & Efficiency (η = T·v / P) Calculator",
+    "description": "Calculate aircraft propeller advance ratio (J = v / (n · D)), thrust coefficient C_T, power coefficient C_P, and propulsive efficiency (η = T · v / P) for piston/turboprop aeronautical propulsion.",
+    "path": "/tools/propeller-thrust-advance-ratio-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "propeller advance ratio calculator",
+      "propulsive efficiency formula eta equals t v over p online",
+      "propeller thrust power coefficient calculator",
+      "advance ratio j equals v over n d aviation calculator",
+      "aeronautical propeller propulsion mechanics online"
+    ]
+  },
+  {
+    "name": "Rocket De Laval Nozzle Area Ratio (A / A*) & Exit Mach Number Calculator",
+    "description": "Calculate supersonic rocket engine De Laval converging-diverging nozzle expansion area ratio (A / A*), exit Mach number M_e, and pressure expansion ratio for rocket propulsion engineering.",
+    "path": "/tools/rocket-nozzle-isentropic-expansion-area-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket nozzle area ratio calculator",
+      "de laval nozzle expansion formula a over a star online",
+      "supersonic exit mach number nozzle calculator",
+      "rocket expansion ratio under overexpanded calculator",
+      "aerospace rocket propulsion gas dynamics online"
+    ]
+  },
+  {
+    "name": "Gravitational Escape Velocity (v_esc = √(2·G·M / R)) & Binding Energy Calculator",
+    "description": "Calculate parabolic escape velocity (v_esc = √(2·G·M / R)) in km/s and km/h, surface gravitational acceleration (g = G·M / R²), and specific orbital binding energy for planets, moons, and black hole event horizons.",
+    "path": "/tools/escape-velocity-gravitational-potential-well-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "escape velocity calculator",
+      "gravitational escape velocity formula v equals sqrt 2 g m over r online",
+      "surface gravity celestial body escape velocity calculator",
+      "black hole event horizon escape velocity calculator km s",
+      "astrophysics celestial mechanics gravity online"
+    ]
+  },
+  {
+    "name": "Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator",
+    "description": "Calculate satellite orbital period (T = 2π · √(a³ / μ)) in minutes/hours, geostationary synchronization altitude (h_GEO = 35,786 km), and orbital ground speed using Kepler's Third Law.",
+    "path": "/tools/orbital-period-altitude-geostationary-orbit-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "geostationary orbit calculator",
+      "kepler third law orbital period formula t equals 2 pi sqrt a cubed over mu online",
+      "geo satellite altitude 35786 km calculator",
+      "orbital period altitude satellite calculator hours",
+      "astrodynamics satellite communications geo orbit online"
+    ]
+  },
+  {
+    "name": "Spacecraft Atmospheric Reentry Peak Heat Flux (q_dot ∝ √(ρ / R_n)·v³) Calculator",
+    "description": "Calculate spacecraft hypersonic atmospheric reentry convective heat flux (q_dot = 1.83e-4 · √(ρ / R_n) · (v/1000)³) in kW/m² and W/cm² from reentry speed v in km/s, atmospheric density ρ, and nose radius R_n for heat shield TPS design.",
+    "path": "/tools/spacecraft-atmospheric-reentry-heat-flux-chapman-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reentry heat flux calculator",
+      "hypersonic heat flux formula chapman sutton online",
+      "thermal protection system tps heat shield calculator",
+      "blunt body aerodynamic heating spacecraft calculator",
+      "aerospace hypersonic reentry aerothermodynamics online"
+    ]
+  },
+  {
+    "name": "Gas Turbine Brayton Cycle (Thermal Efficiency η = 1 - r_p^(-(γ-1)/γ)) Calculator",
+    "description": "Calculate ideal Brayton cycle gas turbine thermal efficiency (η = 1 - r_p^(-(γ-1)/γ)), compressor and turbine exit temperatures, and specific work output from compressor pressure ratio r_p and turbine inlet temperature (TIT).",
+    "path": "/tools/gas-turbine-brayton-cycle-pressure-ratio-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "brayton cycle calculator",
+      "gas turbine thermal efficiency formula online",
+      "pressure ratio brayton cycle calculator eta",
+      "turbine inlet temperature tit specific power calculator",
+      "thermodynamics gas turbine jet engine online"
+    ]
+  },
+  {
+    "name": "Turbojet Engine Net Thrust (F_n = ṁ·(v_e - v₀)) & TSFC Calculator",
+    "description": "Calculate turbojet/turbofan engine net thrust force (F_n = ṁ · (v_e - v₀)), Thrust Specific Fuel Consumption (TSFC in g/(kN·s) and lb/(lbf·hr)), and propulsive efficiency for jet engine performance.",
+    "path": "/tools/turbojet-engine-specific-thrust-tsfc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "turbojet thrust calculator",
+      "net thrust formula fn equals m dot ve minus v0 online",
+      "thrust specific fuel consumption tsfc calculator",
+      "jet engine mass flow exhaust velocity calculator",
+      "aerospace propulsion jet engine performance online"
+    ]
+  },
+  {
+    "name": "Marine Hydrofoil Cavitation Number (σ = (P₀ - P_v) / (½·ρ·v²)) Calculator",
+    "description": "Calculate marine hydrofoil and propeller Cavitation Number (σ = (P₀ - P_v) / (½ · ρ · v²)) to predict onset of destructive cavitation bubbles, erosion risk, and hydrofoil lift breakdown in naval architecture.",
+    "path": "/tools/marine-hydrofoil-froude-number-cavitation-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cavitation number calculator",
+      "hydrofoil cavitation inception formula sigma online",
+      "marine propeller cavitation number calculator",
+      "naval architecture hydrofoil flow calculator",
+      "fluid mechanics marine cavitation online"
+    ]
+  },
+  {
+    "name": "Ship Hull Block Coefficient (C_b = ∇ / (L·B·T)) & Displacement Calculator",
+    "description": "Calculate naval architecture ship hull Block Coefficient (C_b = ∇ / (L · B · T)), volumetric displacement ∇ in m³, seawater displacement tonnage Δ in metric tons, and hull form fullness classification.",
+    "path": "/tools/ship-hull-block-coefficient-displacement-admiralty-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ship block coefficient calculator",
+      "hull displacement volume formula cb equals nabla over l b t online",
+      "naval architecture ship tonnage displacement calculator",
+      "prismatic waterline block coefficient ship design calculator",
+      "marine engineering naval architecture online"
+    ]
+  }
+]

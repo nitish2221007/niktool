@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate spacecraft hypersonic atmospheric re-entry nose cone stagnation point convective heat flux q_dot in W/cm² and MW/m² (Detra-Kemp-Riddell / Fay-Riddell Correlation: q_dot = C / √R_nose · √(ρ / ρ₀) · (v / v₀)^3) and total heat load.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hypersonic-reentry-aerodynamic-heat-flux-fay-riddell-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator | NikTool">
+  <meta property="og:description" content="Calculate spacecraft hypersonic atmospheric re-entry nose cone stagnation point convective heat flux q_dot in W/cm² and MW/m² (Detra-Kemp-Riddell / Fay-Riddell Correlation: q_dot = C / √R_nose · √(ρ / ρ₀) · (v / v₀)^3) and total heat load.">
+  <meta property="og:url" content="https://niktool.in/tools/hypersonic-reentry-aerodynamic-heat-flux-fay-riddell-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hypersonic-reentry-aerodynamic-heat-flux-fay-riddell-calculator/",
+        "description": "Calculate spacecraft hypersonic atmospheric re-entry nose cone stagnation point convective heat flux q_dot in W/cm² and MW/m² (Detra-Kemp-Riddell / Fay-Riddell Correlation: q_dot = C / √R_nose · √(ρ / ρ₀) · (v / v₀)^3) and total heat load.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why did early engineers incorrectly assume needle-sharp nose cones were best?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Needle points minimize aerodynamic drag, but direct shock attachment transfers almost all frictional heat directly into the metal skin, causing instant melting."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator</h1>
+      <p>Calculate spacecraft hypersonic atmospheric re-entry nose cone stagnation point convective heat flux q_dot in W/cm² and MW/m² (Detra-Kemp-Riddell / Fay-Riddell Correlation: q_dot = C / √R_nose · √(ρ / ρ₀) · (v / v₀)^3) and total heat load.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Re-Entry Velocity v (km/s, e.g. 7.8 km/s LEO, 11.0 km/s Lunar), Altitude z (km) & Nose Radius R_n (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hr-v">Velocity v (km/s)</label>
+          <input class="tool-textarea" id="hr-v" type="number" step="0.5" value="7.80" placeholder="7.80 km/s (LEO Reentry)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hr-z">Altitude z (km)</label>
+          <input class="tool-textarea" id="hr-z" type="number" step="5" value="65.0" placeholder="65.0 km (Peak Heating)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hr-rn">Nose Radius R_n (m)</label>
+          <input class="tool-textarea" id="hr-rn" type="number" step="0.5" value="1.50" placeholder="1.50 m (Blunt Capsule)" />
+        </div>
+      </div>
+      <div id="hr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hr-res-qdot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Heat Flux q̇ = 145.2 W / cm² (1.45 MW/m²)</span>
+            <span class="stat-label">Stagnation Point Convective Heat Flux (q̇ ∝ 1/√R_n · √ρ · v³)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hr-res-eval" style="color:var(--green-dark); font-weight:700;">ABLATIVE HEAT SHIELD REQUIRED (PICA-X / Carbon-Phenolic TPS Capable ✓)</span>
+            <span class="stat-label">H. Julian Allen Blunt Body Aerodynamic Shock Stand-Off Benefit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator</h2>
+      <ol>
+        <li>Enter atmospheric re-entry entry speed v in km/s (7.8 km/s LEO, 11.0 km/s Apollo Lunar, 12.5 km/s Mars return).</li>
+        <li>Enter peak heating trajectory altitude z in km (typically 55–70 km).</li>
+        <li>Enter spacecraft heatshield nose sphere radius $R_n$ in meters (e.g. 1.0–2.0 m for blunt Apollo/Dragon capsules).</li>
+        <li>Inspect convective stagnation point aerodynamic heat flux in $	ext{W/cm}^2$ and $	ext{MW/m}^2$.</li>
+      </ol>
+
+      <h2>H. Julian Allen & A. J. Eggers 1953 Blunt Body Concept</h2>
+      <p>Proves that a blunt nose cone creates a detached shock wave that deflects over $90%$ of kinetic friction heat into the surrounding air flow ($dot{q} propto 1/sqrt{R_n}$), protecting human space capsules.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why did early engineers incorrectly assume needle-sharp nose cones were best?</summary>
+        <p>Needle points minimize aerodynamic drag, but direct shock attachment transfers almost all frictional heat directly into the metal skin, causing instant melting.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hypersonic-reentry-aerodynamic-heat-flux-fay-riddell-calculator/tool.js"></script>
+</body>
+</html>

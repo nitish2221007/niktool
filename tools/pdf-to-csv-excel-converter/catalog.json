@@ -1,0 +1,15 @@
+{
+  "name": "Convert PDF to CSV / Excel Online",
+  "description": "Extract tabular text data from PDF documents into CSV spreadsheet format.",
+  "path": "/tools/pdf-to-csv-excel-converter/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "pdf to csv excel converter",
+    "Convert PDF to CSV / Excel Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

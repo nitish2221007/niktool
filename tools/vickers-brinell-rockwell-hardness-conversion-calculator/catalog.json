@@ -1,0 +1,15 @@
+{
+  "name": "Hardness Conversion (Vickers HV, Brinell HBW, Rockwell HRC & Tensile Strength) Calculator",
+  "description": "Calculate and convert metallurgical hardness test scales (ASTM E140): Vickers Diamond Pyramid Hardness (HV), Brinell (HBW 10/3000), Rockwell C (HRC), Rockwell B (HRB), and estimated Ultimate Tensile Strength (UTS in MPa).",
+  "path": "/tools/vickers-brinell-rockwell-hardness-conversion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hardness conversion calculator",
+    "vickers to rockwell hrc brinell hbw formula online",
+    "astm e140 hardness conversion tensile strength calculator",
+    "metallurgical hardness testing scales calculator",
+    "metallurgy mechanical engineering materials testing online"
+  ],
+  "order": 1271
+}

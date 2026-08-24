@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EPA Chlorine Disinfection Concentration-Time (CT Table & Log Inactivation) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate drinking water disinfection Contact Time Product CT in mg·min/L (CT = C · T₁₀), log-inactivation reduction of Giardia lamblia cysts and viruses, and compliance with the EPA Surface Water Treatment Rule.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/chlorine-disinfection-ct-disinfection-log-inactivation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EPA Chlorine Disinfection Concentration-Time (CT Table & Log Inactivation) Calculator | NikTool">
+  <meta property="og:description" content="Calculate drinking water disinfection Contact Time Product CT in mg·min/L (CT = C · T₁₀), log-inactivation reduction of Giardia lamblia cysts and viruses, and compliance with the EPA Surface Water Treatment Rule.">
+  <meta property="og:url" content="https://niktool.in/tools/chlorine-disinfection-ct-disinfection-log-inactivation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "EPA Chlorine Disinfection Concentration-Time (CT Table & Log Inactivation) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/chlorine-disinfection-ct-disinfection-log-inactivation-calculator/",
+        "description": "Calculate drinking water disinfection Contact Time Product CT in mg·min/L (CT = C · T₁₀), log-inactivation reduction of Giardia lamblia cysts and viruses, and compliance with the EPA Surface Water Treatment Rule.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the baffling factor in contact time calculations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Unbaffled tanks experience short-circuiting ($T_{10}/T approx 0.1$); adding serpentine baffles increases effective contact time ($T_{10}/T approx 0.7$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>EPA Chlorine Disinfection Concentration-Time (CT Table & Log Inactivation) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>EPA Chlorine Disinfection Concentration-Time (CT Table & Log Inactivation) Calculator</h1>
+      <p>Calculate drinking water disinfection Contact Time Product CT in mg·min/L (CT = C · T₁₀), log-inactivation reduction of Giardia lamblia cysts and viruses, and compliance with the EPA Surface Water Treatment Rule.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Free Chlorine Residual C (mg/L), Effective Contact Time T₁₀ (Minutes) & Water Temp T (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ct-c">Free Chlorine C (mg/L)</label>
+          <input class="tool-textarea" id="ct-c" type="number" step="0.2" value="1.20" placeholder="1.20 mg/L" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ct-t10">Contact T₁₀ (min)</label>
+          <input class="tool-textarea" id="ct-t10" type="number" step="5" value="45.0" placeholder="45.0 Minutes (Baffled)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ct-temp">Water Temp (°C)</label>
+          <input class="tool-textarea" id="ct-temp" type="number" step="2" value="15" placeholder="15 °C" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ct-ph">Water pH</label>
+          <input class="tool-textarea" id="ct-ph" type="number" step="0.2" value="7.5" placeholder="7.5" />
+        </div>
+      </div>
+      <div id="ct-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ct-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Achieved CT = 54.0 mg · min / L</span>
+            <span class="stat-label">Disinfection Concentration × Time Product (CT = C · T₁₀)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ct-res-eval" style="color:var(--green-dark); font-weight:700;">FULL COMPLIANCE (> 3-Log Giardia Inactivation: 99.9% Kill & > 4-Log Virus Kill ✓)</span>
+            <span class="stat-label">EPA SWTR Giardia Lamblia Inactivation (Required CT ≈ 49 mg·min/L)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use EPA Chlorine Disinfection Concentration-Time (CT Table & Log Inactivation) Calculator</h2>
+      <ol>
+        <li>Enter measured free chlorine residual concentration C in mg/L at clearwell exit.</li>
+        <li>Enter hydraulic contact time $T_{10}$ in minutes ($10%$ of water passes faster, accounting for tank baffling factor).</li>
+        <li>Enter water temperature in $^circ	ext{C}$ and water pH.</li>
+        <li>Inspect achieved CT value in $	ext{mg}cdot	ext{min/L}$ and EPA 3-log Giardia ($99.9%$) inactivation compliance.</li>
+      </ol>
+
+      <h2>EPA Surface Water Treatment Rule (SWTR) Disinfection Standard</h2>
+      <p>Ensures municipal water supplies achieve mandated 3-log ($99.9%$) Giardia cyst inactivation and 4-log ($99.99%$) virus reduction to prevent waterborne pathogen outbreaks.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the baffling factor in contact time calculations?</summary>
+        <p>Unbaffled tanks experience short-circuiting ($T_{10}/T approx 0.1$); adding serpentine baffles increases effective contact time ($T_{10}/T approx 0.7$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/chlorine-disinfection-ct-disinfection-log-inactivation-calculator/tool.js"></script>
+</body>
+</html>

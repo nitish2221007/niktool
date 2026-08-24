@@ -1,0 +1,15 @@
+{
+  "name": "Thick-Walled Cylinder Lamé Equations (Radial σ_r & Hoop σ_θ Stress Distribution) Calculator",
+  "description": "Calculate thick-walled hydraulic cylinder and gun barrel radial stress σ_r and tangential hoop stress σ_θ across cylinder wall thickness using Gabriel Lamé's exact elasticity equations.",
+  "path": "/tools/thick-walled-cylinder-lame-equation-radial-hoop-stress-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lame equations calculator",
+    "thick walled cylinder stress distribution formula online",
+    "radial hoop stress hydraulic cylinder lame calculator",
+    "internal external pressure thick cylinder calculator",
+    "mechanical engineering solid mechanics pressure vessels online"
+  ],
+  "order": 1278
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Extract Middle Pages From PDF",
+  "description": "Extract middle body pages from any PDF file while stripping covers.",
+  "path": "/tools/extract-middle-pages-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "extract middle pages from pdf",
+    "Extract Middle Pages From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

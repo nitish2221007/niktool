@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (50 km Distance, 17 km/l Mileage)",
+  "description": "Calculate fuel needed (2.9 L) and cost (₹280) for 50 km trip at 17 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-50km-mileage-17kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 50km mileage 17kmpl",
+    "Fuel Cost Trip Calculator (50 km Distance, 17 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

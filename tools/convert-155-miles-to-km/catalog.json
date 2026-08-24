@@ -1,0 +1,15 @@
+{
+  "name": "Convert 155 Miles to KM",
+  "description": "Convert 155 miles to kilometers (249.45 km). 100% free and local.",
+  "path": "/tools/convert-155-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 155 miles to km",
+    "Convert 155 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

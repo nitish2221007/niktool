@@ -1,0 +1,15 @@
+{
+  "name": "Activated Carbon Adsorption Isotherms (Freundlich q_e = K_F·C_e^(1/n) & Langmuir) Calculator",
+  "description": "Calculate granular activated carbon (GAC) contaminant adsorption capacity q_e in mg/g using the Freundlich empirical isotherm (q_e = K_F · C_e^(1/n)) and Langmuir monolayer isotherm (q_e = q_max · K_L · C_e / (1 + K_L · C_e)).",
+  "path": "/tools/carbon-adsorption-freundlich-langmuir-isotherm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "carbon adsorption calculator",
+    "freundlich isotherm formula qe equals kf ce one over n online",
+    "langmuir adsorption isotherm activated carbon calculator",
+    "gac carbon usage rate pac water treatment calculator",
+    "environmental chemical engineering water purification online"
+  ],
+  "order": 1356
+}

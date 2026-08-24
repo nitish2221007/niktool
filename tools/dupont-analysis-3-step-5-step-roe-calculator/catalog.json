@@ -1,0 +1,15 @@
+{
+  "name": "DuPont Analysis 3-Step & 5-Step Return on Equity (ROE) Calculator",
+  "description": "Decompose corporate financial profitability Return on Equity (ROE = Net Profit Margin · Asset Turnover · Equity Multiplier) using the classic DuPont 3-step formula and 5-step extended tax/interest burden model for MBA and finance students.",
+  "path": "/tools/dupont-analysis-3-step-5-step-roe-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "dupont analysis calculator",
+    "return on equity formula roe equals net margin times asset turnover times equity multiplier",
+    "dupont 3 step 5 step roe calculator online",
+    "mba corporate finance roe decomposition calculator",
+    "financial leverage asset turnover dupont model online"
+  ],
+  "order": 918
+}

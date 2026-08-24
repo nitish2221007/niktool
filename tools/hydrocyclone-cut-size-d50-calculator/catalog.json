@@ -1,0 +1,15 @@
+{
+  "name": "Hydrocyclone Classification Cut Size (d₅₀) Calculator",
+  "description": "Estimate hydrocyclone separation cut size (d₅₀) in micrometers from cyclone body diameter (D_c in cm), operating pressure drop (P in kPa), and feed percent solids.",
+  "path": "/tools/hydrocyclone-cut-size-d50-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hydrocyclone cut size calculator",
+    "d50 cyclone formula online",
+    "plitt hydrocyclone model calculator",
+    "cyclone classification separation size",
+    "mineral processing hydrocyclone sizing online"
+  ],
+  "order": 450
+}

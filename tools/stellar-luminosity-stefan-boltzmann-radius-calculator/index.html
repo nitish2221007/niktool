@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate stellar radiant power luminosity (L/L_☉ = (R/R_☉)² · (T/T_☉)⁴) in Solar Luminosities and absolute bolometric magnitude from star radius and effective temperature.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/stellar-luminosity-stefan-boltzmann-radius-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator | NikTool">
+  <meta property="og:description" content="Calculate stellar radiant power luminosity (L/L_☉ = (R/R_☉)² · (T/T_☉)⁴) in Solar Luminosities and absolute bolometric magnitude from star radius and effective temperature.">
+  <meta property="og:url" content="https://niktool.in/tools/stellar-luminosity-stefan-boltzmann-radius-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/stellar-luminosity-stefan-boltzmann-radius-calculator/",
+        "description": "Calculate stellar radiant power luminosity (L/L_☉ = (R/R_☉)² · (T/T_☉)⁴) in Solar Luminosities and absolute bolometric magnitude from star radius and effective temperature.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is Betelgeuse over 100,000× more luminous than the Sun despite being cooler?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Betelgeuse has a lower surface temperature (~3,500K), but its colossal supergiant radius provides an enormous surface area that overwhelms the T⁴ temperature difference."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator</h1>
+      <p>Calculate stellar radiant power luminosity (L/L_☉ = (R/R_☉)² · (T/T_☉)⁴) in Solar Luminosities and absolute bolometric magnitude from star radius and effective temperature.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Stellar Radius R (Solar Radii R_☉) & Effective Surface Temp T_eff (Kelvin)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="st-r">Radius R (R_☉)</label>
+          <input class="tool-textarea" id="st-r" type="number" step="any" value="1.0" placeholder="1.0 R_☉ (Solar Radius)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="st-t">Surface Temp T_eff (K)</label>
+          <input class="tool-textarea" id="st-t" type="number" step="any" value="5778" placeholder="5778 K (Sun G2V Type)" />
+        </div>
+      </div>
+      <div id="st-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="st-res-lum" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">L = 1.00 L_☉ (3.828 × 10²⁶ W)</span>
+            <span class="stat-label">Total Radiant Bolometric Luminosity (L)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="st-res-mag" style="font-weight:700;">Absolute Magnitude M_bol = +4.74 | Spectral Class: G-Type Yellow Star</span>
+            <span class="stat-label">Absolute Bolometric Magnitude & Spectral Classification</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Stellar Luminosity & Stefan-Boltzmann Radius (L = 4π·R²·σ·T⁴) Calculator</h2>
+      <ol>
+        <li>Enter stellar radius R normalized to Solar Radii (R/R_☉).</li>
+        <li>Enter stellar effective photosphere surface temperature T_eff in Kelvin.</li>
+        <li>Inspect total emitted electromagnetic radiation luminosity in Solar Luminosities, Watts, absolute bolometric magnitude M_bol, and Morgan-Keenan spectral classification.</li>
+      </ol>
+
+      <h2>The Stefan-Boltzmann T⁴ Law on the HR Diagram</h2>
+      <p>Because thermal radiant flux scales with the fourth power of temperature, hot O-type and B-type stars radiate hundreds of thousands of times more energy than cooler red dwarf stars.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is Betelgeuse over 100,000× more luminous than the Sun despite being cooler?</summary>
+        <p>Betelgeuse has a lower surface temperature (~3,500K), but its colossal supergiant radius provides an enormous surface area that overwhelms the T⁴ temperature difference.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/stellar-luminosity-stefan-boltzmann-radius-calculator/tool.js"></script>
+</body>
+</html>

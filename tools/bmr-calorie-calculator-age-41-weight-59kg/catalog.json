@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 41, Weight 59kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1453 kcal/day) for 41-year-old weighing 59 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-41-weight-59kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 41 weight 59kg",
+    "BMR Calorie Calculator (Age 41, Weight 59kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 25 x Height 30)",
+  "description": "Calculate volume of a cylinder with radius 25 and height 30 (V = πr²h = 58904.86).",
+  "path": "/tools/volume-of-cylinder-radius-25-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 25 height 30 units",
+    "Volume of Cylinder (Radius 25 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

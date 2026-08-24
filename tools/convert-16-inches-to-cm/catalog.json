@@ -1,0 +1,15 @@
+{
+  "name": "Convert 16 Inches to CM",
+  "description": "Convert 16 inches (in) to centimeters (40.64 cm). 100% free and local.",
+  "path": "/tools/convert-16-inches-to-cm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 16 inches to cm",
+    "Convert 16 Inches to CM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

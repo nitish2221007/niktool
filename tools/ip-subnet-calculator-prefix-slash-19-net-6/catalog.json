@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 19 CIDR Prefix, Net #6)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (8,190 usable IPs) for /19 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-19-net-6/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 19 net 6",
+    "IP Subnet Mask & Host Calculator (/ 19 CIDR Prefix, Net #6)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

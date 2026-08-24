@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate resonant Rabi frequency Ω_R in MHz (Ω_R = μ · E₀ / ℏ), generalized off-resonance Rabi frequency Ω = √(Ω_R² + Δ²), and quantum bit inversion π-pulse transition time t_π = π / Ω_R.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/rabi-oscillation-frequency-two-level-quantum-system-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator | NikTool">
+  <meta property="og:description" content="Calculate resonant Rabi frequency Ω_R in MHz (Ω_R = μ · E₀ / ℏ), generalized off-resonance Rabi frequency Ω = √(Ω_R² + Δ²), and quantum bit inversion π-pulse transition time t_π = π / Ω_R.">
+  <meta property="og:url" content="https://niktool.in/tools/rabi-oscillation-frequency-two-level-quantum-system-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/rabi-oscillation-frequency-two-level-quantum-system-calculator/",
+        "description": "Calculate resonant Rabi frequency Ω_R in MHz (Ω_R = μ · E₀ / ℏ), generalized off-resonance Rabi frequency Ω = √(Ω_R² + Δ²), and quantum bit inversion π-pulse transition time t_π = π / Ω_R.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a pi-pulse in quantum computing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A $pi$-pulse ($t = pi / Omega_R$) drives the qubit exactly half a full oscillation, flipping the state from $|0\rangle$ to $|1\rangle$ (equivalent to a quantum NOT / Pauli-X gate)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator</h1>
+      <p>Calculate resonant Rabi frequency Ω_R in MHz (Ω_R = μ · E₀ / ℏ), generalized off-resonance Rabi frequency Ω = √(Ω_R² + Δ²), and quantum bit inversion π-pulse transition time t_π = π / Ω_R.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Resonant Rabi Frequency Ω_R / 2π (MHz), Laser Detuning Δ / 2π (MHz) & Pulse Duration t (ns)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rb-omr">Rabi Ω_R / 2π (MHz)</label>
+          <input class="tool-textarea" id="rb-omr" type="number" step="5" value="20.0" placeholder="20.0 MHz" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rb-det">Detuning Δ / 2π (MHz)</label>
+          <input class="tool-textarea" id="rb-det" type="number" step="5" value="0.0" placeholder="0.0 MHz (On Resonance)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rb-time">Pulse Time t (ns)</label>
+          <input class="tool-textarea" id="rb-time" type="number" step="5" value="25.0" placeholder="25.0 ns (π-Pulse)" />
+        </div>
+      </div>
+      <div id="rb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rb-res-pexc" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Excited State P_e(t) = 100.0% (FULL INVERSION)</span>
+            <span class="stat-label">Transition Probability (P_e(t) = (Ω_R / Ω)² · sin²(Ω · t / 2))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rb-res-pi" style="color:var(--green-dark); font-weight:700;">π-Pulse Duration t_π = 25.00 ns | π/2-Pulse = 12.50 ns (50/50 Superposition)</span>
+            <span class="stat-label">Quantum Logic Gate Control Pulse Durations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator</h2>
+      <ol>
+        <li>Enter resonant Rabi frequency $Omega_R / 2pi$ in MHz proportional to microwave/laser drive amplitude.</li>
+        <li>Enter laser-atom detuning frequency offset $Delta / 2pi$ in MHz (0 for perfect resonance).</li>
+        <li>Enter control pulse execution duration in nanoseconds (ns).</li>
+        <li>Inspect excited state population probability $P_e(t)$ and calibrated $pi$-pulse / $pi/2$-pulse durations.</li>
+      </ol>
+
+      <h2>Isidor Isaac Rabi 1937 Quantum Resonance Discovery</h2>
+      <p>The physical mechanism behind all coherent quantum qubit manipulation in superconducting transmon qubits, trapped ions, and nitrogen-vacancy (NV) diamond centers.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a pi-pulse in quantum computing?</summary>
+        <p>A $pi$-pulse ($t = pi / Omega_R$) drives the qubit exactly half a full oscillation, flipping the state from $|0angle$ to $|1angle$ (equivalent to a quantum NOT / Pauli-X gate).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/rabi-oscillation-frequency-two-level-quantum-system-calculator/tool.js"></script>
+</body>
+</html>

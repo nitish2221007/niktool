@@ -1,0 +1,15 @@
+{
+  "name": "PET Scan Standardized Uptake Value (SUV_bw) Tumor Metabolic Activity Calculator",
+  "description": "Calculate Positron Emission Tomography (PET) diagnostic tumor metabolic FDG radiotracer avidity Standardized Uptake Value SUV_bw (SUV = Tissue Activity Concentration (kBq/mL) / (Decayed Injected Dose (MBq) / Patient Body Weight (kg))).",
+  "path": "/tools/pet-scan-standardized-uptake-value-suv-tumor-metabolism-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pet scan suv calculator",
+    "standardized uptake value formula suv bw online",
+    "pet ct 18f fdg tumor metabolism calculator",
+    "radiotracer tissue activity concentration calculator",
+    "nuclear medicine oncology radiology medical physics online"
+  ],
+  "order": 1454
+}

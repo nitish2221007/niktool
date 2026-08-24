@@ -1,0 +1,15 @@
+{
+  "name": "Convert 2 Nautical Miles to KM",
+  "description": "Convert 2 nautical miles (NM) to kilometers (3.70 km). 100% free and local.",
+  "path": "/tools/convert-2-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 2 nautical miles to km",
+    "Convert 2 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

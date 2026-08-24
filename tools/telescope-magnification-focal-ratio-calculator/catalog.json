@@ -1,0 +1,15 @@
+{
+  "name": "Telescope Magnification & Focal Ratio Calculator",
+  "description": "Calculate telescope optical magnification (M = F_objective / f_eyepiece), focal ratio (f-number), and exit pupil diameter for astronomy observing.",
+  "path": "/tools/telescope-magnification-focal-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "telescope magnification calculator",
+    "telescope focal ratio calculator",
+    "exit pupil calculator astronomy",
+    "eyepiece magnification formula",
+    "astronomy telescope optics online"
+  ],
+  "order": 194
+}

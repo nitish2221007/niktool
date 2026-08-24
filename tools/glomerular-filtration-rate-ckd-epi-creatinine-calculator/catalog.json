@@ -1,0 +1,15 @@
+{
+  "name": "eGFR Kidney Function (CKD-EPI 2021 Race-Free Refit Equation) Calculator",
+  "description": "Calculate estimated Glomerular Filtration Rate (eGFR in mL/min/1.73m²) using the official 2021 race-free CKD-EPI creatinine equation, and classify Chronic Kidney Disease staging (CKD Stages G1 to G5).",
+  "path": "/tools/glomerular-filtration-rate-ckd-epi-creatinine-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "egfr calculator",
+    "ckd epi 2021 race free creatinine egfr formula online",
+    "kidney function filtration rate stage g1 to g5 calculator",
+    "serum creatinine egfr ckd staging calculator",
+    "clinical nephrology kidney function online"
+  ],
+  "order": 1135
+}

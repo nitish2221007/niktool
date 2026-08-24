@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Projectile Motion Calculator",
+    "description": "Calculate maximum height, total flight time, horizontal range, and trajectory parameters for 2D projectile motion under gravity.",
+    "path": "/tools/projectile-motion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "projectile motion calculator",
+      "physics trajectory calculator",
+      "max height of projectile",
+      "horizontal range calculator",
+      "time of flight projectile"
+    ]
+  },
+  {
+    "name": "Formal Letter Format Checker",
+    "description": "Check your formal letter format for essential elements like subject, salutation, and closing. Free, fast, and fully private.",
+    "path": "/tools/formal-letter-format-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "formal letter format checker",
+      "letter writing checker",
+      "CBSE formal letter format",
+      "letter format class 10",
+      "formal letter checker",
+      "check letter format",
+      "letter structure checker",
+      "school letter checker"
+    ]
+  },
+  {
+    "name": "Remove Last Two PDF Pages",
+    "description": "Delete the trailing 2 pages from any PDF document locally in your browser.",
+    "path": "/tools/remove-last-two-pdf-pages/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "remove pages",
+      "delete pdf pages",
+      "trim pdf",
+      "last two pages"
+    ]
+  },
+  {
+    "name": "Solution Dilution Calculator",
+    "description": "Calculate initial concentration (C1), stock volume (V1), final concentration (C2), or target volume (V2) using C1V1 = C2V2.",
+    "path": "/tools/solution-dilution-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solution dilution calculator",
+      "c1v1 c2v2 calculator",
+      "chemistry dilution formula",
+      "molarity dilution calculator",
+      "stock solution dilution"
+    ]
+  },
+  {
+    "name": "BMR and TDEE Calculator",
+    "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using the clinically validated Mifflin-St Jeor equation.",
+    "path": "/tools/bmr-tdee-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "bmr calculator",
+      "tdee calculator",
+      "basal metabolic rate",
+      "total daily energy expenditure",
+      "mifflin st jeor calculator",
+      "daily calorie burn calculator"
+    ]
+  },
+  {
+    "name": "Text Cleaner",
+    "description": "Remove extra spaces, blank lines, and weird formatting from pasted text. Free, fast, and fully private browser tool.",
+    "path": "/tools/text-cleaner/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "text cleaner",
+      "clean text online",
+      "remove extra spaces",
+      "remove blank lines",
+      "whitespace remover",
+      "text formatter",
+      "clean up text",
+      "duplicate spaces remover"
+    ]
+  },
+  {
+    "name": "Case Converter",
+    "description": "Convert text to uppercase, lowercase, sentence case, or title case instantly. Free, fast, and fully private browser tool.",
+    "path": "/tools/case-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "case converter",
+      "uppercase lowercase converter",
+      "text case converter",
+      "sentence case converter",
+      "title case converter",
+      "capitalization tool",
+      "change case online",
+      "text capitalization"
+    ]
+  },
+  {
+    "name": "Title Case Converter",
+    "description": "Format headings and article titles into proper Title Case according to APA, Chicago, MLA, or AP capitalization styles.",
+    "path": "/tools/title-case-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "title case converter",
+      "headline capitalization",
+      "apa title case",
+      "chicago title case",
+      "capitalise title online",
+      "sentence to title case"
+    ]
+  },
+  {
+    "name": "Duplicate Word Finder",
+    "description": "Find repeated words in your text to improve writing variety and reduce repetition. Free, fast, and fully private.",
+    "path": "/tools/duplicate-word-finder/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "duplicate word finder",
+      "repeated words checker",
+      "find repeated words",
+      "word repetition checker",
+      "essay duplicate words",
+      "writing cleanup tool",
+      "repeated word detector",
+      "text duplicate finder"
+    ]
+  },
+  {
+    "name": "Text Duplicate Line Remover",
+    "description": "Remove duplicate lines from text lists, trim whitespace, sort alphabetically (A-Z or Z-A), and count unique entries instantly.",
+    "path": "/tools/text-duplicate-remover/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "text duplicate remover",
+      "remove duplicate lines online",
+      "unique line extractor",
+      "deduplicate list",
+      "sort unique lines",
+      "clean text list"
+    ]
+  },
+  {
+    "name": "Morse Code Audio Translator",
+    "description": "Convert plain text to International Morse Code and listen to realistic audio beeps generated in real time using the Web Audio API.",
+    "path": "/tools/morse-code-audio-translator/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "morse code translator",
+      "morse code audio",
+      "text to morse code",
+      "morse code beeper",
+      "morse code decoder",
+      "morse code generator audio"
+    ]
+  },
+  {
+    "name": "Word Frequency Counter",
+    "description": "Analyze text to see how many times each word appears with a sorted frequency table. Free, fast, and fully private.",
+    "path": "/tools/word-frequency-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "word frequency counter",
+      "word frequency calculator",
+      "word count frequency",
+      "most common words checker",
+      "text word frequency",
+      "keyword density checker",
+      "word occurrence counter",
+      "frequency of words"
+    ]
+  },
+  {
+    "name": "Alphabetical Text Sorter",
+    "description": "Sort any list of words or names alphabetically in ascending or descending order. Free, fast, and fully private.",
+    "path": "/tools/alphabetical-text-sorter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "alphabetical order words",
+      "alphabetical text sorter",
+      "sort words alphabetically",
+      "alphabetizer",
+      "sort list alphabetically",
+      "alphabetical order calculator",
+      "dictionary order calculator",
+      "sort names alphabetically"
+    ]
+  },
+  {
+    "name": "NATO Phonetic Alphabet Translator",
+    "description": "Spell out names, passwords, serial numbers, and flight codes into the standard ICAO / NATO phonetic alphabet (Alfa, Bravo, Charlie).",
+    "path": "/tools/nato-phonetic-alphabet-translator/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "nato phonetic alphabet translator",
+      "spelling alphabet generator",
+      "aviation phonetic alphabet",
+      "alfa bravo charlie translator",
+      "phonetic spelling online"
+    ]
+  },
+  {
+    "name": "Daily Water Intake Calculator",
+    "description": "Calculate your optimal daily water hydration goal in Liters and fluid ounces based on body weight, daily workout intensity, and climate.",
+    "path": "/tools/water-intake-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "water intake calculator",
+      "daily hydration calculator",
+      "how much water should i drink",
+      "hydration goal calculator",
+      "water requirements by weight"
+    ]
+  },
+  {
+    "name": "Study Time Calculator",
+    "description": "Calculate your realistic daily self-study hours by subtracting school, coaching, and breaks from your awake time. Free and private.",
+    "path": "/tools/study-time-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "study time calculator",
+      "study hours calculator",
+      "daily study planner",
+      "how many hours should I study",
+      "student study time calculator",
+      "class 10 study time",
+      "exam study hours",
+      "study schedule calculator"
+    ]
+  },
+  {
+    "name": "Download Time Calculator",
+    "description": "Calculate exact file download and upload times across internet speeds (Mbps, Gbps, 4G, 5G, Fiber) for any file size.",
+    "path": "/tools/download-time-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "download time calculator",
+      "bandwidth time calculator",
+      "file transfer speed calculator",
+      "upload speed time",
+      "how long to download file"
+    ]
+  },
+  {
+    "name": "Exam Countdown",
+    "description": "Track the exact days, hours, and minutes left until your next board or school exam. Free, fast, and fully private.",
+    "path": "/tools/exam-countdown/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "exam countdown",
+      "exam countdown timer",
+      "board exam countdown",
+      "class 10 exam countdown",
+      "days left for exam",
+      "exam days calculator",
+      "study countdown",
+      "CBSE exam countdown"
+    ]
+  },
+  {
+    "name": "Days Between Dates",
+    "description": "Calculate the exact number of days, weeks, and hours between any two dates. Free, fast, and fully private browser tool.",
+    "path": "/tools/days-between-dates/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "days between dates calculator",
+      "date difference calculator",
+      "number of days between dates",
+      "days calculator",
+      "date duration calculator",
+      "exam days calculator",
+      "study days calculator",
+      "days left calculator"
+    ]
+  },
+  {
+    "name": "Hexagon Area & Geometry Calculator",
+    "description": "Calculate regular hexagon area, perimeter, inradius, circumradius, and short/long diagonals from side length.",
+    "path": "/tools/hexagon-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "hexagon calculator",
+      "hexagon area calculator",
+      "regular hexagon perimeter",
+      "hexagon diagonal calculator",
+      "hexagon geometry online"
+    ]
+  },
+  {
+    "name": "3D Vector Dot & Cross Product Calculator",
+    "description": "Calculate 3D vector dot product (A · B), cross product (A × B), vector magnitudes, and angle between vectors in degrees and radians.",
+    "path": "/tools/vector-cross-dot-product-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "vector cross product calculator",
+      "vector dot product calculator",
+      "3d vector calculator",
+      "angle between vectors",
+      "vector magnitude calculator"
+    ]
+  },
+  {
+    "name": "Syllabus Progress Calculator",
+    "description": "Track your board exam preparation by calculating the percentage of syllabus completed versus remaining. Free and private.",
+    "path": "/tools/syllabus-progress-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "syllabus progress calculator",
+      "syllabus completion calculator",
+      "study progress calculator",
+      "chapter completion calculator",
+      "class 10 syllabus tracker",
+      "board exam syllabus tracker",
+      "study progress percentage",
+      "exam preparation tracker"
+    ]
+  },
+  {
+    "name": "Matrix Determinant Calculator",
+    "description": "Calculate 2x2 and 3x3 matrix determinants with step-by-step cofactor expansion and matrix singularity checking.",
+    "path": "/tools/matrix-determinant-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "matrix determinant calculator",
+      "determinant of 3x3 matrix",
+      "2x2 determinant calculator",
+      "matrix invertibility calculator",
+      "linear algebra determinant"
+    ]
+  },
+  {
+    "name": "Remove First Page of PDF",
+    "description": "Delete the title or cover page from any PDF document locally in your browser.",
+    "path": "/tools/remove-first-page-of-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "remove first page",
+      "delete cover page",
+      "trim pdf",
+      "delete page 1"
+    ]
+  }
+]

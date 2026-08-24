@@ -1,0 +1,15 @@
+{
+  "name": "Convert 50 Hours to Seconds",
+  "description": "Convert 50 hours to minutes (3000 min) and seconds (1,80,000 sec).",
+  "path": "/tools/convert-50-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 50 hours to seconds time",
+    "Convert 50 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

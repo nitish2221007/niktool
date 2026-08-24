@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate gamma/X-ray photon radiation dose attenuation (I = I₀ · e^(-μ·x) = I₀ · (1/2)^(x / HVL)) and Tenth-Value Layer (TVL) thickness in Lead, Concrete, Steel, and Water.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/radiation-gamma-shielding-half-value-layer-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator | NikTool">
+  <meta property="og:description" content="Calculate gamma/X-ray photon radiation dose attenuation (I = I₀ · e^(-μ·x) = I₀ · (1/2)^(x / HVL)) and Tenth-Value Layer (TVL) thickness in Lead, Concrete, Steel, and Water.">
+  <meta property="og:url" content="https://niktool.in/tools/radiation-gamma-shielding-half-value-layer-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/radiation-gamma-shielding-half-value-layer-calculator/",
+        "description": "Calculate gamma/X-ray photon radiation dose attenuation (I = I₀ · e^(-μ·x) = I₀ · (1/2)^(x / HVL)) and Tenth-Value Layer (TVL) thickness in Lead, Concrete, Steel, and Water.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a Tenth-Value Layer (TVL)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A TVL is the shield thickness required to reduce radiation intensity by 90% (to $1/10\text{th}$ of original dose), equal to approximately $3.322 \times \text{HVL}$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator</h1>
+      <p>Calculate gamma/X-ray photon radiation dose attenuation (I = I₀ · e^(-μ·x) = I₀ · (1/2)^(x / HVL)) and Tenth-Value Layer (TVL) thickness in Lead, Concrete, Steel, and Water.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Shielding Material (Lead, Concrete, Steel, Water), Shield Thickness x (cm) & Initial Dose Rate (mSv/h)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="shld-mat">Material (Cs-137)</label>
+          <select class="tool-textarea" id="shld-mat">
+            <option value="lead" selected>Lead (Pb: HVL = 0.55 cm, TVL = 1.83 cm)</option>
+            <option value="steel">Steel / Iron (Fe: HVL = 1.60 cm, TVL = 5.32 cm)</option>
+            <option value="concrete">Concrete (HVL = 4.80 cm, TVL = 15.9 cm)</option>
+            <option value="water">Water (HVL = 10.5 cm, TVL = 34.9 cm)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="shld-thk">Thickness x (cm)</label>
+          <input class="tool-textarea" id="shld-thk" type="number" step="any" value="2.5" placeholder="2.5 cm Shield" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="shld-i0">Initial Rate (mSv/h)</label>
+          <input class="tool-textarea" id="shld-i0" type="number" step="any" value="50.0" placeholder="50.0 mSv/h Unshielded" />
+        </div>
+      </div>
+      <div id="shld-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="shld-res-i" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">2.15 mSv / h (95.7% Attenuation)</span>
+            <span class="stat-label">Transmitted Radiation Dose Rate (I)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="shld-res-hvl" style="font-weight:700;">4.55 Half-Value Layers (Dose Reduced by 23.3× Factor)</span>
+            <span class="stat-label">Equivalent Half-Value Layers (x / HVL)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator</h2>
+      <ol>
+        <li>Select protective radiation barrier shielding material (Lead, Steel, High-Density Concrete, Water).</li>
+        <li>Enter barrier shield thickness in centimeters.</li>
+        <li>Enter unshielded gamma/X-ray radiation source dose rate in mSv/h or mR/h.</li>
+        <li>Inspect transmitted attenuated dose rate, total percentage of radiation blocked, and number of Half-Value Layers (HVL).</li>
+      </ol>
+
+      <h2>Beer-Lambert Photon Attenuation Law</h2>
+      <p>High atomic number (Z) and high density materials like Lead ($Z=82, ho=11.3	ext{ g/cm}^3$) maximize photoelectric absorption and Compton scattering cross-sections, compressing required shield wall thickness by 10× compared to concrete.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a Tenth-Value Layer (TVL)?</summary>
+        <p>A TVL is the shield thickness required to reduce radiation intensity by 90% (to $1/10	ext{th}$ of original dose), equal to approximately $3.322 	imes 	ext{HVL}$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/radiation-gamma-shielding-half-value-layer-calculator/tool.js"></script>
+</body>
+</html>

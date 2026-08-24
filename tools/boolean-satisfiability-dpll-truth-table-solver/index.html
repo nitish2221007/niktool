@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Evaluate Boolean logic expressions (AND, OR, NOT, XOR, IMPLIES), generate complete 2^n truth tables, and determine formula Satisfiability (SAT vs UNSAT) and Tautology status for computer science.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/boolean-satisfiability-dpll-truth-table-solver/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator | NikTool">
+  <meta property="og:description" content="Evaluate Boolean logic expressions (AND, OR, NOT, XOR, IMPLIES), generate complete 2^n truth tables, and determine formula Satisfiability (SAT vs UNSAT) and Tautology status for computer science.">
+  <meta property="og:url" content="https://niktool.in/tools/boolean-satisfiability-dpll-truth-table-solver/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/boolean-satisfiability-dpll-truth-table-solver/",
+        "description": "Evaluate Boolean logic expressions (AND, OR, NOT, XOR, IMPLIES), generate complete 2^n truth tables, and determine formula Satisfiability (SAT vs UNSAT) and Tautology status for computer science.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the difference between Satisfiable and Tautology?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A formula is Satisfiable if at least ONE truth assignment makes it True; a formula is a Tautology if EVERY possible truth assignment makes it True."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator</h1>
+      <p>Evaluate Boolean logic expressions (AND, OR, NOT, XOR, IMPLIES), generate complete 2^n truth tables, and determine formula Satisfiability (SAT vs UNSAT) and Tautology status for computer science.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Propositional Boolean Logic Formula (Variables A, B, C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="sat-expr">Boolean Formula</label>
+        <select class="tool-textarea" id="sat-expr">
+          <option value="conj" selected>(A ∨ B) ∧ (¬A ∨ C) ∧ (¬B ∨ ¬C) (Satisfiable CNF)</option>
+          <option value="xor">(A ⊕ B) ∧ (B ⊕ C) ∧ (A ⊕ C) (UNSAT Triangle Paradox)</option>
+          <option value="taut">A ∨ ¬A (Tautology: Always True)</option>
+          <option value="impl">(A → B) ∧ (B → C) → (A → C) (Hypothetical Syllogism Tautology)</option>
+        </select>
+      </div>
+      <div id="sat-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sat-res-status" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">SATISFIABLE (4 Satisfying Models Found)</span>
+            <span class="stat-label">Boolean Satisfiability Classification</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sat-res-assign" style="color:var(--green-dark); font-weight:700;">Valid Assignment: A=True, B=False, C=True evaluates to True</span>
+            <span class="stat-label">Sample Satisfying Truth Assignment Model</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator</h2>
+      <ol>
+        <li>Select propositional Boolean logic formula.</li>
+        <li>Inspect complete 8-row truth table evaluation across binary states $(A, B, C)$.</li>
+        <li>Determine formula classification (Satisfiable SAT, Tautology, or Unsatisfiable UNSAT contradiction).</li>
+      </ol>
+
+      <h2>Stephen Cook 1971 Cook-Levin NP-Completeness Standard</h2>
+      <p>Boolean Satisfiability (SAT) was the first problem proven to be NP-complete; modern DPLL and CDCL SAT solvers efficiently solve millions of industrial variables in microprocessor hardware verification.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the difference between Satisfiable and Tautology?</summary>
+        <p>A formula is Satisfiable if at least ONE truth assignment makes it True; a formula is a Tautology if EVERY possible truth assignment makes it True.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/boolean-satisfiability-dpll-truth-table-solver/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Home Loan EMI Calculator",
+  "description": "Calculate monthly EMI, total interest, and loan repayment schedule for home loans.",
+  "path": "/tools/emi-calculator-home-loan/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "emi calculator home loan",
+    "Home Loan EMI Calculator",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

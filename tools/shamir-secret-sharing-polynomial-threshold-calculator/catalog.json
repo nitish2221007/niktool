@@ -1,0 +1,15 @@
+{
+  "name": "Shamir's Secret Sharing (k-of-n Threshold Polynomial) Calculator",
+  "description": "Calculate Shamir's secret sharing polynomial shares (f(x) = S + a₁·x + a₂·x² mod p) and reconstruct master secret S using Lagrange polynomial interpolation across any k shares.",
+  "path": "/tools/shamir-secret-sharing-polynomial-threshold-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "shamir secret sharing calculator",
+    "threshold cryptography formula k of n secret sharing online",
+    "lagrange interpolation secret reconstruction calculator",
+    "distributed key management shamir secret online",
+    "multi signature threshold secret recovery online"
+  ],
+  "order": 825
+}

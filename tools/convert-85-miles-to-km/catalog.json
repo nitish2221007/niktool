@@ -1,0 +1,15 @@
+{
+  "name": "Convert 85 Miles to KM",
+  "description": "Convert 85 miles to kilometers (136.79 km). 100% free and local.",
+  "path": "/tools/convert-85-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 85 miles to km",
+    "Convert 85 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

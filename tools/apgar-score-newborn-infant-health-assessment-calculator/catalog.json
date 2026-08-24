@@ -1,0 +1,15 @@
+{
+  "name": "APGAR Score Newborn Health Assessment (1-Minute & 5-Minute Evaluation 0 to 10) Calculator",
+  "description": "Calculate neonatal APGAR score (Appearance, Pulse, Grimace, Activity, Respiration from 0 to 10) at 1 and 5 minutes post-birth to evaluate newborn infant vitality and delivery room resuscitation need.",
+  "path": "/tools/apgar-score-newborn-infant-health-assessment-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "apgar score calculator",
+    "newborn apgar score formula 0 to 10 online",
+    "neonatal vitality 1 5 minute apgar score calculator",
+    "infant delivery room resuscitation apgar calculator",
+    "pediatrics neonatology obstetrics apgar score online"
+  ],
+  "order": 1155
+}

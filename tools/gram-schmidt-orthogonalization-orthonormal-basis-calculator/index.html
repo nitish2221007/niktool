@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate orthogonal and orthonormal basis vectors (u₁ = v₁, u₂ = v₂ - proj_{u₁}(v₂), e_i = u_i / ||u_i||) from linearly independent vectors in ℝ² and ℝ³ for linear algebra.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/gram-schmidt-orthogonalization-orthonormal-basis-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator | NikTool">
+  <meta property="og:description" content="Calculate orthogonal and orthonormal basis vectors (u₁ = v₁, u₂ = v₂ - proj_{u₁}(v₂), e_i = u_i / ||u_i||) from linearly independent vectors in ℝ² and ℝ³ for linear algebra.">
+  <meta property="og:url" content="https://niktool.in/tools/gram-schmidt-orthogonalization-orthonormal-basis-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/gram-schmidt-orthogonalization-orthonormal-basis-calculator/",
+        "description": "Calculate orthogonal and orthonormal basis vectors (u₁ = v₁, u₂ = v₂ - proj_{u₁}(v₂), e_i = u_i / ||u_i||) from linearly independent vectors in ℝ² and ℝ³ for linear algebra.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the difference between Orthogonal and Orthonormal?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Orthogonal vectors are mutually perpendicular ($\u000bec{u}_i cdot \u000bec{u}_j = 0$); orthonormal vectors are additionally normalized to unit length ($||\u000bec{e}_i|| = 1$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator</h1>
+      <p>Calculate orthogonal and orthonormal basis vectors (u₁ = v₁, u₂ = v₂ - proj_{u₁}(v₂), e_i = u_i / ||u_i||) from linearly independent vectors in ℝ² and ℝ³ for linear algebra.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Linearly Independent Vectors v₁ = [x₁, y₁] & v₂ = [x₂, y₂] in ℝ²</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(4, 1fr); gap:0.5rem;">
+        <div class="control-group">
+          <label class="control-label" for="gs-v1x">v₁ (x)</label>
+          <input class="tool-textarea" id="gs-v1x" type="number" step="1" value="3.0" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gs-v1y">v₁ (y)</label>
+          <input class="tool-textarea" id="gs-v1y" type="number" step="1" value="1.0" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gs-v2x">v₂ (x)</label>
+          <input class="tool-textarea" id="gs-v2x" type="number" step="1" value="2.0" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gs-v2y">v₂ (y)</label>
+          <input class="tool-textarea" id="gs-v2y" type="number" step="1" value="2.0" />
+        </div>
+      </div>
+      <div id="gs-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gs-res-ortho" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">u₁ = [3.0, 1.0] | u₂ = [-0.4, 1.2]</span>
+            <span class="stat-label">Orthogonal Basis (u₁ · u₂ = 0.00 ✓ Perpendicular)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gs-res-norm" style="color:var(--green-dark); font-weight:700;">Orthonormal e₁ = [0.949, 0.316] | e₂ = [-0.316, 0.949] (Unit Length = 1.00)</span>
+            <span class="stat-label">Normalized Orthonormal Basis Vectors (e_i = u_i / ||u_i||)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator</h2>
+      <ol>
+        <li>Enter Cartesian components for two linearly independent vectors $ec{v}_1$ and $ec{v}_2$.</li>
+        <li>Inspect orthogonal vectors $ec{u}_1$ and $ec{u}_2$ verifying $ec{u}_1 cdot ec{u}_2 = 0$.</li>
+        <li>Inspect normalized unit-length orthonormal basis vectors $ec{e}_1$ and $ec{e}_2$.</li>
+      </ol>
+
+      <h2>Jørgen Gram & Erhard Schmidt Vector Space Orthogonalization</h2>
+      <p>Gram-Schmidt subtracts vector projections to generate mutually perpendicular coordinates ($ec{u}_k = ec{v}_k - sum 	ext{proj}_{ec{u}_j}ec{v}_k$), providing the mathematical engine for QR matrix decomposition in computer graphics and 3D game engines.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the difference between Orthogonal and Orthonormal?</summary>
+        <p>Orthogonal vectors are mutually perpendicular ($ec{u}_i cdot ec{u}_j = 0$); orthonormal vectors are additionally normalized to unit length ($||ec{e}_i|| = 1$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/gram-schmidt-orthogonalization-orthonormal-basis-calculator/tool.js"></script>
+</body>
+</html>

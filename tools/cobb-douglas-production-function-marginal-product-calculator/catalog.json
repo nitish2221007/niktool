@@ -1,0 +1,15 @@
+{
+  "name": "Cobb-Douglas Production Function (Y = A·K^α·L^β) & Marginal Product Calculator",
+  "description": "Calculate macroeconomic economic output (Y = A · K^α · L^β), Marginal Product of Capital (MPK = α·Y/K), Marginal Product of Labor (MPL = β·Y/L), and Returns to Scale (α + β) for microeconomics and macroeconomics courses.",
+  "path": "/tools/cobb-douglas-production-function-marginal-product-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "cobb douglas calculator",
+    "production function formula y equals a k to alpha l to beta online",
+    "marginal product of capital labor calculator mpk mpl",
+    "returns to scale constant increasing decreasing cobb douglas calculator",
+    "economics cobb douglas production model online"
+  ],
+  "order": 982
+}

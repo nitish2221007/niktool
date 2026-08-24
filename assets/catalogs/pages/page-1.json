@@ -16,6 +16,22 @@
     ]
   },
   {
+    "name": "Remove First Two Pages From PDF",
+    "description": "Remove the first two pages of any PDF document instantly in your browser. 100% free, private, and secure with local browser processing.",
+    "path": "/tools/remove-first-two-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "remove first two pages from pdf",
+      "remove first 2 pages pdf",
+      "delete first two pages pdf",
+      "remove cover page pdf",
+      "pdf page remover",
+      "delete pdf pages online",
+      "remove title page pdf"
+    ]
+  },
+  {
     "name": "Suneung D-Day Counter",
     "description": "Calculate days remaining until your Suneung exam. Free Korean exam countdown tool.",
     "path": "/tools/suneung-dday-counter/",
@@ -25,6 +41,66 @@
       "suneung d-day counter",
       "suneung countdown",
       "exam calculator"
+    ]
+  },
+  {
+    "name": "Extract Even Pages From PDF",
+    "description": "Extract all even-numbered pages (2, 4, 6, 8...) from a PDF into a separate clean PDF document. 100% free and private.",
+    "path": "/tools/extract-even-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract even pages from pdf",
+      "Extract Even Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First Page From PDF",
+    "description": "Extract and save only the first page (cover page) of any PDF document as a new single-page PDF. 100% free and private.",
+    "path": "/tools/extract-first-page-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first page from pdf",
+      "Extract First Page From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First Two Pages From PDF",
+    "description": "Extract the first two pages of any PDF document into a new 2-page PDF file. Fast, free, and processed 100% in your browser.",
+    "path": "/tools/extract-first-two-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first two pages from pdf",
+      "Extract First Two Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract Odd Pages From PDF",
+    "description": "Extract all odd-numbered pages (1, 3, 5, 7...) from a PDF file into a new document. 100% free, fast, and browser-processed.",
+    "path": "/tools/extract-odd-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract odd pages from pdf",
+      "Extract Odd Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
     ]
   },
   {
@@ -43,6 +119,96 @@
     ]
   },
   {
+    "name": "Remove Even Pages From PDF",
+    "description": "Delete all even-numbered pages (pages 2, 4, 6, 8...) from a PDF document instantly. Free, private, and browser-processed.",
+    "path": "/tools/remove-even-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "remove even pages from pdf",
+      "Remove Even Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Remove First Page From PDF",
+    "description": "Remove the first page from any PDF file instantly in your browser. 100% free, private, and secure with local browser processing.",
+    "path": "/tools/remove-first-page-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "remove first page from pdf",
+      "Remove First Page From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Remove Last Page From PDF",
+    "description": "Remove the last page or trailing back-cover from your PDF document instantly. 100% free and processed locally in your browser.",
+    "path": "/tools/remove-last-page-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "remove last page from pdf",
+      "Remove Last Page From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Remove Last Two Pages From PDF",
+    "description": "Remove the last two pages of any PDF document in your browser. 100% free, private, and secure with local browser processing.",
+    "path": "/tools/remove-last-two-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "remove last two pages from pdf",
+      "Remove Last Two Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Remove Odd Pages From PDF",
+    "description": "Delete all odd-numbered pages (pages 1, 3, 5, 7...) from a PDF file. 100% free, secure, and processed locally in your browser.",
+    "path": "/tools/remove-odd-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "remove odd pages from pdf",
+      "Remove Odd Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Reverse PDF Page Order",
+    "description": "Reverse the order of pages in a PDF document (last page becomes first). 100% free, private, and local browser processing.",
+    "path": "/tools/reverse-pdf-page-order/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "reverse pdf page order",
+      "Reverse PDF Page Order",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
     "name": "Best of Five Calculator",
     "description": "Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.",
     "path": "/tools/best-of-five-calculator/",
@@ -58,310 +224,138 @@
     ]
   },
   {
-    "name": "Marks Needed Calculator",
-    "description": "Calculate how many marks you need to achieve your target percentage. Free, fast, and 100% private browser-based calculator.",
-    "path": "/tools/marks-needed-calculator/",
-    "category": "Math",
-    "icon": "calculator",
-    "keywords": [
-      "marks needed calculator",
-      "marks required calculator",
-      "marks needed for 90 percent",
-      "target marks calculator",
-      "exam target calculator",
-      "student marks planner"
-    ]
-  },
-  {
-    "name": "Online Video Player from Download Link",
-    "description": "Stream any video URL, MP4 link, or M3U8 HLS stream instantly in your browser without downloading. Supports 4K playback, speed controls, and PiP.",
-    "path": "/tools/url-to-video-player/",
+    "name": "Compress Image to 100KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 100KB without losing quality. 100% free, private, and processed locally in your browser.",
+    "path": "/tools/compress-image-to-100kb/",
     "category": "Utilities",
-    "icon": "code",
-    "keywords": [
-      "4k online video player",
-      "online video player",
-      "how to play video online without downloading",
-      "url to video player",
-      "online streamcast player",
-      "play mp4 link online",
-      "hls m3u8 player online",
-      "play video from url",
-      "free browser video player"
-    ]
-  },
-  {
-    "name": "Quadratic Equation Solver",
-    "description": "Solve quadratic equations ax² + bx + c = 0 with discriminant and roots. Free, fast, and 100% private browser-based solver.",
-    "path": "/tools/quadratic-equation-solver/",
-    "category": "Math",
-    "icon": "calculator",
-    "keywords": [
-      "quadratic equation solver",
-      "quadratic formula calculator",
-      "solve quadratic equation",
-      "discriminant calculator",
-      "roots of quadratic equation",
-      "class 10 quadratic equation solver"
-    ]
-  },
-  {
-    "name": "Board Marks Calculator",
-    "description": "Calculate your board exam total marks and percentage from subject-wise scores with configurable maximum marks. Free and private.",
-    "path": "/tools/board-marks-calculator/",
-    "category": "Math",
     "icon": "text",
     "keywords": [
-      "board marks calculator",
-      "board exam marks calculator",
-      "class 10 board marks calculator",
-      "board result calculator",
-      "board percentage calculator",
-      "10th board marks calculator"
+      "compress image to 100kb",
+      "Compress Image to 100KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "Instant Anonymous Room Chat",
-    "description": "Create or join temporary private chat rooms instantly without login. Send messages between phone and laptop. Messages auto-delete after 24 hours.",
-    "path": "/tools/instant-room-chat/",
-    "category": "Security",
-    "icon": "shield",
-    "keywords": [
-      "chat with stranger",
-      "connect laptop to phone",
-      "anonymous chat room",
-      "instant room chat",
-      "private temporary chat room",
-      "browser p2p chat",
-      "send text from phone to laptop",
-      "no registration online chat",
-      "ephemeral chat room",
-      "disappearing messages chat online"
-    ]
-  },
-  {
-    "name": "Grade Calculator",
-    "description": "Convert marks into percentage and grade using standard or letter grade scales. Free, fast, and fully private in your browser.",
-    "path": "/tools/grade-calculator/",
-    "category": "Math",
+    "name": "Compress Image to 200KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 200KB without losing quality. 100% free, private, and processed locally in your browser.",
+    "path": "/tools/compress-image-to-200kb/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "grade calculator",
-      "marks to grade calculator",
-      "percentage to grade calculator",
-      "student grade calculator",
-      "class 10 grade calculator",
-      "letter grade calculator"
+      "compress image to 200kb",
+      "Compress Image to 200KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "Student Average Calculator",
-    "description": "Calculate the average of marks across tests or subjects with count, sum, highest and lowest values. Free and private.",
-    "path": "/tools/student-average-calculator/",
-    "category": "Math",
+    "name": "Compress Image to 20KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 20KB without losing quality. 100% free, private, and processed locally in your browser.",
+    "path": "/tools/compress-image-to-20kb/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "average marks calculator",
-      "student average calculator",
-      "marks average calculator",
-      "average percentage calculator",
-      "exam average calculator",
-      "mean marks calculator"
+      "compress image to 20kb",
+      "Compress Image to 20KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "Weighted Average Calculator",
-    "description": "Calculate weighted marks where assignments, tests, and exams have different weights, with a clear total-weight check. Free and private.",
-    "path": "/tools/weighted-average-calculator/",
-    "category": "Math",
+    "name": "Compress Image to 300KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 300KB without losing quality. 100% free, private, and processed locally in your browser.",
+    "path": "/tools/compress-image-to-300kb/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "weighted average calculator",
-      "weighted marks calculator",
-      "weighted grade calculator",
-      "student weighted average",
-      "final grade calculator",
-      "weighted score calculator"
+      "compress image to 300kb",
+      "Compress Image to 300KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "Arithmetic Progression Calculator",
-    "description": "Calculate the nth term and sum of an arithmetic progression from a, d, and n, with a preview of the first terms. Free and private.",
-    "path": "/tools/arithmetic-progression-calculator/",
-    "category": "Math",
+    "name": "Compress Image to 500KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 500KB without losing quality. 100% free, private, and processed locally in your browser.",
+    "path": "/tools/compress-image-to-500kb/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "AP calculator",
-      "arithmetic progression calculator",
-      "nth term AP calculator",
-      "sum of AP calculator",
-      "class 10 AP calculator",
-      "arithmetic sequence calculator"
+      "compress image to 500kb",
+      "Compress Image to 500KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "Mean Median Mode Calculator",
-    "description": "Calculate mean, median, mode and range from a list of numbers with the sorted data shown for verification. Free and private.",
-    "path": "/tools/mean-median-mode-calculator/",
-    "category": "Math",
+    "name": "Compress Image to 50KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 50KB without losing quality. 100% free, private, and processed locally in your browser.",
+    "path": "/tools/compress-image-to-50kb/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "mean median mode calculator",
-      "statistics calculator",
-      "median calculator",
-      "mode calculator",
-      "mean calculator",
-      "class 10 statistics calculator"
+      "compress image to 50kb",
+      "Compress Image to 50KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "HCF Calculator",
-    "description": "Find the HCF or GCD of two or more positive integers using the Euclidean algorithm. Free, fast, and fully private.",
-    "path": "/tools/hcf-calculator/",
-    "category": "Math",
+    "name": "Convert JPG to PNG Online",
+    "description": "Convert JPG photos to high quality PNG format instantly in your browser.",
+    "path": "/tools/convert-jpg-to-png/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "HCF calculator",
-      "GCD calculator",
-      "highest common factor calculator",
-      "greatest common divisor calculator",
-      "class 10 HCF calculator",
-      "HCF of two numbers"
+      "convert jpg to png",
+      "Convert JPG to PNG Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "LCM Calculator",
-    "description": "Find the LCM of two or more positive integers using the HCF-based formula for accuracy. Free, fast, and fully private.",
-    "path": "/tools/lcm-calculator/",
-    "category": "Math",
+    "name": "Convert JPG to WebP Online",
+    "description": "Convert JPG/JPEG images to modern compressed WebP format for fast web pages.",
+    "path": "/tools/convert-jpg-to-webp/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "LCM calculator",
-      "least common multiple calculator",
-      "LCM of two numbers",
-      "class 10 LCM calculator",
-      "LCM method",
-      "LCM online"
+      "convert jpg to webp",
+      "Convert JPG to WebP Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "Ohm's Law Calculator",
-    "description": "Solve V=IR for voltage, current, or resistance with the formula shown and division-by-zero protection. Free and private.",
-    "path": "/tools/ohms-law-calculator/",
-    "category": "Math",
+    "name": "Convert PNG to JPG Online",
+    "description": "Convert PNG images to JPG format with custom background and quality controls.",
+    "path": "/tools/convert-png-to-jpg/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "ohms law calculator",
-      "voltage current resistance calculator",
-      "class 10 electricity calculator",
-      "resistance calculator",
-      "VIR calculator",
-      "physics electricity calculator"
-    ]
-  },
-  {
-    "name": "Electrical Power Calculator",
-    "description": "Calculate electrical power using P=VI, P=I^2R, or P=V^2/R with the applied formula shown and zero-division safety. Free and private.",
-    "path": "/tools/electrical-power-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "electrical power calculator",
-      "electric power calculator",
-      "power formula calculator",
-      "class 10 electricity power calculator",
-      "P VI calculator",
-      "physics power solver"
-    ]
-  },
-  {
-    "name": "Ratio Calculator",
-    "description": "Simplify ratios of two or more values using the HCF method with equivalent ratio shown. Free, fast, and fully private.",
-    "path": "/tools/ratio-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "ratio calculator",
-      "simplify ratio calculator",
-      "ratio simplifier",
-      "equivalent ratio calculator",
-      "class 10 ratio calculator",
-      "ratio solver"
-    ]
-  },
-  {
-    "name": "Proportion Calculator",
-    "description": "Solve proportions a:b = c:d for a missing value with cross-multiplication steps and zero-division safety. Free and private.",
-    "path": "/tools/proportion-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "proportion calculator",
-      "proportion solver",
-      "ratio proportion calculator",
-      "cross multiplication calculator",
-      "class 10 proportion calculator",
-      "missing value proportion"
-    ]
-  },
-  {
-    "name": "Profit Loss Calculator",
-    "description": "Calculate profit or loss amount and percentage from cost price and selling price with clear break-even handling. Free and private.",
-    "path": "/tools/profit-loss-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "profit loss calculator",
-      "profit percentage calculator",
-      "loss percentage calculator",
-      "CP SP calculator",
-      "class 10 profit loss",
-      "cost price selling price calculator"
-    ]
-  },
-  {
-    "name": "Simple Interest Calculator",
-    "description": "Calculate simple interest and total amount from principal, rate and time using the standard school formula. Free and private.",
-    "path": "/tools/simple-interest-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "simple interest calculator",
-      "SI calculator",
-      "class 10 SI calculator",
-      "principal rate time calculator",
-      "simple interest formula calculator",
-      "interest calculator"
-    ]
-  },
-  {
-    "name": "Compound Interest Calculator",
-    "description": "Calculate compound interest and amount with yearly, half-yearly or quarterly compounding using A=P(1+r/n)^nt. Free and private.",
-    "path": "/tools/compound-interest-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "compound interest calculator",
-      "CI calculator",
-      "class 10 compound interest calculator",
-      "compound interest formula calculator",
-      "half yearly compound interest",
-      "compound amount calculator"
-    ]
-  },
-  {
-    "name": "Distance Formula Calculator",
-    "description": "Calculate the distance between two coordinate points with full formula substitution shown. Free, fast, and fully private.",
-    "path": "/tools/distance-formula-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "distance formula calculator",
-      "distance between two points calculator",
-      "class 10 distance formula",
-      "coordinate distance calculator",
-      "distance formula solver",
-      "coordinate geometry calculator"
+      "convert png to jpg",
+      "Convert PNG to JPG Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   }
 ]

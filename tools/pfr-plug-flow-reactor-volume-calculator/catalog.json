@@ -1,0 +1,15 @@
+{
+  "name": "Plug Flow Reactor (PFR / Tubular Reactor) Volume & Conversion Calculator",
+  "description": "Calculate tubular Plug Flow Reactor (PFR) volume (V = (F_A0 / (k·C_A0)) · ln(1 / (1 - X))) in Liters and compare volume savings over CSTR.",
+  "path": "/tools/pfr-plug-flow-reactor-volume-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pfr volume calculator",
+    "plug flow reactor design equation formula",
+    "tubular reactor space time pfr calculator online",
+    "pfr vs cstr volume comparison calculator",
+    "chemical reaction engineering pfr online"
+  ],
+  "order": 648
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Remove EXIF Metadata From Photo",
+  "description": "Strip GPS location data, camera details, and personal EXIF metadata from photos before sharing online.",
+  "path": "/tools/remove-exif-metadata-from-photo/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "remove exif metadata from photo",
+    "Remove EXIF Metadata From Photo",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

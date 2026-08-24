@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 21, Weight 43kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1393 kcal/day) for 21-year-old weighing 43 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-21-weight-43kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 21 weight 43kg",
+    "BMR Calorie Calculator (Age 21, Weight 43kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

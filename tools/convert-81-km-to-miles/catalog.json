@@ -1,0 +1,15 @@
+{
+  "name": "Convert 81 KM to Miles",
+  "description": "Convert 81 kilometers to miles (50.33 miles). 100% free and local.",
+  "path": "/tools/convert-81-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 81 km to miles",
+    "Convert 81 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

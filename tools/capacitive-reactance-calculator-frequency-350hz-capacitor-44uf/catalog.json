@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (350 Hz, 44 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 10.33 Ω) for 350 Hz frequency and 44 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-350hz-capacitor-44uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 350hz capacitor 44uf",
+    "Capacitive Reactance Calculator (350 Hz, 44 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

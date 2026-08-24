@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 4mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 1125000 W) across 4mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-4mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 4mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 4mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 50mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 90000 W) across 50mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-50mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 50mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 50mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 5mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 900000 W) across 5mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-5mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 5mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 5mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 6mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 750000 W) across 6mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-6mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 6mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 6mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 7mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 642857 W) across 7mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-7mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 7mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 7mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 8mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 562500 W) across 8mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-8mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 8mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 8mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 9mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 500000 W) across 9mm steel wall at ΔT=90°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-9mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 90c thickness 9mm",
+      "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 9mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=10)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 10.00) and secondary voltage for Np=100 and Ns=10.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-10/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 10",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=10)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=100)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.00) and secondary voltage for Np=100 and Ns=100.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-100/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 100",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=100)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=110)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.91) and secondary voltage for Np=100 and Ns=110.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-110/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 110",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=110)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=120)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.83) and secondary voltage for Np=100 and Ns=120.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-120/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 120",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=120)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=130)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.77) and secondary voltage for Np=100 and Ns=130.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-130/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 130",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=130)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=140)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.71) and secondary voltage for Np=100 and Ns=140.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-140/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 140",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=140)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=150)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.67) and secondary voltage for Np=100 and Ns=150.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-150/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 150",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=150)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=160)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.63) and secondary voltage for Np=100 and Ns=160.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-160/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 160",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=160)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=170)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.59) and secondary voltage for Np=100 and Ns=170.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-170/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 170",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=170)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=180)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.56) and secondary voltage for Np=100 and Ns=180.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-180/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 180",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=180)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=190)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.53) and secondary voltage for Np=100 and Ns=190.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-190/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 190",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=190)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=20)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 5.00) and secondary voltage for Np=100 and Ns=20.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-20/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 20",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=20)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=200)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.50) and secondary voltage for Np=100 and Ns=200.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-200/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 200",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=200)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=210)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.48) and secondary voltage for Np=100 and Ns=210.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-210/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 210",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=210)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=220)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.45) and secondary voltage for Np=100 and Ns=220.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-220/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 220",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=220)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=230)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.43) and secondary voltage for Np=100 and Ns=230.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-230/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 230",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=230)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=100, Ns=240)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 0.42) and secondary voltage for Np=100 and Ns=240.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-100-secondary-240/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 100 secondary 240",
+      "Transformer Turns Ratio Calculator (Np=100, Ns=240)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

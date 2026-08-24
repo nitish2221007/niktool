@@ -1,0 +1,15 @@
+{
+  "name": "Structural Fillet Weld Throat Size & LRFD Strength Calculator",
+  "description": "Calculate effective throat dimension (t_e = 0.707 · w) and design shear strength (ϕR_n = 0.75 · 0.60 · F_EXX · t_e · L) for E70XX and E80XX fillet welds.",
+  "path": "/tools/fillet-weld-throat-strength-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fillet weld strength calculator",
+    "weld throat size formula",
+    "e70xx fillet weld capacity kips per inch",
+    "aisc fillet weld shear strength calculator",
+    "0.707 weld leg size calculator online"
+  ],
+  "order": 452
+}

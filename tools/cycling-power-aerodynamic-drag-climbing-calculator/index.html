@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate bicycle rider mechanical power output (P_total = P_aero + P_rolling + P_gravity) in Watts and W/kg from speed, slope grade, and frontal aerodynamic CdA.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/cycling-power-aerodynamic-drag-climbing-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator | NikTool">
+  <meta property="og:description" content="Calculate bicycle rider mechanical power output (P_total = P_aero + P_rolling + P_gravity) in Watts and W/kg from speed, slope grade, and frontal aerodynamic CdA.">
+  <meta property="og:url" content="https://niktool.in/tools/cycling-power-aerodynamic-drag-climbing-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/cycling-power-aerodynamic-drag-climbing-calculator/",
+        "description": "Calculate bicycle rider mechanical power output (P_total = P_aero + P_rolling + P_gravity) in Watts and W/kg from speed, slope grade, and frontal aerodynamic CdA.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why are climbing speeds governed by W/kg rather than pure Watts?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "On steep climbs (>7% grade), gravitational work ($m cdot g cdot v cdot sin\theta$) dominates power demand; carrying less body mass drastically reduces required climbing wattage."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator</h1>
+      <p>Calculate bicycle rider mechanical power output (P_total = P_aero + P_rolling + P_gravity) in Watts and W/kg from speed, slope grade, and frontal aerodynamic CdA.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Speed (km/h), Hill Slope Grade (%), Total Weight (kg) & Riding Position (CdA)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="cyc-spd">Speed (km/h)</label>
+          <input class="tool-textarea" id="cyc-spd" type="number" step="any" value="36.0" placeholder="36.0 km/h (Flat Road)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cyc-grd">Hill Slope (%)</label>
+          <input class="tool-textarea" id="cyc-grd" type="number" step="any" value="0.0" placeholder="0.0 % (Flat Road)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cyc-wt">Rider + Bike (kg)</label>
+          <input class="tool-textarea" id="cyc-wt" type="number" step="any" value="78.0" placeholder="78.0 kg (70kg + 8kg Bike)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cyc-pos">Riding Position (CdA)</label>
+          <select class="tool-textarea" id="cyc-pos">
+            <option value="0.32" selected>Road Drops (CdA = 0.32 m²)</option>
+            <option value="0.38">Road Hoods (CdA = 0.38 m²)</option>
+            <option value="0.22">Time Trial TT Bars (CdA = 0.22 m²)</option>
+            <option value="0.45">Tops / Commuter Upright (CdA = 0.45 m²)</option>
+          </select>
+        </div>
+      </div>
+      <div id="cyc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="cyc-res-watts" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">231.4 Watts (3.31 W/kg)</span>
+            <span class="stat-label">Total Required Mechanical Pedaling Power</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="cyc-res-split" style="font-weight:700;">Aero: 196.0 W (84.7%) | Rolling: 35.4 W | Gravity: 0.0 W</span>
+            <span class="stat-label">Power Dissipation Breakdown (P_aero, P_roll, P_climb)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator</h2>
+      <ol>
+        <li>Enter cycling travel speed in km/h.</li>
+        <li>Enter road gradient slope in % (0% flat, 7% steep mountain pass, negative for descent).</li>
+        <li>Enter combined total weight of rider plus bicycle in kilograms.</li>
+        <li>Select aerodynamic riding posture (Road Drops, Hoods, or TT Aero Bars).</li>
+        <li>Inspect total mechanical pedaling power in Watts, power-to-weight ratio (W/kg), and the percentage breakdown lost to aerodynamic drag vs tire rolling resistance vs gravity climbing.</li>
+      </ol>
+
+      <h2>The Cubic Velocity Aerodynamic Wall (P ∝ v³)</h2>
+      <p>Because aerodynamic drag power scales with the cube of velocity ($P_{	ext{aero}} propto v^3$), overcoming air resistance consumes over 85% of a cyclist's energy output above 35 km/h on flat ground.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why are climbing speeds governed by W/kg rather than pure Watts?</summary>
+        <p>On steep climbs (>7% grade), gravitational work ($m cdot g cdot v cdot sin	heta$) dominates power demand; carrying less body mass drastically reduces required climbing wattage.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/cycling-power-aerodynamic-drag-climbing-calculator/tool.js"></script>
+</body>
+</html>

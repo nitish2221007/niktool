@@ -1,0 +1,15 @@
+{
+  "name": "Convert 20°C Celsius to Kelvin Temp",
+  "description": "Convert 20 degrees Celsius (°C) to Kelvin (293.15 K) instantly.",
+  "path": "/tools/convert-20-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 20 celsius to kelvin temp",
+    "Convert 20°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

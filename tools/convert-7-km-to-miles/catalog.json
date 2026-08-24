@@ -1,0 +1,15 @@
+{
+  "name": "Convert 7 KM to Miles",
+  "description": "Convert 7 kilometers to miles (4.35 miles). 100% free and local.",
+  "path": "/tools/convert-7-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 7 km to miles",
+    "Convert 7 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

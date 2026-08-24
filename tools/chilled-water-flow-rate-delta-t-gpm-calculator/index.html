@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate hydronic chilled water distribution flow rate (GPM = (Tons · 24) / ΔT = Q_BTU / (500 · ΔT)) in gallons per minute from cooling plant tonnage and design temperature differential.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/chilled-water-flow-rate-delta-t-gpm-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator | NikTool">
+  <meta property="og:description" content="Calculate hydronic chilled water distribution flow rate (GPM = (Tons · 24) / ΔT = Q_BTU / (500 · ΔT)) in gallons per minute from cooling plant tonnage and design temperature differential.">
+  <meta property="og:url" content="https://niktool.in/tools/chilled-water-flow-rate-delta-t-gpm-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/chilled-water-flow-rate-delta-t-gpm-calculator/",
+        "description": "Calculate hydronic chilled water distribution flow rate (GPM = (Tons · 24) / ΔT = Q_BTU / (500 · ΔT)) in gallons per minute from cooling plant tonnage and design temperature differential.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is 2.4 GPM per ton standard for 10°F ΔT?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "GPM/Ton = 24 / 10°F = exactly 2.4 GPM per ton of refrigeration."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator</h1>
+      <p>Calculate hydronic chilled water distribution flow rate (GPM = (Tons · 24) / ΔT = Q_BTU / (500 · ΔT)) in gallons per minute from cooling plant tonnage and design temperature differential.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Chiller Tonnage (Tons) & Design Temperature Rise ΔT (°F)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="chw-tons">Chiller Capacity (Tons)</label>
+          <input class="tool-textarea" id="chw-tons" type="number" step="any" value="250" placeholder="250 Tons" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="chw-dt">Design ΔT (°F)</label>
+          <select class="tool-textarea" id="chw-dt">
+            <option value="10" selected>10 °F Rise (44°F Supply / 54°F Return - Standard 2.4 GPM/Ton)</option>
+            <option value="12">12 °F Rise (42°F / 54°F - 2.0 GPM/Ton High Efficiency)</option>
+            <option value="16">16 °F Rise (40°F / 56°F - 1.5 GPM/Ton Low Flow)</option>
+          </select>
+        </div>
+      </div>
+      <div id="chw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="chw-res-gpm" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">600.0 GPM (37.85 L/s)</span>
+            <span class="stat-label">Chilled Water Primary Flow (GPM)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="chw-res-pipe" style="font-weight:700;">6" to 8" Schedule 40 Steel Pipe</span>
+            <span class="stat-label">Recommended Main Header Diameter</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator</h2>
+      <ol>
+        <li>Enter central chiller cooling plant capacity in refrigeration tons.</li>
+        <li>Select design temperature differential ΔT (10°F standard = 2.4 GPM/ton; 12°F to 16°F for low-energy variable primary pumping).</li>
+        <li>Inspect total required hydronic pumping flow in GPM and recommended header pipe diameter.</li>
+      </ol>
+
+      <h2>Hydronic 500 Constant (Q = 500 · GPM · ΔT)</h2>
+      <p>Because water weighs 8.33 lb/gal and specific heat is 1.0 BTU/(lb·°F), flow rate multiplies by 500 (8.33 × 60 min/hr) to directly convert thermal BTU/hr into GPM pump sizing.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is 2.4 GPM per ton standard for 10°F ΔT?</summary>
+        <p>GPM/Ton = 24 / 10°F = exactly 2.4 GPM per ton of refrigeration.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/chilled-water-flow-rate-delta-t-gpm-calculator/tool.js"></script>
+</body>
+</html>

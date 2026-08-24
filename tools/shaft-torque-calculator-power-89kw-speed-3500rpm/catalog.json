@@ -1,0 +1,15 @@
+{
+  "name": "Shaft Torque Calculator (89 kW Power, 3500 RPM)",
+  "description": "Calculate mechanical shaft torque (T = 242.82 N·m) for 89 kW power at 3500 RPM.",
+  "path": "/tools/shaft-torque-calculator-power-89kw-speed-3500rpm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "shaft torque calculator power 89kw speed 3500rpm",
+    "Shaft Torque Calculator (89 kW Power, 3500 RPM)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

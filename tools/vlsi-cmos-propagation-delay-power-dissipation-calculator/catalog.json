@@ -1,0 +1,16 @@
+{
+  "name": "VLSI CMOS Gate Propagation Delay & Power Dissipation Calculator",
+  "description": "Calculate CMOS gate propagation delay tp = 0.69·Req·CL and dynamic power dissipation P = α·CL·VDD²·f for digital IC design.",
+  "path": "/tools/vlsi-cmos-propagation-delay-power-dissipation-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "vlsi cmos propagation delay power dissipation calculator",
+    "VLSI CMOS Gate Propagation Delay & Power Dissipation Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 52, Weight 44kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1248 kcal/day) for 52-year-old weighing 44 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-52-weight-44kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 52 weight 44kg",
+    "BMR Calorie Calculator (Age 52, Weight 44kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

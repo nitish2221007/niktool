@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate dissolved aqueous gas concentration (C = k_H · P_gas) in mol/L and mg/L for Oxygen (O₂), Carbon Dioxide (CO₂), and Nitrogen (N₂) from partial pressure for marine biology and decompression sickness physics.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/henrys-law-gas-solubility-aqueous-concentration-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator | NikTool">
+  <meta property="og:description" content="Calculate dissolved aqueous gas concentration (C = k_H · P_gas) in mol/L and mg/L for Oxygen (O₂), Carbon Dioxide (CO₂), and Nitrogen (N₂) from partial pressure for marine biology and decompression sickness physics.">
+  <meta property="og:url" content="https://niktool.in/tools/henrys-law-gas-solubility-aqueous-concentration-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/henrys-law-gas-solubility-aqueous-concentration-calculator/",
+        "description": "Calculate dissolved aqueous gas concentration (C = k_H · P_gas) in mol/L and mg/L for Oxygen (O₂), Carbon Dioxide (CO₂), and Nitrogen (N₂) from partial pressure for marine biology and decompression sickness physics.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is CO2 so much more soluble in water than O2 or N2?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Carbon dioxide has a Henry's constant nearly 30 times higher than oxygen and chemically reacts with water to form carbonic acid ($H_2CO_3$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator</h1>
+      <p>Calculate dissolved aqueous gas concentration (C = k_H · P_gas) in mol/L and mg/L for Oxygen (O₂), Carbon Dioxide (CO₂), and Nitrogen (N₂) from partial pressure for marine biology and decompression sickness physics.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Gas Selection (O₂, CO₂, N₂), Partial Pressure P_gas (atm) & Water Temperature (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hn-gas">Gas</label>
+          <select class="tool-textarea" id="hn-gas">
+            <option value="o2_0.0013_32" selected>Oxygen O₂ (k_H = 1.30 × 10⁻³ mol/(L·atm))</option>
+            <option value="co2_0.0340_44">Carbon Dioxide CO₂ (k_H = 3.40 × 10⁻² mol/(L·atm))</option>
+            <option value="n2_0.00065_28">Nitrogen N₂ (k_H = 6.50 × 10⁻⁴ mol/(L·atm) - Bends)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hn-pgas">Partial Pressure (atm)</label>
+          <input class="tool-textarea" id="hn-pgas" type="number" step="0.05" value="0.21" placeholder="0.21 atm (Sea Level Air O₂)" />
+        </div>
+      </div>
+      <div id="hn-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hn-res-conc" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">C = 8.74 mg / L (Dissolved O₂)</span>
+            <span class="stat-label">Dissolved Aqueous Gas Concentration (mg/L or ppm)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hn-res-molar" style="color:var(--green-dark); font-weight:700;">Molarity = 2.73 × 10⁻⁴ mol/L (0.273 mM) | Healthy Aquatic Life Level (DO > 6.0 mg/L)</span>
+            <span class="stat-label">Molar Concentration & Ecological Water Quality</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator</h2>
+      <ol>
+        <li>Select gas species ($O_2, CO_2,	ext{ or }N_2$).</li>
+        <li>Enter gas partial pressure $P_{	ext{gas}}$ in atmospheres (e.g. 0.21 atm for atmospheric oxygen, 0.78 atm for atmospheric nitrogen).</li>
+        <li>Inspect dissolved aqueous concentration in mg/L (ppm) and molarity (mol/L).</li>
+      </ol>
+
+      <h2>William Henry 1803 Gas Solubility Law</h2>
+      <p>Henry's law ($C = k_H P_{	ext{gas}}$) governs oxygen dissolution into ocean ecosystems, sparkling beverage carbonation, and hyperbaric scuba diving decompression sickness ("the bends").</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is CO2 so much more soluble in water than O2 or N2?</summary>
+        <p>Carbon dioxide has a Henry's constant nearly 30 times higher than oxygen and chemically reacts with water to form carbonic acid ($H_2CO_3$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/henrys-law-gas-solubility-aqueous-concentration-calculator/tool.js"></script>
+</body>
+</html>

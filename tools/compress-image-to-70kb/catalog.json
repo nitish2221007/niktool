@@ -1,0 +1,15 @@
+{
+  "name": "Compress Image to 70KB Online",
+  "description": "Compress JPG, PNG, and WebP images to under 70KB without losing quality. 100% free and local.",
+  "path": "/tools/compress-image-to-70kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "compress image to 70kb",
+    "Compress Image to 70KB Online",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

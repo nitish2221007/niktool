@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=80°C, Thick 6mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 666667 W) across 6mm steel wall at ΔT=80°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-80c-thickness-6mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 80c thickness 6mm",
+    "Thermal Heat Conduction Calculator (ΔT=80°C, Thick 6mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

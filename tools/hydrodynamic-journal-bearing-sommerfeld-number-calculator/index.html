@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate hydrodynamic journal bearing dimensionless Sommerfeld Number (S = (r/c)² · (μ·N / P)) and minimum oil film thickness (h₀ = c · (1 - ε)) in μm to prevent bearing seizure.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hydrodynamic-journal-bearing-sommerfeld-number-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator | NikTool">
+  <meta property="og:description" content="Calculate hydrodynamic journal bearing dimensionless Sommerfeld Number (S = (r/c)² · (μ·N / P)) and minimum oil film thickness (h₀ = c · (1 - ε)) in μm to prevent bearing seizure.">
+  <meta property="og:url" content="https://niktool.in/tools/hydrodynamic-journal-bearing-sommerfeld-number-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hydrodynamic-journal-bearing-sommerfeld-number-calculator/",
+        "description": "Calculate hydrodynamic journal bearing dimensionless Sommerfeld Number (S = (r/c)² · (μ·N / P)) and minimum oil film thickness (h₀ = c · (1 - ε)) in μm to prevent bearing seizure.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a typical clearance ratio (r/c) for industrial bearings?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Standard industrial machinery uses a clearance ratio of $r/c approx 1,000$ (1.0 mil of clearance per inch of shaft diameter)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator</h1>
+      <p>Calculate hydrodynamic journal bearing dimensionless Sommerfeld Number (S = (r/c)² · (μ·N / P)) and minimum oil film thickness (h₀ = c · (1 - ε)) in μm to prevent bearing seizure.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Journal Radius r (mm), Radial Clearance c (μm), Viscosity μ (cP), Speed N (rev/s) & Load W (kN)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="som-r">Journal Radius r (mm)</label>
+          <input class="tool-textarea" id="som-r" type="number" step="any" value="25.0" placeholder="25.0 mm (50 mm Shaft)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="som-c">Radial Clearance c (μm)</label>
+          <input class="tool-textarea" id="som-c" type="number" step="5" value="25.0" placeholder="25.0 μm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="som-mu">Viscosity μ (cP)</label>
+          <input class="tool-textarea" id="som-mu" type="number" step="any" value="30.0" placeholder="30.0 cP" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="som-n">Speed N (rev/s)</label>
+          <input class="tool-textarea" id="som-n" type="number" step="10" value="50.0" placeholder="50.0 rev/s (3000 RPM)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="som-w">Load W (kN)</label>
+          <input class="tool-textarea" id="som-w" type="number" step="any" value="5.0" placeholder="5.0 kN Load" />
+        </div>
+      </div>
+      <div id="som-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="som-res-s" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">S = 0.150 (Sommerfeld Number)</span>
+            <span class="stat-label">Dimensionless Sommerfeld Bearing Number (S)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="som-res-h0" style="color:var(--green-dark); font-weight:700;">Min Film h₀ = 10.5 μm (Eccentricity ε = 0.58 | Safe: h₀ > 3·R_a)</span>
+            <span class="stat-label">Minimum Dynamic Oil Film Thickness (h₀) & Eccentricity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hydrodynamic Journal Bearing Sommerfeld Number (S) & Minimum Film Thickness (h₀) Calculator</h2>
+      <ol>
+        <li>Enter journal shaft radius r in millimeters.</li>
+        <li>Enter radial diametral clearance c in micrometers ($mu	ext{m}$).</li>
+        <li>Enter dynamic lubricant viscosity $mu$ in cP (mPa·s).</li>
+        <li>Enter shaft rotational velocity N in revolutions per second (rev/s).</li>
+        <li>Enter radial downward bearing load W in kN.</li>
+        <li>Inspect dimensionless Sommerfeld Number S, eccentricity ratio $epsilon$, and minimum hydrodynamic oil film thickness $h_0$ in $mu	ext{m}$.</li>
+      </ol>
+
+      <h2>Arnold Sommerfeld 1904 Hydrodynamic Lubrication Theory</h2>
+      <p>The Sommerfeld number is the universal design parameter for hydrodynamic journal bearings; maintaining $h_0 ge 3 R_a$ ensures the hydrodynamic oil wedge completely separates rotating shaft journals from babbitt bushings to prevent catastrophic bearing wipe failure.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a typical clearance ratio (r/c) for industrial bearings?</summary>
+        <p>Standard industrial machinery uses a clearance ratio of $r/c approx 1,000$ (1.0 mil of clearance per inch of shaft diameter).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hydrodynamic-journal-bearing-sommerfeld-number-calculator/tool.js"></script>
+</body>
+</html>

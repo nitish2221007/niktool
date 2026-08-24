@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in 1988)",
+  "description": "Calculate exact age (38 years old in 2026) for someone born in year 1988.",
+  "path": "/tools/age-calculator-born-in-1988/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in 1988",
+    "Age Calculator (Born in 1988)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

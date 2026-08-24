@@ -1,0 +1,15 @@
+{
+  "name": "Convert 155 Knots Speed Val to KM/H",
+  "description": "Convert 155 knots speed to kilometers per hour (287.06 km/h).",
+  "path": "/tools/convert-knot-speed-val-155-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 155 to kmh",
+    "Convert 155 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

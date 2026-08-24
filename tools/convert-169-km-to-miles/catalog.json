@@ -1,0 +1,15 @@
+{
+  "name": "Convert 169 KM to Miles",
+  "description": "Convert 169 kilometers to miles (105.01 miles). 100% free and local.",
+  "path": "/tools/convert-169-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 169 km to miles",
+    "Convert 169 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

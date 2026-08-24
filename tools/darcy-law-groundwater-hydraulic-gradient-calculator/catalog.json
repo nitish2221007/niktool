@@ -1,0 +1,15 @@
+{
+  "name": "Darcy's Law Groundwater Flow & Hydraulic Conductivity Calculator",
+  "description": "Calculate aquifer seepage discharge rate (Q = -K · A · (dh / dl)) and Darcy flux velocity (q = K · i) in hydrogeology and geotechnical dam design.",
+  "path": "/tools/darcy-law-groundwater-hydraulic-gradient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "darcys law calculator",
+    "groundwater flow calculator online",
+    "hydraulic conductivity darcy formula",
+    "hydraulic gradient dh dl calculator",
+    "aquifer seepage discharge rate online"
+  ],
+  "order": 392
+}

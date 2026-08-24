@@ -1,0 +1,15 @@
+{
+  "name": "Pipe Internal Burst Pressure (Barlow's Formula) Calculator",
+  "description": "Calculate pipe internal burst yield pressure (P = (2 · S · t) / D) and maximum allowable operating pressure (MAOP) per ASME B31.3 and B31.8 pipeline standards.",
+  "path": "/tools/pipe-burst-pressure-barlow-formula-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "barlow formula pipe calculator",
+    "internal burst pressure pipe formula",
+    "pipe wall thickness burst pressure calculator",
+    "maop asme b31 pipeline burst calculator",
+    "pipe hoop stress yield pressure online"
+  ],
+  "order": 473
+}

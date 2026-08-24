@@ -1,0 +1,15 @@
+{
+  "name": "Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator",
+  "description": "Calculate Euler's phi totient function (φ(n) = n · ∏ (1 - 1/p)) counting positive integers up to n that are coprime to n, prime factorization prime factors, and divisor count for number theory.",
+  "path": "/tools/euler-totient-function-phi-n-prime-factors-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "eulers totient function calculator",
+    "phi n formula online prime factorization",
+    "coprime integers count euler phi calculator",
+    "multiplicative arithmetic functions phi n calculator",
+    "number theory euler totient online"
+  ],
+  "order": 1085
+}

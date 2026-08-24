@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 Knot Speed Val to KM/H",
+  "description": "Convert 1 knots speed to kilometers per hour (1.85 km/h).",
+  "path": "/tools/convert-knot-speed-val-1-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 1 to kmh",
+    "Convert 1 Knot Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

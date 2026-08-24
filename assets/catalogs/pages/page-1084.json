@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Tensile Stress Calculator (Force 4500N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 57.30 MPa) for 4500N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-4500n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 4500n diameter 10mm",
+      "Tensile Stress Calculator (Force 4500N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 4600N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 58.57 MPa) for 4600N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-4600n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 4600n diameter 10mm",
+      "Tensile Stress Calculator (Force 4600N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 4700N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 59.84 MPa) for 4700N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-4700n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 4700n diameter 10mm",
+      "Tensile Stress Calculator (Force 4700N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 4800N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 61.12 MPa) for 4800N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-4800n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 4800n diameter 10mm",
+      "Tensile Stress Calculator (Force 4800N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 4900N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 62.39 MPa) for 4900N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-4900n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 4900n diameter 10mm",
+      "Tensile Stress Calculator (Force 4900N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 5000N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 63.66 MPa) for 5000N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-5000n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 5000n diameter 10mm",
+      "Tensile Stress Calculator (Force 5000N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 500N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 6.37 MPa) for 500N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-500n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 500n diameter 10mm",
+      "Tensile Stress Calculator (Force 500N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 600N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 7.64 MPa) for 600N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-600n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 600n diameter 10mm",
+      "Tensile Stress Calculator (Force 600N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 700N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 8.91 MPa) for 700N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-700n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 700n diameter 10mm",
+      "Tensile Stress Calculator (Force 700N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 800N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 10.19 MPa) for 800N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-800n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 800n diameter 10mm",
+      "Tensile Stress Calculator (Force 800N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 900N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 11.46 MPa) for 900N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-900n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 900n diameter 10mm",
+      "Tensile Stress Calculator (Force 900N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 10mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 50000 W) across 10mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 10mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 11mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 45455 W) across 11mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-11mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 11mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 11mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 12mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 41667 W) across 12mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-12mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 12mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 12mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 13mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 38462 W) across 13mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-13mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 13mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 13mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 14mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 35714 W) across 14mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-14mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 14mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 14mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 15mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 33333 W) across 15mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-15mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 15mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 15mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 16mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 31250 W) across 16mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-16mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 16mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 16mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 17mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 29412 W) across 17mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-17mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 17mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 17mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 18mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 27778 W) across 18mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-18mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 18mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 18mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 19mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 26316 W) across 19mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-19mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 19mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 19mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 1mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 500000 W) across 1mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-1mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 1mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 1mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 20mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 25000 W) across 20mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-20mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 20mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 20mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 21mm)",
+    "description": "Calculate conduction heat transfer rate (Q = 23810 W) across 21mm steel wall at ΔT=10°C.",
+    "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-21mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "heat conduction rate calculator tempdiff 10c thickness 21mm",
+      "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 21mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

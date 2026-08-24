@@ -1,0 +1,15 @@
+{
+  "name": "Combustion Air-Fuel Ratio (AFR) & Lambda Calculator",
+  "description": "Calculate stoichiometric air-fuel ratio (AFR), excess air factor (Lambda λ), and combustion air mass required for gasoline, diesel, methane, and propane fuels.",
+  "path": "/tools/combustion-stoichiometry-air-fuel-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "air fuel ratio calculator",
+    "stoichiometric afr calculator",
+    "lambda air fuel ratio online",
+    "combustion air mass calculator",
+    "gasoline diesel afr formula"
+  ],
+  "order": 309
+}

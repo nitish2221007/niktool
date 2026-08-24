@@ -1,0 +1,15 @@
+{
+  "name": "Convert 85pt to PX",
+  "description": "Convert 85 points (pt) to pixels (113.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-85pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 85pt to px",
+    "Convert 85pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

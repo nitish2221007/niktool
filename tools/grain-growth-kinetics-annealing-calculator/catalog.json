@@ -1,0 +1,15 @@
+{
+  "name": "Grain Growth Kinetics & Annealing Grain Size (dⁿ - d₀ⁿ = K·t) Calculator",
+  "description": "Calculate metal annealing grain growth kinetics (d = (d₀ⁿ + K·t)^(1/n)) in micrometers from initial grain size d₀, annealing temperature, and furnace soak duration.",
+  "path": "/tools/grain-growth-kinetics-annealing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "grain growth kinetics calculator",
+    "annealing grain size formula d to power n minus d0 to power n",
+    "metal annealing grain growth rate calculator online",
+    "isothermal grain growth kinetics metallurgy online",
+    "grain boundary curvature grain growth calculator"
+  ],
+  "order": 685
+}

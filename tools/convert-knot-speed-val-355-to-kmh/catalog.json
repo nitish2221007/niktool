@@ -1,0 +1,15 @@
+{
+  "name": "Convert 355 Knots Speed Val to KM/H",
+  "description": "Convert 355 knots speed to kilometers per hour (657.46 km/h).",
+  "path": "/tools/convert-knot-speed-val-355-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 355 to kmh",
+    "Convert 355 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

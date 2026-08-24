@@ -1,0 +1,15 @@
+{
+  "name": "Convert 79°C Celsius to Kelvin Temp",
+  "description": "Convert 79 degrees Celsius (°C) to Kelvin (352.15 K) instantly.",
+  "path": "/tools/convert-79-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 79 celsius to kelvin temp",
+    "Convert 79°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

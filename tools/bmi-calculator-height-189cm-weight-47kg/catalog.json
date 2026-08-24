@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 189cm, Weight 47kg)",
+  "description": "Calculate Body Mass Index (BMI 13.2) for height 189 cm and weight 47 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-189cm-weight-47kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 189cm weight 47kg",
+    "BMI Calculator (Height 189cm, Weight 47kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

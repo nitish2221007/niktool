@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Shaft Torque Calculator (27 kW Power, 5000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 51.57 N·m) for 27 kW power at 5000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-27kw-speed-5000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 27kw speed 5000rpm",
+      "Shaft Torque Calculator (27 kW Power, 5000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 1000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 267.38 N·m) for 28 kW power at 1000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-1000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 1000rpm",
+      "Shaft Torque Calculator (28 kW Power, 1000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 1500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 178.25 N·m) for 28 kW power at 1500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-1500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 1500rpm",
+      "Shaft Torque Calculator (28 kW Power, 1500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 2000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 133.69 N·m) for 28 kW power at 2000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-2000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 2000rpm",
+      "Shaft Torque Calculator (28 kW Power, 2000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 2500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 106.95 N·m) for 28 kW power at 2500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-2500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 2500rpm",
+      "Shaft Torque Calculator (28 kW Power, 2500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 3000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 89.13 N·m) for 28 kW power at 3000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-3000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 3000rpm",
+      "Shaft Torque Calculator (28 kW Power, 3000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 3500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 76.39 N·m) for 28 kW power at 3500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-3500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 3500rpm",
+      "Shaft Torque Calculator (28 kW Power, 3500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 4000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 66.85 N·m) for 28 kW power at 4000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-4000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 4000rpm",
+      "Shaft Torque Calculator (28 kW Power, 4000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 4500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 59.42 N·m) for 28 kW power at 4500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-4500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 4500rpm",
+      "Shaft Torque Calculator (28 kW Power, 4500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 534.76 N·m) for 28 kW power at 500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 500rpm",
+      "Shaft Torque Calculator (28 kW Power, 500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (28 kW Power, 5000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 53.48 N·m) for 28 kW power at 5000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-28kw-speed-5000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 28kw speed 5000rpm",
+      "Shaft Torque Calculator (28 kW Power, 5000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 1000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 276.93 N·m) for 29 kW power at 1000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-1000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 1000rpm",
+      "Shaft Torque Calculator (29 kW Power, 1000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 1500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 184.62 N·m) for 29 kW power at 1500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-1500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 1500rpm",
+      "Shaft Torque Calculator (29 kW Power, 1500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 2000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 138.46 N·m) for 29 kW power at 2000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-2000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 2000rpm",
+      "Shaft Torque Calculator (29 kW Power, 2000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 2500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 110.77 N·m) for 29 kW power at 2500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-2500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 2500rpm",
+      "Shaft Torque Calculator (29 kW Power, 2500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 3000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 92.31 N·m) for 29 kW power at 3000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-3000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 3000rpm",
+      "Shaft Torque Calculator (29 kW Power, 3000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 3500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 79.12 N·m) for 29 kW power at 3500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-3500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 3500rpm",
+      "Shaft Torque Calculator (29 kW Power, 3500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 4000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 69.23 N·m) for 29 kW power at 4000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-4000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 4000rpm",
+      "Shaft Torque Calculator (29 kW Power, 4000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 4500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 61.54 N·m) for 29 kW power at 4500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-4500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 4500rpm",
+      "Shaft Torque Calculator (29 kW Power, 4500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 553.86 N·m) for 29 kW power at 500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 500rpm",
+      "Shaft Torque Calculator (29 kW Power, 500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (29 kW Power, 5000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 55.39 N·m) for 29 kW power at 5000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-29kw-speed-5000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 29kw speed 5000rpm",
+      "Shaft Torque Calculator (29 kW Power, 5000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (3 kW Power, 1000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 28.65 N·m) for 3 kW power at 1000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-3kw-speed-1000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 3kw speed 1000rpm",
+      "Shaft Torque Calculator (3 kW Power, 1000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (3 kW Power, 1500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 19.10 N·m) for 3 kW power at 1500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-3kw-speed-1500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 3kw speed 1500rpm",
+      "Shaft Torque Calculator (3 kW Power, 1500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (3 kW Power, 2000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 14.32 N·m) for 3 kW power at 2000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-3kw-speed-2000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 3kw speed 2000rpm",
+      "Shaft Torque Calculator (3 kW Power, 2000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

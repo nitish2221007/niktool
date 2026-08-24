@@ -1,0 +1,15 @@
+{
+  "name": "Audio Equalizer Q-Factor to Bandwidth (Octaves) Calculator",
+  "description": "Convert parametric equalizer Q-factor (Quality factor) to bandwidth in musical octaves (N = 2 · log₂( (1/(2Q)) + √( (1/(2Q))² + 1 ) )) and center frequency cutoff span.",
+  "path": "/tools/equalizer-q-factor-bandwidth-octaves-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "eq q factor to octaves calculator",
+    "audio equalizer bandwidth calculator",
+    "q factor to octave formula",
+    "parametric eq bandwidth q calculator online",
+    "audio filter q factor chart"
+  ],
+  "order": 380
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 41pt to PX",
+  "description": "Convert 41 points (pt) to pixels (54.67 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-41pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 41pt to px",
+    "Convert 41pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

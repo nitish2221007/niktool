@@ -1,0 +1,15 @@
+{
+  "name": "Convert 52 KM/H to MPH Speed",
+  "description": "Convert 52 kilometers per hour (km/h) to miles per hour (32.31 mph).",
+  "path": "/tools/convert-52-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 52 kmh to mph speed",
+    "Convert 52 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

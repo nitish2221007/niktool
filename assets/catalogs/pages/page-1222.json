@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Reactive Ion Etching (RIE) Selectivity & Anisotropy Calculator",
+    "description": "Calculate plasma Reactive Ion Etching (RIE) etch rate selectivity (S = ER_target / ER_mask) and directional anisotropy (A = 1 - R_L / R_V) for semiconductor nanostructures.",
+    "path": "/tools/reactive-ion-etching-rie-aspect-ratio-selectivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reactive ion etching calculator",
+      "rie etch selectivity formula er target over er mask",
+      "plasma etch anisotropy a equals 1 minus rl over rv calculator",
+      "semiconductor dry etch rate calculator online",
+      "silicon wafer plasma etching online"
+    ]
+  },
+  {
+    "name": "Chemical Vapor Deposition (CVD) Thin Film Growth Rate Calculator",
+    "description": "Calculate semiconductor CVD thin film deposition growth rate in nm/min across Mass-Transfer Limited (high temp) and Surface-Reaction Limited (low temp Arrhenius) regimes.",
+    "path": "/tools/chemical-vapor-deposition-cvd-thin-film-growth-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cvd growth rate calculator",
+      "chemical vapor deposition thin film formula online",
+      "deal grove cvd mass transfer surface reaction calculator",
+      "semiconductor thin film deposition rate calculator",
+      "cvd reactor temperature growth rate online"
+    ]
+  },
+  {
+    "name": "Ion Implantation Projected Range & Straggle (LSS Theory) Calculator",
+    "description": "Calculate semiconductor dopant ion implantation depth profile (Projected Range R_p and Straggle ΔR_p) and peak Gaussian dopant concentration (N_peak = Dose / (√(2π)·ΔR_p)).",
+    "path": "/tools/ion-implantation-projected-range-straggle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ion implantation calculator",
+      "projected range rp straggle delta rp lss theory formula",
+      "peak dopant concentration gaussian profile calculator",
+      "boron phosphorus arsenic ion implantation silicon online",
+      "semiconductor dopant profile calculator"
+    ]
+  },
+  {
+    "name": "Atomic Layer Deposition (ALD) Growth Per Cycle (GPC) & Film Thickness Calculator",
+    "description": "Calculate self-limiting Atomic Layer Deposition (ALD) ultra-thin dielectric oxide film thickness (t = N_cycles · GPC) in Angstroms/nanometers for high-k gate oxides (HfO₂, Al₂O₃, TiO₂).",
+    "path": "/tools/atomic-layer-deposition-ald-growth-per-cycle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atomic layer deposition calculator",
+      "ald growth per cycle gpc formula online",
+      "high k dielectric thickness hfo2 al2o3 ald calculator",
+      "self limiting monolayer ald calculator online",
+      "semiconductor gate dielectric thickness online"
+    ]
+  },
+  {
+    "name": "CAPE (Convective Available Potential Energy) & Severe Storm Updraft Calculator",
+    "description": "Calculate severe thunderstorm Convective Available Potential Energy (CAPE = ∫ g·(T_v,parcel - T_v,env)/T_v,env dz) in J/kg and theoretical maximum updraft velocity (W_max = √(2·CAPE)).",
+    "path": "/tools/cape-convective-available-potential-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cape thunderstorm calculator",
+      "convective available potential energy formula j per kg",
+      "maximum updraft velocity w max sqrt 2 cape calculator",
+      "severe weather supercell cape online",
+      "meteorology soundings cape calculator"
+    ]
+  },
+  {
+    "name": "Lifted Condensation Level (LCL - Espy Formula) Cloud Base Calculator",
+    "description": "Calculate cumulus cloud base altitude (z_LCL ≈ 125 · (T - T_d) meters or 220 · (T - T_d) feet) from surface dry-bulb air temperature and dew point.",
+    "path": "/tools/lifted-condensation-level-lcl-height-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lifted condensation level calculator",
+      "lcl cloud base height formula 125 t minus td",
+      "espy equation cumulus cloud base altitude online",
+      "dew point spread cloud base calculator",
+      "aviation ceiling lifted condensation level online"
+    ]
+  },
+  {
+    "name": "Potential Temperature (θ = T·(P₀/P)^(R/c_p)) & Isentropic Calculator",
+    "description": "Calculate atmospheric potential temperature θ (Poisson equation: θ = T · (1000 / P)^0.286) in Kelvin and Celsius to assess dry static stability and thermal inversions.",
+    "path": "/tools/potential-temperature-poisson-isentropic-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "potential temperature calculator",
+      "poisson isentropic relation theta formula meteorology",
+      "atmospheric static stability potential temperature online",
+      "dry adiabatic potential temperature theta calculator",
+      "meteorology sounding theta online"
+    ]
+  },
+  {
+    "name": "Geostrophic Wind Speed (v_g = (1 / ρ·f) · (ΔP / Δn)) Calculator",
+    "description": "Calculate upper-level synoptic geostrophic wind speed in m/s, km/h, and knots from isobaric pressure gradient (ΔP / Δn), latitude, and air density.",
+    "path": "/tools/coriolis-geostrophic-wind-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "geostrophic wind calculator",
+      "coriolis force pressure gradient geostrophic speed formula",
+      "synoptic weather map isobar wind speed calculator",
+      "geostrophic balance meteorology online",
+      "upper level jet stream wind calculator"
+    ]
+  },
+  {
+    "name": "Rossby Planetary Wave Phase Speed (c = u - β / k²) Calculator",
+    "description": "Calculate large-scale atmospheric Rossby wave propagation phase speed (c = u - β / K²) in m/s and km/h and determine stationary blocking ridge wavelengths.",
+    "path": "/tools/relative-vorticity-rossby-wave-speed-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rossby wave speed calculator",
+      "planetary wave phase velocity formula c equals u minus beta over k squared",
+      "meteorology rossby wave wavelength calculator",
+      "atmospheric jet stream rossby waves online",
+      "stationary weather blocking ridge calculator"
+    ]
+  },
+  {
+    "name": "Bragg's Law X-Ray Diffraction (n·λ = 2·d·sin θ) Calculator",
+    "description": "Calculate crystal lattice interplanar spacing (d = n·λ / (2·sin θ)) in Angstroms (Å) and cubic unit cell lattice parameter a from XRD Bragg peak angles.",
+    "path": "/tools/bragg-law-xray-diffraction-interplanar-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "braggs law calculator",
+      "xray diffraction interplanar spacing formula n lambda 2 d sin theta",
+      "xrd lattice constant a calculator online",
+      "cubic crystal plane miller indices hkl calculator",
+      "materials science crystallography braggs law online"
+    ]
+  },
+  {
+    "name": "Hall-Petch Grain Boundary Strengthening Yield Strength Calculator",
+    "description": "Calculate polycrystalline metal yield strength (σ_y = σ₀ + k_y · d^(-1/2)) in MPa from friction stress σ₀, Hall-Petch strengthening coefficient k_y, and average grain size d.",
+    "path": "/tools/hall-petch-grain-size-yield-strength-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hall petch calculator",
+      "grain size yield strength formula sigma y equals sigma 0 plus k y d minus half",
+      "hall petch strengthening equation metallurgy online",
+      "grain boundary strengthening calculator online",
+      "metal yield strength grain size calculator"
+    ]
+  },
+  {
+    "name": "Fick's Second Law Case Hardening & Diffusion Depth Calculator",
+    "description": "Calculate steel surface carburization and solid-state diffusion profiles (C(x,t) = C_s - (C_s - C_0) · erf(x / 2√(D·t))) in mm and penetration time in hours.",
+    "path": "/tools/fick-second-law-case-hardening-diffusion-depth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fick second law calculator",
+      "carburization case depth formula erf error function",
+      "solid state diffusion depth calculator online",
+      "steel case hardening heat treatment calculator",
+      "diffusion coefficient time depth calculator"
+    ]
+  },
+  {
+    "name": "Lever Rule Binary Alloy Phase Diagram Mass Fraction Calculator",
+    "description": "Calculate binary alloy phase diagram tie-line mass fractions (w_α = (C_β - C₀) / (C_β - C_α) · 100%) and microconstituent phase percentages.",
+    "path": "/tools/lever-rule-binary-phase-diagram-fraction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lever rule calculator",
+      "binary phase diagram tie line formula online",
+      "phase mass fraction alpha beta lever rule calculator",
+      "metallurgy phase diagram tie line calculator",
+      "materials science lever rule online"
+    ]
+  },
+  {
+    "name": "Schmid's Law Critical Resolved Shear Stress (CRSS) Calculator",
+    "description": "Calculate single-crystal plastic slip yield stress (τ_crss = σ · cos φ · cos λ) from tensile stress σ, slip plane normal angle φ, and slip direction angle λ (Schmid Factor m = cos φ · cos λ).",
+    "path": "/tools/schmid-law-critical-resolved-shear-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "schmids law calculator",
+      "critical resolved shear stress crss formula tau equals sigma cos phi cos lambda",
+      "schmid factor m calculator online",
+      "single crystal slip yielding calculator",
+      "materials crystallography dislocation slip online"
+    ]
+  },
+  {
+    "name": "Grain Growth Kinetics & Annealing Grain Size (dⁿ - d₀ⁿ = K·t) Calculator",
+    "description": "Calculate metal annealing grain growth kinetics (d = (d₀ⁿ + K·t)^(1/n)) in micrometers from initial grain size d₀, annealing temperature, and furnace soak duration.",
+    "path": "/tools/grain-growth-kinetics-annealing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "grain growth kinetics calculator",
+      "annealing grain size formula d to power n minus d0 to power n",
+      "metal annealing grain growth rate calculator online",
+      "isothermal grain growth kinetics metallurgy online",
+      "grain boundary curvature grain growth calculator"
+    ]
+  },
+  {
+    "name": "Nuclear Reactor Four-Factor Formula (k_∞ = ε·p·η·f) Calculator",
+    "description": "Calculate infinite neutron multiplication factor (k_∞ = ε · p · η · f) and effective criticality (k_eff = k_∞ · P_NL) across Fast Fission, Resonance Escape, Reproduction, and Thermal Utilization.",
+    "path": "/tools/reactor-neutron-multiplication-four-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "four factor formula calculator",
+      "reactor neutron multiplication factor k infinity formula",
+      "effective criticality k eff non leakage calculator",
+      "nuclear reactor physics keff online",
+      "fast fission resonance escape thermal utilization calculator"
+    ]
+  },
+  {
+    "name": "Radioactive Decay Chain (Bateman Equations Daughter Growth) Calculator",
+    "description": "Calculate radioactive parent-to-daughter isotopic activity and secular/transient equilibrium (N_2(t) = λ₁ / (λ₂ - λ₁) · N₁₀ · (e^(-λ₁·t) - e^(-λ₂·t))).",
+    "path": "/tools/radioactive-decay-chain-bateman-equations-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bateman equations calculator",
+      "radioactive decay daughter growth formula online",
+      "secular transient radioactive equilibrium calculator",
+      "parent daughter radionuclide activity calculator online",
+      "nuclear decay chain bateman calculator"
+    ]
+  },
+  {
+    "name": "Radiation Gamma Shielding & Half-Value Layer (HVL) Attenuation Calculator",
+    "description": "Calculate gamma/X-ray photon radiation dose attenuation (I = I₀ · e^(-μ·x) = I₀ · (1/2)^(x / HVL)) and Tenth-Value Layer (TVL) thickness in Lead, Concrete, Steel, and Water.",
+    "path": "/tools/radiation-gamma-shielding-half-value-layer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radiation shielding calculator",
+      "gamma attenuation half value layer hvl formula online",
+      "tenth value layer tvl lead concrete shield calculator",
+      "xray radiation protection lead thickness calculator",
+      "nuclear radiation linear attenuation coefficient online"
+    ]
+  },
+  {
+    "name": "Thermal Neutron Diffusion Length (L) & Migration Area (M²) Calculator",
+    "description": "Calculate nuclear reactor moderator thermal neutron diffusion length (L = √(D / Σ_a)) in cm and total migration area (M² = L² + τ) for Light Water, Heavy Water, and Graphite.",
+    "path": "/tools/neutron-diffusion-length-slowing-down-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "neutron diffusion length calculator",
+      "neutron migration area formula m squared equals l squared plus tau",
+      "fermi age neutron slowing down calculator online",
+      "nuclear reactor moderator diffusion length online",
+      "light water vs heavy water graphite neutron diffusion calculator"
+    ]
+  },
+  {
+    "name": "Inhour Equation Nuclear Reactor Period (T) & Prompt Jump Calculator",
+    "description": "Calculate nuclear reactor asymptotic power doubling period T (Inhour formula: ρ = l* / T + Σ (β_i / (1 + λ_i·T))) in seconds and evaluate prompt critical ($1.00 Dollar) safety margins.",
+    "path": "/tools/fission-delayed-neutron-inhour-reactor-period-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "inhour equation calculator",
+      "reactor period formula t equals l star over rho plus beta",
+      "prompt critical dollar reactivity calculator online",
+      "delayed neutron fraction beta reactor kinetics online",
+      "nuclear reactor period doubling time calculator"
+    ]
+  },
+  {
+    "name": "Mark-Houwink Equation Polymer Viscosity-Average Molar Mass (M_v) Calculator",
+    "description": "Calculate polymer viscosity-average molecular weight (M_v = ([η] / K)^(1/a)) in g/mol from dilute solution intrinsic viscosity [η] in dL/g and Mark-Houwink constants K and a.",
+    "path": "/tools/mark-houwink-equation-polymer-molar-mass-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mark houwink equation calculator",
+      "intrinsic viscosity polymer molecular weight formula online",
+      "viscosity average molar mass mv calculator",
+      "polymer dilute solution viscometry mark houwink online",
+      "polystyrene pmma polyethylene molar mass calculator"
+    ]
+  },
+  {
+    "name": "Flory-Huggins Polymer Solution Free Energy of Mixing (ΔG_m) Calculator",
+    "description": "Calculate polymer-solvent mixing thermodynamics (ΔG_m / (R·T) = n₁·ln φ₁ + n₂·ln φ₂ + χ·n₁·φ₂) and determine the Flory-Huggins critical interaction parameter χ_crit for phase separation.",
+    "path": "/tools/flory-huggins-polymer-solution-free-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flory huggins calculator",
+      "free energy of mixing polymer solution formula online",
+      "flory interaction parameter chi critical calculator",
+      "polymer miscibility phase separation calculator online",
+      "polymer thermodynamics flory huggins online"
+    ]
+  },
+  {
+    "name": "Carreau-Yasuda Polymer Melt Shear-Thinning Viscosity Calculator",
+    "description": "Calculate non-Newtonian pseudoplastic polymer melt viscosity (η(γ̇) = η_∞ + (η₀ - η_∞) · [1 + (λ·γ̇)^a]^((n - 1)/a)) in Pa·s across extrusion and injection shear rates.",
+    "path": "/tools/carreau-yasuda-shear-thinning-viscosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "carreau yasuda viscosity calculator",
+      "polymer melt shear thinning formula non newtonian",
+      "pseudoplastic polymer viscosity shear rate calculator",
+      "power law polymer rheology carreau calculator online",
+      "injection molding polymer viscosity online"
+    ]
+  },
+  {
+    "name": "Plastic Injection Molding Machine Clamping Force Tonnage Calculator",
+    "description": "Calculate plastic injection molding machine hydraulic/electric clamp tonnage (F_clamp = P_cavity · A_projected · Safety_Factor / 1000) in metric tonnes and US tons.",
+    "path": "/tools/injection-molding-clamping-force-tonnage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "injection molding clamping force calculator",
+      "clamp tonnage formula projected area cavity pressure",
+      "plastic injection molding machine tonnage calculator online",
+      "mold cavity projected area tonnage calculator",
+      "molding press clamp force online"
+    ]
+  }
+]

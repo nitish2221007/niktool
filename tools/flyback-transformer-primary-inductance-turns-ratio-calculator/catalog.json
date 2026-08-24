@@ -1,0 +1,15 @@
+{
+  "name": "Flyback Transformer Primary Inductance (L_p) & Turns Ratio Calculator",
+  "description": "Calculate isolated switch-mode flyback transformer primary inductance (L_p = (V_in(min) · D_max)² / (2 · P_in · f)), primary turns, and secondary turns ratio (N_p / N_s).",
+  "path": "/tools/flyback-transformer-primary-inductance-turns-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "flyback transformer calculator",
+    "flyback primary inductance formula lp",
+    "turns ratio isolated smps calculator online",
+    "dcm ccm flyback transformer design calculator",
+    "power supply flyback inductance online"
+  ],
+  "order": 555
+}

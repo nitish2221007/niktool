@@ -1,0 +1,15 @@
+{
+  "name": "Secant Method Numerical Root Finding (x_{n+1} = x_n - f(x_n)·(x_n - x_{n-1}) / (f(x_n) - f(x_{n-1}))) Calculator",
+  "description": "Calculate equation roots numerically using the derivative-free Secant Method (x_{n+1} = x_n - f(x_n) · [(x_n - x_{n-1}) / (f(x_n) - f(x_{n-1}))]) with superlinear golden-ratio convergence (order 1.618).",
+  "path": "/tools/secant-method-numerical-root-finding-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "secant method calculator",
+    "secant root finding formula x n plus 1 online",
+    "derivative free numerical root solver secant calculator",
+    "superlinear convergence golden ratio secant calculator",
+    "numerical methods nonlinear root finding online"
+  ],
+  "order": 1100
+}

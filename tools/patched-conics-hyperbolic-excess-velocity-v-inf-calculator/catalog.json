@@ -1,0 +1,15 @@
+{
+  "name": "Patched Conics Hyperbolic Excess Velocity (v_∞) & Trans-Injection Calculator",
+  "description": "Calculate interplanetary hyperbolic excess escape velocity (v_∞ = √(v_inj² - 2·μ / r₀)) in km/s and required Trans-Mars/Venus Injection (TMI/TVI) burn delta-V from Low Earth Orbit.",
+  "path": "/tools/patched-conics-hyperbolic-excess-velocity-v-inf-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hyperbolic excess velocity calculator",
+    "v infinity formula v inj squared minus 2 mu over r0 online",
+    "trans mars injection delta v calculator patched conics",
+    "interplanetary trajectory escape velocity calculator",
+    "astrodynamics hyperbolic departure burn online"
+  ],
+  "order": 809
+}

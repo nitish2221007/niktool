@@ -1,0 +1,15 @@
+{
+  "name": "Convert CSV to SQL INSERT Statements",
+  "description": "Convert CSV rows into SQL INSERT database queries.",
+  "path": "/tools/csv-to-sql-insert-statement-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "csv to sql insert statement converter",
+    "Convert CSV to SQL INSERT Statements",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

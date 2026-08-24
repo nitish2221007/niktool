@@ -1,0 +1,15 @@
+{
+  "name": "Reverse Osmosis (RO) Membrane Water Flux & Salt Rejection Efficiency Calculator",
+  "description": "Calculate seawater and brackish water Reverse Osmosis (RO) membrane permeate water flux J_w in LMH (J_w = A · (ΔP - Δπ)), salt rejection efficiency R (R = (1 - C_p / C_f) · 100%), and permeate recovery rate (Y%).",
+  "path": "/tools/reverse-osmosis-membrane-salt-rejection-flux-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "reverse osmosis calculator",
+    "ro membrane water flux formula lmh online",
+    "salt rejection efficiency permeate recovery ro calculator",
+    "net driving pressure ndp osmotic pressure calculator",
+    "desalination water treatment environmental engineering online"
+  ],
+  "order": 1354
+}

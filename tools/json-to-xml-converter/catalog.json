@@ -1,0 +1,15 @@
+{
+  "name": "Convert JSON to XML Online",
+  "description": "Serialize JSON objects into structured XML document tags.",
+  "path": "/tools/json-to-xml-converter/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "json to xml converter",
+    "Convert JSON to XML Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bacterial Growth Doubling & Generation Time Calculator",
+  "description": "Calculate bacterial doubling generation time (g = t / n, n = 3.32 · log₁₀(N/N₀)) and specific growth rate constant (μ) from initial and final colony counts.",
+  "path": "/tools/bacterial-growth-doubling-time-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bacterial doubling time calculator",
+    "generation time microbiology calculator",
+    "bacterial exponential growth formula",
+    "specific growth rate mu calculator",
+    "colony doubling time online"
+  ],
+  "order": 341
+}

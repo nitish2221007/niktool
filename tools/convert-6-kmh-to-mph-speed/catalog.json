@@ -1,0 +1,15 @@
+{
+  "name": "Convert 6 KM/H to MPH Speed",
+  "description": "Convert 6 kilometers per hour (km/h) to miles per hour (3.73 mph).",
+  "path": "/tools/convert-6-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 6 kmh to mph speed",
+    "Convert 6 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

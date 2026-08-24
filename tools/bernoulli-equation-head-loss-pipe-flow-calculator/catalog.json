@@ -1,0 +1,15 @@
+{
+  "name": "Extended Bernoulli Energy Equation (Total Head H = P/ρg + v²/2g + z + h_L) Calculator",
+  "description": "Calculate hydraulic fluid system pressure changes, velocity head (v²/2g), elevation head (z), pump head requirement, and major/minor frictional head losses (h_L) using the Extended Bernoulli Energy Equation.",
+  "path": "/tools/bernoulli-equation-head-loss-pipe-flow-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bernoulli equation calculator",
+    "extended bernoulli head loss pump head formula online",
+    "hydraulic total head pressure head velocity head calculator",
+    "pipe flow energy balance head loss calculator",
+    "civil mechanical chemical engineering hydraulics online"
+  ],
+  "order": 1238
+}

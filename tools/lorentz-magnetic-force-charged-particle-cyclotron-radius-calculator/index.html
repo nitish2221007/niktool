@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate magnetic deflecting force on a moving charge (F = q · v · B · sin θ) in Newtons, circular trajectory cyclotron radius (r = m·v / (q·B)), and cyclotron frequency (f_c = q·B / (2π·m)) for particle accelerators.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/lorentz-magnetic-force-charged-particle-cyclotron-radius-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator | NikTool">
+  <meta property="og:description" content="Calculate magnetic deflecting force on a moving charge (F = q · v · B · sin θ) in Newtons, circular trajectory cyclotron radius (r = m·v / (q·B)), and cyclotron frequency (f_c = q·B / (2π·m)) for particle accelerators.">
+  <meta property="og:url" content="https://niktool.in/tools/lorentz-magnetic-force-charged-particle-cyclotron-radius-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/lorentz-magnetic-force-charged-particle-cyclotron-radius-calculator/",
+        "description": "Calculate magnetic deflecting force on a moving charge (F = q · v · B · sin θ) in Newtons, circular trajectory cyclotron radius (r = m·v / (q·B)), and cyclotron frequency (f_c = q·B / (2π·m)) for particle accelerators.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does an electron have a much smaller cyclotron radius than a proton at the same speed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because a proton is 1,836 times more massive than an electron ($m_p gg m_e$), giving it much higher momentum and inertia to resist magnetic bending."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator</h1>
+      <p>Calculate magnetic deflecting force on a moving charge (F = q · v · B · sin θ) in Newtons, circular trajectory cyclotron radius (r = m·v / (q·B)), and cyclotron frequency (f_c = q·B / (2π·m)) for particle accelerators.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Particle (Proton, Electron, Alpha), Velocity v (m/s), Magnetic Field B (Tesla) & Angle θ (°)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="lf-part">Particle</label>
+          <select class="tool-textarea" id="lf-part">
+            <option value="1.602e-19_1.673e-27" selected>Proton (q = +e, m = 1.67 × 10⁻²⁷ kg)</option>
+            <option value="1.602e-19_9.109e-31">Electron (q = -e, m = 9.11 × 10⁻³¹ kg)</option>
+            <option value="3.204e-19_6.644e-27">Alpha Particle He²⁺ (q = +2e, m = 6.64 × 10⁻²⁷ kg)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lf-v">Velocity v (m/s)</label>
+          <input class="tool-textarea" id="lf-v" type="number" step="1e6" value="5.0e6" placeholder="5.0e6 m/s (5,000 km/s)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lf-b">Field B (Tesla)</label>
+          <input class="tool-textarea" id="lf-b" type="number" step="0.5" value="1.50" placeholder="1.50 T (MRI Magnet)" />
+        </div>
+      </div>
+      <div id="lf-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="lf-res-force" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Force F = 1.20 × 10⁻¹² N</span>
+            <span class="stat-label">Lorentz Deflecting Magnetic Force (F = q·v·B)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lf-res-rad" style="color:var(--green-dark); font-weight:700;">Cyclotron Radius r = 3.48 cm (0.0348 m) | Gyrofrequency f_c = 22.88 MHz</span>
+            <span class="stat-label">Circular Orbital Radius (r = m·v / q·B) & Gyrofrequency</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator</h2>
+      <ol>
+        <li>Select charged particle species (Proton, Electron, Alpha particle).</li>
+        <li>Enter particle velocity v in m/s.</li>
+        <li>Enter magnetic flux density B in Tesla (T).</li>
+        <li>Inspect deflecting Lorentz force F, circular cyclotron gyro-radius r, and orbital gyrofrequency $f_c$.</li>
+      </ol>
+
+      <h2>Hendrik Lorentz 1895 Magnetic Force Vector Law</h2>
+      <p>Because the magnetic force acts strictly perpendicular to the particle velocity vector ($ec{F} = qec{v} 	imes ec{B}$), it performs zero mechanical work on the particle, bending its path into a pure circle ($r = rac{mv}{qB}$) used in mass spectrometers and CERN synchrotrons.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does an electron have a much smaller cyclotron radius than a proton at the same speed?</summary>
+        <p>Because a proton is 1,836 times more massive than an electron ($m_p gg m_e$), giving it much higher momentum and inertia to resist magnetic bending.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/lorentz-magnetic-force-charged-particle-cyclotron-radius-calculator/tool.js"></script>
+</body>
+</html>

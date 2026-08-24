@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (40 GB File, 500 Mbps Speed)",
+  "description": "Calculate file transfer download time (~10.9 minutes / 655s) for 40 GB file at 500 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-40gb-speed-500mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 40gb speed 500mbps",
+    "Data Download Time Calculator (40 GB File, 500 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

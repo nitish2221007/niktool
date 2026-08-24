@@ -1,0 +1,15 @@
+{
+  "name": "Convert 5 GB to MB",
+  "description": "Convert 5 Gigabytes (GB) to Megabytes (5120 MB). 100% free and local.",
+  "path": "/tools/convert-5-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 5 gb to mb",
+    "Convert 5 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

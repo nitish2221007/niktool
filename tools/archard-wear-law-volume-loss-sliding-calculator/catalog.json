@@ -1,0 +1,15 @@
+{
+  "name": "Archard Wear Law Sliding Volume Loss (V = K · W · s / H) Calculator",
+  "description": "Calculate abrasive/adhesive mechanical wear volumetric material loss (V = K · W · s / H) in mm³ and linear wear depth (h = V / A) from normal load W, sliding distance s, and hardness H.",
+  "path": "/tools/archard-wear-law-volume-loss-sliding-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "archard wear law calculator",
+    "adhesive abrasive wear volume formula v equals k w s over h",
+    "sliding wear depth calculator online",
+    "tribology archard wear coefficient k calculator",
+    "pin on disc wear test volume loss online"
+  ],
+  "order": 800
+}

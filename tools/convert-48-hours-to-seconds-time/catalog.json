@@ -1,0 +1,15 @@
+{
+  "name": "Convert 48 Hours to Seconds",
+  "description": "Convert 48 hours to minutes (2880 min) and seconds (1,72,800 sec).",
+  "path": "/tools/convert-48-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 48 hours to seconds time",
+    "Convert 48 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

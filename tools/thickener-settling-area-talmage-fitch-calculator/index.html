@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate industrial tailings/concentrate thickener basin surface area (A = Q · (C_i - C_u) / (v · C_u)) in m² and unit settling area flux (m²/TPD) from slurry settling rates.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/thickener-settling-area-talmage-fitch-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator | NikTool">
+  <meta property="og:description" content="Calculate industrial tailings/concentrate thickener basin surface area (A = Q · (C_i - C_u) / (v · C_u)) in m² and unit settling area flux (m²/TPD) from slurry settling rates.">
+  <meta property="og:url" content="https://niktool.in/tools/thickener-settling-area-talmage-fitch-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/thickener-settling-area-talmage-fitch-calculator/",
+        "description": "Calculate industrial tailings/concentrate thickener basin surface area (A = Q · (C_i - C_u) / (v · C_u)) in m² and unit settling area flux (m²/TPD) from slurry settling rates.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What role do polymeric flocculants play in thickener sizing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "High-molecular-weight anionic polyacrylamide flocculants agglomerate fine clay and slime particles into large flocs, increasing settling velocity by 10× to 50× and dramatically shrinking required tank size."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator</h1>
+      <p>Calculate industrial tailings/concentrate thickener basin surface area (A = Q · (C_i - C_u) / (v · C_u)) in m² and unit settling area flux (m²/TPD) from slurry settling rates.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Dry Solids Feed (TPD), Feed Slurry Solids (wt %), Target Underflow (wt %) & Settling Rate (m/h)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="thk-tpd">Feed Solids (TPD)</label>
+          <input class="tool-textarea" id="thk-tpd" type="number" step="any" value="2400" placeholder="2400 TPD (100 TPH)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="thk-cfeed">Feed Solids (wt %)</label>
+          <input class="tool-textarea" id="thk-cfeed" type="number" step="any" value="20.0" placeholder="20.0 wt %" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="thk-cund">Underflow (wt %)</label>
+          <input class="tool-textarea" id="thk-cund" type="number" step="any" value="60.0" placeholder="60.0 wt % Target" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="thk-v">Settling Rate (m/h)</label>
+          <input class="tool-textarea" id="thk-v" type="number" step="any" value="1.50" placeholder="1.50 m/h (Flocculated)" />
+        </div>
+      </div>
+      <div id="thk-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="thk-res-area" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">222.2 m² Basin (16.8 m Dia)</span>
+            <span class="stat-label">Required Thickener Surface Area & Diameter</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="thk-res-flux" style="font-weight:700;">Unit Area: 0.093 m² / (tonne/day) | Water Recovered: 8,000 m³/day</span>
+            <span class="stat-label">Specific Unit Area Flux & Process Water Recovery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator</h2>
+      <ol>
+        <li>Enter daily dry solids throughput in Tonnes per Day (TPD).</li>
+        <li>Enter incoming feed slurry solids percentage by weight (wt %).</li>
+        <li>Enter target thickened underflow sludge solids percentage (wt %).</li>
+        <li>Enter hindered sedimentation settling velocity in m/hour measured from laboratory cylinder test.</li>
+        <li>Inspect required thickener basin surface area in $m^2$, circular tank diameter in meters, and recycled water recovery rate in $m^3/	ext{day}$.</li>
+      </ol>
+
+      <h2>W.P. Talmage & E.B. Fitch 1955 Sedimentation Flux Theory</h2>
+      <p>Thickeners dewater mineral tailings to recycle critical process water back to the grinding circuit; calculating unit settling area ensures thickener rake torque and residence time produce dense paste underflow without solids overflowing the clarify launder.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What role do polymeric flocculants play in thickener sizing?</summary>
+        <p>High-molecular-weight anionic polyacrylamide flocculants agglomerate fine clay and slime particles into large flocs, increasing settling velocity by 10× to 50× and dramatically shrinking required tank size.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/thickener-settling-area-talmage-fitch-calculator/tool.js"></script>
+</body>
+</html>

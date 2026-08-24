@@ -1,0 +1,15 @@
+{
+  "name": "Real Gas Fugacity Coefficient (ln φ = G^R / RT) & Poynting Liquid Correction Calculator",
+  "description": "Calculate real gas fugacity f (f = φ · P in bar), fugacity coefficient φ, residual Gibbs free energy G^R, and high-pressure liquid Poynting pressure correction factor (exp(V_L·(P - P^sat) / RT)).",
+  "path": "/tools/fugacity-coefficient-chemical-potential-residual-gibbs-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fugacity calculator",
+    "fugacity coefficient formula phi equals f over p online",
+    "residual gibbs free energy fugacity calculator",
+    "poynting factor liquid fugacity calculator thermodynamics",
+    "chemical engineering thermodynamics phase equilibria online"
+  ],
+  "order": 1236
+}

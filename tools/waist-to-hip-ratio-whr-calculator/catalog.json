@@ -1,0 +1,15 @@
+{
+  "name": "Waist-to-Hip Ratio (WHR) Health Risk Calculator",
+  "description": "Calculate Waist-to-Hip Ratio (WHR = Waist / Hip) and evaluate World Health Organization (WHO) abdominal visceral fat cardiovascular risk.",
+  "path": "/tools/waist-to-hip-ratio-whr-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "waist to hip ratio calculator",
+    "whr calculator online",
+    "abdominal obesity who ratio",
+    "visceral fat waist hip calculator",
+    "cardiovascular risk whr formula"
+  ],
+  "order": 266
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thermal Radiation Heat Exchange & Emissivity Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate net radiative heat transfer (q = ε · σ · A · (T₁⁴ - T₂⁴)) in Watts and thermal radiation heat flux from surface emissivity (ε) and absolute temperatures (Kelvin).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/blackbody-radiation-emissivity-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thermal Radiation Heat Exchange & Emissivity Calculator | NikTool">
+  <meta property="og:description" content="Calculate net radiative heat transfer (q = ε · σ · A · (T₁⁴ - T₂⁴)) in Watts and thermal radiation heat flux from surface emissivity (ε) and absolute temperatures (Kelvin).">
+  <meta property="og:url" content="https://niktool.in/tools/blackbody-radiation-emissivity-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Thermal Radiation Heat Exchange & Emissivity Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/blackbody-radiation-emissivity-calculator/",
+        "description": "Calculate net radiative heat transfer (q = ε · σ · A · (T₁⁴ - T₂⁴)) in Watts and thermal radiation heat flux from surface emissivity (ε) and absolute temperatures (Kelvin).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the emissivity of a perfect theoretical blackbody?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A perfect blackbody has an emissivity of ε = 1.0, absorbing and emitting maximum possible radiation at all wavelengths."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Thermal Radiation Heat Exchange & Emissivity Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Thermal Radiation Heat Exchange & Emissivity Calculator</h1>
+      <p>Calculate net radiative heat transfer (q = ε · σ · A · (T₁⁴ - T₂⁴)) in Watts and thermal radiation heat flux from surface emissivity (ε) and absolute temperatures (Kelvin).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Surface Emissivity (ε), Area (m²) & Temperatures (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rad-eps">Emissivity ε (0 to 1.0)</label>
+          <input class="tool-textarea" id="rad-eps" type="number" step="0.01" min="0.01" max="1.0" value="0.85" placeholder="0.85 (Painted Steel)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rad-area">Radiating Area A (m²)</label>
+          <input class="tool-textarea" id="rad-area" type="number" step="any" value="2.0" placeholder="2.0 m²" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rad-t1">Surface Temp T₁ (°C)</label>
+          <input class="tool-textarea" id="rad-t1" type="number" step="any" value="150" placeholder="150 °C (423 K)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rad-t2">Surrounding Temp T₂ (°C)</label>
+          <input class="tool-textarea" id="rad-t2" type="number" step="any" value="25" placeholder="25 °C (298 K)" />
+        </div>
+      </div>
+      <div id="rad-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rad-res-q" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">2.32 kW</span>
+            <span class="stat-label">Net Radiative Heat Transfer (q)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rad-res-flux" style="font-weight:700;">1,161 W / m²</span>
+            <span class="stat-label">Net Radiation Flux</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Thermal Radiation Heat Exchange & Emissivity Calculator</h2>
+      <ol>
+        <li>Enter surface emissivity factor ε (0.05 for polished aluminum, 0.90 for black paint/anodized aluminum, 0.95 for water/skin).</li>
+        <li>Enter total surface area A in square meters.</li>
+        <li>Enter hot radiating surface temperature T₁ and surrounding ambient enclosure temperature T₂ in Celsius.</li>
+        <li>Inspect net thermal radiation energy emission in kW / Watts and radiation flux.</li>
+      </ol>
+
+      <h2>Fourth-Power Absolute Temperature Law (T⁴)</h2>
+      <p>Thermal radiation scales with the fourth power of absolute Kelvin temperature (q ∝ T⁴): doubling absolute temperature increases radiated thermal power by a factor of 16 (2⁴ = 16x).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the emissivity of a perfect theoretical blackbody?</summary>
+        <p>A perfect blackbody has an emissivity of ε = 1.0, absorbing and emitting maximum possible radiation at all wavelengths.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/blackbody-radiation-emissivity-calculator/tool.js"></script>
+</body>
+</html>

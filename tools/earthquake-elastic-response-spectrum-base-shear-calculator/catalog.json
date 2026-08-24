@@ -1,0 +1,15 @@
+{
+  "name": "Earthquake Equivalent Lateral Force (ELF) Seismic Base Shear (V_b) Calculator",
+  "description": "Calculate ASCE 7 / IBC building earthquake design base shear force (V_b = C_s · W = (S_DS / (R / I_e)) · W) in kN and kips from spectral design acceleration S_DS and ductility R.",
+  "path": "/tools/earthquake-elastic-response-spectrum-base-shear-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "seismic base shear calculator",
+    "equivalent lateral force elf formula asce 7 ibc online",
+    "earthquake design response spectrum cs coefficient calculator",
+    "structural seismic weight base shear calculator",
+    "building earthquake design base shear online"
+  ],
+  "order": 727
+}

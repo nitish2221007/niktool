@@ -1,0 +1,15 @@
+{
+  "name": "Sound Transmission Loss (STL) Mass Law & Wall STC Rating Calculator",
+  "description": "Calculate acoustic wall Sound Transmission Loss (STL = 20 · log₁₀(m · f) - 47 dB) in decibels from partition surface mass density m (kg/m²) and acoustic frequency f.",
+  "path": "/tools/sound-transmission-class-stc-mass-law-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sound transmission loss calculator",
+    "mass law acoustic stl formula 20 log m times f minus 47",
+    "wall stc rating soundproofing calculator online",
+    "architectural acoustic partition transmission loss calculator",
+    "drywall concrete sound attenuation online"
+  ],
+  "order": 746
+}

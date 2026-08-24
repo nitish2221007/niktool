@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate fundamental telecommunications information theory Shannon Channel Capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps and determine theoretical minimum energy per bit Shannon Limit (E_b/N₀ = ln 2 = -1.59 dB).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/shannon-hartley-channel-capacity-spectral-efficiency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate fundamental telecommunications information theory Shannon Channel Capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps and determine theoretical minimum energy per bit Shannon Limit (E_b/N₀ = ln 2 = -1.59 dB).">
+  <meta property="og:url" content="https://niktool.in/tools/shannon-hartley-channel-capacity-spectral-efficiency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/shannon-hartley-channel-capacity-spectral-efficiency-calculator/",
+        "description": "Calculate fundamental telecommunications information theory Shannon Channel Capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps and determine theoretical minimum energy per bit Shannon Limit (E_b/N₀ = ln 2 = -1.59 dB).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the absolute Shannon Limit for zero error communication?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The minimum signal-to-noise ratio per bit required for error-free transmission as bandwidth approaches infinity is $\frac{E_b}{N_0} = ln 2 approx -1.59\text{ dB}$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator</h1>
+      <p>Calculate fundamental telecommunications information theory Shannon Channel Capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps and determine theoretical minimum energy per bit Shannon Limit (E_b/N₀ = ln 2 = -1.59 dB).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Channel Bandwidth B (MHz), Signal-to-Noise Ratio SNR (dB) & Target Bit Error Rate</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sh-bw">Bandwidth B (MHz)</label>
+          <input class="tool-textarea" id="sh-bw" type="number" step="10" value="100.0" placeholder="100.0 MHz (5G Channel)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-snr">SNR (dB)</label>
+          <input class="tool-textarea" id="sh-snr" type="number" step="2" value="25.0" placeholder="25.0 dB (Clean Channel)" />
+        </div>
+      </div>
+      <div id="sh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sh-res-cap" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">C = 830.8 Mbps Capacity</span>
+            <span class="stat-label">Maximum Theoretical Channel Capacity (C)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sh-res-eff" style="color:var(--green-dark); font-weight:700;">Spectral Efficiency η = 8.31 bps/Hz (Shannon Ultimate Limit: E_b/N₀ ≥ -1.59 dB)</span>
+            <span class="stat-label">Spectral Efficiency & Absolute Information Theory Bound</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator</h2>
+      <ol>
+        <li>Enter channel bandwidth B in MHz (e.g. 20 MHz for LTE, 100 MHz for 5G NR, 160 MHz for Wi-Fi 7).</li>
+        <li>Enter Signal-to-Noise Ratio (SNR) in dB.</li>
+        <li>Inspect absolute theoretical channel capacity C in Mbps/Gbps and spectral transmission efficiency in bits/s/Hz.</li>
+      </ol>
+
+      <h2>Claude Shannon 1948 Mathematical Theory of Communication</h2>
+      <p>Shannon proved that error-free digital transmission is possible over any noisy channel up to the fundamental capacity limit ($C = B log_2(1 + 	ext{SNR})$); modern LDPC and Polar codes in 5G approach within $0.1	ext{ dB}$ of this universal mathematical law.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the absolute Shannon Limit for zero error communication?</summary>
+        <p>The minimum signal-to-noise ratio per bit required for error-free transmission as bandwidth approaches infinity is $rac{E_b}{N_0} = ln 2 approx -1.59	ext{ dB}$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/shannon-hartley-channel-capacity-spectral-efficiency-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Specific Latent Heat of Fusion & Vaporization (Q = m·L) Phase Change Calculator",
+  "description": "Calculate phase change enthalpy heat energy (Q = m·L) for melting/freezing (Water L_f = 334 kJ/kg) and boiling/condensing (Water L_v = 2,260 kJ/kg) at constant temperature.",
+  "path": "/tools/latent-heat-fusion-vaporization-q-equals-ml-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "latent heat calculator",
+    "q equals ml formula phase change heat online",
+    "latent heat of fusion vaporization water calculator",
+    "melting ice boiling water energy calculator joules",
+    "thermal physics latent heat phase change online"
+  ],
+  "order": 934
+}

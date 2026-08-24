@@ -1,0 +1,15 @@
+{
+  "name": "Alveolar Gas Equation & A-a Oxygen Gradient (P_A O₂ = F_i O₂·(P_atm - 47) - PaCO₂/R) Calculator",
+  "description": "Calculate ideal alveolar oxygen partial pressure (P_A O₂ = F_i O₂ · (P_atm - 47) - PaCO₂ / 0.8) in mmHg and Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂) to evaluate hypoxemic respiratory failure etiology.",
+  "path": "/tools/alveolar-gas-equation-a-a-oxygen-gradient-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "alveolar gas equation calculator",
+    "a a gradient formula pao2 minus pao2 online",
+    "hypoxemia shunt v q mismatch alveolar gas calculator",
+    "inspired oxygen fio2 paco2 alveolar oxygen calculator",
+    "pulmonology respiratory critical care online"
+  ],
+  "order": 1157
+}

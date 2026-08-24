@@ -1,0 +1,16 @@
+{
+  "name": "Remove First 15 Pages From PDF",
+  "description": "Remove the first 15 pages of any PDF document. 100% free, private, and local.",
+  "path": "/tools/remove-first-15-pages-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "remove first 15 pages from pdf",
+    "Remove First 15 Pages From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

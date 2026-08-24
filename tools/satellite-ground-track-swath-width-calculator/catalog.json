@@ -1,0 +1,15 @@
+{
+  "name": "Earth Observation Satellite Swath Width & Ground Speed Calculator",
+  "description": "Calculate Earth observation remote sensing imaging swath width (Swath = 2 · R_E · arcsin(sin(FOV/2) · (R_E + h) / R_E) - FOV) and sub-satellite ground track velocity.",
+  "path": "/tools/satellite-ground-track-swath-width-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "satellite swath width calculator",
+    "earth observation field of view fov swath formula",
+    "satellite ground track velocity calculator online",
+    "remote sensing sensor swath width calculator",
+    "orbital ground speed earth observation online"
+  ],
+  "order": 704
+}

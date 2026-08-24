@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ohm's Law Calculator (Voltage 95V, Current 8A)",
+    "description": "Calculate Resistance (11.88 Ω) and Electric Power (760.0 W) for 95V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-95v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 95v current 8a",
+      "Ohm's Law Calculator (Voltage 95V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 95V, Current 9A)",
+    "description": "Calculate Resistance (10.56 Ω) and Electric Power (855.0 W) for 95V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-95v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 95v current 9a",
+      "Ohm's Law Calculator (Voltage 95V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Percentage to CGPA Calculator (Scale 10)",
+    "description": "Convert percentage score to CGPA on a 10-point scale.",
+    "path": "/tools/percentage-to-cgpa-scale-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "percentage to cgpa scale 10",
+      "Percentage to CGPA Calculator (Scale 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1 Lakhs)",
+    "description": "Calculate monthly EMI and repayment schedule for ₹1 Lakhs personal loan.",
+    "path": "/tools/personal-loan-emi-calculator-1-lakhs/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 1 lakhs",
+      "Personal Loan EMI Calculator (₹1 Lakhs)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 12 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 12 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-12-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 12 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 12 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 15 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 15 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-15-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 15 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 15 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 18 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 18 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-18-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 18 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 18 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 21 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 21 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-21-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 21 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 21 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 24 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 24 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-24-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 24 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 24 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 27 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 27 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-27-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 27 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 27 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 30 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 30 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-30-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 30 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 30 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 33 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 33 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-33-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 33 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 33 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 36 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 36 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-36-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 36 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 36 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 39 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 39 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-39-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 39 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 39 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 42 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 42 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-42-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 42 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 42 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 45 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 45 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-45-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 45 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 45 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 48 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 48 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-48-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 48 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 48 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 51 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 51 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-51-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 51 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 51 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 54 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 54 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-54-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 54 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 54 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 57 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 57 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-57-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 57 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 57 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,00,000, 60 Months)",
+    "description": "Calculate monthly EMI for ₹1,00,000 personal loan over 60 months.",
+    "path": "/tools/personal-loan-emi-calculator-100000-rupees-60-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 100000 rupees 60 months",
+      "Personal Loan EMI Calculator (₹1,00,000, 60 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,50,000, 12 Months)",
+    "description": "Calculate monthly EMI for ₹1,50,000 personal loan over 12 months.",
+    "path": "/tools/personal-loan-emi-calculator-150000-rupees-12-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 150000 rupees 12 months",
+      "Personal Loan EMI Calculator (₹1,50,000, 12 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,50,000, 15 Months)",
+    "description": "Calculate monthly EMI for ₹1,50,000 personal loan over 15 months.",
+    "path": "/tools/personal-loan-emi-calculator-150000-rupees-15-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 150000 rupees 15 months",
+      "Personal Loan EMI Calculator (₹1,50,000, 15 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Personal Loan EMI Calculator (₹1,50,000, 18 Months)",
+    "description": "Calculate monthly EMI for ₹1,50,000 personal loan over 18 months.",
+    "path": "/tools/personal-loan-emi-calculator-150000-rupees-18-months/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "personal loan emi calculator 150000 rupees 18 months",
+      "Personal Loan EMI Calculator (₹1,50,000, 18 Months)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

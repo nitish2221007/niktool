@@ -1,0 +1,15 @@
+{
+  "name": "Academic Research Citation Impact (h-Index & i10-Index) Calculator",
+  "description": "Calculate scholarly research publication impact metrics: Hirsch index (h-index = h papers with at least h citations each), i10-index (papers with at least 10 citations), total citation sum, and average citations per paper for academic tenure portfolios.",
+  "path": "/tools/h-index-i10-index-academic-research-citation-impact-calculator/",
+  "category": "Education",
+  "icon": "calculator",
+  "keywords": [
+    "h index calculator",
+    "hirsch index citation impact formula online",
+    "i10 index google scholar calculator",
+    "academic researcher citation metrics calculator",
+    "scientific author h index ranking online"
+  ],
+  "order": 994
+}

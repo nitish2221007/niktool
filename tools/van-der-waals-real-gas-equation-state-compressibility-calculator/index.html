@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate real gas pressure P, molar volume V_m, molecular attraction parameter a, co-volume b, and compressibility factor Z using the Van der Waals non-ideal gas equation of state.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/van-der-waals-real-gas-equation-state-compressibility-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator | NikTool">
+  <meta property="og:description" content="Calculate real gas pressure P, molar volume V_m, molecular attraction parameter a, co-volume b, and compressibility factor Z using the Van der Waals non-ideal gas equation of state.">
+  <meta property="og:url" content="https://niktool.in/tools/van-der-waals-real-gas-equation-state-compressibility-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/van-der-waals-real-gas-equation-state-compressibility-calculator/",
+        "description": "Calculate real gas pressure P, molar volume V_m, molecular attraction parameter a, co-volume b, and compressibility factor Z using the Van der Waals non-ideal gas equation of state.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the critical compressibility factor Z_c predicted by Van der Waals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Van der Waals equation universally predicts a critical compressibility factor $Z_c = \frac{P_c V_c}{R T_c} = \frac{3}{8} = 0.375$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator</h1>
+      <p>Calculate real gas pressure P, molar volume V_m, molecular attraction parameter a, co-volume b, and compressibility factor Z using the Van der Waals non-ideal gas equation of state.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Molar Volume V_m (L/mol), Temp T (°C) & Van der Waals Parameters a (L²·bar/mol²) and b (L/mol)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="vw-vm">Molar Vol V_m (L/mol)</label>
+          <input class="tool-textarea" id="vw-vm" type="number" step="0.1" value="0.80" placeholder="0.80 L/mol" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vw-temp">Temp T (°C)</label>
+          <input class="tool-textarea" id="vw-temp" type="number" step="25" value="100" placeholder="100 °C" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vw-a">a (L²·bar/mol²)</label>
+          <input class="tool-textarea" id="vw-a" type="number" step="0.5" value="3.64" placeholder="3.64 (CO₂)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vw-b">b (L/mol)</label>
+          <input class="tool-textarea" id="vw-b" type="number" step="0.01" value="0.0427" placeholder="0.0427 (CO₂)" />
+        </div>
+      </div>
+      <div id="vw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="vw-res-p" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Real Pressure P = 35.24 bar</span>
+            <span class="stat-label">Van der Waals Pressure (P = RT/(V_m - b) - a/V_m²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="vw-res-z" style="color:var(--green-dark); font-weight:700;">Ideal Gas P_ideal = 38.78 bar | Compressibility Z = 0.909 (Attractive dip)</span>
+            <span class="stat-label">Ideal Gas Comparison & Compressibility Factor (Z = P·V_m / RT)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator</h2>
+      <ol>
+        <li>Enter gas molar volume $V_m$ in L/mol.</li>
+        <li>Enter system temperature in $^circ	ext{C}$.</li>
+        <li>Enter Van der Waals intermolecular attraction parameter a ($	ext{L}^2cdot	ext{bar}/	ext{mol}^2$) and excluded co-volume b (L/mol).</li>
+        <li>Inspect real gas pressure and compressibility factor Z.</li>
+      </ol>
+
+      <h2>Johannes Diderik van der Waals 1873 Nobel Prize Equation</h2>
+      <p>Corrects the ideal gas law for finite molecular volume ($V_m - b$) and intermolecular attractive forces ($P + a/V_m^2$), predicting gas liquefaction and critical point phenomena.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the critical compressibility factor Z_c predicted by Van der Waals?</summary>
+        <p>The Van der Waals equation universally predicts a critical compressibility factor $Z_c = rac{P_c V_c}{R T_c} = rac{3}{8} = 0.375$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/van-der-waals-real-gas-equation-state-compressibility-calculator/tool.js"></script>
+</body>
+</html>

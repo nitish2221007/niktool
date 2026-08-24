@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 142cm, Weight 56kg)",
+  "description": "Calculate Body Mass Index (BMI 27.8) for height 142 cm and weight 56 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-142cm-weight-56kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 142cm weight 56kg",
+    "BMI Calculator (Height 142cm, Weight 56kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

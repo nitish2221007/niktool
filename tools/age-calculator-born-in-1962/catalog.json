@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in 1962)",
+  "description": "Calculate exact age (64 years old in 2026) for someone born in year 1962.",
+  "path": "/tools/age-calculator-born-in-1962/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in 1962",
+    "Age Calculator (Born in 1962)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

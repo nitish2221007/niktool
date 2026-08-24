@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 4mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 1125000 W) across 4mm steel wall at ΔT=90°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-90c-thickness-4mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 90c thickness 4mm",
+    "Thermal Heat Conduction Calculator (ΔT=90°C, Thick 4mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

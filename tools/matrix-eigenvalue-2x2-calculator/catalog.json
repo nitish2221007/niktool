@@ -1,0 +1,15 @@
+{
+  "name": "2x2 Matrix Eigenvalues & Eigenvectors Calculator",
+  "description": "Calculate real or complex eigenvalues (λ₁, λ₂), matrix trace, and determinant for 2×2 square transformation matrices.",
+  "path": "/tools/matrix-eigenvalue-2x2-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "eigenvalue calculator 2x2",
+    "matrix trace determinant eigenvalues",
+    "characteristic equation 2x2 matrix",
+    "linear algebra eigenvalue solver",
+    "eigenvalues online calculator"
+  ],
+  "order": 275
+}

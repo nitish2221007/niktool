@@ -1,0 +1,15 @@
+{
+  "name": "Convert 9pt to PX",
+  "description": "Convert 9 points (pt) to pixels (12.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-9pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 9pt to px",
+    "Convert 9pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

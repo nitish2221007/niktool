@@ -1,0 +1,15 @@
+{
+  "name": "Sound Distance Inverse-Square Law (dB Loss) Calculator",
+  "description": "Calculate acoustic sound pressure level drop (SPL₂ = SPL₁ - 20 · log₁₀(d₂ / d₁)) and inverse-square sound attenuation across distance.",
+  "path": "/tools/sound-distance-attenuation-inverse-square-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "sound distance attenuation calculator",
+    "inverse square law sound calculator",
+    "spl decibel distance loss formula",
+    "audio db drop with distance online",
+    "acoustic distance 6 db rule"
+  ],
+  "order": 376
+}

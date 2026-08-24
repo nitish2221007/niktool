@@ -1,0 +1,15 @@
+{
+  "name": "Convert 51°F Fahrenheit to Celsius Temp",
+  "description": "Convert 51 degrees Fahrenheit (°F) to Celsius (10.6°C) instantly.",
+  "path": "/tools/convert-51-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 51 fahrenheit to celsius temp",
+    "Convert 51°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

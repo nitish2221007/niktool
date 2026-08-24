@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 48 Units)",
+  "description": "Calculate the exact area of a circle with radius 48 units (A = πr² = 7238.23).",
+  "path": "/tools/area-of-circle-radius-48-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 48 units",
+    "Area of Circle (Radius 48 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

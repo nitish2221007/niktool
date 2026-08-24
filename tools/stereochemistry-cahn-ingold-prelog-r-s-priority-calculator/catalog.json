@@ -1,0 +1,15 @@
+{
+  "name": "Organic Chemistry Cahn-Ingold-Prelog (CIP R/S) Stereocenter Priority Calculator",
+  "description": "Determine chiral stereocenter absolute spatial configuration (Rectus R = Clockwise 1 to 2 to 3 vs Sinister S = Counter-Clockwise) using Cahn-Ingold-Prelog (CIP) atomic number priority rules with lowest priority group #4 in back.",
+  "path": "/tools/stereochemistry-cahn-ingold-prelog-r-s-priority-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cahn ingold prelog calculator",
+    "cip r s configuration stereochemistry priority calculator online",
+    "chiral center r s configuration solver organic chemistry",
+    "clockwise rectus counter clockwise sinister calculator",
+    "stereoisomers enantiomers r s priority online"
+  ],
+  "order": 922
+}

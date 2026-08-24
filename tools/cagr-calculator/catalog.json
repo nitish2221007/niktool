@@ -1,0 +1,16 @@
+{
+  "name": "CAGR Calculator",
+  "description": "Calculate Compound Annual Growth Rate (CAGR), absolute return, and investment doubling time with annualized growth breakdown.",
+  "path": "/tools/cagr-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "cagr calculator",
+    "compound annual growth rate",
+    "annualized return calculator",
+    "investment cagr",
+    "mutual fund cagr",
+    "cagr formula online"
+  ],
+  "order": 45
+}

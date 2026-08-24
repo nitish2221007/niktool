@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=150Ω, R2=80Ω)",
+  "description": "Calculate Series Equivalent (230 Ω) and Parallel Equivalent (52.17 Ω) for resistors R1=150Ω and R2=80Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-150ohm-r2-80ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 150ohm r2 80ohm",
+    "Resistor Circuit Calculator (R1=150Ω, R2=80Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (770 km Distance, 21 km/l Mileage)",
+  "description": "Calculate fuel needed (36.7 L) and cost (₹3542) for 770 km trip at 21 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-770km-mileage-21kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 770km mileage 21kmpl",
+    "Fuel Cost Trip Calculator (770 km Distance, 21 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

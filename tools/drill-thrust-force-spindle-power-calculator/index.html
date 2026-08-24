@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CNC Spindle Cutting Power & Machinability Power Requirement Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate net spindle motor horsepower and kilowatts (P = MRR · K_p / η) required to machine Aluminum, Steel, Titanium, and Cast Iron from unit power coefficients K_p.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/drill-thrust-force-spindle-power-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CNC Spindle Cutting Power & Machinability Power Requirement Calculator | NikTool">
+  <meta property="og:description" content="Calculate net spindle motor horsepower and kilowatts (P = MRR · K_p / η) required to machine Aluminum, Steel, Titanium, and Cast Iron from unit power coefficients K_p.">
+  <meta property="og:url" content="https://niktool.in/tools/drill-thrust-force-spindle-power-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "CNC Spindle Cutting Power & Machinability Power Requirement Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/drill-thrust-force-spindle-power-calculator/",
+        "description": "Calculate net spindle motor horsepower and kilowatts (P = MRR · K_p / η) required to machine Aluminum, Steel, Titanium, and Cast Iron from unit power coefficients K_p.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is unit power coefficient K_p?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "K_p is the specific horsepower required to machine away 1 cubic inch of material in 1 minute (HP = MRR · K_p)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>CNC Spindle Cutting Power & Machinability Power Requirement Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>CNC Spindle Cutting Power & Machinability Power Requirement Calculator</h1>
+      <p>Calculate net spindle motor horsepower and kilowatts (P = MRR · K_p / η) required to machine Aluminum, Steel, Titanium, and Cast Iron from unit power coefficients K_p.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Material Workpiece, Material Removal Rate MRR (in³/min) & Spindle Efficiency η (%)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sp-mat">Workpiece Material (K_p)</label>
+          <select class="tool-textarea" id="sp-mat">
+            <option value="0.25">Aluminum Alloys 6061/7075 (K_p = 0.25 HP/in³/min)</option>
+            <option value="0.50">Brass & Bronze Alloys (K_p = 0.50 HP/in³/min)</option>
+            <option value="0.75">Cast Iron (K_p = 0.75 HP/in³/min)</option>
+            <option value="1.00" selected>Carbon & Alloy Steels (K_p = 1.00 HP/in³/min)</option>
+            <option value="1.40">Stainless Steel 304/316 (K_p = 1.40 HP/in³/min)</option>
+            <option value="1.75">Titanium Ti-6Al-4V / Inconel (K_p = 1.75 HP/in³/min)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-mrr">MRR (in³ / min)</label>
+          <input class="tool-textarea" id="sp-mrr" type="number" step="any" value="6.0" placeholder="6.0 in³/min" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-eta">Drivetrain Efficiency η (%)</label>
+          <input class="tool-textarea" id="sp-eta" type="number" step="1" value="80" placeholder="80% Spindle Mechanical Eff" />
+        </div>
+      </div>
+      <div id="sp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sp-res-hp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">7.50 HP (5.59 kW)</span>
+            <span class="stat-label">Required Spindle Motor Power (P_motor)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sp-res-cut" style="font-weight:700;">Cut Power: 6.00 HP | Torque @ 4000 RPM: 9.8 ft·lbs</span>
+            <span class="stat-label">Net Tool-Tip Power & Spindle Torque</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use CNC Spindle Cutting Power & Machinability Power Requirement Calculator</h2>
+      <ol>
+        <li>Select workpiece material unit power coefficient K_p (Aluminum, Carbon Steel, Stainless, Titanium).</li>
+        <li>Enter volumetric metal removal rate MRR in in³/min.</li>
+        <li>Enter spindle electrical/mechanical transmission efficiency percentage η (typically 80% to 85%).</li>
+        <li>Inspect required spindle motor electrical horsepower (HP) and kilowatts (kW).</li>
+      </ol>
+
+      <h2>Specific Cutting Energy & Spindle Sizing</h2>
+      <p>Different metal crystal structures require distinct specific cutting energies; cutting Titanium requires 7 times more spindle horsepower per cubic inch removed than Aluminum.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is unit power coefficient K_p?</summary>
+        <p>K_p is the specific horsepower required to machine away 1 cubic inch of material in 1 minute (HP = MRR · K_p).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/drill-thrust-force-spindle-power-calculator/tool.js"></script>
+</body>
+</html>

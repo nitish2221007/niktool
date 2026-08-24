@@ -1,0 +1,15 @@
+{
+  "name": "Triangular Prism Volume & Surface Area Calculator",
+  "description": "Calculate 3D volume (V = ½ · b · h · L), base area, lateral area, and total surface area for right triangular prisms.",
+  "path": "/tools/triangular-prism-volume-surface-area-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "triangular prism calculator",
+    "volume of triangular prism formula",
+    "surface area triangular prism online",
+    "right triangular prism geometry",
+    "prism volume calculator"
+  ],
+  "order": 254
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=230Ω, R2=180Ω)",
+  "description": "Calculate Series Equivalent (410 Ω) and Parallel Equivalent (100.98 Ω) for resistors R1=230Ω and R2=180Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-230ohm-r2-180ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 230ohm r2 180ohm",
+    "Resistor Circuit Calculator (R1=230Ω, R2=180Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

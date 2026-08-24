@@ -1,0 +1,15 @@
+{
+  "name": "Korean Freelancer 3.3% Withholding Tax Calculator (3.3% 세금)",
+  "description": "Calculate net payout and 3.3% income tax withholding for Korean freelancers.",
+  "path": "/tools/korean-freelancer-3-3-percent-tax-calculator/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "korean freelancer 3 3 percent tax calculator",
+    "Korean Freelancer 3.3% Withholding Tax Calculator (3.3% 세금)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

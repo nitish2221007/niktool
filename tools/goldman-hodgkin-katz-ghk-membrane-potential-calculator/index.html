@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate multi-ion biological cell resting membrane potential (V_m = (RT/F) · ln((P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o))) in mV.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/goldman-hodgkin-katz-ghk-membrane-potential-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator | NikTool">
+  <meta property="og:description" content="Calculate multi-ion biological cell resting membrane potential (V_m = (RT/F) · ln((P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o))) in mV.">
+  <meta property="og:url" content="https://niktool.in/tools/goldman-hodgkin-katz-ghk-membrane-potential-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/goldman-hodgkin-katz-ghk-membrane-potential-calculator/",
+        "description": "Calculate multi-ion biological cell resting membrane potential (V_m = (RT/F) · ln((P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o))) in mV.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why are chloride concentrations flipped in the GHK equation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because chloride is a negatively charged anion ($z = -1$), its intracellular concentration appears in the numerator and extracellular concentration in the denominator."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator</h1>
+      <p>Calculate multi-ion biological cell resting membrane potential (V_m = (RT/F) · ln((P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o))) in mV.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Extracellular & Intracellular Concentrations (mM) and Relative Permeabilities (P_K=1, P_Na=0.04, P_Cl=0.45)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ghk-ko">[K⁺]_out (mM)</label>
+          <input class="tool-textarea" id="ghk-ko" type="number" step="any" value="4.5" placeholder="4.5 mM" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ghk-ki">[K⁺]_in (mM)</label>
+          <input class="tool-textarea" id="ghk-ki" type="number" step="any" value="140.0" placeholder="140.0 mM" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ghk-nao">[Na⁺]_out (mM)</label>
+          <input class="tool-textarea" id="ghk-nao" type="number" step="any" value="145.0" placeholder="145.0 mM" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ghk-nai">[Na⁺]_in (mM)</label>
+          <input class="tool-textarea" id="ghk-nai" type="number" step="any" value="12.0" placeholder="12.0 mM" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ghk-pna">P_Na / P_K Ratio</label>
+          <input class="tool-textarea" id="ghk-pna" type="number" step="0.01" value="0.04" placeholder="0.04 (Resting)" />
+        </div>
+      </div>
+      <div id="ghk-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ghk-res-vm" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">V_m = -70.4 mV Resting</span>
+            <span class="stat-label">Steady-State Resting Membrane Potential (V_m)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ghk-res-nernst" style="font-weight:700;">E_K = -92.1 mV | E_Na = +66.7 mV | E_Cl = -76.8 mV (37°C Body Temp)</span>
+            <span class="stat-label">Individual Nernst Equilibrium Potentials</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator</h2>
+      <ol>
+        <li>Enter extracellular $[K^+]_o$ and intracellular $[K^+]_i$ concentrations in mM (typically 4.5 mM out, 140 mM in).</li>
+        <li>Enter extracellular $[Na^+]_o$ and intracellular $[Na^+]_i$ concentrations in mM (typically 145 mM out, 12 mM in).</li>
+        <li>Enter relative sodium-to-potassium membrane permeability ratio $P_{Na}/P_K$ (0.04 at rest, 20.0 at peak action potential).</li>
+        <li>Inspect steady-state resting membrane potential $V_m$ in millivolts and compare against individual Nernst equilibrium potentials.</li>
+      </ol>
+
+      <h2>David Goldman 1943 & Hodgkin-Katz 1949 Multi-Ion Electrophysiology</h2>
+      <p>Because cell membranes at rest are 25× more permeable to potassium than sodium ($P_K gg P_{Na}$), the resting potential sits near the potassium Nernst potential ($E_K sim -90	ext{ mV}$); hyperkalemia (high blood potassium) depolarizes $V_m$, triggering fatal cardiac arrhythmias.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why are chloride concentrations flipped in the GHK equation?</summary>
+        <p>Because chloride is a negatively charged anion ($z = -1$), its intracellular concentration appears in the numerator and extracellular concentration in the denominator.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/goldman-hodgkin-katz-ghk-membrane-potential-calculator/tool.js"></script>
+</body>
+</html>

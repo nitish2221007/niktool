@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate liquid equilibrium vapor pressure (P₂ = P₁ · e^[-ΔH_vap/R · (1/T₂ - 1/T₁)]) in kPa/bar and boiling point shifts at reduced pressure (vacuum distillation) or high elevation for chemistry courses.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/clausius-clapeyron-vapor-pressure-boiling-point-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate liquid equilibrium vapor pressure (P₂ = P₁ · e^[-ΔH_vap/R · (1/T₂ - 1/T₁)]) in kPa/bar and boiling point shifts at reduced pressure (vacuum distillation) or high elevation for chemistry courses.">
+  <meta property="og:url" content="https://niktool.in/tools/clausius-clapeyron-vapor-pressure-boiling-point-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/clausius-clapeyron-vapor-pressure-boiling-point-calculator/",
+        "description": "Calculate liquid equilibrium vapor pressure (P₂ = P₁ · e^[-ΔH_vap/R · (1/T₂ - 1/T₁)]) in kPa/bar and boiling point shifts at reduced pressure (vacuum distillation) or high elevation for chemistry courses.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does water boil at lower temperatures at high altitudes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Atmospheric pressure is lower at high altitudes; boiling occurs when saturated vapor pressure equals ambient atmospheric pressure."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator</h1>
+      <p>Calculate liquid equilibrium vapor pressure (P₂ = P₁ · e^[-ΔH_vap/R · (1/T₂ - 1/T₁)]) in kPa/bar and boiling point shifts at reduced pressure (vacuum distillation) or high elevation for chemistry courses.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Enthalpy of Vaporization ΔH_vap (kJ/mol), Known Reference (T₁ in K, P₁ in kPa) & Target Temp T₂ (K)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="cc-dh">ΔH_vap (kJ/mol)</label>
+          <input class="tool-textarea" id="cc-dh" type="number" step="2" value="40.66" placeholder="40.66 kJ/mol (Water)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cc-t1">Normal B.P. T₁ (K)</label>
+          <input class="tool-textarea" id="cc-t1" type="number" step="5" value="373.15" placeholder="373.15 K (100°C)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cc-p1">Reference P₁ (kPa)</label>
+          <input class="tool-textarea" id="cc-p1" type="number" step="1" value="101.325" placeholder="101.325 kPa (1 atm)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cc-t2">Target Temp T₂ (K)</label>
+          <input class="tool-textarea" id="cc-t2" type="number" step="5" value="353.15" placeholder="353.15 K (80°C)" />
+        </div>
+      </div>
+      <div id="cc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="cc-res-p2" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Vapor Pressure P₂ = 47.33 kPa</span>
+            <span class="stat-label">Equilibrium Saturated Vapor Pressure at T₂</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="cc-res-bar" style="color:var(--green-dark); font-weight:700;">P₂ = 0.467 atm (355.0 mmHg) | Boiling occurs when ambient pressure drops to 47.33 kPa</span>
+            <span class="stat-label">Vacuum Distillation & Phase Transition Equilibrium</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator</h2>
+      <ol>
+        <li>Enter molar enthalpy of vaporization $Delta H_{	ext{vap}}$ in kJ/mol (e.g. 40.66 kJ/mol for water, 38.56 kJ/mol for ethanol).</li>
+        <li>Enter normal boiling point reference temperature $T_1$ in Kelvin at standard atmospheric pressure $P_1$ (101.325 kPa).</li>
+        <li>Enter target operating temperature $T_2$ in Kelvin.</li>
+        <li>Inspect equilibrium vapor pressure $P_2$ in kPa, atmospheres, and mmHg.</li>
+      </ol>
+
+      <h2>Rudolf Clausius & Benoît Paul Émile Clapeyron 1834 Equation</h2>
+      <p>The Clausius-Clapeyron equation describes exponential growth of saturated vapor pressure with temperature ($rac{d ln P}{dT} = rac{Delta H_{	ext{vap}}}{RT^2}$), forming the engineering foundation of vacuum rotary evaporation and steam turbine power plants.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does water boil at lower temperatures at high altitudes?</summary>
+        <p>Atmospheric pressure is lower at high altitudes; boiling occurs when saturated vapor pressure equals ambient atmospheric pressure.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/clausius-clapeyron-vapor-pressure-boiling-point-calculator/tool.js"></script>
+</body>
+</html>

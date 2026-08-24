@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=240Ω, R2=70Ω)",
+  "description": "Calculate Series Equivalent (310 Ω) and Parallel Equivalent (54.19 Ω) for resistors R1=240Ω and R2=70Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-240ohm-r2-70ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 240ohm r2 70ohm",
+    "Resistor Circuit Calculator (R1=240Ω, R2=70Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 Meter to Feet",
+  "description": "Convert 1 meter (m) to feet (ft) instantly (3.28 ft). 100% free and local.",
+  "path": "/tools/convert-1-meter-to-feet/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 1 meter to feet",
+    "Convert 1 Meter to Feet",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

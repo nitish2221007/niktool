@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (910 km Distance, 14 km/l Mileage)",
+  "description": "Calculate fuel needed (65.0 L) and cost (₹6273) for 910 km trip at 14 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-910km-mileage-14kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 910km mileage 14kmpl",
+    "Fuel Cost Trip Calculator (910 km Distance, 14 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

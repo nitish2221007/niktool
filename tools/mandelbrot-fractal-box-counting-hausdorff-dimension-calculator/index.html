@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fractal Box-Counting Hausdorff Dimension (D₀) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate fractal geometry capacity Hausdorff Box-Counting Dimension (D₀ = lim (ln N(ε) / ln(1/ε))) across Coastlines, Sierpiński Triangles (D = 1.585), Koch Snowflakes (D = 1.262), and Mandelbrot boundaries (D = 2.000).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/mandelbrot-fractal-box-counting-hausdorff-dimension-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fractal Box-Counting Hausdorff Dimension (D₀) Calculator | NikTool">
+  <meta property="og:description" content="Calculate fractal geometry capacity Hausdorff Box-Counting Dimension (D₀ = lim (ln N(ε) / ln(1/ε))) across Coastlines, Sierpiński Triangles (D = 1.585), Koch Snowflakes (D = 1.262), and Mandelbrot boundaries (D = 2.000).">
+  <meta property="og:url" content="https://niktool.in/tools/mandelbrot-fractal-box-counting-hausdorff-dimension-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Fractal Box-Counting Hausdorff Dimension (D₀) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/mandelbrot-fractal-box-counting-hausdorff-dimension-calculator/",
+        "description": "Calculate fractal geometry capacity Hausdorff Box-Counting Dimension (D₀ = lim (ln N(ε) / ln(1/ε))) across Coastlines, Sierpiński Triangles (D = 1.585), Koch Snowflakes (D = 1.262), and Mandelbrot boundaries (D = 2.000).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the fractal dimension of the Mandelbrot Set boundary?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Mitsuhiro Shishikura proved in 1998 that the boundary of the Mandelbrot Set has a Hausdorff dimension of exactly $D = 2.000$, making it maximally rough."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Fractal Box-Counting Hausdorff Dimension (D₀) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Fractal Box-Counting Hausdorff Dimension (D₀) Calculator</h1>
+      <p>Calculate fractal geometry capacity Hausdorff Box-Counting Dimension (D₀ = lim (ln N(ε) / ln(1/ε))) across Coastlines, Sierpiński Triangles (D = 1.585), Koch Snowflakes (D = 1.262), and Mandelbrot boundaries (D = 2.000).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Benchmark Fractal Pattern Selection or Custom Box Counts N(ε) & Grid Scale (1/ε)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bx-fractal">Fractal Pattern</label>
+          <select class="tool-textarea" id="bx-fractal">
+            <option value="koch" selected>Koch Snowflake Curve (N = 4, Scale 1/ε = 3: D = ln 4 / ln 3 = 1.262)</option>
+            <option value="sierpinski">Sierpiński Triangle (N = 3, Scale 1/ε = 2: D = ln 3 / ln 2 = 1.585)</option>
+            <option value="cantor">Cantor Dust Set (N = 2, Scale 1/ε = 3: D = ln 2 / ln 3 = 0.631)</option>
+            <option value="menger">Menger Sponge 3D (N = 20, Scale 1/ε = 3: D = ln 20 / ln 3 = 2.727)</option>
+            <option value="britain">Coastline of Britain (Empirical Richardson Law: D ≈ 1.25)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bx-scale">Magnification Level</label>
+          <input class="tool-textarea" id="bx-scale" type="number" step="1" min="1" max="10" value="4" placeholder="4 Iteration Steps" />
+        </div>
+      </div>
+      <div id="bx-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bx-res-dim" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">D₀ = 1.2619 Hausdorff Dimension</span>
+            <span class="stat-label">Fractal Box-Counting Self-Similarity Dimension (D₀)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bx-res-stat" style="color:var(--green-dark); font-weight:700;">Iteration 4: N = 256 sub-segments at scale 1/81 (Boundary length L -> ∞ as ε -> 0)</span>
+            <span class="stat-label">Self-Similar Scaling Behavior & Coastline Paradox</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Fractal Box-Counting Hausdorff Dimension (D₀) Calculator</h2>
+      <ol>
+        <li>Select classic fractal mathematical geometry (Koch Snowflake, Sierpiński Triangle, Cantor Set, Menger Sponge, Coastline of Britain).</li>
+        <li>Enter recursive fractal iteration depth level.</li>
+        <li>Inspect exact Hausdorff fractal dimension $D_0 = rac{ln N}{ln(1/epsilon)}$ and total box count coverage.</li>
+      </ol>
+
+      <h2>Benoit Mandelbrot 1977 Fractal Geometry of Nature</h2>
+      <p>Standard Euclidean geometry fails for rough natural objects ($D_{	ext{line}}=1, D_{	ext{surface}}=2$); fractal dimensions quantify spatial self-similarity across scales, resolving the Coastline Paradox where measured boundary lengths approach infinity ($L 	o infty$) as ruler size shrinks ($epsilon 	o 0$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the fractal dimension of the Mandelbrot Set boundary?</summary>
+        <p>Mitsuhiro Shishikura proved in 1998 that the boundary of the Mandelbrot Set has a Hausdorff dimension of exactly $D = 2.000$, making it maximally rough.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/mandelbrot-fractal-box-counting-hausdorff-dimension-calculator/tool.js"></script>
+</body>
+</html>

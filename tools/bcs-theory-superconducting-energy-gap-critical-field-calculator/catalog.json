@@ -1,0 +1,15 @@
+{
+  "name": "BCS Superconducting Energy Gap (Δ₀ = 1.764·k_B·T_c) & Critical Field Calculator",
+  "description": "Calculate Bardeen-Cooper-Schrieffer (BCS) superconducting energy gap (Δ₀ = 1.764 · k_B · T_c) in meV and thermodynamic critical magnetic field (H_c(T) = H_c(0) · [1 - (T/T_c)²]) in Tesla.",
+  "path": "/tools/bcs-theory-superconducting-energy-gap-critical-field-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bcs theory calculator",
+    "superconducting energy gap formula delta equals 1.764 kb tc",
+    "critical magnetic field temperature dependence calculator online",
+    "cooper pair binding energy superconductor calculator",
+    "nb3sn nbti ybco critical temperature online"
+  ],
+  "order": 778
+}

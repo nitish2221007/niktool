@@ -1,0 +1,15 @@
+{
+  "name": "Economic Order Quantity (EOQ = √(2·D·S / H)) & Inventory Holding Cost Calculator",
+  "description": "Calculate supply chain Economic Order Quantity (EOQ = √(2·D·S / H)) in units, annual order frequency, reorder point (ROP), and minimized total inventory holding and ordering costs for business and operations research students.",
+  "path": "/tools/economic-order-quantity-eoq-holding-cost-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "eoq calculator",
+    "economic order quantity formula sqrt 2 d s over h online",
+    "inventory holding cost ordering cost optimization calculator",
+    "reorder point rop lead time calculator",
+    "operations management eoq inventory calculator online"
+  ],
+  "order": 919
+}

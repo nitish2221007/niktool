@@ -1,0 +1,15 @@
+{
+  "name": "Reinforcing Steel Rebar Weight & Sizing Calculator",
+  "description": "Calculate total linear weight (lbs and kg) for standard ASTM reinforcing steel rebar sizes (#3 to #10) across total rod lengths.",
+  "path": "/tools/rebar-weight-reinforcement-steel-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "rebar weight calculator",
+    "rebar weight per foot chart",
+    "astm rebar size weight calculator",
+    "reinforcement steel weight formula",
+    "metric rebar weight kg per meter"
+  ],
+  "order": 331
+}

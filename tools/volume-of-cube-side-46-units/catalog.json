@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cube (Side 46 Units)",
+  "description": "Calculate the volume of a 3D cube with side length 46 units (V = a³ = 97336).",
+  "path": "/tools/volume-of-cube-side-46-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cube side 46 units",
+    "Volume of Cube (Side 46 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

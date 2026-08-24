@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matrix Determinant Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 2x2 and 3x3 matrix determinants with step-by-step cofactor expansion and matrix singularity checking.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/matrix-determinant-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Matrix Determinant Calculator | NikTool">
+  <meta property="og:description" content="Calculate 2x2 and 3x3 matrix determinants with step-by-step cofactor expansion and matrix singularity checking.">
+  <meta property="og:url" content="https://niktool.in/tools/matrix-determinant-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Matrix Determinant Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/matrix-determinant-calculator/",
+        "description": "Calculate 2x2 and 3x3 matrix determinants with step-by-step cofactor expansion and matrix singularity checking.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a singular matrix?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A singular matrix is a square matrix whose determinant is zero, meaning it has no multiplicative inverse."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Matrix Determinant Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Matrix Determinant Calculator</h1>
+      <p>Calculate 2x2 and 3x3 matrix determinants with step-by-step cofactor expansion and matrix singularity checking.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">3x3 Matrix Grid</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:0.6rem; max-width:320px; margin:0 auto;">
+        <input class="tool-textarea" id="m00" type="number" step="any" placeholder="a11" style="text-align:center;" />
+        <input class="tool-textarea" id="m01" type="number" step="any" placeholder="a12" style="text-align:center;" />
+        <input class="tool-textarea" id="m02" type="number" step="any" placeholder="a13" style="text-align:center;" />
+        <input class="tool-textarea" id="m10" type="number" step="any" placeholder="a21" style="text-align:center;" />
+        <input class="tool-textarea" id="m11" type="number" step="any" placeholder="a22" style="text-align:center;" />
+        <input class="tool-textarea" id="m12" type="number" step="any" placeholder="a23" style="text-align:center;" />
+        <input class="tool-textarea" id="m20" type="number" step="any" placeholder="a31" style="text-align:center;" />
+        <input class="tool-textarea" id="m21" type="number" step="any" placeholder="a32" style="text-align:center;" />
+        <input class="tool-textarea" id="m22" type="number" step="any" placeholder="a33" style="text-align:center;" />
+      </div>
+      <div id="mat-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mat-res-det" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">-</span>
+            <span class="stat-label">Determinant det(A) or |A|</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mat-res-status" style="font-weight:700;">-</span>
+            <span class="stat-label">Invertibility Status</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Matrix Determinant Calculator</h2>
+      <ol>
+        <li>Enter all 9 numbers into the 3x3 matrix grid.</li>
+        <li>Click <strong>Calculate</strong> to inspect the determinant and invertibility status.</li>
+      </ol>
+
+      <h2>Laplace Matrix Expansion</h2>
+      <p>The determinant of a 3x3 matrix represents the scaling factor of the volume transformation. If det(A) = 0, the matrix collapses space and is non-invertible.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a singular matrix?</summary>
+        <p>A singular matrix is a square matrix whose determinant is zero, meaning it has no multiplicative inverse.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/matrix-determinant-calculator/tool.js"></script>
+</body>
+</html>

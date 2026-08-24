@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 105V, Current 6A)",
+  "description": "Calculate Resistance (17.50 Ω) and Electric Power (630.0 W) for 105V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-105v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 105v current 6a",
+    "Ohm's Law Calculator (Voltage 105V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Convert PNG to WebP Online",
+  "description": "Convert PNG images to lightweight WebP format to speed up your website. 100% free and local.",
+  "path": "/tools/convert-png-to-webp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert png to webp",
+    "Convert PNG to WebP Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 5px to REM",
+  "description": "Convert 5 pixels (px) to REM units based on 16px root font size (0.3125rem).",
+  "path": "/tools/convert-5px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 5px to rem",
+    "Convert 5px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

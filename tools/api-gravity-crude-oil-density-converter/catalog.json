@@ -1,0 +1,15 @@
+{
+  "name": "API Gravity to Specific Gravity & Crude Oil Density Converter",
+  "description": "Convert crude oil density between American Petroleum Institute gravity (°API = (141.5 / SG) - 131.5), Specific Gravity (SG at 60°F), and density (kg/m³, lb/gal).",
+  "path": "/tools/api-gravity-crude-oil-density-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "api gravity calculator",
+    "api to specific gravity formula",
+    "crude oil density converter online",
+    "brent wti api gravity calculator",
+    "heavy crude light sweet api calculator"
+  ],
+  "order": 466
+}

@@ -1,0 +1,15 @@
+{
+  "name": "MAC Address Formatter & OUI Parser",
+  "description": "Format MAC hardware addresses into Colon (00:1A:2B:3C:4D:5E), Hyphen (00-1A-2B-3C-4D-5E), Cisco Dot (001a.2b3c.4d5e), and Bare Hex notations.",
+  "path": "/tools/mac-address-formatter-lookup/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "mac address formatter",
+    "mac address converter",
+    "cisco mac address format",
+    "mac oui prefix lookup online",
+    "network hardware mac address cleaner"
+  ],
+  "order": 291
+}

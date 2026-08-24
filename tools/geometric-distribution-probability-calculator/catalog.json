@@ -1,0 +1,15 @@
+{
+  "name": "Geometric Distribution (Trials to First Success) Calculator",
+  "description": "Calculate geometric probability (P(X = k) = (1 - p)^(k - 1) · p), cumulative probability P(X ≤ k), and expected number of trials until the first success (E[X] = 1 / p).",
+  "path": "/tools/geometric-distribution-probability-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "geometric distribution calculator",
+    "trials until first success formula",
+    "geometric probability calculator online",
+    "1 minus p to the k minus 1 p online",
+    "memoryless distribution calculator"
+  ],
+  "order": 428
+}

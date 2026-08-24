@@ -1,0 +1,15 @@
+{
+  "name": "Convert 38 KM/H to MPH Speed",
+  "description": "Convert 38 kilometers per hour (km/h) to miles per hour (23.61 mph).",
+  "path": "/tools/convert-38-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 38 kmh to mph speed",
+    "Convert 38 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

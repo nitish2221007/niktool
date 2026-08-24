@@ -1,0 +1,15 @@
+{
+  "name": "Convert 50 KB to Bytes Data",
+  "description": "Convert 50 Kilobytes (KB) to Bytes (51200 bytes). 100% free and local.",
+  "path": "/tools/convert-50-kb-to-bytes-data/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 50 kb to bytes data",
+    "Convert 50 KB to Bytes Data",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

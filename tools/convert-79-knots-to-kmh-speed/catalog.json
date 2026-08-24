@@ -1,0 +1,15 @@
+{
+  "name": "Convert 79 Knots to KM/H Speed",
+  "description": "Convert 79 knots speed to kilometers per hour (146.31 km/h).",
+  "path": "/tools/convert-79-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 79 knots to kmh speed",
+    "Convert 79 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

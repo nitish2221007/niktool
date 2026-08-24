@@ -1,0 +1,15 @@
+{
+  "name": "Deadweight Loss of Taxation (Harberger Triangle) Calculator",
+  "description": "Calculate economic deadweight loss (DWL = ½ · Tax · ΔQ) and total tax revenue generated from excise tax per unit, supply/demand elasticity, and quantity reduction.",
+  "path": "/tools/deadweight-loss-taxation-triangle-calculator/",
+  "category": "Finance",
+  "icon": "chart",
+  "keywords": [
+    "deadweight loss calculator",
+    "harberger triangle tax deadweight loss formula",
+    "half tax delta q calculator",
+    "tax revenue vs deadweight loss online",
+    "welfare economics excess burden calculator"
+  ],
+  "order": 492
+}

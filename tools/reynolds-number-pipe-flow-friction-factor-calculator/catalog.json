@@ -1,0 +1,15 @@
+{
+  "name": "Reynolds Number (Re = ρ·v·D / μ) & Darcy-Weisbach Pipe Friction Factor Calculator",
+  "description": "Calculate pipe flow Reynolds Number (Re = ρ·v·D / μ), flow regime (Laminar, Transitional, Turbulent), and Darcy-Weisbach friction factor f (Colebrook-White & Churchill equations) for hydraulic engineering.",
+  "path": "/tools/reynolds-number-pipe-flow-friction-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "reynolds number calculator",
+    "darcy weisbach friction factor formula colebrook online",
+    "pipe flow laminar turbulent reynolds calculator",
+    "hydraulic head loss friction factor calculator",
+    "fluid mechanics chemical engineering pipe hydraulics online"
+  ],
+  "order": 1237
+}

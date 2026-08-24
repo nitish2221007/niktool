@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Polymer Melt Flow Index (MFI / MFR) & Capillary Shear Rate Calculator",
+    "description": "Calculate standard ASTM D1238 polymer Melt Flow Index (MFI in g/10min), volumetric extrusion rate Q, and apparent capillary die wall shear rate (γ̇_w = 4·Q / (π·R³)).",
+    "path": "/tools/polymer-melt-flow-index-mfi-shear-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "melt flow index calculator",
+      "mfi mfr formula astm d1238 online",
+      "capillary wall shear rate mfi calculator online",
+      "polymer rheometer melt flow rate calculator",
+      "polyethylene melt flow index viscosity online"
+    ]
+  },
+  {
+    "name": "Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator",
+    "description": "Calculate microfluidic rectangular channel laminar hydraulic resistance (R_h ≈ 12·μ·L / (w·h³ · (1 - 0.63·h/w))) in Pa·s/m³ and pressure drop ΔP across Lab-on-a-Chip channels.",
+    "path": "/tools/microfluidic-rectangular-channel-hydraulic-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "microfluidic hydraulic resistance calculator",
+      "rectangular channel flow resistance formula online",
+      "lab on a chip pressure drop calculator online",
+      "poiseuille flow rectangular microchannel calculator",
+      "microfluidics flow rate pressure drop online"
+    ]
+  },
+  {
+    "name": "Capillary Action & Jurin's Law Meniscus Rise Height Calculator",
+    "description": "Calculate capillary tube liquid rise height (h = (2·γ·cos θ) / (ρ·g·r)) in mm and capillary Laplace pressure differential (ΔP = 2·γ·cos θ / r) from surface tension and contact angle.",
+    "path": "/tools/capillary-action-jurins-law-meniscus-height-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "jurins law calculator",
+      "capillary action rise height formula 2 gamma cos theta over rho g r",
+      "surface tension capillary tube height calculator online",
+      "contact angle meniscus height calculator",
+      "microfluidics capillary pressure online"
+    ]
+  },
+  {
+    "name": "Droplet Microfluidics Capillary (Ca) & Weber (We) Number Calculator",
+    "description": "Calculate two-phase microfluidic droplet generation Capillary number (Ca = μ·v / γ) and Weber number (We = ρ·v²·L / γ) to predict Dripping vs Jetting regimes in T-junctions and flow-focusing devices.",
+    "path": "/tools/droplet-microfluidics-capillary-weber-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "droplet microfluidics calculator",
+      "capillary number formula ca equals mu v over gamma",
+      "weber number microfluidics calculator online",
+      "droplet generation dripping vs jetting calculator",
+      "flow focusing t junction microdroplets online"
+    ]
+  },
+  {
+    "name": "Dielectrophoresis (DEP) Cell Sorting & Trapping Force Calculator",
+    "description": "Calculate AC electric field Dielectrophoresis force on biological cells (F_DEP = 2π · ε_m · r³ · Re[K(ω)] · ∇|E|²) in piconewtons (pN) for positive/negative DEP separation.",
+    "path": "/tools/dielectrophoresis-dep-particle-trapping-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dielectrophoresis calculator",
+      "dep force formula biological cell sorting",
+      "clausius mossotti factor calculator online",
+      "ac electrokinetics cell trapping dep force calculator",
+      "microfluidic cell separation dielectrophoresis online"
+    ]
+  },
+  {
+    "name": "Péclet Number (Pe = v·w / D) & Microchannel Diffusive Mixing Length Calculator",
+    "description": "Calculate microfluidic mass transport Péclet number (Pe = v · w / D) and required laminar diffusive mixing channel length (L_mix ≈ w · Pe) in mm for small molecules and proteins.",
+    "path": "/tools/peclet-number-microfluidic-molecular-mixing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "peclet number calculator",
+      "microfluidic mixing length formula l mix equals w times pe",
+      "mass transport diffusion vs advection calculator",
+      "laminar flow diffusion channel length calculator online",
+      "lab on a chip molecular mixing online"
+    ]
+  },
+  {
+    "name": "Great Circle Haversine Distance & Initial Azimuth Bearing Calculator",
+    "description": "Calculate spherical Earth shortest great-circle navigation distance in kilometers/nautical miles and initial compass forward azimuth bearing between two GPS coordinates.",
+    "path": "/tools/great-circle-haversine-distance-bearing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "great circle distance calculator",
+      "haversine formula distance bearing gps online",
+      "flight distance nautical miles haversine calculator",
+      "initial bearing compass azimuth calculator online",
+      "geodesy navigation great circle online"
+    ]
+  },
+  {
+    "name": "GPS Dilution of Precision (GDOP / PDOP) Positioning Accuracy Calculator",
+    "description": "Calculate GNSS satellite constellation geometric quality (GDOP = √(PDOP² + TDOP²)) and total 3D user position accuracy error (3D Error = PDOP · UERE).",
+    "path": "/tools/gps-dilution-of-precision-gdop-pdop-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gps gdop pdop calculator",
+      "dilution of precision formula positioning error online",
+      "gnss satellite geometry pdop hdop vdop calculator",
+      "uere user equivalent range error gps calculator",
+      "satellite navigation positioning accuracy online"
+    ]
+  },
+  {
+    "name": "WGS84 Geodetic (Lat, Lon, Alt) to ECEF (X, Y, Z) Coordinate Converter",
+    "description": "Convert GPS WGS84 geodetic coordinates (Latitude φ, Longitude λ, Ellipsoidal Height h) into Earth-Centered Earth-Fixed (ECEF) 3D Cartesian coordinates (X, Y, Z) in meters.",
+    "path": "/tools/wgs84-ellipsoid-geodetic-to-ecef-coordinates-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wgs84 to ecef calculator",
+      "geodetic lat lon alt to ecef xyz formula online",
+      "earth centered earth fixed coordinate converter",
+      "gps wgs84 ellipsoid prime vertical radius calculator",
+      "geodesy aerospace coordinate transformation online"
+    ]
+  },
+  {
+    "name": "Earth Observation Satellite Swath Width & Ground Speed Calculator",
+    "description": "Calculate Earth observation remote sensing imaging swath width (Swath = 2 · R_E · arcsin(sin(FOV/2) · (R_E + h) / R_E) - FOV) and sub-satellite ground track velocity.",
+    "path": "/tools/satellite-ground-track-swath-width-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "satellite swath width calculator",
+      "earth observation field of view fov swath formula",
+      "satellite ground track velocity calculator online",
+      "remote sensing sensor swath width calculator",
+      "orbital ground speed earth observation online"
+    ]
+  },
+  {
+    "name": "Inertial Navigation System (INS) Dead-Reckoning Drift Error Calculator",
+    "description": "Calculate INS dead-reckoning navigation position drift error (x_drift = 1/2 · b_a · t² + 1/6 · b_g · g · t³) from accelerometer bias b_a (mg) and gyroscope bias drift b_g (°/hr).",
+    "path": "/tools/inertial-navigation-dead-reckoning-drift-error-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ins drift error calculator",
+      "inertial navigation system dead reckoning error formula",
+      "gyroscope bias drift position error calculator online",
+      "accelerometer bias position error ins calculator",
+      "imu navigation sensor drift online"
+    ]
+  },
+  {
+    "name": "Buck Step-Down Converter Inductor & Output Capacitor Sizing Calculator",
+    "description": "Calculate switch-mode Buck DC-DC converter duty cycle (D = V_out / V_in), critical filter inductance (L = V_out · (1 - D) / (ΔI_L · f_s)) in μH, and output capacitor ripple voltage.",
+    "path": "/tools/buck-converter-inductor-capacitor-ripple-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "buck converter calculator",
+      "step down converter inductor capacitor sizing formula",
+      "buck duty cycle ripple current calculator online",
+      "dc dc switch mode buck converter design online",
+      "power electronics buck filter calculator"
+    ]
+  },
+  {
+    "name": "Boost Step-Up DC-DC Converter Duty Cycle & Inductor Sizing Calculator",
+    "description": "Calculate switch-mode Boost step-up converter duty cycle (D = 1 - V_in / V_out), minimum boost inductance (L = V_in · D / (ΔI_L · f_s)) in μH, and switch voltage stress.",
+    "path": "/tools/boost-converter-duty-cycle-inductor-sizing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "boost converter calculator",
+      "step up converter inductor sizing formula online",
+      "boost duty cycle switch mode power supply calculator",
+      "boost converter output capacitor ripple calculator",
+      "power electronics boost dc dc online"
+    ]
+  },
+  {
+    "name": "Three-Phase Inverter SPWM Modulation Index & RMS Line Voltage Calculator",
+    "description": "Calculate Sinusoidal Pulse Width Modulation (SPWM) amplitude modulation index (m_a = V_control / V_carrier) and AC fundamental RMS line-to-line output voltage (V_LL,1 = (√3 / 2√2) · m_a · V_dc) for variable frequency motor drives.",
+    "path": "/tools/h-bridge-spwm-inverter-modulation-index-thd-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spwm inverter calculator",
+      "modulation index ma three phase inverter formula",
+      "inverter line to line rms voltage calculator online",
+      "vfd motor drive spwm voltage calculator",
+      "power electronics pwm inverter thd online"
+    ]
+  },
+  {
+    "name": "Isolated Flyback Converter Transformer Turns Ratio (N_p / N_s) & Inductance Calculator",
+    "description": "Calculate isolated switch-mode Flyback SMPS transformer turns ratio (N_p / N_s = V_in,min · D_max / ((V_out + V_d) · (1 - D_max))) and primary magnetizing inductance L_m in μH.",
+    "path": "/tools/flyback-converter-transformer-turns-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flyback converter calculator",
+      "flyback transformer turns ratio formula np over ns",
+      "primary magnetizing inductance flyback calculator online",
+      "isolated smps flyback power supply design calculator",
+      "power electronics flyback converter online"
+    ]
+  },
+  {
+    "name": "Power MOSFET & IGBT Conduction, Switching & Gate Loss (P_total) Calculator",
+    "description": "Calculate power semiconductor thermal dissipation (P_total = P_conduction + P_switching + P_gate) where P_cond = I_rms² · R_ds(on) and P_sw = 1/2 · V_ds · I_d · (t_rise + t_fall) · f_s.",
+    "path": "/tools/mosfet-igbt-switching-loss-conduction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mosfet switching loss calculator",
+      "igbt conduction switching thermal dissipation formula online",
+      "power semiconductor heatsink power loss calculator",
+      "rds on conduction loss mosfet calculator online",
+      "gate drive power switching loss online"
+    ]
+  },
+  {
+    "name": "CFD First Cell Mesh Height y+ & Boundary Layer Wall Distance Calculator",
+    "description": "Calculate Computational Fluid Dynamics (CFD) boundary layer first mesh cell height y (Δy = y+ · ν / u_τ) in μm/mm for wall-resolved (y+ ≈ 1) or wall-function (y+ ≈ 30–300) turbulence models.",
+    "path": "/tools/cfd-y-plus-boundary-layer-wall-distance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cfd y plus calculator",
+      "first layer mesh height formula y plus online",
+      "boundary layer wall distance calculator cfd",
+      "ansys fluent openfoam y plus mesh spacing calculator",
+      "skin friction velocity friction velocity u tau online"
+    ]
+  },
+  {
+    "name": "CFD Turbulence Inflow Boundary Conditions (k, ε, ω & Intensity I) Calculator",
+    "description": "Calculate CFD inlet turbulence boundary conditions: kinetic energy (k = 3/2 · (U·I)²), dissipation (ε = C_μ^(3/4) · k^(3/2) / l), and specific dissipation rate (ω = k^(1/2) / (C_μ^(1/4) · l)) from turbulence intensity I (%).",
+    "path": "/tools/turbulence-intensity-kinetic-energy-k-omega-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cfd turbulence boundary conditions calculator",
+      "turbulent kinetic energy k formula 3 over 2 u times i squared",
+      "turbulence dissipation rate epsilon omega calculator online",
+      "ansys openfoam k omega inlet boundary calculator",
+      "turbulent length scale calculator online"
+    ]
+  },
+  {
+    "name": "Courant-Friedrichs-Lewy (CFL / Courant Number) Time Step Calculator",
+    "description": "Calculate numerical simulation maximum stable transient time step (Δt = CFL · Δx / (u + c)) in microseconds/milliseconds from CFL condition and mesh cell spacing Δx.",
+    "path": "/tools/courant-friedrichs-lewy-cfl-time-step-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cfl condition calculator",
+      "courant friedrichs lewy formula max time step online",
+      "cfd cfl number time step delta t calculator",
+      "compressible acoustic cfl stability calculator",
+      "finite difference numerical stability online"
+    ]
+  },
+  {
+    "name": "Knudsen Number (Kn = λ / L) & Rarefied Gas Continuum Flow Regime Calculator",
+    "description": "Calculate molecular mean free path λ (λ = k_B·T / (√2·π·d²·P)) and Knudsen number (Kn = λ / L) to determine Continuum (Navier-Stokes), Slip Flow, Transitional, or Free Molecular regimes.",
+    "path": "/tools/mesh-knudsen-number-continuum-navier-stokes-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "knudsen number calculator",
+      "rarefied gas continuum flow formula kn equals lambda over l",
+      "molecular mean free path calculator online",
+      "navier stokes validity slip flow dsmc calculator",
+      "hypersonic space re entry knudsen number online"
+    ]
+  },
+  {
+    "name": "Rankine-Hugoniot Supersonic Normal Shock Wave Jump Calculator",
+    "description": "Calculate normal shock wave discontinuous jumps across Mach number M₁: downstream Mach M₂, pressure ratio P₂/P₁, temperature ratio T₂/T₁, and density ratio ρ₂/ρ₁.",
+    "path": "/tools/shock-capturing-rankine-hugoniot-density-jump-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rankine hugoniot calculator",
+      "normal shock wave jump formula pressure ratio p2 over p1",
+      "supersonic normal shock mach number m2 calculator",
+      "gas dynamics normal shock density jump online",
+      "compressible aerodynamics shock wave calculator"
+    ]
+  },
+  {
+    "name": "Radiotherapy Biologically Effective Dose (BED & EQD2) Calculator",
+    "description": "Calculate cancer radiation oncology Biologically Effective Dose (BED = n · d · (1 + d / (α/β))) in Gy and Equivalent Dose in 2 Gy fractions (EQD2) across tumor and normal tissue α/β ratios.",
+    "path": "/tools/radiotherapy-linear-quadratic-biologically-effective-dose-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "bed calculator radiotherapy",
+      "biologically effective dose formula n times d times 1 plus d over alpha beta",
+      "eqd2 equivalent dose in 2 gy fractions calculator",
+      "radiation oncology linear quadratic model calculator",
+      "sbrt stereotactic fractionation bed online"
+    ]
+  },
+  {
+    "name": "Bragg-Gray Cavity Theory Absorbed Radiation Dose (D_med) Calculator",
+    "description": "Calculate medium radiation absorbed dose from ion chamber cavity ionization (D_med = (Q/m) · (W/e) · (S/ρ)_gas^med) in Gray (Gy) and Kerma conversion.",
+    "path": "/tools/absorbed-dose-kerma-stopping-power-bragg-gray-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bragg gray cavity theory calculator",
+      "absorbed dose ionization chamber formula w over e",
+      "stopping power ratio absorbed dose calculator online",
+      "medical physics radiation dosimetry bragg gray online",
+      "linac calibration absorbed dose to water calculator"
+    ]
+  },
+  {
+    "name": "PET Scanner Spatial Resolution & Positron Range (FWHM) Calculator",
+    "description": "Calculate Positron Emission Tomography (PET) image spatial resolution (R_FWHM = √(R_det² + R_range² + R_180² + R_block²)) in mm across F-18, C-11, Ga-68, and Rb-82 radiotracers.",
+    "path": "/tools/pet-scan-positron-range-non-collinearity-resolution-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "pet scan spatial resolution calculator",
+      "positron range fwhm formula f18 ga68 online",
+      "non collinearity photon angle pet resolution calculator",
+      "detector crystal width pet spatial resolution online",
+      "medical physics pet imaging resolution calculator"
+    ]
+  }
+]

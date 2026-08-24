@@ -1,0 +1,15 @@
+{
+  "name": "Convert 57 KM to Miles",
+  "description": "Convert 57 kilometers to miles (35.42 miles). 100% free and local.",
+  "path": "/tools/convert-57-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 57 km to miles",
+    "Convert 57 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

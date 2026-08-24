@@ -1,0 +1,16 @@
+{
+  "name": "CDMA Spreading Gain & Processing Gain Calculator",
+  "description": "Calculate CDMA processing gain Gp = 10 log10(Rc/Rb), required SNR, and spreading code efficiency for wireless communications.",
+  "path": "/tools/cdma-spreading-gain-eb-n0-processing-gain-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "cdma spreading gain eb n0 processing gain calculator",
+    "CDMA Spreading Gain & Processing Gain Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

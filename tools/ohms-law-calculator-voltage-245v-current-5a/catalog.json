@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 245V, Current 5A)",
+  "description": "Calculate Resistance (49.00 Ω) and Electric Power (1225.0 W) for 245V voltage and 5A current.",
+  "path": "/tools/ohms-law-calculator-voltage-245v-current-5a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 245v current 5a",
+    "Ohm's Law Calculator (Voltage 245V, Current 5A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

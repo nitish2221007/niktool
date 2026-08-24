@@ -1,0 +1,15 @@
+{
+  "name": "Shannon-Hartley Channel Capacity (C = B · log₂(1 + SNR)) Calculator",
+  "description": "Calculate maximum theoretical error-free data transmission channel capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps from analog channel bandwidth B (Hz) and Signal-to-Noise Ratio (SNR in dB).",
+  "path": "/tools/shannon-hartley-channel-capacity-bandwidth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "shannon hartley channel capacity calculator",
+    "c b log2 1 plus snr formula",
+    "signal to noise ratio channel bandwidth calculator",
+    "wifi 5g channel data rate shannon limit online",
+    "telecommunications shannon capacity calculator"
+  ],
+  "order": 575
+}

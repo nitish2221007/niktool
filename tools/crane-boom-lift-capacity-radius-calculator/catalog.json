@@ -1,0 +1,15 @@
+{
+  "name": "Mobile Crane Load Radius & Lift Capacity Safety Calculator",
+  "description": "Calculate mobile crane tipping moment (M_tip = Load · Radius), boom angle (θ = arccos(Radius / Boom Length)), and verify 75% OSHA tipping stability margin.",
+  "path": "/tools/crane-boom-lift-capacity-radius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "crane load radius calculator",
+    "crane lift capacity chart calculator",
+    "mobile crane tipping load formula",
+    "crane boom angle to radius calculator",
+    "osha 75 percent crane stability online"
+  ],
+  "order": 444
+}

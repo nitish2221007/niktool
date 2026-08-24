@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (190 km Distance, 19 km/l Mileage)",
+  "description": "Calculate fuel needed (10.0 L) and cost (₹965) for 190 km trip at 19 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-190km-mileage-19kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 190km mileage 19kmpl",
+    "Fuel Cost Trip Calculator (190 km Distance, 19 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

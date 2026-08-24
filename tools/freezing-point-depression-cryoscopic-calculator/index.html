@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freezing Point Depression (Cryoscopy) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate freezing point lowering (ΔT_f = i · K_f · m) and antifreeze / road de-icing temperatures from solute molality and cryoscopic constant (K_f).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/freezing-point-depression-cryoscopic-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Freezing Point Depression (Cryoscopy) Calculator | NikTool">
+  <meta property="og:description" content="Calculate freezing point lowering (ΔT_f = i · K_f · m) and antifreeze / road de-icing temperatures from solute molality and cryoscopic constant (K_f).">
+  <meta property="og:url" content="https://niktool.in/tools/freezing-point-depression-cryoscopic-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Freezing Point Depression (Cryoscopy) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/freezing-point-depression-cryoscopic-calculator/",
+        "description": "Calculate freezing point lowering (ΔT_f = i · K_f · m) and antifreeze / road de-icing temperatures from solute molality and cryoscopic constant (K_f).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is CaCl₂ more effective than NaCl for road de-icing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Calcium chloride (CaCl₂) dissociates into 3 ions (i ≈ 2.7) compared to 2 ions for NaCl (i ≈ 1.9), producing a greater freezing point depression per mole."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Freezing Point Depression (Cryoscopy) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Freezing Point Depression (Cryoscopy) Calculator</h1>
+      <p>Calculate freezing point lowering (ΔT_f = i · K_f · m) and antifreeze / road de-icing temperatures from solute molality and cryoscopic constant (K_f).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Solvent Preset, Solute Molality (m) & Van 't Hoff Factor (i)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="fp-solv">Solvent</label>
+          <select class="tool-textarea" id="fp-solv">
+            <option value="0.0,1.86" selected>Water (T_f = 0.0 °C, K_f = 1.86 °C·kg/mol)</option>
+            <option value="5.5,5.12">Benzene (T_f = 5.5 °C, K_f = 5.12 °C·kg/mol)</option>
+            <option value="6.6,20.0">Cyclohexane (T_f = 6.6 °C, K_f = 20.0 °C·kg/mol)</option>
+            <option value="178.4,40.0">Camphor (T_f = 178.4 °C, K_f = 40.0 °C·kg/mol)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fp-m">Molality m (mol / kg)</label>
+          <input class="tool-textarea" id="fp-m" type="number" step="any" value="3.0" placeholder="3.0 mol/kg (Road Salt)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fp-i">van 't Hoff (i)</label>
+          <input class="tool-textarea" id="fp-i" type="number" step="0.1" value="1.9" placeholder="1.9 (NaCl)" />
+        </div>
+      </div>
+      <div id="fp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="fp-res-tot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">-10.60 °C</span>
+            <span class="stat-label">Depressed Freezing Point (T_f)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="fp-res-dt" style="color:#2563eb; font-weight:700;">-10.602 °C Drop</span>
+            <span class="stat-label">Freezing Depression (ΔT_f)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Freezing Point Depression (Cryoscopy) Calculator</h2>
+      <ol>
+        <li>Select solvent liquid (Water K_f = 1.86 °C·kg/mol).</li>
+        <li>Enter solute molality m in mol/kg.</li>
+        <li>Enter dissociation van 't Hoff factor i.</li>
+        <li>Inspect lowered freezing point in Celsius and Fahrenheit for winter de-icing solutions.</li>
+      </ol>
+
+      <h2>Winter Road De-Icing & Engine Antifreeze Principle</h2>
+      <p>Dissolving rock salt (NaCl or CaCl₂) into ice creates a brine solution with a freezing point significantly below 0°C, preventing dangerous road ice formation and protecting automobile radiators from freezing in sub-zero winter temperatures.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is CaCl₂ more effective than NaCl for road de-icing?</summary>
+        <p>Calcium chloride (CaCl₂) dissociates into 3 ions (i ≈ 2.7) compared to 2 ions for NaCl (i ≈ 1.9), producing a greater freezing point depression per mole.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/freezing-point-depression-cryoscopic-calculator/tool.js"></script>
+</body>
+</html>

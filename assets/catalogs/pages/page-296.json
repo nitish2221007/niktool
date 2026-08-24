@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Convert -4°C Celsius to Fahrenheit",
+    "description": "Convert -4 degrees Celsius (°C) to Fahrenheit (24.8°F).",
+    "path": "/tools/convert-minus-4-celsius-to-fahrenheit/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert minus 4 celsius to fahrenheit",
+      "Convert -4°C Celsius to Fahrenheit",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert -6°C Celsius to Fahrenheit",
+    "description": "Convert -6 degrees Celsius (°C) to Fahrenheit (21.2°F).",
+    "path": "/tools/convert-minus-6-celsius-to-fahrenheit/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert minus 6 celsius to fahrenheit",
+      "Convert -6°C Celsius to Fahrenheit",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert -8°C Celsius to Fahrenheit",
+    "description": "Convert -8 degrees Celsius (°C) to Fahrenheit (17.6°F).",
+    "path": "/tools/convert-minus-8-celsius-to-fahrenheit/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert minus 8 celsius to fahrenheit",
+      "Convert -8°C Celsius to Fahrenheit",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 0.5 REM to PX",
+    "description": "Convert 0.5 REM units to pixels (px) based on 16px root font size (8px).",
+    "path": "/tools/convert-0.5rem-to-px/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 0.5rem to px",
+      "Convert 0.5 REM to PX",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert 0°C Celsius to Fahrenheit",
+    "description": "Convert 0 degrees Celsius (°C) to Fahrenheit (32.0°F).",
+    "path": "/tools/convert-0-celsius-to-fahrenheit/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 0 celsius to fahrenheit",
+      "Convert 0°C Celsius to Fahrenheit",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 CM to Inches Length",
+    "description": "Convert 1 centimeters (cm) to inches (0.39 in) instantly. 100% free and local.",
+    "path": "/tools/convert-1-cm-to-inches-length/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 cm to inches length",
+      "Convert 1 CM to Inches Length",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Day to Hours",
+    "description": "Convert 1 day to total hours (24 hours). 100% free and local.",
+    "path": "/tools/convert-1-day-to-hours-time/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 day to hours time",
+      "Convert 1 Day to Hours",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 EM to PX Value",
+    "description": "Convert 1 EM units to pixels (16 px) based on 16px font context.",
+    "path": "/tools/convert-1-em-to-px-value/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 1 em to px value",
+      "Convert 1 EM to PX Value",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Feet to Inches Val",
+    "description": "Convert 1 feet (ft) to inches (12 in) instantly. 100% free and local.",
+    "path": "/tools/convert-1-feet-to-inches-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 feet to inches val",
+      "Convert 1 Feet to Inches Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Feet to Meters Length",
+    "description": "Convert 1 feet (ft) to meters (0.30 m) instantly. 100% free and local.",
+    "path": "/tools/convert-1-feet-to-meters-length/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 feet to meters length",
+      "Convert 1 Feet to Meters Length",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 GB to MB",
+    "description": "Convert 1 Gigabytes (GB) to Megabytes (1024 MB). 100% free and local.",
+    "path": "/tools/convert-1-gb-to-mb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 gb to mb",
+      "Convert 1 GB to MB",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Grams to Ounces Weight",
+    "description": "Convert 1 grams (g) to ounces (0.04 oz) instantly. 100% free and local.",
+    "path": "/tools/convert-1-grams-to-ounces-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 grams to ounces weight",
+      "Convert 1 Grams to Ounces Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Hour to Seconds",
+    "description": "Convert 1 hour to minutes (60 min) and seconds (3,600 sec).",
+    "path": "/tools/convert-1-hour-to-seconds-time/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 hour to seconds time",
+      "Convert 1 Hour to Seconds",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Inch to CM",
+    "description": "Convert 1 inch (in) to centimeters (2.54 cm). 100% free and local.",
+    "path": "/tools/convert-1-inch-to-cm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 inch to cm",
+      "Convert 1 Inch to CM",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KB to Bytes Data",
+    "description": "Convert 1 Kilobytes (KB) to Bytes (1024 bytes). 100% free and local.",
+    "path": "/tools/convert-1-kb-to-bytes-data/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 kb to bytes data",
+      "Convert 1 KB to Bytes Data",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KG to Grams Val",
+    "description": "Convert 1 kilograms (kg) to grams (1000 g) instantly. 100% free and local.",
+    "path": "/tools/convert-1-kg-to-grams-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 kg to grams val",
+      "Convert 1 KG to Grams Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KG to LBS",
+    "description": "Convert 1 kilograms (1 kg) to pounds (2.20 lbs) instantly in your browser.",
+    "path": "/tools/convert-1-kg-to-lbs/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 kg to lbs",
+      "Convert 1 KG to LBS",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KM to Meters Val",
+    "description": "Convert 1 kilometers (km) to meters (1000 m) instantly. 100% free and local.",
+    "path": "/tools/convert-1-km-to-meters-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 km to meters val",
+      "Convert 1 KM to Meters Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KM to Miles",
+    "description": "Convert 1 kilometers to miles (0.62 miles). 100% free and local.",
+    "path": "/tools/convert-1-km-to-miles/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 km to miles",
+      "Convert 1 KM to Miles",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KM to Miles Distance",
+    "description": "Convert 1 kilometers (1 km) to miles (0.62 miles) instantly. 100% free and local.",
+    "path": "/tools/convert-1-km-to-miles-distance/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 km to miles distance",
+      "Convert 1 KM to Miles Distance",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 KM/H to MPH Speed",
+    "description": "Convert 1 kilometers per hour (km/h) to miles per hour (0.62 mph).",
+    "path": "/tools/convert-1-kmh-to-mph-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 kmh to mph speed",
+      "Convert 1 KM/H to MPH Speed",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Knot Speed Val to KM/H",
+    "description": "Convert 1 knots speed to kilometers per hour (1.85 km/h).",
+    "path": "/tools/convert-knot-speed-val-1-to-kmh/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert knot speed val 1 to kmh",
+      "Convert 1 Knot Speed Val to KM/H",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 Knot to KM/H Speed",
+    "description": "Convert 1 knots speed to kilometers per hour (1.85 km/h).",
+    "path": "/tools/convert-1-knots-to-kmh-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 knots to kmh speed",
+      "Convert 1 Knot to KM/H Speed",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 1 LBS to KG Weight",
+    "description": "Convert 1 pounds (lbs) to kilograms (0.45 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-1-lbs-to-kg-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 1 lbs to kg weight",
+      "Convert 1 LBS to KG Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

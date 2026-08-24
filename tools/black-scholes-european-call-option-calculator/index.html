@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Black-Scholes European Call & Put Option Pricing Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate theoretical fair market price of European call options (C = S₀ · N(d₁) - K · e^(-rT) · N(d₂)) and put options from stock price, strike price, volatility, and expiration time.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/black-scholes-european-call-option-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Black-Scholes European Call & Put Option Pricing Calculator | NikTool">
+  <meta property="og:description" content="Calculate theoretical fair market price of European call options (C = S₀ · N(d₁) - K · e^(-rT) · N(d₂)) and put options from stock price, strike price, volatility, and expiration time.">
+  <meta property="og:url" content="https://niktool.in/tools/black-scholes-european-call-option-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Black-Scholes European Call & Put Option Pricing Calculator",
+        "applicationCategory": "FinancialProduct",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/black-scholes-european-call-option-calculator/",
+        "description": "Calculate theoretical fair market price of European call options (C = S₀ · N(d₁) - K · e^(-rT) · N(d₂)) and put options from stock price, strike price, volatility, and expiration time.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Option Delta in Black-Scholes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For a call option, Delta equals N(d₁), representing the rate of change of option price per $1 move in underlying stock price (also approximate probability of expiring in-the-money)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Black-Scholes European Call & Put Option Pricing Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Black-Scholes European Call & Put Option Pricing Calculator</h1>
+      <p>Calculate theoretical fair market price of European call options (C = S₀ · N(d₁) - K · e^(-rT) · N(d₂)) and put options from stock price, strike price, volatility, and expiration time.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Stock Price S₀ ($), Strike Price K ($), Time T (Years), Volatility σ & Rate r</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bs-s">Stock Price S₀ ($)</label>
+          <input class="tool-textarea" id="bs-s" type="number" step="any" value="100.0" placeholder="$100.00" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bs-k">Strike Price K ($)</label>
+          <input class="tool-textarea" id="bs-k" type="number" step="any" value="100.0" placeholder="$100.00 (ATM)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bs-t">Time T (Years)</label>
+          <input class="tool-textarea" id="bs-t" type="number" step="0.01" value="0.25" placeholder="0.25 Yrs (3 Months)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bs-vol">Volatility σ (%)</label>
+          <input class="tool-textarea" id="bs-vol" type="number" step="any" value="25.0" placeholder="25.0% Volatility" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bs-r">Risk-Free Rate r (%)</label>
+          <input class="tool-textarea" id="bs-r" type="number" step="any" value="5.0" placeholder="5.0%" />
+        </div>
+      </div>
+      <div id="bs-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bs-res-call" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">$5.60 Call Price</span>
+            <span class="stat-label">Theoretical Call Value (C)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bs-res-put" style="color:#2563eb; font-weight:800; font-size:1.6rem;">$4.36 Put Price</span>
+            <span class="stat-label">Theoretical Put Value (P)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Black-Scholes European Call & Put Option Pricing Calculator</h2>
+      <ol>
+        <li>Enter underlying stock spot price S₀ ($).</li>
+        <li>Enter option contract strike strike price K ($).</li>
+        <li>Enter expiration time duration T in years (e.g. 0.25 for 3 months).</li>
+        <li>Enter annualized volatility percentage σ (%) and risk-free interest rate r (%).</li>
+        <li>Inspect theoretical Black-Scholes call/put fair values and option Delta hedging sensitivities.</li>
+      </ol>
+
+      <h2>Fischer Black, Myron Scholes & Robert Merton (1997 Nobel)</h2>
+      <p>The Black-Scholes-Merton differential equation revolutionized modern financial derivatives by constructing a riskless dynamically rebalanced delta hedge, pricing options without subjective directional market bias.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Option Delta in Black-Scholes?</summary>
+        <p>For a call option, Delta equals N(d₁), representing the rate of change of option price per $1 move in underlying stock price (also approximate probability of expiring in-the-money).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/black-scholes-european-call-option-calculator/tool.js"></script>
+</body>
+</html>

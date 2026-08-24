@@ -1,0 +1,15 @@
+{
+  "name": "Wire Gauge & Voltage Drop Calculator",
+  "description": "Calculate copper wire electrical resistance, percentage voltage drop, and power loss for DC and single-phase AC circuits.",
+  "path": "/tools/wire-gauge-voltage-drop-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wire gauge voltage drop calculator",
+    "awg voltage drop calculator",
+    "copper wire resistance calculator",
+    "cable size voltage drop",
+    "dc voltage drop online"
+  ],
+  "order": 90
+}

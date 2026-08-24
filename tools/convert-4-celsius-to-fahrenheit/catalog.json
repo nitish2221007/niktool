@@ -1,0 +1,15 @@
+{
+  "name": "Convert 4°C Celsius to Fahrenheit",
+  "description": "Convert 4 degrees Celsius (°C) to Fahrenheit (39.2°F).",
+  "path": "/tools/convert-4-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 4 celsius to fahrenheit",
+    "Convert 4°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

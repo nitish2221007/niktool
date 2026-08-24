@@ -1,0 +1,15 @@
+{
+  "name": "Urban Cellular Path Loss (Okumura-Hata Model) Calculator",
+  "description": "Calculate 4G/5G mobile cellular empirical propagation path loss in dB (PL = 69.55 + 26.16·log₁₀f - 13.82·log₁₀h_b - a(h_m) + (44.9 - 6.55·log₁₀h_b)·log₁₀d) across urban, suburban, and open rural areas.",
+  "path": "/tools/cellular-path-loss-hata-cost231-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hata okumura path loss calculator",
+    "cellular path loss formula mobile height online",
+    "urban suburban rural cellular coverage calculator",
+    "cost 231 hata path loss online",
+    "telecom rf propagation model calculator"
+  ],
+  "order": 629
+}

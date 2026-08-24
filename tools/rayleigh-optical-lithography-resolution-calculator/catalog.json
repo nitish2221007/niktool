@@ -1,0 +1,15 @@
+{
+  "name": "Rayleigh Optical Lithography Resolution (CD = k₁·λ / NA) & Depth of Focus Calculator",
+  "description": "Calculate semiconductor photolithography Critical Dimension resolution (CD = k₁ · λ / NA) in nanometers and Depth of Focus (DOF = k₂ · λ / NA²) for DUV (193nm) and EUV (13.5nm) scanners.",
+  "path": "/tools/rayleigh-optical-lithography-resolution-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rayleigh lithography resolution calculator",
+    "critical dimension cd formula k1 lambda over na",
+    "depth of focus dof lithography calculator online",
+    "asml euv vs duv resolution calculator",
+    "semiconductor photolithography rayleigh criterion online"
+  ],
+  "order": 670
+}

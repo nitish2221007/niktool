@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 18 CIDR Prefix, Net #2)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (16,382 usable IPs) for /18 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-18-net-2/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 18 net 2",
+    "IP Subnet Mask & Host Calculator (/ 18 CIDR Prefix, Net #2)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

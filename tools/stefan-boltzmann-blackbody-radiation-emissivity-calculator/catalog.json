@@ -1,0 +1,15 @@
+{
+  "name": "Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator",
+  "description": "Calculate thermal radiative heat transfer power (P = ε · σ · A · (T⁴ - T_surr⁴)) in Watts and kW using the Stefan-Boltzmann law from surface temperature, emissivity ε, and ambient surroundings.",
+  "path": "/tools/stefan-boltzmann-blackbody-radiation-emissivity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "stefan boltzmann calculator",
+    "thermal radiation formula p equals epsilon sigma a t to fourth online",
+    "blackbody radiation emissive power calculator",
+    "radiative heat transfer surface area temperature calculator",
+    "thermal engineering radiation solver online"
+  ],
+  "order": 1024
+}

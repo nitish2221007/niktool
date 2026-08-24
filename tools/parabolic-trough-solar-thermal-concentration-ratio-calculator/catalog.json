@@ -1,0 +1,15 @@
+{
+  "name": "Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator",
+  "description": "Calculate Concentrated Solar Power (CSP) parabolic trough optical concentration ratio (C = (W - D) / (π·D)) and useful thermal heat gain rate (Q_u = A_aperture · DNI · η_optical - Heat_Loss) in kW.",
+  "path": "/tools/parabolic-trough-solar-thermal-concentration-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "concentrated solar power calculator",
+    "parabolic trough concentration ratio formula online",
+    "csp thermal heat collection rate calculator",
+    "direct normal irradiance dni parabolic trough online",
+    "solar thermal molten salt power plant calculator"
+  ],
+  "order": 741
+}

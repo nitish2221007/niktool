@@ -1,0 +1,15 @@
+{
+  "name": "Convert 26°C Celsius to Kelvin Temp",
+  "description": "Convert 26 degrees Celsius (°C) to Kelvin (299.15 K) instantly.",
+  "path": "/tools/convert-26-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 26 celsius to kelvin temp",
+    "Convert 26°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

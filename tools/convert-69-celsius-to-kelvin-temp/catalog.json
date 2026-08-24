@@ -1,0 +1,15 @@
+{
+  "name": "Convert 69°C Celsius to Kelvin Temp",
+  "description": "Convert 69 degrees Celsius (°C) to Kelvin (342.15 K) instantly.",
+  "path": "/tools/convert-69-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 69 celsius to kelvin temp",
+    "Convert 69°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (290 km Distance, 25 km/l Mileage)",
+  "description": "Calculate total fuel required (11.6 L) and estimated cost (₹1119) for 290 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-290km-mileage-25kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 290km mileage 25kmpl",
+    "Fuel Cost Calculator (290 km Distance, 25 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

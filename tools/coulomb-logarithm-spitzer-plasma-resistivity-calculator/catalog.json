@@ -1,0 +1,15 @@
+{
+  "name": "Coulomb Logarithm (ln Λ) & Spitzer Plasma Electrical Resistivity Calculator",
+  "description": "Calculate thermonuclear plasma Coulomb Logarithm ln Λ (ln Λ = ln(12π · n_e · λ_D³)), Spitzer transverse electrical resistivity η_Spitzer in Ω·m (η = 5.2 × 10⁻⁵ · Z_eff · ln Λ / T_e^(3/2)), and ohmic heating current limit.",
+  "path": "/tools/coulomb-logarithm-spitzer-plasma-resistivity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "coulomb logarithm calculator",
+    "spitzer resistivity formula plasma online",
+    "plasma electrical conductivity te to three halves calculator",
+    "ohmic heating tokamak spitzer resistivity calculator",
+    "plasma physics magnetohydrodynamics mhd nuclear fusion online"
+  ],
+  "order": 1394
+}

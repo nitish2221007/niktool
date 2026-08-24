@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 445V, Current 2A)",
+  "description": "Calculate Resistance (222.50 Ω) and Electric Power (890.0 W) for 445V voltage and 2A current.",
+  "path": "/tools/ohms-law-calculator-voltage-445v-current-2a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 445v current 2a",
+    "Ohm's Law Calculator (Voltage 445V, Current 2A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

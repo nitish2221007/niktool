@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 12 Units)",
+  "description": "Calculate the exact area of a circle with radius 12 units (A = πr² = 452.39).",
+  "path": "/tools/area-of-circle-radius-12-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 12 units",
+    "Area of Circle (Radius 12 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

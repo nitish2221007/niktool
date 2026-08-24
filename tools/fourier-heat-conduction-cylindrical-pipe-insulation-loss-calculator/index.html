@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate radial conductive heat loss rate (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) in Watts and critical insulation thickness radius (r_cr = k / h) for steam pipes and industrial thermal engineering.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/fourier-heat-conduction-cylindrical-pipe-insulation-loss-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate radial conductive heat loss rate (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) in Watts and critical insulation thickness radius (r_cr = k / h) for steam pipes and industrial thermal engineering.">
+  <meta property="og:url" content="https://niktool.in/tools/fourier-heat-conduction-cylindrical-pipe-insulation-loss-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/fourier-heat-conduction-cylindrical-pipe-insulation-loss-calculator/",
+        "description": "Calculate radial conductive heat loss rate (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) in Watts and critical insulation thickness radius (r_cr = k / h) for steam pipes and industrial thermal engineering.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the Critical Radius of Insulation (r_cr = k/h)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Adding insulation to a pipe with radius smaller than $r_{\text{cr}} = k/h$ actually increases heat loss because the expanded surface area increases convection faster than the added conduction resistance."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator</h1>
+      <p>Calculate radial conductive heat loss rate (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) in Watts and critical insulation thickness radius (r_cr = k / h) for steam pipes and industrial thermal engineering.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Inner Radius r₁ (mm), Outer Insulated Radius r₂ (mm), Pipe Length L (m), Conductivity k & Temp Drop ΔT</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="cd-r1">Inner r₁ (mm)</label>
+          <input class="tool-textarea" id="cd-r1" type="number" step="5" value="25.0" placeholder="25.0 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-r2">Outer r₂ (mm)</label>
+          <input class="tool-textarea" id="cd-r2" type="number" step="5" value="50.0" placeholder="50.0 mm (Insulated)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-len">Length L (m)</label>
+          <input class="tool-textarea" id="cd-len" type="number" step="5" value="10.0" placeholder="10.0 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-k">Conductivity k</label>
+          <input class="tool-textarea" id="cd-k" type="number" step="0.01" value="0.04" placeholder="0.04 W/(m·K) (Fiberglass)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-dt">Temp Drop ΔT (°C)</label>
+          <input class="tool-textarea" id="cd-dt" type="number" step="10" value="120.0" placeholder="120.0 °C (150°C - 30°C)" />
+        </div>
+      </div>
+      <div id="cd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="cd-res-q" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Heat Loss q = 435.1 Watts</span>
+            <span class="stat-label">Radial Conductive Heat Loss Rate</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="cd-res-rate" style="color:var(--green-dark); font-weight:700;">Heat Loss per Meter = 43.5 W / m (92.5% Energy Savings compared to bare uninsulated pipe)</span>
+            <span class="stat-label">Linear Thermal Heat Loss & Insulation Efficiency</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator</h2>
+      <ol>
+        <li>Enter pipe outer radius $r_1$ in mm.</li>
+        <li>Enter insulated outer jacket radius $r_2$ in mm ($r_2 > r_1$).</li>
+        <li>Enter pipe length L in meters.</li>
+        <li>Enter insulation thermal conductivity k in $	ext{W}/(	ext{m}cdot	ext{K})$ (e.g. 0.035 to 0.045 for mineral wool or fiberglass).</li>
+        <li>Enter temperature drop $Delta T = T_1 - T_2$ in $^circ	ext{C}$.</li>
+        <li>Inspect total heat loss rate in Watts and linear heat loss per meter ($W/m$).</li>
+      </ol>
+
+      <h2>Jean-Baptiste Joseph Fourier 1822 Analytical Theory of Heat</h2>
+      <p>Because the heat transfer area increases radially with outer radius ($A(r) = 2pi r L$), integrating Fourier's law yields the logarithmic cylindrical resistance formula ($R_{	ext{th}} = rac{ln(r_2/r_1)}{2pi k L}$), essential for sizing industrial steam piping thermal insulation.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the Critical Radius of Insulation (r_cr = k/h)?</summary>
+        <p>Adding insulation to a pipe with radius smaller than $r_{	ext{cr}} = k/h$ actually increases heat loss because the expanded surface area increases convection faster than the added conduction resistance.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/fourier-heat-conduction-cylindrical-pipe-insulation-loss-calculator/tool.js"></script>
+</body>
+</html>

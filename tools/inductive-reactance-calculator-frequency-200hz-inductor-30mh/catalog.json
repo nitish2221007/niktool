@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (200 Hz, 30 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 37.70 Ω) for 200 Hz frequency and 30 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-30mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 200hz inductor 30mh",
+    "Inductive Reactance Calculator (200 Hz, 30 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

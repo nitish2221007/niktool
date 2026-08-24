@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate heterogeneous catalysis Thiele Modulus (Φ = L · √(k / D_eff)) and internal pore diffusion effectiveness factor η (eta = tanh(Φ) / Φ) for porous catalyst pellets.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/thiele-modulus-effectiveness-factor-internal-diffusion-catalyst-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator | NikTool">
+  <meta property="og:description" content="Calculate heterogeneous catalysis Thiele Modulus (Φ = L · √(k / D_eff)) and internal pore diffusion effectiveness factor η (eta = tanh(Φ) / Φ) for porous catalyst pellets.">
+  <meta property="og:url" content="https://niktool.in/tools/thiele-modulus-effectiveness-factor-internal-diffusion-catalyst-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/thiele-modulus-effectiveness-factor-internal-diffusion-catalyst-calculator/",
+        "description": "Calculate heterogeneous catalysis Thiele Modulus (Φ = L · √(k / D_eff)) and internal pore diffusion effectiveness factor η (eta = tanh(Φ) / Φ) for porous catalyst pellets.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is an eggshell catalyst?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A catalyst pellet where the expensive active noble metal (Pt, Pd) is deposited only on the outer surface rim to maximize effectiveness where $Phi$ is large."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator</h1>
+      <p>Calculate heterogeneous catalysis Thiele Modulus (Φ = L · √(k / D_eff)) and internal pore diffusion effectiveness factor η (eta = tanh(Φ) / Φ) for porous catalyst pellets.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Catalyst Pellet Half-Thickness L (mm), Rate Const k (s⁻¹) & Effective Pore Diffusivity D_eff (m²/s)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="tm-l">Pellet Half L (mm)</label>
+          <input class="tool-textarea" id="tm-l" type="number" step="0.5" value="2.0" placeholder="2.0 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tm-k">Rate k (s⁻¹)</label>
+          <input class="tool-textarea" id="tm-k" type="number" step="5" value="20.0" placeholder="20.0 s⁻¹" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tm-deff">D_eff (m²/s)</label>
+          <input class="tool-textarea" id="tm-deff" type="number" step="1e-7" value="1.0e-6" placeholder="1.0 × 10⁻⁶ m²/s" />
+        </div>
+      </div>
+      <div id="tm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="tm-res-eta" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Effectiveness η = 0.112 (11.2%)</span>
+            <span class="stat-label">Catalyst Pore Effectiveness Factor (η = tanh Φ / Φ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tm-res-phi" style="color:var(--green-dark); font-weight:700;">Thiele Modulus Φ = 8.94 (SEVERE INTERNAL PORE DIFFUSION LIMITATION)</span>
+            <span class="stat-label">Thiele Modulus & Catalytic Rate Limiting Regime</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator</h2>
+      <ol>
+        <li>Enter characteristic catalyst pellet half-thickness L in mm.</li>
+        <li>Enter intrinsic catalytic reaction rate constant k in $	ext{s}^{-1}$.</li>
+        <li>Enter effective Knudsen/molecular pore diffusivity $D_{	ext{eff}}$ in $	ext{m}^2/	ext{s}$.</li>
+        <li>Inspect Thiele Modulus $Phi$ and catalyst effectiveness factor $eta$.</li>
+      </ol>
+
+      <h2>Ernest W. Thiele 1939 Pore Diffusion Theory</h2>
+      <p>When $Phi > 2$, chemical reaction is faster than pore diffusion ($eta ll 1$), leaving catalyst pellet centers starved of reactant and prompting the use of smaller pellets or eggshell catalysts.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is an eggshell catalyst?</summary>
+        <p>A catalyst pellet where the expensive active noble metal (Pt, Pd) is deposited only on the outer surface rim to maximize effectiveness where $Phi$ is large.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/thiele-modulus-effectiveness-factor-internal-diffusion-catalyst-calculator/tool.js"></script>
+</body>
+</html>

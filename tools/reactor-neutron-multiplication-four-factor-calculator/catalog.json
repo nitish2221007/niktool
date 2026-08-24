@@ -1,0 +1,15 @@
+{
+  "name": "Nuclear Reactor Four-Factor Formula (k_∞ = ε·p·η·f) Calculator",
+  "description": "Calculate infinite neutron multiplication factor (k_∞ = ε · p · η · f) and effective criticality (k_eff = k_∞ · P_NL) across Fast Fission, Resonance Escape, Reproduction, and Thermal Utilization.",
+  "path": "/tools/reactor-neutron-multiplication-four-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "four factor formula calculator",
+    "reactor neutron multiplication factor k infinity formula",
+    "effective criticality k eff non leakage calculator",
+    "nuclear reactor physics keff online",
+    "fast fission resonance escape thermal utilization calculator"
+  ],
+  "order": 686
+}

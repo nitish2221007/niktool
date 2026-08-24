@@ -1,0 +1,15 @@
+{
+  "name": "Rocket De Laval Nozzle Area Ratio (A / A*) & Exit Mach Number Calculator",
+  "description": "Calculate supersonic rocket engine De Laval converging-diverging nozzle expansion area ratio (A / A*), exit Mach number M_e, and pressure expansion ratio for rocket propulsion engineering.",
+  "path": "/tools/rocket-nozzle-isentropic-expansion-area-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rocket nozzle area ratio calculator",
+    "de laval nozzle expansion formula a over a star online",
+    "supersonic exit mach number nozzle calculator",
+    "rocket expansion ratio under overexpanded calculator",
+    "aerospace rocket propulsion gas dynamics online"
+  ],
+  "order": 1121
+}

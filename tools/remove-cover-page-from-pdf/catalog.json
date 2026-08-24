@@ -1,0 +1,16 @@
+{
+  "name": "Remove Cover Page From PDF",
+  "description": "Delete the cover page or title sheet of any PDF file instantly.",
+  "path": "/tools/remove-cover-page-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "remove cover page from pdf",
+    "Remove Cover Page From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

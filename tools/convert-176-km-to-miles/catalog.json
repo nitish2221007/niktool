@@ -1,0 +1,15 @@
+{
+  "name": "Convert 176 KM to Miles",
+  "description": "Convert 176 kilometers to miles (109.36 miles). 100% free and local.",
+  "path": "/tools/convert-176-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 176 km to miles",
+    "Convert 176 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

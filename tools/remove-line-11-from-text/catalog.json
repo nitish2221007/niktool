@@ -1,0 +1,15 @@
+{
+  "name": "Remove Line 11 From Text",
+  "description": "Delete line number 11 from any multiline text document instantly. 100% free and local processing.",
+  "path": "/tools/remove-line-11-from-text/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "remove line 11 from text",
+    "Remove Line 11 From Text",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

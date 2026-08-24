@@ -1,0 +1,15 @@
+{
+  "name": "Convert 73 KM/H to MPH Speed",
+  "description": "Convert 73 kilometers per hour (km/h) to miles per hour (45.36 mph).",
+  "path": "/tools/convert-73-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 73 kmh to mph speed",
+    "Convert 73 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 52°F Fahrenheit to Celsius Temp",
+  "description": "Convert 52 degrees Fahrenheit (°F) to Celsius (11.1°C) instantly.",
+  "path": "/tools/convert-52-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 52 fahrenheit to celsius temp",
+    "Convert 52°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

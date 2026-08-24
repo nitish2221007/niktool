@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lineweaver-Burk Double Reciprocal Kinetics Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate double-reciprocal coordinates (1/v = (K_m / V_max) · (1/[S]) + 1/V_max), x-intercept (-1/K_m), and y-intercept (1/V_max) for enzyme inhibitor classification.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/lineweaver-burk-double-reciprocal-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lineweaver-Burk Double Reciprocal Kinetics Calculator | NikTool">
+  <meta property="og:description" content="Calculate double-reciprocal coordinates (1/v = (K_m / V_max) · (1/[S]) + 1/V_max), x-intercept (-1/K_m), and y-intercept (1/V_max) for enzyme inhibitor classification.">
+  <meta property="og:url" content="https://niktool.in/tools/lineweaver-burk-double-reciprocal-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Lineweaver-Burk Double Reciprocal Kinetics Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/lineweaver-burk-double-reciprocal-calculator/",
+        "description": "Calculate double-reciprocal coordinates (1/v = (K_m / V_max) · (1/[S]) + 1/V_max), x-intercept (-1/K_m), and y-intercept (1/V_max) for enzyme inhibitor classification.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the x-intercept of a Lineweaver-Burk plot?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The x-intercept equals exactly -1 / K_m."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Lineweaver-Burk Double Reciprocal Kinetics Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Lineweaver-Burk Double Reciprocal Kinetics Calculator</h1>
+      <p>Calculate double-reciprocal coordinates (1/v = (K_m / V_max) · (1/[S]) + 1/V_max), x-intercept (-1/K_m), and y-intercept (1/V_max) for enzyme inhibitor classification.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">V_max & K_m Parameters</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="lb-vmax">V_max (μmol / min)</label>
+          <input class="tool-textarea" id="lb-vmax" type="number" step="any" value="50" placeholder="50" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lb-km">K_m (mM)</label>
+          <input class="tool-textarea" id="lb-km" type="number" step="any" value="2.5" placeholder="2.5 mM" />
+        </div>
+      </div>
+      <div id="lb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="lb-res-slope" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Slope = 0.0500</span>
+            <span class="stat-label">Slope (K_m / V_max)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lb-res-yint" style="font-weight:700;">y-intercept = 0.0200</span>
+            <span class="stat-label">1 / V_max</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lb-res-xint">-0.4000 mM⁻¹</span>
+            <span class="stat-label">x-intercept (-1 / K_m)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Lineweaver-Burk Double Reciprocal Kinetics Calculator</h2>
+      <ol>
+        <li>Enter biochemical V_max and K_m.</li>
+        <li>Inspect the linear double-reciprocal regression slope, y-intercept (1/V_max), and x-intercept (-1/K_m).</li>
+      </ol>
+
+      <h2>Diagnosing Competitive vs Noncompetitive Inhibitors</h2>
+      <p>Competitive inhibitors increase K_m without altering V_max (swiveling the slope at the same y-intercept), whereas noncompetitive inhibitors decrease V_max with unchanged K_m (shifting the y-intercept upward).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the x-intercept of a Lineweaver-Burk plot?</summary>
+        <p>The x-intercept equals exactly -1 / K_m.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/lineweaver-burk-double-reciprocal-calculator/tool.js"></script>
+</body>
+</html>

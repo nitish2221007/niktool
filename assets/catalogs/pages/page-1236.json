@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Raoult's Law Binary Mixture Vapor Pressure (P_tot = x_A·P_A* + x_B·P_B*) Calculator",
+    "description": "Calculate ideal liquid solution partial vapor pressures (P_A = x_A · P_A*, P_B = x_B · P_B*), total vapor pressure (P_total = P_A + P_B), and vapor phase mole fractions (y_A = P_A / P_total) for fractional distillation.",
+    "path": "/tools/raoults-law-ideal-solution-vapor-pressure-binary-mixture-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "raoults law calculator",
+      "vapor pressure ideal binary solution formula online",
+      "mole fraction liquid vapor distillation raoult calculator",
+      "partial pressure dalton raoult binary mixture calculator",
+      "chemical engineering vapor liquid equilibrium vle online"
+    ]
+  },
+  {
+    "name": "Henry's Law Gas Solubility (C = k_H · P_gas) in Water & Blood Calculator",
+    "description": "Calculate dissolved aqueous gas concentration (C = k_H · P_gas) in mol/L and mg/L for Oxygen (O₂), Carbon Dioxide (CO₂), and Nitrogen (N₂) from partial pressure for marine biology and decompression sickness physics.",
+    "path": "/tools/henrys-law-gas-solubility-aqueous-concentration-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "henrys law calculator",
+      "gas solubility formula c equals kh times p online",
+      "dissolved oxygen nitrogen solubility water calculator",
+      "scuba diving decompression sickness henrys law calculator",
+      "environmental aquatic gas solubility online"
+    ]
+  },
+  {
+    "name": "Arrhenius Equation Reaction Rate Constant (k = A·e^(-E_a / RT)) & Activation Energy Calculator",
+    "description": "Calculate chemical reaction rate constant k (k = A · e^(-E_a / RT)) and predict temperature acceleration ratios (k₂/k₁ = e^[(E_a/R)·(1/T₁ - 1/T₂)]) from Activation Energy E_a in kJ/mol for chemical kinetics.",
+    "path": "/tools/arrhenius-equation-activation-energy-rate-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "arrhenius equation calculator",
+      "activation energy formula k equals a exp minus ea over rt online",
+      "reaction rate temperature dependence calculator",
+      "pre exponential frequency factor arrhenius calculator",
+      "chemical kinetics reaction rate constant solver online"
+    ]
+  },
+  {
+    "name": "Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) & Lineweaver-Burk Calculator",
+    "description": "Calculate biochemical enzyme-catalyzed reaction velocity (v = V_max · [S] / (K_m + [S])) in μM/min, substrate affinity (K_m), and catalytic efficiency (k_cat / K_m) for biochemistry students.",
+    "path": "/tools/michaelis-menten-enzyme-kinetics-lineweaver-burk-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "michaelis menten calculator",
+      "enzyme kinetics formula v equals vmax s over km plus s online",
+      "lineweaver burk double reciprocal plot calculator",
+      "substrate concentration enzyme affinity km vmax calculator",
+      "biochemistry enzyme catalysis rate online"
+    ]
+  },
+  {
+    "name": "Chemical Reaction Order & Half-Life (Zero, 1st & 2nd Order Kinetics) Calculator",
+    "description": "Calculate chemical reaction half-life (Zero-order t_½ = [A]₀/(2k), 1st-order t_½ = ln(2)/k, 2nd-order t_½ = 1/(k·[A]₀)) and remaining reactant concentration [A]_t over elapsed reaction time t.",
+    "path": "/tools/first-order-second-order-chemical-reaction-half-life-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reaction half life calculator",
+      "first order second order kinetics half life formula online",
+      "integrated rate law concentration time calculator",
+      "zero order first order second order reaction solver",
+      "chemical kinetics half life calculator online"
+    ]
+  },
+  {
+    "name": "Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator",
+    "description": "Calculate electrochemical battery and galvanic cell non-standard reduction potential (E = E° - (0.0592/n) · log₁₀ Q) in Volts from standard potential E°, transferred electron count n, and reaction quotient Q.",
+    "path": "/tools/nernst-equation-electrochemical-cell-potential-emf-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nernst equation calculator",
+      "electrochemical cell potential formula e equals e zero minus rt over nf ln q online",
+      "galvanic cell voltage nernst calculator",
+      "battery emf reaction quotient q calculator",
+      "electrochemistry redox potential online"
+    ]
+  },
+  {
+    "name": "Faraday's Law of Electrolysis & Electroplating Mass Yield (m = (I·t·M) / (z·F)) Calculator",
+    "description": "Calculate electroplated metal mass yield (m = (I · t · M) / (z · F)) in grams, plating thickness in microns, and current efficiency percentage for industrial electroplating and electrolysis.",
+    "path": "/tools/faraday-law-electrolysis-electroplating-mass-yield-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "faraday law electrolysis calculator",
+      "electroplating mass formula m equals i t m over z f online",
+      "metal deposition thickness electroplating calculator",
+      "coulombs electric charge electrolysis calculator grams",
+      "electrochemistry faraday constant online"
+    ]
+  },
+  {
+    "name": "Bragg's Law X-Ray Diffraction (n·λ = 2·d·sin θ) Crystal d-Spacing Calculator",
+    "description": "Calculate crystalline lattice interplanar d-spacing (d = n·λ / (2·sin θ)) in Angstroms (Å) and nanometers (nm) from X-ray diffraction peak angle (2θ) and X-ray wavelength λ (Cu K-alpha 1.5406 Å) for crystallography.",
+    "path": "/tools/bragg-law-xray-diffraction-crystal-plane-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "braggs law calculator",
+      "xray diffraction xrd d spacing formula n lambda equals 2d sin theta online",
+      "crystal lattice interplanar spacing calculator angstroms",
+      "cu k alpha xrd peak 2 theta solver",
+      "materials science crystallography bragg diffraction online"
+    ]
+  },
+  {
+    "name": "Miller Indices (hkl) Cubic Crystal Lattice Interplanar Spacing (d_hkl = a / √(h² + k² + l²)) Calculator",
+    "description": "Calculate cubic crystal system (SC, BCC, FCC) interplanar d-spacing (d_hkl = a / √(h² + k² + l²)) and determine allowed diffraction reflections from Miller indices (h, k, l) and lattice parameter a for materials science.",
+    "path": "/tools/miller-indices-cubic-crystal-lattice-interplanar-d-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "miller indices calculator",
+      "cubic crystal d spacing formula d hkl equals a over sqrt h2 k2 l2 online",
+      "fcc bcc sc allowed reflections miller indices calculator",
+      "lattice parameter a interplanar spacing calculator",
+      "crystallography solid state physics online"
+    ]
+  },
+  {
+    "name": "Fick's First Law Molecular Diffusion (J = -D·(dC/dx)) Mass Flux Calculator",
+    "description": "Calculate steady-state molecular mass diffusion flux (J = -D · (ΔC / Δx)) in mol/(m²·s) and g/(m²·s) from diffusion coefficient D and chemical concentration gradient for chemical engineering.",
+    "path": "/tools/fick-first-law-molecular-diffusion-mass-transfer-flux-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ficks first law calculator",
+      "molecular diffusion flux formula j equals minus d dc over dx online",
+      "diffusion coefficient concentration gradient mass transfer calculator",
+      "ficks law steady state diffusion calculator",
+      "chemical engineering transport phenomena online"
+    ]
+  },
+  {
+    "name": "Debye-Hückel Limiting Law Ionic Strength (I) & Mean Activity Coefficient (γ_±) Calculator",
+    "description": "Calculate aqueous electrolyte solution Ionic Strength (I = ½·Σ c_i·z_i²) and mean ionic activity coefficient (log₁₀ γ_± = -A·|z₊·z₋|·√I) for physical chemistry and analytical solution thermodynamics.",
+    "path": "/tools/debye-huckel-limiting-law-ionic-strength-activity-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "debye huckel limiting law calculator",
+      "ionic strength formula i equals half sum c z squared online",
+      "mean ionic activity coefficient gamma plus minus calculator",
+      "electrolyte non ideality debye huckel calculator",
+      "physical chemistry electrolyte solution thermodynamics online"
+    ]
+  },
+  {
+    "name": "Langmuir & Freundlich Adsorption Isotherm (θ = K·P / (1 + K·P)) Surface Coverage Calculator",
+    "description": "Calculate gas/solid and liquid/carbon surface adsorption fractional monolayer coverage (θ = K·P / (1 + K·P)) and adsorbed capacity q_e under Langmuir and Freundlich models for environmental water purification.",
+    "path": "/tools/langmuir-freundlich-adsorption-isotherm-surface-coverage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "langmuir adsorption isotherm calculator",
+      "freundlich isotherm formula surface coverage theta online",
+      "activated carbon adsorption capacity qe calculator",
+      "monolayer adsorption equilibrium constant k calculator",
+      "chemical engineering surface chemistry online"
+    ]
+  },
+  {
+    "name": "Colligative Properties (Boiling Point Elevation, Freezing Point Depression & Osmotic Pressure) Calculator",
+    "description": "Calculate solution colligative properties: Freezing Point Depression (ΔT_f = i·K_f·m), Boiling Point Elevation (ΔT_b = i·K_b·m), and Osmotic Pressure (Π = i·M·R·T) in atm from van 't Hoff factor i and molality.",
+    "path": "/tools/colligative-properties-boiling-elevation-freezing-depression-osmotic-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "colligative properties calculator",
+      "freezing point depression boiling point elevation formula online",
+      "osmotic pressure pi equals i m r t calculator",
+      "van t hoff factor colligative calculator",
+      "chemistry solution colligative properties online"
+    ]
+  },
+  {
+    "name": "Chemical Buffer Solution Capacity (Van Slyke β = 2.303·C·[H⁺]·K_a / ([H⁺] + K_a)²) Calculator",
+    "description": "Calculate acid-base chemical buffer capacity index (β = 2.303 · C · [H⁺]·K_a / ([H⁺] + K_a)²) in mol/(L·pH) and evaluate maximum buffer capacity at pH = pK_a for chemistry laboratory preparation.",
+    "path": "/tools/henderson-hasselbalch-polyprotic-buffer-capacity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "buffer capacity calculator",
+      "van slyke buffer capacity beta formula online",
+      "henderson hasselbalch buffer resistance calculator",
+      "acid base buffer capacity maximum at pka calculator",
+      "analytical chemistry buffer solution design online"
+    ]
+  },
+  {
+    "name": "Combustion Stoichiometry Air-Fuel Ratio (AFR) & Lambda Equivalence Ratio (λ) Calculator",
+    "description": "Calculate stoichiometric Air-Fuel Ratio (AFR_stoich = (137.28·(n + m/4)) / (12.011·n + 1.008·m)) for hydrocarbons (C_n H_m), actual AFR, and combustion Lambda Equivalence Ratio (λ = AFR_actual / AFR_stoich).",
+    "path": "/tools/combustion-stoichiometry-air-fuel-ratio-equivalence-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "air fuel ratio calculator",
+      "lambda equivalence ratio combustion stoichiometry formula online",
+      "stoichiometric afr gasoline diesel methane calculator",
+      "lean rich fuel air combustion lambda calculator",
+      "internal combustion engine stoichiometry online"
+    ]
+  },
+  {
+    "name": "Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator",
+    "description": "Calculate thermal radiative heat transfer power (P = ε · σ · A · (T⁴ - T_surr⁴)) in Watts and kW using the Stefan-Boltzmann law from surface temperature, emissivity ε, and ambient surroundings.",
+    "path": "/tools/stefan-boltzmann-blackbody-radiation-emissivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stefan boltzmann calculator",
+      "thermal radiation formula p equals epsilon sigma a t to fourth online",
+      "blackbody radiation emissive power calculator",
+      "radiative heat transfer surface area temperature calculator",
+      "thermal engineering radiation solver online"
+    ]
+  },
+  {
+    "name": "Cylindrical Pipe Radial Heat Conduction (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) Calculator",
+    "description": "Calculate radial conductive heat loss rate (q = 2π·k·L·(T₁ - T₂) / ln(r₂/r₁)) in Watts and critical insulation thickness radius (r_cr = k / h) for steam pipes and industrial thermal engineering.",
+    "path": "/tools/fourier-heat-conduction-cylindrical-pipe-insulation-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fourier heat conduction pipe calculator",
+      "radial heat transfer cylinder formula 2 pi k l delta t over ln r2 over r1 online",
+      "critical radius of insulation pipe heat loss calculator",
+      "steam pipe thermal insulation heat loss calculator",
+      "mechanical engineering heat conduction online"
+    ]
+  },
+  {
+    "name": "Navier-Stokes Plane Couette Viscous Flow (u(y) = U·y/h) & Shear Stress (τ = μ·U/h) Calculator",
+    "description": "Calculate laminar viscous fluid Couette flow linear velocity profile (u(y) = U · y / h), constant wall shear stress (τ = μ · U / h) in Pascals, and viscous shear force for hydrodynamic lubrication bearings.",
+    "path": "/tools/navier-stokes-couette-flow-shear-stress-velocity-profile-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "couette flow calculator",
+      "navier stokes plane couette shear stress formula tau equals mu u over h online",
+      "laminar flow between parallel plates velocity profile calculator",
+      "dynamic viscosity wall shear stress couette calculator",
+      "fluid mechanics hydrodynamic lubrication online"
+    ]
+  },
+  {
+    "name": "Centrifugal Pump Affinity Laws (Q ∝ N, H ∝ N², P ∝ N³) Scaling Calculator",
+    "description": "Calculate centrifugal pump scaling under variable frequency drive (VFD) speed changes using Affinity Laws: Flow Rate (Q₂/Q₁ = N₂/N₁), Total Dynamic Head (H₂/H₁ = (N₂/N₁)²), and Shaft Power (P₂/P₁ = (N₂/N₁)³).",
+    "path": "/tools/centrifugal-pump-affinity-laws-flow-head-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pump affinity laws calculator",
+      "centrifugal pump speed scaling formula q h p online",
+      "vfd pump energy savings cubic power law calculator",
+      "impeller diameter speed pump scaling affinity calculator",
+      "fluid mechanical pumping systems online"
+    ]
+  },
+  {
+    "name": "Distillation Minimum Theoretical Stages (Fenske Equation N_min = ln(S_D/S_B) / ln α) Calculator",
+    "description": "Calculate continuous binary distillation column minimum theoretical equilibrium stages (N_min = ln[ (x_D/(1 - x_D)) / (x_B/(1 - x_B)) ] / ln α) under total reflux from relative volatility α and distillate/bottoms purity.",
+    "path": "/tools/distillation-mccabe-thiele-minimum-reflux-stages-fenske-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fenske equation calculator",
+      "distillation minimum stages mccabe thiele formula online",
+      "total reflux minimum theoretical trays fenske calculator",
+      "relative volatility distillation separation stages calculator",
+      "chemical engineering separation processes online"
+    ]
+  },
+  {
+    "name": "Crystallization Supersaturation Ratio (S = C / C*) & Crystal Yield Calculator",
+    "description": "Calculate chemical crystallization relative supersaturation ratio (S = C / C*), driving force supersaturation (ΔC = C - C*), and theoretical crystalline mass yield (Y = M_solv · (C_hot - C_cold)) in kg.",
+    "path": "/tools/crystallization-supersaturation-solubility-yield-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "crystallization calculator",
+      "supersaturation ratio s equals c over c star online",
+      "cooling crystallization yield mass calculator kg",
+      "solubility curve crystal mass yield calculator",
+      "chemical engineering industrial crystallization online"
+    ]
+  },
+  {
+    "name": "Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator",
+    "description": "Calculate chemical reactor minimum fluidization superficial velocity (u_mf in m/s) from particle diameter d_p, solid particle density ρ_s, fluid density ρ, and bed voidage ε using the Ergun equation.",
+    "path": "/tools/fluidized-bed-minimum-fluidization-velocity-ergun-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "minimum fluidization velocity calculator",
+      "ergun equation fluidization velocity u mf online",
+      "fluidized bed reactor particle density voidage calculator",
+      "wen yu correlation minimum fluidization velocity calculator",
+      "chemical reaction engineering fluidized bed online"
+    ]
+  },
+  {
+    "name": "Agricultural Grain Storage Equilibrium Moisture Content (Chung-Pfost EMC) Calculator",
+    "description": "Calculate cereal grain (Corn, Wheat, Rice, Soybeans) Equilibrium Moisture Content (EMC in % wet/dry basis) from air temperature T and Relative Humidity (RH) using ASABE Chung-Pfost equations.",
+    "path": "/tools/cereal-grain-drying-equilibrium-moisture-content-emc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "equilibrium moisture content calculator",
+      "chung pfost emc grain drying formula online",
+      "grain storage equilibrium moisture content asabe calculator",
+      "corn wheat rice safe storage moisture calculator",
+      "agricultural post harvest engineering online"
+    ]
+  },
+  {
+    "name": "Doppler Effect Sound Frequency Shift (f' = f₀·(v ± v_o) / (v ∓ v_s)) Calculator",
+    "description": "Calculate perceived acoustic Doppler frequency shift (f' = f₀ · (v ± v_o) / (v ∓ v_s)) in Hz for approaching or receding sound sources (sirens, trains, aircraft) and moving observers in physics.",
+    "path": "/tools/doppler-effect-sound-frequency-shift-moving-source-observer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "doppler effect calculator",
+      "sound frequency shift formula f prime equals f0 times v plus vo over v minus vs online",
+      "approaching receding sound source doppler shift calculator",
+      "acoustic doppler velocity frequency calculator hz",
+      "physics sound waves doppler effect online"
+    ]
+  }
+]

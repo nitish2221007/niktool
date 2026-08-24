@@ -1,0 +1,15 @@
+{
+  "name": "Osmotic Pressure (Van 't Hoff) Calculator",
+  "description": "Calculate solution osmotic pressure (Π = i · M · R · T) in atmospheres (atm), bar, and kPa from solute molarity, van 't Hoff factor (i), and temperature.",
+  "path": "/tools/osmotic-pressure-van-t-hoff-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "osmotic pressure calculator",
+    "van t hoff osmotic pressure formula",
+    "pi i m r t calculator online",
+    "colligative osmotic pressure atm online",
+    "reverse osmosis osmotic pressure calculator"
+  ],
+  "order": 416
+}

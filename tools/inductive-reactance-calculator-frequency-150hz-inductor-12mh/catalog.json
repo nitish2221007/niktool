@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (150 Hz, 12 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 11.31 Ω) for 150 Hz frequency and 12 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-12mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 150hz inductor 12mh",
+    "Inductive Reactance Calculator (150 Hz, 12 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

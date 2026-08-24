@@ -1,0 +1,15 @@
+{
+  "name": "Convert 8 KM to Miles",
+  "description": "Convert 8 kilometers to miles (4.97 miles). 100% free and local.",
+  "path": "/tools/convert-8-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 8 km to miles",
+    "Convert 8 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

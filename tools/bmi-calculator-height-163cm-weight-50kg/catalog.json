@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 163cm, Weight 50kg)",
+  "description": "Calculate Body Mass Index (BMI 18.8) for height 163 cm and weight 50 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-163cm-weight-50kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 163cm weight 50kg",
+    "BMI Calculator (Height 163cm, Weight 50kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

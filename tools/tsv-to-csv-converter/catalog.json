@@ -1,0 +1,15 @@
+{
+  "name": "Convert TSV to CSV Online",
+  "description": "Convert tab-separated values (TSV) to comma-separated values (CSV).",
+  "path": "/tools/tsv-to-csv-converter/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "tsv to csv converter",
+    "Convert TSV to CSV Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

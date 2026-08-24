@@ -1,0 +1,15 @@
+{
+  "name": "Convert 303 Knots Speed Val to KM/H",
+  "description": "Convert 303 knots speed to kilometers per hour (561.16 km/h).",
+  "path": "/tools/convert-knot-speed-val-303-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 303 to kmh",
+    "Convert 303 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

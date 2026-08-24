@@ -1,0 +1,15 @@
+{
+  "name": "Convert 132 EM to PX Value",
+  "description": "Convert 132 EM units to pixels (2112 px) based on 16px font context.",
+  "path": "/tools/convert-132-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 132 em to px value",
+    "Convert 132 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

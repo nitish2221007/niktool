@@ -1,0 +1,15 @@
+{
+  "name": "Convert 15 GB to MB",
+  "description": "Convert 15 Gigabytes (GB) to Megabytes (15360 MB). 100% free and local.",
+  "path": "/tools/convert-15-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 15 gb to mb",
+    "Convert 15 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

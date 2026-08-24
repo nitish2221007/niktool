@@ -1,0 +1,15 @@
+{
+  "name": "Transformer Scaled Dot-Product Self-Attention (Attention(Q, K, V) = softmax(Q·Kᵀ / √d_k)·V) Calculator",
+  "description": "Calculate Transformer multi-head self-attention scaled dot-product matrix weights (Softmax(Q · Kᵀ / √d_k)), attention head scaling factor 1/√d_k, and output context vector for BERT/GPT architectures.",
+  "path": "/tools/bert-transformer-self-attention-scaled-dot-product-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "transformer self attention calculator",
+    "scaled dot product attention formula q k v over sqrt dk online",
+    "bert gpt self attention weight matrix calculator",
+    "attention is all you need formula calculator",
+    "deep learning transformers large language models online"
+  ],
+  "order": 1231
+}

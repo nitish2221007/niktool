@@ -1,0 +1,16 @@
+{
+  "name": "QAM Bit Error Rate (BER) vs SNR Calculator",
+  "description": "Compute bit error rate (BER), symbol error rate (SER), and spectral efficiency for M-QAM modulation (4, 16, 64, 256 QAM).",
+  "path": "/tools/qam-bit-error-rate-snr-modulation-order-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "qam bit error rate snr modulation order calculator",
+    "QAM Bit Error Rate (BER) vs SNR Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Wien's Displacement Law (λ_max = b / T) Peak Stellar Wavelength Calculator",
+  "description": "Calculate blackbody and stellar emission peak emission wavelength (λ_max = 2.89777 × 10⁻³ m·K / T) in nanometers (nm) and Angstroms (Å), peak photon energy in eV, and classify star color spectrum from effective surface temperature T.",
+  "path": "/tools/wien-displacement-law-stellar-peak-wavelength-temperature-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wiens displacement law calculator",
+    "peak wavelength formula lambda max equals b over t online",
+    "stellar blackbody temperature to peak wavelength calculator nm",
+    "star surface temperature color spectrum calculator",
+    "astrophysics radiation laws wien online"
+  ],
+  "order": 1167
+}

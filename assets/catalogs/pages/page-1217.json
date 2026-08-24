@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator",
+    "description": "Calculate intrinsic semiconductor carrier density (n_i = √(N_c · N_v) · e^(-E_g / (2 · k_B · T))) in Silicon, Germanium, and GaAs across operating temperatures.",
+    "path": "/tools/intrinsic-carrier-concentration-temperature-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "intrinsic carrier concentration calculator",
+      "ni temperature formula silicon",
+      "semiconductor bandgap ni calculator online",
+      "silicon ge gaas carrier density calculator",
+      "fermi level intrinsic semiconductor online"
+    ]
+  },
+  {
+    "name": "BJT Early Voltage (V_A) & Small-Signal Output Resistance (r_o) Calculator",
+    "description": "Calculate BJT small-signal output resistance (r_o = (V_A + V_CE) / I_C ≈ V_A / I_C) and base-width modulation Early effect output conductance g_o.",
+    "path": "/tools/bjt-early-voltage-output-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bjt early voltage calculator",
+      "output resistance ro va over ic formula",
+      "bjt base width modulation calculator",
+      "small signal transistor output impedance online",
+      "analog circuit bjt early effect calculator"
+    ]
+  },
+  {
+    "name": "MOSFET Gate Oxide Capacitance (C_ox) & Transconductance Parameter Calculator",
+    "description": "Calculate gate dielectric oxide capacitance per unit area (C_ox = ε_ox / t_ox) in fF/μm² and process transconductance parameter (k_n' = μ_n · C_ox) in μA/V².",
+    "path": "/tools/mosfet-gate-oxide-capacitance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mosfet gate oxide capacitance calculator",
+      "cox eps over tox formula",
+      "process transconductance parameter kn prime calculator",
+      "high k dielectric gate capacitance online",
+      "cmos vlsi mosfet capacitance calculator"
+    ]
+  },
+  {
+    "name": "Semiconductor Minority Carrier Diffusion Length (L = √(D · τ)) Calculator",
+    "description": "Calculate minority carrier diffusion length (L = √(D · τ) = √((k_B · T / q) · μ · τ)) in micrometers from carrier lifetime τ and Einstein diffusion coefficient D.",
+    "path": "/tools/semiconductor-diffusion-length-lifetime-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "minority carrier diffusion length calculator",
+      "l sqrt d tau formula",
+      "einstein relation diffusion coefficient calculator",
+      "carrier recombination lifetime solar cell online",
+      "photovoltaic silicon diffusion length calculator"
+    ]
+  },
+  {
+    "name": "Buck-Boost DC-DC Converter Inductor Ripple & Sizing Calculator",
+    "description": "Calculate switch-mode DC-DC buck-boost converter duty cycle (D = |V_out| / (V_in + |V_out|)), critical minimum inductance (L_min), and peak-to-peak inductor ripple current (ΔI_L).",
+    "path": "/tools/buck-boost-converter-inductor-ripple-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "buck boost converter calculator",
+      "dcdc converter duty cycle formula",
+      "inductor ripple current delta il calculator",
+      "critical inductance ccm dcm buck boost online",
+      "switch mode power supply inductor sizing online"
+    ]
+  },
+  {
+    "name": "Flyback Transformer Primary Inductance (L_p) & Turns Ratio Calculator",
+    "description": "Calculate isolated switch-mode flyback transformer primary inductance (L_p = (V_in(min) · D_max)² / (2 · P_in · f)), primary turns, and secondary turns ratio (N_p / N_s).",
+    "path": "/tools/flyback-transformer-primary-inductance-turns-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flyback transformer calculator",
+      "flyback primary inductance formula lp",
+      "turns ratio isolated smps calculator online",
+      "dcm ccm flyback transformer design calculator",
+      "power supply flyback inductance online"
+    ]
+  },
+  {
+    "name": "Inverter Output Total Harmonic Distortion (THD) Calculator",
+    "description": "Calculate voltage and current Total Harmonic Distortion percentage (THD % = √(Σ V_n²) / V₁ · 100) per IEEE 519 standards for solar grid-tie inverters and motor drives.",
+    "path": "/tools/inverter-output-thd-total-harmonic-distortion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "inverter thd calculator",
+      "total harmonic distortion formula ieee 519",
+      "thd percentage calculator online",
+      "voltage harmonics root sum of squares calculator",
+      "solar grid tie inverter thd calculator"
+    ]
+  },
+  {
+    "name": "Synchronous Rectifier MOSFET Conduction Loss vs Schottky Diode Calculator",
+    "description": "Calculate synchronous rectifier power savings (P_loss = I_RMS² · R_DS(on) vs P_diode = I_avg · V_f) in low-voltage high-current power supplies.",
+    "path": "/tools/synchronous-rectifier-conduction-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "synchronous rectifier loss calculator",
+      "mosfet rds on conduction loss formula",
+      "schottky diode vs synchronous rectifier power savings",
+      "low voltage high current smps efficiency online",
+      "power electronics conduction loss calculator"
+    ]
+  },
+  {
+    "name": "Boost DC-DC Step-Up Converter Duty Cycle & Component Stress Calculator",
+    "description": "Calculate boost converter voltage step-up duty cycle (D = 1 - (V_in / V_out)), peak switch voltage stress (V_DS = V_out), and minimum output smoothing capacitor capacitance (C_min).",
+    "path": "/tools/boost-converter-duty-cycle-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "boost converter calculator",
+      "step up dcdc duty cycle formula 1 minus vin over vout",
+      "boost converter output capacitor formula online",
+      "switch voltage stress boost converter calculator",
+      "smps boost converter design online"
+    ]
+  },
+  {
+    "name": "Wind Turbine Power Output & Betz Limit (59.3%) Calculator",
+    "description": "Calculate aerodynamic wind turbine power generation (P = 1/2 · ρ · A · v³ · C_p) in kW and compare against Albert Betz theoretical maximum limit (C_p(max) = 16/27 = 59.26%).",
+    "path": "/tools/wind-turbine-betz-limit-power-output-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wind turbine power calculator",
+      "betz limit formula 16 27",
+      "wind power half rho a v cubed calculator",
+      "rotor diameter wind energy calculator online",
+      "aerodynamic power coefficient cp calculator"
+    ]
+  },
+  {
+    "name": "Wind Shear Power Law (Hellmann Exponent) Hub Height Calculator",
+    "description": "Calculate wind velocity increase at elevated turbine hub heights (v₂ = v₁ · (h₂ / h₁)^α) using empirical atmospheric wind shear power law exponents across varied terrain roughness.",
+    "path": "/tools/wind-shear-power-law-hub-height-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wind shear power law calculator",
+      "hellmann exponent alpha formula",
+      "wind speed hub height extrapolation calculator",
+      "wind turbine tower height power gain online",
+      "atmospheric boundary layer wind shear calculator"
+    ]
+  },
+  {
+    "name": "Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator",
+    "description": "Calculate high-head impulse Pelton hydroelectric turbine jet velocity (v_jet = C_v · √(2 · g · H)) in m/s, runner bucket RPM, and mechanical power output (P = η · ρ · g · Q · H) in kW/MW.",
+    "path": "/tools/pelton-wheel-turbine-hydraulic-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pelton wheel calculator",
+      "impulse hydraulic turbine power formula",
+      "jet velocity v sqrt 2gh calculator",
+      "pelton runner bucket rpm calculator online",
+      "high head hydro power generation calculator"
+    ]
+  },
+  {
+    "name": "Hydro Turbine Specific Speed (N_s) & Runner Selection Calculator",
+    "description": "Calculate dimensionless hydraulic turbine specific speed (N_s = (N · √P) / H^(5/4)) to identify optimum turbine type: Pelton impulse, Francis reaction, or Kaplan propeller.",
+    "path": "/tools/francis-kaplan-turbine-specific-speed-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "turbine specific speed calculator",
+      "ns formula hydro turbine runner selection",
+      "francis kaplan pelton turbine selector online",
+      "hydraulic turbine n sqrt p over h 5 4 calculator",
+      "hydroelectric power plant design calculator"
+    ]
+  },
+  {
+    "name": "Tidal Barrage Basin Potential Energy Generation Calculator",
+    "description": "Calculate tidal range estuary potential energy generation per tide cycle (E = 1/2 · A · ρ · g · R²) in MWh and annual power output from basin surface area A and tidal amplitude range R.",
+    "path": "/tools/tidal-barrage-potential-energy-generation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tidal barrage energy calculator",
+      "tidal range potential energy formula",
+      "estuary tidal power generation calculator",
+      "bay of fundy tidal energy calculator online",
+      "renewable ocean tidal basin calculator"
+    ]
+  },
+  {
+    "name": "Terzaghi Ultimate Soil Bearing Capacity Shallow Foundation Calculator",
+    "description": "Calculate shallow foundation ultimate soil bearing capacity (q_ult = c · N_c + q · N_q + 0.5 · γ · B · N_γ) and allowable bearing pressure using Karl Terzaghi bearing capacity factors.",
+    "path": "/tools/terzaghi-bearing-capacity-shallow-foundation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "terzaghi bearing capacity calculator",
+      "shallow footing ultimate bearing capacity formula",
+      "nc nq n_gamma soil factors calculator",
+      "geotechnical allowable bearing pressure online",
+      "foundation engineering terzaghi calculator"
+    ]
+  },
+  {
+    "name": "Mohr-Coulomb Soil Shear Strength Envelope Calculator",
+    "description": "Calculate geotechnical soil shear failure strength (τ = c + σ_n · tan(ϕ)) in kPa from effective normal stress, cohesion intercept c, and internal friction angle ϕ.",
+    "path": "/tools/mohr-coulomb-shear-strength-envelope-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mohr coulomb shear strength calculator",
+      "tau c plus sigma tan phi formula",
+      "soil shear failure envelope calculator",
+      "effective normal stress triaxial shear calculator",
+      "geotechnical soil mechanics shear strength online"
+    ]
+  },
+  {
+    "name": "Atterberg Limits Plasticity Index (PI) & Liquidity Index (LI) Calculator",
+    "description": "Calculate soil Plasticity Index (PI = LL - PL), Liquidity Index (LI = (w - PL) / PI), Activity number, and USCS soil classification (CL, CH, ML, MH) from liquid and plastic limits.",
+    "path": "/tools/atterberg-limits-plasticity-liquidity-index-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atterberg limits calculator",
+      "plasticity index pi formula ll minus pl",
+      "liquidity index li calculator online",
+      "uscs soil classification a line casagrande",
+      "clay consistency atterberg limits online"
+    ]
+  },
+  {
+    "name": "Soil 1D Primary Consolidation Settlement (S_c) Calculator",
+    "description": "Calculate clay primary settlement (S_c = (C_c · H₀ / (1 + e₀)) · log₁₀((σ₀ + Δσ) / σ₀)) in millimeters from compression index C_c and void ratio e₀.",
+    "path": "/tools/soil-one-dimensional-consolidation-settlement-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "consolidation settlement calculator",
+      "soil 1d settlement formula cc h0 over 1 plus e0",
+      "primary consolidation settlement clay calculator",
+      "void ratio compression index settlement online",
+      "geotechnical foundation settlement calculator"
+    ]
+  },
+  {
+    "name": "Constant Head Soil Permeability (Darcy k) Calculator",
+    "description": "Calculate soil hydraulic conductivity coefficient (k = (Q · L) / (A · h · t)) in cm/s and m/s from constant-head laboratory permeameter test data per ASTM D2434.",
+    "path": "/tools/constant-head-soil-permeability-darcy-k-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "soil permeability calculator",
+      "darcy hydraulic conductivity formula k ql over aht",
+      "constant head permeameter calculator astm d2434",
+      "coarse sand gravel permeability calculator online",
+      "geotechnical seepage velocity calculator"
+    ]
+  },
+  {
+    "name": "CNC Milling Feed Rate (IPM / mm/min) & Spindle Speed Calculator",
+    "description": "Calculate CNC milling table feed rate (Feed = RPM · Flutes · FPT) in inches per minute (IPM) and mm/min, spindle RPM, and chip load per tooth.",
+    "path": "/tools/cnc-milling-feed-rate-ipt-ipm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cnc milling feed rate calculator",
+      "spindle speed rpm formula sfm over diameter",
+      "feed rate ipm rpm flutes fpt calculator",
+      "chip load per tooth milling calculator online",
+      "speeds and feeds cnc machining online"
+    ]
+  },
+  {
+    "name": "Lathe Turning Surface Speed (SFM) & Spindle RPM Calculator",
+    "description": "Calculate CNC and manual lathe turning spindle speed (RPM = (SFM · 3.82) / D) in revolutions per minute and constant surface speed (CSS) for facing and turning operations.",
+    "path": "/tools/lathe-turning-surface-speed-sfm-rpm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lathe turning rpm calculator",
+      "surface speed sfm to rpm lathe formula",
+      "constant surface speed css lathe calculator",
+      "workpiece diameter turning rpm online",
+      "cnc lathe speeds and feeds calculator"
+    ]
+  },
+  {
+    "name": "Taylor Tool Life Equation (V · Tⁿ = C) Machining Calculator",
+    "description": "Calculate cutting tool life duration in minutes (T = (C / V)^(1/n)) and optimum cutting velocity V from Frederick Winslow Taylor empirical tool life constants n and C.",
+    "path": "/tools/taylor-tool-life-equation-cutting-speed-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "taylor tool life calculator",
+      "v t to the n equals c formula",
+      "tool wear life minutes calculator online",
+      "carbide hss taylor tool life equation online",
+      "metal cutting tool life optimization calculator"
+    ]
+  },
+  {
+    "name": "Metal Removal Rate (MRR) Milling & Turning Calculator",
+    "description": "Calculate metal cutting volumetric material removal rate (MRR = WOC · DOC · Feed) in in³/min and cm³/min to determine roughing productivity and spindle power demands.",
+    "path": "/tools/metal-removal-rate-mrr-milling-turning-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "metal removal rate calculator",
+      "mrr formula milling turning",
+      "volumetric cutting rate in3 per min calculator",
+      "width of cut depth of cut feed mrr online",
+      "cnc roughing productivity mrr calculator"
+    ]
+  },
+  {
+    "name": "CNC Spindle Cutting Power & Machinability Power Requirement Calculator",
+    "description": "Calculate net spindle motor horsepower and kilowatts (P = MRR · K_p / η) required to machine Aluminum, Steel, Titanium, and Cast Iron from unit power coefficients K_p.",
+    "path": "/tools/drill-thrust-force-spindle-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spindle cutting power calculator",
+      "machining motor power formula mrr times kp",
+      "horsepower required milling turning calculator",
+      "unit power coefficient kp steel aluminum online",
+      "cnc spindle horsepower demand calculator"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 280V, Current 2A)",
+  "description": "Calculate Resistance (140.00 Ω) and Electric Power (560.0 W) for 280V voltage and 2A current.",
+  "path": "/tools/ohms-law-calculator-voltage-280v-current-2a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 280v current 2a",
+    "Ohm's Law Calculator (Voltage 280V, Current 2A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

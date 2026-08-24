@@ -1,0 +1,15 @@
+{
+  "name": "Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator",
+  "description": "Calculate control system Phase-Lead frequency compensator G_c(s) = (s + 1/T) / (s + 1/(α·T)) maximum phase lead boost φ_m (sin φ_m = (1 - α) / (1 + α)), attenuation factor α, and geometric center frequency ω_m.",
+  "path": "/tools/lead-lag-compensator-frequency-response-phase-boost-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "lead lag compensator calculator",
+    "phase lead boost formula sin phi m online",
+    "attenuation factor alpha compensator calculator",
+    "frequency response phase margin lead compensator calculator",
+    "control systems mechatronics electrical engineering online"
+  ],
+  "order": 1327
+}

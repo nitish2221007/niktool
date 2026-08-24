@@ -1,0 +1,15 @@
+{
+  "name": "Ideal Gas Law Moles Calculator (3 atm Pressure, 5 L Volume)",
+  "description": "Calculate gas moles (n = 0.613 mol) using Ideal Gas Law (PV=nRT) at 3 atm and 5 L.",
+  "path": "/tools/ideal-gas-law-moles-calculator-pressure-3atm-volume-5l/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "ideal gas law moles calculator pressure 3atm volume 5l",
+    "Ideal Gas Law Moles Calculator (3 atm Pressure, 5 L Volume)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

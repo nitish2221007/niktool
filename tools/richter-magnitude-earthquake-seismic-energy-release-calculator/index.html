@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate earthquake seismic radiative energy release in Joules and TNT equivalent (log₁₀ E = 4.8 + 1.5·M) and compute energy amplification ratios (each +1.0 magnitude step increases energy by 31.62×).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/richter-magnitude-earthquake-seismic-energy-release-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate earthquake seismic radiative energy release in Joules and TNT equivalent (log₁₀ E = 4.8 + 1.5·M) and compute energy amplification ratios (each +1.0 magnitude step increases energy by 31.62×).">
+  <meta property="og:url" content="https://niktool.in/tools/richter-magnitude-earthquake-seismic-energy-release-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/richter-magnitude-earthquake-seismic-energy-release-calculator/",
+        "description": "Calculate earthquake seismic radiative energy release in Joules and TNT equivalent (log₁₀ E = 4.8 + 1.5·M) and compute energy amplification ratios (each +1.0 magnitude step increases energy by 31.62×).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How much more energy is released in a magnitude 8.0 vs 6.0 earthquake?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A magnitude 8.0 earthquake releases exactly $10^{1.5 \times 2} = 10^3 = 1,000\text{ times}$ more destructive energy than a magnitude 6.0."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator</h1>
+      <p>Calculate earthquake seismic radiative energy release in Joules and TNT equivalent (log₁₀ E = 4.8 + 1.5·M) and compute energy amplification ratios (each +1.0 magnitude step increases energy by 31.62×).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Earthquake Richter Moment Magnitude M (1.0 to 9.5)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="eq-m">Earthquake Magnitude M</label>
+        <input class="tool-textarea" id="eq-m" type="number" step="0.1" min="1.0" max="9.5" value="7.0" placeholder="7.0 (Major Earthquake)" />
+      </div>
+      <div id="eq-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="eq-res-e" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Energy E = 1.99 × 10¹⁵ Joules</span>
+            <span class="stat-label">Radiated Seismic Energy (E = 10^(4.8 + 1.5·M))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="eq-res-tnt" style="color:var(--green-dark); font-weight:700;">TNT Equivalent = 476 Kilotons TNT (31.62× Energy per +1.0 Magnitude Step)</span>
+            <span class="stat-label">TNT Explosive Equivalent & Richter Logarithmic Scaling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator</h2>
+      <ol>
+        <li>Enter earthquake Richter / Moment Magnitude M (e.g. 5.0 moderate, 7.0 major, 9.0 catastrophic).</li>
+        <li>Inspect total radiated seismic energy in Joules and equivalent explosive yield in Megatons/Kilotons of TNT.</li>
+      </ol>
+
+      <h2>Charles Richter & Beno Gutenberg 1935 Energy Scale</h2>
+      <p>Because the Richter magnitude is semi-logarithmic with a $1.5$ exponent factor, an increase of $+1.0$ on the magnitude scale corresponds to $10^{1.5} approx 31.62$ times more energy, and a $+2.0$ increase releases exactly $1,000	imes$ more energy.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How much more energy is released in a magnitude 8.0 vs 6.0 earthquake?</summary>
+        <p>A magnitude 8.0 earthquake releases exactly $10^{1.5 	imes 2} = 10^3 = 1,000	ext{ times}$ more destructive energy than a magnitude 6.0.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/richter-magnitude-earthquake-seismic-energy-release-calculator/tool.js"></script>
+</body>
+</html>

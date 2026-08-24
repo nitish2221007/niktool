@@ -1,0 +1,15 @@
+{
+  "name": "Cantilever Beam End-Point Load Deflection Calculator",
+  "description": "Calculate maximum tip deflection (δ_max = (P · L³) / (3 · E · I)) and maximum bending moment (M_max = P · L) for cantilever beams with point loads.",
+  "path": "/tools/cantilever-beam-deflection-end-load-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cantilever beam deflection calculator",
+    "pl3 over 3ei deflection formula",
+    "end point load cantilever beam calculator",
+    "beam stiffness structural deflection online",
+    "moment of inertia cantilever deflection"
+  ],
+  "order": 393
+}

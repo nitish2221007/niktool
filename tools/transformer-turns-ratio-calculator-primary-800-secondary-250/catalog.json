@@ -1,0 +1,15 @@
+{
+  "name": "Transformer Turns Ratio Calculator (Np=800, Ns=250)",
+  "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 3.20) and secondary voltage for Np=800 and Ns=250.",
+  "path": "/tools/transformer-turns-ratio-calculator-primary-800-secondary-250/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "transformer turns ratio calculator primary 800 secondary 250",
+    "Transformer Turns Ratio Calculator (Np=800, Ns=250)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

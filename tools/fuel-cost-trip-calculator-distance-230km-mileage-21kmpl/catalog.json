@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (230 km Distance, 21 km/l Mileage)",
+  "description": "Calculate fuel needed (11.0 L) and cost (₹1062) for 230 km trip at 21 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-230km-mileage-21kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 230km mileage 21kmpl",
+    "Fuel Cost Trip Calculator (230 km Distance, 21 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

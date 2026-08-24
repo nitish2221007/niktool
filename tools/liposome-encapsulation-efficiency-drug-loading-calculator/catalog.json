@@ -1,0 +1,15 @@
+{
+  "name": "Liposome & Nanoparticle Encapsulation Efficiency (EE% = (Total - Free) / Total·100%) Calculator",
+  "description": "Calculate nanoparticle and liposomal drug delivery Encapsulation Efficiency (EE% = (Total Drug - Free Unencapsulated Drug) / Total Drug · 100%) and Drug Loading Capacity (DLC%) in pharmaceutical nanomedicine.",
+  "path": "/tools/liposome-encapsulation-efficiency-drug-loading-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "encapsulation efficiency calculator",
+    "liposome drug loading capacity formula ee percent online",
+    "nanoparticle drug delivery encapsulation calculator",
+    "lipid nanoparticle lnp encapsulation efficiency calculator",
+    "nanomedicine drug delivery pharmacology online"
+  ],
+  "order": 1208
+}

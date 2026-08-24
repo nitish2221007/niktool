@@ -1,0 +1,15 @@
+{
+  "name": "Pipe External Hydrostatic Collapse Pressure Calculator",
+  "description": "Calculate critical external elastic collapse buckling pressure (P_cr = (2 · E / (1 - ν²)) · (t / D)³) for deep sea subsea pipelines and deep well casing strings.",
+  "path": "/tools/pipe-collapse-pressure-external-load-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pipe collapse pressure calculator",
+    "external collapse pressure pipe formula",
+    "subsea pipeline collapse calculator",
+    "api 5c3 casing collapse formula",
+    "deepwater pipe external pressure online"
+  ],
+  "order": 474
+}

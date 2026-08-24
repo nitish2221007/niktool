@@ -1,0 +1,15 @@
+{
+  "name": "Word Length Checker (88 Words)",
+  "description": "Check word length and readability metrics for text with target 88 words count.",
+  "path": "/tools/word-length-checker-88-words-count/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word length checker 88 words count",
+    "Word Length Checker (88 Words)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

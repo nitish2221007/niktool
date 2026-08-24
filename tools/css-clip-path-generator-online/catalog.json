@@ -1,0 +1,15 @@
+{
+  "name": "CSS Clip Path Shape Generator",
+  "description": "Create polygon, circle, and star CSS clip-path shapes visually.",
+  "path": "/tools/css-clip-path-generator-online/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "css clip path generator online",
+    "CSS Clip Path Shape Generator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

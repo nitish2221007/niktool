@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 500V, Current 6A)",
+  "description": "Calculate Resistance (83.33 Ω) and Electric Power (3000.0 W) for 500V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-500v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 500v current 6a",
+    "Ohm's Law Calculator (Voltage 500V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pH and pOH Hydrogen Ion Calculator",
+  "description": "Convert between pH, pOH, hydrogen ion concentration [H+], and hydroxide ion concentration [OH-] with automatic acidity classification.",
+  "path": "/tools/ph-poh-hydrogen-ion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ph poh calculator",
+    "hydrogen ion concentration calculator",
+    "ph to poh converter",
+    "h+ to ph calculator",
+    "acid base ph calculator"
+  ],
+  "order": 109
+}

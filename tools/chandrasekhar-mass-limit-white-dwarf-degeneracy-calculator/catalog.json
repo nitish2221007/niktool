@@ -1,0 +1,15 @@
+{
+  "name": "Chandrasekhar Mass Limit (M_Ch ≈ 1.44 M_☉) White Dwarf Degeneracy Calculator",
+  "description": "Calculate quantum relativistic electron degeneracy Chandrasekhar mass collapse limit (M_Ch = (ω_3^0·√3π / 2) · (ℏc / G)^(3/2) · (1 / (μ_e·m_u))² ≈ 1.44 M_☉) and Type Ia Supernova detonation threshold.",
+  "path": "/tools/chandrasekhar-mass-limit-white-dwarf-degeneracy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "chandrasekhar limit calculator",
+    "white dwarf maximum mass formula m_ch 1.44 solar mass online",
+    "relativistic electron degeneracy pressure calculator",
+    "type 1a supernova progenitor chandrasekhar mass calculator",
+    "subrahmanyan chandrasekhar 1930 collapse limit online"
+  ],
+  "order": 880
+}

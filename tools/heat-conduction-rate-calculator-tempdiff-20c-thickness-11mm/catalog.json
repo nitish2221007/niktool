@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=20°C, Thick 11mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 90909 W) across 11mm steel wall at ΔT=20°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-20c-thickness-11mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 20c thickness 11mm",
+    "Thermal Heat Conduction Calculator (ΔT=20°C, Thick 11mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

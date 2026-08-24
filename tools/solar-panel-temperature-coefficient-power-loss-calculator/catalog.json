@@ -1,0 +1,15 @@
+{
+  "name": "Solar Panel Temperature Coefficient & Power Loss Calculator",
+  "description": "Calculate photovoltaic solar panel real-world output power loss (P = P_STC · [1 + γ · (T_cell - 25°C)]) and hot roof cell operating temperature from NOCT rating.",
+  "path": "/tools/solar-panel-temperature-coefficient-power-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar panel temperature coefficient calculator",
+    "pv power loss heat formula gamma tcell",
+    "noct cell temperature calculator online",
+    "hot weather solar panel efficiency drop calculator",
+    "solar pv temperature derating online"
+  ],
+  "order": 584
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 30 GB to MB",
+  "description": "Convert 30 Gigabytes (GB) to Megabytes (30720 MB). 100% free and local.",
+  "path": "/tools/convert-30-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 30 gb to mb",
+    "Convert 30 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

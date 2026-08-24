@@ -1,0 +1,15 @@
+{
+  "name": "Convert 90 Miles to KM",
+  "description": "Convert 90 miles to kilometers (144.84 km). 100% free and local.",
+  "path": "/tools/convert-90-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 90 miles to km",
+    "Convert 90 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Crop Image to 9:16 Vertical Ratio",
+  "description": "Crop photo to 9:16 vertical aspect ratio for mobile stories, TikTok, and Reels.",
+  "path": "/tools/crop-image-to-9-16-vertical/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "crop image to 9 16 vertical",
+    "Crop Image to 9:16 Vertical Ratio",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

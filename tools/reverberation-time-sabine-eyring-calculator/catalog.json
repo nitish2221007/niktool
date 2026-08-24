@@ -1,0 +1,15 @@
+{
+  "name": "Room Reverberation Time (RT60 - Sabine & Eyring Formula) Calculator",
+  "description": "Calculate architectural room acoustic reverberation time (RT60 = 0.161 · V / A) in seconds for concert halls, recording studios, and classrooms.",
+  "path": "/tools/reverberation-time-sabine-eyring-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rt60 reverberation time calculator",
+    "sabine formula rt60 0.161 v over a",
+    "eyring reverberation time calculator online",
+    "room acoustic treatment rt60 calculator",
+    "recording studio acoustics rt60 online"
+  ],
+  "order": 641
+}

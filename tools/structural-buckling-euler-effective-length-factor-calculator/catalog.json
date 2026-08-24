@@ -1,0 +1,15 @@
+{
+  "name": "Euler Column Buckling Critical Load (P_cr) & Slenderness Ratio Calculator",
+  "description": "Calculate structural column elastic critical buckling load (P_cr = π²·E·I / (K·L)²) in kN/kips and slenderness ratio (λ = K·L / r) across Fixed, Pinned, and Free boundary supports.",
+  "path": "/tools/structural-buckling-euler-effective-length-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "euler column buckling calculator",
+    "critical buckling load formula pi squared e i over k l squared",
+    "column slenderness ratio lambda calculator online",
+    "effective length factor k euler buckling calculator",
+    "structural steel column buckling online"
+  ],
+  "order": 730
+}

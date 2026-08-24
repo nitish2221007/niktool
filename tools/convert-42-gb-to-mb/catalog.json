@@ -1,0 +1,15 @@
+{
+  "name": "Convert 42 GB to MB",
+  "description": "Convert 42 Gigabytes (GB) to Megabytes (43008 MB). 100% free and local.",
+  "path": "/tools/convert-42-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 42 gb to mb",
+    "Convert 42 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

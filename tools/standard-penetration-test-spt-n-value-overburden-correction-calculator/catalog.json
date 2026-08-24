@@ -1,0 +1,15 @@
+{
+  "name": "Standard Penetration Test (SPT N₆₀ & (N₁)₆₀ Overburden Correction) Calculator",
+  "description": "Calculate geotechnical Standard Penetration Test energy-corrected blow count N₆₀ (N₆₀ = N · (E_m · C_B · C_S · C_R) / 60) and overburden-normalized (N₁)₆₀ = C_N · N₆₀ for soil liquefaction and bearing capacity.",
+  "path": "/tools/standard-penetration-test-spt-n-value-overburden-correction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "spt calculator",
+    "standard penetration test n60 formula online",
+    "overburden correction factor cn n160 calculator",
+    "soil liquefaction spt blow count calculator",
+    "geotechnical site investigation soil mechanics online"
+  ],
+  "order": 1291
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AC Reactive Power (kVAR) & Capacitor Sizing Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate reactive power (kVAR = √(kVA² - kW²)) and determine power factor correction capacitor bank sizes (kVAR_cap = P · (tan θ₁ - tan θ₂)) to eliminate utility low power factor penalties.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ac-reactive-power-kvar-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AC Reactive Power (kVAR) & Capacitor Sizing Calculator | NikTool">
+  <meta property="og:description" content="Calculate reactive power (kVAR = √(kVA² - kW²)) and determine power factor correction capacitor bank sizes (kVAR_cap = P · (tan θ₁ - tan θ₂)) to eliminate utility low power factor penalties.">
+  <meta property="og:url" content="https://niktool.in/tools/ac-reactive-power-kvar-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "AC Reactive Power (kVAR) & Capacitor Sizing Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ac-reactive-power-kvar-calculator/",
+        "description": "Calculate reactive power (kVAR = √(kVA² - kW²)) and determine power factor correction capacitor bank sizes (kVAR_cap = P · (tan θ₁ - tan θ₂)) to eliminate utility low power factor penalties.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What causes low inductive power factor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Heavy inductive loads such as AC induction motors, transformers, welding equipment, and magnetic ballasts."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>AC Reactive Power (kVAR) & Capacitor Sizing Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>AC Reactive Power (kVAR) & Capacitor Sizing Calculator</h1>
+      <p>Calculate reactive power (kVAR = √(kVA² - kW²)) and determine power factor correction capacitor bank sizes (kVAR_cap = P · (tan θ₁ - tan θ₂)) to eliminate utility low power factor penalties.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Active Power (kW), Existing PF & Target PF</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="kvar-kw">Real Load Power (kW)</label>
+          <input class="tool-textarea" id="kvar-kw" type="number" step="any" value="100" placeholder="100 kW" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="kvar-pf1">Existing Power Factor</label>
+          <input class="tool-textarea" id="kvar-pf1" type="number" step="0.01" min="0.5" max="0.99" value="0.75" placeholder="0.75" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="kvar-pf2">Target Power Factor</label>
+          <input class="tool-textarea" id="kvar-pf2" type="number" step="0.01" min="0.8" max="1.0" value="0.95" placeholder="0.95" />
+        </div>
+      </div>
+      <div id="kvar-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="kvar-res-cap" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">55.3 kVAR</span>
+            <span class="stat-label">Required Capacitor Bank Size</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="kvar-res-curr">88.2 kVAR</span>
+            <span class="stat-label">Current Uncorrected Reactive Load</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use AC Reactive Power (kVAR) & Capacitor Sizing Calculator</h2>
+      <ol>
+        <li>Enter facility real electrical load power in kilowatts (kW).</li>
+        <li>Enter uncorrected measured power factor (e.g. 0.75 lagging from induction motors).</li>
+        <li>Enter desired target power factor (e.g. 0.95).</li>
+        <li>Inspect required shunt power factor correction capacitor bank size in kVAR.</li>
+      </ol>
+
+      <h2>Eliminating Utility Reactive Power surcharges</h2>
+      <p>Industrial facilities with low power factors draw excessive idle inductive current from the electrical grid; capacitor banks supply local reactive magnetizing power, freeing grid capacity and eliminating penalty surcharges.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What causes low inductive power factor?</summary>
+        <p>Heavy inductive loads such as AC induction motors, transformers, welding equipment, and magnetic ballasts.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ac-reactive-power-kvar-calculator/tool.js"></script>
+</body>
+</html>

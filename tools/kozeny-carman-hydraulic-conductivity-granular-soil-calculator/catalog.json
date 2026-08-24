@@ -1,0 +1,15 @@
+{
+  "name": "Kozeny-Carman Hydraulic Conductivity (K = (ρg/μ)·(1/C_K·S_0²)·(e³/(1+e))) Calculator",
+  "description": "Calculate granular sand and silt saturated hydraulic conductivity K in m/s (Kozeny-Carman semi-empirical equation) from specific surface area S_0, void ratio e, fluid viscosity, and Carman constant C_K.",
+  "path": "/tools/kozeny-carman-hydraulic-conductivity-granular-soil-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "kozeny carman calculator",
+    "hydraulic conductivity formula specific surface area void ratio online",
+    "porous media permeability kozeny carman calculator",
+    "granular soil hydraulic conductivity calculator",
+    "geotechnical hydrogeology porous flow soil physics online"
+  ],
+  "order": 1304
+}

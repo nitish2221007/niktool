@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 365V, Current 4A)",
+  "description": "Calculate Resistance (91.25 Ω) and Electric Power (1460.0 W) for 365V voltage and 4A current.",
+  "path": "/tools/ohms-law-calculator-voltage-365v-current-4a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 365v current 4a",
+    "Ohm's Law Calculator (Voltage 365V, Current 4A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

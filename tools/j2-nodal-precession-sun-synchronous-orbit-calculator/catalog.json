@@ -1,0 +1,15 @@
+{
+  "name": "J₂ Geopotential Nodal Precession (Ω̇) & Sun-Synchronous Orbit Calculator",
+  "description": "Calculate Earth oblateness J₂ gravitational nodal precession rate (Ω̇ = -3/2 · J₂ · (R_E / p)² · n · cos i) in °/day and solve required retrograde inclination i for Sun-Synchronous Orbits (SSO).",
+  "path": "/tools/j2-nodal-precession-sun-synchronous-orbit-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "j2 nodal precession calculator",
+    "sun synchronous orbit inclination formula j2 online",
+    "earth oblateness j2 orbital precession calculator",
+    "satellite orbital nodal regression rate online",
+    "astrodynamics sun synchronous orbit calculator"
+  ],
+  "order": 807
+}

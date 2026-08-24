@@ -1,0 +1,15 @@
+{
+  "name": "Convert 14 KM/H to MPH Speed",
+  "description": "Convert 14 kilometers per hour (km/h) to miles per hour (8.70 mph).",
+  "path": "/tools/convert-14-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 14 kmh to mph speed",
+    "Convert 14 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

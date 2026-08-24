@@ -1,0 +1,15 @@
+{
+  "name": "Smith-Waterman Local Sequence Alignment (Dynamic Programming) Calculator",
+  "description": "Calculate DNA/protein local sequence alignment optimal score and trace back highest-scoring local matching sub-sequences using the Smith-Waterman dynamic programming algorithm.",
+  "path": "/tools/smith-waterman-local-sequence-alignment-score-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "smith waterman calculator",
+    "local sequence alignment dynamic programming formula online",
+    "dna sequence similarity smith waterman calculator",
+    "bioinformatics local alignment blast score calculator",
+    "needleman wunsch vs smith waterman online"
+  ],
+  "order": 757
+}

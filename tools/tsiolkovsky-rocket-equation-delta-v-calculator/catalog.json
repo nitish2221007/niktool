@@ -1,0 +1,15 @@
+{
+  "name": "Tsiolkovsky Rocket Equation (Δv = I_sp · g₀ · ln(m₀ / m_f)) Calculator",
+  "description": "Calculate orbital rocket velocity increment (Δv = I_sp · g₀ · ln(m₀ / m_f)) in km/s and payload mass fraction from engine specific impulse I_sp and wet/dry mass.",
+  "path": "/tools/tsiolkovsky-rocket-equation-delta-v-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "tsiolkovsky rocket equation calculator",
+    "delta v formula isp g0 ln m0 over mf",
+    "specific impulse rocket delta v calculator online",
+    "orbital velocity payload mass fraction calculator",
+    "space flight mechanics rocket equation online"
+  ],
+  "order": 579
+}

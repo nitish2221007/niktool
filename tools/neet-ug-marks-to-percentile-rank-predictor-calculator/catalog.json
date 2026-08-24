@@ -1,0 +1,15 @@
+{
+  "name": "NEET UG Marks to All India Rank (AIR) & MBBS Cutoff Predictor Calculator",
+  "description": "Calculate predicted NEET UG medical entrance All India Rank (AIR) and percentile from total marks out of 720 and evaluate Government Medical College (GMC) MBBS 15% AIQ quota admission cutoffs.",
+  "path": "/tools/neet-ug-marks-to-percentile-rank-predictor-calculator/",
+  "category": "Education",
+  "icon": "calculator",
+  "keywords": [
+    "neet rank predictor calculator",
+    "neet marks to rank formula out of 720 online",
+    "neet ug percentile rank calculator mbbs cutoff",
+    "government medical college gmc neet cutoff rank calculator",
+    "all india quota aiq neet medical rank predictor"
+  ],
+  "order": 887
+}

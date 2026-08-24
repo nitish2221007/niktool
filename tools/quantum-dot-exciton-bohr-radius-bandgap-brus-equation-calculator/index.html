@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate colloidal semiconductor quantum dot size-dependent bandgap blue-shift (Brus equation: ΔE_g = ℏ²π² / (2·R²) · [1/m_e* + 1/m_h*] - 1.8·e² / (4πε·R)) in eV and optical fluorescence emission wavelength in nm.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/quantum-dot-exciton-bohr-radius-bandgap-brus-equation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator | NikTool">
+  <meta property="og:description" content="Calculate colloidal semiconductor quantum dot size-dependent bandgap blue-shift (Brus equation: ΔE_g = ℏ²π² / (2·R²) · [1/m_e* + 1/m_h*] - 1.8·e² / (4πε·R)) in eV and optical fluorescence emission wavelength in nm.">
+  <meta property="og:url" content="https://niktool.in/tools/quantum-dot-exciton-bohr-radius-bandgap-brus-equation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/quantum-dot-exciton-bohr-radius-bandgap-brus-equation-calculator/",
+        "description": "Calculate colloidal semiconductor quantum dot size-dependent bandgap blue-shift (Brus equation: ΔE_g = ℏ²π² / (2·R²) · [1/m_e* + 1/m_h*] - 1.8·e² / (4πε·R)) in eV and optical fluorescence emission wavelength in nm.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is InP replacing CdSe in commercial QLED TVs?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Cadmium (Cd) in CdSe is a toxic heavy metal restricted by EU RoHS regulations; Indium Phosphide (InP) provides heavy-metal-free quantum dot displays."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator</h1>
+      <p>Calculate colloidal semiconductor quantum dot size-dependent bandgap blue-shift (Brus equation: ΔE_g = ℏ²π² / (2·R²) · [1/m_e* + 1/m_h*] - 1.8·e² / (4πε·R)) in eV and optical fluorescence emission wavelength in nm.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Quantum Dot Radius R (nm) & Nanocrystal Semiconductor (CdSe, PbS, InP, Perovskite)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="qd-mat">Semiconductor</label>
+          <select class="tool-textarea" id="qd-mat">
+            <option value="cdse" selected>CdSe Cadmium Selenide (Bulk Eg = 1.74 eV / 712 nm Red)</option>
+            <option value="inp">InP Indium Phosphide (Bulk Eg = 1.35 eV / 918 nm NIR)</option>
+            <option value="pbs">PbS Lead Sulfide (Bulk Eg = 0.41 eV - Telecom SWIR)</option>
+            <option value="perov">CsPbBr₃ Perovskite (Bulk Eg = 2.30 eV / 539 nm Green)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="qd-r">Core Radius R (nm)</label>
+          <input class="tool-textarea" id="qd-r" type="number" step="0.1" value="2.1" placeholder="2.1 nm (4.2 nm Diameter)" />
+        </div>
+      </div>
+      <div id="qd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="qd-res-eg" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">E_g = 2.36 eV (λ = 525 nm Green)</span>
+            <span class="stat-label">Confinement Bandgap & Photoluminescence Peak</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="qd-res-shift" style="font-weight:700;">Quantum Blue-Shift ΔE_g = +0.62 eV (Bulk E_g = 1.74 eV -> 2.36 eV @ R = 2.1 nm)</span>
+            <span class="stat-label">Brus Quantum Confinement Blue-Shift</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Quantum Dot Bandgap Shift (Brus Equation ΔE_g) & Emission Color Calculator</h2>
+      <ol>
+        <li>Select semiconductor core chemistry (CdSe, InP eco-friendly, PbS infrared, CsPbBr₃ perovskite).</li>
+        <li>Enter quantum dot spherical core nanocrystal radius R in nanometers (nm).</li>
+        <li>Inspect size-tunable bandgap $E_g$ in eV, quantum confinement blue-shift $Delta E_g$, and photoluminescent emission color.</li>
+      </ol>
+
+      <h2>Louis E. Brus 1984 Quantum Confinement Theory</h2>
+      <p>When semiconductor crystals shrink smaller than their natural exciton Bohr radius ($R < a_B$), 3D quantum confinement increases the effective bandgap ($Delta E_g propto 1/R^2$), allowing TV manufacturers (QLED Displays) to precisely tune vibrant pure red, green, and blue colors by simply controlling nanoparticle synthesis diameter.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is InP replacing CdSe in commercial QLED TVs?</summary>
+        <p>Cadmium (Cd) in CdSe is a toxic heavy metal restricted by EU RoHS regulations; Indium Phosphide (InP) provides heavy-metal-free quantum dot displays.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/quantum-dot-exciton-bohr-radius-bandgap-brus-equation-calculator/tool.js"></script>
+</body>
+</html>

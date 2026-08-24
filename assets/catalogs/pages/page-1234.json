@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Mohr's Circle 2D Principal Stresses (σ₁, σ₂) & Maximum Shear Stress (τ_max) Calculator",
+    "description": "Calculate 2D plane stress transformation principal stresses (σ₁,₂ = (σ_x + σ_y)/2 ± √[((σ_x - σ_y)/2)² + τ_xy²]), maximum in-plane shear stress τ_max, and principal plane orientation angle θ_p for mechanics of materials.",
+    "path": "/tools/mohr-circle-2d-principal-stresses-maximum-shear-stress-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mohrs circle calculator",
+      "principal stresses formula sigma 1 sigma 2 online",
+      "maximum shear stress tau max mohrs circle calculator",
+      "plane stress transformation angle theta p calculator",
+      "mechanics of materials mohrs circle solver online"
+    ]
+  },
+  {
+    "name": "Heat Exchanger Log Mean Temperature Difference (LMTD) & Heat Duty Calculator",
+    "description": "Calculate counter-flow and parallel-flow heat exchanger Log Mean Temperature Difference (LMTD = (ΔT₁ - ΔT₂) / ln(ΔT₁ / ΔT₂)) in °C and total thermal heat duty (Q = U·A·LMTD) in kW for chemical and mechanical engineering.",
+    "path": "/tools/heat-exchanger-lmtd-log-mean-temperature-difference-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lmtd calculator",
+      "log mean temperature difference formula delta t1 minus delta t2 online",
+      "counter flow parallel flow heat exchanger lmtd calculator",
+      "heat duty q equals u a lmtd calculator kw",
+      "thermal engineering heat exchanger sizing online"
+    ]
+  },
+  {
+    "name": "Cantilever Beam End Point Load Deflection (δ_max = P·L³ / (3·E·I)) Calculator",
+    "description": "Calculate cantilever beam maximum end deflection (δ_max = P·L³ / (3·E·I)) in mm, maximum fixed-end bending moment (M_max = P·L) in kN·m, and bending stress for civil and mechanical structural engineering.",
+    "path": "/tools/cantilever-beam-point-load-deflection-bending-moment-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cantilever beam deflection calculator",
+      "beam deflection formula p l cubed over 3 e i online",
+      "cantilever maximum bending moment p l calculator",
+      "structural beam elasticity modulus moment of inertia calculator",
+      "civil engineering cantilever deflection online"
+    ]
+  },
+  {
+    "name": "NE555 Timer Astable Multivibrator Frequency & Duty Cycle Calculator",
+    "description": "Calculate NE555 timer oscillator output frequency (f = 1.44 / ((R₁ + 2R₂)·C)) in Hz/kHz, high/low time periods (t_high = 0.693·(R₁+R₂)·C, t_low = 0.693·R₂·C), and duty cycle percentage for electronics engineering.",
+    "path": "/tools/555-timer-astable-multivibrator-frequency-duty-cycle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "555 timer calculator",
+      "555 astable multivibrator frequency formula 1.44 over r1 plus 2r2 times c online",
+      "ne555 duty cycle pulse width calculator",
+      "555 oscillator resistor capacitor calculator hz",
+      "electronics circuit 555 timer pulse generator online"
+    ]
+  },
+  {
+    "name": "Operational Amplifier (Op-Amp Inverting & Non-Inverting Gain) Calculator",
+    "description": "Calculate analog Op-Amp closed-loop voltage gain (Inverting A_v = -R_f / R_in, Non-Inverting A_v = 1 + R_f / R₁), decibel gain (dB = 20·log₁₀|A_v|), and 3dB bandwidth cutoff from Gain-Bandwidth Product (GBWP).",
+    "path": "/tools/op-amp-inverting-non-inverting-gain-bandwidth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "op amp gain calculator",
+      "operational amplifier inverting non inverting gain formula online",
+      "op amp feedback resistor rf rin calculator",
+      "gain bandwidth product gbwp cutoff frequency op amp calculator",
+      "analog electronics op amp voltage gain online"
+    ]
+  },
+  {
+    "name": "Hagen-Poiseuille Law Laminar Viscous Flow (Q = π·r⁴·ΔP / (8·μ·L)) Calculator",
+    "description": "Calculate viscous fluid volumetric flow rate (Q = π·r⁴·ΔP / (8·μ·L)) in L/min and hydrodynamic flow resistance (R_hyd = 8·μ·L / (π·r⁴)) demonstrating the extreme 4th-power radius dependence for vascular blood flow and microfluidics.",
+    "path": "/tools/poiseuille-law-laminar-viscous-fluid-flow-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "poiseuille law calculator",
+      "hagen poiseuille formula volumetric flow rate online",
+      "blood flow vessel radius 4th power poiseuille calculator",
+      "laminar pipe viscous resistance calculator",
+      "fluid dynamics poiseuille equation online"
+    ]
+  },
+  {
+    "name": "Erlang B & Erlang C Traffic Dimensioning (Call Blocking & Queue Delay) Calculator",
+    "description": "Calculate telecommunications call center Erlang B blocking probability (B(c, A) = (A^c / c!) / Σ (A^k / k!)) and Erlang C queueing delay probability for network capacity planning.",
+    "path": "/tools/packet-queueing-erlang-b-c-call-blocking-probability-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "erlang b calculator",
+      "erlang c formula call blocking probability queue delay online",
+      "telecom traffic dimensioning erlang calculator",
+      "call center staffing erlang c queue calculator",
+      "trunk line capacity erlang b calculator online"
+    ]
+  },
+  {
+    "name": "Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer",
+    "description": "Simplify digital logic Boolean truth tables into minimal Sum-of-Products (SOP) algebraic expressions using 2-variable, 3-variable, and 4-variable Karnaugh Map (K-Map) Gray code grouping minimization.",
+    "path": "/tools/digital-logic-karnaugh-map-kmap-boolean-simplification-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "karnaugh map calculator",
+      "kmap boolean simplifier minterms sum of products online",
+      "digital logic 4 variable k map minimizer calculator",
+      "gray code boolean algebra reduction calculator",
+      "combinational logic gate circuit simplifier online"
+    ]
+  },
+  {
+    "name": "Discrete Z-Transform Transfer Function H(z) & Unit Circle Stability Calculator",
+    "description": "Calculate discrete-time digital filter transfer function H(z) poles and zeros, evaluate BIBO stability inside the Unit Circle (|z| less than 1), and compute impulse and frequency response for DSP signal processing.",
+    "path": "/tools/z-transform-discrete-transfer-function-pole-zero-stability-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "z transform calculator",
+      "discrete transfer function h of z unit circle stability calculator",
+      "digital filter pole zero stability dsp online",
+      "bibo stability discrete time filter calculator",
+      "signal processing z transform roc online"
+    ]
+  },
+  {
+    "name": "PID Controller Tuning (Ziegler-Nichols Critical Gain Ku & Period Tu) Calculator",
+    "description": "Calculate industrial automation PID controller proportional gain (K_p), integral time (T_i / K_i), and derivative time (T_d / K_d) using the classic Ziegler-Nichols Closed-Loop Frequency Response and Open-Loop Step methods.",
+    "path": "/tools/pid-controller-tuning-ziegler-nichols-step-response-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pid controller tuning calculator",
+      "ziegler nichols formula kp ti td pid calculator online",
+      "critical gain ku critical period tu pid tuning calculator",
+      "control loop pid autotune calculation online",
+      "proportional integral derivative tuning rules online"
+    ]
+  },
+  {
+    "name": "Bode Plot Gain Margin (GM) & Phase Margin (PM) Frequency Stability Calculator",
+    "description": "Calculate feedback control system frequency response stability metrics: Gain Crossover Frequency (ω_gc where |G(jω)| = 0 dB), Phase Margin (PM = 180° + ∠G), Phase Crossover Frequency (ω_pc where ∠G = -180°), and Gain Margin (GM in dB).",
+    "path": "/tools/bode-plot-gain-margin-phase-margin-frequency-response-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bode plot calculator",
+      "gain margin phase margin formula control systems online",
+      "gain crossover phase crossover frequency calculator",
+      "bode plot stability margin calculator db",
+      "frequency response nyquist bode plot online"
+    ]
+  },
+  {
+    "name": "Discrete Linear Convolution (y[n] = x[n] * h[n]) LTI Output Calculator",
+    "description": "Calculate discrete-time linear convolution sum (y[n] = Σ x[k]·h[n - k]) of finite input sequence x[n] and system impulse response h[n] for digital signal processing (DSP) and linear system analysis.",
+    "path": "/tools/convolution-integral-discrete-linear-time-invariant-system-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "convolution calculator",
+      "discrete linear convolution sum formula x of n conv h of n online",
+      "lti system impulse response output calculator",
+      "digital signal processing convolution sum solver",
+      "finite impulse response fir convolution online"
+    ]
+  },
+  {
+    "name": "Thermodynamic Cycles (Carnot, Otto & Diesel Thermal Efficiency) Calculator",
+    "description": "Calculate theoretical thermodynamic maximum thermal efficiency (Carnot η = 1 - T_C / T_H, Otto Petrol η = 1 - 1/r^(γ-1), Diesel η = 1 - (1/r^(γ-1)) · [(r_c^γ - 1) / (γ·(r_c - 1))]) for internal combustion engines.",
+    "path": "/tools/thermodynamic-carnot-otto-diesel-cycle-thermal-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "carnot efficiency calculator",
+      "otto cycle thermal efficiency formula 1 minus 1 over r to gamma minus 1 online",
+      "diesel cycle compression ratio cutoff ratio calculator",
+      "internal combustion engine thermal efficiency calculator",
+      "thermodynamics carnot limit calculator online"
+    ]
+  },
+  {
+    "name": "Rankine Steam Power Plant Thermal Efficiency & Net Heat Rate Calculator",
+    "description": "Calculate thermal steam power plant Rankine cycle efficiency (η_th = (w_turbine - w_pump) / q_boiler) in % and Net Heat Rate in kJ/kWh or BTU/kWh from steam turbine enthalpy drops (h₁ to h₄ in kJ/kg).",
+    "path": "/tools/rankine-steam-power-plant-thermal-efficiency-heat-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rankine cycle calculator",
+      "steam power plant thermal efficiency formula net work over heat in online",
+      "net heat rate btu per kwh rankine calculator",
+      "turbine pump enthalpy drop rankine cycle calculator",
+      "power engineering steam turbine efficiency online"
+    ]
+  },
+  {
+    "name": "Psychrometric Chart Properties (Relative Humidity, Dew Point & Humidity Ratio) Calculator",
+    "description": "Calculate moist air thermodynamic properties: Dew Point Temperature (T_dp in °C), Humidity Ratio / Absolute Moisture (ω in g_H2O / kg_dry_air), and Enthalpy (h in kJ/kg) from Dry-Bulb Temperature (T_db) and Relative Humidity (%RH).",
+    "path": "/tools/psychrometric-chart-relative-humidity-dew-point-enthalpy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "psychrometric calculator",
+      "dew point formula magnus tetens relative humidity online",
+      "humidity ratio omega grams moisture per kg dry air calculator",
+      "moist air enthalpy hvac psychrometric chart calculator",
+      "dry bulb wet bulb dew point psychrometric solver online"
+    ]
+  },
+  {
+    "name": "Bernoulli Equation & Venturi Meter Pipe Flow Rate Calculator",
+    "description": "Calculate fluid pipe volumetric flow rate (Q = A₂ · √[(2·ΔP) / (ρ·(1 - (A₂/A₁)²))]) in L/s and m³/h from Venturi tube differential pressure drop ΔP and pipe/throat diameters.",
+    "path": "/tools/bernoulli-equation-venturi-meter-pipe-flow-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bernoulli equation calculator",
+      "venturi meter flow rate formula q equals a2 sqrt 2 delta p over rho online",
+      "differential pressure flow rate calculator pipe throat",
+      "fluid mechanics venturi tube flow calculator",
+      "bernoulli pressure velocity trade off online"
+    ]
+  },
+  {
+    "name": "Reynolds Number (Re) & Moody Chart Darcy Friction Factor (f) Calculator",
+    "description": "Calculate pipe flow Reynolds Number (Re = ρ·v·D / μ), identify flow regime (Laminar Re less than 2300, Transitional, Turbulent Re exceeding 4000), and compute Darcy friction factor f using Colebrook / Swamee-Jain equations.",
+    "path": "/tools/reynolds-number-pipe-flow-friction-factor-moody-chart-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reynolds number calculator",
+      "darcy friction factor formula moody chart online",
+      "laminar turbulent flow reynolds number calculator pipe",
+      "swamee jain friction factor colebrook calculator",
+      "fluid dynamics pipe head loss reynolds calculator"
+    ]
+  },
+  {
+    "name": "Euler's Column Buckling Critical Load (P_cr = π²·E·I / (K·L)²) Calculator",
+    "description": "Calculate structural column critical buckling load (P_cr = π²·E·I / (K·L)²), critical buckling stress (σ_cr = π²·E / λ²), and slenderness ratio (λ = K·L / r) across pinned, fixed, and free column end conditions.",
+    "path": "/tools/euler-buckling-column-critical-load-slenderness-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "euler column buckling calculator",
+      "critical buckling load formula pi squared e i over k l squared online",
+      "column slenderness ratio lambda calculator structural engineering",
+      "effective length factor k pinned fixed column calculator",
+      "civil engineering column buckling stress online"
+    ]
+  },
+  {
+    "name": "Heat Exchanger Effectiveness-NTU (Number of Transfer Units) Method Calculator",
+    "description": "Calculate heat exchanger performance using the Effectiveness-NTU method (NTU = U·A / C_min, Capacity Ratio C_r = C_min / C_max) and evaluate actual heat transfer rate (q = ε·q_max) without knowing fluid outlet temperatures.",
+    "path": "/tools/heat-exchanger-effectiveness-ntu-method-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "effectiveness ntu calculator",
+      "ntu method heat exchanger formula online",
+      "heat exchanger effectiveness epsilon u a over c min calculator",
+      "counter flow ntu effectiveness solver",
+      "thermal engineering ntu method online"
+    ]
+  },
+  {
+    "name": "Vector Calculus Differential Operators (Gradient ∇f, Divergence ∇·v, Curl ∇×v) Calculator",
+    "description": "Calculate 3D Cartesian vector calculus differential operators: scalar field Gradient (∇f = [∂f/∂x, ∂f/∂y, ∂f/∂z]), vector field Divergence (∇·v = ∂v_x/∂x + ∂v_y/∂y + ∂v_z/∂z), and Curl (∇×v) for electromagnetism and Maxwell's equations.",
+    "path": "/tools/vector-calculus-gradient-divergence-curl-spherical-cylindrical-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "vector calculus calculator",
+      "gradient divergence curl formula calculator online",
+      "del operator maxwells equations vector calculus",
+      "curl of vector field divergence solver online",
+      "multivariable calculus partial derivatives vector field online"
+    ]
+  },
+  {
+    "name": "Nyquist Stability Criterion (Z = N + P) Feedback Encirclements Calculator",
+    "description": "Calculate closed-loop system stability using the Nyquist Stability Criterion (Z = N + P where Z = number of unstable closed-loop poles, N = clockwise encirclements of -1+0j, P = open-loop unstable poles).",
+    "path": "/tools/nyquist-stability-criterion-open-loop-encirclements-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nyquist stability criterion calculator",
+      "z equals n plus p nyquist formula online",
+      "open loop encirclements minus 1 point calculator",
+      "control systems nyquist plot stability calculator",
+      "cauchy argument principle nyquist stability online"
+    ]
+  },
+  {
+    "name": "Cobb-Douglas Production Function (Y = A·K^α·L^β) & Marginal Product Calculator",
+    "description": "Calculate macroeconomic economic output (Y = A · K^α · L^β), Marginal Product of Capital (MPK = α·Y/K), Marginal Product of Labor (MPL = β·Y/L), and Returns to Scale (α + β) for microeconomics and macroeconomics courses.",
+    "path": "/tools/cobb-douglas-production-function-marginal-product-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "cobb douglas calculator",
+      "production function formula y equals a k to alpha l to beta online",
+      "marginal product of capital labor calculator mpk mpl",
+      "returns to scale constant increasing decreasing cobb douglas calculator",
+      "economics cobb douglas production model online"
+    ]
+  },
+  {
+    "name": "Lorenz Curve & Gini Coefficient (G = A / (A + B)) Income Inequality Calculator",
+    "description": "Calculate income inequality Gini Coefficient (G = 0.0 perfect equality to 1.0 perfect inequality) from quintile income distribution shares using Lorenz Curve trapezoidal integration for economics and sociology.",
+    "path": "/tools/lorenz-curve-gini-coefficient-income-inequality-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "gini coefficient calculator",
+      "lorenz curve formula income inequality calculator online",
+      "income quintiles gini index calculator economics",
+      "wealth distribution gini coefficient solver",
+      "world bank gini index inequality calculator online"
+    ]
+  },
+  {
+    "name": "Price Elasticity of Demand (PED Midpoint Arc Formula) & Total Revenue Calculator",
+    "description": "Calculate Price Elasticity of Demand (PED = [(Q₂ - Q₁) / ((Q₁+Q₂)/2)] / [(P₂ - P₁) / ((P₁+P₂)/2)]) using the midpoint method and evaluate Total Revenue test pricing strategies (Elastic |PED| exceeding 1.0 vs Inelastic |PED| less than 1.0).",
+    "path": "/tools/price-elasticity-of-demand-ped-midpoint-formula-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "price elasticity of demand calculator",
+      "ped midpoint formula arc elasticity calculator online",
+      "total revenue test elasticity price increase calculator",
+      "elastic inelastic unit elastic demand calculator",
+      "microeconomics price elasticity calculator online"
+    ]
+  }
+]

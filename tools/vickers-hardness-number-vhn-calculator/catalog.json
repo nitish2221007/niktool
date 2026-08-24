@@ -1,0 +1,15 @@
+{
+  "name": "Vickers Pyramid Diamond Hardness (HV) Calculator",
+  "description": "Calculate Vickers microhardness (HV = (1.8544 · F) / d²) in kgf/mm² from applied test force (F in kgf or grams) and square diamond indentation diagonal lengths (d).",
+  "path": "/tools/vickers-hardness-number-vhn-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "vickers hardness calculator",
+    "hv hardness formula calculator",
+    "diamond pyramid hardness vhn online",
+    "microhardness vickers tester online",
+    "vickers diagonal d1 d2 hardness calculator"
+  ],
+  "order": 422
+}

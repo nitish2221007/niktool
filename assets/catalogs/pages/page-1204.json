@@ -1,0 +1,338 @@
+[
+  {
+    "name": "CSS Grid Template Columns & Rows Generator",
+    "description": "Design responsive CSS Grid column and row layouts (repeat, fr, minmax) with interactive grid preview and instant CSS code generation.",
+    "path": "/tools/css-grid-template-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css grid generator",
+      "css grid template columns builder",
+      "css grid layout maker",
+      "responsive css grid online",
+      "css grid code generator"
+    ]
+  },
+  {
+    "name": "Wheatstone Bridge Unknown Resistor Calculator",
+    "description": "Calculate unknown resistance (R_x = R₂ · R₃ / R₁) in balanced Wheatstone bridge circuits for strain gauges, thermistors, and precision sensors.",
+    "path": "/tools/wheatstone-bridge-resistor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wheatstone bridge calculator",
+      "balanced bridge resistance formula",
+      "strain gauge bridge calculator",
+      "bridge circuit unknown resistor",
+      "precision resistance measurement online"
+    ]
+  },
+  {
+    "name": "Operational Amplifier (Op-Amp) Voltage Gain Calculator",
+    "description": "Calculate closed-loop voltage gain (Av), output voltage (V_out), and phase inversion for Inverting (Av = -Rf / Rin) and Non-Inverting (Av = 1 + Rf / Rin) op-amp circuits.",
+    "path": "/tools/op-amp-inverting-noninverting-gain-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "op amp gain calculator",
+      "inverting op amp calculator",
+      "non inverting op amp formula",
+      "operational amplifier voltage gain",
+      "op amp rf rin calculator online"
+    ]
+  },
+  {
+    "name": "Quarter-Wave (λ/4) Whip Antenna Length Calculator",
+    "description": "Calculate resonant quarter-wave (λ/4) antenna element physical length in centimeters and inches for Wi-Fi, Ham Radio, FM, and LoRa frequencies.",
+    "path": "/tools/quarter-wave-antenna-length-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quarter wave antenna calculator",
+      "whip antenna length calculator",
+      "lambda 4 antenna formula",
+      "ham radio antenna length online",
+      "dipole antenna length mhz calculator"
+    ]
+  },
+  {
+    "name": "dBm to Milliwatts & Watts RF Power Converter",
+    "description": "Convert logarithmic RF signal power (dBm) to linear power in Milliwatts (mW), Watts (W), and dBW in real time.",
+    "path": "/tools/dbm-to-milliwatts-watts-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dbm to watts converter",
+      "dbm to milliwatts calculator",
+      "rf power dbm converter",
+      "dbw to dbm calculator online",
+      "signal strength dbm to mw formula"
+    ]
+  },
+  {
+    "name": "AC Conductor Skin Depth (Skin Effect) Calculator",
+    "description": "Calculate high-frequency electromagnetic skin depth (δ = √(ρ / (π · f · μ))) in copper, aluminum, and gold conductors for RF inductors and PCB traces.",
+    "path": "/tools/skin-depth-ac-conductor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "skin depth calculator",
+      "skin effect calculator copper",
+      "ac conductor resistance frequency",
+      "rf skin depth formula online",
+      "high frequency eddy currents skin depth"
+    ]
+  },
+  {
+    "name": "Beer-Lambert Law Spectrophotometry Calculator",
+    "description": "Calculate optical absorbance (A = ε · c · l) and molar concentration from spectrophotometer transmission percentage in analytical chemistry.",
+    "path": "/tools/beer-lambert-law-absorbance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "beer lambert law calculator",
+      "spectrophotometry absorbance calculator",
+      "molar absorptivity epsilon calculator",
+      "transmittance to absorbance formula",
+      "beer lambert concentration online"
+    ]
+  },
+  {
+    "name": "Gibbs Free Energy & Spontaneity Calculator (ΔG)",
+    "description": "Calculate reaction Gibbs Free Energy change (ΔG = ΔH - T·ΔS) and equilibrium temperature to determine chemical thermodynamic spontaneity.",
+    "path": "/tools/gibbs-free-energy-spontaneity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gibbs free energy calculator",
+      "delta g delta h t delta s",
+      "chemical spontaneity calculator",
+      "thermodynamic equilibrium temperature",
+      "exergonic vs endergonic calculator online"
+    ]
+  },
+  {
+    "name": "Chemical Reaction Percent Yield Calculator",
+    "description": "Calculate reaction percent yield ((Actual Yield / Theoretical Yield) · 100) and product loss in synthetic chemistry laboratories.",
+    "path": "/tools/chemical-reaction-percent-yield-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "percent yield calculator",
+      "actual vs theoretical yield chemistry",
+      "chemical reaction yield formula",
+      "stoichiometric yield calculator online",
+      "laboratory synthesis percent yield"
+    ]
+  },
+  {
+    "name": "Raoult's Law Ideal Solution Vapor Pressure Calculator",
+    "description": "Calculate total and partial vapor pressure (P = χ_A · P_A° + χ_B · P_B°) of volatile binary liquid mixtures for distillation columns.",
+    "path": "/tools/raoult-law-vapor-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "raoults law calculator",
+      "vapor pressure binary mixture calculator",
+      "mole fraction vapor pressure formula",
+      "distillation vapor liquid equilibrium",
+      "ideal solution raoult law online"
+    ]
+  },
+  {
+    "name": "Chemical Equilibrium Constant (Kp / Kc) Converter",
+    "description": "Convert between concentration equilibrium constant Kc and partial pressure constant Kp (Kp = Kc · (R·T)^Δn) for gas-phase reactions.",
+    "path": "/tools/equilibrium-constant-kp-kc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "equilibrium constant kp kc calculator",
+      "kp kc converter online",
+      "chemical equilibrium constant formula",
+      "delta n gas moles equilibrium",
+      "kp kc temperature relation"
+    ]
+  },
+  {
+    "name": "RC Low-Pass Filter Cutoff Frequency Calculator",
+    "description": "Calculate -3dB cutoff frequency (f_c = 1 / (2π·R·C)), attenuation, and phase lag for passive analog RC low-pass filters.",
+    "path": "/tools/rc-low-pass-filter-cutoff-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rc low pass filter calculator",
+      "cutoff frequency calculator rc",
+      "passive filter 3db frequency",
+      "low pass filter r c values",
+      "rc filter attenuation phase shift"
+    ]
+  },
+  {
+    "name": "RC High-Pass Filter Cutoff Frequency Calculator",
+    "description": "Calculate cutoff frequency (f_c = 1 / (2π·R·C)) and DC blocking behavior for passive RC high-pass filters in audio AC coupling stages.",
+    "path": "/tools/rc-high-pass-filter-cutoff-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rc high pass filter calculator",
+      "ac coupling capacitor calculator",
+      "high pass filter cutoff formula",
+      "dc blocking filter frequency online",
+      "passive high pass rc circuit"
+    ]
+  },
+  {
+    "name": "RLC Resonant Frequency & Q-Factor Calculator",
+    "description": "Calculate natural resonant frequency (f₀ = 1 / (2π·√(L·C))), Quality Factor (Q), and -3dB bandwidth (BW) for series and parallel RLC tuned circuits.",
+    "path": "/tools/rlc-resonant-frequency-q-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rlc resonant frequency calculator",
+      "q factor calculator rlc",
+      "lc resonance tank circuit calculator",
+      "series parallel rlc bandwidth formula",
+      "radio tuner lc calculator online"
+    ]
+  },
+  {
+    "name": "Coulomb's Law Electrostatic Force Calculator",
+    "description": "Calculate electrostatic attraction and repulsion forces (F = k_e · |q₁·q₂| / r²) between point charges in microcoulombs (μC) and separation distance.",
+    "path": "/tools/coulomb-electrostatic-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "coulombs law calculator",
+      "electrostatic force calculator",
+      "coulomb constant ke formula",
+      "point charges electric force online",
+      "attraction repulsion electric charges"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio & Voltage Calculator",
+    "description": "Calculate primary/secondary winding voltage, current, and turns ratio (V_p / V_s = N_p / N_s = I_s / I_p) for step-up and step-down AC transformers.",
+    "path": "/tools/transformer-turns-ratio-voltage-current-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator",
+      "step down transformer voltage calculator",
+      "step up transformer current calculator",
+      "transformer np ns vp vs formula",
+      "ac transformer power online"
+    ]
+  },
+  {
+    "name": "Exponential Distribution & Reliability Calculator",
+    "description": "Calculate survival probability, cumulative failure P(X ≤ x) = 1 - e^(-λx), and Mean Time To Failure (MTTF = 1/λ) for hardware reliability engineering.",
+    "path": "/tools/exponential-distribution-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "exponential distribution calculator",
+      "mttf reliability calculator",
+      "failure rate lambda calculator",
+      "exponential survival probability online",
+      "memoryless distribution calculator"
+    ]
+  },
+  {
+    "name": "Sample Size & Margin of Error Survey Calculator",
+    "description": "Calculate statistically representative sample size (n = (Z² · p · (1-p)) / E²) based on Confidence Level (90%, 95%, 99%) and Margin of Error for polling and scientific research.",
+    "path": "/tools/sample-size-confidence-interval-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "sample size calculator",
+      "survey sample size formula",
+      "margin of error sample size",
+      "cochran sample size formula online",
+      "confidence level 95 sample size"
+    ]
+  },
+  {
+    "name": "Chebyshev's Inequality Probability Bounds Calculator",
+    "description": "Calculate minimum guaranteed probability bounds (P(|X - μ| within k·σ) ≥ 1 - 1/k²) for arbitrary non-normal datasets using Chebyshev's theorem.",
+    "path": "/tools/chebyshev-inequality-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chebyshev inequality calculator",
+      "chebyshevs theorem probability bounds",
+      "non normal distribution bounds calculator",
+      "standard deviations within mean chebyshev",
+      "chebyshev formula online"
+    ]
+  },
+  {
+    "name": "Triangular Prism Volume & Surface Area Calculator",
+    "description": "Calculate 3D volume (V = ½ · b · h · L), base area, lateral area, and total surface area for right triangular prisms.",
+    "path": "/tools/triangular-prism-volume-surface-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "triangular prism calculator",
+      "volume of triangular prism formula",
+      "surface area triangular prism online",
+      "right triangular prism geometry",
+      "prism volume calculator"
+    ]
+  },
+  {
+    "name": "Regular Hexagonal Prism Volume & Area Calculator",
+    "description": "Calculate 3D volume (V = (3√3 / 2) · a² · h), regular hexagon base area, and total surface area for hexagonal prisms and hex nuts.",
+    "path": "/tools/hexagonal-prism-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "hexagonal prism calculator",
+      "volume of hexagonal prism formula",
+      "hexagonal prism surface area online",
+      "hexagon base prism geometry",
+      "honeycomb cell volume calculator"
+    ]
+  },
+  {
+    "name": "Truncated Cone (Frustum) Volume & Area Calculator",
+    "description": "Calculate 3D volume (V = ⅓ · π · h · (R² + r² + R·r)), slant height, and lateral surface area for truncated cones, buckets, and lampshades.",
+    "path": "/tools/truncated-cone-frustum-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "truncated cone calculator",
+      "conical frustum volume calculator",
+      "frustum of a cone formula",
+      "bucket volume calculator online",
+      "cone frustum surface area calculator"
+    ]
+  },
+  {
+    "name": "Spherical Cap & Dome Volume Calculator",
+    "description": "Calculate 3D volume (V = ⅓ · π · h² · (3R - h)), curved dome surface area (A = 2πRh), and base circle radius for architectural domes and tank dished ends.",
+    "path": "/tools/spherical-cap-volume-surface-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "spherical cap calculator",
+      "dome volume calculator online",
+      "spherical dome surface area formula",
+      "dished head volume calculator",
+      "spherical segment geometry"
+    ]
+  },
+  {
+    "name": "Regular Tetrahedron Volume & Surface Area Calculator",
+    "description": "Calculate 3D volume (V = a³ / (6√2)), total surface area (A = √3 · a²), and vertical height for a regular 4-faced equilateral triangular tetrahedron.",
+    "path": "/tools/regular-tetrahedron-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "regular tetrahedron calculator",
+      "tetrahedron volume formula",
+      "platonic solid tetrahedron surface area",
+      "4 sided triangular pyramid geometry",
+      "tetrahedron edge length calculator"
+    ]
+  }
+]

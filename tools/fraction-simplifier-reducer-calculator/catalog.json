@@ -1,0 +1,15 @@
+{
+  "name": "Fraction Simplifier & Reducer Calculator",
+  "description": "Simplify proper and improper fractions to their lowest irreducible terms, convert to mixed numbers, and calculate exact decimal equivalents.",
+  "path": "/tools/fraction-simplifier-reducer-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "fraction simplifier",
+    "simplify fractions calculator",
+    "reduce fractions to lowest terms",
+    "improper fraction to mixed number",
+    "fraction to decimal converter"
+  ],
+  "order": 155
+}

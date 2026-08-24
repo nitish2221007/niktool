@@ -1,0 +1,15 @@
+{
+  "name": "Convert 10pt to PX",
+  "description": "Convert 10 points (pt) to pixels (13.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-10pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 10pt to px",
+    "Convert 10pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Euler's Method First-Order ODE Solver (y_{n+1} = y_n + h·f(x_n, y_n)) Calculator",
+  "description": "Calculate step-by-step numerical solutions to first-order differential equations (dy/dx = f(x, y)) using classical Euler's forward tangent method (y_{n+1} = y_n + h · f(x_n, y_n)) and explore step size error propagation.",
+  "path": "/tools/euler-method-first-order-ode-step-size-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "eulers method calculator",
+    "forward euler differential equation formula y n plus 1 online",
+    "ode step size numerical integration euler calculator",
+    "initial value problem first order differential equation euler",
+    "applied mathematics numerical calculus online"
+  ],
+  "order": 1101
+}

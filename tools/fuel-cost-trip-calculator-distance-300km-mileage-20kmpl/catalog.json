@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (300 km Distance, 20 km/l Mileage)",
+  "description": "Calculate fuel needed (15.0 L) and cost (₹1448) for 300 km trip at 20 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-300km-mileage-20kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 300km mileage 20kmpl",
+    "Fuel Cost Trip Calculator (300 km Distance, 20 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

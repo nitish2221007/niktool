@@ -1,0 +1,15 @@
+{
+  "name": "Hexagon Area & Geometry Calculator",
+  "description": "Calculate regular hexagon area, perimeter, inradius, circumradius, and short/long diagonals from side length.",
+  "path": "/tools/hexagon-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "hexagon calculator",
+    "hexagon area calculator",
+    "regular hexagon perimeter",
+    "hexagon diagonal calculator",
+    "hexagon geometry online"
+  ],
+  "order": 68
+}

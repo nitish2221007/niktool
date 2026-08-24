@@ -1,0 +1,15 @@
+{
+  "name": "Convert 124 REM to PX Value",
+  "description": "Convert 124 REM units to pixels (1984 px) based on standard 16px root font.",
+  "path": "/tools/convert-124-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 124 rem to px value",
+    "Convert 124 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "3D Euclidean Distance & Midpoint Calculator",
+  "description": "Calculate straight-line 3D Euclidean distance (d = √((x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²)) and midpoint coordinates between two 3D spatial points.",
+  "path": "/tools/distance-midpoint-3d-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "3d distance calculator",
+    "distance between two points 3d",
+    "3d midpoint calculator online",
+    "euclidean distance 3d coordinates",
+    "spatial distance xyz formula"
+  ],
+  "order": 281
+}

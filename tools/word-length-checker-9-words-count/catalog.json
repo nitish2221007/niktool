@@ -1,0 +1,15 @@
+{
+  "name": "Word Length Checker (9 Words)",
+  "description": "Check word length and readability metrics for text with target 9 words count.",
+  "path": "/tools/word-length-checker-9-words-count/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word length checker 9 words count",
+    "Word Length Checker (9 Words)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

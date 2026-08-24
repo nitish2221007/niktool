@@ -1,0 +1,14 @@
+{
+  "name": "Centripetal Force Calculator",
+  "description": "Calculate centripetal force (Fc = m·v²/r), radial acceleration, and angular velocity for circular orbital motion.",
+  "path": "/tools/centripetal-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "centripetal force calculator",
+    "centripetal acceleration calculator",
+    "circular motion force",
+    "physics orbital force calculator"
+  ],
+  "order": 105
+}

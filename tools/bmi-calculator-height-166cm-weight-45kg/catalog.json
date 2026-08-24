@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 166cm, Weight 45kg)",
+  "description": "Calculate Body Mass Index (BMI 16.3) for height 166 cm and weight 45 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-166cm-weight-45kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 166cm weight 45kg",
+    "BMI Calculator (Height 166cm, Weight 45kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (120 km Distance, 10 km/l Mileage)",
+  "description": "Calculate total fuel required (12.0 L) and estimated cost (₹1158) for 120 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-120km-mileage-10kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 120km mileage 10kmpl",
+    "Fuel Cost Calculator (120 km Distance, 10 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

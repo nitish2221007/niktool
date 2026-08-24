@@ -1,0 +1,16 @@
+{
+  "name": "HTML Entity Encoder Decoder",
+  "description": "Encode special characters to HTML named and numeric entities (&amp;, &lt;, &gt;) or decode HTML entities back to raw text.",
+  "path": "/tools/html-entity-encoder-decoder/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "html entity encoder",
+    "html entity decoder",
+    "html escape tool",
+    "html unescape",
+    "special characters to html entities",
+    "encode html online"
+  ],
+  "order": 49
+}

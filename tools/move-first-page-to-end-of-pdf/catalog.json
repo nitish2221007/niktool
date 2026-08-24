@@ -1,0 +1,16 @@
+{
+  "name": "Move First Page To End Of PDF",
+  "description": "Move the cover page or first page to the very end of the PDF file.",
+  "path": "/tools/move-first-page-to-end-of-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "move first page to end of pdf",
+    "Move First Page To End Of PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

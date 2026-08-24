@@ -1,0 +1,15 @@
+{
+  "name": "Area of Rectangle (Length 60 x Width 10)",
+  "description": "Calculate area of rectangle with length 60 and width 10 (600 sq units).",
+  "path": "/tools/area-of-rectangle-length-60-width-10/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of rectangle length 60 width 10",
+    "Area of Rectangle (Length 60 x Width 10)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

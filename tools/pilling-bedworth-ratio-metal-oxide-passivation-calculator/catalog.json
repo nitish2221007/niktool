@@ -1,0 +1,15 @@
+{
+  "name": "Pilling-Bedworth Ratio (PBR = M_ox·ρ_m / (n·M_m·ρ_ox)) Metal Oxidation Calculator",
+  "description": "Calculate the Pilling-Bedworth Ratio (PBR = (M_ox · ρ_m) / (n · M_m · ρ_ox)) to predict whether high-temperature surface metal oxides form protective passivating films (1.0 ≤ PBR ≤ 2.0) vs porous or spalling scales.",
+  "path": "/tools/pilling-bedworth-ratio-metal-oxide-passivation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pilling bedworth ratio calculator",
+    "pbr formula metal oxidation passivation online",
+    "protective oxide layer corrosion calculator",
+    "pilling bedworth rule high temperature oxidation calculator",
+    "materials science metallurgy corrosion engineering online"
+  ],
+  "order": 1284
+}

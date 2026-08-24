@@ -1,0 +1,16 @@
+{
+  "name": "Text Duplicate Line Remover",
+  "description": "Remove duplicate lines from text lists, trim whitespace, sort alphabetically (A-Z or Z-A), and count unique entries instantly.",
+  "path": "/tools/text-duplicate-remover/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "text duplicate remover",
+    "remove duplicate lines online",
+    "unique line extractor",
+    "deduplicate list",
+    "sort unique lines",
+    "clean text list"
+  ],
+  "order": 63
+}

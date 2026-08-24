@@ -1,0 +1,397 @@
+[
+  {
+    "name": "Temperature Converter",
+    "description": "Convert between Celsius, Fahrenheit, and Kelvin with all three scales shown simultaneously. Free and fully private.",
+    "path": "/tools/temperature-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "temperature converter",
+      "Celsius Fahrenheit converter",
+      "C to F calculator",
+      "F to C calculator",
+      "Kelvin converter",
+      "temperature conversion calculator",
+      "class 10 temperature converter",
+      "school temperature calculator",
+      "temperature formula",
+      "online temperature converter"
+    ]
+  },
+  {
+    "name": "Sound Decibel Distance Calculator",
+    "description": "Calculate sound pressure level (dB) reduction over distance using the inverse square law for indoor and outdoor acoustics.",
+    "path": "/tools/sound-decibel-distance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound decibel distance calculator",
+      "inverse square law sound",
+      "spl drop over distance",
+      "sound level at distance calculator",
+      "acoustic distance decibel"
+    ]
+  },
+  {
+    "name": "Time Converter",
+    "description": "Convert between seconds, minutes, hours, and days with all equivalents shown. Free, fast, and fully private browser tool.",
+    "path": "/tools/time-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "time converter",
+      "hours to minutes calculator",
+      "minutes to seconds converter",
+      "seconds to minutes",
+      "hours to seconds",
+      "time conversion calculator",
+      "study time converter",
+      "school time converter",
+      "online time converter",
+      "duration converter"
+    ]
+  },
+  {
+    "name": "RC Time Constant & Low-Pass Filter Calculator",
+    "description": "Calculate RC circuit time constant (τ = R·C), 3dB cutoff frequency (fc), and capacitor charge/discharge times.",
+    "path": "/tools/capacitance-rc-time-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rc time constant calculator",
+      "cutoff frequency calculator",
+      "rc low pass filter calculator",
+      "capacitor charge time calculator",
+      "rc circuit tau calculator"
+    ]
+  },
+  {
+    "name": "Statistics Frequency Table Calculator",
+    "description": "Build a frequency table from data values with relative frequencies and weighted mean. Free, fast, and fully private.",
+    "path": "/tools/statistics-frequency-table-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "frequency table calculator",
+      "statistics frequency table",
+      "frequency distribution calculator",
+      "class 10 statistics calculator",
+      "frequency table maker",
+      "mean from frequency table",
+      "school statistics tool",
+      "10th maths statistics",
+      "frequency calculator",
+      "statistics online tool"
+    ]
+  },
+  {
+    "name": "Dew Point Calculator",
+    "description": "Calculate ambient dew point temperature, comfort level, and moisture condensation threshold from air temperature and relative humidity.",
+    "path": "/tools/dew-point-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dew point calculator",
+      "calculate dew point from humidity",
+      "relative humidity to dew point",
+      "magnus formula dew point",
+      "weather moisture calculator"
+    ]
+  },
+  {
+    "name": "Empirical Relation Calculator",
+    "description": "Calculate mean, median, or mode using the school-level empirical relation Mode = 3Median - 2Mean. Free and private.",
+    "path": "/tools/empirical-relation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "empirical relation calculator",
+      "mean median mode relation",
+      "mode formula calculator",
+      "class 10 empirical relation",
+      "statistics empirical formula",
+      "3 median 2 mean formula",
+      "mode median mean calculator",
+      "school statistics formula",
+      "empirical formula statistics"
+    ]
+  },
+  {
+    "name": "Slope Calculator",
+    "description": "Calculate slope between two points with line equation, y-intercept, and slope type. Free, fast, and fully private.",
+    "path": "/tools/slope-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "slope calculator",
+      "gradient calculator",
+      "slope between two points",
+      "slope formula calculator",
+      "class 10 slope calculator",
+      "line slope calculator",
+      "coordinate slope calculator",
+      "slope of line",
+      "math slope solver",
+      "school coordinate geometry"
+    ]
+  },
+  {
+    "name": "Solar Panel Output & kWh Calculator",
+    "description": "Calculate expected daily and monthly solar electricity production (kWh) from system wattage, peak sun hours, and derate efficiency.",
+    "path": "/tools/solar-panel-output-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar panel output calculator",
+      "solar kwh calculator",
+      "solar daily energy production",
+      "solar wattage to kwh calculator",
+      "photovoltaic generation calculator"
+    ]
+  },
+  {
+    "name": "Battery Life & Runtime Calculator",
+    "description": "Calculate battery operating runtime hours and discharge duration from battery capacity (mAh / Ah) and device power load current.",
+    "path": "/tools/battery-life-runtime-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "battery life calculator",
+      "battery runtime calculator",
+      "mah to hours calculator",
+      "battery discharge time",
+      "iot battery life estimation"
+    ]
+  },
+  {
+    "name": "Line Equation Calculator",
+    "description": "Find the equation of a line from two points or slope and point with both forms shown. Free, fast, and fully private.",
+    "path": "/tools/line-equation-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "line equation calculator",
+      "equation of line calculator",
+      "straight line equation",
+      "slope intercept calculator",
+      "class 10 line equation",
+      "coordinate geometry line",
+      "line through two points",
+      "school line equation",
+      "math line solver",
+      "point slope calculator"
+    ]
+  },
+  {
+    "name": "Factor Calculator",
+    "description": "Find all factors of a number with factor pairs and prime/composite classification. Free, fast, and fully private.",
+    "path": "/tools/factor-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "factor calculator",
+      "factors of a number",
+      "factor finder",
+      "number factor calculator",
+      "prime factor calculator",
+      "class 10 factor calculator",
+      "factor pairs calculator",
+      "divisors calculator",
+      "school factor finder",
+      "factors online"
+    ]
+  },
+  {
+    "name": "Planetary Weight Calculator",
+    "description": "Calculate your exact weight and gravitational acceleration on the Moon, Mars, Jupiter, Venus, Saturn, Mercury, and Pluto.",
+    "path": "/tools/planetary-weight-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planetary weight calculator",
+      "weight on other planets",
+      "weight on mars calculator",
+      "weight on the moon calculator",
+      "gravity on planets calculator"
+    ]
+  },
+  {
+    "name": "LCM HCF Calculator",
+    "description": "Calculate HCF and LCM together with prime factorizations and product verification. Free, fast, and fully private.",
+    "path": "/tools/lcm-hcf-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "HCF LCM calculator",
+      "LCM HCF calculator",
+      "HCF and LCM",
+      "class 10 HCF LCM",
+      "HCF LCM solver",
+      "least common multiple highest common factor",
+      "school HCF LCM",
+      "10th maths HCF LCM",
+      "HCF LCM formula",
+      "math HCF LCM"
+    ]
+  },
+  {
+    "name": "Wire Gauge & Voltage Drop Calculator",
+    "description": "Calculate copper wire electrical resistance, percentage voltage drop, and power loss for DC and single-phase AC circuits.",
+    "path": "/tools/wire-gauge-voltage-drop-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wire gauge voltage drop calculator",
+      "awg voltage drop calculator",
+      "copper wire resistance calculator",
+      "cable size voltage drop",
+      "dc voltage drop online"
+    ]
+  },
+  {
+    "name": "Sound Wavelength & Frequency Calculator",
+    "description": "Calculate acoustic sound wavelength (λ), audio frequency (f), and period (T) based on air temperature and speed of sound.",
+    "path": "/tools/sound-wavelength-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound wavelength calculator",
+      "speed of sound wavelength",
+      "acoustic frequency wavelength",
+      "wavelength of sound in air",
+      "audio wavelength calculator"
+    ]
+  },
+  {
+    "name": "Unitary Method Calculator",
+    "description": "Solve unitary method problems step by step showing the one-unit value and final answer. Free, fast, and fully private.",
+    "path": "/tools/unitary-method-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "unitary method calculator",
+      "unitary method solver",
+      "class 10 unitary method",
+      "unit price calculator",
+      "unit rate calculator",
+      "quantity price calculator",
+      "school unitary method",
+      "math word problem calculator",
+      "unitary method online",
+      "unitary method questions"
+    ]
+  },
+  {
+    "name": "Fraction Calculator",
+    "description": "Add, subtract, multiply, and divide fractions with simplification and mixed number display. Free and fully private.",
+    "path": "/tools/fraction-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "fraction calculator",
+      "fraction simplifier",
+      "fraction addition calculator",
+      "fraction subtraction calculator",
+      "fraction multiplication calculator",
+      "fraction division calculator",
+      "class 10 fraction calculator",
+      "school fraction solver",
+      "simplify fractions online",
+      "math fraction tool"
+    ]
+  },
+  {
+    "name": "Planetary Escape Velocity Calculator",
+    "description": "Calculate the minimum escape velocity (ve = √(2GM/R)) required to break free from the gravitational pull of planets, stars, and celestial bodies.",
+    "path": "/tools/escape-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "escape velocity calculator",
+      "planetary escape velocity",
+      "gravitational escape velocity",
+      "orbital escape speed calculator",
+      "astrophysics escape velocity"
+    ]
+  },
+  {
+    "name": "Fresnel Zone & Wireless Clearance Calculator",
+    "description": "Calculate the first Fresnel zone radius (F1) and required line-of-sight obstacle clearance for Wi-Fi and point-to-point RF microwave links.",
+    "path": "/tools/fresnel-zone-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fresnel zone calculator",
+      "wireless link clearance calculator",
+      "rf fresnel zone radius",
+      "wifi line of sight calculator",
+      "microwave link clearance"
+    ]
+  },
+  {
+    "name": "Scientific Calculator",
+    "description": "A clean browser scientific calculator with trig, log, powers, and DEG/RAD modes. Free, fast, and fully private.",
+    "path": "/tools/student-scientific-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "scientific calculator",
+      "online scientific calculator",
+      "student scientific calculator",
+      "school scientific calculator",
+      "class 10 calculator",
+      "math scientific calculator",
+      "free scientific calculator",
+      "trigonometric calculator",
+      "scientific calculator online",
+      "exam calculator"
+    ]
+  },
+  {
+    "name": "CSS Box Shadow Generator",
+    "description": "Design multi-layer modern CSS box shadows with live interactive preview, inset shadows, blur radius, spread, and 1-click copy CSS.",
+    "path": "/tools/css-box-shadow-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css box shadow generator",
+      "box shadow generator online",
+      "multi layer shadow generator",
+      "css shadow builder",
+      "inset box shadow generator"
+    ]
+  },
+  {
+    "name": "Ohm's Law Triangle Helper",
+    "description": "Interactive VIR triangle helper to choose the right formula and solve V, I, or R. Free, fast, and fully private.",
+    "path": "/tools/ohms-law-triangle-helper/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "Ohm law triangle",
+      "VIR triangle calculator",
+      "Ohm triangle calculator",
+      "Ohms law helper",
+      "voltage current resistance triangle",
+      "class 10 electricity formula",
+      "physics formula triangle",
+      "school electricity helper",
+      "Ohm law shortcut",
+      "electricity formula tool"
+    ]
+  },
+  {
+    "name": "CSS Fancy Border Radius Generator",
+    "description": "Create organic, blob-like, and smooth asymmetric 8-point CSS border-radius shapes with live visual preview and CSS code export.",
+    "path": "/tools/css-border-radius-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css border radius generator",
+      "8 point border radius",
+      "blob shape generator css",
+      "organic border radius builder",
+      "fancy border radius online"
+    ]
+  }
+]

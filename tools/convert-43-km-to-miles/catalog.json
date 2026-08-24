@@ -1,0 +1,15 @@
+{
+  "name": "Convert 43 KM to Miles",
+  "description": "Convert 43 kilometers to miles (26.72 miles). 100% free and local.",
+  "path": "/tools/convert-43-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 43 km to miles",
+    "Convert 43 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

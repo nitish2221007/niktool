@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Korean Automobile Tax Calculator (3000cc Engine 자동차세)",
+    "description": "Calculate annual car tax for 3000cc displacement vehicle in South Korea.",
+    "path": "/tools/korean-car-tax-calculator-3000cc-engine/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean car tax calculator 3000cc engine",
+      "Korean Automobile Tax Calculator (3000cc Engine 자동차세)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Automobile Tax Calculator (3500cc Engine 자동차세)",
+    "description": "Calculate annual car tax for 3500cc displacement vehicle in South Korea.",
+    "path": "/tools/korean-car-tax-calculator-3500cc-engine/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean car tax calculator 3500cc engine",
+      "Korean Automobile Tax Calculator (3500cc Engine 자동차세)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Cover Letter Character Counter (자소서 글자수 세기)",
+    "description": "Count characters with and without spaces (공백 포함/제외) for Korean job application essays.",
+    "path": "/tools/korean-cover-letter-character-counter-jasoseo/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "korean cover letter character counter jasoseo",
+      "Korean Cover Letter Character Counter (자소서 글자수 세기)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 10억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩10억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-10-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 10 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 10억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 1억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩1억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-1-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 1 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 1억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 2억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩2억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-2-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 2 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 2억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 3억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩3억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-3-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 3 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 3억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 4억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩4억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-4-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 4 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 4억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 5억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩5억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-5-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 5 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 5억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 6억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩6억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-6-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 6 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 6억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 7억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩7억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-7-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 7 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 7억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 8억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩8억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-8-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 8 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 8억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 9억원)",
+    "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩9억원 deposit.",
+    "path": "/tools/korean-savings-interest-tax-calculator-9-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean savings interest tax calculator 9 eok won",
+      "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 9억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Freelancer 3.3% Withholding Tax Calculator (3.3% 세금)",
+    "description": "Calculate net payout and 3.3% income tax withholding for Korean freelancers.",
+    "path": "/tools/korean-freelancer-3-3-percent-tax-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean freelancer 3 3 percent tax calculator",
+      "Korean Freelancer 3.3% Withholding Tax Calculator (3.3% 세금)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Lunar to Solar Calendar Converter (음력 ↔ 양력)",
+    "description": "Convert Korean lunar calendar dates (설날, 추석) to Solar Gregorian dates.",
+    "path": "/tools/lunar-to-solar-calendar-converter-korea/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "lunar to solar calendar converter korea",
+      "Korean Lunar to Solar Calendar Converter (음력 ↔ 양력)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Military Discharge D-Day Calculator (Air Force (공군))",
+    "description": "Calculate exact discharge date and D-Day countdown for Air Force (공군) (21 months service).",
+    "path": "/tools/korean-military-discharge-dday-calculator-air-force/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean military discharge dday calculator air force",
+      "Korean Military Discharge D-Day Calculator (Air Force (공군))",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Military Discharge D-Day Calculator (Army (육군))",
+    "description": "Calculate exact discharge date and D-Day countdown for Army (육군) (18 months service).",
+    "path": "/tools/korean-military-discharge-dday-calculator-army/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean military discharge dday calculator army",
+      "Korean Military Discharge D-Day Calculator (Army (육군))",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Military Discharge D-Day Calculator (Marine Corps (해병대))",
+    "description": "Calculate exact discharge date and D-Day countdown for Marine Corps (해병대) (18 months service).",
+    "path": "/tools/korean-military-discharge-dday-calculator-marines/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean military discharge dday calculator marines",
+      "Korean Military Discharge D-Day Calculator (Marine Corps (해병대))",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Military Discharge D-Day Calculator (Navy (해군))",
+    "description": "Calculate exact discharge date and D-Day countdown for Navy (해군) (20 months service).",
+    "path": "/tools/korean-military-discharge-dday-calculator-navy/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean military discharge dday calculator navy",
+      "Korean Military Discharge D-Day Calculator (Navy (해군))",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Military Discharge D-Day Calculator (Social Service Personnel (사회복무요원))",
+    "description": "Calculate exact discharge date and D-Day countdown for Social Service Personnel (사회복무요원) (21 months service).",
+    "path": "/tools/korean-military-discharge-dday-calculator-social-service/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean military discharge dday calculator social service",
+      "Korean Military Discharge D-Day Calculator (Social Service Personnel (사회복무요원))",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Military Rank Monthly Base Pay Calculator 2026 (군인 봉급)",
+    "description": "Calculate monthly stipend for Sergeant (병장), Corporal (상병), PFC (일병), Private (이병) + Jangbyeong Tomorrow Savings.",
+    "path": "/tools/korean-military-rank-pay-calculator-2026/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean military rank pay calculator 2026",
+      "Korean Military Rank Monthly Base Pay Calculator 2026 (군인 봉급)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Name Revised Romanization Converter (한글 ↔ 로마자 표기법)",
+    "description": "Convert Korean names and addresses to official Revised Romanization for passport application.",
+    "path": "/tools/korean-name-revised-romanization-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "korean name revised romanization converter",
+      "Korean Name Revised Romanization Converter (한글 ↔ 로마자 표기법)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Real Estate Brokerage Realtor Fee Calculator (복비 10억원)",
+    "description": "Calculate legal max realtor commission fee (복비) for ₩10억원 property purchase or rental.",
+    "path": "/tools/korean-real-estate-realtor-fee-calculator-10-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean real estate realtor fee calculator 10 eok won",
+      "Korean Real Estate Brokerage Realtor Fee Calculator (복비 10억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Korean Real Estate Brokerage Realtor Fee Calculator (복비 11억원)",
+    "description": "Calculate legal max realtor commission fee (복비) for ₩11억원 property purchase or rental.",
+    "path": "/tools/korean-real-estate-realtor-fee-calculator-11-eok-won/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean real estate realtor fee calculator 11 eok won",
+      "Korean Real Estate Brokerage Realtor Fee Calculator (복비 11억원)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Restaurant Food Cost Percentage Calculator",
+    "description": "Calculate menu item food cost percentage ((Ingredient Portion Cost / Menu Price) · 100) and gross profit margin for restaurant profitability.",
+    "path": "/tools/restaurant-food-cost-percentage-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "food cost percentage calculator",
+      "restaurant menu pricing calculator",
+      "ideal food cost formula",
+      "cogs food cost percentage online",
+      "restaurant gross margin calculator"
+    ]
+  },
+  {
+    "name": "Inventory Turnover & DSI Calculator",
+    "description": "Calculate inventory turnover ratio (COGS / Average Inventory) and Days Sales of Inventory (DSI = 365 / Turnover) for retail and supply chain analytics.",
+    "path": "/tools/inventory-turnover-ratio-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "inventory turnover ratio calculator",
+      "days sales of inventory dsi calculator",
+      "inventory velocity calculator",
+      "cogs to average inventory formula",
+      "stock turnover calculator online"
+    ]
+  },
+  {
+    "name": "Stock Dividend Yield & Passive Income Calculator",
+    "description": "Calculate annual stock dividend yield percentage ((Annual Dividend / Share Price) · 100), quarterly payout schedule, and total passive income.",
+    "path": "/tools/stock-dividend-yield-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "stock dividend yield calculator",
+      "dividend income calculator",
+      "calculate dividend payout quarterly",
+      "dividend yield formula online",
+      "passive dividend cash flow calculator"
+    ]
+  },
+  {
+    "name": "P/E Ratio & PEG Stock Valuation Calculator",
+    "description": "Calculate Price-to-Earnings (P/E = Share Price / EPS), PEG growth ratio, and earnings yield for equity fundamental analysis.",
+    "path": "/tools/pe-ratio-valuation-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "pe ratio calculator",
+      "price to earnings valuation calculator",
+      "peg ratio calculator online",
+      "earnings per share pe multiple",
+      "stock fundamental valuation formula"
+    ]
+  },
+  {
+    "name": "Dollar Cost Averaging (DCA) Average Price Calculator",
+    "description": "Calculate the true weighted average cost per share across multiple stock or crypto purchases at varying prices.",
+    "path": "/tools/dca-dollar-cost-averaging-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "dollar cost averaging calculator",
+      "dca average price calculator",
+      "stock average cost calculator",
+      "crypto dca calculator online",
+      "weighted average share price"
+    ]
+  },
+  {
+    "name": "Scientific Dog Age to Human Years Calculator",
+    "description": "Calculate your dog's true biological age in human years using the UCSD epigenetic DNA methylation logarithmic formula (Human Age = 16 · ln(Dog Age) + 31).",
+    "path": "/tools/dog-age-to-human-years-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "dog age calculator",
+      "dog years to human years",
+      "scientific dog age formula",
+      "epigenetic dog age calculator",
+      "ucsd dog dna methylation calculator"
+    ]
+  },
+  {
+    "name": "Screen DPI / PPI Pixel Density Calculator",
+    "description": "Calculate display pixel density (PPI / DPI = √(w² + h²) / diagonal), dot pitch, and total megapixels for monitors, laptops, and smartphones.",
+    "path": "/tools/screen-dpi-ppi-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "screen dpi calculator",
+      "ppi calculator display density",
+      "pixels per inch calculator",
+      "monitor dot pitch calculator",
+      "screen resolution ppi online"
+    ]
+  },
+  {
+    "name": "TV Viewing Distance & Screen Size Calculator",
+    "description": "Calculate optimal TV viewing distance for 4K and 8K home theaters based on THX (40° field of view) and SMPTE (30° cinema standard) guidelines.",
+    "path": "/tools/tv-viewing-distance-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "tv viewing distance calculator",
+      "optimal tv distance 4k",
+      "thx home theater distance calculator",
+      "tv screen size distance formula",
+      "how far to sit from 65 inch tv"
+    ]
+  },
+  {
+    "name": "Road Trip Fuel Cost & Gas Mileage Calculator",
+    "description": "Calculate total gasoline fuel costs, required fuel liters/gallons, and per-passenger travel costs from trip distance and vehicle fuel economy.",
+    "path": "/tools/fuel-gas-trip-cost-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "fuel trip cost calculator",
+      "gas mileage trip cost calculator",
+      "road trip gas cost calculator",
+      "car fuel consumption calculator",
+      "calculate petrol cost for trip"
+    ]
+  },
+  {
+    "name": "Time Duration & Hours Calculator",
+    "description": "Add, subtract, and sum multiple time intervals (e.g. 4h 35m + 2h 50m - 1h 15m) into total decimal hours, minutes, and seconds.",
+    "path": "/tools/time-duration-hours-minutes-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "time duration calculator",
+      "add hours and minutes calculator",
+      "time addition subtraction online",
+      "time card hours calculator",
+      "sum time intervals calculator"
+    ]
+  },
+  {
+    "name": "Angle Unit Converter (Degrees, Radians, Gradians)",
+    "description": "Convert angles across Decimal Degrees, Radians (rad, π), Gradians (gon), Arcminutes (MOA), and Arcseconds in real time.",
+    "path": "/tools/angle-degrees-radians-gradians-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "angle unit converter",
+      "degrees to radians converter",
+      "radians to degrees online",
+      "gradians to degrees calculator",
+      "arcminutes moa converter"
+    ]
+  },
+  {
+    "name": "Force Unit Converter (Newtons, lbf, kgf, Dynes)",
+    "description": "Convert mechanical force units across Newtons (N), Pound-Force (lbf), Kilogram-Force (kgf / kp), Dynes (dyn), and Kilonewtons (kN).",
+    "path": "/tools/force-newtons-dynes-lbf-kgf-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "force unit converter",
+      "newtons to pound force lbf",
+      "kgf to newtons converter",
+      "dynes to newtons calculator",
+      "force conversion matrix online"
+    ]
+  },
+  {
+    "name": "Power Unit Converter (Watts, Horsepower, kW, BTU/hr)",
+    "description": "Convert mechanical, electrical, and thermal power across Watts (W), Kilowatts (kW), Mechanical Horsepower (HP), and BTU per hour (BTU/hr).",
+    "path": "/tools/power-watts-horsepower-kw-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "power unit converter",
+      "watts to horsepower calculator",
+      "kw to hp converter",
+      "btu per hour to kw converter",
+      "mechanical horsepower converter online"
+    ]
+  },
+  {
+    "name": "Liquid Volume Unit Converter (Liters, Gallons, Cups, fl oz)",
+    "description": "Convert liquid volumes across Liters (L), US Gallons (gal), Milliliters (mL), Fluid Ounces (fl oz), Cups, Quarts, and Pints.",
+    "path": "/tools/volume-liters-gallons-cups-fluid-ounces-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "liquid volume converter",
+      "liters to gallons converter",
+      "gallons to liters calculator",
+      "fluid ounces to ml converter",
+      "cups to ml volume converter online"
+    ]
+  },
+  {
+    "name": "Land Area Converter (Sq Ft, Sq Meters, Acres, Hectares)",
+    "description": "Convert real estate land areas across Square Feet (sq ft), Square Meters (m²), Acres, Hectares (ha), and Square Yards in real time.",
+    "path": "/tools/area-sqft-sqm-acres-hectares-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "land area converter",
+      "square feet to square meters converter",
+      "acres to hectares calculator",
+      "sq ft to acres converter",
+      "real estate area converter online"
+    ]
+  },
+  {
+    "name": "Length & Distance Unit Converter (Inches, cm, Feet, Meters)",
+    "description": "Convert lengths and distances across Centimeters (cm), Inches (in), Feet (ft), Meters (m), Yards (yd), Kilometers (km), and Miles.",
+    "path": "/tools/length-inches-cm-feet-meters-yards-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "length unit converter",
+      "inches to cm converter",
+      "feet to meters calculator",
+      "cm to inches converter online",
+      "yards to meters distance converter"
+    ]
+  },
+  {
+    "name": "Weight & Mass Unit Converter (kg, lbs, grams, oz, stones)",
+    "description": "Convert weights and masses across Kilograms (kg), Pounds (lbs), Grams (g), Ounces (oz), and British Stones (st).",
+    "path": "/tools/weight-kg-lbs-grams-ounces-stones-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "weight unit converter",
+      "kg to lbs converter",
+      "lbs to kg calculator",
+      "grams to ounces converter",
+      "stones to kg weight calculator"
+    ]
+  },
+  {
+    "name": "Binary, Hex, Decimal & Octal Base Matrix Converter",
+    "description": "Convert numbers simultaneously across Decimal (Base 10), Binary (Base 2), Hexadecimal (Base 16), and Octal (Base 8) in real time.",
+    "path": "/tools/binary-hex-octal-decimal-matrix-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "binary hex decimal converter",
+      "hex to decimal converter online",
+      "binary to hex converter",
+      "octal to binary converter",
+      "number base matrix converter"
+    ]
+  },
+  {
+    "name": "Any-to-Any Radix (Base 2 to 36) Converter",
+    "description": "Convert numbers between any custom positional base system from Base 2 (Binary) to Base 36 with full alphanumeric character support.",
+    "path": "/tools/number-base-any-to-any-radix-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "radix converter",
+      "base 2 to base 36 converter",
+      "arbitrary base converter online",
+      "custom number base calculator",
+      "alphanumeric radix converter"
+    ]
+  },
+  {
+    "name": "Numbers to English Words & Check Amount Converter",
+    "description": "Convert numeric digits into formal written English words for bank checks, invoices, legal contracts, and financial receipts.",
+    "path": "/tools/number-to-words-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "number to words converter",
+      "check amount in words calculator",
+      "convert digits to english words",
+      "spelled out numbers converter",
+      "invoice number words generator"
+    ]
+  },
+  {
+    "name": "CSS Linear & Radial Gradient Generator (css-linear-radial-gradient-generator)",
+    "description": "Design beautiful multi-color CSS linear and radial gradients with customizable angle, color stops, live preview, and instant CSS copy.",
+    "path": "/tools/css-linear-radial-gradient-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css gradient generator",
+      "linear gradient css generator",
+      "radial gradient generator",
+      "css background gradient builder",
+      "css gradient maker online"
+    ]
+  },
+  {
+    "name": "CSS Text Shadow & Glow Effect Generator",
+    "description": "Generate CSS text-shadow properties for glowing neon, subtle elevation, and 3D retro typography with real-time visual canvas preview.",
+    "path": "/tools/css-text-shadow-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css text shadow generator",
+      "neon text glow css generator",
+      "text shadow maker online",
+      "css 3d text generator",
+      "text shadow css code generator"
+    ]
+  },
+  {
+    "name": "CSS 2D Transform & Matrix Generator",
+    "description": "Visually manipulate CSS 2D transformations (Rotate, Scale, Translate, Skew) with real-time interactive sandbox preview and CSS export.",
+    "path": "/tools/css-transform-matrix-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css transform generator",
+      "css rotate scale translate generator",
+      "css matrix transform generator",
+      "css 2d transform visualizer",
+      "css transform maker online"
+    ]
+  },
+  {
+    "name": "CSS Flexbox Visual Playground & Generator",
+    "description": "Interactively configure CSS Flexbox layout properties (flex-direction, justify-content, align-items, gap) with live interactive box preview and CSS export.",
+    "path": "/tools/css-flexbox-playground-generator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css flexbox generator",
+      "flexbox playground online",
+      "css justify content align items",
+      "flex layout visualizer",
+      "css flexbox builder"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 44 Miles to KM",
+  "description": "Convert 44 miles to kilometers (70.81 km). 100% free and local.",
+  "path": "/tools/convert-44-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 44 miles to km",
+    "Convert 44 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

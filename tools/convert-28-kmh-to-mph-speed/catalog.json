@@ -1,0 +1,15 @@
+{
+  "name": "Convert 28 KM/H to MPH Speed",
+  "description": "Convert 28 kilometers per hour (km/h) to miles per hour (17.40 mph).",
+  "path": "/tools/convert-28-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 28 kmh to mph speed",
+    "Convert 28 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

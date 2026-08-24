@@ -1,0 +1,15 @@
+{
+  "name": "Electric Dipole Moment (Debye) Calculator",
+  "description": "Calculate molecular electric dipole moment (μ = q · d) in Debye (D) and Coulomb-meters from partial charge separation and atomic bond distance.",
+  "path": "/tools/dipole-moment-debye-charge-separation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dipole moment calculator",
+    "molecular dipole moment debye",
+    "bond polarity calculator online",
+    "charge separation dipole moment formula",
+    "debye to coulomb meter converter"
+  ],
+  "order": 312
+}

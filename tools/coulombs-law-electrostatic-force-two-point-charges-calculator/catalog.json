@@ -1,0 +1,15 @@
+{
+  "name": "Coulomb's Law Electrostatic Force (F = k_e·|q₁·q₂| / r²) Calculator",
+  "description": "Calculate electrostatic Coulomb force (F = k_e · |q₁ · q₂| / r²) in Newtons between two electric point charges in microcoulombs (μC) and separation distance r in physics.",
+  "path": "/tools/coulombs-law-electrostatic-force-two-point-charges-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "coulombs law calculator",
+    "electrostatic force formula f equals k q1 q2 over r squared online",
+    "point charge electric repulsion attraction calculator",
+    "coulomb constant ke physics force calculator",
+    "electrostatics coulombs law online"
+  ],
+  "order": 1040
+}

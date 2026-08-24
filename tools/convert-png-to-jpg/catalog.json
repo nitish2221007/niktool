@@ -1,0 +1,16 @@
+{
+  "name": "Convert PNG to JPG Online",
+  "description": "Convert PNG images to JPG format with custom background and quality controls.",
+  "path": "/tools/convert-png-to-jpg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert png to jpg",
+    "Convert PNG to JPG Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

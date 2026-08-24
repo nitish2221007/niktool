@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (50 Hz, 25 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 127.32 Ω) for 50 Hz frequency and 25 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-25uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 50hz capacitor 25uf",
+    "Capacitive Reactance Calculator (50 Hz, 25 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

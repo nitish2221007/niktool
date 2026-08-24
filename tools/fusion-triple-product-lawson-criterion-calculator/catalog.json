@@ -1,0 +1,15 @@
+{
+  "name": "Nuclear Fusion Lawson Criterion & Triple Product (n·T·τ_E) Calculator",
+  "description": "Calculate magnetic fusion plasma Triple Product (n · T · τ_E in keV·s/m³) and evaluate Breakeven (Q = 1) and Ignition (Q = ∞) thresholds for Deuterium-Tritium (D-T) fusion.",
+  "path": "/tools/fusion-triple-product-lawson-criterion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lawson criterion calculator",
+    "fusion triple product formula n t tau e online",
+    "tokamak ignition breakeven q factor calculator",
+    "iter deuterium tritium fusion triple product calculator",
+    "nuclear fusion energy confinement time online"
+  ],
+  "order": 817
+}

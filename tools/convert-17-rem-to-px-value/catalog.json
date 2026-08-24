@@ -1,0 +1,15 @@
+{
+  "name": "Convert 17 REM to PX Value",
+  "description": "Convert 17 REM units to pixels (272 px) based on standard 16px root font.",
+  "path": "/tools/convert-17-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 17 rem to px value",
+    "Convert 17 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

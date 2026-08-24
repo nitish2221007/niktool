@@ -1,0 +1,15 @@
+{
+  "name": "Convert 59 REM to PX Value",
+  "description": "Convert 59 REM units to pixels (944 px) based on standard 16px root font.",
+  "path": "/tools/convert-59-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 59 rem to px value",
+    "Convert 59 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

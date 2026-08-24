@@ -1,0 +1,15 @@
+{
+  "name": "Unit Quaternion to Euler Angles (Roll-Pitch-Yaw) & Rotation Matrix Calculator",
+  "description": "Convert 3D unit orientation quaternion q = [w, x, y, z] to aeronautical Euler Angles: Roll (φ), Pitch (θ), Yaw (ψ) in degrees, avoiding gimbal lock singularities in robotics and aerospace avionics.",
+  "path": "/tools/quaternion-to-euler-angles-rotation-matrix-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "quaternion to euler angles calculator",
+    "roll pitch yaw formula quaternion conversion online",
+    "quaternion to 3x3 rotation matrix calculator",
+    "gimbal lock avoidance aerospace attitude calculator",
+    "robotics aerospace drone navigation avionics online"
+  ],
+  "order": 1321
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Number Each Line of Text",
+  "description": "Add line numbers (1. 2. 3.) to every line of text automatically.",
+  "path": "/tools/number-each-line-of-text/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "number each line of text",
+    "Number Each Line of Text",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

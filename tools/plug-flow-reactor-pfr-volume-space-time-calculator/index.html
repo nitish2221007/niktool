@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate tubular Plug Flow Reactor (PFR) vessel volume V in m³ (V = F_A0 · ∫ dX / -r_A), space time τ (tau = V / v₀), Damköhler number (Da), and fractional conversion X for chemical reaction engineering.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/plug-flow-reactor-pfr-volume-space-time-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator | NikTool">
+  <meta property="og:description" content="Calculate tubular Plug Flow Reactor (PFR) vessel volume V in m³ (V = F_A0 · ∫ dX / -r_A), space time τ (tau = V / v₀), Damköhler number (Da), and fractional conversion X for chemical reaction engineering.">
+  <meta property="og:url" content="https://niktool.in/tools/plug-flow-reactor-pfr-volume-space-time-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/plug-flow-reactor-pfr-volume-space-time-calculator/",
+        "description": "Calculate tubular Plug Flow Reactor (PFR) vessel volume V in m³ (V = F_A0 · ∫ dX / -r_A), space time τ (tau = V / v₀), Damköhler number (Da), and fractional conversion X for chemical reaction engineering.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does a PFR require less volume than a CSTR for positive-order reactions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A PFR operates at the highest possible reactant concentration along its entire length, maximizing instantaneous reaction rate ($-r_A$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator</h1>
+      <p>Calculate tubular Plug Flow Reactor (PFR) vessel volume V in m³ (V = F_A0 · ∫ dX / -r_A), space time τ (tau = V / v₀), Damköhler number (Da), and fractional conversion X for chemical reaction engineering.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Molar Feed Rate F_A0 (mol/s), Inlet Conc C_A0 (mol/m³), Target Conversion X (0 to 0.99) & Rate k (s⁻¹)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pf-fa0">Feed F_A0 (mol/s)</label>
+          <input class="tool-textarea" id="pf-fa0" type="number" step="5" value="25.0" placeholder="25.0 mol/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pf-ca0">Inlet C_A0 (mol/m³)</label>
+          <input class="tool-textarea" id="pf-ca0" type="number" step="10" value="100.0" placeholder="100.0 mol/m³" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pf-x">Conversion X</label>
+          <input class="tool-textarea" id="pf-x" type="number" step="0.05" min="0.1" max="0.99" value="0.90" placeholder="0.90 (90% Conversion)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pf-k">Rate Const k (s⁻¹)</label>
+          <input class="tool-textarea" id="pf-k" type="number" step="0.01" value="0.05" placeholder="0.05 s⁻¹" />
+        </div>
+      </div>
+      <div id="pf-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pf-res-vol" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">PFR Volume V = 11.51 m³ (11,513 Liters)</span>
+            <span class="stat-label">Tubular Plug Flow Reactor Volume (V = (F_A0 / (k·C_A0)) · ln(1 / (1 - X)))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pf-res-tau" style="color:var(--green-dark); font-weight:700;">Space Time τ = 46.05 Seconds | Damköhler Da = 2.30 (Volumetric Flow v₀ = 0.25 m³/s)</span>
+            <span class="stat-label">Reactor Residence Space Time & Damköhler Number</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator</h2>
+      <ol>
+        <li>Enter pure reactant molar feed rate $F_{A0}$ in mol/s.</li>
+        <li>Enter inlet reactant concentration $C_{A0}$ in $	ext{mol/m}^3$.</li>
+        <li>Enter target fractional conversion X (e.g. 0.90 for 90%).</li>
+        <li>Enter first-order reaction rate constant k in $	ext{s}^{-1}$.</li>
+        <li>Inspect required PFR vessel volume in $	ext{m}^3$ and reactor space time $	au$.</li>
+      </ol>
+
+      <h2>Octave Levenspiel Reactor Design Standard</h2>
+      <p>Because reactant concentration decreases continuously along tube length without backmixing, PFRs require significantly smaller reactor volumes than CSTRs for high conversions.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does a PFR require less volume than a CSTR for positive-order reactions?</summary>
+        <p>A PFR operates at the highest possible reactant concentration along its entire length, maximizing instantaneous reaction rate ($-r_A$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/plug-flow-reactor-pfr-volume-space-time-calculator/tool.js"></script>
+</body>
+</html>

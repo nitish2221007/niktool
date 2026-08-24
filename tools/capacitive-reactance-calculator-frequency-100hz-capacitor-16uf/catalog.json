@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (100 Hz, 16 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 99.47 Ω) for 100 Hz frequency and 16 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-100hz-capacitor-16uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 100hz capacitor 16uf",
+    "Capacitive Reactance Calculator (100 Hz, 16 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

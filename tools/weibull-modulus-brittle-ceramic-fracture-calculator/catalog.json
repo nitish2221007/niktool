@@ -1,0 +1,15 @@
+{
+  "name": "Weibull Modulus Brittle Ceramic Fracture Probability (P_f) Calculator",
+  "description": "Calculate brittle ceramic material fracture failure probability (P_f = 1 - exp[- (σ / σ₀)^m]) and survival reliability from applied tensile stress σ, characteristic strength σ₀, and Weibull modulus m.",
+  "path": "/tools/weibull-modulus-brittle-ceramic-fracture-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "weibull modulus calculator",
+    "ceramic brittle fracture probability formula 1 minus exp minus sigma over sigma 0 power m",
+    "weibull statistics ceramic reliability calculator online",
+    "silicon nitride alumina fracture strength weibull calculator",
+    "structural ceramics weibull distribution online"
+  ],
+  "order": 802
+}

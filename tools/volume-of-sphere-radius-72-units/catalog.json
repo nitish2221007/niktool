@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 72 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 72 units (V = 4/3 πr³ = 1563457.57).",
+  "path": "/tools/volume-of-sphere-radius-72-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 72 units",
+    "Volume of Sphere (Radius 72 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

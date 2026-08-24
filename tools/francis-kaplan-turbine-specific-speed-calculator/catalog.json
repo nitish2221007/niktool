@@ -1,0 +1,15 @@
+{
+  "name": "Hydro Turbine Specific Speed (N_s) & Runner Selection Calculator",
+  "description": "Calculate dimensionless hydraulic turbine specific speed (N_s = (N · √P) / H^(5/4)) to identify optimum turbine type: Pelton impulse, Francis reaction, or Kaplan propeller.",
+  "path": "/tools/francis-kaplan-turbine-specific-speed-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "turbine specific speed calculator",
+    "ns formula hydro turbine runner selection",
+    "francis kaplan pelton turbine selector online",
+    "hydraulic turbine n sqrt p over h 5 4 calculator",
+    "hydroelectric power plant design calculator"
+  ],
+  "order": 562
+}

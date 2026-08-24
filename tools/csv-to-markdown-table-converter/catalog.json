@@ -1,0 +1,15 @@
+{
+  "name": "CSV to Markdown Table Converter",
+  "description": "Convert comma-separated CSV spreadsheets and tabular data into cleanly aligned GitHub Flavored Markdown (GFM) tables.",
+  "path": "/tools/csv-to-markdown-table-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "csv to markdown table",
+    "csv to gfm table converter",
+    "convert spreadsheet to markdown",
+    "markdown table generator from csv",
+    "csv to md online"
+  ],
+  "order": 167
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 47°C Celsius to Kelvin Temp",
+  "description": "Convert 47 degrees Celsius (°C) to Kelvin (320.15 K) instantly.",
+  "path": "/tools/convert-47-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 47 celsius to kelvin temp",
+    "Convert 47°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

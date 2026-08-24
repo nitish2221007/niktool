@@ -1,0 +1,15 @@
+{
+  "name": "Electric Dipole Torque & Potential Energy Calculator",
+  "description": "Calculate electrostatic torque (τ = p · E · sin(θ)) and potential energy (U = -p · E · cos(θ)) for an electric dipole aligned at angle θ in a uniform electric field.",
+  "path": "/tools/electric-dipole-torque-potential-energy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "electric dipole torque calculator",
+    "dipole potential energy u minus p dot e",
+    "torque on electric dipole in uniform field",
+    "p cross e dipole torque online",
+    "polar molecule torque electric field"
+  ],
+  "order": 362
+}

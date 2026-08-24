@@ -1,0 +1,15 @@
+{
+  "name": "Convert 56 Miles to KM",
+  "description": "Convert 56 miles to kilometers (90.12 km). 100% free and local.",
+  "path": "/tools/convert-56-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 56 miles to km",
+    "Convert 56 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

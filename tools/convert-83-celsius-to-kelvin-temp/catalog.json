@@ -1,0 +1,15 @@
+{
+  "name": "Convert 83°C Celsius to Kelvin Temp",
+  "description": "Convert 83 degrees Celsius (°C) to Kelvin (356.15 K) instantly.",
+  "path": "/tools/convert-83-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 83 celsius to kelvin temp",
+    "Convert 83°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

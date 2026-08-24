@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator",
+    "description": "Calculate Central Bank target policy interest rate (i = r* + π + 0.5·(π - π*) + 0.5·(y - y*)) in % using John Taylor's 1993 benchmark monetary policy rule from inflation and GDP output gap for economics students.",
+    "path": "/tools/monetary-policy-taylor-rule-federal-funds-rate-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "taylor rule calculator",
+      "central bank target interest rate formula taylor rule online",
+      "federal funds rate taylor rule calculator",
+      "inflation gap gdp output gap monetary policy calculator",
+      "macroeconomics interest rate taylor rule online"
+    ]
+  },
+  {
+    "name": "Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator",
+    "description": "Calculate hydroelectric turbine power generation (P = η · ρ · g · Q · H) in Megawatts (MW), annual electricity generation in GWh/year, and water volume requirements from hydraulic head H and flow rate Q.",
+    "path": "/tools/hydroelectric-dam-power-generation-head-flow-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydroelectric power calculator",
+      "hydro power formula p equals eta rho g q h online",
+      "hydraulic head flow rate water turbine power calculator",
+      "hydro dam annual energy gwh calculator",
+      "renewable energy hydroelectric power output online"
+    ]
+  },
+  {
+    "name": "Kepler's Third Law Planetary Orbital Period (T² = a³) & Orbit Size Calculator",
+    "description": "Calculate planetary and satellite orbital periods (T² = (4π² / G(M+m)) · a³) in Earth years and days from semi-major axis distance a in Astronomical Units (AU) and central stellar mass for astronomy courses.",
+    "path": "/tools/kepler-third-law-orbital-period-semi-major-axis-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "keplers third law calculator",
+      "orbital period semi major axis formula t squared equals a cubed online",
+      "astronomy planetary orbit period au years calculator",
+      "exoplanet orbital distance keplers law calculator",
+      "satellite orbital mechanics kepler online"
+    ]
+  },
+  {
+    "name": "Atmospheric Scale Height (H = k·T / (m·g)) & Barometric Pressure Calculator",
+    "description": "Calculate planetary atmospheric scale height (H = k_B·T / (m·g)) in km and barometric altitude pressure drop (P(z) = P₀ · e^(-z / H)) in kPa for Earth, Mars, Titan, and exoplanet atmospheric physics.",
+    "path": "/tools/atmospheric-scale-height-barometric-exponential-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atmospheric scale height calculator",
+      "barometric formula exponential pressure altitude calculator online",
+      "planetary atmosphere scale height mars earth titan calculator",
+      "altitude pressure density temperature calculator",
+      "space science planetary atmospheric physics online"
+    ]
+  },
+  {
+    "name": "Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator",
+    "description": "Calculate hydrogeological aquifer groundwater flow Darcy flux (q = -K · (dh / dl)) in m/day, linear seepage pore velocity (v_s = q / n_e), and hydraulic gradient for environmental soil contamination transport.",
+    "path": "/tools/groundwater-darcy-flux-hydraulic-conductivity-piezometer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "darcy flux calculator",
+      "groundwater flow formula q equals k dh over dl online",
+      "hydraulic conductivity aquifer seepage velocity calculator",
+      "effective porosity linear groundwater velocity calculator",
+      "hydrogeology contaminant transport darcy law online"
+    ]
+  },
+  {
+    "name": "Manning Equation Open Channel Flow & Stream Discharge (Q = (1/n)·A·R^(2/3)·S^(1/2)) Calculator",
+    "description": "Calculate open channel river and storm drainage discharge (Q = (1/n) · A · R_h^(2/3) · S^(1/2)) in m³/s and flow velocity v in m/s from channel width, water depth, Manning roughness n, and bed slope S.",
+    "path": "/tools/stream-discharge-manning-open-channel-flow-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "manning equation calculator",
+      "open channel flow formula q equals 1 over n a r to two thirds s to half online",
+      "hydraulic radius manning roughness stream discharge calculator",
+      "stormwater culvert channel velocity calculator",
+      "civil environmental river flow rate online"
+    ]
+  },
+  {
+    "name": "Water Treatment Chlorine Disinfection Contact Time (CT Value) Calculator",
+    "description": "Calculate municipal drinking water disinfection CT Value (CT = Free Chlorine Residual C in mg/L · Contact Time T in minutes) and evaluate Giardia lamblia and virus log-inactivation compliance under EPA Safe Drinking Water rules.",
+    "path": "/tools/water-treatment-chlorine-contact-time-ct-disinfection-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chlorine ct calculator",
+      "water disinfection contact time formula ct equals c times t online",
+      "giardia virus log inactivation ct calculator epa",
+      "free chlorine residual drinking water treatment calculator",
+      "environmental engineering water chlorination online"
+    ]
+  },
+  {
+    "name": "Nuclear Reactor Four-Factor Formula (k_∞ = ε·p·η·f) Criticality Calculator",
+    "description": "Calculate thermal nuclear reactor infinite neutron multiplication factor (k_∞ = ε · p · η · f) from Fast Fission Factor ε, Resonance Escape Probability p, Reproduction Factor η, and Thermal Utilization Factor f.",
+    "path": "/tools/nuclear-reactor-four-factor-formula-neutron-multiplication-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "four factor formula calculator",
+      "nuclear reactor criticality k infinity formula online",
+      "thermal utilization resonance escape fast fission calculator",
+      "neutron multiplication factor k equals 1 critical calculator",
+      "nuclear engineering reactor physics online"
+    ]
+  },
+  {
+    "name": "Corporate & Institutional Carbon Footprint (GHG Protocol Scope 1, 2 & 3) Calculator",
+    "description": "Calculate organizational greenhouse gas carbon footprint emissions in metric tonnes CO₂ equivalent (tCO₂e) across Scope 1 direct combustion, Scope 2 electricity grid consumption, and Scope 3 supply chain travel under the GHG Protocol.",
+    "path": "/tools/carbon-footprint-scope-1-2-3-greenhouse-gas-emissions-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "carbon footprint calculator",
+      "ghg protocol scope 1 2 3 emissions calculator online",
+      "co2 equivalent emissions metric tonnes calculator",
+      "corporate carbon footprint esg reporting calculator",
+      "electricity natural gas travel carbon emissions online"
+    ]
+  },
+  {
+    "name": "Academic Research Citation Impact (h-Index & i10-Index) Calculator",
+    "description": "Calculate scholarly research publication impact metrics: Hirsch index (h-index = h papers with at least h citations each), i10-index (papers with at least 10 citations), total citation sum, and average citations per paper for academic tenure portfolios.",
+    "path": "/tools/h-index-i10-index-academic-research-citation-impact-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "h index calculator",
+      "hirsch index citation impact formula online",
+      "i10 index google scholar calculator",
+      "academic researcher citation metrics calculator",
+      "scientific author h index ranking online"
+    ]
+  },
+  {
+    "name": "Solar Irradiance (GHI = DHI + DNI·cos θ_z) & PV Array Tilt Angle Calculator",
+    "description": "Calculate solar resource Global Horizontal Irradiance (GHI = DHI + DNI · cos θ_z) in W/m², plane of array irradiance (POA), and optimal solar panel winter/summer tilt angles for renewable energy engineering.",
+    "path": "/tools/solar-irradiance-dni-dhi-ghi-photovoltaic-tilt-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar irradiance calculator",
+      "ghi dni dhi formula solar radiation online",
+      "plane of array poa irradiance pv tilt calculator",
+      "solar zenith angle global horizontal irradiance calculator",
+      "photovoltaic solar power design online"
+    ]
+  },
+  {
+    "name": "Wind Power Density (WPD = ½·ρ·v³) & Wind Turbine Energy Calculator",
+    "description": "Calculate atmospheric wind power density (WPD = ½ · ρ · v³) in W/m², Betz limit harvestable aerodynamic power in kW, and classify NREL Wind Power Classes (Class 1 to Class 7) for wind energy feasibility.",
+    "path": "/tools/wind-power-density-weibull-distribution-wind-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wind power density calculator",
+      "wpd formula half rho v cubed online",
+      "wind turbine power class 1 to 7 nrel calculator",
+      "betz limit wind energy density calculator w per m2",
+      "wind resource assessment power density online"
+    ]
+  },
+  {
+    "name": "USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator",
+    "description": "Calculate soil Plasticity Index (PI = LL - PL), determine A-Line boundary equation (PI = 0.73·(LL - 20)), and classify fine-grained cohesive soils (CL, CH, ML, MH) on the Casagrande plasticity chart under ASTM D2487.",
+    "path": "/tools/soil-uscs-soil-classification-liquid-plastic-limit-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "uscs soil classification calculator",
+      "plasticity index formula pi equals ll minus pl online",
+      "casagrande plasticity chart a line calculator",
+      "liquid limit plastic limit soil classification astm d2487",
+      "geotechnical engineering soil mechanics calculator online"
+    ]
+  },
+  {
+    "name": "Standard Penetration Test (SPT N₆₀ Energy & Overburden Correction) Calculator",
+    "description": "Calculate geotechnical Standard Penetration Test corrected blow count (N₆₀ = N_field · (ER/60) · C_B · C_S · C_R) and overburden normalized count ((N₁)₆₀ = N₆₀ · C_N) for soil bearing capacity and liquefaction analysis.",
+    "path": "/tools/geotechnical-standard-penetration-test-spt-n-value-correction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spt n60 calculator",
+      "standard penetration test n value correction formula online",
+      "overburden correction factor cn spt calculator",
+      "hammer energy ratio er 60 spt n value calculator",
+      "geotechnical foundation bearing capacity spt online"
+    ]
+  },
+  {
+    "name": "Black-Scholes Option Greeks (Delta, Gamma, Theta, Vega, Rho) Calculator",
+    "description": "Calculate European financial options sensitivity Greeks: Delta (Δ = ∂V/∂S), Gamma (Γ = ∂²V/∂S²), Theta (Θ = ∂V/∂t time decay), and Vega (ν = ∂V/∂σ volatility exposure) for derivative risk management.",
+    "path": "/tools/black-scholes-merton-call-put-option-greeks-delta-gamma-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "option greeks calculator",
+      "black scholes delta gamma theta vega calculator online",
+      "call put option greeks calculator quantitative finance",
+      "time decay theta option pricing greeks calculator",
+      "implied volatility vega delta hedging online"
+    ]
+  },
+  {
+    "name": "Macaulay Duration & Modified Duration (Bond Price Sensitivity ΔP/P ≈ -D_mod·Δy) Calculator",
+    "description": "Calculate fixed income bond Macaulay Duration in years, Modified Duration (D_mod = D_mac / (1 + y)), and approximate percentage bond price changes (ΔP / P ≈ -D_mod · Δy) resulting from interest rate shifts.",
+    "path": "/tools/macaulay-duration-modified-duration-bond-convexity-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "macaulay duration calculator",
+      "modified duration formula bond price sensitivity online",
+      "bond interest rate risk duration calculator",
+      "bond convexity price change duration calculator",
+      "fixed income portfolio duration online"
+    ]
+  },
+  {
+    "name": "Bond Pricing & Yield to Maturity (YTM = [(C + (M-P)/n) / ((M+P)/2)]) Calculator",
+    "description": "Calculate fixed coupon bond present value price (P = Σ C/(1+y)^t + M/(1+y)^n) and approximate Yield to Maturity (YTM) for finance students and bond traders.",
+    "path": "/tools/yield-to-maturity-ytm-zero-coupon-bond-pricing-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "yield to maturity calculator",
+      "ytm bond formula coupon price par value online",
+      "bond pricing present value cash flows calculator",
+      "zero coupon bond ytm calculator",
+      "fixed income investment bond yield calculator online"
+    ]
+  },
+  {
+    "name": "Portfolio Performance Risk Metrics (Sharpe, Treynor & Jensen's Alpha) Calculator",
+    "description": "Calculate investment portfolio risk-adjusted performance metrics: Sharpe Ratio ((R_p - R_f) / σ_p), Treynor Ratio ((R_p - R_f) / β_p), and Jensen's Alpha (α = R_p - [R_f + β_p·(R_m - R_f)]) for finance courses.",
+    "path": "/tools/capital-asset-pricing-model-sharpe-treynor-jensen-alpha-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "sharpe ratio calculator",
+      "treynor ratio jensens alpha formula finance online",
+      "portfolio risk adjusted return calculator",
+      "capm expected return benchmark alpha calculator",
+      "investment fund performance metrics online"
+    ]
+  },
+  {
+    "name": "Microeconomics Welfare Surplus (Consumer Surplus, Producer Surplus & DWL) Calculator",
+    "description": "Calculate market equilibrium Consumer Surplus (CS = ½·(P_max - P*)·Q*), Producer Surplus (PS = ½·(P* - P_min)·Q*), and Deadweight Loss (DWL) from price ceilings, price floors, or taxation in microeconomics.",
+    "path": "/tools/consumer-surplus-producer-surplus-deadweight-loss-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "consumer surplus calculator",
+      "producer surplus deadweight loss dwl formula online",
+      "economic welfare total surplus market equilibrium calculator",
+      "price ceiling tax deadweight loss calculator",
+      "microeconomics supply demand surplus online"
+    ]
+  },
+  {
+    "name": "IS-LM Model Equilibrium Interest Rate (r*) & National Income (Y*) Calculator",
+    "description": "Calculate macroeconomic simultaneous goods market (IS curve: Y = C + I + G) and money market (LM curve: M/P = L(Y, r)) equilibrium national income Y* and interest rate r* under the Hicks-Hansen Keynesian model.",
+    "path": "/tools/is-lm-model-equilibrium-interest-rate-national-income-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "is lm model calculator",
+      "goods market money market equilibrium is lm formula online",
+      "hicks hansen is lm national income interest rate calculator",
+      "fiscal policy monetary policy is lm shift calculator",
+      "macroeconomics is lm equilibrium online"
+    ]
+  },
+  {
+    "name": "Solow-Swan Neoclassical Economic Growth Steady-State (k*) Calculator",
+    "description": "Calculate macroeconomic Solow-Swan steady-state capital per worker (k* = [s·A / (n + g + δ)]^(1/(1-α))), steady-state output per worker (y* = A·k*^α), and Golden Rule consumption level.",
+    "path": "/tools/solow-swan-growth-model-steady-state-capital-labor-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "solow swan growth calculator",
+      "steady state capital per worker formula solow model online",
+      "golden rule capital stock calculator economics",
+      "savings rate depreciation population growth solow calculator",
+      "macroeconomics neoclassical growth model online"
+    ]
+  },
+  {
+    "name": "Slutsky Equation Income & Substitution Effects (Δx = Δx^s + Δx^m) Calculator",
+    "description": "Decompose total consumer demand response to price changes into the pure Substitution Effect (Δx^s negative) and Income Effect (Δx^m) using the Slutsky Equation to identify Normal, Inferior, and Giffen goods.",
+    "path": "/tools/giffen-good-income-and-substitution-effects-slutsky-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "slutsky equation calculator",
+      "income and substitution effect decomposition formula online",
+      "giffen good inferior good normal good calculator",
+      "hicksian vs slutsky demand substitution effect calculator",
+      "microeconomics consumer choice theory online"
+    ]
+  },
+  {
+    "name": "Gibbs Free Energy (ΔG° = ΔH° - T·ΔS°) & Van 't Hoff Equilibrium K Calculator",
+    "description": "Calculate chemical reaction standard Gibbs Free Energy change (ΔG° = ΔH° - T · ΔS°) in kJ/mol, thermodynamic equilibrium constant (K = e^(-ΔG° / RT)), and crossover spontaneous temperature T_eq for physical chemistry.",
+    "path": "/tools/gibbs-free-energy-reaction-spontaneity-van-t-hoff-isochore-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gibbs free energy calculator",
+      "delta g equals delta h minus t delta s formula online",
+      "van t hoff equilibrium constant k calculator",
+      "reaction spontaneity enthalpy entropy temperature calculator",
+      "physical chemistry thermodynamics free energy online"
+    ]
+  },
+  {
+    "name": "Clausius-Clapeyron Vapor Pressure & Boiling Point (ln(P₂/P₁) = -ΔH_vap/R·(1/T₂ - 1/T₁)) Calculator",
+    "description": "Calculate liquid equilibrium vapor pressure (P₂ = P₁ · e^[-ΔH_vap/R · (1/T₂ - 1/T₁)]) in kPa/bar and boiling point shifts at reduced pressure (vacuum distillation) or high elevation for chemistry courses.",
+    "path": "/tools/clausius-clapeyron-vapor-pressure-boiling-point-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "clausius clapeyron calculator",
+      "vapor pressure formula ln p2 over p1 online",
+      "enthalpy of vaporization boiling point vacuum calculator",
+      "liquid vapor phase boundary clausius clapeyron calculator",
+      "physical chemistry vapor pressure temperature online"
+    ]
+  }
+]

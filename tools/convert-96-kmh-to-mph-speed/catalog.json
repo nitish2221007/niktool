@@ -1,0 +1,15 @@
+{
+  "name": "Convert 96 KM/H to MPH Speed",
+  "description": "Convert 96 kilometers per hour (km/h) to miles per hour (59.65 mph).",
+  "path": "/tools/convert-96-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 96 kmh to mph speed",
+    "Convert 96 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

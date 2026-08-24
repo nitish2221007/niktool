@@ -1,0 +1,15 @@
+{
+  "name": "Convert 103 KM to Miles",
+  "description": "Convert 103 kilometers to miles (64.00 miles). 100% free and local.",
+  "path": "/tools/convert-103-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 103 km to miles",
+    "Convert 103 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

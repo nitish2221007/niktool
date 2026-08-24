@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baker's Percentage & Bread Hydration Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate bread dough hydration percentage ((Water / Flour) · 100), sourdough starter baker's percentages, and total dough weight.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/baking-flour-hydration-percentage-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Baker's Percentage & Bread Hydration Calculator | NikTool">
+  <meta property="og:description" content="Calculate bread dough hydration percentage ((Water / Flour) · 100), sourdough starter baker's percentages, and total dough weight.">
+  <meta property="og:url" content="https://niktool.in/tools/baking-flour-hydration-percentage-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Baker's Percentage & Bread Hydration Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/baking-flour-hydration-percentage-calculator/",
+        "description": "Calculate bread dough hydration percentage ((Water / Flour) · 100), sourdough starter baker's percentages, and total dough weight.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is beginner vs artisan sourdough hydration?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Beginner dough is typically 65-70% hydration (easy to shape), while open-crumb artisan sourdough ranges between 75% and 85% hydration."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Baker's Percentage & Bread Hydration Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Baker's Percentage & Bread Hydration Calculator</h1>
+      <p>Calculate bread dough hydration percentage ((Water / Flour) · 100), sourdough starter baker's percentages, and total dough weight.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Flour, Water & Starter Weights (grams)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bh-flour">Total Flour (grams)</label>
+          <input class="tool-textarea" id="bh-flour" type="number" step="any" value="500" placeholder="500 g" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bh-water">Water (grams / ml)</label>
+          <input class="tool-textarea" id="bh-water" type="number" step="any" value="350" placeholder="350 g" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bh-salt">Salt (grams)</label>
+          <input class="tool-textarea" id="bh-salt" type="number" step="any" value="10" placeholder="10 g (2%)" />
+        </div>
+      </div>
+      <div id="bh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bh-res-hydr" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">70.0% Hydration</span>
+            <span class="stat-label">Dough Hydration</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bh-res-tot" style="font-weight:700;">860 g</span>
+            <span class="stat-label">Total Dough Weight</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bh-res-salt-pct">2.0% Salt</span>
+            <span class="stat-label">Baker's Salt %</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Baker's Percentage & Bread Hydration Calculator</h2>
+      <ol>
+        <li>Enter total flour weight in grams (flour is always the 100% baseline in Baker's percentages).</li>
+        <li>Enter water weight in grams.</li>
+        <li>Enter salt weight in grams (standard is 2%).</li>
+        <li>Inspect hydration percentage and crumb openness projection.</li>
+      </ol>
+
+      <h2>Understanding Baker's Percentages</h2>
+      <p>In professional baking, all ingredient weights are expressed as a percentage of total flour weight: 70% hydration means 70g of water per 100g of flour.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is beginner vs artisan sourdough hydration?</summary>
+        <p>Beginner dough is typically 65-70% hydration (easy to shape), while open-crumb artisan sourdough ranges between 75% and 85% hydration.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/baking-flour-hydration-percentage-calculator/tool.js"></script>
+</body>
+</html>

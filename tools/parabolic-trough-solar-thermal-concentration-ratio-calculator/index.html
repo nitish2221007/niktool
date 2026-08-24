@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Concentrated Solar Power (CSP) parabolic trough optical concentration ratio (C = (W - D) / (π·D)) and useful thermal heat gain rate (Q_u = A_aperture · DNI · η_optical - Heat_Loss) in kW.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/parabolic-trough-solar-thermal-concentration-ratio-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator | NikTool">
+  <meta property="og:description" content="Calculate Concentrated Solar Power (CSP) parabolic trough optical concentration ratio (C = (W - D) / (π·D)) and useful thermal heat gain rate (Q_u = A_aperture · DNI · η_optical - Heat_Loss) in kW.">
+  <meta property="og:url" content="https://niktool.in/tools/parabolic-trough-solar-thermal-concentration-ratio-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/parabolic-trough-solar-thermal-concentration-ratio-calculator/",
+        "description": "Calculate Concentrated Solar Power (CSP) parabolic trough optical concentration ratio (C = (W - D) / (π·D)) and useful thermal heat gain rate (Q_u = A_aperture · DNI · η_optical - Heat_Loss) in kW.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is DNI used instead of Global Horizontal Irradiance (GHI) in CSP?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Focusing optical mirrors can only reflect parallel direct sunlight beams; diffuse scattered sky radiation cannot be concentrated by parabolic optics."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator</h1>
+      <p>Calculate Concentrated Solar Power (CSP) parabolic trough optical concentration ratio (C = (W - D) / (π·D)) and useful thermal heat gain rate (Q_u = A_aperture · DNI · η_optical - Heat_Loss) in kW.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Aperture Width W (m), Receiver Tube Dia D (m), Collector Length L (m) & DNI (W/m²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="csp-w">Aperture Width W (m)</label>
+          <input class="tool-textarea" id="csp-w" type="number" step="any" value="5.77" placeholder="5.77 m (EuroTrough)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="csp-d">Receiver Dia D (m)</label>
+          <input class="tool-textarea" id="csp-d" type="number" step="any" value="0.070" placeholder="0.070 m (70 mm Absorber)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="csp-len">Length L (m)</label>
+          <input class="tool-textarea" id="csp-len" type="number" step="any" value="100.0" placeholder="100.0 m Module" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="csp-dni">DNI (W/m²)</label>
+          <input class="tool-textarea" id="csp-dni" type="number" step="any" value="850.0" placeholder="850.0 W/m² (Desert Sun)" />
+        </div>
+      </div>
+      <div id="csp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="csp-res-pwr" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">367.8 kW Thermal Gain</span>
+            <span class="stat-label">Useful Thermal Heat Output (Q_useful)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="csp-res-cr" style="font-weight:700;">Concentration Ratio C = 25.9× (Aperture: 577 m² | Optical η = 75%)</span>
+            <span class="stat-label">Geometric Concentration Ratio (C = (W - D) / πD)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Concentrated Solar Power (CSP) Parabolic Trough Thermal Power Calculator</h2>
+      <ol>
+        <li>Enter parabolic trough mirror aperture opening width W in meters (e.g. 5.77 m for standard EuroTrough / SEGS).</li>
+        <li>Enter vacuum receiver glass/metal absorber tube outer diameter D in meters (typically 0.070 m / 70 mm).</li>
+        <li>Enter trough collector module length in meters.</li>
+        <li>Enter Direct Normal Irradiance (DNI) in $W/m^2$ (typically 800 to 1,000 $W/m^2$ in sunny arid regions).</li>
+        <li>Inspect geometric optical concentration ratio C and useful thermal power output in kW.</li>
+      </ol>
+
+      <h2>Concentrated Solar Thermal Power (CSP) Engineering</h2>
+      <p>Parabolic trough mirrors focus direct sunlight ($DNI$) onto linear evacuated receiver tubes at 26× concentration, heating synthetic thermal oil or molten salt to 400°C–550°C to drive steam turbine generators with multi-hour thermal energy storage.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is DNI used instead of Global Horizontal Irradiance (GHI) in CSP?</summary>
+        <p>Focusing optical mirrors can only reflect parallel direct sunlight beams; diffuse scattered sky radiation cannot be concentrated by parabolic optics.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/parabolic-trough-solar-thermal-concentration-ratio-calculator/tool.js"></script>
+</body>
+</html>

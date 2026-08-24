@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate geotechnical Rock Quality Designation (RQD = (Σ L_pieces≥10cm / L_total) · 100%) and determine Deere rock mass quality classification for tunnel and mining engineering.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/rock-quality-designation-rqd-geomechanics-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator | NikTool">
+  <meta property="og:description" content="Calculate geotechnical Rock Quality Designation (RQD = (Σ L_pieces≥10cm / L_total) · 100%) and determine Deere rock mass quality classification for tunnel and mining engineering.">
+  <meta property="og:url" content="https://niktool.in/tools/rock-quality-designation-rqd-geomechanics-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/rock-quality-designation-rqd-geomechanics-calculator/",
+        "description": "Calculate geotechnical Rock Quality Designation (RQD = (Σ L_pieces≥10cm / L_total) · 100%) and determine Deere rock mass quality classification for tunnel and mining engineering.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why are pieces shorter than 10 cm discarded in RQD?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pieces under 10 cm represent closely spaced natural joints, shear zones, or mechanical drilling breakage that compromise rock mass structural integrity."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator</h1>
+      <p>Calculate geotechnical Rock Quality Designation (RQD = (Σ L_pieces≥10cm / L_total) · 100%) and determine Deere rock mass quality classification for tunnel and mining engineering.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Total Core Run Length L_total (cm) & Sound Core Pieces (≥ 10 cm Length)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rqd-tot">Total Core Run (cm)</label>
+          <input class="tool-textarea" id="rqd-tot" type="number" step="any" value="150.0" placeholder="150.0 cm (1.5 m Core Barrel)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rqd-pieces">Pieces ≥10cm (cm)</label>
+          <input class="tool-textarea" id="rqd-pieces" type="text" value="25, 18, 30, 12, 15, 22" placeholder="e.g. 25, 18, 30, 12, 15 (Pieces ≥ 10cm)" />
+        </div>
+      </div>
+      <div id="rqd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rqd-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">RQD = 81.3% (Good Quality)</span>
+            <span class="stat-label">Rock Quality Designation (RQD)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rqd-res-desc" style="color:var(--green-dark); font-weight:700;">Deere Classification: GOOD (122 cm Sound Core / 150 cm Run)</span>
+            <span class="stat-label">Geomechanical Rock Mass Classification</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator</h2>
+      <ol>
+        <li>Enter total borehole drill core run length in centimeters (e.g. 150 cm for 1.5m core barrel).</li>
+        <li>Enter measured lengths of all individual sound, hard core cylinder pieces $ge 10	ext{ cm}$ (comma separated).</li>
+        <li>Inspect Rock Quality Designation RQD percentage and Deere geomechanical rock engineering classification.</li>
+      </ol>
+
+      <h2>Don U. Deere 1964 Geotechnical Standard</h2>
+      <p>RQD quantifies the degree of jointing and fracture density in diamond drill cores, serving as a core input variable for Bieniawski's Rock Mass Rating (RMR) and the NGI Q-system for tunnel rock bolt and shotcrete support design.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why are pieces shorter than 10 cm discarded in RQD?</summary>
+        <p>Pieces under 10 cm represent closely spaced natural joints, shear zones, or mechanical drilling breakage that compromise rock mass structural integrity.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/rock-quality-designation-rqd-geomechanics-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Trip Fuel Cost Split (6 Passengers, 900 km)",
+  "description": "Calculate per-person fuel cost (₹965/person) for 6 passengers on a 900 km trip.",
+  "path": "/tools/trip-fuel-cost-split-passengers-6-distance-900km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "trip fuel cost split passengers 6 distance 900km",
+    "Trip Fuel Cost Split (6 Passengers, 900 km)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

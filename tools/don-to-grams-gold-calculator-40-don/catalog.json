@@ -1,0 +1,15 @@
+{
+  "name": "Don to Grams Gold Converter (40 돈 = 150.00g)",
+  "description": "Convert 40 Korean Don (돈) gold weight to grams (150.00 g) for gold rings and bars.",
+  "path": "/tools/don-to-grams-gold-calculator-40-don/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "don to grams gold calculator 40 don",
+    "Don to Grams Gold Converter (40 돈 = 150.00g)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

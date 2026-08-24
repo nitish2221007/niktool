@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Synodic vs Sidereal Orbital Period (1 / P_syn = |1/P₁ - 1/P₂|) Alignment Calculator",
+    "description": "Calculate planetary synodic alignment period (1 / P_syn = |1/P₁ - 1/P₂|) in days and years between any two planets or moons for celestial conjunctions, oppositions, and launch windows.",
+    "path": "/tools/synodic-vs-sidereal-orbital-period-planetary-alignment-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "synodic period calculator",
+      "sidereal vs synodic orbital period formula online",
+      "planetary opposition conjunction synodic cycle calculator",
+      "mars earth launch window synodic period calculator days",
+      "astronomy planetary alignment orbital mechanics online"
+    ]
+  },
+  {
+    "name": "Telescope Angular Resolving Power (Dawes R = 116 / D_mm & Rayleigh θ = 1.22·λ / D) Calculator",
+    "description": "Calculate astronomical optical telescope angular resolving power in arcseconds using the Rayleigh diffraction criterion (θ = 1.22 · λ / D) and Dawes empirical limit for splitting binary double stars.",
+    "path": "/tools/telescope-resolving-power-dawes-rayleigh-criterion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "telescope resolving power calculator",
+      "rayleigh criterion formula theta equals 1.22 lambda over d online",
+      "dawes limit double star resolution calculator arcseconds",
+      "telescope aperture resolving power calculator mm inches",
+      "astronomy optics telescope resolution online"
+    ]
+  },
+  {
+    "name": "Telescope Magnification (M = f_scope / f_eye), Focal Ratio & Light Gathering Power Calculator",
+    "description": "Calculate astronomical telescope visual magnification (M = f_scope / f_eye), optical Focal Ratio (f/N = f_scope / D), Light Gathering Power (LGP relative to 7mm human eye), and exit pupil diameter.",
+    "path": "/tools/telescope-magnification-focal-ratio-light-gathering-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "telescope magnification calculator",
+      "telescope focal ratio f number formula online",
+      "light gathering power lgp relative to human eye calculator",
+      "exit pupil eyepiece focal length telescope calculator",
+      "amateur astronomy optics telescope calculator online"
+    ]
+  },
+  {
+    "name": "Lagrangian Equilibrium Points (L₁ & L₂ Distance r ≈ R·(M₂ / 3M₁)^(⅓)) Calculator",
+    "description": "Calculate celestial Lagrangian equilibrium point distances (L₁ and L₂ distance r ≈ R · (M₂ / 3M₁)^(1/3)) from secondary body for space telescopes (JWST at Sun-Earth L₂, SOHO at L₁) in astrodynamics.",
+    "path": "/tools/lagrangian-points-l1-l2-gravitational-equilibrium-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lagrange points calculator",
+      "l1 l2 lagrangian distance formula r equals r times m2 over 3m1 online",
+      "jwst james webb l2 orbit distance calculator",
+      "soho solar observatory l1 lagrange point calculator",
+      "astrodynamics three body problem orbital mechanics online"
+    ]
+  },
+  {
+    "name": "Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator",
+    "description": "Calculate the astronomical Equation of Time (EoT in minutes) and solar declination across any day of the year to convert Sundial Apparent Solar Time to Standard Clock Mean Solar Time.",
+    "path": "/tools/apparent-solar-time-equation-of-time-analemma-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "equation of time calculator",
+      "eot solar time sundial clock difference formula online",
+      "solar analemma equation of time calculator minutes",
+      "sundial to clock time converter calculator",
+      "astronomy solar geometry analemma online"
+    ]
+  },
+  {
+    "name": "Stellar Spectral Classification (OBAFGKM Sequence) & (B - V) Color Index Calculator",
+    "description": "Classify stellar Morgan-Keenan spectral types (O, B, A, F, G, K, M) and Hertzsprung-Russell (H-R) diagram position from effective surface temperature T_eff in Kelvin or astronomical (B - V) color index.",
+    "path": "/tools/stellar-spectral-classification-hr-diagram-color-index-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stellar spectral classification calculator",
+      "obafgkm star spectral type calculator",
+      "b minus v color index star temperature calculator",
+      "hertzsprung russell hr diagram stellar class calculator",
+      "astronomy stellar classification online"
+    ]
+  },
+  {
+    "name": "Interstellar Reddening Color Excess (E(B - V)) & Dust Extinction (A_V = R_V·E(B - V)) Calculator",
+    "description": "Calculate interstellar dust extinction in magnitudes (A_V = R_V · E(B - V)) and true de-reddened stellar magnitude from observed vs intrinsic color excess E(B - V) in observational astrophysics.",
+    "path": "/tools/interstellar-reddening-color-excess-extinction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "interstellar extinction calculator",
+      "color excess formula e b minus v online",
+      "interstellar reddening dust extinction a_v calculator",
+      "total to selective extinction ratio r_v calculator",
+      "observational astronomy interstellar dust online"
+    ]
+  },
+  {
+    "name": "Relativistic Doppler Beaming Factor (δ = 1 / [γ·(1 - β·cos θ)]) Blazar Jet Calculator",
+    "description": "Calculate relativistic beaming Doppler factor (δ = 1 / [γ · (1 - β · cos θ)]), Lorentz factor γ, apparent superluminal velocity β_app, and flux boosting (S_obs = S₀ · δ^(3 + α)) for active galactic nuclei (AGN) relativistic jets.",
+    "path": "/tools/relativistic-beaming-doppler-boosting-blazar-jet-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "relativistic beaming calculator",
+      "doppler boosting factor delta formula blazar online",
+      "apparent superluminal motion velocity calculator",
+      "relativistic jet lorentz factor agn calculator",
+      "high energy astrophysics relativistic jets online"
+    ]
+  },
+  {
+    "name": "Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator",
+    "description": "Calculate population genetics allele frequencies (p and q), expected genotype frequencies (p² Homozygous Dominant, 2pq Heterozygous Carrier, q² Homozygous Recessive), and Chi-Square goodness-of-fit test for evolutionary equilibrium.",
+    "path": "/tools/hardy-weinberg-equilibrium-allele-genotype-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hardy weinberg calculator",
+      "allele frequency formula p squared plus 2pq plus q squared equals 1 online",
+      "heterozygous carrier frequency population genetics calculator",
+      "chi square test hardy weinberg equilibrium calculator",
+      "genetics population biology hardy weinberg online"
+    ]
+  },
+  {
+    "name": "DNA Primer Melting Temperature (Tm Nearest-Neighbor Thermodynamics & Salt-Adjusted) Calculator",
+    "description": "Calculate PCR oligonucleotide primer melting temperature (Tm in °C) using nearest-neighbor thermodynamics (SantaLucia ΔH/ΔS parameters), monovalent salt [Na⁺], divalent [Mg²⁺], and primer concentration adjustments.",
+    "path": "/tools/dna-melting-temperature-tm-primer-nearest-neighbor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dna melting temperature calculator",
+      "primer tm nearest neighbor santalucia formula online",
+      "pcr primer annealing temperature calculator celsius",
+      "salt adjusted dna oligo tm calculator mg na",
+      "molecular biology pcr genetics primer design online"
+    ]
+  },
+  {
+    "name": "PCR Amplification Efficiency & Exponential Copy Number (N = N₀·(1 + E)^C) Calculator",
+    "description": "Calculate PCR and quantitative real-time qPCR DNA amplicon yield (N = N₀ · (1 + E)^C), theoretical doubling efficiency E, cycle threshold Ct differences, and fold-amplification factor.",
+    "path": "/tools/pcr-amplification-efficiency-cycle-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pcr amplification calculator",
+      "qpcr copy number formula n equals n0 times 1 plus e to c online",
+      "pcr efficiency cycle threshold ct fold amplification calculator",
+      "exponential dna amplification pcr yield calculator",
+      "molecular biology qpcr pcr kinetics online"
+    ]
+  },
+  {
+    "name": "Peptide & Amino Acid Isoelectric Point (pI) & Net Electric Charge Calculator",
+    "description": "Calculate amino acid and oligopeptide Isoelectric Point (pI = ½·(pK₁ + pK₂)) and net electrostatic charge as a function of buffer pH using the Henderson-Hasselbalch ionization equilibrium equation.",
+    "path": "/tools/amino-acid-isoelectric-point-pi-protein-charge-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "isoelectric point calculator",
+      "amino acid pi formula online",
+      "peptide net charge at ph calculator",
+      "henderson hasselbalch protein charge calculator",
+      "biochemistry protein purification isoelectric focusing online"
+    ]
+  },
+  {
+    "name": "Hemocytometer Cell Counting Density (Cells / mL) & Trypan Blue Viability Calculator",
+    "description": "Calculate cell culture concentration (Cells / mL = (Total Count / Squares Counted) · 10⁴ · Dilution Factor), total cell yield, and Trypan Blue dye exclusion cell viability percentage.",
+    "path": "/tools/hemocytometer-cell-counting-density-viability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hemocytometer calculator",
+      "cell counting formula cells per ml online",
+      "trypan blue cell viability percentage calculator",
+      "neubauer chamber cell concentration calculator",
+      "cell biology tissue culture hemocytometer online"
+    ]
+  },
+  {
+    "name": "Bradford & BCA Protein Assay Standard Curve (A₅₉₅ / A₅₆₂ to Concentration) Calculator",
+    "description": "Calculate unknown protein concentration in μg/mL and mg/mL from spectrophotometer absorbance (A₅₉₅ Coomassie or A₅₆₂ BCA) using Bovine Serum Albumin (BSA) linear standard curve regression.",
+    "path": "/tools/bradford-bca-protein-assay-standard-curve-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bradford assay calculator",
+      "bca protein assay standard curve formula online",
+      "bsa protein concentration a595 a562 calculator ug ml",
+      "beer lambert protein spectrophotometer calculator",
+      "biochemistry protein quantification bradford online"
+    ]
+  },
+  {
+    "name": "DNA/RNA Concentration & Spectrophotometric Purity (A₂₆₀ / A₂₈₀ & A₂₆₀ / A₂₃₀) Calculator",
+    "description": "Calculate double-stranded DNA (dsDNA), ssDNA, and RNA concentration (μg/mL) from ultraviolet absorbance A₂₆₀, evaluate A₂₆₀/A₂₈₀ protein purity, and detect A₂₆₀/A₂₃₀ organic solvent contamination.",
+    "path": "/tools/dna-rna-spectrophotometry-a260-a280-purity-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nanodrop dna calculator",
+      "a260 a280 purity ratio formula online",
+      "dna concentration spectrophotometer ug ml calculator",
+      "rna purity a260 a230 ratio calculator",
+      "molecular biology nucleic acid quantification online"
+    ]
+  },
+  {
+    "name": "Bacterial Growth Doubling Time (t_d = ln 2 / μ) & Generation Calculator",
+    "description": "Calculate bacterial exponential growth generation doubling time (t_d = t · ln 2 / ln(N / N₀)) in minutes, specific growth rate constant μ (hr⁻¹), and total number of generations n from initial vs final colony forming units (CFU/mL) or OD₆₀₀.",
+    "path": "/tools/bacterial-growth-doubling-time-generation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bacterial doubling time calculator",
+      "specific growth rate mu formula online",
+      "bacterial generation time calculator minutes",
+      "microbiology exponential growth curve calculator od600",
+      "microbial kinetics biotechnology online"
+    ]
+  },
+  {
+    "name": "DNA Ligation Molar Ratio (Insert Mass = Vector Mass · (Insert kb / Vector kb) · Molar Ratio) Calculator",
+    "description": "Calculate required DNA insert mass in nanograms (ng) for T4 DNA ligase molecular cloning (Insert Mass = Vector Mass · (Insert Length / Vector Length) · Molar Ratio 3:1 or 5:1) for plasmid cloning.",
+    "path": "/tools/restriction-enzyme-dna-fragment-ligation-molar-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ligation calculator",
+      "dna insert to vector molar ratio formula 3 1 online",
+      "t4 dna ligase insert mass calculator ng",
+      "plasmid cloning ligation molar ratio calculator",
+      "molecular cloning recombinant dna biotechnology online"
+    ]
+  },
+  {
+    "name": "Recombinant Protein Molecular Weight (kDa) & Extinction Coefficient Calculator",
+    "description": "Calculate recombinant protein molecular weight in Kilodaltons (kDa ≈ Amino Acids · 110 Da), molar extinction coefficient ε₂₈₀ (M⁻¹·cm⁻¹), and spectrophotometric A₂₈₀ absorbance from amino acid sequence or residue length.",
+    "path": "/tools/recombinant-protein-expression-molecular-weight-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "protein molecular weight calculator",
+      "amino acid to kda formula 110 daltons online",
+      "protein extinction coefficient e280 tryptophan tyrosine calculator",
+      "protein size molecular weight kda calculator",
+      "biochemistry recombinant protein expression online"
+    ]
+  },
+  {
+    "name": "Enzyme Inhibition Kinetics (Competitive, Non-Competitive & Uncompetitive) Calculator",
+    "description": "Calculate enzyme catalytic kinetics with reversible inhibitors: apparent K_m^app, V_max^app, inhibition constant K_i, and Lineweaver-Burk double reciprocal plot parameters.",
+    "path": "/tools/michaelis-menten-enzyme-inhibition-competitive-noncompetitive-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "enzyme inhibition calculator",
+      "competitive noncompetitive uncompetitive inhibition formula online",
+      "michaelis menten apparent km vmax inhibitor calculator",
+      "lineweaver burk double reciprocal inhibition calculator",
+      "biochemistry enzyme kinetics pharmacology online"
+    ]
+  },
+  {
+    "name": "Gibbs Free Energy of ATP Hydrolysis (ΔG = ΔG°' + RT·ln([ADP]·[Pi] / [ATP])) Calculator",
+    "description": "Calculate physiological cellular ATP hydrolysis free energy (ΔG in kJ/mol and kcal/mol) and phosphorylation potential from intracellular ATP, ADP, and inorganic phosphate (Pi) concentrations.",
+    "path": "/tools/gibbs-free-energy-atp-hydrolysis-phosphorylation-potential-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atp hydrolysis gibbs free energy calculator",
+      "delta g atp adp pi phosphorylation potential calculator",
+      "cellular bioenergetics atp free energy online",
+      "biochemical thermodynamics delta g prime calculator",
+      "cell biology biochemistry bioenergetics online"
+    ]
+  },
+  {
+    "name": "Chlorophyll Fluorescence Maximum Quantum Yield (F_v / F_m = (F_m - F₀) / F_m) Calculator",
+    "description": "Calculate plant photosystem II (PSII) maximum photochemical quantum efficiency (F_v / F_m = (F_m - F₀) / F_m) from dark-adapted minimum (F₀) and maximum (F_m) chlorophyll fluorescence to detect abiotic plant stress (drought, salinity, heat).",
+    "path": "/tools/chlorophyll-fluorescence-fv-fm-photosystem-ii-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chlorophyll fluorescence calculator",
+      "fv fm formula photosystem ii efficiency online",
+      "plant stress photosynthetic yield calculator pam fluorometry",
+      "dark adapted f0 fm variable fluorescence calculator",
+      "plant physiology agronomy photosynthesis online"
+    ]
+  },
+  {
+    "name": "Transmembrane Helix Kyte-Doolittle Hydropathy Profile Calculator",
+    "description": "Calculate average amino acid hydropathy index using the standard Kyte-Doolittle scale to predict transmembrane alpha-helices (score greater than 1.6 across 19-residue sliding window) in membrane biology.",
+    "path": "/tools/transmembrane-helix-hydropathy-kyte-doolittle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kyte doolittle hydropathy calculator",
+      "transmembrane helix prediction formula online",
+      "protein hydrophobicity window average calculator",
+      "membrane protein alpha helix hydropathy calculator",
+      "structural biology bioinformatics membrane proteins online"
+    ]
+  },
+  {
+    "name": "CRISPR-Cas9 Guide RNA Off-Target Cutting Frequency (CFD Score) Calculator",
+    "description": "Calculate CRISPR-Cas9 sgRNA off-target cutting probability using the Cutting Frequency Determination (CFD score from 0 to 100%) based on position-dependent base mismatches and PAM variations (NGG vs NAG/NGA).",
+    "path": "/tools/crispr-cas9-off-target-cutting-efficiency-cfd-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "crispr off target calculator",
+      "cfd score formula doench cutting frequency determination online",
+      "cas9 grna mismatch off target probability calculator",
+      "crispr gene editing specificity calculator",
+      "molecular genetics bioinformatics crispr cas9 online"
+    ]
+  },
+  {
+    "name": "Western Blot Densitometry Normalization (Target / Housekeeping Control) Calculator",
+    "description": "Calculate normalized Western blot protein expression fold-changes from raw densitometric band optical densities (OD) normalized to housekeeping loading controls (GAPDH, β-Actin, α-Tubulin).",
+    "path": "/tools/western-blot-densitometry-normalization-housekeeping-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "western blot densitometry calculator",
+      "western blot normalization fold change formula online",
+      "gapdh beta actin loading control densitometry calculator",
+      "imagej western blot band intensity calculator",
+      "molecular biology protein expression western blot online"
+    ]
+  }
+]

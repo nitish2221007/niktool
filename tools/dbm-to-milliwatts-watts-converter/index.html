@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dBm to Milliwatts & Watts RF Power Converter - Free Online Tool | NikTool</title>
+  <meta name="description" content="Convert logarithmic RF signal power (dBm) to linear power in Milliwatts (mW), Watts (W), and dBW in real time.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/dbm-to-milliwatts-watts-converter/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="dBm to Milliwatts & Watts RF Power Converter | NikTool">
+  <meta property="og:description" content="Convert logarithmic RF signal power (dBm) to linear power in Milliwatts (mW), Watts (W), and dBW in real time.">
+  <meta property="og:url" content="https://niktool.in/tools/dbm-to-milliwatts-watts-converter/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "dBm to Milliwatts & Watts RF Power Converter",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/dbm-to-milliwatts-watts-converter/",
+        "description": "Convert logarithmic RF signal power (dBm) to linear power in Milliwatts (mW), Watts (W), and dBW in real time.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is 0 dBm in Watts?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "0 dBm = exactly 1.0 Milliwatt (0.001 Watts)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>dBm to Milliwatts & Watts RF Power Converter</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>dBm to Milliwatts & Watts RF Power Converter</h1>
+      <p>Convert logarithmic RF signal power (dBm) to linear power in Milliwatts (mW), Watts (W), and dBW in real time.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">RF Power Values (dBm, mW, Watts)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rf-dbm">Power in dBm (dBm)</label>
+          <input class="tool-textarea" id="rf-dbm" type="number" step="any" value="20" placeholder="20 dBm (Wi-Fi Max)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rf-mw">Milliwatts (mW)</label>
+          <input class="tool-textarea" id="rf-mw" type="number" step="any" placeholder="100 mW" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rf-w">Watts (W)</label>
+          <input class="tool-textarea" id="rf-w" type="number" step="any" placeholder="0.10 W" />
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use dBm to Milliwatts & Watts RF Power Converter</h2>
+      <ol>
+        <li>Enter power in dBm, Milliwatts, or Watts.</li>
+        <li>Inspect conversions across linear and logarithmic radio frequency power standards.</li>
+      </ol>
+
+      <h2>Why RF Engineers Prefer dBm</h2>
+      <p>dBm expresses power referenced to 1 milliwatt (0 dBm = 1 mW). A 3 dB increase doubles power (23 dBm = 200 mW), while a 10 dB increase represents a 10x power jump (30 dBm = 1 Watt).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is 0 dBm in Watts?</summary>
+        <p>0 dBm = exactly 1.0 Milliwatt (0.001 Watts).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/dbm-to-milliwatts-watts-converter/tool.js"></script>
+</body>
+</html>

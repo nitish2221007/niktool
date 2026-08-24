@@ -1,0 +1,15 @@
+{
+  "name": "Cross-Price Elasticity of Demand (XED) Calculator",
+  "description": "Calculate Cross-Price Elasticity of Demand (XED = (% ΔQ_A) / (% ΔP_B)) to determine whether two economic products are substitute goods (positive XED), complement goods (negative XED), or independent (XED near zero).",
+  "path": "/tools/cross-price-elasticity-of-demand-xed-calculator/",
+  "category": "Finance",
+  "icon": "chart",
+  "keywords": [
+    "cross price elasticity calculator",
+    "xed formula substitutes complements",
+    "cross price elasticity of demand online",
+    "substitute goods xed calculator",
+    "complementary goods cross elasticity online"
+  ],
+  "order": 489
+}

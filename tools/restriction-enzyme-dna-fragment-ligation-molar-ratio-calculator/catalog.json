@@ -1,0 +1,15 @@
+{
+  "name": "DNA Ligation Molar Ratio (Insert Mass = Vector Mass · (Insert kb / Vector kb) · Molar Ratio) Calculator",
+  "description": "Calculate required DNA insert mass in nanograms (ng) for T4 DNA ligase molecular cloning (Insert Mass = Vector Mass · (Insert Length / Vector Length) · Molar Ratio 3:1 or 5:1) for plasmid cloning.",
+  "path": "/tools/restriction-enzyme-dna-fragment-ligation-molar-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ligation calculator",
+    "dna insert to vector molar ratio formula 3 1 online",
+    "t4 dna ligase insert mass calculator ng",
+    "plasmid cloning ligation molar ratio calculator",
+    "molecular cloning recombinant dna biotechnology online"
+  ],
+  "order": 1193
+}

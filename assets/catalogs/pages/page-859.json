@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Korean Weekly Holiday Allowance Calculator (40 Hours/Week 주휴수당)",
+    "description": "Calculate statutory weekly paid day off allowance (주휴수당) for employees working 40 hours per week.",
+    "path": "/tools/korean-weekly-holiday-allowance-calculator-40-hours/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "korean weekly holiday allowance calculator 40 hours",
+      "Korean Weekly Holiday Allowance Calculator (40 Hours/Week 주휴수당)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 100 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.29 - Subsonic) for airspeed velocity of 100 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-100mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 100mps",
+      "Mach Number Airspeed Calculator (Velocity 100 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 110 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.32 - Subsonic) for airspeed velocity of 110 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-110mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 110mps",
+      "Mach Number Airspeed Calculator (Velocity 110 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 120 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.35 - Subsonic) for airspeed velocity of 120 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-120mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 120mps",
+      "Mach Number Airspeed Calculator (Velocity 120 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 130 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.38 - Subsonic) for airspeed velocity of 130 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-130mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 130mps",
+      "Mach Number Airspeed Calculator (Velocity 130 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 140 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.41 - Subsonic) for airspeed velocity of 140 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-140mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 140mps",
+      "Mach Number Airspeed Calculator (Velocity 140 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 150 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.44 - Subsonic) for airspeed velocity of 150 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-150mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 150mps",
+      "Mach Number Airspeed Calculator (Velocity 150 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 160 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.47 - Subsonic) for airspeed velocity of 160 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-160mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 160mps",
+      "Mach Number Airspeed Calculator (Velocity 160 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 170 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.50 - Subsonic) for airspeed velocity of 170 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-170mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 170mps",
+      "Mach Number Airspeed Calculator (Velocity 170 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 180 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.53 - Subsonic) for airspeed velocity of 180 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-180mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 180mps",
+      "Mach Number Airspeed Calculator (Velocity 180 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 190 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.56 - Subsonic) for airspeed velocity of 190 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-190mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 190mps",
+      "Mach Number Airspeed Calculator (Velocity 190 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 200 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.59 - Subsonic) for airspeed velocity of 200 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-200mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 200mps",
+      "Mach Number Airspeed Calculator (Velocity 200 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 210 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.62 - Subsonic) for airspeed velocity of 210 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-210mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 210mps",
+      "Mach Number Airspeed Calculator (Velocity 210 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 220 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.65 - Subsonic) for airspeed velocity of 220 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-220mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 220mps",
+      "Mach Number Airspeed Calculator (Velocity 220 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 230 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.68 - Subsonic) for airspeed velocity of 230 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-230mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 230mps",
+      "Mach Number Airspeed Calculator (Velocity 230 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 240 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.71 - Subsonic) for airspeed velocity of 240 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-240mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 240mps",
+      "Mach Number Airspeed Calculator (Velocity 240 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 250 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.73 - Subsonic) for airspeed velocity of 250 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-250mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 250mps",
+      "Mach Number Airspeed Calculator (Velocity 250 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 260 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.76 - Subsonic) for airspeed velocity of 260 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-260mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 260mps",
+      "Mach Number Airspeed Calculator (Velocity 260 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 270 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.79 - Subsonic) for airspeed velocity of 270 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-270mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 270mps",
+      "Mach Number Airspeed Calculator (Velocity 270 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 280 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.82 - Transonic) for airspeed velocity of 280 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-280mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 280mps",
+      "Mach Number Airspeed Calculator (Velocity 280 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 290 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.85 - Transonic) for airspeed velocity of 290 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-290mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 290mps",
+      "Mach Number Airspeed Calculator (Velocity 290 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 300 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.88 - Transonic) for airspeed velocity of 300 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-300mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 300mps",
+      "Mach Number Airspeed Calculator (Velocity 300 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 310 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.91 - Transonic) for airspeed velocity of 310 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-310mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 310mps",
+      "Mach Number Airspeed Calculator (Velocity 310 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Mach Number Airspeed Calculator (Velocity 320 m/s)",
+    "description": "Calculate flight Mach number (Mach 0.94 - Transonic) for airspeed velocity of 320 m/s.",
+    "path": "/tools/mach-number-airspeed-calculator-speed-320mps/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "mach number airspeed calculator speed 320mps",
+      "Mach Number Airspeed Calculator (Velocity 320 m/s)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

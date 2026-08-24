@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 34 x Height 30)",
+  "description": "Calculate volume of a cylinder with radius 34 and height 30 (V = πr²h = 108950.43).",
+  "path": "/tools/volume-of-cylinder-radius-34-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 34 height 30 units",
+    "Volume of Cylinder (Radius 34 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

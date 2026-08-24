@@ -1,0 +1,15 @@
+{
+  "name": "Calorie Deficit Calculator (540 kcal/day)",
+  "description": "Calculate estimated weekly weight loss (0.49 kg/week) for a 540 kcal daily deficit.",
+  "path": "/tools/calorie-deficit-calculator-540-kcal-daily/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "calorie deficit calculator 540 kcal daily",
+    "Calorie Deficit Calculator (540 kcal/day)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

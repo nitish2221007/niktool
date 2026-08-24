@@ -1,0 +1,15 @@
+{
+  "name": "AC Power Triangle & Power Factor (P = S·cos φ, Q = S·sin φ, S = V·I) Calculator",
+  "description": "Calculate AC electrical power triangle components: Real Active Power (P in kW = S · cos φ), Reactive Magnetizing Power (Q in kVAR = S · sin φ), Apparent Power (S in kVA = V · I), and Power Factor (PF = cos φ).",
+  "path": "/tools/power-factor-apparent-real-reactive-power-triangle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "power factor calculator",
+    "power triangle formula real reactive apparent power online",
+    "kw kva kvar power factor correction calculator",
+    "cos phi true power apparent power calculator",
+    "electrical engineering industrial power factor online"
+  ],
+  "order": 1047
+}

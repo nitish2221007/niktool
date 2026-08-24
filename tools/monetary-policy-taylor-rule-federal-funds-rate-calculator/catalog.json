@@ -1,0 +1,15 @@
+{
+  "name": "Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator",
+  "description": "Calculate Central Bank target policy interest rate (i = r* + π + 0.5·(π - π*) + 0.5·(y - y*)) in % using John Taylor's 1993 benchmark monetary policy rule from inflation and GDP output gap for economics students.",
+  "path": "/tools/monetary-policy-taylor-rule-federal-funds-rate-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "taylor rule calculator",
+    "central bank target interest rate formula taylor rule online",
+    "federal funds rate taylor rule calculator",
+    "inflation gap gdp output gap monetary policy calculator",
+    "macroeconomics interest rate taylor rule online"
+  ],
+  "order": 985
+}

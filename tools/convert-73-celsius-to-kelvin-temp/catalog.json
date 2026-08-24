@@ -1,0 +1,15 @@
+{
+  "name": "Convert 73°C Celsius to Kelvin Temp",
+  "description": "Convert 73 degrees Celsius (°C) to Kelvin (346.15 K) instantly.",
+  "path": "/tools/convert-73-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 73 celsius to kelvin temp",
+    "Convert 73°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

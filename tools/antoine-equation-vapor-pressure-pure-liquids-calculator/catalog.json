@@ -1,0 +1,15 @@
+{
+  "name": "Antoine Equation Vapor Pressure (log₁₀ P = A - B / (T + C)) Calculator",
+  "description": "Calculate pure liquid equilibrium saturation vapor pressure P^sat (in mmHg, bar, and kPa) and boiling point temperature as a function of temperature using NIST Antoine empirical coefficients (A, B, C).",
+  "path": "/tools/antoine-equation-vapor-pressure-pure-liquids-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "antoine equation calculator",
+    "vapor pressure formula log10 p equals a minus b over t plus c online",
+    "boiling point vapor pressure nist antoine calculator",
+    "saturation pressure chemical engineering thermodynamics calculator",
+    "physical chemistry chemical engineering vapor pressure online"
+  ],
+  "order": 1250
+}

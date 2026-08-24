@@ -1,0 +1,15 @@
+{
+  "name": "Convert 42 Nautical Miles to KM",
+  "description": "Convert 42 nautical miles (NM) to kilometers (77.78 km). 100% free and local.",
+  "path": "/tools/convert-42-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 42 nautical miles to km",
+    "Convert 42 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

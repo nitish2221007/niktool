@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate total stellar energy radiation luminosity (L = 4 · π · R² · σ · T⁴) in Solar Luminosities (L_☉) and stellar radius from photosphere effective temperature.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/stefan-boltzmann-stellar-luminosity-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator | NikTool">
+  <meta property="og:description" content="Calculate total stellar energy radiation luminosity (L = 4 · π · R² · σ · T⁴) in Solar Luminosities (L_☉) and stellar radius from photosphere effective temperature.">
+  <meta property="og:url" content="https://niktool.in/tools/stefan-boltzmann-stellar-luminosity-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/stefan-boltzmann-stellar-luminosity-calculator/",
+        "description": "Calculate total stellar energy radiation luminosity (L = 4 · π · R² · σ · T⁴) in Solar Luminosities (L_☉) and stellar radius from photosphere effective temperature.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is our Sun's luminosity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our Sun radiates exactly $1.0\\text{ }L_\\odot = 3.828 \\times 10^{26}\\text{ Watts}$ of electromagnetic radiation into space."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator</h1>
+      <p>Calculate total stellar energy radiation luminosity (L = 4 · π · R² · σ · T⁴) in Solar Luminosities (L_☉) and stellar radius from photosphere effective temperature.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Star Radius (Solar Radii R_☉) & Effective Photosphere Temperature (K)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="star-rad">Radius (Solar Radii R_☉)</label>
+          <input class="tool-textarea" id="star-rad" type="number" step="any" value="1.71" placeholder="1.71 R_☉ (Sirius A)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="star-temp">Surface Temp T (K)</label>
+          <input class="tool-textarea" id="star-temp" type="number" step="any" value="9940" placeholder="9,940 K (Sirius A)" />
+        </div>
+      </div>
+      <div id="star-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="star-res-lum" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">25.4 L_☉ (Solar Luminosities)</span>
+            <span class="stat-label">Total Radiated Power (Luminosity L)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="star-res-watts" style="font-weight:700;">9.72 × 10²⁷ Watts</span>
+            <span class="stat-label">Absolute Power Output (SI Joules/sec)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator</h2>
+      <ol>
+        <li>Enter stellar radius in multiples of our Sun's radius ($R_\odot = 696,340\text{ km}$).</li>
+        <li>Enter stellar photosphere effective blackbody surface temperature in Kelvin (Sun = 5,778 K).</li>
+        <li>Inspect total radiated bolometric luminosity in Solar Luminosities ($L_\odot$) and absolute watts.</li>
+      </ol>
+
+      <h2>T⁴ Temperature Fourth-Power Radiation Scaling</h2>
+      <p>Because blackbody power scales with temperature to the fourth power ($L propto T^4$), a hot blue-white star (e.g. 10,000 K) radiates nearly 9 times more energy per square meter than our Sun, dominating the Hertzsprung-Russell diagram.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is our Sun's luminosity?</summary>
+        <p>Our Sun radiates exactly $1.0\text{ }L_\odot = 3.828 \times 10^{26}\text{ Watts}$ of electromagnetic radiation into space.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/stefan-boltzmann-stellar-luminosity-calculator/tool.js"></script>
+</body>
+</html>

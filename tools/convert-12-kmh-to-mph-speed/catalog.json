@@ -1,0 +1,15 @@
+{
+  "name": "Convert 12 KM/H to MPH Speed",
+  "description": "Convert 12 kilometers per hour (km/h) to miles per hour (7.46 mph).",
+  "path": "/tools/convert-12-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 12 kmh to mph speed",
+    "Convert 12 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

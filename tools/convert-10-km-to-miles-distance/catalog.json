@@ -1,0 +1,15 @@
+{
+  "name": "Convert 10 KM to Miles Distance",
+  "description": "Convert 10 kilometers (10 km) to miles (6.21 miles) instantly. 100% free and local.",
+  "path": "/tools/convert-10-km-to-miles-distance/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 10 km to miles distance",
+    "Convert 10 KM to Miles Distance",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Linear Expansion Calculator",
+  "description": "Calculate elongation and length expansion (ΔL = α · L₀ · ΔT) in steel bridges, railroad tracks, and structural beams across temperature extremes.",
+  "path": "/tools/thermal-linear-expansion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thermal linear expansion calculator",
+    "metal expansion calculator delta l",
+    "railroad bridge expansion gap formula",
+    "coefficient of linear expansion alpha",
+    "thermal elongation online"
+  ],
+  "order": 198
+}

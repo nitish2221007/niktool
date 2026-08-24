@@ -1,0 +1,15 @@
+{
+  "name": "Acoustic Loudness (Phons to Sones) Calculator",
+  "description": "Convert subjective human loudness between Phons and linear Sones (Sones = 2^((Phon - 40) / 10)) according to ISO 226 psychoacoustic standards.",
+  "path": "/tools/acoustic-loudness-phons-sones-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "phons to sones calculator",
+    "psychoacoustic loudness calculator online",
+    "sones formula 2 to the phon minus 40 over 10",
+    "iso 226 equal loudness calculator",
+    "bathroom fan sones to phons converter"
+  ],
+  "order": 481
+}

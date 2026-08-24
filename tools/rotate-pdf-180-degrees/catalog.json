@@ -1,0 +1,16 @@
+{
+  "name": "Rotate PDF 180 Degrees",
+  "description": "Rotate all pages in a PDF document 180 degrees upside down. Free and local.",
+  "path": "/tools/rotate-pdf-180-degrees/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "rotate pdf 180 degrees",
+    "Rotate PDF 180 Degrees",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

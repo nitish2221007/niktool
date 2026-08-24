@@ -1,0 +1,15 @@
+{
+  "name": "Erythrocyte Osmotic Fragility (50% Hemolysis Saline Threshold) Calculator",
+  "description": "Calculate red blood cell osmotic fragility curve 50% hemolysis threshold (% NaCl concentration) to diagnose Hereditary Spherocytosis (increased fragility) vs Thalassemia / Sickle Cell (decreased fragility).",
+  "path": "/tools/osmotic-fragility-erythrocyte-hemolysis-curve-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "osmotic fragility calculator",
+    "erythrocyte 50 percent hemolysis nacl formula online",
+    "hereditary spherocytosis osmotic fragility calculator",
+    "red blood cell hemolysis saline curve calculator",
+    "hematology clinical pathology hemolysis online"
+  ],
+  "order": 1209
+}

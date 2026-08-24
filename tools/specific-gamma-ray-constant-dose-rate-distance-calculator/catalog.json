@@ -1,0 +1,15 @@
+{
+  "name": "Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator",
+  "description": "Calculate gamma point source Air Kerma Rate K_dot in μGy/hr and Equivalent Dose Rate H*(10) in μSv/hr (K_dot = Γ_delta · A / d²) from activity A in MBq and distance d in meters.",
+  "path": "/tools/specific-gamma-ray-constant-dose-rate-distance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "air kerma rate calculator",
+    "specific gamma ray constant air kerma formula online",
+    "dose equivalent rate distance attenuation calculator",
+    "radiological protection gamma point source calculator",
+    "medical physics radiation protection nuclear medicine online"
+  ],
+  "order": 1407
+}

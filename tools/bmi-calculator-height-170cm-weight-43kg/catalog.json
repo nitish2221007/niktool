@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 170cm, Weight 43kg)",
+  "description": "Calculate Body Mass Index (BMI 14.9) for height 170 cm and weight 43 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-170cm-weight-43kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 170cm weight 43kg",
+    "BMI Calculator (Height 170cm, Weight 43kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

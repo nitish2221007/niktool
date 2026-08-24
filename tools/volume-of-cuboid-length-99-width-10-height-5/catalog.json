@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cuboid (Length 99 x Width 10 x Height 5)",
+  "description": "Calculate volume of rectangular cuboid with length 99, width 10, height 5 (4950 cu units).",
+  "path": "/tools/volume-of-cuboid-length-99-width-10-height-5/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cuboid length 99 width 10 height 5",
+    "Volume of Cuboid (Length 99 x Width 10 x Height 5)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

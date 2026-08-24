@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 130V, Current 2A)",
+  "description": "Calculate Resistance (65.00 Ω) and Electric Power (260.0 W) for 130V voltage and 2A current.",
+  "path": "/tools/ohms-law-calculator-voltage-130v-current-2a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 130v current 2a",
+    "Ohm's Law Calculator (Voltage 130V, Current 2A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

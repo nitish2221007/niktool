@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 KG to Grams Val",
+  "description": "Convert 1 kilograms (kg) to grams (1000 g) instantly. 100% free and local.",
+  "path": "/tools/convert-1-kg-to-grams-val/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 1 kg to grams val",
+    "Convert 1 KG to Grams Val",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

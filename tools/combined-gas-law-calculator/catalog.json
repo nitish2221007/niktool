@@ -1,0 +1,15 @@
+{
+  "name": "Combined Gas Law Calculator",
+  "description": "Solve for pressure, volume, or temperature across changing gas states using the Combined Gas Law (P₁·V₁)/T₁ = (P₂·V₂)/T₂.",
+  "path": "/tools/combined-gas-law-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "combined gas law calculator",
+    "p1v1 t1 p2v2 t2 calculator",
+    "gas state transition calculator",
+    "chemistry combined gas formula",
+    "ideal gas state changer online"
+  ],
+  "order": 171
+}

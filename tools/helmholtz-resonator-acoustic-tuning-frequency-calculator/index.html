@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate acoustic Helmholtz resonator natural tuning frequency (f₀ = (c / 2π) · √(A / (V · L_eff))) in Hz from neck orifice area A, effective neck length L_eff, and cavity volume V.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/helmholtz-resonator-acoustic-tuning-frequency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator | NikTool">
+  <meta property="og:description" content="Calculate acoustic Helmholtz resonator natural tuning frequency (f₀ = (c / 2π) · √(A / (V · L_eff))) in Hz from neck orifice area A, effective neck length L_eff, and cavity volume V.">
+  <meta property="og:url" content="https://niktool.in/tools/helmholtz-resonator-acoustic-tuning-frequency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/helmholtz-resonator-acoustic-tuning-frequency-calculator/",
+        "description": "Calculate acoustic Helmholtz resonator natural tuning frequency (f₀ = (c / 2π) · √(A / (V · L_eff))) in Hz from neck orifice area A, effective neck length L_eff, and cavity volume V.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is acoustic end correction necessary?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Vibrating air near the open ends of the neck moves along with the neck plug, adding an acoustic mass equivalent to extending the physical neck length by $sim 1.6 \times \text{radius}$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator</h1>
+      <p>Calculate acoustic Helmholtz resonator natural tuning frequency (f₀ = (c / 2π) · √(A / (V · L_eff))) in Hz from neck orifice area A, effective neck length L_eff, and cavity volume V.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Cavity Volume V (Liters), Neck Radius r (mm) & Physical Neck Length L (mm)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hr-vol">Cavity Vol V (Liters)</label>
+          <input class="tool-textarea" id="hr-vol" type="number" step="any" value="2.50" placeholder="2.50 Liters (Bottle / Box)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hr-rad">Neck Radius r (mm)</label>
+          <input class="tool-textarea" id="hr-rad" type="number" step="any" value="15.0" placeholder="15.0 mm (30mm Neck)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hr-len">Neck Length L (mm)</label>
+          <input class="tool-textarea" id="hr-len" type="number" step="any" value="40.0" placeholder="40.0 mm" />
+        </div>
+      </div>
+      <div id="hr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hr-res-f0" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">f₀ = 117.8 Hz (Acoustic Notch)</span>
+            <span class="stat-label">Helmholtz Resonant Natural Frequency (f₀)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hr-res-corr" style="font-weight:700;">Effective Length L_eff = 64.0 mm (Flanged End Correction ΔL = 1.6 · r = 24.0 mm)</span>
+            <span class="stat-label">End-Corrected Acoustic Neck Length</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator</h2>
+      <ol>
+        <li>Enter internal enclosed resonator cavity volume in Liters ($1	ext{ L} = 0.001	ext{ m}^3$).</li>
+        <li>Enter circular neck opening radius r in millimeters.</li>
+        <li>Enter physical neck port length L in millimeters.</li>
+        <li>Inspect resonant acoustic natural frequency $f_0$ in Hz and flanged neck end-correction length.</li>
+      </ol>
+
+      <h2>Hermann von Helmholtz 1860 Lumped Acoustic Resonator</h2>
+      <p>The air plug in the neck acts as an acoustic mass vibrating against the pneumatic air spring in the cavity ($f_0 propto sqrt{A/VL}$); automotive engineers tune Helmholtz side-branch resonators on engine air intakes to eliminate boomy low-frequency cabin drone noise.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is acoustic end correction necessary?</summary>
+        <p>Vibrating air near the open ends of the neck moves along with the neck plug, adding an acoustic mass equivalent to extending the physical neck length by $sim 1.6 	imes 	ext{radius}$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/helmholtz-resonator-acoustic-tuning-frequency-calculator/tool.js"></script>
+</body>
+</html>

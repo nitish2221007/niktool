@@ -1,0 +1,15 @@
+{
+  "name": "Darcy's Law Groundwater Flow & Hydraulic Conductivity (Q = -K·A·dh/dL) Calculator",
+  "description": "Calculate groundwater volumetric seepage discharge flow rate Q in m³/day (Q = K · A · i), hydraulic gradient i (dh/dL), Darcy flux velocity v, and pore seepage interstitial velocity v_s through porous soil aquifers.",
+  "path": "/tools/darcy-law-groundwater-hydraulic-gradient-permeability-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "darcy law calculator",
+    "groundwater seepage flow rate formula q equals k a i online",
+    "hydraulic conductivity permeability aquifer calculator",
+    "hydraulic gradient seepage velocity calculator hydrogeology",
+    "geotechnical civil environmental engineering groundwater online"
+  ],
+  "order": 1285
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Lean Body Mass (LBM) Clinical Calculator",
+    "description": "Calculate fat-free Lean Body Mass (LBM) in kilograms and pounds using the validated clinical Boer, James, and Hume anthropometric formulas.",
+    "path": "/tools/lean-body-mass-boer-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "lean body mass calculator",
+      "lbm calculator boer formula",
+      "fat free mass calculator online",
+      "hume lean body mass",
+      "clinical lbm drug dosing formula"
+    ]
+  },
+  {
+    "name": "Ideal Body Weight (IBW) Multi-Formula Calculator",
+    "description": "Compare clinical Ideal Body Weight (IBW) across the Devine (1974), Robinson (1983), Miller (1983), and Hamwi (1964) medical standards.",
+    "path": "/tools/ideal-body-weight-devine-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "ideal body weight calculator",
+      "devine formula ibw calculator",
+      "robinson miller hamwi ibw comparison",
+      "clinical ideal weight calculator online",
+      "ventilator tidal volume ibw formula"
+    ]
+  },
+  {
+    "name": "Adjusted Body Weight (AdjBW) Clinical Dosing Calculator",
+    "description": "Calculate Adjusted Body Weight (AdjBW = IBW + 0.4 · (Actual Weight - IBW)) for aminoglycoside antibiotic and critical medication dosing in obese patients.",
+    "path": "/tools/adjusted-body-weight-clinical-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "adjusted body weight calculator",
+      "adjbw clinical dosing calculator",
+      "antibiotic dosing adjusted body weight",
+      "aminoglycoside adjbw formula",
+      "ibw actual weight adjustment online"
+    ]
+  },
+  {
+    "name": "Heart Rate Variability (HRV) RMSSD Recovery Calculator",
+    "description": "Calculate root mean square of successive RR interval differences (RMSSD = √(Σ(ΔRR²) / (N-1))) and autonomic parasympathetic recovery status.",
+    "path": "/tools/heart-rate-variability-rmssd-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "hrv rmssd calculator",
+      "heart rate variability calculator",
+      "rr interval ms rmssd formula",
+      "parasympathetic recovery hrv score",
+      "whoop oura hrv calculation online"
+    ]
+  },
+  {
+    "name": "Rockport 1-Mile Walk Test VO2 Max Calculator",
+    "description": "Calculate cardiovascular aerobic fitness capacity (VO2 Max in mL/kg/min) from a 1-mile brisk walk completion time and heart rate.",
+    "path": "/tools/vo2-max-rockport-walking-test-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "rockport walk test calculator",
+      "vo2 max walking test calculator",
+      "cardiovascular fitness vo2 max formula",
+      "rockport 1 mile fitness score",
+      "aerobic capacity walk test online"
+    ]
+  },
+  {
+    "name": "Tanaka Maximum Heart Rate Formula Calculator",
+    "description": "Calculate clinical maximum heart rate (HR_max = 208 - 0.7 · Age) using the validated Tanaka meta-analysis formula.",
+    "path": "/tools/max-heart-rate-tanaka-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "tanaka max heart rate calculator",
+      "208 minus 0.7 age formula",
+      "clinical maximum heart rate calculator",
+      "tanaka vs fox heart rate formula",
+      "accurate max hr calculator online"
+    ]
+  },
+  {
+    "name": "Revised Harris-Benedict BMR Calculator",
+    "description": "Calculate basal metabolic rate (BMR) calories using the Roza and Shizgal revised Harris-Benedict clinical equation.",
+    "path": "/tools/harris-benedict-bmr-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "harris benedict bmr calculator",
+      "revised harris benedict equation",
+      "basal metabolic rate calculator online",
+      "daily basal calories formula",
+      "roza shizgal bmr calculator"
+    ]
+  },
+  {
+    "name": "Waist-to-Hip Ratio (WHR) Health Risk Calculator",
+    "description": "Calculate Waist-to-Hip Ratio (WHR = Waist / Hip) and evaluate World Health Organization (WHO) abdominal visceral fat cardiovascular risk.",
+    "path": "/tools/waist-to-hip-ratio-whr-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "waist to hip ratio calculator",
+      "whr calculator online",
+      "abdominal obesity who ratio",
+      "visceral fat waist hip calculator",
+      "cardiovascular risk whr formula"
+    ]
+  },
+  {
+    "name": "Waist-to-Height Ratio (WHtR) Health Calculator",
+    "description": "Calculate Waist-to-Height Ratio (WHtR = Waist / Height) and verify the clinical \"Keep your waist to less than half your height\" longevity rule.",
+    "path": "/tools/waist-to-height-ratio-whtr-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "waist to height ratio calculator",
+      "whtr calculator online",
+      "keep waist half your height rule",
+      "whtr body fat health score",
+      "visceral fat waist height ratio"
+    ]
+  },
+  {
+    "name": "Blood Alcohol Content (BAC) Widmark Calculator",
+    "description": "Estimate Blood Alcohol Concentration (BAC %) and hours until sober using the Swedish physician Erik Widmark pharmacokinetic formula.",
+    "path": "/tools/blood-alcohol-content-widmark-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "bac calculator widmark formula",
+      "blood alcohol content calculator",
+      "hours to sober calculator",
+      "standard drinks to bac online",
+      "widmark alcohol elimination rate"
+    ]
+  },
+  {
+    "name": "Hagen-Poiseuille Viscous Pipe Flow Calculator",
+    "description": "Calculate laminar volumetric flow rate (Q = (π · ΔP · r⁴) / (8 · η · L)) and pressure drop for viscous fluid and blood flow in cylindrical pipes and vessels.",
+    "path": "/tools/poiseuille-laminar-pipe-flow-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "poiseuille law calculator",
+      "viscous laminar pipe flow formula",
+      "blood flow vessel radius poiseuille",
+      "pressure drop laminar pipe calculator",
+      "fluid dynamics poiseuille online"
+    ]
+  },
+  {
+    "name": "Young's Modulus & Tensile Stress-Strain Calculator",
+    "description": "Calculate Young's Modulus of Elasticity (E = σ / ε), tensile stress (σ = F/A), elongation strain (ε = ΔL/L₀), and tensile stiffness for engineering materials.",
+    "path": "/tools/youngs-modulus-tensile-strain-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "youngs modulus calculator",
+      "tensile stress strain calculator",
+      "modulus of elasticity formula",
+      "hookes law tensile elongation online",
+      "engineering stress strain gpa calculator"
+    ]
+  },
+  {
+    "name": "Thermal Stress in Restrained Beams Calculator",
+    "description": "Calculate internal thermal compressive/tensile stress (σ = E · α · ΔT) and induced axial force developed in rigidly constrained structural beams during temperature swings.",
+    "path": "/tools/thermal-stress-expansion-restraint-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thermal stress calculator",
+      "restrained beam thermal stress formula",
+      "sigma e alpha delta t calculator",
+      "bridge structural thermal stress online",
+      "axial thermal expansion force"
+    ]
+  },
+  {
+    "name": "Capillary Action & Surface Tension Rise Calculator",
+    "description": "Calculate capillary liquid rise height (h = (2 · γ · cos θ) / (ρ · g · r)) in narrow glass tubes and plant xylem vessels using Jurin's law.",
+    "path": "/tools/surface-tension-capillary-rise-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "capillary rise calculator",
+      "jurins law surface tension calculator",
+      "capillary action height formula",
+      "surface tension contact angle calculator",
+      "capillary tube radius water rise"
+    ]
+  },
+  {
+    "name": "Hydrostatic Force on Submerged Gate Calculator",
+    "description": "Calculate total hydrostatic water force (F = ρ · g · h_c · A) and Center of Pressure (y_cp) on submerged dam gates and flood barriers.",
+    "path": "/tools/hydrostatic-force-submerged-gate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydrostatic force calculator",
+      "submerged gate force calculator",
+      "center of pressure hydrostatic formula",
+      "dam gate water pressure online",
+      "fluid statics centroid gate force"
+    ]
+  },
+  {
+    "name": "Complex Number Polar & Cartesian Form Converter",
+    "description": "Convert complex numbers between Rectangular Cartesian form (a + bi) and Exponential Polar form (r · e^(iθ) / r ∠ θ) in real time.",
+    "path": "/tools/complex-number-polar-cartesian-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "complex number polar form converter",
+      "cartesian to polar complex calculator",
+      "euler form complex number calculator",
+      "magnitude phase angle radians degrees",
+      "complex number phasor calculator online"
+    ]
+  },
+  {
+    "name": "2x2 Matrix Eigenvalues & Eigenvectors Calculator",
+    "description": "Calculate real or complex eigenvalues (λ₁, λ₂), matrix trace, and determinant for 2×2 square transformation matrices.",
+    "path": "/tools/matrix-eigenvalue-2x2-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "eigenvalue calculator 2x2",
+      "matrix trace determinant eigenvalues",
+      "characteristic equation 2x2 matrix",
+      "linear algebra eigenvalue solver",
+      "eigenvalues online calculator"
+    ]
+  },
+  {
+    "name": "3D Vector Angle & Orthogonality Calculator",
+    "description": "Calculate the geometric angle in degrees and radians (cos θ = (u · v) / (|u| · |v|)) between two 3D vectors in Euclidean space.",
+    "path": "/tools/vector-angle-3d-space-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "angle between vectors 3d calculator",
+      "vector dot product angle calculator",
+      "orthogonality 3d vector calculator",
+      "cos theta vector angle online",
+      "3d vector geometry calculator"
+    ]
+  },
+  {
+    "name": "Matrix Transpose (Aᵀ) Operations Calculator",
+    "description": "Calculate the mathematical transpose (Aᵀ) of 2×2, 3×3, and rectangular matrices by flipping rows into columns.",
+    "path": "/tools/matrix-transpose-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "matrix transpose calculator",
+      "transpose of a matrix online",
+      "matrix transpose a t solver",
+      "swap rows and columns matrix",
+      "linear algebra matrix transpose"
+    ]
+  },
+  {
+    "name": "Complex Number Arithmetic (Add, Sub, Mult, Div) Calculator",
+    "description": "Perform addition, subtraction, multiplication, and division on complex numbers (z₁ and z₂) with step-by-step rectangular and polar results.",
+    "path": "/tools/complex-number-arithmetic-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "complex number arithmetic calculator",
+      "multiply complex numbers online",
+      "divide complex numbers calculator",
+      "complex conjugate arithmetic",
+      "imaginary numbers calculator online"
+    ]
+  },
+  {
+    "name": "Spherical to Cartesian 3D Coordinates Converter",
+    "description": "Convert 3D coordinate points between Spherical coordinates (r, θ inclination, φ azimuth) and Cartesian rectangular coordinates (x, y, z).",
+    "path": "/tools/spherical-to-cartesian-3d-coordinates-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "spherical to cartesian converter 3d",
+      "spherical polar coordinates calculator",
+      "radius theta phi to xyz online",
+      "3d coordinate transformation calculator",
+      "spherical coordinates physics math"
+    ]
+  },
+  {
+    "name": "Cylindrical to Cartesian 3D Coordinates Converter",
+    "description": "Convert 3D coordinates between Cylindrical systems (ρ radius, φ azimuth, z height) and Cartesian rectangular systems (x, y, z).",
+    "path": "/tools/cylindrical-to-cartesian-3d-coordinates-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cylindrical to cartesian converter",
+      "cylindrical coordinates 3d calculator",
+      "rho phi z to xyz online",
+      "polar 3d coordinate transformation",
+      "cylindrical coordinate geometry"
+    ]
+  },
+  {
+    "name": "3D Euclidean Distance & Midpoint Calculator",
+    "description": "Calculate straight-line 3D Euclidean distance (d = √((x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²)) and midpoint coordinates between two 3D spatial points.",
+    "path": "/tools/distance-midpoint-3d-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "3d distance calculator",
+      "distance between two points 3d",
+      "3d midpoint calculator online",
+      "euclidean distance 3d coordinates",
+      "spatial distance xyz formula"
+    ]
+  },
+  {
+    "name": "Triangle Centroid (Geometric Center) Calculator",
+    "description": "Calculate the geometric centroid center of mass coordinates (C = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3)) for 2D and 3D triangles.",
+    "path": "/tools/triangle-centroid-geometric-center-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "triangle centroid calculator",
+      "center of gravity triangle calculator",
+      "centroid coordinates formula online",
+      "geometric center of triangle",
+      "triangle vertex centroid calculator"
+    ]
+  }
+]

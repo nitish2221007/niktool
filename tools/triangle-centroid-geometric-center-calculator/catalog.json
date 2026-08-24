@@ -1,0 +1,15 @@
+{
+  "name": "Triangle Centroid (Geometric Center) Calculator",
+  "description": "Calculate the geometric centroid center of mass coordinates (C = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3)) for 2D and 3D triangles.",
+  "path": "/tools/triangle-centroid-geometric-center-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "triangle centroid calculator",
+    "center of gravity triangle calculator",
+    "centroid coordinates formula online",
+    "geometric center of triangle",
+    "triangle vertex centroid calculator"
+  ],
+  "order": 282
+}

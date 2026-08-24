@@ -1,0 +1,338 @@
+[
+  {
+    "name": "LED Lumens to Watts Equivalent & Energy Savings Calculator",
+    "description": "Compare luminous brightness (Lumens) across LED, CFL, and traditional Incandescent light bulbs with electricity energy savings.",
+    "path": "/tools/led-lumens-to-watts-equivalent-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "lumens to watts calculator",
+      "led wattage equivalent calculator",
+      "incandescent to led lumens chart",
+      "light bulb energy savings calculator",
+      "cfl led wattage replacement online"
+    ]
+  },
+  {
+    "name": "Speaker Wire Gauge (AWG) & Power Loss Calculator",
+    "description": "Calculate speaker cable loop resistance (Ohms), damping factor loss, and audio decibel power attenuation across wire length and gauge (12 AWG to 18 AWG).",
+    "path": "/tools/speaker-wire-gauge-power-loss-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "speaker wire gauge calculator",
+      "awg speaker cable loss calculator",
+      "speaker wire damping factor formula",
+      "audio cable power loss decibels",
+      "speaker cable resistance online"
+    ]
+  },
+  {
+    "name": "Combustion Air-Fuel Ratio (AFR) & Lambda Calculator",
+    "description": "Calculate stoichiometric air-fuel ratio (AFR), excess air factor (Lambda λ), and combustion air mass required for gasoline, diesel, methane, and propane fuels.",
+    "path": "/tools/combustion-stoichiometry-air-fuel-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "air fuel ratio calculator",
+      "stoichiometric afr calculator",
+      "lambda air fuel ratio online",
+      "combustion air mass calculator",
+      "gasoline diesel afr formula"
+    ]
+  },
+  {
+    "name": "Solubility Product (Ksp) & Molar Solubility Calculator",
+    "description": "Calculate molar solubility (s in mol/L and g/L) and precipitation limits for sparingly soluble ionic salts (AB, AB₂, AB₃, A₂B₃) from Ksp values.",
+    "path": "/tools/solubility-product-ksp-molar-solubility-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ksp calculator",
+      "solubility product constant calculator",
+      "molar solubility from ksp online",
+      "precipitation reaction ksp formula",
+      "sparingly soluble salt solubility"
+    ]
+  },
+  {
+    "name": "Henry's Law Gas Solubility & Carbonation Calculator",
+    "description": "Calculate dissolved gas concentration in liquid (C = k_H · P) from gas partial pressure and Henry's law constants for beverage carbonation and scuba diving.",
+    "path": "/tools/henry-law-gas-solubility-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "henrys law calculator",
+      "gas solubility pressure calculator",
+      "carbonation co2 solubility calculator",
+      "henry constant kh formula",
+      "scuba nitrogen blood solubility online"
+    ]
+  },
+  {
+    "name": "Electric Dipole Moment (Debye) Calculator",
+    "description": "Calculate molecular electric dipole moment (μ = q · d) in Debye (D) and Coulomb-meters from partial charge separation and atomic bond distance.",
+    "path": "/tools/dipole-moment-debye-charge-separation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dipole moment calculator",
+      "molecular dipole moment debye",
+      "bond polarity calculator online",
+      "charge separation dipole moment formula",
+      "debye to coulomb meter converter"
+    ]
+  },
+  {
+    "name": "Molecular Orbital Bond Order & Stability Calculator",
+    "description": "Calculate chemical bond order (Bond Order = ½ · (Bonding Electrons - Antibonding Electrons)) and magnetic properties (Paramagnetic vs Diamagnetic) for diatomic molecules.",
+    "path": "/tools/bond-order-molecular-orbital-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bond order calculator",
+      "molecular orbital bond order formula",
+      "bonding minus antibonding electrons calculator",
+      "paramagnetic diamagnetic bond order",
+      "o2 n2 bond order online"
+    ]
+  },
+  {
+    "name": "Standard Error of the Mean (SEM) Calculator",
+    "description": "Calculate Standard Error of the Mean (SEM = s / √n) and precision margin from sample standard deviation and sample size.",
+    "path": "/tools/standard-error-of-the-mean-sem-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "standard error of the mean calculator",
+      "sem calculator statistics",
+      "standard error formula online",
+      "sample mean precision calculator",
+      "sem vs standard deviation calculator"
+    ]
+  },
+  {
+    "name": "Confidence Interval for the Mean (95% & 99%) Calculator",
+    "description": "Calculate statistical Confidence Intervals (CI = x̄ ± Z · (s / √n)) for population means across 90%, 95%, and 99% confidence levels.",
+    "path": "/tools/confidence-interval-for-the-mean-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "confidence interval calculator",
+      "confidence interval for the mean online",
+      "95 confidence interval formula",
+      "margin of error confidence interval",
+      "population mean confidence bounds"
+    ]
+  },
+  {
+    "name": "Mean Absolute Deviation (MAD) Calculator",
+    "description": "Calculate Mean Absolute Deviation (MAD = (1/n) · Σ|xᵢ - x̄|) and statistical dispersion for datasets with outliers.",
+    "path": "/tools/mean-absolute-deviation-mad-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mean absolute deviation calculator",
+      "mad statistics calculator online",
+      "mad dispersion metric calculator",
+      "average deviation from mean formula",
+      "mad vs standard deviation online"
+    ]
+  },
+  {
+    "name": "Root Mean Square Error (RMSE) & MAE Calculator",
+    "description": "Calculate Root Mean Square Error (RMSE = √(Σ(y_pred - y_act)² / n)) and Mean Absolute Error (MAE) for regression machine learning model evaluation.",
+    "path": "/tools/root-mean-square-error-rmse-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "rmse calculator",
+      "root mean square error online",
+      "mae vs rmse calculator",
+      "machine learning regression loss calculator",
+      "actual vs predicted error metric"
+    ]
+  },
+  {
+    "name": "F-Statistic & Variance Ratio Test Calculator",
+    "description": "Calculate Fisher-Snedecor F-statistic (F = s₁² / s₂²) and degrees of freedom to compare variance equality across two independent populations for ANOVA.",
+    "path": "/tools/f-statistic-anova-variance-ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "f statistic calculator",
+      "f test variance ratio calculator",
+      "anova f value calculator online",
+      "fisher snedecor f distribution",
+      "variance ratio hypothesis test"
+    ]
+  },
+  {
+    "name": "Z-Score to P-Value & Normal CDF Calculator",
+    "description": "Calculate two-tailed and one-tailed hypothesis testing P-values and cumulative probability Φ(Z) from standard normal Z-scores.",
+    "path": "/tools/z-score-to-p-value-normal-cdf-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "z score to p value calculator",
+      "normal cdf p value calculator",
+      "standard normal distribution table online",
+      "two tailed p value from z",
+      "z test significance calculator"
+    ]
+  },
+  {
+    "name": "Camera Lens Focal Length & Field of View (FOV) Calculator",
+    "description": "Calculate horizontal, vertical, and diagonal Field of View angles (FOV = 2 · arctan(Sensor / 2f)) from lens focal length (mm) and camera sensor formats (Full Frame, APS-C, Micro 4/3).",
+    "path": "/tools/focal-length-field-of-view-camera-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "camera field of view calculator",
+      "lens fov calculator",
+      "focal length to fov degrees",
+      "full frame aps c fov chart",
+      "photography angle of view calculator"
+    ]
+  },
+  {
+    "name": "Camera Depth of Field (DoF) & Hyperfocal Calculator",
+    "description": "Calculate total in-focus Depth of Field (DoF), near/far focus limits, and hyperfocal distance (H = f² / (N·c)) for landscape and portrait photography.",
+    "path": "/tools/camera-depth-of-field-hyperfocal-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "depth of field calculator",
+      "dof hyperfocal distance calculator",
+      "bokeh depth of field formula",
+      "camera near far focus limits",
+      "circle of confusion dof calculator online"
+    ]
+  },
+  {
+    "name": "Battery Charge Time & Charger Current Calculator",
+    "description": "Calculate battery charging time (Hours = (Capacity mAh / Charger mA) / Efficiency) for Li-ion, LiFePO4, NiMH, and Lead-Acid battery banks.",
+    "path": "/tools/battery-charge-time-efficiency-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "battery charge time calculator",
+      "lipo charge duration calculator",
+      "mah to charging hours calculator",
+      "battery charger current formula",
+      "lifepo4 battery charging time online"
+    ]
+  },
+  {
+    "name": "Off-Grid Solar Battery Bank Capacity Calculator",
+    "description": "Calculate required off-grid solar battery bank capacity in Amp-Hours (Ah) and Kilowatt-Hours (kWh) based on daily Watt-hour loads, days of autonomy, and Depth of Discharge (DoD).",
+    "path": "/tools/solar-battery-bank-sizing-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "solar battery bank calculator",
+      "off grid battery sizing calculator",
+      "solar battery ah capacity formula",
+      "days of autonomy solar battery",
+      "lifepo4 vs lead acid solar sizing"
+    ]
+  },
+  {
+    "name": "Solar Panel Array Daily Output & Yield Calculator",
+    "description": "Calculate expected daily and monthly solar photovoltaic kilowatt-hours (kWh = Array kW · Peak Sun Hours · System Efficiency) based on solar irradiance and thermal derating.",
+    "path": "/tools/solar-panel-pv-array-output-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "solar panel output calculator",
+      "pv array daily kwh calculator",
+      "peak sun hours solar yield",
+      "solar panel monthly production formula",
+      "rooftop solar power output online"
+    ]
+  },
+  {
+    "name": "AC Apparent Power (kVA) & Transformer Sizing Calculator",
+    "description": "Calculate AC apparent power (kVA = V · I / 1000 for single phase, kVA = √3 · V · I / 1000 for three-phase) and full-load line current for generator and transformer sizing.",
+    "path": "/tools/ac-apparent-power-kva-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "kva calculator",
+      "apparent power kva formula",
+      "3 phase kva to amps calculator",
+      "transformer sizing kva online",
+      "single phase three phase kva calculator"
+    ]
+  },
+  {
+    "name": "AC Reactive Power (kVAR) & Capacitor Sizing Calculator",
+    "description": "Calculate reactive power (kVAR = √(kVA² - kW²)) and determine power factor correction capacitor bank sizes (kVAR_cap = P · (tan θ₁ - tan θ₂)) to eliminate utility low power factor penalties.",
+    "path": "/tools/ac-reactive-power-kvar-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "kvar calculator",
+      "reactive power calculator online",
+      "power factor correction capacitor sizing",
+      "kvar capacitor bank formula",
+      "kva kw kvar power triangle calculator"
+    ]
+  },
+  {
+    "name": "Diesel Generator Fuel Consumption & Runtime Calculator",
+    "description": "Calculate hourly and daily fuel consumption rates (Gallons/Hour and Liters/Hour) for standby diesel generators across 25%, 50%, 75%, and 100% electrical load demands.",
+    "path": "/tools/diesel-generator-fuel-consumption-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "diesel generator fuel consumption calculator",
+      "generator fuel burn rate calculator",
+      "gallons per hour diesel generator",
+      "generator fuel tank runtime online",
+      "genset fuel consumption chart"
+    ]
+  },
+  {
+    "name": "UPS Battery Backup Runtime & Sizing Calculator",
+    "description": "Calculate Uninterruptible Power Supply (UPS) backup battery runtime in minutes from total server/PC load Watts, battery bank Voltage, Amp-Hour capacity, and inverter conversion efficiency.",
+    "path": "/tools/uninterruptible-power-supply-ups-runtime-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "ups battery runtime calculator",
+      "ups backup time calculator online",
+      "server ups runtime minutes formula",
+      "battery ah to ups runtime calculator",
+      "datacenter ups sizing online"
+    ]
+  },
+  {
+    "name": "Concrete Slab Volume & Bags (60lb / 80lb) Calculator",
+    "description": "Calculate concrete volume in Cubic Yards and Cubic Meters, and determine exact counts of 60 lb and 80 lb premix bags required for driveways, patios, and footings.",
+    "path": "/tools/concrete-slab-volume-bags-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "concrete slab calculator",
+      "concrete volume cubic yards calculator",
+      "how many bags of concrete do i need",
+      "80 lb bags concrete calculator",
+      "patio slab concrete yards formula"
+    ]
+  },
+  {
+    "name": "Thermal Insulation R-Value to U-Factor Converter",
+    "description": "Convert building thermal insulation values across Imperial R-Value (h·ft²·°F/BTU), Metric RSI (m²·K/W), and Overall Heat Transfer U-Factor (U = 1/R).",
+    "path": "/tools/r-value-u-factor-thermal-insulation-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "r value to u factor converter",
+      "u value to r value calculator",
+      "thermal resistance rsi calculator",
+      "building insulation heat loss formula",
+      "r value imperial to metric rsi online"
+    ]
+  }
+]

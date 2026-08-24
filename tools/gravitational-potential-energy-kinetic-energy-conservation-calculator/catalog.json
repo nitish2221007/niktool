@@ -1,0 +1,15 @@
+{
+  "name": "Conservation of Mechanical Energy (E_p = m·g·h ↔ E_k = ½·m·v²) Rollercoaster Calculator",
+  "description": "Calculate gravitational potential energy (E_p = m·g·h), kinetic energy (E_k = ½·m·v²), and frictionless free-fall velocity (v = √(2·g·h)) under conservation of mechanical energy for physics students.",
+  "path": "/tools/gravitational-potential-energy-kinetic-energy-conservation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "conservation of energy calculator",
+    "gravitational potential energy formula mgh online",
+    "kinetic energy formula half m v squared calculator",
+    "free fall velocity v equals sqrt 2gh calculator",
+    "rollercoaster conservation of energy physics online"
+  ],
+  "order": 955
+}

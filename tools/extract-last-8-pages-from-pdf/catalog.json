@@ -1,0 +1,16 @@
+{
+  "name": "Extract Last 8 Pages From PDF",
+  "description": "Extract only the last 8 pages of a PDF file into a clean new document. 100% free and private.",
+  "path": "/tools/extract-last-8-pages-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "extract last 8 pages from pdf",
+    "Extract Last 8 Pages From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

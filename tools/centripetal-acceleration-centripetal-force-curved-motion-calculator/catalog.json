@@ -1,0 +1,15 @@
+{
+  "name": "Circular Motion Centripetal Acceleration (a_c = v² / r) & Centripetal Force (F_c = m·v² / r) Calculator",
+  "description": "Calculate circular motion centripetal acceleration (a_c = v² / r = ω²·r) in m/s² and g-force, centripetal force (F_c = m·v² / r) in Newtons, and banking angle (tan θ = v² / (g·r)) for highway curves and roller coasters.",
+  "path": "/tools/centripetal-acceleration-centripetal-force-curved-motion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "centripetal acceleration calculator",
+    "centripetal force formula f equals m v squared over r online",
+    "g force circular motion curve calculator",
+    "banked curve roadway angle centripetal calculator",
+    "classical mechanics circular motion physics online"
+  ],
+  "order": 1048
+}

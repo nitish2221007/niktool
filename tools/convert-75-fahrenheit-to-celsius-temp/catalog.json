@@ -1,0 +1,15 @@
+{
+  "name": "Convert 75°F Fahrenheit to Celsius Temp",
+  "description": "Convert 75 degrees Fahrenheit (°F) to Celsius (23.9°C) instantly.",
+  "path": "/tools/convert-75-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 75 fahrenheit to celsius temp",
+    "Convert 75°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

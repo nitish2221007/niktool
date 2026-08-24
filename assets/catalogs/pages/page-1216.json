@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Gaussian Laser Beam Waist, Divergence & Rayleigh Range (z_R) Calculator",
+    "description": "Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = (π · w₀²) / λ), far-field divergence half-angle (θ = λ / (π · w₀)), and spot size w(z).",
+    "path": "/tools/laser-beam-waist-divergence-rayleigh-range-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gaussian beam calculator",
+      "laser beam waist rayleigh range formula",
+      "laser divergence theta lambda over pi w0",
+      "tem00 laser spot size at distance z online",
+      "photonics gaussian beam propagation calculator"
+    ]
+  },
+  {
+    "name": "Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator",
+    "description": "Calculate photodetector spectral responsivity (R = (η · q · λ) / (h · c) = η · λ / 1239.8) in Amperes per Watt (A/W) from quantum efficiency percentage (η%) and wavelength.",
+    "path": "/tools/photodiode-responsivity-quantum-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "photodiode responsivity calculator",
+      "quantum efficiency to responsivity formula",
+      "r eta lambda over 1240 online",
+      "silicon photodetector amps per watt calculator",
+      "optoelectronics quantum efficiency calculator"
+    ]
+  },
+  {
+    "name": "Fizeau Interferometer Optical Surface Flatness Calculator",
+    "description": "Calculate optical mirror and window peak-to-valley flatness deviation (Δh = N · (λ / 2)) in nanometers and fractions of a wave (λ/10, λ/20) from interferometric fringe count.",
+    "path": "/tools/fizeau-interferometer-fringe-flatness-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fizeau interferometer calculator",
+      "optical flatness fringe formula",
+      "peak to valley flatness lambda over 20 calculator",
+      "interferometric fringe deviation nanometers online",
+      "optical flat surface testing calculator"
+    ]
+  },
+  {
+    "name": "Mach-Zehnder Interferometer Optical Phase Shift Calculator",
+    "description": "Calculate optical phase delay (ΔΦ = (2 · π / λ) · Δn · L) in radians and degrees for electro-optic phase modulators and refractive index gas sensors.",
+    "path": "/tools/mach-zehnder-interferometer-phase-shift-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mach zehnder interferometer calculator",
+      "optical phase shift formula 2 pi delta n l over lambda",
+      "electro optic phase modulator calculator online",
+      "optical gas sensor phase shift calculator",
+      "quantum optics mach zehnder online"
+    ]
+  },
+  {
+    "name": "Acousto-Optic Modulator (AOM) Bragg Angle & Deflection Calculator",
+    "description": "Calculate Acousto-Optic Modulator Bragg diffraction angle (θ_B = (λ · f) / (2 · v)) in milliradians and acoustic wavelength in TeO₂ / fused silica crystals.",
+    "path": "/tools/acousto-optic-modulator-bragg-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "aom bragg angle calculator",
+      "acousto optic modulator formula online",
+      "aom laser deflection angle calculator",
+      "bragg cell frequency sound velocity online",
+      "photonics aom beam steering calculator"
+    ]
+  },
+  {
+    "name": "Electro-Optic Pockels Cell Half-Wave Voltage (V_π) Calculator",
+    "description": "Calculate Pockels cell half-wave switching voltage (V_π = (λ · d) / (2 · n₀³ · r₆₃ · L)) for high-speed laser Q-switching and pulse picking crystals (KD*P, BBO, RTP).",
+    "path": "/tools/electro-optic-pockels-cell-half-wave-voltage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pockels cell half wave voltage calculator",
+      "v pi formula electro optic effect",
+      "kdp bbo pockels cell voltage calculator",
+      "laser q switch pockels voltage online",
+      "transverse pockels cell half wave calculator"
+    ]
+  },
+  {
+    "name": "Fabry-Pérot Optical Cavity Finesse & Free Spectral Range (FSR) Calculator",
+    "description": "Calculate Fabry-Pérot optical resonator Free Spectral Range (FSR = c / (2 · n · L)), coefficient of finesse (ℱ = π · √R / (1 - R)), and resonance linewidth (Δν = FSR / ℱ).",
+    "path": "/tools/fabry-perot-interferometer-finesse-fsr-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fabry perot calculator",
+      "optical cavity finesse formula online",
+      "free spectral range fsr c over 2l calculator",
+      "fabry perot resonance linewidth online",
+      "laser optical resonator cavity calculator"
+    ]
+  },
+  {
+    "name": "Laser Spatial Filter Pinhole Diameter Sizing Calculator",
+    "description": "Calculate optimum spatial filter microscope objective pinhole diameter (D_pinhole ≈ 1.5 · (1.22 · λ · f / D_beam)) in micrometers to clean high-frequency laser beam noise.",
+    "path": "/tools/spatial-filter-pinhole-diameter-laser-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spatial filter pinhole calculator",
+      "laser spatial filter formula online",
+      "pinhole diameter airy disk calculator",
+      "microscope objective laser cleaning pinhole",
+      "photonics spatial filter pinhole sizing online"
+    ]
+  },
+  {
+    "name": "Nuclear Binding Energy Per Nucleon (BE/A) Calculator",
+    "description": "Calculate nuclear mass defect (Δm = Z · m_p + N · m_n - M_nucleus) and binding energy per nucleon (BE / A) in MeV using Einstein mass-energy equivalence (1 u = 931.494 MeV).",
+    "path": "/tools/nuclear-binding-energy-per-nucleon-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "binding energy per nucleon calculator",
+      "nuclear mass defect formula",
+      "mev per nucleon calculator online",
+      "weizsacker semi empirical mass formula",
+      "nuclear stability binding energy calculator"
+    ]
+  },
+  {
+    "name": "Nuclear Reaction Q-Value Energy Release Calculator",
+    "description": "Calculate nuclear reaction energy release Q-value (Q = (Σ m_reactants - Σ m_products) · c²) in MeV and Joules to determine exoergic (positive Q) vs endoergic reactions.",
+    "path": "/tools/nuclear-reaction-q-value-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nuclear q value calculator",
+      "nuclear reaction energy release formula",
+      "exoergic endoergic nuclear q value online",
+      "mass defect q value mev calculator",
+      "deuterium tritium fusion q value online"
+    ]
+  },
+  {
+    "name": "Gamma Ray Half-Value Layer (HVL) Radiation Shielding Calculator",
+    "description": "Calculate gamma ray and X-ray radiation shielding attenuation (I = I₀ · e^(-μ · x) = I₀ · (1/2)^(x / HVL)) from linear attenuation coefficient μ and shield thickness.",
+    "path": "/tools/gamma-ray-half-value-layer-hvl-shielding-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "half value layer calculator",
+      "radiation shielding hvl formula",
+      "gamma ray lead shielding attenuation calculator",
+      "linear attenuation coefficient mu online",
+      "radiation protection tenth value layer tvl calculator"
+    ]
+  },
+  {
+    "name": "Alpha Decay Half-Life (Geiger-Nuttall Law) Calculator",
+    "description": "Calculate radioactive alpha decay half-life (log₁₀(t₁/₂) = A + B · Z / √E_α) and Gamow quantum tunneling probability through the nuclear Coulomb barrier.",
+    "path": "/tools/alpha-decay-geiger-nuttall-half-life-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "geiger nuttall law calculator",
+      "alpha decay half life formula",
+      "gamow quantum tunneling alpha decay calculator",
+      "coulomb barrier alpha particle energy online",
+      "nuclear physics alpha decay calculator"
+    ]
+  },
+  {
+    "name": "Neutron Moderation Lethargy & Collision Number Calculator",
+    "description": "Calculate average logarithmic neutron energy decrement per collision (ξ = 1 + ((A - 1)² / (2 · A)) · ln((A - 1) / (A + 1))) and total collisions required to thermalize fast fission neutrons.",
+    "path": "/tools/neutron-moderation-lethargy-decrement-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "neutron moderation calculator",
+      "lethargy xi formula nuclear reactor",
+      "collisions to thermalize neutron calculator",
+      "nuclear moderator graphite water heavy water online",
+      "neutron energy decrement calculator"
+    ]
+  },
+  {
+    "name": "Debye Length (λ_D) & Plasma Parameter Calculator",
+    "description": "Calculate electrostatic Debye screening length (λ_D = √(ε₀ · k_B · T_e / (n_e · q²))) in micrometers and number of particles in a Debye sphere (N_D) for fusion tokamaks and space plasmas.",
+    "path": "/tools/debye-length-screening-plasma-parameter-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "debye length calculator",
+      "plasma screening length formula",
+      "debye sphere nd calculator online",
+      "tokamak plasma electron temperature density calculator",
+      "astrophysics debye shielding online"
+    ]
+  },
+  {
+    "name": "Lawson Criterion Fusion Triple Product (n · T · τ_E) Calculator",
+    "description": "Calculate nuclear fusion ignition triple product (n · T · τ_E) in keV·s/m³ to evaluate magnetic confinement breakeven (Q = 1) and steady-state ignition.",
+    "path": "/tools/lawson-criterion-fusion-triple-product-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lawson criterion calculator",
+      "fusion triple product formula n t tau",
+      "tokamak ignition breakeven calculator",
+      "iter energy confinement time calculator online",
+      "nuclear fusion lawson criterion online"
+    ]
+  },
+  {
+    "name": "Plasma Electron Frequency (ω_pe) & EM Wave Cutoff Calculator",
+    "description": "Calculate natural plasma oscillation frequency (ω_pe = √(n_e · q² / (ε₀ · m_e)) / 2π) in MHz/GHz and critical electron cutoff density for ionospheric radio reflection and microwave plasma heating.",
+    "path": "/tools/plasma-frequency-cutoff-density-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "plasma frequency calculator",
+      "electron plasma frequency formula omega pe",
+      "ionosphere radio reflection cutoff frequency online",
+      "plasma critical cutoff density calculator",
+      "microwave o mode x mode plasma cutoff online"
+    ]
+  },
+  {
+    "name": "Larmor Gyroradius (r_L) & Cyclotron Frequency Calculator",
+    "description": "Calculate charged particle magnetic gyroradius (r_L = (m · v_⊥) / (|q| · B)) in mm and cyclotron gyrofrequency (ω_c = |q| · B / m) in Tesla magnetic fields.",
+    "path": "/tools/larmor-gyroradius-cyclotron-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "larmor radius calculator",
+      "cyclotron gyrofrequency formula",
+      "magnetic gyroradius electron ion calculator",
+      "plasma particle helical orbit calculator online",
+      "tokamak magnetic confinement larmor radius"
+    ]
+  },
+  {
+    "name": "Plasma Magnetic Beta (β) Confinement Ratio Calculator",
+    "description": "Calculate plasma magnetic pressure confinement efficiency ratio (β = (2 · μ₀ · n · k_B · T) / B²) and Troyon beta stability limit in fusion tokamaks.",
+    "path": "/tools/plasma-magnetic-beta-confinement-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "plasma beta calculator",
+      "magnetic beta ratio formula beta 2 mu0 p over b2",
+      "tokamak troyon beta limit calculator",
+      "magnetic confinement efficiency online",
+      "plasma kinetic pressure vs magnetic pressure calculator"
+    ]
+  },
+  {
+    "name": "Synchrotron Radiation Power Loss & Energy Radiated Calculator",
+    "description": "Calculate relativistic synchrotron radiation power loss per electron turn (ΔE = (q² · γ⁴) / (3 · ε₀ · R) = 88.5 · E⁴ / R) in keV per revolution in circular particle storage rings.",
+    "path": "/tools/synchrotron-radiation-power-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "synchrotron radiation power loss calculator",
+      "delta e 88.5 e4 over r formula",
+      "electron storage ring synchrotron energy loss online",
+      "relativistic gamma fourth radiation calculator",
+      "particle accelerator synchrotron light calculator"
+    ]
+  },
+  {
+    "name": "Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator",
+    "description": "Calculate particle accelerator magnetic rigidity (B · ρ = p / q = √(E_k² + 2 · E_k · m₀c²) / (q · c)) in Tesla-meters (T·m) and required dipole magnet bending fields.",
+    "path": "/tools/magnetic-rigidity-beam-bending-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magnetic rigidity calculator",
+      "b rho formula particle accelerator",
+      "tesla meters beam rigidity calculator online",
+      "cyclotron dipole bending radius calculator",
+      "proton beam magnetic rigidity online"
+    ]
+  },
+  {
+    "name": "RF Resonant Cavity Shunt Impedance & Quality Factor (Q₀) Calculator",
+    "description": "Calculate RF accelerating cavity dissipated power loss (P = V_acc² / (2 · R_shunt)) and unloaded quality factor (Q₀ = ω · U / P_loss) for superconducting and copper accelerator cavities.",
+    "path": "/tools/rf-cavity-shunt-impedance-q-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rf cavity shunt impedance calculator",
+      "accelerator cavity q factor formula",
+      "superconducting rf cavity power loss calculator",
+      "vacc squared over 2 r shunt online",
+      "rf cavity transit time factor calculator"
+    ]
+  },
+  {
+    "name": "Betatron Oscillation & Transverse Beam Emittance (ε) Calculator",
+    "description": "Calculate particle accelerator transverse beam envelope size (σ_x = √(ε · β_x)), betatron oscillation wavelength (λ_β = 2 · π · β_x), and normalized emittance (ε_n = γ · β_rel · ε).",
+    "path": "/tools/betatron-oscillation-beam-emittance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "beam emittance calculator",
+      "betatron oscillation formula accelerator",
+      "sigma x sqrt epsilon beta calculator",
+      "normalized emittance gamma beta online",
+      "courant snyder twiss parameter calculator"
+    ]
+  },
+  {
+    "name": "Undulator Synchrotron X-Ray Radiation & K-Parameter Calculator",
+    "description": "Calculate fundamental X-ray undulator radiation wavelength (λ = (λ_u / (2 · γ²)) · (1 + K² / 2)) and undulator magnetic deflection strength parameter K.",
+    "path": "/tools/undulator-radiation-wavelength-k-parameter-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "undulator radiation wavelength calculator",
+      "undulator deflection parameter k formula",
+      "synchrotron undulator x ray energy calculator",
+      "free electron laser undulator wavelength online",
+      "photonics undulator harmonics calculator"
+    ]
+  },
+  {
+    "name": "PN Junction Built-in Potential (V_bi) & Depletion Width Calculator",
+    "description": "Calculate silicon PN junction built-in contact potential (V_bi = (k_B · T / q) · ln(N_A · N_D / n_i²)) in Volts and zero-bias depletion layer width W in micrometers.",
+    "path": "/tools/pn-junction-builtin-potential-depletion-width-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pn junction built in potential calculator",
+      "vbi formula semiconductor physics",
+      "depletion layer width calculator online",
+      "na nd doping silicon vbi calculator",
+      "built in voltage pn diode online"
+    ]
+  }
+]

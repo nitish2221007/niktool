@@ -1,0 +1,15 @@
+{
+  "name": "Stefan-Boltzmann Stellar Luminosity & Stellar Radius Calculator",
+  "description": "Calculate total stellar energy radiation luminosity (L = 4 · π · R² · σ · T⁴) in Solar Luminosities (L_☉) and stellar radius from photosphere effective temperature.",
+  "path": "/tools/stefan-boltzmann-stellar-luminosity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "stellar luminosity calculator",
+    "stefan boltzmann stellar radius formula",
+    "l 4 pi r2 sigma t4 online",
+    "hertzsprung russell diagram luminosity calculator",
+    "astrophysics blackbody star luminosity online"
+  ],
+  "order": 520
+}

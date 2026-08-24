@@ -1,0 +1,15 @@
+{
+  "name": "Wells Score for Deep Vein Thrombosis (DVT Clinical Pretest Probability) Calculator",
+  "description": "Calculate Wells DVT pretest probability score (-2 to 8 points) to risk-stratify lower extremity Deep Vein Thrombosis and determine D-dimer vs duplex compression ultrasound diagnostic pathways.",
+  "path": "/tools/wells-score-dvt-deep-vein-thrombosis-probability-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "wells score dvt calculator",
+    "deep vein thrombosis wells criteria score online",
+    "dvt pretest probability d dimer ultrasound calculator",
+    "wells score lower extremity blood clot calculator",
+    "vascular medicine emergency medicine dvt online"
+  ],
+  "order": 1153
+}

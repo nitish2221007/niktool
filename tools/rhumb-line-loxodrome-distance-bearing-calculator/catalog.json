@@ -1,0 +1,15 @@
+{
+  "name": "Rhumb Line (Loxodrome) Constant Bearing Navigation Calculator",
+  "description": "Calculate constant compass heading navigation course and Mercator sailing distance (Rhumb line / Loxodrome) between geographic coordinates.",
+  "path": "/tools/rhumb-line-loxodrome-distance-bearing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rhumb line distance calculator",
+    "loxodrome navigation formula",
+    "constant compass bearing calculator",
+    "mercator sailing rhumb line online",
+    "rhumb line vs great circle calculator"
+  ],
+  "order": 495
+}

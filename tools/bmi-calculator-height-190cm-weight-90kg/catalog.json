@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 190cm, Weight 90kg)",
+  "description": "Calculate Body Mass Index (BMI 24.9) for height 190 cm and weight 90 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-190cm-weight-90kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 190cm weight 90kg",
+    "BMI Calculator (Height 190cm, Weight 90kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

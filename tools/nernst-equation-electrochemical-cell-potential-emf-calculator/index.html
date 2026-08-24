@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate electrochemical battery and galvanic cell non-standard reduction potential (E = E° - (0.0592/n) · log₁₀ Q) in Volts from standard potential E°, transferred electron count n, and reaction quotient Q.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/nernst-equation-electrochemical-cell-potential-emf-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator | NikTool">
+  <meta property="og:description" content="Calculate electrochemical battery and galvanic cell non-standard reduction potential (E = E° - (0.0592/n) · log₁₀ Q) in Volts from standard potential E°, transferred electron count n, and reaction quotient Q.">
+  <meta property="og:url" content="https://niktool.in/tools/nernst-equation-electrochemical-cell-potential-emf-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/nernst-equation-electrochemical-cell-potential-emf-calculator/",
+        "description": "Calculate electrochemical battery and galvanic cell non-standard reduction potential (E = E° - (0.0592/n) · log₁₀ Q) in Volts from standard potential E°, transferred electron count n, and reaction quotient Q.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a dead battery in thermodynamic terms?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A dead battery has reached chemical equilibrium ($Q = K_{\text{eq}}$), making the cell potential $E = 0\text{ V}$ and $Delta G = 0$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator</h1>
+      <p>Calculate electrochemical battery and galvanic cell non-standard reduction potential (E = E° - (0.0592/n) · log₁₀ Q) in Volts from standard potential E°, transferred electron count n, and reaction quotient Q.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Standard Cell Potential E° (V), Electron Moles n & Reaction Quotient Q ([Products]/[Reactants])</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ne-e0">Standard E° (V)</label>
+          <input class="tool-textarea" id="ne-e0" type="number" step="0.05" value="1.10" placeholder="1.10 V (Daniell Zn-Cu Cell)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ne-n">Electrons n</label>
+          <input class="tool-textarea" id="ne-n" type="number" step="1" min="1" value="2" placeholder="2 (Zn -> Zn²⁺ + 2e⁻)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ne-q">Quotient Q</label>
+          <input class="tool-textarea" id="ne-q" type="number" step="0.1" value="0.01" placeholder="0.01 ([Zn²⁺]/[Cu²⁺])" />
+        </div>
+      </div>
+      <div id="ne-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ne-res-emf" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Cell EMF E = +1.159 V (SPONTANEOUS)</span>
+            <span class="stat-label">Non-Standard Cell Voltage (E_cell)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ne-res-dg" style="color:var(--green-dark); font-weight:700;">ΔG = -223.7 kJ/mol | Voltage boosted by +0.059 V because Q < 1.0 (Reactant Rich)</span>
+            <span class="stat-label">Gibbs Energy (ΔG = -nFE) & Concentration Gradient</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Nernst Equation Electrochemical Cell Potential (E = E° - (RT/nF)·ln Q) Calculator</h2>
+      <ol>
+        <li>Enter standard electrochemical cell potential $E^circ$ in Volts (e.g. $+1.10	ext{ V}$ for standard Daniell zinc-copper cell).</li>
+        <li>Enter number of moles of electrons transferred per balanced redox reaction n.</li>
+        <li>Enter chemical reaction quotient $Q = rac{[	ext{Products}]^c}{[	ext{Reactants}]^a}$.</li>
+        <li>Inspect non-standard cell potential E in Volts and Gibbs Free Energy $Delta G = -n F E$.</li>
+      </ol>
+
+      <h2>Walther Nernst 1889 Electrochemistry Formulation</h2>
+      <p>The Nernst equation connects chemical concentration gradients with electrical potential ($E = E^circ - rac{RT}{nF} ln Q$), providing the operating principle for lithium-ion batteries, biological neuron action potentials, and laboratory pH glass electrodes.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a dead battery in thermodynamic terms?</summary>
+        <p>A dead battery has reached chemical equilibrium ($Q = K_{	ext{eq}}$), making the cell potential $E = 0	ext{ V}$ and $Delta G = 0$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/nernst-equation-electrochemical-cell-potential-emf-calculator/tool.js"></script>
+</body>
+</html>

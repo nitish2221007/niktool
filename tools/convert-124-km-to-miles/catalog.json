@@ -1,0 +1,15 @@
+{
+  "name": "Convert 124 KM to Miles",
+  "description": "Convert 124 kilometers to miles (77.05 miles). 100% free and local.",
+  "path": "/tools/convert-124-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 124 km to miles",
+    "Convert 124 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

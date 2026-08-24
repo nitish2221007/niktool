@@ -1,0 +1,15 @@
+{
+  "name": "Coplanar Waveguide (CPW) Characteristic Impedance (Z₀) Calculator",
+  "description": "Calculate Coplanar Waveguide (CPW) characteristic impedance Z₀ in Ohms and effective dielectric constant ε_eff from center conductor trace width w, ground slot gap s, and substrate ε_r.",
+  "path": "/tools/coplanar-waveguide-cpw-characteristic-impedance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "coplanar waveguide calculator",
+    "cpw characteristic impedance formula online",
+    "grounded coplanar waveguide gcpw calculator",
+    "conformal mapping complete elliptic integral cpw calculator",
+    "microwave transmission line cpw online"
+  ],
+  "order": 737
+}

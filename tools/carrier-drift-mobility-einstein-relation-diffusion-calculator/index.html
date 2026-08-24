@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carrier Drift Mobility & Einstein Diffusion Relation (D = μ·kT/q) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate semiconductor electron and hole diffusion coefficients D_n and D_p in cm²/s (Einstein Relation: D = μ · (kT/q)), electrical conductivity σ in (Ω·cm)⁻¹ (σ = q·(n·μ_n + p·μ_p)), and bulk resistivity ρ.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/carrier-drift-mobility-einstein-relation-diffusion-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Carrier Drift Mobility & Einstein Diffusion Relation (D = μ·kT/q) Calculator | NikTool">
+  <meta property="og:description" content="Calculate semiconductor electron and hole diffusion coefficients D_n and D_p in cm²/s (Einstein Relation: D = μ · (kT/q)), electrical conductivity σ in (Ω·cm)⁻¹ (σ = q·(n·μ_n + p·μ_p)), and bulk resistivity ρ.">
+  <meta property="og:url" content="https://niktool.in/tools/carrier-drift-mobility-einstein-relation-diffusion-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Carrier Drift Mobility & Einstein Diffusion Relation (D = μ·kT/q) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/carrier-drift-mobility-einstein-relation-diffusion-calculator/",
+        "description": "Calculate semiconductor electron and hole diffusion coefficients D_n and D_p in cm²/s (Einstein Relation: D = μ · (kT/q)), electrical conductivity σ in (Ω·cm)⁻¹ (σ = q·(n·μ_n + p·μ_p)), and bulk resistivity ρ.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is electron mobility always higher than hole mobility in semiconductors?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Electrons reside in the conduction band with lower effective mass ($m_e^* < m_h^*$) compared to heavier valence band holes."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Carrier Drift Mobility & Einstein Diffusion Relation (D = μ·kT/q) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Carrier Drift Mobility & Einstein Diffusion Relation (D = μ·kT/q) Calculator</h1>
+      <p>Calculate semiconductor electron and hole diffusion coefficients D_n and D_p in cm²/s (Einstein Relation: D = μ · (kT/q)), electrical conductivity σ in (Ω·cm)⁻¹ (σ = q·(n·μ_n + p·μ_p)), and bulk resistivity ρ.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Electron Mobility μ_n (cm²/V·s), Hole Mobility μ_p (cm²/V·s), Electron Density n & Temp T (K)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="cd-mun">Electron μ_n</label>
+          <input class="tool-textarea" id="cd-mun" type="number" step="100" value="1350.0" placeholder="1350 cm²/V·s (Silicon)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-mup">Hole μ_p</label>
+          <input class="tool-textarea" id="cd-mup" type="number" step="50" value="480.0" placeholder="480 cm²/V·s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-n">Electron n (cm⁻³)</label>
+          <input class="tool-textarea" id="cd-n" type="number" step="1e15" value="1.0e16" placeholder="1.0 × 10¹⁶ cm⁻³" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cd-t">Temp T (K)</label>
+          <input class="tool-textarea" id="cd-t" type="number" step="10" value="300" placeholder="300 K (27 °C)" />
+        </div>
+      </div>
+      <div id="cd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="cd-res-diff" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Diffusivity: D_n = 34.90 cm² / s | D_p = 12.41 cm² / s</span>
+            <span class="stat-label">Einstein Diffusion Coefficients (D = μ · kT / q)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="cd-res-cond" style="color:var(--green-dark); font-weight:700;">Conductivity σ = 2.163 (Ω·cm)⁻¹ | Bulk Resistivity ρ = 0.462 Ω·cm (n-type Silicon)</span>
+            <span class="stat-label">Electrical Conductivity (σ = q · n · μ_n) & Silicon Wafer Resistivity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Carrier Drift Mobility & Einstein Diffusion Relation (D = μ·kT/q) Calculator</h2>
+      <ol>
+        <li>Enter electron low-field drift mobility $mu_n$ in $	ext{cm}^2/	ext{V}cdot	ext{s}$ (1350 for Silicon, 8500 for GaAs).</li>
+        <li>Enter hole low-field drift mobility $mu_p$ in $	ext{cm}^2/	ext{V}cdot	ext{s}$ (480 for Silicon, 400 for GaAs).</li>
+        <li>Enter majority carrier concentration n in $	ext{cm}^{-3}$.</li>
+        <li>Enter temperature in Kelvin (standard 300 K).</li>
+        <li>Inspect Einstein diffusion coefficients ($D_n, D_p$) and semiconductor bulk resistivity $ho$ in $Omegacdot	ext{cm}$.</li>
+      </ol>
+
+      <h2>Albert Einstein 1905 Fluctuation-Dissipation Relation</h2>
+      <p>Directly links macroscopic carrier drift velocity under electric fields ($mathbf{v} = mu mathbf{E}$) to microscopic thermal Brownian concentration diffusion ($D = mu rac{kT}{q}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is electron mobility always higher than hole mobility in semiconductors?</summary>
+        <p>Electrons reside in the conduction band with lower effective mass ($m_e^* < m_h^*$) compared to heavier valence band holes.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/carrier-drift-mobility-einstein-relation-diffusion-calculator/tool.js"></script>
+</body>
+</html>

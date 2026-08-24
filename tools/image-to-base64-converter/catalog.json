@@ -1,0 +1,15 @@
+{
+  "name": "Convert Image to Base64 String",
+  "description": "Convert JPG, PNG, and WebP images to Data URI Base64 string.",
+  "path": "/tools/image-to-base64-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "image to base64 converter",
+    "Convert Image to Base64 String",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

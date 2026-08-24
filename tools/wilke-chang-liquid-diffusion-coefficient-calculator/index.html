@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate solute molecular diffusion coefficient in dilute liquids (D_AB in cm²/s and m²/s) using the Wilke-Chang empirical correlation based on solvent molecular weight, association factor φ, and solute molar volume.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/wilke-chang-liquid-diffusion-coefficient-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate solute molecular diffusion coefficient in dilute liquids (D_AB in cm²/s and m²/s) using the Wilke-Chang empirical correlation based on solvent molecular weight, association factor φ, and solute molar volume.">
+  <meta property="og:url" content="https://niktool.in/tools/wilke-chang-liquid-diffusion-coefficient-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/wilke-chang-liquid-diffusion-coefficient-calculator/",
+        "description": "Calculate solute molecular diffusion coefficient in dilute liquids (D_AB in cm²/s and m²/s) using the Wilke-Chang empirical correlation based on solvent molecular weight, association factor φ, and solute molar volume.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does water have a high association factor phi of 2.6?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Extensive hydrogen-bonding networks cause water molecules to diffuse as clustered supramolecular aggregates."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator</h1>
+      <p>Calculate solute molecular diffusion coefficient in dilute liquids (D_AB in cm²/s and m²/s) using the Wilke-Chang empirical correlation based on solvent molecular weight, association factor φ, and solute molar volume.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Solvent Molecular Weight M_B (g/mol), Association Factor φ (2.6 for H₂O), Solute Volume V_A & Temp T (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="wc-mb">Solvent M_B (g/mol)</label>
+          <input class="tool-textarea" id="wc-mb" type="number" step="1" value="18" placeholder="18 g/mol (Water)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wc-phi">Association φ</label>
+          <input class="tool-textarea" id="wc-phi" type="number" step="0.1" value="2.6" placeholder="2.6 (Water)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wc-va">Solute V_A (cm³/mol)</label>
+          <input class="tool-textarea" id="wc-va" type="number" step="10" value="50.0" placeholder="50.0 (LeBas Volume)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wc-mu">Viscosity μ (cP)</label>
+          <input class="tool-textarea" id="wc-mu" type="number" step="0.1" value="0.89" placeholder="0.89 cP (Water @ 25°C)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wc-temp">Temp (°C)</label>
+          <input class="tool-textarea" id="wc-temp" type="number" step="5" value="25" placeholder="25 °C" />
+        </div>
+      </div>
+      <div id="wc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="wc-res-dab" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">D_AB = 1.63 × 10⁻⁵ cm² / s (1.63 × 10⁻⁹ m²/s)</span>
+            <span class="stat-label">Wilke-Chang Liquid Molecular Diffusion Coefficient</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="wc-res-desc" style="color:var(--green-dark); font-weight:700;">Stokes-Einstein Hydrodynamic Radius r_H ≈ 1.50 Å (Small molecule in aqueous solution)</span>
+            <span class="stat-label">Hydrodynamic Solute Radius & Aqueous Mobility</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator</h2>
+      <ol>
+        <li>Enter solvent molecular weight $M_B$ (e.g. 18.0 for water, 32.0 for methanol).</li>
+        <li>Enter solvent association parameter $phi$ (2.6 for water, 1.9 for methanol, 1.0 for unassociated solvents).</li>
+        <li>Enter solute molar volume at normal boiling point $V_A$ in $	ext{cm}^3/	ext{mol}$.</li>
+        <li>Enter solvent dynamic viscosity $mu$ in centipoise (cP) and temperature in $^circ	ext{C}$.</li>
+        <li>Inspect liquid molecular diffusivity $D_{AB}$ in $	ext{m}^2/	ext{s}$ and $	ext{cm}^2/	ext{s}$.</li>
+      </ol>
+
+      <h2>C. R. Wilke & Pin Chang 1955 Liquid Diffusivity Correlation</h2>
+      <p>Accurately predicts solute liquid diffusivities essential for mass transfer rate design in liquid-liquid extraction, membrane separation, and biological oxygen uptake.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does water have a high association factor phi of 2.6?</summary>
+        <p>Extensive hydrogen-bonding networks cause water molecules to diffuse as clustered supramolecular aggregates.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/wilke-chang-liquid-diffusion-coefficient-calculator/tool.js"></script>
+</body>
+</html>

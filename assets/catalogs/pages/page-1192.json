@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Margin & Markup Calculator",
+    "description": "Calculate profit margin, markup percentage, gross profit, and selling price instantly for business pricing decisions.",
+    "path": "/tools/margin-markup-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "margin markup calculator",
+      "profit margin calculator",
+      "markup percentage calculator",
+      "gross profit calculator",
+      "pricing calculator",
+      "cost to selling price"
+    ]
+  },
+  {
+    "name": "Recursion Visualizer",
+    "description": "Display recursive calls as an animated tree for Fibonacci, Factorial and Power.",
+    "path": "/tools/recursion-visualizer/",
+    "category": "DSA",
+    "icon": "git-branch",
+    "keywords": [
+      "recursion",
+      "call tree",
+      "fibonacci",
+      "factorial",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Attendance Shortage Calculator",
+    "description": "Calculate how many consecutive classes you need to attend to recover 75%, 80%, or 85% college attendance criteria.",
+    "path": "/tools/attendance-shortage-calculator/",
+    "category": "Academic",
+    "icon": "text",
+    "keywords": [
+      "attendance shortage calculator",
+      "attendance recovery calculator",
+      "75 attendance calculator",
+      "college attendance bunk calculator",
+      "classes needed for 75 percent",
+      "student attendance planner"
+    ]
+  },
+  {
+    "name": "DSA Progress Tracker",
+    "description": "Track DSA topics and problems completed with LocalStorage persistence.",
+    "path": "/tools/dsa-progress-tracker/",
+    "category": "DSA",
+    "icon": "check-circle",
+    "keywords": [
+      "dsa",
+      "progress",
+      "tracker",
+      "roadmap",
+      "leetcode",
+      "interview prep"
+    ]
+  },
+  {
+    "name": "Potential Energy Calculator",
+    "description": "Calculate gravitational potential energy from mass, gravity and height using PE = mgh. Free, fast, and fully private browser tool.",
+    "path": "/tools/potential-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "potential energy calculator",
+      "PE calculator",
+      "gravitational potential energy calculator",
+      "mgh calculator",
+      "class 10 potential energy",
+      "mass height energy calculator",
+      "school potential energy tool",
+      "PE formula calculator"
+    ]
+  },
+  {
+    "name": "DSA Random Question Picker",
+    "description": "Get a random DSA practice question by topic and difficulty.",
+    "path": "/tools/dsa-random-question-picker/",
+    "category": "DSA",
+    "icon": "shuffle",
+    "keywords": [
+      "dsa",
+      "random question",
+      "interview prep",
+      "leetcode",
+      "practice"
+    ]
+  },
+  {
+    "name": "Molar Mass Calculator",
+    "description": "Calculate molar mass from a chemical formula with element-by-element breakdown and parenthesis support. Free and fully private.",
+    "path": "/tools/molar-mass-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "molar mass calculator",
+      "molecular mass calculator",
+      "molar mass from formula",
+      "chemical formula molar mass",
+      "class 10 molar mass",
+      "chemistry molar mass calculator",
+      "molecular weight calculator",
+      "formula mass calculator"
+    ]
+  },
+  {
+    "name": "Roman Numeral Converter",
+    "description": "Convert numbers to Roman numerals and Roman numerals to numbers (1 to 3,999,999) with real-time bidirectional conversion.",
+    "path": "/tools/roman-numeral-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "roman numeral converter",
+      "roman numerals to numbers",
+      "arabic to roman numerals",
+      "roman numbers converter",
+      "number to roman numerals",
+      "math roman converter"
+    ]
+  },
+  {
+    "name": "Chemical Equation Balancer",
+    "description": "Balance common Class 10 chemical equations locally with atom count verification shown. Free, fast, and fully private browser tool.",
+    "path": "/tools/chemical-equation-balancer/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chemical equation balancer",
+      "balance chemical equations",
+      "equation balancer",
+      "class 10 chemical equation balancer",
+      "chemistry equation solver",
+      "balancing equations online",
+      "school chemistry tool",
+      "chemical reaction balancer"
+    ]
+  },
+  {
+    "name": "Data Structure Cheat Sheet",
+    "description": "Interactive reference for common data structures with complexity tables.",
+    "path": "/tools/data-structure-cheat-sheet/",
+    "category": "DSA",
+    "icon": "book",
+    "keywords": [
+      "data structures",
+      "cheat sheet",
+      "complexity",
+      "reference",
+      "interview"
+    ]
+  },
+  {
+    "name": "HTML Entity Encoder Decoder",
+    "description": "Encode special characters to HTML named and numeric entities (&amp;, &lt;, &gt;) or decode HTML entities back to raw text.",
+    "path": "/tools/html-entity-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "html entity encoder",
+      "html entity decoder",
+      "html escape tool",
+      "html unescape",
+      "special characters to html entities",
+      "encode html online"
+    ]
+  },
+  {
+    "name": "Algorithm Cheat Sheet",
+    "description": "Searchable reference of algorithms with time and space complexity.",
+    "path": "/tools/algorithm-cheat-sheet/",
+    "category": "DSA",
+    "icon": "book-open",
+    "keywords": [
+      "algorithms",
+      "cheat sheet",
+      "complexity",
+      "sorting",
+      "graph",
+      "dp"
+    ]
+  },
+  {
+    "name": "English Name Generator for Students",
+    "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
+    "path": "/tools/english-name-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "english name generator",
+      "english name generator for students",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "ER Diagram Maker",
+    "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
+    "path": "/tools/er-diagram-maker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "er diagram maker",
+      "er diagram maker",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Flowchart Maker",
+    "description": "Build flowcharts by connecting shapes and steps. Generate standard Mermaid flowchart syntax from simple text inputs for easy documentation.",
+    "path": "/tools/flowchart-maker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "flowchart maker",
+      "flowchart maker",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Height and Distance Calculator",
+    "description": "Solve height and distance word problems using the tangent ratio with angle and known side. Free, fast, and fully private.",
+    "path": "/tools/height-and-distance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "height and distance calculator",
+      "class 10 height and distance",
+      "height distance trigonometry calculator",
+      "angle height distance calculator",
+      "tower height calculator",
+      "trigonometry height calculator",
+      "school height distance calculator",
+      "10th trigonometry word problem"
+    ]
+  },
+  {
+    "name": "JSON Formatter & Validator",
+    "description": "Format, validate, and beautify your JSON data instantly online.",
+    "path": "/tools/json-formatter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "json formatter",
+      "json validator",
+      "beautify json",
+      "format json",
+      "json parser"
+    ]
+  },
+  {
+    "name": "Project Cost Calculator",
+    "description": "Estimate your project expenses quickly with our free Project Cost Calculator. Add tasks, assign costs, and get instant budget totals locally.",
+    "path": "/tools/project-cost-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project cost calculator",
+      "project cost calculator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Idea Generator",
+    "description": "Discover unique project ideas filtered by branch, technology, and difficulty. Get inspired for your next coding or engineering project instantly.",
+    "path": "/tools/project-idea-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project idea generator",
+      "project idea generator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Planner",
+    "description": "Create structured project milestones and tasks, and save your plans locally. Organize your workflow efficiently with our free project planning tool.",
+    "path": "/tools/project-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project planner",
+      "project planner",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Presentation Planner",
+    "description": "Build slide-by-slide presentation structures. Organize your titles and bullet points to create a compelling outline for your next pitch.",
+    "path": "/tools/project-presentation-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project presentation planner",
+      "project presentation planner",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Report Builder",
+    "description": "Fill in your project information and generate structured, professional report content. Perfect for executive summaries and status updates.",
+    "path": "/tools/project-report-builder/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project report builder",
+      "project report builder",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Team Task Board",
+    "description": "Create a local Kanban board to track team tasks. Categorize tasks into To Do, In Progress, and Done instantly without any server uploads.",
+    "path": "/tools/project-team-task-board/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project team task board",
+      "project team task board",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Project Timeline Generator",
+    "description": "Generate visual text-based project timelines by entering start dates, end dates, and key milestones. Perfect for quick roadmaps.",
+    "path": "/tools/project-timeline-generator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "project timeline generator",
+      "project timeline generator",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  }
+]

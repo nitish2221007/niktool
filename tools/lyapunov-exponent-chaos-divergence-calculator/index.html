@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate nonlinear dynamical system trajectory separation (δZ(t) = δZ₀ · exp[λ · t]) and predict Lyapunov Predictability Horizon time (t_horizon = (1 / λ) · ln(ε / δZ₀)) for chaotic systems.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/lyapunov-exponent-chaos-divergence-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator | NikTool">
+  <meta property="og:description" content="Calculate nonlinear dynamical system trajectory separation (δZ(t) = δZ₀ · exp[λ · t]) and predict Lyapunov Predictability Horizon time (t_horizon = (1 / λ) · ln(ε / δZ₀)) for chaotic systems.">
+  <meta property="og:url" content="https://niktool.in/tools/lyapunov-exponent-chaos-divergence-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/lyapunov-exponent-chaos-divergence-calculator/",
+        "description": "Calculate nonlinear dynamical system trajectory separation (δZ(t) = δZ₀ · exp[λ · t]) and predict Lyapunov Predictability Horizon time (t_horizon = (1 / λ) · ln(ε / δZ₀)) for chaotic systems.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the Lyapunov time of Earth's solar system planetary orbits?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The solar system has a Lyapunov time of approximately 5 million years, beyond which planetary orbits cannot be deterministically predicted."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator</h1>
+      <p>Calculate nonlinear dynamical system trajectory separation (δZ(t) = δZ₀ · exp[λ · t]) and predict Lyapunov Predictability Horizon time (t_horizon = (1 / λ) · ln(ε / δZ₀)) for chaotic systems.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Maximal Lyapunov Exponent λ (s⁻¹ or day⁻¹), Initial Perturbation δZ₀ & Tolerance Limit ε</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ly-lam">Lyapunov λ (s⁻¹)</label>
+          <input class="tool-textarea" id="ly-lam" type="number" step="any" value="0.9056" placeholder="0.9056 (Lorenz Attractor)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ly-z0">Initial Error δZ₀</label>
+          <input class="tool-textarea" id="ly-z0" type="number" step="any" value="1.0e-6" placeholder="1.0e-6 (Microscopic Error)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ly-eps">Tolerance ε</label>
+          <input class="tool-textarea" id="ly-eps" type="number" step="any" value="1.0" placeholder="1.0 (Macroscopic Failure)" />
+        </div>
+      </div>
+      <div id="ly-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ly-res-horiz" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">t_horizon = 15.26 Time Units</span>
+            <span class="stat-label">Lyapunov Predictability Horizon Time (t_horizon)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ly-res-e-fold" style="color:var(--green-dark); font-weight:700;">CHAOTIC DYNAMICS (λ = +0.906 > 0: e-Folding Doubling Time τ = 1.10 s | Butterfly Effect)</span>
+            <span class="stat-label">Dynamical Classification & Error e-Folding Time (τ = 1/λ)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator</h2>
+      <ol>
+        <li>Enter maximal Lyapunov exponent $lambda$ in units of $1/	ext{time}$ (positive for chaotic systems like Lorenz $lambda approx 0.906$).</li>
+        <li>Enter initial microscopic measurement uncertainty perturbation $delta Z_0$.</li>
+        <li>Enter maximum allowable macroscopic error forecast tolerance $epsilon$.</li>
+        <li>Inspect Lyapunov Predictability Horizon time $t_{	ext{horizon}} = rac{1}{lambda}ln(epsilon/delta Z_0)$ and characteristic trajectory divergence e-folding time ($	au = 1/lambda$).</li>
+      </ol>
+
+      <h2>Aleksandr Lyapunov 1892 Orbital Stability Theory</h2>
+      <p>A positive maximal Lyapunov exponent ($lambda > 0$) is the rigorous mathematical definition of chaos; because errors compound exponentially ($delta Z(t) = delta Z_0 e^{lambda t}$), improving weather forecast sensor accuracy by a factor of 1,000 only extends reliable forecasting horizons by a few extra days.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the Lyapunov time of Earth's solar system planetary orbits?</summary>
+        <p>The solar system has a Lyapunov time of approximately 5 million years, beyond which planetary orbits cannot be deterministically predicted.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/lyapunov-exponent-chaos-divergence-calculator/tool.js"></script>
+</body>
+</html>

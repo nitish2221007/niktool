@@ -1,0 +1,15 @@
+{
+  "name": "Optimal Solar Panel Tilt Angle & Azimuth Calculator",
+  "description": "Calculate optimum fixed and seasonal solar photovoltaic panel tilt angles (Latitude · 0.9 for year-round, +15° for winter, -15° for summer) based on geographic latitude.",
+  "path": "/tools/solar-pv-tilt-angle-optimal-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar panel tilt angle calculator",
+    "optimum solar angle latitude calculator",
+    "solar panel winter summer tilt formula",
+    "pv array orientation angle online",
+    "solar roof pitch angle calculator"
+  ],
+  "order": 435
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Silicon Intrinsic Carrier Concentration (n_i) vs Temperature Calculator",
+  "description": "Calculate intrinsic semiconductor carrier density (n_i = √(N_c · N_v) · e^(-E_g / (2 · k_B · T))) in Silicon, Germanium, and GaAs across operating temperatures.",
+  "path": "/tools/intrinsic-carrier-concentration-temperature-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "intrinsic carrier concentration calculator",
+    "ni temperature formula silicon",
+    "semiconductor bandgap ni calculator online",
+    "silicon ge gaas carrier density calculator",
+    "fermi level intrinsic semiconductor online"
+  ],
+  "order": 550
+}

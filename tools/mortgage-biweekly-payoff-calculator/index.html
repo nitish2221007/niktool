@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bi-Weekly Mortgage Accelerator & Interest Savings Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate interest savings and years shaved off your home loan by switching from standard monthly payments to accelerated bi-weekly payments (26 half-payments per year).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/mortgage-biweekly-payoff-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bi-Weekly Mortgage Accelerator & Interest Savings Calculator | NikTool">
+  <meta property="og:description" content="Calculate interest savings and years shaved off your home loan by switching from standard monthly payments to accelerated bi-weekly payments (26 half-payments per year).">
+  <meta property="og:url" content="https://niktool.in/tools/mortgage-biweekly-payoff-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Bi-Weekly Mortgage Accelerator & Interest Savings Calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/mortgage-biweekly-payoff-calculator/",
+        "description": "Calculate interest savings and years shaved off your home loan by switching from standard monthly payments to accelerated bi-weekly payments (26 half-payments per year).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Does biweekly payment require bank permission?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Many banks offer automated accelerated bi-weekly programs, or you can simply add 1/12th extra principal to each regular monthly payment."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Bi-Weekly Mortgage Accelerator & Interest Savings Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Bi-Weekly Mortgage Accelerator & Interest Savings Calculator</h1>
+      <p>Calculate interest savings and years shaved off your home loan by switching from standard monthly payments to accelerated bi-weekly payments (26 half-payments per year).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Loan Balance, Interest Rate & Term</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bw-bal">Mortgage Balance ($ / ₹)</label>
+          <input class="tool-textarea" id="bw-bal" type="number" step="any" value="300000" placeholder="300,000" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bw-rate">Interest Rate (% APR)</label>
+          <input class="tool-textarea" id="bw-rate" type="number" step="any" value="6.5" placeholder="6.5%" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bw-years">Original Term (Years)</label>
+          <input class="tool-textarea" id="bw-years" type="number" value="30" />
+        </div>
+      </div>
+      <div id="bw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bw-res-sav" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">$68,450</span>
+            <span class="stat-label">Total Interest Saved</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bw-res-shaved" style="color:#2563eb; font-weight:700;">5.4 Years Shaved Off</span>
+            <span class="stat-label">Mortgage Freedom Accelerated</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bw-res-payment">$948 / 2-weeks</span>
+            <span class="stat-label">Bi-Weekly Payment (Half of Monthly)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Bi-Weekly Mortgage Accelerator & Interest Savings Calculator</h2>
+      <ol>
+        <li>Enter mortgage loan balance, interest rate (% APR), and loan term in years.</li>
+        <li>Inspect total compound interest saved and how many years earlier your mortgage is paid off.</li>
+      </ol>
+
+      <h2>The Magic of 13 Monthly Payments a Year</h2>
+      <p>Because there are 52 weeks in a year, making a half-payment every two weeks results in 26 half-payments — exactly equivalent to making 13 full monthly payments every year directly reducing principal.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Does biweekly payment require bank permission?</summary>
+        <p>Many banks offer automated accelerated bi-weekly programs, or you can simply add 1/12th extra principal to each regular monthly payment.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/mortgage-biweekly-payoff-calculator/tool.js"></script>
+</body>
+</html>

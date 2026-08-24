@@ -1,0 +1,15 @@
+{
+  "name": "Parallel Plate Capacitor & Dielectric Constant Calculator",
+  "description": "Calculate electrostatic capacitance (C = (ε₀ · ε_r · A) / d) in picoFarads (pF) and electric field breakdown limits for parallel plate capacitors.",
+  "path": "/tools/parallel-plate-dielectric-capacitance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "parallel plate capacitor calculator",
+    "dielectric constant capacitance formula",
+    "capacitance plate area distance calculator",
+    "epsilon 0 epsilon r area over d online",
+    "picofarad capacitor sizing"
+  ],
+  "order": 365
+}

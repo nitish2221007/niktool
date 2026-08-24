@@ -1,0 +1,15 @@
+{
+  "name": "Portfolio Performance Risk Metrics (Sharpe, Treynor & Jensen's Alpha) Calculator",
+  "description": "Calculate investment portfolio risk-adjusted performance metrics: Sharpe Ratio ((R_p - R_f) / σ_p), Treynor Ratio ((R_p - R_f) / β_p), and Jensen's Alpha (α = R_p - [R_f + β_p·(R_m - R_f)]) for finance courses.",
+  "path": "/tools/capital-asset-pricing-model-sharpe-treynor-jensen-alpha-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "sharpe ratio calculator",
+    "treynor ratio jensens alpha formula finance online",
+    "portfolio risk adjusted return calculator",
+    "capm expected return benchmark alpha calculator",
+    "investment fund performance metrics online"
+  ],
+  "order": 1002
+}

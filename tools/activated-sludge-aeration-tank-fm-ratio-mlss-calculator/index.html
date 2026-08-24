@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate wastewater treatment activated sludge Food-to-Microorganism ratio (F/M = Q · S₀ / (V · X)) in kg BOD / (kg MLVSS · day), Mean Cell Residence Time / Sludge Age (MCRT / θ_c in days), and volumetric organic loading rate.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/activated-sludge-aeration-tank-fm-ratio-mlss-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate wastewater treatment activated sludge Food-to-Microorganism ratio (F/M = Q · S₀ / (V · X)) in kg BOD / (kg MLVSS · day), Mean Cell Residence Time / Sludge Age (MCRT / θ_c in days), and volumetric organic loading rate.">
+  <meta property="og:url" content="https://niktool.in/tools/activated-sludge-aeration-tank-fm-ratio-mlss-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/activated-sludge-aeration-tank-fm-ratio-mlss-calculator/",
+        "description": "Calculate wastewater treatment activated sludge Food-to-Microorganism ratio (F/M = Q · S₀ / (V · X)) in kg BOD / (kg MLVSS · day), Mean Cell Residence Time / Sludge Age (MCRT / θ_c in days), and volumetric organic loading rate.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is MLSS vs MLVSS in activated sludge?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "MLSS (Mixed Liquor Suspended Solids) measures total suspended solids; MLVSS (Volatile portion, $sim 75\text{–}80%$ of MLSS) represents the living active bacterial biomass."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator</h1>
+      <p>Calculate wastewater treatment activated sludge Food-to-Microorganism ratio (F/M = Q · S₀ / (V · X)) in kg BOD / (kg MLVSS · day), Mean Cell Residence Time / Sludge Age (MCRT / θ_c in days), and volumetric organic loading rate.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Influent Flow Q (m³/day), Influent BOD S₀ (mg/L), Tank Volume V (m³) & Mixed Liquor MLVSS X (mg/L)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="as-q">Flow Q (m³/day)</label>
+          <input class="tool-textarea" id="as-q" type="number" step="500" value="10000" placeholder="10,000 m³/day" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="as-s0">BOD S₀ (mg/L)</label>
+          <input class="tool-textarea" id="as-s0" type="number" step="20" value="220" placeholder="220 mg/L BOD" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="as-vol">Tank V (m³)</label>
+          <input class="tool-textarea" id="as-vol" type="number" step="500" value="4000" placeholder="4,000 m³" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="as-x">MLVSS X (mg/L)</label>
+          <input class="tool-textarea" id="as-x" type="number" step="200" value="2500" placeholder="2,500 mg/L MLVSS" />
+        </div>
+      </div>
+      <div id="as-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="as-res-fm" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">F/M = 0.220 kg BOD / kg MLVSS·day</span>
+            <span class="stat-label">Food-to-Microorganism Organic Loading Ratio (F/M)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="as-res-hrt" style="color:var(--green-dark); font-weight:700;">CONVENTIONAL PLUG FLOW (F/M 0.2-0.5: Excellent floc settlement) | Hydraulic Retention HRT = 9.60 Hours</span>
+            <span class="stat-label">Aeration Basin Hydraulic Retention Time (HRT) & Sludge Settleability</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator</h2>
+      <ol>
+        <li>Enter primary effluent wastewater daily flow rate Q in $	ext{m}^3/	ext{day}$.</li>
+        <li>Enter influent carbonaceous Biochemical Oxygen Demand $S_0$ in mg/L.</li>
+        <li>Enter biological aeration tank basin liquid volume V in $	ext{m}^3$.</li>
+        <li>Enter Mixed Liquor Volatile Suspended Solids (MLVSS) active biomass concentration X in mg/L.</li>
+        <li>Inspect Food-to-Microorganism ratio (F/M in $	ext{kg BOD}/(	ext{kg MLVSS}cdot	ext{day})$) and Hydraulic Retention Time (HRT).</li>
+      </ol>
+
+      <h2>Biological Wastewater Treatment Process Control</h2>
+      <p>Controlling the F/M ratio between $0.20	ext{ and }0.50$ ensures bacteria have sufficient organic substrate to oxidize contaminants while starving them just enough to form dense, rapidly settling biological flocs in secondary clarifiers.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is MLSS vs MLVSS in activated sludge?</summary>
+        <p>MLSS (Mixed Liquor Suspended Solids) measures total suspended solids; MLVSS (Volatile portion, $sim 75	ext{–}80%$ of MLSS) represents the living active bacterial biomass.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/activated-sludge-aeration-tank-fm-ratio-mlss-calculator/tool.js"></script>
+</body>
+</html>

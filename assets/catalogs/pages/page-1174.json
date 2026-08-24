@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Volume of Cylinder (Radius 6 x Height 20)",
+    "description": "Calculate volume of a cylinder with radius 6 and height 20 (V = πr²h = 2261.95).",
+    "path": "/tools/volume-of-cylinder-radius-6-height-20-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 6 height 20 units",
+      "Volume of Cylinder (Radius 6 x Height 20)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 6 x Height 30)",
+    "description": "Calculate volume of a cylinder with radius 6 and height 30 (V = πr²h = 3392.92).",
+    "path": "/tools/volume-of-cylinder-radius-6-height-30-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 6 height 30 units",
+      "Volume of Cylinder (Radius 6 x Height 30)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 7 x Height 10)",
+    "description": "Calculate volume of a cylinder with radius 7 and height 10 (V = πr²h = 1539.38).",
+    "path": "/tools/volume-of-cylinder-radius-7-height-10-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 7 height 10 units",
+      "Volume of Cylinder (Radius 7 x Height 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 7 x Height 20)",
+    "description": "Calculate volume of a cylinder with radius 7 and height 20 (V = πr²h = 3078.76).",
+    "path": "/tools/volume-of-cylinder-radius-7-height-20-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 7 height 20 units",
+      "Volume of Cylinder (Radius 7 x Height 20)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 7 x Height 30)",
+    "description": "Calculate volume of a cylinder with radius 7 and height 30 (V = πr²h = 4618.14).",
+    "path": "/tools/volume-of-cylinder-radius-7-height-30-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 7 height 30 units",
+      "Volume of Cylinder (Radius 7 x Height 30)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 8 x Height 10)",
+    "description": "Calculate volume of a cylinder with radius 8 and height 10 (V = πr²h = 2010.62).",
+    "path": "/tools/volume-of-cylinder-radius-8-height-10-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 8 height 10 units",
+      "Volume of Cylinder (Radius 8 x Height 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 8 x Height 20)",
+    "description": "Calculate volume of a cylinder with radius 8 and height 20 (V = πr²h = 4021.24).",
+    "path": "/tools/volume-of-cylinder-radius-8-height-20-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 8 height 20 units",
+      "Volume of Cylinder (Radius 8 x Height 20)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 8 x Height 30)",
+    "description": "Calculate volume of a cylinder with radius 8 and height 30 (V = πr²h = 6031.86).",
+    "path": "/tools/volume-of-cylinder-radius-8-height-30-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 8 height 30 units",
+      "Volume of Cylinder (Radius 8 x Height 30)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 9 x Height 10)",
+    "description": "Calculate volume of a cylinder with radius 9 and height 10 (V = πr²h = 2544.69).",
+    "path": "/tools/volume-of-cylinder-radius-9-height-10-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 9 height 10 units",
+      "Volume of Cylinder (Radius 9 x Height 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 9 x Height 20)",
+    "description": "Calculate volume of a cylinder with radius 9 and height 20 (V = πr²h = 5089.38).",
+    "path": "/tools/volume-of-cylinder-radius-9-height-20-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 9 height 20 units",
+      "Volume of Cylinder (Radius 9 x Height 20)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cylinder (Radius 9 x Height 30)",
+    "description": "Calculate volume of a cylinder with radius 9 and height 30 (V = πr²h = 7634.07).",
+    "path": "/tools/volume-of-cylinder-radius-9-height-30-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cylinder radius 9 height 30 units",
+      "Volume of Cylinder (Radius 9 x Height 30)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 1 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 1 units (V = 4/3 πr³ = 4.19).",
+    "path": "/tools/volume-of-sphere-radius-1-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 1 units",
+      "Volume of Sphere (Radius 1 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 10 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 10 units (V = 4/3 πr³ = 4188.79).",
+    "path": "/tools/volume-of-sphere-radius-10-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 10 units",
+      "Volume of Sphere (Radius 10 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 100 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 100 units (V = 4/3 πr³ = 4188790.20).",
+    "path": "/tools/volume-of-sphere-radius-100-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 100 units",
+      "Volume of Sphere (Radius 100 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 101 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 101 units (V = 4/3 πr³ = 4315714.74).",
+    "path": "/tools/volume-of-sphere-radius-101-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 101 units",
+      "Volume of Sphere (Radius 101 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 102 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 102 units (V = 4/3 πr³ = 4445177.68).",
+    "path": "/tools/volume-of-sphere-radius-102-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 102 units",
+      "Volume of Sphere (Radius 102 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 103 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 103 units (V = 4/3 πr³ = 4577204.15).",
+    "path": "/tools/volume-of-sphere-radius-103-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 103 units",
+      "Volume of Sphere (Radius 103 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 104 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 104 units (V = 4/3 πr³ = 4711819.30).",
+    "path": "/tools/volume-of-sphere-radius-104-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 104 units",
+      "Volume of Sphere (Radius 104 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 105 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 105 units (V = 4/3 πr³ = 4849048.26).",
+    "path": "/tools/volume-of-sphere-radius-105-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 105 units",
+      "Volume of Sphere (Radius 105 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 106 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 106 units (V = 4/3 πr³ = 4988916.15).",
+    "path": "/tools/volume-of-sphere-radius-106-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 106 units",
+      "Volume of Sphere (Radius 106 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 107 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 107 units (V = 4/3 πr³ = 5131448.12).",
+    "path": "/tools/volume-of-sphere-radius-107-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 107 units",
+      "Volume of Sphere (Radius 107 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 108 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 108 units (V = 4/3 πr³ = 5276669.29).",
+    "path": "/tools/volume-of-sphere-radius-108-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 108 units",
+      "Volume of Sphere (Radius 108 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 109 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 109 units (V = 4/3 πr³ = 5424604.79).",
+    "path": "/tools/volume-of-sphere-radius-109-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 109 units",
+      "Volume of Sphere (Radius 109 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Sphere (Radius 11 Units)",
+    "description": "Calculate 3D volume of a sphere with radius 11 units (V = 4/3 πr³ = 5575.28).",
+    "path": "/tools/volume-of-sphere-radius-11-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of sphere radius 11 units",
+      "Volume of Sphere (Radius 11 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

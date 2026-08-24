@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate strange attractor fractal Lyapunov dimension (Kaplan-Yorke conjecture: D_KY = k + (λ₁ + ... + λ_k) / |λ_(k+1)|) from sorted Lyapunov exponent spectrums (λ₁ ≥ λ₂ ≥ λ₃).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/lorenz-attractor-dimension-kaplan-yorke-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator | NikTool">
+  <meta property="og:description" content="Calculate strange attractor fractal Lyapunov dimension (Kaplan-Yorke conjecture: D_KY = k + (λ₁ + ... + λ_k) / |λ_(k+1)|) from sorted Lyapunov exponent spectrums (λ₁ ≥ λ₂ ≥ λ₃).">
+  <meta property="og:url" content="https://niktool.in/tools/lorenz-attractor-dimension-kaplan-yorke-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/lorenz-attractor-dimension-kaplan-yorke-calculator/",
+        "description": "Calculate strange attractor fractal Lyapunov dimension (Kaplan-Yorke conjecture: D_KY = k + (λ₁ + ... + λ_k) / |λ_(k+1)|) from sorted Lyapunov exponent spectrums (λ₁ ≥ λ₂ ≥ λ₃).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is one Lyapunov exponent always zero (λ2 = 0) in continuous autonomous ODEs?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because perturbations along the 1D direction of the trajectory flow neither expand nor contract, maintaining $lambda = 0$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator</h1>
+      <p>Calculate strange attractor fractal Lyapunov dimension (Kaplan-Yorke conjecture: D_KY = k + (λ₁ + ... + λ_k) / |λ_(k+1)|) from sorted Lyapunov exponent spectrums (λ₁ ≥ λ₂ ≥ λ₃).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Lyapunov Exponent Spectrum: λ₁ (Divergence), λ₂ (Along Flow = 0) & λ₃ (Dissipative Contraction)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ky-l1">λ₁ (Expanding)</label>
+          <input class="tool-textarea" id="ky-l1" type="number" step="any" value="0.9056" placeholder="+0.9056 (Chaos)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ky-l2">λ₂ (Flow = 0)</label>
+          <input class="tool-textarea" id="ky-l2" type="number" step="any" value="0.0000" placeholder="0.0000" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ky-l3">λ₃ (Contracting)</label>
+          <input class="tool-textarea" id="ky-l3" type="number" step="any" value="-14.5723" placeholder="-14.5723" />
+        </div>
+      </div>
+      <div id="ky-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ky-res-dim" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">D_KY = 2.062 (Fractal Sheet)</span>
+            <span class="stat-label">Kaplan-Yorke Lyapunov Fractal Dimension (D_KY)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ky-res-div" style="color:var(--green-dark); font-weight:700;">Phase Space Volume Contraction Rate: Σ λ_i = -13.67 s⁻¹ (Dissipative System)</span>
+            <span class="stat-label">Total Lyapunov Sum & Phase Space Contraction</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator</h2>
+      <ol>
+        <li>Enter expanding positive Lyapunov exponent $lambda_1 > 0$.</li>
+        <li>Enter flow-tangent Lyapunov exponent $lambda_2 approx 0.0$.</li>
+        <li>Enter strongly negative dissipative contracting Lyapunov exponent $lambda_3 < 0$.</li>
+        <li>Inspect Kaplan-Yorke Lyapunov fractal dimension $D_{KY}$ and phase space volume dissipation rate $sum lambda_i$.</li>
+      </ol>
+
+      <h2>James L. Kaplan & James A. Yorke 1979 Fractal Dimension Conjecture</h2>
+      <p>Strange attractors are non-integer geometric fractals folded endlessly within finite phase space; for the Lorenz butterfly attractor ($sigma=10, ho=28, eta=8/3$), $D_{KY} approx 2.062$ reveals that trajectories form an infinitely nested 2D sheet with fractal Cantor-set cross sections.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is one Lyapunov exponent always zero (λ2 = 0) in continuous autonomous ODEs?</summary>
+        <p>Because perturbations along the 1D direction of the trajectory flow neither expand nor contract, maintaining $lambda = 0$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/lorenz-attractor-dimension-kaplan-yorke-calculator/tool.js"></script>
+</body>
+</html>

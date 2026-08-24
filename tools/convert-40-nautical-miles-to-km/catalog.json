@@ -1,0 +1,15 @@
+{
+  "name": "Convert 40 Nautical Miles to KM",
+  "description": "Convert 40 nautical miles (NM) to kilometers (74.08 km). 100% free and local.",
+  "path": "/tools/convert-40-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 40 nautical miles to km",
+    "Convert 40 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

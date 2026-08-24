@@ -1,0 +1,15 @@
+{
+  "name": "Carnot Heat Engine Maximum Efficiency Calculator",
+  "description": "Calculate theoretical maximum thermal efficiency (η = 1 - T_cold / T_hot) of Carnot heat engines from hot reservoir and cold exhaust temperatures.",
+  "path": "/tools/carnot-heat-engine-efficiency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "carnot efficiency calculator",
+    "heat engine efficiency calculator",
+    "thermodynamic efficiency formula",
+    "carnot cycle theoretical limit",
+    "hot cold reservoir thermal efficiency"
+  ],
+  "order": 187
+}

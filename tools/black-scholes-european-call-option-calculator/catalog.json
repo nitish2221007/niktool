@@ -1,0 +1,15 @@
+{
+  "name": "Black-Scholes European Call & Put Option Pricing Calculator",
+  "description": "Calculate theoretical fair market price of European call options (C = S₀ · N(d₁) - K · e^(-rT) · N(d₂)) and put options from stock price, strike price, volatility, and expiration time.",
+  "path": "/tools/black-scholes-european-call-option-calculator/",
+  "category": "Finance",
+  "icon": "chart",
+  "keywords": [
+    "black scholes option calculator",
+    "black scholes call put formula online",
+    "option pricing model calculator",
+    "implied volatility black scholes online",
+    "d1 d2 black scholes formula calculator"
+  ],
+  "order": 487
+}

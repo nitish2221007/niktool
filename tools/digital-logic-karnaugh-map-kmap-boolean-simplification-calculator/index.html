@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer - Free Online Tool | NikTool</title>
+  <meta name="description" content="Simplify digital logic Boolean truth tables into minimal Sum-of-Products (SOP) algebraic expressions using 2-variable, 3-variable, and 4-variable Karnaugh Map (K-Map) Gray code grouping minimization.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/digital-logic-karnaugh-map-kmap-boolean-simplification-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer | NikTool">
+  <meta property="og:description" content="Simplify digital logic Boolean truth tables into minimal Sum-of-Products (SOP) algebraic expressions using 2-variable, 3-variable, and 4-variable Karnaugh Map (K-Map) Gray code grouping minimization.">
+  <meta property="og:url" content="https://niktool.in/tools/digital-logic-karnaugh-map-kmap-boolean-simplification-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/digital-logic-karnaugh-map-kmap-boolean-simplification-calculator/",
+        "description": "Simplify digital logic Boolean truth tables into minimal Sum-of-Products (SOP) algebraic expressions using 2-variable, 3-variable, and 4-variable Karnaugh Map (K-Map) Gray code grouping minimization.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Can diagonal 1s in a K-map be grouped together?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No; K-map groupings must form adjacent horizontal or vertical rectangles of size $1, 2, 4, 8,\text{ or }16$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer</h1>
+      <p>Simplify digital logic Boolean truth tables into minimal Sum-of-Products (SOP) algebraic expressions using 2-variable, 3-variable, and 4-variable Karnaugh Map (K-Map) Gray code grouping minimization.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">2-Variable K-Map Minterm Outputs (m00, m01, m10, m11 for Inputs A, B)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(110px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="km-m0">m₀ (A=0, B=0)</label>
+          <select class="tool-textarea" id="km-m0"><option value="0">0</option><option value="1" selected>1</option></select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="km-m1">m₁ (A=0, B=1)</label>
+          <select class="tool-textarea" id="km-m1"><option value="0">0</option><option value="1" selected>1</option></select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="km-m2">m₂ (A=1, B=0)</label>
+          <select class="tool-textarea" id="km-m2"><option value="0">0</option><option value="1" selected>1</option></select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="km-m3">m₃ (A=1, B=1)</label>
+          <select class="tool-textarea" id="km-m3"><option value="0" selected>0</option><option value="1">1</option></select>
+        </div>
+      </div>
+      <div id="km-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="km-res-sop" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">F(A, B) = A' + B' (NAND Form)</span>
+            <span class="stat-label">Minimal Sum of Products (SOP) Boolean Expression</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="km-res-grp" style="color:var(--green-dark); font-weight:700;">Group 1: (m₀, m₁) -> A' | Group 2: (m₀, m₂) -> B' (Reduced from 3 gates to 2 literals)</span>
+            <span class="stat-label">K-Map Rectangular Gray Code Groupings</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Digital Logic Karnaugh Map (K-Map 2×2 & 4×4) Boolean Minimizer</h2>
+      <ol>
+        <li>Select output binary states (0 or 1) for minterm truth table rows $m_0, m_1, m_2, m_3$.</li>
+        <li>Inspect minimized Sum-of-Products (SOP) Boolean algebraic equation.</li>
+        <li>View adjacent Gray-code grouping pairs that eliminate redundant logic gate literals.</li>
+      </ol>
+
+      <h2>Maurice Karnaugh 1953 Logic Optimization</h2>
+      <p>Karnaugh maps organize truth tables into Gray code arrays where adjacent cells differ by only a single binary bit ($A ar{B} + AB = A$), allowing visual identification of maximal power-of-two rectangular groupings to minimize transistor gate count in FPGA and ASIC chip design.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Can diagonal 1s in a K-map be grouped together?</summary>
+        <p>No; K-map groupings must form adjacent horizontal or vertical rectangles of size $1, 2, 4, 8,	ext{ or }16$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/digital-logic-karnaugh-map-kmap-boolean-simplification-calculator/tool.js"></script>
+</body>
+</html>

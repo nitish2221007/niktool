@@ -1,0 +1,15 @@
+{
+  "name": "Convert 64°C Celsius to Kelvin Temp",
+  "description": "Convert 64 degrees Celsius (°C) to Kelvin (337.15 K) instantly.",
+  "path": "/tools/convert-64-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 64 celsius to kelvin temp",
+    "Convert 64°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

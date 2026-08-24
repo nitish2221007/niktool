@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 56 Units)",
+  "description": "Calculate the exact area of a circle with radius 56 units (A = πr² = 9852.03).",
+  "path": "/tools/area-of-circle-radius-56-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 56 units",
+    "Area of Circle (Radius 56 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

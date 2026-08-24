@@ -1,0 +1,15 @@
+{
+  "name": "Emergency Fund Savings Goal Calculator",
+  "description": "Calculate your target 3-to-6 month emergency cash reserve based on fixed monthly living expenses, debt obligations, and dependents.",
+  "path": "/tools/emergency-fund-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "emergency fund calculator",
+    "savings emergency fund target",
+    "3 to 6 months expenses calculator",
+    "emergency savings buffer calculator",
+    "financial safety net planner"
+  ],
+  "order": 146
+}

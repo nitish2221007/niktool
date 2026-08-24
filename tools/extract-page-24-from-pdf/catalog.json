@@ -1,0 +1,16 @@
+{
+  "name": "Extract Page 24 From PDF",
+  "description": "Extract page 24 from any PDF file as a single-page document. 100% free and local.",
+  "path": "/tools/extract-page-24-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "extract page 24 from pdf",
+    "Extract Page 24 From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 153 KM to Miles",
+  "description": "Convert 153 kilometers to miles (95.07 miles). 100% free and local.",
+  "path": "/tools/convert-153-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 153 km to miles",
+    "Convert 153 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

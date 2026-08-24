@@ -1,0 +1,15 @@
+{
+  "name": "Binomial Distribution Probability & CDF Calculator",
+  "description": "Calculate exact binomial probability (P(X = k) = C(n, k) · p^k · (1-p)^(n-k)), cumulative probability P(X ≤ k), expected value (E[X] = n·p), and variance.",
+  "path": "/tools/binomial-distribution-probability-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "binomial distribution calculator",
+    "binomial probability formula online",
+    "p x equals k binomial calculator",
+    "cumulative binomial cdf calculator online",
+    "bernoulli trials probability calculator"
+  ],
+  "order": 426
+}

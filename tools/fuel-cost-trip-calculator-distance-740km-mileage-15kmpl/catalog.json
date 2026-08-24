@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (740 km Distance, 15 km/l Mileage)",
+  "description": "Calculate fuel needed (49.3 L) and cost (₹4757) for 740 km trip at 15 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-740km-mileage-15kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 740km mileage 15kmpl",
+    "Fuel Cost Trip Calculator (740 km Distance, 15 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

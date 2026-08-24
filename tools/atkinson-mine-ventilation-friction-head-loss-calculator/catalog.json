@@ -1,0 +1,15 @@
+{
+  "name": "Atkinson Mine Ventilation Friction Pressure Loss (H_f = K·P·L·Q² / 5.2·A³) Calculator",
+  "description": "Calculate underground mine airway ventilation airway friction pressure loss H_f in inches of water gauge (in. w.g.) and Pa, airway resistance R, and air power requirement using Atkinson's equation.",
+  "path": "/tools/atkinson-mine-ventilation-friction-head-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "atkinson mine ventilation calculator",
+    "airway friction head loss formula atkinson online",
+    "underground mine ventilation pressure drop calculator",
+    "mine airway resistance r square law calculator",
+    "mining engineering ventilation airflow online"
+  ],
+  "order": 1306
+}

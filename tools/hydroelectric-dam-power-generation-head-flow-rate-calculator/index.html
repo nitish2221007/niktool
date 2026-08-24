@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate hydroelectric turbine power generation (P = η · ρ · g · Q · H) in Megawatts (MW), annual electricity generation in GWh/year, and water volume requirements from hydraulic head H and flow rate Q.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hydroelectric-dam-power-generation-head-flow-rate-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator | NikTool">
+  <meta property="og:description" content="Calculate hydroelectric turbine power generation (P = η · ρ · g · Q · H) in Megawatts (MW), annual electricity generation in GWh/year, and water volume requirements from hydraulic head H and flow rate Q.">
+  <meta property="og:url" content="https://niktool.in/tools/hydroelectric-dam-power-generation-head-flow-rate-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hydroelectric-dam-power-generation-head-flow-rate-calculator/",
+        "description": "Calculate hydroelectric turbine power generation (P = η · ρ · g · Q · H) in Megawatts (MW), annual electricity generation in GWh/year, and water volume requirements from hydraulic head H and flow rate Q.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the difference between Francis, Pelton, and Kaplan turbines?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pelton wheels are used for high head ($>300\text{ m}$) low flow; Francis turbines for medium head ($50\text{–}300\text{ m}$); Kaplan propellers for low head ($<50\text{ m}$) high flow rivers."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator</h1>
+      <p>Calculate hydroelectric turbine power generation (P = η · ρ · g · Q · H) in Megawatts (MW), annual electricity generation in GWh/year, and water volume requirements from hydraulic head H and flow rate Q.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Hydraulic Net Head H (m), Water Flow Rate Q (m³/s) & Turbine-Generator Efficiency η (%)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hy-head">Head H (m)</label>
+          <input class="tool-textarea" id="hy-head" type="number" step="10" value="80.0" placeholder="80.0 m (Dam Height)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hy-q">Flow Q (m³/s)</label>
+          <input class="tool-textarea" id="hy-q" type="number" step="50" value="250.0" placeholder="250.0 m³/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hy-eff">Efficiency η (%)</label>
+          <input class="tool-textarea" id="hy-eff" type="number" step="1" value="90.0" placeholder="90.0% (Francis Turbine)" />
+        </div>
+      </div>
+      <div id="hy-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hy-res-mw" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Power P = 176.52 MW</span>
+            <span class="stat-label">Continuous Hydroelectric Electric Power Output</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hy-res-gwh" style="color:var(--green-dark); font-weight:700;">Annual Energy = 1,546 GWh / year (Powers ~140,000 Homes @ 90% Capacity Factor)</span>
+            <span class="stat-label">Annual Clean Renewable Energy Generation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hydroelectric Dam Power Generation (P = η·ρ·g·Q·H) & Energy Calculator</h2>
+      <ol>
+        <li>Enter effective net hydraulic fall head H in meters (m).</li>
+        <li>Enter penstock water volume flow rate Q in cubic meters per second ($	ext{m}^3/	ext{s}$).</li>
+        <li>Enter combined turbine and electrical generator efficiency $eta$.</li>
+        <li>Inspect continuous power output in Megawatts (MW) and annual electricity generation in GWh.</li>
+      </ol>
+
+      <h2>Gravitational Water Power Physics</h2>
+      <p>Hydroelectric power directly converts potential gravitational energy into mechanical shaft torque ($P = eta ho g Q H$), providing zero-carbon dispatchable grid balancing energy with rapid startup capability.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the difference between Francis, Pelton, and Kaplan turbines?</summary>
+        <p>Pelton wheels are used for high head ($>300	ext{ m}$) low flow; Francis turbines for medium head ($50	ext{–}300	ext{ m}$); Kaplan propellers for low head ($<50	ext{ m}$) high flow rivers.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hydroelectric-dam-power-generation-head-flow-rate-calculator/tool.js"></script>
+</body>
+</html>

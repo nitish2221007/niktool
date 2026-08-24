@@ -1,0 +1,15 @@
+{
+  "name": "Area of Rectangle (Length 95 x Width 10)",
+  "description": "Calculate area of rectangle with length 95 and width 10 (950 sq units).",
+  "path": "/tools/area-of-rectangle-length-95-width-10/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of rectangle length 95 width 10",
+    "Area of Rectangle (Length 95 x Width 10)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

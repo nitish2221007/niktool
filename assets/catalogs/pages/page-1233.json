@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Wave Speed, Frequency & Wavelength (v = f·λ) Physics Calculator",
+    "description": "Calculate wave velocity (v = f·λ) in m/s, frequency f in Hertz (Hz), and wavelength λ in meters, nanometers, and angstroms across sound waves, radio waves, and the electromagnetic light spectrum.",
+    "path": "/tools/wave-speed-frequency-wavelength-v-equals-f-lambda-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wave speed calculator",
+      "v equals f lambda wave formula calculator online",
+      "frequency to wavelength converter physics",
+      "sound wave light wave speed calculator",
+      "electromagnetic spectrum wavelength to frequency online"
+    ]
+  },
+  {
+    "name": "Refractive Index, Critical Angle & Total Internal Reflection (TIR) Calculator",
+    "description": "Calculate optical critical angle (sin θ_c = n₂ / n₁) in degrees, refractive index n, and light speed in medium (v = c / n) for fiber optic waveguides, diamond brilliance, and Snell's law refraction.",
+    "path": "/tools/refractive-index-critical-angle-total-internal-reflection-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "critical angle calculator",
+      "total internal reflection formula sin theta c equals n2 over n1 online",
+      "refractive index fiber optic critical angle calculator",
+      "snells law total internal reflection calculator",
+      "diamond critical angle brilliance calculator online"
+    ]
+  },
+  {
+    "name": "Density, Mass & Volume (ρ = m / V) Secondary Science Calculator",
+    "description": "Calculate substance density (ρ = m / V) in g/cm³ and kg/m³, mass m, and volume V across liquids, solids, and gases with material buoyancy floating/sinking classification in water.",
+    "path": "/tools/density-mass-volume-rho-equals-m-over-v-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "density calculator",
+      "density formula rho equals mass over volume online",
+      "mass volume density triangle calculator g per cm3",
+      "buoyancy float or sink density calculator",
+      "middle school science density calculator online"
+    ]
+  },
+  {
+    "name": "Solution Molarity Concentration (c = n / V = m / (M·V)) Calculator",
+    "description": "Calculate chemical solution molarity concentration (c = n / V = mass / (Molar Mass · Volume in Liters)) in mol/L (M) and determine exact solute mass required for laboratory reagent preparation.",
+    "path": "/tools/solution-molarity-concentration-c-equals-n-over-v-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "molarity calculator",
+      "molarity formula c equals n over v online",
+      "solution concentration calculator moles per liter",
+      "chemistry lab reagent prep mass calculator molarity",
+      "solute mass molar mass volume calculator online"
+    ]
+  },
+  {
+    "name": "Acid-Base Titration Neutralization (C₁·V₁ / n₁ = C₂·V₂ / n₂) Equivalence Calculator",
+    "description": "Calculate unknown acid/base concentration or equivalence endpoint volume (C_acid · V_acid / n_acid = C_base · V_base / n_base) for monoprotic, diprotic (H₂SO₄), and triprotic (H₃PO₄) neutralizations.",
+    "path": "/tools/titration-neutralization-c1v1-equals-c2v2-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "titration calculator",
+      "neutralization formula c1 v1 over n1 equals c2 v2 over n2 online",
+      "acid base titration equivalence point calculator",
+      "unknown acid concentration buret volume calculator",
+      "hcl naoh titration stoichiometry online"
+    ]
+  },
+  {
+    "name": "pH, pOH, [H⁺] & [OH⁻] Ion Concentration Chemistry Converter",
+    "description": "Convert between pH, pOH, hydronium ion concentration [H⁺] = 10^(-pH), and hydroxide concentration [OH⁻] = 10^(-pOH) using water autoionization equilibrium (pH + pOH = 14.00 @ 25°C).",
+    "path": "/tools/ph-poh-hydrogen-ion-concentration-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ph calculator",
+      "poh to ph converter formula ph plus poh equals 14 online",
+      "hydrogen ion concentration from ph calculator 10 to minus ph",
+      "acidic basic neutral ph scale converter",
+      "chemistry autoionization of water kw calculator online"
+    ]
+  },
+  {
+    "name": "Pythagorean Theorem Hypotenuse (c = √(a² + b²)) & Right Triangle Calculator",
+    "description": "Calculate right triangle hypotenuse (c = √(a² + b²)) or leg lengths (a = √(c² - b²)), perimeter, area (A = ½·a·b), and interior angles for middle school and high school geometry.",
+    "path": "/tools/pythagorean-theorem-hypotenuse-leg-triangle-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "pythagorean theorem calculator",
+      "a squared plus b squared equals c squared formula online",
+      "hypotenuse calculator right triangle",
+      "find missing side right triangle pythagoras calculator",
+      "geometry pythagorean triples 3 4 5 calculator"
+    ]
+  },
+  {
+    "name": "Right Triangle Trigonometry (SOH-CAH-TOA: sin, cos, tan) Solver",
+    "description": "Solve right triangle sides and angles using SOH-CAH-TOA ratios (sin θ = Opp/Hyp, cos θ = Adj/Hyp, tan θ = Opp/Adj) and inverse trig functions (arcsin, arccos, arctan) for high school math.",
+    "path": "/tools/trigonometry-soh-cah-toa-right-triangle-solver/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "soh cah toa calculator",
+      "right triangle trigonometry solver sine cosine tangent online",
+      "opposite adjacent hypotenuse trig ratio calculator",
+      "sin cos tan formula triangle solver",
+      "high school geometry trigonometry calculator online"
+    ]
+  },
+  {
+    "name": "Circle Geometry (Area A = π·r², Circumference C = 2·π·r, Arc Length & Sector Area) Calculator",
+    "description": "Calculate circle area (A = π·r²), perimeter circumference (C = 2·π·r), circular arc length (s = r·θ), and pie sector area (A_sector = ½·r²·θ) from radius r and central angle θ in degrees.",
+    "path": "/tools/circle-area-circumference-arc-length-sector-area-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "circle area calculator",
+      "circle circumference formula c equals 2 pi r online",
+      "arc length sector area calculator radius central angle",
+      "area of a circle pi r squared calculator",
+      "circle geometry formulas solver online"
+    ]
+  },
+  {
+    "name": "3D Solid Geometry (Cylinder, Cone & Sphere Volume and Surface Area) Calculator",
+    "description": "Calculate 3D solid geometry volume (Cylinder V = π·r²·h, Cone V = ⅓·π·r²·h, Sphere V = ⁴/₃·π·r³) and total surface area for secondary school math and geometry courses.",
+    "path": "/tools/cylinder-cone-sphere-volume-surface-area-geometry-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "cylinder volume calculator",
+      "cone sphere cylinder volume surface area calculator online",
+      "volume of sphere four thirds pi r cubed calculator",
+      "cone volume one third pi r squared h calculator",
+      "3d geometry surface area calculator online"
+    ]
+  },
+  {
+    "name": "Gas Molar Volume & Avogadro's Law (STP 22.4 L & RTP 24.0 L) Calculator",
+    "description": "Calculate ideal gas volume (V = n · V_m) at Standard Temperature and Pressure (STP 0°C, 1 atm: V_m = 22.4 L/mol) and Room Temperature and Pressure (RTP 20°C/25°C, 1 atm: V_m = 24.0 L/mol) for chemistry exams.",
+    "path": "/tools/gas-molar-volume-avogadro-law-stp-rtp-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gas molar volume calculator",
+      "avogadro law stp 22.4 liters rtp 24 liters calculator",
+      "moles of gas to volume in liters calculator stp",
+      "ideal gas molar volume room temperature calculator",
+      "chemistry stoichiometry gas volume calculator online"
+    ]
+  },
+  {
+    "name": "Scientific Notation, Standard Form & Engineering Exponent Converter",
+    "description": "Convert standard decimal numbers into Scientific Notation (a · 10^b where 1 ≤ |a| and |a| is less than 10) and Engineering Notation (powers of 10 in multiples of 3: kilo, mega, micro, nano) with significant figure tracking.",
+    "path": "/tools/scientific-notation-standard-form-engineering-exponent-converter/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "scientific notation converter",
+      "standard form converter a times 10 to the b online",
+      "engineering notation calculator multiples of 3",
+      "significant figures scientific notation converter",
+      "decimal to scientific notation calculator online"
+    ]
+  },
+  {
+    "name": "Percentage Composition by Mass of Chemical Formula Calculator",
+    "description": "Calculate individual elemental percentage mass fractions (% = (n · M_element / M_total) · 100) from molecular formulas (e.g. Glucose C₆H₁₂O₆, Water H₂O, Calcium Carbonate CaCO₃) for high school chemistry.",
+    "path": "/tools/percentage-composition-by-mass-chemical-formula-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "percentage composition calculator",
+      "percent composition by mass formula chemistry online",
+      "molar mass percentage composition calculator",
+      "glucose percent carbon hydrogen oxygen calculator",
+      "stoichiometry mass percent chemical formula online"
+    ]
+  },
+  {
+    "name": "Richter Magnitude & Seismic Earthquake Energy Release (E = 10^(4.8 + 1.5·M)) Calculator",
+    "description": "Calculate earthquake seismic radiative energy release in Joules and TNT equivalent (log₁₀ E = 4.8 + 1.5·M) and compute energy amplification ratios (each +1.0 magnitude step increases energy by 31.62×).",
+    "path": "/tools/richter-magnitude-earthquake-seismic-energy-release-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "richter scale calculator",
+      "earthquake energy formula 10 to the 4.8 plus 1.5 m online",
+      "earthquake magnitude energy multiplier calculator 32x",
+      "tnt equivalent earthquake energy calculator",
+      "seismology richter magnitude energy release online"
+    ]
+  },
+  {
+    "name": "Compound Interest & Future Value (A = P·(1 + r/n)^(n·t)) Savings Calculator",
+    "description": "Calculate compound interest accumulated balance (A = P·(1 + r/n)^(n·t)) and total interest earned with monthly, quarterly, or annual compounding frequencies for financial literacy education.",
+    "path": "/tools/compound-interest-future-value-savings-a-equals-p-1-plus-r-over-n-nt-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "compound interest calculator",
+      "compound interest formula a equals p 1 plus r over n to the nt online",
+      "future value savings investment calculator",
+      "monthly compounding interest calculator online",
+      "financial literacy compound growth calculator"
+    ]
+  },
+  {
+    "name": "Equivalent Resistance in Series & Parallel (R_eq = R₁ + R₂ vs 1/R_eq = 1/R₁ + 1/R₂) Calculator",
+    "description": "Calculate equivalent circuit resistance for series circuits (R_series = R₁ + R₂ + R₃) and parallel circuits (1/R_parallel = 1/R₁ + 1/R₂ + 1/R₃) with total circuit current and branch current division for middle school and GCSE physics.",
+    "path": "/tools/ohms-law-resistors-in-series-and-parallel-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "resistors in series and parallel calculator",
+      "equivalent resistance formula r1 plus r2 online",
+      "parallel resistors calculator 1 over r1 plus 1 over r2",
+      "current divider circuit resistance calculator",
+      "gcse physics electric circuits resistance solver online"
+    ]
+  },
+  {
+    "name": "Electrical Transformer Step-Up & Step-Down Turns Ratio (V_p/V_s = N_p/N_s = I_s/I_p) Calculator",
+    "description": "Calculate AC voltage transformation (V_p / V_s = N_p / N_s = I_s / I_p), coil turns ratio, primary/secondary current, and efficiency percentage (η = P_out / P_in · 100) for GCSE and high school physics.",
+    "path": "/tools/transformer-step-up-step-down-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "transformer calculator",
+      "transformer turns ratio formula vp over vs equals np over ns online",
+      "step up step down transformer voltage current calculator",
+      "primary secondary coil turns calculator physics",
+      "transformer efficiency electrical power online"
+    ]
+  },
+  {
+    "name": "Radioactive Decay Activity (A = A₀·(½)^(t/t_½)) & Becquerel Decay Calculator",
+    "description": "Calculate radioisotope activity decay (A = A₀ · (½)^(t / t_½)) in Becquerels (Bq) and Curies (Ci), decay constant λ = ln 2 / t_½, and remaining radionuclide fraction for nuclear physics.",
+    "path": "/tools/radioactive-decay-activity-becquerel-half-life-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radioactive activity calculator",
+      "becquerel decay formula a equals a0 half to the t over t half online",
+      "decay constant lambda ln 2 over half life calculator",
+      "nuclear radiation activity bq curies calculator",
+      "radioisotope half life decay solver online"
+    ]
+  },
+  {
+    "name": "Conservation of Mechanical Energy (E_p = m·g·h ↔ E_k = ½·m·v²) Rollercoaster Calculator",
+    "description": "Calculate gravitational potential energy (E_p = m·g·h), kinetic energy (E_k = ½·m·v²), and frictionless free-fall velocity (v = √(2·g·h)) under conservation of mechanical energy for physics students.",
+    "path": "/tools/gravitational-potential-energy-kinetic-energy-conservation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "conservation of energy calculator",
+      "gravitational potential energy formula mgh online",
+      "kinetic energy formula half m v squared calculator",
+      "free fall velocity v equals sqrt 2gh calculator",
+      "rollercoaster conservation of energy physics online"
+    ]
+  },
+  {
+    "name": "Chemical Moles, Mass & Molar Mass (n = m / M_r) Stoichiometry Triangle Calculator",
+    "description": "Calculate chemical moles (n = m / M_r), mass in grams (m = n · M_r), and molar mass (M_r = m / n) using the fundamental chemistry mole triangle for GCSE and introductory high school science.",
+    "path": "/tools/moles-mass-molar-mass-n-equals-m-over-mr-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "moles calculator",
+      "moles formula n equals m over mr online",
+      "chemistry mole triangle calculator grams to moles",
+      "molar mass mass moles calculator",
+      "stoichiometry mole calculation online"
+    ]
+  },
+  {
+    "name": "Laplace Transform Table & S-Domain Transfer Function L{f(t)} Calculator",
+    "description": "Compute unilateral Laplace transforms L{f(t)} = F(s) for standard engineering time-domain signals (Unit Step u(t), Ramp t, Exponential e^(-at), Sine sin(ωt), Damped Oscillator e^(-at)·cos(ωt)) and evaluate region of convergence (ROC).",
+    "path": "/tools/laplace-transform-table-s-domain-transfer-function-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "laplace transform calculator",
+      "s domain transfer function calculator laplace table online",
+      "inverse laplace transform partial fractions calculator",
+      "damped sine exponential laplace transform solver",
+      "control systems laplace transform online"
+    ]
+  },
+  {
+    "name": "Fourier Series Harmonic Coefficients (Square, Sawtooth & Triangle Waves) Calculator",
+    "description": "Calculate periodic waveform Fourier Series harmonic coefficients (a_0, a_n, b_n) and synthesize time-domain harmonic reconstructions up to the 15th harmonic for electrical engineering and signal processing.",
+    "path": "/tools/fourier-series-coefficients-square-sawtooth-triangle-wave-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "fourier series calculator",
+      "fourier coefficients square wave sawtooth triangle wave online",
+      "harmonic synthesis fourier series calculator",
+      "odd harmonics even harmonics fourier solver",
+      "signal processing fourier series online"
+    ]
+  },
+  {
+    "name": "Second-Order System Damping Ratio (ζ), Natural Frequency (ω_n) & Step Response Calculator",
+    "description": "Calculate second-order dynamic control system response parameters (s² + 2ζω_n·s + ω_n² = 0), damping ratio ζ, undamped natural frequency ω_n, percentage overshoot (%OS = e^(-πζ/√(1-ζ²)) · 100), and settling time (t_s ≈ 4 / (ζω_n)).",
+    "path": "/tools/second-order-ode-damping-ratio-natural-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "second order system calculator",
+      "damping ratio zeta natural frequency omega n calculator online",
+      "percentage overshoot formula step response control systems",
+      "settling time peak time second order transfer function calculator",
+      "underdamped critically damped overdamped solver online"
+    ]
+  },
+  {
+    "name": "2×2 Matrix Eigenvalues (λ), Eigenvectors & Characteristic Polynomial Calculator",
+    "description": "Calculate 2×2 square matrix characteristic equation (λ² - Trace·λ + Det = 0), real/complex eigenvalues λ₁ and λ₂, and corresponding normalized eigenvectors for linear algebra and quantum mechanics.",
+    "path": "/tools/matrix-eigenvalues-eigenvectors-characteristic-polynomial-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "eigenvalues calculator",
+      "eigenvectors 2x2 matrix characteristic polynomial solver online",
+      "matrix trace determinant eigenvalues formula calculator",
+      "diagonalization linear algebra eigenvalue calculator",
+      "complex eigenvalues 2x2 matrix solver online"
+    ]
+  }
+]

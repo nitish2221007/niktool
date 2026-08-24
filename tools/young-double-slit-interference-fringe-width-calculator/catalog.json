@@ -1,0 +1,15 @@
+{
+  "name": "Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator",
+  "description": "Calculate double-slit wave interference bright fringe position (y_m = m · λ · L / d) in mm, dark fringe minima, and uniform fringe spacing width (β = λ · L / d) for wave optics physics.",
+  "path": "/tools/young-double-slit-interference-fringe-width-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "youngs double slit calculator",
+    "interference fringe width formula beta equals lambda L over d online",
+    "double slit bright dark fringes position calculator",
+    "optical wavelength slit separation interference calculator",
+    "wave optics double slit experiment online"
+  ],
+  "order": 1037
+}

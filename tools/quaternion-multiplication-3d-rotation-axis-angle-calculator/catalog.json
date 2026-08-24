@@ -1,0 +1,15 @@
+{
+  "name": "Quaternion Hamilton Product (q₁·q₂) & 3D Spatial Rotation Calculator",
+  "description": "Calculate 4D Hamilton quaternion multiplication (q₁ · q₂), conjugate, norm, and convert 3D rotation axis-angle θ around unit vector u into unit rotation quaternions (q = cos(θ/2) + u·sin(θ/2)) for 3D robotics and game engines.",
+  "path": "/tools/quaternion-multiplication-3d-rotation-axis-angle-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "quaternion multiplication calculator",
+    "hamilton quaternion product formula q1 q2 online",
+    "quaternion 3d rotation axis angle calculator",
+    "gimbal lock avoidance quaternion robotics calculator",
+    "3d computer graphics quaternion math online"
+  ],
+  "order": 1104
+}

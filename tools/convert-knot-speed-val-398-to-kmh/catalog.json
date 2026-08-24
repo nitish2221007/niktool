@@ -1,0 +1,15 @@
+{
+  "name": "Convert 398 Knots Speed Val to KM/H",
+  "description": "Convert 398 knots speed to kilometers per hour (737.10 km/h).",
+  "path": "/tools/convert-knot-speed-val-398-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 398 to kmh",
+    "Convert 398 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

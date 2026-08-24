@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel Acoustic Coincidence Critical Frequency (f_c) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate acoustic coincidence critical dip frequency (f_c = (c² / 2π) · √(m / B)) in Hz where bending wave speed matches air sound speed, causing sharp soundproofing failure in glass and drywall panels.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/acoustic-coincidence-critical-frequency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Panel Acoustic Coincidence Critical Frequency (f_c) Calculator | NikTool">
+  <meta property="og:description" content="Calculate acoustic coincidence critical dip frequency (f_c = (c² / 2π) · √(m / B)) in Hz where bending wave speed matches air sound speed, causing sharp soundproofing failure in glass and drywall panels.">
+  <meta property="og:url" content="https://niktool.in/tools/acoustic-coincidence-critical-frequency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Panel Acoustic Coincidence Critical Frequency (f_c) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/acoustic-coincidence-critical-frequency-calculator/",
+        "description": "Calculate acoustic coincidence critical dip frequency (f_c = (c² / 2π) · √(m / B)) in Hz where bending wave speed matches air sound speed, causing sharp soundproofing failure in glass and drywall panels.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How do acoustic engineers eliminate the coincidence dip in windows?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Using laminated glass with a damping acoustic Polyvinyl Butyral (PVB) interlayer absorbs flexural bending energy and smooths out the transmission loss dip."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Panel Acoustic Coincidence Critical Frequency (f_c) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Panel Acoustic Coincidence Critical Frequency (f_c) Calculator</h1>
+      <p>Calculate acoustic coincidence critical dip frequency (f_c = (c² / 2π) · √(m / B)) in Hz where bending wave speed matches air sound speed, causing sharp soundproofing failure in glass and drywall panels.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Panel Material (Glass, Gypsum, Steel, Aluminum, Plywood) & Thickness t (mm)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="coin-mat">Panel Material</label>
+          <select class="tool-textarea" id="coin-mat">
+            <option value="glass" selected>Window Float Glass (E = 70 GPa, ρ = 2500 kg/m³)</option>
+            <option value="gypsum">Gypsum Plasterboard / Drywall (E = 2.5 GPa, ρ = 800 kg/m³)</option>
+            <option value="steel">Sheet Steel (E = 200 GPa, ρ = 7850 kg/m³)</option>
+            <option value="aluminum">Sheet Aluminum (E = 70 GPa, ρ = 2700 kg/m³)</option>
+            <option value="plywood">Plywood (E = 6.0 GPa, ρ = 600 kg/m³)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="coin-thk">Thickness t (mm)</label>
+          <input class="tool-textarea" id="coin-thk" type="number" step="any" value="6.0" placeholder="6.0 mm (Window Glass)" />
+        </div>
+      </div>
+      <div id="coin-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="coin-res-fc" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">f_c = 2,050 Hz Critical Dip</span>
+            <span class="stat-label">Coincidence Critical Frequency (f_c)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="coin-res-desc" style="color:var(--green-dark); font-weight:700;">Severe -15 dB Sound Isolation Drop in High Speech / Sibilance Band (2.0 kHz)</span>
+            <span class="stat-label">Acoustic Soundproofing Impact</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Panel Acoustic Coincidence Critical Frequency (f_c) Calculator</h2>
+      <ol>
+        <li>Select solid panel barrier material (Float Window Glass, Gypsum Plasterboard, Steel, Aluminum, Plywood).</li>
+        <li>Enter physical panel thickness in millimeters.</li>
+        <li>Inspect coincidence critical frequency $f_c$ where soundproofing transmission loss drops sharply by 10 to 15 dB.</li>
+      </ol>
+
+      <h2>Bending Wave Acoustic Trace Velocity Matching</h2>
+      <p>At the critical coincidence frequency ($f_c$), free flexural bending waves in the solid panel propagate at the exact same velocity as airborne acoustic waves, causing the panel to become acoustically transparent and destroying sound isolation.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How do acoustic engineers eliminate the coincidence dip in windows?</summary>
+        <p>Using laminated glass with a damping acoustic Polyvinyl Butyral (PVB) interlayer absorbs flexural bending energy and smooths out the transmission loss dip.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/acoustic-coincidence-critical-frequency-calculator/tool.js"></script>
+</body>
+</html>

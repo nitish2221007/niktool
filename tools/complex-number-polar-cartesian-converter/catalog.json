@@ -1,0 +1,15 @@
+{
+  "name": "Complex Number Polar & Cartesian Form Converter",
+  "description": "Convert complex numbers between Rectangular Cartesian form (a + bi) and Exponential Polar form (r · e^(iθ) / r ∠ θ) in real time.",
+  "path": "/tools/complex-number-polar-cartesian-converter/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "complex number polar form converter",
+    "cartesian to polar complex calculator",
+    "euler form complex number calculator",
+    "magnitude phase angle radians degrees",
+    "complex number phasor calculator online"
+  ],
+  "order": 274
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Raoult's Law Binary Mixture Vapor Pressure (P_tot = x_A·P_A* + x_B·P_B*) Calculator",
+  "description": "Calculate ideal liquid solution partial vapor pressures (P_A = x_A · P_A*, P_B = x_B · P_B*), total vapor pressure (P_total = P_A + P_B), and vapor phase mole fractions (y_A = P_A / P_total) for fractional distillation.",
+  "path": "/tools/raoults-law-ideal-solution-vapor-pressure-binary-mixture-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "raoults law calculator",
+    "vapor pressure ideal binary solution formula online",
+    "mole fraction liquid vapor distillation raoult calculator",
+    "partial pressure dalton raoult binary mixture calculator",
+    "chemical engineering vapor liquid equilibrium vle online"
+  ],
+  "order": 1009
+}

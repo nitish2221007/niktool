@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 455V, Current 5A)",
+  "description": "Calculate Resistance (91.00 Ω) and Electric Power (2275.0 W) for 455V voltage and 5A current.",
+  "path": "/tools/ohms-law-calculator-voltage-455v-current-5a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 455v current 5a",
+    "Ohm's Law Calculator (Voltage 455V, Current 5A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

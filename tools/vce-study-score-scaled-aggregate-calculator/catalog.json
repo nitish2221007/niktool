@@ -1,0 +1,15 @@
+{
+  "name": "Victorian VCE Study Score Scaling & VTAC Aggregate Score Calculator",
+  "description": "Calculate Victorian Certificate of Education (VCE) raw-to-scaled study score adjustments and VTAC aggregate totals across Specialist Mathematics, Math Methods, Chemistry, Physics, and English.",
+  "path": "/tools/vce-study-score-scaled-aggregate-calculator/",
+  "category": "Education",
+  "icon": "calculator",
+  "keywords": [
+    "vce study score calculator",
+    "vce scaling calculator specialist maths methods chemistry online",
+    "vtac study score to atar aggregate calculator",
+    "victorian high school study score scaler online",
+    "vce raw vs scaled study score calculator"
+  ],
+  "order": 904
+}

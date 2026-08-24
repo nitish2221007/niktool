@@ -1,0 +1,15 @@
+{
+  "name": "Wien's Displacement Law Calculator",
+  "description": "Calculate blackbody peak thermal radiation wavelength (λ_max = b / T) and spectrum color from star temperature.",
+  "path": "/tools/wien-displacement-law-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wiens displacement law calculator",
+    "peak emission wavelength calculator",
+    "star surface temperature color",
+    "blackbody peak wavelength formula",
+    "wien constant online calculator"
+  ],
+  "order": 183
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate satellite communications Link Budget Free-Space Path Loss FSPL in dB (Friis Transmission Equation: FSPL = 20·log₁₀(d) + 20·log₁₀(f) + 20·log₁₀(4π/c)), Received Power P_rx in dBm, and Energy per Bit to Noise Ratio E_b/N_0.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/link-margin-friis-free-space-path-loss-eb-n0-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator | NikTool">
+  <meta property="og:description" content="Calculate satellite communications Link Budget Free-Space Path Loss FSPL in dB (Friis Transmission Equation: FSPL = 20·log₁₀(d) + 20·log₁₀(f) + 20·log₁₀(4π/c)), Received Power P_rx in dBm, and Energy per Bit to Noise Ratio E_b/N_0.">
+  <meta property="og:url" content="https://niktool.in/tools/link-margin-friis-free-space-path-loss-eb-n0-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/link-margin-friis-free-space-path-loss-eb-n0-calculator/",
+        "description": "Calculate satellite communications Link Budget Free-Space Path Loss FSPL in dB (Friis Transmission Equation: FSPL = 20·log₁₀(d) + 20·log₁₀(f) + 20·log₁₀(4π/c)), Received Power P_rx in dBm, and Energy per Bit to Noise Ratio E_b/N_0.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is received power measured in picowatts or femtowatts?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Across millions of kilometers, path loss exceeds $260\text{ dB}$ ($10^{-26}$), so even a 20 Watt transmitter delivers less than $10^{-15}\text{ Watts}$ to the receiver dish."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator</h1>
+      <p>Calculate satellite communications Link Budget Free-Space Path Loss FSPL in dB (Friis Transmission Equation: FSPL = 20·log₁₀(d) + 20·log₁₀(f) + 20·log₁₀(4π/c)), Received Power P_rx in dBm, and Energy per Bit to Noise Ratio E_b/N_0.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Transmit Power P_tx (Watts), Tx Gain G_tx (dBi), Rx Gain G_rx (dBi), Freq f (GHz) & Distance d (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="lk-ptx">Tx Power P_tx (W)</label>
+          <input class="tool-textarea" id="lk-ptx" type="number" step="5" value="20.0" placeholder="20.0 Watts (Spacecraft)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lk-gtx">Tx Gain G_tx (dBi)</label>
+          <input class="tool-textarea" id="lk-gtx" type="number" step="5" value="35.0" placeholder="35.0 dBi Dish" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lk-grx">Rx Gain G_rx (dBi)</label>
+          <input class="tool-textarea" id="lk-grx" type="number" step="5" value="65.0" placeholder="65.0 dBi (DSN 70m)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lk-f">Freq f (GHz)</label>
+          <input class="tool-textarea" id="lk-f" type="number" step="1" value="8.4" placeholder="8.4 GHz (X-Band)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="lk-d">Dist d (Million km)</label>
+          <input class="tool-textarea" id="lk-d" type="number" step="10" value="75.0" placeholder="75.0 M km (Mars Range)" />
+        </div>
+      </div>
+      <div id="lk-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="lk-res-prx" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Received P_rx = -125.4 dBm (2.88 × 10⁻¹⁶ W)</span>
+            <span class="stat-label">Received RF Carrier Power at Ground Station Dish Feed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lk-res-fspl" style="color:var(--green-dark); font-weight:700;">Path Loss FSPL = 268.4 dB | EIRP = +48.0 dBW (+78.0 dBm) | Link Closed ✓</span>
+            <span class="stat-label">Free-Space Path Loss (FSPL = (4π·d / λ)²) & Equivalent Isotropic Radiated Power</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator</h2>
+      <ol>
+        <li>Enter satellite radio transmitter RF power output in Watts.</li>
+        <li>Enter satellite high-gain antenna dish gain $G_{	ext{tx}}$ in dBi.</li>
+        <li>Enter receiving ground station antenna dish gain $G_{	ext{rx}}$ in dBi (e.g. 65 dBi for a 70-meter deep space dish).</li>
+        <li>Enter carrier radio frequency in GHz.</li>
+        <li>Enter transmission distance in Millions of kilometers (e.g. 75 M km for Mars average).</li>
+        <li>Inspect received power level $P_{	ext{rx}}$ in dBm and total Free-Space Path Loss (FSPL) in dB.</li>
+      </ol>
+
+      <h2>Harald T. Friis 1946 Free-Space Transmission Law</h2>
+      <p>Quantifies inverse-square electromagnetic power spreading across interplanetary space ($P_{	ext{rx}} propto 1/d^2$), enabling NASA and ESA to size microwave amplifiers and receiver cryogenic low-noise amplifiers (LNAs).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is received power measured in picowatts or femtowatts?</summary>
+        <p>Across millions of kilometers, path loss exceeds $260	ext{ dB}$ ($10^{-26}$), so even a 20 Watt transmitter delivers less than $10^{-15}	ext{ Watts}$ to the receiver dish.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/link-margin-friis-free-space-path-loss-eb-n0-calculator/tool.js"></script>
+</body>
+</html>

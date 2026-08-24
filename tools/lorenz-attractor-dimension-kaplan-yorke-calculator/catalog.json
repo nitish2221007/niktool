@@ -1,0 +1,15 @@
+{
+  "name": "Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator",
+  "description": "Calculate strange attractor fractal Lyapunov dimension (Kaplan-Yorke conjecture: D_KY = k + (λ₁ + ... + λ_k) / |λ_(k+1)|) from sorted Lyapunov exponent spectrums (λ₁ ≥ λ₂ ≥ λ₃).",
+  "path": "/tools/lorenz-attractor-dimension-kaplan-yorke-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "kaplan yorke dimension calculator",
+    "lorenz attractor fractal dimension formula d_ky online",
+    "lyapunov dimension strange attractor calculator",
+    "chaos theory phase space contraction calculator online",
+    "fractal dimension lorenz butterfly attractor online"
+  ],
+  "order": 843
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=50°C, Thick 2mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 1250000 W) across 2mm steel wall at ΔT=50°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-50c-thickness-2mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 50c thickness 2mm",
+    "Thermal Heat Conduction Calculator (ΔT=50°C, Thick 2mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

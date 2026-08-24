@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate cryogenic liquid boil-off evaporation rate (ṁ = Q_leak / ΔH_vap) in kg/h and Liters/day from Dewar vacuum insulation thermal heat leak Q_leak in Watts.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/cryogenic-nitrogen-boil-off-rate-dewar-heat-leak-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator | NikTool">
+  <meta property="og:description" content="Calculate cryogenic liquid boil-off evaporation rate (ṁ = Q_leak / ΔH_vap) in kg/h and Liters/day from Dewar vacuum insulation thermal heat leak Q_leak in Watts.">
+  <meta property="og:url" content="https://niktool.in/tools/cryogenic-nitrogen-boil-off-rate-dewar-heat-leak-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/cryogenic-nitrogen-boil-off-rate-dewar-heat-leak-calculator/",
+        "description": "Calculate cryogenic liquid boil-off evaporation rate (ṁ = Q_leak / ΔH_vap) in kg/h and Liters/day from Dewar vacuum insulation thermal heat leak Q_leak in Watts.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is Liquid Hydrogen boil-off difficult to eliminate completely?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hydrogen has small molecular size causing high vapor pressure and undergoes slow exothermic ortho-to-para spin isomer conversion ($527\text{ kJ/kg}$) that self-boils stored liquid."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator</h1>
+      <p>Calculate cryogenic liquid boil-off evaporation rate (ṁ = Q_leak / ΔH_vap) in kg/h and Liters/day from Dewar vacuum insulation thermal heat leak Q_leak in Watts.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Cryogen Liquid (LN₂, LHe, LOX, LH₂, LNG) & Vacuum Insulation Heat Inleak Q_leak (Watts)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bor-cryo">Cryogenic Liquid</label>
+          <select class="tool-textarea" id="bor-cryo">
+            <option value="ln2" selected>Liquid Nitrogen LN₂ (77 K / -196°C: ΔH_vap = 199 kJ/kg, ρ = 808 kg/m³)</option>
+            <option value="lhe">Liquid Helium LHe (4.2 K / -269°C: ΔH_vap = 20.9 kJ/kg, ρ = 125 kg/m³)</option>
+            <option value="lh2">Liquid Hydrogen LH₂ (20 K / -253°C: ΔH_vap = 446 kJ/kg, ρ = 71 kg/m³)</option>
+            <option value="lox">Liquid Oxygen LOX (90 K / -183°C: ΔH_vap = 213 kJ/kg, ρ = 1141 kg/m³)</option>
+            <option value="lng">Liquid Methane LNG (111 K / -162°C: ΔH_vap = 510 kJ/kg, ρ = 422 kg/m³)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bor-q">Heat Inleak Q (Watts)</label>
+          <input class="tool-textarea" id="bor-q" type="number" step="any" value="5.0" placeholder="5.0 W (Dewar Neck Leak)" />
+        </div>
+      </div>
+      <div id="bor-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bor-res-rate" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">2.68 Liters / Day Lost</span>
+            <span class="stat-label">Daily Liquid Boil-Off Volume Loss Rate</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bor-res-mass" style="font-weight:700;">Mass Loss: 0.090 kg/h (2.17 kg/day) | Heat of Vaporization: 199 kJ/kg</span>
+            <span class="stat-label">Mass Boil-Off Rate (ṁ = Q_leak / ΔH_vap)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator</h2>
+      <ol>
+        <li>Select cryogenic storage liquid (Liquid Nitrogen, Liquid Helium, Liquid Hydrogen, Liquid Oxygen, LNG).</li>
+        <li>Enter total parasitic thermal heat leak into the vacuum Dewar / storage tank in Watts.</li>
+        <li>Inspect daily liquid cryogen loss rate in Liters/day and mass boil-off rate in kg/hour.</li>
+      </ol>
+
+      <h2>Latent Heat of Vaporization Barrier</h2>
+      <p>Liquid Helium has an extremely small latent heat of vaporization ($Delta H_{	ext{vap}} = 20.9	ext{ kJ/kg}$); a tiny heat leak of just 1.0 Watt evaporates over 4.1 Liters of liquid helium per day, requiring multi-layer vacuum insulation (MLI) and liquid nitrogen radiation thermal shields in MRI superconducting magnets.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is Liquid Hydrogen boil-off difficult to eliminate completely?</summary>
+        <p>Hydrogen has small molecular size causing high vapor pressure and undergoes slow exothermic ortho-to-para spin isomer conversion ($527	ext{ kJ/kg}$) that self-boils stored liquid.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/cryogenic-nitrogen-boil-off-rate-dewar-heat-leak-calculator/tool.js"></script>
+</body>
+</html>

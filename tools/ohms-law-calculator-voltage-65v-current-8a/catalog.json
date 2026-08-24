@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 65V, Current 8A)",
+  "description": "Calculate Resistance (8.13 Ω) and Electric Power (520.0 W) for 65V voltage and 8A current.",
+  "path": "/tools/ohms-law-calculator-voltage-65v-current-8a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 65v current 8a",
+    "Ohm's Law Calculator (Voltage 65V, Current 8A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

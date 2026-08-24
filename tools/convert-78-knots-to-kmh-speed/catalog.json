@@ -1,0 +1,15 @@
+{
+  "name": "Convert 78 Knots to KM/H Speed",
+  "description": "Convert 78 knots speed to kilometers per hour (144.46 km/h).",
+  "path": "/tools/convert-78-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 78 knots to kmh speed",
+    "Convert 78 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

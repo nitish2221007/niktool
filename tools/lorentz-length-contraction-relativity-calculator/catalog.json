@@ -1,0 +1,15 @@
+{
+  "name": "Relativistic Length Contraction & Lorentz Factor Calculator",
+  "description": "Calculate relativistic spatial length contraction (L = L₀ · √(1 - v²/c²) = L₀ / γ) and Lorentz factor (γ) for objects moving near the speed of light.",
+  "path": "/tools/lorentz-length-contraction-relativity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "length contraction calculator",
+    "special relativity length contraction formula",
+    "lorentz factor gamma calculator online",
+    "relativistic length contraction percentage",
+    "einstein special relativity calculator"
+  ],
+  "order": 374
+}

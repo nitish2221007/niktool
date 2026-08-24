@@ -1,0 +1,15 @@
+{
+  "name": "Hall Effect Voltage & Carrier Density Calculator",
+  "description": "Calculate transverse Hall voltage (V_H = (I · B) / (n · q · t)) and determine majority charge carrier density (n) in semiconductor sensors and metals.",
+  "path": "/tools/hall-effect-voltage-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hall effect calculator",
+    "hall voltage formula calculator",
+    "semiconductor carrier density hall effect",
+    "hall sensor magnetic field voltage",
+    "transverse hall potential online"
+  ],
+  "order": 357
+}

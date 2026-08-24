@@ -1,0 +1,15 @@
+{
+  "name": "Jeans Instability Mass (M_J ∝ T^(3/2) / ρ^(1/2)) Star Formation Calculator",
+  "description": "Calculate the minimum Jeans Mass (M_J = (5·k_B·T / (G·μ·m_H))^(3/2) · (3 / (4π·ρ))^(1/2)) in Solar Masses and Jeans Length λ_J in parsecs required for an interstellar molecular gas cloud to collapse under gravity into newborn stars.",
+  "path": "/tools/jeans-instability-mass-gravitational-collapse-star-formation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "jeans mass calculator",
+    "jeans instability formula mj online",
+    "interstellar cloud gravitational collapse star formation calculator",
+    "jeans length parsecs molecular cloud calculator",
+    "astrophysics star formation interstellar medium online"
+  ],
+  "order": 1170
+}

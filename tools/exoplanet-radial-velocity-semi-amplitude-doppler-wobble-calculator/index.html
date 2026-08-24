@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate stellar reflex Doppler wobble velocity semi-amplitude (K in m/s or cm/s) induced by an orbiting exoplanet to evaluate radial velocity spectroscopic detection thresholds (HARPS, ESPRESSO).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/exoplanet-radial-velocity-semi-amplitude-doppler-wobble-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator | NikTool">
+  <meta property="og:description" content="Calculate stellar reflex Doppler wobble velocity semi-amplitude (K in m/s or cm/s) induced by an orbiting exoplanet to evaluate radial velocity spectroscopic detection thresholds (HARPS, ESPRESSO).">
+  <meta property="og:url" content="https://niktool.in/tools/exoplanet-radial-velocity-semi-amplitude-doppler-wobble-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/exoplanet-radial-velocity-semi-amplitude-doppler-wobble-calculator/",
+        "description": "Calculate stellar reflex Doppler wobble velocity semi-amplitude (K in m/s or cm/s) induced by an orbiting exoplanet to evaluate radial velocity spectroscopic detection thresholds (HARPS, ESPRESSO).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Earth's Doppler reflex wobble on the Sun?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Earth induces a tiny radial velocity wobble on the Sun of only $8.9\text{ cm/s}$ with a 1-year period."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator</h1>
+      <p>Calculate stellar reflex Doppler wobble velocity semi-amplitude (K in m/s or cm/s) induced by an orbiting exoplanet to evaluate radial velocity spectroscopic detection thresholds (HARPS, ESPRESSO).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Planet Mass M_p (Jupiter or Earth Mass), Host Star Mass M* (M_sun) & Orbital Period P (Days)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rv-mp">Planet Mass</label>
+          <input class="tool-textarea" id="rv-mp" type="number" step="0.5" value="1.0" placeholder="1.0 M_jup" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rv-unit">Planet Mass Unit</label>
+          <select class="tool-textarea" id="rv-unit">
+            <option value="jup" selected>Jupiter Masses (M_jup = 317.8 M_earth)</option>
+            <option value="earth">Earth Masses (M_earth = 5.97 × 10²⁴ kg)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rv-mstar">Star Mass M*</label>
+          <input class="tool-textarea" id="rv-mstar" type="number" step="0.1" value="1.0" placeholder="1.0 M_sun" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rv-period">Period P (Days)</label>
+          <input class="tool-textarea" id="rv-period" type="number" step="5" value="4.23" placeholder="4.23 Days (51 Pegasi b)" />
+        </div>
+      </div>
+      <div id="rv-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rv-res-k" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Doppler Semi-Amplitude K = 55.9 m / s</span>
+            <span class="stat-label">Stellar Reflex Radial Velocity Wobble (K)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rv-res-det" style="color:var(--green-dark); font-weight:700;">HOT JUPITER DETECTED (Easily resolved: Standard spectrograph threshold ~1 m/s)</span>
+            <span class="stat-label">Spectroscopic Spectrograph Detectability Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator</h2>
+      <ol>
+        <li>Enter planet mass in Jupiter or Earth masses.</li>
+        <li>Enter host star mass in solar masses ($M_odot$).</li>
+        <li>Enter orbital period in days.</li>
+        <li>Inspect Doppler stellar wobble semi-amplitude K in m/s or cm/s.</li>
+      </ol>
+
+      <h2>Michel Mayor & Didier Queloz 2019 Nobel Prize Discovery</h2>
+      <p>Measuring periodic Doppler shifts in stellar spectral lines led to the discovery of 51 Pegasi b in 1995, proving the existence of exoplanets around Sun-like stars.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Earth's Doppler reflex wobble on the Sun?</summary>
+        <p>Earth induces a tiny radial velocity wobble on the Sun of only $8.9	ext{ cm/s}$ with a 1-year period.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/exoplanet-radial-velocity-semi-amplitude-doppler-wobble-calculator/tool.js"></script>
+</body>
+</html>

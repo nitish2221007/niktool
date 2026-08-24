@@ -1,0 +1,15 @@
+{
+  "name": "Half-Wave Dipole Antenna Length & Radiation Resistance Calculator",
+  "description": "Calculate resonant half-wave dipole wire antenna length (L = 0.475 · c / f) in meters/feet accounting for end effect velocity factor and 73.13 Ω radiation resistance.",
+  "path": "/tools/dipole-antenna-length-radiation-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dipole antenna length calculator",
+    "half wave dipole formula 468 over f mhz",
+    "antenna radiation resistance 73 ohm calculator",
+    "ham radio dipole wire length calculator online",
+    "rf dipole antenna resonance calculator"
+  ],
+  "order": 627
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sabine Reverberation Time (RT60) Acoustics Calculator",
+  "description": "Calculate acoustic reverberation decay time (RT60 = 0.161 · V / A) in seconds from room volume and total Sabin absorption coefficients.",
+  "path": "/tools/reverberation-time-rt60-sabine-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rt60 calculator",
+    "reverberation time calculator acoustics",
+    "sabine formula rt60 online",
+    "recording studio acoustics calculator",
+    "room echo absorption rt60"
+  ],
+  "order": 305
+}

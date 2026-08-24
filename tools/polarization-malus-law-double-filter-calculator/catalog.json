@@ -1,0 +1,15 @@
+{
+  "name": "Polarization Malus's Law & Optical Filter Transmission Calculator",
+  "description": "Calculate transmitted polarized light intensity (I = I₀ · cos²(θ)) and analyze the three-polarizer quantum transmission paradox.",
+  "path": "/tools/polarization-malus-law-double-filter-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "malus law calculator",
+    "polarization intensity calculator online",
+    "cos squared theta polarizer calculator",
+    "three polarizer quantum paradox formula",
+    "linear polarizer light transmission online"
+  ],
+  "order": 385
+}

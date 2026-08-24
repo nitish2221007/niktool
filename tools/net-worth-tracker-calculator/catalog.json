@@ -1,0 +1,15 @@
+{
+  "name": "Personal Net Worth Calculator",
+  "description": "Calculate total financial net worth by aggregating assets (cash, investments, real estate, vehicles) minus liabilities (mortgage, student loans, credit cards).",
+  "path": "/tools/net-worth-tracker-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "net worth calculator",
+    "personal balance sheet calculator",
+    "total assets minus liabilities",
+    "track net worth online",
+    "calculate financial net worth"
+  ],
+  "order": 148
+}

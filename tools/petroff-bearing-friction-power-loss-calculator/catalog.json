@@ -1,0 +1,15 @@
+{
+  "name": "Petroff's Journal Bearing Friction Torque & Heat Power Loss Calculator",
+  "description": "Calculate hydrodynamic concentric journal bearing viscous shear friction torque (T = 2π·μ·ω·r³·L / c) in N·m and thermal heat dissipation loss (P_loss = T · ω) in Watts/kW.",
+  "path": "/tools/petroff-bearing-friction-power-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "petroff equation calculator",
+    "journal bearing friction torque formula 2 pi mu omega r cubed l over c",
+    "bearing power loss heat dissipation calculator online",
+    "concentric journal bearing viscous friction petroff online",
+    "turbomachinery bearing parasitic loss calculator"
+  ],
+  "order": 801
+}

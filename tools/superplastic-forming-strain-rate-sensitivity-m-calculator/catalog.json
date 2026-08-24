@@ -1,0 +1,15 @@
+{
+  "name": "Superplastic Forming Strain Rate Sensitivity (m = d ln σ / d ln ε̇) Calculator",
+  "description": "Calculate high-temperature superplastic alloy strain rate sensitivity exponent m (m = ∂ ln σ / ∂ ln ε̇), flow stress σ (σ = K·ε̇ᵐ), and necking resistance for titanium and aluminum aerospace forming.",
+  "path": "/tools/superplastic-forming-strain-rate-sensitivity-m-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "superplastic forming calculator",
+    "strain rate sensitivity m formula online",
+    "flow stress strain rate power law calculator",
+    "aerospace superplastic titanium forming calculator",
+    "metallurgy materials science manufacturing processes online"
+  ],
+  "order": 1283
+}

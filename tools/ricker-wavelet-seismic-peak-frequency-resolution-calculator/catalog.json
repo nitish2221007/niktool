@@ -1,0 +1,15 @@
+{
+  "name": "Ricker Wavelet Seismic Resolution & Tuning Thickness (λ / 4) Calculator",
+  "description": "Calculate seismic zero-phase Ricker wavelet peak dominant frequency f_p, Rayleigh quarter-wavelength vertical resolution limit (Tuning Thickness = λ / 4 = v / 4·f_p), and time peak-to-trough separation.",
+  "path": "/tools/ricker-wavelet-seismic-peak-frequency-resolution-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ricker wavelet calculator",
+    "seismic tuning thickness formula lambda over 4 online",
+    "rayleigh criterion seismic vertical resolution calculator",
+    "ricker peak frequency peak to trough time calculator",
+    "geophysics seismic interpretation petroleum reservoir online"
+  ],
+  "order": 1307
+}

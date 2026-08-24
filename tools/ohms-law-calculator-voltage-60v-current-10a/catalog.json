@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 60V, Current 10A)",
+  "description": "Calculate Resistance (6.00 Ω) and Electric Power (600.0 W) for 60V voltage and 10A current.",
+  "path": "/tools/ohms-law-calculator-voltage-60v-current-10a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 60v current 10a",
+    "Ohm's Law Calculator (Voltage 60V, Current 10A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

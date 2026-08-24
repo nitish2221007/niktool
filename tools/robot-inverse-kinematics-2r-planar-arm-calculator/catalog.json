@@ -1,0 +1,15 @@
+{
+  "name": "2R Planar Robot Arm Inverse Kinematics (θ₁, θ₂ from (x, y)) Calculator",
+  "description": "Calculate 2-link (2R) planar robotic arm joint angles θ₁ and θ₂ (θ₂ = ±arccos((x² + y² - l₁² - l₂²) / (2·l₁·l₂))) for target Cartesian coordinate end-effector positions.",
+  "path": "/tools/robot-inverse-kinematics-2r-planar-arm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "2r robot inverse kinematics calculator",
+    "two link robot arm joint angles theta1 theta2 formula",
+    "planar manipulator inverse kinematics calculator online",
+    "elbow up elbow down robot arm kinematics calculator",
+    "robotics end effector position to joint angles online"
+  ],
+  "order": 755
+}

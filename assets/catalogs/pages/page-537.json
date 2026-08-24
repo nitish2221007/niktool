@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Convert 64 EM to PX Value",
+    "description": "Convert 64 EM units to pixels (1024 px) based on 16px font context.",
+    "path": "/tools/convert-64-em-to-px-value/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 64 em to px value",
+      "Convert 64 EM to PX Value",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Feet to Inches Val",
+    "description": "Convert 64 feet (ft) to inches (768 in) instantly. 100% free and local.",
+    "path": "/tools/convert-64-feet-to-inches-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 feet to inches val",
+      "Convert 64 Feet to Inches Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Feet to Meters Length",
+    "description": "Convert 64 feet (ft) to meters (19.51 m) instantly. 100% free and local.",
+    "path": "/tools/convert-64-feet-to-meters-length/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 feet to meters length",
+      "Convert 64 Feet to Meters Length",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Grams to Ounces Weight",
+    "description": "Convert 64 grams (g) to ounces (2.26 oz) instantly. 100% free and local.",
+    "path": "/tools/convert-64-grams-to-ounces-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 grams to ounces weight",
+      "Convert 64 Grams to Ounces Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Hours to Seconds",
+    "description": "Convert 64 hours to minutes (3840 min) and seconds (2,30,400 sec).",
+    "path": "/tools/convert-64-hours-to-seconds-time/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 hours to seconds time",
+      "Convert 64 Hours to Seconds",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 KG to Grams Val",
+    "description": "Convert 64 kilograms (kg) to grams (64000 g) instantly. 100% free and local.",
+    "path": "/tools/convert-64-kg-to-grams-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 kg to grams val",
+      "Convert 64 KG to Grams Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 KG to LBS",
+    "description": "Convert 64 kilograms (64 kg) to pounds (141.10 lbs) instantly in your browser.",
+    "path": "/tools/convert-64-kg-to-lbs/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 kg to lbs",
+      "Convert 64 KG to LBS",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 KM to Meters Val",
+    "description": "Convert 64 kilometers (km) to meters (64000 m) instantly. 100% free and local.",
+    "path": "/tools/convert-64-km-to-meters-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 km to meters val",
+      "Convert 64 KM to Meters Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 KM to Miles",
+    "description": "Convert 64 kilometers to miles (39.77 miles). 100% free and local.",
+    "path": "/tools/convert-64-km-to-miles/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 km to miles",
+      "Convert 64 KM to Miles",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 KM to Miles Distance",
+    "description": "Convert 64 kilometers (64 km) to miles (39.77 miles) instantly. 100% free and local.",
+    "path": "/tools/convert-64-km-to-miles-distance/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 km to miles distance",
+      "Convert 64 KM to Miles Distance",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 KM/H to MPH Speed",
+    "description": "Convert 64 kilometers per hour (km/h) to miles per hour (39.77 mph).",
+    "path": "/tools/convert-64-kmh-to-mph-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 kmh to mph speed",
+      "Convert 64 KM/H to MPH Speed",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Knots Speed Val to KM/H",
+    "description": "Convert 64 knots speed to kilometers per hour (118.53 km/h).",
+    "path": "/tools/convert-knot-speed-val-64-to-kmh/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert knot speed val 64 to kmh",
+      "Convert 64 Knots Speed Val to KM/H",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Knots to KM/H Speed",
+    "description": "Convert 64 knots speed to kilometers per hour (118.53 km/h).",
+    "path": "/tools/convert-64-knots-to-kmh-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 knots to kmh speed",
+      "Convert 64 Knots to KM/H Speed",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 LBS to KG Weight",
+    "description": "Convert 64 pounds (lbs) to kilograms (29.03 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-64-lbs-to-kg-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 lbs to kg weight",
+      "Convert 64 LBS to KG Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Meters to CM Val",
+    "description": "Convert 64 meters (m) to centimeters (6400 cm) instantly. 100% free and local.",
+    "path": "/tools/convert-64-meters-to-cm-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 meters to cm val",
+      "Convert 64 Meters to CM Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Meters to Feet",
+    "description": "Convert 64 meters (m) to feet (ft) instantly (209.97 ft). 100% free and local.",
+    "path": "/tools/convert-64-meters-to-feet/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 meters to feet",
+      "Convert 64 Meters to Feet",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Meters to Yards Val",
+    "description": "Convert 64 meters (m) to yards (69.99 yd) instantly. 100% free and local.",
+    "path": "/tools/convert-64-meters-to-yards-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 meters to yards val",
+      "Convert 64 Meters to Yards Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Miles to KM",
+    "description": "Convert 64 miles to kilometers (103.00 km). 100% free and local.",
+    "path": "/tools/convert-64-miles-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 miles to km",
+      "Convert 64 Miles to KM",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Nautical Miles to KM",
+    "description": "Convert 64 nautical miles (NM) to kilometers (118.53 km). 100% free and local.",
+    "path": "/tools/convert-64-nautical-miles-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 nautical miles to km",
+      "Convert 64 Nautical Miles to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Nautical Miles Val to KM",
+    "description": "Convert 64 nautical miles (NM) to kilometers (118.53 km). 100% free and local.",
+    "path": "/tools/convert-nautical-mile-val-64-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert nautical mile val 64 to km",
+      "Convert 64 Nautical Miles Val to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Ounces to Grams Weight",
+    "description": "Convert 64 ounces (oz) to grams (1814.37 g) instantly. 100% free and local.",
+    "path": "/tools/convert-64-ounces-to-grams-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 ounces to grams weight",
+      "Convert 64 Ounces to Grams Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 REM to PX Value",
+    "description": "Convert 64 REM units to pixels (1024 px) based on standard 16px root font.",
+    "path": "/tools/convert-64-rem-to-px-value/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 64 rem to px value",
+      "Convert 64 REM to PX Value",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Tons to KG Val",
+    "description": "Convert 64 metric tons to kilograms (64000 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-64-tons-to-kg-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 tons to kg val",
+      "Convert 64 Tons to KG Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 64 Yards to Feet Val",
+    "description": "Convert 64 yards (yd) to feet (192 ft) instantly. 100% free and local.",
+    "path": "/tools/convert-64-yards-to-feet-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 64 yards to feet val",
+      "Convert 64 Yards to Feet Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

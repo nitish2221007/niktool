@@ -1,0 +1,15 @@
+{
+  "name": "Stokes' Law Terminal Settling Velocity (v_t = 2·r²·(ρ_p - ρ_f)·g / 9·μ) Calculator",
+  "description": "Calculate small spherical particle gravitational terminal settling velocity v_t (in mm/s and m/s), particle Reynolds number Re_p, and drag force for sedimentation basins, wastewater clarifiers, and aerosol settling.",
+  "path": "/tools/stokes-law-terminal-settling-velocity-particle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "stokes law calculator",
+    "terminal settling velocity formula particle online",
+    "sedimentation clarifier settling velocity calculator",
+    "particle reynolds number drag force calculator",
+    "environmental chemical engineering fluid mechanics online"
+  ],
+  "order": 1255
+}

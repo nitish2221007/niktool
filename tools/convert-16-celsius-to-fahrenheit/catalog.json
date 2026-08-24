@@ -1,0 +1,15 @@
+{
+  "name": "Convert 16°C Celsius to Fahrenheit",
+  "description": "Convert 16 degrees Celsius (°C) to Fahrenheit (60.8°F).",
+  "path": "/tools/convert-16-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 16 celsius to fahrenheit",
+    "Convert 16°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

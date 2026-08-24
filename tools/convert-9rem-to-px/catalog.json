@@ -1,0 +1,15 @@
+{
+  "name": "Convert 9 REM to PX",
+  "description": "Convert 9 REM units to pixels (px) based on 16px root font size (144px).",
+  "path": "/tools/convert-9rem-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 9rem to px",
+    "Convert 9 REM to PX",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

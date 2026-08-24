@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (630 km Distance, 23 km/l Mileage)",
+  "description": "Calculate fuel needed (27.4 L) and cost (₹2644) for 630 km trip at 23 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-630km-mileage-23kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 630km mileage 23kmpl",
+    "Fuel Cost Trip Calculator (630 km Distance, 23 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

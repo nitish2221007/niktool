@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (590 km Distance, 18 km/l Mileage)",
+  "description": "Calculate fuel needed (32.8 L) and cost (₹3165) for 590 km trip at 18 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-590km-mileage-18kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 590km mileage 18kmpl",
+    "Fuel Cost Trip Calculator (590 km Distance, 18 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

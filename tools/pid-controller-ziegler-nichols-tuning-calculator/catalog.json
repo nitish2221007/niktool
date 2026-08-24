@@ -1,0 +1,15 @@
+{
+  "name": "PID Controller Tuning (Ziegler-Nichols Frequency Response) Calculator",
+  "description": "Calculate optimal Proportional, Integral, and Derivative control gains (K_p, T_i, T_d, K_i, K_d) from Ultimate Gain K_u and Ultimate Oscillation Period T_u.",
+  "path": "/tools/pid-controller-ziegler-nichols-tuning-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pid controller calculator",
+    "ziegler nichols tuning formula kp ki kd",
+    "ultimate gain ku period tu pid calculator",
+    "closed loop pid tuning calculator online",
+    "industrial control loop pid tuning online"
+  ],
+  "order": 616
+}

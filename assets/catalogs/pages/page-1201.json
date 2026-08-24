@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Molality (m) Concentration Calculator",
+    "description": "Calculate solution molality (m = Moles of Solute / kg of Solvent) from chemical formula weight and solvent mass.",
+    "path": "/tools/molality-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "molality calculator",
+      "calculate molality online",
+      "moles per kg solvent calculator",
+      "molality formula chemistry",
+      "molarity vs molality calculator"
+    ]
+  },
+  {
+    "name": "Freezing Point Depression Calculator",
+    "description": "Calculate solution freezing point depression (ΔTf = i · Kf · m) and new depressed freezing point for antifreeze and road salt solutions.",
+    "path": "/tools/freezing-point-depression-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "freezing point depression calculator",
+      "colligative properties calculator",
+      "delta tf calculator",
+      "antifreeze freezing point calculator",
+      "van t hoff factor freezing point"
+    ]
+  },
+  {
+    "name": "Boiling Point Elevation Calculator",
+    "description": "Calculate solution boiling point elevation (ΔTb = i · Kb · m) and elevated boiling temperature for aqueous and non-aqueous solutions.",
+    "path": "/tools/boiling-point-elevation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "boiling point elevation calculator",
+      "ebullioscopic calculator",
+      "delta tb calculator",
+      "boiling point of salt water",
+      "colligative boiling point formula"
+    ]
+  },
+  {
+    "name": "Van 't Hoff Osmotic Pressure Calculator",
+    "description": "Calculate osmotic pressure (Π = i · M · R · T) across semipermeable membranes in atmospheres, bar, and kPa for biological cells and reverse osmosis.",
+    "path": "/tools/osmotic-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "osmotic pressure calculator",
+      "van t hoff osmotic pressure",
+      "reverse osmosis pressure calculator",
+      "pi imrt chemistry formula",
+      "cell osmosis calculator"
+    ]
+  },
+  {
+    "name": "SHA-256 Cryptographic Hash Generator",
+    "description": "Generate standard 256-bit SHA-256 cryptographic hashes instantly using the browser native Web Cryptography API with zero server uploads.",
+    "path": "/tools/hash-sha256-generator/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "sha256 hash generator",
+      "sha 256 online",
+      "generate sha256 hash",
+      "crypto sha256 checksum",
+      "sha256 string hasher"
+    ]
+  },
+  {
+    "name": "SHA-512 Cryptographic Hash Generator",
+    "description": "Generate high-security 512-bit SHA-512 cryptographic hashes (128 hex characters) locally via the native browser Web Crypto API.",
+    "path": "/tools/hash-sha512-generator/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "sha512 hash generator",
+      "sha 512 online",
+      "generate sha512 checksum",
+      "crypto sha512 hasher",
+      "secure sha512 generator"
+    ]
+  },
+  {
+    "name": "Base32 Encoder & Decoder (RFC 4648)",
+    "description": "Encode plain text into standard uppercase Base32 (A-Z, 2-7) format or decode Base32 strings back to UTF-8 text for 2FA TOTP secret keys.",
+    "path": "/tools/base32-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "base32 encoder decoder",
+      "base32 online converter",
+      "rfc 4648 base32 decoder",
+      "totp base32 key converter",
+      "base32 string encoder"
+    ]
+  },
+  {
+    "name": "CSV to Markdown Table Converter",
+    "description": "Convert comma-separated CSV spreadsheets and tabular data into cleanly aligned GitHub Flavored Markdown (GFM) tables.",
+    "path": "/tools/csv-to-markdown-table-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "csv to markdown table",
+      "csv to gfm table converter",
+      "convert spreadsheet to markdown",
+      "markdown table generator from csv",
+      "csv to md online"
+    ]
+  },
+  {
+    "name": "CSS clamp() Fluid Typography Calculator",
+    "description": "Calculate responsive fluid CSS clamp(min, val, max) font sizes and spacing that scale smoothly between mobile and desktop viewports.",
+    "path": "/tools/css-clamp-fluid-typography-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "css clamp calculator",
+      "fluid typography calculator",
+      "clamp font size generator",
+      "responsive fluid text css",
+      "css clamp generator online"
+    ]
+  },
+  {
+    "name": "Gay-Lussac's Gas Law Calculator",
+    "description": "Calculate pressure or absolute temperature changes in isochoric rigid gas containers using Gay-Lussac's Law P₁ / T₁ = P₂ / T₂.",
+    "path": "/tools/gay-lussac-law-gas-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gay lussacs law calculator",
+      "p1 t1 p2 t2 calculator",
+      "gas pressure temperature relationship",
+      "isochoric gas calculator",
+      "gay lussac formula online"
+    ]
+  },
+  {
+    "name": "Avogadro's Gas Law Calculator",
+    "description": "Calculate gas volume or molar quantity changes at constant temperature and pressure using Avogadro's Law V₁ / n₁ = V₂ / n₂.",
+    "path": "/tools/avogadro-law-gas-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "avogadros law calculator",
+      "v1 n1 v2 n2 calculator",
+      "gas volume moles relationship",
+      "avogadro molar volume calculator",
+      "chemistry avogadro law online"
+    ]
+  },
+  {
+    "name": "Combined Gas Law Calculator",
+    "description": "Solve for pressure, volume, or temperature across changing gas states using the Combined Gas Law (P₁·V₁)/T₁ = (P₂·V₂)/T₂.",
+    "path": "/tools/combined-gas-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "combined gas law calculator",
+      "p1v1 t1 p2v2 t2 calculator",
+      "gas state transition calculator",
+      "chemistry combined gas formula",
+      "ideal gas state changer online"
+    ]
+  },
+  {
+    "name": "Graham's Law of Effusion Calculator",
+    "description": "Calculate relative effusion and diffusion rates of two gases (Rate₁ / Rate₂ = √(M₂ / M₁)) from their molar masses.",
+    "path": "/tools/graham-law-effusion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "grahams law calculator",
+      "gas effusion rate calculator",
+      "diffusion of gases calculator",
+      "molar mass effusion ratio",
+      "chemistry grahams law online"
+    ]
+  },
+  {
+    "name": "Cosmological Doppler Redshift Calculator",
+    "description": "Calculate astronomical redshift (z = Δλ / λ₀), relativistic recession velocity, and cosmological distance for receding stars and galaxies.",
+    "path": "/tools/doppler-redshift-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "redshift calculator",
+      "doppler redshift velocity calculator",
+      "astronomy redshift z calculator",
+      "relativistic doppler effect online",
+      "hubble expansion redshift calculator"
+    ]
+  },
+  {
+    "name": "Karvonen Target Heart Rate Zones Calculator",
+    "description": "Calculate personalized exercise heart rate training zones (Warm-up, Fat Burn, Aerobic, Anaerobic, VO2 Max) using the clinical Karvonen formula.",
+    "path": "/tools/target-heart-rate-karvonen-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "karvonen heart rate calculator",
+      "target heart rate zones calculator",
+      "fat burn zone calculator",
+      "aerobic heart rate zone",
+      "max heart rate reserve formula"
+    ]
+  },
+  {
+    "name": "Macronutrient Grams & Calorie Split Calculator",
+    "description": "Calculate daily gram targets for Proteins, Carbohydrates, and Fats based on total calorie goal and dietary split ratios (Balanced, Low-Carb, High-Protein).",
+    "path": "/tools/macro-nutrient-split-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "macro calculator",
+      "macronutrient split calculator",
+      "protein carbs fat grams calculator",
+      "daily calories to macros",
+      "iifym macro calculator online"
+    ]
+  },
+  {
+    "name": "Baker's Percentage & Bread Hydration Calculator",
+    "description": "Calculate bread dough hydration percentage ((Water / Flour) · 100), sourdough starter baker's percentages, and total dough weight.",
+    "path": "/tools/baking-flour-hydration-percentage-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "bakers percentage calculator",
+      "dough hydration calculator",
+      "sourdough bread hydration formula",
+      "baking flour water ratio",
+      "artisan bread dough calculator"
+    ]
+  },
+  {
+    "name": "Coffee Brew Ratio & Grams Calculator",
+    "description": "Calculate coffee grounds to water ratio (1:15 to 1:18) for Pour Over (V60, Chemex), French Press, AeroPress, and Espresso.",
+    "path": "/tools/coffee-brew-ratio-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "coffee brew ratio calculator",
+      "coffee to water ratio calculator",
+      "v60 coffee ratio",
+      "french press ratio calculator",
+      "golden cup coffee formula"
+    ]
+  },
+  {
+    "name": "Restaurant Split Bill & Tip Calculator",
+    "description": "Split restaurant dining bills evenly across people, calculate custom tip percentages (10%, 15%, 18%, 20%), and individual payment shares.",
+    "path": "/tools/split-bill-tip-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "split bill calculator",
+      "tip calculator online",
+      "restaurant bill splitter",
+      "calculate tip per person",
+      "split dinner bill evenly"
+    ]
+  },
+  {
+    "name": "Bernoulli's Equation & Pipe Flow Calculator",
+    "description": "Calculate fluid pressure and velocity changes between varying pipe cross-sections using Bernoulli's conservation of energy law.",
+    "path": "/tools/bernoulli-equation-pipe-flow-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bernoulli equation calculator",
+      "fluid dynamics pipe flow",
+      "venturi pressure drop calculator",
+      "fluid velocity pressure relationship",
+      "bernoulli principle online"
+    ]
+  },
+  {
+    "name": "Torricelli's Law & Tank Drain Calculator",
+    "description": "Calculate fluid efflux exit velocity (v = √(2gh)), flow rate, and total drainage time for liquid tanks with bottom orifices.",
+    "path": "/tools/torricelli-law-tank-drain-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "torricelli law calculator",
+      "tank drainage time calculator",
+      "fluid efflux velocity formula",
+      "orifice discharge rate calculator",
+      "hydraulics tank drain time"
+    ]
+  },
+  {
+    "name": "Mach Number & Supersonic Speed Calculator",
+    "description": "Calculate aircraft Mach number (M = v / c), flight regimes (Subsonic, Transonic, Supersonic, Hypersonic), and altitude speed of sound.",
+    "path": "/tools/mach-number-speed-of-sound-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mach number calculator",
+      "speed of sound altitude calculator",
+      "supersonic speed calculator",
+      "mach to kmh converter",
+      "hypersonic mach calculator"
+    ]
+  },
+  {
+    "name": "Stefan-Boltzmann Blackbody Radiation Calculator",
+    "description": "Calculate total radiative thermal power (P = ε · σ · A · T⁴) emitted by blackbody surfaces, stars, and industrial radiators.",
+    "path": "/tools/blackbody-stefan-boltzmann-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stefan boltzmann calculator",
+      "blackbody radiation calculator",
+      "thermal radiative power formula",
+      "astrophysics star luminosity stefan boltzmann",
+      "stefan constant emissivity"
+    ]
+  },
+  {
+    "name": "Wien's Displacement Law Calculator",
+    "description": "Calculate blackbody peak thermal radiation wavelength (λ_max = b / T) and spectrum color from star temperature.",
+    "path": "/tools/wien-displacement-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wiens displacement law calculator",
+      "peak emission wavelength calculator",
+      "star surface temperature color",
+      "blackbody peak wavelength formula",
+      "wien constant online calculator"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Helicopter Rotor Hover Induced Velocity & Momentum Theory Power Calculator",
+  "description": "Calculate helicopter rotor hover aerodynamics: induced downwash inflow velocity v_i in m/s (Rankine-Froude Momentum Theory: v_i = √(T / (2·ρ·A))), ideal induced hover power P_i in kW (P_i = T · v_i), and Figure of Merit (FM).",
+  "path": "/tools/helicopter-rotor-hover-thrust-induced-power-momentum-theory-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "helicopter rotor hover calculator",
+    "rotor induced downwash velocity formula vi online",
+    "momentum theory induced power calculator",
+    "rotor disc loading figure of merit calculator",
+    "helicopter aerodynamics rotorcraft flight mechanics online"
+  ],
+  "order": 1431
+}

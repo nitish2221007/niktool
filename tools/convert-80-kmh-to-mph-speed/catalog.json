@@ -1,0 +1,15 @@
+{
+  "name": "Convert 80 KM/H to MPH Speed",
+  "description": "Convert 80 kilometers per hour (km/h) to miles per hour (49.71 mph).",
+  "path": "/tools/convert-80-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 80 kmh to mph speed",
+    "Convert 80 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

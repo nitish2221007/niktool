@@ -1,0 +1,15 @@
+{
+  "name": "Single Degree of Freedom (SDOF) Natural Frequency & Damping Calculator",
+  "description": "Calculate building structural dynamics SDOF natural circular frequency (ω_n = √(k / m)), natural period (T_n = 2π / ω_n) in seconds, and damped frequency (f_d = f_n · √(1 - ζ²)).",
+  "path": "/tools/single-degree-of-freedom-sdof-natural-frequency-damping-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sdof natural frequency calculator",
+    "structural dynamics natural period formula 2 pi sqrt m over k",
+    "damped natural frequency calculator online",
+    "building structural stiffness mass period calculator",
+    "earthquake structural dynamics sdof online"
+  ],
+  "order": 726
+}

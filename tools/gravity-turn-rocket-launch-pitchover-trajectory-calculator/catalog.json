@@ -1,0 +1,15 @@
+{
+  "name": "Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator",
+  "description": "Calculate orbital launch vehicle zero-lift gravity turn steering dynamics (γ̇ = - (g / v) · cos γ + (v / r) · cos γ) and gravity drag delta-V penalty losses.",
+  "path": "/tools/gravity-turn-rocket-launch-pitchover-trajectory-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gravity turn calculator",
+    "rocket launch pitchover trajectory formula gamma dot online",
+    "orbital ascent gravity loss delta v calculator",
+    "launch vehicle flight path angle gravity turn online",
+    "rocket trajectory optimization astrodynamics online"
+  ],
+  "order": 808
+}

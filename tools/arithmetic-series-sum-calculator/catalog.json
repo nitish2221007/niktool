@@ -1,0 +1,15 @@
+{
+  "name": "Arithmetic Series Sum Calculator",
+  "description": "Calculate the nth term (an) and sum of arithmetic sequence progression (Sn = n/2 · (2a + (n-1)d)) with step-by-step expansion.",
+  "path": "/tools/arithmetic-series-sum-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "arithmetic series calculator",
+    "sum of ap calculator",
+    "nth term of arithmetic progression",
+    "arithmetic sequence sum online",
+    "gauss sum calculator"
+  ],
+  "order": 114
+}

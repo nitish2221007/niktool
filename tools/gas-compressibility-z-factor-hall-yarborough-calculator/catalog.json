@@ -1,0 +1,15 @@
+{
+  "name": "Natural Gas Compressibility Z-Factor (Hall-Yarborough) Calculator",
+  "description": "Calculate real natural gas supercompressibility Z-factor (P·V = Z·n·R·T) from pseudo-reduced pressure P_pr and pseudo-reduced temperature T_pr.",
+  "path": "/tools/gas-compressibility-z-factor-hall-yarborough-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gas compressibility z factor calculator",
+    "hall yarborough z factor formula online",
+    "natural gas supercompressibility calculator",
+    "pseudo reduced pressure temperature z factor online",
+    "petroleum natural gas pvt z factor calculator"
+  ],
+  "order": 667
+}

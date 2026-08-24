@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate microfluidic rectangular channel laminar hydraulic resistance (R_h ≈ 12·μ·L / (w·h³ · (1 - 0.63·h/w))) in Pa·s/m³ and pressure drop ΔP across Lab-on-a-Chip channels.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/microfluidic-rectangular-channel-hydraulic-resistance-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator | NikTool">
+  <meta property="og:description" content="Calculate microfluidic rectangular channel laminar hydraulic resistance (R_h ≈ 12·μ·L / (w·h³ · (1 - 0.63·h/w))) in Pa·s/m³ and pressure drop ΔP across Lab-on-a-Chip channels.">
+  <meta property="og:url" content="https://niktool.in/tools/microfluidic-rectangular-channel-hydraulic-resistance-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/microfluidic-rectangular-channel-hydraulic-resistance-calculator/",
+        "description": "Calculate microfluidic rectangular channel laminar hydraulic resistance (R_h ≈ 12·μ·L / (w·h³ · (1 - 0.63·h/w))) in Pa·s/m³ and pressure drop ΔP across Lab-on-a-Chip channels.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does channel height h have a cubic (h³) effect on resistance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because Poiseuille viscous wall shear scales with $1/h^3$; halving channel height increases pressure drop by a factor of 8×."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator</h1>
+      <p>Calculate microfluidic rectangular channel laminar hydraulic resistance (R_h ≈ 12·μ·L / (w·h³ · (1 - 0.63·h/w))) in Pa·s/m³ and pressure drop ΔP across Lab-on-a-Chip channels.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Channel Width w (μm), Channel Height h (μm), Length L (mm) & Flow Rate Q (μL/min)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mf-w">Width w (μm)</label>
+          <input class="tool-textarea" id="mf-w" type="number" step="any" value="200.0" placeholder="200.0 μm Width" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mf-h">Height h (μm)</label>
+          <input class="tool-textarea" id="mf-h" type="number" step="any" value="50.0" placeholder="50.0 μm (h < w)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mf-l">Length L (mm)</label>
+          <input class="tool-textarea" id="mf-l" type="number" step="any" value="20.0" placeholder="20.0 mm" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mf-q">Flow Q (μL/min)</label>
+          <input class="tool-textarea" id="mf-q" type="number" step="any" value="10.0" placeholder="10.0 μL/min" />
+        </div>
+      </div>
+      <div id="mf-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mf-res-dp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">ΔP = 1.95 kPa (19.5 mbar)</span>
+            <span class="stat-label">Channel Pressure Drop (ΔP = Q · R_h)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mf-res-rh" style="font-weight:700;">R_h = 1.17 × 10¹¹ Pa·s/m³ (Fluidic Ohm's Law: ΔP = Q·R_h)</span>
+            <span class="stat-label">Laminar Rectangular Hydraulic Resistance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator</h2>
+      <ol>
+        <li>Enter microchannel width w in micrometers ($mu	ext{m}$).</li>
+        <li>Enter microchannel depth / height h in micrometers ($mu	ext{m}$).</li>
+        <li>Enter total channel length L in millimeters.</li>
+        <li>Enter syringe pump volumetric infusion flow rate Q in $mu	ext{L/min}$.</li>
+        <li>Inspect hydraulic flow resistance $R_h$ in $	ext{Pa}cdot	ext{s/m}^3$ and required driving pressure drop $Delta P$ in kPa and mbar.</li>
+      </ol>
+
+      <h2>Fluidic Ohm's Law Analogy in Microfluidics</h2>
+      <p>At low Reynolds numbers ($Re ll 1$), microchannel flow is strictly linear and Stokes-governed; hydraulic resistance ($R_h$) acts exactly like electrical resistance ($Delta P = Q cdot R_h$), enabling engineers to design complex passive fluidic splitters and resistor networks.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does channel height h have a cubic (h³) effect on resistance?</summary>
+        <p>Because Poiseuille viscous wall shear scales with $1/h^3$; halving channel height increases pressure drop by a factor of 8×.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/microfluidic-rectangular-channel-hydraulic-resistance-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Stock Dividend Yield & Passive Income Calculator",
+  "description": "Calculate annual stock dividend yield percentage ((Annual Dividend / Share Price) · 100), quarterly payout schedule, and total passive income.",
+  "path": "/tools/stock-dividend-yield-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "stock dividend yield calculator",
+    "dividend income calculator",
+    "calculate dividend payout quarterly",
+    "dividend yield formula online",
+    "passive dividend cash flow calculator"
+  ],
+  "order": 211
+}

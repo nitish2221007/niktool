@@ -1,0 +1,15 @@
+{
+  "name": "CSS Text Shadow & Glow Effect Generator",
+  "description": "Generate CSS text-shadow properties for glowing neon, subtle elevation, and 3D retro typography with real-time visual canvas preview.",
+  "path": "/tools/css-text-shadow-generator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "css text shadow generator",
+    "neon text glow css generator",
+    "text shadow maker online",
+    "css 3d text generator",
+    "text shadow css code generator"
+  ],
+  "order": 230
+}

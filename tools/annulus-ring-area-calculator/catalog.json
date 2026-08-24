@@ -1,0 +1,15 @@
+{
+  "name": "Annulus (Ring) Area & Width Calculator",
+  "description": "Calculate the area (A = π · (R² - r²)), ring width, and average circumference of an annulus formed between two concentric circles.",
+  "path": "/tools/annulus-ring-area-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "annulus area calculator",
+    "ring area calculator",
+    "concentric circles area",
+    "pipe cross section area calculator",
+    "circular ring geometry"
+  ],
+  "order": 143
+}

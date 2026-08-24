@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 430V, Current 6A)",
+  "description": "Calculate Resistance (71.67 Ω) and Electric Power (2580.0 W) for 430V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-430v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 430v current 6a",
+    "Ohm's Law Calculator (Voltage 430V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

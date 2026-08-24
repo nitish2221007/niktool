@@ -1,0 +1,15 @@
+{
+  "name": "Convert 11 Nautical Miles to KM",
+  "description": "Convert 11 nautical miles (NM) to kilometers (20.37 km). 100% free and local.",
+  "path": "/tools/convert-11-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 11 nautical miles to km",
+    "Convert 11 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

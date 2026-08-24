@@ -1,0 +1,15 @@
+{
+  "name": "Convert 4°C Celsius to Kelvin Temp",
+  "description": "Convert 4 degrees Celsius (°C) to Kelvin (277.15 K) instantly.",
+  "path": "/tools/convert-4-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 4 celsius to kelvin temp",
+    "Convert 4°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

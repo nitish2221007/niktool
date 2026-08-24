@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 17 Units)",
+  "description": "Calculate the exact area of a circle with radius 17 units (A = πr² = 907.92).",
+  "path": "/tools/area-of-circle-radius-17-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 17 units",
+    "Area of Circle (Radius 17 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

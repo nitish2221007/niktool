@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Shannon Entropy & Information Content (H = -Σ p · log₂ p) Calculator",
+    "description": "Calculate Claude Shannon information entropy (H(X) = -Σ p_i · log₂(p_i)) in bits per symbol and data compression redundancy limits for text, alphabet symbols, and discrete distributions.",
+    "path": "/tools/shannon-entropy-information-content-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "shannon entropy calculator",
+      "information entropy formula minus sum p log2 p",
+      "bits per symbol data compression calculator",
+      "claude shannon information theory online",
+      "entropy of discrete probability distribution calculator"
+    ]
+  },
+  {
+    "name": "Shannon-Hartley Channel Capacity (C = B · log₂(1 + SNR)) Calculator",
+    "description": "Calculate maximum theoretical error-free data transmission channel capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps from analog channel bandwidth B (Hz) and Signal-to-Noise Ratio (SNR in dB).",
+    "path": "/tools/shannon-hartley-channel-capacity-bandwidth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "shannon hartley channel capacity calculator",
+      "c b log2 1 plus snr formula",
+      "signal to noise ratio channel bandwidth calculator",
+      "wifi 5g channel data rate shannon limit online",
+      "telecommunications shannon capacity calculator"
+    ]
+  },
+  {
+    "name": "Diffie-Hellman Key Exchange Modular Exponentiation Calculator",
+    "description": "Calculate public keys (A = g^a mod p, B = g^b mod p) and shared secret key (s = B^a mod p = A^b mod p) to simulate asymmetric cryptographic key agreement.",
+    "path": "/tools/diffie-hellman-key-exchange-modular-exponentiation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "diffie hellman key exchange calculator",
+      "modular exponentiation g to the a mod p calculator",
+      "shared secret key diffie hellman online",
+      "discrete logarithm cryptography calculator",
+      "public key exchange simulator online"
+    ]
+  },
+  {
+    "name": "RSA Asymmetric Public & Private Key Encryption Math Calculator",
+    "description": "Calculate RSA key components (n = p · q, Euler totient φ(n) = (p - 1) · (q - 1), private exponent d ≡ e⁻¹ mod φ(n)) and simulate message encryption/decryption.",
+    "path": "/tools/rsa-public-private-key-math-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rsa key calculator",
+      "rsa encryption math formula n p q",
+      "modular inverse private exponent d calculator",
+      "euler totient phi n rsa calculator",
+      "rsa public private key generator online"
+    ]
+  },
+  {
+    "name": "Password Entropy & GPU Brute-Force Crack Time Calculator",
+    "description": "Calculate cryptographic password entropy in bits (E = L · log₂(N)) and estimated brute-force crack time across modern 100 Billion Hash/sec RTX 4090 GPU clusters.",
+    "path": "/tools/password-entropy-crack-time-brute-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "password entropy calculator",
+      "bits of entropy password formula",
+      "brute force crack time calculator online",
+      "rtx 4090 hashcat password crack duration",
+      "nist password complexity entropy calculator"
+    ]
+  },
+  {
+    "name": "Tsiolkovsky Rocket Equation (Δv = I_sp · g₀ · ln(m₀ / m_f)) Calculator",
+    "description": "Calculate orbital rocket velocity increment (Δv = I_sp · g₀ · ln(m₀ / m_f)) in km/s and payload mass fraction from engine specific impulse I_sp and wet/dry mass.",
+    "path": "/tools/tsiolkovsky-rocket-equation-delta-v-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tsiolkovsky rocket equation calculator",
+      "delta v formula isp g0 ln m0 over mf",
+      "specific impulse rocket delta v calculator online",
+      "orbital velocity payload mass fraction calculator",
+      "space flight mechanics rocket equation online"
+    ]
+  },
+  {
+    "name": "Hohmann Transfer Orbit Delta-v & Flight Time Calculator",
+    "description": "Calculate two-impulse Hohmann orbital transfer maneuver velocity changes (Δv₁ and Δv₂) in km/s and transfer time in hours/days between circular orbits around Earth or the Sun.",
+    "path": "/tools/hohmann-transfer-orbit-delta-v-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hohmann transfer orbit calculator",
+      "orbital transfer delta v formula r1 r2",
+      "leo to geo hohmann transfer calculator",
+      "orbital mechanics delta v1 delta v2 online",
+      "spacecraft orbit raising transfer time calculator"
+    ]
+  },
+  {
+    "name": "Rocket Engine Thrust & Specific Impulse (I_sp) Calculator",
+    "description": "Calculate rocket motor total thrust force (F = ṁ · v_e + (p_e - p_a) · A_e) in kN and specific impulse (I_sp = F / (ṁ · g₀)) from propellant mass flow rate ṁ and nozzle exit conditions.",
+    "path": "/tools/rocket-thrust-specific-impulse-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket thrust calculator",
+      "specific impulse formula isp f over mdot g0",
+      "mass flow rate rocket thrust calculator online",
+      "nozzle exit pressure thrust equation calculator",
+      "rocket propulsion engineering calculator"
+    ]
+  },
+  {
+    "name": "De Laval Rocket Nozzle Area Expansion Ratio (ε = A_e / A*) Calculator",
+    "description": "Calculate supersonic converging-diverging de Laval rocket nozzle area expansion ratio (ε = A_e / A*) and exit Mach number M_e from specific heat ratio γ.",
+    "path": "/tools/de-laval-rocket-nozzle-area-expansion-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "de laval nozzle calculator",
+      "rocket nozzle area expansion ratio epsilon formula",
+      "converging diverging nozzle mach number calculator",
+      "throat area exit area ratio online",
+      "supersonic isentropic nozzle flow calculator"
+    ]
+  },
+  {
+    "name": "Satellite Orbital Decay & Atmospheric Drag Lifetime Calculator",
+    "description": "Calculate Low Earth Orbit satellite deceleration from aerodynamic drag (a_drag = 1/2 · ρ · v² · C_d · A / m) in m/s² and estimated orbital decay altitude loss rate per day.",
+    "path": "/tools/orbital-decay-atmospheric-drag-lifetime-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "orbital decay calculator",
+      "atmospheric drag satellite lifetime formula",
+      "a drag half rho v2 cd a over m calculator",
+      "leo satellite re entry decay rate online",
+      "ballistic coefficient bstar orbital decay online"
+    ]
+  },
+  {
+    "name": "Solar Panel Temperature Coefficient & Power Loss Calculator",
+    "description": "Calculate photovoltaic solar panel real-world output power loss (P = P_STC · [1 + γ · (T_cell - 25°C)]) and hot roof cell operating temperature from NOCT rating.",
+    "path": "/tools/solar-panel-temperature-coefficient-power-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar panel temperature coefficient calculator",
+      "pv power loss heat formula gamma tcell",
+      "noct cell temperature calculator online",
+      "hot weather solar panel efficiency drop calculator",
+      "solar pv temperature derating online"
+    ]
+  },
+  {
+    "name": "Solar Inverter DC-to-AC Ratio (ILR) & Clipping Calculator",
+    "description": "Calculate solar photovoltaic Inverter Loading Ratio (ILR = DC_Array_kW / AC_Inverter_kW) and evaluate clipping losses vs inverter capital cost optimization.",
+    "path": "/tools/solar-inverter-dc-ac-ratio-clipping-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar inverter dc ac ratio calculator",
+      "inverter loading ratio ilr formula",
+      "solar clipping loss percentage calculator online",
+      "oversizing solar array dc ac ratio calculator",
+      "pv inverter sizing optimizer online"
+    ]
+  },
+  {
+    "name": "Solar Panel Optimal Tilt Angle & Azimuth Orientation Calculator",
+    "description": "Calculate optimum solar panel fixed tilt angle (β = Latitude ± 15°) for summer, winter, and year-round maximum solar irradiance yield across global latitudes.",
+    "path": "/tools/pv-system-tilt-azimuth-solar-irradiance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar panel tilt angle calculator",
+      "optimum pv tilt formula latitude plus minus 15",
+      "solar panel azimuth south facing calculator online",
+      "yearly energy production solar panel angle calculator",
+      "photovoltaic installation tilt angle online"
+    ]
+  },
+  {
+    "name": "Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator",
+    "description": "Calculate solar home energy storage usable energy (E_usable = Total_kWh · DoD · η_rt) and backup autonomy duration from battery chemistry (LiFePO4, NMC, Lead-Acid).",
+    "path": "/tools/solar-battery-storage-depth-of-discharge-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar battery storage calculator",
+      "depth of discharge dod formula usable kwh",
+      "lifepo4 battery backup runtime calculator online",
+      "lithium vs lead acid dod round trip efficiency calculator",
+      "home solar battery sizing calculator"
+    ]
+  },
+  {
+    "name": "PV String Sizing & Cold Weather Voc Voltage Window Calculator",
+    "description": "Calculate maximum series solar panel string size and coldest record winter open-circuit voltage (V_oc(cold) = V_oc · [1 + β_v · (T_min - 25°C)]) to prevent damaging MPPT inverter limits.",
+    "path": "/tools/pv-string-sizing-voltage-window-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pv string sizing calculator",
+      "voc temperature coefficient formula cold weather",
+      "mppt voltage window maximum string size calculator",
+      "nec 690 solar string sizing online",
+      "solar inverter mppt min max string voltage calculator"
+    ]
+  },
+  {
+    "name": "Cubic Bézier Curve Interpolation (B(t)) Calculator",
+    "description": "Calculate 2D Cubic Bézier parametric spline coordinates (B(t) = (1-t)³·P₀ + 3·(1-t)²·t·P₁ + 3·(1-t)·t²·P₂ + t³·P₃), tangent slope, and curvature for CAD and vector graphics.",
+    "path": "/tools/bezier-cubic-curve-interpolation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bezier curve calculator",
+      "cubic bezier formula b of t online",
+      "parametric bezier curve interpolation calculator",
+      "vector graphics font bezier spline calculator",
+      "computer graphics cubic bezier online"
+    ]
+  },
+  {
+    "name": "3D Unit Quaternion to Euler Angles (Roll, Pitch, Yaw) Converter",
+    "description": "Convert 3D spatial rotation unit quaternions q = (w, x, y, z) into Euler angles (Roll φ, Pitch θ, Yaw ψ) in degrees and radians without gimbal lock singularities.",
+    "path": "/tools/quaternion-to-euler-angles-3d-rotation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quaternion to euler angles calculator",
+      "quaternion roll pitch yaw converter online",
+      "3d rotation quaternion w x y z to degrees",
+      "gimbal lock avoidance quaternion calculator",
+      "aerospace robotics 3d orientation converter"
+    ]
+  },
+  {
+    "name": "Polygon Area & Geometric Centroid (Shoelace Formula) Calculator",
+    "description": "Calculate arbitrary 2D polygon area (A = 1/2 · |Σ(x_i · y_{i+1} - x_{i+1} · y_i)|) and center of mass centroid coordinates (C_x, C_y) from Cartesian vertex coordinates.",
+    "path": "/tools/polygon-shoelace-area-centroid-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "polygon area calculator",
+      "shoelace formula gauss area polygon calculator",
+      "polygon centroid coordinates cx cy calculator",
+      "surveying land area coordinates calculator online",
+      "computational geometry shoelace algorithm online"
+    ]
+  },
+  {
+    "name": "Bresenham Line Rasterization Algorithm Step Calculator",
+    "description": "Calculate discrete pixel grid coordinates and integer decision error variables (D = 2Δy - Δx) generated by Jack Bresenham computer graphics line drawing algorithm.",
+    "path": "/tools/bresenham-line-rasterization-step-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bresenham line algorithm calculator",
+      "bresenham pixel grid rasterization online",
+      "integer dda line drawing decision error calculator",
+      "computer graphics raster line bresenham calculator",
+      "pixel coordinate generator online"
+    ]
+  },
+  {
+    "name": "3D Perspective Projection Camera FOV & Frustum Calculator",
+    "description": "Calculate 3D graphics camera perspective projection matrix focal length (f = 1 / tan(FOV / 2)), near/far clipping plane dimensions, and Normalized Device Coordinates (NDC).",
+    "path": "/tools/perspective-projection-fov-frustum-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "perspective projection calculator",
+      "camera fov focal length formula 1 over tan fov 2",
+      "3d graphics frustum near far plane calculator",
+      "opengl directx perspective projection matrix online",
+      "game engine camera fov calculator"
+    ]
+  },
+  {
+    "name": "Bloch Sphere Qubit State Coordinates (|ψ⟩) Calculator",
+    "description": "Calculate quantum qubit state vector (|ψ⟩ = cos(θ/2)|0⟩ + e^(i·ϕ)·sin(θ/2)|1⟩) probabilities and 3D Bloch sphere Cartesian coordinates (x, y, z).",
+    "path": "/tools/bloch-sphere-qubit-state-coordinates-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bloch sphere calculator",
+      "qubit state vector formula theta phi",
+      "bloch sphere cartesian coordinates x y z calculator",
+      "quantum superposition probability 0 1 online",
+      "quantum computing bloch sphere online"
+    ]
+  },
+  {
+    "name": "Hadamard Quantum Gate (H) Superposition Matrix Calculator",
+    "description": "Calculate Hadamard quantum gate unitary matrix transformations (H|0⟩ = |+⟩, H|1⟩ = |-⟩) and output state vector probability amplitudes.",
+    "path": "/tools/hadamard-quantum-gate-superposition-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hadamard gate calculator",
+      "hadamard matrix 1 over sqrt 2 formula",
+      "quantum superposition h gate calculator",
+      "qubit transformation hadamard online",
+      "quantum computing hadamard gate simulator"
+    ]
+  },
+  {
+    "name": "Pauli Spin Matrices (σ_x, σ_y, σ_z) Qubit Expectation Value Calculator",
+    "description": "Calculate quantum qubit observable expectation values (⟨σ_x⟩, ⟨σ_y⟩, ⟨σ_z⟩) and state purity from density matrix state amplitudes.",
+    "path": "/tools/pauli-spin-matrices-expectation-value-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pauli matrices expectation value calculator",
+      "qubit sigma x y z expectation formula",
+      "pauli spin operators quantum measurement calculator",
+      "density matrix purity trace rho squared online",
+      "quantum mechanics pauli observable calculator"
+    ]
+  },
+  {
+    "name": "Bell State Entanglement Fidelity & Concurrence Calculator",
+    "description": "Calculate two-qubit maximally entangled Bell state fidelity (F = ⟨Φ⁺|ρ|Φ⁺⟩) and Wootters concurrence entanglement measure (C = 1.00 for pure EPR pairs).",
+    "path": "/tools/bell-state-entanglement-fidelity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bell state fidelity calculator",
+      "quantum entanglement concurrence calculator",
+      "epr pair fidelity formula online",
+      "maximally entangled two qubit states online",
+      "quantum telemetry bell state measurement calculator"
+    ]
+  }
+]

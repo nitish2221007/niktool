@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Euler Critical Column Buckling Load (P_cr) Calculator",
+    "description": "Calculate theoretical Euler elastic buckling compressive load (P_cr = (π² · E · I) / (K · L)²) and critical buckling stress (σ_cr = π² · E / (KL/r)²) for structural columns.",
+    "path": "/tools/euler-critical-buckling-load-column-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "euler buckling calculator",
+      "critical buckling load formula online",
+      "column buckling pi squared e i over kl squared",
+      "euler column critical stress calculator",
+      "structural steel column buckling online"
+    ]
+  },
+  {
+    "name": "AISC Column Slenderness Ratio (KL/r) Calculator",
+    "description": "Calculate effective column slenderness ratio (λ = (K · L) / r) and radius of gyration (r = √(I / A)) to classify short vs long columns per AISC 360-16.",
+    "path": "/tools/aisc-column-slenderness-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "column slenderness ratio calculator",
+      "kl over r calculator aisc",
+      "radius of gyration r sqrt i over a",
+      "column slenderness limit 200 aisc",
+      "structural steel column slenderness online"
+    ]
+  },
+  {
+    "name": "Steel Wide-Flange Beam Plastic Bending Moment (M_p) Calculator",
+    "description": "Calculate nominal plastic bending moment capacity (M_p = F_y · Z_x) and LRFD design flexural strength (ϕM_p = 0.90 · F_y · Z_x) for I-beams and W-sections.",
+    "path": "/tools/steel-wide-flange-beam-bending-plastic-moment-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "plastic moment calculator",
+      "mp fy zx formula",
+      "wide flange beam flexural capacity calculator",
+      "steel beam plastic section modulus calculator",
+      "aisc lrfd beam bending capacity online"
+    ]
+  },
+  {
+    "name": "HVAC Sensible & Latent Cooling Load (BTU/hr) Calculator",
+    "description": "Calculate sensible heat load (q_s = 1.08 · CFM · ΔT) and latent moisture load (q_l = 4840 · CFM · ΔW) in BTU/hr and cooling tons (12,000 BTU/hr = 1 Ton) from airflow and psychrometric state changes.",
+    "path": "/tools/hvac-sensible-latent-heat-load-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hvac sensible latent heat calculator",
+      "q 1.08 cfm delta t formula",
+      "latent heat 4840 cfm delta w calculator",
+      "air cooling load btu hr tons online",
+      "sensible heat ratio shr calculator"
+    ]
+  },
+  {
+    "name": "Air Duct Equivalent Round Diameter (Huebscher Equation) Calculator",
+    "description": "Calculate equivalent round duct diameter (D_e = 1.30 · (a · b)^0.625 / (a + b)^0.25) from rectangular duct width (a) and height (b) maintaining identical air friction loss.",
+    "path": "/tools/air-duct-equivalent-round-diameter-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "duct equivalent diameter calculator",
+      "huebscher duct formula online",
+      "rectangular to round duct converter",
+      "ashrae equivalent diameter air duct",
+      "air duct friction sizing calculator"
+    ]
+  },
+  {
+    "name": "Chilled Water Flow Rate (GPM & ΔT) Sizing Calculator",
+    "description": "Calculate hydronic chilled water distribution flow rate (GPM = (Tons · 24) / ΔT = Q_BTU / (500 · ΔT)) in gallons per minute from cooling plant tonnage and design temperature differential.",
+    "path": "/tools/chilled-water-flow-rate-delta-t-gpm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chilled water gpm calculator",
+      "chiller delta t gpm formula",
+      "cooling tons to gpm calculator online",
+      "gpm 24 times tons over delta t",
+      "central chiller plant flow rate calculator"
+    ]
+  },
+  {
+    "name": "Moist Air Specific Enthalpy Psychrometric Calculator",
+    "description": "Calculate total thermodynamic specific enthalpy of humid air (h = c_pa · T + W · (h_we + c_pw · T)) in kJ/kg and BTU/lb from dry-bulb temperature and humidity ratio.",
+    "path": "/tools/enthalpy-moist-air-psychrometric-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "enthalpy moist air calculator",
+      "psychrometric enthalpy formula",
+      "specific enthalpy humid air kj kg",
+      "btu per pound moist air enthalpy online",
+      "ashrae moist air enthalpy calculator"
+    ]
+  },
+  {
+    "name": "Refrigerant R410A / R134a / R32 Saturation (P-T Chart) Calculator",
+    "description": "Calculate saturation vapor pressure (psig / bar) and boiling evaporating/condensing saturation temperatures for HVAC refrigerants R410A, R134a, R32, and R404A.",
+    "path": "/tools/refrigerant-pressure-temperature-pt-chart-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "refrigerant pt chart calculator",
+      "r410a pressure temperature calculator",
+      "r134a saturation pressure calculator online",
+      "hvac superheat subcooling pt chart",
+      "refrigerant evaporating temperature calculator"
+    ]
+  },
+  {
+    "name": "Biochemical Oxygen Demand (BOD₅ & Ultimate BOD) Calculator",
+    "description": "Calculate exerted biochemical oxygen demand (BOD_t = BOD_u · (1 - e^(-k · t))) in mg/L, ultimate carbonaceous BOD (BOD_u), and temperature-corrected reaction rate constant k_T.",
+    "path": "/tools/biochemical-oxygen-demand-bod5-kinetics-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bod5 calculator",
+      "biochemical oxygen demand kinetics formula",
+      "ultimate bod bodu calculator",
+      "wastewater bod reaction rate k online",
+      "streeter phelps bod exertion calculator"
+    ]
+  },
+  {
+    "name": "Activated Sludge Food-to-Microorganism (F/M) Ratio Calculator",
+    "description": "Calculate biological loading ratio (F/M = (Q · BOD_in) / (V · MLVSS)) in lb BOD / (lb MLVSS · day) or kg/kg·day for wastewater treatment plant aeration basins.",
+    "path": "/tools/activated-sludge-food-to-mass-fm-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fm ratio calculator",
+      "food to microorganism ratio formula",
+      "activated sludge biological loading calculator",
+      "mlvss aeration basin bod loading online",
+      "wastewater treatment fm ratio calculator"
+    ]
+  },
+  {
+    "name": "Clarifier Surface Overflow Rate (SOR) & Weir Loading Calculator",
+    "description": "Calculate secondary sedimentation clarifier Surface Overflow Rate (SOR = Q / A_surface) in gpd/ft² (m³/(m²·day)) and circular peripheral weir loading rate.",
+    "path": "/tools/clarifier-surface-overflow-rate-sor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "clarifier surface overflow rate calculator",
+      "sor wastewater clarifier formula",
+      "sedimentation tank overflow rate gpd ft2",
+      "circular clarifier weir loading rate calculator",
+      "clarifier surface settling rate online"
+    ]
+  },
+  {
+    "name": "Wastewater Hydraulic Retention Time (HRT) Calculator",
+    "description": "Calculate liquid hydraulic retention / detention time (HRT = V / Q) in hours and minutes for wastewater treatment basins, contact tanks, and digesters.",
+    "path": "/tools/wastewater-hydraulic-retention-time-hrt-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydraulic retention time calculator",
+      "hrt formula wastewater",
+      "detention time v over q calculator",
+      "aeration basin retention time hours online",
+      "hydraulic residence time calculator"
+    ]
+  },
+  {
+    "name": "Drinking Water Chlorine Disinfection (CT Value) Calculator",
+    "description": "Calculate EPA disinfection contact value (CT = C · T₁₀) in mg·min/L and verify pathogen log-inactivation (Giardia lamblia, viruses) from residual chlorine and contact time.",
+    "path": "/tools/chlorine-contact-disinfection-ct-value-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chlorine ct calculator",
+      "epa ct disinfection value formula",
+      "giardia log inactivation ct calculator",
+      "free chlorine residual contact time online",
+      "drinking water disinfection ct calculator"
+    ]
+  },
+  {
+    "name": "API Gravity to Specific Gravity & Crude Oil Density Converter",
+    "description": "Convert crude oil density between American Petroleum Institute gravity (°API = (141.5 / SG) - 131.5), Specific Gravity (SG at 60°F), and density (kg/m³, lb/gal).",
+    "path": "/tools/api-gravity-crude-oil-density-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "api gravity calculator",
+      "api to specific gravity formula",
+      "crude oil density converter online",
+      "brent wti api gravity calculator",
+      "heavy crude light sweet api calculator"
+    ]
+  },
+  {
+    "name": "Drilling Mud Hydrostatic Pressure & Pressure Gradient Calculator",
+    "description": "Calculate bottom-hole hydrostatic drilling mud pressure (P = 0.052 · MW · TVD) in psi and pressure gradient (psi/ft) from Mud Weight (ppg) and True Vertical Depth (TVD).",
+    "path": "/tools/hydrostatic-mud-weight-pressure-gradient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mud weight hydrostatic pressure calculator",
+      "hydrostatic pressure 0.052 mw tvd formula",
+      "drilling mud pressure gradient calculator",
+      "bottom hole pressure ppg to psi online",
+      "well control hydrostatic pressure calculator"
+    ]
+  },
+  {
+    "name": "Darcy Radial Flow Oil Reservoir (Dupuit Equation) Calculator",
+    "description": "Calculate steady-state oil production rate (q = (7.08 · 10⁻³ · k · h · (P_e - P_wf)) / (μ · B_o · ln(r_e / r_w))) in Stock Tank Barrels per Day (STB/day).",
+    "path": "/tools/darcy-radial-flow-oil-reservoir-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "darcy radial flow calculator",
+      "oil well dupuit equation calculator",
+      "oil reservoir flow rate formula online",
+      "permeability drawdown oil well calculator",
+      "petroleum reservoir radial inflow calculator"
+    ]
+  },
+  {
+    "name": "Stock Tank Oil Initially In Place (STOIIP) Volumetric Calculator",
+    "description": "Calculate total in-situ hydrocarbon reservoir oil reserves (STOIIP = (7758 · A · h · φ · (1 - S_w)) / B_oi) in Stock Tank Barrels (MMSTB) from geological reservoir properties.",
+    "path": "/tools/stock-tank-oil-initially-in-place-stoiip-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stoiip calculator",
+      "stock tank oil initially in place formula",
+      "oil reservoir volumetric reserves calculator",
+      "7758 a h phi 1 minus sw over boi",
+      "petroleum reserves volumetric estimation online"
+    ]
+  },
+  {
+    "name": "Natural Gas Formation Volume Factor (B_g) & Z-Factor Calculator",
+    "description": "Calculate natural gas formation volume factor (B_g = 0.02827 · (Z · T) / P) in reservoir ft³ per standard ft³ (scf) and expansion factor (E_g = 1 / B_g).",
+    "path": "/tools/gas-formation-volume-factor-bg-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gas formation volume factor calculator",
+      "bg gas expansion factor formula",
+      "0.02827 z t over p calculator",
+      "natural gas reservoir volume factor online",
+      "gas compressibility z factor bg calculator"
+    ]
+  },
+  {
+    "name": "Drill String Buoyancy Factor & Hook Load Calculator",
+    "description": "Calculate drilling fluid buoyancy factor (BF = 1 - (MW / 65.5) = (65.5 - MW) / 65.5) and submerged buoyed drill string hook load in petroleum drilling.",
+    "path": "/tools/drill-pipe-buoyancy-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "drill pipe buoyancy factor calculator",
+      "buoyancy factor 65.5 formula",
+      "buoyed hook load drilling calculator",
+      "mud weight drill string weight reduction",
+      "oil rig hook load buoyancy online"
+    ]
+  },
+  {
+    "name": "Wellbore Annular Velocity & Cuttings Transport Calculator",
+    "description": "Calculate drilling fluid annular flow speed (AV = (24.5 · Q) / (D_hole² - D_pipe²)) in ft/min and meters/min to ensure efficient drill cuttings hole cleaning.",
+    "path": "/tools/wellbore-annular-velocity-cuttings-transport-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "annular velocity calculator drilling",
+      "cuttings transport velocity formula",
+      "24.5 q over dh2 minus dp2 online",
+      "drilling mud annular velocity ft min calculator",
+      "hole cleaning annular velocity online"
+    ]
+  },
+  {
+    "name": "Pipe Internal Burst Pressure (Barlow's Formula) Calculator",
+    "description": "Calculate pipe internal burst yield pressure (P = (2 · S · t) / D) and maximum allowable operating pressure (MAOP) per ASME B31.3 and B31.8 pipeline standards.",
+    "path": "/tools/pipe-burst-pressure-barlow-formula-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "barlow formula pipe calculator",
+      "internal burst pressure pipe formula",
+      "pipe wall thickness burst pressure calculator",
+      "maop asme b31 pipeline burst calculator",
+      "pipe hoop stress yield pressure online"
+    ]
+  },
+  {
+    "name": "Pipe External Hydrostatic Collapse Pressure Calculator",
+    "description": "Calculate critical external elastic collapse buckling pressure (P_cr = (2 · E / (1 - ν²)) · (t / D)³) for deep sea subsea pipelines and deep well casing strings.",
+    "path": "/tools/pipe-collapse-pressure-external-load-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pipe collapse pressure calculator",
+      "external collapse pressure pipe formula",
+      "subsea pipeline collapse calculator",
+      "api 5c3 casing collapse formula",
+      "deepwater pipe external pressure online"
+    ]
+  },
+  {
+    "name": "Flange Bolt Preload Torque (T = K · F · d) Calculator",
+    "description": "Calculate required bolt tightening torque (T = K · F_preload · d) in ft-lbs and N·m to achieve target gasket clamping preload force without exceeding bolt proof load.",
+    "path": "/tools/flange-bolt-torque-preload-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flange bolt torque calculator",
+      "bolt preload torque formula t k f d",
+      "nut factor k torque calculator",
+      "asme flange bolt tightening torque online",
+      "bolt proof load preload calculator"
+    ]
+  },
+  {
+    "name": "O-Ring Groove Squeeze & Gland Compression Calculator",
+    "description": "Calculate static and dynamic O-ring squeeze percentage (Squeeze % = (W - Depth) / W · 100) and groove volume fill percentage per Parker O-Ring Handbook standards.",
+    "path": "/tools/o-ring-groove-squeeze-compression-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "o ring squeeze calculator",
+      "o ring gland design calculator",
+      "parker o ring compression formula",
+      "o ring groove depth squeeze percentage online",
+      "static dynamic o ring seal calculator"
+    ]
+  }
+]

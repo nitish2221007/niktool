@@ -1,0 +1,15 @@
+{
+  "name": "Undulator Synchrotron X-Ray Radiation & K-Parameter Calculator",
+  "description": "Calculate fundamental X-ray undulator radiation wavelength (λ = (λ_u / (2 · γ²)) · (1 + K² / 2)) and undulator magnetic deflection strength parameter K.",
+  "path": "/tools/undulator-radiation-wavelength-k-parameter-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "undulator radiation wavelength calculator",
+    "undulator deflection parameter k formula",
+    "synchrotron undulator x ray energy calculator",
+    "free electron laser undulator wavelength online",
+    "photonics undulator harmonics calculator"
+  ],
+  "order": 548
+}

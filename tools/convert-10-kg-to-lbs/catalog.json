@@ -1,0 +1,15 @@
+{
+  "name": "Convert 10 KG to LBS",
+  "description": "Convert 10 kilograms (10 kg) to pounds (22.05 lbs) instantly in your browser.",
+  "path": "/tools/convert-10-kg-to-lbs/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 10 kg to lbs",
+    "Convert 10 KG to LBS",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

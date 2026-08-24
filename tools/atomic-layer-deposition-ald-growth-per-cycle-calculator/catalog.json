@@ -1,0 +1,15 @@
+{
+  "name": "Atomic Layer Deposition (ALD) Growth Per Cycle (GPC) & Film Thickness Calculator",
+  "description": "Calculate self-limiting Atomic Layer Deposition (ALD) ultra-thin dielectric oxide film thickness (t = N_cycles · GPC) in Angstroms/nanometers for high-k gate oxides (HfO₂, Al₂O₃, TiO₂).",
+  "path": "/tools/atomic-layer-deposition-ald-growth-per-cycle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "atomic layer deposition calculator",
+    "ald growth per cycle gpc formula online",
+    "high k dielectric thickness hfo2 al2o3 ald calculator",
+    "self limiting monolayer ald calculator online",
+    "semiconductor gate dielectric thickness online"
+  ],
+  "order": 674
+}

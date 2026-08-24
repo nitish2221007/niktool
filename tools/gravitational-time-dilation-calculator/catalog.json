@@ -1,0 +1,15 @@
+{
+  "name": "Gravitational Time Dilation Calculator",
+  "description": "Calculate Einstein's general relativistic time dilation (tf = t₀ · √(1 - 2GM / (r·c²))) in gravitational fields near planets, white dwarfs, and neutron stars.",
+  "path": "/tools/gravitational-time-dilation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gravitational time dilation calculator",
+    "general relativity time dilation",
+    "gravity clock slowing calculator",
+    "black hole time dilation online",
+    "einstein gravity time formula"
+  ],
+  "order": 191
+}

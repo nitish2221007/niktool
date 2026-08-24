@@ -1,0 +1,15 @@
+{
+  "name": "Steel Rebar Weight Calculator (12mm Diameter, 54m Length)",
+  "description": "Calculate steel reinforcement bar weight (48.00 kg) for 12mm diameter rebar of 54m length.",
+  "path": "/tools/steel-rebar-weight-calculator-diameter-12mm-length-54m/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "steel rebar weight calculator diameter 12mm length 54m",
+    "Steel Rebar Weight Calculator (12mm Diameter, 54m Length)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

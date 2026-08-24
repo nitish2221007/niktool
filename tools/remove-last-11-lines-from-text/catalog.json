@@ -1,0 +1,15 @@
+{
+  "name": "Remove Last 11 Lines From Text",
+  "description": "Remove the last 11 lines from multiline text files. 100% free and private.",
+  "path": "/tools/remove-last-11-lines-from-text/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "remove last 11 lines from text",
+    "Remove Last 11 Lines From Text",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

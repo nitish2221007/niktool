@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate standard concrete batch proportions per cubic meter (Cement, Water, Coarse Gravel, Fine Sand in kg/m³) from target compressive strength f'_c in MPa using ACI 211.1 standards for civil engineering.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/concrete-mix-design-water-cement-ratio-aci-211-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator | NikTool">
+  <meta property="og:description" content="Calculate standard concrete batch proportions per cubic meter (Cement, Water, Coarse Gravel, Fine Sand in kg/m³) from target compressive strength f'_c in MPa using ACI 211.1 standards for civil engineering.">
+  <meta property="og:url" content="https://niktool.in/tools/concrete-mix-design-water-cement-ratio-aci-211-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/concrete-mix-design-water-cement-ratio-aci-211-calculator/",
+        "description": "Calculate standard concrete batch proportions per cubic meter (Cement, Water, Coarse Gravel, Fine Sand in kg/m³) from target compressive strength f'_c in MPa using ACI 211.1 standards for civil engineering.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the standard ratio of cement to sand to gravel in nominal mix concrete?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Standard M20 nominal concrete uses a 1 : 1.5 : 3 volumetric proportion (1 part cement : 1.5 parts sand : 3 parts coarse aggregate)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator</h1>
+      <p>Calculate standard concrete batch proportions per cubic meter (Cement, Water, Coarse Gravel, Fine Sand in kg/m³) from target compressive strength f'_c in MPa using ACI 211.1 standards for civil engineering.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Target 28-Day Strength f'_c (MPa), Slump (mm), Max Aggregate Size (mm) & Volume (m³)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="cm-fc">Target f'_c (MPa)</label>
+          <input class="tool-textarea" id="cm-fc" type="number" step="5" value="30.0" placeholder="30.0 MPa (C30/37)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cm-vol">Volume (m³)</label>
+          <input class="tool-textarea" id="cm-vol" type="number" step="0.5" value="1.0" placeholder="1.0 m³" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cm-slump">Slump (mm)</label>
+          <input class="tool-textarea" id="cm-slump" type="number" step="25" value="100" placeholder="100 mm (Medium)" />
+        </div>
+      </div>
+      <div id="cm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="cm-res-cement" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Cement = 380 kg | Water = 190 kg (w/c = 0.50)</span>
+            <span class="stat-label">Binder & Water Proportions (w/c = 0.50)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="cm-res-agg" style="color:var(--green-dark); font-weight:700;">Gravel Aggregate = 1,120 kg | Sand = 710 kg (Total Wet Density = 2,400 kg/m³)</span>
+            <span class="stat-label">Coarse & Fine Aggregate Batch Weights per 1.0 m³</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator</h2>
+      <ol>
+        <li>Enter 28-day characteristic compressive strength $f'_c$ in MPa (e.g. 25, 30, 40 MPa).</li>
+        <li>Enter total ready-mix concrete batch volume in cubic meters ($	ext{m}^3$).</li>
+        <li>Enter required workability slump in millimeters (e.g. 100 mm).</li>
+        <li>Inspect calculated batch weights for Portland Cement, Water, Coarse Gravel, and Fine Sand.</li>
+      </ol>
+
+      <h2>Abrams Law of Water-Cement Ratio & ACI 211.1 Mix Standard</h2>
+      <p>Duff Abrams proved in 1918 that concrete compressive strength is determined primarily by the water-cement ratio ($f'_c propto rac{1}{(w/c)}$); reducing $w/c$ from 0.60 to 0.40 nearly doubles structural concrete load-bearing strength.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the standard ratio of cement to sand to gravel in nominal mix concrete?</summary>
+        <p>Standard M20 nominal concrete uses a 1 : 1.5 : 3 volumetric proportion (1 part cement : 1.5 parts sand : 3 parts coarse aggregate).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/concrete-mix-design-water-cement-ratio-aci-211-calculator/tool.js"></script>
+</body>
+</html>

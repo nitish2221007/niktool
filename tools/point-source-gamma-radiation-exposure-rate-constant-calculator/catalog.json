@@ -1,0 +1,15 @@
+{
+  "name": "Gamma-Ray Point Source Exposure Rate Constant (Γ) & Distance Attenuation Calculator",
+  "description": "Calculate unshielded point source gamma exposure rate X_dot in R/hr and mR/hr (Exposure Rate Formula: Ẋ = Γ · A / d²) from specific gamma constant Γ (R·m²/(Ci·hr)), isotope activity A (Curies/Bq), and distance d.",
+  "path": "/tools/point-source-gamma-radiation-exposure-rate-constant-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gamma exposure rate calculator",
+    "point source gamma constant gamma formula online",
+    "inverse square radiation dose distance calculator",
+    "activity curies distance to r per hr calculator",
+    "radiation safety health physics industrial radiography online"
+  ],
+  "order": 1399
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Crystallization Supersaturation Ratio (S = C / C*) & Crystal Yield Calculator",
+  "description": "Calculate chemical crystallization relative supersaturation ratio (S = C / C*), driving force supersaturation (ΔC = C - C*), and theoretical crystalline mass yield (Y = M_solv · (C_hot - C_cold)) in kg.",
+  "path": "/tools/crystallization-supersaturation-solubility-yield-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "crystallization calculator",
+    "supersaturation ratio s equals c over c star online",
+    "cooling crystallization yield mass calculator kg",
+    "solubility curve crystal mass yield calculator",
+    "chemical engineering industrial crystallization online"
+  ],
+  "order": 1029
+}

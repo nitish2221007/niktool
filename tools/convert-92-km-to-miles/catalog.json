@@ -1,0 +1,15 @@
+{
+  "name": "Convert 92 KM to Miles",
+  "description": "Convert 92 kilometers to miles (57.17 miles). 100% free and local.",
+  "path": "/tools/convert-92-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 92 km to miles",
+    "Convert 92 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

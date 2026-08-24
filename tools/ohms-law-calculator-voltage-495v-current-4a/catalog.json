@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 495V, Current 4A)",
+  "description": "Calculate Resistance (123.75 Ω) and Electric Power (1980.0 W) for 495V voltage and 4A current.",
+  "path": "/tools/ohms-law-calculator-voltage-495v-current-4a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 495v current 4a",
+    "Ohm's Law Calculator (Voltage 495V, Current 4A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

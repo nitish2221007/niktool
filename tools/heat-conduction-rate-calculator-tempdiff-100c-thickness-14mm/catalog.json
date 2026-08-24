@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=100°C, Thick 14mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 357143 W) across 14mm steel wall at ΔT=100°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-100c-thickness-14mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 100c thickness 14mm",
+    "Thermal Heat Conduction Calculator (ΔT=100°C, Thick 14mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

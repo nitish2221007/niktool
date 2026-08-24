@@ -1,0 +1,15 @@
+{
+  "name": "Lumped Capacitance Transient Thermal Cooling Calculator",
+  "description": "Calculate transient cooling temperature profiles (T(t) = T_inf + (T0 - T_inf) · e^(-t / tau)), thermal time constant (tau = rho · V · c / (h · A)), and verify Biot number validity (Bi below 0.1).",
+  "path": "/tools/lumped-capacitance-transient-thermal-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lumped capacitance calculator",
+    "transient thermal cooling calculator",
+    "biot number calculator online",
+    "thermal time constant tau formula",
+    "unsteady state heat transfer online"
+  ],
+  "order": 408
+}

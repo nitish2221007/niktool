@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 175V, Current 6A)",
+  "description": "Calculate Resistance (29.17 Ω) and Electric Power (1050.0 W) for 175V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-175v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 175v current 6a",
+    "Ohm's Law Calculator (Voltage 175V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

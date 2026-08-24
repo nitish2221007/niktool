@@ -1,0 +1,15 @@
+{
+  "name": "Rossby Planetary Wave Phase Speed (c = u - β / k²) Calculator",
+  "description": "Calculate large-scale atmospheric Rossby wave propagation phase speed (c = u - β / K²) in m/s and km/h and determine stationary blocking ridge wavelengths.",
+  "path": "/tools/relative-vorticity-rossby-wave-speed-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rossby wave speed calculator",
+    "planetary wave phase velocity formula c equals u minus beta over k squared",
+    "meteorology rossby wave wavelength calculator",
+    "atmospheric jet stream rossby waves online",
+    "stationary weather blocking ridge calculator"
+  ],
+  "order": 679
+}

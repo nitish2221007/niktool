@@ -1,0 +1,15 @@
+{
+  "name": "Planetary Epicyclic Gear Train (Gear Ratio R = 1 + N_ring / N_sun) Calculator",
+  "description": "Calculate epicyclic planetary gear set gear ratio (R = 1 + N_ring / N_sun), output torque multiplication, output RPM, and Willis kinematic velocity equation for automotive automatic transmissions and robotics.",
+  "path": "/tools/planetary-gear-train-gear-ratio-epicyclic-sun-ring-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "planetary gear ratio calculator",
+    "epicyclic gear train formula r equals 1 plus n ring over n sun online",
+    "automatic transmission planetary gear reduction calculator",
+    "sun planet carrier ring gear tooth count calculator",
+    "mechanical automotive drivetrain gear train online"
+  ],
+  "order": 1112
+}

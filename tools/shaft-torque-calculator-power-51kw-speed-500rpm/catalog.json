@@ -1,0 +1,15 @@
+{
+  "name": "Shaft Torque Calculator (51 kW Power, 500 RPM)",
+  "description": "Calculate mechanical shaft torque (T = 974.03 N·m) for 51 kW power at 500 RPM.",
+  "path": "/tools/shaft-torque-calculator-power-51kw-speed-500rpm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "shaft torque calculator power 51kw speed 500rpm",
+    "Shaft Torque Calculator (51 kW Power, 500 RPM)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

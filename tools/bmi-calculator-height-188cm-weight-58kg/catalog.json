@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 188cm, Weight 58kg)",
+  "description": "Calculate Body Mass Index (BMI 16.4) for height 188 cm and weight 58 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-188cm-weight-58kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 188cm weight 58kg",
+    "BMI Calculator (Height 188cm, Weight 58kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

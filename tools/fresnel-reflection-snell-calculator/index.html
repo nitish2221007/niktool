@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresnel Reflection Coefficients & Brewster's Angle Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate dielectric interface optical reflectance (R_s, R_p, R_unpolarized) and Brewster polarization angle (θ_B = arctan(n₂ / n₁)) from refractive indices.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/fresnel-reflection-snell-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fresnel Reflection Coefficients & Brewster's Angle Calculator | NikTool">
+  <meta property="og:description" content="Calculate dielectric interface optical reflectance (R_s, R_p, R_unpolarized) and Brewster polarization angle (θ_B = arctan(n₂ / n₁)) from refractive indices.">
+  <meta property="og:url" content="https://niktool.in/tools/fresnel-reflection-snell-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Fresnel Reflection Coefficients & Brewster's Angle Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/fresnel-reflection-snell-calculator/",
+        "description": "Calculate dielectric interface optical reflectance (R_s, R_p, R_unpolarized) and Brewster polarization angle (θ_B = arctan(n₂ / n₁)) from refractive indices.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is normal incidence reflection for glass (n = 1.5) in air?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$R = ((1.5 - 1) / (1.5 + 1))^2 = (0.5 / 2.5)^2 = 0.04 = 4.0%$ reflected light per surface."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Fresnel Reflection Coefficients & Brewster's Angle Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Fresnel Reflection Coefficients & Brewster's Angle Calculator</h1>
+      <p>Calculate dielectric interface optical reflectance (R_s, R_p, R_unpolarized) and Brewster polarization angle (θ_B = arctan(n₂ / n₁)) from refractive indices.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Medium 1 Index n₁, Medium 2 Index n₂ & Angle of Incidence θ₁ (°)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="frn-n1">Medium 1 (n₁)</label>
+          <input class="tool-textarea" id="frn-n1" type="number" step="0.01" value="1.00" placeholder="1.00 (Air)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="frn-n2">Medium 2 (n₂)</label>
+          <input class="tool-textarea" id="frn-n2" type="number" step="0.01" value="1.50" placeholder="1.50 (Crown Glass)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="frn-th1">Angle θ₁ (°)</label>
+          <input class="tool-textarea" id="frn-th1" type="number" min="0" max="89.9" value="45.0" placeholder="45.0°" />
+        </div>
+      </div>
+      <div id="frn-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="frn-res-unpol" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">4.72% Reflected</span>
+            <span class="stat-label">Unpolarized Reflectance (R_avg)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="frn-res-brew" style="font-weight:700;">θ_B = 56.31° (Brewster Angle)</span>
+            <span class="stat-label">100% P-Polarization Brewster Angle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Fresnel Reflection Coefficients & Brewster's Angle Calculator</h2>
+      <ol>
+        <li>Enter refractive index of incident Medium 1 (air = 1.000).</li>
+        <li>Enter refractive index of transmitting Medium 2 (glass = 1.50, water = 1.33).</li>
+        <li>Enter incidence angle $\theta_1$ in degrees.</li>
+        <li>Inspect s-polarized and p-polarized reflectance and zero-reflection Brewster angle.</li>
+      </ol>
+
+      <h2>Augustin-Jean Fresnel's 1823 Wave Optics Equations</h2>
+      <p>Fresnel formulas describe how light splits between reflection and refraction at optical interfaces; at Brewster's angle ($\theta_B = \arctan(n_2/n_1)$), p-polarized light transmits with 100% transmission and zero reflection.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is normal incidence reflection for glass (n = 1.5) in air?</summary>
+        <p>$R = ((1.5 - 1) / (1.5 + 1))^2 = (0.5 / 2.5)^2 = 0.04 = 4.0%$ reflected light per surface.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/fresnel-reflection-snell-calculator/tool.js"></script>
+</body>
+</html>

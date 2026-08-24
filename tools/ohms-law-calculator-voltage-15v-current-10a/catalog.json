@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 15V, Current 10A)",
+  "description": "Calculate Resistance (1.50 Ω) and Electric Power (150.0 W) for 15V voltage and 10A current.",
+  "path": "/tools/ohms-law-calculator-voltage-15v-current-10a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 15v current 10a",
+    "Ohm's Law Calculator (Voltage 15V, Current 10A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

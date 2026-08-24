@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number Airspeed Calculator (Velocity 550 m/s)",
+  "description": "Calculate flight Mach number (Mach 1.62 - Supersonic) for airspeed velocity of 550 m/s.",
+  "path": "/tools/mach-number-airspeed-calculator-speed-550mps/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "mach number airspeed calculator speed 550mps",
+    "Mach Number Airspeed Calculator (Velocity 550 m/s)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Pharmacokinetics One-Compartment IV Elimination Rate & Half-Life (t_1/2) Calculator",
+  "description": "Calculate clinical pharmacokinetics one-compartment IV bolus drug concentration decay C(t) = C_0 · e^(-k_e · t), elimination half-life t_1/2 = 0.693 / k_e, Volume of Distribution V_d = Dose / C_0, Total Body Clearance CL = k_e · V_d, and AUC.",
+  "path": "/tools/pharmacokinetics-one-compartment-elimination-half-life-auc-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pharmacokinetics calculator",
+    "one compartment elimination half life formula online",
+    "volume of distribution clearance auc calculator",
+    "drug plasma concentration decay pk calculator",
+    "clinical pharmacology pharmacy biomedical medicine online"
+  ],
+  "order": 1459
+}

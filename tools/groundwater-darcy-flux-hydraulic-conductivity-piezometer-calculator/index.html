@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate hydrogeological aquifer groundwater flow Darcy flux (q = -K · (dh / dl)) in m/day, linear seepage pore velocity (v_s = q / n_e), and hydraulic gradient for environmental soil contamination transport.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/groundwater-darcy-flux-hydraulic-conductivity-piezometer-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator | NikTool">
+  <meta property="og:description" content="Calculate hydrogeological aquifer groundwater flow Darcy flux (q = -K · (dh / dl)) in m/day, linear seepage pore velocity (v_s = q / n_e), and hydraulic gradient for environmental soil contamination transport.">
+  <meta property="og:url" content="https://niktool.in/tools/groundwater-darcy-flux-hydraulic-conductivity-piezometer-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/groundwater-darcy-flux-hydraulic-conductivity-piezometer-calculator/",
+        "description": "Calculate hydrogeological aquifer groundwater flow Darcy flux (q = -K · (dh / dl)) in m/day, linear seepage pore velocity (v_s = q / n_e), and hydraulic gradient for environmental soil contamination transport.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is seepage velocity (v_s) always larger than Darcy flux (q)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Darcy flux assumes flow through the entire cross-section, while seepage velocity accounts for the fact that flow occurs only through effective void pores ($v_s = q / n_e$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator</h1>
+      <p>Calculate hydrogeological aquifer groundwater flow Darcy flux (q = -K · (dh / dl)) in m/day, linear seepage pore velocity (v_s = q / n_e), and hydraulic gradient for environmental soil contamination transport.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Hydraulic Conductivity K (m/day), Head Drop Δh (m), Distance L (m) & Effective Porosity n_e</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="gw-k">Conductivity K</label>
+          <input class="tool-textarea" id="gw-k" type="number" step="5" value="25.0" placeholder="25.0 m/day (Sand)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gw-dh">Head Drop Δh (m)</label>
+          <input class="tool-textarea" id="gw-dh" type="number" step="0.5" value="2.5" placeholder="2.5 m (Piezometers)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gw-l">Distance L (m)</label>
+          <input class="tool-textarea" id="gw-l" type="number" step="50" value="500" placeholder="500 m Well Spacing" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gw-ne">Porosity n_e</label>
+          <input class="tool-textarea" id="gw-ne" type="number" step="0.05" min="0.01" max="0.6" value="0.25" placeholder="0.25 (25% Void)" />
+        </div>
+      </div>
+      <div id="gw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gw-res-q" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Darcy Flux q = 0.125 m / day</span>
+            <span class="stat-label">Apparent Darcy Specific Discharge Velocity (q = K · i)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gw-res-vs" style="color:var(--green-dark); font-weight:700;">Seepage Velocity v_s = 0.500 m/day (182.6 m/year: Actual Contaminant Migration Speed)</span>
+            <span class="stat-label">Actual Groundwater Pore Seepage Velocity (v_s = q / n_e)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Groundwater Darcy Flux (q = -K·(dh/dl)) & Seepage Velocity Calculator</h2>
+      <ol>
+        <li>Enter aquifer saturated hydraulic conductivity K in meters/day.</li>
+        <li>Enter hydraulic head difference $Delta h$ between two monitoring wells in meters.</li>
+        <li>Enter distance L between wells in meters.</li>
+        <li>Enter soil effective porosity $n_e$.</li>
+        <li>Inspect apparent Darcy flux q and actual linear interstitial pore seepage velocity $v_s = q / n_e$.</li>
+      </ol>
+
+      <h2>Henry Darcy 1856 Aquifer Seepage Law</h2>
+      <p>Because water can only travel through open interconnecting pore voids, the actual chemical pollutant travel speed ($v_s$) is $3	imes$ to $5	imes$ faster than the apparent bulk Darcy discharge ($q$), critical for environmental plume remediation.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is seepage velocity (v_s) always larger than Darcy flux (q)?</summary>
+        <p>Darcy flux assumes flow through the entire cross-section, while seepage velocity accounts for the fact that flow occurs only through effective void pores ($v_s = q / n_e$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/groundwater-darcy-flux-hydraulic-conductivity-piezometer-calculator/tool.js"></script>
+</body>
+</html>

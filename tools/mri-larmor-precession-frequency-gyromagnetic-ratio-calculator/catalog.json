@@ -1,0 +1,15 @@
+{
+  "name": "MRI Proton Larmor Precession Frequency (f₀ = γ·B₀) & Magnetic Field Calculator",
+  "description": "Calculate magnetic resonance imaging nuclear spin Larmor Precession Frequency f₀ in MHz (Larmor Equation: f₀ = (γ / 2π) · B₀) for Hydrogen ¹H (42.577 MHz/T), Carbon ¹³C, Sodium ²³Na, Phosphorus ³¹P, and magnetic field B₀.",
+  "path": "/tools/mri-larmor-precession-frequency-gyromagnetic-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mri larmor frequency calculator",
+    "larmor precession equation f0 equals gamma b0 online",
+    "magnetic resonance imaging gyromagnetic ratio calculator",
+    "1.5t 3t 7t mri resonance frequency calculator",
+    "medical imaging radiology biomedical engineering physics online"
+  ],
+  "order": 1440
+}

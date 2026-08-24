@@ -1,0 +1,15 @@
+{
+  "name": "Solar Panel Optimal Tilt Angle & Azimuth Orientation Calculator",
+  "description": "Calculate optimum solar panel fixed tilt angle (β = Latitude ± 15°) for summer, winter, and year-round maximum solar irradiance yield across global latitudes.",
+  "path": "/tools/pv-system-tilt-azimuth-solar-irradiance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar panel tilt angle calculator",
+    "optimum pv tilt formula latitude plus minus 15",
+    "solar panel azimuth south facing calculator online",
+    "yearly energy production solar panel angle calculator",
+    "photovoltaic installation tilt angle online"
+  ],
+  "order": 586
+}

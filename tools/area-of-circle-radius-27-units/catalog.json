@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 27 Units)",
+  "description": "Calculate the exact area of a circle with radius 27 units (A = πr² = 2290.22).",
+  "path": "/tools/area-of-circle-radius-27-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 27 units",
+    "Area of Circle (Radius 27 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

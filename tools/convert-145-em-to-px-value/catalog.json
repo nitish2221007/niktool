@@ -1,0 +1,15 @@
+{
+  "name": "Convert 145 EM to PX Value",
+  "description": "Convert 145 EM units to pixels (2320 px) based on 16px font context.",
+  "path": "/tools/convert-145-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 145 em to px value",
+    "Convert 145 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

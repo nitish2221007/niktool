@@ -1,0 +1,15 @@
+{
+  "name": "Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator",
+  "description": "Calculate biochemical enzyme reaction velocity v in μmol/(L·min) (Michaelis-Menten Equation: v = V_max · [S] / (K_m + [S])), catalytic efficiency k_cat / K_m, turnover number k_cat, and Lineweaver-Burk double reciprocal coordinates.",
+  "path": "/tools/michaelis-menten-enzyme-kinetics-km-vmax-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "michaelis menten calculator",
+    "enzyme kinetics formula v equals vmax s over km plus s online",
+    "lineweaver burk double reciprocal plot calculator",
+    "catalytic efficiency turnover number kcat km calculator",
+    "biochemistry pharmacology enzyme kinetics online"
+  ],
+  "order": 1435
+}

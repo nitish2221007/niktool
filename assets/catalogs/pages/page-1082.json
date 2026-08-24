@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 55m Length)",
+    "description": "Calculate steel reinforcement bar weight (21.73 kg) for 8mm diameter rebar of 55m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-55m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 55m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 55m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 56m Length)",
+    "description": "Calculate steel reinforcement bar weight (22.12 kg) for 8mm diameter rebar of 56m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-56m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 56m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 56m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 57m Length)",
+    "description": "Calculate steel reinforcement bar weight (22.52 kg) for 8mm diameter rebar of 57m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-57m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 57m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 57m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 5m Length)",
+    "description": "Calculate steel reinforcement bar weight (1.98 kg) for 8mm diameter rebar of 5m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-5m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 5m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 5m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 6m Length)",
+    "description": "Calculate steel reinforcement bar weight (2.37 kg) for 8mm diameter rebar of 6m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-6m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 6m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 6m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 7m Length)",
+    "description": "Calculate steel reinforcement bar weight (2.77 kg) for 8mm diameter rebar of 7m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-7m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 7m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 7m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 8m Length)",
+    "description": "Calculate steel reinforcement bar weight (3.16 kg) for 8mm diameter rebar of 8m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-8m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 8m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 8m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Steel Rebar Weight Calculator (8mm Diameter, 9m Length)",
+    "description": "Calculate steel reinforcement bar weight (3.56 kg) for 8mm diameter rebar of 9m length.",
+    "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-9m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "steel rebar weight calculator diameter 8mm length 9m",
+      "Steel Rebar Weight Calculator (8mm Diameter, 9m Length)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Suneung CSAT 9-Stanine Grade Calculator (수능 등급 / 백분위)",
+    "description": "Calculate 9-tier stanine grade (1등급 ~ 9등급) from standard score (표준점수) and percentile.",
+    "path": "/tools/suneung-csat-stanine-grade-calculator-korea/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "suneung csat stanine grade calculator korea",
+      "Suneung CSAT 9-Stanine Grade Calculator (수능 등급 / 백분위)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1000N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 12.73 MPa) for 1000N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1000n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1000n diameter 10mm",
+      "Tensile Stress Calculator (Force 1000N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 100N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 1.27 MPa) for 100N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-100n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 100n diameter 10mm",
+      "Tensile Stress Calculator (Force 100N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1100N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 14.01 MPa) for 1100N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1100n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1100n diameter 10mm",
+      "Tensile Stress Calculator (Force 1100N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1200N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 15.28 MPa) for 1200N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1200n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1200n diameter 10mm",
+      "Tensile Stress Calculator (Force 1200N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1300N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 16.55 MPa) for 1300N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1300n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1300n diameter 10mm",
+      "Tensile Stress Calculator (Force 1300N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1400N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 17.83 MPa) for 1400N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1400n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1400n diameter 10mm",
+      "Tensile Stress Calculator (Force 1400N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1500N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 19.10 MPa) for 1500N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1500n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1500n diameter 10mm",
+      "Tensile Stress Calculator (Force 1500N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1600N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 20.37 MPa) for 1600N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1600n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1600n diameter 10mm",
+      "Tensile Stress Calculator (Force 1600N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1700N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 21.65 MPa) for 1700N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1700n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1700n diameter 10mm",
+      "Tensile Stress Calculator (Force 1700N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1800N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 22.92 MPa) for 1800N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1800n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1800n diameter 10mm",
+      "Tensile Stress Calculator (Force 1800N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 1900N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 24.19 MPa) for 1900N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-1900n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 1900n diameter 10mm",
+      "Tensile Stress Calculator (Force 1900N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 2000N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 25.46 MPa) for 2000N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-2000n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 2000n diameter 10mm",
+      "Tensile Stress Calculator (Force 2000N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 200N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 2.55 MPa) for 200N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-200n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 200n diameter 10mm",
+      "Tensile Stress Calculator (Force 200N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 2100N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 26.74 MPa) for 2100N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-2100n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 2100n diameter 10mm",
+      "Tensile Stress Calculator (Force 2100N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Tensile Stress Calculator (Force 2200N, Rod Dia 10mm)",
+    "description": "Calculate tensile stress (σ = 28.01 MPa) for 2200N load on a 10mm diameter rod.",
+    "path": "/tools/tensile-stress-calculator-force-2200n-diameter-10mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "tensile stress calculator force 2200n diameter 10mm",
+      "Tensile Stress Calculator (Force 2200N, Rod Dia 10mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

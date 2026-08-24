@@ -1,0 +1,15 @@
+{
+  "name": "Spherical to Cartesian 3D Coordinates Converter",
+  "description": "Convert 3D coordinate points between Spherical coordinates (r, θ inclination, φ azimuth) and Cartesian rectangular coordinates (x, y, z).",
+  "path": "/tools/spherical-to-cartesian-3d-coordinates-converter/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "spherical to cartesian converter 3d",
+    "spherical polar coordinates calculator",
+    "radius theta phi to xyz online",
+    "3d coordinate transformation calculator",
+    "spherical coordinates physics math"
+  ],
+  "order": 279
+}

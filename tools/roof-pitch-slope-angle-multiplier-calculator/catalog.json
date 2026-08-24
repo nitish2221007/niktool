@@ -1,0 +1,15 @@
+{
+  "name": "Roof Pitch, Slope Angle & Rafter Multiplier Calculator",
+  "description": "Convert roof pitch (Rise/12, e.g. 6/12 pitch) into slope angle (degrees), grade percentage (%), and rafter length expansion multiplier.",
+  "path": "/tools/roof-pitch-slope-angle-multiplier-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "roof pitch calculator",
+    "roof slope angle calculator",
+    "rafter length multiplier formula",
+    "pitch to degrees converter roof",
+    "6 12 roof pitch angle online"
+  ],
+  "order": 332
+}

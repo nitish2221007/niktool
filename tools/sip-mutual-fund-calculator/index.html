@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIP Mutual Fund Wealth Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate future wealth corpus and compound interest returns from monthly Systematic Investment Plans (SIP) in mutual funds and index ETFs.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/sip-mutual-fund-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SIP Mutual Fund Wealth Calculator | NikTool">
+  <meta property="og:description" content="Calculate future wealth corpus and compound interest returns from monthly Systematic Investment Plans (SIP) in mutual funds and index ETFs.">
+  <meta property="og:url" content="https://niktool.in/tools/sip-mutual-fund-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SIP Mutual Fund Wealth Calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/sip-mutual-fund-calculator/",
+        "description": "Calculate future wealth corpus and compound interest returns from monthly Systematic Investment Plans (SIP) in mutual funds and index ETFs.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What does a $5,000/mo SIP at 12% generate in 15 years?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "An invested capital of $900,000 grows into an estimated corpus of ~$2.52 Million."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>SIP Mutual Fund Wealth Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>SIP Mutual Fund Wealth Calculator</h1>
+      <p>Calculate future wealth corpus and compound interest returns from monthly Systematic Investment Plans (SIP) in mutual funds and index ETFs.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Monthly SIP Investment Parameters</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sip-monthly">Monthly Investment ($ / ₹)</label>
+          <input class="tool-textarea" id="sip-monthly" type="number" step="any" value="5000" placeholder="e.g. 5,000" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sip-rate">Expected Annual Return (%)</label>
+          <input class="tool-textarea" id="sip-rate" type="number" step="any" value="12.0" placeholder="e.g. 12%" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sip-years">Investment Duration (Years)</label>
+          <input class="tool-textarea" id="sip-years" type="number" step="any" value="15" placeholder="e.g. 15 Years" />
+        </div>
+      </div>
+      <div id="sip-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sip-res-total" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">-</span>
+            <span class="stat-label">Expected Maturity Corpus</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sip-res-invested" style="font-weight:700;">-</span>
+            <span class="stat-label">Total Amount Invested</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sip-res-gain" style="color:#2563eb;">-</span>
+            <span class="stat-label">Estimated Wealth Gain</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use SIP Mutual Fund Wealth Calculator</h2>
+      <ol>
+        <li>Enter your recurring monthly investment amount.</li>
+        <li>Enter your expected long-term annualized rate of return (e.g. 12% for equity mutual funds).</li>
+        <li>Enter total investment horizon in years.</li>
+        <li>Click <strong>Calculate</strong> to inspect the compounded maturity wealth.</li>
+      </ol>
+
+      <h2>Power of Compounding in SIP</h2>
+      <p>A Systematic Investment Plan averages out market volatility through dollar-cost averaging while compounding exponential gains over time.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What does a $5,000/mo SIP at 12% generate in 15 years?</summary>
+        <p>An invested capital of $900,000 grows into an estimated corpus of ~$2.52 Million.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/sip-mutual-fund-calculator/tool.js"></script>
+</body>
+</html>

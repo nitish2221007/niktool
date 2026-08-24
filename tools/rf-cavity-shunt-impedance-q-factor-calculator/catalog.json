@@ -1,0 +1,15 @@
+{
+  "name": "RF Resonant Cavity Shunt Impedance & Quality Factor (Q₀) Calculator",
+  "description": "Calculate RF accelerating cavity dissipated power loss (P = V_acc² / (2 · R_shunt)) and unloaded quality factor (Q₀ = ω · U / P_loss) for superconducting and copper accelerator cavities.",
+  "path": "/tools/rf-cavity-shunt-impedance-q-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rf cavity shunt impedance calculator",
+    "accelerator cavity q factor formula",
+    "superconducting rf cavity power loss calculator",
+    "vacc squared over 2 r shunt online",
+    "rf cavity transit time factor calculator"
+  ],
+  "order": 546
+}

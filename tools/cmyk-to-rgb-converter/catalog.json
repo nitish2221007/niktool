@@ -1,0 +1,15 @@
+{
+  "name": "Convert CMYK Color to RGB",
+  "description": "Convert print CMYK color values to digital screen RGB values.",
+  "path": "/tools/cmyk-to-rgb-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "cmyk to rgb converter",
+    "Convert CMYK Color to RGB",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

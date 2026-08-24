@@ -1,0 +1,15 @@
+{
+  "name": "Dupuit-Forchheimer Unconfined Aquifer Seepage (q = K·(h₁² - h₂²) / 2L) Calculator",
+  "description": "Calculate unconfined water table aquifer 1D steady-state seepage discharge flow rate q in m³/day per meter (q = K · (h₁² - h₂²) / (2·L)) and phreatic free water surface parabolic profile between two open water bodies.",
+  "path": "/tools/dupuit-forchheimer-unconfined-aquifer-seepage-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dupuit forchheimer calculator",
+    "unconfined aquifer seepage discharge formula online",
+    "phreatic water table parabolic profile calculator",
+    "groundwater flow unconfined aquifer calculator",
+    "hydrogeology civil geotechnical engineering seepage online"
+  ],
+  "order": 1296
+}

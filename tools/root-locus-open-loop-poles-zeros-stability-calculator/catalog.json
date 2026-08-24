@@ -1,0 +1,15 @@
+{
+  "name": "Root Locus Asymptotes, Centroid & Stability Breakaway Points Calculator",
+  "description": "Calculate control system Root Locus geometric characteristics: number of infinite asymptotes (n - m), real-axis asymptote centroid σ_a (σ_a = (∑ poles - ∑ zeros) / (n - m)), and asymptote departure angles.",
+  "path": "/tools/root-locus-open-loop-poles-zeros-stability-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "root locus calculator",
+    "asymptote centroid formula sigma a online",
+    "root locus departure angle poles zeros calculator",
+    "closed loop stability evans root locus calculator",
+    "classical control engineering transfer function stability online"
+  ],
+  "order": 1316
+}

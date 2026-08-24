@@ -1,0 +1,15 @@
+{
+  "name": "PLC Scan Time & Program Execution Cycle Latency Calculator",
+  "description": "Calculate Programmable Logic Controller (PLC) scan cycle time (T_scan = T_input + T_program + T_output + T_comm) in ms and maximum detectable digital pulse frequency.",
+  "path": "/tools/plc-scan-time-execution-cycle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "plc scan time calculator",
+    "plc execution cycle latency formula ms",
+    "plc ladder logic execution time calculator online",
+    "maximum input frequency plc scan time calculator",
+    "industrial automation plc scan cycle online"
+  ],
+  "order": 657
+}

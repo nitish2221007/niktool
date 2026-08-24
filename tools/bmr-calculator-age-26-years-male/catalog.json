@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calculator (Age 26 Years Male)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1638 kcal/day) for 26-year-old male.",
+  "path": "/tools/bmr-calculator-age-26-years-male/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calculator age 26 years male",
+    "BMR Calculator (Age 26 Years Male)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

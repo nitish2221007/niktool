@@ -1,0 +1,15 @@
+{
+  "name": "Convert 61 KM/H to MPH Speed",
+  "description": "Convert 61 kilometers per hour (km/h) to miles per hour (37.90 mph).",
+  "path": "/tools/convert-61-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 61 kmh to mph speed",
+    "Convert 61 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

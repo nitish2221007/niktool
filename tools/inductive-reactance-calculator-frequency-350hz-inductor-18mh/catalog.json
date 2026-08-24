@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (350 Hz, 18 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 39.58 Ω) for 350 Hz frequency and 18 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-350hz-inductor-18mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 350hz inductor 18mh",
+    "Inductive Reactance Calculator (350 Hz, 18 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

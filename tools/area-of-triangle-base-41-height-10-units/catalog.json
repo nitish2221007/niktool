@@ -1,0 +1,15 @@
+{
+  "name": "Area of Triangle (Base 41 x Height 10)",
+  "description": "Calculate area of triangle with base 41 and height 10 (A = 0.5 bh = 205.0).",
+  "path": "/tools/area-of-triangle-base-41-height-10-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of triangle base 41 height 10 units",
+    "Area of Triangle (Base 41 x Height 10)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

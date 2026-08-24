@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 385V, Current 3A)",
+  "description": "Calculate Resistance (128.33 Ω) and Electric Power (1155.0 W) for 385V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-385v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 385v current 3a",
+    "Ohm's Law Calculator (Voltage 385V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

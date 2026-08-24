@@ -1,0 +1,15 @@
+{
+  "name": "Direct Shear Test Mohr-Coulomb Shear Strength (τ = c + σ·tan φ) Calculator",
+  "description": "Calculate geotechnical soil shear strength parameters: internal angle of friction φ in degrees and cohesion c in kPa from direct shear box normal stresses (σ) and failure shear stresses (τ) under ASTM D3080.",
+  "path": "/tools/direct-shear-test-mohr-coulomb-cohesion-friction-angle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "direct shear test calculator",
+    "mohr coulomb shear strength formula tau equals c plus sigma tan phi online",
+    "soil friction angle cohesion calculator astm d3080",
+    "shear strength failure envelope geotechnical calculator",
+    "soil mechanics direct shear box online"
+  ],
+  "order": 1076
+}

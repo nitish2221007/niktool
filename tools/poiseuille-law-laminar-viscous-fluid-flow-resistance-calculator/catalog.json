@@ -1,0 +1,15 @@
+{
+  "name": "Hagen-Poiseuille Law Laminar Viscous Flow (Q = π·r⁴·ΔP / (8·μ·L)) Calculator",
+  "description": "Calculate viscous fluid volumetric flow rate (Q = π·r⁴·ΔP / (8·μ·L)) in L/min and hydrodynamic flow resistance (R_hyd = 8·μ·L / (π·r⁴)) demonstrating the extreme 4th-power radius dependence for vascular blood flow and microfluidics.",
+  "path": "/tools/poiseuille-law-laminar-viscous-fluid-flow-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "poiseuille law calculator",
+    "hagen poiseuille formula volumetric flow rate online",
+    "blood flow vessel radius 4th power poiseuille calculator",
+    "laminar pipe viscous resistance calculator",
+    "fluid dynamics poiseuille equation online"
+  ],
+  "order": 966
+}

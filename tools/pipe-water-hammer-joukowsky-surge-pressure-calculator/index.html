@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate pipeline hydraulic water hammer transient shock pressure (ΔP = ρ · c · Δv) in bar and MPa, acoustic wave speed c in m/s, and critical rapid valve closure time (t_cr = 2L / c) for water distribution piping.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/pipe-water-hammer-joukowsky-surge-pressure-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator | NikTool">
+  <meta property="og:description" content="Calculate pipeline hydraulic water hammer transient shock pressure (ΔP = ρ · c · Δv) in bar and MPa, acoustic wave speed c in m/s, and critical rapid valve closure time (t_cr = 2L / c) for water distribution piping.">
+  <meta property="og:url" content="https://niktool.in/tools/pipe-water-hammer-joukowsky-surge-pressure-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/pipe-water-hammer-joukowsky-surge-pressure-calculator/",
+        "description": "Calculate pipeline hydraulic water hammer transient shock pressure (ΔP = ρ · c · Δv) in bar and MPa, acoustic wave speed c in m/s, and critical rapid valve closure time (t_cr = 2L / c) for water distribution piping.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How can water hammer be prevented in piping systems?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Install surge tanks, air release valves, hydropneumatic accumulator surge vessels, or ensure valve closure time exceeds $t_{\text{cr}} = 2L/c$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator</h1>
+      <p>Calculate pipeline hydraulic water hammer transient shock pressure (ΔP = ρ · c · Δv) in bar and MPa, acoustic wave speed c in m/s, and critical rapid valve closure time (t_cr = 2L / c) for water distribution piping.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Pipe Length L (m), Initial Velocity v (m/s), Pipe Material Wave Speed c (m/s, 1000-1400 m/s) & Fluid Density ρ</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="wh-l">Pipe Length L (m)</label>
+          <input class="tool-textarea" id="wh-l" type="number" step="100" value="1000.0" placeholder="1,000 m (1 km Pipe)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wh-v">Fluid Velocity v (m/s)</label>
+          <input class="tool-textarea" id="wh-v" type="number" step="0.5" value="2.0" placeholder="2.0 m/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wh-c">Wave Speed c (m/s)</label>
+          <input class="tool-textarea" id="wh-c" type="number" step="50" value="1200.0" placeholder="1200.0 m/s (Steel Pipe)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wh-rho">Density ρ</label>
+          <input class="tool-textarea" id="wh-rho" type="number" step="50" value="1000" placeholder="1000 kg/m³ (Water)" />
+        </div>
+      </div>
+      <div id="wh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="wh-res-dp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Surge ΔP = 24.00 bar (2.40 MPa / 244.8 m Head)</span>
+            <span class="stat-label">Joukowsky Maximum Shock Pressure Rise (ΔP = ρ·c·Δv)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="wh-res-tcr" style="color:var(--green-dark); font-weight:700;">Critical Valve Closure Time t_cr = 1.67 s (Closing valve in < 1.67 s triggers maximum water hammer)</span>
+            <span class="stat-label">Critical Acoustic Round-Trip Reflection Time (2L / c)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator</h2>
+      <ol>
+        <li>Enter total pipeline transmission length L in meters.</li>
+        <li>Enter initial steady-state fluid flow velocity v in m/s.</li>
+        <li>Enter acoustic pressure wave speed c in the fluid-pipe system in m/s (typically 1,000 to 1,400 m/s for water in steel/ductile iron pipes, 300 to 500 m/s in flexible HDPE).</li>
+        <li>Enter fluid density $ho$ (1,000 $	ext{kg/m}^3$ for water).</li>
+        <li>Inspect maximum Joukowsky transient shock pressure rise $Delta P$ in bar and critical valve closure time $t_{	ext{cr}} = 2L/c$.</li>
+      </ol>
+
+      <h2>Nikolay Joukowsky 1898 Water Hammer Equation</h2>
+      <p>Rapidly slamming a valve shut converts fluid kinetic momentum into an acoustic pressure shockwave ($Delta P = ho c Delta v$), which can shatter cast iron pipes, burst pump casings, or collapse penstocks without surge suppression tanks or slow-closing motorized valves.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How can water hammer be prevented in piping systems?</summary>
+        <p>Install surge tanks, air release valves, hydropneumatic accumulator surge vessels, or ensure valve closure time exceeds $t_{	ext{cr}} = 2L/c$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/pipe-water-hammer-joukowsky-surge-pressure-calculator/tool.js"></script>
+</body>
+</html>

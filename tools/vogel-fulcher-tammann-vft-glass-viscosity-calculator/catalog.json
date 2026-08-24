@@ -1,0 +1,15 @@
+{
+  "name": "Vogel-Fulcher-Tammann (VFT) Glass Viscosity & Working Range Calculator",
+  "description": "Calculate silicate glass dynamic melt viscosity (log₁₀ η = A + B / (T - T₀)) in dPa·s (Poise) across Melting, Working, Softening, Annealing, and Strain reference points.",
+  "path": "/tools/vogel-fulcher-tammann-vft-glass-viscosity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "vft glass viscosity calculator",
+    "vogel fulcher tammann equation log10 eta a plus b over t minus t0",
+    "glass softening annealing strain point calculator online",
+    "soda lime glass working temperature viscosity calculator",
+    "glass manufacturing vft viscosity online"
+  ],
+  "order": 804
+}

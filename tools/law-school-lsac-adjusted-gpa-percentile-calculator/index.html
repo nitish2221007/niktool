@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Law School LSAC Adjusted GPA & Admissions Index Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate official Law School Admission Council (LSAC) cumulative GPA adjustments (counting A+ as 4.33 and punitive failing grades) and compute law school admission Index scores from LSAT and GPA.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/law-school-lsac-adjusted-gpa-percentile-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Law School LSAC Adjusted GPA & Admissions Index Calculator | NikTool">
+  <meta property="og:description" content="Calculate official Law School Admission Council (LSAC) cumulative GPA adjustments (counting A+ as 4.33 and punitive failing grades) and compute law school admission Index scores from LSAT and GPA.">
+  <meta property="og:url" content="https://niktool.in/tools/law-school-lsac-adjusted-gpa-percentile-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Law School LSAC Adjusted GPA & Admissions Index Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/law-school-lsac-adjusted-gpa-percentile-calculator/",
+        "description": "Calculate official Law School Admission Council (LSAC) cumulative GPA adjustments (counting A+ as 4.33 and punitive failing grades) and compute law school admission Index scores from LSAT and GPA.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Does LSAC recalculate repeated courses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes; LSAC includes all original and repeated college grades in your cumulative GPA, regardless of whether your undergraduate college used grade forgiveness."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Law School LSAC Adjusted GPA & Admissions Index Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Law School LSAC Adjusted GPA & Admissions Index Calculator</h1>
+      <p>Calculate official Law School Admission Council (LSAC) cumulative GPA adjustments (counting A+ as 4.33 and punitive failing grades) and compute law school admission Index scores from LSAT and GPA.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">LSAT Score (120 to 180) & Undergraduate Cumulative LSAC GPA (0 to 4.33)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ls-lsat">LSAT Score (120-180)</label>
+          <input class="tool-textarea" id="ls-lsat" type="number" step="1" min="120" max="180" value="172" placeholder="172" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ls-gpa">LSAC GPA (0-4.33)</label>
+          <input class="tool-textarea" id="ls-gpa" type="number" step="0.05" min="0" max="4.33" value="3.88" placeholder="3.88" />
+        </div>
+      </div>
+      <div id="ls-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ls-res-idx" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Index Score = 24.58 (T14 Ready)</span>
+            <span class="stat-label">Standard Law School Admissions Composite Index</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ls-res-tier" style="color:var(--green-dark); font-weight:700;">T14 LAW SCHOOL COMPETITIVE: At or above 75th percentile for Columbia, NYU, Chicago, Penn</span>
+            <span class="stat-label">ABA Law School Admissions Standing & Percentile</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Law School LSAC Adjusted GPA & Admissions Index Calculator</h2>
+      <ol>
+        <li>Enter your highest official LSAT score (120 to 180).</li>
+        <li>Enter your cumulative LSAC-adjusted undergraduate GPA on the 4.33 scale (where $A+ = 4.33$).</li>
+        <li>Inspect composite law school admissions index and view T14 / Top 50 law school profile competitiveness.</li>
+      </ol>
+
+      <h2>Official LSAC Credential Assembly Service (CAS) Standard</h2>
+      <p>Unlike college transcripts that cap grades at 4.0, LSAC standardizes all undergraduate coursework across institutions, converting A+ grades into 4.33 quality points and recalculating punitive withdrawals to generate a universal CAS GPA reported to American Bar Association (ABA) law schools.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Does LSAC recalculate repeated courses?</summary>
+        <p>Yes; LSAC includes all original and repeated college grades in your cumulative GPA, regardless of whether your undergraduate college used grade forgiveness.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/law-school-lsac-adjusted-gpa-percentile-calculator/tool.js"></script>
+</body>
+</html>

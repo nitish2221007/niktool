@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (30 km Distance, 20 km/l Mileage)",
+  "description": "Calculate total fuel required (1.5 L) and estimated cost (₹145) for 30 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-30km-mileage-20kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 30km mileage 20kmpl",
+    "Fuel Cost Calculator (30 km Distance, 20 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

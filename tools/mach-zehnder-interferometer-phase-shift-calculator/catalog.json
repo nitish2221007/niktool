@@ -1,0 +1,15 @@
+{
+  "name": "Mach-Zehnder Interferometer Optical Phase Shift Calculator",
+  "description": "Calculate optical phase delay (ΔΦ = (2 · π / λ) · Δn · L) in radians and degrees for electro-optic phase modulators and refractive index gas sensors.",
+  "path": "/tools/mach-zehnder-interferometer-phase-shift-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mach zehnder interferometer calculator",
+    "optical phase shift formula 2 pi delta n l over lambda",
+    "electro optic phase modulator calculator online",
+    "optical gas sensor phase shift calculator",
+    "quantum optics mach zehnder online"
+  ],
+  "order": 529
+}

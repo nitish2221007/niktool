@@ -1,0 +1,15 @@
+{
+  "name": "Quantum Bell State Entanglement Fidelity & CHSH Bell Inequality (S ≤ 2√2) Calculator",
+  "description": "Calculate maximally entangled bipartite qubit Bell state (|Φ⁺⟩ = (|00⟩ + |11⟩)/√2) quantum state tomography fidelity (F), Concurrence (C), and Clauser-Horne-Shimony-Holt (CHSH) Bell inequality violation parameter S (S = 2√2 ≈ 2.828 exceeding 2.0 Classical Bound).",
+  "path": "/tools/quantum-bell-state-fidelity-concurrence-entanglement-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "chsh inequality calculator",
+    "bell state entanglement formula s equals 2 sqrt 2 online",
+    "quantum entanglement concurrence fidelity calculator",
+    "quantum teleportation bell test violation calculator",
+    "einstein podolsky rosen epr paradox online"
+  ],
+  "order": 867
+}

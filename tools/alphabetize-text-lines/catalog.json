@@ -1,0 +1,15 @@
+{
+  "name": "Alphabetize Text Lines Online",
+  "description": "Sort multiline text list alphabetically (A-Z or Z-A).",
+  "path": "/tools/alphabetize-text-lines/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "alphabetize text lines",
+    "Alphabetize Text Lines Online",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

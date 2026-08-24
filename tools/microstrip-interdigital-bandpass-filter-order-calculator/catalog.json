@@ -1,0 +1,15 @@
+{
+  "name": "RF Filter Minimum Order (Chebyshev & Butterworth n) Calculator",
+  "description": "Calculate RF/microwave low-pass/bandpass filter minimum order n from passband ripple A_p (dB), stopband attenuation A_s (dB), and selectivity cutoff ratio (ω_s / ω_p).",
+  "path": "/tools/microstrip-interdigital-bandpass-filter-order-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rf filter order calculator",
+    "chebyshev filter order formula arccosh online",
+    "butterworth filter order calculator online",
+    "microwave filter attenuation selectivity calculator",
+    "analog active passive filter design calculator"
+  ],
+  "order": 740
+}

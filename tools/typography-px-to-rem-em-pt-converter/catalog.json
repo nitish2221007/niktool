@@ -1,0 +1,15 @@
+{
+  "name": "Typography Units Converter (PX, REM, EM, PT)",
+  "description": "Convert CSS font sizes and spacing between Pixels (px), REM, EM, Points (pt), and Percentage (%) based on customizable root base font size.",
+  "path": "/tools/typography-px-to-rem-em-pt-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "px to rem converter",
+    "rem to px calculator",
+    "px to em typography converter",
+    "css font size converter",
+    "px to pt converter online"
+  ],
+  "order": 138
+}

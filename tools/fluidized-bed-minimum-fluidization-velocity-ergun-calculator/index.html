@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate chemical reactor minimum fluidization superficial velocity (u_mf in m/s) from particle diameter d_p, solid particle density ρ_s, fluid density ρ, and bed voidage ε using the Ergun equation.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/fluidized-bed-minimum-fluidization-velocity-ergun-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator | NikTool">
+  <meta property="og:description" content="Calculate chemical reactor minimum fluidization superficial velocity (u_mf in m/s) from particle diameter d_p, solid particle density ρ_s, fluid density ρ, and bed voidage ε using the Ergun equation.">
+  <meta property="og:url" content="https://niktool.in/tools/fluidized-bed-minimum-fluidization-velocity-ergun-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/fluidized-bed-minimum-fluidization-velocity-ergun-calculator/",
+        "description": "Calculate chemical reactor minimum fluidization superficial velocity (u_mf in m/s) from particle diameter d_p, solid particle density ρ_s, fluid density ρ, and bed voidage ε using the Ergun equation.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens when gas velocity exceeds u_mf?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Gas bubbles form and rise through the bed (bubbling fluidization); if velocity exceeds the particle terminal settling velocity ($u_t$), particles are pneumatically carried out of the reactor."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator</h1>
+      <p>Calculate chemical reactor minimum fluidization superficial velocity (u_mf in m/s) from particle diameter d_p, solid particle density ρ_s, fluid density ρ, and bed voidage ε using the Ergun equation.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Particle Diameter d_p (mm), Particle Density ρ_s (kg/m³), Fluid Density ρ (kg/m³) & Voidage ε</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="fb-dp">Particle d_p (mm)</label>
+          <input class="tool-textarea" id="fb-dp" type="number" step="0.05" value="0.25" placeholder="0.25 mm (250 μm Sand)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fb-rhos">Solid ρ_s (kg/m³)</label>
+          <input class="tool-textarea" id="fb-rhos" type="number" step="100" value="2500" placeholder="2500 kg/m³ (Sand)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fb-rhof">Gas Density ρ (kg/m³)</label>
+          <input class="tool-textarea" id="fb-rhof" type="number" step="0.1" value="1.20" placeholder="1.20 kg/m³ (Air)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fb-eps">Voidage (ε_mf)</label>
+          <input class="tool-textarea" id="fb-eps" type="number" step="0.02" min="0.3" max="0.6" value="0.42" placeholder="0.42" />
+        </div>
+      </div>
+      <div id="fb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="fb-res-umf" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">u_mf = 0.056 m / s (5.6 cm/s)</span>
+            <span class="stat-label">Minimum Fluidization Velocity (u_mf)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="fb-res-arch" style="color:var(--green-dark); font-weight:700;">Archimedes Ar = 276.5 | Geldart Group B (Sand-like bubbling bed behavior)</span>
+            <span class="stat-label">Archimedes Number (Ar) & Geldart Particle Classification</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Fluidized Bed Minimum Fluidization Velocity (u_mf via Ergun Equation) Calculator</h2>
+      <ol>
+        <li>Enter mean solid catalyst/sand particle diameter $d_p$ in millimeters.</li>
+        <li>Enter particle solid density $ho_s$ in $	ext{kg/m}^3$ (e.g. 2,500 for silica sand).</li>
+        <li>Enter fluidizing gas density $ho_g$ in $	ext{kg/m}^3$ (1.20 for ambient air).</li>
+        <li>Enter minimum fluidization bed voidage fraction $arepsilon_{mf}$ (typically $0.40	ext{ to }0.45$).</li>
+        <li>Inspect minimum fluidization superficial gas velocity $u_{mf}$ in m/s and Geldart powder classification.</li>
+      </ol>
+
+      <h2>Sabri Ergun 1952 Fluidized Bed Pressure Drop Balance</h2>
+      <p>When upward hydrodynamic drag force balances the net gravitational weight of solid particles, the packed bed transitions into a liquid-like boiling state (fluidization), providing exceptional heat transfer in FCC petroleum catalytic cracking.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens when gas velocity exceeds u_mf?</summary>
+        <p>Gas bubbles form and rise through the bed (bubbling fluidization); if velocity exceeds the particle terminal settling velocity ($u_t$), particles are pneumatically carried out of the reactor.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/fluidized-bed-minimum-fluidization-velocity-ergun-calculator/tool.js"></script>
+</body>
+</html>

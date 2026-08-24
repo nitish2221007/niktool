@@ -1,0 +1,15 @@
+{
+  "name": "Serum Anion Gap & Serum Osmolality / Osmolar Gap Calculator",
+  "description": "Calculate clinical Serum Anion Gap in mEq/L (Anion Gap = [Na⁺] - ([Cl⁻] + [HCO₃⁻])), Serum Osmolality in mOsm/kg (2·[Na⁺] + Glucose/18 + BUN/2.8), and Osmolar Gap to diagnose toxic alcohol ingestion.",
+  "path": "/tools/plasma-anion-gap-serum-osmolality-osmolar-gap-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "serum anion gap calculator",
+    "osmolar gap formula methanol ethylene glycol online",
+    "high anion gap metabolic acidosis mudpiles calculator",
+    "serum osmolality formula online",
+    "toxicology nephrology emergency medicine clinical biochemistry online"
+  ],
+  "order": 1447
+}

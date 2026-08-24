@@ -1,0 +1,15 @@
+{
+  "name": "Aspect Ratio Calculator",
+  "description": "Calculate image and video aspect ratios (16:9, 4:3, 21:9, 1:1) and automatically resize dimensions while preserving proportions.",
+  "path": "/tools/aspect-ratio-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "aspect ratio calculator",
+    "image dimension ratio",
+    "16:9 aspect ratio calculator",
+    "image scaling calculator",
+    "video resolution aspect ratio"
+  ],
+  "order": 76
+}

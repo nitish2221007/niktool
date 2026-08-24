@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Convert 32 LBS to KG Weight",
+    "description": "Convert 32 pounds (lbs) to kilograms (14.51 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-32-lbs-to-kg-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 lbs to kg weight",
+      "Convert 32 LBS to KG Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 MB to KB",
+    "description": "Convert 32 Megabytes (MB) to Kilobytes (32768 KB). 100% free and local.",
+    "path": "/tools/convert-32-mb-to-kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 mb to kb",
+      "Convert 32 MB to KB",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Meters to CM Val",
+    "description": "Convert 32 meters (m) to centimeters (3200 cm) instantly. 100% free and local.",
+    "path": "/tools/convert-32-meters-to-cm-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 meters to cm val",
+      "Convert 32 Meters to CM Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Meters to Feet",
+    "description": "Convert 32 meters (m) to feet (ft) instantly (104.99 ft). 100% free and local.",
+    "path": "/tools/convert-32-meters-to-feet/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 meters to feet",
+      "Convert 32 Meters to Feet",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Meters to Yards Val",
+    "description": "Convert 32 meters (m) to yards (35.00 yd) instantly. 100% free and local.",
+    "path": "/tools/convert-32-meters-to-yards-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 meters to yards val",
+      "Convert 32 Meters to Yards Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Miles to KM",
+    "description": "Convert 32 miles to kilometers (51.50 km). 100% free and local.",
+    "path": "/tools/convert-32-miles-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 miles to km",
+      "Convert 32 Miles to KM",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Nautical Miles to KM",
+    "description": "Convert 32 nautical miles (NM) to kilometers (59.26 km). 100% free and local.",
+    "path": "/tools/convert-32-nautical-miles-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 nautical miles to km",
+      "Convert 32 Nautical Miles to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Nautical Miles Val to KM",
+    "description": "Convert 32 nautical miles (NM) to kilometers (59.26 km). 100% free and local.",
+    "path": "/tools/convert-nautical-mile-val-32-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert nautical mile val 32 to km",
+      "Convert 32 Nautical Miles Val to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Ounces to Grams Weight",
+    "description": "Convert 32 ounces (oz) to grams (907.18 g) instantly. 100% free and local.",
+    "path": "/tools/convert-32-ounces-to-grams-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 ounces to grams weight",
+      "Convert 32 Ounces to Grams Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 REM to PX Value",
+    "description": "Convert 32 REM units to pixels (512 px) based on standard 16px root font.",
+    "path": "/tools/convert-32-rem-to-px-value/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 32 rem to px value",
+      "Convert 32 REM to PX Value",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Tons to KG Val",
+    "description": "Convert 32 metric tons to kilograms (32000 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-32-tons-to-kg-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 tons to kg val",
+      "Convert 32 Tons to KG Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Yards to Feet Val",
+    "description": "Convert 32 yards (yd) to feet (96 ft) instantly. 100% free and local.",
+    "path": "/tools/convert-32-yards-to-feet-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 yards to feet val",
+      "Convert 32 Yards to Feet Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32 Yards to Meters Val",
+    "description": "Convert 32 yards (yd) to meters (29.26 m) instantly. 100% free and local.",
+    "path": "/tools/convert-32-yards-to-meters-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 yards to meters val",
+      "Convert 32 Yards to Meters Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32°C Celsius to Fahrenheit",
+    "description": "Convert 32 degrees Celsius (°C) to Fahrenheit (89.6°F).",
+    "path": "/tools/convert-32-celsius-to-fahrenheit/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 celsius to fahrenheit",
+      "Convert 32°C Celsius to Fahrenheit",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32°C Celsius to Kelvin Temp",
+    "description": "Convert 32 degrees Celsius (°C) to Kelvin (305.15 K) instantly.",
+    "path": "/tools/convert-32-celsius-to-kelvin-temp/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 celsius to kelvin temp",
+      "Convert 32°C Celsius to Kelvin Temp",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 32°F Fahrenheit to Celsius Temp",
+    "description": "Convert 32 degrees Fahrenheit (°F) to Celsius (0.0°C) instantly.",
+    "path": "/tools/convert-32-fahrenheit-to-celsius-temp/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 32 fahrenheit to celsius temp",
+      "Convert 32°F Fahrenheit to Celsius Temp",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 320 Feet to Inches Val",
+    "description": "Convert 320 feet (ft) to inches (3840 in) instantly. 100% free and local.",
+    "path": "/tools/convert-320-feet-to-inches-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 320 feet to inches val",
+      "Convert 320 Feet to Inches Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 320 Hours Val to Minutes",
+    "description": "Convert 320 hours to total minutes (19,200 minutes). 100% free and local.",
+    "path": "/tools/convert-time-hours-val-320-to-minutes/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert time hours val 320 to minutes",
+      "Convert 320 Hours Val to Minutes",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 320 Knots Speed Val to KM/H",
+    "description": "Convert 320 knots speed to kilometers per hour (592.64 km/h).",
+    "path": "/tools/convert-knot-speed-val-320-to-kmh/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert knot speed val 320 to kmh",
+      "Convert 320 Knots Speed Val to KM/H",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 320 Nautical Miles Val to KM",
+    "description": "Convert 320 nautical miles (NM) to kilometers (592.64 km). 100% free and local.",
+    "path": "/tools/convert-nautical-mile-val-320-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert nautical mile val 320 to km",
+      "Convert 320 Nautical Miles Val to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 321 Feet to Inches Val",
+    "description": "Convert 321 feet (ft) to inches (3852 in) instantly. 100% free and local.",
+    "path": "/tools/convert-321-feet-to-inches-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 321 feet to inches val",
+      "Convert 321 Feet to Inches Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 321 Hours Val to Minutes",
+    "description": "Convert 321 hours to total minutes (19,260 minutes). 100% free and local.",
+    "path": "/tools/convert-time-hours-val-321-to-minutes/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert time hours val 321 to minutes",
+      "Convert 321 Hours Val to Minutes",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 321 Knots Speed Val to KM/H",
+    "description": "Convert 321 knots speed to kilometers per hour (594.49 km/h).",
+    "path": "/tools/convert-knot-speed-val-321-to-kmh/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert knot speed val 321 to kmh",
+      "Convert 321 Knots Speed Val to KM/H",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 321 Nautical Miles Val to KM",
+    "description": "Convert 321 nautical miles (NM) to kilometers (594.49 km). 100% free and local.",
+    "path": "/tools/convert-nautical-mile-val-321-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert nautical mile val 321 to km",
+      "Convert 321 Nautical Miles Val to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  }
+]

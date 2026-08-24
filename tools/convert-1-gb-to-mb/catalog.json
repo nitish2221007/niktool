@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 GB to MB",
+  "description": "Convert 1 Gigabytes (GB) to Megabytes (1024 MB). 100% free and local.",
+  "path": "/tools/convert-1-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 1 gb to mb",
+    "Convert 1 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

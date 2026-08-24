@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Refrigeration Carnot Cycle COP & Compressor Power Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate maximum theoretical thermodynamic Coefficient of Performance (COP_Carnot = T_C / (T_H - T_C)) and compressor electrical power demand in kW/HP.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/refrigeration-carnot-cop-efficiency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Refrigeration Carnot Cycle COP & Compressor Power Calculator | NikTool">
+  <meta property="og:description" content="Calculate maximum theoretical thermodynamic Coefficient of Performance (COP_Carnot = T_C / (T_H - T_C)) and compressor electrical power demand in kW/HP.">
+  <meta property="og:url" content="https://niktool.in/tools/refrigeration-carnot-cop-efficiency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Refrigeration Carnot Cycle COP & Compressor Power Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/refrigeration-carnot-cop-efficiency-calculator/",
+        "description": "Calculate maximum theoretical thermodynamic Coefficient of Performance (COP_Carnot = T_C / (T_H - T_C)) and compressor electrical power demand in kW/HP.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does lowering condenser temperature save so much electricity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every 1°C reduction in condensing temperature improves refrigeration COP by approximately 2% to 4%."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Refrigeration Carnot Cycle COP & Compressor Power Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Refrigeration Carnot Cycle COP & Compressor Power Calculator</h1>
+      <p>Calculate maximum theoretical thermodynamic Coefficient of Performance (COP_Carnot = T_C / (T_H - T_C)) and compressor electrical power demand in kW/HP.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Evaporator Temp T_C (°C), Condenser Temp T_H (°C) & Cooling Capacity Q_c (kW or Tons)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ref-tc">Evaporator T_C (°C)</label>
+          <input class="tool-textarea" id="ref-tc" type="number" step="any" value="4.0" placeholder="4.0 °C (Chilled Water)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ref-th">Condenser T_H (°C)</label>
+          <input class="tool-textarea" id="ref-th" type="number" step="any" value="38.0" placeholder="38.0 °C (Summer Ambient)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ref-qc">Cooling Load Q_c (kW)</label>
+          <input class="tool-textarea" id="ref-qc" type="number" step="any" value="35.0" placeholder="35.0 kW (10 Tons)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ref-eff">Isentropic Efficiency</label>
+          <input class="tool-textarea" id="ref-eff" type="number" step="0.05" value="0.65" placeholder="0.65 (Real Compressor)" />
+        </div>
+      </div>
+      <div id="ref-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ref-res-cop" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Real COP = 5.30 (Carnot: 8.15)</span>
+            <span class="stat-label">System Coefficient of Performance (COP)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ref-res-pwr" style="font-weight:700;">Compressor Power: 6.60 kW (8.85 HP) | EER: 18.09</span>
+            <span class="stat-label">Electrical Power Input & Energy Efficiency Ratio (EER)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Refrigeration Carnot Cycle COP & Compressor Power Calculator</h2>
+      <ol>
+        <li>Enter refrigerant evaporating saturation temperature T_C in Celsius.</li>
+        <li>Enter refrigerant condensing saturation temperature T_H in Celsius.</li>
+        <li>Enter cooling thermal load capacity Q_c in kilowatts (1 Ton of Refrigeration = 3.517 kW).</li>
+        <li>Enter compressor isentropic second-law efficiency (typically 0.60 to 0.75).</li>
+        <li>Inspect thermodynamic COP, Energy Efficiency Ratio (EER), and required compressor electrical horsepower.</li>
+      </ol>
+
+      <h2>Nicolas Léonard Sadi Carnot 1824 Second Law Ceiling</h2>
+      <p>The Carnot cycle defines the absolute theoretical ceiling of heat pump and refrigeration performance; minimizing thermal lift by using water-cooled condensers dramatically boosts COP and slashes electricity bills.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does lowering condenser temperature save so much electricity?</summary>
+        <p>Every 1°C reduction in condensing temperature improves refrigeration COP by approximately 2% to 4%.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/refrigeration-carnot-cop-efficiency-calculator/tool.js"></script>
+</body>
+</html>

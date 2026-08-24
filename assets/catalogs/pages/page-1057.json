@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 300kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 75.00 kPa) for 300 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-300kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 300kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 300kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 300kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 33.33 kPa) for 300 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-300kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 300kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 300kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 300kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 18.75 kPa) for 300 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-300kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 300kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 300kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 350.00 kPa) for 350 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-350kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 350kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 87.50 kPa) for 350 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-350kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 350kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 38.89 kPa) for 350 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-350kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 350kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 21.88 kPa) for 350 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-350kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 350kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 350kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 400.00 kPa) for 400 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-400kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 400kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 100.00 kPa) for 400 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-400kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 400kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 44.44 kPa) for 400 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-400kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 400kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 25.00 kPa) for 400 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-400kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 400kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 400kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 450.00 kPa) for 450 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-450kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 450kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 112.50 kPa) for 450 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-450kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 450kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 50.00 kPa) for 450 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-450kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 450kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 28.13 kPa) for 450 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-450kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 450kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 450kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 500.00 kPa) for 500 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-500kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 500kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 125.00 kPa) for 500 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-500kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 500kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 55.56 kPa) for 500 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-500kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 500kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 31.25 kPa) for 500 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-500kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 500kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 500kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 50.00 kPa) for 50 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-50kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 50kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 12.50 kPa) for 50 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-50kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 50kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 5.56 kPa) for 50 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-50kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 50kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 3.13 kPa) for 50 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-50kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 50kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 50kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 550kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 550.00 kPa) for 550 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-550kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 550kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 550kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

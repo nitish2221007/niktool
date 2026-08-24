@@ -1,0 +1,15 @@
+{
+  "name": "Streeter-Phelps Dissolved Oxygen (DO) Sag Curve & Critical Deficit Calculator",
+  "description": "Calculate river river water quality Dissolved Oxygen deficit D(t) (Streeter-Phelps equation), critical time to oxygen sag minimum t_c, and critical lowest dissolved oxygen concentration DO_min from wastewater BOD discharge.",
+  "path": "/tools/streeter-phelps-dissolved-oxygen-sag-curve-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "streeter phelps calculator",
+    "dissolved oxygen sag curve formula online",
+    "critical oxygen deficit time tc calculator",
+    "river water quality bod reaeration rate calculator",
+    "environmental engineering hydrology water resources online"
+  ],
+  "order": 1336
+}

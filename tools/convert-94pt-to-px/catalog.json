@@ -1,0 +1,15 @@
+{
+  "name": "Convert 94pt to PX",
+  "description": "Convert 94 points (pt) to pixels (125.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-94pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 94pt to px",
+    "Convert 94pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

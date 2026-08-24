@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (870 km Distance, 23 km/l Mileage)",
+  "description": "Calculate fuel needed (37.8 L) and cost (₹3648) for 870 km trip at 23 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-870km-mileage-23kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 870km mileage 23kmpl",
+    "Fuel Cost Trip Calculator (870 km Distance, 23 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

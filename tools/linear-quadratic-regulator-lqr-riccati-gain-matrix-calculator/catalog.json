@@ -1,0 +1,15 @@
+{
+  "name": "Linear Quadratic Regulator (LQR 1D Riccati Equation & Optimal Gain K) Calculator",
+  "description": "Calculate 1-state Continuous-Time Linear Quadratic Regulator (LQR) Algebraic Riccati Equation solution P (2·a·P - P²·b²/r + q = 0) and optimal state feedback gain K = b·P/r to minimize cost J = ∫(q·x² + r·u²)dt.",
+  "path": "/tools/linear-quadratic-regulator-lqr-riccati-gain-matrix-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "lqr calculator",
+    "linear quadratic regulator riccati equation formula online",
+    "optimal control gain k lqr calculator",
+    "algebraic riccati equation continuous time lqr calculator",
+    "optimal control state space robotics mechatronics online"
+  ],
+  "order": 1320
+}

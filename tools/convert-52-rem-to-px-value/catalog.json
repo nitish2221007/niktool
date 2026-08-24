@@ -1,0 +1,15 @@
+{
+  "name": "Convert 52 REM to PX Value",
+  "description": "Convert 52 REM units to pixels (832 px) based on standard 16px root font.",
+  "path": "/tools/convert-52-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 52 rem to px value",
+    "Convert 52 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

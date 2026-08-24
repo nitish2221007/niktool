@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate vertical subterranean stress increase (σ_z = (P / z²) · (1 / 2π) · [1 + 2·(r/z)²]^(-3/2)) in kPa beneath surface point loads in stratified layered soils.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/westergaard-elastic-stress-point-load-depth-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator | NikTool">
+  <meta property="og:description" content="Calculate vertical subterranean stress increase (σ_z = (P / z²) · (1 / 2π) · [1 + 2·(r/z)²]^(-3/2)) in kPa beneath surface point loads in stratified layered soils.">
+  <meta property="og:url" content="https://niktool.in/tools/westergaard-elastic-stress-point-load-depth-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/westergaard-elastic-stress-point-load-depth-calculator/",
+        "description": "Calculate vertical subterranean stress increase (σ_z = (P / z²) · (1 / 2π) · [1 + 2·(r/z)²]^(-3/2)) in kPa beneath surface point loads in stratified layered soils.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is Westergaard stress lower than Boussinesq directly beneath the load (r=0)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Directly under the load ($r=0$), Westergaard yields $sigma_z = \frac{1}{2pi} \frac{P}{z^2} approx 0.318 \frac{P}{z^2}$, whereas Boussinesq yields $\frac{3}{2pi} \frac{P}{z^2} approx 0.477 \frac{P}{z^2}$ because horizontal reinforcement spreads stress wider."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator</h1>
+      <p>Calculate vertical subterranean stress increase (σ_z = (P / z²) · (1 / 2π) · [1 + 2·(r/z)²]^(-3/2)) in kPa beneath surface point loads in stratified layered soils.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Surface Point Load P (kN), Subsurface Depth z (m) & Horizontal Offset r (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="wst-p">Point Load P (kN)</label>
+          <input class="tool-textarea" id="wst-p" type="number" step="any" value="500.0" placeholder="500.0 kN (50 Tonnes)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wst-z">Depth z (m)</label>
+          <input class="tool-textarea" id="wst-z" type="number" step="any" value="3.0" placeholder="3.0 m Depth" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wst-r">Radial Offset r (m)</label>
+          <input class="tool-textarea" id="wst-r" type="number" step="any" value="1.0" placeholder="1.0 m Offset" />
+        </div>
+      </div>
+      <div id="wst-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="wst-res-sig" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">σ_z = 21.6 kPa Stress</span>
+            <span class="stat-label">Vertical Soil Stress Increase (Westergaard σ_z)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="wst-res-cmp" style="font-weight:700;">Boussinesq: 22.8 kPa (Westergaard accounts for horizontal lateral reinforcement)</span>
+            <span class="stat-label">Westergaard vs Boussinesq Homogeneous Comparison</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator</h2>
+      <ol>
+        <li>Enter concentrated vertical surface column load P in kN.</li>
+        <li>Enter subterranean soil stratum depth z in meters.</li>
+        <li>Enter horizontal radial distance offset r from load centerline in meters ($r = 0$ directly under load).</li>
+        <li>Inspect vertical compressive soil stress increase $sigma_z$ in kPa computed via Westergaard and Boussinesq solutions.</li>
+      </ol>
+
+      <h2>H.M. Westergaard 1938 Layered Soil Stress Distribution</h2>
+      <p>While Boussinesq assumes an isotropic elastic half-space, Westergaard models stratified layered soils interspersed with rigid horizontal clay/silt sheets that resist lateral expansion ($epsilon_x = epsilon_y = 0$), providing more realistic settlement calculations for sedimentary soil deposits.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is Westergaard stress lower than Boussinesq directly beneath the load (r=0)?</summary>
+        <p>Directly under the load ($r=0$), Westergaard yields $sigma_z = rac{1}{2pi} rac{P}{z^2} approx 0.318 rac{P}{z^2}$, whereas Boussinesq yields $rac{3}{2pi} rac{P}{z^2} approx 0.477 rac{P}{z^2}$ because horizontal reinforcement spreads stress wider.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/westergaard-elastic-stress-point-load-depth-calculator/tool.js"></script>
+</body>
+</html>

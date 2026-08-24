@@ -1,0 +1,15 @@
+{
+  "name": "pH, pOH, [H⁺] & [OH⁻] Ion Concentration Chemistry Converter",
+  "description": "Convert between pH, pOH, hydronium ion concentration [H⁺] = 10^(-pH), and hydroxide concentration [OH⁻] = 10^(-pOH) using water autoionization equilibrium (pH + pOH = 14.00 @ 25°C).",
+  "path": "/tools/ph-poh-hydrogen-ion-concentration-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ph calculator",
+    "poh to ph converter formula ph plus poh equals 14 online",
+    "hydrogen ion concentration from ph calculator 10 to minus ph",
+    "acidic basic neutral ph scale converter",
+    "chemistry autoionization of water kw calculator online"
+  ],
+  "order": 942
+}

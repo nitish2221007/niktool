@@ -1,0 +1,15 @@
+{
+  "name": "SIP Return Calculator (₹50,000/Month)",
+  "description": "Calculate wealth growth and maturity value for ₹50,000 monthly SIP investment.",
+  "path": "/tools/sip-calculator-50000-per-month/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "sip calculator 50000 per month",
+    "SIP Return Calculator (₹50,000/Month)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

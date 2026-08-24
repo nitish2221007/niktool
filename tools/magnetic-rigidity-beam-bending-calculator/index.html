@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate particle accelerator magnetic rigidity (B · ρ = p / q = √(E_k² + 2 · E_k · m₀c²) / (q · c)) in Tesla-meters (T·m) and required dipole magnet bending fields.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/magnetic-rigidity-beam-bending-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator | NikTool">
+  <meta property="og:description" content="Calculate particle accelerator magnetic rigidity (B · ρ = p / q = √(E_k² + 2 · E_k · m₀c²) / (q · c)) in Tesla-meters (T·m) and required dipole magnet bending fields.">
+  <meta property="og:url" content="https://niktool.in/tools/magnetic-rigidity-beam-bending-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/magnetic-rigidity-beam-bending-calculator/",
+        "description": "Calculate particle accelerator magnetic rigidity (B · ρ = p / q = √(E_k² + 2 · E_k · m₀c²) / (q · c)) in Tesla-meters (T·m) and required dipole magnet bending fields.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is magnetic rigidity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Magnetic rigidity B·ρ = p/q measures a charged particle beam's resistance to being bent by a magnetic field."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator</h1>
+      <p>Calculate particle accelerator magnetic rigidity (B · ρ = p / q = √(E_k² + 2 · E_k · m₀c²) / (q · c)) in Tesla-meters (T·m) and required dipole magnet bending fields.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Kinetic Energy E_k (GeV or MeV), Particle Type & Bending Field B (Tesla)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rig-spec">Particle</label>
+          <select class="tool-textarea" id="rig-spec">
+            <option value="proton" selected>Proton (m₀ = 0.938 GeV/c²)</option>
+            <option value="electron">Electron (m₀ = 0.511 MeV/c²)</option>
+            <option value="carbon">Carbon-12 C⁶⁺ (Hadron Therapy)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rig-ek">Kinetic Energy (GeV)</label>
+          <input class="tool-textarea" id="rig-ek" type="number" step="any" value="7000" placeholder="7000 GeV (7 TeV LHC Beam)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rig-b">Dipole Field B (Tesla)</label>
+          <input class="tool-textarea" id="rig-b" type="number" step="any" value="8.33" placeholder="8.33 T (LHC Superconducting Dipoles)" />
+        </div>
+      </div>
+      <div id="rig-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rig-res-brho" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">23,350 T·m</span>
+            <span class="stat-label">Magnetic Rigidity (B · ρ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rig-res-rho" style="font-weight:700;">ρ = 2,803 meters Bending Radius</span>
+            <span class="stat-label">Ring Bending Dipole Radius (ρ)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Relativistic Magnetic Rigidity (B · ρ) & Beam Bending Calculator</h2>
+      <ol>
+        <li>Select particle beam type (Protons, Electrons, Heavy Carbon ions for cancer therapy).</li>
+        <li>Enter kinetic energy in GeV.</li>
+        <li>Enter bending dipole magnet magnetic field strength B in Tesla.</li>
+        <li>Inspect relativistic magnetic beam rigidity B·ρ and required bending radius ρ.</li>
+      </ol>
+
+      <h2>The 3.3356 Momentum-to-Rigidity Constant</h2>
+      <p>For single-charge relativistic particles, magnetic rigidity simplifies to B · ρ ≈ 3.3356 × p [GeV/c]; at 7 TeV, LHC protons have a massive 23,350 T·m rigidity, demanding 8.33 Tesla superconducting magnets spanning 27 kilometers.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is magnetic rigidity?</summary>
+        <p>Magnetic rigidity B·ρ = p/q measures a charged particle beam's resistance to being bent by a magnetic field.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/magnetic-rigidity-beam-bending-calculator/tool.js"></script>
+</body>
+</html>

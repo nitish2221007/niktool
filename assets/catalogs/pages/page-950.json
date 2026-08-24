@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Resistor Circuit Calculator (R1=90Ω, R2=50Ω)",
+    "description": "Calculate Series Equivalent (140 Ω) and Parallel Equivalent (32.14 Ω) for resistors R1=90Ω and R2=50Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-90ohm-r2-50ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 90ohm r2 50ohm",
+      "Resistor Circuit Calculator (R1=90Ω, R2=50Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=90Ω, R2=60Ω)",
+    "description": "Calculate Series Equivalent (150 Ω) and Parallel Equivalent (36.00 Ω) for resistors R1=90Ω and R2=60Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-90ohm-r2-60ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 90ohm r2 60ohm",
+      "Resistor Circuit Calculator (R1=90Ω, R2=60Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=90Ω, R2=70Ω)",
+    "description": "Calculate Series Equivalent (160 Ω) and Parallel Equivalent (39.38 Ω) for resistors R1=90Ω and R2=70Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-90ohm-r2-70ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 90ohm r2 70ohm",
+      "Resistor Circuit Calculator (R1=90Ω, R2=70Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=90Ω, R2=80Ω)",
+    "description": "Calculate Series Equivalent (170 Ω) and Parallel Equivalent (42.35 Ω) for resistors R1=90Ω and R2=80Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-90ohm-r2-80ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 90ohm r2 80ohm",
+      "Resistor Circuit Calculator (R1=90Ω, R2=80Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=90Ω, R2=90Ω)",
+    "description": "Calculate Series Equivalent (180 Ω) and Parallel Equivalent (45.00 Ω) for resistors R1=90Ω and R2=90Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-90ohm-r2-90ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 90ohm r2 90ohm",
+      "Resistor Circuit Calculator (R1=90Ω, R2=90Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resize Image for Facebook Cover",
+    "description": "Resize banner image to 820x312 pixels for Facebook cover photo.",
+    "path": "/tools/resize-image-for-facebook-cover/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image for facebook cover",
+      "Resize Image for Facebook Cover",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image for LinkedIn Banner",
+    "description": "Resize cover image to 1584x396 pixels for LinkedIn profile banners.",
+    "path": "/tools/resize-image-for-linkedin-banner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image for linkedin banner",
+      "Resize Image for LinkedIn Banner",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image for TikTok Video Cover",
+    "description": "Resize image to 1080x1920 vertical format for TikTok.",
+    "path": "/tools/resize-image-for-tiktok-video/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image for tiktok video",
+      "Resize Image for TikTok Video Cover",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image for Twitter Header",
+    "description": "Resize banner photo to 1500x500 pixels for Twitter profile headers.",
+    "path": "/tools/resize-image-for-twitter-header/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image for twitter header",
+      "Resize Image for Twitter Header",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 1024KB Online",
+    "description": "Reduce image file size to 1024KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-1024kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 1024kb",
+      "Resize Image to 1024KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 1080x1920 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 1080x1920 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-1080x1920/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 1080x1920",
+      "Resize Image to 1080x1920 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 10KB Online",
+    "description": "Reduce image file size to 10KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-10kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 10kb",
+      "Resize Image to 10KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 1200x630 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 1200x630 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-1200x630/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 1200x630",
+      "Resize Image to 1200x630 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 1500x500 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 1500x500 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-1500x500/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 1500x500",
+      "Resize Image to 1500x500 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 150KB Online",
+    "description": "Reduce image file size to 150KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-150kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 150kb",
+      "Resize Image to 150KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 150x150 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 150x150 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-150x150/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 150x150",
+      "Resize Image to 150x150 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 1584x396 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 1584x396 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-1584x396/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 1584x396",
+      "Resize Image to 1584x396 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 250KB Online",
+    "description": "Reduce image file size to 250KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-250kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 250kb",
+      "Resize Image to 250KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 2560x1440 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 2560x1440 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-2560x1440/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 2560x1440",
+      "Resize Image to 2560x1440 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 30KB Online",
+    "description": "Reduce image file size to 30KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-30kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 30kb",
+      "Resize Image to 30KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 3840x2160 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 3840x2160 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-3840x2160/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 3840x2160",
+      "Resize Image to 3840x2160 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 400KB Online",
+    "description": "Reduce image file size to 400KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-400kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 400kb",
+      "Resize Image to 400KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 400x400 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 400x400 pixel dimensions instantly. 100% free and local.",
+    "path": "/tools/resize-image-to-400x400/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 400x400",
+      "Resize Image to 400x400 Pixels",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Resize Image to 40KB Online",
+    "description": "Reduce image file size to 40KB for online forms and job applications. Fast and 100% private.",
+    "path": "/tools/resize-image-to-40kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 40kb",
+      "Resize Image to 40KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  }
+]

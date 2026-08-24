@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Audio Equalizer Q-Factor to Bandwidth (Octaves) Calculator",
+    "description": "Convert parametric equalizer Q-factor (Quality factor) to bandwidth in musical octaves (N = 2 · log₂( (1/(2Q)) + √( (1/(2Q))² + 1 ) )) and center frequency cutoff span.",
+    "path": "/tools/equalizer-q-factor-bandwidth-octaves-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "eq q factor to octaves calculator",
+      "audio equalizer bandwidth calculator",
+      "q factor to octave formula",
+      "parametric eq bandwidth q calculator online",
+      "audio filter q factor chart"
+    ]
+  },
+  {
+    "name": "Single Slit Diffraction Pattern & Central Maximum Calculator",
+    "description": "Calculate dark fringe minima angles (sin θ = m · λ / a), linear fringe width on screen (w = 2 · λ · L / a), and intensity distribution for single-slit Fraunhofer diffraction.",
+    "path": "/tools/single-slit-diffraction-pattern-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "single slit diffraction calculator",
+      "fraunhofer single slit formula",
+      "central maximum width single slit",
+      "diffraction dark fringe minima calculator",
+      "slit width wavelength screen distance online"
+    ]
+  },
+  {
+    "name": "Young's Double Slit Interference Fringe Calculator",
+    "description": "Calculate interference bright fringe spacing (Δy = λ · L / d), path difference (Δx = d · sin θ), and constructive interference order positions on screen.",
+    "path": "/tools/young-double-slit-interference-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "youngs double slit calculator",
+      "double slit fringe spacing calculator",
+      "interference fringe width formula online",
+      "d sin theta m lambda calculator",
+      "thomas young wave interference online"
+    ]
+  },
+  {
+    "name": "Diffraction Grating Spectrometer & Angular Dispersion Calculator",
+    "description": "Calculate spectral diffraction angles (d · sin θ = m · λ), angular dispersion (dθ/dλ), and maximum visible diffraction orders for transmission gratings (lines/mm).",
+    "path": "/tools/diffraction-grating-lines-per-mm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "diffraction grating calculator",
+      "spectrometer lines per mm calculator",
+      "d sin theta m lambda grating formula",
+      "spectroscopy angular dispersion calculator",
+      "diffraction grating order angles online"
+    ]
+  },
+  {
+    "name": "Fiber Optic Numerical Aperture (NA) & Acceptance Angle Calculator",
+    "description": "Calculate optical fiber Numerical Aperture (NA = √(n_core² - n_clad²)), critical total internal reflection angle (θ_c), and maximum light coupling acceptance cone half-angle (θ_max).",
+    "path": "/tools/fiber-optic-numerical-aperture-acceptance-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "numerical aperture fiber calculator",
+      "fiber optic acceptance angle calculator",
+      "core cladding refractive index calculator",
+      "total internal reflection fiber optic formula",
+      "fiber na online calculator"
+    ]
+  },
+  {
+    "name": "Polarization Malus's Law & Optical Filter Transmission Calculator",
+    "description": "Calculate transmitted polarized light intensity (I = I₀ · cos²(θ)) and analyze the three-polarizer quantum transmission paradox.",
+    "path": "/tools/polarization-malus-law-double-filter-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "malus law calculator",
+      "polarization intensity calculator online",
+      "cos squared theta polarizer calculator",
+      "three polarizer quantum paradox formula",
+      "linear polarizer light transmission online"
+    ]
+  },
+  {
+    "name": "Tsiolkovsky Rocket Equation & Propellant Mass Calculator",
+    "description": "Calculate rocket velocity change capability (Δv = I_sp · g₀ · ln(m₀ / m_f)) and required propellant mass fraction from specific impulse (I_sp).",
+    "path": "/tools/tsiolkovsky-rocket-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tsiolkovsky rocket equation calculator",
+      "rocket delta v calculator",
+      "specific impulse propellant mass fraction",
+      "ideal rocket equation isp g0 ln m0 mf",
+      "spacecraft propulsion calculator online"
+    ]
+  },
+  {
+    "name": "Lagrange Equilibrium Points (L1 & L2) Distance Calculator",
+    "description": "Calculate distance from the secondary body to collinear Lagrange equilibrium libration points (r_L1, r_L2 ≈ R · (M₂ / (3·M₁))^(1/3)) in three-body orbital systems.",
+    "path": "/tools/lagrange-points-l1-l2-distance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lagrange points calculator",
+      "l1 l2 distance calculator",
+      "james webb space telescope l2 orbit distance",
+      "hill sphere lagrange point formula",
+      "three body gravitational libration points online"
+    ]
+  },
+  {
+    "name": "Planetary Escape Velocity & Surface Gravity Calculator",
+    "description": "Calculate escape velocity (v_esc = √(2 · G · M / R)) and surface gravitational acceleration (g = G · M / R²) for planets, moons, and black holes.",
+    "path": "/tools/escape-velocity-from-planet-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "escape velocity calculator",
+      "planetary escape velocity formula",
+      "surface gravity calculator online",
+      "v esc sqrt 2 g m r calculator",
+      "earth escape velocity 11.2 km s online"
+    ]
+  },
+  {
+    "name": "Synodic Planetary Conjunction Period Calculator",
+    "description": "Calculate planetary synodic periods (1/S = |1/P₁ - 1/P₂|) and recurrence timelines between consecutive planetary alignments and Mars launch windows.",
+    "path": "/tools/synodic-period-planets-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "synodic period calculator",
+      "planetary conjunction recurrence calculator",
+      "mars launch window synodic period",
+      "orbital period to synodic period formula",
+      "astronomy planetary alignment calculator"
+    ]
+  },
+  {
+    "name": "Soil Void Ratio & Porosity Geotechnical Calculator",
+    "description": "Convert between soil Void Ratio (e = V_v / V_s) and Total Porosity (n = V_v / V_total = e / (1 + e)) in geotechnical soil mechanics and groundwater hydrogeology.",
+    "path": "/tools/soil-void-ratio-porosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "soil void ratio calculator",
+      "soil porosity calculator",
+      "void ratio to porosity formula",
+      "geotechnical soil phase relationship calculator",
+      "void ratio e n calculator online"
+    ]
+  },
+  {
+    "name": "Darcy's Law Groundwater Flow & Hydraulic Conductivity Calculator",
+    "description": "Calculate aquifer seepage discharge rate (Q = -K · A · (dh / dl)) and Darcy flux velocity (q = K · i) in hydrogeology and geotechnical dam design.",
+    "path": "/tools/darcy-law-groundwater-hydraulic-gradient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "darcys law calculator",
+      "groundwater flow calculator online",
+      "hydraulic conductivity darcy formula",
+      "hydraulic gradient dh dl calculator",
+      "aquifer seepage discharge rate online"
+    ]
+  },
+  {
+    "name": "Cantilever Beam End-Point Load Deflection Calculator",
+    "description": "Calculate maximum tip deflection (δ_max = (P · L³) / (3 · E · I)) and maximum bending moment (M_max = P · L) for cantilever beams with point loads.",
+    "path": "/tools/cantilever-beam-deflection-end-load-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cantilever beam deflection calculator",
+      "pl3 over 3ei deflection formula",
+      "end point load cantilever beam calculator",
+      "beam stiffness structural deflection online",
+      "moment of inertia cantilever deflection"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Distributed Load Deflection Calculator",
+    "description": "Calculate midspan maximum deflection (δ_max = (5 · w · L⁴) / (384 · E · I)) and maximum bending moment (M_max = w · L² / 8) for beams supporting uniform load w.",
+    "path": "/tools/simply-supported-beam-center-deflection-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "simply supported beam deflection calculator",
+      "5 w l4 over 384 ei formula",
+      "uniform distributed load beam deflection online",
+      "beam midspan deflection calculator",
+      "structural beam load calculator online"
+    ]
+  },
+  {
+    "name": "Asphalt Paving Tonnage & Coverage Calculator",
+    "description": "Calculate hot-mix asphalt tonnage required (US Tons = Length · Width · (Depth / 12) · 145 / 2000) for paving driveways, roads, and parking lots.",
+    "path": "/tools/asphalt-paving-tonnage-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "asphalt tonnage calculator",
+      "asphalt paving tons formula",
+      "how much asphalt do i need driveway",
+      "hot mix asphalt coverage calculator online",
+      "asphalt tons cubic yards formula"
+    ]
+  },
+  {
+    "name": "BJT Transistor Base Resistor Saturation Calculator",
+    "description": "Calculate base current (I_B) and base driving resistor (R_B = (V_in - V_BE) / I_B) to force NPN/PNP bipolar junction transistors into deep saturation switching mode.",
+    "path": "/tools/bjt-transistor-base-resistor-saturation-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "bjt base resistor calculator",
+      "transistor switch base resistor formula",
+      "npn saturation base current calculator",
+      "transistor beta forced saturation online",
+      "relay driver bjt resistor online"
+    ]
+  },
+  {
+    "name": "NE555 Timer Astable Oscillator & PWM Calculator",
+    "description": "Calculate oscillation frequency (f = 1.44 / ((R₁ + 2·R₂) · C)), high/low pulse times (t_high, t_low), and duty cycle percentage for 555 timer astable square-wave circuits.",
+    "path": "/tools/ne555-timer-astable-oscillator-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "555 timer astable calculator",
+      "ne555 frequency duty cycle calculator",
+      "555 timer pulse generator online",
+      "555 oscillator resistor capacitor calculator",
+      "ne555 square wave formula"
+    ]
+  },
+  {
+    "name": "LM317 Adjustable Voltage Regulator Resistor Calculator",
+    "description": "Calculate output DC voltage (V_out = 1.25V · (1 + R₂ / R₁)) and feedback potentiometer resistor values for LM317, LM350, and LM338 adjustable linear regulators.",
+    "path": "/tools/lm317-adjustable-voltage-regulator-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "lm317 voltage calculator",
+      "lm317 resistor calculator online",
+      "adjustable voltage regulator formula",
+      "lm317 output voltage r1 r2 calculator",
+      "lm317 potentiometer calculator"
+    ]
+  },
+  {
+    "name": "Zener Diode Shunt Voltage Regulator Calculator",
+    "description": "Calculate series ballast resistor (R_s = (V_in(min) - V_z) / (I_L(max) + I_z(min))) and maximum Zener diode power dissipation (P_z = V_z · I_z) for shunt voltage regulation.",
+    "path": "/tools/zener-diode-voltage-regulator-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "zener diode calculator",
+      "zener voltage regulator series resistor",
+      "zener diode power dissipation formula",
+      "shunt voltage regulator calculator online",
+      "zener resistor sizing online"
+    ]
+  },
+  {
+    "name": "MOSFET Drain Current & Saturation Region Calculator",
+    "description": "Calculate MOSFET drain current (I_D = ½ · k_n · (V_GS - V_th)²) in saturation mode, overdrive voltage (V_ov = V_GS - V_th), and determine Triode vs Saturation boundary.",
+    "path": "/tools/mosfet-drain-current-saturation-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "mosfet drain current calculator",
+      "mosfet saturation formula calculator",
+      "half kn vgs vth squared online",
+      "overdrive voltage mosfet calculator",
+      "triode vs saturation region mosfet online"
+    ]
+  },
+  {
+    "name": "PID Controller Ziegler-Nichols Tuning Calculator",
+    "description": "Calculate optimal Proportional (K_p), Integral (T_i / K_i), and Derivative (T_d / K_d) control gains using the classic Ziegler-Nichols ultimate gain (K_u) and oscillation period (P_u) method.",
+    "path": "/tools/pid-controller-gain-tuning-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "pid controller tuning calculator",
+      "ziegler nichols pid formula",
+      "kp ki kd pid calculator online",
+      "ultimate gain oscillation period pid",
+      "closed loop pid tuning calculator"
+    ]
+  },
+  {
+    "name": "2-Link Robotic Arm Forward Kinematics Calculator",
+    "description": "Calculate 2D robotic arm end-effector tool position (x = l₁·cos θ₁ + l₂·cos(θ₁+θ₂), y = l₁·sin θ₁ + l₂·sin(θ₁+θ₂)) from link lengths and joint angles.",
+    "path": "/tools/forward-kinematics-2d-robotic-arm-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "forward kinematics calculator",
+      "2 link robotic arm forward kinematics",
+      "end effector position calculator",
+      "robot joint angles to xy coordinates",
+      "planar robot arm kinematics online"
+    ]
+  },
+  {
+    "name": "2-Link Robotic Arm Inverse Kinematics Calculator",
+    "description": "Calculate target joint angles (θ₁, θ₂) using the Law of Cosines inverse kinematics (IK) to position a 2-link robotic arm at specific (X, Y) target coordinates.",
+    "path": "/tools/inverse-kinematics-2d-robotic-arm-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "inverse kinematics calculator",
+      "2 link ik calculator online",
+      "robot joint angles from target xy",
+      "elbow up elbow down inverse kinematics",
+      "scara robot ik formula"
+    ]
+  },
+  {
+    "name": "Stepper Motor Steps per Degree & Resolution Calculator",
+    "description": "Calculate total pulses per revolution (PPR = (360 / Step Angle) · Microstepping), step angular resolution in degrees and arcminutes for CNC and 3D printer drivers.",
+    "path": "/tools/stepper-motor-steps-per-degree-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "stepper motor steps per degree calculator",
+      "microstepping resolution calculator",
+      "pulses per revolution stepper formula",
+      "1.8 degree stepper microstep calculator",
+      "cnc stepper motor pulse calculator online"
+    ]
+  }
+]

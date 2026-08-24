@@ -1,0 +1,15 @@
+{
+  "name": "Rocket Engine Thrust & Specific Impulse (I_sp) Calculator",
+  "description": "Calculate rocket motor total thrust force (F = ṁ · v_e + (p_e - p_a) · A_e) in kN and specific impulse (I_sp = F / (ṁ · g₀)) from propellant mass flow rate ṁ and nozzle exit conditions.",
+  "path": "/tools/rocket-thrust-specific-impulse-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rocket thrust calculator",
+    "specific impulse formula isp f over mdot g0",
+    "mass flow rate rocket thrust calculator online",
+    "nozzle exit pressure thrust equation calculator",
+    "rocket propulsion engineering calculator"
+  ],
+  "order": 581
+}

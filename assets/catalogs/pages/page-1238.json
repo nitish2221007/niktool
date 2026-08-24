@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Concrete Mix Design (ACI 211.1 Water-Cement Ratio & Batch Quantities) Calculator",
+    "description": "Calculate standard concrete batch proportions per cubic meter (Cement, Water, Coarse Gravel, Fine Sand in kg/m³) from target compressive strength f'_c in MPa using ACI 211.1 standards for civil engineering.",
+    "path": "/tools/concrete-mix-design-water-cement-ratio-aci-211-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "concrete mix design calculator",
+      "aci 211 water cement ratio formula online",
+      "concrete batch proportioning cement sand gravel water calculator kg m3",
+      "compressive strength fc target mix design calculator",
+      "civil engineering concrete mix design online"
+    ]
+  },
+  {
+    "name": "Reinforced Concrete Beam Flexural Capacity (ACI 318 Whitney Stress Block M_n) Calculator",
+    "description": "Calculate singly reinforced concrete rectangular beam nominal flexural bending strength (M_n = A_s·f_y·(d - a/2)) in kN·m, equivalent Whitney stress block depth a, and design capacity (φ·M_n) under ACI 318.",
+    "path": "/tools/reinforced-concrete-beam-ultimate-moment-capacity-aci-318-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reinforced concrete beam calculator",
+      "aci 318 nominal flexural moment capacity whitney stress block online",
+      "singly reinforced beam steel area as mn calculator",
+      "concrete beam design phi mn kn m calculator",
+      "structural engineering reinforced concrete bending online"
+    ]
+  },
+  {
+    "name": "Retaining Wall Rankine Lateral Earth Pressure (K_a = (1-sin φ)/(1+sin φ)) Calculator",
+    "description": "Calculate Rankine active earth pressure coefficient (K_a = (1 - sin φ) / (1 + sin φ)), passive coefficient (K_p = (1 + sin φ) / (1 - sin φ)), total lateral thrust force (P_a = ½·K_a·γ·H²) in kN/m, and overturning moment for retaining wall design.",
+    "path": "/tools/retaining-wall-rankine-active-passive-earth-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rankine earth pressure calculator",
+      "retaining wall active passive coefficient formula ka kp online",
+      "lateral earth thrust force p equals half ka gamma h squared calculator",
+      "geotechnical retaining wall overturning moment calculator",
+      "soil mechanics rankine earth pressure online"
+    ]
+  },
+  {
+    "name": "Terzaghi's Shallow Foundation Ultimate Bearing Capacity (q_ult = c·N_c + q·N_q + ½·γ·B·N_γ) Calculator",
+    "description": "Calculate shallow strip/square foundation ultimate bearing capacity (q_ult = c·N_c + q·N_q + ½·γ·B·N_γ) in kPa and allowable bearing capacity (q_all = q_ult / FS) using Karl Terzaghi's bearing capacity factors.",
+    "path": "/tools/terzaghi-bearing-capacity-shallow-foundation-footing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "terzaghi bearing capacity calculator",
+      "shallow foundation ultimate bearing capacity formula online",
+      "strip square footing allowable soil bearing capacity calculator",
+      "bearing capacity factors nc nq ngamma calculator",
+      "geotechnical foundation engineering online"
+    ]
+  },
+  {
+    "name": "Rational Method Peak Stormwater Runoff (Q = C·I·A / 360) Drainage Culvert Calculator",
+    "description": "Calculate peak urban stormwater runoff discharge (Q = C · I · A / 360) in m³/s and cfs from watershed drainage catchment area A in hectares, rainfall intensity I in mm/hr, and runoff coefficient C.",
+    "path": "/tools/rational-method-peak-stormwater-runoff-q-cia-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rational method runoff calculator",
+      "peak stormwater discharge formula q equals c i a online",
+      "drainage culvert runoff coefficient calculator",
+      "rainfall intensity catchment area stormwater calculator m3 s",
+      "civil environmental hydrology rational method online"
+    ]
+  },
+  {
+    "name": "Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator",
+    "description": "Calculate transportation highway vehicle Stopping Sight Distance (SSD = 0.278·v·t + v² / (254·(a/g ± G))) in meters from design speed v in km/h, driver perception-reaction time t (2.5 s AASHTO), deceleration rate a, and road grade G (%).",
+    "path": "/tools/highway-stopping-sight-distance-ssd-reaction-braking-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stopping sight distance calculator",
+      "aashto ssd formula reaction braking distance online",
+      "highway design stopping sight distance calculator meters",
+      "driver perception reaction time braking distance calculator",
+      "civil transportation highway engineering online"
+    ]
+  },
+  {
+    "name": "Highway Horizontal Curve Radius (R = v² / (127·(e + f_s))) & Superelevation Calculator",
+    "description": "Calculate minimum horizontal curve radius (R = v² / (127 · (e + f_s))) in meters from highway design speed v in km/h, maximum roadway superelevation bank e (%), and side friction factor f_s under AASHTO rules.",
+    "path": "/tools/highway-horizontal-curve-radius-superelevation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "horizontal curve radius calculator",
+      "superelevation formula r equals v squared over 127 e plus f online",
+      "highway curve minimum radius aashto calculator",
+      "side friction factor roadway banking calculator",
+      "transportation highway geometry horizontal curve online"
+    ]
+  },
+  {
+    "name": "Greenshields Traffic Flow Model (q_max = ¼·v_f·k_j) & Highway Capacity Calculator",
+    "description": "Calculate highway macroscopic traffic flow parameters (q = k · v = k · v_f · (1 - k / k_j)) in vehicles/hour/lane, maximum highway capacity (q_max = ¼ · v_f · k_j), and optimum speed v_opt for transportation engineering.",
+    "path": "/tools/traffic-flow-greenshields-model-capacity-density-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "greenshields traffic flow calculator",
+      "traffic speed density relationship formula online",
+      "highway capacity q max formula quarter vf kj calculator",
+      "jam density free flow speed traffic flow calculator",
+      "transportation engineering traffic stream models online"
+    ]
+  },
+  {
+    "name": "Wastewater BOD Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) & Ultimate BOD_u Calculator",
+    "description": "Calculate 5-day Biochemical Oxygen Demand (BOD₅) in mg/L, Ultimate carbonaceous oxygen demand (BOD_u = BOD₅ / (1 - e^(-5k))), and temperature-adjusted deoxygenation rate k_T for wastewater treatment plant design.",
+    "path": "/tools/wastewater-bod-kinetics-ultimate-biochemical-oxygen-demand-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bod kinetics calculator",
+      "biochemical oxygen demand formula bod t equals bod u times 1 minus exp minus kt online",
+      "bod5 to ultimate bod u calculator wastewater",
+      "deoxygenation rate constant temperature adjustment calculator",
+      "environmental wastewater treatment bod online"
+    ]
+  },
+  {
+    "name": "Streeter-Phelps Dissolved Oxygen (DO) Sag Curve & Critical Deficit (D_c) Calculator",
+    "description": "Calculate river dissolved oxygen sag deficit (D(t) = [k₁·L₀ / (k₂ - k₁)] · (e^(-k₁·t) - e^(-k₂·t)) + D₀·e^(-k₂·t)) in mg/L, critical time t_c, and minimum dissolved oxygen level for river pollution control.",
+    "path": "/tools/streeter-phelps-dissolved-oxygen-sag-curve-river-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "streeter phelps calculator",
+      "dissolved oxygen sag curve formula river do deficit online",
+      "critical dissolved oxygen deficit tc dc calculator",
+      "deoxygenation reaeration rate river waste assimilation calculator",
+      "environmental water quality stream dissolved oxygen online"
+    ]
+  },
+  {
+    "name": "Activated Sludge F/M Ratio & Aeration Tank Sizing ((F/M) = Q·S₀ / (V·X)) Calculator",
+    "description": "Calculate wastewater treatment activated sludge Food-to-Microorganism ratio (F/M = Q · S₀ / (V · X)) in kg BOD / (kg MLVSS · day), Mean Cell Residence Time / Sludge Age (MCRT / θ_c in days), and volumetric organic loading rate.",
+    "path": "/tools/activated-sludge-aeration-tank-fm-ratio-mlss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "activated sludge fm ratio calculator",
+      "food to microorganism ratio formula q s0 over v x online",
+      "mlss mlvss aeration tank sizing calculator wastewater",
+      "mean cell residence time sludge age mcrt calculator",
+      "environmental biological wastewater treatment online"
+    ]
+  },
+  {
+    "name": "Open Channel Hydraulic Jump Sequent Depth (y₂/y₁ = ½·(√(1 + 8·Fr₁²) - 1)) Calculator",
+    "description": "Calculate open channel hydraulic jump sequent post-jump water depth (y₂/y₁ = ½ · (√(1 + 8·Fr₁²) - 1)), upstream Froude number (Fr₁ = v₁ / √(g·y₁)), and total turbulence energy head dissipation (ΔE) for dam stilling basins.",
+    "path": "/tools/open-channel-hydraulic-jump-sequent-depth-energy-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydraulic jump calculator",
+      "sequent depth formula y2 over y1 equals half sqrt 1 plus 8 fr squared minus 1 online",
+      "froude number supercritical subcritical flow calculator",
+      "stilling basin energy dissipation hydraulic jump calculator",
+      "civil hydraulic open channel flow online"
+    ]
+  },
+  {
+    "name": "Weir Open Channel Flow Rate (Rectangular & 90° V-Notch Thomson Weir) Calculator",
+    "description": "Calculate open channel open stream discharge using weirs: 90° V-Notch Triangular Weir (Q = 1.38 · H^(5/2)) and Rectangular Francis Weir (Q = 1.84 · (b - 0.2·H) · H^(3/2)) in m³/s and L/s.",
+    "path": "/tools/weir-flow-rate-rectangular-triangular-v-notch-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "weir flow rate calculator",
+      "v notch weir formula q equals 1.38 h to 5 halves online",
+      "rectangular weir francis formula discharge calculator",
+      "open channel weir head flow measurement calculator",
+      "civil hydraulic weir flow online"
+    ]
+  },
+  {
+    "name": "Pipe Water Hammer & Joukowsky Transient Surge Pressure (ΔP = ρ·c·Δv) Calculator",
+    "description": "Calculate pipeline hydraulic water hammer transient shock pressure (ΔP = ρ · c · Δv) in bar and MPa, acoustic wave speed c in m/s, and critical rapid valve closure time (t_cr = 2L / c) for water distribution piping.",
+    "path": "/tools/pipe-water-hammer-joukowsky-surge-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "water hammer calculator",
+      "joukowsky equation transient surge pressure delta p equals rho c delta v online",
+      "pipeline water hammer valve closure time calculator",
+      "acoustic wave speed pipeline shock pressure calculator bar",
+      "civil mechanical fluid piping surge analysis online"
+    ]
+  },
+  {
+    "name": "Flexible Pavement Design (AASHTO Structural Number SN = a₁·D₁ + a₂·D₂·m₂ + a₃·D₃·m₃) Calculator",
+    "description": "Calculate asphalt highway flexible pavement Structural Number (SN = a₁·D₁ + a₂·D₂·m₂ + a₃·D₃·m₃) and evaluate allowable 18-kip Equivalent Single Axle Loads (ESALs) under AASHTO 1993 pavement design guides.",
+    "path": "/tools/flexible-pavement-aashto-structural-number-sn-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flexible pavement calculator",
+      "aashto structural number formula sn equals a1 d1 plus a2 d2 m2 online",
+      "asphalt pavement layer thickness sn calculator",
+      "esal axle load structural number pavement calculator",
+      "civil transportation highway pavement design online"
+    ]
+  },
+  {
+    "name": "Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator",
+    "description": "Calculate structural steel wide-flange I-beam (W-Shape) Plastic Moment flexural capacity (M_p = F_y · Z_x) in kN·m and kip·ft, yield moment (M_y = F_y · S_x), and Shape Factor (k = Z_x / S_x) under AISC 360.",
+    "path": "/tools/steel-w-shape-beam-compact-section-plastic-moment-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "steel beam moment capacity calculator",
+      "plastic moment formula mp equals fy zx aisc online",
+      "plastic section modulus zx yield moment my calculator",
+      "shape factor w beam structural steel calculator",
+      "civil structural steel flexural design online"
+    ]
+  },
+  {
+    "name": "2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator",
+    "description": "Calculate planar pin-connected structural truss joint equilibrium member forces (Tension vs Compression in kN) using static Method of Joints (ΣF_x = 0, ΣF_y = 0) for civil and mechanical engineering.",
+    "path": "/tools/truss-method-of-joints-member-axial-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "truss calculator",
+      "method of joints truss member force formula online",
+      "pin jointed truss tension compression calculator",
+      "structural statics truss joint equilibrium calculator",
+      "civil engineering bridge truss analysis online"
+    ]
+  },
+  {
+    "name": "Architectural Sound Transmission Class (STC & Mass Law Transmission Loss) Calculator",
+    "description": "Calculate architectural wall partition sound transmission loss (TL = 20·log₁₀(m_s) + 20·log₁₀(f) - 47 dB), Sound Transmission Class (STC rating), and evaluate speech privacy (STC 35 to STC 55+).",
+    "path": "/tools/sound-transmission-class-stc-wall-soundproofing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound transmission class calculator",
+      "stc rating formula mass law transmission loss online",
+      "wall soundproofing decibel reduction stc calculator",
+      "acoustic speech privacy partition wall stc calculator",
+      "architectural acoustics sound isolation online"
+    ]
+  },
+  {
+    "name": "Soil Compaction Proctor Test (γ_d = γ_wet / (1 + w)) & Relative Compaction Calculator",
+    "description": "Calculate geotechnical soil dry density (γ_d = γ_wet / (1 + w)) in kN/m³, zero-air-voids theoretical density (γ_zav = G_s·γ_w / (1 + w·G_s)), and field Relative Compaction percentage (RC = γ_d_field / γ_d_max · 100).",
+    "path": "/tools/soil-compaction-proctor-optimum-moisture-maximum-dry-density-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "proctor compaction calculator",
+      "soil dry density formula gamma d equals gamma wet over 1 plus w online",
+      "optimum moisture content maximum dry density proctor calculator",
+      "relative compaction percentage field density calculator",
+      "geotechnical earthwork soil compaction online"
+    ]
+  },
+  {
+    "name": "Direct Shear Test Mohr-Coulomb Shear Strength (τ = c + σ·tan φ) Calculator",
+    "description": "Calculate geotechnical soil shear strength parameters: internal angle of friction φ in degrees and cohesion c in kPa from direct shear box normal stresses (σ) and failure shear stresses (τ) under ASTM D3080.",
+    "path": "/tools/direct-shear-test-mohr-coulomb-cohesion-friction-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "direct shear test calculator",
+      "mohr coulomb shear strength formula tau equals c plus sigma tan phi online",
+      "soil friction angle cohesion calculator astm d3080",
+      "shear strength failure envelope geotechnical calculator",
+      "soil mechanics direct shear box online"
+    ]
+  },
+  {
+    "name": "Asphalt Pavement Marshall Mix Volumetrics (Air Voids V_a, VMA & VFA) Calculator",
+    "description": "Calculate Hot Mix Asphalt (HMA) volumetric properties: Air Voids (V_a in %), Voids in Mineral Aggregate (VMA in %), and Voids Filled with Asphalt (VFA in %) from bulk and maximum theoretical specific gravities under Superpave / Marshall standards.",
+    "path": "/tools/asphalt-air-voids-vma-vfa-marshall-mix-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "asphalt volumetrics calculator",
+      "air voids va vma vfa formula superpave marshall online",
+      "voids in mineral aggregate vma asphalt mix calculator",
+      "bulk specific gravity maximum theoretical gmm gmb calculator",
+      "civil transportation asphalt paving technology online"
+    ]
+  },
+  {
+    "name": "Timber Wood Beam Flexural Bending & Shear Capacity (NDS Standard) Calculator",
+    "description": "Calculate structural timber joist and beam actual bending stress (f_b = M / S), horizontal shear stress (f_v = 1.5·V / A), and elastic live-load deflection (δ = 5·w·L⁴ / 384·E·I) under NDS wood design standards.",
+    "path": "/tools/timber-wood-beam-bending-shear-deflection-ndsi-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "timber beam calculator",
+      "wood beam bending shear stress formula nds online",
+      "timber joist deflection 5 w l4 over 384 e i calculator",
+      "rectangular wood beam section modulus moment of inertia calculator",
+      "structural wood timber design online"
+    ]
+  },
+  {
+    "name": "Clay Soil Consolidation Settlement (S_c = (C_c·H / (1 + e₀))·log₁₀[(σ₀' + Δσ') / σ₀']) Calculator",
+    "description": "Calculate primary 1D consolidation settlement of saturated clay layers (S_c = [C_c · H / (1 + e₀)] · log₁₀[(σ₀' + Δσ') / σ₀']) in mm from Compression Index C_c, initial void ratio e₀, and building load stress increase Δσ'.",
+    "path": "/tools/consolidation-settlement-clay-compression-index-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "consolidation settlement calculator",
+      "terzaghi 1d consolidation formula sc equals cc h over 1 plus e0 log online",
+      "clay compression index void ratio settlement calculator",
+      "soil mechanics effective stress increase settlement calculator",
+      "geotechnical foundation consolidation settlement online"
+    ]
+  },
+  {
+    "name": "Culvert Hydraulics Headwater Depth (FHWA HDS-5 Inlet & Outlet Control) Calculator",
+    "description": "Calculate highway roadway stormwater culvert headwater depth (HW / D) under FHWA HDS-5 Inlet Control (HW/D = c·(Q / (A·√D))^Y) and Outlet Control to prevent road embankment overtopping floods.",
+    "path": "/tools/culvert-hydraulic-inlet-outlet-control-headwater-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "culvert hydraulics calculator",
+      "inlet control outlet control headwater depth hw over d online",
+      "fhwa hds 5 culvert sizing calculator",
+      "stormwater culvert discharge capacity headwater calculator",
+      "civil highway drainage culvert online"
+    ]
+  }
+]

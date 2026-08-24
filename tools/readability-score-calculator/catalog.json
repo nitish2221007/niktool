@@ -1,0 +1,15 @@
+{
+  "name": "Readability Score Calculator",
+  "description": "Calculate Flesch Reading Ease score, Flesch-Kincaid Grade Level, reading time, and syllable statistics for articles and essays.",
+  "path": "/tools/readability-score-calculator/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "readability score calculator",
+    "flesch reading ease calculator",
+    "flesch kincaid grade level",
+    "text readability tester",
+    "essay reading grade level"
+  ],
+  "order": 99
+}

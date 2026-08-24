@@ -1,0 +1,15 @@
+{
+  "name": "Chebyshev's Inequality Probability Bounds Calculator",
+  "description": "Calculate minimum guaranteed probability bounds (P(|X - μ| within k·σ) ≥ 1 - 1/k²) for arbitrary non-normal datasets using Chebyshev's theorem.",
+  "path": "/tools/chebyshev-inequality-probability-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "chebyshev inequality calculator",
+    "chebyshevs theorem probability bounds",
+    "non normal distribution bounds calculator",
+    "standard deviations within mean chebyshev",
+    "chebyshev formula online"
+  ],
+  "order": 253
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Area of Rectangle (Length 32 x Width 10)",
+  "description": "Calculate area of rectangle with length 32 and width 10 (320 sq units).",
+  "path": "/tools/area-of-rectangle-length-32-width-10/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of rectangle length 32 width 10",
+    "Area of Rectangle (Length 32 x Width 10)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

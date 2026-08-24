@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 465V, Current 3A)",
+  "description": "Calculate Resistance (155.00 Ω) and Electric Power (1395.0 W) for 465V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-465v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 465v current 3a",
+    "Ohm's Law Calculator (Voltage 465V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

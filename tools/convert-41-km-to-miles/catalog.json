@@ -1,0 +1,15 @@
+{
+  "name": "Convert 41 KM to Miles",
+  "description": "Convert 41 kilometers to miles (25.48 miles). 100% free and local.",
+  "path": "/tools/convert-41-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 41 km to miles",
+    "Convert 41 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

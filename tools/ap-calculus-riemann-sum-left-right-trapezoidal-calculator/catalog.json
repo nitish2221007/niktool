@@ -1,0 +1,15 @@
+{
+  "name": "AP Calculus Riemann Sum (Left, Right, Midpoint & Trapezoidal Rule) Calculator",
+  "description": "Calculate numerical definite integral approximations using Left Riemann Sum (LRAM), Right Riemann Sum (RRAM), Midpoint Rule (MRAM), and Trapezoidal Rule (T = (L + R)/2) for AP Calculus AB/BC exams.",
+  "path": "/tools/ap-calculus-riemann-sum-left-right-trapezoidal-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "riemann sum calculator",
+    "trapezoidal rule numerical integration formula ap calculus online",
+    "left right midpoint riemann sum calculator",
+    "definite integral approximation subintervals calculator",
+    "ap calculus ab bc riemann sum online"
+  ],
+  "order": 899
+}

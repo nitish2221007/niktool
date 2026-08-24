@@ -1,12 +1,16 @@
 [
   "All",
   "Math",
-  "Utilities",
-  "Security",
-  "DSA",
   "PDF",
-  "Education",
+  "Utilities",
   "Developer",
+  "Security",
+  "Text",
+  "DSA",
+  "Education",
   "Finance",
-  "Text"
+  "Academic",
+  "Science",
+  "Health",
+  "Daily"
 ]

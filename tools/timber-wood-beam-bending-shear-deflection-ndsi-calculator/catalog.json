@@ -1,0 +1,15 @@
+{
+  "name": "Timber Wood Beam Flexural Bending & Shear Capacity (NDS Standard) Calculator",
+  "description": "Calculate structural timber joist and beam actual bending stress (f_b = M / S), horizontal shear stress (f_v = 1.5·V / A), and elastic live-load deflection (δ = 5·w·L⁴ / 384·E·I) under NDS wood design standards.",
+  "path": "/tools/timber-wood-beam-bending-shear-deflection-ndsi-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "timber beam calculator",
+    "wood beam bending shear stress formula nds online",
+    "timber joist deflection 5 w l4 over 384 e i calculator",
+    "rectangular wood beam section modulus moment of inertia calculator",
+    "structural wood timber design online"
+  ],
+  "order": 1078
+}

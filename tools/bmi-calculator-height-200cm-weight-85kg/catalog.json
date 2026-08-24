@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 200cm, Weight 85kg)",
+  "description": "Calculate Body Mass Index (BMI 21.3) for height 200 cm and weight 85 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-200cm-weight-85kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 200cm weight 85kg",
+    "BMI Calculator (Height 200cm, Weight 85kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

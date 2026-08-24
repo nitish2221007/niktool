@@ -1,0 +1,15 @@
+{
+  "name": "Miller Indices (hkl) Cubic Crystal Lattice Interplanar Spacing (d_hkl = a / √(h² + k² + l²)) Calculator",
+  "description": "Calculate cubic crystal system (SC, BCC, FCC) interplanar d-spacing (d_hkl = a / √(h² + k² + l²)) and determine allowed diffraction reflections from Miller indices (h, k, l) and lattice parameter a for materials science.",
+  "path": "/tools/miller-indices-cubic-crystal-lattice-interplanar-d-spacing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "miller indices calculator",
+    "cubic crystal d spacing formula d hkl equals a over sqrt h2 k2 l2 online",
+    "fcc bcc sc allowed reflections miller indices calculator",
+    "lattice parameter a interplanar spacing calculator",
+    "crystallography solid state physics online"
+  ],
+  "order": 1017
+}

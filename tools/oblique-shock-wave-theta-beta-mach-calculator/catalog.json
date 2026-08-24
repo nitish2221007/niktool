@@ -1,0 +1,15 @@
+{
+  "name": "Oblique Shock Wave (θ-β-M Relation & Deflection Angle) Calculator",
+  "description": "Calculate supersonic compressible oblique shock wave deflection angle θ, shock wave angle β, and downstream Mach number M₂ using the classic θ-β-M compressible flow equation for supersonic wedge intakes.",
+  "path": "/tools/oblique-shock-wave-theta-beta-mach-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "oblique shock wave calculator",
+    "theta beta mach relation formula online",
+    "supersonic shock wave deflection angle calculator",
+    "downstream mach number oblique shock calculator",
+    "aerospace compressible flow shock waves online"
+  ],
+  "order": 1117
+}

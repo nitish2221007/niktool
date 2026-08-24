@@ -1,0 +1,15 @@
+{
+  "name": "Brinell Hardness Number (HBW / BHN) Calculator",
+  "description": "Calculate Brinell hardness (HBW = (2 · F) / (π · D · (D - √(D² - d²)))) in kgf/mm² from indenter tungsten carbide ball diameter (D), indentation impression diameter (d), and test load (F).",
+  "path": "/tools/brinell-hardness-number-bhn-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "brinell hardness calculator",
+    "bhn hardness formula calculator",
+    "hbw hardness number calculation",
+    "tungsten carbide ball indentation hardness",
+    "metallurgy brinell test online"
+  ],
+  "order": 421
+}

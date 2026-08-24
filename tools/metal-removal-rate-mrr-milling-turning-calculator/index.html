@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metal Removal Rate (MRR) Milling & Turning Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate metal cutting volumetric material removal rate (MRR = WOC · DOC · Feed) in in³/min and cm³/min to determine roughing productivity and spindle power demands.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/metal-removal-rate-mrr-milling-turning-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Metal Removal Rate (MRR) Milling & Turning Calculator | NikTool">
+  <meta property="og:description" content="Calculate metal cutting volumetric material removal rate (MRR = WOC · DOC · Feed) in in³/min and cm³/min to determine roughing productivity and spindle power demands.">
+  <meta property="og:url" content="https://niktool.in/tools/metal-removal-rate-mrr-milling-turning-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Metal Removal Rate (MRR) Milling & Turning Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/metal-removal-rate-mrr-milling-turning-calculator/",
+        "description": "Calculate metal cutting volumetric material removal rate (MRR = WOC · DOC · Feed) in in³/min and cm³/min to determine roughing productivity and spindle power demands.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is High Efficiency Milling (HEM)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "HEM uses a light radial width of cut (WOC 5-15%) combined with full axial flute depth (DOC 100-200%) at extreme feed rates to maximize MRR while keeping cutting temperatures low."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Metal Removal Rate (MRR) Milling & Turning Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Metal Removal Rate (MRR) Milling & Turning Calculator</h1>
+      <p>Calculate metal cutting volumetric material removal rate (MRR = WOC · DOC · Feed) in in³/min and cm³/min to determine roughing productivity and spindle power demands.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Radial Width of Cut WOC / Stepover (in), Axial Depth of Cut DOC (in) & Feed Rate (IPM)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mrr-woc">Radial Width (WOC / ae)</label>
+          <input class="tool-textarea" id="mrr-woc" type="number" step="any" value="0.250" placeholder="0.250 in (50% Stepover)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mrr-doc">Axial Depth (DOC / ap)</label>
+          <input class="tool-textarea" id="mrr-doc" type="number" step="any" value="0.500" placeholder="0.500 in Depth" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mrr-feed">Table Feed (IPM)</label>
+          <input class="tool-textarea" id="mrr-feed" type="number" step="any" value="60.0" placeholder="60.0 IPM" />
+        </div>
+      </div>
+      <div id="mrr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mrr-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">7.50 in³ / min</span>
+            <span class="stat-label">Material Removal Rate (MRR)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mrr-res-metric" style="font-weight:700;">122.9 cm³ / min (7.37 Liters / hour)</span>
+            <span class="stat-label">Metric Volumetric Cutting Rate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Metal Removal Rate (MRR) Milling & Turning Calculator</h2>
+      <ol>
+        <li>Enter radial width of cut WOC (stepover) in inches.</li>
+        <li>Enter axial depth of cut DOC in inches.</li>
+        <li>Enter linear feed rate in Inches Per Minute (IPM).</li>
+        <li>Inspect volumetric material removal rate in cubic inches per minute and metric cm³/min.</li>
+      </ol>
+
+      <h2>Roughing Productivity Figure of Merit</h2>
+      <p>MRR is the primary metric evaluating roughing efficiency in high-performance CNC machining centers; balancing high MRR against spindle horsepower limits tool deflection and machine vibration chatter.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is High Efficiency Milling (HEM)?</summary>
+        <p>HEM uses a light radial width of cut (WOC 5-15%) combined with full axial flute depth (DOC 100-200%) at extreme feed rates to maximize MRR while keeping cutting temperatures low.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/metal-removal-rate-mrr-milling-turning-calculator/tool.js"></script>
+</body>
+</html>

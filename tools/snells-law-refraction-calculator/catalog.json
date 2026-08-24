@@ -1,0 +1,15 @@
+{
+  "name": "Snell's Law Refraction & Critical Angle Calculator",
+  "description": "Calculate refraction angle (n₁·sin θ₁ = n₂·sin θ₂), critical angle, and total internal reflection for light passing between optical media.",
+  "path": "/tools/snells-law-refraction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "snells law calculator",
+    "refraction angle calculator",
+    "critical angle total internal reflection",
+    "optics light refraction formula",
+    "refractive index calculator online"
+  ],
+  "order": 149
+}

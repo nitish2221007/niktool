@@ -1,0 +1,15 @@
+{
+  "name": "Convert 7pt to PX",
+  "description": "Convert 7 points (pt) to pixels (9.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-7pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 7pt to px",
+    "Convert 7pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

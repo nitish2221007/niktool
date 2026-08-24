@@ -1,0 +1,15 @@
+{
+  "name": "Convert 49 KM to Miles",
+  "description": "Convert 49 kilometers to miles (30.45 miles). 100% free and local.",
+  "path": "/tools/convert-49-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 49 km to miles",
+    "Convert 49 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

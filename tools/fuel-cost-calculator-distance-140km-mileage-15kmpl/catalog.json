@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (140 km Distance, 15 km/l Mileage)",
+  "description": "Calculate total fuel required (9.3 L) and estimated cost (₹897) for 140 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-140km-mileage-15kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 140km mileage 15kmpl",
+    "Fuel Cost Calculator (140 km Distance, 15 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Prandtl-Glauert Compressibility Correction Factor Calculator",
+  "description": "Calculate subsonic aerodynamic pressure coefficient (C_p = C_p0 / √(1 - M²)) and lift coefficient amplification from high subsonic Mach numbers (subsonic Mach below 0.8).",
+  "path": "/tools/prandtl-glauert-compressibility-correction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "prandtl glauert compressibility calculator",
+    "cp cp0 over sqrt 1 minus m squared formula",
+    "subsonic mach number lift amplification calculator",
+    "high speed compressibility correction online",
+    "aerodynamics prandtl glauert rule calculator"
+  ],
+  "order": 606
+}

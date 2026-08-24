@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P/E Ratio & PEG Stock Valuation Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Price-to-Earnings (P/E = Share Price / EPS), PEG growth ratio, and earnings yield for equity fundamental analysis.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/pe-ratio-valuation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="P/E Ratio & PEG Stock Valuation Calculator | NikTool">
+  <meta property="og:description" content="Calculate Price-to-Earnings (P/E = Share Price / EPS), PEG growth ratio, and earnings yield for equity fundamental analysis.">
+  <meta property="og:url" content="https://niktool.in/tools/pe-ratio-valuation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "P/E Ratio & PEG Stock Valuation Calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/pe-ratio-valuation-calculator/",
+        "description": "Calculate Price-to-Earnings (P/E = Share Price / EPS), PEG growth ratio, and earnings yield for equity fundamental analysis.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Earnings Yield?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Earnings yield is the inverse of the P/E ratio (E/P = EPS / Price), allowing direct comparison of stock returns against Treasury bond yields."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>P/E Ratio & PEG Stock Valuation Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>P/E Ratio & PEG Stock Valuation Calculator</h1>
+      <p>Calculate Price-to-Earnings (P/E = Share Price / EPS), PEG growth ratio, and earnings yield for equity fundamental analysis.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Stock Price, EPS & Earnings Growth</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pe-price">Stock Price ($ / ₹)</label>
+          <input class="tool-textarea" id="pe-price" type="number" step="any" value="150.00" placeholder="150.00" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pe-eps">Earnings Per Share (EPS)</label>
+          <input class="tool-textarea" id="pe-eps" type="number" step="any" value="6.00" placeholder="6.00" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pe-growth">Expected Annual Growth (%)</label>
+          <input class="tool-textarea" id="pe-growth" type="number" step="any" value="20.0" placeholder="20.0%" />
+        </div>
+      </div>
+      <div id="pe-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pe-res-pe" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">25.0x</span>
+            <span class="stat-label">Price-to-Earnings (P/E Ratio)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pe-res-peg" style="font-weight:700;">1.25</span>
+            <span class="stat-label">PEG Ratio (P/E / Growth)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pe-res-ey">4.00%</span>
+            <span class="stat-label">Earnings Yield (EPS / Price)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use P/E Ratio & PEG Stock Valuation Calculator</h2>
+      <ol>
+        <li>Enter current stock trading price.</li>
+        <li>Enter trailing or forward Earnings Per Share (EPS).</li>
+        <li>Enter expected annual earnings growth percentage.</li>
+        <li>Inspect P/E multiple, PEG growth valuation ratio, and inverted earnings yield.</li>
+      </ol>
+
+      <h2>Peter Lynch's PEG Ratio Valuation</h2>
+      <p>Famed Magellan fund manager Peter Lynch popularized the PEG ratio (P/E / Annual Growth Rate): a PEG of 1.0 represents fair value, while PEG < 1.0 suggests an undervalued growth stock.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Earnings Yield?</summary>
+        <p>Earnings yield is the inverse of the P/E ratio (E/P = EPS / Price), allowing direct comparison of stock returns against Treasury bond yields.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/pe-ratio-valuation-calculator/tool.js"></script>
+</body>
+</html>

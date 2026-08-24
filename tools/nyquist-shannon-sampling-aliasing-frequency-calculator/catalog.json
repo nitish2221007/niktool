@@ -1,0 +1,15 @@
+{
+  "name": "Nyquist-Shannon Sampling Rate & Aliasing Frequency Calculator",
+  "description": "Calculate digital signal sampling Nyquist rate (F_nyquist = 2 · F_max) and exact foldback aliasing frequencies (|f_sig - k·F_s|) from undersampled signals.",
+  "path": "/tools/nyquist-shannon-sampling-aliasing-frequency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "nyquist shannon sampling calculator",
+    "aliasing frequency formula foldback online",
+    "nyquist rate 2 fmax calculator",
+    "digital audio adc aliasing calculator",
+    "dsp sampling theorem online"
+  ],
+  "order": 613
+}

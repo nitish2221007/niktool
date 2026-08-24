@@ -1,0 +1,15 @@
+{
+  "name": "CSS 2D Transform & Matrix Generator",
+  "description": "Visually manipulate CSS 2D transformations (Rotate, Scale, Translate, Skew) with real-time interactive sandbox preview and CSS export.",
+  "path": "/tools/css-transform-matrix-generator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "css transform generator",
+    "css rotate scale translate generator",
+    "css matrix transform generator",
+    "css 2d transform visualizer",
+    "css transform maker online"
+  ],
+  "order": 231
+}

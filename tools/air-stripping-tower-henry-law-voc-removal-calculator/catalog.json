@@ -1,0 +1,15 @@
+{
+  "name": "Packed Air Stripping Tower Volatile Organic Compound (VOC Removal Factor) Calculator",
+  "description": "Calculate counter-current packed tower air stripping Volatile Organic Compound (VOC: TCE, PCE, benzene) stripping factor R (R = H · G / (P_tot · L)), number of transfer units NTU, and removal efficiency η%.",
+  "path": "/tools/air-stripping-tower-henry-law-voc-removal-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "air stripping tower calculator",
+    "voc removal efficiency stripping factor formula online",
+    "henry law constant tce pce air stripper calculator",
+    "groundwater remediation packed column transfer units calculator",
+    "environmental engineering water treatment chemical engineering online"
+  ],
+  "order": 1357
+}

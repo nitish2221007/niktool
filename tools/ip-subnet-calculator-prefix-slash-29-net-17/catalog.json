@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 29 CIDR Prefix, Net #17)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (6 usable IPs) for /29 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-29-net-17/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 29 net 17",
+    "IP Subnet Mask & Host Calculator (/ 29 CIDR Prefix, Net #17)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

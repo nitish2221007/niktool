@@ -1,0 +1,15 @@
+{
+  "name": "Bond Work Index (Grinding Energy) Calculator",
+  "description": "Calculate specific electrical energy required (W = 10 · W_i · (1 / √P₈₀ - 1 / √F₈₀)) in kWh per metric ton for comminution ball mills and rod mills from Bond Work Index (W_i).",
+  "path": "/tools/bond-work-index-grinding-energy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bond work index calculator",
+    "ball mill grinding energy formula",
+    "fred c bond comminution equation",
+    "specific energy kwh per ton grinding",
+    "mineral processing grinding calculator online"
+  ],
+  "order": 446
+}

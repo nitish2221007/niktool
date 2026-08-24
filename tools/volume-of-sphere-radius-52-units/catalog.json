@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 52 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 52 units (V = 4/3 πr³ = 588977.41).",
+  "path": "/tools/volume-of-sphere-radius-52-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 52 units",
+    "Volume of Sphere (Radius 52 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

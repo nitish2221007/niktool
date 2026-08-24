@@ -1,0 +1,15 @@
+{
+  "name": "Shaft Torque Calculator (66 kW Power, 4000 RPM)",
+  "description": "Calculate mechanical shaft torque (T = 157.56 N·m) for 66 kW power at 4000 RPM.",
+  "path": "/tools/shaft-torque-calculator-power-66kw-speed-4000rpm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "shaft torque calculator power 66kw speed 4000rpm",
+    "Shaft Torque Calculator (66 kW Power, 4000 RPM)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (460 km Distance, 13 km/l Mileage)",
+  "description": "Calculate fuel needed (35.4 L) and cost (₹3416) for 460 km trip at 13 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-460km-mileage-13kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 460km mileage 13kmpl",
+    "Fuel Cost Trip Calculator (460 km Distance, 13 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

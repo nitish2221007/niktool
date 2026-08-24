@@ -1,0 +1,15 @@
+{
+  "name": "Agarose Gel Electrophoresis DNA Fragment Migration (log MW vs R_f) Calculator",
+  "description": "Calculate molecular biology agarose gel electrophoresis DNA/protein fragment size migration distance and Retention Factor (R_f = Distance / Dye Front) using semi-logarithmic molecular weight linear regression (log(MW) = -k·R_f + c).",
+  "path": "/tools/gel-electrophoresis-dna-fragment-migration-rf-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gel electrophoresis calculator",
+    "rf value formula band distance over dye front distance online",
+    "dna ladder molecular weight log linear regression calculator",
+    "agarose gel base pair size calculator online",
+    "sds page protein molecular weight rf calculator"
+  ],
+  "order": 921
+}

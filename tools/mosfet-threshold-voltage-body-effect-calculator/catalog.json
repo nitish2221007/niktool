@@ -1,0 +1,15 @@
+{
+  "name": "MOSFET Threshold Voltage & Body Effect (V_th = V_FB + 2φ_F + γ·√(2φ_F - V_SB)) Calculator",
+  "description": "Calculate n-channel MOSFET threshold voltage V_th in Volts (V_th = V_FB + 2·φ_F + γ · √(2·φ_F + V_SB)), body effect parameter γ in V^(1/2) (gamma = √(2·q·ε_s·N_A) / C_ox), and oxide capacitance C_ox.",
+  "path": "/tools/mosfet-threshold-voltage-body-effect-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mosfet threshold voltage calculator",
+    "body effect parameter gamma formula online",
+    "fermi potential phi f flat band voltage calculator",
+    "gate oxide capacitance cox tox mosfet calculator",
+    "vlsi microelectronics semiconductor device physics online"
+  ],
+  "order": 1361
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Quarter-Wave (λ/4) Whip Antenna Length Calculator",
+  "description": "Calculate resonant quarter-wave (λ/4) antenna element physical length in centimeters and inches for Wi-Fi, Ham Radio, FM, and LoRa frequencies.",
+  "path": "/tools/quarter-wave-antenna-length-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "quarter wave antenna calculator",
+    "whip antenna length calculator",
+    "lambda 4 antenna formula",
+    "ham radio antenna length online",
+    "dipole antenna length mhz calculator"
+  ],
+  "order": 236
+}

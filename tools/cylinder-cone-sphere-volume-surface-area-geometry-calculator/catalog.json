@@ -1,0 +1,15 @@
+{
+  "name": "3D Solid Geometry (Cylinder, Cone & Sphere Volume and Surface Area) Calculator",
+  "description": "Calculate 3D solid geometry volume (Cylinder V = π·r²·h, Cone V = ⅓·π·r²·h, Sphere V = ⁴/₃·π·r³) and total surface area for secondary school math and geometry courses.",
+  "path": "/tools/cylinder-cone-sphere-volume-surface-area-geometry-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "cylinder volume calculator",
+    "cone sphere cylinder volume surface area calculator online",
+    "volume of sphere four thirds pi r cubed calculator",
+    "cone volume one third pi r squared h calculator",
+    "3d geometry surface area calculator online"
+  ],
+  "order": 946
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Wastewater Activated Sludge Mean Cell Residence Time (MCRT / Sludge Age) Calculator",
+  "description": "Calculate wastewater biological treatment Mean Cell Residence Time (MCRT / θ_c = (V·X) / (Q_w·X_w + Q_e·X_e)) in days and daily waste sludge volume Q_w in m³/day.",
+  "path": "/tools/mean-cell-residence-time-sludge-age-mcrt-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mcrt calculator",
+    "sludge age formula mean cell residence time online",
+    "activated sludge solids retention time srt calculator",
+    "wastewater treatment waste sludge rate qw calculator",
+    "aeration tank mlss mcrt online"
+  ],
+  "order": 732
+}

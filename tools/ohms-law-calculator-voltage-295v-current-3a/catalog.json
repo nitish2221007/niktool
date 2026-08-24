@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 295V, Current 3A)",
+  "description": "Calculate Resistance (98.33 Ω) and Electric Power (885.0 W) for 295V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-295v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 295v current 3a",
+    "Ohm's Law Calculator (Voltage 295V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

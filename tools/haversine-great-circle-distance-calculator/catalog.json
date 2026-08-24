@@ -1,0 +1,15 @@
+{
+  "name": "Haversine Great-Circle Distance & Flight Path Calculator",
+  "description": "Calculate spherical great-circle flight distance between two GPS coordinates (Latitude/Longitude) using the Haversine formula (Earth radius R = 6,371 km).",
+  "path": "/tools/haversine-great-circle-distance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "haversine distance calculator",
+    "great circle flight distance formula",
+    "lat long distance calculator km miles",
+    "gps coordinate distance formula online",
+    "spherical trigonometry distance online"
+  ],
+  "order": 493
+}

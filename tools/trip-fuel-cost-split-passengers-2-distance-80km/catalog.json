@@ -1,0 +1,15 @@
+{
+  "name": "Trip Fuel Cost Split (2 Passengers, 80 km)",
+  "description": "Calculate per-person fuel cost (₹256/person) for 2 passengers on a 80 km trip.",
+  "path": "/tools/trip-fuel-cost-split-passengers-2-distance-80km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "trip fuel cost split passengers 2 distance 80km",
+    "Trip Fuel Cost Split (2 Passengers, 80 km)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

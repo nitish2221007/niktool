@@ -1,0 +1,15 @@
+{
+  "name": "Convert 173 REM to PX Value",
+  "description": "Convert 173 REM units to pixels (2768 px) based on standard 16px root font.",
+  "path": "/tools/convert-173-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 173 rem to px value",
+    "Convert 173 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

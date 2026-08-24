@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (300 Hz, 25 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 21.22 Ω) for 300 Hz frequency and 25 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-300hz-capacitor-25uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 300hz capacitor 25uf",
+    "Capacitive Reactance Calculator (300 Hz, 25 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

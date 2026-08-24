@@ -1,0 +1,15 @@
+{
+  "name": "Convert 100 Knots to KM/H Speed",
+  "description": "Convert 100 knots speed to kilometers per hour (185.20 km/h).",
+  "path": "/tools/convert-100-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 100 knots to kmh speed",
+    "Convert 100 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

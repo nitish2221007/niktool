@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in 2008)",
+  "description": "Calculate exact age (18 years old in 2026) for someone born in year 2008.",
+  "path": "/tools/age-calculator-born-in-2008/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in 2008",
+    "Age Calculator (Born in 2008)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

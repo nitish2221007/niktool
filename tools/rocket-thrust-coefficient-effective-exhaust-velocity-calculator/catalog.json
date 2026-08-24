@@ -1,0 +1,15 @@
+{
+  "name": "Rocket Thrust Coefficient (C_F) & Effective Exhaust Velocity (c) Calculator",
+  "description": "Calculate rocket motor total thrust force F in kN (F = C_F · p_0 · A_t = m_dot · v_e + (p_e - p_a)·A_e), thrust coefficient C_F, characteristic exhaust velocity c*, and specific impulse I_sp.",
+  "path": "/tools/rocket-thrust-coefficient-effective-exhaust-velocity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rocket thrust coefficient calculator",
+    "thrust formula cf p0 at online",
+    "characteristic velocity c star effective exhaust velocity calculator",
+    "rocket chamber pressure throat area thrust calculator",
+    "rocket propulsion propulsion engineering astronautics online"
+  ],
+  "order": 1414
+}

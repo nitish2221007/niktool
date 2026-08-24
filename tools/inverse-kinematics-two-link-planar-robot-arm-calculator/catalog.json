@@ -1,0 +1,15 @@
+{
+  "name": "2-Link Planar Robotic Arm Geometric Inverse Kinematics (IK) Calculator",
+  "description": "Calculate robotic 2-link revolute planar manipulator joint angles θ₁ (shoulder) and θ₂ (elbow) in degrees (Elbow-Up and Elbow-Down analytical solutions) to reach target Cartesian coordinates (X, Y).",
+  "path": "/tools/inverse-kinematics-two-link-planar-robot-arm-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "inverse kinematics calculator",
+    "2 link robot arm ik formula theta1 theta2 online",
+    "elbow up elbow down planar manipulator calculator",
+    "law of cosines robotic inverse kinematics calculator",
+    "robotics motion planning mechatronics automation online"
+  ],
+  "order": 1312
+}

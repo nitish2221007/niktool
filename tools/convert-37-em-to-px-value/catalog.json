@@ -1,0 +1,15 @@
+{
+  "name": "Convert 37 EM to PX Value",
+  "description": "Convert 37 EM units to pixels (592 px) based on 16px font context.",
+  "path": "/tools/convert-37-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 37 em to px value",
+    "Convert 37 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

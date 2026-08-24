@@ -1,0 +1,15 @@
+{
+  "name": "Young's Double Slit Interference Fringe Calculator",
+  "description": "Calculate interference bright fringe spacing (Δy = λ · L / d), path difference (Δx = d · sin θ), and constructive interference order positions on screen.",
+  "path": "/tools/young-double-slit-interference-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "youngs double slit calculator",
+    "double slit fringe spacing calculator",
+    "interference fringe width formula online",
+    "d sin theta m lambda calculator",
+    "thomas young wave interference online"
+  ],
+  "order": 382
+}

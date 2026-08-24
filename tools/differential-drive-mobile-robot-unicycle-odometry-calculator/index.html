@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 2-wheel differential drive mobile robot linear velocity v, angular turning velocity ω (omega = (v_r - v_l) / L), Instantaneous Center of Curvature (ICC) radius R, and dead-reckoning odometry.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/differential-drive-mobile-robot-unicycle-odometry-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator | NikTool">
+  <meta property="og:description" content="Calculate 2-wheel differential drive mobile robot linear velocity v, angular turning velocity ω (omega = (v_r - v_l) / L), Instantaneous Center of Curvature (ICC) radius R, and dead-reckoning odometry.">
+  <meta property="og:url" content="https://niktool.in/tools/differential-drive-mobile-robot-unicycle-odometry-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/differential-drive-mobile-robot-unicycle-odometry-calculator/",
+        "description": "Calculate 2-wheel differential drive mobile robot linear velocity v, angular turning velocity ω (omega = (v_r - v_l) / L), Instantaneous Center of Curvature (ICC) radius R, and dead-reckoning odometry.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How does a differential robot achieve zero-radius in-place rotation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "By driving wheels in opposite directions at equal speeds ($v_r = -v_l$), linear speed $v = 0$ while turning speed $omega = 2 v_r / L$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator</h1>
+      <p>Calculate 2-wheel differential drive mobile robot linear velocity v, angular turning velocity ω (omega = (v_r - v_l) / L), Instantaneous Center of Curvature (ICC) radius R, and dead-reckoning odometry.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Right Wheel Speed v_r (m/s), Left Wheel Speed v_l (m/s) & Wheelbase Track Width L (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="dd-vr">Right Wheel v_r (m/s)</label>
+          <input class="tool-textarea" id="dd-vr" type="number" step="0.1" value="0.80" placeholder="0.80 m/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="dd-vl">Left Wheel v_l (m/s)</label>
+          <input class="tool-textarea" id="dd-vl" type="number" step="0.1" value="0.40" placeholder="0.40 m/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="dd-l">Wheelbase L (m)</label>
+          <input class="tool-textarea" id="dd-l" type="number" step="0.05" value="0.50" placeholder="0.50 m (Track Width)" />
+        </div>
+      </div>
+      <div id="dd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="dd-res-kin" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Linear v = 0.60 m/s | Turning ω = +0.80 rad/s (45.8°/s)</span>
+            <span class="stat-label">Forward Velocity & Counter-Clockwise Yaw Angular Velocity</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dd-res-icc" style="color:var(--green-dark); font-weight:700;">ICC Turning Radius R = 0.75 m (Left Turn Arc) | Forward Arc Motion</span>
+            <span class="stat-label">Instantaneous Center of Curvature (R = L/2 · (v_r + v_l) / (v_r - v_l))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator</h2>
+      <ol>
+        <li>Enter right wheel linear ground speed $v_r$ in m/s.</li>
+        <li>Enter left wheel linear ground speed $v_l$ in m/s.</li>
+        <li>Enter distance between left and right wheel ground contact points (wheelbase track width L) in meters.</li>
+        <li>Inspect robot center linear forward velocity v, yaw turning rate $omega$, and instantaneous turning radius R.</li>
+      </ol>
+
+      <h2>Unicycle Non-Holonomic Kinematic Model</h2>
+      <p>Governs mobile robot ground navigation in warehouse AGVs (Automated Guided Vehicles) and Roomba vacuum cleaners, enforcing the non-holonomic no-side-slip constraint.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How does a differential robot achieve zero-radius in-place rotation?</summary>
+        <p>By driving wheels in opposite directions at equal speeds ($v_r = -v_l$), linear speed $v = 0$ while turning speed $omega = 2 v_r / L$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/differential-drive-mobile-robot-unicycle-odometry-calculator/tool.js"></script>
+</body>
+</html>

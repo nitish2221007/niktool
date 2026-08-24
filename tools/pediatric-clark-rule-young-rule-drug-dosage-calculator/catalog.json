@@ -1,0 +1,15 @@
+{
+  "name": "Pediatric Drug Dosage (Clark's Rule, Young's Rule & Fried's Rule) Calculator",
+  "description": "Calculate safe child medication dosage from adult standard dose using Clark's Rule (Dose = (Weight in lbs / 150) · Adult Dose), Young's Rule (Dose = (Age / (Age + 12)) · Adult Dose), and Fried's Infant Rule for nursing pharmacology.",
+  "path": "/tools/pediatric-clark-rule-young-rule-drug-dosage-calculator/",
+  "category": "Health",
+  "icon": "calculator",
+  "keywords": [
+    "pediatric dosage calculator",
+    "clarks rule formula weight in lbs over 150 times adult dose online",
+    "youngs rule child drug dose calculator age",
+    "nursing pharmacology pediatric dose calculator",
+    "frieds rule infant drug dosage calculator online"
+  ],
+  "order": 908
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Synchronous Rectifier MOSFET Conduction Loss vs Schottky Diode Calculator",
+  "description": "Calculate synchronous rectifier power savings (P_loss = I_RMS² · R_DS(on) vs P_diode = I_avg · V_f) in low-voltage high-current power supplies.",
+  "path": "/tools/synchronous-rectifier-conduction-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "synchronous rectifier loss calculator",
+    "mosfet rds on conduction loss formula",
+    "schottky diode vs synchronous rectifier power savings",
+    "low voltage high current smps efficiency online",
+    "power electronics conduction loss calculator"
+  ],
+  "order": 557
+}

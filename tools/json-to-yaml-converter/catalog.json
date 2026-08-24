@@ -1,0 +1,15 @@
+{
+  "name": "Convert JSON to YAML Online",
+  "description": "Convert JSON data into clean YAML configuration format.",
+  "path": "/tools/json-to-yaml-converter/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "json to yaml converter",
+    "Convert JSON to YAML Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 325V, Current 1A)",
+  "description": "Calculate Resistance (325.00 Ω) and Electric Power (325.0 W) for 325V voltage and 1A current.",
+  "path": "/tools/ohms-law-calculator-voltage-325v-current-1a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 325v current 1a",
+    "Ohm's Law Calculator (Voltage 325V, Current 1A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Google PageRank Algorithm (PR(p_i) = (1 - d)/N + d·∑ PR(p_j)/L(p_j)) Calculator",
+    "description": "Calculate Google PageRank web link stationary Markov transition probability (PR(p_i) = (1 - d)/N + d · ∑ PR(p_j) / L(p_j)) with random surfer damping factor d (standard d = 0.85).",
+    "path": "/tools/pagerank-algorithm-damping-factor-transition-matrix-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pagerank calculator",
+      "google pagerank formula damping factor online",
+      "random surfer markov chain pagerank calculator",
+      "web link authority pagerank calculation",
+      "computer science algorithms graph theory search engines online"
+    ]
+  },
+  {
+    "name": "Dijkstra's Shortest Path Algorithm Distance Relaxation (d(v) = min(d(v), d(u) + w(u, v))) Calculator",
+    "description": "Calculate single-source shortest path step-by-step edge relaxation (d(v) = min(d(v), d(u) + w(u,v))) using Dijkstra's greedy algorithm for network routing and GPS navigation graphs.",
+    "path": "/tools/dijkstra-shortest-path-graph-edge-weight-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "dijkstra algorithm calculator",
+      "shortest path edge relaxation formula online",
+      "dijkstra priority queue distance calculator",
+      "graph shortest path routing algorithm calculator",
+      "computer science graph algorithms dijkstra online"
+    ]
+  },
+  {
+    "name": "Minimum Spanning Tree (MST Kruskal & Prim Total Edge Weight) Calculator",
+    "description": "Calculate Minimum Spanning Tree (MST) total edge cost weight and verify cycle-free connectivity for network design (fiber-optic cabling, electrical power grids, pipeline infrastructure).",
+    "path": "/tools/minimum-spanning-tree-kruskal-prim-total-weight-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mst calculator",
+      "minimum spanning tree kruskal prim total weight formula online",
+      "kruskal algorithm disjoint set union find calculator",
+      "spanning tree edge weight network design calculator",
+      "graph theory algorithms minimum spanning tree online"
+    ]
+  },
+  {
+    "name": "Network Graph Centrality (Degree, Closeness C_C & Betweenness C_B) Calculator",
+    "description": "Calculate social network and graph theory node centrality metrics: Normalized Degree Centrality, Closeness Centrality (C_C = (N - 1) / ∑ d(v, u)), and Betweenness Centrality shortest-path bottleneck score.",
+    "path": "/tools/graph-betweenness-closeness-degree-centrality-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "graph centrality calculator",
+      "degree betweenness closeness centrality formula online",
+      "social network analysis node centrality calculator",
+      "shortest path betweenness centrality calculator",
+      "network science graph theory analytics online"
+    ]
+  },
+  {
+    "name": "RNN, LSTM & GRU Neural Network Parameter Count Calculator",
+    "description": "Calculate trainable parameter weight count for recurrent neural network layers: Standard Simple RNN (d_h(d_h + d_x) + d_h), GRU (3 · (d_h(d_h + d_x) + d_h)), and LSTM (4 · (d_h(d_h + d_x) + d_h)) gates.",
+    "path": "/tools/recurrent-neural-network-rnn-lstm-gru-parameter-count-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lstm parameter calculator",
+      "gru rnn parameter count formula deep learning online",
+      "recurrent neural network weights biases calculator",
+      "lstm gate parameters input hidden size calculator",
+      "deep learning natural language processing rnn online"
+    ]
+  },
+  {
+    "name": "Word2Vec Skip-Gram Negative Sampling (SGNS) Objective Loss Calculator",
+    "description": "Calculate Word2Vec Skip-Gram Negative Sampling (SGNS) objective function loss (ℒ = -ln σ(v'_wO · v_wI) - ∑ ln σ(-v'_wi · v_wI)) for self-supervised word embedding training.",
+    "path": "/tools/word2vec-skip-gram-negative-sampling-loss-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "word2vec calculator",
+      "skip gram negative sampling sgns loss formula online",
+      "word embedding dot product loss calculator",
+      "mikolov word2vec nlp loss calculator",
+      "natural language processing word embeddings online"
+    ]
+  },
+  {
+    "name": "Transformer Scaled Dot-Product Self-Attention (Attention(Q, K, V) = softmax(Q·Kᵀ / √d_k)·V) Calculator",
+    "description": "Calculate Transformer multi-head self-attention scaled dot-product matrix weights (Softmax(Q · Kᵀ / √d_k)), attention head scaling factor 1/√d_k, and output context vector for BERT/GPT architectures.",
+    "path": "/tools/bert-transformer-self-attention-scaled-dot-product-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "transformer self attention calculator",
+      "scaled dot product attention formula q k v over sqrt dk online",
+      "bert gpt self attention weight matrix calculator",
+      "attention is all you need formula calculator",
+      "deep learning transformers large language models online"
+    ]
+  },
+  {
+    "name": "Reinforcement Learning Bellman Optimality Equation (V*(s) = max_a [R(s,a) + γ·∑ P(s'|s,a)·V*(s')]) Calculator",
+    "description": "Calculate reinforcement learning Markov Decision Process (MDP) Bellman optimality value function (V*(s) = max_a [R(s,a) + γ · ∑ P(s'|s,a) · V(s')]) and optimal policy action a* in value iteration.",
+    "path": "/tools/markov-decision-process-bellman-optimality-value-iteration-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "bellman equation calculator",
+      "reinforcement learning value iteration formula online",
+      "markov decision process mdp bellman optimality calculator",
+      "discount factor gamma q value reinforcement learning calculator",
+      "artificial intelligence reinforcement learning online"
+    ]
+  },
+  {
+    "name": "BLEU Score Machine Translation Evaluation (BLEU = BP·exp(∑ w_n·ln p_n)) Calculator",
+    "description": "Calculate automated machine translation quality BLEU score (Bilingual Evaluation Understudy), modified n-gram precisions (p₁ to p₄), and Brevity Penalty (BP) against reference human translations.",
+    "path": "/tools/bleu-score-machine-translation-ngram-precision-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "bleu score calculator",
+      "bilingual evaluation understudy machine translation formula online",
+      "bleu brevity penalty n gram precision calculator",
+      "nlp machine translation evaluation bleu score calculator",
+      "natural language processing translation metrics online"
+    ]
+  },
+  {
+    "name": "Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator",
+    "description": "Calculate linear Support Vector Machine (SVM) geometric separating margin width (Margin = 2 / ‖w‖), functional margin y_i·(w·x + b), and Hinge Loss (max(0, 1 - y_i·(w·x + b))) for maximum-margin classification.",
+    "path": "/tools/support-vector-machine-svm-maximum-margin-hyperplane-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "svm calculator",
+      "support vector machine margin formula 2 over norm w online",
+      "hinge loss svm classifier calculator",
+      "maximum margin hyperplane support vectors calculator",
+      "machine learning supervised learning svm online"
+    ]
+  },
+  {
+    "name": "Van 't Hoff Reaction Isochore (ln(K₂ / K₁) = -ΔH°/R·(1/T₂ - 1/T₁)) & Equilibrium Constant Calculator",
+    "description": "Calculate chemical reaction equilibrium constant temperature dependence (ln(K₂ / K₁) = -ΔH°/R · (1/T₂ - 1/T₁)), standard reaction enthalpy ΔH° in kJ/mol, and Le Chatelier equilibrium shift.",
+    "path": "/tools/le-chatelier-equilibrium-constant-van-t-hoff-isochore-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "van t hoff equation calculator",
+      "equilibrium constant temperature dependence formula online",
+      "reaction isochore delta h standard enthalpy calculator",
+      "le chatelier principle equilibrium constant shift calculator",
+      "chemical thermodynamics reaction equilibrium online"
+    ]
+  },
+  {
+    "name": "Real Gas Fugacity Coefficient (ln φ = G^R / RT) & Poynting Liquid Correction Calculator",
+    "description": "Calculate real gas fugacity f (f = φ · P in bar), fugacity coefficient φ, residual Gibbs free energy G^R, and high-pressure liquid Poynting pressure correction factor (exp(V_L·(P - P^sat) / RT)).",
+    "path": "/tools/fugacity-coefficient-chemical-potential-residual-gibbs-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fugacity calculator",
+      "fugacity coefficient formula phi equals f over p online",
+      "residual gibbs free energy fugacity calculator",
+      "poynting factor liquid fugacity calculator thermodynamics",
+      "chemical engineering thermodynamics phase equilibria online"
+    ]
+  },
+  {
+    "name": "Reynolds Number (Re = ρ·v·D / μ) & Darcy-Weisbach Pipe Friction Factor Calculator",
+    "description": "Calculate pipe flow Reynolds Number (Re = ρ·v·D / μ), flow regime (Laminar, Transitional, Turbulent), and Darcy-Weisbach friction factor f (Colebrook-White & Churchill equations) for hydraulic engineering.",
+    "path": "/tools/reynolds-number-pipe-flow-friction-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reynolds number calculator",
+      "darcy weisbach friction factor formula colebrook online",
+      "pipe flow laminar turbulent reynolds calculator",
+      "hydraulic head loss friction factor calculator",
+      "fluid mechanics chemical engineering pipe hydraulics online"
+    ]
+  },
+  {
+    "name": "Extended Bernoulli Energy Equation (Total Head H = P/ρg + v²/2g + z + h_L) Calculator",
+    "description": "Calculate hydraulic fluid system pressure changes, velocity head (v²/2g), elevation head (z), pump head requirement, and major/minor frictional head losses (h_L) using the Extended Bernoulli Energy Equation.",
+    "path": "/tools/bernoulli-equation-head-loss-pipe-flow-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bernoulli equation calculator",
+      "extended bernoulli head loss pump head formula online",
+      "hydraulic total head pressure head velocity head calculator",
+      "pipe flow energy balance head loss calculator",
+      "civil mechanical chemical engineering hydraulics online"
+    ]
+  },
+  {
+    "name": "McCabe-Thiele Distillation Column (Theoretical Equilibrium Stages & Minimum Reflux R_min) Calculator",
+    "description": "Calculate binary fractional distillation column theoretical equilibrium separation stages, rectifying operating line (ROL), stripping operating line (SOL), feed line q-slope, and minimum reflux ratio R_min.",
+    "path": "/tools/mccabe-thiele-fractional-distillation-stages-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mccabe thiele calculator",
+      "distillation column theoretical stages formula online",
+      "minimum reflux ratio rmin mccabe thiele calculator",
+      "binary distillation equilibrium stages calculator",
+      "chemical engineering separation processes distillation online"
+    ]
+  },
+  {
+    "name": "Plug Flow Reactor (PFR Volume V = F_A0 · ∫ dX / -r_A) & Space Time Calculator",
+    "description": "Calculate tubular Plug Flow Reactor (PFR) vessel volume V in m³ (V = F_A0 · ∫ dX / -r_A), space time τ (tau = V / v₀), Damköhler number (Da), and fractional conversion X for chemical reaction engineering.",
+    "path": "/tools/plug-flow-reactor-pfr-volume-space-time-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pfr reactor calculator",
+      "plug flow reactor volume formula space time tau online",
+      "chemical reactor design pfr conversion calculator",
+      "damkohler number space velocity pfr calculator",
+      "chemical engineering reaction kinetics reactor design online"
+    ]
+  },
+  {
+    "name": "Continuous Stirred-Tank Reactor (CSTR Conversion X = Da / (1 + Da)) Calculator",
+    "description": "Calculate Continuous Stirred-Tank Reactor (CSTR) steady-state conversion X (X = τ·k / (1 + τ·k)), reactor volume V, space time τ, and Damköhler number (Da = k·τ) for industrial chemical manufacturing.",
+    "path": "/tools/continuous-stirred-tank-reactor-cstr-conversion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cstr calculator",
+      "continuous stirred tank reactor conversion formula online",
+      "cstr volume damkohler number calculator chemical engineering",
+      "cstr space time tau reaction rate calculator",
+      "chemical reactor engineering reaction kinetics online"
+    ]
+  },
+  {
+    "name": "Thiele Modulus (Φ = L·√(k / D_eff)) & Catalyst Effectiveness Factor (η = tanh Φ / Φ) Calculator",
+    "description": "Calculate heterogeneous catalysis Thiele Modulus (Φ = L · √(k / D_eff)) and internal pore diffusion effectiveness factor η (eta = tanh(Φ) / Φ) for porous catalyst pellets.",
+    "path": "/tools/thiele-modulus-effectiveness-factor-internal-diffusion-catalyst-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thiele modulus calculator",
+      "catalyst effectiveness factor formula eta tanh phi over phi online",
+      "internal pore diffusion thiele modulus calculator",
+      "heterogeneous catalysis weisz prater criterion calculator",
+      "chemical engineering heterogeneous catalysis reactor online"
+    ]
+  },
+  {
+    "name": "Wilke-Chang Liquid Diffusivity (D_AB = 7.4·10⁻⁸·√(φ·M_B)·T / (μ_B·V_A^0.6)) Calculator",
+    "description": "Calculate solute molecular diffusion coefficient in dilute liquids (D_AB in cm²/s and m²/s) using the Wilke-Chang empirical correlation based on solvent molecular weight, association factor φ, and solute molar volume.",
+    "path": "/tools/wilke-chang-liquid-diffusion-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wilke chang calculator",
+      "liquid diffusivity formula dab online",
+      "solute diffusion coefficient in liquid water calculator",
+      "wilke chang association parameter mass transfer calculator",
+      "chemical engineering transport phenomena mass transfer online"
+    ]
+  },
+  {
+    "name": "Fick's Second Law Transient Non-Steady State Diffusion (erfc(x / 2√Dt)) Calculator",
+    "description": "Calculate semi-infinite transient non-steady state diffusion concentration profiles ((C(x,t) - C₀) / (C_s - C₀) = 1 - erf(x / (2·√(D·t))) = erfc(z)) for carburization, semiconductor doping, and drug release.",
+    "path": "/tools/fick-second-law-transient-diffusion-erfc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fick second law calculator",
+      "transient diffusion erfc formula error function online",
+      "carburization case depth diffusion calculator",
+      "semiconductor doping diffusion profile calculator",
+      "materials science chemical engineering diffusion online"
+    ]
+  },
+  {
+    "name": "Transport Phenomena Dimensionless Numbers (Prandtl Pr, Schmidt Sc & Lewis Le) Calculator",
+    "description": "Calculate momentum, thermal, and mass boundary layer transport ratios: Prandtl Number (Pr = ν / α), Schmidt Number (Sc = ν / D_AB), and Lewis Number (Le = Sc / Pr = α / D_AB) for heat and mass transfer analogies.",
+    "path": "/tools/prandtl-schmidt-lewis-dimensionless-numbers-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "prandtl schmidt lewis calculator",
+      "prandtl number formula kinematic viscosity thermal diffusivity online",
+      "schmidt number mass transfer calculator",
+      "lewis number heat mass transfer ratio calculator",
+      "transport phenomena chemical engineering boundary layer online"
+    ]
+  },
+  {
+    "name": "Nusselt Number (Nu = h·D / k) & Dittus-Boelter Convective Coefficient Calculator",
+    "description": "Calculate turbulent internal pipe flow Nusselt Number (Nu = 0.023 · Re^0.8 · Pr^0.4) using the Dittus-Boelter empirical correlation and evaluate convective heat transfer coefficient h in W/(m²·K).",
+    "path": "/tools/nusselt-number-convective-heat-transfer-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nusselt number calculator",
+      "dittus boelter formula convective heat transfer coefficient online",
+      "pipe heat transfer nusselt calculator reynolds prandtl",
+      "convective heat transfer coefficient h calculator w per m2 k",
+      "heat transfer thermal engineering chemical engineering online"
+    ]
+  },
+  {
+    "name": "Sherwood Number (Sh = k_c·D / D_AB) & Mass Transfer Coefficient Calculator",
+    "description": "Calculate turbulent pipe mass transfer Sherwood Number (Sh = 0.023 · Re^0.83 · Sc^0.33) using the Gilliland-Sherwood correlation and evaluate convective mass transfer coefficient k_c in m/s.",
+    "path": "/tools/sherwood-number-mass-transfer-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sherwood number calculator",
+      "convective mass transfer coefficient kc formula online",
+      "gilliland correlation sherwood number calculator",
+      "mass transfer boundary layer sherwood calculator",
+      "chemical engineering mass transfer transport phenomena online"
+    ]
+  },
+  {
+    "name": "Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator",
+    "description": "Calculate real gas pressure P, molar volume V_m, molecular attraction parameter a, co-volume b, and compressibility factor Z using the Van der Waals non-ideal gas equation of state.",
+    "path": "/tools/van-der-waals-real-gas-equation-state-compressibility-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "van der waals calculator",
+      "real gas equation of state formula p plus a over v squared online",
+      "van der waals constants a and b calculator",
+      "compressibility factor z real gas calculator",
+      "thermodynamics physical chemistry chemical engineering online"
+    ]
+  }
+]

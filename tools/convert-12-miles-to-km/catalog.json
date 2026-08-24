@@ -1,0 +1,15 @@
+{
+  "name": "Convert 12 Miles to KM",
+  "description": "Convert 12 miles to kilometers (19.31 km). 100% free and local.",
+  "path": "/tools/convert-12-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 12 miles to km",
+    "Convert 12 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

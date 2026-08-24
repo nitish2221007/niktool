@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Glover-Dumm Agricultural Subsurface Drain Spacing Calculator",
+    "description": "Calculate agricultural land subsurface drainage pipe tile spacing L in meters (Glover-Dumm transient water table drawdown equation) to prevent crop root waterlogging and soil salinization.",
+    "path": "/tools/glover-dumm-agricultural-drain-spacing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "glover dumm calculator",
+      "subsurface agricultural drain spacing formula online",
+      "water table drawdown tile drainage calculator",
+      "crop waterlogging agricultural drainage spacing calculator",
+      "irrigation agriculture hydrology civil engineering online"
+    ]
+  },
+  {
+    "name": "Infinite Slope Stability Factor of Safety (FS = c'/(γH·sin β·cos β) + (tan φ'/tan β)·(1 - γ_w·h_w/γH)) Calculator",
+    "description": "Calculate geotechnical infinite slope stability Factor of Safety (FS) against planar landslide failure considering soil cohesion c', friction angle φ', slope inclination β, seepage pore water pressure, and groundwater table height h_w.",
+    "path": "/tools/infinite-slope-stability-factor-of-safety-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "infinite slope stability calculator",
+      "landslide factor of safety formula online",
+      "planar slope failure pore water pressure calculator",
+      "geotechnical slope stability factor of safety calculator",
+      "civil geotechnical engineering slope stability landslides online"
+    ]
+  },
+  {
+    "name": "Bishop's Simplified Method of Slices Circular Slope Stability Factor of Safety Calculator",
+    "description": "Calculate circular slip surface rotational slope stability Factor of Safety (FS) using Bishop's Simplified Method of Slices accounting for interslice normal forces and pore pressure ratio r_u.",
+    "path": "/tools/bishop-simplified-method-slices-slope-stability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bishop simplified method calculator",
+      "method of slices slope stability formula online",
+      "circular slip surface factor of safety calculator",
+      "pore pressure ratio ru bishop slope calculator",
+      "geotechnical engineering embankment stability civil engineering online"
+    ]
+  },
+  {
+    "name": "Seismic Refraction Two-Layer Subsurface Bedrock Depth (z₁ = ½·t_i·v₁·v₂ / √(v₂² - v₁²)) Calculator",
+    "description": "Calculate seismic refraction subsurface overburden thickness and bedrock depth z₁ in meters (z₁ = ½ · t_i · v₁·v₂ / √(v₂² - v₁²)), critical refraction angle θ_c, and crossover cross distance x_c.",
+    "path": "/tools/seismic-refraction-two-layer-crustal-depth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "seismic refraction calculator",
+      "two layer bedrock depth formula ti v1 v2 online",
+      "seismic crossover distance critical angle calculator",
+      "geophysical survey p wave velocity calculator",
+      "geophysics civil engineering geotechnical investigation online"
+    ]
+  },
+  {
+    "name": "Seismic Reflection Normal Moveout (NMO Δt = √(t₀² + x²/v_rms²) - t₀) Calculator",
+    "description": "Calculate petroleum seismic reflection hyperbolic travel time t(x) (t² = t₀² + x² / v_rms²), Normal Moveout correction Δt_NMO, and subsurface reflector depth z₀ (z₀ = ½·v_rms·t₀).",
+    "path": "/tools/seismic-reflection-two-way-travel-time-twt-depth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "seismic reflection calculator",
+      "normal moveout nmo formula delta t online",
+      "two way travel time twt reflector depth calculator",
+      "rms velocity hyperbolic moveout geophysics calculator",
+      "geophysics petroleum exploration seismic processing online"
+    ]
+  },
+  {
+    "name": "Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator",
+    "description": "Calculate Complete Bouguer Gravity Anomaly Δg_B in mGal (Δg_B = g_obs - g_0 + 0.3086·h - 0.04193·ρ·h) from observed gravity, theoretical latitude gravity g_0, Free-Air elevation correction, and crustal slab density.",
+    "path": "/tools/bouguer-gravity-anomaly-elevation-slab-correction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bouguer anomaly calculator",
+      "gravity anomaly formula free air elevation correction online",
+      "bouguer slab reduction density 2.67 g cm3 calculator",
+      "isostasy crustal gravity survey geophysics calculator mgal",
+      "geophysics geodesy earth exploration gravity online"
+    ]
+  },
+  {
+    "name": "Geoelectrical Apparent Resistivity (Wenner ρ_a = 2π·a·ΔV/I & Schlumberger) Calculator",
+    "description": "Calculate electrical resistivity tomography (ERT) apparent resistivity ρ_a in Ω·m from injected current I (mA), potential voltage ΔV (mV), and 4-electrode geometric array spacing (Wenner & Schlumberger configurations).",
+    "path": "/tools/apparent-resistivity-wenner-schlumberger-array-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "apparent resistivity calculator",
+      "wenner array formula rho equals 2 pi a r online",
+      "schlumberger electrode array resistivity calculator",
+      "electrical resistivity tomography ert geophysics calculator",
+      "groundwater environmental geophysics resistivity sounding online"
+    ]
+  },
+  {
+    "name": "Kozeny-Carman Hydraulic Conductivity (K = (ρg/μ)·(1/C_K·S_0²)·(e³/(1+e))) Calculator",
+    "description": "Calculate granular sand and silt saturated hydraulic conductivity K in m/s (Kozeny-Carman semi-empirical equation) from specific surface area S_0, void ratio e, fluid viscosity, and Carman constant C_K.",
+    "path": "/tools/kozeny-carman-hydraulic-conductivity-granular-soil-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kozeny carman calculator",
+      "hydraulic conductivity formula specific surface area void ratio online",
+      "porous media permeability kozeny carman calculator",
+      "granular soil hydraulic conductivity calculator",
+      "geotechnical hydrogeology porous flow soil physics online"
+    ]
+  },
+  {
+    "name": "Hazen Saturated Hydraulic Conductivity (K = C·d₁₀²) Filter Sand Calculator",
+    "description": "Calculate clean sand filter hydraulic conductivity K in cm/s and m/day (K = C · d₁₀²) from effective grain size diameter d₁₀ (mm) and Hazen empirical coefficient C (0.8 to 1.5).",
+    "path": "/tools/hazen-hydraulic-conductivity-effective-grain-size-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hazen formula calculator",
+      "effective grain size d10 hydraulic conductivity formula online",
+      "filter sand permeability hazen calculator",
+      "hazen coefficient c 1.0 calculator cm per s",
+      "hydrogeology water filtration civil engineering online"
+    ]
+  },
+  {
+    "name": "Atkinson Mine Ventilation Friction Pressure Loss (H_f = K·P·L·Q² / 5.2·A³) Calculator",
+    "description": "Calculate underground mine airway ventilation airway friction pressure loss H_f in inches of water gauge (in. w.g.) and Pa, airway resistance R, and air power requirement using Atkinson's equation.",
+    "path": "/tools/atkinson-mine-ventilation-friction-head-loss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atkinson mine ventilation calculator",
+      "airway friction head loss formula atkinson online",
+      "underground mine ventilation pressure drop calculator",
+      "mine airway resistance r square law calculator",
+      "mining engineering ventilation airflow online"
+    ]
+  },
+  {
+    "name": "Ricker Wavelet Seismic Resolution & Tuning Thickness (λ / 4) Calculator",
+    "description": "Calculate seismic zero-phase Ricker wavelet peak dominant frequency f_p, Rayleigh quarter-wavelength vertical resolution limit (Tuning Thickness = λ / 4 = v / 4·f_p), and time peak-to-trough separation.",
+    "path": "/tools/ricker-wavelet-seismic-peak-frequency-resolution-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ricker wavelet calculator",
+      "seismic tuning thickness formula lambda over 4 online",
+      "rayleigh criterion seismic vertical resolution calculator",
+      "ricker peak frequency peak to trough time calculator",
+      "geophysics seismic interpretation petroleum reservoir online"
+    ]
+  },
+  {
+    "name": "Archie's Law Well Logging Water Saturation (S_w = (a·R_w / (Φᵐ·R_t))^(1/n)) Calculator",
+    "description": "Calculate hydrocarbon petroleum reservoir Water Saturation S_w (S_w = (a · R_w / (Φᵐ · R_t))^(1/n)), Hydrocarbon Saturation S_hc (1 - S_w), and Formation Factor F = a / Φᵐ from borehole electric wireline logs.",
+    "path": "/tools/archie-rock-water-saturation-resistivity-porosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "archie law calculator",
+      "water saturation formula sw online",
+      "formation factor cementation exponent m well logging calculator",
+      "hydrocarbon saturation wireline log archie calculator",
+      "petrophysics petroleum reservoir engineering geophysics online"
+    ]
+  },
+  {
+    "name": "Rock Mass Rating (Bieniawski 1989 RMR Geomechanics Classification) Calculator",
+    "description": "Calculate engineering Rock Mass Rating (RMR = R₁ + R₂ + R₃ + R₄ + R₅ + R₆ from 0 to 100) based on Bieniawski's 6 geomechanics parameters to determine tunnel stand-up time, cohesion, and friction angle.",
+    "path": "/tools/rock-mass-rating-rmr-geomechanics-classification-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rock mass rating calculator",
+      "bieniawski rmr geomechanics classification formula online",
+      "tunnel stand up time rock mass rating calculator",
+      "rock mass cohesion friction angle rmr calculator",
+      "mining civil rock mechanics tunneling engineering online"
+    ]
+  },
+  {
+    "name": "PID Controller Ziegler-Nichols Closed-Loop Tuning (K_p, T_i, T_d) Calculator",
+    "description": "Calculate classical Ziegler-Nichols closed-loop PID controller tuning gains (Proportional K_p = 0.6·K_u, Integral time T_i = 0.5·T_u, Derivative time T_d = 0.125·T_u) from ultimate gain K_u and oscillation period T_u.",
+    "path": "/tools/pid-controller-gain-ziegler-nichols-tuning-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pid controller calculator",
+      "ziegler nichols closed loop tuning formula online",
+      "ultimate gain ku ultimate period tu pid tuning calculator",
+      "p pi pid controller gains kp ki kd calculator",
+      "control systems engineering robotics mechatronics online"
+    ]
+  },
+  {
+    "name": "Robotic Forward Kinematics Denavit-Hartenberg (DH Parameters) Matrix Calculator",
+    "description": "Calculate 4×4 homogeneous transformation matrix T_i = Rot_z(θ) · Trans_z(d) · Trans_x(a) · Rot_x(α) from Denavit-Hartenberg standard joint parameters (θ, d, a, α) for robotic arm forward kinematics.",
+    "path": "/tools/forward-kinematics-denavit-hartenberg-dh-parameters-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "denavit hartenberg calculator",
+      "dh parameters forward kinematics matrix formula online",
+      "homogeneous transformation matrix 4x4 robotics calculator",
+      "joint angle link length twist dh matrix calculator",
+      "robotics kinematics serial manipulator mechatronics online"
+    ]
+  },
+  {
+    "name": "2-Link Planar Robotic Arm Geometric Inverse Kinematics (IK) Calculator",
+    "description": "Calculate robotic 2-link revolute planar manipulator joint angles θ₁ (shoulder) and θ₂ (elbow) in degrees (Elbow-Up and Elbow-Down analytical solutions) to reach target Cartesian coordinates (X, Y).",
+    "path": "/tools/inverse-kinematics-two-link-planar-robot-arm-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "inverse kinematics calculator",
+      "2 link robot arm ik formula theta1 theta2 online",
+      "elbow up elbow down planar manipulator calculator",
+      "law of cosines robotic inverse kinematics calculator",
+      "robotics motion planning mechatronics automation online"
+    ]
+  },
+  {
+    "name": "Robot Manipulator Jacobian Matrix & End-Effector Velocity (v = J·q̇) Calculator",
+    "description": "Calculate 2-link planar robotic manipulator Jacobian matrix J(q), end-effector Cartesian velocities [v_x, v_y] in mm/s (v = J · q̇), and Yoshikawa Manipulability Measure w = √det(J·Jᵀ).",
+    "path": "/tools/robot-jacobian-differential-motion-end-effector-velocity-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "robot jacobian calculator",
+      "end effector velocity formula v equals j q dot online",
+      "yoshikawa manipulability measure jacobian calculator",
+      "joint angular velocity to linear velocity calculator",
+      "robotics differential kinematics mechatronics online"
+    ]
+  },
+  {
+    "name": "DC Motor Torque-Speed Curve, Back-EMF & Mechanical Power Calculator",
+    "description": "Calculate brushed and brushless DC motor stall torque T_stall in N·m (T_stall = K_t · V / R), no-load RPM speed, Back-EMF voltage V_emf, electrical efficiency η, and peak mechanical power output.",
+    "path": "/tools/dc-motor-torque-speed-back-emf-mechanical-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dc motor torque speed calculator",
+      "stall torque formula kt v over r online",
+      "back emf mechanical power efficiency dc motor calculator",
+      "no load rpm stall current mechatronics calculator",
+      "robotics mechatronics electrical engineering motors online"
+    ]
+  },
+  {
+    "name": "Stepper Motor Step Angle, Microstepping Pulse Rate & RPM Calculator",
+    "description": "Calculate 2-phase hybrid stepper motor shaft rotational speed in RPM (RPM = (PPS · 60) / (Steps/Rev · Microstepping)), step angle θ_s (360° / 200 = 1.8°), step frequency pulse rate, and linear lead screw speed.",
+    "path": "/tools/stepper-motor-step-angle-pulse-rate-rpm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stepper motor calculator",
+      "step angle pulse rate rpm formula online",
+      "microstepping 1 16 1 32 steps per revolution calculator",
+      "pulses per second pps to rpm stepper calculator",
+      "cnc 3d printing robotics mechatronics online"
+    ]
+  },
+  {
+    "name": "Root Locus Asymptotes, Centroid & Stability Breakaway Points Calculator",
+    "description": "Calculate control system Root Locus geometric characteristics: number of infinite asymptotes (n - m), real-axis asymptote centroid σ_a (σ_a = (∑ poles - ∑ zeros) / (n - m)), and asymptote departure angles.",
+    "path": "/tools/root-locus-open-loop-poles-zeros-stability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "root locus calculator",
+      "asymptote centroid formula sigma a online",
+      "root locus departure angle poles zeros calculator",
+      "closed loop stability evans root locus calculator",
+      "classical control engineering transfer function stability online"
+    ]
+  },
+  {
+    "name": "Bode Plot Gain Margin (GM), Phase Margin (PM) & Crossover Frequency Calculator",
+    "description": "Calculate frequency domain relative stability metrics: Gain Margin GM in dB (GM = -20·log₁₀|G(jω_π)|) at phase crossover frequency ω_π and Phase Margin PM (PM = 180° + ∠G(jω_c)) at gain crossover frequency ω_c.",
+    "path": "/tools/bode-plot-gain-phase-margin-gain-crossover-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "bode plot calculator",
+      "gain margin phase margin formula online",
+      "gain crossover phase crossover frequency calculator",
+      "bode stability frequency response calculator",
+      "control systems mechatronics electrical engineering online"
+    ]
+  },
+  {
+    "name": "Nyquist Stability Criterion (Z = N + P) Encirclements Calculator",
+    "description": "Calculate closed-loop right-half-plane (RHP) unstable poles Z (Z = N + P) using the Nyquist Stability Criterion from number of clockwise encirclements N of critical point (-1 + j0) and open-loop unstable poles P.",
+    "path": "/tools/nyquist-stability-criterion-encirclements-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "nyquist stability calculator",
+      "nyquist criterion formula z equals n plus p online",
+      "critical point minus 1 plus j0 encirclements calculator",
+      "closed loop rhp poles stability nyquist calculator",
+      "frequency domain control theory stability online"
+    ]
+  },
+  {
+    "name": "State-Space Controllability & Observability Matrix (Rank Check) Calculator",
+    "description": "Calculate 2-state system Controllability Matrix C = [B, AB] and Observability Matrix O = [C; CA], determinant, and Kalman rank condition to verify full state feedback controllability and observer design.",
+    "path": "/tools/state-space-system-controllability-observability-gramian-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "state space controllability calculator",
+      "observability matrix rank kalman condition online",
+      "controllability matrix c equals b ab calculator",
+      "state feedback pole placement observability calculator",
+      "modern control theory state space mechatronics online"
+    ]
+  },
+  {
+    "name": "Linear Quadratic Regulator (LQR 1D Riccati Equation & Optimal Gain K) Calculator",
+    "description": "Calculate 1-state Continuous-Time Linear Quadratic Regulator (LQR) Algebraic Riccati Equation solution P (2·a·P - P²·b²/r + q = 0) and optimal state feedback gain K = b·P/r to minimize cost J = ∫(q·x² + r·u²)dt.",
+    "path": "/tools/linear-quadratic-regulator-lqr-riccati-gain-matrix-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lqr calculator",
+      "linear quadratic regulator riccati equation formula online",
+      "optimal control gain k lqr calculator",
+      "algebraic riccati equation continuous time lqr calculator",
+      "optimal control state space robotics mechatronics online"
+    ]
+  }
+]

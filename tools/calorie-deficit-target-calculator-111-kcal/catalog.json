@@ -1,0 +1,15 @@
+{
+  "name": "Calorie Deficit Target Calculator (111 kcal/day)",
+  "description": "Calculate estimated weekly weight loss (0.10 kg/week) for a 111 kcal daily deficit.",
+  "path": "/tools/calorie-deficit-target-calculator-111-kcal/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "calorie deficit target calculator 111 kcal",
+    "Calorie Deficit Target Calculator (111 kcal/day)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

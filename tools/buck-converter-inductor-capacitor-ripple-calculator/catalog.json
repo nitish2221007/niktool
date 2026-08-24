@@ -1,0 +1,15 @@
+{
+  "name": "Buck Step-Down Converter Inductor & Output Capacitor Sizing Calculator",
+  "description": "Calculate switch-mode Buck DC-DC converter duty cycle (D = V_out / V_in), critical filter inductance (L = V_out · (1 - D) / (ΔI_L · f_s)) in μH, and output capacitor ripple voltage.",
+  "path": "/tools/buck-converter-inductor-capacitor-ripple-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "buck converter calculator",
+    "step down converter inductor capacitor sizing formula",
+    "buck duty cycle ripple current calculator online",
+    "dc dc switch mode buck converter design online",
+    "power electronics buck filter calculator"
+  ],
+  "order": 706
+}

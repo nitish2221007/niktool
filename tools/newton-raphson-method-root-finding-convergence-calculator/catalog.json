@@ -1,0 +1,15 @@
+{
+  "name": "Newton-Raphson Method (x_{n+1} = x_n - f(x_n) / f'(x_n)) Root Finding Calculator",
+  "description": "Calculate numerical equation roots with quadratic convergence using the Newton-Raphson iteration algorithm (x_{n+1} = x_n - f(x_n) / f'(x_n)), viewing iteration steps and tolerance convergence for numerical analysis.",
+  "path": "/tools/newton-raphson-method-root-finding-convergence-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "newton raphson calculator",
+    "root finding formula x n plus 1 equals x n minus f over f prime online",
+    "quadratic convergence newton method calculator",
+    "numerical analysis equation root solver newton raphson",
+    "applied mathematics nonlinear equation solver online"
+  ],
+  "order": 1087
+}

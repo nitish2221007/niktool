@@ -1,0 +1,15 @@
+{
+  "name": "Convert 168 KM to Miles",
+  "description": "Convert 168 kilometers to miles (104.39 miles). 100% free and local.",
+  "path": "/tools/convert-168-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 168 km to miles",
+    "Convert 168 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

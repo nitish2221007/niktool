@@ -1,0 +1,15 @@
+{
+  "name": "Hooke's Law Spring Force (F = k·x) & Elastic Potential Energy (E_p = ½·k·x²) Calculator",
+  "description": "Calculate linear elastic spring restoring force (F = k·x) in Newtons and stored elastic strain potential energy (E_p = ½·k·x²) in Joules from spring constant k (N/m) and extension x (m).",
+  "path": "/tools/hookes-law-spring-force-elastic-potential-energy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hookes law calculator",
+    "spring force formula f equals k x online",
+    "elastic potential energy calculator half k x squared",
+    "spring constant k extension calculator newtons",
+    "simple harmonic motion spring energy calculator online"
+  ],
+  "order": 935
+}

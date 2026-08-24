@@ -1,0 +1,15 @@
+{
+  "name": "Convert 172 Knots Speed Val to KM/H",
+  "description": "Convert 172 knots speed to kilometers per hour (318.54 km/h).",
+  "path": "/tools/convert-knot-speed-val-172-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 172 to kmh",
+    "Convert 172 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

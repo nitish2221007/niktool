@@ -1,0 +1,15 @@
+{
+  "name": "Convert 259 Knots Speed Val to KM/H",
+  "description": "Convert 259 knots speed to kilometers per hour (479.67 km/h).",
+  "path": "/tools/convert-knot-speed-val-259-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 259 to kmh",
+    "Convert 259 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

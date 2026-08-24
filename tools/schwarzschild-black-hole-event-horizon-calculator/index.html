@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate non-rotating black hole Schwarzschild event horizon radius (r_s = 2·G·M / c²) and quantum Hawking radiation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/schwarzschild-black-hole-event-horizon-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator | NikTool">
+  <meta property="og:description" content="Calculate non-rotating black hole Schwarzschild event horizon radius (r_s = 2·G·M / c²) and quantum Hawking radiation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)).">
+  <meta property="og:url" content="https://niktool.in/tools/schwarzschild-black-hole-event-horizon-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/schwarzschild-black-hole-event-horizon-calculator/",
+        "description": "Calculate non-rotating black hole Schwarzschild event horizon radius (r_s = 2·G·M / c²) and quantum Hawking radiation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the Schwarzschild radius of Earth?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If compressed into a black hole, Earth event horizon radius would measure just 8.87 millimeters (the size of a marble)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator</h1>
+      <p>Calculate non-rotating black hole Schwarzschild event horizon radius (r_s = 2·G·M / c²) and quantum Hawking radiation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Black Hole Mass M (Solar Masses M_☉ or Kilograms)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="bh-mass">Black Hole Mass</label>
+        <select class="tool-textarea" id="bh-mass">
+          <option value="1">1.0 Solar Mass M_☉ (Stellar Remnant)</option>
+          <option value="10" selected>10.0 Solar Masses M_☉ (Cygnus X-1)</option>
+          <option value="4150000">4.15 Million M_☉ (Sagittarius A* - Milky Way Center)</option>
+          <option value="6500000000">6.5 Billion M_☉ (M87* - Event Horizon Telescope)</option>
+          <option value="earth">Earth Mass Equivalent (1 M_earth)</option>
+        </select>
+      </div>
+      <div id="bh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bh-res-rs" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">r_s = 29.5 km Radius</span>
+            <span class="stat-label">Schwarzschild Event Horizon Radius (r_s = 2GM/c²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bh-res-temp" style="font-weight:700;">Hawking Temp T_H = 6.17 nK (Nanokelvin)</span>
+            <span class="stat-label">Quantum Hawking Radiation Temperature (T_H)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Schwarzschild Black Hole Event Horizon Radius & Hawking Temperature Calculator</h2>
+      <ol>
+        <li>Select black hole mass category (10 Solar Mass stellar black hole, Supermassive Sagittarius A*, or M87*).</li>
+        <li>Inspect Schwarzschild event horizon radius r_s = 2GM/c² in mm, km, or Astronomical Units (AU).</li>
+        <li>Inspect theoretical Hawking quantum evaporation blackbody radiation temperature in Kelvin.</li>
+      </ol>
+
+      <h2>Karl Schwarzschild 1916 & Stephen Hawking 1974 Physics</h2>
+      <p>The Schwarzschild radius defines the point of no return where escape velocity equals the speed of light; quantum virtual particle fluctuations at the horizon cause black holes to emit thermal Hawking radiation inversely proportional to their mass.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the Schwarzschild radius of Earth?</summary>
+        <p>If compressed into a black hole, Earth event horizon radius would measure just 8.87 millimeters (the size of a marble).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/schwarzschild-black-hole-event-horizon-calculator/tool.js"></script>
+</body>
+</html>

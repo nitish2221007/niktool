@@ -1,0 +1,15 @@
+{
+  "name": "Trip Fuel Cost Split (6 Passengers, 170 km)",
+  "description": "Calculate per-person fuel cost (₹182/person) for 6 passengers on a 170 km trip.",
+  "path": "/tools/trip-fuel-cost-split-passengers-6-distance-170km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "trip fuel cost split passengers 6 distance 170km",
+    "Trip Fuel Cost Split (6 Passengers, 170 km)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

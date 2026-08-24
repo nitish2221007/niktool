@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator",
+    "description": "Calculate superconducting and ion trap qubit state decay (P_1(t) = e^(-t/T₁)) and transverse phase coherence loss (1/T₂ = 1/(2·T₁) + 1/T_ϕ) over time.",
+    "path": "/tools/quantum-decoherence-t1-t2-relaxation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "qubit decoherence calculator",
+      "t1 relaxation t2 dephasing formula online",
+      "superconducting qubit coherence time calculator",
+      "t2 equals 2 t1 limit quantum computing",
+      "quantum gate fidelity decoherence error calculator"
+    ]
+  },
+  {
+    "name": "Ocean Wave Celerity & Wavelength (Airy Linear Wave Theory) Calculator",
+    "description": "Calculate ocean wave phase speed celerity (c = √(g · L / 2π · tanh(2πd / L))) in m/s and wavelength L across deep water (d over L greater than 0.5) and shallow water (d over L less than 0.05).",
+    "path": "/tools/ocean-wave-celerity-wavelength-airy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ocean wave celerity calculator",
+      "airy linear wave theory wavelength formula",
+      "shallow deep water wave phase speed calculator",
+      "ocean wave period wavelength tanh online",
+      "coastal oceanography wave celerity online"
+    ]
+  },
+  {
+    "name": "Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator",
+    "description": "Calculate ocean significant wave height (H_m0 = 4 · √m₀) in meters from spectral wave energy variance m₀ and determine World Meteorological Organization (WMO) Sea State code.",
+    "path": "/tools/significant-wave-height-energy-spectrum-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "significant wave height calculator",
+      "hm0 4 sqrt m0 formula oceanography",
+      "h 1 3 significant wave height calculator online",
+      "wmo sea state code beaufort scale calculator",
+      "ocean spectral wave energy calculator"
+    ]
+  },
+  {
+    "name": "Coastal Wave Shoaling & Refraction Coefficient Calculator",
+    "description": "Calculate coastal inshore wave height changes (H₂ = H₁ · K_s · K_r) from shoaling coefficient K_s and wave ray refraction angle convergence K_r.",
+    "path": "/tools/coastal-wave-shoaling-refraction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wave shoaling calculator",
+      "coastal wave refraction formula ks kr",
+      "shoaling coefficient group velocity calculator",
+      "inshore wave height coastal engineering online",
+      "wave ray refraction snell law coastal calculator"
+    ]
+  },
+  {
+    "name": "Richardson Number (Ri) Ocean Stratification & Shear Turbulence Calculator",
+    "description": "Calculate gradient Richardson number (Ri = N² / (du / dz)²) from Brunt-Väisälä buoyancy frequency N and vertical current velocity shear to predict turbulent mixing (Ri below 0.25).",
+    "path": "/tools/richardson-number-ocean-stratification-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "richardson number calculator",
+      "gradient ri formula n2 over du dz squared",
+      "ocean stratification turbulent mixing calculator",
+      "kelvin helmholtz instability richardson number online",
+      "oceanography shear flow stability calculator"
+    ]
+  },
+  {
+    "name": "Ekman Spiral Layer Depth & Net Wind Drift Transport Calculator",
+    "description": "Calculate wind-driven ocean surface Ekman layer depth (D_E = π · √(2 · A_z / |f|)) in meters and net mass transport volume deflected 90° by Coriolis force.",
+    "path": "/tools/ekman-spiral-transport-depth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ekman spiral calculator",
+      "ekman layer depth formula de pi sqrt 2 az over f",
+      "ekman transport 90 degrees coriolis calculator",
+      "ocean surface current wind drift calculator online",
+      "coastal upwelling ekman transport online"
+    ]
+  },
+  {
+    "name": "Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator",
+    "description": "Calculate aircraft wing vortex induced drag coefficient (C_Di = C_L² / (π · AR · e)) and induced drag force in Newtons/lbf from wing aspect ratio AR and Oswald efficiency factor e.",
+    "path": "/tools/wing-induced-drag-aspect-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wing induced drag calculator",
+      "cdi cl squared over pi ar e formula",
+      "aspect ratio wing vortex drag calculator",
+      "oswald efficiency factor induced drag online",
+      "aerodynamic lift to drag aircraft calculator"
+    ]
+  },
+  {
+    "name": "Airfoil Circulation & Kutta-Joukowski Lift (L' = ρ · V · Γ) Calculator",
+    "description": "Calculate aerodynamic 2D airfoil sectional lift force per unit span (L' = ρ_∞ · V_∞ · Γ) in N/m and Circulation Γ from free-stream air density and velocity.",
+    "path": "/tools/airfoil-circulation-kutta-joukowski-lift-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kutta joukowski lift calculator",
+      "airfoil circulation gamma formula l prime rho v gamma",
+      "vortex lift per unit span calculator online",
+      "aerodynamics kutta condition circulation online",
+      "theoretical aerodynamics lift theorem calculator"
+    ]
+  },
+  {
+    "name": "Prandtl-Glauert Compressibility Correction Factor Calculator",
+    "description": "Calculate subsonic aerodynamic pressure coefficient (C_p = C_p0 / √(1 - M²)) and lift coefficient amplification from high subsonic Mach numbers (subsonic Mach below 0.8).",
+    "path": "/tools/prandtl-glauert-compressibility-correction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "prandtl glauert compressibility calculator",
+      "cp cp0 over sqrt 1 minus m squared formula",
+      "subsonic mach number lift amplification calculator",
+      "high speed compressibility correction online",
+      "aerodynamics prandtl glauert rule calculator"
+    ]
+  },
+  {
+    "name": "Supersonic Oblique Shock Wave (θ-β-Mach) Angle Calculator",
+    "description": "Calculate supersonic oblique shock wave angle β (tan θ = 2 · cot β · (M₁² · sin² β - 1) / [M₁²(γ + cos 2β) + 2]), downstream Mach number M₂, and static pressure ratio p₂/p₁.",
+    "path": "/tools/supersonic-oblique-shock-theta-beta-mach-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "oblique shock wave calculator",
+      "theta beta mach relation supersonic formula",
+      "shock angle beta calculator online",
+      "downstream mach m2 oblique shock calculator",
+      "supersonic aerodynamics oblique shock online"
+    ]
+  },
+  {
+    "name": "Aircraft Best Glide Ratio (L/D) & Maximum Range Gliding Calculator",
+    "description": "Calculate unpowered engine-out aircraft glide distance range (Range = Altitude · (L / D)_max) in nautical miles and kilometers from lift-to-drag ratio.",
+    "path": "/tools/glide-ratio-lift-to-drag-range-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "glide ratio calculator",
+      "best glide speed l over d max range formula",
+      "engine out glide distance calculator online",
+      "aircraft glide ratio nautical miles calculator",
+      "emergency unpowered gliding distance calculator"
+    ]
+  },
+  {
+    "name": "FIR Digital Filter Window Sinc Order & Cutoff Calculator",
+    "description": "Calculate digital Finite Impulse Response (FIR) filter tap order (N ≈ c / Δf_norm) and window coefficients (Hamming, Hanning, Blackman) for audio and signal filtering.",
+    "path": "/tools/fir-filter-window-sinc-cutoff-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fir filter calculator",
+      "window sinc fir filter order formula",
+      "hamming hanning blackman fir filter taps online",
+      "digital signal processing fir cutoff calculator",
+      "dsp fir lowpass filter design online"
+    ]
+  },
+  {
+    "name": "IIR Butterworth Analog & Digital Filter Order Calculator",
+    "description": "Calculate maximally flat IIR Butterworth filter minimum order (N = log₁₀((10^(0.1·As) - 1)/(10^(0.1·Ap) - 1)) / (2·log₁₀(Ωs / Ωp))) and 3dB corner roll-off.",
+    "path": "/tools/iir-butterworth-filter-order-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "butterworth filter calculator",
+      "iir butterworth order formula online",
+      "filter order passband stopband attenuation calculator",
+      "maximally flat butterworth filter dsp online",
+      "analog filter order calculator"
+    ]
+  },
+  {
+    "name": "Cooley-Tukey FFT Radix-2 Butterfly Operations & Speedup Calculator",
+    "description": "Calculate Fast Fourier Transform (FFT) computational complexity (O(N·log₂N) vs O(N²)), total butterfly stages, complex multiplications, and CPU speedup.",
+    "path": "/tools/fft-radix-2-butterfly-operations-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fft radix 2 calculator",
+      "cooley tukey fft butterfly operations formula",
+      "dft vs fft complexity speedup calculator",
+      "n log2 n fft multiplications online",
+      "fast fourier transform computation calculator"
+    ]
+  },
+  {
+    "name": "Nyquist-Shannon Sampling Rate & Aliasing Frequency Calculator",
+    "description": "Calculate digital signal sampling Nyquist rate (F_nyquist = 2 · F_max) and exact foldback aliasing frequencies (|f_sig - k·F_s|) from undersampled signals.",
+    "path": "/tools/nyquist-shannon-sampling-aliasing-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nyquist shannon sampling calculator",
+      "aliasing frequency formula foldback online",
+      "nyquist rate 2 fmax calculator",
+      "digital audio adc aliasing calculator",
+      "dsp sampling theorem online"
+    ]
+  },
+  {
+    "name": "Discrete Cosine Transform (DCT-II) 8x8 Block Matrix Calculator",
+    "description": "Calculate 2D Discrete Cosine Transform (DCT-II) spatial frequency energy compaction coefficients used in JPEG image compression and MP3/AAC audio coding.",
+    "path": "/tools/discrete-cosine-transform-dct2-matrix-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "discrete cosine transform calculator",
+      "dct ii jpeg compression matrix formula",
+      "dct energy compaction 8x8 block calculator",
+      "image compression transform dct online",
+      "dsp orthogonal basis dct2 calculator"
+    ]
+  },
+  {
+    "name": "Denavit-Hartenberg (DH) 4x4 Robot Kinematics Transformation Calculator",
+    "description": "Calculate standard Denavit-Hartenberg (DH) 4x4 homogenous transformation matrix (T = Rot_z(θ) · Trans_z(d) · Trans_x(a) · Rot_x(α)) for robot arm forward kinematics.",
+    "path": "/tools/denavit-hartenberg-transformation-matrix-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "denavit hartenberg calculator",
+      "dh parameters 4x4 transformation matrix online",
+      "robot forward kinematics dh matrix calculator",
+      "theta d a alpha denavit hartenberg formula",
+      "robotics arm kinematics matrix online"
+    ]
+  },
+  {
+    "name": "PID Controller Tuning (Ziegler-Nichols Frequency Response) Calculator",
+    "description": "Calculate optimal Proportional, Integral, and Derivative control gains (K_p, T_i, T_d, K_i, K_d) from Ultimate Gain K_u and Ultimate Oscillation Period T_u.",
+    "path": "/tools/pid-controller-ziegler-nichols-tuning-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pid controller calculator",
+      "ziegler nichols tuning formula kp ki kd",
+      "ultimate gain ku period tu pid calculator",
+      "closed loop pid tuning calculator online",
+      "industrial control loop pid tuning online"
+    ]
+  },
+  {
+    "name": "Stepper Motor Microstepping Resolution & Pulse Rate Calculator",
+    "description": "Calculate stepper motor CNC/3D printer positional resolution (Steps/mm = (Steps/rev · Microsteps) / (Pitch · Teeth)) and pulse frequency in kHz.",
+    "path": "/tools/stepper-motor-microstepping-resolution-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stepper motor microstepping calculator",
+      "steps per mm 3d printer belt leadscrew formula",
+      "stepper pulse rate frequency khz calculator",
+      "nema 17 23 microstep resolution online",
+      "cnc motor steps per mm calculator"
+    ]
+  },
+  {
+    "name": "Planetary (Epicyclic) Gear Train Ratio & Speed Calculator",
+    "description": "Calculate planetary epicyclic gearbox gear ratios (R = 1 + N_ring / N_sun for fixed ring carrier output), sun/planet tooth meshing, and output torque multiplier.",
+    "path": "/tools/planetary-gear-ratio-sun-ring-carrier-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planetary gear ratio calculator",
+      "epicyclic gear train formula sun ring planet",
+      "planetary gearbox reduction ratio calculator online",
+      "sun planet ring gear tooth meshing calculator",
+      "robotic actuator planetary gear ratio online"
+    ]
+  },
+  {
+    "name": "Robot Manipulator Jacobian Force-to-Torque (τ = Jᵀ · F) Calculator",
+    "description": "Calculate 2-DOF robotic manipulator joint actuator torques (τ₁ = Jᵀ · F) from end-effector contact forces [F_x, F_y] and link angles (θ₁, θ₂) using the transpose Jacobian matrix.",
+    "path": "/tools/robot-manipulator-jacobian-torque-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "robot jacobian torque calculator",
+      "jacobian transpose static force formula tau jt f",
+      "robot manipulator joint torques calculator online",
+      "2 dof planar arm jacobian calculator",
+      "robotics force control jacobian online"
+    ]
+  },
+  {
+    "name": "Refrigeration Carnot Cycle COP & Compressor Power Calculator",
+    "description": "Calculate maximum theoretical thermodynamic Coefficient of Performance (COP_Carnot = T_C / (T_H - T_C)) and compressor electrical power demand in kW/HP.",
+    "path": "/tools/refrigeration-carnot-cop-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "refrigeration carnot cop calculator",
+      "coefficient of performance formula tc over th minus tc",
+      "chiller compressor electrical power calculator",
+      "eer seer to cop conversion calculator",
+      "hvac refrigeration efficiency online"
+    ]
+  },
+  {
+    "name": "Building Envelope Overall U-Value & Thermal Resistance (R-Value) Calculator",
+    "description": "Calculate composite wall/roof overall thermal transmittance (U = 1 / ΣR_i) in W/m²·K, total R-value (m²·K/W and ft²·°F·h/BTU), and structural heat loss.",
+    "path": "/tools/building-envelope-u-value-r-value-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "building envelope u value calculator",
+      "r value to u value formula online",
+      "composite wall thermal transmittance u value calculator",
+      "ashrae 90 1 building heat loss calculator",
+      "insulation r value calculator online"
+    ]
+  },
+  {
+    "name": "Psychrometric Sensible & Latent Cooling Load (CFM) Calculator",
+    "description": "Calculate HVAC total cooling coil enthalpy load (q_total = 4.5 · CFM · Δh), sensible heat (q_s = 1.08 · CFM · ΔT), and latent moisture heat (q_l = 4840 · CFM · ΔW).",
+    "path": "/tools/psychrometric-enthalpy-sensible-latent-heat-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "psychrometric cooling load calculator",
+      "sensible latent heat formula 1.08 cfm delta t",
+      "latent heat 4840 cfm delta w calculator",
+      "hvac sensible heat ratio shr calculator online",
+      "air conditioning coil sizing calculator"
+    ]
+  }
+]

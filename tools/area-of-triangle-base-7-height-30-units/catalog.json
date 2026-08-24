@@ -1,0 +1,15 @@
+{
+  "name": "Area of Triangle (Base 7 x Height 30)",
+  "description": "Calculate area of triangle with base 7 and height 30 (A = 0.5 bh = 105.0).",
+  "path": "/tools/area-of-triangle-base-7-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of triangle base 7 height 30 units",
+    "Area of Triangle (Base 7 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

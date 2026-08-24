@@ -1,0 +1,15 @@
+{
+  "name": "Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator",
+  "description": "Calculate equivalent thermal sterilization lethality value (F₀ = Δt · 10^((T - 121.1) / z)) in minutes for industrial canning and Clostridium botulinum spore eradication.",
+  "path": "/tools/food-thermal-death-time-f-value-sterilization-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "f0 sterilization calculator",
+    "thermal death time d value z value formula",
+    "canning f0 autoclave lethality calculator",
+    "clostridium botulinum 12d reduction online",
+    "retort food sterilization f value calculator"
+  ],
+  "order": 500
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 140cm, Weight 90kg)",
+  "description": "Calculate Body Mass Index (BMI 45.9) for height 140 cm and weight 90 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-140cm-weight-90kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 140cm weight 90kg",
+    "BMI Calculator (Height 140cm, Weight 90kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

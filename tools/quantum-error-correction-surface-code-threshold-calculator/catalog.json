@@ -1,0 +1,15 @@
+{
+  "name": "Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator",
+  "description": "Calculate 2D rotated Surface Code quantum error correction code distance (d = 2t + 1), required physical data and syndrome ancilla qubits (N = 2·d² - 1), and exponential logical error suppression (P_L ≈ 0.1 · (p_phys / p_th)^((d+1)/2)) below the 1% threshold limit.",
+  "path": "/tools/quantum-error-correction-surface-code-threshold-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "surface code calculator",
+    "quantum error correction logical error rate formula pl online",
+    "code distance physical to logical qubit ratio calculator",
+    "fault tolerant quantum computing surface code calculator",
+    "syndrome extraction threshold 1 percent surface code online"
+  ],
+  "order": 870
+}

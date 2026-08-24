@@ -1,0 +1,15 @@
+{
+  "name": "Poynting Vector & Electromagnetic Radiation Intensity Calculator",
+  "description": "Calculate electromagnetic wave power intensity (S = (E²) / (2 · μ₀ · c)) in Watts per square meter (W/m²) and magnetic field amplitude (B = E / c) from peak electric field strength.",
+  "path": "/tools/poynting-vector-em-wave-intensity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "poynting vector calculator",
+    "electromagnetic wave intensity calculator",
+    "em radiation power density w m2",
+    "electric to magnetic field amplitude em wave",
+    "poynting vector s formula online"
+  ],
+  "order": 366
+}

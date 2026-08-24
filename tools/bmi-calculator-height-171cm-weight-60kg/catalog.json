@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 171cm, Weight 60kg)",
+  "description": "Calculate Body Mass Index (BMI 20.5) for height 171 cm and weight 60 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-171cm-weight-60kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 171cm weight 60kg",
+    "BMI Calculator (Height 171cm, Weight 60kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

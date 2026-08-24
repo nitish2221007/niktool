@@ -1,0 +1,15 @@
+{
+  "name": "Tidal Barrage Basin Potential Energy Generation Calculator",
+  "description": "Calculate tidal range estuary potential energy generation per tide cycle (E = 1/2 · A · ρ · g · R²) in MWh and annual power output from basin surface area A and tidal amplitude range R.",
+  "path": "/tools/tidal-barrage-potential-energy-generation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "tidal barrage energy calculator",
+    "tidal range potential energy formula",
+    "estuary tidal power generation calculator",
+    "bay of fundy tidal energy calculator online",
+    "renewable ocean tidal basin calculator"
+  ],
+  "order": 563
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (80 GB File, 250 Mbps Speed)",
+  "description": "Calculate file transfer download time (~43.7 minutes / 2621s) for 80 GB file at 250 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-80gb-speed-250mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 80gb speed 250mbps",
+    "Data Download Time Calculator (80 GB File, 250 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

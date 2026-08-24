@@ -1,0 +1,15 @@
+{
+  "name": "Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator",
+  "description": "Calculate vertical subterranean stress increase (σ_z = (P / z²) · (1 / 2π) · [1 + 2·(r/z)²]^(-3/2)) in kPa beneath surface point loads in stratified layered soils.",
+  "path": "/tools/westergaard-elastic-stress-point-load-depth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "westergaard stress distribution calculator",
+    "vertical soil stress sigma z formula point load online",
+    "westergaard vs boussinesq soil stress calculator",
+    "layered foundation settlement stress calculator online",
+    "geotechnical elastic stress distribution online"
+  ],
+  "order": 775
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in 2017)",
+  "description": "Calculate exact age (9 years old in 2026) for someone born in year 2017.",
+  "path": "/tools/age-calculator-born-in-2017/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in 2017",
+    "Age Calculator (Born in 2017)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

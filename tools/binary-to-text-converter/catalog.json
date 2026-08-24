@@ -1,0 +1,15 @@
+{
+  "name": "Convert Binary (01) to Text",
+  "description": "Decode 8-bit binary numbers into ASCII text.",
+  "path": "/tools/binary-to-text-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "binary to text converter",
+    "Convert Binary (01) to Text",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

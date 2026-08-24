@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (450 Hz, 46 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 7.69 Ω) for 450 Hz frequency and 46 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-46uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 450hz capacitor 46uf",
+    "Capacitive Reactance Calculator (450 Hz, 46 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

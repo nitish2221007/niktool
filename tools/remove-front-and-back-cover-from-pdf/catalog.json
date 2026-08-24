@@ -1,0 +1,16 @@
+{
+  "name": "Remove Front & Back Cover From PDF",
+  "description": "Remove both the front cover page and back cover page from any PDF file.",
+  "path": "/tools/remove-front-and-back-cover-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "remove front and back cover from pdf",
+    "Remove Front & Back Cover From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

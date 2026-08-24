@@ -1,0 +1,15 @@
+{
+  "name": "Convert 32 Hours to Seconds",
+  "description": "Convert 32 hours to minutes (1920 min) and seconds (1,15,200 sec).",
+  "path": "/tools/convert-32-hours-to-seconds-time/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 32 hours to seconds time",
+    "Convert 32 Hours to Seconds",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

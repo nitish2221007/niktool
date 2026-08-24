@@ -1,0 +1,15 @@
+{
+  "name": "Convert 45 Knots to KM/H Speed",
+  "description": "Convert 45 knots speed to kilometers per hour (83.34 km/h).",
+  "path": "/tools/convert-45-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 45 knots to kmh speed",
+    "Convert 45 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

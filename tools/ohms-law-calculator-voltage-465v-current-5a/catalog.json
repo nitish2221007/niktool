@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 465V, Current 5A)",
+  "description": "Calculate Resistance (93.00 Ω) and Electric Power (2325.0 W) for 465V voltage and 5A current.",
+  "path": "/tools/ohms-law-calculator-voltage-465v-current-5a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 465v current 5a",
+    "Ohm's Law Calculator (Voltage 465V, Current 5A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

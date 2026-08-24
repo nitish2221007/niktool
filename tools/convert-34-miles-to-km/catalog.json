@@ -1,0 +1,15 @@
+{
+  "name": "Convert 34 Miles to KM",
+  "description": "Convert 34 miles to kilometers (54.72 km). 100% free and local.",
+  "path": "/tools/convert-34-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 34 miles to km",
+    "Convert 34 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

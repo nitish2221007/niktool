@@ -1,0 +1,16 @@
+{
+  "name": "Standard Deviation Calculator",
+  "description": "Calculate sample and population standard deviation, variance, mean, sum, count, and margin of error from any comma- or space-separated dataset.",
+  "path": "/tools/standard-deviation-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "standard deviation calculator",
+    "variance calculator",
+    "sample standard deviation",
+    "population standard deviation",
+    "statistics calculator",
+    "mean and standard deviation"
+  ],
+  "order": 52
+}

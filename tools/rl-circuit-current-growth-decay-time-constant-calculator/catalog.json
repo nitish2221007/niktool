@@ -1,0 +1,15 @@
+{
+  "name": "RL Circuit Time Constant (τ = L / R) Current Growth & Decay Calculator",
+  "description": "Calculate resistor-inductor (RL) circuit inductive time constant (τ = L / R) in ms, transient current growth (I(t) = I₀·(1 - e^(-t/τ))), stored magnetic energy (U = ½·L·I²), and inductive flyback voltage.",
+  "path": "/tools/rl-circuit-current-growth-decay-time-constant-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rl circuit calculator",
+    "time constant tau equals l over r formula online",
+    "inductor current growth decay transient calculator",
+    "rl circuit stored magnetic energy calculator",
+    "electronics rl circuit time constant online"
+  ],
+  "order": 1056
+}

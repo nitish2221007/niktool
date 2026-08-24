@@ -1,0 +1,15 @@
+{
+  "name": "Fractal Box-Counting Hausdorff Dimension (D₀) Calculator",
+  "description": "Calculate fractal geometry capacity Hausdorff Box-Counting Dimension (D₀ = lim (ln N(ε) / ln(1/ε))) across Coastlines, Sierpiński Triangles (D = 1.585), Koch Snowflakes (D = 1.262), and Mandelbrot boundaries (D = 2.000).",
+  "path": "/tools/mandelbrot-fractal-box-counting-hausdorff-dimension-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "box counting dimension calculator",
+    "hausdorff fractal dimension formula d0 equals ln n over ln 1 over epsilon online",
+    "sierpinski triangle koch snowflake fractal dimension calculator",
+    "coastline paradox fractal dimension calculator online",
+    "benoit mandelbrot fractal geometry online"
+  ],
+  "order": 844
+}

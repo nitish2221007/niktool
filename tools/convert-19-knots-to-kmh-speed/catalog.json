@@ -1,0 +1,15 @@
+{
+  "name": "Convert 19 Knots to KM/H Speed",
+  "description": "Convert 19 knots speed to kilometers per hour (35.19 km/h).",
+  "path": "/tools/convert-19-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 19 knots to kmh speed",
+    "Convert 19 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

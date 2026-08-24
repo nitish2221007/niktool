@@ -1,0 +1,15 @@
+{
+  "name": "Manning's Equation Open Channel Flow & Normal Depth (Q = 1/n·A·R_h^(2/3)·S^(1/2)) Calculator",
+  "description": "Calculate open channel gravity flow discharge Q in m³/s (Manning's Equation), flow velocity v in m/s, hydraulic radius R_h (A / P), and wetted perimeter for rectangular and trapezoidal drainage channels.",
+  "path": "/tools/manning-open-channel-flow-trapezoidal-hydraulic-radius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "manning equation calculator",
+    "open channel flow formula q equals 1 over n a r two thirds s half online",
+    "hydraulic radius normal depth trapezoidal channel calculator",
+    "manning roughness coefficient culvert storm sewer calculator",
+    "civil environmental hydraulic engineering open channel online"
+  ],
+  "order": 1339
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 172cm, Weight 54kg)",
+  "description": "Calculate Body Mass Index (BMI 18.3) for height 172 cm and weight 54 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-172cm-weight-54kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 172cm weight 54kg",
+    "BMI Calculator (Height 172cm, Weight 54kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

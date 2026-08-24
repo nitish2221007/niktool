@@ -1,0 +1,15 @@
+{
+  "name": "Network Graph Centrality (Degree, Closeness C_C & Betweenness C_B) Calculator",
+  "description": "Calculate social network and graph theory node centrality metrics: Normalized Degree Centrality, Closeness Centrality (C_C = (N - 1) / ∑ d(v, u)), and Betweenness Centrality shortest-path bottleneck score.",
+  "path": "/tools/graph-betweenness-closeness-degree-centrality-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "graph centrality calculator",
+    "degree betweenness closeness centrality formula online",
+    "social network analysis node centrality calculator",
+    "shortest path betweenness centrality calculator",
+    "network science graph theory analytics online"
+  ],
+  "order": 1228
+}

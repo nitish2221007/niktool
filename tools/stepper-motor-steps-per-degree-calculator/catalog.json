@@ -1,0 +1,15 @@
+{
+  "name": "Stepper Motor Steps per Degree & Resolution Calculator",
+  "description": "Calculate total pulses per revolution (PPR = (360 / Step Angle) · Microstepping), step angular resolution in degrees and arcminutes for CNC and 3D printer drivers.",
+  "path": "/tools/stepper-motor-steps-per-degree-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "stepper motor steps per degree calculator",
+    "microstepping resolution calculator",
+    "pulses per revolution stepper formula",
+    "1.8 degree stepper microstep calculator",
+    "cnc stepper motor pulse calculator online"
+  ],
+  "order": 404
+}

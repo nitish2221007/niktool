@@ -1,0 +1,15 @@
+{
+  "name": "Beam Bending Stress (σ = M·y / I) & Center Deflection (δ = F·L³ / 48EI) Calculator",
+  "description": "Calculate simply supported beam center-point maximum deflection δ in mm (δ = F·L³ / (48·E·I)), maximum bending moment M (M = F·L / 4), and maximum outer fiber tensile/compressive flexural bending stress σ.",
+  "path": "/tools/beam-bending-deflection-moment-inertia-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "beam deflection calculator",
+    "bending stress formula my over i online",
+    "simply supported beam center load deflection calculator",
+    "moment of inertia section modulus beam calculator",
+    "civil structural mechanical engineering beam bending online"
+  ],
+  "order": 1275
+}

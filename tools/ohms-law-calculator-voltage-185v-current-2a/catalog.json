@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 185V, Current 2A)",
+  "description": "Calculate Resistance (92.50 Ω) and Electric Power (370.0 W) for 185V voltage and 2A current.",
+  "path": "/tools/ohms-law-calculator-voltage-185v-current-2a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 185v current 2a",
+    "Ohm's Law Calculator (Voltage 185V, Current 2A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

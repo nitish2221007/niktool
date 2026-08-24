@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 97 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 97 units (V = 4/3 πr³ = 3822995.72).",
+  "path": "/tools/volume-of-sphere-radius-97-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 97 units",
+    "Volume of Sphere (Radius 97 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

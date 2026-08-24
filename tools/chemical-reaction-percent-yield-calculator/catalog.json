@@ -1,0 +1,15 @@
+{
+  "name": "Chemical Reaction Percent Yield Calculator",
+  "description": "Calculate reaction percent yield ((Actual Yield / Theoretical Yield) · 100) and product loss in synthetic chemistry laboratories.",
+  "path": "/tools/chemical-reaction-percent-yield-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "percent yield calculator",
+    "actual vs theoretical yield chemistry",
+    "chemical reaction yield formula",
+    "stoichiometric yield calculator online",
+    "laboratory synthesis percent yield"
+  ],
+  "order": 241
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator",
+  "description": "Calculate industrial tailings/concentrate thickener basin surface area (A = Q · (C_i - C_u) / (v · C_u)) in m² and unit settling area flux (m²/TPD) from slurry settling rates.",
+  "path": "/tools/thickener-settling-area-talmage-fitch-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thickener settling area calculator",
+    "talmage fitch thickener formula online",
+    "mineral thickener basin diameter calculator",
+    "tailings thickener unit area m2 per tpd calculator",
+    "slurry dewatering thickener sizing online"
+  ],
+  "order": 664
+}

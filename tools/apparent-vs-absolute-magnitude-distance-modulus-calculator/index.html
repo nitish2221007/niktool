@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate astronomical stellar distance (d = 10^((m - M + 5) / 5)) in parsecs and light-years from apparent visual magnitude m and absolute bolometric magnitude M using the Pogson magnitude scale.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/apparent-vs-absolute-magnitude-distance-modulus-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator | NikTool">
+  <meta property="og:description" content="Calculate astronomical stellar distance (d = 10^((m - M + 5) / 5)) in parsecs and light-years from apparent visual magnitude m and absolute bolometric magnitude M using the Pogson magnitude scale.">
+  <meta property="og:url" content="https://niktool.in/tools/apparent-vs-absolute-magnitude-distance-modulus-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/apparent-vs-absolute-magnitude-distance-modulus-calculator/",
+        "description": "Calculate astronomical stellar distance (d = 10^((m - M + 5) / 5)) in parsecs and light-years from apparent visual magnitude m and absolute bolometric magnitude M using the Pogson magnitude scale.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the absolute magnitude of our Sun?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Sun has an absolute visual magnitude $M = +4.83$; if placed at $10\text{ parsecs}$ ($32.6\text{ ly}$), it would appear as a faint 5th-magnitude star barely visible to the naked eye."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator</h1>
+      <p>Calculate astronomical stellar distance (d = 10^((m - M + 5) / 5)) in parsecs and light-years from apparent visual magnitude m and absolute bolometric magnitude M using the Pogson magnitude scale.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Apparent Magnitude m (Earth View) & Absolute Magnitude M (at Standard 10 Parsecs)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mag-m">Apparent m</label>
+          <input class="tool-textarea" id="mag-m" type="number" step="0.5" value="0.03" placeholder="0.03 (Vega)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mag-M">Absolute M</label>
+          <input class="tool-textarea" id="mag-M" type="number" step="0.5" value="0.58" placeholder="0.58 (Vega at 10 pc)" />
+        </div>
+      </div>
+      <div id="mag-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mag-res-dist" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Distance d = 7.76 Parsecs (25.3 Light-Years)</span>
+            <span class="stat-label">True Stellar Distance (d = 10^((m - M + 5) / 5))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mag-res-mod" style="color:var(--green-dark); font-weight:700;">Distance Modulus μ = m - M = -0.55 | Flux Ratio = 1.66× Brighter than at 10 pc</span>
+            <span class="stat-label">Distance Modulus (μ) & Inverse-Square Brightness Factor</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator</h2>
+      <ol>
+        <li>Enter apparent visual magnitude m seen through telescopes on Earth (lower/negative is brighter).</li>
+        <li>Enter absolute bolometric/visual magnitude M (brightness if placed at standard 10 parsecs).</li>
+        <li>Inspect distance modulus ($mu = m - M$) and true stellar distance in parsecs and light-years.</li>
+      </ol>
+
+      <h2>Norman Pogson 1856 Logarithmic Stellar Brightness Scale</h2>
+      <p>A difference of 5 magnitudes corresponds exactly to a $100	imes$ difference in light flux ($1	ext{ magnitude} = sqrt[5]{100} approx 2.512$), providing the foundational standard candle distance ruler for Type Ia supernovae and Cepheid variables.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the absolute magnitude of our Sun?</summary>
+        <p>The Sun has an absolute visual magnitude $M = +4.83$; if placed at $10	ext{ parsecs}$ ($32.6	ext{ ly}$), it would appear as a faint 5th-magnitude star barely visible to the naked eye.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/apparent-vs-absolute-magnitude-distance-modulus-calculator/tool.js"></script>
+</body>
+</html>

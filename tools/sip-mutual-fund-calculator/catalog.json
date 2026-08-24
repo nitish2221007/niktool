@@ -1,0 +1,15 @@
+{
+  "name": "SIP Mutual Fund Wealth Calculator",
+  "description": "Calculate future wealth corpus and compound interest returns from monthly Systematic Investment Plans (SIP) in mutual funds and index ETFs.",
+  "path": "/tools/sip-mutual-fund-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "sip calculator",
+    "mutual fund sip calculator",
+    "monthly sip wealth calculator",
+    "sip return calculator online",
+    "systematic investment plan compounding"
+  ],
+  "order": 125
+}

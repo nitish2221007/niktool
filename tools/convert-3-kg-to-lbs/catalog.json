@@ -1,0 +1,15 @@
+{
+  "name": "Convert 3 KG to LBS",
+  "description": "Convert 3 kilograms (3 kg) to pounds (6.61 lbs) instantly in your browser.",
+  "path": "/tools/convert-3-kg-to-lbs/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 3 kg to lbs",
+    "Convert 3 KG to LBS",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

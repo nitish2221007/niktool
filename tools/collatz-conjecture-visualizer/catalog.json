@@ -1,0 +1,15 @@
+{
+  "name": "Collatz Conjecture (3n + 1) Sequence Calculator",
+  "description": "Calculate stopping time, hailstone trajectory sequence, and peak maximum number for any positive integer in the Collatz Conjecture (3n + 1).",
+  "path": "/tools/collatz-conjecture-visualizer/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "collatz conjecture calculator",
+    "3n plus 1 calculator online",
+    "hailstone sequence generator",
+    "collatz stopping time calculator",
+    "number theory collatz path"
+  ],
+  "order": 207
+}

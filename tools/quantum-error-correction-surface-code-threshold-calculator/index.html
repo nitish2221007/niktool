@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 2D rotated Surface Code quantum error correction code distance (d = 2t + 1), required physical data and syndrome ancilla qubits (N = 2·d² - 1), and exponential logical error suppression (P_L ≈ 0.1 · (p_phys / p_th)^((d+1)/2)) below the 1% threshold limit.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/quantum-error-correction-surface-code-threshold-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator | NikTool">
+  <meta property="og:description" content="Calculate 2D rotated Surface Code quantum error correction code distance (d = 2t + 1), required physical data and syndrome ancilla qubits (N = 2·d² - 1), and exponential logical error suppression (P_L ≈ 0.1 · (p_phys / p_th)^((d+1)/2)) below the 1% threshold limit.">
+  <meta property="og:url" content="https://niktool.in/tools/quantum-error-correction-surface-code-threshold-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/quantum-error-correction-surface-code-threshold-calculator/",
+        "description": "Calculate 2D rotated Surface Code quantum error correction code distance (d = 2t + 1), required physical data and syndrome ancilla qubits (N = 2·d² - 1), and exponential logical error suppression (P_L ≈ 0.1 · (p_phys / p_th)^((d+1)/2)) below the 1% threshold limit.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is the 2D surface code the leading architecture for Google and IBM?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Unlike other quantum codes that require non-local long-range wiring, 2D surface codes require only nearest-neighbor planar grid connectivity."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator</h1>
+      <p>Calculate 2D rotated Surface Code quantum error correction code distance (d = 2t + 1), required physical data and syndrome ancilla qubits (N = 2·d² - 1), and exponential logical error suppression (P_L ≈ 0.1 · (p_phys / p_th)^((d+1)/2)) below the 1% threshold limit.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Code Distance d (3, 5, 7, 9, 11) & Physical 2-Qubit Gate Error Rate p_phys</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="qec-d">Distance d</label>
+          <select class="tool-textarea" id="qec-d">
+            <option value="3">d = 3 (17 Physical Qubits: Corrects 1 Error)</option>
+            <option value="5">d = 5 (49 Physical Qubits: Corrects 2 Errors)</option>
+            <option value="7" selected>d = 7 (97 Physical Qubits: Corrects 3 Errors)</option>
+            <option value="9">d = 9 (161 Physical Qubits: Corrects 4 Errors)</option>
+            <option value="11">d = 11 (241 Physical Qubits: Corrects 5 Errors)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="qec-pphys">Physical Error p</label>
+          <input class="tool-textarea" id="qec-pphys" type="number" step="0.0005" value="0.0010" placeholder="0.0010 (0.1% Gate Error)" />
+        </div>
+      </div>
+      <div id="qec-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="qec-res-pl" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">P_L ≈ 1.00 × 10⁻⁵ / cycle</span>
+            <span class="stat-label">Logical Qubit Error Rate per Error-Correction Cycle (P_L)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="qec-res-qubits" style="color:var(--green-dark); font-weight:700;">FAULT-TOLERANT: 97 Physical Qubits (49 Data + 48 Ancilla) suppress errors by 100×</span>
+            <span class="stat-label">Physical Qubit Overhead & Fault-Tolerance Status</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator</h2>
+      <ol>
+        <li>Select rotated surface code distance d (odd integers $d = 3, 5, 7, 9, 11$).</li>
+        <li>Enter physical hardware 2-qubit gate error rate $p_{	ext{phys}}$ (e.g. 0.001 = 0.1% for superconducting transmon qubits).</li>
+        <li>Inspect logical qubit error rate per cycle $P_L$, total physical qubit overhead ($N = 2d^2 - 1$), and maximum correctable simultaneous errors ($t = rac{d-1}{2}$).</li>
+      </ol>
+
+      <h2>Alexei Kitaev 1997 Topological Surface Code</h2>
+      <p>Surface codes arrange data and stabilizer ancilla qubits on a 2D nearest-neighbor checkerboard lattice; as long as physical gate errors remain below the fault-tolerant threshold ($p < 1.0%$), scaling code distance d suppresses logical errors exponentially ($P_L propto (p/p_{	ext{th}})^{(d+1)/2}$), enabling million-qubit Shor's algorithm quantum computers.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is the 2D surface code the leading architecture for Google and IBM?</summary>
+        <p>Unlike other quantum codes that require non-local long-range wiring, 2D surface codes require only nearest-neighbor planar grid connectivity.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/quantum-error-correction-surface-code-threshold-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Fowler-Nordheim Quantum Tunneling Current Flash Memory Calculator",
+  "description": "Calculate quantum mechanical Fowler-Nordheim field emission tunneling current density J_FN in A/cm² (J_FN = A · E_ox² · e^(-B / E_ox)) through thin dielectric oxide barriers in 3D NAND Flash memory program/erase cycles.",
+  "path": "/tools/fowler-nordheim-tunneling-current-flash-memory-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fowler nordheim calculator",
+    "quantum tunneling current density formula online",
+    "flash memory program erase electric field calculator",
+    "fn tunneling dielectric breakdown calculator",
+    "quantum mechanics semiconductor memory solid state online"
+  ],
+  "order": 1373
+}

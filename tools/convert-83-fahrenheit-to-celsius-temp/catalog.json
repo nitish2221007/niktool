@@ -1,0 +1,15 @@
+{
+  "name": "Convert 83°F Fahrenheit to Celsius Temp",
+  "description": "Convert 83 degrees Fahrenheit (°F) to Celsius (28.3°C) instantly.",
+  "path": "/tools/convert-83-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 83 fahrenheit to celsius temp",
+    "Convert 83°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

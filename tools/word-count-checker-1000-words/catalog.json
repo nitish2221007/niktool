@@ -1,0 +1,15 @@
+{
+  "name": "Word Count Checker (1000 Words Limit)",
+  "description": "Check word count, character count, and paragraph metrics for 1000-word essays and articles.",
+  "path": "/tools/word-count-checker-1000-words/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word count checker 1000 words",
+    "Word Count Checker (1000 Words Limit)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

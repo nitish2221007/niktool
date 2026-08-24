@@ -1,0 +1,15 @@
+{
+  "name": "Convert 41°F Fahrenheit to Celsius Temp",
+  "description": "Convert 41 degrees Fahrenheit (°F) to Celsius (5.0°C) instantly.",
+  "path": "/tools/convert-41-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 41 fahrenheit to celsius temp",
+    "Convert 41°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

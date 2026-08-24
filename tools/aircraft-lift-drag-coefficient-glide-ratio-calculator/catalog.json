@@ -1,0 +1,15 @@
+{
+  "name": "Aircraft Wing Aerodynamic Lift & Drag (L = ½·ρ·v²·S·C_L, D = ½·ρ·v²·S·C_D) & (L/D) Calculator",
+  "description": "Calculate aerodynamic aircraft wing lift force (L = ½ · ρ · v² · S · C_L) in kN, drag force (D = ½ · ρ · v² · S · C_D), lift-to-drag glide ratio (L/D), and engine thrust required for steady level flight in aeronautics.",
+  "path": "/tools/aircraft-lift-drag-coefficient-glide-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "aircraft lift drag calculator",
+    "lift formula l equals half rho v squared s cl online",
+    "drag coefficient lift to drag ratio glide ratio calculator",
+    "wing surface area air density flight aerodynamics calculator",
+    "aeronautical engineering lift drag online"
+  ],
+  "order": 1109
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (10 km Distance, 15 km/l Mileage)",
+  "description": "Calculate total fuel required (0.7 L) and estimated cost (₹68) for 10 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-10km-mileage-15kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 10km mileage 15kmpl",
+    "Fuel Cost Calculator (10 km Distance, 15 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

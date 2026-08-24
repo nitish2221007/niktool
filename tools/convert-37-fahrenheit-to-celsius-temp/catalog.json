@@ -1,0 +1,15 @@
+{
+  "name": "Convert 37°F Fahrenheit to Celsius Temp",
+  "description": "Convert 37 degrees Fahrenheit (°F) to Celsius (2.8°C) instantly.",
+  "path": "/tools/convert-37-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 37 fahrenheit to celsius temp",
+    "Convert 37°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

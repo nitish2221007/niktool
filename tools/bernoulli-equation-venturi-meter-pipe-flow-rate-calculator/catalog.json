@@ -1,0 +1,15 @@
+{
+  "name": "Bernoulli Equation & Venturi Meter Pipe Flow Rate Calculator",
+  "description": "Calculate fluid pipe volumetric flow rate (Q = A₂ · √[(2·ΔP) / (ρ·(1 - (A₂/A₁)²))]) in L/s and m³/h from Venturi tube differential pressure drop ΔP and pipe/throat diameters.",
+  "path": "/tools/bernoulli-equation-venturi-meter-pipe-flow-rate-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bernoulli equation calculator",
+    "venturi meter flow rate formula q equals a2 sqrt 2 delta p over rho online",
+    "differential pressure flow rate calculator pipe throat",
+    "fluid mechanics venturi tube flow calculator",
+    "bernoulli pressure velocity trade off online"
+  ],
+  "order": 976
+}

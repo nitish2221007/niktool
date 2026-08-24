@@ -1,0 +1,15 @@
+{
+  "name": "Transformer Turns Ratio & Voltage Calculator",
+  "description": "Calculate primary/secondary winding voltage, current, and turns ratio (V_p / V_s = N_p / N_s = I_s / I_p) for step-up and step-down AC transformers.",
+  "path": "/tools/transformer-turns-ratio-voltage-current-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "transformer turns ratio calculator",
+    "step down transformer voltage calculator",
+    "step up transformer current calculator",
+    "transformer np ns vp vs formula",
+    "ac transformer power online"
+  ],
+  "order": 248
+}

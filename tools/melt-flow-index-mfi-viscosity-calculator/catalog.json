@@ -1,0 +1,15 @@
+{
+  "name": "Polymer Melt Flow Index (MFI / MFR) & Extrusion Rheology Calculator",
+  "description": "Calculate Melt Flow Rate (MFR = (Mass / Extrusion Time) · 600) in g/10 min and estimate zero-shear dynamic melt viscosity (η₀) per ASTM D1238 / ISO 1133 standards.",
+  "path": "/tools/melt-flow-index-mfi-viscosity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "melt flow index calculator",
+    "mfi mfr formula polymer astm d1238",
+    "melt flow rate to viscosity calculator",
+    "plastics extrusion melt index online",
+    "polymer rheology zero shear viscosity calculator"
+  ],
+  "order": 504
+}

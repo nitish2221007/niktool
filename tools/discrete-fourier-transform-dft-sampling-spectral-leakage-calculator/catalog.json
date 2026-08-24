@@ -1,0 +1,15 @@
+{
+  "name": "Discrete Fourier Transform (DFT / FFT) Frequency Resolution & Windowing Calculator",
+  "description": "Calculate FFT spectral frequency bin resolution (Δf = f_s / N = 1 / T_record) in Hz and side-lobe spectral leakage attenuation across Rectangular, Hanning, Hamming, and Blackman window functions.",
+  "path": "/tools/discrete-fourier-transform-dft-sampling-spectral-leakage-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fft frequency resolution calculator",
+    "dft frequency bin size formula delta f equals fs over n online",
+    "window function spectral leakage hanning blackman calculator",
+    "sampling rate record length dft resolution online",
+    "digital signal processing dft fft bins online"
+  ],
+  "order": 834
+}

@@ -1,0 +1,15 @@
+{
+  "name": "High-Voltage Transmission Line Surge Impedance Loading (SIL) Calculator",
+  "description": "Calculate high-voltage electrical grid surge impedance (Z_c = √(L / C)) in Ohms and natural Surge Impedance Loading capacity (SIL = V_LL² / Z_c) in Megawatts (MW) where line reactive power is 100% self-balancing.",
+  "path": "/tools/transmission-line-surge-impedance-loading-sil-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "surge impedance loading calculator",
+    "sil transmission line formula v squared over zc online",
+    "characteristic impedance transmission line inductance capacitance calculator",
+    "high voltage grid reactive power balance sil calculator",
+    "ferranti effect surge impedance loading online"
+  ],
+  "order": 854
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Prandtl-Meyer Supersonic Expansion Fan Function (ν(M)) Calculator",
+    "description": "Calculate supersonic Prandtl-Meyer expansion angle ν(M) in degrees (ν(M) = √((γ+1)/(γ-1)) · arctan√(((γ-1)/(γ+1))·(M²-1)) - arctan√(M²-1)) and post-turn expanded Mach number M₂.",
+    "path": "/tools/prandtl-meyer-expansion-fan-angle-mach-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "prandtl meyer expansion calculator",
+      "prandtl meyer function nu of m formula online",
+      "supersonic expansion fan corner turn calculator",
+      "post expansion mach number temperature drop calculator",
+      "aerodynamics compressible flow supersonic aircraft online"
+    ]
+  },
+  {
+    "name": "Isentropic Flow Stagnation Pressure (p₀/p) & Temperature Ratio Calculator",
+    "description": "Calculate compressible flow Total-to-Static Stagnation Temperature ratio T₀/T (T₀/T = 1 + (γ-1)/2 · M²), Stagnation Pressure ratio p₀/p = (T₀/T)^(γ/(γ-1)), and dynamic pressure q for high-speed aerodynamics.",
+    "path": "/tools/stagnation-pressure-temperature-isentropic-flow-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "isentropic flow stagnation calculator",
+      "total temperature pressure ratio formula online",
+      "pitot tube compressible mach number calculator",
+      "stagnation enthalpy dynamic pressure q calculator",
+      "compressible aerodynamics fluid mechanics aerospace online"
+    ]
+  },
+  {
+    "name": "Aircraft Wing Lift-Induced Drag Coefficient (C_Di = C_L² / π·e·AR) Calculator",
+    "description": "Calculate 3D finite aircraft wing Induced Drag Coefficient C_Di (Ludwig Prandtl Lifting-Line Theory: C_Di = C_L² / (π · e · AR)), wing Aspect Ratio AR = b² / S, and induced drag force D_i in kN.",
+    "path": "/tools/aircraft-wing-lift-induced-drag-aspect-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "induced drag calculator",
+      "lift induced drag coefficient formula cdi online",
+      "oswald efficiency factor wing aspect ratio calculator",
+      "wingtip vortex drag lift line theory calculator",
+      "aerodynamics aircraft design aeronautical engineering online"
+    ]
+  },
+  {
+    "name": "Aircraft Takeoff Ground Roll Distance (S_G) & Takeoff Run Calculator",
+    "description": "Calculate fixed-wing airplane takeoff ground roll distance S_G in meters (S_G = 1.21 · (W/S) / (g · ρ · C_L,max · (T/W - μ_r))) from wing loading W/S, thrust-to-weight ratio T/W, maximum lift coefficient C_L,max, and runway rolling friction μ_r.",
+    "path": "/tools/aircraft-takeoff-roll-distance-ground-run-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "aircraft takeoff distance calculator",
+      "takeoff ground roll formula sg online",
+      "wing loading thrust to weight takeoff runway calculator",
+      "cl max rolling friction takeoff run calculator",
+      "flight mechanics aeronautical engineering aircraft performance online"
+    ]
+  },
+  {
+    "name": "Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator",
+    "description": "Calculate commercial jet aircraft cruise flight Range R in km and nautical miles (Breguet Jet Range Formula: R = (V / TSFC) · (L/D) · ln(W_initial / W_final)), flight endurance E in hours, and fuel burn percentage.",
+    "path": "/tools/aircraft-breguet-range-endurance-jet-propeller-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "breguet range equation calculator",
+      "aircraft flight range formula jet propeller online",
+      "lift to drag ratio tsfc specific fuel consumption calculator",
+      "initial final gross weight fuel fraction calculator",
+      "aircraft design flight mechanics aeronautics online"
+    ]
+  },
+  {
+    "name": "Atmospheric Scale Height (H) & Exponential Density-Altitude Calculator",
+    "description": "Calculate planetary atmospheric pressure p(z) and air density ρ(z) in kg/m³ at altitude z (Barometric Exponential Atmosphere: ρ(z) = ρ₀ · e^(-z / H)), Atmospheric Scale Height H = R_spec · T / g in km, and dynamic pressure.",
+    "path": "/tools/atmospheric-scale-height-barometric-density-altitude-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atmospheric scale height calculator",
+      "barometric density altitude formula online",
+      "exponential atmosphere rho equals rho0 exp minus z over h calculator",
+      "planetary atmospheric pressure scale height calculator",
+      "aerospace engineering meteorology atmospheric entry online"
+    ]
+  },
+  {
+    "name": "Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator",
+    "description": "Calculate interplanetary spacecraft Solar Radiation Pressure photon thrust force F_SRP in μN (F_SRP = (P_sun / c) · A · (1 + R) · cos θ) from solar irradiance (1361 W/m² @ 1 AU), surface reflectivity R, and solar sail acceleration.",
+    "path": "/tools/spacecraft-solar-radiation-pressure-photon-force-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar radiation pressure calculator",
+      "srp photon force formula solar sail online",
+      "solar photon momentum thrust micronewtons calculator",
+      "spacecraft attitude perturbation solar pressure calculator",
+      "astrodynamics space mission design orbital perturbations online"
+    ]
+  },
+  {
+    "name": "Gravity-Gradient Torque Spacecraft Passive Attitude Stabilization Calculator",
+    "description": "Calculate satellite passive attitude control Gravity-Gradient Torque T_GG in N·m (T_GG = 3·μ / (2·r³) · |I_z - I_x| · sin(2θ)) from Earth gravity μ, orbit radius r, moment of inertia asymmetry |I_z - I_x|, and pitch offset angle θ.",
+    "path": "/tools/gravity-gradient-torque-spacecraft-attitude-stabilization-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravity gradient torque calculator",
+      "spacecraft attitude control formula tgg online",
+      "passive gravity gradient stabilization boom calculator",
+      "moment of inertia asymmetry satellite pitch torque calculator",
+      "astrodynamics spacecraft dynamics attitude determination control adcs online"
+    ]
+  },
+  {
+    "name": "J2 Orbital Nodal Precession & Sun-Synchronous Orbit (SSO) Inclination Calculator",
+    "description": "Calculate Earth oblateness J2 gravitational perturbation Right Ascension of Ascending Node (RAAN) nodal precession rate dΩ/dt in deg/day and required inclination i for a Sun-Synchronous Orbit (SSO: dΩ/dt = +0.9856 deg/day = 360°/year).",
+    "path": "/tools/j2-orbital-perturbation-nodal-precession-sun-synchronous-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "j2 orbital perturbation calculator",
+      "sun synchronous orbit inclination formula sso online",
+      "raan nodal precession rate degrees per day calculator",
+      "earth oblateness j2 geopotential calculator",
+      "orbital mechanics astrodynamics earth observation satellites online"
+    ]
+  },
+  {
+    "name": "Planetary Sphere of Influence (Laplace SOI & Hill Sphere Radius) Calculator",
+    "description": "Calculate planetary gravitational Sphere of Influence radius r_SOI in km (Laplace SOI: r_SOI = a · (m_planet / M_sun)^(2/5)) and maximum stable moon satellite bound orbit Hill Sphere radius r_H = a · (m_planet / 3M_sun)^(1/3).",
+    "path": "/tools/sphere-of-influence-hill-sphere-laplace-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sphere of influence calculator",
+      "laplace soi formula r equals a m over m two fifths online",
+      "hill sphere radius stable moon orbit calculator",
+      "patched conics interplanetary trajectory calculator",
+      "astrodynamics orbital mechanics space navigation online"
+    ]
+  },
+  {
+    "name": "Interplanetary Launch Energy (C3) & Hyperbolic Excess Velocity (v_∞) Calculator",
+    "description": "Calculate deep space and interplanetary probe Characteristic Launch Energy C3 in km²/s² (C3 = v_∞²), Hyperbolic Excess Velocity v_∞ in km/s, and required LEO Trans-Mars/Trans-Lunar injection burn velocity Δv_inj.",
+    "path": "/tools/porkchop-plot-hyperbolic-excess-velocity-c3-interplanetary-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "c3 launch energy calculator",
+      "hyperbolic excess velocity v infinity formula online",
+      "porkchop plot interplanetary injection delta v calculator",
+      "trans mars injection tmi c3 calculator",
+      "astrodynamics interplanetary trajectory design nasa online"
+    ]
+  },
+  {
+    "name": "Multistage Rocket Optimal Delta-V Split & Payload Fraction Calculator",
+    "description": "Calculate 2-stage and 3-stage orbital launch vehicle optimal stage mass distribution, payload ratio λ_pl, structural mass coefficients ε, and stage velocity distribution to reach orbital velocity (9.4 km/s).",
+    "path": "/tools/rocket-staging-payload-fraction-optimal-delta-v-split-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket staging calculator",
+      "multistage rocket optimal delta v split formula online",
+      "payload fraction stage mass ratio calculator",
+      "two stage rocket sizing orbital launch calculator",
+      "rocket propulsion astronautics aerospace engineering online"
+    ]
+  },
+  {
+    "name": "Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator",
+    "description": "Calculate spacecraft hypersonic atmospheric re-entry nose cone stagnation point convective heat flux q_dot in W/cm² and MW/m² (Detra-Kemp-Riddell / Fay-Riddell Correlation: q_dot = C / √R_nose · √(ρ / ρ₀) · (v / v₀)^3) and total heat load.",
+    "path": "/tools/hypersonic-reentry-aerodynamic-heat-flux-fay-riddell-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hypersonic heat flux calculator",
+      "fay riddell stagnation point heating formula online",
+      "spacecraft atmospheric reentry heat shield calculator",
+      "nose radius blunt body heating w cm2 calculator",
+      "hypersonic aerothermodynamics space capsule tps online"
+    ]
+  },
+  {
+    "name": "Turbofan Engine Thrust Specific Fuel Consumption (TSFC) & Bypass Ratio Calculator",
+    "description": "Calculate commercial aviation turbofan engine Thrust Specific Fuel Consumption TSFC in g/(kN·s) and lbm/(lbf·hr) (TSFC = m_dot_fuel / F_thrust), Bypass Ratio BPR = m_dot_fan / m_dot_core, and thermal propulsive efficiency.",
+    "path": "/tools/turbofan-engine-thrust-specific-fuel-consumption-tsfc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tsfc calculator",
+      "thrust specific fuel consumption formula online",
+      "turbofan bypass ratio bpr fuel burn calculator",
+      "jet engine propulsive thermal efficiency calculator",
+      "aircraft propulsion gas turbines aeronautical engineering online"
+    ]
+  },
+  {
+    "name": "Helicopter Rotor Hover Induced Velocity & Momentum Theory Power Calculator",
+    "description": "Calculate helicopter rotor hover aerodynamics: induced downwash inflow velocity v_i in m/s (Rankine-Froude Momentum Theory: v_i = √(T / (2·ρ·A))), ideal induced hover power P_i in kW (P_i = T · v_i), and Figure of Merit (FM).",
+    "path": "/tools/helicopter-rotor-hover-thrust-induced-power-momentum-theory-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "helicopter rotor hover calculator",
+      "rotor induced downwash velocity formula vi online",
+      "momentum theory induced power calculator",
+      "rotor disc loading figure of merit calculator",
+      "helicopter aerodynamics rotorcraft flight mechanics online"
+    ]
+  },
+  {
+    "name": "Parabolic Satellite Dish Antenna Gain (G = η·(πD/λ)²) & Beamwidth Calculator",
+    "description": "Calculate satellite communications parabolic reflector dish antenna Gain G in dBi (G = 10 · log₁₀(η · (π·D / λ)²)), half-power 3-dB beamwidth θ_3dB in degrees (θ_3dB = 70 · λ / D), and effective aperture area.",
+    "path": "/tools/parabolic-satellite-dish-antenna-gain-beamwidth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "parabolic dish antenna gain calculator",
+      "antenna gain formula dbi d over lambda online",
+      "half power beamwidth 3db dish calculator",
+      "satellite ground station dish antenna calculator",
+      "telecommunications rf satellite communications microwave online"
+    ]
+  },
+  {
+    "name": "Deep Space Satellite Link Budget & Free-Space Path Loss (FSPL) Calculator",
+    "description": "Calculate satellite communications Link Budget Free-Space Path Loss FSPL in dB (Friis Transmission Equation: FSPL = 20·log₁₀(d) + 20·log₁₀(f) + 20·log₁₀(4π/c)), Received Power P_rx in dBm, and Energy per Bit to Noise Ratio E_b/N_0.",
+    "path": "/tools/link-margin-friis-free-space-path-loss-eb-n0-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "satellite link budget calculator",
+      "free space path loss fspl formula friis online",
+      "received power eb over n0 link margin calculator",
+      "deep space communications path loss calculator",
+      "satellite communications aerospace engineering rf online"
+    ]
+  },
+  {
+    "name": "Rocket Propellant Tank Gas Ullage Volume & Blowdown Pressurization Calculator",
+    "description": "Calculate liquid rocket propellant tank helium pressurization blowdown expansion: Final Tank Pressure p₂ in bar (Isentropic / Isothermal Gas Law: p₂ = p₁ · (V₁ / V₂)^γ), required Helium pressurant gas mass m_He in kg, and blowdown ratio.",
+    "path": "/tools/propellant-tank-ullage-volume-pressurization-blowdown-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket propellant tank pressurization calculator",
+      "helium ullage volume blowdown formula online",
+      "blowdown ratio propellant tank pressure drop calculator",
+      "pressurant gas mass helium ideal gas law calculator",
+      "rocket propulsion liquid engines aerospace online"
+    ]
+  },
+  {
+    "name": "Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator",
+    "description": "Calculate biochemical enzyme reaction velocity v in μmol/(L·min) (Michaelis-Menten Equation: v = V_max · [S] / (K_m + [S])), catalytic efficiency k_cat / K_m, turnover number k_cat, and Lineweaver-Burk double reciprocal coordinates.",
+    "path": "/tools/michaelis-menten-enzyme-kinetics-km-vmax-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "michaelis menten calculator",
+      "enzyme kinetics formula v equals vmax s over km plus s online",
+      "lineweaver burk double reciprocal plot calculator",
+      "catalytic efficiency turnover number kcat km calculator",
+      "biochemistry pharmacology enzyme kinetics online"
+    ]
+  },
+  {
+    "name": "Hill Equation Hemoglobin Oxygen-Binding & Allosteric Cooperativity Calculator",
+    "description": "Calculate allosteric protein ligand binding fractional saturation θ (Hill Equation: θ = [L]^n / (K_d + [L]^n) = pO₂^n / (P₅₀^n + pO₂^n)), Hill cooperativity coefficient n, and evaluate positive vs negative cooperativity.",
+    "path": "/tools/hill-equation-cooperativity-hemoglobin-oxygen-binding-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hill equation calculator",
+      "hemoglobin oxygen binding curve formula online",
+      "allosteric cooperativity hill coefficient n calculator",
+      "p50 oxygen saturation fraction calculator",
+      "biochemistry physiology hematology medical pharmacology online"
+    ]
+  },
+  {
+    "name": "Hodgkin-Huxley Giant Axon Action Potential Membrane Current Calculator",
+    "description": "Calculate neuron electrophysiology total transmembrane ionic current I_m in μA/cm² (Hodgkin-Huxley Model: I_m = g_Na·m³·h·(V - E_Na) + g_K·n⁴·(V - E_K) + g_L·(V - E_L) + C_m·dV/dt) from voltage-gated ion channels.",
+    "path": "/tools/hodgkin-huxley-nerve-membrane-action-potential-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hodgkin huxley calculator",
+      "action potential membrane ionic current formula online",
+      "squid giant axon sodium potassium conductance calculator",
+      "nerve impulse electrophysiology voltage clamp calculator",
+      "neuroscience biomedical engineering biophysics online"
+    ]
+  },
+  {
+    "name": "Windkessel Two-Element Arterial Compliance & Vascular Impedance Calculator",
+    "description": "Calculate cardiovascular hemodynamics Otto Frank Windkessel Model diastolic arterial blood pressure decay P(t) in mmHg (P(t) = P_0 · e^(-t / (R·C))), Total Peripheral Resistance TPR (R), and arterial systemic compliance C in mL/mmHg.",
+    "path": "/tools/windkessel-arterial-cardiovascular-compliance-impedance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "windkessel arterial model calculator",
+      "cardiovascular compliance formula rc time constant online",
+      "diastolic blood pressure decay windkessel calculator",
+      "total peripheral resistance tpr arterial stiffness calculator",
+      "hemodynamics physiology biomedical engineering cardiology online"
+    ]
+  },
+  {
+    "name": "Mechanical Ventilator Dynamic & Static Lung Compliance (C_stat) Calculator",
+    "description": "Calculate intensive care mechanical ventilation respiratory mechanics: Static Respiratory Compliance C_stat in mL/cmH₂O (C_stat = V_t / (P_plat - PEEP)), Dynamic Compliance C_dyn, and Airway Resistance R_aw.",
+    "path": "/tools/ventilator-dynamic-static-compliance-airway-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ventilator compliance calculator",
+      "static lung compliance formula cstat online",
+      "plateau pressure peep airway resistance calculator",
+      "ards respiratory mechanics tidal volume calculator",
+      "critical care intensive care pulmonology biomedical online"
+    ]
+  },
+  {
+    "name": "MRI Proton Larmor Precession Frequency (f₀ = γ·B₀) & Magnetic Field Calculator",
+    "description": "Calculate magnetic resonance imaging nuclear spin Larmor Precession Frequency f₀ in MHz (Larmor Equation: f₀ = (γ / 2π) · B₀) for Hydrogen ¹H (42.577 MHz/T), Carbon ¹³C, Sodium ²³Na, Phosphorus ³¹P, and magnetic field B₀.",
+    "path": "/tools/mri-larmor-precession-frequency-gyromagnetic-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mri larmor frequency calculator",
+      "larmor precession equation f0 equals gamma b0 online",
+      "magnetic resonance imaging gyromagnetic ratio calculator",
+      "1.5t 3t 7t mri resonance frequency calculator",
+      "medical imaging radiology biomedical engineering physics online"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 23 Units)",
+  "description": "Calculate the exact area of a circle with radius 23 units (A = πr² = 1661.90).",
+  "path": "/tools/area-of-circle-radius-23-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 23 units",
+    "Area of Circle (Radius 23 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

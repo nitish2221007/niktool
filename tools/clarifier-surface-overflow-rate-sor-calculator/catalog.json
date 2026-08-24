@@ -1,0 +1,15 @@
+{
+  "name": "Clarifier Surface Overflow Rate (SOR) & Weir Loading Calculator",
+  "description": "Calculate secondary sedimentation clarifier Surface Overflow Rate (SOR = Q / A_surface) in gpd/ft² (m³/(m²·day)) and circular peripheral weir loading rate.",
+  "path": "/tools/clarifier-surface-overflow-rate-sor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "clarifier surface overflow rate calculator",
+    "sor wastewater clarifier formula",
+    "sedimentation tank overflow rate gpd ft2",
+    "circular clarifier weir loading rate calculator",
+    "clarifier surface settling rate online"
+  ],
+  "order": 463
+}

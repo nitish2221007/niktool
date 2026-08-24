@@ -1,0 +1,15 @@
+{
+  "name": "Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator",
+  "description": "Calculate bioreactor microbial specific growth rate (μ = μ_max · S / (K_s + S)) in h⁻¹, biomass doubling time (t_d = ln 2 / μ), and steady-state continuous chemostat dilution washout limits.",
+  "path": "/tools/monod-microbial-growth-kinetics-chemostat-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "monod equation calculator",
+    "microbial growth kinetics formula mu equals mu max s over ks plus s online",
+    "chemostat dilution rate steady state biomass calculator",
+    "bioreactor doubling time monod kinetics calculator online",
+    "fermentation substrate consumption rate online"
+  ],
+  "order": 857
+}

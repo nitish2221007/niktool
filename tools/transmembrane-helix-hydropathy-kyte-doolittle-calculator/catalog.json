@@ -1,0 +1,15 @@
+{
+  "name": "Transmembrane Helix Kyte-Doolittle Hydropathy Profile Calculator",
+  "description": "Calculate average amino acid hydropathy index using the standard Kyte-Doolittle scale to predict transmembrane alpha-helices (score greater than 1.6 across 19-residue sliding window) in membrane biology.",
+  "path": "/tools/transmembrane-helix-hydropathy-kyte-doolittle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "kyte doolittle hydropathy calculator",
+    "transmembrane helix prediction formula online",
+    "protein hydrophobicity window average calculator",
+    "membrane protein alpha helix hydropathy calculator",
+    "structural biology bioinformatics membrane proteins online"
+  ],
+  "order": 1198
+}

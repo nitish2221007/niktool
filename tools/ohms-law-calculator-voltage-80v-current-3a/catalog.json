@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 80V, Current 3A)",
+  "description": "Calculate Resistance (26.67 Ω) and Electric Power (240.0 W) for 80V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-80v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 80v current 3a",
+    "Ohm's Law Calculator (Voltage 80V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

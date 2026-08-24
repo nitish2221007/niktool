@@ -1,0 +1,15 @@
+{
+  "name": "Remove Line 7 From Text",
+  "description": "Delete line number 7 from any multiline text document instantly. 100% free and local processing.",
+  "path": "/tools/remove-line-7-from-text/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "remove line 7 from text",
+    "Remove Line 7 From Text",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

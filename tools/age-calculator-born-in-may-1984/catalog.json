@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in May 1984)",
+  "description": "Calculate exact age (42 years old in 2026) for someone born in may 1984.",
+  "path": "/tools/age-calculator-born-in-may-1984/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in may 1984",
+    "Age Calculator (Born in May 1984)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Marine Boat Propeller Pitch, Slip & Speed Calculator",
+  "description": "Calculate actual boat speed (Knots = (Engine RPM / Gear Ratio · Pitch · (1 - Slip)) / 1215.2) and determine propeller slip percentage.",
+  "path": "/tools/marine-propeller-pitch-slip-boat-speed-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "boat propeller speed calculator",
+    "propeller slip calculator marine",
+    "boat mph knots propeller pitch formula",
+    "outboard gear ratio pitch speed calculator",
+    "marine propeller efficiency online"
+  ],
+  "order": 438
+}

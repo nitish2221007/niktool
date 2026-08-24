@@ -1,0 +1,15 @@
+{
+  "name": "PCR Primer Melting Temperature (Tm) & Annealing Temperature (Ta) Calculator",
+  "description": "Calculate molecular biology DNA oligonucleotide PCR primer melting temperature using Wallace Rule (Tm = 2·(A+T) + 4·(G+C)) and nearest-neighbor thermodynamics, and determine optimal PCR annealing temperature (Ta = Tm - 5°C).",
+  "path": "/tools/pcr-primer-melting-temperature-tm-wallace-nearest-neighbor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pcr primer tm calculator",
+    "primer melting temperature formula 2 at plus 4 gc online",
+    "optimal pcr annealing temperature ta calculator",
+    "dna primer gc content percentage calculator",
+    "molecular biology pcr primer design online"
+  ],
+  "order": 914
+}

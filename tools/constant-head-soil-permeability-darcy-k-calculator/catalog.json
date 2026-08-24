@@ -1,0 +1,15 @@
+{
+  "name": "Constant Head Soil Permeability (Darcy k) Calculator",
+  "description": "Calculate soil hydraulic conductivity coefficient (k = (Q · L) / (A · h · t)) in cm/s and m/s from constant-head laboratory permeameter test data per ASTM D2434.",
+  "path": "/tools/constant-head-soil-permeability-darcy-k-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "soil permeability calculator",
+    "darcy hydraulic conductivity formula k ql over aht",
+    "constant head permeameter calculator astm d2434",
+    "coarse sand gravel permeability calculator online",
+    "geotechnical seepage velocity calculator"
+  ],
+  "order": 568
+}

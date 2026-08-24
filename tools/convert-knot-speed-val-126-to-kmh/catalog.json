@@ -1,0 +1,15 @@
+{
+  "name": "Convert 126 Knots Speed Val to KM/H",
+  "description": "Convert 126 knots speed to kilometers per hour (233.35 km/h).",
+  "path": "/tools/convert-knot-speed-val-126-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 126 to kmh",
+    "Convert 126 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

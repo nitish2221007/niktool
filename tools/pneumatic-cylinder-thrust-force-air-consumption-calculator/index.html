@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate pneumatic air cylinder extension/retraction force (F = P · A) in Newtons/lbf and compressed air consumption rate in SCFM and L/min from bore and stroke.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/pneumatic-cylinder-thrust-force-air-consumption-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator | NikTool">
+  <meta property="og:description" content="Calculate pneumatic air cylinder extension/retraction force (F = P · A) in Newtons/lbf and compressed air consumption rate in SCFM and L/min from bore and stroke.">
+  <meta property="og:url" content="https://niktool.in/tools/pneumatic-cylinder-thrust-force-air-consumption-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/pneumatic-cylinder-thrust-force-air-consumption-calculator/",
+        "description": "Calculate pneumatic air cylinder extension/retraction force (F = P · A) in Newtons/lbf and compressed air consumption rate in SCFM and L/min from bore and stroke.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is standard industrial air pressure set at 6 bar (87 PSI)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "6 bar provides an optimal economic balance between actuator force output, compressor power consumption, and seal durability."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator</h1>
+      <p>Calculate pneumatic air cylinder extension/retraction force (F = P · A) in Newtons/lbf and compressed air consumption rate in SCFM and L/min from bore and stroke.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Cylinder Bore D (mm), Rod Diameter d (mm), Air Pressure P (bar or PSI) & Cycle Rate (cpm)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pnu-bore">Bore D (mm)</label>
+          <input class="tool-textarea" id="pnu-bore" type="number" step="any" value="50.0" placeholder="50.0 mm Bore" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pnu-rod">Rod d (mm)</label>
+          <input class="tool-textarea" id="pnu-rod" type="number" step="any" value="20.0" placeholder="20.0 mm Rod" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pnu-p">Air Pressure (bar)</label>
+          <input class="tool-textarea" id="pnu-p" type="number" step="any" value="6.0" placeholder="6.0 bar (87 PSI)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pnu-strk">Stroke (mm)</label>
+          <input class="tool-textarea" id="pnu-strk" type="number" step="any" value="200.0" placeholder="200.0 mm Stroke" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pnu-cpm">Cycles / Min</label>
+          <input class="tool-textarea" id="pnu-cpm" type="number" step="1" value="20" placeholder="20 CPM" />
+        </div>
+      </div>
+      <div id="pnu-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pnu-res-force" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">1,178 N Extension (265 lbf)</span>
+            <span class="stat-label">Pneumatic Push Extension Force</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pnu-res-air" style="font-weight:700;">Retraction: 989 N (222 lbf) | Air Flow: 1.83 SCFM (51.8 L/min)</span>
+            <span class="stat-label">Pull Retraction Force & Compressed Air Consumption</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator</h2>
+      <ol>
+        <li>Enter pneumatic cylinder piston bore diameter in millimeters.</li>
+        <li>Enter piston rod diameter in millimeters.</li>
+        <li>Enter shop air supply line gauge pressure in bar (typically 6.0 bar / ~90 PSI).</li>
+        <li>Enter stroke length in millimeters and cycling speed in cycles per minute (CPM).</li>
+        <li>Inspect extension push force, retraction pull force, and compressed air consumption in SCFM.</li>
+      </ol>
+
+      <h2>ISO 15552 Pneumatic Actuator Sizing</h2>
+      <p>Double-acting cylinders produce less force on retraction because the piston rod occupies cross-sectional volume; accounting for rod annular area ensures automated clamping mechanisms maintain necessary holding forces.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is standard industrial air pressure set at 6 bar (87 PSI)?</summary>
+        <p>6 bar provides an optimal economic balance between actuator force output, compressor power consumption, and seal durability.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/pneumatic-cylinder-thrust-force-air-consumption-calculator/tool.js"></script>
+</body>
+</html>

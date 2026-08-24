@@ -1,0 +1,15 @@
+{
+  "name": "Miller Indices Cubic Interplanar Spacing (d_hkl = a / √(h² + k² + l²)) Calculator",
+  "description": "Calculate cubic crystal lattice plane interplanar spacing d_hkl in Ångströms (d_hkl = a / √(h² + k² + l²)), plane normal orientation, and Atomic Packing Factor (APF) for SC, BCC, and FCC crystal structures.",
+  "path": "/tools/miller-indices-cubic-crystal-interplanar-spacing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "miller indices calculator",
+    "cubic crystal interplanar spacing formula d hkl online",
+    "lattice parameter a to d spacing calculator",
+    "bcc fcc sc atomic packing factor calculator",
+    "crystallography materials science solid state physics online"
+  ],
+  "order": 1269
+}

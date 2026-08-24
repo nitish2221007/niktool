@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Wells Score for Deep Vein Thrombosis (DVT Clinical Pretest Probability) Calculator",
+    "description": "Calculate Wells DVT pretest probability score (-2 to 8 points) to risk-stratify lower extremity Deep Vein Thrombosis and determine D-dimer vs duplex compression ultrasound diagnostic pathways.",
+    "path": "/tools/wells-score-dvt-deep-vein-thrombosis-probability-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "wells score dvt calculator",
+      "deep vein thrombosis wells criteria score online",
+      "dvt pretest probability d dimer ultrasound calculator",
+      "wells score lower extremity blood clot calculator",
+      "vascular medicine emergency medicine dvt online"
+    ]
+  },
+  {
+    "name": "Wells Score for Pulmonary Embolism (PE Clinical Probability & PERC Rule) Calculator",
+    "description": "Calculate Wells PE probability score (0 to 12.5 points) to risk-stratify acute Pulmonary Embolism and determine D-dimer vs CT Pulmonary Angiography (CTPA) diagnostic imaging protocol.",
+    "path": "/tools/wells-score-pulmonary-embolism-pe-probability-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "wells score pe calculator",
+      "pulmonary embolism wells criteria score online",
+      "pe clinical probability d dimer ctpa calculator",
+      "pulmonary embolism rule out perc wells calculator",
+      "emergency medicine pulmonology pe diagnosis online"
+    ]
+  },
+  {
+    "name": "APGAR Score Newborn Health Assessment (1-Minute & 5-Minute Evaluation 0 to 10) Calculator",
+    "description": "Calculate neonatal APGAR score (Appearance, Pulse, Grimace, Activity, Respiration from 0 to 10) at 1 and 5 minutes post-birth to evaluate newborn infant vitality and delivery room resuscitation need.",
+    "path": "/tools/apgar-score-newborn-infant-health-assessment-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "apgar score calculator",
+      "newborn apgar score formula 0 to 10 online",
+      "neonatal vitality 1 5 minute apgar score calculator",
+      "infant delivery room resuscitation apgar calculator",
+      "pediatrics neonatology obstetrics apgar score online"
+    ]
+  },
+  {
+    "name": "Pharmacokinetics Elimination Half-Life (t_½ = 0.693·V_d / CL) & Steady State Calculator",
+    "description": "Calculate clinical pharmacokinetic drug elimination half-life (t_½ = 0.693 · V_d / CL) in hours, elimination rate constant k_el, time to reach 97% steady state (5 · t_½), and steady-state drug concentration (C_ss = R₀ / CL).",
+    "path": "/tools/pharmacokinetics-half-life-clearance-volume-of-distribution-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "pharmacokinetics calculator",
+      "elimination half life formula t half equals 0.693 vd over cl online",
+      "steady state concentration css rate over clearance calculator",
+      "volume of distribution clearance elimination rate calculator",
+      "clinical pharmacology pharmacokinetics online"
+    ]
+  },
+  {
+    "name": "Alveolar Gas Equation & A-a Oxygen Gradient (P_A O₂ = F_i O₂·(P_atm - 47) - PaCO₂/R) Calculator",
+    "description": "Calculate ideal alveolar oxygen partial pressure (P_A O₂ = F_i O₂ · (P_atm - 47) - PaCO₂ / 0.8) in mmHg and Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂) to evaluate hypoxemic respiratory failure etiology.",
+    "path": "/tools/alveolar-gas-equation-a-a-oxygen-gradient-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "alveolar gas equation calculator",
+      "a a gradient formula pao2 minus pao2 online",
+      "hypoxemia shunt v q mismatch alveolar gas calculator",
+      "inspired oxygen fio2 paco2 alveolar oxygen calculator",
+      "pulmonology respiratory critical care online"
+    ]
+  },
+  {
+    "name": "Pediatric Drug Dosage Rules (Clark's Weight Rule & Young's Age Rule) Calculator",
+    "description": "Calculate approximate pediatric medication dosages from standard adult doses using Clark's Weight Rule (Dose = Adult Dose · (Weight in lbs / 150)) and Young's Age Rule (Dose = Adult Dose · (Age / (Age + 12))).",
+    "path": "/tools/pediatric-drug-dosage-clark-young-rule-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "pediatric dosage calculator",
+      "clarks rule drug dosage formula online",
+      "youngs rule pediatric medication calculator",
+      "child drug dosage adult dose weight calculator",
+      "pediatric clinical pharmacology dosing rules online"
+    ]
+  },
+  {
+    "name": "Ophthalmic Lens Vergence (P = 1/f) & Vertex Distance Compensation Calculator",
+    "description": "Calculate optical focal power vergence in diopters (D = 1 / f), spectacle-to-contact lens vertex distance power compensation (F_contact = F_spec / (1 - d·F_spec)), and retinal image magnification in optometry.",
+    "path": "/tools/lens-vergence-spectacle-magnification-refraction-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "lens vergence calculator",
+      "vertex distance compensation formula f contact equals f spec over 1 minus d f spec online",
+      "diopters focal length optometry calculator",
+      "spectacle to contact lens power converter calculator",
+      "optometry ophthalmology optical refraction online"
+    ]
+  },
+  {
+    "name": "Hubble-Lemaître Law Cosmic Expansion (v = H₀·d) & Redshift Calculator",
+    "description": "Calculate galaxy cosmological recession velocity (v = H₀ · d) in km/s, cosmological redshift z, lookback time, and Hubble age of the universe (t_H = 1 / H₀) from cosmological distance in Megaparsecs (Mpc) or Million Light-Years.",
+    "path": "/tools/hubble-lemaitre-law-cosmic-expansion-recession-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hubble lemaitre law calculator",
+      "recession velocity formula v equals h0 times d online",
+      "hubble constant expansion rate redshift calculator",
+      "cosmological lookback time megaparsec calculator",
+      "astrophysics cosmology expansion of universe online"
+    ]
+  },
+  {
+    "name": "Stellar Mass-Luminosity Relation (L / L_sun ∝ (M / M_sun)^3.5) Calculator",
+    "description": "Calculate main sequence star radiative luminosity (L / L_sun = (M / M_sun)^3.5) and thermonuclear core hydrogen-burning stellar main sequence lifetime (t_ms = 10 · (M / M_sun)^(-2.5) Billion Years) for stellar astrophysics.",
+    "path": "/tools/stellar-mass-luminosity-relation-main-sequence-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stellar mass luminosity relation calculator",
+      "main sequence luminosity formula l proportional to m to 3.5 online",
+      "stellar lifetime main sequence calculator billion years",
+      "solar masses to solar luminosities calculator",
+      "stellar astrophysics star evolution online"
+    ]
+  },
+  {
+    "name": "Astronomical Distance Modulus (m - M = 5·log₁₀(d) - 5) & Magnitude Calculator",
+    "description": "Calculate astronomical stellar distance (d = 10^((m - M + 5) / 5)) in parsecs and light-years from apparent visual magnitude m and absolute bolometric magnitude M using the Pogson magnitude scale.",
+    "path": "/tools/apparent-vs-absolute-magnitude-distance-modulus-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "distance modulus calculator",
+      "apparent absolute magnitude formula m minus M equals 5 log d minus 5 online",
+      "astronomical parsec distance magnitude calculator",
+      "pogson magnitude scale distance calculator light years",
+      "observational astronomy photometry online"
+    ]
+  },
+  {
+    "name": "Stellar Parallax Distance (d = 1 / p Arcseconds to Parsecs) Calculator",
+    "description": "Calculate astronomical trigonometric parallax distance (d = 1 / p) in parsecs, light-years, astronomical units (AU), and kilometers from stellar parallax angle p in arcseconds (arcsec or milliarcseconds mas) for astrometry.",
+    "path": "/tools/stellar-parallax-distance-parsec-arcsecond-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "stellar parallax calculator",
+      "parallax distance formula d equals 1 over p online",
+      "arcseconds to parsecs light years astronomical units calculator",
+      "gaia astrometry parallax calculator mas",
+      "observational astronomy astrometry parallax online"
+    ]
+  },
+  {
+    "name": "Hawking Radiation Black Hole Temperature (T_H = ℏ·c³ / (8π·G·M·k_B)) & Lifetime Calculator",
+    "description": "Calculate quantum Hawking radiation temperature (T_H = ℏ · c³ / (8π · G · M · k_B)) in Kelvin, thermal luminosity in Watts, and complete gravitational evaporation lifetime in years from black hole mass in solar masses or kg.",
+    "path": "/tools/hawking-radiation-black-hole-temperature-lifetime-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hawking radiation calculator",
+      "black hole temperature formula t_h online",
+      "black hole evaporation lifetime calculator years",
+      "quantum gravity hawking temperature calculator kelvin",
+      "general relativity quantum cosmology black holes online"
+    ]
+  },
+  {
+    "name": "Roche Tidal Disruption Limit (d = R_M·(2·ρ_M / ρ_m)^(⅓)) Planetary Ring Calculator",
+    "description": "Calculate celestial Roche tidal disruption limit distance (d = R_M · (2 · ρ_M / ρ_m)^(1/3) for rigid bodies, d = 2.44 · R_M · (ρ_M / ρ_m)^(1/3) for fluid bodies) to predict planetary ring formation and moon tidal destruction.",
+    "path": "/tools/roche-tidal-disruption-limit-satellite-destruction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "roche limit calculator",
+      "tidal disruption limit formula online",
+      "planetary ring formation saturn roche limit calculator",
+      "gravitational tidal destruction distance calculator",
+      "planetary science celestial mechanics tidal forces online"
+    ]
+  },
+  {
+    "name": "Drake Equation (N = R* · f_p · n_e · f_l · f_i · f_c · L) SETI Civilizations Calculator",
+    "description": "Calculate the estimated number of active, communicative extraterrestrial civilizations in the Milky Way galaxy (N = R* · f_p · n_e · f_l · f_i · f_c · L) using Frank Drake's 1961 SETI probabilistic equation.",
+    "path": "/tools/drake-equation-extraterrestrial-civilizations-seti-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "drake equation calculator",
+      "seti extraterrestrial civilizations formula n equals online",
+      "habitable planets intelligent life drake calculator",
+      "astronomy astrobiology alien life probability calculator",
+      "astrophysics seti radio communications online"
+    ]
+  },
+  {
+    "name": "Wien's Displacement Law (λ_max = b / T) Peak Stellar Wavelength Calculator",
+    "description": "Calculate blackbody and stellar emission peak emission wavelength (λ_max = 2.89777 × 10⁻³ m·K / T) in nanometers (nm) and Angstroms (Å), peak photon energy in eV, and classify star color spectrum from effective surface temperature T.",
+    "path": "/tools/wien-displacement-law-stellar-peak-wavelength-temperature-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wiens displacement law calculator",
+      "peak wavelength formula lambda max equals b over t online",
+      "stellar blackbody temperature to peak wavelength calculator nm",
+      "star surface temperature color spectrum calculator",
+      "astrophysics radiation laws wien online"
+    ]
+  },
+  {
+    "name": "Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator",
+    "description": "Calculate spectral radiance B_λ(T) in W/(sr·m³), Rayleigh-Jeans classical ultraviolet catastrophe limit, and quantum spectral intensity across infrared, visible, and ultraviolet wavelengths.",
+    "path": "/tools/planck-blackbody-spectral-radiance-wavelength-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planck law calculator",
+      "blackbody spectral radiance formula online",
+      "quantum blackbody radiation curve intensity calculator",
+      "planck radiation law ultraviolet catastrophe calculator",
+      "quantum physics stellar thermodynamics online"
+    ]
+  },
+  {
+    "name": "Cosmological Redshift (1 + z = a₀ / a(t) = λ_obs / λ_emit) & Scale Factor Calculator",
+    "description": "Calculate cosmological redshift (1 + z = a₀ / a(t) = λ_obs / λ_emit), cosmic scale factor a(t) relative to present day, temperature of the Cosmic Microwave Background (T(z) = 2.725·(1 + z) K), and universe expansion history.",
+    "path": "/tools/cosmological-redshift-scale-factor-universe-age-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cosmological redshift calculator",
+      "scale factor formula 1 plus z equals a0 over a online",
+      "cmb temperature redshift calculator kelvin",
+      "expansion of universe scale factor calculator",
+      "cosmology general relativity friedmann universe online"
+    ]
+  },
+  {
+    "name": "Jeans Instability Mass (M_J ∝ T^(3/2) / ρ^(1/2)) Star Formation Calculator",
+    "description": "Calculate the minimum Jeans Mass (M_J = (5·k_B·T / (G·μ·m_H))^(3/2) · (3 / (4π·ρ))^(1/2)) in Solar Masses and Jeans Length λ_J in parsecs required for an interstellar molecular gas cloud to collapse under gravity into newborn stars.",
+    "path": "/tools/jeans-instability-mass-gravitational-collapse-star-formation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "jeans mass calculator",
+      "jeans instability formula mj online",
+      "interstellar cloud gravitational collapse star formation calculator",
+      "jeans length parsecs molecular cloud calculator",
+      "astrophysics star formation interstellar medium online"
+    ]
+  },
+  {
+    "name": "Gravitational Lensing Einstein Ring Angular Radius (θ_E = √(4GM/c² · D_LS / (D_L·D_S))) Calculator",
+    "description": "Calculate strong gravitational lensing Einstein ring angular radius (θ_E) in arcseconds, physical lens Einstein radius in kiloparsecs, and total gravitational mass of lensing galaxies and dark matter halos.",
+    "path": "/tools/gravitational-lensing-einstein-ring-angular-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "einstein ring calculator",
+      "gravitational lensing formula theta e online",
+      "strong gravitational lensing angular radius arcseconds calculator",
+      "dark matter halo mass gravitational lens calculator",
+      "astrophysics general relativity gravitational lensing online"
+    ]
+  },
+  {
+    "name": "Gravitational Wave Chirp Mass (ℳ = (m₁·m₂)^(⅗) / (m₁ + m₂)^(⅕)) & Strain Calculator",
+    "description": "Calculate binary black hole / neutron star merger Chirp Mass (ℳ in Solar Masses), gravitational wave frequency f_gw, and dimensionless spacetime strain amplitude h detected by LIGO/Virgo interferometers.",
+    "path": "/tools/gravitational-wave-strain-chirp-mass-binary-black-hole-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravitational wave calculator",
+      "chirp mass formula binary black hole ligo online",
+      "gravitational wave strain amplitude h calculator",
+      "ligo virgo binary neutron star merger calculator",
+      "astrophysics gravitational waves general relativity online"
+    ]
+  },
+  {
+    "name": "Planetary Equilibrium Temperature (T_eq = T*·(1 - A)^(¼)·√(R* / 2d)) Calculator",
+    "description": "Calculate exoplanet radiative equilibrium blackbody temperature (T_eq in K/°C), circumstellar Habitable Zone (Goldilocks Zone inner and outer boundaries in AU), and greenhouse surface warming.",
+    "path": "/tools/planetary-equilibrium-temperature-albedo-habitable-zone-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planetary equilibrium temperature calculator",
+      "exoplanet habitable zone goldilocks calculator",
+      "planetary albedo stellar flux temperature calculator",
+      "blackbody equilibrium temperature earth mars exoplanet calculator",
+      "astrophysics astrobiology exoplanets online"
+    ]
+  },
+  {
+    "name": "Exoplanet Transit Photometric Depth (ΔF / F = (R_p / R*)²) Calculator",
+    "description": "Calculate exoplanet transit light curve photometric dip depth (ΔF / F = (R_p / R*)²) in parts-per-thousand (ppt) and parts-per-million (ppm), and determine exoplanet radius R_p in Earth and Jupiter radii from Kepler/TESS transit data.",
+    "path": "/tools/exoplanet-transit-depth-light-curve-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "exoplanet transit depth calculator",
+      "transit photometry light curve formula delta f over f online",
+      "kepler tess planet radius calculator earth jupiter",
+      "exoplanet transit dip depth ppm calculator",
+      "astrophysics exoplanet detection transit method online"
+    ]
+  },
+  {
+    "name": "Exoplanet Radial Velocity Semi-Amplitude (K Doppler Wobble) Calculator",
+    "description": "Calculate stellar reflex Doppler wobble velocity semi-amplitude (K in m/s or cm/s) induced by an orbiting exoplanet to evaluate radial velocity spectroscopic detection thresholds (HARPS, ESPRESSO).",
+    "path": "/tools/exoplanet-radial-velocity-semi-amplitude-doppler-wobble-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radial velocity calculator",
+      "doppler wobble semi amplitude k formula exoplanet online",
+      "stellar reflex motion exoplanet mass calculator m s",
+      "harps espresso radial velocity precision calculator",
+      "astrophysics exoplanet spectroscopy online"
+    ]
+  },
+  {
+    "name": "Binary Star System Total Mass (M₁ + M₂ = a³ / P²) Kepler's Third Law Calculator",
+    "description": "Calculate binary star system combined gravitational mass (M₁ + M₂ = a³ / P²) in Solar Masses from semi-major axis separation a in Astronomical Units (AU) and orbital period P in years.",
+    "path": "/tools/kepler-third-law-binary-star-system-mass-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "binary star mass calculator",
+      "kepler third law binary star system formula m1 plus m2 equals a cubed over p squared online",
+      "astronomical binary orbit semi major axis mass calculator",
+      "stellar mass binary stars astrophysics calculator",
+      "astronomy celestial mechanics binary stars online"
+    ]
+  }
+]

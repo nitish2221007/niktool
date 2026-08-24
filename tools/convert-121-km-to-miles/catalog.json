@@ -1,0 +1,15 @@
+{
+  "name": "Convert 121 KM to Miles",
+  "description": "Convert 121 kilometers to miles (75.19 miles). 100% free and local.",
+  "path": "/tools/convert-121-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 121 km to miles",
+    "Convert 121 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

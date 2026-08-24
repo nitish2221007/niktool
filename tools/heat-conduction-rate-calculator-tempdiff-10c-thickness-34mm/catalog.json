@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 34mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 14706 W) across 34mm steel wall at ΔT=10°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-10c-thickness-34mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 10c thickness 34mm",
+    "Thermal Heat Conduction Calculator (ΔT=10°C, Thick 34mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

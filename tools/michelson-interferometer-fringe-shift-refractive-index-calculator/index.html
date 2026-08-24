@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Michelson interferometer fringe count shifts (Δm = 2·ΔL / λ) and gas index of refraction variations (n - 1 = Δm·λ / (2·L_cell)) from mirror displacement ΔL in nm/μm.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/michelson-interferometer-fringe-shift-refractive-index-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator | NikTool">
+  <meta property="og:description" content="Calculate Michelson interferometer fringe count shifts (Δm = 2·ΔL / λ) and gas index of refraction variations (n - 1 = Δm·λ / (2·L_cell)) from mirror displacement ΔL in nm/μm.">
+  <meta property="og:url" content="https://niktool.in/tools/michelson-interferometer-fringe-shift-refractive-index-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/michelson-interferometer-fringe-shift-refractive-index-calculator/",
+        "description": "Calculate Michelson interferometer fringe count shifts (Δm = 2·ΔL / λ) and gas index of refraction variations (n - 1 = Δm·λ / (2·L_cell)) from mirror displacement ΔL in nm/μm.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is a compensator glass plate placed in the reference arm?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To equalize the optical glass thickness traversed by both split beams, ensuring white-light interference fringes remain in zero dispersion phase."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator</h1>
+      <p>Calculate Michelson interferometer fringe count shifts (Δm = 2·ΔL / λ) and gas index of refraction variations (n - 1 = Δm·λ / (2·L_cell)) from mirror displacement ΔL in nm/μm.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Laser Wavelength λ (nm), Observed Fringe Count Shift Δm & Gas Cell Length L_cell (cm)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mich-lam">Laser λ (nm)</label>
+          <input class="tool-textarea" id="mich-lam" type="number" step="10" value="632.8" placeholder="632.8 nm (He-Ne Red)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mich-fringes">Fringe Shift Δm</label>
+          <input class="tool-textarea" id="mich-fringes" type="number" step="1" value="45" placeholder="45 Fringes" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mich-cell">Cell Length (cm)</label>
+          <input class="tool-textarea" id="mich-cell" type="number" step="any" value="5.0" placeholder="5.0 cm Gas Cell" />
+        </div>
+      </div>
+      <div id="mich-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mich-res-dl" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Mirror ΔL = 14.238 μm</span>
+            <span class="stat-label">Physical Mirror Displacement (ΔL = Δm · λ / 2)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mich-res-idx" style="font-weight:700;">Gas Index n = 1.000285 (Air Refractive Index Shift: Δn = 2.85 × 10⁻⁴)</span>
+            <span class="stat-label">Measured Gas Refractive Index (Δn = Δm·λ / 2·L_cell)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator</h2>
+      <ol>
+        <li>Enter laser carrier wavelength $lambda$ in nanometers (e.g. 632.8 nm for helium-neon red laser).</li>
+        <li>Enter recorded interference bright/dark fringe count crossing shift $Delta m$.</li>
+        <li>Enter gas vacuum chamber cell optical path length in centimeters.</li>
+        <li>Inspect precise sub-wavelength mirror displacement $Delta L$ in $mu	ext{m}$ and calculated gas refractive index n.</li>
+      </ol>
+
+      <h2>Albert Michelson & Edward Morley 1887 Interferometry</h2>
+      <p>Because light traverses the interferometer arm twice in a round-trip, each single fringe shift represents exactly a half-wavelength displacement ($Delta L = lambda/2 approx 316	ext{ nm}$), delivering picometer-precision optical metrology and disproving the luminiferous aether.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is a compensator glass plate placed in the reference arm?</summary>
+        <p>To equalize the optical glass thickness traversed by both split beams, ensuring white-light interference fringes remain in zero dispersion phase.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/michelson-interferometer-fringe-shift-refractive-index-calculator/tool.js"></script>
+</body>
+</html>

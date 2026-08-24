@@ -1,0 +1,15 @@
+{
+  "name": "Convert 33°C Celsius to Kelvin Temp",
+  "description": "Convert 33 degrees Celsius (°C) to Kelvin (306.15 K) instantly.",
+  "path": "/tools/convert-33-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 33 celsius to kelvin temp",
+    "Convert 33°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

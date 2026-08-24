@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (400 Hz, 18 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 22.10 Ω) for 400 Hz frequency and 18 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-400hz-capacitor-18uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 400hz capacitor 18uf",
+    "Capacitive Reactance Calculator (400 Hz, 18 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Hypersonic Atmospheric Re-Entry Stagnation Point Heat Flux (Fay-Riddell) Calculator",
+  "description": "Calculate spacecraft hypersonic atmospheric re-entry nose cone stagnation point convective heat flux q_dot in W/cm² and MW/m² (Detra-Kemp-Riddell / Fay-Riddell Correlation: q_dot = C / √R_nose · √(ρ / ρ₀) · (v / v₀)^3) and total heat load.",
+  "path": "/tools/hypersonic-reentry-aerodynamic-heat-flux-fay-riddell-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hypersonic heat flux calculator",
+    "fay riddell stagnation point heating formula online",
+    "spacecraft atmospheric reentry heat shield calculator",
+    "nose radius blunt body heating w cm2 calculator",
+    "hypersonic aerothermodynamics space capsule tps online"
+  ],
+  "order": 1429
+}

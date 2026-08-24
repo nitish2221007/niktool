@@ -1,0 +1,16 @@
+{
+  "name": "Morse Code Audio Translator",
+  "description": "Convert plain text to International Morse Code and listen to realistic audio beeps generated in real time using the Web Audio API.",
+  "path": "/tools/morse-code-audio-translator/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "morse code translator",
+    "morse code audio",
+    "text to morse code",
+    "morse code beeper",
+    "morse code decoder",
+    "morse code generator audio"
+  ],
+  "order": 64
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Dollar Cost Averaging (DCA) Average Price Calculator",
+  "description": "Calculate the true weighted average cost per share across multiple stock or crypto purchases at varying prices.",
+  "path": "/tools/dca-dollar-cost-averaging-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "dollar cost averaging calculator",
+    "dca average price calculator",
+    "stock average cost calculator",
+    "crypto dca calculator online",
+    "weighted average share price"
+  ],
+  "order": 213
+}

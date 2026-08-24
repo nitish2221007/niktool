@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate gamma point source Air Kerma Rate K_dot in μGy/hr and Equivalent Dose Rate H*(10) in μSv/hr (K_dot = Γ_delta · A / d²) from activity A in MBq and distance d in meters.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/specific-gamma-ray-constant-dose-rate-distance-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator | NikTool">
+  <meta property="og:description" content="Calculate gamma point source Air Kerma Rate K_dot in μGy/hr and Equivalent Dose Rate H*(10) in μSv/hr (K_dot = Γ_delta · A / d²) from activity A in MBq and distance d in meters.">
+  <meta property="og:url" content="https://niktool.in/tools/specific-gamma-ray-constant-dose-rate-distance-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/specific-gamma-ray-constant-dose-rate-distance-calculator/",
+        "description": "Calculate gamma point source Air Kerma Rate K_dot in μGy/hr and Equivalent Dose Rate H*(10) in μSv/hr (K_dot = Γ_delta · A / d²) from activity A in MBq and distance d in meters.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What does KERMA stand for?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "KERMA stands for Kinetic Energy Released per unit MAss ($\text{Joules/kg} = \text{Gray}$), representing initial kinetic energy transferred to electrons by photons."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator</h1>
+      <p>Calculate gamma point source Air Kerma Rate K_dot in μGy/hr and Equivalent Dose Rate H*(10) in μSv/hr (K_dot = Γ_delta · A / d²) from activity A in MBq and distance d in meters.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Air Kerma Constant Γ_δ (μGy·m²/(MBq·hr), e.g. 0.080 for Cs-137, 0.305 for Co-60), Activity A (MBq) & Distance d (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ak-gamma">Constant Γ_δ</label>
+          <input class="tool-textarea" id="ak-gamma" type="number" step="0.02" value="0.080" placeholder="0.080 μGy·m²/(MBq·hr) (Cs-137)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ak-act">Activity A (MBq)</label>
+          <input class="tool-textarea" id="ak-act" type="number" step="100" value="500.0" placeholder="500.0 MBq (13.5 mCi)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ak-dist">Distance d (m)</label>
+          <input class="tool-textarea" id="ak-dist" type="number" step="0.5" value="1.0" placeholder="1.0 m" />
+        </div>
+      </div>
+      <div id="ak-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ak-res-k" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Air Kerma Rate = 40.0 μGy / hr (0.040 mGy/hr)</span>
+            <span class="stat-label">Air Kerma Rate (K_dot = Γ_δ · A / d²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ak-res-h" style="color:var(--green-dark); font-weight:700;">Dose Equivalent H*(10) = 48.0 μSv / hr | Public Limit 1000 μSv/yr (20.8 hr stay limit ✓)</span>
+            <span class="stat-label">Operational Ambient Dose Equivalent Rate (H*(10) ≈ 1.20 · K_air)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator</h2>
+      <ol>
+        <li>Enter radionuclide specific air kerma rate constant $Gamma_delta$ in $mu	ext{Gy}cdot	ext{m}^2/(	ext{MBq}cdot	ext{hr})$.</li>
+        <li>Enter source activity in MegaBecquerels (MBq).</li>
+        <li>Enter radial distance d from point source in meters.</li>
+        <li>Inspect Air Kerma Rate in $mu	ext{Gy/hr}$ and ICRU Ambient Dose Equivalent Rate $H^*(10)$ in $mu	ext{Sv/hr}$.</li>
+      </ol>
+
+      <h2>ICRU 90 / IAEA International Radiation Dosimetry Standard</h2>
+      <p>Converts radionuclide activity into precise metric Air Kerma and tissue-equivalent operational dose rates ($H^*(10)$) for calibrating radiation survey meters and hospital nuclear medicine hot labs.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What does KERMA stand for?</summary>
+        <p>KERMA stands for Kinetic Energy Released per unit MAss ($	ext{Joules/kg} = 	ext{Gray}$), representing initial kinetic energy transferred to electrons by photons.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/specific-gamma-ray-constant-dose-rate-distance-calculator/tool.js"></script>
+</body>
+</html>

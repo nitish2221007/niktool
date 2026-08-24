@@ -1,0 +1,15 @@
+{
+  "name": "Convert 36 Inches to CM",
+  "description": "Convert 36 inches (in) to centimeters (91.44 cm). 100% free and local.",
+  "path": "/tools/convert-36-inches-to-cm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 36 inches to cm",
+    "Convert 36 Inches to CM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

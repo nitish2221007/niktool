@@ -1,0 +1,15 @@
+{
+  "name": "Thermoelectric Generator (TEG Seebeck Effect) Power & Efficiency Calculator",
+  "description": "Calculate Thermoelectric Generator waste heat power output (P_max = (S · ΔT)² / (4 · R_int)) in Watts and maximum conversion efficiency (η_max) from dimensionless Figure of Merit ZT.",
+  "path": "/tools/thermoelectric-generator-teg-seebeck-power-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thermoelectric generator calculator",
+    "teg seebeck effect power formula online",
+    "figure of merit zt thermoelectric efficiency calculator",
+    "peltier seebeck waste heat recovery calculator online",
+    "bismuth telluride teg power calculator"
+  ],
+  "order": 745
+}

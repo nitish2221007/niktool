@@ -1,0 +1,15 @@
+{
+  "name": "Microeconomics Welfare Surplus (Consumer Surplus, Producer Surplus & DWL) Calculator",
+  "description": "Calculate market equilibrium Consumer Surplus (CS = ½·(P_max - P*)·Q*), Producer Surplus (PS = ½·(P* - P_min)·Q*), and Deadweight Loss (DWL) from price ceilings, price floors, or taxation in microeconomics.",
+  "path": "/tools/consumer-surplus-producer-surplus-deadweight-loss-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "consumer surplus calculator",
+    "producer surplus deadweight loss dwl formula online",
+    "economic welfare total surplus market equilibrium calculator",
+    "price ceiling tax deadweight loss calculator",
+    "microeconomics supply demand surplus online"
+  ],
+  "order": 1003
+}

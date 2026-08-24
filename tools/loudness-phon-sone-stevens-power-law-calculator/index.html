@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate perceived human psychoacoustic loudness (Sones = 2^((Phons - 40) / 10)) and equal-loudness Fletcher-Munson / ISO 226 perceived volume scaling.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/loudness-phon-sone-stevens-power-law-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator | NikTool">
+  <meta property="og:description" content="Calculate perceived human psychoacoustic loudness (Sones = 2^((Phons - 40) / 10)) and equal-loudness Fletcher-Munson / ISO 226 perceived volume scaling.">
+  <meta property="og:url" content="https://niktool.in/tools/loudness-phon-sone-stevens-power-law-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/loudness-phon-sone-stevens-power-law-calculator/",
+        "description": "Calculate perceived human psychoacoustic loudness (Sones = 2^((Phons - 40) / 10)) and equal-loudness Fletcher-Munson / ISO 226 perceived volume scaling.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the difference between Decibels, Phons, and Sones?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Decibels measure physical acoustic energy; Phons measure frequency-weighted equal loudness contours; Sones measure direct linear subjective perception ($2\text{ sones} = \text{twice as loud as }1\text{ sone}$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator</h1>
+      <p>Calculate perceived human psychoacoustic loudness (Sones = 2^((Phons - 40) / 10)) and equal-loudness Fletcher-Munson / ISO 226 perceived volume scaling.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Loudness Level in Phons (L_N: 20 to 120 Phons)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="ph-val">Loudness Level (Phons)</label>
+        <input class="tool-textarea" id="ph-val" type="number" step="any" value="70.0" placeholder="70.0 Phons (Normal Conversation / Vacuum)" />
+      </div>
+      <div id="ph-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ph-res-sone" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">8.00 Sones (Perceived Loudness)</span>
+            <span class="stat-label">Linear Perceived Loudness (Sones)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ph-res-comp" style="font-weight:700;">8× Louder than 40 Phon Reference (1 Sone = 40 dB SPL @ 1 kHz)</span>
+            <span class="stat-label">Subjective Loudness Multiplier vs Reference</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Psychoacoustic Loudness (Phon to Sone) & Stevens Power Law Calculator</h2>
+      <ol>
+        <li>Enter equal-loudness level in Phons (1 Phon = 1 dB SPL at 1,000 Hz).</li>
+        <li>Inspect linear perceived loudness in Sones (where 1 Sone = 40 Phons, and +10 Phons doubles perceived loudness to 2 Sones).</li>
+      </ol>
+
+      <h2>Stanley Smith Stevens 1936 Psychoacoustic Power Law</h2>
+      <p>Human hearing perception is non-linear; an increase of +10 decibels/phons produces a doubling ($2	imes$) of perceived subjective loudness ($S = 2^{(P-40)/10}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the difference between Decibels, Phons, and Sones?</summary>
+        <p>Decibels measure physical acoustic energy; Phons measure frequency-weighted equal loudness contours; Sones measure direct linear subjective perception ($2	ext{ sones} = 	ext{twice as loud as }1	ext{ sone}$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/loudness-phon-sone-stevens-power-law-calculator/tool.js"></script>
+</body>
+</html>

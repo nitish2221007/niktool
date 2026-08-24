@@ -1,0 +1,15 @@
+{
+  "name": "Convert 96 Knots to KM/H Speed",
+  "description": "Convert 96 knots speed to kilometers per hour (177.79 km/h).",
+  "path": "/tools/convert-96-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 96 knots to kmh speed",
+    "Convert 96 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

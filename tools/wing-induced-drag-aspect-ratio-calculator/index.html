@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate aircraft wing vortex induced drag coefficient (C_Di = C_L² / (π · AR · e)) and induced drag force in Newtons/lbf from wing aspect ratio AR and Oswald efficiency factor e.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/wing-induced-drag-aspect-ratio-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator | NikTool">
+  <meta property="og:description" content="Calculate aircraft wing vortex induced drag coefficient (C_Di = C_L² / (π · AR · e)) and induced drag force in Newtons/lbf from wing aspect ratio AR and Oswald efficiency factor e.">
+  <meta property="og:url" content="https://niktool.in/tools/wing-induced-drag-aspect-ratio-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/wing-induced-drag-aspect-ratio-calculator/",
+        "description": "Calculate aircraft wing vortex induced drag coefficient (C_Di = C_L² / (π · AR · e)) and induced drag force in Newtons/lbf from wing aspect ratio AR and Oswald efficiency factor e.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do gliders have extremely long, thin wings (AR > 25)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because induced drag scales inversely with aspect ratio, high-aspect wings achieve glide ratios exceeding 50:1."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator</h1>
+      <p>Calculate aircraft wing vortex induced drag coefficient (C_Di = C_L² / (π · AR · e)) and induced drag force in Newtons/lbf from wing aspect ratio AR and Oswald efficiency factor e.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Lift Coefficient C_L, Wing Aspect Ratio (AR), Oswald Efficiency e & Dynamic Pressure q (Pa)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="id-cl">Lift Coeff C_L</label>
+          <input class="tool-textarea" id="id-cl" type="number" step="0.05" value="0.55" placeholder="0.55 Cruise Lift" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="id-ar">Aspect Ratio (AR)</label>
+          <input class="tool-textarea" id="id-ar" type="number" step="any" value="8.5" placeholder="8.5 (b² / S)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="id-e">Oswald Factor (e)</label>
+          <input class="tool-textarea" id="id-e" type="number" step="0.01" value="0.82" placeholder="0.82" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="id-s">Wing Area S (m²)</label>
+          <input class="tool-textarea" id="id-s" type="number" step="any" value="122.0" placeholder="122.0 m² (A320 / B737)" />
+        </div>
+      </div>
+      <div id="id-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="id-res-cdi" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">C_Di = 0.0138 (138 Counts)</span>
+            <span class="stat-label">Induced Drag Coefficient (C_Di)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="id-res-span" style="font-weight:700;">Wingspan b = 32.2 m (Lift-to-Induced-Drag Ratio: 39.8 : 1)</span>
+            <span class="stat-label">Calculated Wingspan (b = √(AR · S))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Aircraft Wing Induced Drag (C_Di) & Aspect Ratio Calculator</h2>
+      <ol>
+        <li>Enter cruise lift coefficient C_L.</li>
+        <li>Enter wing aspect ratio AR = b² / S.</li>
+        <li>Enter Oswald span efficiency factor e (typically 0.75 to 0.85 for swept passenger jet wings).</li>
+        <li>Enter total reference wing surface area S in m².</li>
+        <li>Inspect induced vortex drag coefficient C_Di in drag counts and effective wingspan.</li>
+      </ol>
+
+      <h2>Ludwig Prandtl 1918 Lifting-Line Wingtip Vortices</h2>
+      <p>High-pressure air under the wing curls around wingtips toward lower pressure above, trailing spinning vortex tubes that deflect airflow downward; increasing aspect ratio stretches vortices apart, slashing induced drag.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do gliders have extremely long, thin wings (AR > 25)?</summary>
+        <p>Because induced drag scales inversely with aspect ratio, high-aspect wings achieve glide ratios exceeding 50:1.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/wing-induced-drag-aspect-ratio-calculator/tool.js"></script>
+</body>
+</html>

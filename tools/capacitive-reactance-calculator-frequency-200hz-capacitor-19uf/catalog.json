@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (200 Hz, 19 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 41.88 Ω) for 200 Hz frequency and 19 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-200hz-capacitor-19uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 200hz capacitor 19uf",
+    "Capacitive Reactance Calculator (200 Hz, 19 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

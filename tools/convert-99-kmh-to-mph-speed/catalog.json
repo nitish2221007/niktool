@@ -1,0 +1,15 @@
+{
+  "name": "Convert 99 KM/H to MPH Speed",
+  "description": "Convert 99 kilometers per hour (km/h) to miles per hour (61.52 mph).",
+  "path": "/tools/convert-99-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 99 kmh to mph speed",
+    "Convert 99 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

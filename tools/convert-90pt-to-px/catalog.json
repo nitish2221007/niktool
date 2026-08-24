@@ -1,0 +1,15 @@
+{
+  "name": "Convert 90pt to PX",
+  "description": "Convert 90 points (pt) to pixels (120.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-90pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 90pt to px",
+    "Convert 90pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

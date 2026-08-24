@@ -1,0 +1,15 @@
+{
+  "name": "Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator",
+  "description": "Calculate orthogonal and orthonormal basis vectors (u₁ = v₁, u₂ = v₂ - proj_{u₁}(v₂), e_i = u_i / ||u_i||) from linearly independent vectors in ℝ² and ℝ³ for linear algebra.",
+  "path": "/tools/gram-schmidt-orthogonalization-orthonormal-basis-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "gram schmidt calculator",
+    "orthogonalization formula u2 equals v2 minus proj u1 v2 online",
+    "orthonormal basis vectors dot product calculator",
+    "linear algebra gram schmidt process calculator",
+    "vector spaces orthogonal projection online"
+  ],
+  "order": 1099
+}

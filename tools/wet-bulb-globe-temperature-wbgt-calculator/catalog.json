@@ -1,0 +1,15 @@
+{
+  "name": "Wet-Bulb Globe Temperature (WBGT) Heat Stress Calculator",
+  "description": "Calculate military and athletic Wet-Bulb Globe Temperature (WBGT = 0.7·T_w + 0.2·T_g + 0.1·T_d) to determine heat casualty flags and safe training work-rest cycles.",
+  "path": "/tools/wet-bulb-globe-temperature-wbgt-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "wbgt calculator",
+    "wet bulb globe temperature formula",
+    "military wbgt flag conditions",
+    "heat stress work rest cycle calculator",
+    "outdoor athletic wbgt calculator online"
+  ],
+  "order": 353
+}

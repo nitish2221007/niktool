@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate petroleum gasoline blending Reid Vapor Pressure (RVP_blend = (Σ v_i · RVP_i^1.25)^(1/1.25)) in psi/kPa across butane, reformate, alkylate, and FCC naphtha components.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/reid-vapor-pressure-rvp-crude-oil-blending-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator | NikTool">
+  <meta property="og:description" content="Calculate petroleum gasoline blending Reid Vapor Pressure (RVP_blend = (Σ v_i · RVP_i^1.25)^(1/1.25)) in psi/kPa across butane, reformate, alkylate, and FCC naphtha components.">
+  <meta property="og:url" content="https://niktool.in/tools/reid-vapor-pressure-rvp-crude-oil-blending-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/reid-vapor-pressure-rvp-crude-oil-blending-calculator/",
+        "description": "Calculate petroleum gasoline blending Reid Vapor Pressure (RVP_blend = (Σ v_i · RVP_i^1.25)^(1/1.25)) in psi/kPa across butane, reformate, alkylate, and FCC naphtha components.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is gasoline RVP lower in summer than in winter?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hot summer temperatures cause high-RVP fuel to rapidly evaporate into volatile organic compounds (VOCs) that create ground-level smog, whereas cold winter temperatures require higher RVP (13.5 psi) for reliable engine cold starts."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator</h1>
+      <p>Calculate petroleum gasoline blending Reid Vapor Pressure (RVP_blend = (Σ v_i · RVP_i^1.25)^(1/1.25)) in psi/kPa across butane, reformate, alkylate, and FCC naphtha components.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Blend Fractions (%) and Component RVPs: Butane (52 psi), Alkylate (5 psi), Reformate (3.5 psi), Naphtha (12 psi)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="rvp-but-vol">Butane Vol (%)</label>
+          <input class="tool-textarea" id="rvp-but-vol" type="number" step="0.5" value="6.0" placeholder="6.0 % (RVP = 52 psi)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rvp-alk-vol">Alkylate Vol (%)</label>
+          <input class="tool-textarea" id="rvp-alk-vol" type="number" step="1" value="30.0" placeholder="30.0 % (RVP = 5.0 psi)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rvp-ref-vol">Reformate (%)</label>
+          <input class="tool-textarea" id="rvp-ref-vol" type="number" step="1" value="34.0" placeholder="34.0 % (RVP = 3.5 psi)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rvp-fcc-vol">FCC Naphtha (%)</label>
+          <input class="tool-textarea" id="rvp-fcc-vol" type="number" step="1" value="30.0" placeholder="30.0 % (RVP = 11.5 psi)" />
+        </div>
+      </div>
+      <div id="rvp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="rvp-res-blend" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">RVP = 8.82 psi (60.8 kPa)</span>
+            <span class="stat-label">Chevron Non-Linear Blended Reid Vapor Pressure</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="rvp-res-epa" style="color:var(--green-dark); font-weight:700;">EPA SUMMER COMPLIANT (RVP ≤ 9.00 psi Federal Ozone Attainment Limit)</span>
+            <span class="stat-label">EPA Clean Air Act Summer/Winter Fuel Compliance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator</h2>
+      <ol>
+        <li>Enter volume percentage of volatile n-Butane ($RVP = 52	ext{ psi}$).</li>
+        <li>Enter volume percentage of low-volatility Alkylate ($RVP = 5.0	ext{ psi}$).</li>
+        <li>Enter volume percentage of high-octane Reformate ($RVP = 3.5	ext{ psi}$).</li>
+        <li>Enter volume percentage of FCC Catalytic Cracker Naphtha ($RVP = 11.5	ext{ psi}$).</li>
+        <li>Inspect blended Reid Vapor Pressure (RVP) in psi and kPa calculated via the Chevron 1.25 power method and verify EPA Clean Air Act compliance.</li>
+      </ol>
+
+      <h2>Chevron Non-Linear Vapor Pressure Blending Law</h2>
+      <p>Because butane vaporizes non-ideally in gasoline, simple linear blending underestimates vapor pressure; refinery linear programming (LP) models use Chevron's exponent rule ($RVP_{	ext{blend}} = [sum v_i RVP_i^{1.25}]^{0.8}$) to maximize high-margin butane blending without violating EPA summer 9.0 psi ozone smog limits.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is gasoline RVP lower in summer than in winter?</summary>
+        <p>Hot summer temperatures cause high-RVP fuel to rapidly evaporate into volatile organic compounds (VOCs) that create ground-level smog, whereas cold winter temperatures require higher RVP (13.5 psi) for reliable engine cold starts.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/reid-vapor-pressure-rvp-crude-oil-blending-calculator/tool.js"></script>
+</body>
+</html>

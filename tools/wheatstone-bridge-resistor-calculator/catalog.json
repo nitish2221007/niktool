@@ -1,0 +1,15 @@
+{
+  "name": "Wheatstone Bridge Unknown Resistor Calculator",
+  "description": "Calculate unknown resistance (R_x = R₂ · R₃ / R₁) in balanced Wheatstone bridge circuits for strain gauges, thermistors, and precision sensors.",
+  "path": "/tools/wheatstone-bridge-resistor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wheatstone bridge calculator",
+    "balanced bridge resistance formula",
+    "strain gauge bridge calculator",
+    "bridge circuit unknown resistor",
+    "precision resistance measurement online"
+  ],
+  "order": 234
+}

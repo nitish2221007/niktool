@@ -1,0 +1,15 @@
+{
+  "name": "Goldmann Applanation Tonometry Intraocular Pressure (IOP CCT Adjustment) Calculator",
+  "description": "Calculate ophthalmology clinical Intraocular Pressure IOP in mmHg (Imbert-Fick Law: P = F / A) with Central Corneal Thickness CCT pachymetry adjustment (Dresdner / Ehlers Correction) for glaucoma screening.",
+  "path": "/tools/intraocular-pressure-goldmann-applanation-tonometry-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "goldmann tonometry iop calculator",
+    "intraocular pressure cct corneal thickness adjustment online",
+    "glaucoma eye pressure imbert fick formula calculator",
+    "pachymetry corrected iop mmhg calculator",
+    "ophthalmology optometry biomedical vision science online"
+  ],
+  "order": 1456
+}

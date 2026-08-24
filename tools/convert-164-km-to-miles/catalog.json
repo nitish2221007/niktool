@@ -1,0 +1,15 @@
+{
+  "name": "Convert 164 KM to Miles",
+  "description": "Convert 164 kilometers to miles (101.90 miles). 100% free and local.",
+  "path": "/tools/convert-164-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 164 km to miles",
+    "Convert 164 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

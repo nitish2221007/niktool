@@ -1,0 +1,15 @@
+{
+  "name": "Second-Order Reaction Kinetics & Half-Life Calculator",
+  "description": "Calculate remaining reactant concentration (1 / [A]_t = 1 / [A]₀ + k · t) and concentration-dependent half-life (t₁/₂ = 1 / (k · [A]₀)) for bimolecular second-order chemical reactions.",
+  "path": "/tools/second-order-reaction-rate-half-life-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "second order reaction calculator",
+    "second order kinetics half life formula",
+    "1 over a0 plus kt calculator online",
+    "bimolecular reaction rate calculator",
+    "chemical kinetics second order online"
+  ],
+  "order": 509
+}

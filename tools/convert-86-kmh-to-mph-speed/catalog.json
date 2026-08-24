@@ -1,0 +1,15 @@
+{
+  "name": "Convert 86 KM/H to MPH Speed",
+  "description": "Convert 86 kilometers per hour (km/h) to miles per hour (53.44 mph).",
+  "path": "/tools/convert-86-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 86 kmh to mph speed",
+    "Convert 86 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

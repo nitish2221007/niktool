@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate high-head impulse Pelton hydroelectric turbine jet velocity (v_jet = C_v · √(2 · g · H)) in m/s, runner bucket RPM, and mechanical power output (P = η · ρ · g · Q · H) in kW/MW.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/pelton-wheel-turbine-hydraulic-power-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator | NikTool">
+  <meta property="og:description" content="Calculate high-head impulse Pelton hydroelectric turbine jet velocity (v_jet = C_v · √(2 · g · H)) in m/s, runner bucket RPM, and mechanical power output (P = η · ρ · g · Q · H) in kW/MW.">
+  <meta property="og:url" content="https://niktool.in/tools/pelton-wheel-turbine-hydraulic-power-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/pelton-wheel-turbine-hydraulic-power-calculator/",
+        "description": "Calculate high-head impulse Pelton hydroelectric turbine jet velocity (v_jet = C_v · √(2 · g · H)) in m/s, runner bucket RPM, and mechanical power output (P = η · ρ · g · Q · H) in kW/MW.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do Pelton buckets operate at 46% of jet velocity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Theoretical maximum momentum transfer occurs when the bucket moves at exactly half the water jet speed (u = 0.5 v_jet), with practical friction reducing it to ~0.46."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator</h1>
+      <p>Calculate high-head impulse Pelton hydroelectric turbine jet velocity (v_jet = C_v · √(2 · g · H)) in m/s, runner bucket RPM, and mechanical power output (P = η · ρ · g · Q · H) in kW/MW.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Net Hydraulic Head H (meters), Flow Rate Q (m³/s) & Runner Pitch Diameter D (meters)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pel-h">Net Head H (m)</label>
+          <input class="tool-textarea" id="pel-h" type="number" step="any" value="350.0" placeholder="350.0 m (High Mountain Head)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pel-q">Flow Rate Q (m³/s)</label>
+          <input class="tool-textarea" id="pel-q" type="number" step="any" value="1.50" placeholder="1.50 m³/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pel-d">Runner Diameter D (m)</label>
+          <input class="tool-textarea" id="pel-d" type="number" step="any" value="1.20" placeholder="1.20 m Pitch Circle" />
+        </div>
+      </div>
+      <div id="pel-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pel-res-pwr" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">4,635 kW (4.64 MW)</span>
+            <span class="stat-label">Turbine Shaft Mechanical Power (P)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pel-res-jet" style="font-weight:700;">Jet Speed: 81.1 m/s (292 km/h) | 620 RPM</span>
+            <span class="stat-label">Nozzle Water Jet Velocity & Optimum Runner RPM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator</h2>
+      <ol>
+        <li>Enter net water head H in meters (effective elevation drop after penstock friction losses).</li>
+        <li>Enter volumetric discharge water flow rate Q in cubic meters per second (m³/s).</li>
+        <li>Enter Pelton wheel runner pitch diameter D in meters.</li>
+        <li>Inspect generated electrical shaft power in kW/MW, spear nozzle jet exit speed, and optimal runner rotational RPM.</li>
+      </ol>
+
+      <h2>Lester Pelton 1880 Double-Cup Impulse Runner</h2>
+      <p>By splitting high-velocity water jets into twin hemispherical cups and turning them nearly 180 degrees, the Pelton wheel extracts over 90% of kinetic momentum without immersion, making it the premier choice for mountainous heads exceeding 200 to 1,000+ meters.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do Pelton buckets operate at 46% of jet velocity?</summary>
+        <p>Theoretical maximum momentum transfer occurs when the bucket moves at exactly half the water jet speed (u = 0.5 v_jet), with practical friction reducing it to ~0.46.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/pelton-wheel-turbine-hydraulic-power-calculator/tool.js"></script>
+</body>
+</html>

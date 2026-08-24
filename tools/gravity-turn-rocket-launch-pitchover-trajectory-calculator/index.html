@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate orbital launch vehicle zero-lift gravity turn steering dynamics (γ̇ = - (g / v) · cos γ + (v / r) · cos γ) and gravity drag delta-V penalty losses.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/gravity-turn-rocket-launch-pitchover-trajectory-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator | NikTool">
+  <meta property="og:description" content="Calculate orbital launch vehicle zero-lift gravity turn steering dynamics (γ̇ = - (g / v) · cos γ + (v / r) · cos γ) and gravity drag delta-V penalty losses.">
+  <meta property="og:url" content="https://niktool.in/tools/gravity-turn-rocket-launch-pitchover-trajectory-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/gravity-turn-rocket-launch-pitchover-trajectory-calculator/",
+        "description": "Calculate orbital launch vehicle zero-lift gravity turn steering dynamics (γ̇ = - (g / v) · cos γ + (v / r) · cos γ) and gravity drag delta-V penalty losses.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Gravity Loss during rocket launch?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Gravity loss is the $Delta v$ penalty ($Delta v_{\text{grav}} = int g singamma , dt approx 1,200\text{–}1,800\text{ m/s}$) spent overcoming Earth's downward gravitational pull during ascent."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator</h1>
+      <p>Calculate orbital launch vehicle zero-lift gravity turn steering dynamics (γ̇ = - (g / v) · cos γ + (v / r) · cos γ) and gravity drag delta-V penalty losses.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Rocket Velocity v (m/s), Flight Path Angle γ (° from Horizontal) & Altitude h (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="gt-v">Velocity v (m/s)</label>
+          <input class="tool-textarea" id="gt-v" type="number" step="50" value="500.0" placeholder="500.0 m/s (Mach 1.5)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gt-gamma">Path Angle γ (°)</label>
+          <input class="tool-textarea" id="gt-gamma" type="number" step="1" value="65.0" placeholder="65.0° (from Horizontal)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gt-alt">Altitude h (km)</label>
+          <input class="tool-textarea" id="gt-alt" type="number" step="5" value="15.0" placeholder="15.0 km (Troposphere)" />
+        </div>
+      </div>
+      <div id="gt-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gt-res-gdot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">γ̇ = -0.472 ° / second Pitchover</span>
+            <span class="stat-label">Natural Gravity-Turn Pitchover Rate (dγ/dt)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gt-res-grav" style="font-weight:700;">Instantaneous Gravity Drag Loss g·sin γ = 8.84 m/s² (0.90g Acceleration Penalty)</span>
+            <span class="stat-label">Gravity Drag Penalty Loss Rate (g·sin γ)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Rocket Launch Gravity Turn Trajectory & Flight Path Angle (γ̇) Calculator</h2>
+      <ol>
+        <li>Enter rocket instantaneous ascent velocity v in m/s.</li>
+        <li>Enter flight path velocity angle $gamma$ above horizontal in degrees (90° = vertical liftoff, 0° = horizontal orbital insertion).</li>
+        <li>Enter current altitude h in kilometers.</li>
+        <li>Inspect natural gravity-turn pitchover angular rate $dot{gamma}$ in degrees/second and instantaneous gravity drag delta-V loss rate ($gsingamma$).</li>
+      </ol>
+
+      <h2>Zero-Aerodynamic-Load Orbital Ascent Trajectory</h2>
+      <p>By initiating a tiny pitchover kick at low altitude and aligning the rocket engine thrust vector exactly with the velocity vector ($alpha = 0$), gravity naturally arcs the vehicle horizontal with zero aerodynamic angle of attack, eliminating destructive bending moments on the rocket fairing.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Gravity Loss during rocket launch?</summary>
+        <p>Gravity loss is the $Delta v$ penalty ($Delta v_{	ext{grav}} = int g singamma , dt approx 1,200	ext{–}1,800	ext{ m/s}$) spent overcoming Earth's downward gravitational pull during ascent.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/gravity-turn-rocket-launch-pitchover-trajectory-calculator/tool.js"></script>
+</body>
+</html>

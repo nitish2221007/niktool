@@ -1,0 +1,15 @@
+{
+  "name": "Shaft Torque Calculator (77 kW Power, 2500 RPM)",
+  "description": "Calculate mechanical shaft torque (T = 294.12 N·m) for 77 kW power at 2500 RPM.",
+  "path": "/tools/shaft-torque-calculator-power-77kw-speed-2500rpm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "shaft torque calculator power 77kw speed 2500rpm",
+    "Shaft Torque Calculator (77 kW Power, 2500 RPM)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

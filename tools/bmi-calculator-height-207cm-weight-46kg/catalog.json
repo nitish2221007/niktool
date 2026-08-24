@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 207cm, Weight 46kg)",
+  "description": "Calculate Body Mass Index (BMI 10.7) for height 207 cm and weight 46 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-207cm-weight-46kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 207cm weight 46kg",
+    "BMI Calculator (Height 207cm, Weight 46kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (280 km Distance, 17 km/l Mileage)",
+  "description": "Calculate fuel needed (16.5 L) and cost (₹1592) for 280 km trip at 17 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-280km-mileage-17kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 280km mileage 17kmpl",
+    "Fuel Cost Trip Calculator (280 km Distance, 17 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

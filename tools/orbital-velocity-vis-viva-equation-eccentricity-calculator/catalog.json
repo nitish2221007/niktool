@@ -1,0 +1,15 @@
+{
+  "name": "Vis-Viva Orbital Velocity (v² = μ·(2/r - 1/a)) & Escape Velocity Calculator",
+  "description": "Calculate instantaneous Keplerian orbital velocity v in km/s (Vis-Viva Equation: v = √(μ · (2/r - 1/a))), parabolic Escape Velocity v_esc = √(2μ/r), circular velocity v_circ = √(μ/r), and orbital period T.",
+  "path": "/tools/orbital-velocity-vis-viva-equation-eccentricity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "vis viva equation calculator",
+    "orbital velocity formula v squared online",
+    "escape velocity circular velocity calculator",
+    "semimajor axis orbital period kepler third law calculator",
+    "astrodynamics orbital mechanics space navigation online"
+  ],
+  "order": 1412
+}

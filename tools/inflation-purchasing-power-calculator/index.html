@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inflation Purchasing Power Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate how annual inflation erodes your money's future purchasing power and determine the future value required to match today's wealth.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/inflation-purchasing-power-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Inflation Purchasing Power Calculator | NikTool">
+  <meta property="og:description" content="Calculate how annual inflation erodes your money's future purchasing power and determine the future value required to match today's wealth.">
+  <meta property="og:url" content="https://niktool.in/tools/inflation-purchasing-power-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Inflation Purchasing Power Calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/inflation-purchasing-power-calculator/",
+        "description": "Calculate how annual inflation erodes your money's future purchasing power and determine the future value required to match today's wealth.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the Rule of 72 for inflation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dividing 72 by the annual inflation rate gives the approximate number of years it takes for your money's purchasing power to be halved (72 / 6% = 12 years)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Inflation Purchasing Power Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Inflation Purchasing Power Calculator</h1>
+      <p>Calculate how annual inflation erodes your money's future purchasing power and determine the future value required to match today's wealth.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Inflation Projection Inputs</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="inf-current">Current Money Amount ($ / ₹)</label>
+          <input class="tool-textarea" id="inf-current" type="number" step="any" placeholder="e.g. 100000" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inf-rate">Annual Inflation Rate (%)</label>
+          <input class="tool-textarea" id="inf-rate" type="number" step="any" value="6.0" placeholder="6.0" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inf-years">Years in Future</label>
+          <input class="tool-textarea" id="inf-years" type="number" step="any" value="10" placeholder="10" />
+        </div>
+      </div>
+      <div id="inf-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="inf-res-future-power" style="color:#c53030; font-weight:800; font-size:1.6rem;">-</span>
+            <span class="stat-label">Future Purchasing Value of This Money</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="inf-res-needed" style="font-weight:700;">-</span>
+            <span class="stat-label">Amount Needed in Future to Match Today</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="inf-res-loss">-</span>
+            <span class="stat-label">Purchasing Power Loss %</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Inflation Purchasing Power Calculator</h2>
+      <ol>
+        <li>Enter your current savings or capital balance.</li>
+        <li>Enter the estimated average annual inflation rate (e.g. 6%).</li>
+        <li>Enter the forecast horizon in years.</li>
+        <li>Click <strong>Calculate</strong> to inspect the eroded real value and the target future capital needed.</li>
+      </ol>
+
+      <h2>Silent Wealth Erosion by Inflation</h2>
+      <p>Inflation continuously reduces the quantity of goods and services a fixed sum of cash can buy. A 6% annual inflation rate cuts real purchasing power in half in approximately 12 years.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the Rule of 72 for inflation?</summary>
+        <p>Dividing 72 by the annual inflation rate gives the approximate number of years it takes for your money's purchasing power to be halved (72 / 6% = 12 years).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/inflation-purchasing-power-calculator/tool.js"></script>
+</body>
+</html>

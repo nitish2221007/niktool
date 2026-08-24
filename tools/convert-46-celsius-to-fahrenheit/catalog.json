@@ -1,0 +1,15 @@
+{
+  "name": "Convert 46°C Celsius to Fahrenheit",
+  "description": "Convert 46 degrees Celsius (°C) to Fahrenheit (114.8°F).",
+  "path": "/tools/convert-46-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 46 celsius to fahrenheit",
+    "Convert 46°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

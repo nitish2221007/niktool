@@ -1,0 +1,15 @@
+{
+  "name": "Vertical Jump Height & Peak Ground Reaction Force (GRF) Calculator",
+  "description": "Calculate athletic vertical jump height (h = v_takeoff² / 2g) in cm/inches, flight hang time, and peak ground reaction impulse force (GRF = m · (g + a)).",
+  "path": "/tools/jump-height-ground-reaction-force-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "vertical jump calculator",
+    "jump height take off velocity formula v2 over 2g",
+    "ground reaction force vertical jump calculator online",
+    "hang time jump height calculator online",
+    "sports biomechanics force plate jump calculator"
+  ],
+  "order": 638
+}

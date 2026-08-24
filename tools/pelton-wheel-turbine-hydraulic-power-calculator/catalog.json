@@ -1,0 +1,15 @@
+{
+  "name": "Pelton Wheel Impulse Turbine Hydraulic Power & Jet Speed Calculator",
+  "description": "Calculate high-head impulse Pelton hydroelectric turbine jet velocity (v_jet = C_v · √(2 · g · H)) in m/s, runner bucket RPM, and mechanical power output (P = η · ρ · g · Q · H) in kW/MW.",
+  "path": "/tools/pelton-wheel-turbine-hydraulic-power-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pelton wheel calculator",
+    "impulse hydraulic turbine power formula",
+    "jet velocity v sqrt 2gh calculator",
+    "pelton runner bucket rpm calculator online",
+    "high head hydro power generation calculator"
+  ],
+  "order": 561
+}

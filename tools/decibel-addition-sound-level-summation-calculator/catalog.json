@@ -1,0 +1,15 @@
+{
+  "name": "Decibel Addition (Sound Source Summation) Calculator",
+  "description": "Calculate total combined sound pressure level (SPL_tot = 10 · log₁₀(Σ 10^(SPLᵢ / 10))) from multiple simultaneous uncorrelated noise sources.",
+  "path": "/tools/decibel-addition-sound-level-summation-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "decibel addition calculator",
+    "sound level summation calculator",
+    "add multiple db sources online",
+    "uncorrelated noise decibel addition formula",
+    "spl sum calculator online"
+  ],
+  "order": 378
+}

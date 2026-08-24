@@ -1,0 +1,16 @@
+{
+  "name": "Compress Image to 500KB Online",
+  "description": "Compress JPG, PNG, and WebP images to under 500KB without losing quality. 100% free, private, and processed locally in your browser.",
+  "path": "/tools/compress-image-to-500kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "compress image to 500kb",
+    "Compress Image to 500KB Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

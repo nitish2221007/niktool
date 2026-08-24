@@ -1,0 +1,15 @@
+{
+  "name": "Road Trip Fuel Cost & Gas Mileage Calculator",
+  "description": "Calculate total gasoline fuel costs, required fuel liters/gallons, and per-passenger travel costs from trip distance and vehicle fuel economy.",
+  "path": "/tools/fuel-gas-trip-cost-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "fuel trip cost calculator",
+    "gas mileage trip cost calculator",
+    "road trip gas cost calculator",
+    "car fuel consumption calculator",
+    "calculate petrol cost for trip"
+  ],
+  "order": 217
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Gibbs Free Energy & Spontaneity Calculator (ΔG)",
+  "description": "Calculate reaction Gibbs Free Energy change (ΔG = ΔH - T·ΔS) and equilibrium temperature to determine chemical thermodynamic spontaneity.",
+  "path": "/tools/gibbs-free-energy-spontaneity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gibbs free energy calculator",
+    "delta g delta h t delta s",
+    "chemical spontaneity calculator",
+    "thermodynamic equilibrium temperature",
+    "exergonic vs endergonic calculator online"
+  ],
+  "order": 240
+}

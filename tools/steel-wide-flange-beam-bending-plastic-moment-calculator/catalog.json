@@ -1,0 +1,15 @@
+{
+  "name": "Steel Wide-Flange Beam Plastic Bending Moment (M_p) Calculator",
+  "description": "Calculate nominal plastic bending moment capacity (M_p = F_y · Z_x) and LRFD design flexural strength (ϕM_p = 0.90 · F_y · Z_x) for I-beams and W-sections.",
+  "path": "/tools/steel-wide-flange-beam-bending-plastic-moment-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "plastic moment calculator",
+    "mp fy zx formula",
+    "wide flange beam flexural capacity calculator",
+    "steel beam plastic section modulus calculator",
+    "aisc lrfd beam bending capacity online"
+  ],
+  "order": 455
+}

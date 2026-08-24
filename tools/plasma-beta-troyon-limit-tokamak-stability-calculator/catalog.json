@@ -1,0 +1,15 @@
+{
+  "name": "Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator",
+  "description": "Calculate tokamak magnetic confinement efficiency Plasma Beta percentage β (β = 2μ₀·⟨p⟩ / B² · 100%), Troyon Normalized Beta stability parameter β_N (β_N = β% / (I_p / a·B_T)), and evaluate the ideal MHD Troyon limit (β_N ≤ 2.8 to 3.5).",
+  "path": "/tools/plasma-beta-troyon-limit-tokamak-stability-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "plasma beta calculator",
+    "troyon limit normalized beta formula online",
+    "magnetic confinement efficiency beta percentage calculator",
+    "plasma pressure magnetic pressure ratio calculator",
+    "plasma physics magnetohydrodynamics nuclear fusion online"
+  ],
+  "order": 1402
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 179cm, Weight 62kg)",
+  "description": "Calculate Body Mass Index (BMI 19.4) for height 179 cm and weight 62 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-179cm-weight-62kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 179cm weight 62kg",
+    "BMI Calculator (Height 179cm, Weight 62kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

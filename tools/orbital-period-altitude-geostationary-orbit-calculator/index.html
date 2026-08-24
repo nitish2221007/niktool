@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate satellite orbital period (T = 2π · √(a³ / μ)) in minutes/hours, geostationary synchronization altitude (h_GEO = 35,786 km), and orbital ground speed using Kepler's Third Law.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/orbital-period-altitude-geostationary-orbit-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate satellite orbital period (T = 2π · √(a³ / μ)) in minutes/hours, geostationary synchronization altitude (h_GEO = 35,786 km), and orbital ground speed using Kepler's Third Law.">
+  <meta property="og:url" content="https://niktool.in/tools/orbital-period-altitude-geostationary-orbit-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/orbital-period-altitude-geostationary-orbit-calculator/",
+        "description": "Calculate satellite orbital period (T = 2π · √(a³ / μ)) in minutes/hours, geostationary synchronization altitude (h_GEO = 35,786 km), and orbital ground speed using Kepler's Third Law.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is Geostationary Orbit located strictly above the equator?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because the orbital plane must pass through Earth's center of mass, only an equatorial orbit remains stationary over a single ground latitude ($0^circ$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator</h1>
+      <p>Calculate satellite orbital period (T = 2π · √(a³ / μ)) in minutes/hours, geostationary synchronization altitude (h_GEO = 35,786 km), and orbital ground speed using Kepler's Third Law.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Satellite Orbital Altitude h above Earth Surface (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="geo-alt">Altitude h (km)</label>
+        <input class="tool-textarea" id="geo-alt" type="number" step="500" min="100" value="35786" placeholder="35,786 km (Geostationary GEO)" />
+      </div>
+      <div id="geo-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="geo-res-per" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Period T = 23.93 Hours (1 Sidereal Day)</span>
+            <span class="stat-label">Orbital Period (T = 2π·√(a³/μ))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="geo-res-spd" style="color:var(--green-dark); font-weight:700;">Speed v = 3.07 km/s (11,068 km/h) | GEO: Stationary over fixed Earth longitude</span>
+            <span class="stat-label">Orbital Velocity & Earth Rotation Synchronization</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Geostationary Orbit (GEO Altitude h = 35,786 km & Kepler Period T = 2π·√(a³/μ)) Calculator</h2>
+      <ol>
+        <li>Enter satellite orbital altitude above Earth in km.</li>
+        <li>Inspect orbital period in minutes/hours and orbital velocity in km/s.</li>
+      </ol>
+
+      <h2>Arthur C. Clarke 1945 Geostationary Orbit Concept</h2>
+      <p>At an altitude of exactly $35,786	ext{ km}$, a satellite's orbital period matches Earth's sidereal rotation ($23.93	ext{ hours}$), allowing stationary ground satellite TV dishes.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is Geostationary Orbit located strictly above the equator?</summary>
+        <p>Because the orbital plane must pass through Earth's center of mass, only an equatorial orbit remains stationary over a single ground latitude ($0^circ$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/orbital-period-altitude-geostationary-orbit-calculator/tool.js"></script>
+</body>
+</html>

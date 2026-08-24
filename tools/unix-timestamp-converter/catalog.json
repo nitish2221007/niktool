@@ -1,0 +1,19 @@
+{
+  "name": "Unix Timestamp Converter",
+  "description": "Convert Unix epoch timestamps in seconds and milliseconds to human-readable UTC and local dates, or convert dates to timestamps. Free and 100% private.",
+  "path": "/tools/unix-timestamp-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "unix timestamp converter",
+    "epoch converter",
+    "epoch to date",
+    "date to timestamp",
+    "timestamp to human date",
+    "unix time converter",
+    "utc timestamp converter",
+    "epoch time online",
+    "current unix epoch"
+  ],
+  "order": 56
+}

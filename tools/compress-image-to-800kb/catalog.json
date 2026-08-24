@@ -1,0 +1,15 @@
+{
+  "name": "Compress Image to 800KB Online",
+  "description": "Compress JPG, PNG, and WebP images to under 800KB without losing quality. 100% free and local.",
+  "path": "/tools/compress-image-to-800kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "compress image to 800kb",
+    "Compress Image to 800KB Online",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

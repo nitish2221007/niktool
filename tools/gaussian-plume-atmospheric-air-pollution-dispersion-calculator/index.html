@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate ground-level industrial smokestack air pollutant concentration C in μg/m³ (Gaussian Plume Equation) from emission source rate Q, wind speed u, effective stack height H, and Pasquill-Gifford dispersion coefficients (σ_y, σ_z).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/gaussian-plume-atmospheric-air-pollution-dispersion-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator | NikTool">
+  <meta property="og:description" content="Calculate ground-level industrial smokestack air pollutant concentration C in μg/m³ (Gaussian Plume Equation) from emission source rate Q, wind speed u, effective stack height H, and Pasquill-Gifford dispersion coefficients (σ_y, σ_z).">
+  <meta property="og:url" content="https://niktool.in/tools/gaussian-plume-atmospheric-air-pollution-dispersion-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/gaussian-plume-atmospheric-air-pollution-dispersion-calculator/",
+        "description": "Calculate ground-level industrial smokestack air pollutant concentration C in μg/m³ (Gaussian Plume Equation) from emission source rate Q, wind speed u, effective stack height H, and Pasquill-Gifford dispersion coefficients (σ_y, σ_z).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What causes maximum ground-level concentration to occur some distance downwind?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Directly at the base of the stack, the elevated plume ($H$) hasn't diffused down yet; concentration peaks at $x_{max} approx H / sqrt{2}$ before wind dilution reduces it."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator</h1>
+      <p>Calculate ground-level industrial smokestack air pollutant concentration C in μg/m³ (Gaussian Plume Equation) from emission source rate Q, wind speed u, effective stack height H, and Pasquill-Gifford dispersion coefficients (σ_y, σ_z).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Emission Rate Q (g/s), Wind Speed u (m/s), Effective Height H (m) & Downwind Distance x (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="gp-q">Emission Q (g/s)</label>
+          <input class="tool-textarea" id="gp-q" type="number" step="10" value="100.0" placeholder="100.0 g/s SO₂" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gp-u">Wind Speed u (m/s)</label>
+          <input class="tool-textarea" id="gp-u" type="number" step="0.5" value="4.0" placeholder="4.0 m/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gp-h">Stack Height H (m)</label>
+          <input class="tool-textarea" id="gp-h" type="number" step="10" value="80.0" placeholder="80.0 m (Effective)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gp-x">Distance x (km)</label>
+          <input class="tool-textarea" id="gp-x" type="number" step="0.5" value="2.0" placeholder="2.0 km Downwind" />
+        </div>
+      </div>
+      <div id="gp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gp-res-c" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Ground Conc C = 112.4 μg / m³ (0.112 mg/m³)</span>
+            <span class="stat-label">Centerline Ground-Level Air Pollutant Concentration (z = 0, y = 0)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gp-res-sig" style="color:var(--green-dark); font-weight:700;">Dispersion: σ_y = 156.4 m | σ_z = 89.2 m (Class C Slightly Unstable Atmosphere)</span>
+            <span class="stat-label">Pasquill-Gifford Lateral & Vertical Gaussian Standard Deviations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator</h2>
+      <ol>
+        <li>Enter continuous smokestack emission mass flow rate Q in g/s (e.g. $	ext{SO}_2, 	ext{NO}_x$).</li>
+        <li>Enter mean ambient wind speed u in m/s at stack top height.</li>
+        <li>Enter effective plume release height H in meters (physical stack height + buoyant plume rise).</li>
+        <li>Enter receptor downwind distance x in kilometers.</li>
+        <li>Inspect ground-level ambient pollutant concentration in $mu	ext{g/m}^3$ and Pasquill dispersion spreads.</li>
+      </ol>
+
+      <h2>EPA Industrial Source Complex (ISC3 / AERMOD) Standard</h2>
+      <p>Universal atmospheric dispersion modeling equation governing Clean Air Act Title V industrial environmental compliance permits and smokestack height regulations.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What causes maximum ground-level concentration to occur some distance downwind?</summary>
+        <p>Directly at the base of the stack, the elevated plume ($H$) hasn't diffused down yet; concentration peaks at $x_{max} approx H / sqrt{2}$ before wind dilution reduces it.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/gaussian-plume-atmospheric-air-pollution-dispersion-calculator/tool.js"></script>
+</body>
+</html>

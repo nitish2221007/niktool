@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 20 Units)",
+  "description": "Calculate the exact area of a circle with radius 20 units (A = πr² = 1256.64).",
+  "path": "/tools/area-of-circle-radius-20-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 20 units",
+    "Area of Circle (Radius 20 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

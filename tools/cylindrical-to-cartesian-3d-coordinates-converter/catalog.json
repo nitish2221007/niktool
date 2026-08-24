@@ -1,0 +1,15 @@
+{
+  "name": "Cylindrical to Cartesian 3D Coordinates Converter",
+  "description": "Convert 3D coordinates between Cylindrical systems (ρ radius, φ azimuth, z height) and Cartesian rectangular systems (x, y, z).",
+  "path": "/tools/cylindrical-to-cartesian-3d-coordinates-converter/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cylindrical to cartesian converter",
+    "cylindrical coordinates 3d calculator",
+    "rho phi z to xyz online",
+    "polar 3d coordinate transformation",
+    "cylindrical coordinate geometry"
+  ],
+  "order": 280
+}

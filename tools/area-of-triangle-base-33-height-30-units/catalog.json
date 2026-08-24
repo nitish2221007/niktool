@@ -1,0 +1,15 @@
+{
+  "name": "Area of Triangle (Base 33 x Height 30)",
+  "description": "Calculate area of triangle with base 33 and height 30 (A = 0.5 bh = 495.0).",
+  "path": "/tools/area-of-triangle-base-33-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of triangle base 33 height 30 units",
+    "Area of Triangle (Base 33 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

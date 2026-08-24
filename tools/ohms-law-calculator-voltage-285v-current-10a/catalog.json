@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 285V, Current 10A)",
+  "description": "Calculate Resistance (28.50 Ω) and Electric Power (2850.0 W) for 285V voltage and 10A current.",
+  "path": "/tools/ohms-law-calculator-voltage-285v-current-10a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 285v current 10a",
+    "Ohm's Law Calculator (Voltage 285V, Current 10A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

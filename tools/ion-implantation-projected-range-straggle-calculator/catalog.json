@@ -1,0 +1,15 @@
+{
+  "name": "Ion Implantation Projected Range & Straggle (LSS Theory) Calculator",
+  "description": "Calculate semiconductor dopant ion implantation depth profile (Projected Range R_p and Straggle ΔR_p) and peak Gaussian dopant concentration (N_peak = Dose / (√(2π)·ΔR_p)).",
+  "path": "/tools/ion-implantation-projected-range-straggle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ion implantation calculator",
+    "projected range rp straggle delta rp lss theory formula",
+    "peak dopant concentration gaussian profile calculator",
+    "boron phosphorus arsenic ion implantation silicon online",
+    "semiconductor dopant profile calculator"
+  ],
+  "order": 673
+}

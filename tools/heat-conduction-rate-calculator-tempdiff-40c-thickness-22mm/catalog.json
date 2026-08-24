@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Heat Conduction Calculator (ΔT=40°C, Thick 22mm)",
+  "description": "Calculate conduction heat transfer rate (Q = 90909 W) across 22mm steel wall at ΔT=40°C.",
+  "path": "/tools/heat-conduction-rate-calculator-tempdiff-40c-thickness-22mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "heat conduction rate calculator tempdiff 40c thickness 22mm",
+    "Thermal Heat Conduction Calculator (ΔT=40°C, Thick 22mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

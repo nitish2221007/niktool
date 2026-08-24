@@ -1,0 +1,15 @@
+{
+  "name": "Planck's Law Blackbody Spectral Radiance (B_λ(T) = 2hc² / (λ⁵·(e^(hc/λkT) - 1))) Calculator",
+  "description": "Calculate spectral radiance B_λ(T) in W/(sr·m³), Rayleigh-Jeans classical ultraviolet catastrophe limit, and quantum spectral intensity across infrared, visible, and ultraviolet wavelengths.",
+  "path": "/tools/planck-blackbody-spectral-radiance-wavelength-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "planck law calculator",
+    "blackbody spectral radiance formula online",
+    "quantum blackbody radiation curve intensity calculator",
+    "planck radiation law ultraviolet catastrophe calculator",
+    "quantum physics stellar thermodynamics online"
+  ],
+  "order": 1168
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate unknown solution molar concentration (c = A / (ε · b)) in μM/mM and percentage optical transmittance (%T = 10^(-A) · 100) from UV-Vis spectrophotometer absorbance A, molar absorptivity ε, and cuvette path length b.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/spectrophotometry-beer-lambert-molar-extinction-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator | NikTool">
+  <meta property="og:description" content="Calculate unknown solution molar concentration (c = A / (ε · b)) in μM/mM and percentage optical transmittance (%T = 10^(-A) · 100) from UV-Vis spectrophotometer absorbance A, molar absorptivity ε, and cuvette path length b.">
+  <meta property="og:url" content="https://niktool.in/tools/spectrophotometry-beer-lambert-molar-extinction-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/spectrophotometry-beer-lambert-molar-extinction-calculator/",
+        "description": "Calculate unknown solution molar concentration (c = A / (ε · b)) in μM/mM and percentage optical transmittance (%T = 10^(-A) · 100) from UV-Vis spectrophotometer absorbance A, molar absorptivity ε, and cuvette path length b.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do absorbance readings above A = 2.0 become inaccurate?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At $A = 2.0$, only 1% of light is transmitted; detector stray light and electronic noise dominate, causing non-linear deviation from Beer's law."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator</h1>
+      <p>Calculate unknown solution molar concentration (c = A / (ε · b)) in μM/mM and percentage optical transmittance (%T = 10^(-A) · 100) from UV-Vis spectrophotometer absorbance A, molar absorptivity ε, and cuvette path length b.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Absorbance A (0 to 2.5), Molar Absorptivity ε (L/(mol·cm)) & Path Length b (cm, default 1.0 cm)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="beer-abs">Absorbance (A)</label>
+          <input class="tool-textarea" id="beer-abs" type="number" step="0.05" value="0.650" placeholder="0.650 (OD)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="beer-eps">Extinction ε</label>
+          <input class="tool-textarea" id="beer-eps" type="number" step="1000" value="14500" placeholder="14,500 L/(mol·cm)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="beer-b">Path Length b (cm)</label>
+          <input class="tool-textarea" id="beer-b" type="number" step="0.1" value="1.0" placeholder="1.0 cm (Standard Cuvette)" />
+        </div>
+      </div>
+      <div id="beer-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="beer-res-conc" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">c = 44.83 μM (4.48 × 10⁻⁵ M)</span>
+            <span class="stat-label">Calculated Molar Concentration (c = A / (ε·b))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="beer-res-trans" style="color:var(--green-dark); font-weight:700;">Transmittance %T = 22.4% (Linear Dynamic Range: 0.1 < A < 1.5 Satisfied)</span>
+            <span class="stat-label">Percentage Optical Transmittance & Dynamic Linearity Range</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator</h2>
+      <ol>
+        <li>Enter spectrophotometer optical density / absorbance reading A at peak wavelength $lambda_{max}$.</li>
+        <li>Enter substance molar extinction coefficient $arepsilon$ in $	ext{L}/(	ext{mol}cdot	ext{cm})$.</li>
+        <li>Enter quartz/plastic cuvette optical path length b in cm (standard is 1.0 cm).</li>
+        <li>Inspect solution concentration in $mu	ext{M}$ / mM and verify that absorbance lies within the linear dynamic range ($0.1 le A le 1.5$).</li>
+      </ol>
+
+      <h2>August Beer & Johann Heinrich Lambert Spectrophotometric Law</h2>
+      <p>Absorbance is directly proportional to concentration ($A = arepsilon b c$); quantifying protein concentrations (NanoDrop $A_{280}$), nucleic acids ($A_{260}$), and chemical dye solutions forms the backbone of quantitative analytical chemistry.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do absorbance readings above A = 2.0 become inaccurate?</summary>
+        <p>At $A = 2.0$, only 1% of light is transmitted; detector stray light and electronic noise dominate, causing non-linear deviation from Beer's law.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/spectrophotometry-beer-lambert-molar-extinction-calculator/tool.js"></script>
+</body>
+</html>

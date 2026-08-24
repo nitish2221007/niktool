@@ -1,0 +1,15 @@
+{
+  "name": "CNC Spindle Cutting Power & Machinability Power Requirement Calculator",
+  "description": "Calculate net spindle motor horsepower and kilowatts (P = MRR · K_p / η) required to machine Aluminum, Steel, Titanium, and Cast Iron from unit power coefficients K_p.",
+  "path": "/tools/drill-thrust-force-spindle-power-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "spindle cutting power calculator",
+    "machining motor power formula mrr times kp",
+    "horsepower required milling turning calculator",
+    "unit power coefficient kp steel aluminum online",
+    "cnc spindle horsepower demand calculator"
+  ],
+  "order": 573
+}

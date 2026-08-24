@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boyle's Law Gas Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Solve for pressure or volume in isothermal gas expansion and compression using Boyle's law P₁ · V₁ = P₂ · V₂.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/boyles-law-gas-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Boyle's Law Gas Calculator | NikTool">
+  <meta property="og:description" content="Solve for pressure or volume in isothermal gas expansion and compression using Boyle's law P₁ · V₁ = P₂ · V₂.">
+  <meta property="og:url" content="https://niktool.in/tools/boyles-law-gas-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Boyle's Law Gas Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/boyles-law-gas-calculator/",
+        "description": "Solve for pressure or volume in isothermal gas expansion and compression using Boyle's law P₁ · V₁ = P₂ · V₂.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Does Boyle's Law hold during temperature changes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, Boyle's Law strictly assumes an isothermal process with constant temperature (T₁ = T₂)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Boyle's Law Gas Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Boyle's Law Gas Calculator</h1>
+      <p>Solve for pressure or volume in isothermal gas expansion and compression using Boyle's law P₁ · V₁ = P₂ · V₂.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Boyle's Law Equation (P₁V₁ = P₂V₂)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="boyle-solve">Solve For:</label>
+        <select class="tool-textarea" id="boyle-solve">
+          <option value="P2" selected>Final Pressure (P₂)</option>
+          <option value="V2">Final Volume (V₂)</option>
+          <option value="P1">Initial Pressure (P₁)</option>
+          <option value="V1">Initial Volume (V₁)</option>
+        </select>
+      </div>
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1rem;">
+        <div class="control-group" id="grp-bp1">
+          <label class="control-label" for="boyle-p1">Initial Pressure P₁ (atm / kPa)</label>
+          <input class="tool-textarea" id="boyle-p1" type="number" step="any" value="1.0" placeholder="1.0" />
+        </div>
+        <div class="control-group" id="grp-bv1">
+          <label class="control-label" for="boyle-v1">Initial Volume V₁ (Liters)</label>
+          <input class="tool-textarea" id="boyle-v1" type="number" step="any" value="10.0" placeholder="10.0" />
+        </div>
+        <div class="control-group" id="grp-bp2" style="display:none;">
+          <label class="control-label" for="boyle-p2">Final Pressure P₂</label>
+          <input class="tool-textarea" id="boyle-p2" type="number" step="any" value="2.0" placeholder="2.0" />
+        </div>
+        <div class="control-group" id="grp-bv2">
+          <label class="control-label" for="boyle-v2">Final Volume V₂</label>
+          <input class="tool-textarea" id="boyle-v2" type="number" step="any" value="5.0" placeholder="5.0" />
+        </div>
+      </div>
+      <div id="boyle-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="boyle-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">-</span>
+            <span class="stat-label">Calculated Result</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Boyle's Law Gas Calculator</h2>
+      <ol>
+        <li>Select the variable to solve (P₁, V₁, P₂, or V₂).</li>
+        <li>Enter the known initial and final states.</li>
+        <li>Click <strong>Calculate</strong> to inspect the isothermal pressure-volume result.</li>
+      </ol>
+
+      <h2>Boyle's Law Principle</h2>
+      <p>At constant temperature, the absolute pressure and volume of a fixed mass of ideal gas are inversely proportional (P₁V₁ = P₂V₂ = constant). Halving the gas volume doubles its pressure.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Does Boyle's Law hold during temperature changes?</summary>
+        <p>No, Boyle's Law strictly assumes an isothermal process with constant temperature (T₁ = T₂).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/boyles-law-gas-calculator/tool.js"></script>
+</body>
+</html>

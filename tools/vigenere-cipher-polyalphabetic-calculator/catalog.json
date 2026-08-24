@@ -1,0 +1,15 @@
+{
+  "name": "Vigenère Cipher Polyalphabetic Encryptor & Decryptor",
+  "description": "Encrypt and decrypt messages using the polyalphabetic Blaise de Vigenère tabula recta cipher with custom passphrase keys.",
+  "path": "/tools/vigenere-cipher-polyalphabetic-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "vigenere cipher calculator",
+    "vigenere cipher decoder online",
+    "polyalphabetic cipher generator",
+    "tabula recta vigenere encryption",
+    "vigenere cipher key solver online"
+  ],
+  "order": 412
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Appliance Electricity Cost & Bill Calculator",
+    "description": "Calculate daily, monthly, and annual electricity costs for home appliances (AC, heater, PC, fridge) from wattage and local kWh utility tariffs.",
+    "path": "/tools/electricity-appliance-power-cost-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "electricity cost calculator",
+      "appliance power consumption calculator",
+      "kwh cost calculator",
+      "calculate electric bill from wattage",
+      "energy running cost calculator"
+    ]
+  },
+  {
+    "name": "Sleep Cycle & Wake-Up Time Calculator",
+    "description": "Calculate optimal wake-up times and bedtimes based on 90-minute natural REM sleep cycles to wake up feeling refreshed and energized.",
+    "path": "/tools/sleep-cycle-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "sleep cycle calculator",
+      "optimal bedtime calculator",
+      "90 minute sleep cycle calculator",
+      "when should i wake up calculator",
+      "rem sleep cycle planner"
+    ]
+  },
+  {
+    "name": "Typography Units Converter (PX, REM, EM, PT)",
+    "description": "Convert CSS font sizes and spacing between Pixels (px), REM, EM, Points (pt), and Percentage (%) based on customizable root base font size.",
+    "path": "/tools/typography-px-to-rem-em-pt-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "px to rem converter",
+      "rem to px calculator",
+      "px to em typography converter",
+      "css font size converter",
+      "px to pt converter online"
+    ]
+  },
+  {
+    "name": "Trapezoid Area & Perimeter Calculator",
+    "description": "Calculate trapezoid area (A = ½ · (a + b) · h), perimeter, and median length from base lengths, height, and side legs.",
+    "path": "/tools/trapezoid-area-perimeter-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "trapezoid area calculator",
+      "trapezium area calculator",
+      "perimeter of trapezoid",
+      "trapezoid height base formula",
+      "geometry trapezoid solver"
+    ]
+  },
+  {
+    "name": "Parallelogram Area & Geometry Calculator",
+    "description": "Calculate parallelogram area using base and height (A = b · h) or side lengths and angle θ (A = a · b · sin θ) with diagonal lengths.",
+    "path": "/tools/parallelogram-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "parallelogram area calculator",
+      "area of parallelogram online",
+      "parallelogram diagonals calculator",
+      "base height parallelogram formula",
+      "geometry parallelogram solver"
+    ]
+  },
+  {
+    "name": "Rhombus Area & Diagonals Calculator",
+    "description": "Calculate rhombus area (A = ½ · d₁ · d₂), side length, perimeter, and inradius from diagonal lengths.",
+    "path": "/tools/rhombus-area-diagonals-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "rhombus area calculator",
+      "rhombus diagonals formula",
+      "perimeter of rhombus calculator",
+      "side length of rhombus from diagonals",
+      "geometry rhombus online"
+    ]
+  },
+  {
+    "name": "Circle Sector & Arc Length Calculator",
+    "description": "Calculate circle arc length (s = r·θ), sector area (A = ½·r²·θ), chord length, and segment area from radius and central angle.",
+    "path": "/tools/circle-sector-arc-length-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circle sector calculator",
+      "arc length calculator",
+      "sector area calculator",
+      "chord length calculator",
+      "circle segment area formula"
+    ]
+  },
+  {
+    "name": "Annulus (Ring) Area & Width Calculator",
+    "description": "Calculate the area (A = π · (R² - r²)), ring width, and average circumference of an annulus formed between two concentric circles.",
+    "path": "/tools/annulus-ring-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "annulus area calculator",
+      "ring area calculator",
+      "concentric circles area",
+      "pipe cross section area calculator",
+      "circular ring geometry"
+    ]
+  },
+  {
+    "name": "Salary Take-Home Pay & Net Salary Calculator",
+    "description": "Calculate monthly and annual net take-home salary after estimated income taxes, social security, retirement contributions, and insurance deductions.",
+    "path": "/tools/salary-take-home-pay-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "salary take home calculator",
+      "net pay calculator",
+      "gross to net salary calculator",
+      "paycheck calculator after taxes",
+      "monthly take home salary online"
+    ]
+  },
+  {
+    "name": "Salary Increment & Hike Calculator",
+    "description": "Calculate salary appraisal hike percentage, absolute increment raise amount, and new monthly/annual compensation.",
+    "path": "/tools/salary-increment-percentage-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "salary increment calculator",
+      "salary hike percentage calculator",
+      "appraisal hike calculator",
+      "pay raise percentage calculator",
+      "calculate salary increase online"
+    ]
+  },
+  {
+    "name": "Emergency Fund Savings Goal Calculator",
+    "description": "Calculate your target 3-to-6 month emergency cash reserve based on fixed monthly living expenses, debt obligations, and dependents.",
+    "path": "/tools/emergency-fund-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "emergency fund calculator",
+      "savings emergency fund target",
+      "3 to 6 months expenses calculator",
+      "emergency savings buffer calculator",
+      "financial safety net planner"
+    ]
+  },
+  {
+    "name": "FIRE (Financial Independence, Retire Early) Calculator",
+    "description": "Calculate your target FIRE retirement number (25x annual expenses), Safe Withdrawal Rate (4% rule), and years to achieve financial freedom.",
+    "path": "/tools/fire-financial-independence-retire-early-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "fire calculator",
+      "financial independence retire early calculator",
+      "4 percent rule calculator",
+      "fire number calculator",
+      "early retirement corpus calculator"
+    ]
+  },
+  {
+    "name": "Personal Net Worth Calculator",
+    "description": "Calculate total financial net worth by aggregating assets (cash, investments, real estate, vehicles) minus liabilities (mortgage, student loans, credit cards).",
+    "path": "/tools/net-worth-tracker-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "net worth calculator",
+      "personal balance sheet calculator",
+      "total assets minus liabilities",
+      "track net worth online",
+      "calculate financial net worth"
+    ]
+  },
+  {
+    "name": "Snell's Law Refraction & Critical Angle Calculator",
+    "description": "Calculate refraction angle (n₁·sin θ₁ = n₂·sin θ₂), critical angle, and total internal reflection for light passing between optical media.",
+    "path": "/tools/snells-law-refraction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "snells law calculator",
+      "refraction angle calculator",
+      "critical angle total internal reflection",
+      "optics light refraction formula",
+      "refractive index calculator online"
+    ]
+  },
+  {
+    "name": "Photon Energy & Planck Equation Calculator",
+    "description": "Calculate photon quantum energy (E = h · f = h · c / λ) in Joules and Electron-Volts (eV) from light wavelength or electromagnetic frequency.",
+    "path": "/tools/photon-energy-planck-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "photon energy calculator",
+      "planck equation calculator",
+      "wavelength to ev calculator",
+      "quantum photon energy online",
+      "ehf light energy calculator"
+    ]
+  },
+  {
+    "name": "Reynolds Number & Flow Regime Calculator",
+    "description": "Calculate pipe fluid Reynolds Number (Re = ρ·v·D / μ) to classify fluid motion into Laminar (Re below 2300), Transient, or Turbulent (Re above 4000) regimes.",
+    "path": "/tools/reynolds-number-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reynolds number calculator",
+      "fluid flow regime calculator",
+      "laminar vs turbulent flow",
+      "pipe fluid mechanics reynolds formula",
+      "viscosity reynolds number online"
+    ]
+  },
+  {
+    "name": "Simple Pendulum Period & Frequency Calculator",
+    "description": "Calculate pendulum oscillation period (T = 2π · √(L/g)), harmonic frequency (f = 1/T), and required string length from target timing.",
+    "path": "/tools/pendulum-period-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pendulum period calculator",
+      "simple pendulum formula",
+      "pendulum frequency calculator",
+      "physics pendulum oscillation time",
+      "length of pendulum for 1 second"
+    ]
+  },
+  {
+    "name": "Specific Heat Capacity & Thermal Energy Calculator",
+    "description": "Calculate thermal heat energy transfer (Q = m · c · ΔT), required heating power, and final equilibrium temperature.",
+    "path": "/tools/heat-capacity-specific-heat-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "specific heat capacity calculator",
+      "thermal energy calculator q mc delta t",
+      "heat required to warm water",
+      "calorimetry thermal calculator",
+      "specific heat formula online"
+    ]
+  },
+  {
+    "name": "LCM & GCD Multi-Number Calculator",
+    "description": "Calculate the Least Common Multiple (LCM) and Greatest Common Divisor (GCD / HCF) of two or more numbers with step-by-step prime factorization.",
+    "path": "/tools/least-common-multiple-lcm-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lcm calculator",
+      "gcd calculator",
+      "hcf calculator online",
+      "least common multiple of 3 numbers",
+      "greatest common divisor steps"
+    ]
+  },
+  {
+    "name": "Fraction Simplifier & Reducer Calculator",
+    "description": "Simplify proper and improper fractions to their lowest irreducible terms, convert to mixed numbers, and calculate exact decimal equivalents.",
+    "path": "/tools/fraction-simplifier-reducer-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "fraction simplifier",
+      "simplify fractions calculator",
+      "reduce fractions to lowest terms",
+      "improper fraction to mixed number",
+      "fraction to decimal converter"
+    ]
+  },
+  {
+    "name": "Torus (Donut) Volume & Surface Area Calculator",
+    "description": "Calculate the volume (V = 2π²·R·r²) and total surface area (A = 4π²·R·r) of a 3D geometric torus (donut ring) from major and minor radii.",
+    "path": "/tools/torus-volume-surface-area-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "torus volume calculator",
+      "surface area of torus",
+      "donut shape volume formula",
+      "geometry 3d torus calculator",
+      "pappus centroid theorem torus"
+    ]
+  },
+  {
+    "name": "Cone & Cylinder Volume Comparison Calculator",
+    "description": "Compare 3D volume and surface area between a cone (V = ⅓·π·r²·h) and cylinder (V = π·r²·h) with identical base radius and height.",
+    "path": "/tools/cone-cylinder-volume-surface-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cone volume calculator",
+      "cylinder volume calculator",
+      "cone vs cylinder volume ratio",
+      "cone surface area calculator",
+      "geometry cone cylinder formula"
+    ]
+  },
+  {
+    "name": "Prime Factorization & Factor Tree Calculator",
+    "description": "Decompose any integer into its unique prime factors with exponential notation (e.g. 360 = 2³ × 3² × 5) and total divisor count.",
+    "path": "/tools/prime-factor-tree-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "prime factorization calculator",
+      "prime factor tree online",
+      "factors of a number calculator",
+      "prime decomposition calculator",
+      "how to find prime factors"
+    ]
+  },
+  {
+    "name": "Mass Percent Concentration Calculator",
+    "description": "Calculate solution mass percentage concentration (Mass % = (Solute Mass / Solution Mass) · 100) or required solute mass for target percentage.",
+    "path": "/tools/mass-percent-concentration-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mass percent calculator",
+      "mass percentage concentration",
+      "solute solvent solution calculator",
+      "chemistry mass percent formula",
+      "weight percent solution calculator"
+    ]
+  }
+]

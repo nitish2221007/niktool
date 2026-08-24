@@ -1,0 +1,15 @@
+{
+  "name": "Steel Rebar Weight Calculator (8mm Diameter, 5m Length)",
+  "description": "Calculate steel reinforcement bar weight (1.98 kg) for 8mm diameter rebar of 5m length.",
+  "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-5m/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "steel rebar weight calculator diameter 8mm length 5m",
+    "Steel Rebar Weight Calculator (8mm Diameter, 5m Length)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

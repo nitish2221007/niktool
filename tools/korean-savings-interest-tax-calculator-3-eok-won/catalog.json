@@ -1,0 +1,15 @@
+{
+  "name": "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 3억원)",
+  "description": "Calculate net interest payout after 15.4% Interest Income Tax (이자소득세 14% + 지방소득세 1.4%) on ₩3억원 deposit.",
+  "path": "/tools/korean-savings-interest-tax-calculator-3-eok-won/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "korean savings interest tax calculator 3 eok won",
+    "Korean Fixed Deposit Interest Net Tax Calculator (15.4% 이자소득세 3억원)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1pt to PX",
+  "description": "Convert 1 points (pt) to pixels (1.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-1pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 1pt to px",
+    "Convert 1pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

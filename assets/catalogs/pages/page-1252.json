@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Debye Screening Length (λ_D) & Plasma Frequency (ω_pe) Calculator",
+    "description": "Calculate plasma Debye electrostatic screening shielding length λ_D in μm (λ_D = √(ε₀·k·T_e / (n_e·e²))), electron plasma oscillation frequency f_pe in GHz (f_pe = 1/2π · √(n_e·e² / (m_e·ε₀))), and plasma parameter N_D.",
+    "path": "/tools/debye-length-plasma-frequency-screening-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "debye length calculator",
+      "plasma frequency formula omega pe online",
+      "debye screening radius plasma parameter calculator",
+      "electron collective oscillation frequency calculator",
+      "plasma physics gas discharge fusion physics online"
+    ]
+  },
+  {
+    "name": "Coulomb Logarithm (ln Λ) & Spitzer Plasma Electrical Resistivity Calculator",
+    "description": "Calculate thermonuclear plasma Coulomb Logarithm ln Λ (ln Λ = ln(12π · n_e · λ_D³)), Spitzer transverse electrical resistivity η_Spitzer in Ω·m (η = 5.2 × 10⁻⁵ · Z_eff · ln Λ / T_e^(3/2)), and ohmic heating current limit.",
+    "path": "/tools/coulomb-logarithm-spitzer-plasma-resistivity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "coulomb logarithm calculator",
+      "spitzer resistivity formula plasma online",
+      "plasma electrical conductivity te to three halves calculator",
+      "ohmic heating tokamak spitzer resistivity calculator",
+      "plasma physics magnetohydrodynamics mhd nuclear fusion online"
+    ]
+  },
+  {
+    "name": "Nuclear Mass Defect (Δm) & Binding Energy per Nucleon (BE/A) Calculator",
+    "description": "Calculate atomic isotope nuclear Mass Defect Δm in atomic mass units (u) and MeV (Δm = Z·m_p + N·m_n - m_nucleus), Total Binding Energy E_B = Δm · 931.494 MeV, and Binding Energy per Nucleon (BE/A).",
+    "path": "/tools/mass-defect-nuclear-binding-energy-per-nucleon-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mass defect calculator",
+      "binding energy per nucleon formula be over a online",
+      "atomic mass unit u to mev 931.5 calculator",
+      "iron 56 nickel 62 peak binding energy calculator",
+      "nuclear physics relativity e equals mc squared online"
+    ]
+  },
+  {
+    "name": "Semi-Empirical Mass Formula (Weizsäcker Liquid Drop Model) Calculator",
+    "description": "Calculate nuclear binding energy B(A,Z) in MeV using the Bethe-Weizsäcker Semi-Empirical Mass Formula (SEMF Liquid Drop Model: Volume a_v·A, Surface -a_s·A^(2/3), Coulomb -a_c·Z²/A^(1/3), Asymmetry -a_a·(A-2Z)²/A, and Pairing terms δ).",
+    "path": "/tools/semi-empirical-mass-formula-weizsacker-liquid-drop-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "semi empirical mass formula calculator",
+      "liquid drop model weizsacker formula online",
+      "volume surface coulomb asymmetry pairing energy calculator",
+      "nuclear binding energy bethe weizsacker calculator",
+      "nuclear physics subatomic physics theoretical physics online"
+    ]
+  },
+  {
+    "name": "Gamma-Ray Linear Attenuation Coefficient & Half-Value Layer (HVL = ln 2 / μ) Calculator",
+    "description": "Calculate gamma and X-ray radiation shielding attenuation: Half-Value Layer HVL in cm (HVL = ln 2 / μ), Tenth-Value Layer TVL = ln 10 / μ, transmitted intensity I = I₀ · e^(-μ·x), and shielding thickness x.",
+    "path": "/tools/gamma-ray-half-value-layer-linear-attenuation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "half value layer calculator",
+      "gamma ray linear attenuation coefficient mu formula online",
+      "tenth value layer tvl lead shielding calculator",
+      "radiation transmission i equals i0 exp minus mu x calculator",
+      "health physics radiation protection medical physics online"
+    ]
+  },
+  {
+    "name": "Radiation Effective Dose Equivalent (Sieverts & Rems: E = ∑ w_T·H_T) Calculator",
+    "description": "Calculate radiation Equivalent Dose H_T in Sieverts/rem (H_T = w_R · D) and whole-body Effective Dose E in mSv (ICRP 103 Standard: E = ∑ w_T · H_T) from radiation weighting factors w_R and tissue weighting factors w_T.",
+    "path": "/tools/effective-dose-equivalent-radiation-sievert-rem-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radiation effective dose calculator",
+      "sievert to rem conversion formula online",
+      "icrp 103 tissue radiation weighting factor calculator",
+      "absorbed dose gray to equivalent dose sievert calculator",
+      "health physics radiation safety dosimetry online"
+    ]
+  },
+  {
+    "name": "Gamma-Ray Point Source Exposure Rate Constant (Γ) & Distance Attenuation Calculator",
+    "description": "Calculate unshielded point source gamma exposure rate X_dot in R/hr and mR/hr (Exposure Rate Formula: Ẋ = Γ · A / d²) from specific gamma constant Γ (R·m²/(Ci·hr)), isotope activity A (Curies/Bq), and distance d.",
+    "path": "/tools/point-source-gamma-radiation-exposure-rate-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gamma exposure rate calculator",
+      "point source gamma constant gamma formula online",
+      "inverse square radiation dose distance calculator",
+      "activity curies distance to r per hr calculator",
+      "radiation safety health physics industrial radiography online"
+    ]
+  },
+  {
+    "name": "Proton Therapy Bragg Peak Stopping Power (Bethe-Bloch -dE/dx) Calculator",
+    "description": "Calculate proton and heavy-ion cancer radiotherapy electronic stopping power -dE/dx in MeV/cm (Bethe-Bloch Formula: -dE/dx = (4π·n·z²·e⁴ / m_e·v²) · [ln(2m_e·v² / I) - β²]), Bragg peak depth, and relative biological effectiveness (RBE).",
+    "path": "/tools/bragg-peak-proton-therapy-stopping-power-bethe-bloch-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bragg peak calculator",
+      "bethe bloch stopping power formula online",
+      "proton therapy cancer radiation depth dose calculator",
+      "linear energy transfer let mev per cm calculator",
+      "medical physics radiation oncology proton therapy online"
+    ]
+  },
+  {
+    "name": "Tokamak Safety Factor (q_edge) & Kruskal-Shafranov Kink Stability Calculator",
+    "description": "Calculate tokamak magnetic confinement safety factor q_edge (q = (a·B_T / R·B_p) · (1 + κ²) / 2) from minor radius a, major radius R, toroidal field B_T, plasma current I_p, and elongation κ.",
+    "path": "/tools/tokamak-safety-factor-q-edge-kink-stability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tokamak safety factor calculator",
+      "q edge formula kruskal shafranov limit online",
+      "kink instability plasma current safety factor calculator",
+      "tokamak elongation kappa magnetic pitch calculator",
+      "plasma physics magnetohydrodynamics mhd nuclear fusion online"
+    ]
+  },
+  {
+    "name": "Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator",
+    "description": "Calculate tokamak magnetic confinement efficiency Plasma Beta percentage β (β = 2μ₀·⟨p⟩ / B² · 100%), Troyon Normalized Beta stability parameter β_N (β_N = β% / (I_p / a·B_T)), and evaluate the ideal MHD Troyon limit (β_N ≤ 2.8 to 3.5).",
+    "path": "/tools/plasma-beta-troyon-limit-tokamak-stability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "plasma beta calculator",
+      "troyon limit normalized beta formula online",
+      "magnetic confinement efficiency beta percentage calculator",
+      "plasma pressure magnetic pressure ratio calculator",
+      "plasma physics magnetohydrodynamics nuclear fusion online"
+    ]
+  },
+  {
+    "name": "Nuclear Macroscopic Cross-Section (Σ = N·σ) & Mean Free Path (λ_mfp) Calculator",
+    "description": "Calculate nuclear macroscopic reaction cross-section Σ in cm⁻¹ (Σ = N · σ = (ρ·N_A / M) · σ), neutron mean free path λ_mfp in cm (λ_mfp = 1 / Σ), and collision interaction reaction rate R = Σ · Φ.",
+    "path": "/tools/nuclear-cross-section-mean-free-path-attenuation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nuclear cross section calculator",
+      "macroscopic cross section sigma equals n sigma online",
+      "neutron mean free path formula lambda mfp calculator",
+      "reaction rate volumetric flux calculator",
+      "nuclear engineering reactor physics neutronics online"
+    ]
+  },
+  {
+    "name": "Neutron Moderation Logarithmic Energy Decrement (ξ) & Collisions to Thermal Calculator",
+    "description": "Calculate average logarithmic energy loss per neutron collision ξ (ξ = 1 + ((A - 1)² / 2A) · ln((A - 1)/(A + 1))), Moderating Ratio MR = ξ·Σ_s / Σ_a, and number of collisions N to thermalize fast 2 MeV fission neutrons to 0.025 eV.",
+    "path": "/tools/neutron-moderation-logarithmic-energy-decrement-xi-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "neutron moderation calculator",
+      "logarithmic energy decrement xi formula online",
+      "collisions to thermalize neutron 2 mev calculator",
+      "moderating ratio xi sigma s over sigma a calculator",
+      "nuclear reactor physics moderation graphite heavy water online"
+    ]
+  },
+  {
+    "name": "Nuclear Reactor Thermal Power & U-235 Fission Rate (3.12×10¹⁰ fissions/s·W) Calculator",
+    "description": "Calculate commercial nuclear power plant core Fission Rate F_dot in fissions/second (1 Watt = 3.12 × 10¹⁰ fissions/s based on 200 MeV / fission), daily Uranium-235 fuel mass consumption burnup in kg/day, and electrical output.",
+    "path": "/tools/nuclear-reactor-thermal-power-uranium-235-fission-rate-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reactor thermal power calculator",
+      "uranium 235 fission rate formula online",
+      "200 mev per fission 3.12e10 fissions per watt calculator",
+      "daily u235 fuel consumption kg per day calculator",
+      "nuclear power plant reactor engineering thermodynamics online"
+    ]
+  },
+  {
+    "name": "Radon Daughter Working Level (WL) & Working Level Month (WLM) Calculator",
+    "description": "Calculate indoor residential and uranium mine short-lived Radon daughter progeny (Po-218, Pb-214, Bi-214) Working Level (WL = (1.02·C_Po218 + 5.16·C_Pb214 + 3.83·C_Bi214) / 100 in pCi/L) and cumulative occupational Working Level Months (WLM).",
+    "path": "/tools/radon-progeny-working-level-working-level-month-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radon working level calculator",
+      "working level month wlm formula online",
+      "radon progeny potential alpha energy concentration calculator",
+      "uranium miner radon exposure limit calculator",
+      "radiation health physics environmental health online"
+    ]
+  },
+  {
+    "name": "Specific Gamma-Ray Constant Air Kerma & Radiation Dose Rate Calculator",
+    "description": "Calculate gamma point source Air Kerma Rate K_dot in μGy/hr and Equivalent Dose Rate H*(10) in μSv/hr (K_dot = Γ_delta · A / d²) from activity A in MBq and distance d in meters.",
+    "path": "/tools/specific-gamma-ray-constant-dose-rate-distance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "air kerma rate calculator",
+      "specific gamma ray constant air kerma formula online",
+      "dose equivalent rate distance attenuation calculator",
+      "radiological protection gamma point source calculator",
+      "medical physics radiation protection nuclear medicine online"
+    ]
+  },
+  {
+    "name": "Nuclear Reactor Post-Scram Decay Heat (ANS-5.1 / Wigner-Way Model) Calculator",
+    "description": "Calculate nuclear reactor post-scram residual fission product decay heat power P_decay(t) in MW (Wigner-Way Law: P(t)/P₀ = 0.066 · [t^(-0.2) - (t + t₀)^(-0.2)]) for emergency core cooling (ECCS) and spent fuel pool sizing.",
+    "path": "/tools/reactor-decay-heat-ans-5-1-standard-wigner-way-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reactor decay heat calculator",
+      "wigner way decay heat formula ans 5.1 online",
+      "post scram emergency core cooling heat load calculator",
+      "fission product residual heat mw calculator",
+      "nuclear safety reactor thermal hydraulics fukushima physics online"
+    ]
+  },
+  {
+    "name": "Fusion Energy Gain Factor (Q = P_fusion / P_heating) & Scientific Breakeven Calculator",
+    "description": "Calculate nuclear fusion energy gain factor Q (Q = P_fusion / P_aux_heating), net electrical gain Q_eng, alpha-particle self-heating power fraction f_alpha, and evaluate scientific breakeven (Q = 1), burning plasma (Q ≥ 5), and ignition (Q = ∞).",
+    "path": "/tools/fusion-energy-gain-factor-q-plasma-scientific-breakeven-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fusion energy gain factor calculator",
+      "fusion q factor formula p fusion over p heating online",
+      "scientific breakeven q equals 1 burning plasma calculator",
+      "alpha self heating fraction fusion calculator",
+      "nuclear fusion plasma physics tokamak iter nif online"
+    ]
+  },
+  {
+    "name": "Tsiolkovsky Rocket Equation (Δv = I_sp·g₀·ln(m₀/m_f)) & Mass Ratio Calculator",
+    "description": "Calculate rocket propulsion mission velocity change Delta-v in m/s (Tsiolkovsky Ideal Rocket Equation: Δv = I_sp · g₀ · ln(m₀ / m_f)), propellant mass fraction ζ, and initial wet mass to dry mass ratio m₀ / m_f.",
+    "path": "/tools/tsiolkovsky-rocket-equation-delta-v-mass-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tsiolkovsky rocket equation calculator",
+      "delta v formula isp mass ratio online",
+      "propellant mass fraction rocket staging calculator",
+      "specific impulse exhaust velocity delta v calculator",
+      "aerospace engineering orbital mechanics spaceflight astronautics online"
+    ]
+  },
+  {
+    "name": "Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator",
+    "description": "Calculate two-impulse Hohmann orbital transfer maneuver velocity changes Δv₁ and Δv₂ in km/s (Δv_total = Δv₁ + Δv₂), transfer orbit semimajor axis a_tx, and one-way flight transfer time t_transfer in days/hours.",
+    "path": "/tools/hohmann-transfer-orbit-delta-v-travel-time-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hohmann transfer orbit calculator",
+      "orbital delta v transfer formula online",
+      "interplanetary travel time earth mars hohmann calculator",
+      "two impulse coplanar circular transfer calculator",
+      "astrodynamics orbital mechanics space mission design online"
+    ]
+  },
+  {
+    "name": "Vis-Viva Orbital Velocity (v² = μ·(2/r - 1/a)) & Escape Velocity Calculator",
+    "description": "Calculate instantaneous Keplerian orbital velocity v in km/s (Vis-Viva Equation: v = √(μ · (2/r - 1/a))), parabolic Escape Velocity v_esc = √(2μ/r), circular velocity v_circ = √(μ/r), and orbital period T.",
+    "path": "/tools/orbital-velocity-vis-viva-equation-eccentricity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "vis viva equation calculator",
+      "orbital velocity formula v squared online",
+      "escape velocity circular velocity calculator",
+      "semimajor axis orbital period kepler third law calculator",
+      "astrodynamics orbital mechanics space navigation online"
+    ]
+  },
+  {
+    "name": "Bi-Elliptic Transfer Orbit (Three-Impulse Δv vs Hohmann) Calculator",
+    "description": "Calculate three-impulse Bi-Elliptic orbital transfer velocity changes (Δv_total = Δv₁ + Δv₂ + Δv₃), intermediate apoapsis boost radius r_b, and evaluate where Bi-Elliptic beats Hohmann transfer when radius ratio r₂ / r₁ exceeds 11.94.",
+    "path": "/tools/bi-elliptic-transfer-orbit-delta-v-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bi elliptic transfer calculator",
+      "three impulse orbital transfer formula online",
+      "bi elliptic vs hohmann transfer delta v calculator",
+      "sternfeld transfer intermediate apoapsis calculator",
+      "astrodynamics orbital mechanics space mission design online"
+    ]
+  },
+  {
+    "name": "Rocket Thrust Coefficient (C_F) & Effective Exhaust Velocity (c) Calculator",
+    "description": "Calculate rocket motor total thrust force F in kN (F = C_F · p_0 · A_t = m_dot · v_e + (p_e - p_a)·A_e), thrust coefficient C_F, characteristic exhaust velocity c*, and specific impulse I_sp.",
+    "path": "/tools/rocket-thrust-coefficient-effective-exhaust-velocity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rocket thrust coefficient calculator",
+      "thrust formula cf p0 at online",
+      "characteristic velocity c star effective exhaust velocity calculator",
+      "rocket chamber pressure throat area thrust calculator",
+      "rocket propulsion propulsion engineering astronautics online"
+    ]
+  },
+  {
+    "name": "De Laval Rocket Nozzle Isentropic Area-Mach Ratio (A/A* vs M) Calculator",
+    "description": "Calculate supersonic converging-diverging De Laval rocket nozzle expansion Area Ratio ε = A_e / A_t from exit Mach number M_e (A/A* = (1/M) · [(2/(γ+1)) · (1 + (γ-1)/2 · M²)]^((γ+1)/(2(γ-1)))), exit pressure ratio p_e/p_0, and temperature ratio.",
+    "path": "/tools/de-laval-rocket-nozzle-isentropic-area-mach-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "de laval nozzle calculator",
+      "area mach number relation formula a over a star online",
+      "rocket nozzle expansion ratio epsilon calculator",
+      "isentropic supersonic gas expansion calculator",
+      "compressible flow rocket propulsion aerospace engineering online"
+    ]
+  },
+  {
+    "name": "Oblique Shock Wave Theta-Beta-Mach (θ-β-M) Angle Relation Calculator",
+    "description": "Calculate supersonic compressible flow 2D wedge Oblique Shock Wave angle β in degrees from upstream Mach number M₁ and flow deflection wedge angle θ (Taylor-Maccoll θ-β-M Equation: tan θ = 2·cot β · (M₁²·sin²β - 1) / (M₁²·(γ + cos 2β) + 2)).",
+    "path": "/tools/oblique-shock-wave-theta-beta-mach-relation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "oblique shock wave calculator",
+      "theta beta mach relation formula online",
+      "supersonic shock angle wedge deflection calculator",
+      "normal mach downstream pressure jump calculator",
+      "aerodynamics compressible flow gas dynamics online"
+    ]
+  }
+]

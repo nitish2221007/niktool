@@ -1,0 +1,15 @@
+{
+  "name": "Rocket Thrust-to-Weight Ratio (TWR) & Tsiolkovsky Delta-v (Δv = I_sp·g₀·ln(m₀/m_f)) Calculator",
+  "description": "Calculate rocket liftoff Thrust-to-Weight ratio (TWR = F_thrust / (m₀·g₀)), initial sea-level acceleration (a = (TWR - 1)·g₀) in m/s², and mission delta-v budget (Δv = I_sp · g₀ · ln(m₀ / m_f)) in m/s.",
+  "path": "/tools/thrust-to-weight-ratio-twr-rocket-equation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rocket twr calculator",
+    "tsiolkovsky rocket equation delta v formula online",
+    "thrust to weight ratio liftoff acceleration calculator",
+    "specific impulse isp wet dry mass rocket calculator",
+    "aerospace orbital mechanics rocket propulsion online"
+  ],
+  "order": 1107
+}

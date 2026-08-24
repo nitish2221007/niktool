@@ -1,0 +1,15 @@
+{
+  "name": "Convert 61 Knots to KM/H Speed",
+  "description": "Convert 61 knots speed to kilometers per hour (112.97 km/h).",
+  "path": "/tools/convert-61-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 61 knots to kmh speed",
+    "Convert 61 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

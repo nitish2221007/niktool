@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Central Bank target policy interest rate (i = r* + π + 0.5·(π - π*) + 0.5·(y - y*)) in % using John Taylor's 1993 benchmark monetary policy rule from inflation and GDP output gap for economics students.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/monetary-policy-taylor-rule-federal-funds-rate-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator | NikTool">
+  <meta property="og:description" content="Calculate Central Bank target policy interest rate (i = r* + π + 0.5·(π - π*) + 0.5·(y - y*)) in % using John Taylor's 1993 benchmark monetary policy rule from inflation and GDP output gap for economics students.">
+  <meta property="og:url" content="https://niktool.in/tools/monetary-policy-taylor-rule-federal-funds-rate-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/monetary-policy-taylor-rule-federal-funds-rate-calculator/",
+        "description": "Calculate Central Bank target policy interest rate (i = r* + π + 0.5·(π - π*) + 0.5·(y - y*)) in % using John Taylor's 1993 benchmark monetary policy rule from inflation and GDP output gap for economics students.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the GDP output gap?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The percentage difference between actual real GDP and potential full-employment GDP ($y - y^*$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator</h1>
+      <p>Calculate Central Bank target policy interest rate (i = r* + π + 0.5·(π - π*) + 0.5·(y - y*)) in % using John Taylor's 1993 benchmark monetary policy rule from inflation and GDP output gap for economics students.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Current Inflation π (%), Target Inflation π* (2.0%), Real Equilibrium Rate r* (2.0%) & GDP Output Gap (y - y*) (%)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="tr-inf">Inflation π (%)</label>
+          <input class="tool-textarea" id="tr-inf" type="number" step="0.25" value="4.00" placeholder="4.00%" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tr-inftgt">Target π* (%)</label>
+          <input class="tool-textarea" id="tr-inftgt" type="number" step="0.25" value="2.00" placeholder="2.00% (Fed Target)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tr-rstar">Equilibrium r* (%)</label>
+          <input class="tool-textarea" id="tr-rstar" type="number" step="0.25" value="2.00" placeholder="2.00% (Neutral Rate)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tr-gap">Output Gap (%)</label>
+          <input class="tool-textarea" id="tr-gap" type="number" step="0.5" value="1.00" placeholder="+1.00% (y - y*)" />
+        </div>
+      </div>
+      <div id="tr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="tr-res-rate" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Target Rate i = 7.50%</span>
+            <span class="stat-label">Prescribed Central Bank Policy Rate (Taylor Rule)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tr-res-stance" style="color:var(--green-dark); font-weight:700;">RESTRICTIVE MONETARY POLICY: Inflation Gap = +2.0% | Output Gap = +1.0% (Rate hike required to cool economy)</span>
+            <span class="stat-label">Central Bank Policy Stance & Taylor Principle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Central Bank Monetary Policy (Taylor Rule Target Interest Rate) Calculator</h2>
+      <ol>
+        <li>Enter current national inflation rate $pi$ in %.</li>
+        <li>Enter Central Bank long-term inflation target $pi^*$ (typically $2.0%$).</li>
+        <li>Enter real neutral equilibrium interest rate $r^*$ (typically $2.0%$).</li>
+        <li>Enter GDP output gap percentage $(y - y^*)$.</li>
+        <li>Inspect prescribed Federal Funds interest rate target $i$.</li>
+      </ol>
+
+      <h2>John B. Taylor 1993 Systematic Monetary Rule</h2>
+      <p>The Taylor Principle states that when inflation rises by $1%$, the central bank must raise nominal interest rates by more than $1%$ (coefficient $1.5$) to ensure real interest rates rise and dampen macroeconomic demand.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the GDP output gap?</summary>
+        <p>The percentage difference between actual real GDP and potential full-employment GDP ($y - y^*$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/monetary-policy-taylor-rule-federal-funds-rate-calculator/tool.js"></script>
+</body>
+</html>

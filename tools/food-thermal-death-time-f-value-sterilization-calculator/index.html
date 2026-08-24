@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate equivalent thermal sterilization lethality value (F₀ = Δt · 10^((T - 121.1) / z)) in minutes for industrial canning and Clostridium botulinum spore eradication.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/food-thermal-death-time-f-value-sterilization-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator | NikTool">
+  <meta property="og:description" content="Calculate equivalent thermal sterilization lethality value (F₀ = Δt · 10^((T - 121.1) / z)) in minutes for industrial canning and Clostridium botulinum spore eradication.">
+  <meta property="og:url" content="https://niktool.in/tools/food-thermal-death-time-f-value-sterilization-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/food-thermal-death-time-f-value-sterilization-calculator/",
+        "description": "Calculate equivalent thermal sterilization lethality value (F₀ = Δt · 10^((T - 121.1) / z)) in minutes for industrial canning and Clostridium botulinum spore eradication.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What does F₀ = 12 minutes mean?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It means the thermal processing cycle delivered the exact same bacterial spore destruction as holding the product at 121.1°C (250°F) for exactly 12 continuous minutes."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator</h1>
+      <p>Calculate equivalent thermal sterilization lethality value (F₀ = Δt · 10^((T - 121.1) / z)) in minutes for industrial canning and Clostridium botulinum spore eradication.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Retort Core Temp T (°C), Hold Time (min) & Temperature Sensitivity z (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="f0-temp">Core Retort Temp T (°C)</label>
+          <input class="tool-textarea" id="f0-temp" type="number" step="any" value="125.0" placeholder="125.0 °C (Pressurized Retort)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="f0-time">Exposure Time Δt (min)</label>
+          <input class="tool-textarea" id="f0-time" type="number" step="any" value="5.0" placeholder="5.0 min" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="f0-z">Thermal Sensitivity z (°C)</label>
+          <input class="tool-textarea" id="f0-z" type="number" step="0.1" value="10.0" placeholder="10.0 °C (Botulinum Spores)" />
+        </div>
+      </div>
+      <div id="f0-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="f0-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">12.27 F₀ Minutes</span>
+            <span class="stat-label">Equivalent Sterilization Lethality (F₀)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="f0-res-safe" style="color:var(--green-dark); font-weight:700;">SAFE Commercial Sterility (F₀ ≥ 3.0 min)</span>
+            <span class="stat-label">FDA Low-Acid Canned Food Standard</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator</h2>
+      <ol>
+        <li>Enter pressurized autoclave/retort product core temperature in Celsius (°C).</li>
+        <li>Enter continuous thermal exposure hold time in minutes.</li>
+        <li>Enter thermal resistance constant z-value (standard 10.0°C for bacterial endospores).</li>
+        <li>Inspect equivalent sterilization F₀ value in minutes at 121.1°C (250°F) and verify FDA commercial sterility.</li>
+      </ol>
+
+      <h2>The 12-Decimal "Botulinum Cook" Principle</h2>
+      <p>Because heat exponentially destroys bacteria, each 10°C increase in temperature increases sterilization speed tenfold ($L = 10^{(T - 121.1)/10}$); delivering $F_0 ge 3	ext{ to }12	ext{ min}$ achieves a $10^{12}$-fold reduction in fatal spores.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What does F₀ = 12 minutes mean?</summary>
+        <p>It means the thermal processing cycle delivered the exact same bacterial spore destruction as holding the product at 121.1°C (250°F) for exactly 12 continuous minutes.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/food-thermal-death-time-f-value-sterilization-calculator/tool.js"></script>
+</body>
+</html>

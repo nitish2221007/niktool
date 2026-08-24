@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 485V, Current 10A)",
+  "description": "Calculate Resistance (48.50 Ω) and Electric Power (4850.0 W) for 485V voltage and 10A current.",
+  "path": "/tools/ohms-law-calculator-voltage-485v-current-10a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 485v current 10a",
+    "Ohm's Law Calculator (Voltage 485V, Current 10A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

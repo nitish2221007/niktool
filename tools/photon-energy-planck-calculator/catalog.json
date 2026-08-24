@@ -1,0 +1,15 @@
+{
+  "name": "Photon Energy & Planck Equation Calculator",
+  "description": "Calculate photon quantum energy (E = h · f = h · c / λ) in Joules and Electron-Volts (eV) from light wavelength or electromagnetic frequency.",
+  "path": "/tools/photon-energy-planck-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "photon energy calculator",
+    "planck equation calculator",
+    "wavelength to ev calculator",
+    "quantum photon energy online",
+    "ehf light energy calculator"
+  ],
+  "order": 150
+}

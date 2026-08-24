@@ -1,0 +1,15 @@
+{
+  "name": "Percentage Composition by Mass of Chemical Formula Calculator",
+  "description": "Calculate individual elemental percentage mass fractions (% = (n · M_element / M_total) · 100) from molecular formulas (e.g. Glucose C₆H₁₂O₆, Water H₂O, Calcium Carbonate CaCO₃) for high school chemistry.",
+  "path": "/tools/percentage-composition-by-mass-chemical-formula-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "percentage composition calculator",
+    "percent composition by mass formula chemistry online",
+    "molar mass percentage composition calculator",
+    "glucose percent carbon hydrogen oxygen calculator",
+    "stoichiometry mass percent chemical formula online"
+  ],
+  "order": 949
+}

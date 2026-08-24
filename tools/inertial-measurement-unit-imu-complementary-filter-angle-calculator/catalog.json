@@ -1,0 +1,15 @@
+{
+  "name": "IMU Sensor Fusion Complementary Filter Orientation Angle Calculator",
+  "description": "Calculate 6-DOF IMU fused pitch/roll tilt angle θ_k in degrees using a digital Complementary Filter (θ_k = α · (θ_{k-1} + ω_gyro · Δt) + (1 - α) · θ_accel) fusing gyroscope integration and accelerometer gravity vector.",
+  "path": "/tools/inertial-measurement-unit-imu-complementary-filter-angle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "complementary filter calculator",
+    "imu sensor fusion formula theta k equals alpha online",
+    "accelerometer gyroscope fusion filter calculator",
+    "drone quadcopter attitude estimation imu calculator",
+    "robotics mechatronics avionics embedded systems online"
+  ],
+  "order": 1329
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Parabolic Dish Antenna Gain (G = (π·D/λ)²·η) & Beamwidth Calculator",
+  "description": "Calculate parabolic dish antenna gain in dBi (G = (π·D / λ)² · η), half-power 3dB beamwidth (θ_3dB ≈ 70°·λ / D), and effective aperture area in m².",
+  "path": "/tools/antenna-aperture-gain-beamwidth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "parabolic antenna gain calculator",
+    "dish antenna gain formula dbi lambda",
+    "antenna 3db beamwidth theta formula online",
+    "satellite dish gain beamwidth calculator",
+    "rf aperture efficiency antenna calculator"
+  ],
+  "order": 626
+}

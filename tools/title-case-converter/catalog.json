@@ -1,0 +1,16 @@
+{
+  "name": "Title Case Converter",
+  "description": "Format headings and article titles into proper Title Case according to APA, Chicago, MLA, or AP capitalization styles.",
+  "path": "/tools/title-case-converter/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "title case converter",
+    "headline capitalization",
+    "apa title case",
+    "chicago title case",
+    "capitalise title online",
+    "sentence to title case"
+  ],
+  "order": 62
+}

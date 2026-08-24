@@ -1,0 +1,15 @@
+{
+  "name": "Atmospheric Scale Height (H) & Exponential Density-Altitude Calculator",
+  "description": "Calculate planetary atmospheric pressure p(z) and air density ρ(z) in kg/m³ at altitude z (Barometric Exponential Atmosphere: ρ(z) = ρ₀ · e^(-z / H)), Atmospheric Scale Height H = R_spec · T / g in km, and dynamic pressure.",
+  "path": "/tools/atmospheric-scale-height-barometric-density-altitude-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "atmospheric scale height calculator",
+    "barometric density altitude formula online",
+    "exponential atmosphere rho equals rho0 exp minus z over h calculator",
+    "planetary atmospheric pressure scale height calculator",
+    "aerospace engineering meteorology atmospheric entry online"
+  ],
+  "order": 1422
+}

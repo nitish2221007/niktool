@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text Diff &amp; Compare Tool - Free Online Text Comparison | NikTool</title>
+  <meta name="description" content="Compare two texts or code snippets to find differences line-by-line. Free, fast, and 100% private browser comparison tool.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/text-diff-checker/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Text Diff &amp; Compare Tool | NikTool">
+  <meta property="og:description" content="Compare two texts or code snippets to find differences line-by-line. Free, fast, and 100% private browser comparison tool.">
+  <meta property="og:url" content="https://niktool.in/tools/text-diff-checker/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Text Diff & Compare Tool",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/text-diff-checker/",
+        "description": "Compare two texts or code snippets to find differences line-by-line. Free, fast, and 100% private browser comparison tool.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is my text data stored or sent anywhere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. All text comparison and diff computation happen directly in your browser using local JavaScript. Your text never leaves your device."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the diff algorithm find line changes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The tool uses the Longest Common Subsequence (LCS) algorithm to compute the exact minimum additions, deletions, and unchanged lines between the two texts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I compare code files like JSON, Python, or HTML?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! You can paste any programming code, configuration files, essays, or document drafts to see exact line changes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I ignore whitespace differences?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, toggle the 'Ignore Whitespace' checkbox to filter out changes that only involve indentation or trailing spaces."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Text Diff &amp; Compare Tool</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Text Diff &amp; Compare Tool</h1>
+      <p>Compare two blocks of text or code to instantly find added, removed, and modified lines with color-coded diffing.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Diff Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="json-layout">
+        <div class="editor-panel">
+          <label class="control-label" for="diff-original-input">Original Text (Before)</label>
+          <textarea class="tool-textarea" id="diff-original-input" rows="8" placeholder="Paste original text here..."></textarea>
+        </div>
+        <div class="editor-panel">
+          <label class="control-label" for="diff-modified-input">Modified Text (After)</label>
+          <textarea class="tool-textarea" id="diff-modified-input" rows="8" placeholder="Paste modified text here..."></textarea>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 1rem 0; font-size: 0.9rem;">
+        <label style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+          <input type="checkbox" id="diff-opt-ignore-whitespace" />
+          <span>Ignore Whitespace</span>
+        </label>
+        <label style="display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+          <input type="checkbox" id="diff-opt-ignore-case" />
+          <span>Ignore Case</span>
+        </label>
+      </div>
+
+      <div class="toolbar">
+        <button class="button" id="compare-btn" type="button">Compare Texts</button>
+        <button class="button secondary" id="swap-btn" type="button">Swap Texts</button>
+        <button class="button secondary" id="sample-btn" type="button">Load Sample</button>
+        <button class="button secondary" id="clear-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="diff-message" role="status" aria-live="polite">Ready. Enter text in both panels and click Compare.</p>
+
+      <div id="diff-output-card" style="margin-top: 1.5rem; display: none;">
+        <div class="stats-grid" style="margin-bottom: 1.25rem;">
+          <div class="stat">
+            <span class="stat-value" id="stat-added" style="color: #22543d;">+0</span>
+            <span class="stat-label">Added Lines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-removed" style="color: #c53030;">-0</span>
+            <span class="stat-label">Removed Lines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-unchanged">0</span>
+            <span class="stat-label">Unchanged Lines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-total">0</span>
+            <span class="stat-label">Total Diff Lines</span>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+          <label class="control-label" style="margin-bottom: 0;">Diff Output</label>
+          <button class="button secondary" id="copy-diff-btn" type="button" style="padding: 0.25rem 0.6rem; font-size: 0.8rem;">Copy Diff</button>
+        </div>
+
+        <div id="diff-container" style="background: #1e1e1e; color: #d4d4d4; font-family: monospace; font-size: 0.88rem; border-radius: 10px; padding: 1rem; overflow-x: auto; max-height: 480px; line-height: 1.5;"></div>
+      </div>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Text Diff &amp; Compare</h2>
+      <ol>
+        <li>Paste your original (base) text into the left box.</li>
+        <li>Paste your updated (modified) text into the right box.</li>
+        <li>Select comparison preferences like <em>Ignore Whitespace</em> or <em>Ignore Case</em> if needed.</li>
+        <li>Click <strong>Compare Texts</strong> to view line-by-line differences. Added lines appear in green with a <code>+</code> prefix, and removed lines appear in red with a <code>-</code> prefix.</li>
+      </ol>
+
+      <h2>Why use a client-side diff checker?</h2>
+      <p>Comparing text snippets, source code, JSON payloads, or configuration files is a daily task for programmers, writers, and students. Sending sensitive code or confidential documents to online cloud checkers can pose serious privacy and security risks. This tool operates 100% locally in your web browser.</p>
+
+      <h2>Features</h2>
+      <ul>
+        <li><strong>LCS Algorithm:</strong> Calculates the minimal edit distance and precise line differences.</li>
+        <li><strong>Color-Coded Visuals:</strong> Clear green (+) additions and red (-) deletions.</li>
+        <li><strong>Comparison Stats:</strong> Immediate summary of total lines changed.</li>
+        <li><strong>Swap &amp; Copy:</strong> Easily reverse the comparison or copy the diff report.</li>
+      </ul>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Is my text data stored or sent anywhere?</summary>
+        <p>No. All text comparison and diff computation happen directly in your browser using local JavaScript. Your text never leaves your device.</p>
+      </details>
+      <details>
+        <summary>How does the diff algorithm find line changes?</summary>
+        <p>The tool uses the Longest Common Subsequence (LCS) algorithm to compute the exact minimum additions, deletions, and unchanged lines between the two texts.</p>
+      </details>
+      <details>
+        <summary>Can I compare code files like JSON, Python, or HTML?</summary>
+        <p>Yes! You can paste any programming code, configuration files, essays, or document drafts to see exact line changes.</p>
+      </details>
+      <details>
+        <summary>Can I ignore whitespace differences?</summary>
+        <p>Yes, toggle the 'Ignore Whitespace' checkbox to filter out changes that only involve indentation or trailing spaces.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/text-diff-checker/tool.js"></script>
+</body>
+</html>

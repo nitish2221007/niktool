@@ -1,0 +1,15 @@
+{
+  "name": "Convert 83 Knots Speed Val to KM/H",
+  "description": "Convert 83 knots speed to kilometers per hour (153.72 km/h).",
+  "path": "/tools/convert-knot-speed-val-83-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 83 to kmh",
+    "Convert 83 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

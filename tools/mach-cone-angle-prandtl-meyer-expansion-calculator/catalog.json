@@ -1,0 +1,15 @@
+{
+  "name": "Supersonic Mach Cone Angle (sin μ = 1 / M) & Shock Angle Calculator",
+  "description": "Calculate supersonic Mach wave cone half-angle (μ = arcsin(1 / M)) in degrees, Prandtl-Meyer expansion angle, and flow properties across supersonic transitions in aerospace compressible aerodynamics.",
+  "path": "/tools/mach-cone-angle-prandtl-meyer-expansion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mach cone angle calculator",
+    "mach angle formula mu equals arcsin 1 over m online",
+    "supersonic shock cone angle calculator",
+    "compressible flow prandtl meyer mach calculator",
+    "aerospace supersonic aerodynamics online"
+  ],
+  "order": 1116
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cube (Side 52 Units)",
+  "description": "Calculate the volume of a 3D cube with side length 52 units (V = a³ = 140608).",
+  "path": "/tools/volume-of-cube-side-52-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cube side 52 units",
+    "Volume of Cube (Side 52 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

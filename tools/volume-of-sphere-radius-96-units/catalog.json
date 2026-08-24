@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 96 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 96 units (V = 4/3 πr³ = 3705973.49).",
+  "path": "/tools/volume-of-sphere-radius-96-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 96 units",
+    "Volume of Sphere (Radius 96 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (70 km Distance, 10 km/l Mileage)",
+  "description": "Calculate fuel needed (7.0 L) and cost (₹676) for 70 km trip at 10 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-70km-mileage-10kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 70km mileage 10kmpl",
+    "Fuel Cost Trip Calculator (70 km Distance, 10 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

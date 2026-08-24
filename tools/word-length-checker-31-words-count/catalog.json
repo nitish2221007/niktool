@@ -1,0 +1,15 @@
+{
+  "name": "Word Length Checker (31 Words)",
+  "description": "Check word length and readability metrics for text with target 31 words count.",
+  "path": "/tools/word-length-checker-31-words-count/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word length checker 31 words count",
+    "Word Length Checker (31 Words)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

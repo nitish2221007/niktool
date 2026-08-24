@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Concrete Slump Test Workability (EN 12350-2 & ASTM C143 Consistency S1 to S5) Calculator",
+    "description": "Calculate fresh concrete workability slump subsidence in mm and inches, classify European standard consistency classes (S1 to S5), and evaluate placement suitability for slabs, foundations, and pumpable concrete.",
+    "path": "/tools/concrete-slump-test-workability-flow-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "concrete slump test calculator",
+      "slump test workability en 12350 2 s1 to s5 online",
+      "fresh concrete consistency slump mm inches calculator",
+      "pumpable concrete slump foundation slab calculator",
+      "civil engineering concrete technology online"
+    ]
+  },
+  {
+    "name": "Modular Multiplicative Inverse (a·x ≡ 1 mod m Extended Euclidean) Calculator",
+    "description": "Calculate modular multiplicative inverse x = a⁻¹ mod m such that (a · x) mod m = 1 using the Extended Euclidean Algorithm (Bézout's identity a·x + m·y = gcd(a,m)) for RSA and number theory.",
+    "path": "/tools/modular-arithmetic-multiplicative-inverse-extended-euclidean-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "modular inverse calculator",
+      "modular multiplicative inverse extended euclidean algorithm online",
+      "bezouts identity ax plus my equals gcd calculator",
+      "rsa modular inverse key generator calculator",
+      "number theory discrete mathematics modular inverse online"
+    ]
+  },
+  {
+    "name": "Chinese Remainder Theorem (CRT System of 3 Congruences x ≡ a_i mod m_i) Calculator",
+    "description": "Solve systems of simultaneous modular arithmetic congruences (x ≡ a₁ mod m₁, x ≡ a₂ mod m₂, x ≡ a₃ mod m₃) for pairwise coprime moduli using the classical Chinese Remainder Theorem (CRT) algorithm.",
+    "path": "/tools/chinese-remainder-theorem-system-of-congruences-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chinese remainder theorem calculator",
+      "crt system of congruences solver online",
+      "simultaneous modular equations calculator",
+      "pairwise coprime moduli crt calculator",
+      "discrete math number theory chinese remainder theorem online"
+    ]
+  },
+  {
+    "name": "RSA Public-Key Cryptography (Key Generation, Encryption c = m^e mod n & Decryption) Calculator",
+    "description": "Calculate RSA public-private key pairs (n = p·q, φ(n) = (p-1)(q-1), private exponent d = e⁻¹ mod φ(n)), encrypt plaintext numbers (c = m^e mod n), and decrypt ciphertexts (m = c^d mod n) for cybersecurity education.",
+    "path": "/tools/rsa-cryptography-public-private-key-pair-encryption-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "rsa key generator calculator",
+      "rsa encryption decryption formula c equals m to e mod n online",
+      "public private key pair phi n private exponent d calculator",
+      "modular exponentiation rsa cryptography calculator",
+      "cybersecurity public key encryption online"
+    ]
+  },
+  {
+    "name": "Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator",
+    "description": "Calculate Euler's phi totient function (φ(n) = n · ∏ (1 - 1/p)) counting positive integers up to n that are coprime to n, prime factorization prime factors, and divisor count for number theory.",
+    "path": "/tools/euler-totient-function-phi-n-prime-factors-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "eulers totient function calculator",
+      "phi n formula online prime factorization",
+      "coprime integers count euler phi calculator",
+      "multiplicative arithmetic functions phi n calculator",
+      "number theory euler totient online"
+    ]
+  },
+  {
+    "name": "Diffie-Hellman Key Exchange (Shared Secret K = g^(a·b) mod p) Calculator",
+    "description": "Simulate Diffie-Hellman key exchange: generate Alice and Bob public keys (A = g^a mod p, B = g^b mod p) and compute identical shared secret session keys (K = B^a mod p = A^b mod p) for cryptography.",
+    "path": "/tools/diffie-hellman-key-exchange-shared-secret-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "diffie hellman calculator",
+      "diffie hellman shared secret formula g to ab mod p online",
+      "alice bob public private key exchange calculator",
+      "discrete logarithm diffie hellman key generator calculator",
+      "cybersecurity cryptographic key exchange online"
+    ]
+  },
+  {
+    "name": "Newton-Raphson Method (x_{n+1} = x_n - f(x_n) / f'(x_n)) Root Finding Calculator",
+    "description": "Calculate numerical equation roots with quadratic convergence using the Newton-Raphson iteration algorithm (x_{n+1} = x_n - f(x_n) / f'(x_n)), viewing iteration steps and tolerance convergence for numerical analysis.",
+    "path": "/tools/newton-raphson-method-root-finding-convergence-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "newton raphson calculator",
+      "root finding formula x n plus 1 equals x n minus f over f prime online",
+      "quadratic convergence newton method calculator",
+      "numerical analysis equation root solver newton raphson",
+      "applied mathematics nonlinear equation solver online"
+    ]
+  },
+  {
+    "name": "Shannon Entropy Information Theory (H(X) = -Σ p_i·log₂ p_i) Uncertainty Calculator",
+    "description": "Calculate Shannon information entropy (H(X) = -∑ p_i · log₂ p_i) in bits/shannons, maximum possible entropy (log₂ N), coding efficiency, and redundancy for data compression and machine learning.",
+    "path": "/tools/shannon-entropy-information-theory-bit-uncertainty-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "shannon entropy calculator",
+      "information entropy formula h of x equals minus sum pi log2 pi online",
+      "bits of information uncertainty calculator shannon",
+      "data compression entropy source coding theorem calculator",
+      "information theory machine learning entropy online"
+    ]
+  },
+  {
+    "name": "Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator",
+    "description": "Calculate numerical definite integrals using Simpson's 1/3 parabolic quadrature rule (∫ f(x)dx ≈ (h/3)·[f(a) + 4·f_odd + 2·f_even + f(b)]) with error estimation (O(h⁴)) for numerical mathematics.",
+    "path": "/tools/simpsons-one-third-rule-numerical-integration-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "simpsons rule calculator",
+      "simpsons 1 3 rule numerical integration formula online",
+      "parabolic quadrature definite integral calculator",
+      "numerical calculus simpsons rule error calculator",
+      "applied mathematics numerical integration online"
+    ]
+  },
+  {
+    "name": "Runge-Kutta 4th Order (RK4 y_{n+1} = y_n + (h/6)·(k₁ + 2k₂ + 2k₃ + k₄)) ODE Solver Calculator",
+    "description": "Solve first-order ordinary differential equations (dy/dx = f(x, y)) using the classical Runge-Kutta 4th Order algorithm (RK4) with fourth-order step accuracy (O(h⁴)) for physics and computational mathematics.",
+    "path": "/tools/runge-kutta-fourth-order-rk4-ode-solver-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "runge kutta 4th order calculator",
+      "rk4 ode solver formula online",
+      "differential equation numerical rk4 calculator",
+      "initial value problem runge kutta calculator",
+      "computational mathematics ode solver online"
+    ]
+  },
+  {
+    "name": "LU Matrix Decomposition (A = L·U Doolittle Factorization) Calculator",
+    "description": "Calculate 3×3 matrix LU decomposition (A = L · U) into unit lower triangular matrix L and upper triangular matrix U using Doolittle's algorithm for linear algebra and systems of equations.",
+    "path": "/tools/lu-matrix-decomposition-doolittle-crout-solver-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lu decomposition calculator",
+      "doolittle algorithm a equals l u matrix factorization online",
+      "lower upper triangular matrix decomposition calculator",
+      "linear algebra lu solver 3x3 matrix calculator",
+      "numerical linear algebra lu decomposition online"
+    ]
+  },
+  {
+    "name": "Markov Chain 2-State Steady-State Stationary Distribution (π·P = π) Calculator",
+    "description": "Calculate discrete-time 2-state Markov chain transition probabilities, long-term steady-state stationary distribution vector (π₁ = β/(α+β), π₂ = α/(α+β)), and mean recurrence return times.",
+    "path": "/tools/markov-chain-steady-state-transition-probability-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "markov chain calculator",
+      "steady state stationary distribution formula pi p equals pi online",
+      "2 state transition matrix long run probability calculator",
+      "markov chain recurrence time ergodicity calculator",
+      "probability stochastic processes markov chain online"
+    ]
+  },
+  {
+    "name": "Fast Fourier Transform (FFT Radix-2 Cooley-Tukey Twiddle Factors W_N^k) Calculator",
+    "description": "Calculate Radix-2 Cooley-Tukey Fast Fourier Transform (FFT) complex exponential twiddle factors (W_N^k = e^(-j·2π·k / N) = cos(2πk/N) - j·sin(2πk/N)) and butterfly operation arithmetic count.",
+    "path": "/tools/fast-fourier-transform-fft-twiddle-factors-butterfly-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "fft twiddle factor calculator",
+      "radix 2 cooley tukey fft butterfly formula online",
+      "complex exponential wn k real imaginary calculator",
+      "fast fourier transform computational complexity o n log n calculator",
+      "digital signal processing dsp fft online"
+    ]
+  },
+  {
+    "name": "Sieve of Eratosthenes Prime Counting Function π(n) & Density (π(n) ~ n / ln n) Calculator",
+    "description": "Calculate prime counting function π(n) up to integer n using the Sieve of Eratosthenes, compare against Gauss's Prime Number Theorem asymptotic estimate (n / ln n) and logarithmic integral Li(n).",
+    "path": "/tools/sieve-of-eratosthenes-prime-counting-pi-n-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "sieve of eratosthenes calculator",
+      "prime counting function pi n formula online",
+      "prime number theorem n over ln n calculator",
+      "prime density logarithmic integral li n calculator",
+      "pure mathematics number theory primes online"
+    ]
+  },
+  {
+    "name": "Hamming (7,4) Error-Correcting Code (Generator G & Parity Syndrome H) Calculator",
+    "description": "Encode 4-bit data words into 7-bit error-correcting codewords using Hamming (7,4) Generator Matrix G, calculate 3-bit syndrome vector S = H·rᵀ, and locate/correct single-bit transmission bit-flip errors.",
+    "path": "/tools/hamming-7-4-error-correcting-code-syndrome-parity-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "hamming 7 4 calculator",
+      "hamming code generator matrix g parity check h online",
+      "single bit error correcting syndrome calculator",
+      "codeword bit flip error detection correction calculator",
+      "information theory error correcting codes online"
+    ]
+  },
+  {
+    "name": "Lagrange Interpolating Polynomial (P(x) = Σ y_i·L_i(x)) Curve Fitting Calculator",
+    "description": "Calculate unique nth-degree polynomial interpolation passing exactly through given (x, y) coordinates using Lagrange basis polynomials (L_i(x) = ∏ (x - x_j)/(x_i - x_j)) for numerical analysis.",
+    "path": "/tools/lagrange-interpolating-polynomial-curve-fitting-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lagrange interpolation calculator",
+      "lagrange interpolating polynomial formula p of x online",
+      "curve fitting exact polynomial pass through points calculator",
+      "lagrange basis polynomial numerical calculator",
+      "numerical methods polynomial interpolation online"
+    ]
+  },
+  {
+    "name": "Bisection Method (x_m = ½·(a + b)) Root Finding & Error Bound Calculator",
+    "description": "Calculate real equation roots using the guaranteed-convergence Bisection Method (x_m = (a + b) / 2), calculate required iteration count (N ≥ log₂((b - a) / ε)), and verify Bolzano's Intermediate Value Theorem.",
+    "path": "/tools/bisection-method-root-finding-error-tolerance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "bisection method calculator",
+      "root finding bisection formula midpoint half a plus b online",
+      "intermediate value theorem bolzano root isolation calculator",
+      "bisection iterations count log2 b minus a over epsilon calculator",
+      "numerical analysis bisection method online"
+    ]
+  },
+  {
+    "name": "Trapezoidal Rule Numerical Definite Integral (∫ f(x)dx ≈ (h/2)·[f₀ + 2·Σf_i + f_n]) Calculator",
+    "description": "Calculate numerical definite integrals using the composite Trapezoidal Rule (∫ f(x)dx ≈ (h/2) · [f(a) + 2·∑ f(x_i) + f(b)]) and evaluate second-order truncation error (O(h²)) for calculus students.",
+    "path": "/tools/trapezoidal-rule-numerical-definite-integral-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "trapezoidal rule calculator",
+      "composite trapezoidal rule formula definite integral online",
+      "numerical calculus trapezoid rule calculator",
+      "definite integration step size h calculator",
+      "applied mathematics numerical integration online"
+    ]
+  },
+  {
+    "name": "Gram-Schmidt Orthogonalization & Orthonormal Basis Vector Calculator",
+    "description": "Calculate orthogonal and orthonormal basis vectors (u₁ = v₁, u₂ = v₂ - proj_{u₁}(v₂), e_i = u_i / ||u_i||) from linearly independent vectors in ℝ² and ℝ³ for linear algebra.",
+    "path": "/tools/gram-schmidt-orthogonalization-orthonormal-basis-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "gram schmidt calculator",
+      "orthogonalization formula u2 equals v2 minus proj u1 v2 online",
+      "orthonormal basis vectors dot product calculator",
+      "linear algebra gram schmidt process calculator",
+      "vector spaces orthogonal projection online"
+    ]
+  },
+  {
+    "name": "Secant Method Numerical Root Finding (x_{n+1} = x_n - f(x_n)·(x_n - x_{n-1}) / (f(x_n) - f(x_{n-1}))) Calculator",
+    "description": "Calculate equation roots numerically using the derivative-free Secant Method (x_{n+1} = x_n - f(x_n) · [(x_n - x_{n-1}) / (f(x_n) - f(x_{n-1}))]) with superlinear golden-ratio convergence (order 1.618).",
+    "path": "/tools/secant-method-numerical-root-finding-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "secant method calculator",
+      "secant root finding formula x n plus 1 online",
+      "derivative free numerical root solver secant calculator",
+      "superlinear convergence golden ratio secant calculator",
+      "numerical methods nonlinear root finding online"
+    ]
+  },
+  {
+    "name": "Euler's Method First-Order ODE Solver (y_{n+1} = y_n + h·f(x_n, y_n)) Calculator",
+    "description": "Calculate step-by-step numerical solutions to first-order differential equations (dy/dx = f(x, y)) using classical Euler's forward tangent method (y_{n+1} = y_n + h · f(x_n, y_n)) and explore step size error propagation.",
+    "path": "/tools/euler-method-first-order-ode-step-size-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "eulers method calculator",
+      "forward euler differential equation formula y n plus 1 online",
+      "ode step size numerical integration euler calculator",
+      "initial value problem first order differential equation euler",
+      "applied mathematics numerical calculus online"
+    ]
+  },
+  {
+    "name": "Miller-Rabin Primality Test (n-1 = 2^s·d & a^d mod n) Calculator",
+    "description": "Determine if an integer n is prime or composite using the Miller-Rabin probabilistic primality test (decomposing n - 1 = 2^s · d and computing modular powers a^d mod n) for cryptography.",
+    "path": "/tools/miller-rabin-primality-test-probabilistic-composite-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "miller rabin primality test calculator",
+      "miller rabin test formula a to d mod n online",
+      "probabilistic prime composite witness calculator",
+      "rsa prime generation primality test calculator",
+      "cryptography number theory prime testing online"
+    ]
+  },
+  {
+    "name": "Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator",
+    "description": "Evaluate Boolean logic expressions (AND, OR, NOT, XOR, IMPLIES), generate complete 2^n truth tables, and determine formula Satisfiability (SAT vs UNSAT) and Tautology status for computer science.",
+    "path": "/tools/boolean-satisfiability-dpll-truth-table-solver/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "boolean satisfiability calculator",
+      "sat solver truth table 3 variables online",
+      "boolean logic tautology satisfiable unsat calculator",
+      "propositional logic truth table generator calculator",
+      "discrete math computer science sat solver online"
+    ]
+  },
+  {
+    "name": "Quaternion Hamilton Product (q₁·q₂) & 3D Spatial Rotation Calculator",
+    "description": "Calculate 4D Hamilton quaternion multiplication (q₁ · q₂), conjugate, norm, and convert 3D rotation axis-angle θ around unit vector u into unit rotation quaternions (q = cos(θ/2) + u·sin(θ/2)) for 3D robotics and game engines.",
+    "path": "/tools/quaternion-multiplication-3d-rotation-axis-angle-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "quaternion multiplication calculator",
+      "hamilton quaternion product formula q1 q2 online",
+      "quaternion 3d rotation axis angle calculator",
+      "gimbal lock avoidance quaternion robotics calculator",
+      "3d computer graphics quaternion math online"
+    ]
+  }
+]

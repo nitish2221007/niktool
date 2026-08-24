@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Revision Planner",
+    "description": "Calculate your daily chapter targets and time per chapter based on days left and daily study hours. Free and private.",
+    "path": "/tools/revision-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "revision planner",
+      "study revision planner",
+      "class 10 revision planner",
+      "board exam revision planner",
+      "exam revision schedule",
+      "study timetable generator",
+      "revision timetable generator",
+      "student revision schedule"
+    ]
+  },
+  {
+    "name": "Chapter Progress Tracker",
+    "description": "Track your revised versus practiced chapters to identify untouched syllabus before board exams. Free and fully private.",
+    "path": "/tools/chapter-progress-tracker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "chapter tracker",
+      "class 10 chapter tracker",
+      "study tracker",
+      "chapter progress tracker",
+      "board preparation tracker",
+      "class 10 study tracker",
+      "syllabus tracker",
+      "exam preparation tracker"
+    ]
+  },
+  {
+    "name": "Ellipse Area & Perimeter Calculator",
+    "description": "Calculate the exact area and accurate perimeter of an ellipse using Ramanujan's second perimeter approximation formula.",
+    "path": "/tools/ellipse-area-perimeter-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "ellipse area calculator",
+      "ellipse perimeter calculator",
+      "ramanujan ellipse formula",
+      "circumference of ellipse",
+      "semi major semi minor axis"
+    ]
+  },
+  {
+    "name": "Bitwise Calculator",
+    "description": "Perform bitwise AND, OR, XOR, NOT, Left Shift, and Right Shift operations on integers with live Binary and Hexadecimal representations.",
+    "path": "/tools/bitwise-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "bitwise calculator",
+      "binary bitwise operator",
+      "bitwise and or xor calculator",
+      "bit shift calculator online",
+      "binary hex bitwise"
+    ]
+  },
+  {
+    "name": "Target Percentage Planner",
+    "description": "Calculate the exact total marks and per-subject average needed to achieve your target board percentage. Free and private.",
+    "path": "/tools/target-percentage-planner/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "target percentage calculator",
+      "target marks planner",
+      "90 percent marks calculator",
+      "95 percent marks calculator",
+      "marks needed for 90 percent",
+      "target score calculator",
+      "student marks planner",
+      "board target marks"
+    ]
+  },
+  {
+    "name": "GPA Calculator",
+    "description": "Calculate your weighted GPA from grades and credits using standard 4.0 or 10-point scales. Free, fast, and fully private.",
+    "path": "/tools/gpa-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "GPA calculator",
+      "student GPA calculator",
+      "grade point average calculator",
+      "GPA calculator online",
+      "school GPA calculator",
+      "weighted GPA calculator",
+      "unweighted GPA calculator",
+      "GPA from marks"
+    ]
+  },
+  {
+    "name": "Invisible Character Detector",
+    "description": "Find and remove invisible Unicode characters, zero-width spaces (ZWSP), soft hyphens, and byte order marks (BOM) from your text.",
+    "path": "/tools/invisible-character-detector/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "invisible character detector",
+      "zero width space remover",
+      "hidden unicode characters detector",
+      "clean zero width characters",
+      "remove bom online"
+    ]
+  },
+  {
+    "name": "Attendance Calculator",
+    "description": "Calculate your current attendance percentage and find out exactly how many classes you can miss or must attend. Free and private.",
+    "path": "/tools/attendance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "attendance calculator",
+      "attendance percentage calculator",
+      "attendance shortage calculator",
+      "how many classes can I miss",
+      "classes needed for 75 attendance",
+      "student attendance calculator",
+      "75 percent attendance calculator",
+      "college attendance calculator"
+    ]
+  },
+  {
+    "name": "Password Strength Checker",
+    "description": "Test your password strength locally in the browser. 100% private, secure, and never sends your data to a server.",
+    "path": "/tools/password-strength-checker/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "password strength checker",
+      "password checker",
+      "strong password checker",
+      "password security checker",
+      "password strength test",
+      "secure password checker",
+      "password entropy calculator",
+      "private password checker"
+    ]
+  },
+  {
+    "name": "ROT13 & Caesar Cipher Tool",
+    "description": "Encode and decode text using ROT13, ROT47, or custom Caesar cipher shift keys with instant bidirectional encryption.",
+    "path": "/tools/rot13-caesar-cipher-tool/",
+    "category": "Developer",
+    "icon": "shield",
+    "keywords": [
+      "rot13 cipher tool",
+      "caesar cipher decoder",
+      "rot13 online",
+      "rot47 encoder",
+      "caesar shift calculator",
+      "cryptography rot13"
+    ]
+  },
+  {
+    "name": "Aspect Ratio Calculator",
+    "description": "Calculate image and video aspect ratios (16:9, 4:3, 21:9, 1:1) and automatically resize dimensions while preserving proportions.",
+    "path": "/tools/aspect-ratio-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "aspect ratio calculator",
+      "image dimension ratio",
+      "16:9 aspect ratio calculator",
+      "image scaling calculator",
+      "video resolution aspect ratio"
+    ]
+  },
+  {
+    "name": "Hash Generator",
+    "description": "Generate SHA-256, SHA-384, SHA-512, and SHA-1 hashes from text locally in your browser. Free, fast, and fully private.",
+    "path": "/tools/hash-generator/",
+    "category": "Security",
+    "icon": "shield",
+    "keywords": [
+      "hash generator",
+      "SHA256 hash generator",
+      "SHA-256 calculator",
+      "MD5 hash generator",
+      "text hash generator",
+      "checksum generator",
+      "hash calculator online",
+      "local hash generator",
+      "browser hash generator"
+    ]
+  },
+  {
+    "name": "Base64 Encoder Decoder",
+    "description": "Encode text to Base64 or decode Base64 to text with UTF-8 support. Free, fast, and fully private browser-based tool.",
+    "path": "/tools/base64-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "base64 encoder",
+      "base64 decoder",
+      "base64 encode decode",
+      "base64 converter",
+      "online base64 encoder",
+      "text to base64",
+      "base64 decode online",
+      "developer base64 tool",
+      "base64 string decoder"
+    ]
+  },
+  {
+    "name": "Z-Score Calculator",
+    "description": "Calculate standard normal distribution Z-scores, percentile ranks, p-values, and probability area under the bell curve.",
+    "path": "/tools/z-score-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "z-score calculator",
+      "standard normal distribution calculator",
+      "z score to percentile",
+      "p value from z score",
+      "normal curve probability"
+    ]
+  },
+  {
+    "name": "Freelance Hourly Rate to Salary Calculator",
+    "description": "Convert freelance hourly consulting rates into equivalent annual gross salary, monthly income, and estimated billable utilization.",
+    "path": "/tools/freelance-hourly-to-salary-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "hourly to salary calculator",
+      "freelance rate calculator",
+      "hourly rate to annual salary",
+      "contractor salary calculator",
+      "consulting rate calculator"
+    ]
+  },
+  {
+    "name": "URL Encoder Decoder",
+    "description": "Encode text to URL-safe format or decode percent-encoded URLs instantly. Free, fast, and fully private browser tool.",
+    "path": "/tools/url-encoder-decoder/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "URL encoder",
+      "URL decoder",
+      "URL encode decode",
+      "percent encoding calculator",
+      "URL encoding tool",
+      "encode URL online",
+      "decode URL online",
+      "percent encode",
+      "URL component encoder",
+      "developer URL tool"
+    ]
+  },
+  {
+    "name": "Break-Even Point Calculator",
+    "description": "Calculate the exact unit sales and revenue required to reach the break-even point from fixed costs, unit price, and variable costs.",
+    "path": "/tools/break-even-point-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "break even point calculator",
+      "bep calculator",
+      "break even revenue calculator",
+      "contribution margin calculator",
+      "business break even analysis"
+    ]
+  },
+  {
+    "name": "JSON Formatter Validator",
+    "description": "Format, validate, and minify JSON locally with detailed error messages. Free, fast, and fully private browser-based tool.",
+    "path": "/tools/json-formatter-validator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "JSON formatter",
+      "JSON validator",
+      "JSON beautifier",
+      "JSON minifier",
+      "format JSON online",
+      "validate JSON",
+      "JSON pretty print",
+      "JSON parser online",
+      "JSON formatter validator",
+      "developer JSON tool"
+    ]
+  },
+  {
+    "name": "Custom PDF Page Remover",
+    "description": "Delete specific pages, custom ranges, or leading/trailing pages from any PDF document locally.",
+    "path": "/tools/remove-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "remove pages",
+      "delete custom pdf pages",
+      "delete page range",
+      "remove page range",
+      "delete pages"
+    ]
+  },
+  {
+    "name": "ROI (Return on Investment) Calculator",
+    "description": "Calculate total ROI percentage, annualized ROI, net profit gain, and benefit-to-cost ratio for business marketing and capital investments.",
+    "path": "/tools/return-on-investment-roi-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "roi calculator",
+      "return on investment calculator",
+      "calculate roi online",
+      "marketing roi calculator",
+      "annualized roi formula"
+    ]
+  },
+  {
+    "name": "Reverse GST Calculator",
+    "description": "Calculate and extract the original net base price and exact GST tax amount from any gross MRP inclusive price.",
+    "path": "/tools/gst-reverse-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "reverse gst calculator",
+      "gst remove calculator",
+      "extract gst from gross price",
+      "gst backwards calculator",
+      "inclusive gst to base price"
+    ]
+  },
+  {
+    "name": "Inflation Purchasing Power Calculator",
+    "description": "Calculate how annual inflation erodes your money's future purchasing power and determine the future value required to match today's wealth.",
+    "path": "/tools/inflation-purchasing-power-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "inflation purchasing power calculator",
+      "future value of money inflation",
+      "cost of living inflation calculator",
+      "money depreciation calculator",
+      "inflation impact on savings"
+    ]
+  },
+  {
+    "name": "Unit Converter",
+    "description": "Convert length, mass, speed, area, and volume units with clear conversion factors. Free, fast, and fully private.",
+    "path": "/tools/unit-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "unit converter",
+      "unit conversion calculator",
+      "length converter",
+      "weight converter",
+      "mass converter",
+      "speed converter",
+      "temperature converter",
+      "school unit converter",
+      "physics unit converter",
+      "online unit converter"
+    ]
+  },
+  {
+    "name": "LED Series Resistor Calculator",
+    "description": "Calculate the required current-limiting series resistor value (Ohms) and minimum power rating (Watts) for single and series LEDs.",
+    "path": "/tools/led-resistor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "led resistor calculator",
+      "current limiting resistor",
+      "led series resistor calculator",
+      "led ohm law calculator",
+      "led resistor wattage"
+    ]
+  }
+]

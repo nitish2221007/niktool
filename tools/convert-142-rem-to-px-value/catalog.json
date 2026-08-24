@@ -1,0 +1,15 @@
+{
+  "name": "Convert 142 REM to PX Value",
+  "description": "Convert 142 REM units to pixels (2272 px) based on standard 16px root font.",
+  "path": "/tools/convert-142-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 142 rem to px value",
+    "Convert 142 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

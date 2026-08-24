@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 145cm, Weight 46kg)",
+  "description": "Calculate Body Mass Index (BMI 21.9) for height 145 cm and weight 46 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-145cm-weight-46kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 145cm weight 46kg",
+    "BMI Calculator (Height 145cm, Weight 46kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 29 KM to Miles",
+  "description": "Convert 29 kilometers to miles (18.02 miles). 100% free and local.",
+  "path": "/tools/convert-29-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 29 km to miles",
+    "Convert 29 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

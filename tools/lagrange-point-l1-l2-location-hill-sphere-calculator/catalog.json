@@ -1,0 +1,15 @@
+{
+  "name": "Lagrange Points (L₁, L₂ Distance) & Gravitational Hill Sphere Radius Calculator",
+  "description": "Calculate three-body gravitational Lagrange collinear equilibrium points (L₁, L₂ distance r_L ≈ R · ∛(m₂ / 3·m₁)) in km and gravitational Hill Sphere stability radius.",
+  "path": "/tools/lagrange-point-l1-l2-location-hill-sphere-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lagrange point calculator",
+    "l1 l2 distance formula r cube root m2 over 3 m1 online",
+    "hill sphere radius calculator online",
+    "james webb space telescope l2 halo orbit calculator",
+    "three body gravitational equilibrium lagrange online"
+  ],
+  "order": 811
+}

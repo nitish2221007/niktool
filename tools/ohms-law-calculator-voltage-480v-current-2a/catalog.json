@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 480V, Current 2A)",
+  "description": "Calculate Resistance (240.00 Ω) and Electric Power (960.0 W) for 480V voltage and 2A current.",
+  "path": "/tools/ohms-law-calculator-voltage-480v-current-2a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 480v current 2a",
+    "Ohm's Law Calculator (Voltage 480V, Current 2A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

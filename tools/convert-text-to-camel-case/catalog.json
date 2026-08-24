@@ -1,0 +1,15 @@
+{
+  "name": "Convert Text to camelCase",
+  "description": "Convert text phrases into camelCase format for JavaScript.",
+  "path": "/tools/convert-text-to-camel-case/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "convert text to camel case",
+    "Convert Text to camelCase",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

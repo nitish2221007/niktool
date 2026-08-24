@@ -1,0 +1,15 @@
+{
+  "name": "Industrial Conveyor Belt Motor Power & Effective Tension (CEMA) Calculator",
+  "description": "Calculate material handling conveyor belt effective drive tension (T_e = T_empty + T_material + T_lift) in Newtons and required motor drive power in kW and Horsepower.",
+  "path": "/tools/conveyor-belt-motor-power-tension-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "conveyor belt power calculator",
+    "cema conveyor belt tension formula te",
+    "conveyor motor power kw hp calculator online",
+    "bulk material handling conveyor power calculator",
+    "conveyor belt sizing online"
+  ],
+  "order": 659
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 164 Knots Speed Val to KM/H",
+  "description": "Convert 164 knots speed to kilometers per hour (303.73 km/h).",
+  "path": "/tools/convert-knot-speed-val-164-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 164 to kmh",
+    "Convert 164 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

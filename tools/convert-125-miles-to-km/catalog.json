@@ -1,0 +1,15 @@
+{
+  "name": "Convert 125 Miles to KM",
+  "description": "Convert 125 miles to kilometers (201.17 km). 100% free and local.",
+  "path": "/tools/convert-125-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 125 miles to km",
+    "Convert 125 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

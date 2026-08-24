@@ -1,0 +1,15 @@
+{
+  "name": "Sort Text Lines by Length",
+  "description": "Sort lines of text from shortest to longest or longest to shortest.",
+  "path": "/tools/sort-lines-by-length/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "sort lines by length",
+    "Sort Text Lines by Length",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

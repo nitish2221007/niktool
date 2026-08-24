@@ -1,0 +1,15 @@
+{
+  "name": "Graph Community Modularity (Q = 1/2m · ∑ (A_ij - k_i·k_j / 2m)·δ(c_i, c_j)) Calculator",
+  "description": "Calculate network graph community structure Modularity score (Q from -0.5 to +1.0) for Louvain and Leiden community detection algorithms to quantify cluster partition quality in social networks and bioinformatics.",
+  "path": "/tools/leiden-louvain-graph-community-modularity-q-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "graph modularity calculator",
+    "louvain leiden modularity q formula online",
+    "network community detection partition score calculator",
+    "modularity optimization graph clustering calculator",
+    "graph theory network science community detection online"
+  ],
+  "order": 1224
+}

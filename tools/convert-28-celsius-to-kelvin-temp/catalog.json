@@ -1,0 +1,15 @@
+{
+  "name": "Convert 28°C Celsius to Kelvin Temp",
+  "description": "Convert 28 degrees Celsius (°C) to Kelvin (301.15 K) instantly.",
+  "path": "/tools/convert-28-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 28 celsius to kelvin temp",
+    "Convert 28°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

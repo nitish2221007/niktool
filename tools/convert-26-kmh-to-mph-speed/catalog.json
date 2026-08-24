@@ -1,0 +1,15 @@
+{
+  "name": "Convert 26 KM/H to MPH Speed",
+  "description": "Convert 26 kilometers per hour (km/h) to miles per hour (16.16 mph).",
+  "path": "/tools/convert-26-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 26 kmh to mph speed",
+    "Convert 26 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Capacitive Reactance Calculator (300 Hz, 47 µF)",
+  "description": "Calculate Capacitive Reactance (Xc = 11.29 Ω) for 300 Hz frequency and 47 µF capacitor.",
+  "path": "/tools/capacitive-reactance-calculator-frequency-300hz-capacitor-47uf/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "capacitive reactance calculator frequency 300hz capacitor 47uf",
+    "Capacitive Reactance Calculator (300 Hz, 47 µF)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

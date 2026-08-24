@@ -1,0 +1,15 @@
+{
+  "name": "Froude Number (Fr) & Open Channel Hydraulic Jump Energy Dissipation Calculator",
+  "description": "Calculate open channel flow Froude Number Fr (Fr = v / √(g·y)), flow regime (Subcritical Fr under 1 vs Supercritical Fr over 1), sequent conjugate jump depth y₂ (Bélanger equation), and energy head loss ΔE.",
+  "path": "/tools/froude-number-hydraulic-jump-energy-dissipation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "froude number calculator",
+    "hydraulic jump formula sequent depth belanger online",
+    "subcritical supercritical flow froude calculator",
+    "spillway hydraulic jump energy dissipation calculator",
+    "civil environmental hydraulic engineering open channel online"
+  ],
+  "order": 1340
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Dielectrophoresis (DEP) Cell Sorting & Trapping Force Calculator",
+  "description": "Calculate AC electric field Dielectrophoresis force on biological cells (F_DEP = 2π · ε_m · r³ · Re[K(ω)] · ∇|E|²) in piconewtons (pN) for positive/negative DEP separation.",
+  "path": "/tools/dielectrophoresis-dep-particle-trapping-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dielectrophoresis calculator",
+    "dep force formula biological cell sorting",
+    "clausius mossotti factor calculator online",
+    "ac electrokinetics cell trapping dep force calculator",
+    "microfluidic cell separation dielectrophoresis online"
+  ],
+  "order": 699
+}

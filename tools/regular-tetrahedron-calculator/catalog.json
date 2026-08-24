@@ -1,0 +1,15 @@
+{
+  "name": "Regular Tetrahedron Volume & Surface Area Calculator",
+  "description": "Calculate 3D volume (V = a³ / (6√2)), total surface area (A = √3 · a²), and vertical height for a regular 4-faced equilateral triangular tetrahedron.",
+  "path": "/tools/regular-tetrahedron-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "regular tetrahedron calculator",
+    "tetrahedron volume formula",
+    "platonic solid tetrahedron surface area",
+    "4 sided triangular pyramid geometry",
+    "tetrahedron edge length calculator"
+  ],
+  "order": 258
+}

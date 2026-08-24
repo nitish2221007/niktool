@@ -1,0 +1,15 @@
+{
+  "name": "Convert 94 Miles to KM",
+  "description": "Convert 94 miles to kilometers (151.28 km). 100% free and local.",
+  "path": "/tools/convert-94-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 94 miles to km",
+    "Convert 94 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

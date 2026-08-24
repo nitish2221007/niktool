@@ -1,0 +1,15 @@
+{
+  "name": "Convert 35pt to PX",
+  "description": "Convert 35 points (pt) to pixels (46.67 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-35pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 35pt to px",
+    "Convert 35pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

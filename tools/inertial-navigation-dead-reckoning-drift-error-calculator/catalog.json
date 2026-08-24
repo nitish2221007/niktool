@@ -1,0 +1,15 @@
+{
+  "name": "Inertial Navigation System (INS) Dead-Reckoning Drift Error Calculator",
+  "description": "Calculate INS dead-reckoning navigation position drift error (x_drift = 1/2 · b_a · t² + 1/6 · b_g · g · t³) from accelerometer bias b_a (mg) and gyroscope bias drift b_g (°/hr).",
+  "path": "/tools/inertial-navigation-dead-reckoning-drift-error-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ins drift error calculator",
+    "inertial navigation system dead reckoning error formula",
+    "gyroscope bias drift position error calculator online",
+    "accelerometer bias position error ins calculator",
+    "imu navigation sensor drift online"
+  ],
+  "order": 705
+}

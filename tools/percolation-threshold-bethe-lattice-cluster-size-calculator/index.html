@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percolation Threshold (p_c) & Spanning Cluster Probability Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate statistical percolation phase transition critical threshold (p_c = 1 / (z - 1)) on Bethe lattices and evaluate infinite spanning cluster probability P_inf(p) in porous rocks and epidemiology.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/percolation-threshold-bethe-lattice-cluster-size-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Percolation Threshold (p_c) & Spanning Cluster Probability Calculator | NikTool">
+  <meta property="og:description" content="Calculate statistical percolation phase transition critical threshold (p_c = 1 / (z - 1)) on Bethe lattices and evaluate infinite spanning cluster probability P_inf(p) in porous rocks and epidemiology.">
+  <meta property="og:url" content="https://niktool.in/tools/percolation-threshold-bethe-lattice-cluster-size-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Percolation Threshold (p_c) & Spanning Cluster Probability Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/percolation-threshold-bethe-lattice-cluster-size-calculator/",
+        "description": "Calculate statistical percolation phase transition critical threshold (p_c = 1 / (z - 1)) on Bethe lattices and evaluate infinite spanning cluster probability P_inf(p) in porous rocks and epidemiology.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the exact critical exponent (β) for 2D percolation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For all 2D planar lattices, the critical exponent is universally $\beta = 5/36 approx 0.1388$, proving that scaling behavior depends only on dimensionality, not lattice geometry."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Percolation Threshold (p_c) & Spanning Cluster Probability Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Percolation Threshold (p_c) & Spanning Cluster Probability Calculator</h1>
+      <p>Calculate statistical percolation phase transition critical threshold (p_c = 1 / (z - 1)) on Bethe lattices and evaluate infinite spanning cluster probability P_inf(p) in porous rocks and epidemiology.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Lattice Topology (Square 2D, Cubic 3D, Bethe Tree z=3, Honeycomb) & Bond Probability p</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="perc-lat">Lattice Topology</label>
+          <select class="tool-textarea" id="perc-lat">
+            <option value="square" selected>2D Square Lattice (z = 4: Exact Bond p_c = 0.500)</option>
+            <option value="cubic">3D Simple Cubic Lattice (z = 6: Bond p_c = 0.2488)</option>
+            <option value="honeycomb">2D Honeycomb / Graphene (z = 3: Bond p_c = 0.6527)</option>
+            <option value="bethe3">Bethe Tree Cayley Lattice (Coordination z = 3: p_c = 0.500)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="perc-p">Bond Probability p</label>
+          <input class="tool-textarea" id="perc-p" type="number" step="0.05" min="0.01" max="0.99" value="0.60" placeholder="0.60 (60% Open Pores)" />
+        </div>
+      </div>
+      <div id="perc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="perc-res-span" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">P_inf = 48.5% Spanning Cluster</span>
+            <span class="stat-label">Infinite Spanning Cluster Probability (P_inf)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="perc-res-stat" style="color:var(--green-dark); font-weight:700;">SUPERCRITICAL PERCOLATING PHASE (p = 0.60 > p_c = 0.50: Continuous Fluid Flow Path Exists!)</span>
+            <span class="stat-label">Percolation Phase Transition Status</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Percolation Threshold (p_c) & Spanning Cluster Probability Calculator</h2>
+      <ol>
+        <li>Select lattice network geometry (2D Square, 3D Cubic, 2D Honeycomb, Bethe Tree).</li>
+        <li>Enter random bond/site occupation probability p ($0 < p < 1$).</li>
+        <li>Inspect critical percolation threshold $p_c$, infinite spanning cluster probability $P_infty$, and phase transition conduction status.</li>
+      </ol>
+
+      <h2>John Broadbent & John Hammersley 1957 Percolation Theory</h2>
+      <p>Percolation is the geometric paradigm for second-order continuous phase transitions; below $p_c$ pores remain disconnected, while infinitesimally above $p_c$ a macroscopic spanning backbone forms, governing oil reservoir permeability, gelation polymerization, and wildfire propagation.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the exact critical exponent (β) for 2D percolation?</summary>
+        <p>For all 2D planar lattices, the critical exponent is universally $eta = 5/36 approx 0.1388$, proving that scaling behavior depends only on dimensionality, not lattice geometry.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/percolation-threshold-bethe-lattice-cluster-size-calculator/tool.js"></script>
+</body>
+</html>

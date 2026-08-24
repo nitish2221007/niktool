@@ -1,0 +1,15 @@
+{
+  "name": "Base32 Encoder & Decoder (RFC 4648)",
+  "description": "Encode plain text into standard uppercase Base32 (A-Z, 2-7) format or decode Base32 strings back to UTF-8 text for 2FA TOTP secret keys.",
+  "path": "/tools/base32-encoder-decoder/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "base32 encoder decoder",
+    "base32 online converter",
+    "rfc 4648 base32 decoder",
+    "totp base32 key converter",
+    "base32 string encoder"
+  ],
+  "order": 166
+}

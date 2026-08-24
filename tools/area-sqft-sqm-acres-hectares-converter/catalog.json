@@ -1,0 +1,15 @@
+{
+  "name": "Land Area Converter (Sq Ft, Sq Meters, Acres, Hectares)",
+  "description": "Convert real estate land areas across Square Feet (sq ft), Square Meters (m²), Acres, Hectares (ha), and Square Yards in real time.",
+  "path": "/tools/area-sqft-sqm-acres-hectares-converter/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "land area converter",
+    "square feet to square meters converter",
+    "acres to hectares calculator",
+    "sq ft to acres converter",
+    "real estate area converter online"
+  ],
+  "order": 223
+}

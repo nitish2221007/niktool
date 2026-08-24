@@ -1,0 +1,15 @@
+{
+  "name": "Convert 24°C Celsius to Fahrenheit",
+  "description": "Convert 24 degrees Celsius (°C) to Fahrenheit (75.2°F).",
+  "path": "/tools/convert-24-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 24 celsius to fahrenheit",
+    "Convert 24°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

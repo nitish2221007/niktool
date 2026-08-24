@@ -1,0 +1,15 @@
+{
+  "name": "Solow-Swan Neoclassical Economic Growth Steady-State (k*) Calculator",
+  "description": "Calculate macroeconomic Solow-Swan steady-state capital per worker (k* = [s·A / (n + g + δ)]^(1/(1-α))), steady-state output per worker (y* = A·k*^α), and Golden Rule consumption level.",
+  "path": "/tools/solow-swan-growth-model-steady-state-capital-labor-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "solow swan growth calculator",
+    "steady state capital per worker formula solow model online",
+    "golden rule capital stock calculator economics",
+    "savings rate depreciation population growth solow calculator",
+    "macroeconomics neoclassical growth model online"
+  ],
+  "order": 1005
+}

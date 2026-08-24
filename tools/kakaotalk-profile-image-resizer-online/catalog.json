@@ -1,0 +1,15 @@
+{
+  "name": "KakaoTalk Profile Image Resizer Online (카카오톡 프로필 사이즈)",
+  "description": "Resize and crop photos into 360x360 square for KakaoTalk profile icons.",
+  "path": "/tools/kakaotalk-profile-image-resizer-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "kakaotalk profile image resizer online",
+    "KakaoTalk Profile Image Resizer Online (카카오톡 프로필 사이즈)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

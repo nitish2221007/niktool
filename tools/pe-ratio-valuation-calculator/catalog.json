@@ -1,0 +1,15 @@
+{
+  "name": "P/E Ratio & PEG Stock Valuation Calculator",
+  "description": "Calculate Price-to-Earnings (P/E = Share Price / EPS), PEG growth ratio, and earnings yield for equity fundamental analysis.",
+  "path": "/tools/pe-ratio-valuation-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "pe ratio calculator",
+    "price to earnings valuation calculator",
+    "peg ratio calculator online",
+    "earnings per share pe multiple",
+    "stock fundamental valuation formula"
+  ],
+  "order": 212
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Continuous Stirred-Tank Reactor (CSTR Conversion X = Da / (1 + Da)) Calculator",
+  "description": "Calculate Continuous Stirred-Tank Reactor (CSTR) steady-state conversion X (X = τ·k / (1 + τ·k)), reactor volume V, space time τ, and Damköhler number (Da = k·τ) for industrial chemical manufacturing.",
+  "path": "/tools/continuous-stirred-tank-reactor-cstr-conversion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cstr calculator",
+    "continuous stirred tank reactor conversion formula online",
+    "cstr volume damkohler number calculator chemical engineering",
+    "cstr space time tau reaction rate calculator",
+    "chemical reactor engineering reaction kinetics online"
+  ],
+  "order": 1241
+}

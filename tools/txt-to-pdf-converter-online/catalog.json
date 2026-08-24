@@ -1,0 +1,15 @@
+{
+  "name": "Convert TXT to PDF Online",
+  "description": "Convert plain text (.txt) files into clean PDF documents.",
+  "path": "/tools/txt-to-pdf-converter-online/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "txt to pdf converter online",
+    "Convert TXT to PDF Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

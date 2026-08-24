@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate optical photodiode spectral Responsivity R in A/W (R = η · q · λ / (h · c)), Quantum Efficiency η (QE%), and generated photocurrent I_ph from incident laser optical power P_opt.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/photodetector-responsivity-quantum-efficiency-nep-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator | NikTool">
+  <meta property="og:description" content="Calculate optical photodiode spectral Responsivity R in A/W (R = η · q · λ / (h · c)), Quantum Efficiency η (QE%), and generated photocurrent I_ph from incident laser optical power P_opt.">
+  <meta property="og:url" content="https://niktool.in/tools/photodetector-responsivity-quantum-efficiency-nep-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/photodetector-responsivity-quantum-efficiency-nep-calculator/",
+        "description": "Calculate optical photodiode spectral Responsivity R in A/W (R = η · q · λ / (h · c)), Quantum Efficiency η (QE%), and generated photocurrent I_ph from incident laser optical power P_opt.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does responsivity increase with wavelength until the bandgap cutoff?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Longer wavelengths contain more photons per Watt of optical power ($N_{\text{photons}} = P / h\nu$), generating more electron-hole pairs until $h\nu < E_g$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator</h1>
+      <p>Calculate optical photodiode spectral Responsivity R in A/W (R = η · q · λ / (h · c)), Quantum Efficiency η (QE%), and generated photocurrent I_ph from incident laser optical power P_opt.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Laser Wavelength λ (nm), Quantum Efficiency η (%) & Incident Optical Power P_opt (mW)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pd-lambda">Wavelength λ (nm)</label>
+          <input class="tool-textarea" id="pd-lambda" type="number" step="50" value="1550.0" placeholder="1550 nm (Telecom InGaAs)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pd-eta">Quantum Eff η (%)</label>
+          <input class="tool-textarea" id="pd-eta" type="number" step="5" value="85.0" placeholder="85.0% QE" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pd-popt">Power P_opt (mW)</label>
+          <input class="tool-textarea" id="pd-popt" type="number" step="0.5" value="2.0" placeholder="2.0 mW" />
+        </div>
+      </div>
+      <div id="pd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pd-res-resp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Responsivity R = 1.062 A / W</span>
+            <span class="stat-label">Spectral Responsivity (R = η · q · λ / (h · c) = η · λ / 1239.8)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pd-res-iph" style="color:var(--green-dark); font-weight:700;">Photocurrent I_ph = 2.124 mA (2,124 μA) | Photon Energy = 0.800 eV</span>
+            <span class="stat-label">Generated Electrical Photocurrent (I_ph = R · P_opt)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Photodetector Responsivity (R = η·q·λ / h·c) & Detectivity (D*) Calculator</h2>
+      <ol>
+        <li>Enter incident light wavelength $lambda$ in nanometers (e.g. 850 nm, 1310 nm, or 1550 nm).</li>
+        <li>Enter photodiode internal Quantum Efficiency $eta$ percentage.</li>
+        <li>Enter incident optical laser beam power in mW.</li>
+        <li>Inspect spectral responsivity R in Amperes/Watt and generated output photocurrent $I_{	ext{ph}}$.</li>
+      </ol>
+
+      <h2>Photonic Optoelectronic Conversion Law</h2>
+      <p>Directly converts photon arrival rates into electrical charge carriers ($R = rac{eta lambda}{1240}	ext{ A/W}$), sizing fiber optic telecommunications receivers and LiDAR detectors.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does responsivity increase with wavelength until the bandgap cutoff?</summary>
+        <p>Longer wavelengths contain more photons per Watt of optical power ($N_{	ext{photons}} = P / h
+u$), generating more electron-hole pairs until $h
+u < E_g$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/photodetector-responsivity-quantum-efficiency-nep-calculator/tool.js"></script>
+</body>
+</html>

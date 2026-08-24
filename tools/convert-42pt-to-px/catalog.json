@@ -1,0 +1,15 @@
+{
+  "name": "Convert 42pt to PX",
+  "description": "Convert 42 points (pt) to pixels (56.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-42pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 42pt to px",
+    "Convert 42pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

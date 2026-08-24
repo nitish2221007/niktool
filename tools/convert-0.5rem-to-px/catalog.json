@@ -1,0 +1,15 @@
+{
+  "name": "Convert 0.5 REM to PX",
+  "description": "Convert 0.5 REM units to pixels (px) based on 16px root font size (8px).",
+  "path": "/tools/convert-0.5rem-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 0.5rem to px",
+    "Convert 0.5 REM to PX",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

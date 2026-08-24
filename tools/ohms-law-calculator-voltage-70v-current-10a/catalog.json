@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 70V, Current 10A)",
+  "description": "Calculate Resistance (7.00 Ω) and Electric Power (700.0 W) for 70V voltage and 10A current.",
+  "path": "/tools/ohms-law-calculator-voltage-70v-current-10a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 70v current 10a",
+    "Ohm's Law Calculator (Voltage 70V, Current 10A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Freelance Hourly Rate to Salary Calculator",
+  "description": "Convert freelance hourly consulting rates into equivalent annual gross salary, monthly income, and estimated billable utilization.",
+  "path": "/tools/freelance-hourly-to-salary-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "hourly to salary calculator",
+    "freelance rate calculator",
+    "hourly rate to annual salary",
+    "contractor salary calculator",
+    "consulting rate calculator"
+  ],
+  "order": 78
+}

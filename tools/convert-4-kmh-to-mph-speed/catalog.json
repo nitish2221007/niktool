@@ -1,0 +1,15 @@
+{
+  "name": "Convert 4 KM/H to MPH Speed",
+  "description": "Convert 4 kilometers per hour (km/h) to miles per hour (2.49 mph).",
+  "path": "/tools/convert-4-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 4 kmh to mph speed",
+    "Convert 4 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

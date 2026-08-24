@@ -1,0 +1,15 @@
+{
+  "name": "Equal Temperament Musical Note Frequency Calculator",
+  "description": "Calculate fundamental musical pitch frequencies (f = 440 · 2^((n - 69) / 12) Hz) and MIDI note numbers based on A4 = 440 Hz standard concert pitch.",
+  "path": "/tools/musical-note-frequency-equal-temperament-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "musical note frequency calculator",
+    "equal temperament pitch calculator",
+    "midi note number to hz formula",
+    "a4 440 hz frequency chart online",
+    "piano key frequency online"
+  ],
+  "order": 379
+}

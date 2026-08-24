@@ -1,0 +1,15 @@
+{
+  "name": "Pitot-Static Tube Airspeed (v = √(2·ΔP / ρ)) & Dynamic Pressure (q) Calculator",
+  "description": "Calculate indicated and true airspeed (v = √(2·(P_total - P_static) / ρ)) in knots and km/h from Pitot-static tube dynamic impact pressure (q = P_t - P_s) in hPa and local air density ρ for avionics.",
+  "path": "/tools/pitot-tube-airspeed-dynamic-pressure-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pitot tube calculator",
+    "pitot static airspeed formula v equals sqrt 2 delta p over rho online",
+    "dynamic pressure impact pressure airspeed calculator",
+    "indicated true airspeed pitot tube aviation calculator",
+    "avionics aerodynamics pitot tube online"
+  ],
+  "order": 1118
+}

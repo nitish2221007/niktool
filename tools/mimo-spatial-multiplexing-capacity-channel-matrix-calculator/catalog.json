@@ -1,0 +1,16 @@
+{
+  "name": "MIMO Spatial Multiplexing Capacity & Channel Matrix Calculator",
+  "description": "Calculate theoretical spectral efficiency and Shannon channel capacity for Nt x Nr MIMO spatial multiplexing systems.",
+  "path": "/tools/mimo-spatial-multiplexing-capacity-channel-matrix-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "mimo spatial multiplexing capacity channel matrix calculator",
+    "MIMO Spatial Multiplexing Capacity & Channel Matrix Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

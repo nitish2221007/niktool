@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate population genetics allele frequencies (p and q), expected genotype frequencies (p² Homozygous Dominant, 2pq Heterozygous Carrier, q² Homozygous Recessive), and Chi-Square goodness-of-fit test for evolutionary equilibrium.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hardy-weinberg-equilibrium-allele-genotype-frequency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator | NikTool">
+  <meta property="og:description" content="Calculate population genetics allele frequencies (p and q), expected genotype frequencies (p² Homozygous Dominant, 2pq Heterozygous Carrier, q² Homozygous Recessive), and Chi-Square goodness-of-fit test for evolutionary equilibrium.">
+  <meta property="og:url" content="https://niktool.in/tools/hardy-weinberg-equilibrium-allele-genotype-frequency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hardy-weinberg-equilibrium-allele-genotype-frequency-calculator/",
+        "description": "Calculate population genetics allele frequencies (p and q), expected genotype frequencies (p² Homozygous Dominant, 2pq Heterozygous Carrier, q² Homozygous Recessive), and Chi-Square goodness-of-fit test for evolutionary equilibrium.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is carrier frequency (2pq) so much higher than disease incidence (q^2)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because $q$ is much larger than $q^2$; for Cystic Fibrosis ($q^2 = 1/2500$), the recessive allele is $q = 1/50$, making the carrier frequency $2pq approx 1/25$ ($4%$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator</h1>
+      <p>Calculate population genetics allele frequencies (p and q), expected genotype frequencies (p² Homozygous Dominant, 2pq Heterozygous Carrier, q² Homozygous Recessive), and Chi-Square goodness-of-fit test for evolutionary equilibrium.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Recessive Disease Prevalence q² (e.g. 1 in 2,500 for Cystic Fibrosis) or Observed Counts</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hw-q2">Recessive Frequency q²</label>
+          <input class="tool-textarea" id="hw-q2" type="number" step="0.0001" value="0.0004" placeholder="0.0004 (1 in 2,500)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hw-pop">Population Size N</label>
+          <input class="tool-textarea" id="hw-pop" type="number" step="5000" value="100000" placeholder="100,000 Individuals" />
+        </div>
+      </div>
+      <div id="hw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hw-res-alleles" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Alleles: p = 0.9800 (98.0%), q = 0.0200 (2.0%)</span>
+            <span class="stat-label">Dominant (p) & Recessive (q) Allele Frequencies</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hw-res-geno" style="color:var(--green-dark); font-weight:700;">Heterozygous Carriers 2pq = 3.92% (1 in 26 people | 3,920 carriers in 100,000 population)</span>
+            <span class="stat-label">Carrier Frequency (2pq) & Population Breakdown</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hardy-Weinberg Equilibrium (p² + 2pq + q² = 1) & Chi-Square Test Calculator</h2>
+      <ol>
+        <li>Enter homozygous recessive phenotype/genotype prevalence frequency $q^2$ (e.g. $0.0004 = 1/2500$).</li>
+        <li>Enter total population size N.</li>
+        <li>Inspect dominant allele frequency p, recessive allele frequency q, and heterozygous carrier frequency ($2pq$).</li>
+      </ol>
+
+      <h2>G. H. Hardy & Wilhelm Weinberg 1908 Population Genetics Model</h2>
+      <p>Demonstrates that in large randomly mating populations without mutation, selection, or drift, allele and genotype frequencies remain constant across generations ($p^2 + 2pq + q^2 = 1$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is carrier frequency (2pq) so much higher than disease incidence (q^2)?</summary>
+        <p>Because $q$ is much larger than $q^2$; for Cystic Fibrosis ($q^2 = 1/2500$), the recessive allele is $q = 1/50$, making the carrier frequency $2pq approx 1/25$ ($4%$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hardy-weinberg-equilibrium-allele-genotype-frequency-calculator/tool.js"></script>
+</body>
+</html>

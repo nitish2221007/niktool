@@ -1,0 +1,15 @@
+{
+  "name": "Lawson Criterion Fusion Triple Product (n·T·τ_E) & Ignition Calculator",
+  "description": "Calculate magnetic confinement nuclear fusion Lawson Criterion Triple Product (n · T · τ_E in keV·s/m³), energy confinement time τ_E, and evaluate Deuterium-Tritium (D-T) thermonuclear ignition (n·T·τ_E ≥ 3 × 10²¹ keV·s/m³).",
+  "path": "/tools/lawson-criterion-triple-product-fusion-plasma-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lawson criterion calculator",
+    "fusion triple product formula n t tau online",
+    "deuterium tritium ignition threshold calculator",
+    "energy confinement time tokamak stellarator calculator",
+    "plasma physics nuclear fusion nuclear engineering online"
+  ],
+  "order": 1385
+}

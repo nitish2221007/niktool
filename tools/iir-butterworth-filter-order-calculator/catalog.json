@@ -1,0 +1,15 @@
+{
+  "name": "IIR Butterworth Analog & Digital Filter Order Calculator",
+  "description": "Calculate maximally flat IIR Butterworth filter minimum order (N = log₁₀((10^(0.1·As) - 1)/(10^(0.1·Ap) - 1)) / (2·log₁₀(Ωs / Ωp))) and 3dB corner roll-off.",
+  "path": "/tools/iir-butterworth-filter-order-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "butterworth filter calculator",
+    "iir butterworth order formula online",
+    "filter order passband stopband attenuation calculator",
+    "maximally flat butterworth filter dsp online",
+    "analog filter order calculator"
+  ],
+  "order": 611
+}

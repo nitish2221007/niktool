@@ -1,0 +1,15 @@
+{
+  "name": "Raoult's & Dalton's Law Binary Vapor-Liquid Equilibrium (y_i·P = x_i·P_i^sat) Calculator",
+  "description": "Calculate ideal binary vapor-liquid equilibrium (VLE) Bubble Point Pressure (P_bubble = x_A·P_A^sat + x_B·P_B^sat), Dew Point Pressure, vapor composition y_A, and relative volatility α_AB.",
+  "path": "/tools/raoult-dalton-law-vapor-liquid-equilibrium-vle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "raoult law calculator",
+    "vapor liquid equilibrium vle formula bubble dew point online",
+    "daltons law partial pressure binary mixture calculator",
+    "relative volatility alpha ab vle calculator",
+    "chemical engineering distillation thermodynamics online"
+  ],
+  "order": 1251
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Convert 2 Inches to CM",
+    "description": "Convert 2 inches (in) to centimeters (5.08 cm). 100% free and local.",
+    "path": "/tools/convert-2-inches-to-cm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 inches to cm",
+      "Convert 2 Inches to CM",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KB to Bytes Data",
+    "description": "Convert 2 Kilobytes (KB) to Bytes (2048 bytes). 100% free and local.",
+    "path": "/tools/convert-2-kb-to-bytes-data/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 kb to bytes data",
+      "Convert 2 KB to Bytes Data",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KG to Grams Val",
+    "description": "Convert 2 kilograms (kg) to grams (2000 g) instantly. 100% free and local.",
+    "path": "/tools/convert-2-kg-to-grams-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 kg to grams val",
+      "Convert 2 KG to Grams Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KG to LBS",
+    "description": "Convert 2 kilograms (2 kg) to pounds (4.41 lbs) instantly in your browser.",
+    "path": "/tools/convert-2-kg-to-lbs/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 kg to lbs",
+      "Convert 2 KG to LBS",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KM to Meters Val",
+    "description": "Convert 2 kilometers (km) to meters (2000 m) instantly. 100% free and local.",
+    "path": "/tools/convert-2-km-to-meters-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 km to meters val",
+      "Convert 2 KM to Meters Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KM to Miles",
+    "description": "Convert 2 kilometers to miles (1.24 miles). 100% free and local.",
+    "path": "/tools/convert-2-km-to-miles/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 km to miles",
+      "Convert 2 KM to Miles",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KM to Miles Distance",
+    "description": "Convert 2 kilometers (2 km) to miles (1.24 miles) instantly. 100% free and local.",
+    "path": "/tools/convert-2-km-to-miles-distance/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 km to miles distance",
+      "Convert 2 KM to Miles Distance",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 KM/H to MPH Speed",
+    "description": "Convert 2 kilometers per hour (km/h) to miles per hour (1.24 mph).",
+    "path": "/tools/convert-2-kmh-to-mph-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 kmh to mph speed",
+      "Convert 2 KM/H to MPH Speed",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Knots Speed Val to KM/H",
+    "description": "Convert 2 knots speed to kilometers per hour (3.70 km/h).",
+    "path": "/tools/convert-knot-speed-val-2-to-kmh/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert knot speed val 2 to kmh",
+      "Convert 2 Knots Speed Val to KM/H",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Knots to KM/H Speed",
+    "description": "Convert 2 knots speed to kilometers per hour (3.70 km/h).",
+    "path": "/tools/convert-2-knots-to-kmh-speed/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 knots to kmh speed",
+      "Convert 2 Knots to KM/H Speed",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 LBS to KG Weight",
+    "description": "Convert 2 pounds (lbs) to kilograms (0.91 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-2-lbs-to-kg-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 lbs to kg weight",
+      "Convert 2 LBS to KG Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 MB to KB",
+    "description": "Convert 2 Megabytes (MB) to Kilobytes (2048 KB). 100% free and local.",
+    "path": "/tools/convert-2-mb-to-kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 mb to kb",
+      "Convert 2 MB to KB",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Meters to CM Val",
+    "description": "Convert 2 meters (m) to centimeters (200 cm) instantly. 100% free and local.",
+    "path": "/tools/convert-2-meters-to-cm-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 meters to cm val",
+      "Convert 2 Meters to CM Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Meters to Feet",
+    "description": "Convert 2 meters (m) to feet (ft) instantly (6.56 ft). 100% free and local.",
+    "path": "/tools/convert-2-meters-to-feet/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 meters to feet",
+      "Convert 2 Meters to Feet",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Meters to Yards Val",
+    "description": "Convert 2 meters (m) to yards (2.19 yd) instantly. 100% free and local.",
+    "path": "/tools/convert-2-meters-to-yards-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 meters to yards val",
+      "Convert 2 Meters to Yards Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Miles to KM",
+    "description": "Convert 2 miles to kilometers (3.22 km). 100% free and local.",
+    "path": "/tools/convert-2-miles-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 miles to km",
+      "Convert 2 Miles to KM",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Nautical Miles to KM",
+    "description": "Convert 2 nautical miles (NM) to kilometers (3.70 km). 100% free and local.",
+    "path": "/tools/convert-2-nautical-miles-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 nautical miles to km",
+      "Convert 2 Nautical Miles to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Nautical Miles Val to KM",
+    "description": "Convert 2 nautical miles (NM) to kilometers (3.70 km). 100% free and local.",
+    "path": "/tools/convert-nautical-mile-val-2-to-km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert nautical mile val 2 to km",
+      "Convert 2 Nautical Miles Val to KM",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Ounces to Grams Weight",
+    "description": "Convert 2 ounces (oz) to grams (56.70 g) instantly. 100% free and local.",
+    "path": "/tools/convert-2-ounces-to-grams-weight/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 ounces to grams weight",
+      "Convert 2 Ounces to Grams Weight",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 REM to PX",
+    "description": "Convert 2 REM units to pixels (px) based on 16px root font size (32px).",
+    "path": "/tools/convert-2rem-to-px/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 2rem to px",
+      "Convert 2 REM to PX",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert 2 REM to PX Value",
+    "description": "Convert 2 REM units to pixels (32 px) based on standard 16px root font.",
+    "path": "/tools/convert-2-rem-to-px-value/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "convert 2 rem to px value",
+      "Convert 2 REM to PX Value",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Tons to KG Val",
+    "description": "Convert 2 metric tons to kilograms (2000 kg) instantly. 100% free and local.",
+    "path": "/tools/convert-2-tons-to-kg-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 tons to kg val",
+      "Convert 2 Tons to KG Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Yards to Feet Val",
+    "description": "Convert 2 yards (yd) to feet (6 ft) instantly. 100% free and local.",
+    "path": "/tools/convert-2-yards-to-feet-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 yards to feet val",
+      "Convert 2 Yards to Feet Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Convert 2 Yards to Meters Val",
+    "description": "Convert 2 yards (yd) to meters (1.83 m) instantly. 100% free and local.",
+    "path": "/tools/convert-2-yards-to-meters-val/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "convert 2 yards to meters val",
+      "Convert 2 Yards to Meters Val",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

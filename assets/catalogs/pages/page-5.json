@@ -1,410 +1,359 @@
 [
   {
-    "name": "Formal Letter Format Checker",
-    "description": "Check your formal letter format for essential elements like subject, salutation, and closing. Free, fast, and fully private.",
-    "path": "/tools/formal-letter-format-checker/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "formal letter format checker",
-      "letter writing checker",
-      "CBSE formal letter format",
-      "letter format class 10",
-      "formal letter checker",
-      "check letter format",
-      "letter structure checker",
-      "school letter checker"
-    ]
-  },
-  {
-    "name": "Remove Last Two PDF Pages",
-    "description": "Delete the trailing 2 pages from any PDF document locally in your browser.",
-    "path": "/tools/remove-last-two-pdf-pages/",
+    "name": "Convert WebP to PDF Online",
+    "description": "Convert WebP photos into a PDF document instantly in your browser.",
+    "path": "/tools/webp-to-pdf-converter-online/",
     "category": "PDF",
     "icon": "text",
     "keywords": [
-      "pdf",
-      "remove pages",
-      "delete pdf pages",
-      "trim pdf",
-      "last two pages"
+      "webp to pdf converter online",
+      "Convert WebP to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Text Cleaner",
-    "description": "Remove extra spaces, blank lines, and weird formatting from pasted text. Free, fast, and fully private browser tool.",
-    "path": "/tools/text-cleaner/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "text cleaner",
-      "clean text online",
-      "remove extra spaces",
-      "remove blank lines",
-      "whitespace remover",
-      "text formatter",
-      "clean up text",
-      "duplicate spaces remover"
-    ]
-  },
-  {
-    "name": "Case Converter",
-    "description": "Convert text to uppercase, lowercase, sentence case, or title case instantly. Free, fast, and fully private browser tool.",
-    "path": "/tools/case-converter/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "case converter",
-      "uppercase lowercase converter",
-      "text case converter",
-      "sentence case converter",
-      "title case converter",
-      "capitalization tool",
-      "change case online",
-      "text capitalization"
-    ]
-  },
-  {
-    "name": "Duplicate Word Finder",
-    "description": "Find repeated words in your text to improve writing variety and reduce repetition. Free, fast, and fully private.",
-    "path": "/tools/duplicate-word-finder/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "duplicate word finder",
-      "repeated words checker",
-      "find repeated words",
-      "word repetition checker",
-      "essay duplicate words",
-      "writing cleanup tool",
-      "repeated word detector",
-      "text duplicate finder"
-    ]
-  },
-  {
-    "name": "Word Frequency Counter",
-    "description": "Analyze text to see how many times each word appears with a sorted frequency table. Free, fast, and fully private.",
-    "path": "/tools/word-frequency-counter/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "word frequency counter",
-      "word frequency calculator",
-      "word count frequency",
-      "most common words checker",
-      "text word frequency",
-      "keyword density checker",
-      "word occurrence counter",
-      "frequency of words"
-    ]
-  },
-  {
-    "name": "Alphabetical Text Sorter",
-    "description": "Sort any list of words or names alphabetically in ascending or descending order. Free, fast, and fully private.",
-    "path": "/tools/alphabetical-text-sorter/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "alphabetical order words",
-      "alphabetical text sorter",
-      "sort words alphabetically",
-      "alphabetizer",
-      "sort list alphabetically",
-      "alphabetical order calculator",
-      "dictionary order calculator",
-      "sort names alphabetically"
-    ]
-  },
-  {
-    "name": "Study Time Calculator",
-    "description": "Calculate your realistic daily self-study hours by subtracting school, coaching, and breaks from your awake time. Free and private.",
-    "path": "/tools/study-time-calculator/",
+    "name": "Convert XML to JSON Online",
+    "description": "Parse XML document tags into JSON objects.",
+    "path": "/tools/xml-to-json-converter/",
     "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "study time calculator",
-      "study hours calculator",
-      "daily study planner",
-      "how many hours should I study",
-      "student study time calculator",
-      "class 10 study time",
-      "exam study hours",
-      "study schedule calculator"
+      "xml to json converter",
+      "Convert XML to JSON Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Exam Countdown",
-    "description": "Track the exact days, hours, and minutes left until your next board or school exam. Free, fast, and fully private.",
-    "path": "/tools/exam-countdown/",
+    "name": "Convert YAML to JSON Online",
+    "description": "Parse and convert YAML code into structured JSON format.",
+    "path": "/tools/yaml-to-json-converter/",
     "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "exam countdown",
-      "exam countdown timer",
-      "board exam countdown",
-      "class 10 exam countdown",
-      "days left for exam",
-      "exam days calculator",
-      "study countdown",
-      "CBSE exam countdown"
+      "yaml to json converter",
+      "Convert YAML to JSON Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Days Between Dates",
-    "description": "Calculate the exact number of days, weeks, and hours between any two dates. Free, fast, and fully private browser tool.",
-    "path": "/tools/days-between-dates/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "days between dates calculator",
-      "date difference calculator",
-      "number of days between dates",
-      "days calculator",
-      "date duration calculator",
-      "exam days calculator",
-      "study days calculator",
-      "days left calculator"
-    ]
-  },
-  {
-    "name": "Syllabus Progress Calculator",
-    "description": "Track your board exam preparation by calculating the percentage of syllabus completed versus remaining. Free and private.",
-    "path": "/tools/syllabus-progress-calculator/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "syllabus progress calculator",
-      "syllabus completion calculator",
-      "study progress calculator",
-      "chapter completion calculator",
-      "class 10 syllabus tracker",
-      "board exam syllabus tracker",
-      "study progress percentage",
-      "exam preparation tracker"
-    ]
-  },
-  {
-    "name": "Remove First Page of PDF",
-    "description": "Delete the title or cover page from any PDF document locally in your browser.",
-    "path": "/tools/remove-first-page-of-pdf/",
+    "name": "Duplicate All PDF Pages",
+    "description": "Duplicate every page in a PDF file (1, 1, 2, 2, 3, 3...).",
+    "path": "/tools/duplicate-all-pdf-pages/",
     "category": "PDF",
     "icon": "text",
     "keywords": [
-      "pdf",
-      "remove first page",
-      "delete cover page",
-      "trim pdf",
-      "delete page 1"
+      "duplicate all pdf pages",
+      "Duplicate All PDF Pages",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
     ]
   },
   {
-    "name": "Revision Planner",
-    "description": "Calculate your daily chapter targets and time per chapter based on days left and daily study hours. Free and private.",
-    "path": "/tools/revision-planner/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "revision planner",
-      "study revision planner",
-      "class 10 revision planner",
-      "board exam revision planner",
-      "exam revision schedule",
-      "study timetable generator",
-      "revision timetable generator",
-      "student revision schedule"
-    ]
-  },
-  {
-    "name": "Chapter Progress Tracker",
-    "description": "Track your revised versus practiced chapters to identify untouched syllabus before board exams. Free and fully private.",
-    "path": "/tools/chapter-progress-tracker/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "chapter tracker",
-      "class 10 chapter tracker",
-      "study tracker",
-      "chapter progress tracker",
-      "board preparation tracker",
-      "class 10 study tracker",
-      "syllabus tracker",
-      "exam preparation tracker"
-    ]
-  },
-  {
-    "name": "Target Percentage Planner",
-    "description": "Calculate the exact total marks and per-subject average needed to achieve your target board percentage. Free and private.",
-    "path": "/tools/target-percentage-planner/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "target percentage calculator",
-      "target marks planner",
-      "90 percent marks calculator",
-      "95 percent marks calculator",
-      "marks needed for 90 percent",
-      "target score calculator",
-      "student marks planner",
-      "board target marks"
-    ]
-  },
-  {
-    "name": "GPA Calculator",
-    "description": "Calculate your weighted GPA from grades and credits using standard 4.0 or 10-point scales. Free, fast, and fully private.",
-    "path": "/tools/gpa-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "GPA calculator",
-      "student GPA calculator",
-      "grade point average calculator",
-      "GPA calculator online",
-      "school GPA calculator",
-      "weighted GPA calculator",
-      "unweighted GPA calculator",
-      "GPA from marks"
-    ]
-  },
-  {
-    "name": "Attendance Calculator",
-    "description": "Calculate your current attendance percentage and find out exactly how many classes you can miss or must attend. Free and private.",
-    "path": "/tools/attendance-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "attendance calculator",
-      "attendance percentage calculator",
-      "attendance shortage calculator",
-      "how many classes can I miss",
-      "classes needed for 75 attendance",
-      "student attendance calculator",
-      "75 percent attendance calculator",
-      "college attendance calculator"
-    ]
-  },
-  {
-    "name": "Password Strength Checker",
-    "description": "Test your password strength locally in the browser. 100% private, secure, and never sends your data to a server.",
-    "path": "/tools/password-strength-checker/",
-    "category": "Security",
-    "icon": "shield",
-    "keywords": [
-      "password strength checker",
-      "password checker",
-      "strong password checker",
-      "password security checker",
-      "password strength test",
-      "secure password checker",
-      "password entropy calculator",
-      "private password checker"
-    ]
-  },
-  {
-    "name": "Hash Generator",
-    "description": "Generate SHA-256, SHA-384, SHA-512, and SHA-1 hashes from text locally in your browser. Free, fast, and fully private.",
-    "path": "/tools/hash-generator/",
-    "category": "Security",
-    "icon": "shield",
-    "keywords": [
-      "hash generator",
-      "SHA256 hash generator",
-      "SHA-256 calculator",
-      "MD5 hash generator",
-      "text hash generator",
-      "checksum generator",
-      "hash calculator online",
-      "local hash generator",
-      "browser hash generator"
-    ]
-  },
-  {
-    "name": "Base64 Encoder Decoder",
-    "description": "Encode text to Base64 or decode Base64 to text with UTF-8 support. Free, fast, and fully private browser-based tool.",
-    "path": "/tools/base64-encoder-decoder/",
-    "category": "Developer",
-    "icon": "code",
-    "keywords": [
-      "base64 encoder",
-      "base64 decoder",
-      "base64 encode decode",
-      "base64 converter",
-      "online base64 encoder",
-      "text to base64",
-      "base64 decode online",
-      "developer base64 tool",
-      "base64 string decoder"
-    ]
-  },
-  {
-    "name": "URL Encoder Decoder",
-    "description": "Encode text to URL-safe format or decode percent-encoded URLs instantly. Free, fast, and fully private browser tool.",
-    "path": "/tools/url-encoder-decoder/",
-    "category": "Developer",
-    "icon": "code",
-    "keywords": [
-      "URL encoder",
-      "URL decoder",
-      "URL encode decode",
-      "percent encoding calculator",
-      "URL encoding tool",
-      "encode URL online",
-      "decode URL online",
-      "percent encode",
-      "URL component encoder",
-      "developer URL tool"
-    ]
-  },
-  {
-    "name": "JSON Formatter Validator",
-    "description": "Format, validate, and minify JSON locally with detailed error messages. Free, fast, and fully private browser-based tool.",
-    "path": "/tools/json-formatter-validator/",
-    "category": "Developer",
-    "icon": "code",
-    "keywords": [
-      "JSON formatter",
-      "JSON validator",
-      "JSON beautifier",
-      "JSON minifier",
-      "format JSON online",
-      "validate JSON",
-      "JSON pretty print",
-      "JSON parser online",
-      "JSON formatter validator",
-      "developer JSON tool"
-    ]
-  },
-  {
-    "name": "Custom PDF Page Remover",
-    "description": "Delete specific pages, custom ranges, or leading/trailing pages from any PDF document locally.",
-    "path": "/tools/remove-pages-from-pdf/",
+    "name": "Duplicate First Page Of PDF",
+    "description": "Duplicate the first page of a PDF file and insert it as page 2.",
+    "path": "/tools/duplicate-first-page-of-pdf/",
     "category": "PDF",
     "icon": "text",
     "keywords": [
-      "pdf",
-      "remove pages",
-      "delete custom pdf pages",
-      "delete page range",
-      "remove page range",
-      "delete pages"
+      "duplicate first page of pdf",
+      "Duplicate First Page Of PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
     ]
   },
   {
-    "name": "JSON to CSV Converter",
-    "description": "Convert JSON arrays to CSV format with proper escaping and automatic header detection. Free, fast, and fully private.",
-    "path": "/tools/json-to-csv-converter/",
-    "category": "Developer",
-    "icon": "code",
+    "name": "Duplicate Last Page Of PDF",
+    "description": "Duplicate the last page of a PDF document at the end.",
+    "path": "/tools/duplicate-last-page-of-pdf/",
+    "category": "PDF",
+    "icon": "text",
     "keywords": [
-      "JSON to CSV converter",
-      "JSON CSV converter",
-      "convert JSON to CSV",
-      "JSON array to CSV",
-      "online JSON to CSV",
-      "developer converter",
-      "JSON export CSV",
-      "JSON data converter",
-      "CSV converter JSON",
-      "local JSON converter"
+      "duplicate last page of pdf",
+      "Duplicate Last Page Of PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 1 Page From PDF",
+    "description": "Extract only the first 1 page of a PDF file into a clean new document. 100% free and private.",
+    "path": "/tools/extract-first-1-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 1 pages from pdf",
+      "Extract First 1 Page From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 10 Pages From PDF",
+    "description": "Extract only the first 10 pages of a PDF file into a clean new document. 100% free and private.",
+    "path": "/tools/extract-first-10-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 10 pages from pdf",
+      "Extract First 10 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 11 Pages From PDF",
+    "description": "Extract the first 11 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-11-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 11 pages from pdf",
+      "Extract First 11 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 12 Pages From PDF",
+    "description": "Extract the first 12 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-12-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 12 pages from pdf",
+      "Extract First 12 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 13 Pages From PDF",
+    "description": "Extract the first 13 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-13-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 13 pages from pdf",
+      "Extract First 13 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 14 Pages From PDF",
+    "description": "Extract the first 14 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-14-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 14 pages from pdf",
+      "Extract First 14 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 15 Pages From PDF",
+    "description": "Extract the first 15 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-15-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 15 pages from pdf",
+      "Extract First 15 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 16 Pages From PDF",
+    "description": "Extract the first 16 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-16-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 16 pages from pdf",
+      "Extract First 16 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 17 Pages From PDF",
+    "description": "Extract the first 17 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-17-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 17 pages from pdf",
+      "Extract First 17 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 18 Pages From PDF",
+    "description": "Extract the first 18 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-18-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 18 pages from pdf",
+      "Extract First 18 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 19 Pages From PDF",
+    "description": "Extract the first 19 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-19-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 19 pages from pdf",
+      "Extract First 19 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 2 Pages From PDF",
+    "description": "Extract only the first 2 pages of a PDF file into a clean new document. 100% free and private.",
+    "path": "/tools/extract-first-2-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 2 pages from pdf",
+      "Extract First 2 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 20 Pages From PDF",
+    "description": "Extract the first 20 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-20-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 20 pages from pdf",
+      "Extract First 20 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 21 Pages From PDF",
+    "description": "Extract the first 21 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-21-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 21 pages from pdf",
+      "Extract First 21 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 22 Pages From PDF",
+    "description": "Extract the first 22 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-22-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 22 pages from pdf",
+      "Extract First 22 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 23 Pages From PDF",
+    "description": "Extract the first 23 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-23-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 23 pages from pdf",
+      "Extract First 23 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 24 Pages From PDF",
+    "description": "Extract the first 24 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-24-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 24 pages from pdf",
+      "Extract First 24 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
+    ]
+  },
+  {
+    "name": "Extract First 25 Pages From PDF",
+    "description": "Extract the first 25 pages of any PDF document into a clean file. 100% free and local.",
+    "path": "/tools/extract-first-25-pages-from-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "extract first 25 pages from pdf",
+      "Extract First 25 Pages From PDF",
+      "pdf tool",
+      "online pdf utility",
+      "free pdf tool",
+      "browser pdf editor"
     ]
   }
 ]

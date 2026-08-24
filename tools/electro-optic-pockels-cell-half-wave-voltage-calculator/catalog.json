@@ -1,0 +1,15 @@
+{
+  "name": "Electro-Optic Pockels Cell Half-Wave Voltage (V_π) Calculator",
+  "description": "Calculate Pockels cell half-wave switching voltage (V_π = (λ · d) / (2 · n₀³ · r₆₃ · L)) for high-speed laser Q-switching and pulse picking crystals (KD*P, BBO, RTP).",
+  "path": "/tools/electro-optic-pockels-cell-half-wave-voltage-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pockels cell half wave voltage calculator",
+    "v pi formula electro optic effect",
+    "kdp bbo pockels cell voltage calculator",
+    "laser q switch pockels voltage online",
+    "transverse pockels cell half wave calculator"
+  ],
+  "order": 531
+}

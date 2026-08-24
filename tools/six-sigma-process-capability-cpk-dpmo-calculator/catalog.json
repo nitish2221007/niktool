@@ -1,0 +1,15 @@
+{
+  "name": "Six Sigma Process Capability (C_p, C_pk & DPMO) Quality Calculator",
+  "description": "Calculate manufacturing quality Process Capability C_p = (USL - LSL) / (6·σ), C_pk = min((USL - μ)/(3·σ), (μ - LSL)/(3·σ)), defect rate in Parts Per Million (DPMO), and Sigma Level.",
+  "path": "/tools/six-sigma-process-capability-cpk-dpmo-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cpk calculator",
+    "six sigma process capability formula cp cpk online",
+    "dpmo defects per million opportunities calculator",
+    "manufacturing quality control cpk calculator online",
+    "process sigma level normal distribution cpk online"
+  ],
+  "order": 782
+}

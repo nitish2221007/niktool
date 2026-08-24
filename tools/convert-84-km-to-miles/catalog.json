@@ -1,0 +1,15 @@
+{
+  "name": "Convert 84 KM to Miles",
+  "description": "Convert 84 kilometers to miles (52.20 miles). 100% free and local.",
+  "path": "/tools/convert-84-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 84 km to miles",
+    "Convert 84 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

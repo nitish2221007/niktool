@@ -1,0 +1,16 @@
+{
+  "name": "Remove Last 5 Pages From PDF",
+  "description": "Remove the last 5 pages of any PDF file instantly in your browser. 100% free, private, and secure with local processing.",
+  "path": "/tools/remove-last-5-pages-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "remove last 5 pages from pdf",
+    "Remove Last 5 Pages From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

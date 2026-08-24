@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 22 CIDR Prefix, Net #34)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (1,022 usable IPs) for /22 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-22-net-34/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 22 net 34",
+    "IP Subnet Mask & Host Calculator (/ 22 CIDR Prefix, Net #34)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

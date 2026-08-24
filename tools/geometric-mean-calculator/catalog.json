@@ -1,0 +1,15 @@
+{
+  "name": "Geometric Mean Calculator",
+  "description": "Calculate the geometric mean G = (x₁ · x₂ · ... · xₙ)^(1/n) for compound investment returns, biology growth rates, and geometric scaling.",
+  "path": "/tools/geometric-mean-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "geometric mean calculator",
+    "calculate geometric mean online",
+    "compound average growth calculator",
+    "geometric average statistics",
+    "gm calculator"
+  ],
+  "order": 117
+}

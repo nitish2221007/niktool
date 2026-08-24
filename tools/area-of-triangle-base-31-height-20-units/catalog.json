@@ -1,0 +1,15 @@
+{
+  "name": "Area of Triangle (Base 31 x Height 20)",
+  "description": "Calculate area of triangle with base 31 and height 20 (A = 0.5 bh = 310.0).",
+  "path": "/tools/area-of-triangle-base-31-height-20-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of triangle base 31 height 20 units",
+    "Area of Triangle (Base 31 x Height 20)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

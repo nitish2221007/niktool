@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate isothermal phase transformation volume fraction X(t) in metallurgy and polymer crystallization using the Johnson-Mehl-Avrami-Kolmogorov (JMAK) sigmoidal kinetic equation.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/johnson-mehl-avrami-kolmogorov-jmak-phase-transformation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate isothermal phase transformation volume fraction X(t) in metallurgy and polymer crystallization using the Johnson-Mehl-Avrami-Kolmogorov (JMAK) sigmoidal kinetic equation.">
+  <meta property="og:url" content="https://niktool.in/tools/johnson-mehl-avrami-kolmogorov-jmak-phase-transformation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/johnson-mehl-avrami-kolmogorov-jmak-phase-transformation-calculator/",
+        "description": "Calculate isothermal phase transformation volume fraction X(t) in metallurgy and polymer crystallization using the Johnson-Mehl-Avrami-Kolmogorov (JMAK) sigmoidal kinetic equation.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is the JMAK curve sigmoidal (S-shaped)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Transformation starts slow during nucleation incubation, accelerates as nuclei grow, and slows down near completion due to grain boundary impingement."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator</h1>
+      <p>Calculate isothermal phase transformation volume fraction X(t) in metallurgy and polymer crystallization using the Johnson-Mehl-Avrami-Kolmogorov (JMAK) sigmoidal kinetic equation.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Transformation Rate k (s⁻ⁿ), Avrami Exponent n (1 to 4) & Time t (Seconds)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="jm-k">Rate k (s⁻ⁿ)</label>
+          <input class="tool-textarea" id="jm-k" type="number" step="1e-5" value="1.0e-4" placeholder="1.0 × 10⁻⁴" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="jm-n">Avrami Exponent n</label>
+          <input class="tool-textarea" id="jm-n" type="number" step="0.5" value="3.0" placeholder="3.0 (3D Nucleation)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="jm-time">Time t (s)</label>
+          <input class="tool-textarea" id="jm-time" type="number" step="5" value="20.0" placeholder="20.0 Seconds" />
+        </div>
+      </div>
+      <div id="jm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="jm-res-x" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Transformed X(t) = 55.1%</span>
+            <span class="stat-label">Transformed Phase Fraction (X(t) = 1 - e^(-k·tⁿ))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="jm-res-half" style="color:var(--green-dark); font-weight:700;">Half-Time t_0.5 = 19.07 s (Time for 50% Transformation) | Extended Vol = 0.800</span>
+            <span class="stat-label">50% Half-Transformation Time (t_0.5 = (ln 2 / k)^(1/n))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use JMAK Phase Transformation Kinetics (X(t) = 1 - e^(-k·tⁿ)) Calculator</h2>
+      <ol>
+        <li>Enter kinetic rate constant k.</li>
+        <li>Enter Avrami exponent n (1 for 1D needles, 2 for 2D discs, 3 for 3D spheres with site saturation, 4 for continuous 3D nucleation).</li>
+        <li>Enter elapsed isothermal annealing time t in seconds.</li>
+        <li>Inspect transformed volume fraction $X(t)$ and $50%$ half-transformation time.</li>
+      </ol>
+
+      <h2>Johnson-Mehl-Avrami-Kolmogorov Crystallization Standard</h2>
+      <p>Accounts for phantom impingement and overlapping grain growth volumes ($X = 1 - e^{-V_{	ext{ext}}}$), generating classic TTT (Time-Temperature-Transformation) diagrams in heat treatment metallurgy.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is the JMAK curve sigmoidal (S-shaped)?</summary>
+        <p>Transformation starts slow during nucleation incubation, accelerates as nuclei grow, and slows down near completion due to grain boundary impingement.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/johnson-mehl-avrami-kolmogorov-jmak-phase-transformation-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Enzyme Inhibition Kinetics (Competitive, Non-Competitive & Uncompetitive) Calculator",
+  "description": "Calculate enzyme catalytic kinetics with reversible inhibitors: apparent K_m^app, V_max^app, inhibition constant K_i, and Lineweaver-Burk double reciprocal plot parameters.",
+  "path": "/tools/michaelis-menten-enzyme-inhibition-competitive-noncompetitive-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "enzyme inhibition calculator",
+    "competitive noncompetitive uncompetitive inhibition formula online",
+    "michaelis menten apparent km vmax inhibitor calculator",
+    "lineweaver burk double reciprocal inhibition calculator",
+    "biochemistry enzyme kinetics pharmacology online"
+  ],
+  "order": 1195
+}

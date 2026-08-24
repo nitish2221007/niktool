@@ -1,0 +1,16 @@
+{
+  "name": "Rotate PDF 270 Degrees",
+  "description": "Rotate all pages in a PDF document 270 degrees clockwise. Free and local.",
+  "path": "/tools/rotate-pdf-270-degrees/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "rotate pdf 270 degrees",
+    "Rotate PDF 270 Degrees",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

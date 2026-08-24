@@ -1,0 +1,19 @@
+{
+  "name": "Text Diff & Compare Tool",
+  "description": "Compare two texts or code snippets to find differences line-by-line. Free, fast, and 100% private browser comparison tool.",
+  "path": "/tools/text-diff-checker/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "text diff checker",
+    "diff checker online",
+    "compare text online",
+    "code difference checker",
+    "find text differences",
+    "lcs diff tool",
+    "compare two texts",
+    "line by line diff",
+    "text compare tool"
+  ],
+  "order": 57
+}

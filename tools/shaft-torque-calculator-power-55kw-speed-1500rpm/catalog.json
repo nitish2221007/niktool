@@ -1,0 +1,15 @@
+{
+  "name": "Shaft Torque Calculator (55 kW Power, 1500 RPM)",
+  "description": "Calculate mechanical shaft torque (T = 350.14 N·m) for 55 kW power at 1500 RPM.",
+  "path": "/tools/shaft-torque-calculator-power-55kw-speed-1500rpm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "shaft torque calculator power 55kw speed 1500rpm",
+    "Shaft Torque Calculator (55 kW Power, 1500 RPM)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

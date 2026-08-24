@@ -1,0 +1,15 @@
+{
+  "name": "Reynolds Number Flow Calculator (Velocity 1m/s, Pipe 30mm)",
+  "description": "Calculate fluid Reynolds Number (Re = 30,000 - Turbulent Flow) for 1 m/s in 30mm pipe.",
+  "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-1mps-diameter-30mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "reynolds number fluid flow calculator velocity 1mps diameter 30mm",
+    "Reynolds Number Flow Calculator (Velocity 1m/s, Pipe 30mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "AC Reactive Power (kVAR) & Capacitor Sizing Calculator",
+  "description": "Calculate reactive power (kVAR = √(kVA² - kW²)) and determine power factor correction capacitor bank sizes (kVAR_cap = P · (tan θ₁ - tan θ₂)) to eliminate utility low power factor penalties.",
+  "path": "/tools/ac-reactive-power-kvar-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "kvar calculator",
+    "reactive power calculator online",
+    "power factor correction capacitor sizing",
+    "kvar capacitor bank formula",
+    "kva kw kvar power triangle calculator"
+  ],
+  "order": 326
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Channel V-Notch & Rectangular Weir Flow Rate Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate open channel water discharge rate (Q = 8/15 · C_d · √(2g) · tan(θ/2) · H^(5/2)) for 90° V-notch (Thomson weir) and sharp-crested rectangular weirs.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/weir-flow-rate-v-notch-rectangular-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Open Channel V-Notch & Rectangular Weir Flow Rate Calculator | NikTool">
+  <meta property="og:description" content="Calculate open channel water discharge rate (Q = 8/15 · C_d · √(2g) · tan(θ/2) · H^(5/2)) for 90° V-notch (Thomson weir) and sharp-crested rectangular weirs.">
+  <meta property="og:url" content="https://niktool.in/tools/weir-flow-rate-v-notch-rectangular-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Open Channel V-Notch & Rectangular Weir Flow Rate Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/weir-flow-rate-v-notch-rectangular-calculator/",
+        "description": "Calculate open channel water discharge rate (Q = 8/15 · C_d · √(2g) · tan(θ/2) · H^(5/2)) for 90° V-notch (Thomson weir) and sharp-crested rectangular weirs.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is V-notch discharge proportional to H^(5/2)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Flow area scales with H² while velocity scales with √H (H^(1/2)); multiplying area by velocity yields Q ∝ H^(5/2)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Open Channel V-Notch & Rectangular Weir Flow Rate Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Open Channel V-Notch & Rectangular Weir Flow Rate Calculator</h1>
+      <p>Calculate open channel water discharge rate (Q = 8/15 · C_d · √(2g) · tan(θ/2) · H^(5/2)) for 90° V-notch (Thomson weir) and sharp-crested rectangular weirs.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Weir Type & Water Head Height H (Centimeters or Inches)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="wr-type">Weir Geometry</label>
+          <select class="tool-textarea" id="wr-type">
+            <option value="90" selected>90° V-Notch (Thomson Weir - High Precision)</option>
+            <option value="60">60° V-Notch (Low Flows)</option>
+            <option value="rect">Suppressed Rectangular Weir (1.0m Width)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wr-head">Head Over Crest H (cm)</label>
+          <input class="tool-textarea" id="wr-head" type="number" step="any" value="20" placeholder="20 cm" />
+        </div>
+      </div>
+      <div id="wr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="wr-res-q" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">25.04 L / s</span>
+            <span class="stat-label">Discharge Flow Rate (Q)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="wr-res-m3">90.15 m³ / hour (396.9 GPM)</span>
+            <span class="stat-label">Volumetric Discharge</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Open Channel V-Notch & Rectangular Weir Flow Rate Calculator</h2>
+      <ol>
+        <li>Select weir notch geometry (90° V-Notch Thomson, 60° V-Notch, or 1.0m Rectangular weir).</li>
+        <li>Enter measured water head height H above the notch vertex in centimeters.</li>
+        <li>Inspect stream water discharge flow rate in Liters per second (L/s), m³/hour, and GPM.</li>
+      </ol>
+
+      <h2>James Thomson's 1858 Triangular Weir Standard</h2>
+      <p>V-notch weirs provide highly accurate open-channel flow measurements across wide dynamic ranges because the triangular geometry contracts naturally at low flows, preserving high measurement sensitivity.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is V-notch discharge proportional to H^(5/2)?</summary>
+        <p>Flow area scales with H² while velocity scales with √H (H^(1/2)); multiplying area by velocity yields Q ∝ H^(5/2).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/weir-flow-rate-v-notch-rectangular-calculator/tool.js"></script>
+</body>
+</html>

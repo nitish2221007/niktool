@@ -1,0 +1,15 @@
+{
+  "name": "Laser Spatial Filter Pinhole Diameter Sizing Calculator",
+  "description": "Calculate optimum spatial filter microscope objective pinhole diameter (D_pinhole ≈ 1.5 · (1.22 · λ · f / D_beam)) in micrometers to clean high-frequency laser beam noise.",
+  "path": "/tools/spatial-filter-pinhole-diameter-laser-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "spatial filter pinhole calculator",
+    "laser spatial filter formula online",
+    "pinhole diameter airy disk calculator",
+    "microscope objective laser cleaning pinhole",
+    "photonics spatial filter pinhole sizing online"
+  ],
+  "order": 533
+}

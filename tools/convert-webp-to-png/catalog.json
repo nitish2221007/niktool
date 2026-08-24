@@ -1,0 +1,16 @@
+{
+  "name": "Convert WebP to PNG Online",
+  "description": "Convert WebP images to transparent PNG format instantly in your browser.",
+  "path": "/tools/convert-webp-to-png/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert webp to png",
+    "Convert WebP to PNG Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

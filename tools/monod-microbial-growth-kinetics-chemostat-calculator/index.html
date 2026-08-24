@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate bioreactor microbial specific growth rate (μ = μ_max · S / (K_s + S)) in h⁻¹, biomass doubling time (t_d = ln 2 / μ), and steady-state continuous chemostat dilution washout limits.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/monod-microbial-growth-kinetics-chemostat-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator | NikTool">
+  <meta property="og:description" content="Calculate bioreactor microbial specific growth rate (μ = μ_max · S / (K_s + S)) in h⁻¹, biomass doubling time (t_d = ln 2 / μ), and steady-state continuous chemostat dilution washout limits.">
+  <meta property="og:url" content="https://niktool.in/tools/monod-microbial-growth-kinetics-chemostat-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/monod-microbial-growth-kinetics-chemostat-calculator/",
+        "description": "Calculate bioreactor microbial specific growth rate (μ = μ_max · S / (K_s + S)) in h⁻¹, biomass doubling time (t_d = ln 2 / μ), and steady-state continuous chemostat dilution washout limits.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens when continuous chemostat dilution rate exceeds μ_max (D > μ_max)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Cell washout occurs: liquid nutrient pumping flushes microbes out faster than they can divide, dropping biomass concentration in the fermenter to zero."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator</h1>
+      <p>Calculate bioreactor microbial specific growth rate (μ = μ_max · S / (K_s + S)) in h⁻¹, biomass doubling time (t_d = ln 2 / μ), and steady-state continuous chemostat dilution washout limits.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Max Growth Rate μ_max (h⁻¹), Limiting Substrate S (g/L), Monod Constant K_s (g/L) & Yield Y_x/s</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mon-mumax">μ_max (h⁻¹)</label>
+          <input class="tool-textarea" id="mon-mumax" type="number" step="0.1" value="0.80" placeholder="0.80 h⁻¹ (E. coli)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mon-s">Substrate S (g/L)</label>
+          <input class="tool-textarea" id="mon-s" type="number" step="any" value="2.50" placeholder="2.50 g/L (Glucose)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mon-ks">Monod K_s (g/L)</label>
+          <input class="tool-textarea" id="mon-ks" type="number" step="0.05" value="0.10" placeholder="0.10 g/L" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mon-yield">Yield Y_x/s (g/g)</label>
+          <input class="tool-textarea" id="mon-yield" type="number" step="0.05" value="0.50" placeholder="0.50 g Cells / g Sugar" />
+        </div>
+      </div>
+      <div id="mon-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mon-res-mu" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">μ = 0.769 h⁻¹ (Doubling: 54.1 min)</span>
+            <span class="stat-label">Specific Microbial Growth Rate (μ) & Generation Doubling Time</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mon-res-chem" style="color:var(--green-dark); font-weight:700;">Chemostat Dilution D = μ = 0.769 h⁻¹ | Washout Threshold D_crit = 0.77 h⁻¹</span>
+            <span class="stat-label">Continuous Bioreactor Chemostat Operation & Washout Limit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator</h2>
+      <ol>
+        <li>Enter maximum specific growth rate $mu_{max}$ in $h^{-1}$ (e.g. 0.80 $h^{-1}$ for *E. coli* bacteria).</li>
+        <li>Enter growth-limiting substrate concentration S in g/L (e.g. glucose nutrient).</li>
+        <li>Enter Monod affinity constant $K_s$ in g/L (substrate concentration supporting $mu = 0.5 mu_{max}$).</li>
+        <li>Enter biomass-to-substrate conversion yield $Y_{X/S}$ (g dry cell weight per g substrate consumed).</li>
+        <li>Inspect specific growth rate $mu$, biomass doubling generation time in minutes, and continuous chemostat steady-state dilution rate ($D = mu$).</li>
+      </ol>
+
+      <h2>Jacques Monod 1949 Microbial Growth Kinetics</h2>
+      <p>The Monod hyperbolic kinetic curve ($mu = rac{mu_{max} S}{K_s + S}$) mirrors Michaelis-Menten enzyme kinetics, allowing industrial biopharmaceutical engineers to optimize continuous bioreactor feeding rates for recombinant protein, insulin, and monoclonal antibody production.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens when continuous chemostat dilution rate exceeds μ_max (D > μ_max)?</summary>
+        <p>Cell washout occurs: liquid nutrient pumping flushes microbes out faster than they can divide, dropping biomass concentration in the fermenter to zero.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/monod-microbial-growth-kinetics-chemostat-calculator/tool.js"></script>
+</body>
+</html>

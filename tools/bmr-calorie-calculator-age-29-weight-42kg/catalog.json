@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 29, Weight 42kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1343 kcal/day) for 29-year-old weighing 42 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-29-weight-42kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 29 weight 42kg",
+    "BMR Calorie Calculator (Age 29, Weight 42kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

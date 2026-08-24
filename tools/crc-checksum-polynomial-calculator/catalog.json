@@ -1,0 +1,15 @@
+{
+  "name": "CRC-32 & CRC-16 Cyclic Redundancy Check Calculator",
+  "description": "Calculate standard CRC-32 (Ethernet/ZIP ISO 3309) and CRC-16 error-detecting checksum hashes locally in pure browser JavaScript.",
+  "path": "/tools/crc-checksum-polynomial-calculator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "crc32 checksum calculator",
+    "crc 32 online generator",
+    "crc16 checksum calculator",
+    "cyclic redundancy check generator",
+    "iso 3309 crc32 hash online"
+  ],
+  "order": 288
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 36 Units)",
+  "description": "Calculate the exact area of a circle with radius 36 units (A = πr² = 4071.50).",
+  "path": "/tools/area-of-circle-radius-36-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 36 units",
+    "Area of Circle (Radius 36 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

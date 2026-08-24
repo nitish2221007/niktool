@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ship Squat Effect (S_b = C_b·v² / 100) Shallow Water Under-Keel Clearance Calculator",
+    "description": "Calculate shallow-water hydrodynamic ship squat sinkage (S_b = C_b · v_k² / 100 in open water, S_b = 2·C_b · v_k² / 100 in confined canal channels) and verify safe Under-Keel Clearance (UKC) to prevent vessel grounding.",
+    "path": "/tools/ship-squat-effect-shallow-water-underkeel-clearance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ship squat effect calculator",
+      "shallow water sinkage formula sb equals cb v squared over 100 online",
+      "under keel clearance ukc canal grounding calculator",
+      "bernoulli shallow water hydrodynamic squat calculator",
+      "naval architecture maritime navigation safety online"
+    ]
+  },
+  {
+    "name": "Turbocharger Compressor Pressure Ratio (PR = P_out / P_in) & Boost Calculator",
+    "description": "Calculate automotive and marine turbocharger compressor pressure ratio (PR = (P_atm + Boost) / P_in), compressor discharge temperature (T_out = T_in · (1 + (PR^((γ-1)/γ) - 1)/η_c)), and mass airflow for engine boosting.",
+    "path": "/tools/turbocharger-compressor-surge-choke-pressure-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "turbocharger pressure ratio calculator",
+      "compressor pressure ratio pr formula online",
+      "boost pressure discharge temperature calculator",
+      "compressor map surge choke limit turbo calculator",
+      "automotive engine forced induction turbocharger online"
+    ]
+  },
+  {
+    "name": "Worm Gear Drive Lead Angle (tan γ = z₁·p_x / (π·d₁)) & Efficiency Calculator",
+    "description": "Calculate worm gear drive lead angle (tan γ = z₁ · p_x / (π · d₁)), self-locking threshold (lead angle less than friction angle φ), and forward mechanical power transmission efficiency (η = tan γ / tan(γ + φ_v)) for machine design.",
+    "path": "/tools/worm-gear-lead-angle-mechanical-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "worm gear calculator",
+      "worm gear lead angle formula tan gamma online",
+      "self locking worm gear efficiency calculator",
+      "lead angle friction angle worm drive efficiency calculator",
+      "mechanical engineering machine design gear drive online"
+    ]
+  },
+  {
+    "name": "Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator",
+    "description": "Calculate flat/V-belt drive and marine capstan belt tension ratio (T₁ / T₂ = e^(μ·β)), maximum transferable torque (T_torque = (T₁ - T₂)·R), and transmitted mechanical power (P = (T₁ - T₂)·v) without slip.",
+    "path": "/tools/belt-drive-euler-eytelwein-capstan-friction-torque-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "capstan equation calculator",
+      "euler eytelwein belt friction formula t1 over t2 equals e to mu beta online",
+      "belt drive maximum torque power calculator",
+      "wrap angle friction coefficient capstan equation calculator",
+      "mechanical engineering belt drive power transmission online"
+    ]
+  },
+  {
+    "name": "Flywheel Mechanical Energy Storage & Speed Fluctuation (C_s = (ω₁ - ω₂) / ω₀) Calculator",
+    "description": "Calculate mechanical press and engine flywheel energy storage (ΔE = I · ω₀² · C_s) in Joules/kJ, required Moment of Inertia I, and coefficient of speed fluctuation C_s for machine dynamics.",
+    "path": "/tools/flywheel-coefficient-of-speed-fluctuation-energy-storage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flywheel energy calculator",
+      "coefficient of speed fluctuation formula c s online",
+      "flywheel moment of inertia required delta e calculator",
+      "engine cyclic energy fluctuation flywheel calculator",
+      "machine dynamics mechanical flywheel sizing online"
+    ]
+  },
+  {
+    "name": "Cardiac Output & Stroke Volume (Fick Principle CO = V̇_O2 / (C_a - C_v)) Calculator",
+    "description": "Calculate clinical cardiac hemodynamics: Cardiac Output (CO = HR · SV / 1000) in L/min, Cardiac Index (CI = CO / BSA) in L/min/m², Stroke Volume (SV in mL), and Fick Principle direct oxygen consumption calculation.",
+    "path": "/tools/cardiac-output-stroke-volume-fick-principle-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "cardiac output calculator",
+      "stroke volume formula co equals hr times sv online",
+      "fick principle cardiac output calculator liters per minute",
+      "cardiac index ci bsa hemodynamics calculator",
+      "biomedical clinical physiology cardiac output online"
+    ]
+  },
+  {
+    "name": "eGFR Kidney Function (CKD-EPI 2021 Race-Free Refit Equation) Calculator",
+    "description": "Calculate estimated Glomerular Filtration Rate (eGFR in mL/min/1.73m²) using the official 2021 race-free CKD-EPI creatinine equation, and classify Chronic Kidney Disease staging (CKD Stages G1 to G5).",
+    "path": "/tools/glomerular-filtration-rate-ckd-epi-creatinine-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "egfr calculator",
+      "ckd epi 2021 race free creatinine egfr formula online",
+      "kidney function filtration rate stage g1 to g5 calculator",
+      "serum creatinine egfr ckd staging calculator",
+      "clinical nephrology kidney function online"
+    ]
+  },
+  {
+    "name": "Arterial Blood Gas (ABG Henderson-Hasselbalch pH = 6.1 + log([HCO₃⁻]/0.03·PaCO₂)) Calculator",
+    "description": "Interpret clinical Arterial Blood Gas (ABG) panels: evaluate arterial blood pH, PaCO₂ in mmHg, HCO₃⁻ in mEq/L, and classify Metabolic vs Respiratory Acidosis / Alkalosis with Winter's formula respiratory compensation.",
+    "path": "/tools/arterial-blood-gas-abg-henderson-hasselbalch-acid-base-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "abg interpretation calculator",
+      "arterial blood gas henderson hasselbalch acid base formula online",
+      "metabolic respiratory acidosis alkalosis calculator",
+      "winters formula compensation abg calculator",
+      "clinical medicine intensive care abg interpretation online"
+    ]
+  },
+  {
+    "name": "Body Surface Area (BSA Mosteller Formula BSA = √(W·H / 3600)) Calculator",
+    "description": "Calculate patient total Body Surface Area (BSA = √(Weight · Height / 3600)) in m² using the Mosteller, Du Bois, and Haycock formulas for chemotherapy dosing, burn assessment, and cardiac index.",
+    "path": "/tools/body-surface-area-mosteller-du-bois-chemotherapy-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "body surface area calculator",
+      "mosteller bsa formula square root w h over 3600 online",
+      "chemotherapy drug dosing bsa calculator m2",
+      "du bois body surface area calculator height weight",
+      "clinical pharmacology oncology bsa online"
+    ]
+  },
+  {
+    "name": "Parkland Formula Burn Resuscitation IV Fluid (4 mL · kg · %TBSA) Calculator",
+    "description": "Calculate emergency 24-hour Lactated Ringer's IV fluid resuscitation (Volume = 4 mL · Weight · %TBSA) for acute burn trauma patients, including first 8-hour and remaining 16-hour infusion rates.",
+    "path": "/tools/parkland-formula-burn-resuscitation-fluid-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "parkland formula calculator",
+      "burn fluid resuscitation formula 4 ml kg tbsa online",
+      "lactated ringers iv infusion rate burn calculator ml hr",
+      "rule of nines total body surface area burn calculator",
+      "emergency medicine trauma burn resuscitation online"
+    ]
+  },
+  {
+    "name": "Glasgow Coma Scale (GCS Total 3 to 15 Traumatic Brain Injury) Calculator",
+    "description": "Calculate Glasgow Coma Scale neurological score (GCS = Eye + Verbal + Motor from 3 to 15) to evaluate consciousness level and classify Traumatic Brain Injury (TBI Mild 13-15, Moderate 9-12, Severe 3-8 intubation criteria).",
+    "path": "/tools/glasgow-coma-scale-gcs-neurological-tbi-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "glasgow coma scale calculator",
+      "gcs score formula eye verbal motor 3 to 15 online",
+      "traumatic brain injury severity tbi calculator",
+      "gcs intubation threshold emergency medicine calculator",
+      "neurology clinical gcs coma scale online"
+    ]
+  },
+  {
+    "name": "Creatinine Clearance (Cockcroft-Gault CrCl = (140 - Age)·Weight / (72·S_cr)) Calculator",
+    "description": "Calculate renal Creatinine Clearance (CrCl in mL/min) using the Cockcroft-Gault equation for clinical pharmacokinetic drug dosing adjustments (antibiotics, DOACs, chemotherapy).",
+    "path": "/tools/creatinine-clearance-cockcroft-gault-kidney-drug-dosing-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "cockcroft gault calculator",
+      "creatinine clearance crcl formula online",
+      "renal drug dosing adjustment calculator ml min",
+      "serum creatinine cockcroft gault clearance calculator",
+      "pharmacology clinical nephrology drug dosing online"
+    ]
+  },
+  {
+    "name": "Mean Arterial Pressure (MAP = DBP + ⅓·(SBP - DBP)) & Pulse Pressure Calculator",
+    "description": "Calculate clinical Mean Arterial Pressure (MAP = DBP + ⅓·(SBP - DBP)) in mmHg, Pulse Pressure (PP = SBP - DBP), and verify critical organ perfusion threshold (MAP ≥ 65 mmHg) for ICU hemodynamics.",
+    "path": "/tools/mean-arterial-pressure-map-pulse-pressure-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "mean arterial pressure calculator",
+      "map formula dbp plus one third pulse pressure online",
+      "pulse pressure sbp minus dbp calculator mmhg",
+      "icu organ perfusion map 65 mmhg threshold calculator",
+      "cardiovascular hemodynamics blood pressure online"
+    ]
+  },
+  {
+    "name": "Systemic Vascular Resistance (SVR = 80·(MAP - CVP) / CO) Hemodynamics Calculator",
+    "description": "Calculate systemic vascular resistance (SVR = 80 · (MAP - CVP) / CO) in dynes·s/cm⁵ and Wood Units to evaluate arterial vasoconstriction vs vasodilation shock in intensive care.",
+    "path": "/tools/systemic-vascular-resistance-svr-cardiac-hemodynamics-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "systemic vascular resistance calculator",
+      "svr formula 80 times map minus cvp over co online",
+      "afterload vascular resistance hemodynamics calculator",
+      "distributive septic cardiogenic shock svr calculator",
+      "critical care cardiology hemodynamics online"
+    ]
+  },
+  {
+    "name": "Pediatric Maintenance IV Fluid (Holliday-Segar 4-2-1 Rule) Calculator",
+    "description": "Calculate pediatric and adult baseline daily maintenance intravenous fluid volume and hourly infusion rates (4-2-1 Rule: 4 mL/kg/hr for first 10 kg, 2 mL/kg/hr for next 10 kg, 1 mL/kg/hr thereafter) for clinical medicine.",
+    "path": "/tools/maintenance-iv-fluid-holliday-segar-4-2-1-rule-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "4 2 1 rule calculator",
+      "holliday segar maintenance iv fluid formula online",
+      "pediatric maintenance fluid calculator ml hr",
+      "daily fluid requirement holiday segar calculator ml day",
+      "pediatrics clinical iv fluid therapy online"
+    ]
+  },
+  {
+    "name": "Serum Anion Gap (AG = Na⁺ - (Cl⁻ + HCO₃⁻)) & Delta-Delta Ratio Calculator",
+    "description": "Calculate serum Anion Gap (AG = Na⁺ - (Cl⁻ + HCO₃⁻)) in mEq/L, albumin-corrected anion gap, and Delta-Delta ratio (ΔAG / ΔHCO₃⁻) to identify mixed High Anion Gap Metabolic Acidosis (HAGMA vs NAGMA).",
+    "path": "/tools/anion-gap-serum-osmolar-gap-metabolic-acidosis-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "anion gap calculator",
+      "serum anion gap formula na minus cl plus hco3 online",
+      "hagma nagma metabolic acidosis calculator",
+      "delta delta ratio anion gap calculator",
+      "clinical nephrology intensive care acid base online"
+    ]
+  },
+  {
+    "name": "Corrected Sodium in Hyperglycemia (Katz Na_corr = Na_meas + 0.016·(Glucose - 100)) Calculator",
+    "description": "Calculate hyperglycemia osmotic pseudohyponatremia corrected serum sodium (Na_corr = Na_meas + 0.016 · (Glucose - 100) or Hillier 0.024 factor) for Diabetic Ketoacidosis (DKA) and HHS management.",
+    "path": "/tools/corrected-sodium-hyperglycemia-katz-hillier-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "corrected sodium calculator",
+      "hyperglycemia sodium correction formula katz hillier online",
+      "dka pseudohyponatremia corrected sodium calculator",
+      "glucose osmolarity corrected sodium calculator dka",
+      "endocrinology diabetes clinical dka calculator online"
+    ]
+  },
+  {
+    "name": "Corrected Calcium in Hypoalbuminemia (Payne Formula Ca_corr = Ca_meas + 0.8·(4.0 - Alb)) Calculator",
+    "description": "Calculate serum total calcium corrected for hypoalbuminemia (Ca_corr = Ca_meas + 0.8 · (4.0 - Albumin)) in mg/dL and mmol/L to prevent misdiagnosing hypocalcemia in malnourished or ICU patients.",
+    "path": "/tools/corrected-calcium-hypoalbuminemia-payne-formula-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "corrected calcium calculator",
+      "hypoalbuminemia calcium correction payne formula online",
+      "albumin corrected total calcium calculator mg dl mmol l",
+      "ionized calcium pseudohypocalcemia calculator",
+      "clinical biochemistry calcium homeostasis online"
+    ]
+  },
+  {
+    "name": "Fractional Excretion of Sodium (FeNa = (U_Na·S_Cr) / (S_Na·U_Cr)·100%) Calculator",
+    "description": "Calculate Fractional Excretion of Sodium (FeNa = (U_Na · S_Cr) / (S_Na · U_Cr) · 100%) to differentiate Prerenal Azotemia (FeNa less than 1.0%) from Acute Tubular Necrosis (ATN FeNa greater than 2.0%) in Acute Kidney Injury (AKI).",
+    "path": "/tools/fractional-excretion-of-sodium-fena-acute-kidney-injury-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "fena calculator",
+      "fractional excretion of sodium formula online",
+      "prerenal azotemia vs intrinsic atn calculator",
+      "acute kidney injury fena calculation nephrology",
+      "clinical nephrology aki differential calculator online"
+    ]
+  },
+  {
+    "name": "Oxygen Delivery (DO₂ = CO·CaO₂·10) & Arterial Oxygen Content (CaO₂) Calculator",
+    "description": "Calculate arterial oxygen content (CaO₂ = 1.34·Hb·SaO₂ + 0.0031·PaO₂) in mL O₂/dL blood and total systemic Oxygen Delivery (DO₂ = CO · CaO₂ · 10) in mL/min for critical care shock resuscitation.",
+    "path": "/tools/oxygen-delivery-do2-arterial-content-cao2-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "oxygen delivery do2 calculator",
+      "arterial oxygen content cao2 formula online",
+      "systemic oxygen delivery index do2i calculator ml min",
+      "hemoglobin oxygen saturation do2 shock calculator",
+      "critical care intensive care hemodynamics do2 online"
+    ]
+  },
+  {
+    "name": "ECG QTc Interval (Bazett QTc = QT / √RR & Fridericia QTc = QT / ∛RR) Calculator",
+    "description": "Calculate heart rate-corrected QT interval (QTc) on 12-lead electrocardiograms using Bazett (QT / √RR), Fridericia (QT / ∛RR), and Framingham formulas to detect Long QT Syndrome and Torsades de Pointes arrhythmia risk.",
+    "path": "/tools/qtc-interval-bazett-fridericia-framingham-ecg-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "qtc calculator",
+      "bazett formula qtc equals qt over sqrt rr online",
+      "fridericia qtc formula ecg calculator ms",
+      "long qt syndrome torsades de pointes calculator",
+      "cardiology clinical electrophysiology ecg qtc online"
+    ]
+  },
+  {
+    "name": "CURB-65 Community-Acquired Pneumonia Severity & Mortality Score Calculator",
+    "description": "Calculate CURB-65 pneumonia severity score (Confusion, elevated Urea, Respiratory Rate ≥ 30, low Blood Pressure, Age ≥ 65) to guide outpatient vs hospital inpatient vs ICU admission decisions.",
+    "path": "/tools/curb-65-pneumonia-severity-mortality-score-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "curb 65 calculator",
+      "pneumonia severity score curb 65 online",
+      "community acquired pneumonia mortality risk calculator",
+      "curb 65 outpatient inpatient icu admission calculator",
+      "pulmonology infectious disease pneumonia score online"
+    ]
+  },
+  {
+    "name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk Calculator",
+    "description": "Calculate CHA₂DS₂-VASc thromboembolic stroke risk score (0 to 9) in non-valvular atrial fibrillation to guide oral anticoagulation therapy (DOACs / Warfarin) per ACC/AHA/ESC guidelines.",
+    "path": "/tools/cha2ds2-vasc-atrial-fibrillation-stroke-risk-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "cha2ds2 vasc calculator",
+      "atrial fibrillation stroke risk score formula online",
+      "afib oral anticoagulation doac indication calculator",
+      "stroke risk annual percentage cha2ds2 vasc calculator",
+      "cardiology electrophysiology stroke prevention online"
+    ]
+  },
+  {
+    "name": "MELD-Na Score for End-Stage Liver Disease (OPTN / UNOS Transplant Allocation) Calculator",
+    "description": "Calculate MELD-Na liver disease severity score (Model for End-Stage Liver Disease incorporating serum Sodium, Bilirubin, INR, and Creatinine) for UNOS liver transplant waitlist prioritization.",
+    "path": "/tools/meld-na-score-end-stage-liver-disease-allocation-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "meld na calculator",
+      "model for end stage liver disease formula online",
+      "meld score liver transplant allocation calculator",
+      "bilirubin inr creatinine sodium meld calculator",
+      "hepatology gastroenterology liver failure meld online"
+    ]
+  }
+]

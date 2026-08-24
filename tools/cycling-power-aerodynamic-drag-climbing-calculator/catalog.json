@@ -1,0 +1,15 @@
+{
+  "name": "Cycling Power (Watts), Aerodynamic Drag & Climbing Speed Calculator",
+  "description": "Calculate bicycle rider mechanical power output (P_total = P_aero + P_rolling + P_gravity) in Watts and W/kg from speed, slope grade, and frontal aerodynamic CdA.",
+  "path": "/tools/cycling-power-aerodynamic-drag-climbing-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "cycling power calculator",
+    "cycling watts formula aero rolling gravity online",
+    "cycling w kg climbing power calculator",
+    "cda aerodynamic drag power cycling online",
+    "bicycle speed to power calculator"
+  ],
+  "order": 639
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 69pt to PX",
+  "description": "Convert 69 points (pt) to pixels (92.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-69pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 69pt to px",
+    "Convert 69pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 82 Knots to KM/H Speed",
+  "description": "Convert 82 knots speed to kilometers per hour (151.86 km/h).",
+  "path": "/tools/convert-82-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 82 knots to kmh speed",
+    "Convert 82 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

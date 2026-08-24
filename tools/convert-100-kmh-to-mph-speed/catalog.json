@@ -1,0 +1,15 @@
+{
+  "name": "Convert 100 KM/H to MPH Speed",
+  "description": "Convert 100 kilometers per hour (km/h) to miles per hour (62.14 mph).",
+  "path": "/tools/convert-100-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 100 kmh to mph speed",
+    "Convert 100 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

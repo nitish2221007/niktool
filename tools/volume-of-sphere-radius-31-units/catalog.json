@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 31 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 31 units (V = 4/3 πr³ = 124788.25).",
+  "path": "/tools/volume-of-sphere-radius-31-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 31 units",
+    "Volume of Sphere (Radius 31 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

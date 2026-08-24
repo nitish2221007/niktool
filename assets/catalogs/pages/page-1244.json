@@ -1,0 +1,338 @@
+[
+  {
+    "name": "ELISA 4-Parameter Logistic (4PL Regression y = d + (a - d)/(1 + (x/c)^b)) Calculator",
+    "description": "Calculate unknown antigen/antibody concentration x from optical density OD (450 nm) using the gold-standard 4-Parameter Logistic (4PL) sigmoidal standard curve regression equation.",
+    "path": "/tools/elisa-standard-curve-four-parameter-logistic-4pl-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "elisa 4pl calculator",
+      "four parameter logistic standard curve formula online",
+      "elisa concentration from od450 calculator pg ml",
+      "sandwich elisa 4pl regression curve calculator",
+      "immunology biotechnology elisa assay online"
+    ]
+  },
+  {
+    "name": "Agarose Gel Electrophoresis DNA Migration (log₁₀(bp) = -m·R_f + c) Calculator",
+    "description": "Calculate unknown DNA fragment base pair (bp) size from agarose gel electrophoresis relative migration distance (R_f = Band Distance / Dye Front Distance) using molecular ladder semi-log regression.",
+    "path": "/tools/gel-electrophoresis-dna-migration-rf-molecular-weight-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gel electrophoresis calculator",
+      "dna migration rf to base pairs formula online",
+      "agarose gel molecular weight standard curve calculator bp",
+      "relative migration distance rf gel electrophoresis calculator",
+      "molecular biology gel electrophoresis online"
+    ]
+  },
+  {
+    "name": "Microbial Colony Forming Units (CFU / mL = Colonies · Dilution / Volume) Calculator",
+    "description": "Calculate viable bacterial or yeast titer concentration (CFU/mL = (Number of Colonies · Dilution Factor) / Plated Volume in mL) and stock suspension microbial count.",
+    "path": "/tools/serial-dilution-colony-forming-units-cfu-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cfu calculator",
+      "colony forming units formula cfu per ml online",
+      "serial dilution plate count calculator microbiology",
+      "bacterial colony counter cfu per ml calculator",
+      "microbiology plate count dilution factor online"
+    ]
+  },
+  {
+    "name": "Codon Adaptation Index (CAI = (∏ w_i)^(1/L)) Synonymous Codon Bias Calculator",
+    "description": "Calculate recombinant gene Codon Adaptation Index (CAI geometric mean from 0.0 to 1.0) and synonymous codon optimization efficiency for heterologous gene expression in E. coli or yeast.",
+    "path": "/tools/codon-usage-bias-cai-codon-adaptation-index-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "codon adaptation index calculator",
+      "cai formula geometric mean relative adaptiveness online",
+      "synonymous codon usage bias e coli expression calculator",
+      "gene codon optimization score calculator",
+      "bioinformatics molecular genetics biotechnology online"
+    ]
+  },
+  {
+    "name": "DNA %GC Content & Thermal Denaturation Stability Calculator",
+    "description": "Calculate DNA sequence Guanine-Cytosine (%GC = (G + C) / (A + T + G + C) · 100%) percentage, GC-skew ((G - C)/(G + C)), and base-pair stacking thermostability for genome analysis.",
+    "path": "/tools/gc-content-dna-stability-thermostability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gc content calculator",
+      "dna guanine cytosine percentage formula online",
+      "gc skew replication origin calculator",
+      "dna thermostability hydrogen bonding gc content calculator",
+      "genomics molecular biology bioinformatics online"
+    ]
+  },
+  {
+    "name": "Flow Cytometry Spectral Spillover (Fluorescence Compensation Matrix) Calculator",
+    "description": "Calculate flow cytometry multi-color fluorescence spectral overlap spillover compensation (Compensated Signal = Measured Signal - Spillover % · Primary Fluorophore) for FITC/PE/PerCP channels.",
+    "path": "/tools/flow-cytometry-fluorescence-compensation-matrix-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flow cytometry compensation calculator",
+      "spectral spillover matrix formula flow cytometry online",
+      "fitc pe fluorescence overlap compensation calculator",
+      "flow cytometry facs gating compensation calculator",
+      "immunology flow cytometry cell analysis online"
+    ]
+  },
+  {
+    "name": "Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator",
+    "description": "Calculate biomolecular binding affinity equilibrium dissociation constant (K_D = k_off / k_on in nM), association rate k_on (M⁻¹·s⁻¹), dissociation rate k_off (s⁻¹), and complex half-life (t_½ = ln 2 / k_off) for Biacore SPR biosensors.",
+    "path": "/tools/surface-plasmon-resonance-spr-binding-kinetics-kd-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spr kinetics calculator",
+      "surface plasmon resonance affinity kd formula online",
+      "biacore association dissociation rate constant calculator",
+      "antibody antigen binding affinity kd calculator nm",
+      "biophysics biacore spr drug discovery online"
+    ]
+  },
+  {
+    "name": "Liposome & Nanoparticle Encapsulation Efficiency (EE% = (Total - Free) / Total·100%) Calculator",
+    "description": "Calculate nanoparticle and liposomal drug delivery Encapsulation Efficiency (EE% = (Total Drug - Free Unencapsulated Drug) / Total Drug · 100%) and Drug Loading Capacity (DLC%) in pharmaceutical nanomedicine.",
+    "path": "/tools/liposome-encapsulation-efficiency-drug-loading-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "encapsulation efficiency calculator",
+      "liposome drug loading capacity formula ee percent online",
+      "nanoparticle drug delivery encapsulation calculator",
+      "lipid nanoparticle lnp encapsulation efficiency calculator",
+      "nanomedicine drug delivery pharmacology online"
+    ]
+  },
+  {
+    "name": "Erythrocyte Osmotic Fragility (50% Hemolysis Saline Threshold) Calculator",
+    "description": "Calculate red blood cell osmotic fragility curve 50% hemolysis threshold (% NaCl concentration) to diagnose Hereditary Spherocytosis (increased fragility) vs Thalassemia / Sickle Cell (decreased fragility).",
+    "path": "/tools/osmotic-fragility-erythrocyte-hemolysis-curve-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "osmotic fragility calculator",
+      "erythrocyte 50 percent hemolysis nacl formula online",
+      "hereditary spherocytosis osmotic fragility calculator",
+      "red blood cell hemolysis saline curve calculator",
+      "hematology clinical pathology hemolysis online"
+    ]
+  },
+  {
+    "name": "Machine Learning Confusion Matrix (Accuracy, Precision, Recall, F1-Score & MCC) Calculator",
+    "description": "Calculate binary classification evaluation metrics from True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN): Accuracy, Precision, Recall (Sensitivity), Specificity, F1-Score, and Matthews Correlation Coefficient (MCC).",
+    "path": "/tools/confusion-matrix-precision-recall-f1-score-mcc-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "confusion matrix calculator",
+      "precision recall f1 score formula online",
+      "matthews correlation coefficient mcc machine learning calculator",
+      "sensitivity specificity balanced accuracy calculator",
+      "data science machine learning classification evaluation online"
+    ]
+  },
+  {
+    "name": "ROC Curve & Area Under the Curve (AUC / c-Statistic) Trapezoidal Evaluator",
+    "description": "Calculate classification Receiver Operating Characteristic Area Under the Curve (ROC-AUC / c-statistic) using the numerical trapezoidal rule from True Positive Rate (TPR) and False Positive Rate (FPR) threshold coordinates.",
+    "path": "/tools/roc-curve-auc-trapezoidal-classification-evaluator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "roc auc calculator",
+      "area under curve trapezoidal rule classification calculator",
+      "c statistic roc curve evaluator machine learning",
+      "tpr fpr false positive rate roc calculator",
+      "data science machine learning model evaluation online"
+    ]
+  },
+  {
+    "name": "Logistic Regression Sigmoid Activation (σ(z) = 1 / (1 + e^(-z))) & Cross-Entropy Loss Calculator",
+    "description": "Calculate logistic regression sigmoid activation probability (σ(z) = 1 / (1 + e^(-z))), log-odds logit transformation, and Binary Cross-Entropy (Log Loss L = -(y·ln(p) + (1 - y)·ln(1 - p))) for machine learning.",
+    "path": "/tools/logistic-regression-sigmoid-cross-entropy-loss-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "logistic regression calculator",
+      "sigmoid activation function formula sigma z online",
+      "binary cross entropy log loss calculator machine learning",
+      "logit log odds probability calculator",
+      "machine learning data science deep learning activation online"
+    ]
+  },
+  {
+    "name": "Decision Tree Gini Impurity (I_G = 1 - ∑ p_i²) & Information Gain Entropy Calculator",
+    "description": "Calculate CART Decision Tree Gini Impurity (I_G = 1 - ∑ p_i²), Shannon Entropy (H(D) = -∑ p_i·log₂(p_i)), and Information Gain split quality for decision tree algorithms (ID3, C4.5, Random Forest).",
+    "path": "/tools/decision-tree-gini-impurity-information-gain-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "gini impurity calculator",
+      "information gain decision tree formula online",
+      "shannon entropy id3 c4.5 cart calculator",
+      "decision tree split purity calculator machine learning",
+      "data science decision trees random forest online"
+    ]
+  },
+  {
+    "name": "Vector Cosine Similarity (cos θ = u·v / (‖u‖·‖v‖)) & Angular Distance Calculator",
+    "description": "Calculate high-dimensional vector Cosine Similarity (cos θ = u · v / (‖u‖ · ‖v‖)), Cosine Distance (1 - cos θ), Euclidean distance, and Angular Distance (θ in degrees) for NLP embeddings and vector databases (Pinecone, Chroma).",
+    "path": "/tools/cosine-similarity-and-angular-distance-vector-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cosine similarity calculator",
+      "vector cosine similarity formula dot product online",
+      "cosine distance angular distance embeddings calculator",
+      "vector database search cosine similarity calculator",
+      "nlp machine learning embeddings similarity online"
+    ]
+  },
+  {
+    "name": "TF-IDF (Term Frequency-Inverse Document Frequency TF·ln(N / DF)) Calculator",
+    "description": "Calculate natural language processing TF-IDF keyword importance weighting (TF-IDF = Term Frequency · ln(Total Documents / Document Frequency)) for search engine ranking and document classification.",
+    "path": "/tools/tf-idf-term-frequency-inverse-document-frequency-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "tf idf calculator",
+      "term frequency inverse document frequency formula online",
+      "nlp tf idf keyword weighting calculator",
+      "search engine information retrieval tf idf calculator",
+      "natural language processing text mining online"
+    ]
+  },
+  {
+    "name": "Softmax Activation Function (σ(z)_i = e^(z_i) / ∑ e^(z_j)) & Multi-Class Loss Calculator",
+    "description": "Calculate multi-class neural network Softmax probability distribution (σ(z)_i = e^(z_i) / ∑ e^(z_j)), categorical cross-entropy loss, and temperature-scaled Boltzmann probabilities.",
+    "path": "/tools/softmax-activation-function-cross-entropy-loss-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "softmax calculator",
+      "softmax activation function formula online",
+      "categorical cross entropy loss neural network calculator",
+      "temperature scaling softmax boltzmann calculator",
+      "deep learning machine learning neural networks online"
+    ]
+  },
+  {
+    "name": "K-Nearest Neighbors (KNN Euclidean Distance & Majority Voting) Classifier",
+    "description": "Calculate multi-dimensional Euclidean distances (d = √(∑ (x_i - y_i)²)) between query point and training data, rank nearest neighbors, and determine majority vote classification label.",
+    "path": "/tools/k-nearest-neighbors-knn-distance-classifier-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "knn calculator",
+      "k nearest neighbors algorithm distance formula online",
+      "euclidean distance knn majority voting calculator",
+      "lazy learning knn classification calculator",
+      "machine learning data science knn classifier online"
+    ]
+  },
+  {
+    "name": "CNN Layer Output Dimension (O = ⌊(W - K + 2P) / S⌋ + 1) & Parameter Count Calculator",
+    "description": "Calculate 2D Convolutional Neural Network (CNN) layer output spatial feature map dimensions (O = ⌊(W - K + 2P)/S⌋ + 1), total trainable parameter weights, and MAC floating-point operations.",
+    "path": "/tools/convolutional-neural-network-cnn-output-dimension-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cnn output size calculator",
+      "convolutional layer dimension formula online",
+      "cnn padding stride kernel size calculator",
+      "cnn layer parameter count calculator deep learning",
+      "deep learning computer vision neural networks online"
+    ]
+  },
+  {
+    "name": "PCA Explained Variance Ratio (EVR_i = λ_i / ∑ λ_j) & Scree Plot Calculator",
+    "description": "Calculate Principal Component Analysis (PCA) eigenvalue explained variance ratio (EVR), cumulative explained variance percentage, and optimal dimensionality reduction retention threshold.",
+    "path": "/tools/principal-component-analysis-pca-explained-variance-ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "pca calculator",
+      "explained variance ratio formula pca eigenvalues online",
+      "principal component analysis scree plot calculator",
+      "dimensionality reduction pca variance retained calculator",
+      "machine learning unsupervised learning pca online"
+    ]
+  },
+  {
+    "name": "K-Means Clustering Within-Cluster Sum of Squares (WCSS / Inertia) Calculator",
+    "description": "Calculate K-Means clustering Within-Cluster Sum of Squares (WCSS Inertia = ∑ ‖x_i - μ_k‖²) and determine optimal cluster count K using the Elbow Method heuristic.",
+    "path": "/tools/k-means-clustering-inertia-elbow-silhouette-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "kmeans inertia calculator",
+      "elbow method k means wcss formula online",
+      "within cluster sum of squares clustering calculator",
+      "optimal number of clusters k means calculator",
+      "unsupervised machine learning clustering online"
+    ]
+  },
+  {
+    "name": "Gradient Descent Optimization Step (w_{t+1} = w_t - η·∇L + γ·v_t) Calculator",
+    "description": "Calculate gradient descent parameter weight update step sizes (w_{t+1} = w_t - η · ∇L), Polyak Momentum velocity updates (v_{t+1} = γ · v_t + η · ∇L), and Adam first/second moment estimates.",
+    "path": "/tools/gradient-descent-learning-rate-convergence-optimizer-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "gradient descent calculator",
+      "learning rate weight update formula online",
+      "momentum gradient descent optimizer calculator",
+      "adam optimizer step size calculator machine learning",
+      "deep learning numerical optimization online"
+    ]
+  },
+  {
+    "name": "Naive Bayes Classifier (P(C|X) ∝ P(C)·∏ P(x_i|C)) & Laplace Smoothing Calculator",
+    "description": "Calculate Naive Bayes posterior classification probability (P(C|X) ∝ P(C) · ∏ P(x_i|C)) with Laplace (+1) additive smoothing to prevent zero-frequency probability multiplication errors in spam filtering.",
+    "path": "/tools/naive-bayes-classifier-laplace-smoothing-posterior-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "naive bayes calculator",
+      "bayes theorem spam filter formula online",
+      "laplace smoothing naive bayes probability calculator",
+      "conditional probability posterior naive bayes calculator",
+      "machine learning natural language processing spam detection online"
+    ]
+  },
+  {
+    "name": "Random Forest Out-of-Bag (OOB Error = 1 / e ≈ 36.8% Unsampled) Calculator",
+    "description": "Calculate Bootstrap Aggregation (Bagging) sample probability ((1 - 1/N)^N ≈ 1/e = 36.8% OOB sample rate), number of out-of-bag validation evaluations, and Random Forest ensemble generalization error.",
+    "path": "/tools/random-forest-out-of-bag-oob-error-rate-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "random forest oob error calculator",
+      "out of bag error rate formula bootstrap bagging online",
+      "bootstrap aggregation 1 over e probability calculator",
+      "random forest validation ensemble error calculator",
+      "machine learning random forest bagging online"
+    ]
+  },
+  {
+    "name": "Graph Community Modularity (Q = 1/2m · ∑ (A_ij - k_i·k_j / 2m)·δ(c_i, c_j)) Calculator",
+    "description": "Calculate network graph community structure Modularity score (Q from -0.5 to +1.0) for Louvain and Leiden community detection algorithms to quantify cluster partition quality in social networks and bioinformatics.",
+    "path": "/tools/leiden-louvain-graph-community-modularity-q-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "graph modularity calculator",
+      "louvain leiden modularity q formula online",
+      "network community detection partition score calculator",
+      "modularity optimization graph clustering calculator",
+      "graph theory network science community detection online"
+    ]
+  }
+]

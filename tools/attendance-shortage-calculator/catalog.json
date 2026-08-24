@@ -1,0 +1,16 @@
+{
+  "name": "Attendance Shortage Calculator",
+  "description": "Calculate how many consecutive classes you need to attend to recover 75%, 80%, or 85% college attendance criteria.",
+  "path": "/tools/attendance-shortage-calculator/",
+  "category": "Academic",
+  "icon": "text",
+  "keywords": [
+    "attendance shortage calculator",
+    "attendance recovery calculator",
+    "75 attendance calculator",
+    "college attendance bunk calculator",
+    "classes needed for 75 percent",
+    "student attendance planner"
+  ],
+  "order": 47
+}

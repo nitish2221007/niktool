@@ -1,0 +1,15 @@
+{
+  "name": "Convert 128°F Fahrenheit to Celsius Temp",
+  "description": "Convert 128 degrees Fahrenheit (°F) to Celsius (53.3°C) instantly.",
+  "path": "/tools/convert-128-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 128 fahrenheit to celsius temp",
+    "Convert 128°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

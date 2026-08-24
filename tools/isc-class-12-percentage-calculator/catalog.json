@@ -1,0 +1,15 @@
+{
+  "name": "ISC Class 12 Percentage Calculator",
+  "description": "Calculate ISC Class 12 board exam percentage from English + best 3 subjects.",
+  "path": "/tools/isc-class-12-percentage-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "isc class 12 percentage calculator",
+    "ISC Class 12 Percentage Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

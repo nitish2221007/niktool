@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (690 km Distance, 12 km/l Mileage)",
+  "description": "Calculate fuel needed (57.5 L) and cost (₹5549) for 690 km trip at 12 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-690km-mileage-12kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 690km mileage 12kmpl",
+    "Fuel Cost Trip Calculator (690 km Distance, 12 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 135 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 135 units (V = 4/3 πr³ = 10305994.70).",
+  "path": "/tools/volume-of-sphere-radius-135-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 135 units",
+    "Volume of Sphere (Radius 135 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

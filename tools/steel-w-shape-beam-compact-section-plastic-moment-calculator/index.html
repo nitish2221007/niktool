@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate structural steel wide-flange I-beam (W-Shape) Plastic Moment flexural capacity (M_p = F_y · Z_x) in kN·m and kip·ft, yield moment (M_y = F_y · S_x), and Shape Factor (k = Z_x / S_x) under AISC 360.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/steel-w-shape-beam-compact-section-plastic-moment-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator | NikTool">
+  <meta property="og:description" content="Calculate structural steel wide-flange I-beam (W-Shape) Plastic Moment flexural capacity (M_p = F_y · Z_x) in kN·m and kip·ft, yield moment (M_y = F_y · S_x), and Shape Factor (k = Z_x / S_x) under AISC 360.">
+  <meta property="og:url" content="https://niktool.in/tools/steel-w-shape-beam-compact-section-plastic-moment-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/steel-w-shape-beam-compact-section-plastic-moment-calculator/",
+        "description": "Calculate structural steel wide-flange I-beam (W-Shape) Plastic Moment flexural capacity (M_p = F_y · Z_x) in kN·m and kip·ft, yield moment (M_y = F_y · S_x), and Shape Factor (k = Z_x / S_x) under AISC 360.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the Shape Factor of an I-beam vs a solid rectangle?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A standard wide-flange I-beam has a shape factor of $sim 1.12\text{–}1.15$, whereas a solid rectangular beam has a shape factor of $1.50$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator</h1>
+      <p>Calculate structural steel wide-flange I-beam (W-Shape) Plastic Moment flexural capacity (M_p = F_y · Z_x) in kN·m and kip·ft, yield moment (M_y = F_y · S_x), and Shape Factor (k = Z_x / S_x) under AISC 360.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Steel Yield Strength F_y (MPa, Grade 50 = 345 MPa), Plastic Modulus Z_x (cm³) & Elastic S_x (cm³)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="st-fy">Yield F_y (MPa)</label>
+          <input class="tool-textarea" id="st-fy" type="number" step="25" value="345.0" placeholder="345.0 MPa (ASTM A992 / 50 ksi)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="st-zx">Plastic Z_x (cm³)</label>
+          <input class="tool-textarea" id="st-zx" type="number" step="100" value="1200.0" placeholder="1200.0 cm³ (W16x40 approx)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="st-sx">Elastic S_x (cm³)</label>
+          <input class="tool-textarea" id="st-sx" type="number" step="100" value="1050.0" placeholder="1050.0 cm³" />
+        </div>
+      </div>
+      <div id="st-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="st-res-mp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">M_p = 414.00 kN·m (305.4 kip·ft)</span>
+            <span class="stat-label">AISC Plastic Moment Bending Capacity (M_p = F_y · Z_x)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="st-res-shape" style="color:var(--green-dark); font-weight:700;">Yield Moment M_y = 362.25 kN·m | Shape Factor = 1.14 (14.3% Plastic Reserve Strength)</span>
+            <span class="stat-label">Yield Moment (M_y = F_y · S_x) & Shape Factor (Z_x / S_x)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Structural Steel W-Shape Beam Plastic Moment Capacity (M_p = F_y·Z_x) Calculator</h2>
+      <ol>
+        <li>Enter steel structural yield strength $F_y$ in MPa (e.g. 250 MPa for A36, 345 MPa / 50 ksi for A992).</li>
+        <li>Enter plastic section modulus $Z_x$ in $	ext{cm}^3$ from AISC steel manual tables.</li>
+        <li>Enter elastic section modulus $S_x$ in $	ext{cm}^3$.</li>
+        <li>Inspect Plastic Moment capacity $M_p$, Yield Moment $M_y$, and plastic cross-section Shape Factor.</li>
+      </ol>
+
+      <h2>AISC 360 Plastic Limit State Structural Design</h2>
+      <p>Compact steel sections develop complete plastic hinging across the entire depth before local buckling occurs ($M_p = F_y Z_x$), unlocking an extra $12%	ext{ to }15%$ reserve load capacity beyond first yield ($M_y$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the Shape Factor of an I-beam vs a solid rectangle?</summary>
+        <p>A standard wide-flange I-beam has a shape factor of $sim 1.12	ext{–}1.15$, whereas a solid rectangular beam has a shape factor of $1.50$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/steel-w-shape-beam-compact-section-plastic-moment-calculator/tool.js"></script>
+</body>
+</html>

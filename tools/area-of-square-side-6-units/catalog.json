@@ -1,0 +1,15 @@
+{
+  "name": "Area of Square (Side 6 Units)",
+  "description": "Calculate the area of a square with side length 6 units (A = a² = 36).",
+  "path": "/tools/area-of-square-side-6-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of square side 6 units",
+    "Area of Square (Side 6 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

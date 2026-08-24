@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate transportation highway vehicle Stopping Sight Distance (SSD = 0.278·v·t + v² / (254·(a/g ± G))) in meters from design speed v in km/h, driver perception-reaction time t (2.5 s AASHTO), deceleration rate a, and road grade G (%).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/highway-stopping-sight-distance-ssd-reaction-braking-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator | NikTool">
+  <meta property="og:description" content="Calculate transportation highway vehicle Stopping Sight Distance (SSD = 0.278·v·t + v² / (254·(a/g ± G))) in meters from design speed v in km/h, driver perception-reaction time t (2.5 s AASHTO), deceleration rate a, and road grade G (%).">
+  <meta property="og:url" content="https://niktool.in/tools/highway-stopping-sight-distance-ssd-reaction-braking-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/highway-stopping-sight-distance-ssd-reaction-braking-calculator/",
+        "description": "Calculate transportation highway vehicle Stopping Sight Distance (SSD = 0.278·v·t + v² / (254·(a/g ± G))) in meters from design speed v in km/h, driver perception-reaction time t (2.5 s AASHTO), deceleration rate a, and road grade G (%).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is perception-reaction time set to 2.5 seconds?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "2.5 seconds accommodates the 90th percentile of human driver reaction capabilities across complex unexpected highway conditions."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator</h1>
+      <p>Calculate transportation highway vehicle Stopping Sight Distance (SSD = 0.278·v·t + v² / (254·(a/g ± G))) in meters from design speed v in km/h, driver perception-reaction time t (2.5 s AASHTO), deceleration rate a, and road grade G (%).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Design Speed v (km/h), Perception-Reaction Time t (s, 2.5 s AASHTO) & Roadway Grade G (%)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ssd-v">Speed v (km/h)</label>
+          <input class="tool-textarea" id="ssd-v" type="number" step="10" value="100.0" placeholder="100.0 km/h (62 mph)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ssd-t">Reaction t (s)</label>
+          <input class="tool-textarea" id="ssd-t" type="number" step="0.1" value="2.5" placeholder="2.5 s (AASHTO Standard)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ssd-g">Grade G (%)</label>
+          <input class="tool-textarea" id="ssd-g" type="number" step="1" value="-3.0" placeholder="-3.0% (Downgrade)" />
+        </div>
+      </div>
+      <div id="ssd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ssd-res-tot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Required SSD = 191.8 m</span>
+            <span class="stat-label">Minimum AASHTO Stopping Sight Distance</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ssd-res-break" style="color:var(--green-dark); font-weight:700;">Perception-Reaction = 69.4 m | Braking Distance = 122.4 m (+10.5 m longer on 3% downgrade)</span>
+            <span class="stat-label">Perception Distance vs Physical Friction Braking Distance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator</h2>
+      <ol>
+        <li>Enter highway design speed v in km/h.</li>
+        <li>Enter driver perception-reaction time t in seconds (standard 2.5 seconds per AASHTO Green Book).</li>
+        <li>Enter roadway vertical longitudinal grade G in % (negative for downhill downgrade).</li>
+        <li>Inspect total required Stopping Sight Distance (SSD) in meters, reaction distance, and physical braking distance.</li>
+      </ol>
+
+      <h2>AASHTO Green Book Highway Safety Geometric Standard</h2>
+      <p>Designing vertical crest curves and horizontal turns with sight distance exceeding SSD ($SSD = d_{	ext{reaction}} + d_{	ext{braking}}$) ensures motorists can spot a 15 cm stationary obstacle and safely stop without collision.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is perception-reaction time set to 2.5 seconds?</summary>
+        <p>2.5 seconds accommodates the 90th percentile of human driver reaction capabilities across complex unexpected highway conditions.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/highway-stopping-sight-distance-ssd-reaction-braking-calculator/tool.js"></script>
+</body>
+</html>

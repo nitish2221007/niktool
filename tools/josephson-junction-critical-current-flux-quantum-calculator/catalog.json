@@ -1,0 +1,15 @@
+{
+  "name": "Superconducting Josephson Junction Critical Current (I_c) & Flux Quantum (Φ₀) Calculator",
+  "description": "Calculate superconducting Josephson tunnel junction maximum critical current I_c in μA (Ambegaokar-Baratoff Formula: I_c = π·Δ(T) / (2·e·R_n)), Josephson inductance L_J (L_J = Φ₀ / (2π·I_c)), and AC Josephson oscillation frequency f = 2eV / h.",
+  "path": "/tools/josephson-junction-critical-current-flux-quantum-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "josephson junction calculator",
+    "ambegaokar baratoff critical current formula online",
+    "josephson inductance flux quantum calculator",
+    "superconducting transmon qubit ac josephson frequency calculator",
+    "quantum computing superconductivity solid state physics online"
+  ],
+  "order": 1384
+}

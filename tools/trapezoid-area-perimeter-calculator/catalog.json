@@ -1,0 +1,15 @@
+{
+  "name": "Trapezoid Area & Perimeter Calculator",
+  "description": "Calculate trapezoid area (A = ½ · (a + b) · h), perimeter, and median length from base lengths, height, and side legs.",
+  "path": "/tools/trapezoid-area-perimeter-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "trapezoid area calculator",
+    "trapezium area calculator",
+    "perimeter of trapezoid",
+    "trapezoid height base formula",
+    "geometry trapezoid solver"
+  ],
+  "order": 139
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fenske-Underwood-Gilliland Distillation Minimum Stages (N_min) & Reflux Calculator",
+  "description": "Calculate fractional distillation column minimum theoretical equilibrium stages at total reflux (Fenske equation: N_min = ln([(x_D/(1-x_D)) / (x_B/(1-x_B))]) / ln(α_avg)) and minimum reflux ratio R_min.",
+  "path": "/tools/fenske-underwood-gilliland-distillation-stages-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fenske equation calculator",
+    "minimum theoretical stages distillation fenske underwood formula",
+    "minimum reflux ratio r min calculator online",
+    "chemical engineering distillation column stages calculator",
+    "fenske gilliland shortcut distillation online"
+  ],
+  "order": 766
+}

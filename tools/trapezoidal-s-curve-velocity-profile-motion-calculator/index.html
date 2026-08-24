@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate industrial CNC and pick-and-place trapezoidal velocity profile kinematics: acceleration time t_acc (v_max / a), cruise distance, total movement duration T, and minimum distance required to reach top speed.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/trapezoidal-s-curve-velocity-profile-motion-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator | NikTool">
+  <meta property="og:description" content="Calculate industrial CNC and pick-and-place trapezoidal velocity profile kinematics: acceleration time t_acc (v_max / a), cruise distance, total movement duration T, and minimum distance required to reach top speed.">
+  <meta property="og:url" content="https://niktool.in/tools/trapezoidal-s-curve-velocity-profile-motion-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/trapezoidal-s-curve-velocity-profile-motion-calculator/",
+        "description": "Calculate industrial CNC and pick-and-place trapezoidal velocity profile kinematics: acceleration time t_acc (v_max / a), cruise distance, total movement duration T, and minimum distance required to reach top speed.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a triangular motion profile?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When the stroke distance D is too short, the motor must immediately begin decelerating before reaching $v_{max}$, creating a triangular speed curve."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator</h1>
+      <p>Calculate industrial CNC and pick-and-place trapezoidal velocity profile kinematics: acceleration time t_acc (v_max / a), cruise distance, total movement duration T, and minimum distance required to reach top speed.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Total Displacement Distance D (mm), Max Velocity v_max (mm/s) & Acceleration a (mm/s²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="vp-d">Distance D (mm)</label>
+          <input class="tool-textarea" id="vp-d" type="number" step="50" value="500.0" placeholder="500.0 mm Stroke" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vp-vmax">Max Speed v_max (mm/s)</label>
+          <input class="tool-textarea" id="vp-vmax" type="number" step="50" value="250.0" placeholder="250.0 mm/s" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="vp-a">Accel a (mm/s²)</label>
+          <input class="tool-textarea" id="vp-a" type="number" step="100" value="1000.0" placeholder="1000.0 mm/s²" />
+        </div>
+      </div>
+      <div id="vp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="vp-res-time" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Total Move Time T = 2.250 s</span>
+            <span class="stat-label">Complete Stroke Profile Duration (T = t_acc + t_cruise + t_dec)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="vp-res-phases" style="color:var(--green-dark); font-weight:700;">Accel: 0.250s (31.3 mm) | Cruise: 1.750s (437.5 mm) | Decel: 0.250s (31.3 mm)</span>
+            <span class="stat-label">Three-Phase Motion Breakdown (Trapezoidal Profile Achieved ✓)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator</h2>
+      <ol>
+        <li>Enter total linear/rotational stroke displacement D in mm.</li>
+        <li>Enter programmed maximum velocity $v_{max}$ in mm/s.</li>
+        <li>Enter maximum motor/drive acceleration a in $	ext{mm/s}^2$.</li>
+        <li>Inspect total travel time T and breakdown across acceleration, constant velocity cruising, and deceleration phases.</li>
+      </ol>
+
+      <h2>Time-Optimal Motion Profile Standard</h2>
+      <p>Industry standard kinematic profile for industrial linear stages, 3D printers (G-code motion planner), and servo gantries, balancing speed against motor torque saturation.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a triangular motion profile?</summary>
+        <p>When the stroke distance D is too short, the motor must immediately begin decelerating before reaching $v_{max}$, creating a triangular speed curve.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/trapezoidal-s-curve-velocity-profile-motion-calculator/tool.js"></script>
+</body>
+</html>

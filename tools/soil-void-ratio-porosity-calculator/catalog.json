@@ -1,0 +1,15 @@
+{
+  "name": "Soil Void Ratio & Porosity Geotechnical Calculator",
+  "description": "Convert between soil Void Ratio (e = V_v / V_s) and Total Porosity (n = V_v / V_total = e / (1 + e)) in geotechnical soil mechanics and groundwater hydrogeology.",
+  "path": "/tools/soil-void-ratio-porosity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "soil void ratio calculator",
+    "soil porosity calculator",
+    "void ratio to porosity formula",
+    "geotechnical soil phase relationship calculator",
+    "void ratio e n calculator online"
+  ],
+  "order": 391
+}

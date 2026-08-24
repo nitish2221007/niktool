@@ -1,0 +1,15 @@
+{
+  "name": "Convert 90°C Celsius to Fahrenheit",
+  "description": "Convert 90 degrees Celsius (°C) to Fahrenheit (194.0°F).",
+  "path": "/tools/convert-90-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 90 celsius to fahrenheit",
+    "Convert 90°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate solar home energy storage usable energy (E_usable = Total_kWh · DoD · η_rt) and backup autonomy duration from battery chemistry (LiFePO4, NMC, Lead-Acid).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/solar-battery-storage-depth-of-discharge-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator | NikTool">
+  <meta property="og:description" content="Calculate solar home energy storage usable energy (E_usable = Total_kWh · DoD · η_rt) and backup autonomy duration from battery chemistry (LiFePO4, NMC, Lead-Acid).">
+  <meta property="og:url" content="https://niktool.in/tools/solar-battery-storage-depth-of-discharge-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/solar-battery-storage-depth-of-discharge-calculator/",
+        "description": "Calculate solar home energy storage usable energy (E_usable = Total_kWh · DoD · η_rt) and backup autonomy duration from battery chemistry (LiFePO4, NMC, Lead-Acid).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is Round-Trip Efficiency (RTE) important in solar batteries?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "RTE measures energy lost as heat during chemical charge and discharge; LiFePO4 batteries deliver ~95% RTE compared to only ~75-80% for lead-acid."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator</h1>
+      <p>Calculate solar home energy storage usable energy (E_usable = Total_kWh · DoD · η_rt) and backup autonomy duration from battery chemistry (LiFePO4, NMC, Lead-Acid).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Total Battery Capacity (kWh), Chemistry Type & Average Continuous Load (kW)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bat-kwh">Nameplate (kWh)</label>
+          <input class="tool-textarea" id="bat-kwh" type="number" step="any" value="13.5" placeholder="13.5 kWh (Tesla Powerwall 2)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bat-chem">Battery Chemistry</label>
+          <select class="tool-textarea" id="bat-chem">
+            <option value="lifepo4" selected>Lithium Iron Phosphate (LiFePO4, 90% DoD, 95% Eff)</option>
+            <option value="nmc">Lithium NMC (90% DoD, 92% Eff)</option>
+            <option value="lead">Deep Cycle Lead-Acid AGM (50% DoD, 80% Eff)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bat-load">Continuous Load (kW)</label>
+          <input class="tool-textarea" id="bat-load" type="number" step="any" value="1.5" placeholder="1.5 kW (Refrigeration + Lights + Router)" />
+        </div>
+      </div>
+      <div id="bat-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bat-res-use" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">11.54 kWh Usable</span>
+            <span class="stat-label">Net Usable Discharge Energy (E_usable)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bat-res-time" style="font-weight:700;">7.7 Hours Backup Autonomy Runtime</span>
+            <span class="stat-label">Blackout Backup Autonomy Duration</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Solar Battery Storage Usable Capacity & Depth of Discharge (DoD) Calculator</h2>
+      <ol>
+        <li>Enter nominal nameplate battery energy storage capacity in kilowatt-hours (kWh).</li>
+        <li>Select battery chemistry (LiFePO4, NMC, Lead-Acid AGM).</li>
+        <li>Enter essential household backup electrical continuous power load in kW.</li>
+        <li>Inspect net deliverable usable energy in kWh and estimated blackout runtime duration.</li>
+      </ol>
+
+      <h2>Depth of Discharge (DoD) & Battery Lifespan</h2>
+      <p>Discharging lead-acid batteries beyond 50% causes rapid sulfation and destroys cells in months; modern Lithium Iron Phosphate (LiFePO4) chemistry safely operates at 90% Depth of Discharge for over 6,000+ daily charge cycles (15+ years).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is Round-Trip Efficiency (RTE) important in solar batteries?</summary>
+        <p>RTE measures energy lost as heat during chemical charge and discharge; LiFePO4 batteries deliver ~95% RTE compared to only ~75-80% for lead-acid.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/solar-battery-storage-depth-of-discharge-calculator/tool.js"></script>
+</body>
+</html>

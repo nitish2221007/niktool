@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate thermal radiative heat transfer power (P = ε · σ · A · (T⁴ - T_surr⁴)) in Watts and kW using the Stefan-Boltzmann law from surface temperature, emissivity ε, and ambient surroundings.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/stefan-boltzmann-blackbody-radiation-emissivity-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate thermal radiative heat transfer power (P = ε · σ · A · (T⁴ - T_surr⁴)) in Watts and kW using the Stefan-Boltzmann law from surface temperature, emissivity ε, and ambient surroundings.">
+  <meta property="og:url" content="https://niktool.in/tools/stefan-boltzmann-blackbody-radiation-emissivity-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/stefan-boltzmann-blackbody-radiation-emissivity-calculator/",
+        "description": "Calculate thermal radiative heat transfer power (P = ε · σ · A · (T⁴ - T_surr⁴)) in Watts and kW using the Stefan-Boltzmann law from surface temperature, emissivity ε, and ambient surroundings.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is an ideal blackbody?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A blackbody is an idealized physical object that absorbs all incident electromagnetic radiation and emits the theoretical maximum possible thermal radiation at any given temperature ($epsilon = 1.0$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator</h1>
+      <p>Calculate thermal radiative heat transfer power (P = ε · σ · A · (T⁴ - T_surr⁴)) in Watts and kW using the Stefan-Boltzmann law from surface temperature, emissivity ε, and ambient surroundings.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Surface Emissivity ε (0 to 1.0), Surface Area A (m²), Hot Temp T (K) & Surroundings T_surr (K)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sb-eps">Emissivity (ε)</label>
+          <input class="tool-textarea" id="sb-eps" type="number" step="0.05" min="0.01" max="1" value="0.90" placeholder="0.90 (Matte Surface)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sb-area">Area A (m²)</label>
+          <input class="tool-textarea" id="sb-area" type="number" step="0.5" value="2.0" placeholder="2.0 m²" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sb-thot">Surface Temp T (K)</label>
+          <input class="tool-textarea" id="sb-thot" type="number" step="50" value="673.15" placeholder="673.15 K (400°C)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sb-tsurr">Surroundings (K)</label>
+          <input class="tool-textarea" id="sb-tsurr" type="number" step="10" value="298.15" placeholder="298.15 K (25°C)" />
+        </div>
+      </div>
+      <div id="sb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sb-res-pwr" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Radiative Power P = 20.14 kW</span>
+            <span class="stat-label">Net Thermal Radiative Heat Emission Rate</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sb-res-flux" style="color:var(--green-dark); font-weight:700;">Emissive Flux q" = 10.07 kW/m² | T⁴ scaling: Doubling absolute temperature boosts radiation by 16×</span>
+            <span class="stat-label">Radiative Heat Flux & 4th Power Absolute Temperature Scaling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Stefan-Boltzmann Blackbody Thermal Radiation (P = ε·σ·A·(T⁴ - T_surr⁴)) Calculator</h2>
+      <ol>
+        <li>Enter surface emissivity $epsilon$ ($0 < epsilon le 1.0$, where $epsilon = 1.0$ represents an ideal blackbody).</li>
+        <li>Enter radiating surface area A in $	ext{m}^2$.</li>
+        <li>Enter hot object absolute surface temperature T in Kelvin.</li>
+        <li>Enter cooler ambient surrounding wall temperature $T_{	ext{surr}}$ in Kelvin.</li>
+        <li>Inspect net radiated thermal power output in kW and heat flux in $	ext{kW/m}^2$.</li>
+      </ol>
+
+      <h2>Josef Stefan 1879 & Ludwig Boltzmann 1884 Radiation Law</h2>
+      <p>Because thermal radiative emission scales with the fourth power of absolute temperature ($P propto T^4$), radiation dominates all other modes of heat transfer (convection and conduction) at high temperatures in industrial furnaces, space satellites, and stellar astrophysics.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is an ideal blackbody?</summary>
+        <p>A blackbody is an idealized physical object that absorbs all incident electromagnetic radiation and emits the theoretical maximum possible thermal radiation at any given temperature ($epsilon = 1.0$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/stefan-boltzmann-blackbody-radiation-emissivity-calculator/tool.js"></script>
+</body>
+</html>

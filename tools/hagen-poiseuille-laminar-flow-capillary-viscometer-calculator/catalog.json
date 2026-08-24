@@ -1,0 +1,15 @@
+{
+  "name": "Hagen-Poiseuille Capillary Viscometer (Q = π·R⁴·ΔP / (8·μ·L)) Calculator",
+  "description": "Calculate laminar volumetric flow rate Q in mL/min, fluid dynamic viscosity μ (in cP and Pa·s), and wall shear stress τ_w using the Hagen-Poiseuille law for Ostwald and Ubbelohde capillary viscometers.",
+  "path": "/tools/hagen-poiseuille-laminar-flow-capillary-viscometer-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hagen poiseuille calculator",
+    "capillary viscometer flow rate formula online",
+    "ostwald viscometer viscosity calculator",
+    "laminar tube flow pressure drop poiseuille calculator",
+    "fluid mechanics rheology chemical engineering online"
+  ],
+  "order": 1254
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sound Decibel Distance Calculator",
+  "description": "Calculate sound pressure level (dB) reduction over distance using the inverse square law for indoor and outdoor acoustics.",
+  "path": "/tools/sound-decibel-distance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sound decibel distance calculator",
+    "inverse square law sound",
+    "spl drop over distance",
+    "sound level at distance calculator",
+    "acoustic distance decibel"
+  ],
+  "order": 84
+}

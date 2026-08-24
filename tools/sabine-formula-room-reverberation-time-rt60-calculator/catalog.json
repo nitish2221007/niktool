@@ -1,0 +1,15 @@
+{
+  "name": "Sabine Formula Architectural Room Reverberation Time (RT₆₀ = 0.161·V / A) Calculator",
+  "description": "Calculate architectural room reverberation decay time RT₆₀ in seconds (Sabine Formula: RT₆₀ = 0.161 · V / A) from room volume V (m³), surface areas, and acoustic absorption coefficients (Metric Sabins A = ∑ S_i · α_i).",
+  "path": "/tools/sabine-formula-room-reverberation-time-rt60-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sabine formula calculator",
+    "reverberation time rt60 formula online",
+    "room acoustic absorption sabins calculator",
+    "classroom auditorium reverberation time calculator",
+    "architectural acoustics audio engineering building physics online"
+  ],
+  "order": 1345
+}

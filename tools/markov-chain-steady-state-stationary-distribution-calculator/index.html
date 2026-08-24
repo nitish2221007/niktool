@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 2-state and 3-state ergodic discrete Markov chain long-term stationary equilibrium probability vectors (π · P = π with Σ π_i = 1) from transition transition matrices.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/markov-chain-steady-state-stationary-distribution-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator | NikTool">
+  <meta property="og:description" content="Calculate 2-state and 3-state ergodic discrete Markov chain long-term stationary equilibrium probability vectors (π · P = π with Σ π_i = 1) from transition transition matrices.">
+  <meta property="og:url" content="https://niktool.in/tools/markov-chain-steady-state-stationary-distribution-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/markov-chain-steady-state-stationary-distribution-calculator/",
+        "description": "Calculate 2-state and 3-state ergodic discrete Markov chain long-term stationary equilibrium probability vectors (π · P = π with Σ π_i = 1) from transition transition matrices.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the ergodic theorem for Markov chains?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For an ergodic chain, the long-term time fraction spent in state i equals the theoretical stationary probability $pi_i$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator</h1>
+      <p>Calculate 2-state and 3-state ergodic discrete Markov chain long-term stationary equilibrium probability vectors (π · P = π with Σ π_i = 1) from transition transition matrices.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">2-State Transition Probabilities: State 1 -> State 2 (p₁₂) & State 2 -> State 1 (p₂₁)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mc-p12">P(1 -> 2)</label>
+          <input class="tool-textarea" id="mc-p12" type="number" step="0.05" min="0.01" max="0.99" value="0.30" placeholder="0.30 (Switch to State 2)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mc-p21">P(2 -> 1)</label>
+          <input class="tool-textarea" id="mc-p21" type="number" step="0.05" min="0.01" max="0.99" value="0.20" placeholder="0.20 (Switch to State 1)" />
+        </div>
+      </div>
+      <div id="mc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mc-res-pi" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">π₁ = 40.0% | π₂ = 60.0%</span>
+            <span class="stat-label">Long-Term Stationary Probability Vector (π)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mc-res-ret" style="font-weight:700;">Mean Recurrence Time: μ₁ = 2.50 steps | μ₂ = 1.67 steps (Ergodic Balance)</span>
+            <span class="stat-label">Mean First Return Recurrence Times (μ_i = 1 / π_i)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Discrete-Time Markov Chain Stationary Steady-State Distribution (π·P = π) Calculator</h2>
+      <ol>
+        <li>Enter forward transition probability $P(1 	o 2)$.</li>
+        <li>Enter reverse transition probability $P(2 	o 1)$.</li>
+        <li>Inspect long-term invariant equilibrium probability distribution vector $pi = [pi_1, pi_2]$ and mean recurrence return times.</li>
+      </ol>
+
+      <h2>Andrey Markov 1906 Stochastic Memoryless Process</h2>
+      <p>Irreducible, aperiodic Markov chains converge to a unique invariant stationary distribution ($pi P = pi$) independent of initial state conditions, powering Google's original PageRank search algorithm and financial credit rating transition models.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the ergodic theorem for Markov chains?</summary>
+        <p>For an ergodic chain, the long-term time fraction spent in state i equals the theoretical stationary probability $pi_i$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/markov-chain-steady-state-stationary-distribution-calculator/tool.js"></script>
+</body>
+</html>

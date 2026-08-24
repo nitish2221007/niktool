@@ -1,0 +1,15 @@
+{
+  "name": "Nautical Miles, Knots & Statute Speed Converter",
+  "description": "Convert distance and navigational speed across Nautical Miles (NM), Knots (kts = NM/hr), Statute Miles (mph), Kilometers (km), and km/h in real time.",
+  "path": "/tools/nautical-miles-knots-statute-converter/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "nautical miles to knots converter",
+    "knots to mph calculator",
+    "statute miles to nautical miles online",
+    "aviation knot converter",
+    "marine knots to kmh formula"
+  ],
+  "order": 344
+}

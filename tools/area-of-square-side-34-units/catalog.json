@@ -1,0 +1,15 @@
+{
+  "name": "Area of Square (Side 34 Units)",
+  "description": "Calculate the area of a square with side length 34 units (A = a² = 1156).",
+  "path": "/tools/area-of-square-side-34-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of square side 34 units",
+    "Area of Square (Side 34 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

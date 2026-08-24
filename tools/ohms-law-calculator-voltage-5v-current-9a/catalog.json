@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 5V, Current 9A)",
+  "description": "Calculate Resistance (0.56 Ω) and Electric Power (45.0 W) for 5V voltage and 9A current.",
+  "path": "/tools/ohms-law-calculator-voltage-5v-current-9a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 5v current 9a",
+    "Ohm's Law Calculator (Voltage 5V, Current 9A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

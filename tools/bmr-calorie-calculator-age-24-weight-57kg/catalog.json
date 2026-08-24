@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 24, Weight 57kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1518 kcal/day) for 24-year-old weighing 57 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-24-weight-57kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 24 weight 57kg",
+    "BMR Calorie Calculator (Age 24, Weight 57kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

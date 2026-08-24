@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 410V, Current 3A)",
+  "description": "Calculate Resistance (136.67 Ω) and Electric Power (1230.0 W) for 410V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-410v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 410v current 3a",
+    "Ohm's Law Calculator (Voltage 410V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

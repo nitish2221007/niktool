@@ -1,0 +1,15 @@
+{
+  "name": "Inverter Output Total Harmonic Distortion (THD) Calculator",
+  "description": "Calculate voltage and current Total Harmonic Distortion percentage (THD % = √(Σ V_n²) / V₁ · 100) per IEEE 519 standards for solar grid-tie inverters and motor drives.",
+  "path": "/tools/inverter-output-thd-total-harmonic-distortion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "inverter thd calculator",
+    "total harmonic distortion formula ieee 519",
+    "thd percentage calculator online",
+    "voltage harmonics root sum of squares calculator",
+    "solar grid tie inverter thd calculator"
+  ],
+  "order": 556
+}

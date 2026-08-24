@@ -1,0 +1,15 @@
+{
+  "name": "Airfoil Circulation & Kutta-Joukowski Lift (L' = ρ · V · Γ) Calculator",
+  "description": "Calculate aerodynamic 2D airfoil sectional lift force per unit span (L' = ρ_∞ · V_∞ · Γ) in N/m and Circulation Γ from free-stream air density and velocity.",
+  "path": "/tools/airfoil-circulation-kutta-joukowski-lift-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "kutta joukowski lift calculator",
+    "airfoil circulation gamma formula l prime rho v gamma",
+    "vortex lift per unit span calculator online",
+    "aerodynamics kutta condition circulation online",
+    "theoretical aerodynamics lift theorem calculator"
+  ],
+  "order": 605
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Baker's Percentage & Sourdough Dough Hydration Calculator",
+  "description": "Calculate Baker's percentages (Ingredient % = (Weight / Total Flour Weight) · 100), total dough hydration %, and individual water, levain, and salt ingredient weights.",
+  "path": "/tools/bakers-percentage-dough-hydration-calculator/",
+  "category": "Daily",
+  "icon": "chart",
+  "keywords": [
+    "bakers percentage calculator",
+    "dough hydration calculator sourdough",
+    "flour water salt baker math online",
+    "artisan bread dough hydration formula",
+    "sourdough levain hydration calculator"
+  ],
+  "order": 498
+}

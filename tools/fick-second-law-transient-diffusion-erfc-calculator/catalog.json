@@ -1,0 +1,15 @@
+{
+  "name": "Fick's Second Law Transient Non-Steady State Diffusion (erfc(x / 2√Dt)) Calculator",
+  "description": "Calculate semi-infinite transient non-steady state diffusion concentration profiles ((C(x,t) - C₀) / (C_s - C₀) = 1 - erf(x / (2·√(D·t))) = erfc(z)) for carburization, semiconductor doping, and drug release.",
+  "path": "/tools/fick-second-law-transient-diffusion-erfc-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fick second law calculator",
+    "transient diffusion erfc formula error function online",
+    "carburization case depth diffusion calculator",
+    "semiconductor doping diffusion profile calculator",
+    "materials science chemical engineering diffusion online"
+  ],
+  "order": 1244
+}

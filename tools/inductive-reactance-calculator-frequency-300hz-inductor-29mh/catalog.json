@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (300 Hz, 29 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 54.66 Ω) for 300 Hz frequency and 29 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-300hz-inductor-29mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 300hz inductor 29mh",
+    "Inductive Reactance Calculator (300 Hz, 29 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

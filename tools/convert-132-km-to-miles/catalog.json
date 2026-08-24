@@ -1,0 +1,15 @@
+{
+  "name": "Convert 132 KM to Miles",
+  "description": "Convert 132 kilometers to miles (82.02 miles). 100% free and local.",
+  "path": "/tools/convert-132-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 132 km to miles",
+    "Convert 132 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

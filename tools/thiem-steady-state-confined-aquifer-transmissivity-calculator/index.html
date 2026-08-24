@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate confined aquifer hydraulic transmissivity T in m²/day (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) and hydraulic conductivity K from equilibrium two-well pumping test drawdown measurements.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/thiem-steady-state-confined-aquifer-transmissivity-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate confined aquifer hydraulic transmissivity T in m²/day (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) and hydraulic conductivity K from equilibrium two-well pumping test drawdown measurements.">
+  <meta property="og:url" content="https://niktool.in/tools/thiem-steady-state-confined-aquifer-transmissivity-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/thiem-steady-state-confined-aquifer-transmissivity-calculator/",
+        "description": "Calculate confined aquifer hydraulic transmissivity T in m²/day (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) and hydraulic conductivity K from equilibrium two-well pumping test drawdown measurements.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the relationship between Transmissivity (T) and Conductivity (K)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Transmissivity represents the rate at which water transmits through the full saturated aquifer thickness: $T = K \times b$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator</h1>
+      <p>Calculate confined aquifer hydraulic transmissivity T in m²/day (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) and hydraulic conductivity K from equilibrium two-well pumping test drawdown measurements.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Pumping Rate Q (m³/day), Radii r₁ & r₂ (m), Steady Heads h₁ & h₂ (m) & Aquifer Thickness b (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="tm-q">Pumping Q (m³/day)</label>
+          <input class="tool-textarea" id="tm-q" type="number" step="250" value="2000.0" placeholder="2000.0 m³/day" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tm-r1">Near Well r₁ (m)</label>
+          <input class="tool-textarea" id="tm-r1" type="number" step="10" value="20.0" placeholder="20.0 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tm-r2">Far Well r₂ (m)</label>
+          <input class="tool-textarea" id="tm-r2" type="number" step="50" value="100.0" placeholder="100.0 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tm-dh">Head Diff h₂ - h₁ (m)</label>
+          <input class="tool-textarea" id="tm-dh" type="number" step="0.2" value="1.80" placeholder="1.80 m (s1 - s2)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tm-b">Thickness b (m)</label>
+          <input class="tool-textarea" id="tm-b" type="number" step="2" value="15.0" placeholder="15.0 m Stratum" />
+        </div>
+      </div>
+      <div id="tm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="tm-res-t" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Transmissivity T = 284.6 m² / day</span>
+            <span class="stat-label">Thiem Steady-State Confined Aquifer Transmissivity</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tm-res-k" style="color:var(--green-dark); font-weight:700;">Hydraulic Conductivity K = 18.97 m/day (2.20 × 10⁻⁴ m/s | Productive Gravel Aquifer)</span>
+            <span class="stat-label">Hydraulic Conductivity (K = T / b) & Aquifer Productivity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator</h2>
+      <ol>
+        <li>Enter steady pumping discharge rate Q in $	ext{m}^3/	ext{day}$.</li>
+        <li>Enter radial distances to near ($r_1$) and far ($r_2$) piezometer observation wells in meters.</li>
+        <li>Enter difference in piezometric water level elevation ($h_2 - h_1 = s_1 - s_2$) in meters.</li>
+        <li>Enter confined aquifer saturated stratum thickness b in meters.</li>
+        <li>Inspect aquifer transmissivity T and hydraulic conductivity K.</li>
+      </ol>
+
+      <h2>Günther Thiem 1906 Equilibrium Well Formula</h2>
+      <p>Provides the standard steady-state radial flow equation for confined aquifers, determining regional groundwater supply yields for municipal water wells.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the relationship between Transmissivity (T) and Conductivity (K)?</summary>
+        <p>Transmissivity represents the rate at which water transmits through the full saturated aquifer thickness: $T = K 	imes b$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/thiem-steady-state-confined-aquifer-transmissivity-calculator/tool.js"></script>
+</body>
+</html>

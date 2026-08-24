@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 KG to LBS",
+  "description": "Convert 1 kilograms (1 kg) to pounds (2.20 lbs) instantly in your browser.",
+  "path": "/tools/convert-1-kg-to-lbs/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 1 kg to lbs",
+    "Convert 1 KG to LBS",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Radar Range Equation & Detection Range Calculator",
+  "description": "Calculate maximum radar detection range Rmax using peak power, antenna gain, target radar cross section (RCS), and receiver sensitivity.",
+  "path": "/tools/radar-range-equation-snr-detection-range-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "radar range equation snr detection range calculator",
+    "Radar Range Equation & Detection Range Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

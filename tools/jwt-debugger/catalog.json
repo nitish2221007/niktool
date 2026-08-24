@@ -1,0 +1,19 @@
+{
+  "name": "JWT Debugger & Decoder",
+  "description": "Decode and inspect JSON Web Tokens safely in your browser. View header, payload claims, expiration time, and validity status with 100% privacy.",
+  "path": "/tools/jwt-debugger/",
+  "category": "Developer",
+  "icon": "shield",
+  "keywords": [
+    "jwt debugger",
+    "jwt decoder",
+    "decode jwt online",
+    "json web token decoder",
+    "jwt inspector",
+    "jwt claims viewer",
+    "jwt exp calculator",
+    "jwt parser",
+    "decode bearer token"
+  ],
+  "order": 55
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Orthopedic Prosthetic Hip Joint Hertzian Contact Stress & Wear Calculator",
+  "description": "Calculate biomedical orthopedic total hip replacement artificial joint peak contact stress σ_max in MPa (Hertzian Spherical Contact Mechanics: σ_max = 3·F / (2·π·a²)) on UHMWPE polyethylene / ceramic liners and predict wear risk.",
+  "path": "/tools/prosthetic-joint-contact-stress-hertzian-contact-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "prosthetic joint contact stress calculator",
+    "hertzian contact mechanics orthopedic hip formula online",
+    "uhmwpe polyethylene wear peak stress mpa calculator",
+    "total hip arthroplasty contact area radius calculator",
+    "biomechanics orthopedic biomedical engineering materials online"
+  ],
+  "order": 1451
+}

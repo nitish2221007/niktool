@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate interplanetary spacecraft Solar Radiation Pressure photon thrust force F_SRP in μN (F_SRP = (P_sun / c) · A · (1 + R) · cos θ) from solar irradiance (1361 W/m² @ 1 AU), surface reflectivity R, and solar sail acceleration.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/spacecraft-solar-radiation-pressure-photon-force-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator | NikTool">
+  <meta property="og:description" content="Calculate interplanetary spacecraft Solar Radiation Pressure photon thrust force F_SRP in μN (F_SRP = (P_sun / c) · A · (1 + R) · cos θ) from solar irradiance (1361 W/m² @ 1 AU), surface reflectivity R, and solar sail acceleration.">
+  <meta property="og:url" content="https://niktool.in/tools/spacecraft-solar-radiation-pressure-photon-force-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/spacecraft-solar-radiation-pressure-photon-force-calculator/",
+        "description": "Calculate interplanetary spacecraft Solar Radiation Pressure photon thrust force F_SRP in μN (F_SRP = (P_sun / c) · A · (1 + R) · cos θ) from solar irradiance (1361 W/m² @ 1 AU), surface reflectivity R, and solar sail acceleration.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is photon force doubled for a reflective mirror vs black absorber?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Reflecting a photon reverses its momentum vector from $+p$ to $-p$, transferring double momentum ($Delta p = 2p$) via elastic collision compared to absorption ($Delta p = p$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator</h1>
+      <p>Calculate interplanetary spacecraft Solar Radiation Pressure photon thrust force F_SRP in μN (F_SRP = (P_sun / c) · A · (1 + R) · cos θ) from solar irradiance (1361 W/m² @ 1 AU), surface reflectivity R, and solar sail acceleration.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Solar Sail / Panel Area A (m²), Reflectivity R (0 for Black, 1 for Mirror), Spacecraft Mass m (kg) & Distance (AU)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sp-area">Sail Area A (m²)</label>
+          <input class="tool-textarea" id="sp-area" type="number" step="10" value="100.0" placeholder="100.0 m² Solar Sail" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-r">Reflectivity R</label>
+          <input class="tool-textarea" id="sp-r" type="number" step="0.05" value="0.90" placeholder="0.90 (Aluminized Mylar)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-m">Mass m (kg)</label>
+          <input class="tool-textarea" id="sp-m" type="number" step="10" value="50.0" placeholder="50.0 kg CubeSat" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-dist">Distance (AU)</label>
+          <input class="tool-textarea" id="sp-dist" type="number" step="0.1" value="1.0" placeholder="1.0 AU (Earth Orbit)" />
+        </div>
+      </div>
+      <div id="sp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sp-res-f" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">SRP Photon Force = 862 μN (0.862 mN)</span>
+            <span class="stat-label">Continuous Solar Photon Momentum Force (F = (P_sun / c) · A · (1 + R))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sp-res-acc" style="color:var(--green-dark); font-weight:700;">Characteristic Acceleration = 17.2 μm/s² (1.49 m/s Δv per day propellantless!)</span>
+            <span class="stat-label">Solar Sail Propellantless Daily Velocity Gain (a = F / m)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Spacecraft Solar Radiation Pressure (SRP Photon Force & Solar Sail Acceleration) Calculator</h2>
+      <ol>
+        <li>Enter exposed solar sail membrane / solar panel array surface area in $	ext{m}^2$.</li>
+        <li>Enter optical surface specular reflectivity R ($0.0$ for perfect absorber, $1.0$ for ideal mirror).</li>
+        <li>Enter total spacecraft wet/dry mass in kg.</li>
+        <li>Enter distance from the Sun in Astronomical Units (AU, 1.0 AU at Earth).</li>
+        <li>Inspect total continuous solar photon radiation force in $mu	ext{N}$ and daily propellantless velocity gain.</li>
+      </ol>
+
+      <h2>James Clerk Maxwell 1873 Photon Momentum Standard</h2>
+      <p>Photons carry momentum ($p = E/c$), creating a continuous propellantless radiation pressure force ($4.54 mu	ext{N/m}^2$ for absorption, $9.08 mu	ext{N/m}^2$ for reflection) utilized by solar sails (NASA ACS3, JAXA IKAROS).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is photon force doubled for a reflective mirror vs black absorber?</summary>
+        <p>Reflecting a photon reverses its momentum vector from $+p$ to $-p$, transferring double momentum ($Delta p = 2p$) via elastic collision compared to absorption ($Delta p = p$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/spacecraft-solar-radiation-pressure-photon-force-calculator/tool.js"></script>
+</body>
+</html>

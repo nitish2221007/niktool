@@ -1,0 +1,15 @@
+{
+  "name": "Convert 380 Knots Speed Val to KM/H",
+  "description": "Convert 380 knots speed to kilometers per hour (703.76 km/h).",
+  "path": "/tools/convert-knot-speed-val-380-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 380 to kmh",
+    "Convert 380 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

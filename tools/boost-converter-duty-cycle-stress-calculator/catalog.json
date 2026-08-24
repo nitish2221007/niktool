@@ -1,0 +1,15 @@
+{
+  "name": "Boost DC-DC Step-Up Converter Duty Cycle & Component Stress Calculator",
+  "description": "Calculate boost converter voltage step-up duty cycle (D = 1 - (V_in / V_out)), peak switch voltage stress (V_DS = V_out), and minimum output smoothing capacitor capacitance (C_min).",
+  "path": "/tools/boost-converter-duty-cycle-stress-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "boost converter calculator",
+    "step up dcdc duty cycle formula 1 minus vin over vout",
+    "boost converter output capacitor formula online",
+    "switch voltage stress boost converter calculator",
+    "smps boost converter design online"
+  ],
+  "order": 558
+}

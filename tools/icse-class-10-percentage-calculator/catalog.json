@@ -1,0 +1,15 @@
+{
+  "name": "ICSE Class 10 Percentage Calculator",
+  "description": "Calculate ICSE Class 10 board exam percentage from English + best 4 subjects.",
+  "path": "/tools/icse-class-10-percentage-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "icse class 10 percentage calculator",
+    "ICSE Class 10 Percentage Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

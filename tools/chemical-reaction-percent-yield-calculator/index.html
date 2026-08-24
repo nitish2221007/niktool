@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chemical Reaction Percent Yield Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate reaction percent yield ((Actual Yield / Theoretical Yield) · 100) and product loss in synthetic chemistry laboratories.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/chemical-reaction-percent-yield-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chemical Reaction Percent Yield Calculator | NikTool">
+  <meta property="og:description" content="Calculate reaction percent yield ((Actual Yield / Theoretical Yield) · 100) and product loss in synthetic chemistry laboratories.">
+  <meta property="og:url" content="https://niktool.in/tools/chemical-reaction-percent-yield-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Chemical Reaction Percent Yield Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/chemical-reaction-percent-yield-calculator/",
+        "description": "Calculate reaction percent yield ((Actual Yield / Theoretical Yield) · 100) and product loss in synthetic chemistry laboratories.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is actual yield almost always less than 100%?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Side reactions, incomplete equilibrium conversion, mechanical transfer losses, and crystallization retention prevent 100% theoretical recovery."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Chemical Reaction Percent Yield Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Chemical Reaction Percent Yield Calculator</h1>
+      <p>Calculate reaction percent yield ((Actual Yield / Theoretical Yield) · 100) and product loss in synthetic chemistry laboratories.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Actual & Theoretical Product Masses (grams)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="yld-act">Actual Recovered Yield (grams)</label>
+          <input class="tool-textarea" id="yld-act" type="number" step="any" value="18.5" placeholder="e.g. 18.5 g" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="yld-theo">Theoretical Stoichiometric Yield (grams)</label>
+          <input class="tool-textarea" id="yld-theo" type="number" step="any" value="22.0" placeholder="e.g. 22.0 g" />
+        </div>
+      </div>
+      <div id="yld-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="yld-res-pct" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">84.09%</span>
+            <span class="stat-label">Reaction Percent Yield</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="yld-res-loss" style="color:#c53030; font-weight:700;">3.50 g (15.91%)</span>
+            <span class="stat-label">Unrecovered Loss / Byproducts</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Chemical Reaction Percent Yield Calculator</h2>
+      <ol>
+        <li>Enter the actual mass of purified isolated product measured on a laboratory scale.</li>
+        <li>Enter the theoretical maximum product yield calculated from limiting reagent stoichiometry.</li>
+        <li>Inspect the reaction percent yield.</li>
+      </ol>
+
+      <h2>Industrial Synthesis Optimization</h2>
+      <p>Tracking percent yield reveals chemical reaction efficiency, identifying losses caused by incomplete equilibrium, side reactions, or filtration wash stages.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is actual yield almost always less than 100%?</summary>
+        <p>Side reactions, incomplete equilibrium conversion, mechanical transfer losses, and crystallization retention prevent 100% theoretical recovery.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/chemical-reaction-percent-yield-calculator/tool.js"></script>
+</body>
+</html>

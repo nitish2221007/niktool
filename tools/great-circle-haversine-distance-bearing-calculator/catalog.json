@@ -1,0 +1,15 @@
+{
+  "name": "Great Circle Haversine Distance & Initial Azimuth Bearing Calculator",
+  "description": "Calculate spherical Earth shortest great-circle navigation distance in kilometers/nautical miles and initial compass forward azimuth bearing between two GPS coordinates.",
+  "path": "/tools/great-circle-haversine-distance-bearing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "great circle distance calculator",
+    "haversine formula distance bearing gps online",
+    "flight distance nautical miles haversine calculator",
+    "initial bearing compass azimuth calculator online",
+    "geodesy navigation great circle online"
+  ],
+  "order": 701
+}

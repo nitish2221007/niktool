@@ -1,0 +1,15 @@
+{
+  "name": "CSS Fancy Border Radius Generator",
+  "description": "Create organic, blob-like, and smooth asymmetric 8-point CSS border-radius shapes with live visual preview and CSS code export.",
+  "path": "/tools/css-border-radius-generator/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "css border radius generator",
+    "8 point border radius",
+    "blob shape generator css",
+    "organic border radius builder",
+    "fancy border radius online"
+  ],
+  "order": 95
+}

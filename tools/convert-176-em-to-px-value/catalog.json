@@ -1,0 +1,15 @@
+{
+  "name": "Convert 176 EM to PX Value",
+  "description": "Convert 176 EM units to pixels (2816 px) based on 16px font context.",
+  "path": "/tools/convert-176-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 176 em to px value",
+    "Convert 176 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

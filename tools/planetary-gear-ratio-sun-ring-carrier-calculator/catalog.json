@@ -1,0 +1,15 @@
+{
+  "name": "Planetary (Epicyclic) Gear Train Ratio & Speed Calculator",
+  "description": "Calculate planetary epicyclic gearbox gear ratios (R = 1 + N_ring / N_sun for fixed ring carrier output), sun/planet tooth meshing, and output torque multiplier.",
+  "path": "/tools/planetary-gear-ratio-sun-ring-carrier-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "planetary gear ratio calculator",
+    "epicyclic gear train formula sun ring planet",
+    "planetary gearbox reduction ratio calculator online",
+    "sun planet ring gear tooth meshing calculator",
+    "robotic actuator planetary gear ratio online"
+  ],
+  "order": 618
+}

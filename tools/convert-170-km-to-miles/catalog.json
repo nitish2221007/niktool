@@ -1,0 +1,15 @@
+{
+  "name": "Convert 170 KM to Miles",
+  "description": "Convert 170 kilometers to miles (105.63 miles). 100% free and local.",
+  "path": "/tools/convert-170-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 170 km to miles",
+    "Convert 170 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Transformer Turns Ratio Calculator (Np=400, Ns=240)",
+  "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.67) and secondary voltage for Np=400 and Ns=240.",
+  "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-240/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "transformer turns ratio calculator primary 400 secondary 240",
+    "Transformer Turns Ratio Calculator (Np=400, Ns=240)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

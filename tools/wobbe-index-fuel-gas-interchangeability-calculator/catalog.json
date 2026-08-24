@@ -1,0 +1,15 @@
+{
+  "name": "Wobbe Index (I_W = HHV / √SG) Fuel Gas Interchangeability Calculator",
+  "description": "Calculate fuel gas Wobbe Index (I_W = HHV / √SG) in MJ/m³ and BTU/scf to verify pipeline fuel interchangeability across Natural Gas, Biomethane, Propane-Air, and Hydrogen blends.",
+  "path": "/tools/wobbe-index-fuel-gas-interchangeability-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wobbe index calculator",
+    "fuel gas interchangeability formula iw equals hhv over sqrt sg",
+    "natural gas hydrogen blend wobbe index calculator online",
+    "burner orifice heating rate wobbe index calculator",
+    "biomethane pipeline grid injection wobbe online"
+  ],
+  "order": 789
+}

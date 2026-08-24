@@ -1,0 +1,15 @@
+{
+  "name": "Word Length Checker (132 Words)",
+  "description": "Check word length and readability metrics for text with target 132 words count.",
+  "path": "/tools/word-length-checker-132-words-count/",
+  "category": "Text",
+  "icon": "text",
+  "keywords": [
+    "word length checker 132 words count",
+    "Word Length Checker (132 Words)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

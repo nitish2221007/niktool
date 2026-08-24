@@ -1,0 +1,15 @@
+{
+  "name": "Bode Plot Gain Margin (GM), Phase Margin (PM) & Crossover Frequency Calculator",
+  "description": "Calculate frequency domain relative stability metrics: Gain Margin GM in dB (GM = -20·log₁₀|G(jω_π)|) at phase crossover frequency ω_π and Phase Margin PM (PM = 180° + ∠G(jω_c)) at gain crossover frequency ω_c.",
+  "path": "/tools/bode-plot-gain-phase-margin-gain-crossover-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "bode plot calculator",
+    "gain margin phase margin formula online",
+    "gain crossover phase crossover frequency calculator",
+    "bode stability frequency response calculator",
+    "control systems mechatronics electrical engineering online"
+  ],
+  "order": 1317
+}

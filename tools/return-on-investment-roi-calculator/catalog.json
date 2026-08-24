@@ -1,0 +1,15 @@
+{
+  "name": "ROI (Return on Investment) Calculator",
+  "description": "Calculate total ROI percentage, annualized ROI, net profit gain, and benefit-to-cost ratio for business marketing and capital investments.",
+  "path": "/tools/return-on-investment-roi-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "roi calculator",
+    "return on investment calculator",
+    "calculate roi online",
+    "marketing roi calculator",
+    "annualized roi formula"
+  ],
+  "order": 80
+}

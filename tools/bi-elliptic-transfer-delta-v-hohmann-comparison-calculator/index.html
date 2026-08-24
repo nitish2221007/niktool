@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 3-impulse Bi-Elliptic orbital transfer total delta-V (Δv_total = Δv₁ + Δv₂ + Δv₃) and compare against standard 2-impulse Hohmann transfer for large orbital radius ratios (r_final / r_initial exceeding 11.94).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/bi-elliptic-transfer-delta-v-hohmann-comparison-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator | NikTool">
+  <meta property="og:description" content="Calculate 3-impulse Bi-Elliptic orbital transfer total delta-V (Δv_total = Δv₁ + Δv₂ + Δv₃) and compare against standard 2-impulse Hohmann transfer for large orbital radius ratios (r_final / r_initial exceeding 11.94).">
+  <meta property="og:url" content="https://niktool.in/tools/bi-elliptic-transfer-delta-v-hohmann-comparison-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/bi-elliptic-transfer-delta-v-hohmann-comparison-calculator/",
+        "description": "Calculate 3-impulse Bi-Elliptic orbital transfer total delta-V (Δv_total = Δv₁ + Δv₂ + Δv₃) and compare against standard 2-impulse Hohmann transfer for large orbital radius ratios (r_final / r_initial exceeding 11.94).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the downside of a bi-elliptic transfer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Bi-elliptic transfers take vastly longer elapsed flight times (often days or months longer) than direct Hohmann transfers."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator</h1>
+      <p>Calculate 3-impulse Bi-Elliptic orbital transfer total delta-V (Δv_total = Δv₁ + Δv₂ + Δv₃) and compare against standard 2-impulse Hohmann transfer for large orbital radius ratios (r_final / r_initial exceeding 11.94).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Initial Orbit Radius r₁ (km), Final Target Radius r₂ (km) & Intermediate Apogee r_b (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bi-r1">Initial r₁ (km)</label>
+          <input class="tool-textarea" id="bi-r1" type="number" step="100" value="7000.0" placeholder="7000.0 km (LEO)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bi-r2">Final r₂ (km)</label>
+          <input class="tool-textarea" id="bi-r2" type="number" step="5000" value="105000.0" placeholder="105000.0 km (15× LEO)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bi-rb">Intermediate r_b</label>
+          <input class="tool-textarea" id="bi-rb" type="number" step="10000" value="250000.0" placeholder="250000.0 km (Apogee)" />
+        </div>
+      </div>
+      <div id="bi-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bi-res-dv" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Bi-Elliptic: 4.12 km/s vs Hohmann: 4.38 km/s</span>
+            <span class="stat-label">Total Transfer Delta-V Comparison (Δv_total)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bi-res-save" style="color:var(--green-dark); font-weight:700;">BI-ELLIPTIC SAVES +260 m/s FUEL (Radius Ratio r₂/r₁ = 15.0 > 11.94 Threshold)</span>
+            <span class="stat-label">Propellant Delta-V Savings & Efficiency Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Bi-Elliptic vs Hohmann Orbital Transfer Total Delta-V (Δv_total) Calculator</h2>
+      <ol>
+        <li>Enter starting circular orbit radius $r_1$ in km (from center of central body).</li>
+        <li>Enter target final orbit radius $r_2$ in km.</li>
+        <li>Enter intermediate bi-elliptic apogee radius $r_b > r_2$ in km.</li>
+        <li>Inspect total $Delta v$ comparison between 2-impulse Hohmann and 3-impulse Bi-Elliptic trajectories.</li>
+      </ol>
+
+      <h2>Ary Sternfeld 1934 Bi-Elliptic Transfer Principle</h2>
+      <p>When raising an orbit by a factor greater than 11.94 ($r_2 / r_1 > 11.94$), boosting to a high intermediate apogee $r_b$ reduces plane-change and circularization speeds so drastically that a 3-burn bi-elliptic transfer uses strictly less propellant $Delta v$ than a direct Hohmann transfer.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the downside of a bi-elliptic transfer?</summary>
+        <p>Bi-elliptic transfers take vastly longer elapsed flight times (often days or months longer) than direct Hohmann transfers.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/bi-elliptic-transfer-delta-v-hohmann-comparison-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Area of Square (Side 60 Units)",
+  "description": "Calculate the area of a square with side length 60 units (A = a² = 3600).",
+  "path": "/tools/area-of-square-side-60-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of square side 60 units",
+    "Area of Square (Side 60 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

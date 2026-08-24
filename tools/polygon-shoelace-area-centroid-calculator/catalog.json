@@ -1,0 +1,15 @@
+{
+  "name": "Polygon Area & Geometric Centroid (Shoelace Formula) Calculator",
+  "description": "Calculate arbitrary 2D polygon area (A = 1/2 · |Σ(x_i · y_{i+1} - x_{i+1} · y_i)|) and center of mass centroid coordinates (C_x, C_y) from Cartesian vertex coordinates.",
+  "path": "/tools/polygon-shoelace-area-centroid-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "polygon area calculator",
+    "shoelace formula gauss area polygon calculator",
+    "polygon centroid coordinates cx cy calculator",
+    "surveying land area coordinates calculator online",
+    "computational geometry shoelace algorithm online"
+  ],
+  "order": 591
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Water Treatment Rapid Mix Coagulation Velocity Gradient (Camp G-Value) Calculator",
+  "description": "Calculate drinking water rapid mix coagulation and flocculation velocity gradient G in s⁻¹ (Camp Equation: G = √(P / (μ·V))), Camp Number G·t dimensionless mixing parameter, and mechanical mixer motor power P.",
+  "path": "/tools/coagulation-flocculation-velocity-gradient-g-value-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "camp g value calculator",
+    "velocity gradient formula g equals sqrt p over mu v online",
+    "camp number gt rapid mix flocculation calculator",
+    "coagulation mixer power dissipation water treatment calculator",
+    "environmental civil engineering water treatment online"
+  ],
+  "order": 1358
+}

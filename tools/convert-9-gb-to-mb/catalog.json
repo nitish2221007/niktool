@@ -1,0 +1,15 @@
+{
+  "name": "Convert 9 GB to MB",
+  "description": "Convert 9 Gigabytes (GB) to Megabytes (9216 MB). 100% free and local.",
+  "path": "/tools/convert-9-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 9 gb to mb",
+    "Convert 9 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

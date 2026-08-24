@@ -1,0 +1,15 @@
+{
+  "name": "Reynolds Number Flow Calculator (Velocity 47m/s, Pipe 60mm)",
+  "description": "Calculate fluid Reynolds Number (Re = 28,20,000 - Turbulent Flow) for 47 m/s in 60mm pipe.",
+  "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-47mps-diameter-60mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "reynolds number fluid flow calculator velocity 47mps diameter 60mm",
+    "Reynolds Number Flow Calculator (Velocity 47m/s, Pipe 60mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

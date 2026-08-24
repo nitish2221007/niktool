@@ -1,0 +1,15 @@
+{
+  "name": "Convert 100 EM to PX Value",
+  "description": "Convert 100 EM units to pixels (1600 px) based on 16px font context.",
+  "path": "/tools/convert-100-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 100 em to px value",
+    "Convert 100 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

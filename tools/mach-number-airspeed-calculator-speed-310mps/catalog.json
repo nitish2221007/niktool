@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number Airspeed Calculator (Velocity 310 m/s)",
+  "description": "Calculate flight Mach number (Mach 0.91 - Transonic) for airspeed velocity of 310 m/s.",
+  "path": "/tools/mach-number-airspeed-calculator-speed-310mps/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "mach number airspeed calculator speed 310mps",
+    "Mach Number Airspeed Calculator (Velocity 310 m/s)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

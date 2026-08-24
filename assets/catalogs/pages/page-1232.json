@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Microbiology Serial Dilution & Colony Forming Units (CFU/mL) Calculator",
+    "description": "Calculate bacterial sample concentration in Colony Forming Units per mL (CFU/mL = (Number of Colonies / Volume Plated in mL) · Dilution Factor) and select valid plate count ranges (30 to 300 colonies).",
+    "path": "/tools/microbiology-serial-dilution-colony-forming-units-cfu-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cfu calculator",
+      "colony forming units formula cfu per ml online",
+      "microbiology serial dilution calculator 30 to 300 colonies",
+      "viable bacterial plate count cfu calculator",
+      "agar plate bacterial density dilution calculator"
+    ]
+  },
+  {
+    "name": "PCR Primer Melting Temperature (Tm) & Annealing Temperature (Ta) Calculator",
+    "description": "Calculate molecular biology DNA oligonucleotide PCR primer melting temperature using Wallace Rule (Tm = 2·(A+T) + 4·(G+C)) and nearest-neighbor thermodynamics, and determine optimal PCR annealing temperature (Ta = Tm - 5°C).",
+    "path": "/tools/pcr-primer-melting-temperature-tm-wallace-nearest-neighbor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pcr primer tm calculator",
+      "primer melting temperature formula 2 at plus 4 gc online",
+      "optimal pcr annealing temperature ta calculator",
+      "dna primer gc content percentage calculator",
+      "molecular biology pcr primer design online"
+    ]
+  },
+  {
+    "name": "Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator",
+    "description": "Calculate unknown solution molar concentration (c = A / (ε · b)) in μM/mM and percentage optical transmittance (%T = 10^(-A) · 100) from UV-Vis spectrophotometer absorbance A, molar absorptivity ε, and cuvette path length b.",
+    "path": "/tools/spectrophotometry-beer-lambert-molar-extinction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "beer lambert law calculator",
+      "absorbance to concentration formula a equals epsilon b c online",
+      "spectrophotometry molar extinction coefficient calculator",
+      "absorbance to percent transmittance converter online",
+      "uv vis spectrophotometer concentration calculator"
+    ]
+  },
+  {
+    "name": "Radiocarbon C-14 Archaeological Dating & Radioisotope Decay Calculator",
+    "description": "Calculate organic archaeological artifact age (t = (t_½ / ln 2) · ln(N₀ / N_t)) in years Before Present (BP) from residual Carbon-14 activity (% Modern Carbon pMC) using the Libby half-life (t_½ = 5,730 years).",
+    "path": "/tools/radiocarbon-c14-dating-half-life-decay-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radiocarbon dating calculator",
+      "carbon 14 dating formula t equals t half over ln 2 ln n0 over nt online",
+      "c14 half life 5730 years archaeological age calculator",
+      "percent modern carbon pmc to age in years bp calculator",
+      "radioactive decay dating carbon 14 online"
+    ]
+  },
+  {
+    "name": "Organic Chemistry ¹H-NMR Splitting (N + 1 Multiplicity Rule) Calculator",
+    "description": "Calculate 1H-NMR proton coupling multiplet splitting patterns (Singlet, Doublet, Triplet, Quartet, Multiplet = N + 1 peaks) and relative peak area Pascal triangle intensity ratios from neighboring hydrogen proton counts N.",
+    "path": "/tools/organic-chemistry-nmr-chemical-shift-splitting-n-plus-1-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nmr splitting calculator",
+      "n plus 1 rule proton nmr formula online",
+      "pascal triangle nmr multiplet intensity calculator",
+      "1h nmr chemical shift coupling constant j calculator",
+      "organic chemistry spectroscopy nmr splitting online"
+    ]
+  },
+  {
+    "name": "DuPont Analysis 3-Step & 5-Step Return on Equity (ROE) Calculator",
+    "description": "Decompose corporate financial profitability Return on Equity (ROE = Net Profit Margin · Asset Turnover · Equity Multiplier) using the classic DuPont 3-step formula and 5-step extended tax/interest burden model for MBA and finance students.",
+    "path": "/tools/dupont-analysis-3-step-5-step-roe-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "dupont analysis calculator",
+      "return on equity formula roe equals net margin times asset turnover times equity multiplier",
+      "dupont 3 step 5 step roe calculator online",
+      "mba corporate finance roe decomposition calculator",
+      "financial leverage asset turnover dupont model online"
+    ]
+  },
+  {
+    "name": "Economic Order Quantity (EOQ = √(2·D·S / H)) & Inventory Holding Cost Calculator",
+    "description": "Calculate supply chain Economic Order Quantity (EOQ = √(2·D·S / H)) in units, annual order frequency, reorder point (ROP), and minimized total inventory holding and ordering costs for business and operations research students.",
+    "path": "/tools/economic-order-quantity-eoq-holding-cost-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "eoq calculator",
+      "economic order quantity formula sqrt 2 d s over h online",
+      "inventory holding cost ordering cost optimization calculator",
+      "reorder point rop lead time calculator",
+      "operations management eoq inventory calculator online"
+    ]
+  },
+  {
+    "name": "Law School LSAC Adjusted GPA & Admissions Index Calculator",
+    "description": "Calculate official Law School Admission Council (LSAC) cumulative GPA adjustments (counting A+ as 4.33 and punitive failing grades) and compute law school admission Index scores from LSAT and GPA.",
+    "path": "/tools/law-school-lsac-adjusted-gpa-percentile-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "lsac gpa calculator",
+      "law school admission index formula lsat gpa online",
+      "lsac 4.33 a plus gpa converter calculator",
+      "t14 law school admission index calculator",
+      "lsat score and gpa admissions predictor online"
+    ]
+  },
+  {
+    "name": "Agarose Gel Electrophoresis DNA Fragment Migration (log MW vs R_f) Calculator",
+    "description": "Calculate molecular biology agarose gel electrophoresis DNA/protein fragment size migration distance and Retention Factor (R_f = Distance / Dye Front) using semi-logarithmic molecular weight linear regression (log(MW) = -k·R_f + c).",
+    "path": "/tools/gel-electrophoresis-dna-fragment-migration-rf-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gel electrophoresis calculator",
+      "rf value formula band distance over dye front distance online",
+      "dna ladder molecular weight log linear regression calculator",
+      "agarose gel base pair size calculator online",
+      "sds page protein molecular weight rf calculator"
+    ]
+  },
+  {
+    "name": "Organic Chemistry Cahn-Ingold-Prelog (CIP R/S) Stereocenter Priority Calculator",
+    "description": "Determine chiral stereocenter absolute spatial configuration (Rectus R = Clockwise 1 to 2 to 3 vs Sinister S = Counter-Clockwise) using Cahn-Ingold-Prelog (CIP) atomic number priority rules with lowest priority group #4 in back.",
+    "path": "/tools/stereochemistry-cahn-ingold-prelog-r-s-priority-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cahn ingold prelog calculator",
+      "cip r s configuration stereochemistry priority calculator online",
+      "chiral center r s configuration solver organic chemistry",
+      "clockwise rectus counter clockwise sinister calculator",
+      "stereoisomers enantiomers r s priority online"
+    ]
+  },
+  {
+    "name": "Organic Chemistry Substitution vs Elimination (SN1, SN2, E1, E2) Reaction Predictor",
+    "description": "Predict organic alkyl halide reaction mechanism pathways (SN1, SN2, E1, E2) based on substrate carbon degree (1° primary, 2° secondary, 3° tertiary), nucleophile/base strength, steric bulk, and solvent polarity.",
+    "path": "/tools/sn1-vs-sn2-e1-vs-e2-organic-reaction-predictor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sn1 sn2 e1 e2 calculator",
+      "organic reaction mechanism predictor sn1 vs sn2 e1 vs e2 online",
+      "nucleophilic substitution vs beta elimination calculator",
+      "alkyl halide nucleophile base strength predictor",
+      "organic chemistry reaction matrix solver online"
+    ]
+  },
+  {
+    "name": "Combustion Analysis Hydrocarbon Empirical & Molecular Formula Calculator",
+    "description": "Calculate organic hydrocarbon empirical formula (C_x H_y O_z) from combustion analysis masses of CO₂ and H₂O in grams and determine molecular formula using experimental molar mass.",
+    "path": "/tools/combustion-analysis-empirical-formula-hydrocarbon-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "combustion analysis calculator",
+      "empirical formula from co2 and h2o mass online",
+      "hydrocarbon empirical formula combustion solver",
+      "combustion elemental percentage analysis calculator",
+      "stoichiometry empirical molecular formula online"
+    ]
+  },
+  {
+    "name": "Serum Osmolality & Osmolar Gap (Toxic Alcohol Poisoning) Calculator",
+    "description": "Calculate calculated serum osmolality (Osm_calc = 2·[Na⁺] + [Glucose]/18 + [BUN]/2.8) in mOsm/kg and evaluate Osmolar Gap (Gap = Measured - Calculated) to screen for toxic alcohol poisoning (Methanol, Ethylene Glycol).",
+    "path": "/tools/serum-osmolality-osmolar-gap-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "serum osmolality calculator",
+      "osmolar gap formula 2 na plus glucose over 18 plus bun over 2.8 online",
+      "toxic alcohol osmolar gap methanol ethylene glycol calculator",
+      "elevated osmolar gap metabolic acidosis calculator",
+      "clinical toxicology serum osmolality online"
+    ]
+  },
+  {
+    "name": "Serum Anion Gap & Delta Ratio (High Anion Gap Metabolic Acidosis) Calculator",
+    "description": "Calculate serum Anion Gap (AG = [Na⁺] - ([Cl⁻] + [HCO₃⁻])) in mEq/L and Delta-Delta Ratio (ΔAG / ΔHCO₃⁻) to identify mixed metabolic acidosis and alkalosis disorders in emergency medicine.",
+    "path": "/tools/anion-gap-metabolic-acidosis-delta-ratio-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "anion gap calculator",
+      "serum anion gap formula na minus cl plus hco3 online",
+      "delta ratio delta delta metabolic acidosis calculator",
+      "high anion gap metabolic acidosis mudpiles calculator",
+      "icu arterial blood gas anion gap online"
+    ]
+  },
+  {
+    "name": "Arterial Blood Gas (ABG) Acid-Base Balance & Compensation Calculator",
+    "description": "Interpret arterial blood gas (pH, PaCO₂, HCO₃⁻) clinical status to diagnose Respiratory Acidosis, Respiratory Alkalosis, Metabolic Acidosis, Metabolic Alkalosis, and evaluate Winter's Formula respiratory compensation.",
+    "path": "/tools/arterial-blood-gas-abg-respiratory-metabolic-acidosis-calculator/",
+    "category": "Health",
+    "icon": "calculator",
+    "keywords": [
+      "abg calculator",
+      "arterial blood gas interpretation ph paco2 hco3 online",
+      "respiratory metabolic acidosis alkalosis calculator",
+      "winters formula expected paco2 compensation calculator",
+      "icu emergency medicine abg interpretation online"
+    ]
+  },
+  {
+    "name": "Corporate Finance WACC (Weighted Average Cost of Capital) & CAPM Calculator",
+    "description": "Calculate corporate Weighted Average Cost of Capital (WACC = (E/V)·r_e + (D/V)·r_d·(1 - T_c)) and Capital Asset Pricing Model (CAPM) Cost of Equity (r_e = r_f + β·(r_m - r_f)) for corporate valuation and DCF financial models.",
+    "path": "/tools/mba-weighted-average-cost-of-capital-wacc-capm-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "wacc calculator",
+      "weighted average cost of capital formula wacc online",
+      "capm cost of equity calculator re equals rf plus beta",
+      "dcf discount rate hurdle rate wacc calculator",
+      "corporate finance mba wacc valuation online"
+    ]
+  },
+  {
+    "name": "Options Put-Call Parity & Synthetic Arbitrage (C - P = S - K·e^(-rT)) Calculator",
+    "description": "Calculate European financial options Put-Call Parity equilibrium (C + K·e^(-r·T) = P + S) and detect risk-free cash-and-carry synthetic arbitrage profits when market prices violate theoretical parity.",
+    "path": "/tools/black-scholes-put-call-parity-arbitrage-calculator/",
+    "category": "Finance",
+    "icon": "calculator",
+    "keywords": [
+      "put call parity calculator",
+      "options synthetic arbitrage formula c minus p equals s minus k e to minus rt online",
+      "european options put call parity pricing calculator",
+      "synthetic long stock synthetic call put parity calculator",
+      "derivatives financial engineering parity online"
+    ]
+  },
+  {
+    "name": "Cell Culture Doubling Time (T_d = ln 2 / μ) & Specific Growth Rate Calculator",
+    "description": "Calculate mammalian cell culture or microbial fermentation exponential doubling time (T_d = (t · ln 2) / ln(N_t / N₀)) in hours and specific growth rate (μ = ln(N_t / N₀) / t) in h⁻¹ for bioprocess monitoring.",
+    "path": "/tools/cell-doubling-time-specific-growth-rate-biotech-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cell doubling time calculator",
+      "specific growth rate formula mu equals ln nt over n0 over t online",
+      "mammalian cho cell doubling time calculator biotech",
+      "exponential cell growth rate calculator hours",
+      "bioreactor doubling time calculator online"
+    ]
+  },
+  {
+    "name": "Bradford Protein Assay Linear Standard Curve (BSA A₅₉₅) Calculator",
+    "description": "Calculate unknown protein concentration in μg/mL from spectrophotometer Coomassie Brilliant Blue G-250 absorbance at 595 nm (A₅₉₅) using linear standard curve regression (A₅₉₅ = m · [BSA] + b) for biochemistry laboratory courses.",
+    "path": "/tools/bradford-assay-protein-standard-curve-bovine-serum-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bradford assay calculator",
+      "protein concentration standard curve bsa a595 calculator online",
+      "coomassie blue absorbance to protein concentration calculator",
+      "bradford protein assay linear regression calculator",
+      "biochemistry lab bsa protein assay online"
+    ]
+  },
+  {
+    "name": "GCSE Physics Electrical Power (P = IV = I²R = V²/R) Calculator",
+    "description": "Calculate electrical circuit power dissipation (P = I·V = I²·R = V²/R) in watts (W), current in amperes (A), voltage in volts (V), and resistance in ohms (Ω) for UK GCSE, AQA, Edexcel, and middle school science.",
+    "path": "/tools/gcse-physics-electrical-power-p-equals-iv-i-squared-r-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "electrical power calculator",
+      "p equals iv formula p equals i squared r online",
+      "gcse physics electrical power equations calculator",
+      "voltage current resistance power ohms law calculator",
+      "joule heating power loss watts calculator online"
+    ]
+  },
+  {
+    "name": "Specific Heat Capacity & Thermal Energy (Q = m·c·ΔT) Calculator",
+    "description": "Calculate thermal heat energy transfer (Q = m·c·ΔT) in Joules and calories, substance temperature change (ΔT), and final equilibrium temperature using specific heat capacities (Water c = 4,184 J/(kg·°C), Iron c = 450 J/(kg·°C)).",
+    "path": "/tools/specific-heat-capacity-thermal-energy-q-equals-mc-delta-t-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "specific heat capacity calculator",
+      "q equals mc delta t formula thermal energy online",
+      "heat transfer joules calories calculator mc delta t",
+      "water specific heat capacity 4184 calculator",
+      "physics thermal equilibrium temperature calculator online"
+    ]
+  },
+  {
+    "name": "Specific Latent Heat of Fusion & Vaporization (Q = m·L) Phase Change Calculator",
+    "description": "Calculate phase change enthalpy heat energy (Q = m·L) for melting/freezing (Water L_f = 334 kJ/kg) and boiling/condensing (Water L_v = 2,260 kJ/kg) at constant temperature.",
+    "path": "/tools/latent-heat-fusion-vaporization-q-equals-ml-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "latent heat calculator",
+      "q equals ml formula phase change heat online",
+      "latent heat of fusion vaporization water calculator",
+      "melting ice boiling water energy calculator joules",
+      "thermal physics latent heat phase change online"
+    ]
+  },
+  {
+    "name": "Hooke's Law Spring Force (F = k·x) & Elastic Potential Energy (E_p = ½·k·x²) Calculator",
+    "description": "Calculate linear elastic spring restoring force (F = k·x) in Newtons and stored elastic strain potential energy (E_p = ½·k·x²) in Joules from spring constant k (N/m) and extension x (m).",
+    "path": "/tools/hookes-law-spring-force-elastic-potential-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hookes law calculator",
+      "spring force formula f equals k x online",
+      "elastic potential energy calculator half k x squared",
+      "spring constant k extension calculator newtons",
+      "simple harmonic motion spring energy calculator online"
+    ]
+  },
+  {
+    "name": "Optometry & Physics Lens Power (P = 1/f in Diopters) & Focal Length Calculator",
+    "description": "Calculate optical lens refractive power (P = 1 / f) in Diopters (D), focal length f in meters and centimeters, and combined thin lens system power (P_total = P₁ + P₂) for optometry glasses prescriptions.",
+    "path": "/tools/lens-maker-focal-length-power-diopters-p-equals-1-over-f-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lens power calculator",
+      "diopters formula p equals 1 over f online",
+      "focal length to diopters converter optometry calculator",
+      "eyeglasses prescription diopters lens power calculator",
+      "converging diverging lens focal length calculator online"
+    ]
+  }
+]

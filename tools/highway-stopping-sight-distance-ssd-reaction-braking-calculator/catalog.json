@@ -1,0 +1,15 @@
+{
+  "name": "Highway Stopping Sight Distance (AASHTO SSD = 0.278·v·t + v² / (254·(f ± G))) Calculator",
+  "description": "Calculate transportation highway vehicle Stopping Sight Distance (SSD = 0.278·v·t + v² / (254·(a/g ± G))) in meters from design speed v in km/h, driver perception-reaction time t (2.5 s AASHTO), deceleration rate a, and road grade G (%).",
+  "path": "/tools/highway-stopping-sight-distance-ssd-reaction-braking-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "stopping sight distance calculator",
+    "aashto ssd formula reaction braking distance online",
+    "highway design stopping sight distance calculator meters",
+    "driver perception reaction time braking distance calculator",
+    "civil transportation highway engineering online"
+  ],
+  "order": 1062
+}

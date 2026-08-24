@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (500 Hz, 25 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 78.54 Ω) for 500 Hz frequency and 25 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-500hz-inductor-25mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 500hz inductor 25mh",
+    "Inductive Reactance Calculator (500 Hz, 25 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 32px to REM",
+  "description": "Convert 32 pixels (px) to REM units based on 16px root font size (2.0000rem).",
+  "path": "/tools/convert-32px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 32px to rem",
+    "Convert 32px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

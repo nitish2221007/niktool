@@ -1,0 +1,16 @@
+{
+  "name": "Convert JPG to PNG Online",
+  "description": "Convert JPG photos to high quality PNG format instantly in your browser.",
+  "path": "/tools/convert-jpg-to-png/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert jpg to png",
+    "Convert JPG to PNG Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

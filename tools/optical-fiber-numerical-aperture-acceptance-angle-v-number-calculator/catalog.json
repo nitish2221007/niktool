@@ -1,0 +1,15 @@
+{
+  "name": "Optical Fiber Numerical Aperture (NA), Acceptance Angle & V-Number Calculator",
+  "description": "Calculate optical fiber Numerical Aperture NA (NA = √(n_core² - n_clad²)), maximum acceptance cone half-angle θ_acc = arcsin(NA), Normalized Frequency V-number (V = 2π·a/λ · NA), and single-mode cutoff limit (V under 2.405).",
+  "path": "/tools/optical-fiber-numerical-aperture-acceptance-angle-v-number-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "optical fiber numerical aperture calculator",
+    "na formula acceptance angle online",
+    "v number normalized frequency single mode cutoff calculator",
+    "core cladding refractive index fiber optic calculator",
+    "photonics optical communications telecommunications online"
+  ],
+  "order": 1377
+}

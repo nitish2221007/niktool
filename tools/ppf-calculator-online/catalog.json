@@ -1,0 +1,15 @@
+{
+  "name": "PPF Scheme Maturity Calculator",
+  "description": "Calculate Public Provident Fund (PPF) 15-year maturity value.",
+  "path": "/tools/ppf-calculator-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "ppf calculator online",
+    "PPF Scheme Maturity Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

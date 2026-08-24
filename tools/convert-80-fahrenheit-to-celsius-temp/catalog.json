@@ -1,0 +1,15 @@
+{
+  "name": "Convert 80°F Fahrenheit to Celsius Temp",
+  "description": "Convert 80 degrees Fahrenheit (°F) to Celsius (26.7°C) instantly.",
+  "path": "/tools/convert-80-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 80 fahrenheit to celsius temp",
+    "Convert 80°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

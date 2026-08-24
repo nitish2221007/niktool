@@ -1,0 +1,15 @@
+{
+  "name": "Pulmonary Function Spirometry FEV1 / FVC Ratio & Lung Obstruction Calculator",
+  "description": "Calculate respiratory diagnostic Spirometry Forced Expiratory Volume FEV₁ / FVC ratio percentage (Tiffeneau-Pinelli Index: FEV₁ / FVC · 100%), percent predicted values, and classify Obstructive (COPD/Asthma) vs Restrictive lung disease.",
+  "path": "/tools/spirometry-forced-vital-capacity-fev1-fev1-fvc-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "spirometry fev1 fvc ratio calculator",
+    "forced vital capacity tiffeneau index online",
+    "copd asthma obstructive restrictive spirometry calculator",
+    "percent predicted fev1 gold criteria calculator",
+    "pulmonology respiratory medicine physiology online"
+  ],
+  "order": 1457
+}

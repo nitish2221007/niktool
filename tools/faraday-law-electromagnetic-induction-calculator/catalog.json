@@ -1,0 +1,15 @@
+{
+  "name": "Faraday's Law of Electromagnetic Induction Calculator",
+  "description": "Calculate induced electromotive force voltage (EMF ε = -N · (ΔΦ / Δt)) from coil turns (N) and rate of magnetic flux change.",
+  "path": "/tools/faraday-law-electromagnetic-induction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "faradays law calculator",
+    "induced emf calculator online",
+    "electromagnetic induction formula",
+    "rate of change of magnetic flux emf",
+    "lenz law induced voltage calculator"
+  ],
+  "order": 358
+}

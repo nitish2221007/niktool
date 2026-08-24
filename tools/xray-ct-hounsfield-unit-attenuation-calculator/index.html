@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Computed Tomography X-ray attenuation Hounsfield Units (HU = 1000 · (μ - μ_water) / (μ_water - μ_air)) and identify tissue types (Air -1000, Lung -700, Fat -100, Water 0, Muscle +40, Bone +1000).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/xray-ct-hounsfield-unit-attenuation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator | NikTool">
+  <meta property="og:description" content="Calculate Computed Tomography X-ray attenuation Hounsfield Units (HU = 1000 · (μ - μ_water) / (μ_water - μ_air)) and identify tissue types (Air -1000, Lung -700, Fat -100, Water 0, Muscle +40, Bone +1000).">
+  <meta property="og:url" content="https://niktool.in/tools/xray-ct-hounsfield-unit-attenuation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/xray-ct-hounsfield-unit-attenuation-calculator/",
+        "description": "Calculate Computed Tomography X-ray attenuation Hounsfield Units (HU = 1000 · (μ - μ_water) / (μ_water - μ_air)) and identify tissue types (Air -1000, Lung -700, Fat -100, Water 0, Muscle +40, Bone +1000).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is acute hematoma clotted blood hyperdense (+80 HU)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As a blood clot retracts, globin protein and iron hemoglobin concentrate, increasing physical density and photoelectric X-ray absorption compared to circulating blood (+40 HU)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator</h1>
+      <p>Calculate Computed Tomography X-ray attenuation Hounsfield Units (HU = 1000 · (μ - μ_water) / (μ_water - μ_air)) and identify tissue types (Air -1000, Lung -700, Fat -100, Water 0, Muscle +40, Bone +1000).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Tissue Attenuation μ (cm⁻¹) or Preset Tissue Selection @ 120 kVp X-Ray Beam</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hu-tissue">Tissue Preset</label>
+          <select class="tool-textarea" id="hu-tissue">
+            <option value="water" selected>Water (Reference: μ = 0.200 cm⁻¹, HU = 0)</option>
+            <option value="air">Air (-1000 HU: μ = 0.0002 cm⁻¹)</option>
+            <option value="lung">Lung (-700 HU: μ = 0.060 cm⁻¹)</option>
+            <option value="fat">Adipose / Fat (-100 HU: μ = 0.180 cm⁻¹)</option>
+            <option value="muscle">Muscle / Soft Tissue (+40 HU: μ = 0.208 cm⁻¹)</option>
+            <option value="blood">Blood Clot / Hemorrhage (+80 HU: μ = 0.216 cm⁻¹)</option>
+            <option value="bone">Cortical Dense Bone (+1000 HU: μ = 0.400 cm⁻¹)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hu-mu">Linear Coeff μ (cm⁻¹)</label>
+          <input class="tool-textarea" id="hu-mu" type="number" step="0.005" value="0.200" placeholder="0.200 cm⁻¹" />
+        </div>
+      </div>
+      <div id="hu-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hu-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">0 HU (Pure Water Reference)</span>
+            <span class="stat-label">Hounsfield Unit Number (HU)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hu-res-win" style="font-weight:700;">Recommended Window: Soft Tissue (WL = 40 HU, WW = 400 HU)</span>
+            <span class="stat-label">Standard Clinical Radiologist Window / Level Preset</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use X-Ray CT Hounsfield Unit (HU) Linear Attenuation Coefficient Calculator</h2>
+      <ol>
+        <li>Select tissue preset or enter effective linear X-ray attenuation coefficient $mu$ in $	ext{cm}^{-1}$.</li>
+        <li>Inspect calibrated Hounsfield Unit (HU) CT number and recommended radiological Window Level (WL) and Window Width (WW) display settings.</li>
+      </ol>
+
+      <h2>Sir Godfrey Hounsfield 1972 CT Numbers</h2>
+      <p>The Hounsfield scale normalizes raw scanner attenuation relative to distilled water ($0	ext{ HU}$) and vacuum air ($-1000	ext{ HU}$), providing a universally standardized quantitative scale for detecting internal brain hemorrhages ($+80	ext{ HU}$) and soft tissue tumors.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is acute hematoma clotted blood hyperdense (+80 HU)?</summary>
+        <p>As a blood clot retracts, globin protein and iron hemoglobin concentrate, increasing physical density and photoelectric X-ray absorption compared to circulating blood (+40 HU).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/xray-ct-hounsfield-unit-attenuation-calculator/tool.js"></script>
+</body>
+</html>

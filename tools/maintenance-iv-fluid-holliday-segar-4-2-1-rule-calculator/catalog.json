@@ -1,0 +1,15 @@
+{
+  "name": "Pediatric Maintenance IV Fluid (Holliday-Segar 4-2-1 Rule) Calculator",
+  "description": "Calculate pediatric and adult baseline daily maintenance intravenous fluid volume and hourly infusion rates (4-2-1 Rule: 4 mL/kg/hr for first 10 kg, 2 mL/kg/hr for next 10 kg, 1 mL/kg/hr thereafter) for clinical medicine.",
+  "path": "/tools/maintenance-iv-fluid-holliday-segar-4-2-1-rule-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "4 2 1 rule calculator",
+    "holliday segar maintenance iv fluid formula online",
+    "pediatric maintenance fluid calculator ml hr",
+    "daily fluid requirement holiday segar calculator ml day",
+    "pediatrics clinical iv fluid therapy online"
+  ],
+  "order": 1143
+}

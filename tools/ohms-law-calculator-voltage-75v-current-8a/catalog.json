@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 75V, Current 8A)",
+  "description": "Calculate Resistance (9.38 Ω) and Electric Power (600.0 W) for 75V voltage and 8A current.",
+  "path": "/tools/ohms-law-calculator-voltage-75v-current-8a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 75v current 8a",
+    "Ohm's Law Calculator (Voltage 75V, Current 8A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

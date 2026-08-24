@@ -1,0 +1,15 @@
+{
+  "name": "Convert 42 KM to Miles Distance",
+  "description": "Convert 42 kilometers (42 km) to miles (26.10 miles) instantly. 100% free and local.",
+  "path": "/tools/convert-42-km-to-miles-distance/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 42 km to miles distance",
+    "Convert 42 KM to Miles Distance",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

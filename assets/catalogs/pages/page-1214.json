@@ -1,0 +1,338 @@
+[
+  {
+    "name": "ASME Boiler & Pressure Vessel Gasket Seating Stress Calculator",
+    "description": "Calculate minimum required bolt operating load (W_m1 = 0.785 · G² · P + 2 · b · π · G · m · P) and gasket seating load (W_m2 = π · b · G · y) per ASME Section VIII Division 1 Appendix 2.",
+    "path": "/tools/gasket-seating-stress-asme-code-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "asme gasket seating calculator",
+      "wm1 wm2 bolt load formula asme section viii",
+      "gasket m and y factor calculator",
+      "pressure vessel flange bolt load online",
+      "flange gasket operating load calculator"
+    ]
+  },
+  {
+    "name": "Noise Reduction Coefficient (NRC) & Sound Absorption Calculator",
+    "description": "Calculate average Noise Reduction Coefficient (NRC = (α₂₅₀ + α₅₀₀ + α₁₀₀₀ + α₂₀₀₀) / 4) and total room metric absorption Sabins (A = Σ S · α) for acoustic wall panels.",
+    "path": "/tools/noise-reduction-coefficient-nrc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nrc calculator",
+      "noise reduction coefficient formula",
+      "sound absorption sabins calculator",
+      "acoustic panel nrc rating online",
+      "astm c423 sound absorption calculator"
+    ]
+  },
+  {
+    "name": "OSHA Occupational Noise Dose & 8-Hour TWA Calculator",
+    "description": "Calculate occupational daily noise exposure dose percentage (Dose % = 100 · Σ (C_i / T_i)) and 8-hour Time-Weighted Average (TWA = 16.61 · log₁₀(D / 100) + 90) per OSHA 29 CFR 1910.95.",
+    "path": "/tools/osha-daily-noise-dose-twa-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "osha noise dose calculator",
+      "twa noise exposure formula",
+      "time weighted average decibel calculator",
+      "daily noise dose percentage 1910 95",
+      "occupational hearing conservation calculator online"
+    ]
+  },
+  {
+    "name": "Acoustic Loudness (Phons to Sones) Calculator",
+    "description": "Convert subjective human loudness between Phons and linear Sones (Sones = 2^((Phon - 40) / 10)) according to ISO 226 psychoacoustic standards.",
+    "path": "/tools/acoustic-loudness-phons-sones-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "phons to sones calculator",
+      "psychoacoustic loudness calculator online",
+      "sones formula 2 to the phon minus 40 over 10",
+      "iso 226 equal loudness calculator",
+      "bathroom fan sones to phons converter"
+    ]
+  },
+  {
+    "name": "Equivalent Continuous Sound Level (L_eq) Calculator",
+    "description": "Calculate energy-averaged equivalent continuous sound level (L_eq = 10 · log₁₀( 1/T · Σ t_i · 10^(L_i / 10) )) in dBA from fluctuating environmental noise intervals.",
+    "path": "/tools/equivalent-continuous-sound-level-leq-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "leq calculator acoustic",
+      "equivalent continuous sound level formula",
+      "energy average decibel leq calculator online",
+      "environmental noise leq calculator",
+      "time weighted sound energy average online"
+    ]
+  },
+  {
+    "name": "Sharpe Ratio (Risk-Adjusted Portfolio Return) Calculator",
+    "description": "Calculate the Sharpe Ratio (S = (R_p - R_f) / σ_p) to evaluate investment portfolio excess return generated per unit of total volatility risk.",
+    "path": "/tools/sharpe-ratio-portfolio-risk-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "sharpe ratio calculator",
+      "risk adjusted return formula",
+      "portfolio volatility sharpe ratio online",
+      "excess return risk free rate calculator",
+      "william sharpe portfolio performance online"
+    ]
+  },
+  {
+    "name": "Sortino Ratio (Downside Risk & Semi-Deviation) Calculator",
+    "description": "Calculate the Sortino Ratio (S = (R_p - R_f) / σ_downside) which penalizes only harmful downside volatility while ignoring upside gains.",
+    "path": "/tools/sortino-ratio-downside-risk-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "sortino ratio calculator",
+      "sortino vs sharpe ratio formula",
+      "downside deviation sortino calculator",
+      "target downside risk calculator online",
+      "asymmetric volatility sortino ratio"
+    ]
+  },
+  {
+    "name": "Treynor Ratio (Systematic Market Beta Risk) Calculator",
+    "description": "Calculate the Treynor Ratio (T = (R_p - R_f) / β_p) to measure excess portfolio return earned per unit of non-diversifiable systematic market risk (Beta).",
+    "path": "/tools/treynor-ratio-systematic-risk-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "treynor ratio calculator",
+      "systematic risk treynor formula",
+      "treynor ratio beta excess return online",
+      "jack treynor portfolio performance calculator",
+      "capm treynor measure online"
+    ]
+  },
+  {
+    "name": "Capital Asset Pricing Model (CAPM) Expected Return Calculator",
+    "description": "Calculate expected equity asset return (E[R_i] = R_f + β_i · (E[R_m] - R_f)) and Market Risk Premium (MRP) using the Capital Asset Pricing Model (CAPM).",
+    "path": "/tools/capm-expected-return-beta-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "capm calculator",
+      "capital asset pricing model formula",
+      "expected return beta formula online",
+      "cost of equity capm calculator",
+      "market risk premium calculator online"
+    ]
+  },
+  {
+    "name": "Black-Scholes European Call & Put Option Pricing Calculator",
+    "description": "Calculate theoretical fair market price of European call options (C = S₀ · N(d₁) - K · e^(-rT) · N(d₂)) and put options from stock price, strike price, volatility, and expiration time.",
+    "path": "/tools/black-scholes-european-call-option-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "black scholes option calculator",
+      "black scholes call put formula online",
+      "option pricing model calculator",
+      "implied volatility black scholes online",
+      "d1 d2 black scholes formula calculator"
+    ]
+  },
+  {
+    "name": "Price Elasticity of Demand (PED Midpoint Arc) Calculator",
+    "description": "Calculate Price Elasticity of Demand (PED = ((Q₂ - Q₁) / ((Q₁+Q₂)/2)) / ((P₂ - P₁) / ((P₁+P₂)/2))) using the standard symmetric midpoint method and total revenue impact.",
+    "path": "/tools/price-elasticity-of-demand-ped-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "price elasticity of demand calculator",
+      "ped midpoint formula online",
+      "arc elasticity of demand calculator",
+      "elastic inelastic demand revenue test",
+      "microeconomics elasticity calculator online"
+    ]
+  },
+  {
+    "name": "Cross-Price Elasticity of Demand (XED) Calculator",
+    "description": "Calculate Cross-Price Elasticity of Demand (XED = (% ΔQ_A) / (% ΔP_B)) to determine whether two economic products are substitute goods (positive XED), complement goods (negative XED), or independent (XED near zero).",
+    "path": "/tools/cross-price-elasticity-of-demand-xed-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "cross price elasticity calculator",
+      "xed formula substitutes complements",
+      "cross price elasticity of demand online",
+      "substitute goods xed calculator",
+      "complementary goods cross elasticity online"
+    ]
+  },
+  {
+    "name": "Income Elasticity of Demand (YED) Calculator",
+    "description": "Calculate Income Elasticity of Demand (YED = (% ΔQuantity) / (% ΔIncome)) to classify consumer goods as Normal Necessities (YED between 0 and 1), Luxuries (YED above 1), or Inferior goods (negative YED).",
+    "path": "/tools/income-elasticity-of-demand-yed-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "income elasticity of demand calculator",
+      "yed formula normal luxury inferior",
+      "income elasticity calculator online",
+      "engel curve income elasticity",
+      "economic good classification yed online"
+    ]
+  },
+  {
+    "name": "Herfindahl-Hirschman Index (HHI) Market Concentration Calculator",
+    "description": "Calculate DOJ/FTC antitrust market concentration index (HHI = Σ s_i²) and assess post-merger antitrust regulatory scrutiny thresholds.",
+    "path": "/tools/herfindahl-hirschman-index-hhi-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "hhi calculator",
+      "herfindahl hirschman index formula",
+      "market concentration hhi calculator online",
+      "doj ftc antitrust merger hhi calculator",
+      "market share sum of squares online"
+    ]
+  },
+  {
+    "name": "Deadweight Loss of Taxation (Harberger Triangle) Calculator",
+    "description": "Calculate economic deadweight loss (DWL = ½ · Tax · ΔQ) and total tax revenue generated from excise tax per unit, supply/demand elasticity, and quantity reduction.",
+    "path": "/tools/deadweight-loss-taxation-triangle-calculator/",
+    "category": "Finance",
+    "icon": "chart",
+    "keywords": [
+      "deadweight loss calculator",
+      "harberger triangle tax deadweight loss formula",
+      "half tax delta q calculator",
+      "tax revenue vs deadweight loss online",
+      "welfare economics excess burden calculator"
+    ]
+  },
+  {
+    "name": "Haversine Great-Circle Distance & Flight Path Calculator",
+    "description": "Calculate spherical great-circle flight distance between two GPS coordinates (Latitude/Longitude) using the Haversine formula (Earth radius R = 6,371 km).",
+    "path": "/tools/haversine-great-circle-distance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "haversine distance calculator",
+      "great circle flight distance formula",
+      "lat long distance calculator km miles",
+      "gps coordinate distance formula online",
+      "spherical trigonometry distance online"
+    ]
+  },
+  {
+    "name": "Initial Compass Bearing & Forward Azimuth Navigation Calculator",
+    "description": "Calculate initial great-circle forward azimuth navigation course heading (θ = atan2(sin Δλ · cos φ₂, cos φ₁ · sin φ₂ - sin φ₁ · cos φ₂ · cos Δλ)) between GPS coordinates.",
+    "path": "/tools/initial-compass-bearing-forward-azimuth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "compass bearing calculator",
+      "forward azimuth formula online",
+      "initial navigation heading calculator",
+      "lat long to compass bearing degrees",
+      "great circle initial course calculator"
+    ]
+  },
+  {
+    "name": "Rhumb Line (Loxodrome) Constant Bearing Navigation Calculator",
+    "description": "Calculate constant compass heading navigation course and Mercator sailing distance (Rhumb line / Loxodrome) between geographic coordinates.",
+    "path": "/tools/rhumb-line-loxodrome-distance-bearing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rhumb line distance calculator",
+      "loxodrome navigation formula",
+      "constant compass bearing calculator",
+      "mercator sailing rhumb line online",
+      "rhumb line vs great circle calculator"
+    ]
+  },
+  {
+    "name": "UTM Grid Convergence Angle & Point Scale Factor Calculator",
+    "description": "Calculate Universal Transverse Mercator (UTM) Grid Convergence angle (γ = Δλ · sin φ) and Transverse Mercator point scale distortion factor k.",
+    "path": "/tools/utm-grid-convergence-scale-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "utm grid convergence calculator",
+      "utm scale factor calculator",
+      "transverse mercator grid angle formula",
+      "utm central meridian convergence online",
+      "land surveying utm distortion calculator"
+    ]
+  },
+  {
+    "name": "Magnetic Declination & Compass Variation Correction Calculator",
+    "description": "Convert between Magnetic Compass Bearing, True Geodetic Heading, and Map Grid Heading (True Heading = Magnetic Bearing ± Magnetic Declination) for land navigation and aviation.",
+    "path": "/tools/magnetic-declination-true-north-compass-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magnetic declination calculator",
+      "true north magnetic north converter",
+      "compass variation calculator online",
+      "true heading magnetic heading formula",
+      "aviation magnetic variation calculator"
+    ]
+  },
+  {
+    "name": "Baker's Percentage & Sourdough Dough Hydration Calculator",
+    "description": "Calculate Baker's percentages (Ingredient % = (Weight / Total Flour Weight) · 100), total dough hydration %, and individual water, levain, and salt ingredient weights.",
+    "path": "/tools/bakers-percentage-dough-hydration-calculator/",
+    "category": "Daily",
+    "icon": "chart",
+    "keywords": [
+      "bakers percentage calculator",
+      "dough hydration calculator sourdough",
+      "flour water salt baker math online",
+      "artisan bread dough hydration formula",
+      "sourdough levain hydration calculator"
+    ]
+  },
+  {
+    "name": "Beer Brewing Alcohol by Volume (ABV) & Attenuation Calculator",
+    "description": "Calculate beer alcohol by volume (ABV % = (OG - FG) · 131.25), apparent attenuation percentage, and calories per 12 oz bottle from Original Gravity (OG) and Final Gravity (FG) hydrometer readings.",
+    "path": "/tools/beer-brewing-abv-specific-gravity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "beer abv calculator",
+      "alcohol by volume specific gravity formula",
+      "brewing apparent attenuation calculator",
+      "og fg abv calculator online",
+      "homebrew hydrometer alcohol calculator"
+    ]
+  },
+  {
+    "name": "Food Thermal Sterilization (F₀ & D-Value) Autoclave Calculator",
+    "description": "Calculate equivalent thermal sterilization lethality value (F₀ = Δt · 10^((T - 121.1) / z)) in minutes for industrial canning and Clostridium botulinum spore eradication.",
+    "path": "/tools/food-thermal-death-time-f-value-sterilization-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "f0 sterilization calculator",
+      "thermal death time d value z value formula",
+      "canning f0 autoclave lethality calculator",
+      "clostridium botulinum 12d reduction online",
+      "retort food sterilization f value calculator"
+    ]
+  },
+  {
+    "name": "Equilibrium Meat Brining Salinity Percentage Calculator",
+    "description": "Calculate equilibrium brining salt percentage (Salt % = (Salt Mass / (Meat Mass + Water Mass + Salt Mass)) · 100) for uniform, impossible-to-oversalt charcuterie and poultry.",
+    "path": "/tools/meat-brine-salinity-equilibrium-percentage-calculator/",
+    "category": "Daily",
+    "icon": "chart",
+    "keywords": [
+      "equilibrium brining calculator",
+      "meat brine salt percentage formula",
+      "charcuterie equilibrium curing calculator",
+      "wet brine salt to water ratio online",
+      "modernist cuisine equilibrium brine calculator"
+    ]
+  }
+]

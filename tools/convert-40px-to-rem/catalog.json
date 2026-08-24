@@ -1,0 +1,15 @@
+{
+  "name": "Convert 40px to REM",
+  "description": "Convert 40 pixels (px) to REM units based on 16px root font size (2.5000rem).",
+  "path": "/tools/convert-40px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 40px to rem",
+    "Convert 40px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

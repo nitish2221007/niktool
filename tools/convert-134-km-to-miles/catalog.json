@@ -1,0 +1,15 @@
+{
+  "name": "Convert 134 KM to Miles",
+  "description": "Convert 134 kilometers to miles (83.26 miles). 100% free and local.",
+  "path": "/tools/convert-134-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 134 km to miles",
+    "Convert 134 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

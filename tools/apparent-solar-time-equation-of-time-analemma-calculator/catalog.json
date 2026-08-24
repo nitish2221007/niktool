@@ -1,0 +1,15 @@
+{
+  "name": "Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator",
+  "description": "Calculate the astronomical Equation of Time (EoT in minutes) and solar declination across any day of the year to convert Sundial Apparent Solar Time to Standard Clock Mean Solar Time.",
+  "path": "/tools/apparent-solar-time-equation-of-time-analemma-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "equation of time calculator",
+    "eot solar time sundial clock difference formula online",
+    "solar analemma equation of time calculator minutes",
+    "sundial to clock time converter calculator",
+    "astronomy solar geometry analemma online"
+  ],
+  "order": 1181
+}

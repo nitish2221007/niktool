@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 5 Units)",
+  "description": "Calculate the exact area of a circle with radius 5 units (A = πr² = 78.54).",
+  "path": "/tools/area-of-circle-radius-5-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 5 units",
+    "Area of Circle (Radius 5 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

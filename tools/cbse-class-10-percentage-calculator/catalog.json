@@ -1,0 +1,15 @@
+{
+  "name": "CBSE Class 10 Percentage Calculator",
+  "description": "Calculate CBSE Class 10 board exam percentage from top 5 subject marks.",
+  "path": "/tools/cbse-class-10-percentage-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cbse class 10 percentage calculator",
+    "CBSE Class 10 Percentage Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

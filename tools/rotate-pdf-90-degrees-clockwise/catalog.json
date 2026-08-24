@@ -1,0 +1,16 @@
+{
+  "name": "Rotate PDF 90 Degrees Clockwise",
+  "description": "Rotate all pages in a PDF document 90 degrees clockwise. Free and local.",
+  "path": "/tools/rotate-pdf-90-degrees-clockwise/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "rotate pdf 90 degrees clockwise",
+    "Rotate PDF 90 Degrees Clockwise",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

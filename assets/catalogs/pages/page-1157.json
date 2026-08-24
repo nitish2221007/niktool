@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 910 km)",
+    "description": "Calculate per-person fuel cost (₹976/person) for 6 passengers on a 910 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-910km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 910km",
+      "Trip Fuel Cost Split (6 Passengers, 910 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 920 km)",
+    "description": "Calculate per-person fuel cost (₹986/person) for 6 passengers on a 920 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-920km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 920km",
+      "Trip Fuel Cost Split (6 Passengers, 920 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 930 km)",
+    "description": "Calculate per-person fuel cost (₹997/person) for 6 passengers on a 930 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-930km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 930km",
+      "Trip Fuel Cost Split (6 Passengers, 930 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 940 km)",
+    "description": "Calculate per-person fuel cost (₹1008/person) for 6 passengers on a 940 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-940km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 940km",
+      "Trip Fuel Cost Split (6 Passengers, 940 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 950 km)",
+    "description": "Calculate per-person fuel cost (₹1018/person) for 6 passengers on a 950 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-950km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 950km",
+      "Trip Fuel Cost Split (6 Passengers, 950 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 960 km)",
+    "description": "Calculate per-person fuel cost (₹1029/person) for 6 passengers on a 960 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-960km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 960km",
+      "Trip Fuel Cost Split (6 Passengers, 960 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 970 km)",
+    "description": "Calculate per-person fuel cost (₹1041/person) for 6 passengers on a 970 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-970km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 970km",
+      "Trip Fuel Cost Split (6 Passengers, 970 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 980 km)",
+    "description": "Calculate per-person fuel cost (₹1050/person) for 6 passengers on a 980 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-980km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 980km",
+      "Trip Fuel Cost Split (6 Passengers, 980 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Trip Fuel Cost Split (6 Passengers, 990 km)",
+    "description": "Calculate per-person fuel cost (₹1062/person) for 6 passengers on a 990 km trip.",
+    "path": "/tools/trip-fuel-cost-split-passengers-6-distance-990km/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip fuel cost split passengers 6 distance 990km",
+      "Trip Fuel Cost Split (6 Passengers, 990 km)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 1 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 1 units (V = a³ = 1).",
+    "path": "/tools/volume-of-cube-side-1-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 1 units",
+      "Volume of Cube (Side 1 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 10 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 10 units (V = a³ = 1000).",
+    "path": "/tools/volume-of-cube-side-10-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 10 units",
+      "Volume of Cube (Side 10 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 11 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 11 units (V = a³ = 1331).",
+    "path": "/tools/volume-of-cube-side-11-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 11 units",
+      "Volume of Cube (Side 11 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 12 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 12 units (V = a³ = 1728).",
+    "path": "/tools/volume-of-cube-side-12-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 12 units",
+      "Volume of Cube (Side 12 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 13 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 13 units (V = a³ = 2197).",
+    "path": "/tools/volume-of-cube-side-13-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 13 units",
+      "Volume of Cube (Side 13 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 14 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 14 units (V = a³ = 2744).",
+    "path": "/tools/volume-of-cube-side-14-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 14 units",
+      "Volume of Cube (Side 14 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 15 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 15 units (V = a³ = 3375).",
+    "path": "/tools/volume-of-cube-side-15-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 15 units",
+      "Volume of Cube (Side 15 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 16 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 16 units (V = a³ = 4096).",
+    "path": "/tools/volume-of-cube-side-16-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 16 units",
+      "Volume of Cube (Side 16 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 17 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 17 units (V = a³ = 4913).",
+    "path": "/tools/volume-of-cube-side-17-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 17 units",
+      "Volume of Cube (Side 17 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 18 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 18 units (V = a³ = 5832).",
+    "path": "/tools/volume-of-cube-side-18-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 18 units",
+      "Volume of Cube (Side 18 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 19 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 19 units (V = a³ = 6859).",
+    "path": "/tools/volume-of-cube-side-19-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 19 units",
+      "Volume of Cube (Side 19 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 2 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 2 units (V = a³ = 8).",
+    "path": "/tools/volume-of-cube-side-2-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 2 units",
+      "Volume of Cube (Side 2 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 20 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 20 units (V = a³ = 8000).",
+    "path": "/tools/volume-of-cube-side-20-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 20 units",
+      "Volume of Cube (Side 20 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 21 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 21 units (V = a³ = 9261).",
+    "path": "/tools/volume-of-cube-side-21-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 21 units",
+      "Volume of Cube (Side 21 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Volume of Cube (Side 22 Units)",
+    "description": "Calculate the volume of a 3D cube with side length 22 units (V = a³ = 10648).",
+    "path": "/tools/volume-of-cube-side-22-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "volume of cube side 22 units",
+      "Volume of Cube (Side 22 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

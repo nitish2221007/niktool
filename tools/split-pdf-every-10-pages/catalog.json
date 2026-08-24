@@ -1,0 +1,16 @@
+{
+  "name": "Split PDF Every 10 Pages",
+  "description": "Split any PDF file into separate documents every 10 pages. 100% free and local processing.",
+  "path": "/tools/split-pdf-every-10-pages/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "split pdf every 10 pages",
+    "Split PDF Every 10 Pages",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

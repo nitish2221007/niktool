@@ -1,0 +1,16 @@
+{
+  "name": "HEX to RGB HSL Converter",
+  "description": "Convert color codes between HEX, RGB, RGBA, HSL, HSLA, and CSS color functions with real-time swatch preview and 1-click copy.",
+  "path": "/tools/hex-to-rgb-hsl-converter/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "hex to rgb converter",
+    "hex to hsl",
+    "rgb to hex",
+    "hsl to hex",
+    "color code converter",
+    "css color converter"
+  ],
+  "order": 56
+}

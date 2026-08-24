@@ -1,0 +1,15 @@
+{
+  "name": "Gravity-Gradient Torque Spacecraft Passive Attitude Stabilization Calculator",
+  "description": "Calculate satellite passive attitude control Gravity-Gradient Torque T_GG in N·m (T_GG = 3·μ / (2·r³) · |I_z - I_x| · sin(2θ)) from Earth gravity μ, orbit radius r, moment of inertia asymmetry |I_z - I_x|, and pitch offset angle θ.",
+  "path": "/tools/gravity-gradient-torque-spacecraft-attitude-stabilization-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gravity gradient torque calculator",
+    "spacecraft attitude control formula tgg online",
+    "passive gravity gradient stabilization boom calculator",
+    "moment of inertia asymmetry satellite pitch torque calculator",
+    "astrodynamics spacecraft dynamics attitude determination control adcs online"
+  ],
+  "order": 1424
+}

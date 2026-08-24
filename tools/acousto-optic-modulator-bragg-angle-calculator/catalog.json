@@ -1,0 +1,15 @@
+{
+  "name": "Acousto-Optic Modulator (AOM) Bragg Angle & Deflection Calculator",
+  "description": "Calculate Acousto-Optic Modulator Bragg diffraction angle (θ_B = (λ · f) / (2 · v)) in milliradians and acoustic wavelength in TeO₂ / fused silica crystals.",
+  "path": "/tools/acousto-optic-modulator-bragg-angle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "aom bragg angle calculator",
+    "acousto optic modulator formula online",
+    "aom laser deflection angle calculator",
+    "bragg cell frequency sound velocity online",
+    "photonics aom beam steering calculator"
+  ],
+  "order": 530
+}

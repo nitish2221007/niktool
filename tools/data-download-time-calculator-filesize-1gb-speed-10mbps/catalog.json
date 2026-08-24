@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (1 GB File, 10 Mbps Speed)",
+  "description": "Calculate file transfer download time (~13.7 minutes / 819s) for 1 GB file at 10 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-1gb-speed-10mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 1gb speed 10mbps",
+    "Data Download Time Calculator (1 GB File, 10 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

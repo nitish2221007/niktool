@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate nuclear reactor stable asymptotic period T in seconds from reactivity ρ in pcm/dollars ($) using the Nordheim Inhour Equation (ρ = l* / (k·T) + ∑ β_i / (1 + λ_i·T)) and total delayed neutron fraction β.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/reactor-period-inhour-equation-delayed-neutrons-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator | NikTool">
+  <meta property="og:description" content="Calculate nuclear reactor stable asymptotic period T in seconds from reactivity ρ in pcm/dollars ($) using the Nordheim Inhour Equation (ρ = l* / (k·T) + ∑ β_i / (1 + λ_i·T)) and total delayed neutron fraction β.">
+  <meta property="og:url" content="https://niktool.in/tools/reactor-period-inhour-equation-delayed-neutrons-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/reactor-period-inhour-equation-delayed-neutrons-calculator/",
+        "description": "Calculate nuclear reactor stable asymptotic period T in seconds from reactivity ρ in pcm/dollars ($) using the Nordheim Inhour Equation (ρ = l* / (k·T) + ∑ β_i / (1 + λ_i·T)) and total delayed neutron fraction β.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens at 1.00 Dollar ($) of reactivity (Prompt Critical)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At $\rho = \beta$ ($1.00$$), the reactor reaches criticality on prompt neutrons alone without waiting for delayed precursors, causing exponential power rises in microseconds."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator</h1>
+      <p>Calculate nuclear reactor stable asymptotic period T in seconds from reactivity ρ in pcm/dollars ($) using the Nordheim Inhour Equation (ρ = l* / (k·T) + ∑ β_i / (1 + λ_i·T)) and total delayed neutron fraction β.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Reactivity ρ (pcm or Dollars $), Delayed Fraction β (e.g. 0.0065 for U-235) & Mean Delayed Lifetime τ_d (s)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ih-rho">Reactivity ρ (pcm)</label>
+          <input class="tool-textarea" id="ih-rho" type="number" step="10" value="50.0" placeholder="50.0 pcm (0.077 $)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ih-beta">Delayed Beta β</label>
+          <input class="tool-textarea" id="ih-beta" type="number" step="0.0005" value="0.0065" placeholder="0.0065 (0.65% U-235)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ih-tau">Mean Lifetime τ_d</label>
+          <input class="tool-textarea" id="ih-tau" type="number" step="1" value="12.7" placeholder="12.7 s (Delayed Neutrons)" />
+        </div>
+      </div>
+      <div id="ih-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ih-res-t" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Reactor Period T = 165.1 Seconds</span>
+            <span class="stat-label">Stable Asymptotic Reactor Period (e-Folding Power Rise Time)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ih-res-eval" style="color:var(--green-dark); font-weight:700;">SAFE CONTROLLABLE TRANSIENT (Reactivity = 0.077 $ << 1.00 $ Prompt Critical Limit ✓)</span>
+            <span class="stat-label">Prompt Jump & Delayed Neutron Kinetics (T ≈ (β - ρ) / (λ·ρ))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Nuclear Reactor Inhour Equation & Delayed Neutron Period (T) Calculator</h2>
+      <ol>
+        <li>Enter applied positive or negative reactivity $ho$ in percent mille (pcm, $1	ext{ pcm} = 10^{-5} Delta k/k$).</li>
+        <li>Enter effective delayed neutron fraction $eta$ (0.0065 for U-235, 0.0021 for Pu-239).</li>
+        <li>Enter effective one-group delayed neutron precursor mean lifetime $	au_d$ in seconds (standard ~12.7 s).</li>
+        <li>Inspect stable reactor asymptotic period T in seconds and evaluate Prompt Critical safety margin in Dollars ($).</li>
+      </ol>
+
+      <h2>Eugene Wigner & Lothar Nordheim 1946 Inhour Equation</h2>
+      <p>Delayed neutrons ($0.65%$ born with half-lives up to 55 seconds from precursor fission products) slow down reactor time constants by a factor of 100,000, making nuclear fission humanly controllable.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens at 1.00 Dollar ($) of reactivity (Prompt Critical)?</summary>
+        <p>At $ho = eta$ ($1.00$$), the reactor reaches criticality on prompt neutrons alone without waiting for delayed precursors, causing exponential power rises in microseconds.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/reactor-period-inhour-equation-delayed-neutrons-calculator/tool.js"></script>
+</body>
+</html>

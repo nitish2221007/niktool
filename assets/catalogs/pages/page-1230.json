@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Kerr Rotating Black Hole Ergosphere (r_E) & Frame-Dragging (Lense-Thirring) Calculator",
+    "description": "Calculate Kerr rotating black hole outer Event Horizon (r_+ = G·M/c² · [1 + √(1 - a*²)]) and oblate Ergosphere boundary radius (r_E(θ) = G·M/c² · [1 + √(1 - a*²·cos² θ)]) for energy extraction via the Penrose Process.",
+    "path": "/tools/kerr-black-hole-ergosphere-frame-dragging-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kerr black hole calculator",
+      "ergosphere radius formula re equals gm over c squared 1 plus sqrt 1 minus a squared online",
+      "frame dragging lense thirring angular velocity calculator",
+      "penrose process black hole energy extraction calculator",
+      "spinning kerr metric event horizon online"
+    ]
+  },
+  {
+    "name": "Eddington Luminosity Radiation Pressure Limit (L_Edd = 4π·G·M·m_p·c / σ_T) Calculator",
+    "description": "Calculate maximum steady-state astrophysical accretion Eddington Luminosity limit (L_Edd = 1.26 × 10³¹ · (M / M_☉) Watts) in Solar Luminosities (L_☉) and critical Eddington accretion mass growth rate (M_dot_Edd) in M_☉/year for quasars and active galactic nuclei (AGN).",
+    "path": "/tools/eddington-luminosity-radiation-pressure-limit-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "eddington luminosity calculator",
+      "eddington limit formula 4 pi g m m_p c over sigma_t online",
+      "maximum accretion rate eddington limit quasar agn calculator",
+      "radiation pressure gravitational balance eddington calculator",
+      "supermassive black hole growth rate online"
+    ]
+  },
+  {
+    "name": "Quantum Bell State Entanglement Fidelity & CHSH Bell Inequality (S ≤ 2√2) Calculator",
+    "description": "Calculate maximally entangled bipartite qubit Bell state (|Φ⁺⟩ = (|00⟩ + |11⟩)/√2) quantum state tomography fidelity (F), Concurrence (C), and Clauser-Horne-Shimony-Holt (CHSH) Bell inequality violation parameter S (S = 2√2 ≈ 2.828 exceeding 2.0 Classical Bound).",
+    "path": "/tools/quantum-bell-state-fidelity-concurrence-entanglement-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chsh inequality calculator",
+      "bell state entanglement formula s equals 2 sqrt 2 online",
+      "quantum entanglement concurrence fidelity calculator",
+      "quantum teleportation bell test violation calculator",
+      "einstein podolsky rosen epr paradox online"
+    ]
+  },
+  {
+    "name": "Hong-Ou-Mandel (HOM) Two-Photon Quantum Interference Dip Calculator",
+    "description": "Calculate two-photon quantum bunching Hong-Ou-Mandel interference dip visibility (V = (N_max - N_min) / N_max) across a 50:50 beam splitter and measure photon wavepacket indistinguishability coherence length in μm.",
+    "path": "/tools/hong-ou-mandel-hom-two-photon-interference-dip-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hong ou mandel calculator",
+      "hom dip visibility formula v equals nmax minus nmin over nmax online",
+      "two photon quantum interference beam splitter calculator",
+      "photon indistinguishability hom dip calculator online",
+      "quantum optics single photon coincidence counter online"
+    ]
+  },
+  {
+    "name": "Bloch Sphere Qubit State (|ψ⟩ = cos(θ/2)|0⟩ + e^(iφ)sin(θ/2)|1⟩) Calculator",
+    "description": "Calculate 2-level quantum state Bloch Sphere cartesian coordinates (x = sin θ·cos φ, y = sin θ·sin φ, z = cos θ) and simulate single-qubit quantum logic gate rotations (Hadamard H, Pauli X, Y, Z, Phase S, T gate).",
+    "path": "/tools/bloch-sphere-qubit-rotation-coordinates-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bloch sphere calculator",
+      "qubit state vector formula psi equals cos theta over 2 online",
+      "bloch sphere cartesian coordinates xyz calculator",
+      "single qubit rotation gate hadamard pauli calculator",
+      "quantum computing bloch vector visualization online"
+    ]
+  },
+  {
+    "name": "Quantum Surface Code Distance (d) & Logical Error Rate (P_L) Calculator",
+    "description": "Calculate 2D rotated Surface Code quantum error correction code distance (d = 2t + 1), required physical data and syndrome ancilla qubits (N = 2·d² - 1), and exponential logical error suppression (P_L ≈ 0.1 · (p_phys / p_th)^((d+1)/2)) below the 1% threshold limit.",
+    "path": "/tools/quantum-error-correction-surface-code-threshold-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "surface code calculator",
+      "quantum error correction logical error rate formula pl online",
+      "code distance physical to logical qubit ratio calculator",
+      "fault tolerant quantum computing surface code calculator",
+      "syndrome extraction threshold 1 percent surface code online"
+    ]
+  },
+  {
+    "name": "Spontaneous Parametric Down-Conversion (SPDC) Phase-Matching Calculator",
+    "description": "Calculate non-linear optical crystal Type-I and Type-II Spontaneous Parametric Down-Conversion (SPDC) energy conservation (1/λ_p = 1/λ_s + 1/λ_i) and collinear momentum phase-matching (k_p = k_s + k_i) for entangled photon pair generation in BBO, KTP, and PPLN.",
+    "path": "/tools/spontaneous-parametric-down-conversion-spdc-phase-matching-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spdc phase matching calculator",
+      "spontaneous parametric down conversion formula lambda p equals lambda s plus lambda i",
+      "entangled photon pair generation bbo ppln calculator",
+      "type 1 type 2 spdc phase matching angle calculator",
+      "quantum optics single photon source spdc online"
+    ]
+  },
+  {
+    "name": "Gridded Electrostatic Ion Thruster Exhaust Velocity (v_e) & Thrust (T) Calculator",
+    "description": "Calculate electric space propulsion electrostatic gridded ion thruster ion exhaust velocity (v_e = √(2·q·V_acc / m_Xe)) in km/s, specific impulse (I_sp = v_e / g₀) in seconds, and thrust output (T = √(2·m_Xe / q) · I_beam · √V_acc) in mN for Deep Space 1 and Dawn NASA missions.",
+    "path": "/tools/ion-thruster-exhaust-velocity-thrust-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ion thruster calculator",
+      "electrostatic ion propulsion exhaust velocity formula v_e equals sqrt 2 q vacc over m online",
+      "specific impulse ion engine xenon propellant calculator",
+      "nasa dawn deep space 1 ion thruster calculator online",
+      "electric propulsion beam current thrust calculator"
+    ]
+  },
+  {
+    "name": "Hall Effect Thruster (HET) Anode Efficiency (η_a) & Specific Impulse Calculator",
+    "description": "Calculate spacecraft electric Hall Effect Thruster (HET) total anode efficiency (η_a = T² / (2·ṁ·P_d)) and specific impulse (I_sp = T / (ṁ·g₀)) from discharge power P_d in kW and mass flow rate ṁ in mg/s.",
+    "path": "/tools/hall-effect-thruster-anode-efficiency-specific-impulse-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hall effect thruster calculator",
+      "het anode efficiency formula eta equals t squared over 2 mdot p online",
+      "spacecraft hall thruster specific impulse calculator",
+      "spacex starlink krypton hall thruster calculator online",
+      "electric propulsion hall current thrust calculator"
+    ]
+  },
+  {
+    "name": "Solar Photon Sail Radiation Pressure Force & Acceleration (a_c) Calculator",
+    "description": "Calculate interplanetary Solar Sail solar photon radiation pressure (P_rad = (1 + R)·I_solar / c) in μN/m² and characteristic solar sail acceleration (a_c = 2·I_0·A / (c·M)) in mm/s² at 1 AU for propellantless deep space propulsion.",
+    "path": "/tools/solar-sail-radiation-pressure-acceleration-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solar sail calculator",
+      "solar radiation pressure formula p equals 1 plus r i over c online",
+      "solar sail characteristic acceleration ac calculator",
+      "ikaros lightsail photon propulsion calculator online",
+      "propellantless interstellar spaceflight calculator"
+    ]
+  },
+  {
+    "name": "Nuclear Thermal Propulsion (NTP) Specific Impulse (I_sp ∝ √(T/M)) Calculator",
+    "description": "Calculate nuclear thermal rocket reactor specific impulse (I_sp = (1/g₀) · √[2·γ/(γ-1) · (R_univ·T_chamber / M_prop)]) in seconds and thrust-to-weight performance in Hydrogen and Ammonia for NASA Mars crewed transfer vehicles.",
+    "path": "/tools/nuclear-thermal-propulsion-ntp-specific-impulse-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nuclear thermal propulsion calculator",
+      "ntp specific impulse formula i_sp proportional to sqrt t over m online",
+      "nasa nerva drakon nuclear thermal rocket calculator",
+      "hydrogen propellant specific impulse 900s calculator online",
+      "crewed mars mission nuclear thermal delta v online"
+    ]
+  },
+  {
+    "name": "Relativistic Rocket Equation (Δv = c·tanh[(v_e/c)·ln(m₀/m_f)]) Calculator",
+    "description": "Calculate interstellar relativistic rocket final velocity (v/c = tanh[(v_e/c) · ln(m₀ / m_f)]), astronaut shipboard proper time vs Earth coordinate time, and Lorentz time dilation (γ) for near-lightspeed interstellar voyages.",
+    "path": "/tools/relativistic-rocket-tsiolkovsky-proper-time-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "relativistic rocket equation calculator",
+      "relativistic tsiolkovsky formula v equals c tanh ve over c ln m0 over mf online",
+      "interstellar spaceflight proper time twin paradox calculator",
+      "antimatter rocket relativistic velocity calculator online",
+      "special relativity lorentz gamma rocket speed online"
+    ]
+  },
+  {
+    "name": "NASA Deep Space Network (DSN) Interplanetary RF Link Budget Calculator",
+    "description": "Calculate deep space exploration radio telecommunication Friis link budget received power (P_r = P_t · G_t · G_r · (c / (4π·d·f))²) in dBm and carrier-to-noise ratio (C/N₀) across Mars, Jupiter, and Voyager 1 distances in the X-band (8.4 GHz) and Ka-band (32 GHz).",
+    "path": "/tools/interplanetary-link-budget-deep-space-network-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "deep space network link budget calculator",
+      "friis transmission formula interplanetary communication online",
+      "nasa dsn 70m antenna mars voyager signal strength calculator",
+      "spacecraft telemetry received power pr calculator",
+      "spacecraft x band ka band link budget online"
+    ]
+  },
+  {
+    "name": "Shannon-Hartley Theorem Channel Capacity (C = B·log₂(1 + SNR)) Calculator",
+    "description": "Calculate fundamental telecommunications information theory Shannon Channel Capacity (C = B · log₂(1 + SNR)) in Mbps/Gbps and determine theoretical minimum energy per bit Shannon Limit (E_b/N₀ = ln 2 = -1.59 dB).",
+    "path": "/tools/shannon-hartley-channel-capacity-spectral-efficiency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "shannon hartley theorem calculator",
+      "channel capacity formula c equals b log2 1 plus snr online",
+      "spectral efficiency bits per second per hertz calculator",
+      "shannon limit minus 1.59 db calculator online",
+      "telecom 5g 6g wifi channel capacity online"
+    ]
+  },
+  {
+    "name": "Cosmological Redshift (z) & Hubble-Lemaître Cosmic Expansion Calculator",
+    "description": "Calculate expanding universe cosmological redshift (1 + z = a_now / a_then = λ_obs / λ_emit), recession velocity (v = H₀·d), and cosmic lookback travel time in billions of years under the Standard ΛCDM Cosmology model.",
+    "path": "/tools/cosmological-redshift-hubble-lemaitre-expansion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cosmological redshift calculator",
+      "hubble lemaitre law formula v equals h0 d online",
+      "cosmic lookback time expanding universe calculator",
+      "jwst high redshift galaxy z 13 calculator online",
+      "lambda cdm scale factor expansion calculator"
+    ]
+  },
+  {
+    "name": "Chandrasekhar Mass Limit (M_Ch ≈ 1.44 M_☉) White Dwarf Degeneracy Calculator",
+    "description": "Calculate quantum relativistic electron degeneracy Chandrasekhar mass collapse limit (M_Ch = (ω_3^0·√3π / 2) · (ℏc / G)^(3/2) · (1 / (μ_e·m_u))² ≈ 1.44 M_☉) and Type Ia Supernova detonation threshold.",
+    "path": "/tools/chandrasekhar-mass-limit-white-dwarf-degeneracy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chandrasekhar limit calculator",
+      "white dwarf maximum mass formula m_ch 1.44 solar mass online",
+      "relativistic electron degeneracy pressure calculator",
+      "type 1a supernova progenitor chandrasekhar mass calculator",
+      "subrahmanyan chandrasekhar 1930 collapse limit online"
+    ]
+  },
+  {
+    "name": "Planck Fundamental Physical Scales (Length l_p, Time t_p, Mass m_p & Energy E_p) Calculator",
+    "description": "Calculate fundamental quantum gravity dimensional Planck units (Planck Length l_p = √(ℏ·G/c³) = 1.616 × 10⁻³⁵ m, Planck Time t_p = √(ℏ·G/c⁵) = 5.391 × 10⁻⁴⁴ s, Planck Mass m_p = √(ℏ·c/G) = 21.76 μg, Planck Energy E_p = 1.956 GJ) from speed of light c, gravitational constant G, and Planck constant ℏ.",
+    "path": "/tools/planck-units-fundamental-quantum-gravity-scales-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planck units calculator",
+      "planck length formula l_p equals sqrt hbar g over c cubed online",
+      "planck time 5.391e-44 seconds quantum gravity calculator",
+      "planck energy 1.956 gj string theory scale calculator",
+      "natural units max planck 1899 constants calculator"
+    ]
+  },
+  {
+    "name": "IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator",
+    "description": "Calculate experimental physics measurement uncertainty propagation for addition/subtraction (Δz = Δx + Δy), multiplication/division (Δz/z = Δx/x + Δy/y), and powers (Δz/z = n·Δx/x) under the International Baccalaureate (IB DP) Physics guide.",
+    "path": "/tools/ib-physics-uncertainty-propagation-percentage-error-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ib physics uncertainty calculator",
+      "percentage uncertainty propagation formula delta z over z online",
+      "experimental error propagation ib dp physics calculator",
+      "absolute uncertainty multiplication division calculator",
+      "high school physics lab error analysis online"
+    ]
+  },
+  {
+    "name": "IB Chemistry Atom Economy & Percentage Yield (Green Chemistry) Calculator",
+    "description": "Calculate organic synthesis Atom Economy (% = (Molar Mass Desired / Total Molar Mass Reactants) · 100) and experimental Percentage Yield (% = (Actual Yield / Theoretical Yield) · 100) under IB Chemistry Topic 1 Stoichiometry.",
+    "path": "/tools/ib-chemistry-atom-economy-percentage-yield-green-chemistry-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "atom economy calculator",
+      "percentage yield formula actual over theoretical yield 100 online",
+      "ib chemistry atom economy calculator green chemistry",
+      "stoichiometry percent yield calculator online",
+      "sustainable green chemistry atom efficiency calculator"
+    ]
+  },
+  {
+    "name": "Chi-Square (χ²) Goodness-of-Fit Genetics (9:3:3:1 Dihybrid & 3:1 Monohybrid) Calculator",
+    "description": "Calculate Chi-Square test statistics (χ² = Σ (O - E)² / E), degrees of freedom (df = k - 1), and p-values for Mendel 9:3:3:1 dihybrid and 3:1 monohybrid genetic crosses under IB Biology and AP Biology curricula.",
+    "path": "/tools/ib-biology-chi-square-goodness-of-fit-dihybrid-cross-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chi square genetics calculator",
+      "chi square goodness of fit formula o minus e squared over e online",
+      "mendelian genetics 9 3 3 1 dihybrid cross chi square calculator",
+      "ap biology chi square p value table calculator",
+      "ib biology null hypothesis genetic linkage test online"
+    ]
+  },
+  {
+    "name": "CBSE Class 10 & 12 CGPA to Percentage (Official 9.5× Rule) Converter",
+    "description": "Convert CBSE (Central Board of Secondary Education) Cumulative Grade Point Average (CGPA on a 10-point scale) to equivalent percentage (Percentage = CGPA × 9.5) and calculate subject-wise Grade Points (GP).",
+    "path": "/tools/cbse-class-10-cgpa-to-percentage-converter/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "cbse cgpa to percentage converter",
+      "cgpa into percentage formula multiply by 9.5 online",
+      "cbse class 10 marks to percentage calculator",
+      "10 point cgpa to percentage conversion table online",
+      "cbse grade point to marks calculator online"
+    ]
+  },
+  {
+    "name": "NTA JEE Main Percentile to All India Rank (AIR) Predictor Calculator",
+    "description": "Calculate predicted All India Rank (AIR) from NTA JEE Main NTA score percentile (Rank ≈ (100 - P) · N_total / 100) based on total registered candidates (e.g. 1.4 Million candidates in 2025/2026).",
+    "path": "/tools/jee-main-percentile-to-rank-predictor-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "jee main percentile to rank calculator",
+      "jee rank predictor formula 100 minus percentile times total candidates online",
+      "nta score to all india rank air calculator",
+      "jee main cutoff for nit iit eligibility calculator",
+      "jee percentile rank converter online"
+    ]
+  },
+  {
+    "name": "NEET UG Marks to All India Rank (AIR) & MBBS Cutoff Predictor Calculator",
+    "description": "Calculate predicted NEET UG medical entrance All India Rank (AIR) and percentile from total marks out of 720 and evaluate Government Medical College (GMC) MBBS 15% AIQ quota admission cutoffs.",
+    "path": "/tools/neet-ug-marks-to-percentile-rank-predictor-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "neet rank predictor calculator",
+      "neet marks to rank formula out of 720 online",
+      "neet ug percentile rank calculator mbbs cutoff",
+      "government medical college gmc neet cutoff rank calculator",
+      "all india quota aiq neet medical rank predictor"
+    ]
+  },
+  {
+    "name": "UK UCAS Tariff Points University Admission Calculator (A-Levels, BTEC & IB)",
+    "description": "Calculate total official UK UCAS Tariff Points from A-Level grades (A* = 56, A = 48, B = 40, C = 32, D = 24, E = 16), BTEC Nationals, and T-Levels for British university admissions.",
+    "path": "/tools/ucas-tariff-points-university-admission-calculator/",
+    "category": "Education",
+    "icon": "calculator",
+    "keywords": [
+      "ucas tariff calculator",
+      "ucas points calculator a levels btec online",
+      "uk university entry requirements ucas tariff points calculator",
+      "a level grades to ucas points converter",
+      "ucas tariff table a* a b c d e online"
+    ]
+  }
+]

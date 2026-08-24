@@ -1,0 +1,15 @@
+{
+  "name": "Refractive Index, Critical Angle & Total Internal Reflection (TIR) Calculator",
+  "description": "Calculate optical critical angle (sin θ_c = n₂ / n₁) in degrees, refractive index n, and light speed in medium (v = c / n) for fiber optic waveguides, diamond brilliance, and Snell's law refraction.",
+  "path": "/tools/refractive-index-critical-angle-total-internal-reflection-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "critical angle calculator",
+    "total internal reflection formula sin theta c equals n2 over n1 online",
+    "refractive index fiber optic critical angle calculator",
+    "snells law total internal reflection calculator",
+    "diamond critical angle brilliance calculator online"
+  ],
+  "order": 938
+}

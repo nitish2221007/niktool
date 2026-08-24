@@ -1,0 +1,15 @@
+{
+  "name": "Equilibrium Meat Brining Salinity Percentage Calculator",
+  "description": "Calculate equilibrium brining salt percentage (Salt % = (Salt Mass / (Meat Mass + Water Mass + Salt Mass)) · 100) for uniform, impossible-to-oversalt charcuterie and poultry.",
+  "path": "/tools/meat-brine-salinity-equilibrium-percentage-calculator/",
+  "category": "Daily",
+  "icon": "chart",
+  "keywords": [
+    "equilibrium brining calculator",
+    "meat brine salt percentage formula",
+    "charcuterie equilibrium curing calculator",
+    "wet brine salt to water ratio online",
+    "modernist cuisine equilibrium brine calculator"
+  ],
+  "order": 501
+}

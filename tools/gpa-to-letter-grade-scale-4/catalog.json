@@ -1,0 +1,15 @@
+{
+  "name": "GPA to Letter Grade Converter (4.0 Scale)",
+  "description": "Convert 4.0 GPA scores to letter grades (A+, A, B, C, D, F).",
+  "path": "/tools/gpa-to-letter-grade-scale-4/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "gpa to letter grade scale 4",
+    "GPA to Letter Grade Converter (4.0 Scale)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

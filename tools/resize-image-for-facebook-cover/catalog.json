@@ -1,0 +1,15 @@
+{
+  "name": "Resize Image for Facebook Cover",
+  "description": "Resize banner image to 820x312 pixels for Facebook cover photo.",
+  "path": "/tools/resize-image-for-facebook-cover/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image for facebook cover",
+    "Resize Image for Facebook Cover",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

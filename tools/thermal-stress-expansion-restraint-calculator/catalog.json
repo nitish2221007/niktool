@@ -1,0 +1,15 @@
+{
+  "name": "Thermal Stress in Restrained Beams Calculator",
+  "description": "Calculate internal thermal compressive/tensile stress (σ = E · α · ΔT) and induced axial force developed in rigidly constrained structural beams during temperature swings.",
+  "path": "/tools/thermal-stress-expansion-restraint-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thermal stress calculator",
+    "restrained beam thermal stress formula",
+    "sigma e alpha delta t calculator",
+    "bridge structural thermal stress online",
+    "axial thermal expansion force"
+  ],
+  "order": 271
+}

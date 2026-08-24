@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (400 Hz, 39 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 98.02 Ω) for 400 Hz frequency and 39 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-400hz-inductor-39mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 400hz inductor 39mh",
+    "Inductive Reactance Calculator (400 Hz, 39 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

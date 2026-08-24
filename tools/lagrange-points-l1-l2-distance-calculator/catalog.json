@@ -1,0 +1,15 @@
+{
+  "name": "Lagrange Equilibrium Points (L1 & L2) Distance Calculator",
+  "description": "Calculate distance from the secondary body to collinear Lagrange equilibrium libration points (r_L1, r_L2 ≈ R · (M₂ / (3·M₁))^(1/3)) in three-body orbital systems.",
+  "path": "/tools/lagrange-points-l1-l2-distance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lagrange points calculator",
+    "l1 l2 distance calculator",
+    "james webb space telescope l2 orbit distance",
+    "hill sphere lagrange point formula",
+    "three body gravitational libration points online"
+  ],
+  "order": 388
+}

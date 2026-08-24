@@ -1,0 +1,15 @@
+{
+  "name": "Spectrophotometry Beer-Lambert Law Concentration (A = ε·b·c) Calculator",
+  "description": "Calculate unknown solution molar concentration (c = A / (ε · b)) in μM/mM and percentage optical transmittance (%T = 10^(-A) · 100) from UV-Vis spectrophotometer absorbance A, molar absorptivity ε, and cuvette path length b.",
+  "path": "/tools/spectrophotometry-beer-lambert-molar-extinction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "beer lambert law calculator",
+    "absorbance to concentration formula a equals epsilon b c online",
+    "spectrophotometry molar extinction coefficient calculator",
+    "absorbance to percent transmittance converter online",
+    "uv vis spectrophotometer concentration calculator"
+  ],
+  "order": 915
+}

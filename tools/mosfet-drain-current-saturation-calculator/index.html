@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOSFET Drain Current & Saturation Region Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate MOSFET drain current (I_D = ½ · k_n · (V_GS - V_th)²) in saturation mode, overdrive voltage (V_ov = V_GS - V_th), and determine Triode vs Saturation boundary.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/mosfet-drain-current-saturation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MOSFET Drain Current & Saturation Region Calculator | NikTool">
+  <meta property="og:description" content="Calculate MOSFET drain current (I_D = ½ · k_n · (V_GS - V_th)²) in saturation mode, overdrive voltage (V_ov = V_GS - V_th), and determine Triode vs Saturation boundary.">
+  <meta property="og:url" content="https://niktool.in/tools/mosfet-drain-current-saturation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "MOSFET Drain Current & Saturation Region Calculator",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/mosfet-drain-current-saturation-calculator/",
+        "description": "Calculate MOSFET drain current (I_D = ½ · k_n · (V_GS - V_th)²) in saturation mode, overdrive voltage (V_ov = V_GS - V_th), and determine Triode vs Saturation boundary.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the condition for MOSFET saturation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "V_GS ≥ V_th (channel turned on) and V_DS ≥ V_GS - V_th (drain pinch-off)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>MOSFET Drain Current & Saturation Region Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>MOSFET Drain Current & Saturation Region Calculator</h1>
+      <p>Calculate MOSFET drain current (I_D = ½ · k_n · (V_GS - V_th)²) in saturation mode, overdrive voltage (V_ov = V_GS - V_th), and determine Triode vs Saturation boundary.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Gate-Source (V_GS), Threshold (V_th) & Transconductance Parameter (k_n)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mos-vgs">Gate-Source V_GS (V)</label>
+          <input class="tool-textarea" id="mos-vgs" type="number" step="0.1" value="4.0" placeholder="4.0 V" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mos-vth">Threshold V_th (V)</label>
+          <input class="tool-textarea" id="mos-vth" type="number" step="0.1" value="1.5" placeholder="1.5 V" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mos-vds">Drain-Source V_DS (V)</label>
+          <input class="tool-textarea" id="mos-vds" type="number" step="0.1" value="5.0" placeholder="5.0 V" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mos-kn">Parameter k_n (mA / V²)</label>
+          <input class="tool-textarea" id="mos-kn" type="number" step="any" value="2.0" placeholder="2.0 mA/V²" />
+        </div>
+      </div>
+      <div id="mos-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mos-res-id" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">6.25 mA</span>
+            <span class="stat-label">Drain Current (I_D)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mos-res-mode" style="color:var(--green-dark); font-weight:700;">Saturation Region (V_DS ≥ V_GS - V_th)</span>
+            <span class="stat-label">Operating Mode</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mos-res-vov">V_ov = 2.50 V</span>
+            <span class="stat-label">Overdrive Voltage (V_GS - V_th)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use MOSFET Drain Current & Saturation Region Calculator</h2>
+      <ol>
+        <li>Enter Gate-Source voltage (V_GS), Threshold voltage (V_th), and Drain-Source voltage (V_DS).</li>
+        <li>Enter transconductance conduction parameter k_n in mA/V².</li>
+        <li>Inspect drain current I_D and verify operating region (Cutoff, Triode, or Saturation).</li>
+      </ol>
+
+      <h2>Square-Law MOSFET Current Model</h2>
+      <p>In saturation, the conductive inversion channel pinches off at the drain end, making drain current I_D independent of V_DS and controlled exclusively by the square of the gate overdrive voltage (I_D ∝ (V_GS - V_th)²).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the condition for MOSFET saturation?</summary>
+        <p>V_GS ≥ V_th (channel turned on) and V_DS ≥ V_GS - V_th (drain pinch-off).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/mosfet-drain-current-saturation-calculator/tool.js"></script>
+</body>
+</html>

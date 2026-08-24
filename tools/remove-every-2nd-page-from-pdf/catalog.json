@@ -1,0 +1,16 @@
+{
+  "name": "Remove Every 2nd Page From PDF",
+  "description": "Delete every 2nd page from any PDF document automatically. 100% free and local.",
+  "path": "/tools/remove-every-2nd-page-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "remove every 2nd page from pdf",
+    "Remove Every 2nd Page From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

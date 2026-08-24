@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate tokamak magnetic confinement efficiency Plasma Beta percentage β (β = 2μ₀·⟨p⟩ / B² · 100%), Troyon Normalized Beta stability parameter β_N (β_N = β% / (I_p / a·B_T)), and evaluate the ideal MHD Troyon limit (β_N ≤ 2.8 to 3.5).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/plasma-beta-troyon-limit-tokamak-stability-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator | NikTool">
+  <meta property="og:description" content="Calculate tokamak magnetic confinement efficiency Plasma Beta percentage β (β = 2μ₀·⟨p⟩ / B² · 100%), Troyon Normalized Beta stability parameter β_N (β_N = β% / (I_p / a·B_T)), and evaluate the ideal MHD Troyon limit (β_N ≤ 2.8 to 3.5).">
+  <meta property="og:url" content="https://niktool.in/tools/plasma-beta-troyon-limit-tokamak-stability-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/plasma-beta-troyon-limit-tokamak-stability-calculator/",
+        "description": "Calculate tokamak magnetic confinement efficiency Plasma Beta percentage β (β = 2μ₀·⟨p⟩ / B² · 100%), Troyon Normalized Beta stability parameter β_N (β_N = β% / (I_p / a·B_T)), and evaluate the ideal MHD Troyon limit (β_N ≤ 2.8 to 3.5).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is high Beta critical for economic fusion power plants?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Superconducting magnetic coils are the single most expensive component of a fusion reactor; maximizing $\beta$ extracts maximum fusion power per Tesla of magnetic field."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator</h1>
+      <p>Calculate tokamak magnetic confinement efficiency Plasma Beta percentage β (β = 2μ₀·⟨p⟩ / B² · 100%), Troyon Normalized Beta stability parameter β_N (β_N = β% / (I_p / a·B_T)), and evaluate the ideal MHD Troyon limit (β_N ≤ 2.8 to 3.5).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Average Plasma Pressure ⟨p⟩ (kPa), Magnetic Field B (Tesla), Current I_p (MA) & Minor Radius a (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pb-p">Pressure ⟨p⟩ (kPa)</label>
+          <input class="tool-textarea" id="pb-p" type="number" step="50" value="300.0" placeholder="300.0 kPa (3.0 bar)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pb-b">Field B (Tesla)</label>
+          <input class="tool-textarea" id="pb-b" type="number" step="0.5" value="5.30" placeholder="5.30 T" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pb-ip">Current I_p (MA)</label>
+          <input class="tool-textarea" id="pb-ip" type="number" step="1" value="15.0" placeholder="15.0 MA" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pb-a">Minor Radius a</label>
+          <input class="tool-textarea" id="pb-a" type="number" step="0.2" value="2.0" placeholder="2.0 m" />
+        </div>
+      </div>
+      <div id="pb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pb-res-beta" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Total Plasma Beta β = 2.69%</span>
+            <span class="stat-label">Magnetic Confinement Efficiency (β = ⟨p⟩ / (B² / 2μ₀) · 100%)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pb-res-troy" style="color:var(--green-dark); font-weight:700;">Troyon Normalized β_N = 1.90 %·m·T/MA (TROYON STABLE: β_N < 2.8 Limit ✓)</span>
+            <span class="stat-label">Normalized Beta (β_N = β% / (I_p / a·B_T)) & Ballooning Stability Limit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Plasma Beta (β) & Troyon Normalized Beta Stability Limit (β_N) Calculator</h2>
+      <ol>
+        <li>Enter volume-averaged plasma thermal kinetic pressure $langle p angle$ in kPa (or bar).</li>
+        <li>Enter confining magnetic field strength B in Tesla.</li>
+        <li>Enter total plasma current $I_p$ in Mega-Amperes (MA).</li>
+        <li>Enter plasma minor radius a in meters.</li>
+        <li>Inspect Plasma Beta ($eta%$) confinement ratio and Troyon Normalized Beta stability index $eta_N$.</li>
+      </ol>
+
+      <h2>Francis Troyon 1984 Ideal MHD Pressure Limit</h2>
+      <p>Ratios plasma kinetic pressure to confining magnetic field pressure ($eta = 2mu_0 p / B^2$); higher $eta$ maximizes fusion power output ($propto eta^2 B^4$) while respecting ballooning stability limits ($eta_N le 2.8$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is high Beta critical for economic fusion power plants?</summary>
+        <p>Superconducting magnetic coils are the single most expensive component of a fusion reactor; maximizing $eta$ extracts maximum fusion power per Tesla of magnetic field.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/plasma-beta-troyon-limit-tokamak-stability-calculator/tool.js"></script>
+</body>
+</html>

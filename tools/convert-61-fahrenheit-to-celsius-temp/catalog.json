@@ -1,0 +1,15 @@
+{
+  "name": "Convert 61°F Fahrenheit to Celsius Temp",
+  "description": "Convert 61 degrees Fahrenheit (°F) to Celsius (16.1°C) instantly.",
+  "path": "/tools/convert-61-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 61 fahrenheit to celsius temp",
+    "Convert 61°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

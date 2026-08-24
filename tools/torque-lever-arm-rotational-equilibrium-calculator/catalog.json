@@ -1,0 +1,15 @@
+{
+  "name": "Torque Lever Arm (τ = r·F·sin θ) & Static Rotational Equilibrium (Στ = 0) Calculator",
+  "description": "Calculate mechanical torque moment (τ = r · F · sin θ) in N·m, mechanical advantage of levers, and solve static equilibrium balance equations (Στ = 0) for mechanical engineering.",
+  "path": "/tools/torque-lever-arm-rotational-equilibrium-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "torque calculator",
+    "lever arm torque formula tau equals r f sin theta online",
+    "mechanical advantage lever rotational equilibrium calculator",
+    "moment of force newton meters calculator",
+    "physics statics torque balance online"
+  ],
+  "order": 1050
+}

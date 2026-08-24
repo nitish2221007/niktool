@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate numerical definite integrals using Simpson's 1/3 parabolic quadrature rule (∫ f(x)dx ≈ (h/3)·[f(a) + 4·f_odd + 2·f_even + f(b)]) with error estimation (O(h⁴)) for numerical mathematics.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/simpsons-one-third-rule-numerical-integration-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator | NikTool">
+  <meta property="og:description" content="Calculate numerical definite integrals using Simpson's 1/3 parabolic quadrature rule (∫ f(x)dx ≈ (h/3)·[f(a) + 4·f_odd + 2·f_even + f(b)]) with error estimation (O(h⁴)) for numerical mathematics.">
+  <meta property="og:url" content="https://niktool.in/tools/simpsons-one-third-rule-numerical-integration-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/simpsons-one-third-rule-numerical-integration-calculator/",
+        "description": "Calculate numerical definite integrals using Simpson's 1/3 parabolic quadrature rule (∫ f(x)dx ≈ (h/3)·[f(a) + 4·f_odd + 2·f_even + f(b)]) with error estimation (O(h⁴)) for numerical mathematics.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why must n be an even number in Simpson's 1/3 Rule?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because fitting quadratic parabolas requires pairs of intervals (3 points each), the total number of subintervals must be an even multiple of 2."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator</h1>
+      <p>Calculate numerical definite integrals using Simpson's 1/3 parabolic quadrature rule (∫ f(x)dx ≈ (h/3)·[f(a) + 4·f_odd + 2·f_even + f(b)]) with error estimation (O(h⁴)) for numerical mathematics.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Integrand Function f(x), Lower Limit a, Upper Limit b & Even Number of Subintervals n</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sp-fn">Function f(x)</label>
+          <select class="tool-textarea" id="sp-fn">
+            <option value="sin" selected>f(x) = sin(x) from 0 to π (Exact = 2.0)</option>
+            <option value="x2">f(x) = x² from 0 to 3 (Exact = 9.0)</option>
+            <option value="exp">f(x) = e^x from 0 to 1 (Exact = e - 1 ≈ 1.7183)</option>
+            <option value="inv">f(x) = 1 / (1 + x²) from 0 to 1 (Exact = π/4 ≈ 0.7854)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-a">Lower a</label>
+          <input class="tool-textarea" id="sp-a" type="number" step="0.5" value="0.0" placeholder="0.0" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-b">Upper b</label>
+          <input class="tool-textarea" id="sp-b" type="number" step="0.5" value="3.14159" placeholder="3.14159" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-n">Intervals n</label>
+          <input class="tool-textarea" id="sp-n" type="number" step="2" min="2" value="6" placeholder="6 (Must be even)" />
+        </div>
+      </div>
+      <div id="sp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sp-res-int" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Integral I ≈ 2.000863</span>
+            <span class="stat-label">Simpson's 1/3 Numerical Approximation</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sp-res-step" style="color:var(--green-dark); font-weight:700;">Step Size h = (b - a)/n = 0.5236 | Parabolic O(h⁴) Higher-Order Accuracy</span>
+            <span class="stat-label">Step Size h & Truncation Error Order</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator</h2>
+      <ol>
+        <li>Select mathematical function $f(x)$ to integrate.</li>
+        <li>Enter lower integration bound a and upper bound b.</li>
+        <li>Enter even number of partition subintervals n (e.g. $n = 6$ or $10$).</li>
+        <li>Inspect computed numerical definite integral value accurate to 6 decimal places.</li>
+      </ol>
+
+      <h2>Thomas Simpson 1743 Parabolic Quadrature Rule</h2>
+      <p>By fitting piecewise quadratic parabolas through groups of 3 consecutive points, Simpson's 1/3 Rule achieves fourth-order error scaling ($O(h^4)$), integrating cubic polynomials with zero error.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why must n be an even number in Simpson's 1/3 Rule?</summary>
+        <p>Because fitting quadratic parabolas requires pairs of intervals (3 points each), the total number of subintervals must be an even multiple of 2.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/simpsons-one-third-rule-numerical-integration-calculator/tool.js"></script>
+</body>
+</html>

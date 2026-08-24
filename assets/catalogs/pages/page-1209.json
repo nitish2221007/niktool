@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Cyclotron Resonance Frequency & Gyroradius Calculator",
+    "description": "Calculate charged particle cyclotron frequency (f_c = (q · B) / (2 · π · m)) and orbital gyroradius (r_L = (m · v) / (q · B)) in uniform magnetic fields.",
+    "path": "/tools/cyclotron-frequency-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cyclotron frequency calculator",
+      "larmor radius calculator",
+      "gyroradius particle in magnetic field",
+      "cyclotron resonance formula online",
+      "magnetic lorentz force orbit radius"
+    ]
+  },
+  {
+    "name": "Hall Effect Voltage & Carrier Density Calculator",
+    "description": "Calculate transverse Hall voltage (V_H = (I · B) / (n · q · t)) and determine majority charge carrier density (n) in semiconductor sensors and metals.",
+    "path": "/tools/hall-effect-voltage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hall effect calculator",
+      "hall voltage formula calculator",
+      "semiconductor carrier density hall effect",
+      "hall sensor magnetic field voltage",
+      "transverse hall potential online"
+    ]
+  },
+  {
+    "name": "Faraday's Law of Electromagnetic Induction Calculator",
+    "description": "Calculate induced electromotive force voltage (EMF ε = -N · (ΔΦ / Δt)) from coil turns (N) and rate of magnetic flux change.",
+    "path": "/tools/faraday-law-electromagnetic-induction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "faradays law calculator",
+      "induced emf calculator online",
+      "electromagnetic induction formula",
+      "rate of change of magnetic flux emf",
+      "lenz law induced voltage calculator"
+    ]
+  },
+  {
+    "name": "Air-Core & Ferromagnetic Solenoid Inductance Calculator",
+    "description": "Calculate self-inductance (L = (μ₀ · μ_r · N² · A) / l) in microHenrys (μH) and milliHenrys (mH) for cylindrical coil inductors and electromagnets.",
+    "path": "/tools/inductance-solenoid-coil-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "solenoid inductance calculator",
+      "coil inductance formula online",
+      "microhenry inductor calculator",
+      "air core solenoid inductance formula",
+      "electromagnet turns inductance online"
+    ]
+  },
+  {
+    "name": "Inductor Magnetic Energy Storage (E = ½LI²) Calculator",
+    "description": "Calculate stored magnetic energy (E = ½ · L · I²) in Joules and millijoules, and magnetic flux linkage (λ = L · I) for inductors and chokes.",
+    "path": "/tools/magnetic-energy-inductor-storage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magnetic energy inductor calculator",
+      "half l i squared calculator",
+      "stored magnetic energy formula",
+      "inductor energy joules online",
+      "flyback inductor energy calculator"
+    ]
+  },
+  {
+    "name": "Capacitor Electrostatic Energy Storage (E = ½CV²) Calculator",
+    "description": "Calculate stored electrostatic energy (E = ½ · C · V²) in Joules and microJoules, and stored electric charge (Q = C · V) across capacitor terminals.",
+    "path": "/tools/electric-energy-capacitor-storage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "capacitor energy calculator",
+      "half c v squared calculator",
+      "stored electrostatic energy formula",
+      "capacitor energy in joules online",
+      "defibrillator capacitor energy calculator"
+    ]
+  },
+  {
+    "name": "Electric Dipole Torque & Potential Energy Calculator",
+    "description": "Calculate electrostatic torque (τ = p · E · sin(θ)) and potential energy (U = -p · E · cos(θ)) for an electric dipole aligned at angle θ in a uniform electric field.",
+    "path": "/tools/electric-dipole-torque-potential-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "electric dipole torque calculator",
+      "dipole potential energy u minus p dot e",
+      "torque on electric dipole in uniform field",
+      "p cross e dipole torque online",
+      "polar molecule torque electric field"
+    ]
+  },
+  {
+    "name": "Magnetic Dipole Torque & Potential Energy Calculator",
+    "description": "Calculate magnetic torque (τ = μ · B · sin(θ)) and magnetic potential energy (U = -μ · B · cos(θ)) for current loops and bar compass magnets in a uniform magnetic field.",
+    "path": "/tools/magnetic-dipole-torque-potential-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magnetic dipole torque calculator",
+      "magnetic moment u minus mu dot b",
+      "torque on current loop in magnetic field",
+      "magnetic dipole potential energy online",
+      "compass needle magnetic torque formula"
+    ]
+  },
+  {
+    "name": "RLC Series Circuit AC Impedance & Phase Angle Calculator",
+    "description": "Calculate total complex AC impedance (Z = √(R² + (X_L - X_C)²)), phase angle (θ = arctan((X_L - X_C)/R)), and resonant frequency for series RLC networks.",
+    "path": "/tools/ac-impedance-rlc-series-circuit-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rlc circuit impedance calculator",
+      "ac impedance z calculator online",
+      "inductive capacitive reactance formula",
+      "phase angle rlc series calculator",
+      "complex impedance ohms online"
+    ]
+  },
+  {
+    "name": "Parallel Plate Capacitor & Dielectric Constant Calculator",
+    "description": "Calculate electrostatic capacitance (C = (ε₀ · ε_r · A) / d) in picoFarads (pF) and electric field breakdown limits for parallel plate capacitors.",
+    "path": "/tools/parallel-plate-dielectric-capacitance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "parallel plate capacitor calculator",
+      "dielectric constant capacitance formula",
+      "capacitance plate area distance calculator",
+      "epsilon 0 epsilon r area over d online",
+      "picofarad capacitor sizing"
+    ]
+  },
+  {
+    "name": "Poynting Vector & Electromagnetic Radiation Intensity Calculator",
+    "description": "Calculate electromagnetic wave power intensity (S = (E²) / (2 · μ₀ · c)) in Watts per square meter (W/m²) and magnetic field amplitude (B = E / c) from peak electric field strength.",
+    "path": "/tools/poynting-vector-em-wave-intensity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "poynting vector calculator",
+      "electromagnetic wave intensity calculator",
+      "em radiation power density w m2",
+      "electric to magnetic field amplitude em wave",
+      "poynting vector s formula online"
+    ]
+  },
+  {
+    "name": "Photon Momentum & Radiation Pressure Calculator",
+    "description": "Calculate photon momentum (p = h / λ), radiation pressure (P = 2·I/c for perfect reflection), and solar sail propulsive thrust in space.",
+    "path": "/tools/photon-momentum-radiation-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "radiation pressure calculator",
+      "photon momentum formula calculator",
+      "solar sail thrust calculator online",
+      "pressure of light p 2i over c",
+      "optomechanical radiation pressure online"
+    ]
+  },
+  {
+    "name": "Bohr Hydrogen Atom Energy Levels & Spectral Transitions Calculator",
+    "description": "Calculate quantized electron energy levels (E_n = -13.6 eV / n²), Bohr orbital radii (r_n = n² · a₀), and emitted photon wavelengths (Rydberg formula) for hydrogen atom quantum transitions.",
+    "path": "/tools/bohr-model-hydrogen-energy-levels-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bohr model calculator",
+      "hydrogen energy level formula",
+      "rydberg formula spectral transitions",
+      "lyman balmer paschen series calculator",
+      "electron quantum state energy 13.6 ev"
+    ]
+  },
+  {
+    "name": "de Broglie Matter Wavelength Calculator",
+    "description": "Calculate quantum matter wave de Broglie wavelength (λ = h / (m · v)) and momentum for electrons, neutrons, and macroscopic objects.",
+    "path": "/tools/de-broglie-matter-wavelength-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "de broglie wavelength calculator",
+      "matter wave wavelength formula",
+      "electron de broglie wavelength online",
+      "wave particle duality calculator",
+      "planck constant momentum wavelength online"
+    ]
+  },
+  {
+    "name": "Heisenberg Uncertainty Principle (Δx · Δp ≥ ℏ/2) Calculator",
+    "description": "Calculate quantum mechanical uncertainty limits in position (Δx) and momentum / velocity (Δv = ℏ / (2 · m · Δx)) for subatomic particles.",
+    "path": "/tools/heisenberg-uncertainty-principle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "heisenberg uncertainty principle calculator",
+      "delta x delta p hbar over 2 formula",
+      "position momentum uncertainty online",
+      "quantum uncertainty bound calculator",
+      "electron velocity uncertainty calculator"
+    ]
+  },
+  {
+    "name": "Quantum Particle in a Box (1D Infinite Well) Calculator",
+    "description": "Calculate quantized energy eigenvalues (E_n = (n² · π² · ℏ²) / (2 · m · L²) = (n² · h²) / (8 · m · L²)) and transition photon energies for a particle trapped in a 1D potential well.",
+    "path": "/tools/schrodinger-infinite-potential-well-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "particle in a box calculator",
+      "infinite potential well energy levels",
+      "schrodinger 1d box eigenvalues",
+      "quantum well ground state energy online",
+      "quantum particle box formula"
+    ]
+  },
+  {
+    "name": "Compton Scattering X-Ray Wavelength Shift Calculator",
+    "description": "Calculate photon wavelength shift (Δλ = λ_c · (1 - cos θ) where λ_c = h / (m_e · c) = 2.426 pm) and scattered photon energy after colliding with a stationary electron.",
+    "path": "/tools/compton-scattering-wavelength-shift-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "compton scattering calculator",
+      "compton wavelength shift formula",
+      "x ray photon compton collision online",
+      "compton wavelength of electron 2.426 pm",
+      "quantum photon scattering angle calculator"
+    ]
+  },
+  {
+    "name": "Photoelectric Effect & Work Function Calculator",
+    "description": "Calculate maximum photoelectron kinetic energy (K_max = h · f - Φ = h · c / λ - Φ) in eV, stopping voltage (V_s), and threshold cutoff wavelength.",
+    "path": "/tools/einstein-photoelectric-effect-work-function-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "photoelectric effect calculator",
+      "work function kmax calculator",
+      "stopping potential photoelectric formula",
+      "threshold frequency cutoff wavelength online",
+      "einstein photoelectric equation online"
+    ]
+  },
+  {
+    "name": "Relativistic Length Contraction & Lorentz Factor Calculator",
+    "description": "Calculate relativistic spatial length contraction (L = L₀ · √(1 - v²/c²) = L₀ / γ) and Lorentz factor (γ) for objects moving near the speed of light.",
+    "path": "/tools/lorentz-length-contraction-relativity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "length contraction calculator",
+      "special relativity length contraction formula",
+      "lorentz factor gamma calculator online",
+      "relativistic length contraction percentage",
+      "einstein special relativity calculator"
+    ]
+  },
+  {
+    "name": "Relativistic Kinetic Energy & Total Mass-Energy Calculator",
+    "description": "Calculate relativistic kinetic energy (K = (γ - 1) · m · c²), total energy (E = γ · m · c²), and relativistic momentum (p = γ · m · v) at near-light speeds.",
+    "path": "/tools/relativistic-kinetic-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "relativistic kinetic energy calculator",
+      "gamma minus 1 m c squared calculator",
+      "relativistic total energy calculator online",
+      "relativistic momentum formula",
+      "particle kinetic energy special relativity"
+    ]
+  },
+  {
+    "name": "Sound Distance Inverse-Square Law (dB Loss) Calculator",
+    "description": "Calculate acoustic sound pressure level drop (SPL₂ = SPL₁ - 20 · log₁₀(d₂ / d₁)) and inverse-square sound attenuation across distance.",
+    "path": "/tools/sound-distance-attenuation-inverse-square-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "sound distance attenuation calculator",
+      "inverse square law sound calculator",
+      "spl decibel distance loss formula",
+      "audio db drop with distance online",
+      "acoustic distance 6 db rule"
+    ]
+  },
+  {
+    "name": "Audio BPM to Delay & Reverb Time (ms / Hz) Calculator",
+    "description": "Calculate tempo-synced delay times in milliseconds (ms) and LFO modulation frequencies (Hz) for whole, quarter, dotted, and triplet musical note subdivisions.",
+    "path": "/tools/audio-bpm-to-delay-time-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "bpm to delay time calculator",
+      "bpm to milliseconds calculator music",
+      "reverb pre delay time bpm calculator",
+      "audio tempo sync ms calculator",
+      "quarter note delay milliseconds formula"
+    ]
+  },
+  {
+    "name": "Decibel Addition (Sound Source Summation) Calculator",
+    "description": "Calculate total combined sound pressure level (SPL_tot = 10 · log₁₀(Σ 10^(SPLᵢ / 10))) from multiple simultaneous uncorrelated noise sources.",
+    "path": "/tools/decibel-addition-sound-level-summation-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "decibel addition calculator",
+      "sound level summation calculator",
+      "add multiple db sources online",
+      "uncorrelated noise decibel addition formula",
+      "spl sum calculator online"
+    ]
+  },
+  {
+    "name": "Equal Temperament Musical Note Frequency Calculator",
+    "description": "Calculate fundamental musical pitch frequencies (f = 440 · 2^((n - 69) / 12) Hz) and MIDI note numbers based on A4 = 440 Hz standard concert pitch.",
+    "path": "/tools/musical-note-frequency-equal-temperament-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "musical note frequency calculator",
+      "equal temperament pitch calculator",
+      "midi note number to hz formula",
+      "a4 440 hz frequency chart online",
+      "piano key frequency online"
+    ]
+  }
+]

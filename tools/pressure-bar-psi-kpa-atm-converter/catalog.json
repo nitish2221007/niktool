@@ -1,0 +1,15 @@
+{
+  "name": "Pressure Unit Converter (Bar, PSI, kPa, atm)",
+  "description": "Convert pressure measurements across Bar, PSI, Kilopascals (kPa), Standard Atmospheres (atm), and Torr / mmHg in real time.",
+  "path": "/tools/pressure-bar-psi-kpa-atm-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pressure unit converter",
+    "psi to bar converter",
+    "kpa to psi converter",
+    "bar to atm converter",
+    "pressure conversion matrix online"
+  ],
+  "order": 129
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 10px to REM",
+  "description": "Convert 10 pixels (px) to REM units based on 16px root font size (0.6250rem).",
+  "path": "/tools/convert-10px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 10px to rem",
+    "Convert 10px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

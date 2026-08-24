@@ -1,0 +1,15 @@
+{
+  "name": "Convert 43 KM/H to MPH Speed",
+  "description": "Convert 43 kilometers per hour (km/h) to miles per hour (26.72 mph).",
+  "path": "/tools/convert-43-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 43 kmh to mph speed",
+    "Convert 43 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

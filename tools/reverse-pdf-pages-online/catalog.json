@@ -1,0 +1,16 @@
+{
+  "name": "Reverse PDF Pages Online",
+  "description": "Reverse the page order of any PDF document (last page becomes first).",
+  "path": "/tools/reverse-pdf-pages-online/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "reverse pdf pages online",
+    "Reverse PDF Pages Online",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

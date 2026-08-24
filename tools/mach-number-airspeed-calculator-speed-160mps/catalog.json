@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number Airspeed Calculator (Velocity 160 m/s)",
+  "description": "Calculate flight Mach number (Mach 0.47 - Subsonic) for airspeed velocity of 160 m/s.",
+  "path": "/tools/mach-number-airspeed-calculator-speed-160mps/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "mach number airspeed calculator speed 160mps",
+    "Mach Number Airspeed Calculator (Velocity 160 m/s)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 17°C Celsius to Kelvin Temp",
+  "description": "Convert 17 degrees Celsius (°C) to Kelvin (290.15 K) instantly.",
+  "path": "/tools/convert-17-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 17 celsius to kelvin temp",
+    "Convert 17°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

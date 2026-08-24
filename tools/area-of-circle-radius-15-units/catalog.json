@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 15 Units)",
+  "description": "Calculate the exact area of a circle with radius 15 units (A = πr² = 706.86).",
+  "path": "/tools/area-of-circle-radius-15-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 15 units",
+    "Area of Circle (Radius 15 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

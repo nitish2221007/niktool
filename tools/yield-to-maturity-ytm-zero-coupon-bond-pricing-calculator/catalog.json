@@ -1,0 +1,15 @@
+{
+  "name": "Bond Pricing & Yield to Maturity (YTM = [(C + (M-P)/n) / ((M+P)/2)]) Calculator",
+  "description": "Calculate fixed coupon bond present value price (P = Σ C/(1+y)^t + M/(1+y)^n) and approximate Yield to Maturity (YTM) for finance students and bond traders.",
+  "path": "/tools/yield-to-maturity-ytm-zero-coupon-bond-pricing-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "yield to maturity calculator",
+    "ytm bond formula coupon price par value online",
+    "bond pricing present value cash flows calculator",
+    "zero coupon bond ytm calculator",
+    "fixed income investment bond yield calculator online"
+  ],
+  "order": 1001
+}

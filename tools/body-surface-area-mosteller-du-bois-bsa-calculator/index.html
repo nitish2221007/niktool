@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate patient Body Surface Area (Mosteller BSA = √[(Height in cm · Weight in kg) / 3600]) in m² for precision oncology chemotherapy dosing, cardiac index, and burn Parkland resuscitation.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/body-surface-area-mosteller-du-bois-bsa-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator | NikTool">
+  <meta property="og:description" content="Calculate patient Body Surface Area (Mosteller BSA = √[(Height in cm · Weight in kg) / 3600]) in m² for precision oncology chemotherapy dosing, cardiac index, and burn Parkland resuscitation.">
+  <meta property="og:url" content="https://niktool.in/tools/body-surface-area-mosteller-du-bois-bsa-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator",
+        "applicationCategory": "MedicalWebPage",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/body-surface-area-mosteller-du-bois-bsa-calculator/",
+        "description": "Calculate patient Body Surface Area (Mosteller BSA = √[(Height in cm · Weight in kg) / 3600]) in m² for precision oncology chemotherapy dosing, cardiac index, and burn Parkland resuscitation.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the average BSA for adult men and women?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The average adult male BSA is approximately $1.9\text{ m}^2$, while the average adult female BSA is approximately $1.6\text{ m}^2$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator</h1>
+      <p>Calculate patient Body Surface Area (Mosteller BSA = √[(Height in cm · Weight in kg) / 3600]) in m² for precision oncology chemotherapy dosing, cardiac index, and burn Parkland resuscitation.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Height (cm or inches) & Body Weight (kg or lbs)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bsa-ht">Height (cm)</label>
+          <input class="tool-textarea" id="bsa-ht" type="number" step="1" value="175" placeholder="175 cm (5 ft 9 in)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bsa-wt">Weight (kg)</label>
+          <input class="tool-textarea" id="bsa-wt" type="number" step="1" value="70.0" placeholder="70.0 kg (154 lbs)" />
+        </div>
+      </div>
+      <div id="bsa-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bsa-res-most" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">BSA = 1.84 m² (Mosteller)</span>
+            <span class="stat-label">Mosteller Simplified Body Surface Area (m²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bsa-res-dubois" style="font-weight:700;">Du Bois BSA = 1.85 m² (Typical Adult Average: 1.7 - 1.9 m²)</span>
+            <span class="stat-label">Du Bois & Du Bois Comparison & Standard Norm</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Body Surface Area (Mosteller & Du Bois BSA) Chemotherapy Dosing Calculator</h2>
+      <ol>
+        <li>Enter patient height in centimeters (cm).</li>
+        <li>Enter patient weight in kilograms (kg).</li>
+        <li>Inspect calculated Body Surface Area (BSA) in square meters ($m^2$) for oncology chemotherapy regimens (e.g. $mg/m^2$).</li>
+      </ol>
+
+      <h2>Clinical Oncology & Hemodynamic Normalization Standard</h2>
+      <p>Basal metabolic rate and cardiac output correlate closer with Body Surface Area ($BSA$) than raw body weight; Mosteller's formula ($BSA = sqrt{rac{Ht 	imes Wt}{3600}}$) is universally used to calculate narrow-therapeutic-index chemotherapy protocols (Cisplatin, Doxorubicin).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the average BSA for adult men and women?</summary>
+        <p>The average adult male BSA is approximately $1.9	ext{ m}^2$, while the average adult female BSA is approximately $1.6	ext{ m}^2$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/body-surface-area-mosteller-du-bois-bsa-calculator/tool.js"></script>
+</body>
+</html>

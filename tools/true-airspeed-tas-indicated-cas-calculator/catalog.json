@@ -1,0 +1,15 @@
+{
+  "name": "True Airspeed (TAS) & Density Altitude Calculator",
+  "description": "Calculate aircraft True Airspeed (TAS = CAS · √(ρ₀ / ρ)) in knots from Calibrated Airspeed (CAS), Pressure Altitude (feet), and Outside Air Temperature (°C).",
+  "path": "/tools/true-airspeed-tas-indicated-cas-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "true airspeed calculator",
+    "tas from cas calculator",
+    "aviation density altitude tas formula",
+    "indicated airspeed to true airspeed online",
+    "aircraft tas knots calculation"
+  ],
+  "order": 345
+}

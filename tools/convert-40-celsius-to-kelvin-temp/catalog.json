@@ -1,0 +1,15 @@
+{
+  "name": "Convert 40°C Celsius to Kelvin Temp",
+  "description": "Convert 40 degrees Celsius (°C) to Kelvin (313.15 K) instantly.",
+  "path": "/tools/convert-40-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 40 celsius to kelvin temp",
+    "Convert 40°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

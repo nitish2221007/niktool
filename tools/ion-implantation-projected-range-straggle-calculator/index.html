@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ion Implantation Projected Range & Straggle (LSS Theory) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate semiconductor dopant ion implantation depth profile (Projected Range R_p and Straggle ΔR_p) and peak Gaussian dopant concentration (N_peak = Dose / (√(2π)·ΔR_p)).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ion-implantation-projected-range-straggle-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ion Implantation Projected Range & Straggle (LSS Theory) Calculator | NikTool">
+  <meta property="og:description" content="Calculate semiconductor dopant ion implantation depth profile (Projected Range R_p and Straggle ΔR_p) and peak Gaussian dopant concentration (N_peak = Dose / (√(2π)·ΔR_p)).">
+  <meta property="og:url" content="https://niktool.in/tools/ion-implantation-projected-range-straggle-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Ion Implantation Projected Range & Straggle (LSS Theory) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ion-implantation-projected-range-straggle-calculator/",
+        "description": "Calculate semiconductor dopant ion implantation depth profile (Projected Range R_p and Straggle ΔR_p) and peak Gaussian dopant concentration (N_peak = Dose / (√(2π)·ΔR_p)).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is high-temperature rapid thermal annealing (RTA) required after ion implantation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Bombarding ions destroy the silicon crystalline lattice into an amorphous state; thermal annealing recrystallizes the lattice and electrically activates the dopants into substitutional lattice sites."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Ion Implantation Projected Range & Straggle (LSS Theory) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Ion Implantation Projected Range & Straggle (LSS Theory) Calculator</h1>
+      <p>Calculate semiconductor dopant ion implantation depth profile (Projected Range R_p and Straggle ΔR_p) and peak Gaussian dopant concentration (N_peak = Dose / (√(2π)·ΔR_p)).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Dopant Species (Boron, Phosphorus, Arsenic), Energy E (keV) & Ion Dose (ions/cm²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ion-spec">Dopant Ion</label>
+          <select class="tool-textarea" id="ion-spec">
+            <option value="boron" selected>Boron (B+ Light, Deep Range)</option>
+            <option value="phosphorus">Phosphorus (P+ Medium)</option>
+            <option value="arsenic">Arsenic (As+ Heavy, Shallow Junction)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ion-energy">Energy E (keV)</label>
+          <input class="tool-textarea" id="ion-energy" type="number" step="any" value="50.0" placeholder="50.0 keV" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ion-dose">Dose (ions/cm²)</label>
+          <input class="tool-textarea" id="ion-dose" type="number" step="any" value="1.0e15" placeholder="1.0e15 ions/cm² (Source/Drain)" />
+        </div>
+      </div>
+      <div id="ion-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ion-res-rp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">R_p = 175.0 nm (ΔR_p = 54.0 nm)</span>
+            <span class="stat-label">Projected Range Depth (R_p) & Longitudinal Straggle (ΔR_p)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ion-res-peak" style="font-weight:700;">Peak Concentration: 7.39 × 10¹⁹ atoms/cm³ @ 175 nm</span>
+            <span class="stat-label">Peak Gaussian Doping Density (N_peak = Φ / (√(2π)·ΔR_p))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Ion Implantation Projected Range & Straggle (LSS Theory) Calculator</h2>
+      <ol>
+        <li>Select dopant ion species (Boron for P-type, Phosphorus/Arsenic for N-type).</li>
+        <li>Enter ion accelerator kinetic energy in keV (typically 10 to 150 keV).</li>
+        <li>Enter total implanted dose in ions/cm² (typically $10^{12}$ for threshold adjust to $10^{15}	ext{ ions/cm}^2$ for source/drain contact junctions).</li>
+        <li>Inspect average projected depth range $R_p$, longitudinal straggle Gaussian spread $Delta R_p$, and peak subsurface doping concentration.</li>
+      </ol>
+
+      <h2>Lindhard, Scharff & Schiøtt (LSS) 1963 Stopping Theory</h2>
+      <p>Implanted ions lose kinetic energy via electronic drag and nuclear elastic collisions with silicon atoms; heavy arsenic ions stop rapidly within a few dozen nanometers, making them ideal for ultra-shallow source/drain junctions.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is high-temperature rapid thermal annealing (RTA) required after ion implantation?</summary>
+        <p>Bombarding ions destroy the silicon crystalline lattice into an amorphous state; thermal annealing recrystallizes the lattice and electrically activates the dopants into substitutional lattice sites.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ion-implantation-projected-range-straggle-calculator/tool.js"></script>
+</body>
+</html>

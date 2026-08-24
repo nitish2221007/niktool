@@ -1,0 +1,15 @@
+{
+  "name": "SHA-512 Cryptographic Hash Generator",
+  "description": "Generate high-security 512-bit SHA-512 cryptographic hashes (128 hex characters) locally via the native browser Web Crypto API.",
+  "path": "/tools/hash-sha512-generator/",
+  "category": "Security",
+  "icon": "shield",
+  "keywords": [
+    "sha512 hash generator",
+    "sha 512 online",
+    "generate sha512 checksum",
+    "crypto sha512 hasher",
+    "secure sha512 generator"
+  ],
+  "order": 165
+}

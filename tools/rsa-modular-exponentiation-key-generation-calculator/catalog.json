@@ -1,0 +1,15 @@
+{
+  "name": "RSA Asymmetric Key Generation & Fast Modular Exponentiation (c = m^e mod n) Calculator",
+  "description": "Calculate RSA public/private key pairs (d ≡ e⁻¹ mod φ(n)), Euler totient φ(n) = (p-1)·(q-1), and fast square-and-multiply modular exponentiation encryption (c = m^e mod n).",
+  "path": "/tools/rsa-modular-exponentiation-key-generation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rsa calculator",
+    "rsa key generation formula modular inverse d equals e inverse mod phi online",
+    "modular exponentiation c equals m power e mod n calculator",
+    "public private key rsa encryption calculator online",
+    "euler totient rsa cryptosystem calculator"
+  ],
+  "order": 822
+}

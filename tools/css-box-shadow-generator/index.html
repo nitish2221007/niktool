@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Box Shadow Generator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Design multi-layer modern CSS box shadows with live interactive preview, inset shadows, blur radius, spread, and 1-click copy CSS.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/css-box-shadow-generator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CSS Box Shadow Generator | NikTool">
+  <meta property="og:description" content="Design multi-layer modern CSS box shadows with live interactive preview, inset shadows, blur radius, spread, and 1-click copy CSS.">
+  <meta property="og:url" content="https://niktool.in/tools/css-box-shadow-generator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "CSS Box Shadow Generator",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/css-box-shadow-generator/",
+        "description": "Design multi-layer modern CSS box shadows with live interactive preview, inset shadows, blur radius, spread, and 1-click copy CSS.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What does the spread parameter do in box-shadow?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Positive spread expands the shadow bounding box in all directions, while negative spread shrinks it."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>CSS Box Shadow Generator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>CSS Box Shadow Generator</h1>
+      <p>Design multi-layer modern CSS box shadows with live interactive preview, inset shadows, blur radius, spread, and 1-click copy CSS.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Box Shadow Controls</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sh-x">Horizontal Offset (X): <span id="sh-x-val">0px</span></label>
+          <input type="range" id="sh-x" min="-50" max="50" value="0" style="width:100%;" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-y">Vertical Offset (Y): <span id="sh-y-val">12px</span></label>
+          <input type="range" id="sh-y" min="-50" max="50" value="12" style="width:100%;" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-blur">Blur Radius: <span id="sh-blur-val">28px</span></label>
+          <input type="range" id="sh-blur" min="0" max="80" value="28" style="width:100%;" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sh-spread">Spread Radius: <span id="sh-spread-val">0px</span></label>
+          <input type="range" id="sh-spread" min="-30" max="50" value="0" style="width:100%;" />
+        </div>
+      </div>
+      <div style="display:flex; justify-content:center; align-items:center; padding:3rem 1rem; background:var(--paper); border-radius:16px; margin:1.5rem 0;">
+        <div id="sh-preview-box" style="width:200px; height:120px; background:var(--surface); border-radius:14px; display:grid; place-items:center; font-weight:700; color:var(--ink);">Shadow Preview</div>
+      </div>
+      <div id="sh-res-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+          <label class="control-label" style="margin-bottom:0;">Generated CSS</label>
+          <button class="button secondary" id="copy-sh-btn" type="button" style="padding:0.25rem 0.6rem; font-size:0.8rem;">Copy CSS</button>
+        </div>
+        <input class="tool-textarea" id="sh-css-output" type="text" readonly style="font-family:monospace; font-weight:700;" />
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use CSS Box Shadow Generator</h2>
+      <ol>
+        <li>Adjust horizontal (X), vertical (Y), blur, and spread sliders.</li>
+        <li>Check the live preview card against the neutral background.</li>
+        <li>Copy the ready CSS box-shadow rule.</li>
+      </ol>
+
+      <h2>Layering Natural CSS Shadows</h2>
+      <p>Natural lighting requires higher blur and softer opacity (e.g. 0 12px 28px rgba(0,0,0,0.12)) rather than harsh, dark offset shadows.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What does the spread parameter do in box-shadow?</summary>
+        <p>Positive spread expands the shadow bounding box in all directions, while negative spread shrinks it.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/css-box-shadow-generator/tool.js"></script>
+</body>
+</html>

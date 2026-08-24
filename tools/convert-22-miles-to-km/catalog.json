@@ -1,0 +1,15 @@
+{
+  "name": "Convert 22 Miles to KM",
+  "description": "Convert 22 miles to kilometers (35.41 km). 100% free and local.",
+  "path": "/tools/convert-22-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 22 miles to km",
+    "Convert 22 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

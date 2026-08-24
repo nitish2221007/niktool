@@ -1,0 +1,15 @@
+{
+  "name": "Convert 17 KM to Miles",
+  "description": "Convert 17 kilometers to miles (10.56 miles). 100% free and local.",
+  "path": "/tools/convert-17-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 17 km to miles",
+    "Convert 17 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

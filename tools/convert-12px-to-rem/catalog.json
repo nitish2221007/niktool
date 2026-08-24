@@ -1,0 +1,15 @@
+{
+  "name": "Convert 12px to REM",
+  "description": "Convert 12 pixels (px) to REM units based on 16px root font size (0.7500rem).",
+  "path": "/tools/convert-12px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 12px to rem",
+    "Convert 12px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

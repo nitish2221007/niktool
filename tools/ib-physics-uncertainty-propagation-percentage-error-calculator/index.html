@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate experimental physics measurement uncertainty propagation for addition/subtraction (Δz = Δx + Δy), multiplication/division (Δz/z = Δx/x + Δy/y), and powers (Δz/z = n·Δx/x) under the International Baccalaureate (IB DP) Physics guide.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ib-physics-uncertainty-propagation-percentage-error-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator | NikTool">
+  <meta property="og:description" content="Calculate experimental physics measurement uncertainty propagation for addition/subtraction (Δz = Δx + Δy), multiplication/division (Δz/z = Δx/x + Δy/y), and powers (Δz/z = n·Δx/x) under the International Baccalaureate (IB DP) Physics guide.">
+  <meta property="og:url" content="https://niktool.in/tools/ib-physics-uncertainty-propagation-percentage-error-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ib-physics-uncertainty-propagation-percentage-error-calculator/",
+        "description": "Calculate experimental physics measurement uncertainty propagation for addition/subtraction (Δz = Δx + Δy), multiplication/division (Δz/z = Δx/x + Δy/y), and powers (Δz/z = n·Δx/x) under the International Baccalaureate (IB DP) Physics guide.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do uncertainties add during subtraction (Z = X - Y)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Errors and uncertainties always accumulate and can never cancel each other out; subtracting two numbers with uncertainty increases the relative fractional error."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator</h1>
+      <p>Calculate experimental physics measurement uncertainty propagation for addition/subtraction (Δz = Δx + Δy), multiplication/division (Δz/z = Δx/x + Δy/y), and powers (Δz/z = n·Δx/x) under the International Baccalaureate (IB DP) Physics guide.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Operation Type, Variable X (x ± Δx), Variable Y (y ± Δy) or Power n</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="unc-op">Math Operation</label>
+          <select class="tool-textarea" id="unc-op">
+            <option value="mult" selected>Multiplication (Z = X · Y)</option>
+            <option value="div">Division (Z = X / Y)</option>
+            <option value="add">Addition (Z = X + Y)</option>
+            <option value="sub">Subtraction (Z = X - Y)</option>
+            <option value="pow">Power (Z = X^n)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="unc-x">Value X (x)</label>
+          <input class="tool-textarea" id="unc-x" type="number" step="any" value="12.50" placeholder="12.50" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="unc-dx">Absolute Δx</label>
+          <input class="tool-textarea" id="unc-dx" type="number" step="any" value="0.25" placeholder="0.25 (±Δx)" />
+        </div>
+        <div class="control-group" id="unc-grp-y">
+          <label class="control-label" for="unc-y">Value Y (y)</label>
+          <input class="tool-textarea" id="unc-y" type="number" step="any" value="4.00" placeholder="4.00" />
+        </div>
+        <div class="control-group" id="unc-grp-dy">
+          <label class="control-label" for="unc-dy">Absolute Δy</label>
+          <input class="tool-textarea" id="unc-dy" type="number" step="any" value="0.10" placeholder="0.10 (±Δy)" />
+        </div>
+      </div>
+      <div id="unc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="unc-res-z" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Z = 50.00 ± 2.25</span>
+            <span class="stat-label">Result with Absolute Uncertainty (Z ± Δz)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="unc-res-pct" style="font-weight:700;">Percentage Uncertainty: ±4.50% (X: ±2.00% + Y: ±2.50% added)</span>
+            <span class="stat-label">Fractional & Percentage Error Breakdown</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use IB Physics Measurement Absolute & Percentage Uncertainty Propagation Calculator</h2>
+      <ol>
+        <li>Select mathematical operation (Multiplication, Division, Addition, Subtraction, or Power).</li>
+        <li>Enter raw experimental values and their associated instrument uncertainties ($Delta x$ and $Delta y$).</li>
+        <li>Inspect combined result $Z pm Delta Z$ formatted with correct absolute uncertainty and percentage error breakdown according to IB DP Physics Topic 1 standards.</li>
+      </ol>
+
+      <h2>IB Physics Internal Assessment (IA) Uncertainty Standard</h2>
+      <p>In experimental science, uncertainties must always be propagated correctly: absolute uncertainties add during addition and subtraction ($Delta z = Delta x + Delta y$), while percentage fractional uncertainties add during multiplication and division ($rac{Delta z}{z} = rac{Delta x}{x} + rac{Delta y}{y}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do uncertainties add during subtraction (Z = X - Y)?</summary>
+        <p>Errors and uncertainties always accumulate and can never cancel each other out; subtracting two numbers with uncertainty increases the relative fractional error.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ib-physics-uncertainty-propagation-percentage-error-calculator/tool.js"></script>
+</body>
+</html>

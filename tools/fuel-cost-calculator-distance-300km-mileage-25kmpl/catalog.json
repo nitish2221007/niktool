@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (300 km Distance, 25 km/l Mileage)",
+  "description": "Calculate total fuel required (12.0 L) and estimated cost (₹1158) for 300 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-300km-mileage-25kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 300km mileage 25kmpl",
+    "Fuel Cost Calculator (300 km Distance, 25 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

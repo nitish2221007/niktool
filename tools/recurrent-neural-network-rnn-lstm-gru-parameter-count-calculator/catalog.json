@@ -1,0 +1,15 @@
+{
+  "name": "RNN, LSTM & GRU Neural Network Parameter Count Calculator",
+  "description": "Calculate trainable parameter weight count for recurrent neural network layers: Standard Simple RNN (d_h(d_h + d_x) + d_h), GRU (3 · (d_h(d_h + d_x) + d_h)), and LSTM (4 · (d_h(d_h + d_x) + d_h)) gates.",
+  "path": "/tools/recurrent-neural-network-rnn-lstm-gru-parameter-count-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "lstm parameter calculator",
+    "gru rnn parameter count formula deep learning online",
+    "recurrent neural network weights biases calculator",
+    "lstm gate parameters input hidden size calculator",
+    "deep learning natural language processing rnn online"
+  ],
+  "order": 1229
+}

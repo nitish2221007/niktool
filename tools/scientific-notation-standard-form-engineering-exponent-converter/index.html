@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scientific Notation, Standard Form & Engineering Exponent Converter - Free Online Tool | NikTool</title>
+  <meta name="description" content="Convert standard decimal numbers into Scientific Notation (a · 10^b where 1 ≤ |a| and |a| is less than 10) and Engineering Notation (powers of 10 in multiples of 3: kilo, mega, micro, nano) with significant figure tracking.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/scientific-notation-standard-form-engineering-exponent-converter/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Scientific Notation, Standard Form & Engineering Exponent Converter | NikTool">
+  <meta property="og:description" content="Convert standard decimal numbers into Scientific Notation (a · 10^b where 1 ≤ |a| and |a| is less than 10) and Engineering Notation (powers of 10 in multiples of 3: kilo, mega, micro, nano) with significant figure tracking.">
+  <meta property="og:url" content="https://niktool.in/tools/scientific-notation-standard-form-engineering-exponent-converter/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Scientific Notation, Standard Form & Engineering Exponent Converter",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/scientific-notation-standard-form-engineering-exponent-converter/",
+        "description": "Convert standard decimal numbers into Scientific Notation (a · 10^b where 1 ≤ |a| and |a| is less than 10) and Engineering Notation (powers of 10 in multiples of 3: kilo, mega, micro, nano) with significant figure tracking.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How does Engineering Notation differ from Scientific Notation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In Engineering Notation, the exponent must always be a multiple of 3 ($10^3, 10^6, 10^{-3}, 10^{-6}$), directly matching metric prefixes like kilo, mega, milli, and micro."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Scientific Notation, Standard Form & Engineering Exponent Converter</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Scientific Notation, Standard Form & Engineering Exponent Converter</h1>
+      <p>Convert standard decimal numbers into Scientific Notation (a · 10^b where 1 ≤ |a| and |a| is less than 10) and Engineering Notation (powers of 10 in multiples of 3: kilo, mega, micro, nano) with significant figure tracking.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Decimal or Exponential Number Input (e.g. 0.000456 or 6400000)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="sn-in">Raw Number</label>
+        <input class="tool-textarea" id="sn-in" type="text" value="0.000456" placeholder="e.g. 0.000456 or 150000000" />
+      </div>
+      <div id="sn-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sn-res-sci" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">4.56 × 10⁻⁴ (Scientific)</span>
+            <span class="stat-label">Standard Form Scientific Notation (1 ≤ a < 10)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sn-res-eng" style="color:var(--green-dark); font-weight:700;">Engineering: 456.0 × 10⁻⁶ (456 μ | Micro Metric Prefix)</span>
+            <span class="stat-label">Engineering Notation (Multiple of 10³ Exponents)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Scientific Notation, Standard Form & Engineering Exponent Converter</h2>
+      <ol>
+        <li>Enter any positive or negative decimal number.</li>
+        <li>Inspect normalized scientific notation ($a 	imes 10^b$ where $1 le |a| < 10$).</li>
+        <li>View engineering notation format (powers of 10 constrained to multiples of 3 for SI unit prefixes).</li>
+      </ol>
+
+      <h2>Handling Astronomical and Subatomic Scales</h2>
+      <p>Scientific notation prevents counting errors when working with vast numbers like the speed of light ($3.0 	imes 10^8	ext{ m/s}$) or minuscule constants like the elementary electron charge ($1.602 	imes 10^{-19}	ext{ C}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How does Engineering Notation differ from Scientific Notation?</summary>
+        <p>In Engineering Notation, the exponent must always be a multiple of 3 ($10^3, 10^6, 10^{-3}, 10^{-6}$), directly matching metric prefixes like kilo, mega, milli, and micro.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/scientific-notation-standard-form-engineering-exponent-converter/tool.js"></script>
+</body>
+</html>

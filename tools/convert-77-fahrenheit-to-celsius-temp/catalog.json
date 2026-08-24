@@ -1,0 +1,15 @@
+{
+  "name": "Convert 77°F Fahrenheit to Celsius Temp",
+  "description": "Convert 77 degrees Fahrenheit (°F) to Celsius (25.0°C) instantly.",
+  "path": "/tools/convert-77-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 77 fahrenheit to celsius temp",
+    "Convert 77°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

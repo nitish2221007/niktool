@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (260 km Distance, 14 km/l Mileage)",
+  "description": "Calculate fuel needed (18.6 L) and cost (₹1795) for 260 km trip at 14 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-260km-mileage-14kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 260km mileage 14kmpl",
+    "Fuel Cost Trip Calculator (260 km Distance, 14 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

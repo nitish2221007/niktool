@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTTP Status Code Reference & Response Inspector - Free Online Tool | NikTool</title>
+  <meta name="description" content="Lookup HTTP REST API response status codes (200, 201, 301, 400, 401, 403, 404, 500, 503) with RFC specifications, caching rules, and browser behaviors.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/http-status-code-checker/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HTTP Status Code Reference & Response Inspector | NikTool">
+  <meta property="og:description" content="Lookup HTTP REST API response status codes (200, 201, 301, 400, 401, 403, 404, 500, 503) with RFC specifications, caching rules, and browser behaviors.">
+  <meta property="og:url" content="https://niktool.in/tools/http-status-code-checker/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "HTTP Status Code Reference & Response Inspector",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/http-status-code-checker/",
+        "description": "Lookup HTTP REST API response status codes (200, 201, 301, 400, 401, 403, 404, 500, 503) with RFC specifications, caching rules, and browser behaviors.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the difference between 401 and 403?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "401 means \"Unauthenticated\" (login credentials missing/invalid); 403 means \"Forbidden\" (you are logged in, but lack administrative permission)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>HTTP Status Code Reference & Response Inspector</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>HTTP Status Code Reference & Response Inspector</h1>
+      <p>Lookup HTTP REST API response status codes (200, 201, 301, 400, 401, 403, 404, 500, 503) with RFC specifications, caching rules, and browser behaviors.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Search or Select HTTP Status Code</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="http-select">Select HTTP Code:</label>
+        <select class="tool-textarea" id="http-select">
+          <option value="200" selected>200 OK - Successful GET/POST response</option>
+          <option value="201">201 Created - Resource created successfully</option>
+          <option value="204">204 No Content - Action succeeded, no body returned</option>
+          <option value="301">301 Moved Permanently - Permanent URL redirect (SEO)</option>
+          <option value="302">302 Found - Temporary redirect</option>
+          <option value="304">304 Not Modified - Cached response revalidation</option>
+          <option value="400">400 Bad Request - Malformed payload or validation failure</option>
+          <option value="401">401 Unauthorized - Missing/invalid authentication token</option>
+          <option value="403">403 Forbidden - Authenticated but lacks permissions</option>
+          <option value="404">404 Not Found - Requested endpoint does not exist</option>
+          <option value="429">429 Too Many Requests - Rate limit exceeded</option>
+          <option value="500">500 Internal Server Error - Unhandled backend exception</option>
+          <option value="502">502 Bad Gateway - Upstream reverse proxy error</option>
+          <option value="503">503 Service Unavailable - Server overloaded / maintenance</option>
+        </select>
+      </div>
+      <div id="http-res-card" style="margin-top:1.25rem;">
+        <div style="background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:1rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
+            <span id="http-badge" style="background:#22c55e; color:#fff; padding:0.25rem 0.6rem; border-radius:6px; font-weight:800; font-size:1.1rem;">200 OK</span>
+            <span id="http-cat" style="font-weight:700; color:var(--text-muted);">2xx Success</span>
+          </div>
+          <p id="http-desc" style="margin:0; font-size:0.95rem; line-height:1.5;">The standard response for successful HTTP requests. The payload returned depends on the request method (GET returns data, POST returns action result).</p>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use HTTP Status Code Reference & Response Inspector</h2>
+      <ol>
+        <li>Select any standard HTTP status code.</li>
+        <li>Inspect semantic meaning, client vs server classification, and caching implications.</li>
+      </ol>
+
+      <h2>IETF RFC 9110 HTTP Semantics Standard</h2>
+      <p>HTTP status codes standardize communication between web clients, proxies, CDNs, and backend servers across 5 distinct classes (1xx Informational, 2xx Success, 3xx Redirection, 4xx Client Error, 5xx Server Error).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the difference between 401 and 403?</summary>
+        <p>401 means "Unauthenticated" (login credentials missing/invalid); 403 means "Forbidden" (you are logged in, but lack administrative permission).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/http-status-code-checker/tool.js"></script>
+</body>
+</html>

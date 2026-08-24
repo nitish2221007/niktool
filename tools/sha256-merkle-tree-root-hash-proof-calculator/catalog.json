@@ -1,0 +1,15 @@
+{
+  "name": "Merkle Tree Binary Root Hash & Cryptographic Inclusion Proof Calculator",
+  "description": "Calculate cryptographic Merkle Tree root hashes (Root = Hash(H_L || H_R)) and generate compact O(log N) authentication branch inclusion proofs for blockchain and Git data verification.",
+  "path": "/tools/sha256-merkle-tree-root-hash-proof-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "merkle tree calculator",
+    "merkle root hash formula hash hl hr online",
+    "merkle proof inclusion verification calculator",
+    "blockchain transaction merkle tree root calculator",
+    "git git-tree merkle root online"
+  ],
+  "order": 826
+}

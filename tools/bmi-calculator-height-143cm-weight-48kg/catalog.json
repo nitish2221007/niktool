@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 143cm, Weight 48kg)",
+  "description": "Calculate Body Mass Index (BMI 23.5) for height 143 cm and weight 48 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-143cm-weight-48kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 143cm weight 48kg",
+    "BMI Calculator (Height 143cm, Weight 48kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

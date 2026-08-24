@@ -1,0 +1,15 @@
+{
+  "name": "Bulk UUID v4 & v7 Generator",
+  "description": "Generate batches of cryptographically random UUID v4 and timestamp-ordered UUID v7 identifiers in uppercase or lowercase.",
+  "path": "/tools/uuid-v4-v7-bulk-generator/",
+  "category": "Developer",
+  "icon": "shield",
+  "keywords": [
+    "uuid bulk generator",
+    "uuid v7 generator online",
+    "generate 100 uuids",
+    "batch guid generator",
+    "crypto random uuid generator"
+  ],
+  "order": 97
+}

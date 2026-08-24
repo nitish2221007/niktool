@@ -1,0 +1,15 @@
+{
+  "name": "Compress Image to 900KB Online",
+  "description": "Compress JPG, PNG, and WebP images to under 900KB without losing quality. 100% free and local.",
+  "path": "/tools/compress-image-to-900kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "compress image to 900kb",
+    "Compress Image to 900KB Online",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

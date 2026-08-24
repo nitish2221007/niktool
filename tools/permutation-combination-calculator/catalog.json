@@ -1,0 +1,16 @@
+{
+  "name": "Permutation and Combination Calculator",
+  "description": "Calculate permutations (nPr) and combinations (nCr) with step-by-step factorial formulas and instant probability computation.",
+  "path": "/tools/permutation-combination-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "permutation and combination calculator",
+    "npr calculator",
+    "ncr calculator",
+    "combinatorics calculator",
+    "permutations formula",
+    "combinations online"
+  ],
+  "order": 53
+}

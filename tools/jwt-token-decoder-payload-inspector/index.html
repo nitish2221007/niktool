@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSON Web Token (JWT) Decoder & Claims Inspector - Free Online Tool | NikTool</title>
+  <meta name="description" content="Decode Base64Url-encoded JSON Web Tokens (JWT) into raw Header, Claims Payload, expiration time (exp), and signature components client-side with zero data transmission.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/jwt-token-decoder-payload-inspector/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JSON Web Token (JWT) Decoder & Claims Inspector | NikTool">
+  <meta property="og:description" content="Decode Base64Url-encoded JSON Web Tokens (JWT) into raw Header, Claims Payload, expiration time (exp), and signature components client-side with zero data transmission.">
+  <meta property="og:url" content="https://niktool.in/tools/jwt-token-decoder-payload-inspector/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "JSON Web Token (JWT) Decoder & Claims Inspector",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/jwt-token-decoder-payload-inspector/",
+        "description": "Decode Base64Url-encoded JSON Web Tokens (JWT) into raw Header, Claims Payload, expiration time (exp), and signature components client-side with zero data transmission.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Does decoding a JWT verify its signature?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Decoding parses the Base64Url JSON payload to read claims; verifying cryptographic authenticity requires testing the signature against the server's private/public key."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>JSON Web Token (JWT) Decoder & Claims Inspector</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>JSON Web Token (JWT) Decoder & Claims Inspector</h1>
+      <p>Decode Base64Url-encoded JSON Web Tokens (JWT) into raw Header, Claims Payload, expiration time (exp), and signature components client-side with zero data transmission.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Paste Encoded JWT Token (Header.Payload.Signature)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="jwt-in">Paste Encoded JWT String</label>
+        <textarea class="tool-textarea" id="jwt-in" rows="3" placeholder="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkFsaWNlIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNzg0OTI4MDAwfQ.signature" style="font-family:monospace;"></textarea>
+      </div>
+      <div id="jwt-res-card" style="margin-top:1.25rem;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+          <div>
+            <label class="control-label" style="color:#ef4444;">Header (Algorithm & Token Type):</label>
+            <textarea class="tool-textarea" id="jwt-hdr" rows="4" readonly style="font-family:monospace; color:#dc2626; font-weight:700;"></textarea>
+          </div>
+          <div>
+            <label class="control-label" style="color:#8b5cf6;">Payload (Decoded Claims & Data):</label>
+            <textarea class="tool-textarea" id="jwt-pld" rows="6" readonly style="font-family:monospace; color:#7c3aed; font-weight:700;"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use JSON Web Token (JWT) Decoder & Claims Inspector</h2>
+      <ol>
+        <li>Paste any standard RFC 7519 JSON Web Token string.</li>
+        <li>Inspect decoded JOSE header algorithm parameters and claims payload with client-side privacy.</li>
+      </ol>
+
+      <h2>IETF RFC 7519 Compact Token Format</h2>
+      <p>JWTs encode cryptographic assertions into URL-safe strings split by dots into three parts: Header.Payload.Signature for stateless REST API authentication.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Does decoding a JWT verify its signature?</summary>
+        <p>Decoding parses the Base64Url JSON payload to read claims; verifying cryptographic authenticity requires testing the signature against the server's private/public key.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/jwt-token-decoder-payload-inspector/tool.js"></script>
+</body>
+</html>

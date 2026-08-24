@@ -1,0 +1,15 @@
+{
+  "name": "Relativistic Kinetic Energy & Total Mass-Energy Calculator",
+  "description": "Calculate relativistic kinetic energy (K = (γ - 1) · m · c²), total energy (E = γ · m · c²), and relativistic momentum (p = γ · m · v) at near-light speeds.",
+  "path": "/tools/relativistic-kinetic-energy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "relativistic kinetic energy calculator",
+    "gamma minus 1 m c squared calculator",
+    "relativistic total energy calculator online",
+    "relativistic momentum formula",
+    "particle kinetic energy special relativity"
+  ],
+  "order": 375
+}

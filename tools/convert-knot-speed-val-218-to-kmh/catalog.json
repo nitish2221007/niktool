@@ -1,0 +1,15 @@
+{
+  "name": "Convert 218 Knots Speed Val to KM/H",
+  "description": "Convert 218 knots speed to kilometers per hour (403.74 km/h).",
+  "path": "/tools/convert-knot-speed-val-218-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 218 to kmh",
+    "Convert 218 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

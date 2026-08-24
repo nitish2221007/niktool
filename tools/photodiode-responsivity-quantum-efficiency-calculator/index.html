@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate photodetector spectral responsivity (R = (η · q · λ) / (h · c) = η · λ / 1239.8) in Amperes per Watt (A/W) from quantum efficiency percentage (η%) and wavelength.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/photodiode-responsivity-quantum-efficiency-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator | NikTool">
+  <meta property="og:description" content="Calculate photodetector spectral responsivity (R = (η · q · λ) / (h · c) = η · λ / 1239.8) in Amperes per Watt (A/W) from quantum efficiency percentage (η%) and wavelength.">
+  <meta property="og:url" content="https://niktool.in/tools/photodiode-responsivity-quantum-efficiency-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/photodiode-responsivity-quantum-efficiency-calculator/",
+        "description": "Calculate photodetector spectral responsivity (R = (η · q · λ) / (h · c) = η · λ / 1239.8) in Amperes per Watt (A/W) from quantum efficiency percentage (η%) and wavelength.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the responsivity of a 100% efficient Silicon photodiode at 900 nm?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$R = (1.00 \times 900) / 1239.84 approx 0.726\text{ A/W}$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator</h1>
+      <p>Calculate photodetector spectral responsivity (R = (η · q · λ) / (h · c) = η · λ / 1239.8) in Amperes per Watt (A/W) from quantum efficiency percentage (η%) and wavelength.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Optical Wavelength λ (nm) & Quantum Efficiency η (%)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pd-lam">Wavelength λ (nm)</label>
+          <input class="tool-textarea" id="pd-lam" type="number" step="any" value="850" placeholder="850 nm (Near Infrared)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pd-qe">Quantum Efficiency η (%)</label>
+          <input class="tool-textarea" id="pd-qe" type="number" step="0.5" min="1" max="100" value="85.0" placeholder="85.0% QE" />
+        </div>
+      </div>
+      <div id="pd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pd-res-resp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">0.583 A / W</span>
+            <span class="stat-label">Spectral Responsivity (R)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pd-res-curr" style="font-weight:700;">582.7 μA Photocurrent per 1 mW Optical Power</span>
+            <span class="stat-label">Generated Photocurrent</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Photodiode Responsivity (R) & Quantum Efficiency (QE) Calculator</h2>
+      <ol>
+        <li>Enter incident photon optical wavelength $\lambda$ in nanometers (nm).</li>
+        <li>Enter semiconductor detector Quantum Efficiency percentage ($\eta\%$, fraction of photons that generate electron-hole pairs).</li>
+        <li>Inspect spectral responsivity in Amperes per Watt (A/W) and generated photocurrent per milliwatt of laser input.</li>
+      </ol>
+
+      <h2>The 1239.84 nm·eV Optoelectronic Conversion Constant</h2>
+      <p>Because photon energy equals $E = hc/\lambda = 1239.84/\lambda\text{ eV}$, longer wavelength photons carry less energy per photon; for fixed quantum efficiency $\eta$, responsivity increases linearly with wavelength up to the semiconductor bandgap cutoff ($R = \eta\lambda / 1239.8$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the responsivity of a 100% efficient Silicon photodiode at 900 nm?</summary>
+        <p>$R = (1.00 	imes 900) / 1239.84 approx 0.726	ext{ A/W}$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/photodiode-responsivity-quantum-efficiency-calculator/tool.js"></script>
+</body>
+</html>

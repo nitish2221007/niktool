@@ -1,0 +1,15 @@
+{
+  "name": "Age Calculator (Born in 1991)",
+  "description": "Calculate exact age (35 years old in 2026) for someone born in year 1991.",
+  "path": "/tools/age-calculator-born-in-1991/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "age calculator born in 1991",
+    "Age Calculator (Born in 1991)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

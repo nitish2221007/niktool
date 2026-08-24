@@ -1,0 +1,15 @@
+{
+  "name": "NE555 Timer Astable Multivibrator Frequency & Duty Cycle Calculator",
+  "description": "Calculate NE555 timer oscillator output frequency (f = 1.44 / ((R₁ + 2R₂)·C)) in Hz/kHz, high/low time periods (t_high = 0.693·(R₁+R₂)·C, t_low = 0.693·R₂·C), and duty cycle percentage for electronics engineering.",
+  "path": "/tools/555-timer-astable-multivibrator-frequency-duty-cycle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "555 timer calculator",
+    "555 astable multivibrator frequency formula 1.44 over r1 plus 2r2 times c online",
+    "ne555 duty cycle pulse width calculator",
+    "555 oscillator resistor capacitor calculator hz",
+    "electronics circuit 555 timer pulse generator online"
+  ],
+  "order": 964
+}

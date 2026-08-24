@@ -1,0 +1,15 @@
+{
+  "name": "Convert 26px to REM",
+  "description": "Convert 26 pixels (px) to REM units based on 16px root font size (1.6250rem).",
+  "path": "/tools/convert-26px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 26px to rem",
+    "Convert 26px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

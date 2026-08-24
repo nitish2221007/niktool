@@ -1,0 +1,15 @@
+{
+  "name": "Plug Flow Reactor (PFR) Space-Time (τ) & Sizing Calculator",
+  "description": "Calculate ideal Plug Flow Tubular Reactor volume (V = v₀ · τ) and space-time (τ = - ln(1 - X) / k) for isothermal first-order liquid and gas reactions.",
+  "path": "/tools/pfr-plug-flow-reactor-space-time-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pfr reactor calculator",
+    "plug flow reactor space time tau formula",
+    "tubular reactor volume sizing calculator",
+    "pfr first order reaction conversion online",
+    "chemical reaction engineering pfr calculator"
+  ],
+  "order": 510
+}

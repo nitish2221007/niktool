@@ -1,0 +1,15 @@
+{
+  "name": "Tensile Stress Calculator (Force 4200N, Rod Dia 10mm)",
+  "description": "Calculate tensile stress (σ = 53.48 MPa) for 4200N load on a 10mm diameter rod.",
+  "path": "/tools/tensile-stress-calculator-force-4200n-diameter-10mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "tensile stress calculator force 4200n diameter 10mm",
+    "Tensile Stress Calculator (Force 4200N, Rod Dia 10mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

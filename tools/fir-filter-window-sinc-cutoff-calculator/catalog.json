@@ -1,0 +1,15 @@
+{
+  "name": "FIR Digital Filter Window Sinc Order & Cutoff Calculator",
+  "description": "Calculate digital Finite Impulse Response (FIR) filter tap order (N ≈ c / Δf_norm) and window coefficients (Hamming, Hanning, Blackman) for audio and signal filtering.",
+  "path": "/tools/fir-filter-window-sinc-cutoff-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fir filter calculator",
+    "window sinc fir filter order formula",
+    "hamming hanning blackman fir filter taps online",
+    "digital signal processing fir cutoff calculator",
+    "dsp fir lowpass filter design online"
+  ],
+  "order": 610
+}

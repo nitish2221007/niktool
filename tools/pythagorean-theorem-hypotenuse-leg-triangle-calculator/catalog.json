@@ -1,0 +1,15 @@
+{
+  "name": "Pythagorean Theorem Hypotenuse (c = √(a² + b²)) & Right Triangle Calculator",
+  "description": "Calculate right triangle hypotenuse (c = √(a² + b²)) or leg lengths (a = √(c² - b²)), perimeter, area (A = ½·a·b), and interior angles for middle school and high school geometry.",
+  "path": "/tools/pythagorean-theorem-hypotenuse-leg-triangle-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "pythagorean theorem calculator",
+    "a squared plus b squared equals c squared formula online",
+    "hypotenuse calculator right triangle",
+    "find missing side right triangle pythagoras calculator",
+    "geometry pythagorean triples 3 4 5 calculator"
+  ],
+  "order": 943
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Duplicate First Page Of PDF",
+  "description": "Duplicate the first page of a PDF file and insert it as page 2.",
+  "path": "/tools/duplicate-first-page-of-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "duplicate first page of pdf",
+    "Duplicate First Page Of PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

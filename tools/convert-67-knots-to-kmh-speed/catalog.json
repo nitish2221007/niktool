@@ -1,0 +1,15 @@
+{
+  "name": "Convert 67 Knots to KM/H Speed",
+  "description": "Convert 67 knots speed to kilometers per hour (124.08 km/h).",
+  "path": "/tools/convert-67-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 67 knots to kmh speed",
+    "Convert 67 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

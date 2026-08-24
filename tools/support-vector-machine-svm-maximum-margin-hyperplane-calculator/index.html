@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate linear Support Vector Machine (SVM) geometric separating margin width (Margin = 2 / ‖w‖), functional margin y_i·(w·x + b), and Hinge Loss (max(0, 1 - y_i·(w·x + b))) for maximum-margin classification.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/support-vector-machine-svm-maximum-margin-hyperplane-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator | NikTool">
+  <meta property="og:description" content="Calculate linear Support Vector Machine (SVM) geometric separating margin width (Margin = 2 / ‖w‖), functional margin y_i·(w·x + b), and Hinge Loss (max(0, 1 - y_i·(w·x + b))) for maximum-margin classification.">
+  <meta property="og:url" content="https://niktool.in/tools/support-vector-machine-svm-maximum-margin-hyperplane-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/support-vector-machine-svm-maximum-margin-hyperplane-calculator/",
+        "description": "Calculate linear Support Vector Machine (SVM) geometric separating margin width (Margin = 2 / ‖w‖), functional margin y_i·(w·x + b), and Hinge Loss (max(0, 1 - y_i·(w·x + b))) for maximum-margin classification.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a support vector in SVM?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Support vectors are the training points that lie on or violate the margin boundary ($y_i(mathbf{w}^Tmathbf{x}_i + b) le 1$); moving any non-support vector has zero effect on the separating hyperplane."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator</h1>
+      <p>Calculate linear Support Vector Machine (SVM) geometric separating margin width (Margin = 2 / ‖w‖), functional margin y_i·(w·x + b), and Hinge Loss (max(0, 1 - y_i·(w·x + b))) for maximum-margin classification.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Weight Vector Norm ‖w‖, Functional Margin Score y·(w·x + b) & Soft Margin Penalty C</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sv-w">Weight Norm ‖w‖</label>
+          <input class="tool-textarea" id="sv-w" type="number" step="0.5" value="2.00" placeholder="2.00" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sv-func">Functional y·(w·x+b)</label>
+          <input class="tool-textarea" id="sv-func" type="number" step="0.2" value="0.80" placeholder="0.80 (Inside Margin)" />
+        </div>
+      </div>
+      <div id="sv-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sv-res-margin" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Geometric Margin = 1.000 (Width = 2 / ‖w‖)</span>
+            <span class="stat-label">Maximum Geometric Separating Margin Width</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sv-res-hinge" style="color:var(--green-dark); font-weight:700;">Hinge Loss = 0.200 (Support Vector: Violates margin boundary by 0.20)</span>
+            <span class="stat-label">Hinge Loss (max(0, 1 - y·f(x))) & Support Vector Status</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Support Vector Machine (SVM Maximum Margin = 2 / ‖w‖ & Hinge Loss) Calculator</h2>
+      <ol>
+        <li>Enter Euclidean norm of weight vector $|mathbf{w}|$.</li>
+        <li>Enter functional margin score $y_i (mathbf{w}^T mathbf{x}_i + b)$.</li>
+        <li>Inspect geometric margin width ($rac{2}{|mathbf{w}|}$), Hinge Loss, and identify active support vectors.</li>
+      </ol>
+
+      <h2>Vladimir Vapnik 1995 Maximum-Margin Hyperplane</h2>
+      <p>SVM minimizes $|mathbf{w}|^2 / 2$ to maximize the geometric margin ($2/|mathbf{w}|$), maximizing generalization robustness by relying solely on the critical boundary support vectors.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a support vector in SVM?</summary>
+        <p>Support vectors are the training points that lie on or violate the margin boundary ($y_i(mathbf{w}^Tmathbf{x}_i + b) le 1$); moving any non-support vector has zero effect on the separating hyperplane.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/support-vector-machine-svm-maximum-margin-hyperplane-calculator/tool.js"></script>
+</body>
+</html>

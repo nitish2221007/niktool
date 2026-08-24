@@ -1,0 +1,15 @@
+{
+  "name": "Cosmological Redshift (1 + z = a₀ / a(t) = λ_obs / λ_emit) & Scale Factor Calculator",
+  "description": "Calculate cosmological redshift (1 + z = a₀ / a(t) = λ_obs / λ_emit), cosmic scale factor a(t) relative to present day, temperature of the Cosmic Microwave Background (T(z) = 2.725·(1 + z) K), and universe expansion history.",
+  "path": "/tools/cosmological-redshift-scale-factor-universe-age-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cosmological redshift calculator",
+    "scale factor formula 1 plus z equals a0 over a online",
+    "cmb temperature redshift calculator kelvin",
+    "expansion of universe scale factor calculator",
+    "cosmology general relativity friedmann universe online"
+  ],
+  "order": 1169
+}

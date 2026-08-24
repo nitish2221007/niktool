@@ -1,0 +1,15 @@
+{
+  "name": "Differential Drive Mobile Robot Wheel Odometry Pose (x, y, θ) Calculator",
+  "description": "Calculate differential drive wheeled robot forward kinematic pose update (Δx = Δs·cos(θ + Δθ/2), Δy = Δs·sin(θ + Δθ/2), Δθ = (Δs_R - Δs_L) / L) in meters and degrees.",
+  "path": "/tools/differential-drive-robot-odometry-pose-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "differential drive robot odometry calculator",
+    "wheel encoder odometry pose formula x y theta online",
+    "robot kinematics dead reckoning wheel displacement calculator",
+    "ros nav2 mobile robot odometry calculator online",
+    "two wheeled robot forward kinematics online"
+  ],
+  "order": 751
+}

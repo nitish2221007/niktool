@@ -1,0 +1,15 @@
+{
+  "name": "Convert -4°C Celsius to Fahrenheit",
+  "description": "Convert -4 degrees Celsius (°C) to Fahrenheit (24.8°F).",
+  "path": "/tools/convert-minus-4-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert minus 4 celsius to fahrenheit",
+    "Convert -4°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

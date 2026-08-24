@@ -1,0 +1,15 @@
+{
+  "name": "Initial Compass Bearing & Forward Azimuth Navigation Calculator",
+  "description": "Calculate initial great-circle forward azimuth navigation course heading (θ = atan2(sin Δλ · cos φ₂, cos φ₁ · sin φ₂ - sin φ₁ · cos φ₂ · cos Δλ)) between GPS coordinates.",
+  "path": "/tools/initial-compass-bearing-forward-azimuth-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "compass bearing calculator",
+    "forward azimuth formula online",
+    "initial navigation heading calculator",
+    "lat long to compass bearing degrees",
+    "great circle initial course calculator"
+  ],
+  "order": 494
+}

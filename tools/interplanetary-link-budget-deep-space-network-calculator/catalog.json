@@ -1,0 +1,15 @@
+{
+  "name": "NASA Deep Space Network (DSN) Interplanetary RF Link Budget Calculator",
+  "description": "Calculate deep space exploration radio telecommunication Friis link budget received power (P_r = P_t · G_t · G_r · (c / (4π·d·f))²) in dBm and carrier-to-noise ratio (C/N₀) across Mars, Jupiter, and Voyager 1 distances in the X-band (8.4 GHz) and Ka-band (32 GHz).",
+  "path": "/tools/interplanetary-link-budget-deep-space-network-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "deep space network link budget calculator",
+    "friis transmission formula interplanetary communication online",
+    "nasa dsn 70m antenna mars voyager signal strength calculator",
+    "spacecraft telemetry received power pr calculator",
+    "spacecraft x band ka band link budget online"
+  ],
+  "order": 877
+}

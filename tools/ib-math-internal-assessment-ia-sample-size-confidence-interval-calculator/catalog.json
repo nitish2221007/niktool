@@ -1,0 +1,15 @@
+{
+  "name": "IB Math IA Sample Size & 95% Confidence Interval Margin of Error Calculator",
+  "description": "Calculate statistical sample size requirements (n = (z*·s / MOE)²) and 95% confidence interval margin of error for International Baccalaureate (IB Math AA / AI) Internal Assessment (IA) exploration projects.",
+  "path": "/tools/ib-math-internal-assessment-ia-sample-size-confidence-interval-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "ib math ia sample size calculator",
+    "confidence interval margin of error formula moe equals z s over sqrt n online",
+    "ib math exploration statistics sample size calculator",
+    "95 confidence interval sample size calculator online",
+    "sample size determination standard error ib math"
+  ],
+  "order": 906
+}

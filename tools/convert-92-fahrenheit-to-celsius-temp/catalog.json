@@ -1,0 +1,15 @@
+{
+  "name": "Convert 92°F Fahrenheit to Celsius Temp",
+  "description": "Convert 92 degrees Fahrenheit (°F) to Celsius (33.3°C) instantly.",
+  "path": "/tools/convert-92-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 92 fahrenheit to celsius temp",
+    "Convert 92°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

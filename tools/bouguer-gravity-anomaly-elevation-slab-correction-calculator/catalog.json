@@ -1,0 +1,15 @@
+{
+  "name": "Bouguer Gravity Anomaly & Free-Air Terrain Correction Calculator",
+  "description": "Calculate Complete Bouguer Gravity Anomaly Δg_B in mGal (Δg_B = g_obs - g_0 + 0.3086·h - 0.04193·ρ·h) from observed gravity, theoretical latitude gravity g_0, Free-Air elevation correction, and crustal slab density.",
+  "path": "/tools/bouguer-gravity-anomaly-elevation-slab-correction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bouguer anomaly calculator",
+    "gravity anomaly formula free air elevation correction online",
+    "bouguer slab reduction density 2.67 g cm3 calculator",
+    "isostasy crustal gravity survey geophysics calculator mgal",
+    "geophysics geodesy earth exploration gravity online"
+  ],
+  "order": 1302
+}

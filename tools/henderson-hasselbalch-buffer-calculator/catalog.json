@@ -1,0 +1,15 @@
+{
+  "name": "Henderson-Hasselbalch Buffer Calculator",
+  "description": "Calculate buffer solution pH (pH = pKa + log([A⁻]/[HA])) from acid dissociation constant pKa and conjugate acid-base concentrations.",
+  "path": "/tools/henderson-hasselbalch-buffer-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "henderson hasselbalch calculator",
+    "buffer ph calculator",
+    "pka to ph calculator",
+    "acid buffer solution calculator",
+    "conjugate base acid ratio"
+  ],
+  "order": 110
+}

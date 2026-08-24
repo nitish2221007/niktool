@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Password Entropy & GPU Brute-Force Crack Time Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate cryptographic password entropy in bits (E = L · log₂(N)) and estimated brute-force crack time across modern 100 Billion Hash/sec RTX 4090 GPU clusters.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/password-entropy-crack-time-brute-force-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Password Entropy & GPU Brute-Force Crack Time Calculator | NikTool">
+  <meta property="og:description" content="Calculate cryptographic password entropy in bits (E = L · log₂(N)) and estimated brute-force crack time across modern 100 Billion Hash/sec RTX 4090 GPU clusters.">
+  <meta property="og:url" content="https://niktool.in/tools/password-entropy-crack-time-brute-force-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Password Entropy & GPU Brute-Force Crack Time Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/password-entropy-crack-time-brute-force-calculator/",
+        "description": "Calculate cryptographic password entropy in bits (E = L · log₂(N)) and estimated brute-force crack time across modern 100 Billion Hash/sec RTX 4090 GPU clusters.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How much entropy is considered completely secure against offline attacks?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "NIST and cybersecurity standards recommend at least 80 bits of entropy for standard accounts and 128 bits for master encryption keys."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Password Entropy & GPU Brute-Force Crack Time Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Password Entropy & GPU Brute-Force Crack Time Calculator</h1>
+      <p>Calculate cryptographic password entropy in bits (E = L · log₂(N)) and estimated brute-force crack time across modern 100 Billion Hash/sec RTX 4090 GPU clusters.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Password Character Pool Set & Length (L Characters)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pw-str">Test Password / Phrase</label>
+          <input class="tool-textarea" id="pw-str" type="text" value="CorrectHorseBatteryStaple!9" placeholder="Enter password..." />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pw-hash">GPU Speed (Hashes/sec)</label>
+          <select class="tool-textarea" id="pw-hash">
+            <option value="1e9">1 Billion / sec (Single Modern GPU)</option>
+            <option value="1e11" selected>100 Billion / sec (8× RTX 4090 Cluster)</option>
+            <option value="1e13">10 Trillion / sec (Nation-State Supercomputer)</option>
+          </select>
+        </div>
+      </div>
+      <div id="pw-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pw-res-bits" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">177.4 Bits of Entropy</span>
+            <span class="stat-label">Information-Theoretic Password Strength</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pw-res-time" style="color:var(--green-dark); font-weight:700;">6.2 × 10³¹ Years (Unbreakable)</span>
+            <span class="stat-label">Estimated GPU Brute-Force Exhaustion Time</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Password Entropy & GPU Brute-Force Crack Time Calculator</h2>
+      <ol>
+        <li>Type any test password or multi-word passphrase into the input field.</li>
+        <li>Select simulated brute-force cracking hardware hash rate (1 Billion/s single GPU to 10 Trillion/s supercomputer).</li>
+        <li>Inspect NIST character pool size, Shannon password entropy in bits, and estimated time required for exhaustive brute-force recovery.</li>
+      </ol>
+
+      <h2>Exponential Passphrase Length Scaling</h2>
+      <p>Adding just 4 random characters to a password expands the search keyspace by over 73 million times; passphrases with >80 bits of entropy are virtually impossible to crack with current physics limits.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How much entropy is considered completely secure against offline attacks?</summary>
+        <p>NIST and cybersecurity standards recommend at least 80 bits of entropy for standard accounts and 128 bits for master encryption keys.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/password-entropy-crack-time-brute-force-calculator/tool.js"></script>
+</body>
+</html>

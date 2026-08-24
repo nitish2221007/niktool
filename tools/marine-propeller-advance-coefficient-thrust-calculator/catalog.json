@@ -1,0 +1,15 @@
+{
+  "name": "Marine Propeller Advance Coefficient (J), Thrust (K_T) & Open-Water Efficiency Calculator",
+  "description": "Calculate marine ship propeller Advance Coefficient (J = V_a / (n · D)), Thrust Coefficient K_T, Torque Coefficient K_Q, and open-water propulsion efficiency (η₀ = (J / 2π) · (K_T / K_Q)).",
+  "path": "/tools/marine-propeller-advance-coefficient-thrust-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "marine propeller calculator",
+    "advance coefficient formula j equals va over n d online",
+    "propeller thrust coefficient kt kq efficiency calculator",
+    "open water propeller efficiency eta 0 calculator online",
+    "naval architecture ship propulsion online"
+  ],
+  "order": 796
+}

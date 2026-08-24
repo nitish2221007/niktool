@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Calculator (210 km Distance, 20 km/l Mileage)",
+  "description": "Calculate total fuel required (10.5 L) and estimated cost (₹1013) for 210 km trip.",
+  "path": "/tools/fuel-cost-calculator-distance-210km-mileage-20kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost calculator distance 210km mileage 20kmpl",
+    "Fuel Cost Calculator (210 km Distance, 20 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

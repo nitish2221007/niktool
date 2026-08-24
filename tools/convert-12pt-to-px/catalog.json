@@ -1,0 +1,15 @@
+{
+  "name": "Convert 12pt to PX",
+  "description": "Convert 12 points (pt) to pixels (16.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-12pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 12pt to px",
+    "Convert 12pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

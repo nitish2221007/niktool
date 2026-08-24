@@ -1,0 +1,15 @@
+{
+  "name": "Hall Effect Carrier Concentration (n = I·B / (q·t·V_H)) & Hall Coefficient Calculator",
+  "description": "Calculate semiconductor majority carrier type (n-type vs p-type), carrier concentration n/p in cm⁻³ (Hall Effect: n = I · B / (q · t · V_H)), Hall coefficient R_H, and Hall mobility μ_H.",
+  "path": "/tools/hall-effect-carrier-density-mobility-coefficient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hall effect calculator",
+    "hall coefficient formula rh online",
+    "carrier concentration hall voltage calculator",
+    "carrier mobility hall effect semiconductor calculator",
+    "solid state physics materials characterization electronics online"
+  ],
+  "order": 1366
+}

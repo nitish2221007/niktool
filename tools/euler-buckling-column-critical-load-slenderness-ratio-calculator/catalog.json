@@ -1,0 +1,15 @@
+{
+  "name": "Euler's Column Buckling Critical Load (P_cr = π²·E·I / (K·L)²) Calculator",
+  "description": "Calculate structural column critical buckling load (P_cr = π²·E·I / (K·L)²), critical buckling stress (σ_cr = π²·E / λ²), and slenderness ratio (λ = K·L / r) across pinned, fixed, and free column end conditions.",
+  "path": "/tools/euler-buckling-column-critical-load-slenderness-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "euler column buckling calculator",
+    "critical buckling load formula pi squared e i over k l squared online",
+    "column slenderness ratio lambda calculator structural engineering",
+    "effective length factor k pinned fixed column calculator",
+    "civil engineering column buckling stress online"
+  ],
+  "order": 978
+}

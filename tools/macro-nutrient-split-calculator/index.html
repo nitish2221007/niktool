@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Macronutrient Grams & Calorie Split Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate daily gram targets for Proteins, Carbohydrates, and Fats based on total calorie goal and dietary split ratios (Balanced, Low-Carb, High-Protein).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/macro-nutrient-split-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Macronutrient Grams & Calorie Split Calculator | NikTool">
+  <meta property="og:description" content="Calculate daily gram targets for Proteins, Carbohydrates, and Fats based on total calorie goal and dietary split ratios (Balanced, Low-Carb, High-Protein).">
+  <meta property="og:url" content="https://niktool.in/tools/macro-nutrient-split-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Macronutrient Grams & Calorie Split Calculator",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/macro-nutrient-split-calculator/",
+        "description": "Calculate daily gram targets for Proteins, Carbohydrates, and Fats based on total calorie goal and dietary split ratios (Balanced, Low-Carb, High-Protein).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "How much protein is recommended for muscle building?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Clinical sports nutrition guidelines recommend 1.6 to 2.2 grams of protein per kilogram of bodyweight."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Macronutrient Grams & Calorie Split Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Macronutrient Grams & Calorie Split Calculator</h1>
+      <p>Calculate daily gram targets for Proteins, Carbohydrates, and Fats based on total calorie goal and dietary split ratios (Balanced, Low-Carb, High-Protein).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Daily Calorie Target & Macro Ratios</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mac-cals">Daily Calorie Target (kcal)</label>
+          <input class="tool-textarea" id="mac-cals" type="number" step="any" value="2200" placeholder="2200 kcal" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mac-plan">Dietary Split Preset</label>
+          <select class="tool-textarea" id="mac-plan">
+            <option value="40-30-30" selected>Balanced (40% Carb / 30% Protein / 30% Fat)</option>
+            <option value="30-40-30">High-Protein (30% Carb / 40% Protein / 30% Fat)</option>
+            <option value="20-40-40">Low-Carb (20% Carb / 40% Protein / 40% Fat)</option>
+            <option value="5-25-70">Keto (5% Carb / 25% Protein / 70% Fat)</option>
+          </select>
+        </div>
+      </div>
+      <div id="mac-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:1rem;">
+          <div class="stat">
+            <span class="stat-value" id="mac-res-p" style="color:#2563eb; font-weight:800; font-size:1.6rem;">165 g</span>
+            <span class="stat-label">Protein (4 kcal/g)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mac-res-c" style="color:var(--green-dark); font-weight:700;">220 g</span>
+            <span class="stat-label">Carbs (4 kcal/g)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mac-res-f" style="color:#d97706;">73 g</span>
+            <span class="stat-label">Fats (9 kcal/g)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Macronutrient Grams & Calorie Split Calculator</h2>
+      <ol>
+        <li>Enter total daily caloric target.</li>
+        <li>Select diet macro split (Balanced, High-Protein, Low-Carb, or Keto).</li>
+        <li>Inspect exact gram amounts for proteins, carbs, and fats.</li>
+      </ol>
+
+      <h2>Atwater Energy System</h2>
+      <p>Proteins and Carbohydrates provide approximately 4.0 kcal per gram, while Dietary Fats provide 9.0 kcal per gram of metabolic energy.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>How much protein is recommended for muscle building?</summary>
+        <p>Clinical sports nutrition guidelines recommend 1.6 to 2.2 grams of protein per kilogram of bodyweight.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/macro-nutrient-split-calculator/tool.js"></script>
+</body>
+</html>

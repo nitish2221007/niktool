@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API Gravity to Specific Gravity & Crude Oil Density Converter - Free Online Tool | NikTool</title>
+  <meta name="description" content="Convert crude oil density between American Petroleum Institute gravity (°API = (141.5 / SG) - 131.5), Specific Gravity (SG at 60°F), and density (kg/m³, lb/gal).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/api-gravity-crude-oil-density-converter/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="API Gravity to Specific Gravity & Crude Oil Density Converter | NikTool">
+  <meta property="og:description" content="Convert crude oil density between American Petroleum Institute gravity (°API = (141.5 / SG) - 131.5), Specific Gravity (SG at 60°F), and density (kg/m³, lb/gal).">
+  <meta property="og:url" content="https://niktool.in/tools/api-gravity-crude-oil-density-converter/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "API Gravity to Specific Gravity & Crude Oil Density Converter",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/api-gravity-crude-oil-density-converter/",
+        "description": "Convert crude oil density between American Petroleum Institute gravity (°API = (141.5 / SG) - 131.5), Specific Gravity (SG at 60°F), and density (kg/m³, lb/gal).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the API gravity of water?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pure water has a specific gravity of 1.000, which equals exactly 10.0 °API."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>API Gravity to Specific Gravity & Crude Oil Density Converter</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>API Gravity to Specific Gravity & Crude Oil Density Converter</h1>
+      <p>Convert crude oil density between American Petroleum Institute gravity (°API = (141.5 / SG) - 131.5), Specific Gravity (SG at 60°F), and density (kg/m³, lb/gal).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">API Gravity (°API) or Specific Gravity (SG @ 60°F)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="api-val">API Gravity (°API)</label>
+          <input class="tool-textarea" id="api-val" type="number" step="0.1" value="39.6" placeholder="39.6 °API (WTI Crude)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="api-sg">Specific Gravity (SG @ 60°F)</label>
+          <input class="tool-textarea" id="api-sg" type="number" step="0.001" placeholder="SG" />
+        </div>
+      </div>
+      <div id="api-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="api-res-class" style="color:var(--green-dark); font-weight:800; font-size:1.4rem;">Light Sweet Crude Oil (> 31.1 °API)</span>
+            <span class="stat-label">Crude Oil Classification</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="api-res-dens">827.0 kg / m³ (6.90 lb/gal)</span>
+            <span class="stat-label">Mass Density @ 15.6°C (60°F)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use API Gravity to Specific Gravity & Crude Oil Density Converter</h2>
+      <ol>
+        <li>Enter American Petroleum Institute gravity in °API or Specific Gravity at 60°F.</li>
+        <li>Inspect crude oil market grade classification (Light, Medium, Heavy, Extra-Heavy Bitumen) and density in kg/m³ and lb/gal.</li>
+      </ol>
+
+      <h2>Inverted Hydrometer API Scale</h2>
+      <p>API gravity is inversely related to density: lighter crude oils with high gasoline/diesel fractions have higher API gravity numbers (> 31.1 °API) and float readily on water.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the API gravity of water?</summary>
+        <p>Pure water has a specific gravity of 1.000, which equals exactly 10.0 °API.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/api-gravity-crude-oil-density-converter/tool.js"></script>
+</body>
+</html>

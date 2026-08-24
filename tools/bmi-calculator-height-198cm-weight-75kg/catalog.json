@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 198cm, Weight 75kg)",
+  "description": "Calculate Body Mass Index (BMI 19.1) for height 198 cm and weight 75 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-198cm-weight-75kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 198cm weight 75kg",
+    "BMI Calculator (Height 198cm, Weight 75kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

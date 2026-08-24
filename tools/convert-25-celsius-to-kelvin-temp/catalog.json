@@ -1,0 +1,15 @@
+{
+  "name": "Convert 25°C Celsius to Kelvin Temp",
+  "description": "Convert 25 degrees Celsius (°C) to Kelvin (298.15 K) instantly.",
+  "path": "/tools/convert-25-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 25 celsius to kelvin temp",
+    "Convert 25°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

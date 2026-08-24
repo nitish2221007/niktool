@@ -1,0 +1,338 @@
+[
+  {
+    "name": "CSS Border Radius Generator Online",
+    "description": "Visually generate rounded corners and custom CSS border-radius code.",
+    "path": "/tools/css-border-radius-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css border radius generator online",
+      "CSS Border Radius Generator Online",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Box Shadow Generator Online",
+    "description": "Create custom CSS box-shadow effects with live preview and clean copyable CSS code.",
+    "path": "/tools/css-box-shadow-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css box shadow generator online",
+      "CSS Box Shadow Generator Online",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Clip Path Shape Generator",
+    "description": "Create polygon, circle, and star CSS clip-path shapes visually.",
+    "path": "/tools/css-clip-path-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css clip path generator online",
+      "CSS Clip Path Shape Generator",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Flexbox Playground Online",
+    "description": "Interactive visual playground to test flex-direction, justify-content, and align-items.",
+    "path": "/tools/css-flexbox-playground-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css flexbox playground online",
+      "CSS Flexbox Playground Online",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Glassmorphism Effect Generator",
+    "description": "Generate frosted glass CSS background-blur effects online.",
+    "path": "/tools/css-glassmorphism-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css glassmorphism generator online",
+      "CSS Glassmorphism Effect Generator",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Grid Layout Generator Online",
+    "description": "Generate CSS grid-template-columns and rows layout code visually.",
+    "path": "/tools/css-grid-layout-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css grid layout generator online",
+      "CSS Grid Layout Generator Online",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Linear & Radial Gradient Generator",
+    "description": "Create smooth CSS linear and radial background gradients online.",
+    "path": "/tools/css-gradient-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css gradient generator online",
+      "CSS Linear & Radial Gradient Generator",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Neumorphism Effect Generator",
+    "description": "Generate soft extruded neumorphic UI shadows in CSS.",
+    "path": "/tools/css-neumorphism-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css neumorphism generator online",
+      "CSS Neumorphism Effect Generator",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Text Shadow Generator Online",
+    "description": "Generate multi-layer text shadows with blur and color controls.",
+    "path": "/tools/css-text-shadow-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css text shadow generator online",
+      "CSS Text Shadow Generator Online",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "CSS Triangle Generator Online",
+    "description": "Generate pure CSS border triangles pointing top, bottom, left, or right.",
+    "path": "/tools/css-triangle-generator-online/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "css triangle generator online",
+      "CSS Triangle Generator Online",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 10 Mbps Speed)",
+    "description": "Calculate file transfer download time (~13.7 minutes / 819s) for 1 GB file at 10 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-10mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 10mbps",
+      "Data Download Time Calculator (1 GB File, 10 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 100 Mbps Speed)",
+    "description": "Calculate file transfer download time (~1.4 minutes / 82s) for 1 GB file at 100 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-100mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 100mbps",
+      "Data Download Time Calculator (1 GB File, 100 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 1000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.1 minutes / 8s) for 1 GB file at 1000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-1000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 1000mbps",
+      "Data Download Time Calculator (1 GB File, 1000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 10000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.0 minutes / 1s) for 1 GB file at 10000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-10000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 10000mbps",
+      "Data Download Time Calculator (1 GB File, 10000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 2000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.1 minutes / 4s) for 1 GB file at 2000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-2000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 2000mbps",
+      "Data Download Time Calculator (1 GB File, 2000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 25 Mbps Speed)",
+    "description": "Calculate file transfer download time (~5.5 minutes / 328s) for 1 GB file at 25 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-25mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 25mbps",
+      "Data Download Time Calculator (1 GB File, 25 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 250 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.6 minutes / 33s) for 1 GB file at 250 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-250mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 250mbps",
+      "Data Download Time Calculator (1 GB File, 250 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 50 Mbps Speed)",
+    "description": "Calculate file transfer download time (~2.7 minutes / 164s) for 1 GB file at 50 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-50mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 50mbps",
+      "Data Download Time Calculator (1 GB File, 50 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 500 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.3 minutes / 16s) for 1 GB file at 500 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-500mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 500mbps",
+      "Data Download Time Calculator (1 GB File, 500 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (1 GB File, 5000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.0 minutes / 2s) for 1 GB file at 5000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-1gb-speed-5000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 1gb speed 5000mbps",
+      "Data Download Time Calculator (1 GB File, 5000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (10 GB File, 10 Mbps Speed)",
+    "description": "Calculate file transfer download time (~136.5 minutes / 8192s) for 10 GB file at 10 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-10gb-speed-10mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 10gb speed 10mbps",
+      "Data Download Time Calculator (10 GB File, 10 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (10 GB File, 100 Mbps Speed)",
+    "description": "Calculate file transfer download time (~13.7 minutes / 819s) for 10 GB file at 100 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-10gb-speed-100mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 10gb speed 100mbps",
+      "Data Download Time Calculator (10 GB File, 100 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (10 GB File, 1000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~1.4 minutes / 82s) for 10 GB file at 1000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-10gb-speed-1000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 10gb speed 1000mbps",
+      "Data Download Time Calculator (10 GB File, 1000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (10 GB File, 10000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.1 minutes / 8s) for 10 GB file at 10000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-10gb-speed-10000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 10gb speed 10000mbps",
+      "Data Download Time Calculator (10 GB File, 10000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

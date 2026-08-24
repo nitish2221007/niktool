@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 14 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 14 units (V = 4/3 πr³ = 11494.04).",
+  "path": "/tools/volume-of-sphere-radius-14-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 14 units",
+    "Volume of Sphere (Radius 14 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

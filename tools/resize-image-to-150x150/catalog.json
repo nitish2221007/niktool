@@ -1,0 +1,15 @@
+{
+  "name": "Resize Image to 150x150 Pixels",
+  "description": "Resize any JPG, PNG, or WebP photo to exact 150x150 pixel dimensions instantly. 100% free and local.",
+  "path": "/tools/resize-image-to-150x150/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image to 150x150",
+    "Resize Image to 150x150 Pixels",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

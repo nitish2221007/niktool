@@ -1,0 +1,16 @@
+{
+  "name": "Remove Pages 1 to 5 From PDF",
+  "description": "Delete pages 1 through 5 from any PDF file instantly in your browser.",
+  "path": "/tools/remove-pages-1-to-5-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "remove pages 1 to 5 from pdf",
+    "Remove Pages 1 to 5 From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

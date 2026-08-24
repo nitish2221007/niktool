@@ -1,0 +1,15 @@
+{
+  "name": "Fixed Deposit Calculator (₹80,000 FD, 2 Years)",
+  "description": "Calculate FD returns on ₹80,000 deposit over 2 years.",
+  "path": "/tools/fd-calculator-80000-rupees-tenure-2-years/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fd calculator 80000 rupees tenure 2 years",
+    "Fixed Deposit Calculator (₹80,000 FD, 2 Years)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

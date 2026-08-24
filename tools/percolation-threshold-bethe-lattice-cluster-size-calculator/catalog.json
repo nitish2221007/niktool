@@ -1,0 +1,15 @@
+{
+  "name": "Percolation Threshold (p_c) & Spanning Cluster Probability Calculator",
+  "description": "Calculate statistical percolation phase transition critical threshold (p_c = 1 / (z - 1)) on Bethe lattices and evaluate infinite spanning cluster probability P_inf(p) in porous rocks and epidemiology.",
+  "path": "/tools/percolation-threshold-bethe-lattice-cluster-size-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "percolation threshold calculator",
+    "bethe lattice percolation formula p_c equals 1 over z minus 1 online",
+    "infinite spanning cluster probability calculator",
+    "porous rock oil permeability percolation calculator",
+    "epidemic disease outbreak percolation threshold online"
+  ],
+  "order": 846
+}

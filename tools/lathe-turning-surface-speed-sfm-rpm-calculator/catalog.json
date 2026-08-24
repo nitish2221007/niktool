@@ -1,0 +1,15 @@
+{
+  "name": "Lathe Turning Surface Speed (SFM) & Spindle RPM Calculator",
+  "description": "Calculate CNC and manual lathe turning spindle speed (RPM = (SFM · 3.82) / D) in revolutions per minute and constant surface speed (CSS) for facing and turning operations.",
+  "path": "/tools/lathe-turning-surface-speed-sfm-rpm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lathe turning rpm calculator",
+    "surface speed sfm to rpm lathe formula",
+    "constant surface speed css lathe calculator",
+    "workpiece diameter turning rpm online",
+    "cnc lathe speeds and feeds calculator"
+  ],
+  "order": 570
+}

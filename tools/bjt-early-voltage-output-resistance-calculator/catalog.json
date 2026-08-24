@@ -1,0 +1,15 @@
+{
+  "name": "BJT Early Voltage (V_A) & Small-Signal Output Resistance (r_o) Calculator",
+  "description": "Calculate BJT small-signal output resistance (r_o = (V_A + V_CE) / I_C ≈ V_A / I_C) and base-width modulation Early effect output conductance g_o.",
+  "path": "/tools/bjt-early-voltage-output-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bjt early voltage calculator",
+    "output resistance ro va over ic formula",
+    "bjt base width modulation calculator",
+    "small signal transistor output impedance online",
+    "analog circuit bjt early effect calculator"
+  ],
+  "order": 551
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator",
+  "description": "Calculate Michelson interferometer fringe count shifts (Δm = 2·ΔL / λ) and gas index of refraction variations (n - 1 = Δm·λ / (2·L_cell)) from mirror displacement ΔL in nm/μm.",
+  "path": "/tools/michelson-interferometer-fringe-shift-refractive-index-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "michelson interferometer calculator",
+    "fringe shift formula delta m equals 2 delta l over lambda online",
+    "gas refractive index michelson interferometer calculator",
+    "optical wavelength interference fringe counter online",
+    "precision laser interferometry displacement online"
+  ],
+  "order": 841
+}

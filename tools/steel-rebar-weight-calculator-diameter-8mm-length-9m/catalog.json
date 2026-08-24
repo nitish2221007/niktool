@@ -1,0 +1,15 @@
+{
+  "name": "Steel Rebar Weight Calculator (8mm Diameter, 9m Length)",
+  "description": "Calculate steel reinforcement bar weight (3.56 kg) for 8mm diameter rebar of 9m length.",
+  "path": "/tools/steel-rebar-weight-calculator-diameter-8mm-length-9m/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "steel rebar weight calculator diameter 8mm length 9m",
+    "Steel Rebar Weight Calculator (8mm Diameter, 9m Length)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

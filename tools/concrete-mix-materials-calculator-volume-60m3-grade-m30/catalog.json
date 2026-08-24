@@ -1,0 +1,15 @@
+{
+  "name": "Concrete Materials Calculator (60 m³ Volume, Grade M30)",
+  "description": "Calculate cement bags (480 bags), sand, and gravel quantities for 60 m³ of M30 concrete.",
+  "path": "/tools/concrete-mix-materials-calculator-volume-60m3-grade-m30/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "concrete mix materials calculator volume 60m3 grade m30",
+    "Concrete Materials Calculator (60 m³ Volume, Grade M30)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

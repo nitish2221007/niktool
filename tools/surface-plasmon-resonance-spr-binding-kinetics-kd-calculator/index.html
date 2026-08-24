@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate biomolecular binding affinity equilibrium dissociation constant (K_D = k_off / k_on in nM), association rate k_on (M⁻¹·s⁻¹), dissociation rate k_off (s⁻¹), and complex half-life (t_½ = ln 2 / k_off) for Biacore SPR biosensors.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/surface-plasmon-resonance-spr-binding-kinetics-kd-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator | NikTool">
+  <meta property="og:description" content="Calculate biomolecular binding affinity equilibrium dissociation constant (K_D = k_off / k_on in nM), association rate k_on (M⁻¹·s⁻¹), dissociation rate k_off (s⁻¹), and complex half-life (t_½ = ln 2 / k_off) for Biacore SPR biosensors.">
+  <meta property="og:url" content="https://niktool.in/tools/surface-plasmon-resonance-spr-binding-kinetics-kd-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/surface-plasmon-resonance-spr-binding-kinetics-kd-calculator/",
+        "description": "Calculate biomolecular binding affinity equilibrium dissociation constant (K_D = k_off / k_on in nM), association rate k_on (M⁻¹·s⁻¹), dissociation rate k_off (s⁻¹), and complex half-life (t_½ = ln 2 / k_off) for Biacore SPR biosensors.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the difference between KD and IC50?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$K_D$ is the thermodynamic equilibrium constant; $IC_{50}$ is an assay-dependent functional inhibition concentration influenced by enzyme and substrate levels."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator</h1>
+      <p>Calculate biomolecular binding affinity equilibrium dissociation constant (K_D = k_off / k_on in nM), association rate k_on (M⁻¹·s⁻¹), dissociation rate k_off (s⁻¹), and complex half-life (t_½ = ln 2 / k_off) for Biacore SPR biosensors.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Association Rate k_on (M⁻¹·s⁻¹) & Dissociation Rate k_off (s⁻¹)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="spr-kon">k_on (M⁻¹·s⁻¹)</label>
+          <input class="tool-textarea" id="spr-kon" type="number" step="1e4" value="1.0e5" placeholder="1.0 × 10⁵ M⁻¹s⁻¹" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="spr-koff">k_off (s⁻¹)</label>
+          <input class="tool-textarea" id="spr-koff" type="number" step="1e-4" value="1.0e-3" placeholder="1.0 × 10⁻³ s⁻¹" />
+        </div>
+      </div>
+      <div id="spr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="spr-res-kd" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Affinity K_D = 10.0 nM (High Affinity)</span>
+            <span class="stat-label">Equilibrium Dissociation Constant (K_D = k_off / k_on)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="spr-res-half" style="color:var(--green-dark); font-weight:700;">Complex Half-Life t_½ = 11.55 Minutes (693.1 seconds | Standard Therapeutic mAb)</span>
+            <span class="stat-label">Antibody-Target Complex Dissociation Half-Life</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Surface Plasmon Resonance Binding Kinetics (K_D = k_off / k_on) Calculator</h2>
+      <ol>
+        <li>Enter association on-rate constant $k_{	ext{on}}$ in $	ext{M}^{-1}cdot	ext{s}^{-1}$.</li>
+        <li>Enter dissociation off-rate constant $k_{	ext{off}}$ in $	ext{s}^{-1}$.</li>
+        <li>Inspect equilibrium dissociation constant $K_D$ (nM/pM) and complex stability half-life.</li>
+      </ol>
+
+      <h2>Biacore Real-Time Surface Plasmon Resonance Kinetics</h2>
+      <p>Measures label-free binding kinetics in real time; therapeutic monoclonal antibodies are optimized for fast association ($k_{	ext{on}} > 10^5$) and slow dissociation ($k_{	ext{off}} < 10^{-4}$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the difference between KD and IC50?</summary>
+        <p>$K_D$ is the thermodynamic equilibrium constant; $IC_{50}$ is an assay-dependent functional inhibition concentration influenced by enzyme and substrate levels.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/surface-plasmon-resonance-spr-binding-kinetics-kd-calculator/tool.js"></script>
+</body>
+</html>

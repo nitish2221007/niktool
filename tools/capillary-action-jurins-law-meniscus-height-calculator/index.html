@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Capillary Action & Jurin's Law Meniscus Rise Height Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate capillary tube liquid rise height (h = (2·γ·cos θ) / (ρ·g·r)) in mm and capillary Laplace pressure differential (ΔP = 2·γ·cos θ / r) from surface tension and contact angle.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/capillary-action-jurins-law-meniscus-height-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Capillary Action & Jurin's Law Meniscus Rise Height Calculator | NikTool">
+  <meta property="og:description" content="Calculate capillary tube liquid rise height (h = (2·γ·cos θ) / (ρ·g·r)) in mm and capillary Laplace pressure differential (ΔP = 2·γ·cos θ / r) from surface tension and contact angle.">
+  <meta property="og:url" content="https://niktool.in/tools/capillary-action-jurins-law-meniscus-height-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Capillary Action & Jurin's Law Meniscus Rise Height Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/capillary-action-jurins-law-meniscus-height-calculator/",
+        "description": "Calculate capillary tube liquid rise height (h = (2·γ·cos θ) / (ρ·g·r)) in mm and capillary Laplace pressure differential (ΔP = 2·γ·cos θ / r) from surface tension and contact angle.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens when contact angle exceeds 90° (hydrophobic)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When $\theta > 90^circ$, $cos\theta$ becomes negative, meaning the liquid experiences capillary repulsion and will not enter the channel without positive applied pressure."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Capillary Action & Jurin's Law Meniscus Rise Height Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Capillary Action & Jurin's Law Meniscus Rise Height Calculator</h1>
+      <p>Calculate capillary tube liquid rise height (h = (2·γ·cos θ) / (ρ·g·r)) in mm and capillary Laplace pressure differential (ΔP = 2·γ·cos θ / r) from surface tension and contact angle.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Capillary Radius r (μm), Contact Angle θ (°) & Surface Tension γ (mN/m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="cap-r">Radius r (μm)</label>
+          <input class="tool-textarea" id="cap-r" type="number" step="any" value="100.0" placeholder="100.0 μm (0.1 mm Tube)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cap-th">Contact Angle θ (°)</label>
+          <input class="tool-textarea" id="cap-th" type="number" step="1" value="20.0" placeholder="20.0° (Hydrophilic Glass)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="cap-gam">Surface Tension γ</label>
+          <input class="tool-textarea" id="cap-gam" type="number" step="any" value="72.8" placeholder="72.8 mN/m (Water @ 20°C)" />
+        </div>
+      </div>
+      <div id="cap-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="cap-res-ht" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">h = 139.5 mm Rise</span>
+            <span class="stat-label">Capillary Equilibrium Rise Height (h = 2γ·cos θ / ρ·g·r)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="cap-res-lp" style="font-weight:700;">Laplace Pressure: 1,368 Pa (13.7 mbar Self-Pumping Suction)</span>
+            <span class="stat-label">Capillary Suction Pressure Differential (ΔP = 2γ·cos θ / r)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Capillary Action & Jurin's Law Meniscus Rise Height Calculator</h2>
+      <ol>
+        <li>Enter capillary channel circular pore radius r in micrometers ($mu	ext{m}$).</li>
+        <li>Enter liquid-solid contact wetting angle $	heta$ in degrees ($<90^circ$ hydrophilic, $>90^circ$ hydrophobic).</li>
+        <li>Enter liquid surface tension $gamma$ in mN/m (72.8 mN/m for pure water at 20°C).</li>
+        <li>Inspect spontaneous capillary meniscus rise height in millimeters and self-priming capillary Laplace suction pressure.</li>
+      </ol>
+
+      <h2>James Jurin 1718 Capillary Action Equation</h2>
+      <p>Capillary action drives paper microfluidics, lateral flow diagnostic test strips (e.g. pregnancy tests, rapid COVID kits), and plant xylem sap transport without requiring any external battery or mechanical pump.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens when contact angle exceeds 90° (hydrophobic)?</summary>
+        <p>When $	heta > 90^circ$, $cos	heta$ becomes negative, meaning the liquid experiences capillary repulsion and will not enter the channel without positive applied pressure.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/capillary-action-jurins-law-meniscus-height-calculator/tool.js"></script>
+</body>
+</html>

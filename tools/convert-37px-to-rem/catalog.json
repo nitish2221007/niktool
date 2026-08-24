@@ -1,0 +1,15 @@
+{
+  "name": "Convert 37px to REM",
+  "description": "Convert 37 pixels (px) to REM units based on 16px root font size (2.3125rem).",
+  "path": "/tools/convert-37px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 37px to rem",
+    "Convert 37px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

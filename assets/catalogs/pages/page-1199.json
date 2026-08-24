@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Active Passive Voice Converter",
+    "description": "Learn active to passive voice conversion with step-by-step patterns and examples. Free and fully private.",
+    "path": "/tools/active-passive-voice-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "active passive voice converter",
+      "active to passive converter",
+      "passive voice converter",
+      "class 10 active passive",
+      "voice change converter",
+      "English grammar passive voice",
+      "active passive examples",
+      "grammar voice converter",
+      "school passive voice",
+      "voice change tool"
+    ]
+  },
+  {
+    "name": "Geometric Mean Calculator",
+    "description": "Calculate the geometric mean G = (x₁ · x₂ · ... · xₙ)^(1/n) for compound investment returns, biology growth rates, and geometric scaling.",
+    "path": "/tools/geometric-mean-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "geometric mean calculator",
+      "calculate geometric mean online",
+      "compound average growth calculator",
+      "geometric average statistics",
+      "gm calculator"
+    ]
+  },
+  {
+    "name": "Cross Multiplication & Ratio Calculator",
+    "description": "Solve proportions and cross multiplication equations (A / B = C / X) instantly for scale models, recipe conversions, and algebra.",
+    "path": "/tools/cross-multiplication-ratio-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cross multiplication calculator",
+      "proportion solver online",
+      "ratio cross multiply calculator",
+      "solve for x proportion",
+      "algebra cross multiplication"
+    ]
+  },
+  {
+    "name": "Direct Indirect Speech Converter",
+    "description": "Learn direct to indirect speech conversion with complete rules and examples. Free and fully private.",
+    "path": "/tools/direct-indirect-speech-converter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "direct indirect speech converter",
+      "reported speech converter",
+      "direct to indirect converter",
+      "class 10 reported speech",
+      "indirect speech converter",
+      "English grammar reported speech",
+      "direct indirect examples",
+      "speech converter",
+      "school reported speech",
+      "voice speech converter"
+    ]
+  },
+  {
+    "name": "Parts of Speech Checker",
+    "description": "Identify the part of speech for common English words with definitions and tips. Free and fully private.",
+    "path": "/tools/parts-of-speech-checker/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "parts of speech checker",
+      "part of speech identifier",
+      "noun verb adjective checker",
+      "class 10 parts of speech",
+      "English grammar checker",
+      "word type checker",
+      "grammar parts of speech",
+      "school grammar tool",
+      "parts of speech tool",
+      "identify word type"
+    ]
+  },
+  {
+    "name": "Voltage Divider Calculator",
+    "description": "Calculate output voltage (Vout = Vin · R₂ / (R₁ + R₂)), current draw, and resistor power dissipation for resistor potential divider circuits.",
+    "path": "/tools/voltage-divider-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "voltage divider calculator",
+      "potential divider calculator",
+      "resistor voltage divider",
+      "calculate output voltage divider",
+      "vin vout r1 r2 calculator"
+    ]
+  },
+  {
+    "name": "ASCII Table Lookup",
+    "description": "Look up ASCII character codes in decimal, hex, binary, and octal formats. Free and fully private.",
+    "path": "/tools/ascii-table/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "ASCII table",
+      "ASCII converter",
+      "ASCII character codes",
+      "ASCII lookup",
+      "character to ASCII",
+      "ASCII decimal hex",
+      "ASCII binary converter",
+      "computer applications ASCII",
+      "developer ASCII tool",
+      "ASCII code finder"
+    ]
+  },
+  {
+    "name": "Series & Parallel Capacitor Calculator",
+    "description": "Calculate equivalent capacitance (C_total) for capacitors in parallel (C₁ + C₂ + ...) and capacitors in series (1/C_total = 1/C₁ + 1/C₂ + ...).",
+    "path": "/tools/parallel-series-capacitor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "parallel capacitor calculator",
+      "series capacitor calculator",
+      "equivalent capacitance calculator",
+      "capacitors in series and parallel",
+      "total capacitance formula"
+    ]
+  },
+  {
+    "name": "555 Timer Astable Circuit Calculator",
+    "description": "Calculate 555 timer oscillation frequency (Hz), high time (t1), low time (t2), and duty cycle percentage from R1, R2, and capacitor C.",
+    "path": "/tools/555-timer-astable-multivibrator-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "555 timer calculator",
+      "555 astable multivibrator calculator",
+      "555 frequency duty cycle calculator",
+      "ne555 oscillator calculator",
+      "555 timer pulse width"
+    ]
+  },
+  {
+    "name": "Lorem Ipsum Dummy Text Generator",
+    "description": "Generate customized placeholder Lorem Ipsum paragraphs, sentences, and words for UI web design, mockups, and typography testing.",
+    "path": "/tools/lorem-ipsum-generator/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "lorem ipsum generator",
+      "dummy text generator",
+      "placeholder text generator",
+      "lorem ipsum paragraphs online",
+      "mockup text builder"
+    ]
+  },
+  {
+    "name": "Naming Case Converter (camel, snake, kebab)",
+    "description": "Transform variable names and text strings between camelCase, PascalCase, snake_case, kebab-case, and CONSTANT_CASE instantly.",
+    "path": "/tools/case-kebab-camel-snake-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "case converter programming",
+      "camelcase to snake_case",
+      "kebab case converter",
+      "pascalcase converter",
+      "constant case online converter"
+    ]
+  },
+  {
+    "name": "Loan Amortization & EMI Calculator",
+    "description": "Calculate monthly loan EMI payments, total interest payable, loan payoff date, and principal-to-interest amortization breakdown.",
+    "path": "/tools/loan-amortization-schedule-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "loan amortization calculator",
+      "emi calculator online",
+      "loan repayment schedule",
+      "monthly emi calculation formula",
+      "total loan interest calculator"
+    ]
+  },
+  {
+    "name": "SIP Mutual Fund Wealth Calculator",
+    "description": "Calculate future wealth corpus and compound interest returns from monthly Systematic Investment Plans (SIP) in mutual funds and index ETFs.",
+    "path": "/tools/sip-mutual-fund-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "sip calculator",
+      "mutual fund sip calculator",
+      "monthly sip wealth calculator",
+      "sip return calculator online",
+      "systematic investment plan compounding"
+    ]
+  },
+  {
+    "name": "Rule of 72 Money Doubling Calculator",
+    "description": "Calculate the approximate number of years required to double your invested money at any annual compound interest rate.",
+    "path": "/tools/rule-of-72-doubling-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "rule of 72 calculator",
+      "money doubling calculator",
+      "years to double investment calculator",
+      "rule of 72 formula online",
+      "compound interest doubling time"
+    ]
+  },
+  {
+    "name": "NCERT Discovery Matrix",
+    "description": "Explore the NCERT class 11 physics scientists and their discoveries table tool. Quiz and database for Physical World chapter scientists.",
+    "path": "/tools/class-11/physics/ch-1/ncert-discovery-matrix/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "ncert class 11 physics scientists and their discoveries table tool",
+      "NCERT physics scientists",
+      "scientists and discoveries physics",
+      "Physical World scientist table",
+      "class 11 physics discovery quiz",
+      "physics history table",
+      "scientists class 11 physics",
+      "physical world chapter scientists"
+    ]
+  },
+  {
+    "name": "Running Pace & Race Finish Time Calculator",
+    "description": "Calculate running pace (min/km and min/mile), splits, and projected finish times for 5K, 10K, Half Marathon, and Marathon.",
+    "path": "/tools/running-pace-split-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "running pace calculator",
+      "marathon pace calculator",
+      "5k finish time calculator",
+      "running splits calculator",
+      "min per km to min per mile pace"
+    ]
+  },
+  {
+    "name": "One Rep Max (1RM) Strength Calculator",
+    "description": "Calculate your 1-rep maximum lift (1RM) and percentage training loads (90%, 80%, 70%) using the clinical Epley and Brzycki strength equations.",
+    "path": "/tools/one-rep-max-1rm-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "one rep max calculator",
+      "1rm calculator",
+      "bench press 1rm calculator",
+      "squat 1rm calculator",
+      "epley formula 1rm online"
+    ]
+  },
+  {
+    "name": "Pressure Unit Converter (Bar, PSI, kPa, atm)",
+    "description": "Convert pressure measurements across Bar, PSI, Kilopascals (kPa), Standard Atmospheres (atm), and Torr / mmHg in real time.",
+    "path": "/tools/pressure-bar-psi-kpa-atm-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pressure unit converter",
+      "psi to bar converter",
+      "kpa to psi converter",
+      "bar to atm converter",
+      "pressure conversion matrix online"
+    ]
+  },
+  {
+    "name": "Temperature Converter (Celsius, Fahrenheit, Kelvin)",
+    "description": "Convert temperatures simultaneously between Celsius (°C), Fahrenheit (°F), Kelvin (K), and Rankine (°R) in real time.",
+    "path": "/tools/temperature-kelvin-celsius-fahrenheit-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "temperature converter",
+      "celsius to fahrenheit converter",
+      "fahrenheit to celsius calculator",
+      "kelvin to celsius converter",
+      "temperature conversion matrix"
+    ]
+  },
+  {
+    "name": "Energy Unit Converter (Joules, kWh, Calories, BTU)",
+    "description": "Convert energy units between Joules (J), Kilowatt-Hours (kWh), Food Calories (kcal), British Thermal Units (BTU), and Electron-Volts (eV).",
+    "path": "/tools/energy-joules-calories-kwh-btu-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "energy unit converter",
+      "joules to kwh converter",
+      "calories to joules calculator",
+      "btu to kwh converter",
+      "energy conversion table online"
+    ]
+  },
+  {
+    "name": "Speed & Velocity Converter (km/h, mph, m/s, knots)",
+    "description": "Convert speeds and velocities across kilometers per hour (km/h), miles per hour (mph), meters per second (m/s), and nautical knots.",
+    "path": "/tools/speed-kmh-mph-ms-knots-converter/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "speed converter",
+      "kmh to mph converter",
+      "mph to kmh calculator",
+      "ms to kmh converter",
+      "knots to mph speed calculator"
+    ]
+  },
+  {
+    "name": "Data Storage Unit Converter (KB, MB, GB, TB, GiB)",
+    "description": "Convert file sizes between decimal storage units (KB, MB, GB, TB) and binary memory units (KiB, MiB, GiB, TiB) with exact byte counts.",
+    "path": "/tools/data-storage-bytes-kb-mb-gb-tb-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "data storage converter",
+      "gb to mb converter",
+      "gib to gb calculator",
+      "bytes to gb calculator",
+      "binary decimal storage converter"
+    ]
+  },
+  {
+    "name": "College GPA 4.0 Scale Calculator",
+    "description": "Calculate semester and cumulative Grade Point Average (GPA) on a 4.0 scale with credit hour weightings and letter grade conversions.",
+    "path": "/tools/grade-point-average-gpa-scale-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "gpa calculator",
+      "college gpa calculator 4.0 scale",
+      "weighted gpa calculator",
+      "calculate semester gpa",
+      "letter grade to gpa converter"
+    ]
+  },
+  {
+    "name": "Days Until Date & Countdown Calculator",
+    "description": "Calculate total days, weeks, weekends, and remaining hours between today and any future target event date or holiday.",
+    "path": "/tools/days-until-date-countdown-calculator/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "days until date calculator",
+      "countdown to date online",
+      "how many days until date",
+      "event countdown calculator",
+      "days between dates calculator"
+    ]
+  }
+]

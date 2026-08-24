@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 2A)",
+    "description": "Calculate Resistance (227.50 Ω) and Electric Power (910.0 W) for 455V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 2a",
+      "Ohm's Law Calculator (Voltage 455V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 3A)",
+    "description": "Calculate Resistance (151.67 Ω) and Electric Power (1365.0 W) for 455V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 3a",
+      "Ohm's Law Calculator (Voltage 455V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 4A)",
+    "description": "Calculate Resistance (113.75 Ω) and Electric Power (1820.0 W) for 455V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 4a",
+      "Ohm's Law Calculator (Voltage 455V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 5A)",
+    "description": "Calculate Resistance (91.00 Ω) and Electric Power (2275.0 W) for 455V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 5a",
+      "Ohm's Law Calculator (Voltage 455V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 6A)",
+    "description": "Calculate Resistance (75.83 Ω) and Electric Power (2730.0 W) for 455V voltage and 6A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-6a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 6a",
+      "Ohm's Law Calculator (Voltage 455V, Current 6A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 7A)",
+    "description": "Calculate Resistance (65.00 Ω) and Electric Power (3185.0 W) for 455V voltage and 7A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-7a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 7a",
+      "Ohm's Law Calculator (Voltage 455V, Current 7A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 8A)",
+    "description": "Calculate Resistance (56.88 Ω) and Electric Power (3640.0 W) for 455V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 8a",
+      "Ohm's Law Calculator (Voltage 455V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 455V, Current 9A)",
+    "description": "Calculate Resistance (50.56 Ω) and Electric Power (4095.0 W) for 455V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-455v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 455v current 9a",
+      "Ohm's Law Calculator (Voltage 455V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 10A)",
+    "description": "Calculate Resistance (4.50 Ω) and Electric Power (450.0 W) for 45V voltage and 10A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-10a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 10a",
+      "Ohm's Law Calculator (Voltage 45V, Current 10A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 1A)",
+    "description": "Calculate Resistance (45.00 Ω) and Electric Power (45.0 W) for 45V voltage and 1A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-1a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 1a",
+      "Ohm's Law Calculator (Voltage 45V, Current 1A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 2A)",
+    "description": "Calculate Resistance (22.50 Ω) and Electric Power (90.0 W) for 45V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 2a",
+      "Ohm's Law Calculator (Voltage 45V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 3A)",
+    "description": "Calculate Resistance (15.00 Ω) and Electric Power (135.0 W) for 45V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 3a",
+      "Ohm's Law Calculator (Voltage 45V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 4A)",
+    "description": "Calculate Resistance (11.25 Ω) and Electric Power (180.0 W) for 45V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 4a",
+      "Ohm's Law Calculator (Voltage 45V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 5A)",
+    "description": "Calculate Resistance (9.00 Ω) and Electric Power (225.0 W) for 45V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 5a",
+      "Ohm's Law Calculator (Voltage 45V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 6A)",
+    "description": "Calculate Resistance (7.50 Ω) and Electric Power (270.0 W) for 45V voltage and 6A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-6a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 6a",
+      "Ohm's Law Calculator (Voltage 45V, Current 6A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 7A)",
+    "description": "Calculate Resistance (6.43 Ω) and Electric Power (315.0 W) for 45V voltage and 7A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-7a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 7a",
+      "Ohm's Law Calculator (Voltage 45V, Current 7A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 8A)",
+    "description": "Calculate Resistance (5.63 Ω) and Electric Power (360.0 W) for 45V voltage and 8A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-8a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 8a",
+      "Ohm's Law Calculator (Voltage 45V, Current 8A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 45V, Current 9A)",
+    "description": "Calculate Resistance (5.00 Ω) and Electric Power (405.0 W) for 45V voltage and 9A current.",
+    "path": "/tools/ohms-law-calculator-voltage-45v-current-9a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 45v current 9a",
+      "Ohm's Law Calculator (Voltage 45V, Current 9A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 460V, Current 10A)",
+    "description": "Calculate Resistance (46.00 Ω) and Electric Power (4600.0 W) for 460V voltage and 10A current.",
+    "path": "/tools/ohms-law-calculator-voltage-460v-current-10a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 460v current 10a",
+      "Ohm's Law Calculator (Voltage 460V, Current 10A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 460V, Current 1A)",
+    "description": "Calculate Resistance (460.00 Ω) and Electric Power (460.0 W) for 460V voltage and 1A current.",
+    "path": "/tools/ohms-law-calculator-voltage-460v-current-1a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 460v current 1a",
+      "Ohm's Law Calculator (Voltage 460V, Current 1A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 460V, Current 2A)",
+    "description": "Calculate Resistance (230.00 Ω) and Electric Power (920.0 W) for 460V voltage and 2A current.",
+    "path": "/tools/ohms-law-calculator-voltage-460v-current-2a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 460v current 2a",
+      "Ohm's Law Calculator (Voltage 460V, Current 2A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 460V, Current 3A)",
+    "description": "Calculate Resistance (153.33 Ω) and Electric Power (1380.0 W) for 460V voltage and 3A current.",
+    "path": "/tools/ohms-law-calculator-voltage-460v-current-3a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 460v current 3a",
+      "Ohm's Law Calculator (Voltage 460V, Current 3A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 460V, Current 4A)",
+    "description": "Calculate Resistance (115.00 Ω) and Electric Power (1840.0 W) for 460V voltage and 4A current.",
+    "path": "/tools/ohms-law-calculator-voltage-460v-current-4a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 460v current 4a",
+      "Ohm's Law Calculator (Voltage 460V, Current 4A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Ohm's Law Calculator (Voltage 460V, Current 5A)",
+    "description": "Calculate Resistance (92.00 Ω) and Electric Power (2300.0 W) for 460V voltage and 5A current.",
+    "path": "/tools/ohms-law-calculator-voltage-460v-current-5a/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "ohms law calculator voltage 460v current 5a",
+      "Ohm's Law Calculator (Voltage 460V, Current 5A)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

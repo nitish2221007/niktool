@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 143cm, Weight 63kg)",
+  "description": "Calculate Body Mass Index (BMI 30.8) for height 143 cm and weight 63 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-143cm-weight-63kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 143cm weight 63kg",
+    "BMI Calculator (Height 143cm, Weight 63kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

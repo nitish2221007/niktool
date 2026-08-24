@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate biochemical enzyme reaction velocity v in μmol/(L·min) (Michaelis-Menten Equation: v = V_max · [S] / (K_m + [S])), catalytic efficiency k_cat / K_m, turnover number k_cat, and Lineweaver-Burk double reciprocal coordinates.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/michaelis-menten-enzyme-kinetics-km-vmax-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator | NikTool">
+  <meta property="og:description" content="Calculate biochemical enzyme reaction velocity v in μmol/(L·min) (Michaelis-Menten Equation: v = V_max · [S] / (K_m + [S])), catalytic efficiency k_cat / K_m, turnover number k_cat, and Lineweaver-Burk double reciprocal coordinates.">
+  <meta property="og:url" content="https://niktool.in/tools/michaelis-menten-enzyme-kinetics-km-vmax-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/michaelis-menten-enzyme-kinetics-km-vmax-calculator/",
+        "description": "Calculate biochemical enzyme reaction velocity v in μmol/(L·min) (Michaelis-Menten Equation: v = V_max · [S] / (K_m + [S])), catalytic efficiency k_cat / K_m, turnover number k_cat, and Lineweaver-Burk double reciprocal coordinates.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the physical meaning of the Michaelis constant Km?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Km is inversely related to enzyme-substrate binding affinity: a smaller Km means the enzyme binds substrate more tightly and reaches half-maximal speed at lower concentration."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator</h1>
+      <p>Calculate biochemical enzyme reaction velocity v in μmol/(L·min) (Michaelis-Menten Equation: v = V_max · [S] / (K_m + [S])), catalytic efficiency k_cat / K_m, turnover number k_cat, and Lineweaver-Burk double reciprocal coordinates.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Substrate Concentration [S] (μM or mM), Maximum Velocity V_max (μM/min) & Michaelis Constant K_m (μM)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mm-s">Substrate [S] (μM)</label>
+          <input class="tool-textarea" id="mm-s" type="number" step="10" value="50.0" placeholder="50.0 μM" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mm-vmax">V_max (μM/min)</label>
+          <input class="tool-textarea" id="mm-vmax" type="number" step="20" value="200.0" placeholder="200.0 μM/min" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mm-km">K_m (μM)</label>
+          <input class="tool-textarea" id="mm-km" type="number" step="10" value="25.0" placeholder="25.0 μM (Half-Max Affinity)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mm-et">Enzyme [E]ₜ (μM)</label>
+          <input class="tool-textarea" id="mm-et" type="number" step="0.5" value="2.0" placeholder="2.0 μM Active Enzyme" />
+        </div>
+      </div>
+      <div id="mm-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mm-res-v" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Initial Velocity v = 133.3 μM / min (66.7% V_max)</span>
+            <span class="stat-label">Reaction Velocity (v = V_max · [S] / (K_m + [S]))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mm-res-kcat" style="color:var(--green-dark); font-weight:700;">Turnover k_cat = 1.67 s⁻¹ | Specificity k_cat/K_m = 6.67 × 10⁴ M⁻¹s⁻¹</span>
+            <span class="stat-label">Turnover Number (k_cat = V_max / [E]ₜ) & Catalytic Efficiency</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) Calculator</h2>
+      <ol>
+        <li>Enter current substrate concentration $[S]$ in $mu	ext{M}$ or mM.</li>
+        <li>Enter maximum enzyme reaction velocity $V_{max}$ in $mu	ext{M/min}$.</li>
+        <li>Enter Michaelis constant $K_m$ in $mu	ext{M}$ (substrate concentration at half-maximal velocity $v = V_{max}/2$).</li>
+        <li>Enter total active enzyme catalyst concentration $[E]_t$ in $mu	ext{M}$.</li>
+        <li>Inspect instantaneous reaction rate v, percentage of $V_{max}$, turnover number $k_{	ext{cat}}$, and catalytic efficiency.</li>
+      </ol>
+
+      <h2>Leonor Michaelis & Maud Menten 1913 Kinetic Standard</h2>
+      <p>The universal mathematical foundation for enzymatic catalysis, drug discovery, competitive/non-competitive inhibitor pharmacology, and metabolic pathway modeling.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the physical meaning of the Michaelis constant Km?</summary>
+        <p>Km is inversely related to enzyme-substrate binding affinity: a smaller Km means the enzyme binds substrate more tightly and reaches half-maximal speed at lower concentration.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/michaelis-menten-enzyme-kinetics-km-vmax-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Batch Liquid Media Thermal Sterilization Del Factor (∇ = ln(N₀ / N_t)) Calculator",
+  "description": "Calculate industrial fermentation liquid growth media thermal batch sterilization Del sterilization ratio (∇ = ln(N₀ / N_t)) and required holding kill time t_hold in minutes at 121°C from Arrhenius thermal spore death kinetics.",
+  "path": "/tools/batch-sterilization-del-factor-arrhenius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "del factor calculator",
+    "batch sterilization formula nabla equals ln n0 over nt online",
+    "thermal spore death kinetics arrhenius del factor calculator",
+    "autoclave 121c sterilization hold time calculator",
+    "geobacillus stearothermophilus spore kill time online"
+  ],
+  "order": 860
+}

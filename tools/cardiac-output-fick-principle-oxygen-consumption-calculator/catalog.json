@@ -1,0 +1,15 @@
+{
+  "name": "Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator",
+  "description": "Calculate clinical hemodynamic Cardiac Output CO in L/min (Adolf Fick Direct Principle: CO = VO₂ / (CaO₂ - CvO₂) = VO₂ / (13.4 · Hb · (SaO₂ - SvO₂))), Cardiac Index CI in L/min/m², and Stroke Volume.",
+  "path": "/tools/cardiac-output-fick-principle-oxygen-consumption-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fick principle cardiac output calculator",
+    "cardiac output formula vo2 over cao2 minus cvo2 online",
+    "cardiac index stroke volume hemodynamic calculator",
+    "pulmonary artery catheter swan ganz gold standard calculator",
+    "cardiology intensive care hemodynamics physiology online"
+  ],
+  "order": 1449
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Rental Property Capitalization Rate (Cap Rate) Calculator",
+  "description": "Calculate real estate Capitalization Rate (Cap Rate = (Net Operating Income NOI / Property Value) · 100) and gross yield for commercial and residential investment properties.",
+  "path": "/tools/rental-property-cap-rate-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "cap rate calculator real estate",
+    "capitalization rate formula",
+    "net operating income noi calculator",
+    "rental property return calculator",
+    "commercial real estate cap rate online"
+  ],
+  "order": 294
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 187 Knots Speed Val to KM/H",
+  "description": "Convert 187 knots speed to kilometers per hour (346.32 km/h).",
+  "path": "/tools/convert-knot-speed-val-187-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 187 to kmh",
+    "Convert 187 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Schrödinger 1D Particle in a Box (Infinite Potential Well E_n) Calculator",
+  "description": "Calculate quantum mechanical energy eigenlevels (E_n = n²·π²·ℏ² / (2·m·L²)) in eV/Joules and photon transition emission wavelength (λ = h·c / ΔE) in nm for electrons in quantum wells.",
+  "path": "/tools/schrodinger-infinite-potential-well-energy-levels-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "particle in a box calculator",
+    "schrodinger infinite square well energy formula e_n online",
+    "quantum well energy levels electron volt calculator",
+    "quantum mechanics 1d potential well calculator online",
+    "planck de broglie quantum energy levels online"
+  ],
+  "order": 812
+}

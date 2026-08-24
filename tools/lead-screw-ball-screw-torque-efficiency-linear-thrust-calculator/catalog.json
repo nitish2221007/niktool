@@ -1,0 +1,15 @@
+{
+  "name": "Lead Screw & Ball Screw Linear Thrust Force (F = 2π·η·T / L) & Torque Calculator",
+  "description": "Calculate linear actuator drive torque T in N·m (T = F · L / (2π · η)), linear thrust force F in kN, screw mechanical efficiency η, and lead angle λ for precision CNC machine ball screws and ACME lead screws.",
+  "path": "/tools/lead-screw-ball-screw-torque-efficiency-linear-thrust-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ball screw calculator",
+    "lead screw thrust force formula online",
+    "motor torque to linear force ball screw calculator",
+    "lead screw efficiency lead angle calculator",
+    "cnc automation mechanical engineering robotics online"
+  ],
+  "order": 1331
+}

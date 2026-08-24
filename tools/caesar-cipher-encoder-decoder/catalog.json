@@ -1,0 +1,15 @@
+{
+  "name": "Caesar Cipher (ROT-N) Encoder & Decoder",
+  "description": "Encrypt and decrypt text messages using the classical Julius Caesar rotation cipher (ROT-1 to ROT-25) and ROT-13 with custom shift values.",
+  "path": "/tools/caesar-cipher-encoder-decoder/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "caesar cipher decoder",
+    "rot13 encoder online",
+    "caesar cipher shift calculator",
+    "rot n cipher generator",
+    "classical substitution cipher online"
+  ],
+  "order": 411
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator",
+    "description": "Calculate McCabe-Thiele binary distillation column Rectifying line (y = (R/(R+1))·x + x_D/(R+1)), Stripping line, and thermal feed q-line slope (m_q = q / (q - 1)).",
+    "path": "/tools/mccabe-thiele-reflux-ratio-feed-q-line-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mccabe thiele calculator",
+      "distillation q line slope formula q over q minus 1 online",
+      "rectifying stripping operating line mccabe thiele calculator",
+      "reflux ratio mccabe thiele step by step online",
+      "chemical engineering binary distillation mccabe thiele"
+    ]
+  },
+  {
+    "name": "Gas Absorption Packed Tower Kremser Equation (N_stages) Calculator",
+    "description": "Calculate gas scrubbing absorption packed tower theoretical stages (Kremser equation: N = ln([(1 - 1/A)·(y_in - m·x_in)/(y_out - m·x_in) + 1/A]) / ln A) from Absorption Factor A = L / (m·G).",
+    "path": "/tools/gas-absorption-kremser-equation-stages-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kremser equation calculator",
+      "gas absorption packed tower stages formula online",
+      "absorption factor a equals l over m g calculator",
+      "gas scrubbing column theoretical stages kremser online",
+      "chemical engineering gas absorption stripping online"
+    ]
+  },
+  {
+    "name": "Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator",
+    "description": "Calculate mass transfer packed column bed height (Z = HTU · NTU) in meters from Height of a Transfer Unit (HTU) and Colburn Number of Transfer Units (NTU).",
+    "path": "/tools/colburn-htug-height-transfer-unit-packed-column-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "colburn ntu calculator",
+      "packed column height formula z equals htu times ntu",
+      "number of transfer units ntu absorption calculator online",
+      "height of transfer unit htu mass transfer calculator",
+      "packed tower structured packing height online"
+    ]
+  },
+  {
+    "name": "Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator",
+    "description": "Calculate petroleum gasoline blending Reid Vapor Pressure (RVP_blend = (Σ v_i · RVP_i^1.25)^(1/1.25)) in psi/kPa across butane, reformate, alkylate, and FCC naphtha components.",
+    "path": "/tools/reid-vapor-pressure-rvp-crude-oil-blending-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reid vapor pressure calculator",
+      "rvp blending formula chevron 1.25 power online",
+      "gasoline rvp blending index calculator online",
+      "butane blending gasoline rvp calculator",
+      "petroleum refinery rvp compliance online"
+    ]
+  },
+  {
+    "name": "Rankine Lateral Earth Pressure (K_a & K_p) & Retaining Wall Thrust Calculator",
+    "description": "Calculate soil lateral earth pressure coefficients (K_a = tan²(45° - ϕ/2), K_p = tan²(45° + ϕ/2)) and total lateral thrust force (P_a = 1/2 · K_a · γ · H²) in kN/m against vertical retaining walls.",
+    "path": "/tools/rankine-active-passive-earth-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rankine earth pressure calculator",
+      "active passive earth pressure formula ka kp tan squared 45 minus phi over 2",
+      "retaining wall lateral earth thrust calculator online",
+      "soil internal friction angle rankine calculator",
+      "geotechnical retaining wall earth pressure online"
+    ]
+  },
+  {
+    "name": "Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator",
+    "description": "Calculate cantilever/gravity retaining wall stability Factors of Safety against Overturning (FS_overturn = Σ M_R / Σ M_O ≥ 2.0) and Base Sliding (FS_slide = μ·R_v / P_h ≥ 1.5).",
+    "path": "/tools/retaining-wall-overturning-sliding-factor-of-safety-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "retaining wall factor of safety calculator",
+      "overturning sliding stability formula sum mr over sum mo",
+      "retaining wall geotechnical safety factor calculator online",
+      "cantilever wall sliding resistance calculator",
+      "civil engineering retaining wall stability online"
+    ]
+  },
+  {
+    "name": "Deep Foundation Pile Bearing Capacity (Meyerhof Method Q_u = Q_b + Q_s) Calculator",
+    "description": "Calculate deep foundation driven/bored pile ultimate axial load capacity (Q_u = q_p·A_p + Σ f_s·A_s) in kN and allowable working load (Q_all = Q_u / FS) across Sand and Clay strata.",
+    "path": "/tools/pile-foundation-bearing-capacity-meyershof-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pile bearing capacity calculator",
+      "meyerhof deep foundation formula q equals qb plus qs",
+      "end bearing skin friction pile capacity calculator online",
+      "driven concrete steel pile axial capacity calculator",
+      "geotechnical deep foundation pile sizing online"
+    ]
+  },
+  {
+    "name": "Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator",
+    "description": "Calculate geotechnical embankment slope stability Factor of Safety (FS = Σ [c'·b + (W - u·b)·tan ϕ'] · (sec α / m_α) / Σ W·sin α) for circular slip surface failure.",
+    "path": "/tools/soil-slope-stability-bishop-simplified-method-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "slope stability calculator",
+      "bishops simplified method of slices formula fs online",
+      "geotechnical slope failure factor of safety calculator",
+      "circular slip surface cohesion friction angle calculator",
+      "landslide embankment slope stability online"
+    ]
+  },
+  {
+    "name": "Westergaard Layered Soil Stress Distribution (σ_z Beneath Load) Calculator",
+    "description": "Calculate vertical subterranean stress increase (σ_z = (P / z²) · (1 / 2π) · [1 + 2·(r/z)²]^(-3/2)) in kPa beneath surface point loads in stratified layered soils.",
+    "path": "/tools/westergaard-elastic-stress-point-load-depth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "westergaard stress distribution calculator",
+      "vertical soil stress sigma z formula point load online",
+      "westergaard vs boussinesq soil stress calculator",
+      "layered foundation settlement stress calculator online",
+      "geotechnical elastic stress distribution online"
+    ]
+  },
+  {
+    "name": "Joule-Thomson Isenthalpic Throttling Coefficient (μ_JT) Calculator",
+    "description": "Calculate cryogenic isenthalpic throttling expansion cooling temperature drop (ΔT = μ_JT · ΔP) from Joule-Thomson coefficient μ_JT (K/bar) and verify inversion temperature boundaries.",
+    "path": "/tools/joule-thomson-cooling-coefficient-liquefaction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "joule thomson coefficient calculator",
+      "cryogenic gas liquefaction hampson linde formula online",
+      "isenthalpic throttling temperature drop calculator",
+      "joule thomson inversion temperature calculator online",
+      "h2 he n2 cryogenic cooling calculator"
+    ]
+  },
+  {
+    "name": "Cryogenic Liquid (LN₂, LHe, LNG, LOX, LH₂) Boil-Off Rate Calculator",
+    "description": "Calculate cryogenic liquid boil-off evaporation rate (ṁ = Q_leak / ΔH_vap) in kg/h and Liters/day from Dewar vacuum insulation thermal heat leak Q_leak in Watts.",
+    "path": "/tools/cryogenic-nitrogen-boil-off-rate-dewar-heat-leak-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cryogenic boil off rate calculator",
+      "liquid nitrogen boil off formula m dot equals q over delta h vap",
+      "liquid helium dewar heat leak calculator online",
+      "lng lox lh2 boil off gas calculator",
+      "cryogenic storage tank evaporation rate online"
+    ]
+  },
+  {
+    "name": "BCS Superconducting Energy Gap (Δ₀ = 1.764·k_B·T_c) & Critical Field Calculator",
+    "description": "Calculate Bardeen-Cooper-Schrieffer (BCS) superconducting energy gap (Δ₀ = 1.764 · k_B · T_c) in meV and thermodynamic critical magnetic field (H_c(T) = H_c(0) · [1 - (T/T_c)²]) in Tesla.",
+    "path": "/tools/bcs-theory-superconducting-energy-gap-critical-field-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bcs theory calculator",
+      "superconducting energy gap formula delta equals 1.764 kb tc",
+      "critical magnetic field temperature dependence calculator online",
+      "cooper pair binding energy superconductor calculator",
+      "nb3sn nbti ybco critical temperature online"
+    ]
+  },
+  {
+    "name": "London Penetration Depth (λ_L) & Ginzburg-Landau Parameter (κ) Calculator",
+    "description": "Calculate superconductor magnetic screening London penetration depth (λ_L = √(m / (μ₀·n_s·e²))) in nm, coherence length ξ, and Ginzburg-Landau parameter (κ = λ / ξ) to classify Type I vs Type II superconductors.",
+    "path": "/tools/london-penetration-depth-coherence-length-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "london penetration depth calculator",
+      "ginzburg landau parameter kappa formula lambda over xi",
+      "type 1 vs type 2 superconductor calculator online",
+      "superconducting electron density ns penetration depth calculator",
+      "meissner effect magnetic screening depth online"
+    ]
+  },
+  {
+    "name": "Clausius-Clapeyron Cryogen Vapor Pressure & Boiling Point (P vs T) Calculator",
+    "description": "Calculate cryogenic liquid boiling temperature shift under vacuum pumping or pressurization (ln(P₂ / P₁) = -ΔH_vap / R · (1/T₂ - 1/T₁)) in Kelvin and Celsius.",
+    "path": "/tools/clausius-clapeyron-cryogen-vapor-pressure-boiling-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "clausius clapeyron calculator",
+      "vapor pressure boiling point formula ln p2 over p1 online",
+      "vacuum pumping liquid nitrogen boiling temp calculator",
+      "cryogenic temperature pressure clausius clapeyron calculator",
+      "latent heat vaporization vapor pressure online"
+    ]
+  },
+  {
+    "name": "Cohen-Coon Reaction Curve Open-Loop PID Controller Tuning Calculator",
+    "description": "Calculate industrial process control PID gain parameters (K_p, T_i, T_d) from open-loop step test First-Order Plus Dead-Time (FOPDT: Process Gain K, Time Constant τ, Dead Time θ).",
+    "path": "/tools/cohen-coon-pid-controller-open-loop-tuning-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cohen coon pid tuning calculator",
+      "open loop process reaction curve pid formula fopdt online",
+      "ziegler nichols vs cohen coon tuning calculator",
+      "pid controller kp ti td cohen coon calculator",
+      "industrial process automation loop tuning online"
+    ]
+  },
+  {
+    "name": "Six Sigma Process Capability (C_p, C_pk & DPMO) Quality Calculator",
+    "description": "Calculate manufacturing quality Process Capability C_p = (USL - LSL) / (6·σ), C_pk = min((USL - μ)/(3·σ), (μ - LSL)/(3·σ)), defect rate in Parts Per Million (DPMO), and Sigma Level.",
+    "path": "/tools/six-sigma-process-capability-cpk-dpmo-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cpk calculator",
+      "six sigma process capability formula cp cpk online",
+      "dpmo defects per million opportunities calculator",
+      "manufacturing quality control cpk calculator online",
+      "process sigma level normal distribution cpk online"
+    ]
+  },
+  {
+    "name": "Shewhart Statistical Process Control (X̄ and R Chart Limits) Calculator",
+    "description": "Calculate ISO/ASTM Shewhart SPC control limits (UCL_X̄ = X̄̄ + A₂·R̄, LCL_X̄ = X̄̄ - A₂·R̄, UCL_R = D₄·R̄, LCL_R = D₃·R̄) for manufacturing quality monitoring.",
+    "path": "/tools/shewhart-statistical-process-control-xbar-r-chart-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spc xbar r chart calculator",
+      "shewhart statistical process control limits formula ucl lcl online",
+      "control chart constants a2 d3 d4 calculator",
+      "manufacturing statistical quality control spc online",
+      "subgroup range x bar r chart limits calculator"
+    ]
+  },
+  {
+    "name": "Industrial Control Valve Flow Coefficient (C_v & K_v) Sizing Calculator",
+    "description": "Calculate industrial process control valve flow coefficient (C_v = Q · √(SG / ΔP)) in US GPM / √psi and metric K_v (m³/h / √bar) for liquid flow piping systems.",
+    "path": "/tools/control-valve-flow-coefficient-cv-liquid-sizing-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "control valve cv calculator",
+      "flow coefficient cv formula q times sqrt sg over delta p",
+      "valve sizing kv to cv converter online",
+      "isa control valve liquid flow sizing calculator",
+      "piping valve pressure drop cv calculator online"
+    ]
+  },
+  {
+    "name": "Overall Equipment Effectiveness (OEE = A × P × Q) Manufacturing Calculator",
+    "description": "Calculate manufacturing Overall Equipment Effectiveness (OEE = Availability × Performance × Quality) and identify Six Big Losses in production line downtime.",
+    "path": "/tools/overall-equipment-effectiveness-oee-availability-quality-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "oee calculator",
+      "overall equipment effectiveness formula availability performance quality online",
+      "six big losses manufacturing oee calculator",
+      "total productive maintenance tpm oee calculator online",
+      "production line efficiency oee benchmark online"
+    ]
+  },
+  {
+    "name": "V-Notch (Thomson Triangular) Open-Channel Weir Discharge (Q) Calculator",
+    "description": "Calculate open channel open-water flow rate discharge (Q = 8/15 · C_d · √(2g) · tan(θ/2) · H^(5/2)) in L/s, m³/h, and GPM for 90°, 60°, and 45° V-notch weirs.",
+    "path": "/tools/gpm-weir-flow-v-notch-thomson-discharge-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "v notch weir calculator",
+      "triangular weir flow rate formula thomson 8 over 15 cd sqrt 2g",
+      "open channel v notch weir discharge calculator online",
+      "90 degree v notch weir flow rate calculator",
+      "hydraulics water flow weir head h calculator"
+    ]
+  },
+  {
+    "name": "Fuel-Air Equivalence Ratio (Φ) & Combustion Stoichiometry Calculator",
+    "description": "Calculate combustion Fuel-Air Equivalence Ratio (Φ = (Fuel/Air)_actual / (Fuel/Air)_stoichiometric) and Lambda (λ = 1 / Φ) to classify Lean, Stoichiometric, and Rich engine combustion regimes.",
+    "path": "/tools/equivalence-ratio-fuel-air-combustion-stoichiometry-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "equivalence ratio calculator",
+      "combustion fuel air ratio formula phi equals fa actual over fa stoich",
+      "lambda to equivalence ratio calculator online",
+      "gas turbine internal combustion rich lean phi calculator",
+      "stoichiometric air fuel ratio octane diesel online"
+    ]
+  },
+  {
+    "name": "Adiabatic Flame Temperature (T_ad Constant-Pressure Combustion) Calculator",
+    "description": "Calculate constant-pressure adiabatic flame temperature (T_ad = T_init + LHV / (M_products · c_p,avg)) in Kelvin and Celsius from fuel Lower Heating Value (LHV) and excess air ratio.",
+    "path": "/tools/adiabatic-flame-temperature-constant-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "adiabatic flame temperature calculator",
+      "constant pressure combustion temperature formula online",
+      "flame temperature methane propane hydrogen calculator",
+      "combustion chamber adiabatic flame temp online",
+      "thermodynamic enthalpy combustion temperature calculator"
+    ]
+  },
+  {
+    "name": "Wobbe Index (I_W = HHV / √SG) Fuel Gas Interchangeability Calculator",
+    "description": "Calculate fuel gas Wobbe Index (I_W = HHV / √SG) in MJ/m³ and BTU/scf to verify pipeline fuel interchangeability across Natural Gas, Biomethane, Propane-Air, and Hydrogen blends.",
+    "path": "/tools/wobbe-index-fuel-gas-interchangeability-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "wobbe index calculator",
+      "fuel gas interchangeability formula iw equals hhv over sqrt sg",
+      "natural gas hydrogen blend wobbe index calculator online",
+      "burner orifice heating rate wobbe index calculator",
+      "biomethane pipeline grid injection wobbe online"
+    ]
+  },
+  {
+    "name": "Chapman-Jouguet Detonation Wave Velocity (D_CJ) & Pressure Calculator",
+    "description": "Calculate supersonic gaseous/condensed explosive Chapman-Jouguet detonation wave propagation velocity (D_CJ = √(2·(γ² - 1)·q)) in m/s and peak detonation pressure (P_CJ = ρ₀·D_CJ² / (γ + 1)) in GPa/bar.",
+    "path": "/tools/chapman-jouguet-detonation-velocity-hugoniot-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "chapman jouguet detonation calculator",
+      "detonation wave velocity formula d cj equals sqrt 2 gamma squared minus 1 q",
+      "chapman jouguet pressure calculator online",
+      "rayleigh hugoniot detonation velocity online",
+      "explosive detonation shock wave speed calculator"
+    ]
+  }
+]

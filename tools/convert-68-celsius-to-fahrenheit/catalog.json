@@ -1,0 +1,15 @@
+{
+  "name": "Convert 68°C Celsius to Fahrenheit",
+  "description": "Convert 68 degrees Celsius (°C) to Fahrenheit (154.4°F).",
+  "path": "/tools/convert-68-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 68 celsius to fahrenheit",
+    "Convert 68°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=180)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 2.22) and secondary voltage for Np=400 and Ns=180.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-180/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 180",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=180)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=190)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 2.11) and secondary voltage for Np=400 and Ns=190.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-190/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 190",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=190)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=20)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 20.00) and secondary voltage for Np=400 and Ns=20.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-20/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 20",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=20)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=200)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 2.00) and secondary voltage for Np=400 and Ns=200.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-200/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 200",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=200)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=210)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.90) and secondary voltage for Np=400 and Ns=210.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-210/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 210",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=210)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=220)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.82) and secondary voltage for Np=400 and Ns=220.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-220/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 220",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=220)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=230)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.74) and secondary voltage for Np=400 and Ns=230.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-230/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 230",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=230)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=240)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.67) and secondary voltage for Np=400 and Ns=240.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-240/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 240",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=240)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=250)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.60) and secondary voltage for Np=400 and Ns=250.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-250/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 250",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=250)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=260)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.54) and secondary voltage for Np=400 and Ns=260.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-260/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 260",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=260)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=270)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.48) and secondary voltage for Np=400 and Ns=270.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-270/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 270",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=270)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=280)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.43) and secondary voltage for Np=400 and Ns=280.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-280/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 280",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=280)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=290)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.38) and secondary voltage for Np=400 and Ns=290.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-290/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 290",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=290)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=30)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 13.33) and secondary voltage for Np=400 and Ns=30.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-30/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 30",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=30)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=300)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.33) and secondary voltage for Np=400 and Ns=300.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-300/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 300",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=300)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=310)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.29) and secondary voltage for Np=400 and Ns=310.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-310/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 310",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=310)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=320)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.25) and secondary voltage for Np=400 and Ns=320.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-320/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 320",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=320)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=330)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.21) and secondary voltage for Np=400 and Ns=330.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-330/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 330",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=330)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=340)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.18) and secondary voltage for Np=400 and Ns=340.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-340/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 340",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=340)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=350)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.14) and secondary voltage for Np=400 and Ns=350.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-350/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 350",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=350)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=360)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.11) and secondary voltage for Np=400 and Ns=360.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-360/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 360",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=360)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=370)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.08) and secondary voltage for Np=400 and Ns=370.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-370/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 370",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=370)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=380)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.05) and secondary voltage for Np=400 and Ns=380.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-380/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 380",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=380)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Transformer Turns Ratio Calculator (Np=400, Ns=390)",
+    "description": "Calculate Transformer Turns Ratio (a = Np/Ns = 1.03) and secondary voltage for Np=400 and Ns=390.",
+    "path": "/tools/transformer-turns-ratio-calculator-primary-400-secondary-390/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "transformer turns ratio calculator primary 400 secondary 390",
+      "Transformer Turns Ratio Calculator (Np=400, Ns=390)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

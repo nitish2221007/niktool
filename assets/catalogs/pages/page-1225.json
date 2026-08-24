@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Phase Change Material (PCM) Latent Heat Thermal Energy Storage Calculator",
+    "description": "Calculate Phase Change Material (PCM) combined sensible + latent isothermal heat storage (Q = m · [c_p,s·ΔT_s + ΔH_fusion + c_p,l·ΔT_l]) in kWh and compare storage mass savings over water.",
+    "path": "/tools/latent-heat-phase-change-material-pcm-storage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pcm thermal storage calculator",
+      "latent heat phase change material formula q equals m delta h fusion",
+      "paraffin salt hydrate pcm storage calculator online",
+      "latent vs sensible heat thermal storage calculator",
+      "building pcm passive cooling calculator online"
+    ]
+  },
+  {
+    "name": "Flat-Plate Solar Collector (Hottel-Whillier-Bliss) Efficiency Calculator",
+    "description": "Calculate solar hot water flat-plate collector thermal efficiency (η = F_R·(τα) - F_R·U_L · (T_in - T_a) / G_T) and daily thermal heat yield (Q_u in kWh/day).",
+    "path": "/tools/flat-plate-solar-collector-hottel-whillier-bliss-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "flat plate solar collector calculator",
+      "hottel whillier bliss equation formula online",
+      "solar thermal collector efficiency fr ul calculator",
+      "solar water heater daily heat yield calculator online",
+      "hwb solar collector efficiency curve online"
+    ]
+  },
+  {
+    "name": "Thermoelectric Generator (TEG Seebeck Effect) Power & Efficiency Calculator",
+    "description": "Calculate Thermoelectric Generator waste heat power output (P_max = (S · ΔT)² / (4 · R_int)) in Watts and maximum conversion efficiency (η_max) from dimensionless Figure of Merit ZT.",
+    "path": "/tools/thermoelectric-generator-teg-seebeck-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thermoelectric generator calculator",
+      "teg seebeck effect power formula online",
+      "figure of merit zt thermoelectric efficiency calculator",
+      "peltier seebeck waste heat recovery calculator online",
+      "bismuth telluride teg power calculator"
+    ]
+  },
+  {
+    "name": "Sound Transmission Loss (STL) Mass Law & Wall STC Rating Calculator",
+    "description": "Calculate acoustic wall Sound Transmission Loss (STL = 20 · log₁₀(m · f) - 47 dB) in decibels from partition surface mass density m (kg/m²) and acoustic frequency f.",
+    "path": "/tools/sound-transmission-class-stc-mass-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound transmission loss calculator",
+      "mass law acoustic stl formula 20 log m times f minus 47",
+      "wall stc rating soundproofing calculator online",
+      "architectural acoustic partition transmission loss calculator",
+      "drywall concrete sound attenuation online"
+    ]
+  },
+  {
+    "name": "Helmholtz Resonator Acoustic Resonance Tuning Frequency (f₀) Calculator",
+    "description": "Calculate acoustic Helmholtz resonator natural tuning frequency (f₀ = (c / 2π) · √(A / (V · L_eff))) in Hz from neck orifice area A, effective neck length L_eff, and cavity volume V.",
+    "path": "/tools/helmholtz-resonator-acoustic-tuning-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "helmholtz resonator calculator",
+      "acoustic resonance frequency formula f0 equals c over 2 pi sqrt a over v l",
+      "helmholtz resonator neck end correction calculator",
+      "intake exhaust acoustic resonator calculator online",
+      "bass trap helmholtz absorber online"
+    ]
+  },
+  {
+    "name": "Quarter-Wavelength Acoustic Duct Silencer Notch Frequency Calculator",
+    "description": "Calculate HVAC and exhaust expansion side-branch quarter-wave silencer attenuation notch frequencies (f_notch = (2n - 1) · c / (4 · L)) in Hz and acoustic stub length L.",
+    "path": "/tools/quarter-wavelength-acoustic-duct-silencer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quarter wave silencer calculator",
+      "acoustic duct notch filter formula c over 4 l online",
+      "hvac duct silencer quarter wavelength calculator",
+      "exhaust noise quarter wave stub calculator online",
+      "acoustic side branch attenuator calculator"
+    ]
+  },
+  {
+    "name": "Panel Acoustic Coincidence Critical Frequency (f_c) Calculator",
+    "description": "Calculate acoustic coincidence critical dip frequency (f_c = (c² / 2π) · √(m / B)) in Hz where bending wave speed matches air sound speed, causing sharp soundproofing failure in glass and drywall panels.",
+    "path": "/tools/acoustic-coincidence-critical-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "coincidence critical frequency calculator",
+      "acoustic coincidence dip formula c squared over 2 pi sqrt m over b",
+      "bending wave sound speed critical frequency calculator",
+      "window glass sound transmission coincidence dip online",
+      "architectural acoustics coincidence frequency online"
+    ]
+  },
+  {
+    "name": "Noise Reduction Coefficient (NRC & SAA) Acoustic Absorption Calculator",
+    "description": "Calculate standard ASTM C423 acoustic Noise Reduction Coefficient (NRC = (α₂₅₀ + α₅₀₀ + α₁₀₀₀ + α₂₀₀₀) / 4) and Sound Absorption Average (SAA) from octave band absorption coefficients.",
+    "path": "/tools/noise-reduction-coefficient-nrc-porous-absorber-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "nrc calculator acoustics",
+      "noise reduction coefficient formula astm c423 online",
+      "sound absorption average saa calculator",
+      "acoustic foam panel nrc rating calculator",
+      "porous sound absorber alpha coefficient online"
+    ]
+  },
+  {
+    "name": "Differential Drive Mobile Robot Wheel Odometry Pose (x, y, θ) Calculator",
+    "description": "Calculate differential drive wheeled robot forward kinematic pose update (Δx = Δs·cos(θ + Δθ/2), Δy = Δs·sin(θ + Δθ/2), Δθ = (Δs_R - Δs_L) / L) in meters and degrees.",
+    "path": "/tools/differential-drive-robot-odometry-pose-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "differential drive robot odometry calculator",
+      "wheel encoder odometry pose formula x y theta online",
+      "robot kinematics dead reckoning wheel displacement calculator",
+      "ros nav2 mobile robot odometry calculator online",
+      "two wheeled robot forward kinematics online"
+    ]
+  },
+  {
+    "name": "Pure Pursuit Autonomous Vehicle Steering Angle (δ = arctan(2L·sin α / l_d)) Calculator",
+    "description": "Calculate autonomous mobile robot path tracking Pure Pursuit steering angle (δ = arctan(2·L·sin α / l_d)) in degrees from lookahead distance l_d, heading error α, and wheelbase L.",
+    "path": "/tools/pure-pursuit-path-tracking-steering-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pure pursuit calculator",
+      "autonomous vehicle steering angle formula delta equals arctan 2 l sin alpha over ld",
+      "pure pursuit path tracking lookahead distance calculator",
+      "robotics path following pure pursuit online",
+      "self driving car steering angle calculator"
+    ]
+  },
+  {
+    "name": "Dubins Car Minimum Turning Radius (R_min) & Shortest Path Length Calculator",
+    "description": "Calculate non-holonomic Dubins vehicle kinematic minimum turning radius (R_min = v / ω_max = L / tan(δ_max)) and evaluate optimal CSC (LSL, RSR, LSR, RSL) path segments.",
+    "path": "/tools/dubins-car-minimum-turning-radius-path-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dubins car calculator",
+      "minimum turning radius formula r equals v over omega max online",
+      "dubins path length csc curve straight curve calculator",
+      "non holonomic vehicle motion planning dubins online",
+      "robotics autonomous vehicle dubins path online"
+    ]
+  },
+  {
+    "name": "Ackermann Steering Geometry Inner & Outer Wheel Angles Calculator",
+    "description": "Calculate 100% true Ackermann steering geometry (cot δ_outer - cot δ_inner = w / L) for slip-free vehicle turning to prevent front tire scrubbing.",
+    "path": "/tools/ackermann-steering-geometry-inner-outer-wheel-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ackermann steering calculator",
+      "ackermann geometry formula cot delta outer minus cot delta inner equals w over l",
+      "inner outer wheel steering angle calculator online",
+      "automotive suspension tire scrubbing ackermann calculator",
+      "vehicle dynamics ackermann turning geometry online"
+    ]
+  },
+  {
+    "name": "2R Planar Robot Arm Inverse Kinematics (θ₁, θ₂ from (x, y)) Calculator",
+    "description": "Calculate 2-link (2R) planar robotic arm joint angles θ₁ and θ₂ (θ₂ = ±arccos((x² + y² - l₁² - l₂²) / (2·l₁·l₂))) for target Cartesian coordinate end-effector positions.",
+    "path": "/tools/robot-inverse-kinematics-2r-planar-arm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "2r robot inverse kinematics calculator",
+      "two link robot arm joint angles theta1 theta2 formula",
+      "planar manipulator inverse kinematics calculator online",
+      "elbow up elbow down robot arm kinematics calculator",
+      "robotics end effector position to joint angles online"
+    ]
+  },
+  {
+    "name": "Hardy-Weinberg Equilibrium Allele Frequency (p² + 2pq + q² = 1) Calculator",
+    "description": "Calculate population genetics allele frequencies (p and q) from genotype counts (AA, Aa, aa) and perform Chi-Square (χ²) goodness-of-fit test for Hardy-Weinberg Equilibrium.",
+    "path": "/tools/hardy-weinberg-equilibrium-allele-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hardy weinberg calculator",
+      "hardy weinberg equation formula p squared plus 2pq plus q squared",
+      "population genetics allele frequency calculator online",
+      "chi square test hardy weinberg equilibrium calculator",
+      "genotype frequency aa aa aa calculator online"
+    ]
+  },
+  {
+    "name": "Smith-Waterman Local Sequence Alignment (Dynamic Programming) Calculator",
+    "description": "Calculate DNA/protein local sequence alignment optimal score and trace back highest-scoring local matching sub-sequences using the Smith-Waterman dynamic programming algorithm.",
+    "path": "/tools/smith-waterman-local-sequence-alignment-score-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "smith waterman calculator",
+      "local sequence alignment dynamic programming formula online",
+      "dna sequence similarity smith waterman calculator",
+      "bioinformatics local alignment blast score calculator",
+      "needleman wunsch vs smith waterman online"
+    ]
+  },
+  {
+    "name": "DNA & PCR Primer Melting Temperature (Nearest-Neighbor T_m) Calculator",
+    "description": "Calculate PCR oligonucleotide primer melting temperature T_m (Nearest-Neighbor thermodynamic model: T_m = ΔH / (ΔS + R·ln(C/4)) - 273.15 + 16.6·log₁₀[Na⁺]) in °C and GC content.",
+    "path": "/tools/dna-melting-temperature-nearest-neighbor-tm-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dna melting temperature calculator",
+      "pcr primer tm nearest neighbor formula online",
+      "primer gc content melting temp calculator",
+      "santa lucia nearest neighbor dna tm calculator",
+      "qpcr primer design melting temperature online"
+    ]
+  },
+  {
+    "name": "Evolutionary Selection Coefficient & Allele Frequency Trajectory Calculator",
+    "description": "Calculate natural selection evolutionary allele frequency change per generation (p_(t+1) = (p_t · W_A) / W̄) and selection coefficient (s = 1 - W) in population biology.",
+    "path": "/tools/selection-coefficient-evolutionary-fitness-decay-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "selection coefficient calculator",
+      "natural selection evolutionary allele frequency formula online",
+      "relative fitness w selection coefficient s calculator",
+      "population genetics natural selection trajectory online",
+      "darwinian fitness allele fixation calculator"
+    ]
+  },
+  {
+    "name": "Shannon-Wiener Diversity Index (H') & Pielou's Evenness (J') Calculator",
+    "description": "Calculate ecological community biodiversity (H' = -Σ p_i · ln(p_i)) and Pielou's equitability species evenness (J' = H' / ln(S)) from individual species abundance counts.",
+    "path": "/tools/shannon-diversity-index-equitability-ecology-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "shannon diversity index calculator",
+      "shannon wiener index formula minus sum pi ln pi online",
+      "pielou evenness j prime calculator online",
+      "ecology biodiversity species richness evenness calculator",
+      "microbiome shannon entropy diversity online"
+    ]
+  },
+  {
+    "name": "Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator",
+    "description": "Calculate biophysical neuron action potential membrane current (I_m = C_m · dV/dt + ḡ_Na·m³h·(V - E_Na) + ḡ_K·n⁴·(V - E_K) + g_L·(V - E_L)) in μA/cm².",
+    "path": "/tools/hodgkin-huxley-action-potential-membrane-current-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hodgkin huxley calculator",
+      "action potential membrane current formula ion channels online",
+      "sodium potassium conductance hodgkin huxley calculator",
+      "squid giant axon action potential model calculator",
+      "computational neuroscience neuron biophysics online"
+    ]
+  },
+  {
+    "name": "Goldman-Hodgkin-Katz (GHK) Resting Membrane Potential (V_m) Calculator",
+    "description": "Calculate multi-ion biological cell resting membrane potential (V_m = (RT/F) · ln((P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o))) in mV.",
+    "path": "/tools/goldman-hodgkin-katz-ghk-membrane-potential-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ghk equation calculator",
+      "goldman hodgkin katz resting membrane potential formula online",
+      "nernst vs ghk equation calculator",
+      "neuron resting potential ion permeability calculator",
+      "cellular electrophysiology membrane voltage online"
+    ]
+  },
+  {
+    "name": "Dendritic Cable Theory Space Constant (λ) & Membrane Time Constant (τ_m) Calculator",
+    "description": "Calculate neuron dendritic passive electrotonic signal decay length space constant (λ = √(r_m / r_i) = √(d·R_m / (4·R_i))) in μm/mm and membrane time constant (τ_m = R_m · C_m) in ms.",
+    "path": "/tools/cable-theory-length-time-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cable theory calculator",
+      "neuron length constant lambda space constant formula online",
+      "membrane time constant tau m calculator online",
+      "dendritic electrotonic signal attenuation calculator",
+      "synaptic potential cable theory online"
+    ]
+  },
+  {
+    "name": "Quantal Synaptic Neurotransmitter Release (Binomial Model m = n·p) Calculator",
+    "description": "Calculate synaptic neurotransmitter release quantal content (m = n · p), vesicle release failure rate (P₀ = (1 - p)ⁿ), and Katz quantal amplitude variance.",
+    "path": "/tools/synaptic-quantal-release-binomial-statistics-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "quantal synaptic release calculator",
+      "binomial synaptic neurotransmitter release formula m equals n times p",
+      "katz quantal hypothesis synaptic failure rate calculator",
+      "readily releasable pool n release probability p calculator",
+      "neuroscience synaptic transmission online"
+    ]
+  },
+  {
+    "name": "Leaky Integrate-and-Fire (LIF) Neuron Firing Rate (F-I Curve) Calculator",
+    "description": "Calculate Leaky Integrate-and-Fire (LIF) computational neuron spiking frequency (f = 1 / (t_ref - τ_m · ln(1 - V_th / (I_inj · R)))) in Hz and rheobase threshold current.",
+    "path": "/tools/integrate-and-fire-neuron-firing-rate-f-i-curve-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "leaky integrate and fire calculator",
+      "lif neuron firing frequency formula f i curve online",
+      "rheobase threshold current lif neuron calculator",
+      "computational neuroscience spiking neuron model calculator",
+      "neuromorphic engineering lif firing rate online"
+    ]
+  },
+  {
+    "name": "Fenske-Underwood-Gilliland Distillation Minimum Stages (N_min) & Reflux Calculator",
+    "description": "Calculate fractional distillation column minimum theoretical equilibrium stages at total reflux (Fenske equation: N_min = ln([(x_D/(1-x_D)) / (x_B/(1-x_B))]) / ln(α_avg)) and minimum reflux ratio R_min.",
+    "path": "/tools/fenske-underwood-gilliland-distillation-stages-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fenske equation calculator",
+      "minimum theoretical stages distillation fenske underwood formula",
+      "minimum reflux ratio r min calculator online",
+      "chemical engineering distillation column stages calculator",
+      "fenske gilliland shortcut distillation online"
+    ]
+  }
+]

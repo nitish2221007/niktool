@@ -1,0 +1,15 @@
+{
+  "name": "Convert 175 Miles to KM",
+  "description": "Convert 175 miles to kilometers (281.63 km). 100% free and local.",
+  "path": "/tools/convert-175-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 175 miles to km",
+    "Convert 175 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

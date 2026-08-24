@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number Airspeed Calculator (Velocity 390 m/s)",
+  "description": "Calculate flight Mach number (Mach 1.15 - Transonic) for airspeed velocity of 390 m/s.",
+  "path": "/tools/mach-number-airspeed-calculator-speed-390mps/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "mach number airspeed calculator speed 390mps",
+    "Mach Number Airspeed Calculator (Velocity 390 m/s)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

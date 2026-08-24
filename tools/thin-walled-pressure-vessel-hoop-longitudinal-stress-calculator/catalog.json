@@ -1,0 +1,15 @@
+{
+  "name": "Thin-Walled Pressure Vessel Stress (Hoop σ_h = P·r/t & Long σ_L = P·r/2t) Calculator",
+  "description": "Calculate cylindrical and spherical thin-walled pressure vessel circumferential Hoop stress (σ_h = P·r / t), Longitudinal axial stress (σ_L = P·r / 2t), and minimum required wall thickness t (ASME Boiler & Pressure Vessel Code).",
+  "path": "/tools/thin-walled-pressure-vessel-hoop-longitudinal-stress-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thin walled pressure vessel calculator",
+    "hoop stress formula pr over t online",
+    "longitudinal stress pressure vessel calculator",
+    "asme boiler pressure vessel wall thickness calculator",
+    "mechanical chemical engineering pressure vessels online"
+  ],
+  "order": 1277
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 53 Knots to KM/H Speed",
+  "description": "Convert 53 knots speed to kilometers per hour (98.16 km/h).",
+  "path": "/tools/convert-53-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 53 knots to kmh speed",
+    "Convert 53 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

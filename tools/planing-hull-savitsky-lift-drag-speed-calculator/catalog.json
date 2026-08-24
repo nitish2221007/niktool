@@ -1,0 +1,15 @@
+{
+  "name": "Savitsky Planing Hull Hydrodynamic Lift & Resistance Calculator",
+  "description": "Calculate high-speed powerboat planing hull hydrodynamic lift coefficient (C_L0 = τ^1.1 · [0.0120·λ^0.5 + 0.0055·(λ^2.5 / C_v²)]) and wetted length λ using the Savitsky method.",
+  "path": "/tools/planing-hull-savitsky-lift-drag-speed-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "savitsky planing hull calculator",
+    "planing boat lift drag formula savitsky method online",
+    "high speed powerboat resistance savitsky calculator",
+    "deadrise angle trim angle planing hull online",
+    "naval architecture planing speed calculator"
+  ],
+  "order": 795
+}

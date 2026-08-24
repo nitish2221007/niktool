@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 200V, Current 3A)",
+  "description": "Calculate Resistance (66.67 Ω) and Electric Power (600.0 W) for 200V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-200v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 200v current 3a",
+    "Ohm's Law Calculator (Voltage 200V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

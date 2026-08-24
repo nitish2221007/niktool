@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 850kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 212.50 kPa) for 850 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-850kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 850kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 850kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 850kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 94.44 kPa) for 850 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-850kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 850kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 850kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 850kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 53.13 kPa) for 850 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-850kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 850kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 850kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 900.00 kPa) for 900 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-900kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 900kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 225.00 kPa) for 900 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-900kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 900kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 100.00 kPa) for 900 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-900kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 900kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 56.25 kPa) for 900 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-900kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 900kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 900kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 1m)",
+    "description": "Calculate soil bearing pressure (q = 950.00 kPa) for 950 kN load on a 1m x 1m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-950kn-footing-1m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 950kn footing 1m",
+      "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 1m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 2m)",
+    "description": "Calculate soil bearing pressure (q = 237.50 kPa) for 950 kN load on a 2m x 2m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-950kn-footing-2m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 950kn footing 2m",
+      "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 2m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 3m)",
+    "description": "Calculate soil bearing pressure (q = 105.56 kPa) for 950 kN load on a 3m x 3m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-950kn-footing-3m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 950kn footing 3m",
+      "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 3m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 4m)",
+    "description": "Calculate soil bearing pressure (q = 59.38 kPa) for 950 kN load on a 4m x 4m square footing.",
+    "path": "/tools/footing-bearing-pressure-calculator-columnload-950kn-footing-4m/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "footing bearing pressure calculator columnload 950kn footing 4m",
+      "Square Footing Bearing Pressure Calculator (Column Load 950kN, Footing 4m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (10 m²)",
+    "description": "Convert 10 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-10-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 10 m2",
+      "Square Meters to Pyung Converter (10 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (102 m²)",
+    "description": "Convert 102 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-102-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 102 m2",
+      "Square Meters to Pyung Converter (102 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (106 m²)",
+    "description": "Convert 106 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-106-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 106 m2",
+      "Square Meters to Pyung Converter (106 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (109 m²)",
+    "description": "Convert 109 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-109-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 109 m2",
+      "Square Meters to Pyung Converter (109 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (112 m²)",
+    "description": "Convert 112 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-112-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 112 m2",
+      "Square Meters to Pyung Converter (112 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (116 m²)",
+    "description": "Convert 116 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-116-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 116 m2",
+      "Square Meters to Pyung Converter (116 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (119 m²)",
+    "description": "Convert 119 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-119-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 119 m2",
+      "Square Meters to Pyung Converter (119 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (122 m²)",
+    "description": "Convert 122 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-122-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 122 m2",
+      "Square Meters to Pyung Converter (122 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (126 m²)",
+    "description": "Convert 126 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-126-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 126 m2",
+      "Square Meters to Pyung Converter (126 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (129 m²)",
+    "description": "Convert 129 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-129-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 129 m2",
+      "Square Meters to Pyung Converter (129 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (13 m²)",
+    "description": "Convert 13 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-13-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 13 m2",
+      "Square Meters to Pyung Converter (13 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (132 m²)",
+    "description": "Convert 132 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-132-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 132 m2",
+      "Square Meters to Pyung Converter (132 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Square Meters to Pyung Converter (136 m²)",
+    "description": "Convert 136 square meters (m²) area size to Korean Pyung (평). 100% free and local.",
+    "path": "/tools/square-meters-to-pyung-converter-136-m2/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "square meters to pyung converter 136 m2",
+      "Square Meters to Pyung Converter (136 m²)",
+      "korean tool",
+      "korea online converter",
+      "niktool"
+    ]
+  }
+]

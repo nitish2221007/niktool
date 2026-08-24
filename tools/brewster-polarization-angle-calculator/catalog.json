@@ -1,0 +1,15 @@
+{
+  "name": "Brewster's Angle & Polarization Calculator",
+  "description": "Calculate Brewster's polarization angle (tan θ_B = n₂ / n₁) where reflected light becomes 100% linearly polarized with zero p-polarized glare.",
+  "path": "/tools/brewster-polarization-angle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "brewsters angle calculator",
+    "polarization angle calculator",
+    "polarizing sunglasses angle",
+    "optics brewster angle formula",
+    "tan theta b n2 n1 online"
+  ],
+  "order": 196
+}

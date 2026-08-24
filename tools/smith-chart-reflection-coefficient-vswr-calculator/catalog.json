@@ -1,0 +1,15 @@
+{
+  "name": "Smith Chart Complex Reflection Coefficient (Γ), Return Loss & VSWR Calculator",
+  "description": "Calculate RF complex reflection coefficient (Γ = (Z_L - Z₀) / (Z_L + Z₀)), Voltage Standing Wave Ratio (VSWR = (1 + |Γ|) / (1 - |Γ|)), Return Loss (RL in dB), and Mismatch Loss.",
+  "path": "/tools/smith-chart-reflection-coefficient-vswr-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "smith chart calculator",
+    "reflection coefficient gamma formula zl minus z0 over zl plus z0",
+    "vswr return loss mismatch loss calculator online",
+    "rf transmission line reflection coefficient calculator",
+    "microwave vswr to return loss db online"
+  ],
+  "order": 739
+}

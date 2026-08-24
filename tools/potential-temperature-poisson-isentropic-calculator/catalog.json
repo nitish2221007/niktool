@@ -1,0 +1,15 @@
+{
+  "name": "Potential Temperature (θ = T·(P₀/P)^(R/c_p)) & Isentropic Calculator",
+  "description": "Calculate atmospheric potential temperature θ (Poisson equation: θ = T · (1000 / P)^0.286) in Kelvin and Celsius to assess dry static stability and thermal inversions.",
+  "path": "/tools/potential-temperature-poisson-isentropic-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "potential temperature calculator",
+    "poisson isentropic relation theta formula meteorology",
+    "atmospheric static stability potential temperature online",
+    "dry adiabatic potential temperature theta calculator",
+    "meteorology sounding theta online"
+  ],
+  "order": 677
+}

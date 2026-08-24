@@ -1,0 +1,15 @@
+{
+  "name": "Hamming (7,4) Error-Correcting Code (Generator G & Parity Syndrome H) Calculator",
+  "description": "Encode 4-bit data words into 7-bit error-correcting codewords using Hamming (7,4) Generator Matrix G, calculate 3-bit syndrome vector S = H·rᵀ, and locate/correct single-bit transmission bit-flip errors.",
+  "path": "/tools/hamming-7-4-error-correcting-code-syndrome-parity-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "hamming 7 4 calculator",
+    "hamming code generator matrix g parity check h online",
+    "single bit error correcting syndrome calculator",
+    "codeword bit flip error detection correction calculator",
+    "information theory error correcting codes online"
+  ],
+  "order": 1095
+}

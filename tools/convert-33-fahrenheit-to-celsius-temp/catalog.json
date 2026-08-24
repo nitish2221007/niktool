@@ -1,0 +1,15 @@
+{
+  "name": "Convert 33°F Fahrenheit to Celsius Temp",
+  "description": "Convert 33 degrees Fahrenheit (°F) to Celsius (0.6°C) instantly.",
+  "path": "/tools/convert-33-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 33 fahrenheit to celsius temp",
+    "Convert 33°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

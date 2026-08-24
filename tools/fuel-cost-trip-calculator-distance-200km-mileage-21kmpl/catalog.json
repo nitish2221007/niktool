@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (200 km Distance, 21 km/l Mileage)",
+  "description": "Calculate fuel needed (9.5 L) and cost (₹917) for 200 km trip at 21 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-200km-mileage-21kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 200km mileage 21kmpl",
+    "Fuel Cost Trip Calculator (200 km Distance, 21 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

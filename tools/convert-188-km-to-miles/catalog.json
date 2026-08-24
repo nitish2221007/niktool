@@ -1,0 +1,15 @@
+{
+  "name": "Convert 188 KM to Miles",
+  "description": "Convert 188 kilometers to miles (116.82 miles). 100% free and local.",
+  "path": "/tools/convert-188-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 188 km to miles",
+    "Convert 188 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

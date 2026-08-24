@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate geotechnical embankment slope stability Factor of Safety (FS = Σ [c'·b + (W - u·b)·tan ϕ'] · (sec α / m_α) / Σ W·sin α) for circular slip surface failure.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/soil-slope-stability-bishop-simplified-method-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator | NikTool">
+  <meta property="og:description" content="Calculate geotechnical embankment slope stability Factor of Safety (FS = Σ [c'·b + (W - u·b)·tan ϕ'] · (sec α / m_α) / Σ W·sin α) for circular slip surface failure.">
+  <meta property="og:url" content="https://niktool.in/tools/soil-slope-stability-bishop-simplified-method-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/soil-slope-stability-bishop-simplified-method-calculator/",
+        "description": "Calculate geotechnical embankment slope stability Factor of Safety (FS = Σ [c'·b + (W - u·b)·tan ϕ'] · (sec α / m_α) / Σ W·sin α) for circular slip surface failure.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is pore water pressure (ru) the most common trigger of landslides?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Water fills pore voids without adding shear strength, exerting upward hydrostatic pressure that reduces effective stress ($sigma' = sigma - u$), causing friction resistance to vanish."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator</h1>
+      <p>Calculate geotechnical embankment slope stability Factor of Safety (FS = Σ [c'·b + (W - u·b)·tan ϕ'] · (sec α / m_α) / Σ W·sin α) for circular slip surface failure.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Cohesion c' (kPa), Friction Angle ϕ' (°), Slope Height H (m), Slope Angle β (°) & Pore Pressure r_u</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="slp-c">Cohesion c' (kPa)</label>
+          <input class="tool-textarea" id="slp-c" type="number" step="any" value="15.0" placeholder="15.0 kPa" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="slp-phi">Friction ϕ' (°)</label>
+          <input class="tool-textarea" id="slp-phi" type="number" step="1" value="28.0" placeholder="28.0°" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="slp-h">Slope Height H (m)</label>
+          <input class="tool-textarea" id="slp-h" type="number" step="any" value="8.0" placeholder="8.0 m Embankment" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="slp-beta">Slope Angle β (°)</label>
+          <input class="tool-textarea" id="slp-beta" type="number" step="1" value="30.0" placeholder="30.0° (1:1.73 Slope)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="slp-ru">Pore Water r_u</label>
+          <input class="tool-textarea" id="slp-ru" type="number" step="0.05" value="0.15" placeholder="0.15 (Pore Pressure)" />
+        </div>
+      </div>
+      <div id="slp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="slp-res-fs" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">FS = 1.58 (STABLE ≥ 1.50)</span>
+            <span class="stat-label">Bishop Factor of Safety Against Landslide Slip</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="slp-res-stat" style="color:var(--green-dark); font-weight:700;">SAFE: Long-term embankment slope is stable against rotational slip failure</span>
+            <span class="stat-label">Geotechnical Slope Stability Assessment</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Soil Slope Stability (Bishop's Simplified Method of Slices FS) Calculator</h2>
+      <ol>
+        <li>Enter effective soil cohesion $c'$ in kPa.</li>
+        <li>Enter effective soil internal friction angle $phi'$ in degrees.</li>
+        <li>Enter total vertical slope height H in meters.</li>
+        <li>Enter embankment slope incline angle $eta$ in degrees.</li>
+        <li>Enter pore water pressure ratio $r_u = u / (gamma h)$ (0.0 for dry soil, 0.2 to 0.4 for saturated slopes).</li>
+        <li>Inspect Bishop Factor of Safety (FS) against rotational circular slip landslide failure.</li>
+      </ol>
+
+      <h2>Alan W. Bishop 1955 Inter-Slice Shear Method</h2>
+      <p>Bishop's Simplified Method satisfies vertical force equilibrium across circular failure slices, improving on the Ordinary Method of Slices by accounting for inter-slice forces to deliver highly accurate Factors of Safety ($FS$) for dams, road cuts, and open-pit mine slopes.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is pore water pressure (ru) the most common trigger of landslides?</summary>
+        <p>Water fills pore voids without adding shear strength, exerting upward hydrostatic pressure that reduces effective stress ($sigma' = sigma - u$), causing friction resistance to vanish.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/soil-slope-stability-bishop-simplified-method-calculator/tool.js"></script>
+</body>
+</html>

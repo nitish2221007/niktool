@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (450 Hz, 31 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 87.65 Ω) for 450 Hz frequency and 31 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-450hz-inductor-31mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 450hz inductor 31mh",
+    "Inductive Reactance Calculator (450 Hz, 31 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

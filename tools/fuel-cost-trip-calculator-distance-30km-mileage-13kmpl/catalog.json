@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (30 km Distance, 13 km/l Mileage)",
+  "description": "Calculate fuel needed (2.3 L) and cost (₹222) for 30 km trip at 13 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-30km-mileage-13kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 30km mileage 13kmpl",
+    "Fuel Cost Trip Calculator (30 km Distance, 13 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

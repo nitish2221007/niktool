@@ -1,0 +1,15 @@
+{
+  "name": "Convert 87 KM to Miles",
+  "description": "Convert 87 kilometers to miles (54.06 miles). 100% free and local.",
+  "path": "/tools/convert-87-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 87 km to miles",
+    "Convert 87 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

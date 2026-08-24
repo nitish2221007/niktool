@@ -1,0 +1,15 @@
+{
+  "name": "Convert 62°C Celsius to Fahrenheit",
+  "description": "Convert 62 degrees Celsius (°C) to Fahrenheit (143.6°F).",
+  "path": "/tools/convert-62-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 62 celsius to fahrenheit",
+    "Convert 62°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

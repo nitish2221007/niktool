@@ -1,0 +1,15 @@
+{
+  "name": "Creatinine Clearance (Cockcroft-Gault CrCl = (140 - Age)·Weight / (72·S_cr)) Calculator",
+  "description": "Calculate renal Creatinine Clearance (CrCl in mL/min) using the Cockcroft-Gault equation for clinical pharmacokinetic drug dosing adjustments (antibiotics, DOACs, chemotherapy).",
+  "path": "/tools/creatinine-clearance-cockcroft-gault-kidney-drug-dosing-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "cockcroft gault calculator",
+    "creatinine clearance crcl formula online",
+    "renal drug dosing adjustment calculator ml min",
+    "serum creatinine cockcroft gault clearance calculator",
+    "pharmacology clinical nephrology drug dosing online"
+  ],
+  "order": 1140
+}

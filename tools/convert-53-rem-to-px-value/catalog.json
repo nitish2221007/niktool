@@ -1,0 +1,15 @@
+{
+  "name": "Convert 53 REM to PX Value",
+  "description": "Convert 53 REM units to pixels (848 px) based on standard 16px root font.",
+  "path": "/tools/convert-53-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 53 rem to px value",
+    "Convert 53 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

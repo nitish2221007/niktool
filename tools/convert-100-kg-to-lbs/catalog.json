@@ -1,0 +1,15 @@
+{
+  "name": "Convert 100 KG to LBS",
+  "description": "Convert 100 kilograms (100 kg) to pounds (220.46 lbs) instantly in your browser.",
+  "path": "/tools/convert-100-kg-to-lbs/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 100 kg to lbs",
+    "Convert 100 KG to LBS",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

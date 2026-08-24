@@ -1,0 +1,15 @@
+{
+  "name": "Activated Sludge Food-to-Microorganism (F/M) Ratio Calculator",
+  "description": "Calculate biological loading ratio (F/M = (Q · BOD_in) / (V · MLVSS)) in lb BOD / (lb MLVSS · day) or kg/kg·day for wastewater treatment plant aeration basins.",
+  "path": "/tools/activated-sludge-food-to-mass-fm-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "fm ratio calculator",
+    "food to microorganism ratio formula",
+    "activated sludge biological loading calculator",
+    "mlvss aeration basin bod loading online",
+    "wastewater treatment fm ratio calculator"
+  ],
+  "order": 462
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 36 MB to KB",
+  "description": "Convert 36 Megabytes (MB) to Kilobytes (36864 KB). 100% free and local.",
+  "path": "/tools/convert-36-mb-to-kb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 36 mb to kb",
+    "Convert 36 MB to KB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

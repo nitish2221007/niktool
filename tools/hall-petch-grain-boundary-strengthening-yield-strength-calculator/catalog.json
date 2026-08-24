@@ -1,0 +1,15 @@
+{
+  "name": "Hall-Petch Grain Boundary Strengthening (σ_y = σ₀ + k_y·d^(-½)) Calculator",
+  "description": "Calculate polycrystalline metal yield strength σ_y in MPa (σ_y = σ₀ + k_y · d^(-½)), friction stress σ₀, and Hall-Petch grain refinement strengthening coefficient k_y.",
+  "path": "/tools/hall-petch-grain-boundary-strengthening-yield-strength-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hall petch calculator",
+    "grain boundary strengthening formula yield strength online",
+    "hall petch relation grain size d minus half calculator",
+    "grain refinement microalloyed steel yield strength calculator",
+    "metallurgy materials science mechanical properties online"
+  ],
+  "order": 1261
+}

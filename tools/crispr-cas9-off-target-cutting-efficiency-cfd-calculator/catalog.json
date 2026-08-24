@@ -1,0 +1,15 @@
+{
+  "name": "CRISPR-Cas9 Guide RNA Off-Target Cutting Frequency (CFD Score) Calculator",
+  "description": "Calculate CRISPR-Cas9 sgRNA off-target cutting probability using the Cutting Frequency Determination (CFD score from 0 to 100%) based on position-dependent base mismatches and PAM variations (NGG vs NAG/NGA).",
+  "path": "/tools/crispr-cas9-off-target-cutting-efficiency-cfd-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "crispr off target calculator",
+    "cfd score formula doench cutting frequency determination online",
+    "cas9 grna mismatch off target probability calculator",
+    "crispr gene editing specificity calculator",
+    "molecular genetics bioinformatics crispr cas9 online"
+  ],
+  "order": 1199
+}

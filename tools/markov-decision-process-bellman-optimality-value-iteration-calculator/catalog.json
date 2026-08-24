@@ -1,0 +1,15 @@
+{
+  "name": "Reinforcement Learning Bellman Optimality Equation (V*(s) = max_a [R(s,a) + γ·∑ P(s'|s,a)·V*(s')]) Calculator",
+  "description": "Calculate reinforcement learning Markov Decision Process (MDP) Bellman optimality value function (V*(s) = max_a [R(s,a) + γ · ∑ P(s'|s,a) · V(s')]) and optimal policy action a* in value iteration.",
+  "path": "/tools/markov-decision-process-bellman-optimality-value-iteration-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "bellman equation calculator",
+    "reinforcement learning value iteration formula online",
+    "markov decision process mdp bellman optimality calculator",
+    "discount factor gamma q value reinforcement learning calculator",
+    "artificial intelligence reinforcement learning online"
+  ],
+  "order": 1232
+}

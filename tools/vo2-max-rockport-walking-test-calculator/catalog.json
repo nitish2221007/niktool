@@ -1,0 +1,15 @@
+{
+  "name": "Rockport 1-Mile Walk Test VO2 Max Calculator",
+  "description": "Calculate cardiovascular aerobic fitness capacity (VO2 Max in mL/kg/min) from a 1-mile brisk walk completion time and heart rate.",
+  "path": "/tools/vo2-max-rockport-walking-test-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "rockport walk test calculator",
+    "vo2 max walking test calculator",
+    "cardiovascular fitness vo2 max formula",
+    "rockport 1 mile fitness score",
+    "aerobic capacity walk test online"
+  ],
+  "order": 263
+}

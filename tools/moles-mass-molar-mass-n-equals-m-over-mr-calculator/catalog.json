@@ -1,0 +1,15 @@
+{
+  "name": "Chemical Moles, Mass & Molar Mass (n = m / M_r) Stoichiometry Triangle Calculator",
+  "description": "Calculate chemical moles (n = m / M_r), mass in grams (m = n · M_r), and molar mass (M_r = m / n) using the fundamental chemistry mole triangle for GCSE and introductory high school science.",
+  "path": "/tools/moles-mass-molar-mass-n-equals-m-over-mr-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "moles calculator",
+    "moles formula n equals m over mr online",
+    "chemistry mole triangle calculator grams to moles",
+    "molar mass mass moles calculator",
+    "stoichiometry mole calculation online"
+  ],
+  "order": 956
+}

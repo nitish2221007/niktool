@@ -1,0 +1,15 @@
+{
+  "name": "Bragg-Gray Cavity Theory Absorbed Radiation Dose (D_med) Calculator",
+  "description": "Calculate medium radiation absorbed dose from ion chamber cavity ionization (D_med = (Q/m) · (W/e) · (S/ρ)_gas^med) in Gray (Gy) and Kerma conversion.",
+  "path": "/tools/absorbed-dose-kerma-stopping-power-bragg-gray-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bragg gray cavity theory calculator",
+    "absorbed dose ionization chamber formula w over e",
+    "stopping power ratio absorbed dose calculator online",
+    "medical physics radiation dosimetry bragg gray online",
+    "linac calibration absorbed dose to water calculator"
+  ],
+  "order": 717
+}

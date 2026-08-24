@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate two-impulse Hohmann orbital transfer maneuver velocity changes Δv₁ and Δv₂ in km/s (Δv_total = Δv₁ + Δv₂), transfer orbit semimajor axis a_tx, and one-way flight transfer time t_transfer in days/hours.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hohmann-transfer-orbit-delta-v-travel-time-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator | NikTool">
+  <meta property="og:description" content="Calculate two-impulse Hohmann orbital transfer maneuver velocity changes Δv₁ and Δv₂ in km/s (Δv_total = Δv₁ + Δv₂), transfer orbit semimajor axis a_tx, and one-way flight transfer time t_transfer in days/hours.">
+  <meta property="og:url" content="https://niktool.in/tools/hohmann-transfer-orbit-delta-v-travel-time-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hohmann-transfer-orbit-delta-v-travel-time-calculator/",
+        "description": "Calculate two-impulse Hohmann orbital transfer maneuver velocity changes Δv₁ and Δv₂ in km/s (Δv_total = Δv₁ + Δv₂), transfer orbit semimajor axis a_tx, and one-way flight transfer time t_transfer in days/hours.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is the Hohmann transfer mathematically the lowest energy transfer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Both velocity changes occur tangentially at orbital apsides (periapsis and apoapsis), maximizing the Oberth effect kinetic energy gain."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator</h1>
+      <p>Calculate two-impulse Hohmann orbital transfer maneuver velocity changes Δv₁ and Δv₂ in km/s (Δv_total = Δv₁ + Δv₂), transfer orbit semimajor axis a_tx, and one-way flight transfer time t_transfer in days/hours.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Initial Orbit Radius r₁ (km), Target Orbit Radius r₂ (km) & Central Body (Earth μ = 398,600 km³/s²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ho-r1">Initial r₁ (km)</label>
+          <input class="tool-textarea" id="ho-r1" type="number" step="100" value="6678.0" placeholder="6,678 km (300 km LEO)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ho-r2">Target r₂ (km)</label>
+          <input class="tool-textarea" id="ho-r2" type="number" step="1000" value="42164.0" placeholder="42,164 km (GEO Orbit)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ho-mu">Gravity μ (km³/s²)</label>
+          <input class="tool-textarea" id="ho-mu" type="number" step="5000" value="398600.4" placeholder="398,600 (Earth)" />
+        </div>
+      </div>
+      <div id="ho-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ho-res-dv" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Total Transfer Δv = 3.935 km / s</span>
+            <span class="stat-label">Two-Burn Hohmann Transfer Delta-V (Δv₁ = 2.458 km/s, Δv₂ = 1.477 km/s)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ho-res-time" style="color:var(--green-dark); font-weight:700;">Flight Time = 5.27 Hours (0.22 Days) | Transfer Semimajor a = 24,421 km</span>
+            <span class="stat-label">One-Way Elliptical Half-Orbit Transfer Time (t = π · √(a³ / μ))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hohmann Transfer Orbit (Δv₁ + Δv₂) & Interplanetary Travel Time Calculator</h2>
+      <ol>
+        <li>Enter initial circular orbit orbital radius $r_1$ from planet center in km (e.g. Earth radius $6378	ext{ km} + 	ext{altitude}$).</li>
+        <li>Enter target circular orbit radius $r_2$ from planet center in km.</li>
+        <li>Enter central body standard gravitational parameter $mu = G M$ (Earth: $398,600	ext{ km}^3/	ext{s}^2$, Sun: $1.327 	imes 10^{11}	ext{ km}^3/	ext{s}^2$).</li>
+        <li>Inspect total required two-impulse velocity change $Delta v_{	ext{total}}$, individual burns ($Delta v_1, Delta v_2$), and one-way transfer travel time.</li>
+      </ol>
+
+      <h2>Walter Hohmann 1925 Optimal Orbital Transfer Standard</h2>
+      <p>The most fuel-efficient two-impulse coplanar trajectory for raising satellite orbits (LEO to Geostationary GEO) and interplanetary voyages (Earth to Mars transfer window).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is the Hohmann transfer mathematically the lowest energy transfer?</summary>
+        <p>Both velocity changes occur tangentially at orbital apsides (periapsis and apoapsis), maximizing the Oberth effect kinetic energy gain.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hohmann-transfer-orbit-delta-v-travel-time-calculator/tool.js"></script>
+</body>
+</html>

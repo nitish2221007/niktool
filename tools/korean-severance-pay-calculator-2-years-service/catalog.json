@@ -1,0 +1,15 @@
+{
+  "name": "Korean Severance Pay Calculator (2 Years Service 퇴직금)",
+  "description": "Calculate statutory severance pay (퇴직금) after 2 years of continuous employment under ROK Labor Standards Act.",
+  "path": "/tools/korean-severance-pay-calculator-2-years-service/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "korean severance pay calculator 2 years service",
+    "Korean Severance Pay Calculator (2 Years Service 퇴직금)",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

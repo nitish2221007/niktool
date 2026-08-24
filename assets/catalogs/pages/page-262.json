@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 49 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 7.22 Ω) for 450 Hz frequency and 49 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-49uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 49uf",
+      "Capacitive Reactance Calculator (450 Hz, 49 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 5 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 70.74 Ω) for 450 Hz frequency and 5 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-5uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 5uf",
+      "Capacitive Reactance Calculator (450 Hz, 5 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 50 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 7.07 Ω) for 450 Hz frequency and 50 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-50uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 50uf",
+      "Capacitive Reactance Calculator (450 Hz, 50 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 6 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 58.95 Ω) for 450 Hz frequency and 6 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-6uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 6uf",
+      "Capacitive Reactance Calculator (450 Hz, 6 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 7 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 50.53 Ω) for 450 Hz frequency and 7 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-7uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 7uf",
+      "Capacitive Reactance Calculator (450 Hz, 7 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 8 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 44.21 Ω) for 450 Hz frequency and 8 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-8uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 8uf",
+      "Capacitive Reactance Calculator (450 Hz, 8 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (450 Hz, 9 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 39.30 Ω) for 450 Hz frequency and 9 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-450hz-capacitor-9uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 450hz capacitor 9uf",
+      "Capacitive Reactance Calculator (450 Hz, 9 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 1 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 3183.10 Ω) for 50 Hz frequency and 1 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-1uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 1uf",
+      "Capacitive Reactance Calculator (50 Hz, 1 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 10 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 318.31 Ω) for 50 Hz frequency and 10 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-10uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 10uf",
+      "Capacitive Reactance Calculator (50 Hz, 10 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 11 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 289.37 Ω) for 50 Hz frequency and 11 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-11uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 11uf",
+      "Capacitive Reactance Calculator (50 Hz, 11 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 12 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 265.26 Ω) for 50 Hz frequency and 12 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-12uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 12uf",
+      "Capacitive Reactance Calculator (50 Hz, 12 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 13 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 244.85 Ω) for 50 Hz frequency and 13 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-13uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 13uf",
+      "Capacitive Reactance Calculator (50 Hz, 13 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 14 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 227.36 Ω) for 50 Hz frequency and 14 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-14uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 14uf",
+      "Capacitive Reactance Calculator (50 Hz, 14 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 15 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 212.21 Ω) for 50 Hz frequency and 15 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-15uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 15uf",
+      "Capacitive Reactance Calculator (50 Hz, 15 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 16 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 198.94 Ω) for 50 Hz frequency and 16 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-16uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 16uf",
+      "Capacitive Reactance Calculator (50 Hz, 16 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 17 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 187.24 Ω) for 50 Hz frequency and 17 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-17uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 17uf",
+      "Capacitive Reactance Calculator (50 Hz, 17 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 18 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 176.84 Ω) for 50 Hz frequency and 18 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-18uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 18uf",
+      "Capacitive Reactance Calculator (50 Hz, 18 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 19 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 167.53 Ω) for 50 Hz frequency and 19 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-19uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 19uf",
+      "Capacitive Reactance Calculator (50 Hz, 19 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 2 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 1591.55 Ω) for 50 Hz frequency and 2 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-2uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 2uf",
+      "Capacitive Reactance Calculator (50 Hz, 2 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 20 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 159.15 Ω) for 50 Hz frequency and 20 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-20uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 20uf",
+      "Capacitive Reactance Calculator (50 Hz, 20 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 21 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 151.58 Ω) for 50 Hz frequency and 21 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-21uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 21uf",
+      "Capacitive Reactance Calculator (50 Hz, 21 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 22 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 144.69 Ω) for 50 Hz frequency and 22 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-22uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 22uf",
+      "Capacitive Reactance Calculator (50 Hz, 22 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 23 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 138.40 Ω) for 50 Hz frequency and 23 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-23uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 23uf",
+      "Capacitive Reactance Calculator (50 Hz, 23 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Capacitive Reactance Calculator (50 Hz, 24 µF)",
+    "description": "Calculate Capacitive Reactance (Xc = 132.63 Ω) for 50 Hz frequency and 24 µF capacitor.",
+    "path": "/tools/capacitive-reactance-calculator-frequency-50hz-capacitor-24uf/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "capacitive reactance calculator frequency 50hz capacitor 24uf",
+      "Capacitive Reactance Calculator (50 Hz, 24 µF)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

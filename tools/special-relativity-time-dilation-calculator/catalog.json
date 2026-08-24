@@ -1,0 +1,15 @@
+{
+  "name": "Special Relativity Time Dilation Calculator",
+  "description": "Calculate Einstein's relativistic time dilation (Δt' = Δt / √(1 - v²/c²)) and Lorentz factor (γ) for high-speed interstellar spaceflight.",
+  "path": "/tools/special-relativity-time-dilation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "time dilation calculator",
+    "special relativity lorentz factor",
+    "einstein time dilation formula",
+    "relativistic time dilation online",
+    "twin paradox speed calculator"
+  ],
+  "order": 184
+}

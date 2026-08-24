@@ -1,0 +1,15 @@
+{
+  "name": "Bishop's Simplified Method of Slices Circular Slope Stability Factor of Safety Calculator",
+  "description": "Calculate circular slip surface rotational slope stability Factor of Safety (FS) using Bishop's Simplified Method of Slices accounting for interslice normal forces and pore pressure ratio r_u.",
+  "path": "/tools/bishop-simplified-method-slices-slope-stability-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bishop simplified method calculator",
+    "method of slices slope stability formula online",
+    "circular slip surface factor of safety calculator",
+    "pore pressure ratio ru bishop slope calculator",
+    "geotechnical engineering embankment stability civil engineering online"
+  ],
+  "order": 1299
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Karvonen Target Heart Rate Zones Calculator",
+  "description": "Calculate personalized exercise heart rate training zones (Warm-up, Fat Burn, Aerobic, Anaerobic, VO2 Max) using the clinical Karvonen formula.",
+  "path": "/tools/target-heart-rate-karvonen-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "karvonen heart rate calculator",
+    "target heart rate zones calculator",
+    "fat burn zone calculator",
+    "aerobic heart rate zone",
+    "max heart rate reserve formula"
+  ],
+  "order": 174
+}

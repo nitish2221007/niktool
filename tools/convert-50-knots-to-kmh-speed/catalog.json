@@ -1,0 +1,15 @@
+{
+  "name": "Convert 50 Knots to KM/H Speed",
+  "description": "Convert 50 knots speed to kilometers per hour (92.60 km/h).",
+  "path": "/tools/convert-50-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 50 knots to kmh speed",
+    "Convert 50 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

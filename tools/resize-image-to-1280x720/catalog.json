@@ -1,0 +1,16 @@
+{
+  "name": "Resize Image to 1280x720 Pixels",
+  "description": "Resize any JPG, PNG, or WebP photo to exact 1280x720 pixel dimensions instantly. 100% free and browser-processed.",
+  "path": "/tools/resize-image-to-1280x720/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image to 1280x720",
+    "Resize Image to 1280x720 Pixels",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

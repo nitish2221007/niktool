@@ -1,0 +1,15 @@
+{
+  "name": "Convert 91°F Fahrenheit to Celsius Temp",
+  "description": "Convert 91 degrees Fahrenheit (°F) to Celsius (32.8°C) instantly.",
+  "path": "/tools/convert-91-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 91 fahrenheit to celsius temp",
+    "Convert 91°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

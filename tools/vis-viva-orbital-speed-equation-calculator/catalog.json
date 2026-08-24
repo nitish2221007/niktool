@@ -1,0 +1,15 @@
+{
+  "name": "Vis-Viva Orbital Velocity (v = √(μ·(2/r - 1/a))) & Escape Velocity (v_esc = √(2μ/r)) Calculator",
+  "description": "Calculate instantaneous orbital speed (v = √(μ · (2/r - 1/a))) in km/s at any distance r on circular, elliptical, or hyperbolic trajectories, and calculate gravitational Escape Velocity (v_esc = √(2·μ / r)) for astrodynamics.",
+  "path": "/tools/vis-viva-orbital-speed-equation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "vis viva equation calculator",
+    "orbital speed formula v equals sqrt mu 2 over r minus 1 over a online",
+    "escape velocity calculator gravitational potential well",
+    "celestial mechanics satellite velocity calculator km s",
+    "astrodynamics orbital velocity online"
+  ],
+  "order": 1111
+}

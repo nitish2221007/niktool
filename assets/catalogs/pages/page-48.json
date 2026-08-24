@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Area of Circle (Radius 7 Units)",
+    "description": "Calculate the exact area of a circle with radius 7 units (A = πr² = 153.94).",
+    "path": "/tools/area-of-circle-radius-7-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of circle radius 7 units",
+      "Area of Circle (Radius 7 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Circle (Radius 8 Units)",
+    "description": "Calculate the exact area of a circle with radius 8 units (A = πr² = 201.06).",
+    "path": "/tools/area-of-circle-radius-8-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of circle radius 8 units",
+      "Area of Circle (Radius 8 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Circle (Radius 9 Units)",
+    "description": "Calculate the exact area of a circle with radius 9 units (A = πr² = 254.47).",
+    "path": "/tools/area-of-circle-radius-9-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of circle radius 9 units",
+      "Area of Circle (Radius 9 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 1 x Width 10)",
+    "description": "Calculate area of rectangle with length 1 and width 10 (10 sq units).",
+    "path": "/tools/area-of-rectangle-length-1-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 1 width 10",
+      "Area of Rectangle (Length 1 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 10 x Width 10)",
+    "description": "Calculate area of rectangle with length 10 and width 10 (100 sq units).",
+    "path": "/tools/area-of-rectangle-length-10-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 10 width 10",
+      "Area of Rectangle (Length 10 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 100 x Width 10)",
+    "description": "Calculate area of rectangle with length 100 and width 10 (1000 sq units).",
+    "path": "/tools/area-of-rectangle-length-100-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 100 width 10",
+      "Area of Rectangle (Length 100 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 11 x Width 10)",
+    "description": "Calculate area of rectangle with length 11 and width 10 (110 sq units).",
+    "path": "/tools/area-of-rectangle-length-11-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 11 width 10",
+      "Area of Rectangle (Length 11 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 12 x Width 10)",
+    "description": "Calculate area of rectangle with length 12 and width 10 (120 sq units).",
+    "path": "/tools/area-of-rectangle-length-12-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 12 width 10",
+      "Area of Rectangle (Length 12 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 13 x Width 10)",
+    "description": "Calculate area of rectangle with length 13 and width 10 (130 sq units).",
+    "path": "/tools/area-of-rectangle-length-13-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 13 width 10",
+      "Area of Rectangle (Length 13 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 14 x Width 10)",
+    "description": "Calculate area of rectangle with length 14 and width 10 (140 sq units).",
+    "path": "/tools/area-of-rectangle-length-14-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 14 width 10",
+      "Area of Rectangle (Length 14 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 15 x Width 10)",
+    "description": "Calculate area of rectangle with length 15 and width 10 (150 sq units).",
+    "path": "/tools/area-of-rectangle-length-15-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 15 width 10",
+      "Area of Rectangle (Length 15 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 16 x Width 10)",
+    "description": "Calculate area of rectangle with length 16 and width 10 (160 sq units).",
+    "path": "/tools/area-of-rectangle-length-16-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 16 width 10",
+      "Area of Rectangle (Length 16 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 17 x Width 10)",
+    "description": "Calculate area of rectangle with length 17 and width 10 (170 sq units).",
+    "path": "/tools/area-of-rectangle-length-17-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 17 width 10",
+      "Area of Rectangle (Length 17 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 18 x Width 10)",
+    "description": "Calculate area of rectangle with length 18 and width 10 (180 sq units).",
+    "path": "/tools/area-of-rectangle-length-18-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 18 width 10",
+      "Area of Rectangle (Length 18 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 19 x Width 10)",
+    "description": "Calculate area of rectangle with length 19 and width 10 (190 sq units).",
+    "path": "/tools/area-of-rectangle-length-19-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 19 width 10",
+      "Area of Rectangle (Length 19 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 2 x Width 10)",
+    "description": "Calculate area of rectangle with length 2 and width 10 (20 sq units).",
+    "path": "/tools/area-of-rectangle-length-2-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 2 width 10",
+      "Area of Rectangle (Length 2 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 20 x Width 10)",
+    "description": "Calculate area of rectangle with length 20 and width 10 (200 sq units).",
+    "path": "/tools/area-of-rectangle-length-20-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 20 width 10",
+      "Area of Rectangle (Length 20 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 21 x Width 10)",
+    "description": "Calculate area of rectangle with length 21 and width 10 (210 sq units).",
+    "path": "/tools/area-of-rectangle-length-21-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 21 width 10",
+      "Area of Rectangle (Length 21 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 22 x Width 10)",
+    "description": "Calculate area of rectangle with length 22 and width 10 (220 sq units).",
+    "path": "/tools/area-of-rectangle-length-22-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 22 width 10",
+      "Area of Rectangle (Length 22 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 23 x Width 10)",
+    "description": "Calculate area of rectangle with length 23 and width 10 (230 sq units).",
+    "path": "/tools/area-of-rectangle-length-23-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 23 width 10",
+      "Area of Rectangle (Length 23 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 24 x Width 10)",
+    "description": "Calculate area of rectangle with length 24 and width 10 (240 sq units).",
+    "path": "/tools/area-of-rectangle-length-24-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 24 width 10",
+      "Area of Rectangle (Length 24 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 25 x Width 10)",
+    "description": "Calculate area of rectangle with length 25 and width 10 (250 sq units).",
+    "path": "/tools/area-of-rectangle-length-25-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 25 width 10",
+      "Area of Rectangle (Length 25 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 26 x Width 10)",
+    "description": "Calculate area of rectangle with length 26 and width 10 (260 sq units).",
+    "path": "/tools/area-of-rectangle-length-26-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 26 width 10",
+      "Area of Rectangle (Length 26 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Area of Rectangle (Length 27 x Width 10)",
+    "description": "Calculate area of rectangle with length 27 and width 10 (270 sq units).",
+    "path": "/tools/area-of-rectangle-length-27-width-10/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "area of rectangle length 27 width 10",
+      "Area of Rectangle (Length 27 x Width 10)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

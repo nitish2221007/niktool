@@ -1,0 +1,15 @@
+{
+  "name": "EPA Landfill Gas Methane Generation First-Order Decay (LandGEM Model) Calculator",
+  "description": "Calculate municipal solid waste landfill methane generation rate Q_CH4 in m³/year (EPA LandGEM first-order decomposition equation: Q_CH4 = 2·k·L₀·M·e^(-k·t)) from methane generation potential L₀ and decay constant k.",
+  "path": "/tools/landfill-gas-generation-first-order-decay-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "landfill gas calculator",
+    "landgem methane generation formula online",
+    "first order decay methane potential l0 calculator",
+    "municipal solid waste landfill emissions calculator",
+    "environmental engineering solid waste renewable energy online"
+  ],
+  "order": 1350
+}

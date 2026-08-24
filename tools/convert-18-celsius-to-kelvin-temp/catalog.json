@@ -1,0 +1,15 @@
+{
+  "name": "Convert 18°C Celsius to Kelvin Temp",
+  "description": "Convert 18 degrees Celsius (°C) to Kelvin (291.15 K) instantly.",
+  "path": "/tools/convert-18-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 18 celsius to kelvin temp",
+    "Convert 18°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

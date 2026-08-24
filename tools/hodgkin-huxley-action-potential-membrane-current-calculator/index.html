@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate biophysical neuron action potential membrane current (I_m = C_m · dV/dt + ḡ_Na·m³h·(V - E_Na) + ḡ_K·n⁴·(V - E_K) + g_L·(V - E_L)) in μA/cm².">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hodgkin-huxley-action-potential-membrane-current-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator | NikTool">
+  <meta property="og:description" content="Calculate biophysical neuron action potential membrane current (I_m = C_m · dV/dt + ḡ_Na·m³h·(V - E_Na) + ḡ_K·n⁴·(V - E_K) + g_L·(V - E_L)) in μA/cm².">
+  <meta property="og:url" content="https://niktool.in/tools/hodgkin-huxley-action-potential-membrane-current-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hodgkin-huxley-action-potential-membrane-current-calculator/",
+        "description": "Calculate biophysical neuron action potential membrane current (I_m = C_m · dV/dt + ḡ_Na·m³h·(V - E_Na) + ḡ_K·n⁴·(V - E_K) + g_L·(V - E_L)) in μA/cm².",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is m cubed (m³) but n to the fourth power (n⁴)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Biophysical gating particle analysis proved that four independent protein subunits must open simultaneously for $K^+$ channels ($n^4$), while $Na^+$ channels require three activation gates plus one inactivation ball ($m^3 h$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator</h1>
+      <p>Calculate biophysical neuron action potential membrane current (I_m = C_m · dV/dt + ḡ_Na·m³h·(V - E_Na) + ḡ_K·n⁴·(V - E_K) + g_L·(V - E_L)) in μA/cm².</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Membrane Voltage V (mV), Na+ Gating (m, h), K+ Gating (n) & Capacitance C_m (1.0 μF/cm²)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hh-v">Voltage V (mV)</label>
+          <input class="tool-textarea" id="hh-v" type="number" step="any" value="20.0" placeholder="+20.0 mV (Depolarized Peak)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hh-m">Na+ Act (m)</label>
+          <input class="tool-textarea" id="hh-m" type="number" step="0.05" min="0" max="1" value="0.80" placeholder="0.80 (m³ Gate)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hh-h">Na+ Inact (h)</label>
+          <input class="tool-textarea" id="hh-h" type="number" step="0.05" min="0" max="1" value="0.40" placeholder="0.40 (h Ball)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hh-n">K+ Act (n)</label>
+          <input class="tool-textarea" id="hh-n" type="number" step="0.05" min="0" max="1" value="0.70" placeholder="0.70 (n⁴ Gate)" />
+        </div>
+      </div>
+      <div id="hh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hh-res-itot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">I_ion = +563.8 μA / cm²</span>
+            <span class="stat-label">Total Ionic Membrane Current (I_Na + I_K + I_L)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hh-res-split" style="font-weight:700;">I_Na = -844.8 μA/cm² (Inward) | I_K = +1,382.9 μA/cm² (Repolarizing Outward)</span>
+            <span class="stat-label">Sodium vs Potassium Ionic Flux Breakdown</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hodgkin-Huxley Neuron Action Potential & Ionic Currents (I_m) Calculator</h2>
+      <ol>
+        <li>Enter instantaneous transmembrane voltage V in millivolts (e.g. -70 mV resting, +30 mV action potential overshoot).</li>
+        <li>Enter voltage-gated $Na^+$ activation probability m (0.0 to 1.0).</li>
+        <li>Enter voltage-gated $Na^+$ inactivation ball probability h (0.0 to 1.0).</li>
+        <li>Enter delayed-rectifier $K^+$ activation probability n (0.0 to 1.0).</li>
+        <li>Inspect total ionic membrane current $I_{	ext{ion}}$ in $mu	ext{A/cm}^2$ and individual inward $Na^+$ vs outward $K^+$ current components.</li>
+      </ol>
+
+      <h2>Alan Hodgkin & Andrew Huxley 1952 Nobel Biophysical Model</h2>
+      <p>Hodgkin-Huxley differential equations quantify how voltage-gated $Na^+$ channels rapidly activate ($m^3$) and inactivate ($h$) while delayed rectifier $K^+$ channels open slowly ($n^4$), creating the millisecond all-or-none action potential spike that drives all neural computation in the human brain.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is m cubed (m³) but n to the fourth power (n⁴)?</summary>
+        <p>Biophysical gating particle analysis proved that four independent protein subunits must open simultaneously for $K^+$ channels ($n^4$), while $Na^+$ channels require three activation gates plus one inactivation ball ($m^3 h$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hodgkin-huxley-action-potential-membrane-current-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Systemic Vascular Resistance (SVR = 80·(MAP - CVP) / CO) Hemodynamics Calculator",
+  "description": "Calculate systemic vascular resistance (SVR = 80 · (MAP - CVP) / CO) in dynes·s/cm⁵ and Wood Units to evaluate arterial vasoconstriction vs vasodilation shock in intensive care.",
+  "path": "/tools/systemic-vascular-resistance-svr-cardiac-hemodynamics-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "systemic vascular resistance calculator",
+    "svr formula 80 times map minus cvp over co online",
+    "afterload vascular resistance hemodynamics calculator",
+    "distributive septic cardiogenic shock svr calculator",
+    "critical care cardiology hemodynamics online"
+  ],
+  "order": 1142
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 122cm, Weight 58kg)",
+  "description": "Calculate Body Mass Index (BMI 39.0) for height 122 cm and weight 58 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-122cm-weight-58kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 122cm weight 58kg",
+    "BMI Calculator (Height 122cm, Weight 58kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

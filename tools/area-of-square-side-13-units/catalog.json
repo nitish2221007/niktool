@@ -1,0 +1,15 @@
+{
+  "name": "Area of Square (Side 13 Units)",
+  "description": "Calculate the area of a square with side length 13 units (A = a² = 169).",
+  "path": "/tools/area-of-square-side-13-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of square side 13 units",
+    "Area of Square (Side 13 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

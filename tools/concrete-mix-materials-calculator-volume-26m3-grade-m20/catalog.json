@@ -1,0 +1,15 @@
+{
+  "name": "Concrete Materials Calculator (26 m³ Volume, Grade M20)",
+  "description": "Calculate cement bags (208 bags), sand, and gravel quantities for 26 m³ of M20 concrete.",
+  "path": "/tools/concrete-mix-materials-calculator-volume-26m3-grade-m20/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "concrete mix materials calculator volume 26m3 grade m20",
+    "Concrete Materials Calculator (26 m³ Volume, Grade M20)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

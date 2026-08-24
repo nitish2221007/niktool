@@ -1,0 +1,15 @@
+{
+  "name": "BLEU Score Machine Translation Evaluation (BLEU = BP·exp(∑ w_n·ln p_n)) Calculator",
+  "description": "Calculate automated machine translation quality BLEU score (Bilingual Evaluation Understudy), modified n-gram precisions (p₁ to p₄), and Brevity Penalty (BP) against reference human translations.",
+  "path": "/tools/bleu-score-machine-translation-ngram-precision-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "bleu score calculator",
+    "bilingual evaluation understudy machine translation formula online",
+    "bleu brevity penalty n gram precision calculator",
+    "nlp machine translation evaluation bleu score calculator",
+    "natural language processing translation metrics online"
+  ],
+  "order": 1233
+}

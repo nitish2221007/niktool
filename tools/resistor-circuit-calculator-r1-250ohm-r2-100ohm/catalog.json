@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=250Ω, R2=100Ω)",
+  "description": "Calculate Series Equivalent (350 Ω) and Parallel Equivalent (71.43 Ω) for resistors R1=250Ω and R2=100Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-250ohm-r2-100ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 250ohm r2 100ohm",
+    "Resistor Circuit Calculator (R1=250Ω, R2=100Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

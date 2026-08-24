@@ -1,0 +1,15 @@
+{
+  "name": "Trip Fuel Cost Split (2 Passengers, 870 km)",
+  "description": "Calculate per-person fuel cost (₹2799/person) for 2 passengers on a 870 km trip.",
+  "path": "/tools/trip-fuel-cost-split-passengers-2-distance-870km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "trip fuel cost split passengers 2 distance 870km",
+    "Trip Fuel Cost Split (2 Passengers, 870 km)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

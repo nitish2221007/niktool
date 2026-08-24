@@ -1,0 +1,15 @@
+{
+  "name": "TF-IDF (Term Frequency-Inverse Document Frequency TF·ln(N / DF)) Calculator",
+  "description": "Calculate natural language processing TF-IDF keyword importance weighting (TF-IDF = Term Frequency · ln(Total Documents / Document Frequency)) for search engine ranking and document classification.",
+  "path": "/tools/tf-idf-term-frequency-inverse-document-frequency-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "tf idf calculator",
+    "term frequency inverse document frequency formula online",
+    "nlp tf idf keyword weighting calculator",
+    "search engine information retrieval tf idf calculator",
+    "natural language processing text mining online"
+  ],
+  "order": 1215
+}

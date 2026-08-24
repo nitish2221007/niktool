@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate nonlinear elastic-plastic true total strain ε (epsilon = σ/E + 0.002 · (σ / σ₀)^n), elastic strain, plastic offset strain, and tangent modulus E_t using the Ramberg-Osgood constitutive model.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ramberg-osgood-nonlinear-stress-strain-plasticity-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator | NikTool">
+  <meta property="og:description" content="Calculate nonlinear elastic-plastic true total strain ε (epsilon = σ/E + 0.002 · (σ / σ₀)^n), elastic strain, plastic offset strain, and tangent modulus E_t using the Ramberg-Osgood constitutive model.">
+  <meta property="og:url" content="https://niktool.in/tools/ramberg-osgood-nonlinear-stress-strain-plasticity-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ramberg-osgood-nonlinear-stress-strain-plasticity-calculator/",
+        "description": "Calculate nonlinear elastic-plastic true total strain ε (epsilon = σ/E + 0.002 · (σ / σ₀)^n), elastic strain, plastic offset strain, and tangent modulus E_t using the Ramberg-Osgood constitutive model.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the physical meaning of parameter 0.002 in the equation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$0.002$ ($0.2%$) corresponds exactly to the standard engineering definition of yield strength offset strain."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator</h1>
+      <p>Calculate nonlinear elastic-plastic true total strain ε (epsilon = σ/E + 0.002 · (σ / σ₀)^n), elastic strain, plastic offset strain, and tangent modulus E_t using the Ramberg-Osgood constitutive model.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Applied Stress σ (MPa), Yield Strength σ₀ (MPa), Young's Modulus E (GPa) & Hardening Exponent n</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ro-s">Stress σ (MPa)</label>
+          <input class="tool-textarea" id="ro-s" type="number" step="25" value="320.0" placeholder="320.0 MPa" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ro-s0">Yield σ₀ (MPa)</label>
+          <input class="tool-textarea" id="ro-s0" type="number" step="25" value="300.0" placeholder="300.0 MPa (0.2% Offset)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ro-e">Modulus E (GPa)</label>
+          <input class="tool-textarea" id="ro-e" type="number" step="10" value="200.0" placeholder="200.0 GPa" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ro-n">Hardening n</label>
+          <input class="tool-textarea" id="ro-n" type="number" step="1" value="8.0" placeholder="8.0 (Austenitic Steel)" />
+        </div>
+      </div>
+      <div id="ro-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ro-res-eps" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Total Strain ε = 0.496% (4,957 με)</span>
+            <span class="stat-label">Ramberg-Osgood Total True Strain (Elastic + Plastic)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ro-res-parts" style="color:var(--green-dark); font-weight:700;">Elastic ε_e = 0.160% | Plastic Offset ε_p = 0.336% (Exceeds 0.2% yield offset ✓)</span>
+            <span class="stat-label">Elastic vs Plastic Strain Breakdown</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Ramberg-Osgood Nonlinear Stress-Strain Plasticity Curve (ε = σ/E + 0.002·(σ/σ₀)ⁿ) Calculator</h2>
+      <ol>
+        <li>Enter applied stress $sigma$ in MPa.</li>
+        <li>Enter material $0.2%$ offset yield strength $sigma_0$ in MPa.</li>
+        <li>Enter Young's Elastic Modulus E in GPa.</li>
+        <li>Enter strain-hardening exponent n.</li>
+        <li>Inspect total true strain $epsilon$, elastic strain $epsilon_e$, and plastic strain $epsilon_p$.</li>
+      </ol>
+
+      <h2>Walter Ramberg & William R. Osgood 1943 Constitutive Law</h2>
+      <p>Smoothly connects linear elastic behavior to nonlinear strain hardening without artificial sharp yield discontinuities, serving as the standard input for nonlinear Finite Element Analysis (FEA) crashworthiness simulations.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the physical meaning of parameter 0.002 in the equation?</summary>
+        <p>$0.002$ ($0.2%$) corresponds exactly to the standard engineering definition of yield strength offset strain.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ramberg-osgood-nonlinear-stress-strain-plasticity-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 265V, Current 1A)",
+  "description": "Calculate Resistance (265.00 Ω) and Electric Power (265.0 W) for 265V voltage and 1A current.",
+  "path": "/tools/ohms-law-calculator-voltage-265v-current-1a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 265v current 1a",
+    "Ohm's Law Calculator (Voltage 265V, Current 1A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

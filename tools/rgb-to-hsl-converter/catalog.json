@@ -1,0 +1,15 @@
+{
+  "name": "Convert RGB Color to HSL",
+  "description": "Convert RGB color values to HSL color representation.",
+  "path": "/tools/rgb-to-hsl-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "rgb to hsl converter",
+    "Convert RGB Color to HSL",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

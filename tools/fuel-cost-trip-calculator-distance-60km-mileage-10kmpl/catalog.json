@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (60 km Distance, 10 km/l Mileage)",
+  "description": "Calculate fuel needed (6.0 L) and cost (₹579) for 60 km trip at 10 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-60km-mileage-10kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 60km mileage 10kmpl",
+    "Fuel Cost Trip Calculator (60 km Distance, 10 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

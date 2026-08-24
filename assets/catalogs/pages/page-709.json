@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Fuel Cost Calculator (300 km Distance, 25 km/l Mileage)",
+    "description": "Calculate total fuel required (12.0 L) and estimated cost (₹1158) for 300 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-300km-mileage-25kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 300km mileage 25kmpl",
+      "Fuel Cost Calculator (300 km Distance, 25 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (40 km Distance, 10 km/l Mileage)",
+    "description": "Calculate total fuel required (4.0 L) and estimated cost (₹386) for 40 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-40km-mileage-10kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 40km mileage 10kmpl",
+      "Fuel Cost Calculator (40 km Distance, 10 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (40 km Distance, 15 km/l Mileage)",
+    "description": "Calculate total fuel required (2.7 L) and estimated cost (₹261) for 40 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-40km-mileage-15kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 40km mileage 15kmpl",
+      "Fuel Cost Calculator (40 km Distance, 15 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (40 km Distance, 20 km/l Mileage)",
+    "description": "Calculate total fuel required (2.0 L) and estimated cost (₹193) for 40 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-40km-mileage-20kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 40km mileage 20kmpl",
+      "Fuel Cost Calculator (40 km Distance, 20 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (40 km Distance, 25 km/l Mileage)",
+    "description": "Calculate total fuel required (1.6 L) and estimated cost (₹154) for 40 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-40km-mileage-25kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 40km mileage 25kmpl",
+      "Fuel Cost Calculator (40 km Distance, 25 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (50 km Distance, 10 km/l Mileage)",
+    "description": "Calculate total fuel required (5.0 L) and estimated cost (₹483) for 50 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-50km-mileage-10kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 50km mileage 10kmpl",
+      "Fuel Cost Calculator (50 km Distance, 10 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (50 km Distance, 15 km/l Mileage)",
+    "description": "Calculate total fuel required (3.3 L) and estimated cost (₹318) for 50 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-50km-mileage-15kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 50km mileage 15kmpl",
+      "Fuel Cost Calculator (50 km Distance, 15 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (50 km Distance, 20 km/l Mileage)",
+    "description": "Calculate total fuel required (2.5 L) and estimated cost (₹241) for 50 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-50km-mileage-20kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 50km mileage 20kmpl",
+      "Fuel Cost Calculator (50 km Distance, 20 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (50 km Distance, 25 km/l Mileage)",
+    "description": "Calculate total fuel required (2.0 L) and estimated cost (₹193) for 50 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-50km-mileage-25kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 50km mileage 25kmpl",
+      "Fuel Cost Calculator (50 km Distance, 25 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (60 km Distance, 10 km/l Mileage)",
+    "description": "Calculate total fuel required (6.0 L) and estimated cost (₹579) for 60 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-60km-mileage-10kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 60km mileage 10kmpl",
+      "Fuel Cost Calculator (60 km Distance, 10 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (60 km Distance, 15 km/l Mileage)",
+    "description": "Calculate total fuel required (4.0 L) and estimated cost (₹386) for 60 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-60km-mileage-15kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 60km mileage 15kmpl",
+      "Fuel Cost Calculator (60 km Distance, 15 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (60 km Distance, 20 km/l Mileage)",
+    "description": "Calculate total fuel required (3.0 L) and estimated cost (₹290) for 60 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-60km-mileage-20kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 60km mileage 20kmpl",
+      "Fuel Cost Calculator (60 km Distance, 20 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (60 km Distance, 25 km/l Mileage)",
+    "description": "Calculate total fuel required (2.4 L) and estimated cost (₹232) for 60 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-60km-mileage-25kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 60km mileage 25kmpl",
+      "Fuel Cost Calculator (60 km Distance, 25 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (70 km Distance, 10 km/l Mileage)",
+    "description": "Calculate total fuel required (7.0 L) and estimated cost (₹676) for 70 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-70km-mileage-10kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 70km mileage 10kmpl",
+      "Fuel Cost Calculator (70 km Distance, 10 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (70 km Distance, 15 km/l Mileage)",
+    "description": "Calculate total fuel required (4.7 L) and estimated cost (₹454) for 70 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-70km-mileage-15kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 70km mileage 15kmpl",
+      "Fuel Cost Calculator (70 km Distance, 15 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (70 km Distance, 20 km/l Mileage)",
+    "description": "Calculate total fuel required (3.5 L) and estimated cost (₹338) for 70 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-70km-mileage-20kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 70km mileage 20kmpl",
+      "Fuel Cost Calculator (70 km Distance, 20 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (70 km Distance, 25 km/l Mileage)",
+    "description": "Calculate total fuel required (2.8 L) and estimated cost (₹270) for 70 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-70km-mileage-25kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 70km mileage 25kmpl",
+      "Fuel Cost Calculator (70 km Distance, 25 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (80 km Distance, 10 km/l Mileage)",
+    "description": "Calculate total fuel required (8.0 L) and estimated cost (₹772) for 80 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-80km-mileage-10kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 80km mileage 10kmpl",
+      "Fuel Cost Calculator (80 km Distance, 10 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (80 km Distance, 15 km/l Mileage)",
+    "description": "Calculate total fuel required (5.3 L) and estimated cost (₹511) for 80 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-80km-mileage-15kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 80km mileage 15kmpl",
+      "Fuel Cost Calculator (80 km Distance, 15 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (80 km Distance, 20 km/l Mileage)",
+    "description": "Calculate total fuel required (4.0 L) and estimated cost (₹386) for 80 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-80km-mileage-20kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 80km mileage 20kmpl",
+      "Fuel Cost Calculator (80 km Distance, 20 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (80 km Distance, 25 km/l Mileage)",
+    "description": "Calculate total fuel required (3.2 L) and estimated cost (₹309) for 80 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-80km-mileage-25kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 80km mileage 25kmpl",
+      "Fuel Cost Calculator (80 km Distance, 25 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (90 km Distance, 10 km/l Mileage)",
+    "description": "Calculate total fuel required (9.0 L) and estimated cost (₹869) for 90 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-90km-mileage-10kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 90km mileage 10kmpl",
+      "Fuel Cost Calculator (90 km Distance, 10 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (90 km Distance, 15 km/l Mileage)",
+    "description": "Calculate total fuel required (6.0 L) and estimated cost (₹579) for 90 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-90km-mileage-15kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 90km mileage 15kmpl",
+      "Fuel Cost Calculator (90 km Distance, 15 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Fuel Cost Calculator (90 km Distance, 20 km/l Mileage)",
+    "description": "Calculate total fuel required (4.5 L) and estimated cost (₹434) for 90 km trip.",
+    "path": "/tools/fuel-cost-calculator-distance-90km-mileage-20kmpl/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "fuel cost calculator distance 90km mileage 20kmpl",
+      "Fuel Cost Calculator (90 km Distance, 20 km/l Mileage)",
+      "online tool",
+      "free tool",
+      "niktool"
+    ]
+  }
+]

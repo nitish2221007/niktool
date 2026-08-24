@@ -1,0 +1,15 @@
+{
+  "name": "Michaelis-Menten Enzyme Kinetics (v = V_max·[S] / (K_m + [S])) & Lineweaver-Burk Calculator",
+  "description": "Calculate biochemical enzyme-catalyzed reaction velocity (v = V_max · [S] / (K_m + [S])) in μM/min, substrate affinity (K_m), and catalytic efficiency (k_cat / K_m) for biochemistry students.",
+  "path": "/tools/michaelis-menten-enzyme-kinetics-lineweaver-burk-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "michaelis menten calculator",
+    "enzyme kinetics formula v equals vmax s over km plus s online",
+    "lineweaver burk double reciprocal plot calculator",
+    "substrate concentration enzyme affinity km vmax calculator",
+    "biochemistry enzyme catalysis rate online"
+  ],
+  "order": 1012
+}

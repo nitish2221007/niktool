@@ -1,0 +1,15 @@
+{
+  "name": "Rabi Oscillation Frequency & Two-Level Quantum State Transition Calculator",
+  "description": "Calculate resonant Rabi frequency Ω_R in MHz (Ω_R = μ · E₀ / ℏ), generalized off-resonance Rabi frequency Ω = √(Ω_R² + Δ²), and quantum bit inversion π-pulse transition time t_π = π / Ω_R.",
+  "path": "/tools/rabi-oscillation-frequency-two-level-quantum-system-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rabi oscillation calculator",
+    "rabi frequency formula omega r online",
+    "quantum bit pi pulse transition time calculator",
+    "two level atom electric dipole laser rabi calculator",
+    "quantum computing atomic physics quantum optics online"
+  ],
+  "order": 1376
+}

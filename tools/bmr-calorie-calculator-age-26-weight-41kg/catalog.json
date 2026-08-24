@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 26, Weight 41kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1348 kcal/day) for 26-year-old weighing 41 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-26-weight-41kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 26 weight 41kg",
+    "BMR Calorie Calculator (Age 26, Weight 41kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

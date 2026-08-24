@@ -1,0 +1,15 @@
+{
+  "name": "Sound Intensity Level (W/m² to dB) Calculator",
+  "description": "Calculate acoustic sound intensity level (SIL = 10 · log₁₀(I / I₀)) in decibels (dB) from acoustic power intensity in Watts per square meter.",
+  "path": "/tools/sound-intensity-level-watts-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sound intensity level calculator",
+    "watts per square meter to decibels",
+    "acoustic intensity sil calculator",
+    "threshold of hearing intensity",
+    "decibel sound power formula"
+  ],
+  "order": 199
+}

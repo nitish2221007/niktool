@@ -1,0 +1,15 @@
+{
+  "name": "Solution Dilution (M₁V₁ = M₂V₂) Calculator",
+  "description": "Calculate required stock solution volume (V₁) or target concentration (M₂) using the fundamental chemical dilution equation M₁ · V₁ = M₂ · V₂ (C₁V₁ = C₂V₂).",
+  "path": "/tools/dilution-law-m1v1-m2v2-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "m1v1 m2v2 calculator",
+    "solution dilution calculator",
+    "c1v1 c2v2 formula online",
+    "stock solution dilution calculator",
+    "laboratory molarity dilution calculator"
+  ],
+  "order": 419
+}

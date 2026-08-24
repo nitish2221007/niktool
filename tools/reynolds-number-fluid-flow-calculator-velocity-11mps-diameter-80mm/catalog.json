@@ -1,0 +1,15 @@
+{
+  "name": "Reynolds Number Flow Calculator (Velocity 11m/s, Pipe 80mm)",
+  "description": "Calculate fluid Reynolds Number (Re = 8,80,000 - Turbulent Flow) for 11 m/s in 80mm pipe.",
+  "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-11mps-diameter-80mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "reynolds number fluid flow calculator velocity 11mps diameter 80mm",
+    "Reynolds Number Flow Calculator (Velocity 11m/s, Pipe 80mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

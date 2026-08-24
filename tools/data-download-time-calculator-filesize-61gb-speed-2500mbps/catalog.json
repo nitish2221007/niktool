@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (61 GB File, 2500 Mbps Speed)",
+  "description": "Calculate file transfer download time (~3.3 minutes / 200s) for 61 GB file at 2500 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-61gb-speed-2500mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 61gb speed 2500mbps",
+    "Data Download Time Calculator (61 GB File, 2500 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

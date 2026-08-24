@@ -1,0 +1,15 @@
+{
+  "name": "Tensile Stress Calculator (Force 2800N, Rod Dia 10mm)",
+  "description": "Calculate tensile stress (σ = 35.65 MPa) for 2800N load on a 10mm diameter rod.",
+  "path": "/tools/tensile-stress-calculator-force-2800n-diameter-10mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "tensile stress calculator force 2800n diameter 10mm",
+    "Tensile Stress Calculator (Force 2800N, Rod Dia 10mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

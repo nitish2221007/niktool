@@ -1,0 +1,15 @@
+{
+  "name": "Convert 8 GB to MB",
+  "description": "Convert 8 Gigabytes (GB) to Megabytes (8192 MB). 100% free and local.",
+  "path": "/tools/convert-8-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 8 gb to mb",
+    "Convert 8 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Terzaghi Ultimate Bearing Capacity Shallow Strip Footing (q_ult = c·N_c + q·N_q + ½γ·B·N_γ) Calculator",
+  "description": "Calculate shallow strip footing ultimate bearing capacity q_ult in kPa (q_ult = c·N_c + q·N_q + ½·γ·B·N_γ) and allowable bearing capacity q_all with safety factor FS for geotechnical foundation design.",
+  "path": "/tools/terzaghi-bearing-capacity-shallow-strip-footing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "terzaghi bearing capacity calculator",
+    "shallow foundation bearing capacity formula q ult online",
+    "bearing capacity factors nc nq ngamma calculator",
+    "allowable soil bearing pressure safety factor calculator",
+    "geotechnical engineering foundation design civil engineering online"
+  ],
+  "order": 1287
+}

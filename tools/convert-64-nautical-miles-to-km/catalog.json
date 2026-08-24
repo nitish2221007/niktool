@@ -1,0 +1,15 @@
+{
+  "name": "Convert 64 Nautical Miles to KM",
+  "description": "Convert 64 nautical miles (NM) to kilometers (118.53 km). 100% free and local.",
+  "path": "/tools/convert-64-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 64 nautical miles to km",
+    "Convert 64 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

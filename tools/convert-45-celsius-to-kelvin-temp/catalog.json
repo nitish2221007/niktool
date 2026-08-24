@@ -1,0 +1,15 @@
+{
+  "name": "Convert 45°C Celsius to Kelvin Temp",
+  "description": "Convert 45 degrees Celsius (°C) to Kelvin (318.15 K) instantly.",
+  "path": "/tools/convert-45-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 45 celsius to kelvin temp",
+    "Convert 45°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

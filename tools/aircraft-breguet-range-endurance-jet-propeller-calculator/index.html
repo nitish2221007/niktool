@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate commercial jet aircraft cruise flight Range R in km and nautical miles (Breguet Jet Range Formula: R = (V / TSFC) · (L/D) · ln(W_initial / W_final)), flight endurance E in hours, and fuel burn percentage.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/aircraft-breguet-range-endurance-jet-propeller-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator | NikTool">
+  <meta property="og:description" content="Calculate commercial jet aircraft cruise flight Range R in km and nautical miles (Breguet Jet Range Formula: R = (V / TSFC) · (L/D) · ln(W_initial / W_final)), flight endurance E in hours, and fuel burn percentage.">
+  <meta property="og:url" content="https://niktool.in/tools/aircraft-breguet-range-endurance-jet-propeller-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/aircraft-breguet-range-endurance-jet-propeller-calculator/",
+        "description": "Calculate commercial jet aircraft cruise flight Range R in km and nautical miles (Breguet Jet Range Formula: R = (V / TSFC) · (L/D) · ln(W_initial / W_final)), flight endurance E in hours, and fuel burn percentage.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is cruising at high altitude optimal for jet aircraft?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In cold, thin stratospheric air, jet engines operate at peak thermodynamic efficiency while maintaining high true airspeed at optimal lift coefficient."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator</h1>
+      <p>Calculate commercial jet aircraft cruise flight Range R in km and nautical miles (Breguet Jet Range Formula: R = (V / TSFC) · (L/D) · ln(W_initial / W_final)), flight endurance E in hours, and fuel burn percentage.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Cruise Speed V (km/h or M), TSFC (1/hr or kg/daN·hr), Aerodynamic L/D (14 to 20) & Initial/Final Weight (kg)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="br-v">Speed V (km/h)</label>
+          <input class="tool-textarea" id="br-v" type="number" step="25" value="850.0" placeholder="850.0 km/h (Mach 0.80)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-tsfc">TSFC (1/hr)</label>
+          <input class="tool-textarea" id="br-tsfc" type="number" step="0.05" value="0.55" placeholder="0.55 hr⁻¹ (Turbofan)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-ld">Lift/Drag (L/D)</label>
+          <input class="tool-textarea" id="br-ld" type="number" step="1" value="18.0" placeholder="18.0 (Modern Airliner)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-w0">Initial W₀ (kg)</label>
+          <input class="tool-textarea" id="br-w0" type="number" step="5000" value="75000.0" placeholder="75,000 kg (MTOW)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="br-w1">Final W₁ (kg)</label>
+          <input class="tool-textarea" id="br-w1" type="number" step="5000" value="55000.0" placeholder="55,000 kg (Dry + Payload)" />
+        </div>
+      </div>
+      <div id="br-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="br-res-r" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Cruise Range R = 8,630 km (4,660 NM)</span>
+            <span class="stat-label">Breguet Jet Maximum Range (R = (V / TSFC) · (L/D) · ln(W₀ / W₁))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="br-res-end" style="color:var(--green-dark); font-weight:700;">Flight Endurance = 10.15 Hours | Fuel Burn = 20,000 kg (26.7% of MTOW)</span>
+            <span class="stat-label">Total Airborne Flight Time & Trip Propellant Consumption</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Breguet Aircraft Range Equation (Jet & Propeller Range / Endurance) Calculator</h2>
+      <ol>
+        <li>Enter true airspeed cruise velocity V in km/h (e.g. 850–900 km/h).</li>
+        <li>Enter engine Thrust Specific Fuel Consumption (TSFC) in $	ext{hr}^{-1}$ (typically 0.50–0.60 for modern high-bypass turbofans).</li>
+        <li>Enter aerodynamic lift-to-drag cruise efficiency ratio L/D (16 to 20 for commercial airliners).</li>
+        <li>Enter initial takeoff gross weight $W_0$ in kg.</li>
+        <li>Enter final empty/landing gross weight $W_1$ in kg.</li>
+        <li>Inspect total maximum non-stop cruise range in km and Nautical Miles (NM), flight endurance time, and burned fuel weight.</li>
+      </ol>
+
+      <h2>Louis Charles Breguet 1921 Aircraft Range Standard</h2>
+      <p>The universal performance equation balancing structural lightweighting ($ln(W_0/W_1)$), aerodynamic efficiency ($L/D$), and engine fuel efficiency ($	ext{TSFC}$) for airline route planning.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is cruising at high altitude optimal for jet aircraft?</summary>
+        <p>In cold, thin stratospheric air, jet engines operate at peak thermodynamic efficiency while maintaining high true airspeed at optimal lift coefficient.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/aircraft-breguet-range-endurance-jet-propeller-calculator/tool.js"></script>
+</body>
+</html>

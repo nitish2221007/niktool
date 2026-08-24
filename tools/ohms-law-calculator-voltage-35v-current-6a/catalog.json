@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 35V, Current 6A)",
+  "description": "Calculate Resistance (5.83 Ω) and Electric Power (210.0 W) for 35V voltage and 6A current.",
+  "path": "/tools/ohms-law-calculator-voltage-35v-current-6a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 35v current 6a",
+    "Ohm's Law Calculator (Voltage 35V, Current 6A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

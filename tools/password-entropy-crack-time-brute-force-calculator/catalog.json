@@ -1,0 +1,15 @@
+{
+  "name": "Password Entropy & GPU Brute-Force Crack Time Calculator",
+  "description": "Calculate cryptographic password entropy in bits (E = L · log₂(N)) and estimated brute-force crack time across modern 100 Billion Hash/sec RTX 4090 GPU clusters.",
+  "path": "/tools/password-entropy-crack-time-brute-force-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "password entropy calculator",
+    "bits of entropy password formula",
+    "brute force crack time calculator online",
+    "rtx 4090 hashcat password crack duration",
+    "nist password complexity entropy calculator"
+  ],
+  "order": 578
+}

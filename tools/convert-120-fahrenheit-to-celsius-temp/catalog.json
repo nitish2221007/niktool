@@ -1,0 +1,15 @@
+{
+  "name": "Convert 120°F Fahrenheit to Celsius Temp",
+  "description": "Convert 120 degrees Fahrenheit (°F) to Celsius (48.9°C) instantly.",
+  "path": "/tools/convert-120-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 120 fahrenheit to celsius temp",
+    "Convert 120°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

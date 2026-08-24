@@ -1,0 +1,15 @@
+{
+  "name": "Convert 120 KM to Miles",
+  "description": "Convert 120 kilometers to miles (74.56 miles). 100% free and local.",
+  "path": "/tools/convert-120-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 120 km to miles",
+    "Convert 120 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 51°C Celsius to Kelvin Temp",
+  "description": "Convert 51 degrees Celsius (°C) to Kelvin (324.15 K) instantly.",
+  "path": "/tools/convert-51-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 51 celsius to kelvin temp",
+    "Convert 51°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

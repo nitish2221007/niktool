@@ -1,0 +1,15 @@
+{
+  "name": "Von Mises & Tresca Yield Criterion Equivalent Stress Calculator",
+  "description": "Calculate multi-axial equivalent stress under complex loading using Von Mises Distortion Energy (σ_vm) and Tresca Maximum Shear Stress (σ_tresca = σ₁ - σ₃) failure criteria.",
+  "path": "/tools/von-mises-tresca-yield-criterion-equivalent-stress-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "von mises calculator",
+    "tresca yield criterion equivalent stress formula online",
+    "distortion energy theory von mises stress calculator",
+    "maximum shear stress theory tresca calculator",
+    "mechanical design failure theories solid mechanics online"
+  ],
+  "order": 1273
+}

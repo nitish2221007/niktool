@@ -1,0 +1,15 @@
+{
+  "name": "Wet-Bulb Globe Temperature (WBGT) Environmental Heat Stress Index Calculator",
+  "description": "Calculate outdoor occupational and athletic environmental heat stress Wet-Bulb Globe Temperature (WBGT = 0.7·T_w + 0.2·T_g + 0.1·T_d) in °C / °F and identify OSHA / ISO 7243 work-rest advisory limits.",
+  "path": "/tools/wet-bulb-globe-temperature-wbgt-heat-stress-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "wbgt calculator",
+    "wet bulb globe temperature formula 0.7 tw plus 0.2 tg plus 0.1 td online",
+    "osha military heat stress wbgt index calculator",
+    "black globe wet bulb temperature calculator online",
+    "occupational heat illness prevention wbgt online"
+  ],
+  "order": 831
+}

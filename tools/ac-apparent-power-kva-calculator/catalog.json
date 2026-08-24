@@ -1,0 +1,15 @@
+{
+  "name": "AC Apparent Power (kVA) & Transformer Sizing Calculator",
+  "description": "Calculate AC apparent power (kVA = V · I / 1000 for single phase, kVA = √3 · V · I / 1000 for three-phase) and full-load line current for generator and transformer sizing.",
+  "path": "/tools/ac-apparent-power-kva-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "kva calculator",
+    "apparent power kva formula",
+    "3 phase kva to amps calculator",
+    "transformer sizing kva online",
+    "single phase three phase kva calculator"
+  ],
+  "order": 325
+}

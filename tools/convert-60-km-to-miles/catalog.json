@@ -1,0 +1,15 @@
+{
+  "name": "Convert 60 KM to Miles",
+  "description": "Convert 60 kilometers to miles (37.28 miles). 100% free and local.",
+  "path": "/tools/convert-60-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 60 km to miles",
+    "Convert 60 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator",
+  "description": "Calculate industrial CNC and pick-and-place trapezoidal velocity profile kinematics: acceleration time t_acc (v_max / a), cruise distance, total movement duration T, and minimum distance required to reach top speed.",
+  "path": "/tools/trapezoidal-s-curve-velocity-profile-motion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "trapezoidal velocity profile calculator",
+    "motion profile acceleration time t acc formula online",
+    "s curve velocity profile cnc feedrate calculator",
+    "peak velocity acceleration distance motion controller calculator",
+    "mechatronics robotics automation industrial motion online"
+  ],
+  "order": 1326
+}

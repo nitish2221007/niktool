@@ -1,0 +1,15 @@
+{
+  "name": "PN Junction Built-in Potential (V_bi) & Depletion Width Calculator",
+  "description": "Calculate silicon PN junction built-in contact potential (V_bi = (k_B · T / q) · ln(N_A · N_D / n_i²)) in Volts and zero-bias depletion layer width W in micrometers.",
+  "path": "/tools/pn-junction-builtin-potential-depletion-width-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pn junction built in potential calculator",
+    "vbi formula semiconductor physics",
+    "depletion layer width calculator online",
+    "na nd doping silicon vbi calculator",
+    "built in voltage pn diode online"
+  ],
+  "order": 549
+}

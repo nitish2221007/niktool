@@ -1,0 +1,16 @@
+{
+  "name": "RF Amplifier Noise Figure & Cascaded Friis Noise Calculator",
+  "description": "Calculate total cascaded noise figure NFtotal, noise factor, and overall gain for multi-stage RF receiver front-ends.",
+  "path": "/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "rf amplifier noise figure cascaded friis noise calculator",
+    "RF Amplifier Noise Figure & Cascaded Friis Noise Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

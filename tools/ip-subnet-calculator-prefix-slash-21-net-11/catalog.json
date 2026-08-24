@@ -1,0 +1,15 @@
+{
+  "name": "IP Subnet Mask & Host Calculator (/ 21 CIDR Prefix, Net #11)",
+  "description": "Calculate subnet mask, broadcast IP, and usable hosts (2,046 usable IPs) for /21 subnet.",
+  "path": "/tools/ip-subnet-calculator-prefix-slash-21-net-11/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ip subnet calculator prefix slash 21 net 11",
+    "IP Subnet Mask & Host Calculator (/ 21 CIDR Prefix, Net #11)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

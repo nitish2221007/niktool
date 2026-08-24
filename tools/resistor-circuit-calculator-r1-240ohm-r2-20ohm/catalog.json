@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=240Ω, R2=20Ω)",
+  "description": "Calculate Series Equivalent (260 Ω) and Parallel Equivalent (18.46 Ω) for resistors R1=240Ω and R2=20Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-240ohm-r2-20ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 240ohm r2 20ohm",
+    "Resistor Circuit Calculator (R1=240Ω, R2=20Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

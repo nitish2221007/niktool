@@ -1,0 +1,15 @@
+{
+  "name": "Area of Circle (Radius 55 Units)",
+  "description": "Calculate the exact area of a circle with radius 55 units (A = πr² = 9503.32).",
+  "path": "/tools/area-of-circle-radius-55-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of circle radius 55 units",
+    "Area of Circle (Radius 55 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate superconducting and ion trap qubit state decay (P_1(t) = e^(-t/T₁)) and transverse phase coherence loss (1/T₂ = 1/(2·T₁) + 1/T_ϕ) over time.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/quantum-decoherence-t1-t2-relaxation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator | NikTool">
+  <meta property="og:description" content="Calculate superconducting and ion trap qubit state decay (P_1(t) = e^(-t/T₁)) and transverse phase coherence loss (1/T₂ = 1/(2·T₁) + 1/T_ϕ) over time.">
+  <meta property="og:url" content="https://niktool.in/tools/quantum-decoherence-t1-t2-relaxation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/quantum-decoherence-t1-t2-relaxation-calculator/",
+        "description": "Calculate superconducting and ion trap qubit state decay (P_1(t) = e^(-t/T₁)) and transverse phase coherence loss (1/T₂ = 1/(2·T₁) + 1/T_ϕ) over time.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What causes T1 vs T2 decoherence in superconducting qubits?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "T₁ is caused by energy dissipation into material dielectric substrate defects, while T₂ dephasing is driven by low-frequency flux and charge noise."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator</h1>
+      <p>Calculate superconducting and ion trap qubit state decay (P_1(t) = e^(-t/T₁)) and transverse phase coherence loss (1/T₂ = 1/(2·T₁) + 1/T_ϕ) over time.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Relaxation Time T₁ (μs), Pure Dephasing Time T_ϕ (μs) & Elapsed Time t (μs)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="dec-t1">Relaxation T₁ (μs)</label>
+          <input class="tool-textarea" id="dec-t1" type="number" step="any" value="100.0" placeholder="100.0 μs (Transmon Qubit)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="dec-tphi">Dephasing T_ϕ (μs)</label>
+          <input class="tool-textarea" id="dec-tphi" type="number" step="any" value="150.0" placeholder="150.0 μs" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="dec-t">Elapsed Time t (μs)</label>
+          <input class="tool-textarea" id="dec-t" type="number" step="any" value="20.0" placeholder="20.0 μs (Circuit Runtime)" />
+        </div>
+      </div>
+      <div id="dec-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="dec-res-t2" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">T₂ = 85.7 μs</span>
+            <span class="stat-label">Total Transverse Coherence Time (T₂)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dec-res-fid" style="font-weight:700;">Remaining |1⟩: 81.9% | Phase Coherence: 79.2%</span>
+            <span class="stat-label">Surviving Qubit State Fidelity @ t = 20 μs</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator</h2>
+      <ol>
+        <li>Enter longitudinal energy relaxation thermal decay time T₁ in microseconds (μs).</li>
+        <li>Enter pure magnetic phase dephasing time T_ϕ in μs.</li>
+        <li>Enter quantum circuit execution elapsed duration time t in μs.</li>
+        <li>Inspect total transverse coherence time T₂ and surviving quantum gate state fidelity.</li>
+      </ol>
+
+      <h2>The T₂ Bound in Quantum Computing</h2>
+      <p>Energy loss fundamentally limits quantum phase retention; no qubit can possess a transverse coherence time longer than twice its relaxation time (T₂ ≤ 2·T₁).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What causes T1 vs T2 decoherence in superconducting qubits?</summary>
+        <p>T₁ is caused by energy dissipation into material dielectric substrate defects, while T₂ dephasing is driven by low-frequency flux and charge noise.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/quantum-decoherence-t1-t2-relaxation-calculator/tool.js"></script>
+</body>
+</html>

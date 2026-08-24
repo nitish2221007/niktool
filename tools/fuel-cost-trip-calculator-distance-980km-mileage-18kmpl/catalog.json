@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (980 km Distance, 18 km/l Mileage)",
+  "description": "Calculate fuel needed (54.4 L) and cost (₹5250) for 980 km trip at 18 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-980km-mileage-18kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 980km mileage 18kmpl",
+    "Fuel Cost Trip Calculator (980 km Distance, 18 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

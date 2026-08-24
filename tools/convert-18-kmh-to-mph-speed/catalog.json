@@ -1,0 +1,15 @@
+{
+  "name": "Convert 18 KM/H to MPH Speed",
+  "description": "Convert 18 kilometers per hour (km/h) to miles per hour (11.18 mph).",
+  "path": "/tools/convert-18-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 18 kmh to mph speed",
+    "Convert 18 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Radioactive Decay Chain (Bateman Equations Daughter Growth) Calculator",
+  "description": "Calculate radioactive parent-to-daughter isotopic activity and secular/transient equilibrium (N_2(t) = λ₁ / (λ₂ - λ₁) · N₁₀ · (e^(-λ₁·t) - e^(-λ₂·t))).",
+  "path": "/tools/radioactive-decay-chain-bateman-equations-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bateman equations calculator",
+    "radioactive decay daughter growth formula online",
+    "secular transient radioactive equilibrium calculator",
+    "parent daughter radionuclide activity calculator online",
+    "nuclear decay chain bateman calculator"
+  ],
+  "order": 687
+}

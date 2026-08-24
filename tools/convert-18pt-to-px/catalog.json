@@ -1,0 +1,15 @@
+{
+  "name": "Convert 18pt to PX",
+  "description": "Convert 18 points (pt) to pixels (24.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-18pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 18pt to px",
+    "Convert 18pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

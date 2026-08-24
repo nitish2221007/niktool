@@ -1,0 +1,15 @@
+{
+  "name": "Convert 159 KM to Miles",
+  "description": "Convert 159 kilometers to miles (98.80 miles). 100% free and local.",
+  "path": "/tools/convert-159-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 159 km to miles",
+    "Convert 159 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

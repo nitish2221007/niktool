@@ -1,0 +1,15 @@
+{
+  "name": "Projectile Motion Calculator",
+  "description": "Calculate maximum height, total flight time, horizontal range, and trajectory parameters for 2D projectile motion under gravity.",
+  "path": "/tools/projectile-motion-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "projectile motion calculator",
+    "physics trajectory calculator",
+    "max height of projectile",
+    "horizontal range calculator",
+    "time of flight projectile"
+  ],
+  "order": 59
+}

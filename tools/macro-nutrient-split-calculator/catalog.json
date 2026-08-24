@@ -1,0 +1,15 @@
+{
+  "name": "Macronutrient Grams & Calorie Split Calculator",
+  "description": "Calculate daily gram targets for Proteins, Carbohydrates, and Fats based on total calorie goal and dietary split ratios (Balanced, Low-Carb, High-Protein).",
+  "path": "/tools/macro-nutrient-split-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "macro calculator",
+    "macronutrient split calculator",
+    "protein carbs fat grams calculator",
+    "daily calories to macros",
+    "iifym macro calculator online"
+  ],
+  "order": 175
+}

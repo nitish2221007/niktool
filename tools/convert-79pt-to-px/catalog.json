@@ -1,0 +1,15 @@
+{
+  "name": "Convert 79pt to PX",
+  "description": "Convert 79 points (pt) to pixels (105.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-79pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 79pt to px",
+    "Convert 79pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

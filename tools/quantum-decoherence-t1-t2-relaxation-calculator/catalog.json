@@ -1,0 +1,15 @@
+{
+  "name": "Qubit Decoherence T₁ (Relaxation) & T₂ (Dephasing) Calculator",
+  "description": "Calculate superconducting and ion trap qubit state decay (P_1(t) = e^(-t/T₁)) and transverse phase coherence loss (1/T₂ = 1/(2·T₁) + 1/T_ϕ) over time.",
+  "path": "/tools/quantum-decoherence-t1-t2-relaxation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "qubit decoherence calculator",
+    "t1 relaxation t2 dephasing formula online",
+    "superconducting qubit coherence time calculator",
+    "t2 equals 2 t1 limit quantum computing",
+    "quantum gate fidelity decoherence error calculator"
+  ],
+  "order": 598
+}

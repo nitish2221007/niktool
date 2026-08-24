@@ -1,0 +1,15 @@
+{
+  "name": "Lagrange Interpolating Polynomial (P(x) = Σ y_i·L_i(x)) Curve Fitting Calculator",
+  "description": "Calculate unique nth-degree polynomial interpolation passing exactly through given (x, y) coordinates using Lagrange basis polynomials (L_i(x) = ∏ (x - x_j)/(x_i - x_j)) for numerical analysis.",
+  "path": "/tools/lagrange-interpolating-polynomial-curve-fitting-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "lagrange interpolation calculator",
+    "lagrange interpolating polynomial formula p of x online",
+    "curve fitting exact polynomial pass through points calculator",
+    "lagrange basis polynomial numerical calculator",
+    "numerical methods polynomial interpolation online"
+  ],
+  "order": 1096
+}

@@ -1,0 +1,16 @@
+{
+  "name": "OFDM Subcarrier Spacing & Cyclic Prefix Calculator",
+  "description": "Calculate OFDM useful symbol time Tu, cyclic prefix duration Tcp, total symbol time, and subcarrier spacing for 4G/5G/WiFi.",
+  "path": "/tools/ofdm-subcarrier-spacing-symbol-duration-cyclic-prefix-calculator/",
+  "category": "Utilities",
+  "icon": "code",
+  "keywords": [
+    "ofdm subcarrier spacing symbol duration cyclic prefix calculator",
+    "OFDM Subcarrier Spacing & Cyclic Prefix Calculator",
+    "calculator",
+    "online tool",
+    "free tool",
+    "engineering calculator"
+  ],
+  "order": 1500
+}

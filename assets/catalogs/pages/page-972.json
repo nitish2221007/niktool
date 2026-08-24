@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 40mm)",
+    "description": "Calculate fluid Reynolds Number (Re = 3,60,000 - Turbulent Flow) for 9 m/s in 40mm pipe.",
+    "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-9mps-diameter-40mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "reynolds number fluid flow calculator velocity 9mps diameter 40mm",
+      "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 40mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 50mm)",
+    "description": "Calculate fluid Reynolds Number (Re = 4,50,000 - Turbulent Flow) for 9 m/s in 50mm pipe.",
+    "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-9mps-diameter-50mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "reynolds number fluid flow calculator velocity 9mps diameter 50mm",
+      "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 50mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 60mm)",
+    "description": "Calculate fluid Reynolds Number (Re = 5,40,000 - Turbulent Flow) for 9 m/s in 60mm pipe.",
+    "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-9mps-diameter-60mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "reynolds number fluid flow calculator velocity 9mps diameter 60mm",
+      "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 60mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 70mm)",
+    "description": "Calculate fluid Reynolds Number (Re = 6,30,000 - Turbulent Flow) for 9 m/s in 70mm pipe.",
+    "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-9mps-diameter-70mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "reynolds number fluid flow calculator velocity 9mps diameter 70mm",
+      "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 70mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 80mm)",
+    "description": "Calculate fluid Reynolds Number (Re = 7,20,000 - Turbulent Flow) for 9 m/s in 80mm pipe.",
+    "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-9mps-diameter-80mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "reynolds number fluid flow calculator velocity 9mps diameter 80mm",
+      "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 80mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 90mm)",
+    "description": "Calculate fluid Reynolds Number (Re = 8,10,000 - Turbulent Flow) for 9 m/s in 90mm pipe.",
+    "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-9mps-diameter-90mm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "reynolds number fluid flow calculator velocity 9mps diameter 90mm",
+      "Reynolds Number Flow Calculator (Velocity 9m/s, Pipe 90mm)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Salary In-Hand Take Home Calculator",
+    "description": "Calculate take-home monthly salary after PF, ESI, and tax deductions.",
+    "path": "/tools/salary-in-hand-calculator-india/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "salary in hand calculator india",
+      "Salary In-Hand Take Home Calculator",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 1000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 9.55 N·m) for 1 kW power at 1000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-1000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 1000rpm",
+      "Shaft Torque Calculator (1 kW Power, 1000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 1500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 6.37 N·m) for 1 kW power at 1500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-1500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 1500rpm",
+      "Shaft Torque Calculator (1 kW Power, 1500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 2000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 4.77 N·m) for 1 kW power at 2000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-2000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 2000rpm",
+      "Shaft Torque Calculator (1 kW Power, 2000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 2500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 3.82 N·m) for 1 kW power at 2500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-2500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 2500rpm",
+      "Shaft Torque Calculator (1 kW Power, 2500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 3000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 3.18 N·m) for 1 kW power at 3000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-3000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 3000rpm",
+      "Shaft Torque Calculator (1 kW Power, 3000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 3500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 2.73 N·m) for 1 kW power at 3500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-3500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 3500rpm",
+      "Shaft Torque Calculator (1 kW Power, 3500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 4000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 2.39 N·m) for 1 kW power at 4000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-4000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 4000rpm",
+      "Shaft Torque Calculator (1 kW Power, 4000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 4500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 2.12 N·m) for 1 kW power at 4500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-4500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 4500rpm",
+      "Shaft Torque Calculator (1 kW Power, 4500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 19.10 N·m) for 1 kW power at 500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 500rpm",
+      "Shaft Torque Calculator (1 kW Power, 500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (1 kW Power, 5000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 1.91 N·m) for 1 kW power at 5000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-1kw-speed-5000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 1kw speed 5000rpm",
+      "Shaft Torque Calculator (1 kW Power, 5000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 1000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 95.49 N·m) for 10 kW power at 1000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-1000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 1000rpm",
+      "Shaft Torque Calculator (10 kW Power, 1000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 1500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 63.66 N·m) for 10 kW power at 1500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-1500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 1500rpm",
+      "Shaft Torque Calculator (10 kW Power, 1500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 2000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 47.75 N·m) for 10 kW power at 2000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-2000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 2000rpm",
+      "Shaft Torque Calculator (10 kW Power, 2000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 2500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 38.20 N·m) for 10 kW power at 2500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-2500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 2500rpm",
+      "Shaft Torque Calculator (10 kW Power, 2500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 3000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 31.83 N·m) for 10 kW power at 3000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-3000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 3000rpm",
+      "Shaft Torque Calculator (10 kW Power, 3000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 3500 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 27.28 N·m) for 10 kW power at 3500 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-3500rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 3500rpm",
+      "Shaft Torque Calculator (10 kW Power, 3500 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Shaft Torque Calculator (10 kW Power, 4000 RPM)",
+    "description": "Calculate mechanical shaft torque (T = 23.87 N·m) for 10 kW power at 4000 RPM.",
+    "path": "/tools/shaft-torque-calculator-power-10kw-speed-4000rpm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "shaft torque calculator power 10kw speed 4000rpm",
+      "Shaft Torque Calculator (10 kW Power, 4000 RPM)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

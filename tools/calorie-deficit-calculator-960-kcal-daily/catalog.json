@@ -1,0 +1,15 @@
+{
+  "name": "Calorie Deficit Calculator (960 kcal/day)",
+  "description": "Calculate estimated weekly weight loss (0.87 kg/week) for a 960 kcal daily deficit.",
+  "path": "/tools/calorie-deficit-calculator-960-kcal-daily/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "calorie deficit calculator 960 kcal daily",
+    "Calorie Deficit Calculator (960 kcal/day)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

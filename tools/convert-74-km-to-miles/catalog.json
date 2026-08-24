@@ -1,0 +1,15 @@
+{
+  "name": "Convert 74 KM to Miles",
+  "description": "Convert 74 kilometers to miles (45.98 miles). 100% free and local.",
+  "path": "/tools/convert-74-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 74 km to miles",
+    "Convert 74 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

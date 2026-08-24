@@ -1,0 +1,15 @@
+{
+  "name": "Convert 90 REM to PX Value",
+  "description": "Convert 90 REM units to pixels (1440 px) based on standard 16px root font.",
+  "path": "/tools/convert-90-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 90 rem to px value",
+    "Convert 90 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

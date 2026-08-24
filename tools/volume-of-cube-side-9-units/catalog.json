@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cube (Side 9 Units)",
+  "description": "Calculate the volume of a 3D cube with side length 9 units (V = a³ = 729).",
+  "path": "/tools/volume-of-cube-side-9-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cube side 9 units",
+    "Volume of Cube (Side 9 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

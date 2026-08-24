@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 235V, Current 3A)",
+  "description": "Calculate Resistance (78.33 Ω) and Electric Power (705.0 W) for 235V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-235v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 235v current 3a",
+    "Ohm's Law Calculator (Voltage 235V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

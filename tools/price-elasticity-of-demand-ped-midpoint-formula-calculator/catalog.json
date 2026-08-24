@@ -1,0 +1,15 @@
+{
+  "name": "Price Elasticity of Demand (PED Midpoint Arc Formula) & Total Revenue Calculator",
+  "description": "Calculate Price Elasticity of Demand (PED = [(Q₂ - Q₁) / ((Q₁+Q₂)/2)] / [(P₂ - P₁) / ((P₁+P₂)/2)]) using the midpoint method and evaluate Total Revenue test pricing strategies (Elastic |PED| exceeding 1.0 vs Inelastic |PED| less than 1.0).",
+  "path": "/tools/price-elasticity-of-demand-ped-midpoint-formula-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "price elasticity of demand calculator",
+    "ped midpoint formula arc elasticity calculator online",
+    "total revenue test elasticity price increase calculator",
+    "elastic inelastic unit elastic demand calculator",
+    "microeconomics price elasticity calculator online"
+  ],
+  "order": 984
+}

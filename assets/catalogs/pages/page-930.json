@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Resistor Circuit Calculator (R1=100Ω, R2=50Ω)",
+    "description": "Calculate Series Equivalent (150 Ω) and Parallel Equivalent (33.33 Ω) for resistors R1=100Ω and R2=50Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-100ohm-r2-50ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 100ohm r2 50ohm",
+      "Resistor Circuit Calculator (R1=100Ω, R2=50Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=100Ω, R2=60Ω)",
+    "description": "Calculate Series Equivalent (160 Ω) and Parallel Equivalent (37.50 Ω) for resistors R1=100Ω and R2=60Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-100ohm-r2-60ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 100ohm r2 60ohm",
+      "Resistor Circuit Calculator (R1=100Ω, R2=60Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=100Ω, R2=70Ω)",
+    "description": "Calculate Series Equivalent (170 Ω) and Parallel Equivalent (41.18 Ω) for resistors R1=100Ω and R2=70Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-100ohm-r2-70ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 100ohm r2 70ohm",
+      "Resistor Circuit Calculator (R1=100Ω, R2=70Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=100Ω, R2=80Ω)",
+    "description": "Calculate Series Equivalent (180 Ω) and Parallel Equivalent (44.44 Ω) for resistors R1=100Ω and R2=80Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-100ohm-r2-80ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 100ohm r2 80ohm",
+      "Resistor Circuit Calculator (R1=100Ω, R2=80Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=100Ω, R2=90Ω)",
+    "description": "Calculate Series Equivalent (190 Ω) and Parallel Equivalent (47.37 Ω) for resistors R1=100Ω and R2=90Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-100ohm-r2-90ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 100ohm r2 90ohm",
+      "Resistor Circuit Calculator (R1=100Ω, R2=90Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=100Ω)",
+    "description": "Calculate Series Equivalent (110 Ω) and Parallel Equivalent (9.09 Ω) for resistors R1=10Ω and R2=100Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-100ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 100ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=100Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=10Ω)",
+    "description": "Calculate Series Equivalent (20 Ω) and Parallel Equivalent (5.00 Ω) for resistors R1=10Ω and R2=10Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-10ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 10ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=10Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=110Ω)",
+    "description": "Calculate Series Equivalent (120 Ω) and Parallel Equivalent (9.17 Ω) for resistors R1=10Ω and R2=110Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-110ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 110ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=110Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=120Ω)",
+    "description": "Calculate Series Equivalent (130 Ω) and Parallel Equivalent (9.23 Ω) for resistors R1=10Ω and R2=120Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-120ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 120ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=120Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=130Ω)",
+    "description": "Calculate Series Equivalent (140 Ω) and Parallel Equivalent (9.29 Ω) for resistors R1=10Ω and R2=130Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-130ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 130ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=130Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=140Ω)",
+    "description": "Calculate Series Equivalent (150 Ω) and Parallel Equivalent (9.33 Ω) for resistors R1=10Ω and R2=140Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-140ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 140ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=140Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=150Ω)",
+    "description": "Calculate Series Equivalent (160 Ω) and Parallel Equivalent (9.38 Ω) for resistors R1=10Ω and R2=150Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-150ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 150ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=150Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=160Ω)",
+    "description": "Calculate Series Equivalent (170 Ω) and Parallel Equivalent (9.41 Ω) for resistors R1=10Ω and R2=160Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-160ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 160ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=160Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=170Ω)",
+    "description": "Calculate Series Equivalent (180 Ω) and Parallel Equivalent (9.44 Ω) for resistors R1=10Ω and R2=170Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-170ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 170ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=170Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=180Ω)",
+    "description": "Calculate Series Equivalent (190 Ω) and Parallel Equivalent (9.47 Ω) for resistors R1=10Ω and R2=180Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-180ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 180ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=180Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=190Ω)",
+    "description": "Calculate Series Equivalent (200 Ω) and Parallel Equivalent (9.50 Ω) for resistors R1=10Ω and R2=190Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-190ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 190ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=190Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=200Ω)",
+    "description": "Calculate Series Equivalent (210 Ω) and Parallel Equivalent (9.52 Ω) for resistors R1=10Ω and R2=200Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-200ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 200ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=200Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=20Ω)",
+    "description": "Calculate Series Equivalent (30 Ω) and Parallel Equivalent (6.67 Ω) for resistors R1=10Ω and R2=20Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-20ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 20ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=20Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=30Ω)",
+    "description": "Calculate Series Equivalent (40 Ω) and Parallel Equivalent (7.50 Ω) for resistors R1=10Ω and R2=30Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-30ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 30ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=30Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=40Ω)",
+    "description": "Calculate Series Equivalent (50 Ω) and Parallel Equivalent (8.00 Ω) for resistors R1=10Ω and R2=40Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-40ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 40ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=40Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=50Ω)",
+    "description": "Calculate Series Equivalent (60 Ω) and Parallel Equivalent (8.33 Ω) for resistors R1=10Ω and R2=50Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-50ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 50ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=50Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=60Ω)",
+    "description": "Calculate Series Equivalent (70 Ω) and Parallel Equivalent (8.57 Ω) for resistors R1=10Ω and R2=60Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-60ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 60ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=60Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=70Ω)",
+    "description": "Calculate Series Equivalent (80 Ω) and Parallel Equivalent (8.75 Ω) for resistors R1=10Ω and R2=70Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-70ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 70ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=70Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Resistor Circuit Calculator (R1=10Ω, R2=80Ω)",
+    "description": "Calculate Series Equivalent (90 Ω) and Parallel Equivalent (8.89 Ω) for resistors R1=10Ω and R2=80Ω.",
+    "path": "/tools/resistor-circuit-calculator-r1-10ohm-r2-80ohm/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "resistor circuit calculator r1 10ohm r2 80ohm",
+      "Resistor Circuit Calculator (R1=10Ω, R2=80Ω)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

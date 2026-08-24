@@ -1,0 +1,15 @@
+{
+  "name": "Simpson's 1/3 Rule Numerical Integration (∫ f(x)dx ≈ (h/3)·[f₀ + 4·Σf_odd + 2·Σf_even + f_n]) Calculator",
+  "description": "Calculate numerical definite integrals using Simpson's 1/3 parabolic quadrature rule (∫ f(x)dx ≈ (h/3)·[f(a) + 4·f_odd + 2·f_even + f(b)]) with error estimation (O(h⁴)) for numerical mathematics.",
+  "path": "/tools/simpsons-one-third-rule-numerical-integration-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "simpsons rule calculator",
+    "simpsons 1 3 rule numerical integration formula online",
+    "parabolic quadrature definite integral calculator",
+    "numerical calculus simpsons rule error calculator",
+    "applied mathematics numerical integration online"
+  ],
+  "order": 1089
+}

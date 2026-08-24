@@ -1,0 +1,15 @@
+{
+  "name": "Boost Step-Up DC-DC Converter Duty Cycle & Inductor Sizing Calculator",
+  "description": "Calculate switch-mode Boost step-up converter duty cycle (D = 1 - V_in / V_out), minimum boost inductance (L = V_in · D / (ΔI_L · f_s)) in μH, and switch voltage stress.",
+  "path": "/tools/boost-converter-duty-cycle-inductor-sizing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "boost converter calculator",
+    "step up converter inductor sizing formula online",
+    "boost duty cycle switch mode power supply calculator",
+    "boost converter output capacitor ripple calculator",
+    "power electronics boost dc dc online"
+  ],
+  "order": 707
+}

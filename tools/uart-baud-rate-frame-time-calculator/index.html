@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UART Baud Rate & Serial Frame Transmission Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate bit time duration, maximum bytes per second throughput, and transmission latency for standard UART 8N1 serial frames.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/uart-baud-rate-frame-time-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="UART Baud Rate & Serial Frame Transmission Calculator | NikTool">
+  <meta property="og:description" content="Calculate bit time duration, maximum bytes per second throughput, and transmission latency for standard UART 8N1 serial frames.">
+  <meta property="og:url" content="https://niktool.in/tools/uart-baud-rate-frame-time-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "UART Baud Rate & Serial Frame Transmission Calculator",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/uart-baud-rate-frame-time-calculator/",
+        "description": "Calculate bit time duration, maximum bytes per second throughput, and transmission latency for standard UART 8N1 serial frames.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the bit time at 115,200 baud?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "1 / 115,200 ≈ 8.68 microseconds per bit."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>UART Baud Rate & Serial Frame Transmission Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>UART Baud Rate & Serial Frame Transmission Calculator</h1>
+      <p>Calculate bit time duration, maximum bytes per second throughput, and transmission latency for standard UART 8N1 serial frames.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Baud Rate & Frame Parameters</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="uart-baud">Baud Rate (bps)</label>
+          <select class="tool-textarea" id="uart-baud">
+            <option value="9600">9,600 bps</option>
+            <option value="19200">19,200 bps</option>
+            <option value="38400">38,400 bps</option>
+            <option value="57600">57,600 bps</option>
+            <option value="115200" selected>115,200 bps</option>
+            <option value="921600">921,600 bps</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="uart-bytes">Payload Length (Bytes)</label>
+          <input class="tool-textarea" id="uart-bytes" type="number" min="1" value="256" placeholder="256 Bytes" />
+        </div>
+      </div>
+      <div id="uart-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="uart-res-bittime" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">8.68 μs</span>
+            <span class="stat-label">Single Bit Duration</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="uart-res-speed" style="font-weight:700;">11,520 B/s (11.52 kB/s)</span>
+            <span class="stat-label">Max 8N1 Throughput</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="uart-res-lat">22.22 ms</span>
+            <span class="stat-label">Total Transmission Time</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use UART Baud Rate & Serial Frame Transmission Calculator</h2>
+      <ol>
+        <li>Select UART serial baud rate (e.g. 9600, 115200, 921600 bps).</li>
+        <li>Enter data payload packet size in bytes.</li>
+        <li>Inspect single bit duration time, maximum 8N1 byte throughput, and transmission latency.</li>
+      </ol>
+
+      <h2>Asynchronous 8N1 Frame Overhead</h2>
+      <p>Because UART is asynchronous, each 8-bit byte requires 1 start bit and 1 stop bit (10 bits total), creating a 20% protocol framing overhead.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the bit time at 115,200 baud?</summary>
+        <p>1 / 115,200 ≈ 8.68 microseconds per bit.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/uart-baud-rate-frame-time-calculator/tool.js"></script>
+</body>
+</html>

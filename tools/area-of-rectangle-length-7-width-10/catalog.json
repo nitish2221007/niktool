@@ -1,0 +1,15 @@
+{
+  "name": "Area of Rectangle (Length 7 x Width 10)",
+  "description": "Calculate area of rectangle with length 7 and width 10 (70 sq units).",
+  "path": "/tools/area-of-rectangle-length-7-width-10/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "area of rectangle length 7 width 10",
+    "Area of Rectangle (Length 7 x Width 10)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

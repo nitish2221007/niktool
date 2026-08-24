@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Michelson Interferometer Fringe Shift (Δm) & Refractive Index (n) Calculator",
+    "description": "Calculate Michelson interferometer fringe count shifts (Δm = 2·ΔL / λ) and gas index of refraction variations (n - 1 = Δm·λ / (2·L_cell)) from mirror displacement ΔL in nm/μm.",
+    "path": "/tools/michelson-interferometer-fringe-shift-refractive-index-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "michelson interferometer calculator",
+      "fringe shift formula delta m equals 2 delta l over lambda online",
+      "gas refractive index michelson interferometer calculator",
+      "optical wavelength interference fringe counter online",
+      "precision laser interferometry displacement online"
+    ]
+  },
+  {
+    "name": "Maximal Lyapunov Exponent (λ) & Chaotic Horizon Calculator",
+    "description": "Calculate nonlinear dynamical system trajectory separation (δZ(t) = δZ₀ · exp[λ · t]) and predict Lyapunov Predictability Horizon time (t_horizon = (1 / λ) · ln(ε / δZ₀)) for chaotic systems.",
+    "path": "/tools/lyapunov-exponent-chaos-divergence-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lyapunov exponent calculator",
+      "chaotic divergence formula lambda equals 1 over t ln delta z over delta z0",
+      "predictability horizon lyapunov time calculator online",
+      "butterfly effect chaotic trajectory divergence calculator",
+      "lorenz system lyapunov exponent online"
+    ]
+  },
+  {
+    "name": "Lorenz Strange Attractor Kaplan-Yorke Fractal Dimension (D_KY) Calculator",
+    "description": "Calculate strange attractor fractal Lyapunov dimension (Kaplan-Yorke conjecture: D_KY = k + (λ₁ + ... + λ_k) / |λ_(k+1)|) from sorted Lyapunov exponent spectrums (λ₁ ≥ λ₂ ≥ λ₃).",
+    "path": "/tools/lorenz-attractor-dimension-kaplan-yorke-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kaplan yorke dimension calculator",
+      "lorenz attractor fractal dimension formula d_ky online",
+      "lyapunov dimension strange attractor calculator",
+      "chaos theory phase space contraction calculator online",
+      "fractal dimension lorenz butterfly attractor online"
+    ]
+  },
+  {
+    "name": "Fractal Box-Counting Hausdorff Dimension (D₀) Calculator",
+    "description": "Calculate fractal geometry capacity Hausdorff Box-Counting Dimension (D₀ = lim (ln N(ε) / ln(1/ε))) across Coastlines, Sierpiński Triangles (D = 1.585), Koch Snowflakes (D = 1.262), and Mandelbrot boundaries (D = 2.000).",
+    "path": "/tools/mandelbrot-fractal-box-counting-hausdorff-dimension-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "box counting dimension calculator",
+      "hausdorff fractal dimension formula d0 equals ln n over ln 1 over epsilon online",
+      "sierpinski triangle koch snowflake fractal dimension calculator",
+      "coastline paradox fractal dimension calculator online",
+      "benoit mandelbrot fractal geometry online"
+    ]
+  },
+  {
+    "name": "Logistic Map Period-Doubling Bifurcation & Feigenbaum Constant (δ = 4.6692) Calculator",
+    "description": "Calculate nonlinear Logistic Map population dynamics (x_(n+1) = r · x_n · (1 - x_n)) and period-doubling bifurcation cascade threshold limits (r_∞ = 3.5699456) using the universal Feigenbaum constant δ = 4.6692016.",
+    "path": "/tools/logistic-map-bifurcation-feigenbaum-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "feigenbaum constant calculator",
+      "logistic map period doubling bifurcation formula r n plus 1 online",
+      "chaos route period doubling cascade calculator",
+      "feigenbaum delta 4.6692016 universality calculator",
+      "population ecology chaotic logistic map online"
+    ]
+  },
+  {
+    "name": "Percolation Threshold (p_c) & Spanning Cluster Probability Calculator",
+    "description": "Calculate statistical percolation phase transition critical threshold (p_c = 1 / (z - 1)) on Bethe lattices and evaluate infinite spanning cluster probability P_inf(p) in porous rocks and epidemiology.",
+    "path": "/tools/percolation-threshold-bethe-lattice-cluster-size-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "percolation threshold calculator",
+      "bethe lattice percolation formula p_c equals 1 over z minus 1 online",
+      "infinite spanning cluster probability calculator",
+      "porous rock oil permeability percolation calculator",
+      "epidemic disease outbreak percolation threshold online"
+    ]
+  },
+  {
+    "name": "MOSFET Subthreshold Swing (SS) & Off-State Leakage Current Calculator",
+    "description": "Calculate MOSFET subthreshold swing slope (SS = ln(10)·(k_B·T / q) · [1 + C_dep / C_ox]) in mV/decade and evaluate off-state drain leakage current (I_off) at room and elevated temperatures.",
+    "path": "/tools/mosfet-subthreshold-swing-leakage-current-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "subthreshold swing calculator",
+      "mosfet subthreshold slope formula ss equals ln 10 kt over q online",
+      "thermal limit 60 mv per decade mosfet calculator",
+      "off state leakage current ioff subthreshold calculator",
+      "cmos transistor subthreshold leakage online"
+    ]
+  },
+  {
+    "name": "BJT Early Effect Base-Width Modulation & Dynamic Output Resistance (r_o) Calculator",
+    "description": "Calculate BJT transistor Early effect base-width modulation dynamic small-signal output resistance (r_o = (V_A + V_CE) / I_C) in kΩ and collector current tilt slope.",
+    "path": "/tools/early-effect-bjt-output-resistance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "early effect calculator",
+      "bjt output resistance formula ro equals va plus vce over ic online",
+      "early voltage va base width modulation calculator",
+      "small signal bjt collector resistance ro calculator",
+      "analog circuit design early effect online"
+    ]
+  },
+  {
+    "name": "High-κ Dielectric Equivalent Oxide Thickness (EOT) Gate Scaling Calculator",
+    "description": "Calculate advanced semiconductor transistor Equivalent Oxide Thickness (EOT = t_high-k · (κ_SiO₂ / κ_high-k)) in nm and evaluate gate tunneling leakage reduction across HfO₂, ZrO₂, Al₂O₃, and TiO₂.",
+    "path": "/tools/high-k-dielectric-equivalent-oxide-thickness-eot-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "eot calculator",
+      "equivalent oxide thickness formula eot equals t high k kappa sio2 over kappa high k",
+      "hafnium oxide gate dielectric eot calculator online",
+      "cmos gate leakage physical vs electrical thickness calculator",
+      "semiconductor high k dielectric scaling online"
+    ]
+  },
+  {
+    "name": "Shubnikov-de Haas (SdH) Oscillations & Integer Quantum Hall Effect (R_H = h / ν·e²) Calculator",
+    "description": "Calculate 2D electron gas (2DEG) Shubnikov-de Haas magneto-resistance oscillation frequency (Δ(1/B) = 2·e / (ℏ·n_2D)) and exact von Klitzing Integer Quantum Hall plateaus (R_H = h / (ν · e²)) in Ohms.",
+    "path": "/tools/shubnikov-de-haas-quantum-hall-effect-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "shubnikov de haas calculator",
+      "quantum hall effect formula r_h equals h over nu e squared online",
+      "von klitzing constant rk 25812 ohm calculator",
+      "2deg carrier density sdh oscillations calculator",
+      "mesoscopic physics quantum hall plateaus online"
+    ]
+  },
+  {
+    "name": "FinFET & GAA Nanosheet Transistor Effective Channel Width (W_eff) Calculator",
+    "description": "Calculate 3D multi-gate FinFET (W_eff = N_fin · [2·H_fin + T_fin]) and Gate-All-Around Nanosheet (W_eff = 2·N_sheet · [W_ns + T_ns]) effective channel electrical drive widths in nm.",
+    "path": "/tools/finfet-tri-gate-effective-channel-width-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "finfet effective channel width calculator",
+      "gaa nanosheet weff formula 2 hfin plus tfin online",
+      "tri gate transistor drive current weff calculator",
+      "sub 3nm node nanosheet gaa channel width calculator",
+      "semiconductor finfet layout sizing online"
+    ]
+  },
+  {
+    "name": "Paschen's Law Gas Electrical Spark Breakdown Voltage (V_B) Calculator",
+    "description": "Calculate high-voltage electrical spark breakdown voltage (V_B = (B · p · d) / [ln(A · p · d) - ln(ln(1 + 1/γ_se))]) in Volts from pressure-distance product p·d in Air, SF₆, Nitrogen, and Argon.",
+    "path": "/tools/paschen-law-electrical-spark-breakdown-voltage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "paschen law calculator",
+      "electrical breakdown voltage formula vb equals b p d over ln apd online",
+      "minimum paschen breakdown voltage 327v air calculator",
+      "high voltage gap spark discharge paschen calculator",
+      "sf6 dielectric gas breakdown voltage online"
+    ]
+  },
+  {
+    "name": "Dielectric Loss Tangent (tan δ) & RF Thermal Power Dissipation Calculator",
+    "description": "Calculate dielectric loss tangent dissipation factor (tan δ = ε'' / ε' = 1 / (ω·R_p·C_p)) and internal volumetric RF dielectric heating power loss (P_loss = ω·C·V²·tan δ) in Watts.",
+    "path": "/tools/dielectric-loss-tangent-tan-delta-dissipation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dielectric loss tangent calculator",
+      "tan delta formula eps double prime over eps prime online",
+      "dissipation factor capacitor power loss calculator",
+      "dielectric heating high frequency dissipation factor calculator",
+      "rf pcb substrate tan delta online"
+    ]
+  },
+  {
+    "name": "High-Voltage Transmission Line Surge Impedance Loading (SIL) Calculator",
+    "description": "Calculate high-voltage electrical grid surge impedance (Z_c = √(L / C)) in Ohms and natural Surge Impedance Loading capacity (SIL = V_LL² / Z_c) in Megawatts (MW) where line reactive power is 100% self-balancing.",
+    "path": "/tools/transmission-line-surge-impedance-loading-sil-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "surge impedance loading calculator",
+      "sil transmission line formula v squared over zc online",
+      "characteristic impedance transmission line inductance capacitance calculator",
+      "high voltage grid reactive power balance sil calculator",
+      "ferranti effect surge impedance loading online"
+    ]
+  },
+  {
+    "name": "Peek's Law High-Voltage Conductor Corona Discharge Inception Calculator",
+    "description": "Calculate high-voltage transmission overhead conductor corona discharge visual inception electric field (E_v = m_v · g₀ · δ · [1 + 0.301 / √(δ · r)]) in kV/cm and critical disruptive voltage (V_d) in kV.",
+    "path": "/tools/corona-discharge-peek-law-critical-voltage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "corona discharge calculator",
+      "peeks law visual corona inception electric field formula online",
+      "high voltage overhead conductor corona loss calculator",
+      "critical disruptive voltage vd transmission line calculator",
+      "power line audible noise corona loss online"
+    ]
+  },
+  {
+    "name": "Standard Lightning Impulse 1.2 / 50 μs Marx Generator Waveform Calculator",
+    "description": "Calculate IEC 60060-1 standardized lightning high-voltage surge impulse wave (V(t) = V₀ · (exp[-t / τ₂] - exp[-t / τ₁])) and tune front time T₁ = 1.2 μs and tail time T₂ = 50 μs Marx generator resistors.",
+    "path": "/tools/lightning-impulse-1.2-50-wave-generator-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lightning impulse calculator",
+      "marx generator 1.2 50 wave formula v of t online",
+      "iec 60060 lightning surge impulse voltage calculator",
+      "front time tail time lightning impulse calculator online",
+      "high voltage impulse test circuit sizing online"
+    ]
+  },
+  {
+    "name": "Monod Microbial Growth Kinetics (μ = μ_max·S / (K_s + S)) & Chemostat Calculator",
+    "description": "Calculate bioreactor microbial specific growth rate (μ = μ_max · S / (K_s + S)) in h⁻¹, biomass doubling time (t_d = ln 2 / μ), and steady-state continuous chemostat dilution washout limits.",
+    "path": "/tools/monod-microbial-growth-kinetics-chemostat-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "monod equation calculator",
+      "microbial growth kinetics formula mu equals mu max s over ks plus s online",
+      "chemostat dilution rate steady state biomass calculator",
+      "bioreactor doubling time monod kinetics calculator online",
+      "fermentation substrate consumption rate online"
+    ]
+  },
+  {
+    "name": "Lineweaver-Burk Double-Reciprocal Enzyme Kinetics (K_m & V_max) Calculator",
+    "description": "Calculate enzyme kinetic parameters (K_m and V_max) and classify Competitive, Non-Competitive, and Uncompetitive enzyme inhibition from double-reciprocal plots (1/V = (K_m / V_max) · (1/[S]) + 1/V_max).",
+    "path": "/tools/lineweaver-burk-enzyme-inhibition-km-vmax-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lineweaver burk calculator",
+      "double reciprocal enzyme kinetics formula 1 over v equals km over vmax 1 over s online",
+      "enzyme inhibition competitive noncompetitive calculator",
+      "michaelis menten km vmax lineweaver burk calculator online",
+      "biochemistry enzyme kinetics linear plot online"
+    ]
+  },
+  {
+    "name": "Bioreactor Volumetric Oxygen Mass Transfer (k_L·a) & Oxygen Transfer Rate (OTR) Calculator",
+    "description": "Calculate aerobic fermentation bioreactor Oxygen Transfer Rate (OTR = k_L·a · (C* - C_L)) in mmol/(L·h) and estimate volumetric mass transfer coefficient k_L·a (h⁻¹) from gas sparging superficial velocity and impeller power input.",
+    "path": "/tools/bioreactor-kla-volumetric-oxygen-transfer-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kla calculator",
+      "volumetric oxygen mass transfer coefficient formula kla online",
+      "oxygen transfer rate otr bioreactor calculator",
+      "aerobic fermentation dissolved oxygen kla calculator",
+      "biochemical engineering kla gassing out online"
+    ]
+  },
+  {
+    "name": "Batch Liquid Media Thermal Sterilization Del Factor (∇ = ln(N₀ / N_t)) Calculator",
+    "description": "Calculate industrial fermentation liquid growth media thermal batch sterilization Del sterilization ratio (∇ = ln(N₀ / N_t)) and required holding kill time t_hold in minutes at 121°C from Arrhenius thermal spore death kinetics.",
+    "path": "/tools/batch-sterilization-del-factor-arrhenius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "del factor calculator",
+      "batch sterilization formula nabla equals ln n0 over nt online",
+      "thermal spore death kinetics arrhenius del factor calculator",
+      "autoclave 121c sterilization hold time calculator",
+      "geobacillus stearothermophilus spore kill time online"
+    ]
+  },
+  {
+    "name": "Tangential Flow Ultrafiltration (TFF Membrane Flux J & TMP) Calculator",
+    "description": "Calculate downstream biopharmaceutical protein concentration Tangential Flow Filtration Transmembrane Pressure (TMP = (P_feed + P_retentate)/2 - P_permeate) in bar/psi and filtrate permeate flux (J = TMP / (μ · [R_m + R_c])) in LMH (L/m²·h).",
+    "path": "/tools/tangential-flow-ultrafiltration-flux-tff-membrane-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "tff filtration calculator",
+      "transmembrane pressure formula tmp equals pfeed plus pretentate over 2 minus ppermeate",
+      "tangential flow ultrafiltration flux lmh calculator",
+      "biopharmaceutical protein concentration tff calculator online",
+      "membrane fouling resistance tff flux online"
+    ]
+  },
+  {
+    "name": "Schwarzschild Black Hole Event Horizon (r_s = 2GM/c²) & Hawking Temperature Calculator",
+    "description": "Calculate general relativistic non-rotating Schwarzschild black hole Event Horizon radius (r_s = 2·G·M / c²) in km, Hawking quantum evaporation temperature (T_H = ℏ·c³ / (8π·G·M·k_B)) in Kelvin, and tidal spaghettification gradient.",
+    "path": "/tools/schwarzschild-radius-black-hole-event-horizon-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "schwarzschild radius calculator",
+      "black hole event horizon formula rs equals 2gm over c squared online",
+      "hawking temperature black hole evaporation calculator",
+      "astrophysics solar mass event horizon radius calculator",
+      "general relativity schwarzschild metric online"
+    ]
+  },
+  {
+    "name": "General Relativistic Gravitational Time Dilation & Redshift (z) Calculator",
+    "description": "Calculate Einstein gravitational time dilation (t_r = t_∞ · √(1 - 2GM / (r·c²))) and spectral gravitational redshift (z = 1/√(1 - r_s/r) - 1) for clocks in GPS orbits, neutron stars, and black holes.",
+    "path": "/tools/gravitational-time-dilation-redshift-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravitational time dilation calculator",
+      "einstein gravitational redshift formula z equals 1 over sqrt 1 minus rs over r online",
+      "general relativity clock tick rate gravity well calculator",
+      "gps satellite general relativity time offset calculator",
+      "neutron star gravitational redshift calculator online"
+    ]
+  },
+  {
+    "name": "Binary Chirp Mass (ℳ) & Gravitational Wave Orbital Decay (GW) Calculator",
+    "description": "Calculate compact binary black hole/neutron star merger Chirp Mass (ℳ = (m₁·m₂)^(3/5) / (m₁ + m₂)^(1/5)) in solar masses and Einstein quadrupole gravitational wave orbital decay rate (df/dt = (96/5)·π^(8/3)·(Gℳ/c³)^(5/3)·f^(11/3)).",
+    "path": "/tools/gravitational-wave-strain-orbital-decay-chirp-mass-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gravitational wave chirp mass calculator",
+      "chirp mass formula script m equals m1 m2 to 3 5 over m1 plus m2 to 1 5",
+      "ligo gravitational wave frequency evolution df dt calculator",
+      "binary black hole merger orbital decay time calculator",
+      "einstein quadrupole formula gravitational radiation online"
+    ]
+  }
+]

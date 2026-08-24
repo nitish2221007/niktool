@@ -1,0 +1,15 @@
+{
+  "name": "Convert 96°F Fahrenheit to Celsius Temp",
+  "description": "Convert 96 degrees Fahrenheit (°F) to Celsius (35.6°C) instantly.",
+  "path": "/tools/convert-96-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 96 fahrenheit to celsius temp",
+    "Convert 96°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

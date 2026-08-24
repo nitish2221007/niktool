@@ -1,0 +1,15 @@
+{
+  "name": "Molality (m) Concentration Calculator",
+  "description": "Calculate solution molality (m = Moles of Solute / kg of Solvent) from chemical formula weight and solvent mass.",
+  "path": "/tools/molality-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "molality calculator",
+    "calculate molality online",
+    "moles per kg solvent calculator",
+    "molality formula chemistry",
+    "molarity vs molality calculator"
+  ],
+  "order": 160
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 80 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 80 units (V = 4/3 πr³ = 2144660.58).",
+  "path": "/tools/volume-of-sphere-radius-80-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 80 units",
+    "Volume of Sphere (Radius 80 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

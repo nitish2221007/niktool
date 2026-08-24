@@ -1,0 +1,15 @@
+{
+  "name": "Prime Factorization & Factor Tree Calculator",
+  "description": "Decompose any integer into its unique prime factors with exponential notation (e.g. 360 = 2³ × 3² × 5) and total divisor count.",
+  "path": "/tools/prime-factor-tree-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "prime factorization calculator",
+    "prime factor tree online",
+    "factors of a number calculator",
+    "prime decomposition calculator",
+    "how to find prime factors"
+  ],
+  "order": 158
+}

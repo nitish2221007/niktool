@@ -1,0 +1,15 @@
+{
+  "name": "Pharmacokinetics Elimination Half-Life (t_½ = 0.693·V_d / CL) & Steady State Calculator",
+  "description": "Calculate clinical pharmacokinetic drug elimination half-life (t_½ = 0.693 · V_d / CL) in hours, elimination rate constant k_el, time to reach 97% steady state (5 · t_½), and steady-state drug concentration (C_ss = R₀ / CL).",
+  "path": "/tools/pharmacokinetics-half-life-clearance-volume-of-distribution-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "pharmacokinetics calculator",
+    "elimination half life formula t half equals 0.693 vd over cl online",
+    "steady state concentration css rate over clearance calculator",
+    "volume of distribution clearance elimination rate calculator",
+    "clinical pharmacology pharmacokinetics online"
+  ],
+  "order": 1156
+}

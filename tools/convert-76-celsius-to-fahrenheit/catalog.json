@@ -1,0 +1,15 @@
+{
+  "name": "Convert 76°C Celsius to Fahrenheit",
+  "description": "Convert 76 degrees Celsius (°C) to Fahrenheit (168.8°F).",
+  "path": "/tools/convert-76-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 76 celsius to fahrenheit",
+    "Convert 76°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

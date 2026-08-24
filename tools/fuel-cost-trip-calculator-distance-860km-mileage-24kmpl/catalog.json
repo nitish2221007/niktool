@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (860 km Distance, 24 km/l Mileage)",
+  "description": "Calculate fuel needed (35.8 L) and cost (₹3455) for 860 km trip at 24 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-860km-mileage-24kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 860km mileage 24kmpl",
+    "Fuel Cost Trip Calculator (860 km Distance, 24 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

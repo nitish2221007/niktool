@@ -1,0 +1,15 @@
+{
+  "name": "Nursing Dosage IV Flow Drop Rate (gtt/min) & Infusion Time Calculator",
+  "description": "Calculate clinical intravenous (IV) medication flow drop rate in drops per minute (gtt/min = (Volume in mL · Drop Factor in gtt/mL) / Time in minutes) and infusion pump rate (mL/h) for nursing NCLEX exams.",
+  "path": "/tools/medical-nursing-dosage-iv-flow-drop-rate-gtt-min-calculator/",
+  "category": "Health",
+  "icon": "calculator",
+  "keywords": [
+    "iv drop rate calculator",
+    "gtt per min formula volume times drop factor over time online",
+    "nclex nursing dosage calculation iv flow rate calculator",
+    "intravenous drip rate macrodrip microdrip calculator",
+    "nursing student iv math calculator online"
+  ],
+  "order": 907
+}

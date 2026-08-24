@@ -1,0 +1,15 @@
+{
+  "name": "Convert 97 KM/H to MPH Speed",
+  "description": "Convert 97 kilometers per hour (km/h) to miles per hour (60.27 mph).",
+  "path": "/tools/convert-97-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 97 kmh to mph speed",
+    "Convert 97 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

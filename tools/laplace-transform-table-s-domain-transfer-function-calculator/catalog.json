@@ -1,0 +1,15 @@
+{
+  "name": "Laplace Transform Table & S-Domain Transfer Function L{f(t)} Calculator",
+  "description": "Compute unilateral Laplace transforms L{f(t)} = F(s) for standard engineering time-domain signals (Unit Step u(t), Ramp t, Exponential e^(-at), Sine sin(ωt), Damped Oscillator e^(-at)·cos(ωt)) and evaluate region of convergence (ROC).",
+  "path": "/tools/laplace-transform-table-s-domain-transfer-function-calculator/",
+  "category": "Math",
+  "icon": "calculator",
+  "keywords": [
+    "laplace transform calculator",
+    "s domain transfer function calculator laplace table online",
+    "inverse laplace transform partial fractions calculator",
+    "damped sine exponential laplace transform solver",
+    "control systems laplace transform online"
+  ],
+  "order": 957
+}

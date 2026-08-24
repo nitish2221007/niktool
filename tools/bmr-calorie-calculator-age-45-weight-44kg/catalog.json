@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 45, Weight 44kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1283 kcal/day) for 45-year-old weighing 44 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-45-weight-44kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 45 weight 44kg",
+    "BMR Calorie Calculator (Age 45, Weight 44kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 21 KM to Miles",
+  "description": "Convert 21 kilometers to miles (13.05 miles). 100% free and local.",
+  "path": "/tools/convert-21-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 21 km to miles",
+    "Convert 21 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

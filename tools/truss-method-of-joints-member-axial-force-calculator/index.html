@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate planar pin-connected structural truss joint equilibrium member forces (Tension vs Compression in kN) using static Method of Joints (ΣF_x = 0, ΣF_y = 0) for civil and mechanical engineering.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/truss-method-of-joints-member-axial-force-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator | NikTool">
+  <meta property="og:description" content="Calculate planar pin-connected structural truss joint equilibrium member forces (Tension vs Compression in kN) using static Method of Joints (ΣF_x = 0, ΣF_y = 0) for civil and mechanical engineering.">
+  <meta property="og:url" content="https://niktool.in/tools/truss-method-of-joints-member-axial-force-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/truss-method-of-joints-member-axial-force-calculator/",
+        "description": "Calculate planar pin-connected structural truss joint equilibrium member forces (Tension vs Compression in kN) using static Method of Joints (ΣF_x = 0, ΣF_y = 0) for civil and mechanical engineering.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is a Zero-Force Member in a truss?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A zero-force member carries zero axial force under a specific loading condition but provides essential lateral buckling stability."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator</h1>
+      <p>Calculate planar pin-connected structural truss joint equilibrium member forces (Tension vs Compression in kN) using static Method of Joints (ΣF_x = 0, ΣF_y = 0) for civil and mechanical engineering.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Joint Downward Point Load P (kN), Chord Angle θ (° from Horizontal) & Support Reaction R_y (kN)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="tr-p">Vertical Load P (kN)</label>
+          <input class="tool-textarea" id="tr-p" type="number" step="10" value="50.0" placeholder="50.0 kN" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tr-th">Diagonal Angle θ (°)</label>
+          <input class="tool-textarea" id="tr-th" type="number" step="5" min="15" max="75" value="45.0" placeholder="45.0°" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="tr-ry">Support Reaction R_y</label>
+          <input class="tool-textarea" id="tr-ry" type="number" step="10" value="25.0" placeholder="25.0 kN (Half Span)" />
+        </div>
+      </div>
+      <div id="tr-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="tr-res-diag" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">F_diag = 35.36 kN (COMPRESSION)</span>
+            <span class="stat-label">Diagonal Truss Strut Member Force</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tr-res-chord" style="color:var(--green-dark); font-weight:700;">Bottom Chord F_bot = +25.00 kN (TENSION) | Joint ΣF_x = 0, ΣF_y = 0 in Static Equilibrium</span>
+            <span class="stat-label">Bottom Chord Tie Member Force & Equilibrium Check</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use 2D Pin-Jointed Truss Member Axial Force (Method of Joints ΣF_x = 0, ΣF_y = 0) Calculator</h2>
+      <ol>
+        <li>Enter applied downward joint nodal load P in kN.</li>
+        <li>Enter truss web diagonal member angle $	heta$ in degrees from the horizontal.</li>
+        <li>Enter upward support vertical reaction force $R_y$ in kN.</li>
+        <li>Inspect diagonal strut compressive force and bottom chord horizontal tension force.</li>
+      </ol>
+
+      <h2>Method of Joints Static Equilibrium Principle</h2>
+      <p>Because pin joints cannot transmit bending moments, every truss node is in concurrent coplanar static equilibrium ($sum F_x = 0, sum F_y = 0$), allowing straightforward determination of axial tension ties and compression struts in bridge trusses.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is a Zero-Force Member in a truss?</summary>
+        <p>A zero-force member carries zero axial force under a specific loading condition but provides essential lateral buckling stability.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/truss-method-of-joints-member-axial-force-calculator/tool.js"></script>
+</body>
+</html>

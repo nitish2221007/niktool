@@ -1,0 +1,16 @@
+{
+  "name": "Rotate Last Page Of PDF",
+  "description": "Rotate only the last page of a PDF document 90 degrees clockwise.",
+  "path": "/tools/rotate-last-page-of-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "rotate last page of pdf",
+    "Rotate Last Page Of PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

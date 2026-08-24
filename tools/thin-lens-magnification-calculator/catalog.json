@@ -1,0 +1,15 @@
+{
+  "name": "Thin Lens Equation & Magnification Calculator",
+  "description": "Calculate image distance (1/f = 1/dₒ + 1/dᵢ), linear optical magnification (m = -dᵢ/dₒ), and real vs virtual image orientation for lenses.",
+  "path": "/tools/thin-lens-magnification-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thin lens equation calculator",
+    "lens magnification calculator",
+    "focal length image distance formula",
+    "optics lens maker calculator",
+    "convex concave lens online calculator"
+  ],
+  "order": 193
+}

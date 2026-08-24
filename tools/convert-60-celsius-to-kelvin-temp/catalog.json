@@ -1,0 +1,15 @@
+{
+  "name": "Convert 60°C Celsius to Kelvin Temp",
+  "description": "Convert 60 degrees Celsius (°C) to Kelvin (333.15 K) instantly.",
+  "path": "/tools/convert-60-celsius-to-kelvin-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 60 celsius to kelvin temp",
+    "Convert 60°C Celsius to Kelvin Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

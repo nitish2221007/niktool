@@ -1,0 +1,15 @@
+{
+  "name": "Convert 68 KM/H to MPH Speed",
+  "description": "Convert 68 kilometers per hour (km/h) to miles per hour (42.25 mph).",
+  "path": "/tools/convert-68-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 68 kmh to mph speed",
+    "Convert 68 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

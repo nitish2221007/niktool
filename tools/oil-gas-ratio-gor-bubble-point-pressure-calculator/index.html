@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate petroleum reservoir crude oil bubble point pressure P_b (Standing 1947 correlation: P_b = 18.2 · [(R_sb / γ_g)^0.83 · 10^(0.00091·T - 0.0125·API) - 1.4]) in psi.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/oil-gas-ratio-gor-bubble-point-pressure-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator | NikTool">
+  <meta property="og:description" content="Calculate petroleum reservoir crude oil bubble point pressure P_b (Standing 1947 correlation: P_b = 18.2 · [(R_sb / γ_g)^0.83 · 10^(0.00091·T - 0.0125·API) - 1.4]) in psi.">
+  <meta property="og:url" content="https://niktool.in/tools/oil-gas-ratio-gor-bubble-point-pressure-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/oil-gas-ratio-gor-bubble-point-pressure-calculator/",
+        "description": "Calculate petroleum reservoir crude oil bubble point pressure P_b (Standing 1947 correlation: P_b = 18.2 · [(R_sb / γ_g)^0.83 · 10^(0.00091·T - 0.0125·API) - 1.4]) in psi.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is producing above bubble point pressure preferred?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Above $P_b$, single-phase oil flows with minimum capillary resistance and maximum relative permeability."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator</h1>
+      <p>Calculate petroleum reservoir crude oil bubble point pressure P_b (Standing 1947 correlation: P_b = 18.2 · [(R_sb / γ_g)^0.83 · 10^(0.00091·T - 0.0125·API) - 1.4]) in psi.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Solution GOR R_sb (scf/STB), Gas Specific Gravity γ_g, Oil Gravity (°API) & Temp T (°F)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="pb-rs">GOR R_sb (scf/STB)</label>
+          <input class="tool-textarea" id="pb-rs" type="number" step="any" value="500.0" placeholder="500.0 scf/STB" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pb-gg">Gas Gravity γ_g</label>
+          <input class="tool-textarea" id="pb-gg" type="number" step="0.01" value="0.75" placeholder="0.75 (Air=1.0)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pb-api">Oil Gravity (°API)</label>
+          <input class="tool-textarea" id="pb-api" type="number" step="any" value="35.0" placeholder="35.0 °API (Light Sweet)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="pb-temp">Reservoir Temp (°F)</label>
+          <input class="tool-textarea" id="pb-temp" type="number" step="any" value="180.0" placeholder="180.0 °F" />
+        </div>
+      </div>
+      <div id="pb-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="pb-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">P_b = 2,425 psi</span>
+            <span class="stat-label">Calculated Bubble Point Pressure (P_b)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="pb-res-state" style="font-weight:700;">Undersaturated State (P_res > P_b: Single-Phase Liquid Flow)</span>
+            <span class="stat-label">Thermodynamic Reservoir Fluid Phase State</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator</h2>
+      <ol>
+        <li>Enter solution gas-oil ratio $R_{sb}$ in standard cubic feet per stock tank barrel (scf/STB).</li>
+        <li>Enter dissolved gas specific gravity $gamma_g$ (relative to air = 1.0).</li>
+        <li>Enter stock-tank crude oil API gravity in °API.</li>
+        <li>Enter bottom-hole reservoir temperature in °F.</li>
+        <li>Inspect estimated bubble point saturation pressure $P_b$ in psi and bar.</li>
+      </ol>
+
+      <h2>M.B. Standing 1947 California PVT Correlation</h2>
+      <p>The bubble point pressure ($P_b$) is the thermodynamic threshold where the first bubble of dissolved gas nucleates out of liquid crude oil; producing below $P_b$ releases free gas in the reservoir pore space, reducing oil relative permeability.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is producing above bubble point pressure preferred?</summary>
+        <p>Above $P_b$, single-phase oil flows with minimum capillary resistance and maximum relative permeability.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/oil-gas-ratio-gor-bubble-point-pressure-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 43 REM to PX Value",
+  "description": "Convert 43 REM units to pixels (688 px) based on standard 16px root font.",
+  "path": "/tools/convert-43-rem-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 43 rem to px value",
+    "Convert 43 REM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

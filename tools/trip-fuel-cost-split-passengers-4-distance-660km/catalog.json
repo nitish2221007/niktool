@@ -1,0 +1,15 @@
+{
+  "name": "Trip Fuel Cost Split (4 Passengers, 660 km)",
+  "description": "Calculate per-person fuel cost (₹1062/person) for 4 passengers on a 660 km trip.",
+  "path": "/tools/trip-fuel-cost-split-passengers-4-distance-660km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "trip fuel cost split passengers 4 distance 660km",
+    "Trip Fuel Cost Split (4 Passengers, 660 km)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

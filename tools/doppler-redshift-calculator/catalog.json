@@ -1,0 +1,15 @@
+{
+  "name": "Cosmological Doppler Redshift Calculator",
+  "description": "Calculate astronomical redshift (z = Δλ / λ₀), relativistic recession velocity, and cosmological distance for receding stars and galaxies.",
+  "path": "/tools/doppler-redshift-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "redshift calculator",
+    "doppler redshift velocity calculator",
+    "astronomy redshift z calculator",
+    "relativistic doppler effect online",
+    "hubble expansion redshift calculator"
+  ],
+  "order": 173
+}

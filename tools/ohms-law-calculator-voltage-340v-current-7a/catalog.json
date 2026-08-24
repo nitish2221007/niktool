@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 340V, Current 7A)",
+  "description": "Calculate Resistance (48.57 Ω) and Electric Power (2380.0 W) for 340V voltage and 7A current.",
+  "path": "/tools/ohms-law-calculator-voltage-340v-current-7a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 340v current 7a",
+    "Ohm's Law Calculator (Voltage 340V, Current 7A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 20 KM/H to MPH Speed",
+  "description": "Convert 20 kilometers per hour (km/h) to miles per hour (12.43 mph).",
+  "path": "/tools/convert-20-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 20 kmh to mph speed",
+    "Convert 20 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

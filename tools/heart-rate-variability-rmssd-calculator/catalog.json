@@ -1,0 +1,15 @@
+{
+  "name": "Heart Rate Variability (HRV) RMSSD Recovery Calculator",
+  "description": "Calculate root mean square of successive RR interval differences (RMSSD = √(Σ(ΔRR²) / (N-1))) and autonomic parasympathetic recovery status.",
+  "path": "/tools/heart-rate-variability-rmssd-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "hrv rmssd calculator",
+    "heart rate variability calculator",
+    "rr interval ms rmssd formula",
+    "parasympathetic recovery hrv score",
+    "whoop oura hrv calculation online"
+  ],
+  "order": 262
+}

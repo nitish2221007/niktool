@@ -1,0 +1,15 @@
+{
+  "name": "Series & Parallel Capacitor Calculator",
+  "description": "Calculate equivalent capacitance (C_total) for capacitors in parallel (C₁ + C₂ + ...) and capacitors in series (1/C_total = 1/C₁ + 1/C₂ + ...).",
+  "path": "/tools/parallel-series-capacitor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "parallel capacitor calculator",
+    "series capacitor calculator",
+    "equivalent capacitance calculator",
+    "capacitors in series and parallel",
+    "total capacitance formula"
+  ],
+  "order": 120
+}

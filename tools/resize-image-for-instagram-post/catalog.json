@@ -1,0 +1,16 @@
+{
+  "name": "Resize Image for Instagram Post",
+  "description": "Resize and crop photo to 1080x1080 square for Instagram posts.",
+  "path": "/tools/resize-image-for-instagram-post/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image for instagram post",
+    "Resize Image for Instagram Post",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fixed Deposit Calculator (₹4,50,000 FD)",
+  "description": "Calculate interest returns and maturity value for ₹4,50,000 FD.",
+  "path": "/tools/fd-calculator-450000-rupees/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fd calculator 450000 rupees",
+    "Fixed Deposit Calculator (₹4,50,000 FD)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

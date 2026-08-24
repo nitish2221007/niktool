@@ -1,0 +1,15 @@
+{
+  "name": "Henry's Law Gas Solubility & Carbonation Calculator",
+  "description": "Calculate dissolved gas concentration in liquid (C = k_H · P) from gas partial pressure and Henry's law constants for beverage carbonation and scuba diving.",
+  "path": "/tools/henry-law-gas-solubility-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "henrys law calculator",
+    "gas solubility pressure calculator",
+    "carbonation co2 solubility calculator",
+    "henry constant kh formula",
+    "scuba nitrogen blood solubility online"
+  ],
+  "order": 311
+}

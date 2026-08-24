@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=50Ω, R2=30Ω)",
+  "description": "Calculate Series Equivalent (80 Ω) and Parallel Equivalent (18.75 Ω) for resistors R1=50Ω and R2=30Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-50ohm-r2-30ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 50ohm r2 30ohm",
+    "Resistor Circuit Calculator (R1=50Ω, R2=30Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

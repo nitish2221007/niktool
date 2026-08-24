@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate the astronomical Equation of Time (EoT in minutes) and solar declination across any day of the year to convert Sundial Apparent Solar Time to Standard Clock Mean Solar Time.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/apparent-solar-time-equation-of-time-analemma-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator | NikTool">
+  <meta property="og:description" content="Calculate the astronomical Equation of Time (EoT in minutes) and solar declination across any day of the year to convert Sundial Apparent Solar Time to Standard Clock Mean Solar Time.">
+  <meta property="og:url" content="https://niktool.in/tools/apparent-solar-time-equation-of-time-analemma-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/apparent-solar-time-equation-of-time-analemma-calculator/",
+        "description": "Calculate the astronomical Equation of Time (EoT in minutes) and solar declination across any day of the year to convert Sundial Apparent Solar Time to Standard Clock Mean Solar Time.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "On what four dates during the year is the Equation of Time exactly zero?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Around April 15, June 13, September 1, and December 25, sundials match standard clock time exactly ($EoT = 0$)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator</h1>
+      <p>Calculate the astronomical Equation of Time (EoT in minutes) and solar declination across any day of the year to convert Sundial Apparent Solar Time to Standard Clock Mean Solar Time.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Day of the Year N (1 to 365, e.g. Day 308 for Nov 3 Peak +16.4 min)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="eot-day">Day of the Year (1 - 365)</label>
+        <input class="tool-textarea" id="eot-day" type="number" step="1" min="1" max="365" value="308" placeholder="308 (November 3 - Maximum +16.4 min)" />
+      </div>
+      <div id="eot-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="eot-res-eot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Equation of Time = +16.4 Minutes</span>
+            <span class="stat-label">Sundial vs Clock Discrepancy (EoT = Solar Time - Mean Time)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="eot-res-dec" style="color:var(--green-dark); font-weight:700;">Sundial is 16.4 min FAST | Solar Declination δ = -15.1° (Southern Sky)</span>
+            <span class="stat-label">Solar Clock Adjustment & Declination Angle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Equation of Time (EoT = Apparent Solar Time - Mean Solar Time) Analemma Calculator</h2>
+      <ol>
+        <li>Enter day of the year N from 1 to 365 (e.g., Feb 11 is ~Day 42, Nov 3 is ~Day 308).</li>
+        <li>Inspect Equation of Time in minutes ($EoT$) and solar declination angle.</li>
+      </ol>
+
+      <h2>Solar Analemma Figure-8 Geometry</h2>
+      <p>Caused by Earth's orbital eccentricity ($e=0.0167$) and axial tilt ($epsilon = 23.45^circ$), sundials run up to 16.4 minutes ahead in November and 14.2 minutes behind in February compared to uniform clock time.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>On what four dates during the year is the Equation of Time exactly zero?</summary>
+        <p>Around April 15, June 13, September 1, and December 25, sundials match standard clock time exactly ($EoT = 0$).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/apparent-solar-time-equation-of-time-analemma-calculator/tool.js"></script>
+</body>
+</html>

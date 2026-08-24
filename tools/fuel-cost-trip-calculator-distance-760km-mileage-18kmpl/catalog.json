@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (760 km Distance, 18 km/l Mileage)",
+  "description": "Calculate fuel needed (42.2 L) and cost (₹4072) for 760 km trip at 18 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-760km-mileage-18kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 760km mileage 18kmpl",
+    "Fuel Cost Trip Calculator (760 km Distance, 18 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 1 EM to PX Value",
+  "description": "Convert 1 EM units to pixels (16 px) based on 16px font context.",
+  "path": "/tools/convert-1-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 1 em to px value",
+    "Convert 1 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Glover-Dumm Agricultural Subsurface Drain Spacing Calculator",
+  "description": "Calculate agricultural land subsurface drainage pipe tile spacing L in meters (Glover-Dumm transient water table drawdown equation) to prevent crop root waterlogging and soil salinization.",
+  "path": "/tools/glover-dumm-agricultural-drain-spacing-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "glover dumm calculator",
+    "subsurface agricultural drain spacing formula online",
+    "water table drawdown tile drainage calculator",
+    "crop waterlogging agricultural drainage spacing calculator",
+    "irrigation agriculture hydrology civil engineering online"
+  ],
+  "order": 1297
+}

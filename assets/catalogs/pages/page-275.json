@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Compress Image to 900KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 900KB without losing quality. 100% free and local.",
+    "path": "/tools/compress-image-to-900kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "compress image to 900kb",
+      "Compress Image to 900KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Compress Image to 90KB Online",
+    "description": "Compress JPG, PNG, and WebP images to under 90KB without losing quality. 100% free and local.",
+    "path": "/tools/compress-image-to-90kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "compress image to 90kb",
+      "Compress Image to 90KB Online",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (1 m³ Volume, Grade M10)",
+    "description": "Calculate cement bags (8 bags), sand, and gravel quantities for 1 m³ of M10 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-1m3-grade-m10/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 1m3 grade m10",
+      "Concrete Materials Calculator (1 m³ Volume, Grade M10)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (1 m³ Volume, Grade M15)",
+    "description": "Calculate cement bags (8 bags), sand, and gravel quantities for 1 m³ of M15 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-1m3-grade-m15/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 1m3 grade m15",
+      "Concrete Materials Calculator (1 m³ Volume, Grade M15)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (1 m³ Volume, Grade M20)",
+    "description": "Calculate cement bags (8 bags), sand, and gravel quantities for 1 m³ of M20 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-1m3-grade-m20/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 1m3 grade m20",
+      "Concrete Materials Calculator (1 m³ Volume, Grade M20)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (1 m³ Volume, Grade M25)",
+    "description": "Calculate cement bags (8 bags), sand, and gravel quantities for 1 m³ of M25 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-1m3-grade-m25/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 1m3 grade m25",
+      "Concrete Materials Calculator (1 m³ Volume, Grade M25)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (1 m³ Volume, Grade M30)",
+    "description": "Calculate cement bags (8 bags), sand, and gravel quantities for 1 m³ of M30 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-1m3-grade-m30/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 1m3 grade m30",
+      "Concrete Materials Calculator (1 m³ Volume, Grade M30)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (10 m³ Volume, Grade M10)",
+    "description": "Calculate cement bags (80 bags), sand, and gravel quantities for 10 m³ of M10 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-10m3-grade-m10/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 10m3 grade m10",
+      "Concrete Materials Calculator (10 m³ Volume, Grade M10)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (10 m³ Volume, Grade M15)",
+    "description": "Calculate cement bags (80 bags), sand, and gravel quantities for 10 m³ of M15 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-10m3-grade-m15/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 10m3 grade m15",
+      "Concrete Materials Calculator (10 m³ Volume, Grade M15)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (10 m³ Volume, Grade M20)",
+    "description": "Calculate cement bags (80 bags), sand, and gravel quantities for 10 m³ of M20 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-10m3-grade-m20/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 10m3 grade m20",
+      "Concrete Materials Calculator (10 m³ Volume, Grade M20)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (10 m³ Volume, Grade M25)",
+    "description": "Calculate cement bags (80 bags), sand, and gravel quantities for 10 m³ of M25 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-10m3-grade-m25/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 10m3 grade m25",
+      "Concrete Materials Calculator (10 m³ Volume, Grade M25)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (10 m³ Volume, Grade M30)",
+    "description": "Calculate cement bags (80 bags), sand, and gravel quantities for 10 m³ of M30 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-10m3-grade-m30/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 10m3 grade m30",
+      "Concrete Materials Calculator (10 m³ Volume, Grade M30)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (100 m³ Volume, Grade M10)",
+    "description": "Calculate cement bags (800 bags), sand, and gravel quantities for 100 m³ of M10 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-100m3-grade-m10/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 100m3 grade m10",
+      "Concrete Materials Calculator (100 m³ Volume, Grade M10)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (100 m³ Volume, Grade M15)",
+    "description": "Calculate cement bags (800 bags), sand, and gravel quantities for 100 m³ of M15 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-100m3-grade-m15/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 100m3 grade m15",
+      "Concrete Materials Calculator (100 m³ Volume, Grade M15)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (100 m³ Volume, Grade M20)",
+    "description": "Calculate cement bags (800 bags), sand, and gravel quantities for 100 m³ of M20 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-100m3-grade-m20/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 100m3 grade m20",
+      "Concrete Materials Calculator (100 m³ Volume, Grade M20)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (100 m³ Volume, Grade M25)",
+    "description": "Calculate cement bags (800 bags), sand, and gravel quantities for 100 m³ of M25 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-100m3-grade-m25/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 100m3 grade m25",
+      "Concrete Materials Calculator (100 m³ Volume, Grade M25)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (100 m³ Volume, Grade M30)",
+    "description": "Calculate cement bags (800 bags), sand, and gravel quantities for 100 m³ of M30 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-100m3-grade-m30/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 100m3 grade m30",
+      "Concrete Materials Calculator (100 m³ Volume, Grade M30)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (11 m³ Volume, Grade M10)",
+    "description": "Calculate cement bags (88 bags), sand, and gravel quantities for 11 m³ of M10 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-11m3-grade-m10/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 11m3 grade m10",
+      "Concrete Materials Calculator (11 m³ Volume, Grade M10)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (11 m³ Volume, Grade M15)",
+    "description": "Calculate cement bags (88 bags), sand, and gravel quantities for 11 m³ of M15 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-11m3-grade-m15/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 11m3 grade m15",
+      "Concrete Materials Calculator (11 m³ Volume, Grade M15)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (11 m³ Volume, Grade M20)",
+    "description": "Calculate cement bags (88 bags), sand, and gravel quantities for 11 m³ of M20 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-11m3-grade-m20/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 11m3 grade m20",
+      "Concrete Materials Calculator (11 m³ Volume, Grade M20)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (11 m³ Volume, Grade M25)",
+    "description": "Calculate cement bags (88 bags), sand, and gravel quantities for 11 m³ of M25 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-11m3-grade-m25/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 11m3 grade m25",
+      "Concrete Materials Calculator (11 m³ Volume, Grade M25)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (11 m³ Volume, Grade M30)",
+    "description": "Calculate cement bags (88 bags), sand, and gravel quantities for 11 m³ of M30 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-11m3-grade-m30/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 11m3 grade m30",
+      "Concrete Materials Calculator (11 m³ Volume, Grade M30)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (12 m³ Volume, Grade M10)",
+    "description": "Calculate cement bags (96 bags), sand, and gravel quantities for 12 m³ of M10 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-12m3-grade-m10/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 12m3 grade m10",
+      "Concrete Materials Calculator (12 m³ Volume, Grade M10)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Concrete Materials Calculator (12 m³ Volume, Grade M15)",
+    "description": "Calculate cement bags (96 bags), sand, and gravel quantities for 12 m³ of M15 concrete.",
+    "path": "/tools/concrete-mix-materials-calculator-volume-12m3-grade-m15/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "concrete mix materials calculator volume 12m3 grade m15",
+      "Concrete Materials Calculator (12 m³ Volume, Grade M15)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

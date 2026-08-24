@@ -1,0 +1,15 @@
+{
+  "name": "Concrete Slump Test Workability (EN 12350-2 & ASTM C143 Consistency S1 to S5) Calculator",
+  "description": "Calculate fresh concrete workability slump subsidence in mm and inches, classify European standard consistency classes (S1 to S5), and evaluate placement suitability for slabs, foundations, and pumpable concrete.",
+  "path": "/tools/concrete-slump-test-workability-flow-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "concrete slump test calculator",
+    "slump test workability en 12350 2 s1 to s5 online",
+    "fresh concrete consistency slump mm inches calculator",
+    "pumpable concrete slump foundation slab calculator",
+    "civil engineering concrete technology online"
+  ],
+  "order": 1081
+}

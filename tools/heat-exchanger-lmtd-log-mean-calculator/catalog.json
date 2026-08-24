@@ -1,0 +1,15 @@
+{
+  "name": "Heat Exchanger Log Mean Temperature Difference (LMTD) Calculator",
+  "description": "Calculate Logarithmic Mean Temperature Difference (LMTD = (ΔT₁ - ΔT₂) / ln(ΔT₁ / ΔT₂)) and total thermal duty (Q = U · A · LMTD) for parallel-flow and counter-flow heat exchangers.",
+  "path": "/tools/heat-exchanger-lmtd-log-mean-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "lmtd calculator",
+    "heat exchanger lmtd formula",
+    "log mean temperature difference calculator",
+    "counter flow parallel flow lmtd online",
+    "q u a lmtd heat exchanger sizing"
+  ],
+  "order": 409
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Salary Take-Home Pay & Net Salary Calculator",
+  "description": "Calculate monthly and annual net take-home salary after estimated income taxes, social security, retirement contributions, and insurance deductions.",
+  "path": "/tools/salary-take-home-pay-calculator/",
+  "category": "Finance",
+  "icon": "text",
+  "keywords": [
+    "salary take home calculator",
+    "net pay calculator",
+    "gross to net salary calculator",
+    "paycheck calculator after taxes",
+    "monthly take home salary online"
+  ],
+  "order": 144
+}

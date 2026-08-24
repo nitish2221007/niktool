@@ -1,0 +1,15 @@
+{
+  "name": "Retaining Wall Stability Factor of Safety (FS_overturn & FS_slide) Calculator",
+  "description": "Calculate cantilever/gravity retaining wall stability Factors of Safety against Overturning (FS_overturn = Σ M_R / Σ M_O ≥ 2.0) and Base Sliding (FS_slide = μ·R_v / P_h ≥ 1.5).",
+  "path": "/tools/retaining-wall-overturning-sliding-factor-of-safety-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "retaining wall factor of safety calculator",
+    "overturning sliding stability formula sum mr over sum mo",
+    "retaining wall geotechnical safety factor calculator online",
+    "cantilever wall sliding resistance calculator",
+    "civil engineering retaining wall stability online"
+  ],
+  "order": 772
+}

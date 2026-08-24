@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (12 GB File, 1000 Mbps Speed)",
+  "description": "Calculate file transfer download time (~1.6 minutes / 98s) for 12 GB file at 1000 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-12gb-speed-1000mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 12gb speed 1000mbps",
+    "Data Download Time Calculator (12 GB File, 1000 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

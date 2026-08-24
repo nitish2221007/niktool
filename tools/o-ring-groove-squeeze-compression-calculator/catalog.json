@@ -1,0 +1,15 @@
+{
+  "name": "O-Ring Groove Squeeze & Gland Compression Calculator",
+  "description": "Calculate static and dynamic O-ring squeeze percentage (Squeeze % = (W - Depth) / W · 100) and groove volume fill percentage per Parker O-Ring Handbook standards.",
+  "path": "/tools/o-ring-groove-squeeze-compression-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "o ring squeeze calculator",
+    "o ring gland design calculator",
+    "parker o ring compression formula",
+    "o ring groove depth squeeze percentage online",
+    "static dynamic o ring seal calculator"
+  ],
+  "order": 476
+}

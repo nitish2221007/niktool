@@ -1,0 +1,15 @@
+{
+  "name": "Organic Chemistry Substitution vs Elimination (SN1, SN2, E1, E2) Reaction Predictor",
+  "description": "Predict organic alkyl halide reaction mechanism pathways (SN1, SN2, E1, E2) based on substrate carbon degree (1° primary, 2° secondary, 3° tertiary), nucleophile/base strength, steric bulk, and solvent polarity.",
+  "path": "/tools/sn1-vs-sn2-e1-vs-e2-organic-reaction-predictor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sn1 sn2 e1 e2 calculator",
+    "organic reaction mechanism predictor sn1 vs sn2 e1 vs e2 online",
+    "nucleophilic substitution vs beta elimination calculator",
+    "alkyl halide nucleophile base strength predictor",
+    "organic chemistry reaction matrix solver online"
+  ],
+  "order": 923
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert Markdown to HTML Online",
+  "description": "Convert Markdown text syntax (.md) into clean HTML web code.",
+  "path": "/tools/markdown-to-html-converter/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "markdown to html converter",
+    "Convert Markdown to HTML Online",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

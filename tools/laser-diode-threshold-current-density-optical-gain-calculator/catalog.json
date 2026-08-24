@@ -1,0 +1,15 @@
+{
+  "name": "Laser Diode Threshold Current Density (J_th) & Cavity Mirror Loss Calculator",
+  "description": "Calculate semiconductor laser diode threshold current density J_th in A/cm² (J_th = d/η_i · (α_i + α_m) / Γ), optical cavity facet mirror loss α_m in cm⁻¹ (α_m = (1/2L) · ln(1/(R₁·R₂))), and lasing threshold current I_th in mA.",
+  "path": "/tools/laser-diode-threshold-current-density-optical-gain-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "laser diode threshold calculator",
+    "threshold current density formula jth online",
+    "optical cavity mirror loss alpha m calculator",
+    "semiconductor laser facet reflectivity calculator",
+    "optoelectronics photonics laser physics online"
+  ],
+  "order": 1368
+}

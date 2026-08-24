@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IEEE-754 32-Bit Floating-Point Binary Converter - Free Online Tool | NikTool</title>
+  <meta name="description" content="Convert decimal numbers into standard IEEE-754 32-bit single-precision floating point binary layout (1 sign bit, 8 exponent bits, 23 mantissa bits) and hex representation.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/ieee-754-floating-point-converter/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IEEE-754 32-Bit Floating-Point Binary Converter | NikTool">
+  <meta property="og:description" content="Convert decimal numbers into standard IEEE-754 32-bit single-precision floating point binary layout (1 sign bit, 8 exponent bits, 23 mantissa bits) and hex representation.">
+  <meta property="og:url" content="https://niktool.in/tools/ieee-754-floating-point-converter/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "IEEE-754 32-Bit Floating-Point Binary Converter",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/ieee-754-floating-point-converter/",
+        "description": "Convert decimal numbers into standard IEEE-754 32-bit single-precision floating point binary layout (1 sign bit, 8 exponent bits, 23 mantissa bits) and hex representation.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is the exponent biased by 127?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Biasing the 8-bit unsigned integer range (0 to 255) by subtracting 127 allows smooth encoding of both positive and negative powers of 2 without a dedicated sign bit."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>IEEE-754 32-Bit Floating-Point Binary Converter</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>IEEE-754 32-Bit Floating-Point Binary Converter</h1>
+      <p>Convert decimal numbers into standard IEEE-754 32-bit single-precision floating point binary layout (1 sign bit, 8 exponent bits, 23 mantissa bits) and hex representation.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Decimal Number Input</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="fp-input">Enter Decimal Number (e.g. -12.375 or 0.15625)</label>
+        <input class="tool-textarea" id="fp-input" type="text" value="-12.375" placeholder="-12.375" />
+      </div>
+      <div id="fp-res-card" style="margin-top:1.25rem;">
+        <div style="background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:1rem;">
+          <div style="display:grid; grid-template-columns:140px 1fr; gap:0.5rem; padding:0.35rem 0; border-bottom:1px solid var(--line);">
+            <strong>Hexadecimal:</strong> <span id="fp-hex" style="font-family:monospace; color:var(--green-dark); font-weight:700;">0xC1460000</span>
+          </div>
+          <div style="display:grid; grid-template-columns:140px 1fr; gap:0.5rem; padding:0.35rem 0; border-bottom:1px solid var(--line);">
+            <strong>Sign Bit (1b):</strong> <span id="fp-sign" style="font-family:monospace; color:#c53030; font-weight:700;">1 (Negative)</span>
+          </div>
+          <div style="display:grid; grid-template-columns:140px 1fr; gap:0.5rem; padding:0.35rem 0; border-bottom:1px solid var(--line);">
+            <strong>Biased Exponent (8b):</strong> <span id="fp-exp" style="font-family:monospace; color:#2563eb; font-weight:700;">10000010 (130 - 127 = 3)</span>
+          </div>
+          <div style="display:grid; grid-template-columns:140px 1fr; gap:0.5rem; padding:0.35rem 0;">
+            <strong>Mantissa (23b):</strong> <span id="fp-man" style="font-family:monospace; font-weight:700;">10001100000000000000000</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use IEEE-754 32-Bit Floating-Point Binary Converter</h2>
+      <ol>
+        <li>Enter any positive or negative decimal or floating-point number.</li>
+        <li>Inspect the bit-level IEEE-754 single-precision breakdown into Sign (1 bit), Biased Exponent (8 bits), Mantissa Fraction (23 bits), and 32-bit Hex string.</li>
+      </ol>
+
+      <h2>Hardware Floating Point Unit (FPU) Representation</h2>
+      <p>IEEE-754 Single Precision (binary32) encodes real numbers as: (-1)^sign × 2^(exponent - 127) × 1.mantissa, offering approximately 7.2 decimal digits of precision across a dynamic range from 1.18×10⁻³⁸ to 3.4×10³⁸.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is the exponent biased by 127?</summary>
+        <p>Biasing the 8-bit unsigned integer range (0 to 255) by subtracting 127 allows smooth encoding of both positive and negative powers of 2 without a dedicated sign bit.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/ieee-754-floating-point-converter/tool.js"></script>
+</body>
+</html>

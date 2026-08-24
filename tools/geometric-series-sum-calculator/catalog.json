@@ -1,0 +1,15 @@
+{
+  "name": "Geometric Series & Infinite Sum Calculator",
+  "description": "Calculate the nth term, finite geometric series sum (Sn), and convergent infinite geometric series sum (S∞ = a / (1 - r)).",
+  "path": "/tools/geometric-series-sum-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "geometric series calculator",
+    "infinite geometric series sum",
+    "sum of gp calculator",
+    "geometric progression sum",
+    "convergent geometric series"
+  ],
+  "order": 115
+}

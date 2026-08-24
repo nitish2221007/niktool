@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Price Elasticity of Demand (PED Midpoint Arc) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Price Elasticity of Demand (PED = ((Q₂ - Q₁) / ((Q₁+Q₂)/2)) / ((P₂ - P₁) / ((P₁+P₂)/2))) using the standard symmetric midpoint method and total revenue impact.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/price-elasticity-of-demand-ped-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Price Elasticity of Demand (PED Midpoint Arc) Calculator | NikTool">
+  <meta property="og:description" content="Calculate Price Elasticity of Demand (PED = ((Q₂ - Q₁) / ((Q₁+Q₂)/2)) / ((P₂ - P₁) / ((P₁+P₂)/2))) using the standard symmetric midpoint method and total revenue impact.">
+  <meta property="og:url" content="https://niktool.in/tools/price-elasticity-of-demand-ped-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Price Elasticity of Demand (PED Midpoint Arc) Calculator",
+        "applicationCategory": "FinancialProduct",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/price-elasticity-of-demand-ped-calculator/",
+        "description": "Calculate Price Elasticity of Demand (PED = ((Q₂ - Q₁) / ((Q₁+Q₂)/2)) / ((P₂ - P₁) / ((P₁+P₂)/2))) using the standard symmetric midpoint method and total revenue impact.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why use the midpoint method instead of simple percentage changes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The midpoint formula gives the exact same elasticity value whether prices are rising from P₁ to P₂ or falling from P₂ back to P₁."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Price Elasticity of Demand (PED Midpoint Arc) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Price Elasticity of Demand (PED Midpoint Arc) Calculator</h1>
+      <p>Calculate Price Elasticity of Demand (PED = ((Q₂ - Q₁) / ((Q₁+Q₂)/2)) / ((P₂ - P₁) / ((P₁+P₂)/2))) using the standard symmetric midpoint method and total revenue impact.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Initial Price P₁ ($), Initial Quantity Q₁, New Price P₂ ($) & New Quantity Q₂</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ped-p1">Initial Price P₁ ($)</label>
+          <input class="tool-textarea" id="ped-p1" type="number" step="any" value="20.0" placeholder="$20.00" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ped-q1">Initial Quantity Q₁</label>
+          <input class="tool-textarea" id="ped-q1" type="number" step="any" value="1000" placeholder="1000 units" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ped-p2">New Price P₂ ($)</label>
+          <input class="tool-textarea" id="ped-p2" type="number" step="any" value="24.0" placeholder="$24.00 (+20%)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ped-q2">New Quantity Q₂</label>
+          <input class="tool-textarea" id="ped-q2" type="number" step="any" value="750" placeholder="750 units (-25%)" />
+        </div>
+      </div>
+      <div id="ped-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ped-res-ped" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">|PED| = 1.57 (Elastic)</span>
+            <span class="stat-label">Price Elasticity of Demand</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ped-res-rev" style="color:#c53030; font-weight:700;">Revenue Drops -$2,000 (-10.0%)</span>
+            <span class="stat-label">Total Revenue Effect ($20k → $18k)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Price Elasticity of Demand (PED Midpoint Arc) Calculator</h2>
+      <ol>
+        <li>Enter initial price P₁ and baseline quantity demanded Q₁.</li>
+        <li>Enter new price P₂ and resulting quantity demanded Q₂.</li>
+        <li>Inspect midpoint arc price elasticity |PED| and Total Revenue test effect.</li>
+      </ol>
+
+      <h2>Total Revenue Rule of Elasticity</h2>
+      <p>For elastic goods (|PED| > 1), raising prices decreases total business revenue because unit volume drops by a greater percentage than the price increase; for inelastic goods (|PED| < 1), raising prices increases total revenue.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why use the midpoint method instead of simple percentage changes?</summary>
+        <p>The midpoint formula gives the exact same elasticity value whether prices are rising from P₁ to P₂ or falling from P₂ back to P₁.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/price-elasticity-of-demand-ped-calculator/tool.js"></script>
+</body>
+</html>

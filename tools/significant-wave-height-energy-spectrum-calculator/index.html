@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate ocean significant wave height (H_m0 = 4 · √m₀) in meters from spectral wave energy variance m₀ and determine World Meteorological Organization (WMO) Sea State code.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/significant-wave-height-energy-spectrum-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator | NikTool">
+  <meta property="og:description" content="Calculate ocean significant wave height (H_m0 = 4 · √m₀) in meters from spectral wave energy variance m₀ and determine World Meteorological Organization (WMO) Sea State code.">
+  <meta property="og:url" content="https://niktool.in/tools/significant-wave-height-energy-spectrum-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/significant-wave-height-energy-spectrum-calculator/",
+        "description": "Calculate ocean significant wave height (H_m0 = 4 · √m₀) in meters from spectral wave energy variance m₀ and determine World Meteorological Organization (WMO) Sea State code.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the relationship between H_m0 and maximum individual wave height?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In a standard storm duration of ~1,000 waves, the statistical maximum single wave height reaches approximately 1.86 × H_m0."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator</h1>
+      <p>Calculate ocean significant wave height (H_m0 = 4 · √m₀) in meters from spectral wave energy variance m₀ and determine World Meteorological Organization (WMO) Sea State code.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Spectral Energy Variance m₀ (m²) or Zero-Moment Sensor Reading</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="swh-m0">Variance m₀ (m²)</label>
+          <input class="tool-textarea" id="swh-m0" type="number" step="any" value="0.5625" placeholder="0.5625 m²" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="swh-tp">Peak Period T_p (s)</label>
+          <input class="tool-textarea" id="swh-tp" type="number" step="any" value="9.5" placeholder="9.5 s" />
+        </div>
+      </div>
+      <div id="swh-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="swh-res-h" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">3.00 m (9.84 ft)</span>
+            <span class="stat-label">Significant Wave Height (H_m0 = 4·√m₀)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="swh-res-sea" style="color:var(--green-dark); font-weight:700;">WMO Sea State 5: Rough Seas (Max Wave H_max ≈ 5.6 m)</span>
+            <span class="stat-label">WMO Sea State & Maximum Freak Wave Estimate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Significant Wave Height (H_m0 & H_1/3) & Sea State Calculator</h2>
+      <ol>
+        <li>Enter wave spectrum zero-moment variance m₀ in m² from oceanographic buoy data.</li>
+        <li>Enter spectral peak wave period T_p in seconds.</li>
+        <li>Inspect Significant Wave Height H_m0 = 4√m₀ in meters/feet, WMO Sea State scale code, and Rayleigh statistical maximum wave height H_max.</li>
+      </ol>
+
+      <h2>Significant Wave Height H_1/3 vs Spectral H_m0</h2>
+      <p>Historically defined as the average height of the tallest one-third of waves seen by an experienced mariner, spectral wave analysis mathematically formalizes significant wave height as H_m0 = 4√m₀.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the relationship between H_m0 and maximum individual wave height?</summary>
+        <p>In a standard storm duration of ~1,000 waves, the statistical maximum single wave height reaches approximately 1.86 × H_m0.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/significant-wave-height-energy-spectrum-calculator/tool.js"></script>
+</body>
+</html>

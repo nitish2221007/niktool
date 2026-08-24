@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Sphere (Radius 118 Units)",
+  "description": "Calculate 3D volume of a sphere with radius 118 units (V = 4/3 πr³ = 6882316.35).",
+  "path": "/tools/volume-of-sphere-radius-118-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of sphere radius 118 units",
+    "Volume of Sphere (Radius 118 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

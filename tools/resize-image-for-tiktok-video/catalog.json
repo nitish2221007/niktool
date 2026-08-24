@@ -1,0 +1,15 @@
+{
+  "name": "Resize Image for TikTok Video Cover",
+  "description": "Resize image to 1080x1920 vertical format for TikTok.",
+  "path": "/tools/resize-image-for-tiktok-video/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image for tiktok video",
+    "Resize Image for TikTok Video Cover",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 150 KM to Miles",
+  "description": "Convert 150 kilometers to miles (93.21 miles). 100% free and local.",
+  "path": "/tools/convert-150-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 150 km to miles",
+    "Convert 150 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

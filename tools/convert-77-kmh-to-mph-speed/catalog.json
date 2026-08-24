@@ -1,0 +1,15 @@
+{
+  "name": "Convert 77 KM/H to MPH Speed",
+  "description": "Convert 77 kilometers per hour (km/h) to miles per hour (47.85 mph).",
+  "path": "/tools/convert-77-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 77 kmh to mph speed",
+    "Convert 77 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

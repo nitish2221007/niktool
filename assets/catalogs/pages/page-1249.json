@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Unit Quaternion to Euler Angles (Roll-Pitch-Yaw) & Rotation Matrix Calculator",
+    "description": "Convert 3D unit orientation quaternion q = [w, x, y, z] to aeronautical Euler Angles: Roll (φ), Pitch (θ), Yaw (ψ) in degrees, avoiding gimbal lock singularities in robotics and aerospace avionics.",
+    "path": "/tools/quaternion-to-euler-angles-rotation-matrix-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "quaternion to euler angles calculator",
+      "roll pitch yaw formula quaternion conversion online",
+      "quaternion to 3x3 rotation matrix calculator",
+      "gimbal lock avoidance aerospace attitude calculator",
+      "robotics aerospace drone navigation avionics online"
+    ]
+  },
+  {
+    "name": "Differential Drive Mobile Robot Kinematics (v = (v_r + v_l)/2 & ω = (v_r - v_l)/L) Calculator",
+    "description": "Calculate 2-wheel differential drive mobile robot linear velocity v, angular turning velocity ω (omega = (v_r - v_l) / L), Instantaneous Center of Curvature (ICC) radius R, and dead-reckoning odometry.",
+    "path": "/tools/differential-drive-mobile-robot-unicycle-odometry-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "differential drive calculator",
+      "unicycle robot kinematics formula online",
+      "instantaneous center of curvature icc differential drive calculator",
+      "wheel speeds vr vl to robot velocity calculator",
+      "robotics autonomous mobile robots ros navigation online"
+    ]
+  },
+  {
+    "name": "Ackermann Steering Geometry Turning Radius & Inner/Outer Wheel Angles Calculator",
+    "description": "Calculate automobile Ackermann steering geometry inner wheel angle δ_i (cot δ_o - cot δ_i = w / L), outer wheel angle δ_o, and vehicle center turning radius R without tire scrub wear.",
+    "path": "/tools/ackermann-steering-geometry-turning-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ackermann steering calculator",
+      "turning radius formula cot delta outer minus cot delta inner online",
+      "ackermann geometry inner outer wheel angle calculator",
+      "vehicle dynamics wheelbase track width turning circle calculator",
+      "automotive engineering vehicle dynamics robotics online"
+    ]
+  },
+  {
+    "name": "1D Discrete Kalman Filter State Estimate & Measurement Update (K_k) Calculator",
+    "description": "Calculate 1D discrete Kalman filter measurement update: Kalman Gain K_k (K_k = P / (P + R)), optimal state estimate x̂_k (x̂ = x̂_prior + K_k·(z - x̂_prior)), and updated error variance P_post.",
+    "path": "/tools/kalman-filter-1d-state-estimate-measurement-update-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "kalman filter calculator",
+      "kalman gain formula k equals p over p plus r online",
+      "measurement update state estimate 1d kalman calculator",
+      "sensor fusion variance reduction kalman filter calculator",
+      "robotics autonomous navigation signal processing online"
+    ]
+  },
+  {
+    "name": "Robotic Trajectory Quintic & Cubic Polynomial Motion Profile Calculator",
+    "description": "Calculate robotic joint trajectory 5th-order quintic polynomial coefficients (s(t) = a₀ + a₁t + a₂t² + a₃t³ + a₄t⁴ + a₅t⁵) and 3rd-order cubic curves with zero initial/final velocity and acceleration boundary conditions.",
+    "path": "/tools/trajectory-cubic-quintic-polynomial-motion-profile-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "trajectory generation calculator",
+      "quintic polynomial trajectory formula robotics online",
+      "cubic polynomial motion profile calculator",
+      "zero jerk velocity acceleration boundary conditions calculator",
+      "robotics motion planning automation mechatronics online"
+    ]
+  },
+  {
+    "name": "Trapezoidal & S-Curve Velocity Profile Motion Profile Calculator",
+    "description": "Calculate industrial CNC and pick-and-place trapezoidal velocity profile kinematics: acceleration time t_acc (v_max / a), cruise distance, total movement duration T, and minimum distance required to reach top speed.",
+    "path": "/tools/trapezoidal-s-curve-velocity-profile-motion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "trapezoidal velocity profile calculator",
+      "motion profile acceleration time t acc formula online",
+      "s curve velocity profile cnc feedrate calculator",
+      "peak velocity acceleration distance motion controller calculator",
+      "mechatronics robotics automation industrial motion online"
+    ]
+  },
+  {
+    "name": "Lead-Lag Frequency Compensator Phase Boost (sin φ_m = (1-α)/(1+α)) Calculator",
+    "description": "Calculate control system Phase-Lead frequency compensator G_c(s) = (s + 1/T) / (s + 1/(α·T)) maximum phase lead boost φ_m (sin φ_m = (1 - α) / (1 + α)), attenuation factor α, and geometric center frequency ω_m.",
+    "path": "/tools/lead-lag-compensator-frequency-response-phase-boost-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lead lag compensator calculator",
+      "phase lead boost formula sin phi m online",
+      "attenuation factor alpha compensator calculator",
+      "frequency response phase margin lead compensator calculator",
+      "control systems mechatronics electrical engineering online"
+    ]
+  },
+  {
+    "name": "Harmonic Drive Strain Wave Gear Reduction Ratio (R = N_flex / (N_circ - N_flex)) Calculator",
+    "description": "Calculate zero-backlash robotic strain wave harmonic drive gear reduction ratio R (R = N_flex / (N_circ - N_flex)), output torque multiplication, and wave generator input speed for precision robot joints.",
+    "path": "/tools/harmonic-drive-strain-wave-gear-reduction-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "harmonic drive calculator",
+      "strain wave gear reduction ratio formula online",
+      "zero backlash flexspline circular spline teeth calculator",
+      "robot joint precision harmonic drive ratio calculator",
+      "robotics mechatronics precision gearboxes online"
+    ]
+  },
+  {
+    "name": "IMU Sensor Fusion Complementary Filter Orientation Angle Calculator",
+    "description": "Calculate 6-DOF IMU fused pitch/roll tilt angle θ_k in degrees using a digital Complementary Filter (θ_k = α · (θ_{k-1} + ω_gyro · Δt) + (1 - α) · θ_accel) fusing gyroscope integration and accelerometer gravity vector.",
+    "path": "/tools/inertial-measurement-unit-imu-complementary-filter-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "complementary filter calculator",
+      "imu sensor fusion formula theta k equals alpha online",
+      "accelerometer gyroscope fusion filter calculator",
+      "drone quadcopter attitude estimation imu calculator",
+      "robotics mechatronics avionics embedded systems online"
+    ]
+  },
+  {
+    "name": "Planetary Epicyclic Gear Train Speed Ratio (Sun, Ring, Carrier) Calculator",
+    "description": "Calculate epicyclic planetary gearbox speeds and gear ratios (Willis Equation: (ω_s - ω_c) / (ω_r - ω_c) = - N_r / N_s) for sun gear, ring gear (annulus), planet carrier, and planetary reduction stages.",
+    "path": "/tools/planetary-epicyclic-gear-train-sun-ring-carrier-speed-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "planetary gear calculator",
+      "epicyclic gear train willis formula online",
+      "sun ring planet carrier gear ratio calculator",
+      "automatic transmission planetary reduction calculator",
+      "mechanical engineering machine design robotics online"
+    ]
+  },
+  {
+    "name": "Lead Screw & Ball Screw Linear Thrust Force (F = 2π·η·T / L) & Torque Calculator",
+    "description": "Calculate linear actuator drive torque T in N·m (T = F · L / (2π · η)), linear thrust force F in kN, screw mechanical efficiency η, and lead angle λ for precision CNC machine ball screws and ACME lead screws.",
+    "path": "/tools/lead-screw-ball-screw-torque-efficiency-linear-thrust-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ball screw calculator",
+      "lead screw thrust force formula online",
+      "motor torque to linear force ball screw calculator",
+      "lead screw efficiency lead angle calculator",
+      "cnc automation mechanical engineering robotics online"
+    ]
+  },
+  {
+    "name": "Pneumatic & Hydraulic Cylinder Push-Pull Thrust Force (F = P·A) & Speed Calculator",
+    "description": "Calculate double-acting pneumatic and hydraulic actuator extension push force F_push in kN (F = P · π·D² / 4), retraction pull force F_pull (accounting for piston rod diameter d), and stroke velocity v.",
+    "path": "/tools/pneumatic-hydraulic-cylinder-thrust-force-speed-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pneumatic cylinder force calculator",
+      "hydraulic cylinder push pull thrust formula online",
+      "annular piston rod area force calculator",
+      "fluid power hydraulic actuator sizing calculator",
+      "fluid power mechanical automation robotics online"
+    ]
+  },
+  {
+    "name": "RC Servo Motor PWM Pulse Width (1.0 - 2.0 ms) to Angle (0° - 180°) Calculator",
+    "description": "Calculate standard hobby and robotic RC servo motor PWM high pulse duration in milliseconds (1.0 ms = 0°, 1.5 ms = 90° center, 2.0 ms = 180°), duty cycle percentage at 50 Hz, and angular position.",
+    "path": "/tools/rc-servo-motor-pwm-pulse-width-duty-cycle-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rc servo pulse width calculator",
+      "servo pwm duty cycle 50hz formula online",
+      "microsecond pulse width to servo angle calculator",
+      "arduino servo motor timer pwm calculator",
+      "robotics arduino mechatronics embedded electronics online"
+    ]
+  },
+  {
+    "name": "Switched Reluctance Motor Step Angle & Reluctance Torque (T = ½·i²·dL/dθ) Calculator",
+    "description": "Calculate Switched Reluctance Motor (SRM) fundamental step angle θ_s in degrees (θ_s = 360° / (m · N_r)), reluctance torque T in N·m (T = ½ · i² · dL/dθ), and stator/rotor pole configurations (e.g. 8/6 and 6/4).",
+    "path": "/tools/switched-reluctance-motor-step-angle-torque-reluctance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "switched reluctance motor calculator",
+      "srm step angle formula theta s online",
+      "reluctance torque half i squared dl over dtheta calculator",
+      "srm stator rotor pole configuration calculator",
+      "electric vehicle motor drives mechatronics electrical machines online"
+    ]
+  },
+  {
+    "name": "Gaussian Plume Atmospheric Air Pollution Dispersion Model Calculator",
+    "description": "Calculate ground-level industrial smokestack air pollutant concentration C in μg/m³ (Gaussian Plume Equation) from emission source rate Q, wind speed u, effective stack height H, and Pasquill-Gifford dispersion coefficients (σ_y, σ_z).",
+    "path": "/tools/gaussian-plume-atmospheric-air-pollution-dispersion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gaussian plume calculator",
+      "air pollution dispersion formula online",
+      "smokestack emission ground level concentration calculator",
+      "pasquill gifford atmospheric dispersion calculator",
+      "environmental engineering air quality meteorology online"
+    ]
+  },
+  {
+    "name": "Streeter-Phelps Dissolved Oxygen (DO) Sag Curve & Critical Deficit Calculator",
+    "description": "Calculate river river water quality Dissolved Oxygen deficit D(t) (Streeter-Phelps equation), critical time to oxygen sag minimum t_c, and critical lowest dissolved oxygen concentration DO_min from wastewater BOD discharge.",
+    "path": "/tools/streeter-phelps-dissolved-oxygen-sag-curve-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "streeter phelps calculator",
+      "dissolved oxygen sag curve formula online",
+      "critical oxygen deficit time tc calculator",
+      "river water quality bod reaeration rate calculator",
+      "environmental engineering hydrology water resources online"
+    ]
+  },
+  {
+    "name": "Activated Sludge Solids Retention Time (SRT θ_c) & F/M Ratio Calculator",
+    "description": "Calculate wastewater treatment plant activated sludge mean cell residence time / Solids Retention Time (SRT / Sludge Age θ_c in days: θ_c = V·X / (Q_w·X_w + Q_e·X_e)), Food-to-Microorganism F/M ratio, and daily waste sludge mass.",
+    "path": "/tools/activated-sludge-solids-retention-time-srt-sludge-age-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "activated sludge srt calculator",
+      "solids retention time sludge age formula theta c online",
+      "food to microorganism fm ratio mlss calculator",
+      "wastewater treatment aeration tank sizing calculator",
+      "environmental engineering wastewater civil engineering online"
+    ]
+  },
+  {
+    "name": "Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator",
+    "description": "Calculate 5-day Biochemical Oxygen Demand (BOD₅) in mg/L, Ultimate carbonaceous oxygen demand BOD_u (BOD_u = BOD₅ / (1 - e^(-5k))), and temperature-adjusted reaction rates k_T = k₂₀·θ^(T-20).",
+    "path": "/tools/wastewater-bod-ultimate-biochemical-oxygen-demand-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bod calculator",
+      "biochemical oxygen demand formula bod5 ultimate bod u online",
+      "first order bod kinetics reaction rate k calculator",
+      "wastewater organic loading temperature correction calculator",
+      "environmental engineering water quality wastewater online"
+    ]
+  },
+  {
+    "name": "Manning's Equation Open Channel Flow & Normal Depth (Q = 1/n·A·R_h^(2/3)·S^(1/2)) Calculator",
+    "description": "Calculate open channel gravity flow discharge Q in m³/s (Manning's Equation), flow velocity v in m/s, hydraulic radius R_h (A / P), and wetted perimeter for rectangular and trapezoidal drainage channels.",
+    "path": "/tools/manning-open-channel-flow-trapezoidal-hydraulic-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "manning equation calculator",
+      "open channel flow formula q equals 1 over n a r two thirds s half online",
+      "hydraulic radius normal depth trapezoidal channel calculator",
+      "manning roughness coefficient culvert storm sewer calculator",
+      "civil environmental hydraulic engineering open channel online"
+    ]
+  },
+  {
+    "name": "Froude Number (Fr) & Open Channel Hydraulic Jump Energy Dissipation Calculator",
+    "description": "Calculate open channel flow Froude Number Fr (Fr = v / √(g·y)), flow regime (Subcritical Fr under 1 vs Supercritical Fr over 1), sequent conjugate jump depth y₂ (Bélanger equation), and energy head loss ΔE.",
+    "path": "/tools/froude-number-hydraulic-jump-energy-dissipation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "froude number calculator",
+      "hydraulic jump formula sequent depth belanger online",
+      "subcritical supercritical flow froude calculator",
+      "spillway hydraulic jump energy dissipation calculator",
+      "civil environmental hydraulic engineering open channel online"
+    ]
+  },
+  {
+    "name": "SCS-CN Runoff Curve Number Rainfall-Runoff Depth (Q = (P - 0.2S)² / (P + 0.8S)) Calculator",
+    "description": "Calculate storm event direct runoff depth Q in mm (USDA NRCS / SCS Runoff Curve Number method: Q = (P - 0.2·S)² / (P + 0.8·S)), maximum soil potential retention S = (25400/CN - 254), and initial abstraction I_a.",
+    "path": "/tools/scs-curve-number-runoff-precipitation-depth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "scs curve number calculator",
+      "rainfall runoff depth formula online",
+      "nrcs runoff curve number cn calculator",
+      "initial abstraction potential retention s calculator",
+      "hydrology stormwater management civil engineering online"
+    ]
+  },
+  {
+    "name": "Rational Method Peak Stormwater Runoff Discharge (Q = C·I·A) Calculator",
+    "description": "Calculate urban drainage watershed peak flood runoff discharge flow rate Q in m³/s and cfs (Rational Formula: Q = C · I · A) from runoff coefficient C, rainfall intensity I (mm/hr), and drainage basin area A.",
+    "path": "/tools/rational-method-peak-stormwater-runoff-discharge-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rational method calculator",
+      "peak stormwater runoff formula q equals c i a online",
+      "rational runoff coefficient rainfall intensity calculator",
+      "urban drainage storm sewer sizing calculator cfs m3 s",
+      "civil environmental engineering hydrology stormwater online"
+    ]
+  },
+  {
+    "name": "Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator",
+    "description": "Calculate acoustic Sound Pressure Level SPL in dB (SPL = 20·log₁₀(p / p₀)), point source distance attenuation (SPL₂ = SPL₁ - 20·log₁₀(r₂ / r₁) - 6 dB per distance doubling), and sound power level L_w.",
+    "path": "/tools/sound-pressure-level-spl-decibel-distance-attenuation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound pressure level calculator",
+      "spl decibel distance attenuation formula online",
+      "6 db per doubling of distance acoustic calculator",
+      "sound power level lw to spl calculator",
+      "environmental acoustics noise pollution mechanical noise online"
+    ]
+  },
+  {
+    "name": "Equivalent Continuous Sound Level (L_eq Industrial Noise Exposure) Calculator",
+    "description": "Calculate cumulative energy-averaged Equivalent Continuous Sound Level L_eq in dBA (L_eq = 10 · log₁₀(1/T · ∑ t_i · 10^(L_i/10))) and OSHA/NIOSH Daily Noise Dose (D%) for occupational safety.",
+    "path": "/tools/equivalent-continuous-sound-level-leq-noise-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "leq calculator",
+      "equivalent continuous sound level formula online",
+      "osha daily noise dose d percentage calculator",
+      "energy average sound level leq decibels calculator",
+      "occupational safety acoustics industrial hygiene online"
+    ]
+  }
+]

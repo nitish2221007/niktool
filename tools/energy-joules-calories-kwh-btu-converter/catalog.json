@@ -1,0 +1,15 @@
+{
+  "name": "Energy Unit Converter (Joules, kWh, Calories, BTU)",
+  "description": "Convert energy units between Joules (J), Kilowatt-Hours (kWh), Food Calories (kcal), British Thermal Units (BTU), and Electron-Volts (eV).",
+  "path": "/tools/energy-joules-calories-kwh-btu-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "energy unit converter",
+    "joules to kwh converter",
+    "calories to joules calculator",
+    "btu to kwh converter",
+    "energy conversion table online"
+  ],
+  "order": 131
+}

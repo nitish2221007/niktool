@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate quantum statistical Fermi-Dirac state occupancy probability (f(E) = 1 / [exp((E - E_F) / (k_B·T)) + 1]) and density of states in metals and semiconductors.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/fermi-dirac-distribution-occupancy-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate quantum statistical Fermi-Dirac state occupancy probability (f(E) = 1 / [exp((E - E_F) / (k_B·T)) + 1]) and density of states in metals and semiconductors.">
+  <meta property="og:url" content="https://niktool.in/tools/fermi-dirac-distribution-occupancy-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/fermi-dirac-distribution-occupancy-calculator/",
+        "description": "Calculate quantum statistical Fermi-Dirac state occupancy probability (f(E) = 1 / [exp((E - E_F) / (k_B·T)) + 1]) and density of states in metals and semiconductors.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "When can the Fermi-Dirac distribution be approximated by Maxwell-Boltzmann?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When $(E - E_F) ge 3 k_B T$, the \"$+1$\" in the denominator becomes negligible, simplifying $f(E) approx e^{-(E - E_F)/k_B T}$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator</h1>
+      <p>Calculate quantum statistical Fermi-Dirac state occupancy probability (f(E) = 1 / [exp((E - E_F) / (k_B·T)) + 1]) and density of states in metals and semiconductors.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">State Energy E (eV), Fermi Energy E_F (eV) & Temperature T (Kelvin)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="fd-e">Energy E (eV)</label>
+          <input class="tool-textarea" id="fd-e" type="number" step="0.05" value="5.10" placeholder="5.10 eV" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fd-ef">Fermi Level E_F (eV)</label>
+          <input class="tool-textarea" id="fd-ef" type="number" step="0.05" value="5.00" placeholder="5.00 eV" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="fd-temp">Temp T (K)</label>
+          <input class="tool-textarea" id="fd-temp" type="number" step="25" value="300.0" placeholder="300.0 K (Room Temp)" />
+        </div>
+      </div>
+      <div id="fd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="fd-res-fe" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">f(E) = 0.0207 (2.07% Full)</span>
+            <span class="stat-label">Fermi-Dirac Electron State Occupancy Probability</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="fd-res-kbt" style="font-weight:700;">Thermal Energy k_B·T = 25.85 meV (E - E_F = +0.100 eV = 3.87 k_B·T above Fermi Level)</span>
+            <span class="stat-label">Thermal Smearing Width & Energy Offset</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Fermi-Dirac Distribution Electron Occupancy Probability (f(E)) Calculator</h2>
+      <ol>
+        <li>Enter target quantum electron state energy E in electron-volts (eV).</li>
+        <li>Enter chemical potential / Fermi level $E_F$ in electron-volts (eV).</li>
+        <li>Enter absolute temperature in Kelvin (T = 0 K to 1,000+ K).</li>
+        <li>Inspect Fermi-Dirac distribution state probability $f(E)$ and thermal smearing width $k_B T$.</li>
+      </ol>
+
+      <h2>Enrico Fermi & Paul Dirac 1926 Pauli Exclusion Statistics</h2>
+      <p>Because electrons are spin-1/2 fermions subject to the Pauli Exclusion Principle, states cannot be multiply occupied; at the Fermi energy ($E = E_F$), the state occupancy probability is always exactly $f(E_F) = 0.50$ (50%) regardless of temperature.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>When can the Fermi-Dirac distribution be approximated by Maxwell-Boltzmann?</summary>
+        <p>When $(E - E_F) ge 3 k_B T$, the "$+1$" in the denominator becomes negligible, simplifying $f(E) approx e^{-(E - E_F)/k_B T}$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/fermi-dirac-distribution-occupancy-calculator/tool.js"></script>
+</body>
+</html>

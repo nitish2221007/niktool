@@ -1,0 +1,15 @@
+{
+  "name": "Diffie-Hellman Key Exchange (Shared Secret K = g^(a·b) mod p) Calculator",
+  "description": "Simulate Diffie-Hellman key exchange: generate Alice and Bob public keys (A = g^a mod p, B = g^b mod p) and compute identical shared secret session keys (K = B^a mod p = A^b mod p) for cryptography.",
+  "path": "/tools/diffie-hellman-key-exchange-shared-secret-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "diffie hellman calculator",
+    "diffie hellman shared secret formula g to ab mod p online",
+    "alice bob public private key exchange calculator",
+    "discrete logarithm diffie hellman key generator calculator",
+    "cybersecurity cryptographic key exchange online"
+  ],
+  "order": 1086
+}

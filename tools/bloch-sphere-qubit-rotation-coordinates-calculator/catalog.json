@@ -1,0 +1,15 @@
+{
+  "name": "Bloch Sphere Qubit State (|ψ⟩ = cos(θ/2)|0⟩ + e^(iφ)sin(θ/2)|1⟩) Calculator",
+  "description": "Calculate 2-level quantum state Bloch Sphere cartesian coordinates (x = sin θ·cos φ, y = sin θ·sin φ, z = cos θ) and simulate single-qubit quantum logic gate rotations (Hadamard H, Pauli X, Y, Z, Phase S, T gate).",
+  "path": "/tools/bloch-sphere-qubit-rotation-coordinates-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "bloch sphere calculator",
+    "qubit state vector formula psi equals cos theta over 2 online",
+    "bloch sphere cartesian coordinates xyz calculator",
+    "single qubit rotation gate hadamard pauli calculator",
+    "quantum computing bloch vector visualization online"
+  ],
+  "order": 869
+}

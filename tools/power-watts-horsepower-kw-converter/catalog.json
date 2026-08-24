@@ -1,0 +1,15 @@
+{
+  "name": "Power Unit Converter (Watts, Horsepower, kW, BTU/hr)",
+  "description": "Convert mechanical, electrical, and thermal power across Watts (W), Kilowatts (kW), Mechanical Horsepower (HP), and BTU per hour (BTU/hr).",
+  "path": "/tools/power-watts-horsepower-kw-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "power unit converter",
+    "watts to horsepower calculator",
+    "kw to hp converter",
+    "btu per hour to kw converter",
+    "mechanical horsepower converter online"
+  ],
+  "order": 221
+}

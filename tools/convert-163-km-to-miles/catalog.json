@@ -1,0 +1,15 @@
+{
+  "name": "Convert 163 KM to Miles",
+  "description": "Convert 163 kilometers to miles (101.28 miles). 100% free and local.",
+  "path": "/tools/convert-163-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 163 km to miles",
+    "Convert 163 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

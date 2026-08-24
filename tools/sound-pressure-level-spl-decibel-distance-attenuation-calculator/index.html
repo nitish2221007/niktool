@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate acoustic Sound Pressure Level SPL in dB (SPL = 20·log₁₀(p / p₀)), point source distance attenuation (SPL₂ = SPL₁ - 20·log₁₀(r₂ / r₁) - 6 dB per distance doubling), and sound power level L_w.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/sound-pressure-level-spl-decibel-distance-attenuation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator | NikTool">
+  <meta property="og:description" content="Calculate acoustic Sound Pressure Level SPL in dB (SPL = 20·log₁₀(p / p₀)), point source distance attenuation (SPL₂ = SPL₁ - 20·log₁₀(r₂ / r₁) - 6 dB per distance doubling), and sound power level L_w.">
+  <meta property="og:url" content="https://niktool.in/tools/sound-pressure-level-spl-decibel-distance-attenuation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/sound-pressure-level-spl-decibel-distance-attenuation-calculator/",
+        "description": "Calculate acoustic Sound Pressure Level SPL in dB (SPL = 20·log₁₀(p / p₀)), point source distance attenuation (SPL₂ = SPL₁ - 20·log₁₀(r₂ / r₁) - 6 dB per distance doubling), and sound power level L_w.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the acoustic reference sound pressure p0 in air?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "$p_0 = 20 mu\text{Pa}$ ($2 \times 10^{-5}\text{ Pa}$), representing the absolute human threshold of hearing at 1000 Hz."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator</h1>
+      <p>Calculate acoustic Sound Pressure Level SPL in dB (SPL = 20·log₁₀(p / p₀)), point source distance attenuation (SPL₂ = SPL₁ - 20·log₁₀(r₂ / r₁) - 6 dB per distance doubling), and sound power level L_w.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Source Noise Level SPL₁ (dB), Reference Distance r₁ (m) & Target Receptor Distance r₂ (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sp-spl1">Noise SPL₁ (dB)</label>
+          <input class="tool-textarea" id="sp-spl1" type="number" step="5" value="85.0" placeholder="85.0 dBA (Equipment)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-r1">Ref Distance r₁ (m)</label>
+          <input class="tool-textarea" id="sp-r1" type="number" step="0.5" value="1.0" placeholder="1.0 m" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sp-r2">Target Distance r₂ (m)</label>
+          <input class="tool-textarea" id="sp-r2" type="number" step="5" value="20.0" placeholder="20.0 m (Boundary)" />
+        </div>
+      </div>
+      <div id="sp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sp-res-spl2" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Target Noise SPL₂ = 59.0 dB (SAFE: < 65 dB limit ✓)</span>
+            <span class="stat-label">Geometric Spherical Free-Field Divergence Attenuation</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sp-res-drop" style="color:var(--green-dark); font-weight:700;">Noise Reduction ΔSPL = -26.0 dB (20× distance = 4.32 doublings × 6.02 dB)</span>
+            <span class="stat-label">Inverse Square Law Distance Drop (SPL₂ = SPL₁ - 20·log₁₀(r₂/r₁))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Sound Pressure Level (SPL Decibels & Inverse Square Distance Attenuation) Calculator</h2>
+      <ol>
+        <li>Enter known sound pressure level $	ext{SPL}_1$ in dB at reference measurement distance.</li>
+        <li>Enter reference measurement distance $r_1$ in meters (typically 1.0 m).</li>
+        <li>Enter receptor property line target distance $r_2$ in meters.</li>
+        <li>Inspect attenuated sound level $	ext{SPL}_2$ in dB and compare against residential noise limits.</li>
+      </ol>
+
+      <h2>Acoustic Inverse Square Spherical Divergence Law</h2>
+      <p>Sound pressure decays by exactly $6.02	ext{ dB}$ for every doubling of distance in a spherical free field ($	ext{SPL} propto 1/r$), defining plant perimeter setback distances.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the acoustic reference sound pressure p0 in air?</summary>
+        <p>$p_0 = 20 mu	ext{Pa}$ ($2 	imes 10^{-5}	ext{ Pa}$), representing the absolute human threshold of hearing at 1000 Hz.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/sound-pressure-level-spl-decibel-distance-attenuation-calculator/tool.js"></script>
+</body>
+</html>

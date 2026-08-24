@@ -1,0 +1,15 @@
+{
+  "name": "Steel Rebar Weight Calculator (20mm Diameter, 53m Length)",
+  "description": "Calculate steel reinforcement bar weight (130.86 kg) for 20mm diameter rebar of 53m length.",
+  "path": "/tools/steel-rebar-weight-calculator-diameter-20mm-length-53m/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "steel rebar weight calculator diameter 20mm length 53m",
+    "Steel Rebar Weight Calculator (20mm Diameter, 53m Length)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

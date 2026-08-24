@@ -1,0 +1,15 @@
+{
+  "name": "JSON Web Token (JWT) Decoder & Claims Inspector",
+  "description": "Decode Base64Url-encoded JSON Web Tokens (JWT) into raw Header, Claims Payload, expiration time (exp), and signature components client-side with zero data transmission.",
+  "path": "/tools/jwt-token-decoder-payload-inspector/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "jwt decoder online",
+    "json web token payload inspector",
+    "jwt claims expiry decoder",
+    "base64url jwt parser online",
+    "jwt token debugger privacy client side"
+  ],
+  "order": 413
+}

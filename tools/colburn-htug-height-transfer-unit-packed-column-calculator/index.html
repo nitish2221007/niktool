@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate mass transfer packed column bed height (Z = HTU · NTU) in meters from Height of a Transfer Unit (HTU) and Colburn Number of Transfer Units (NTU).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/colburn-htug-height-transfer-unit-packed-column-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator | NikTool">
+  <meta property="og:description" content="Calculate mass transfer packed column bed height (Z = HTU · NTU) in meters from Height of a Transfer Unit (HTU) and Colburn Number of Transfer Units (NTU).">
+  <meta property="og:url" content="https://niktool.in/tools/colburn-htug-height-transfer-unit-packed-column-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/colburn-htug-height-transfer-unit-packed-column-calculator/",
+        "description": "Calculate mass transfer packed column bed height (Z = HTU · NTU) in meters from Height of a Transfer Unit (HTU) and Colburn Number of Transfer Units (NTU).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is structured packing preferred over random dumping rings in modern columns?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Structured corrugated sheet metal packings offer much higher surface area per unit volume with lower pressure drop, cutting HTU in half."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator</h1>
+      <p>Calculate mass transfer packed column bed height (Z = HTU · NTU) in meters from Height of a Transfer Unit (HTU) and Colburn Number of Transfer Units (NTU).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Height of Transfer Unit HTU (m), Inlet y_in (%), Target y_out (%) & Absorption Factor A</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ntu-htu">HTU Height (m)</label>
+          <input class="tool-textarea" id="ntu-htu" type="number" step="any" value="0.65" placeholder="0.65 m (Structured Packing)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ntu-yin">Inlet y_in (%)</label>
+          <input class="tool-textarea" id="ntu-yin" type="number" step="any" value="4.0" placeholder="4.0 %" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ntu-yout">Target y_out (%)</label>
+          <input class="tool-textarea" id="ntu-yout" type="number" step="any" value="0.08" placeholder="0.08 %" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ntu-a">Factor A</label>
+          <input class="tool-textarea" id="ntu-a" type="number" step="0.1" value="1.40" placeholder="1.40" />
+        </div>
+      </div>
+      <div id="ntu-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ntu-res-z" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Z = 4.41 m Packing Height</span>
+            <span class="stat-label">Required Packed Bed Height (Z = HTU · NTU)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ntu-res-ntu" style="font-weight:700;">NTU_OG = 6.78 Transfer Units (Separation Difficulty: 98.0% Removal)</span>
+            <span class="stat-label">Overall Gas-Phase Transfer Units (NTU_OG)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Colburn Number of Transfer Units (NTU) & Packed Column Height (Z) Calculator</h2>
+      <ol>
+        <li>Enter packing Height of a Transfer Unit (HTU) in meters (typically 0.3 to 0.8 m for high-efficiency structured packings like Mellapak).</li>
+        <li>Enter inlet gas solute concentration $y_{	ext{in}}$ in %.</li>
+        <li>Enter target outlet gas solute concentration $y_{	ext{out}}$ in %.</li>
+        <li>Enter absorption factor A ($A = L / mG$).</li>
+        <li>Inspect required total packed column bed height Z in meters and feet.</li>
+      </ol>
+
+      <h2>Allan Colburn 1939 Continuous Mass Transfer Integration</h2>
+      <p>Packed columns transfer mass continuously rather than in discrete equilibrium trays; factoring column height into $Z = HTU 	imes NTU$ separates the equipment mass transfer efficiency ($HTU$) from the thermodynamic separation difficulty ($NTU$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is structured packing preferred over random dumping rings in modern columns?</summary>
+        <p>Structured corrugated sheet metal packings offer much higher surface area per unit volume with lower pressure drop, cutting HTU in half.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/colburn-htug-height-transfer-unit-packed-column-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 64 Miles to KM",
+  "description": "Convert 64 miles to kilometers (103.00 km). 100% free and local.",
+  "path": "/tools/convert-64-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 64 miles to km",
+    "Convert 64 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

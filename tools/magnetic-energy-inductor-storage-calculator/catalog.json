@@ -1,0 +1,15 @@
+{
+  "name": "Inductor Magnetic Energy Storage (E = ½LI²) Calculator",
+  "description": "Calculate stored magnetic energy (E = ½ · L · I²) in Joules and millijoules, and magnetic flux linkage (λ = L · I) for inductors and chokes.",
+  "path": "/tools/magnetic-energy-inductor-storage-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "magnetic energy inductor calculator",
+    "half l i squared calculator",
+    "stored magnetic energy formula",
+    "inductor energy joules online",
+    "flyback inductor energy calculator"
+  ],
+  "order": 360
+}

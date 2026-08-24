@@ -1,0 +1,15 @@
+{
+  "name": "Convert 105°F Fahrenheit to Celsius Temp",
+  "description": "Convert 105 degrees Fahrenheit (°F) to Celsius (40.6°C) instantly.",
+  "path": "/tools/convert-105-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 105 fahrenheit to celsius temp",
+    "Convert 105°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

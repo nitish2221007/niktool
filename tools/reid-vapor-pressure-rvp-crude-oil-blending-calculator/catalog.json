@@ -1,0 +1,15 @@
+{
+  "name": "Reid Vapor Pressure (RVP) Gasoline & Crude Blending (Chevron Formula) Calculator",
+  "description": "Calculate petroleum gasoline blending Reid Vapor Pressure (RVP_blend = (Σ v_i · RVP_i^1.25)^(1/1.25)) in psi/kPa across butane, reformate, alkylate, and FCC naphtha components.",
+  "path": "/tools/reid-vapor-pressure-rvp-crude-oil-blending-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "reid vapor pressure calculator",
+    "rvp blending formula chevron 1.25 power online",
+    "gasoline rvp blending index calculator online",
+    "butane blending gasoline rvp calculator",
+    "petroleum refinery rvp compliance online"
+  ],
+  "order": 770
+}

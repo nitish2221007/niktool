@@ -1,0 +1,16 @@
+{
+  "name": "Flip Image Vertically Online",
+  "description": "Flip image upside down / vertically online.",
+  "path": "/tools/flip-image-vertically-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "flip image vertically online",
+    "Flip Image Vertically Online",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

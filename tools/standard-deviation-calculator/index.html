@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Standard Deviation Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate sample and population standard deviation, variance, mean, sum, count, and margin of error from any comma- or space-separated dataset.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/standard-deviation-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Standard Deviation Calculator | NikTool">
+  <meta property="og:description" content="Calculate sample and population standard deviation, variance, mean, sum, count, and margin of error from any comma- or space-separated dataset.">
+  <meta property="og:url" content="https://niktool.in/tools/standard-deviation-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Standard Deviation Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/standard-deviation-calculator/",
+        "description": "Calculate sample and population standard deviation, variance, mean, sum, count, and margin of error from any comma- or space-separated dataset.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the standard deviation formula?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sample SD = sqrt(sum((x - mean)^2) / (n - 1))"
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Standard Deviation Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Standard Deviation Calculator</h1>
+      <p>Calculate sample and population standard deviation, variance, mean, sum, count, and margin of error from any comma- or space-separated dataset.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Data Input & Statistical Analysis</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="sd-input">Enter Numbers (separated by commas, spaces, or newlines)</label>
+        <textarea class="tool-textarea" id="sd-input" rows="4" placeholder="e.g. 10, 12, 23, 23, 16, 23, 21, 16"></textarea>
+      </div>
+      <div id="sd-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:1rem;">
+          <div class="stat">
+            <span class="stat-value" id="sd-res-sample" style="color:var(--green-dark); font-weight:800;">-</span>
+            <span class="stat-label">Sample Std Dev (s)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sd-res-pop">-</span>
+            <span class="stat-label">Population Std Dev (σ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sd-res-mean">-</span>
+            <span class="stat-label">Mean (Average)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sd-res-var">-</span>
+            <span class="stat-label">Sample Variance (s²)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sd-res-count">-</span>
+            <span class="stat-label">Sample Count (n)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sd-res-sum">-</span>
+            <span class="stat-label">Sum (Σx)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Standard Deviation Calculator</h2>
+      <ol>
+        <li>Paste your dataset (numbers separated by commas, spaces, or tabs).</li>
+        <li>Click <strong>Calculate</strong> to inspect both sample standard deviation (Bessel's correction n-1) and population standard deviation (n).</li>
+        <li>Review additional stats including Mean, Sum, and Variance.</li>
+      </ol>
+
+      <h2>Sample vs Population Standard Deviation</h2>
+      <p>Use Sample Standard Deviation (s) with divisor (n-1) when your data represents a sample of a wider population to prevent underestimating variance. Use Population Standard Deviation (σ) with divisor (n) when your dataset encompasses the entire population.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the standard deviation formula?</summary>
+        <p>Sample SD = sqrt(sum((x - mean)^2) / (n - 1))</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/standard-deviation-calculator/tool.js"></script>
+</body>
+</html>

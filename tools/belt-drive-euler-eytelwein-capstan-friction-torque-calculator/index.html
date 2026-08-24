@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate flat/V-belt drive and marine capstan belt tension ratio (T₁ / T₂ = e^(μ·β)), maximum transferable torque (T_torque = (T₁ - T₂)·R), and transmitted mechanical power (P = (T₁ - T₂)·v) without slip.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/belt-drive-euler-eytelwein-capstan-friction-torque-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate flat/V-belt drive and marine capstan belt tension ratio (T₁ / T₂ = e^(μ·β)), maximum transferable torque (T_torque = (T₁ - T₂)·R), and transmitted mechanical power (P = (T₁ - T₂)·v) without slip.">
+  <meta property="og:url" content="https://niktool.in/tools/belt-drive-euler-eytelwein-capstan-friction-torque-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/belt-drive-euler-eytelwein-capstan-friction-torque-calculator/",
+        "description": "Calculate flat/V-belt drive and marine capstan belt tension ratio (T₁ / T₂ = e^(μ·β)), maximum transferable torque (T_torque = (T₁ - T₂)·R), and transmitted mechanical power (P = (T₁ - T₂)·v) without slip.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why do V-belts transmit far more torque than flat belts?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The $40^circ$ V-groove wedges the belt, increasing virtual friction to $mu_{\text{virtual}} = mu / sin(\theta/2) approx 3mu$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator</h1>
+      <p>Calculate flat/V-belt drive and marine capstan belt tension ratio (T₁ / T₂ = e^(μ·β)), maximum transferable torque (T_torque = (T₁ - T₂)·R), and transmitted mechanical power (P = (T₁ - T₂)·v) without slip.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Tight Side Tension T₁ (N), Friction Coeff μ, Wrap Angle β (°) & Pulley Radius R (m)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bt-t1">Tight Tension T₁ (N)</label>
+          <input class="tool-textarea" id="bt-t1" type="number" step="500" value="2500" placeholder="2,500 N" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bt-mu">Friction (μ)</label>
+          <input class="tool-textarea" id="bt-mu" type="number" step="0.05" value="0.30" placeholder="0.30 (Rubber on Steel)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bt-beta">Wrap Angle β (°)</label>
+          <input class="tool-textarea" id="bt-beta" type="number" step="15" value="180.0" placeholder="180.0° (π radians)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bt-rad">Pulley Radius R (m)</label>
+          <input class="tool-textarea" id="bt-rad" type="number" step="0.05" value="0.15" placeholder="0.15 m" />
+        </div>
+      </div>
+      <div id="bt-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bt-res-ratio" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Tension Ratio T₁ / T₂ = 2.57</span>
+            <span class="stat-label">Euler-Eytelwein Capstan Tension Ratio (e^(μ·β))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bt-res-tq" style="color:var(--green-dark); font-weight:700;">Max Torque = 229.0 N·m | Slack Tension T₂ = 974 N (Net Driving Force: 1,526 N)</span>
+            <span class="stat-label">Maximum Transferable Torque & Slack Side Tension</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Belt Drive Capstan Friction (Euler-Eytelwein T₁ / T₂ = e^(μ·β)) Calculator</h2>
+      <ol>
+        <li>Enter tight side belt tension $T_1$ in Newtons.</li>
+        <li>Enter friction coefficient $mu$ between belt and pulley.</li>
+        <li>Enter belt contact wrap angle $eta$ in degrees (e.g. $180^circ = pi	ext{ rad}$).</li>
+        <li>Enter driving pulley radius R in meters.</li>
+        <li>Inspect tension holding ratio ($T_1/T_2 = e^{mueta}$), slack side tension $T_2$, and maximum transferable torque without slip.</li>
+      </ol>
+
+      <h2>Leonhard Euler & Johann Eytelwein 1808 Capstan Formula</h2>
+      <p>Because holding force scales exponentially with wrap angle ($T_1 = T_2 e^{mueta}$), winding a mooring rope just 3 full turns around a harbor capstan ($eta = 6pi$) multiplies a sailor's pulling force by over 300 times.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why do V-belts transmit far more torque than flat belts?</summary>
+        <p>The $40^circ$ V-groove wedges the belt, increasing virtual friction to $mu_{	ext{virtual}} = mu / sin(	heta/2) approx 3mu$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/belt-drive-euler-eytelwein-capstan-friction-torque-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Circumference of Circle (Radius 80 Units)",
+  "description": "Calculate circumference of a circle with radius 80 units (C = 2πr = 502.65).",
+  "path": "/tools/circumference-of-circle-radius-80-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "circumference of circle radius 80 units",
+    "Circumference of Circle (Radius 80 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

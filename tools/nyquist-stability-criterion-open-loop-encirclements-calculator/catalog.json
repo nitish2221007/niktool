@@ -1,0 +1,15 @@
+{
+  "name": "Nyquist Stability Criterion (Z = N + P) Feedback Encirclements Calculator",
+  "description": "Calculate closed-loop system stability using the Nyquist Stability Criterion (Z = N + P where Z = number of unstable closed-loop poles, N = clockwise encirclements of -1+0j, P = open-loop unstable poles).",
+  "path": "/tools/nyquist-stability-criterion-open-loop-encirclements-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "nyquist stability criterion calculator",
+    "z equals n plus p nyquist formula online",
+    "open loop encirclements minus 1 point calculator",
+    "control systems nyquist plot stability calculator",
+    "cauchy argument principle nyquist stability online"
+  ],
+  "order": 981
+}

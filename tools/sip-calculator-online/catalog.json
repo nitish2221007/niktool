@@ -1,0 +1,15 @@
+{
+  "name": "SIP Investment Return Calculator",
+  "description": "Calculate wealth gain and expected returns on Systematic Investment Plans (SIP).",
+  "path": "/tools/sip-calculator-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "sip calculator online",
+    "SIP Investment Return Calculator",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

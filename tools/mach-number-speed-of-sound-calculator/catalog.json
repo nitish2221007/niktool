@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number & Supersonic Speed Calculator",
+  "description": "Calculate aircraft Mach number (M = v / c), flight regimes (Subsonic, Transonic, Supersonic, Hypersonic), and altitude speed of sound.",
+  "path": "/tools/mach-number-speed-of-sound-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mach number calculator",
+    "speed of sound altitude calculator",
+    "supersonic speed calculator",
+    "mach to kmh converter",
+    "hypersonic mach calculator"
+  ],
+  "order": 181
+}

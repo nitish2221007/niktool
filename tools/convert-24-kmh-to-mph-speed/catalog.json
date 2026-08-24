@@ -1,0 +1,15 @@
+{
+  "name": "Convert 24 KM/H to MPH Speed",
+  "description": "Convert 24 kilometers per hour (km/h) to miles per hour (14.91 mph).",
+  "path": "/tools/convert-24-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 24 kmh to mph speed",
+    "Convert 24 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Manning Equation Open Channel Flow & Stream Discharge (Q = (1/n)·A·R^(2/3)·S^(1/2)) Calculator",
+  "description": "Calculate open channel river and storm drainage discharge (Q = (1/n) · A · R_h^(2/3) · S^(1/2)) in m³/s and flow velocity v in m/s from channel width, water depth, Manning roughness n, and bed slope S.",
+  "path": "/tools/stream-discharge-manning-open-channel-flow-velocity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "manning equation calculator",
+    "open channel flow formula q equals 1 over n a r to two thirds s to half online",
+    "hydraulic radius manning roughness stream discharge calculator",
+    "stormwater culvert channel velocity calculator",
+    "civil environmental river flow rate online"
+  ],
+  "order": 990
+}

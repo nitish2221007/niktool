@@ -1,0 +1,15 @@
+{
+  "name": "Convert 20px to REM",
+  "description": "Convert 20 pixels (px) to REM units based on 16px root font size (1.2500rem).",
+  "path": "/tools/convert-20px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 20px to rem",
+    "Convert 20px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

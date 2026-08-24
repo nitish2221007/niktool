@@ -1,0 +1,15 @@
+{
+  "name": "Projectile Maximum Peak Height Calculator",
+  "description": "Calculate the maximum vertical apex apex height (H_max = (v₀ · sin θ)² / (2g)) and time to apex for ballistic projectiles and sports balls.",
+  "path": "/tools/projectile-maximum-height-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "projectile maximum height calculator",
+    "apex height trajectory calculator",
+    "peak height projectile formula",
+    "ballistic peak altitude calculator",
+    "physics max height online"
+  ],
+  "order": 202
+}

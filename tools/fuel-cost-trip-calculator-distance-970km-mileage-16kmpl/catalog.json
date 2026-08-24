@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (970 km Distance, 16 km/l Mileage)",
+  "description": "Calculate fuel needed (60.6 L) and cost (₹5848) for 970 km trip at 16 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-970km-mileage-16kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 970km mileage 16kmpl",
+    "Fuel Cost Trip Calculator (970 km Distance, 16 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

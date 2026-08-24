@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cube (Side 13 Units)",
+  "description": "Calculate the volume of a 3D cube with side length 13 units (V = a³ = 2197).",
+  "path": "/tools/volume-of-cube-side-13-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cube side 13 units",
+    "Volume of Cube (Side 13 Units)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

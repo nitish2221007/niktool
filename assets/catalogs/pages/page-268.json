@@ -1,0 +1,338 @@
+[
+  {
+    "name": "CGPA to Percentage Calculator (Scale 5)",
+    "description": "Convert cumulative grade point average (CGPA) on a 5-point scale to exact percentage.",
+    "path": "/tools/cgpa-to-percentage-calculator-scale-5/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cgpa to percentage calculator scale 5",
+      "CGPA to Percentage Calculator (Scale 5)",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "CGPA to Percentage Calculator (Scale 6)",
+    "description": "Convert cumulative grade point average (CGPA) on a 6-point scale to exact percentage.",
+    "path": "/tools/cgpa-to-percentage-calculator-scale-6/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cgpa to percentage calculator scale 6",
+      "CGPA to Percentage Calculator (Scale 6)",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "CGPA to Percentage Calculator (Scale 7)",
+    "description": "Convert cumulative grade point average (CGPA) on a 7-point scale to exact percentage.",
+    "path": "/tools/cgpa-to-percentage-calculator-scale-7/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cgpa to percentage calculator scale 7",
+      "CGPA to Percentage Calculator (Scale 7)",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "CGPA to Percentage Calculator (Scale 8)",
+    "description": "Convert cumulative grade point average (CGPA) on a 8-point scale to exact percentage.",
+    "path": "/tools/cgpa-to-percentage-calculator-scale-8/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cgpa to percentage calculator scale 8",
+      "CGPA to Percentage Calculator (Scale 8)",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "CGPA to Percentage Calculator (Scale 9)",
+    "description": "Convert cumulative grade point average (CGPA) on a 9-point scale to exact percentage.",
+    "path": "/tools/cgpa-to-percentage-calculator-scale-9/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "cgpa to percentage calculator scale 9",
+      "CGPA to Percentage Calculator (Scale 9)",
+      "online tool",
+      "free tool",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 1 Units)",
+    "description": "Calculate circumference of a circle with radius 1 units (C = 2πr = 6.28).",
+    "path": "/tools/circumference-of-circle-radius-1-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 1 units",
+      "Circumference of Circle (Radius 1 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 10 Units)",
+    "description": "Calculate circumference of a circle with radius 10 units (C = 2πr = 62.83).",
+    "path": "/tools/circumference-of-circle-radius-10-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 10 units",
+      "Circumference of Circle (Radius 10 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 100 Units)",
+    "description": "Calculate circumference of a circle with radius 100 units (C = 2πr = 628.32).",
+    "path": "/tools/circumference-of-circle-radius-100-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 100 units",
+      "Circumference of Circle (Radius 100 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 101 Units)",
+    "description": "Calculate circumference of a circle with radius 101 units (C = 2πr = 634.60).",
+    "path": "/tools/circumference-of-circle-radius-101-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 101 units",
+      "Circumference of Circle (Radius 101 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 102 Units)",
+    "description": "Calculate circumference of a circle with radius 102 units (C = 2πr = 640.88).",
+    "path": "/tools/circumference-of-circle-radius-102-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 102 units",
+      "Circumference of Circle (Radius 102 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 103 Units)",
+    "description": "Calculate circumference of a circle with radius 103 units (C = 2πr = 647.17).",
+    "path": "/tools/circumference-of-circle-radius-103-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 103 units",
+      "Circumference of Circle (Radius 103 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 104 Units)",
+    "description": "Calculate circumference of a circle with radius 104 units (C = 2πr = 653.45).",
+    "path": "/tools/circumference-of-circle-radius-104-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 104 units",
+      "Circumference of Circle (Radius 104 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 105 Units)",
+    "description": "Calculate circumference of a circle with radius 105 units (C = 2πr = 659.73).",
+    "path": "/tools/circumference-of-circle-radius-105-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 105 units",
+      "Circumference of Circle (Radius 105 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 106 Units)",
+    "description": "Calculate circumference of a circle with radius 106 units (C = 2πr = 666.02).",
+    "path": "/tools/circumference-of-circle-radius-106-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 106 units",
+      "Circumference of Circle (Radius 106 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 107 Units)",
+    "description": "Calculate circumference of a circle with radius 107 units (C = 2πr = 672.30).",
+    "path": "/tools/circumference-of-circle-radius-107-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 107 units",
+      "Circumference of Circle (Radius 107 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 108 Units)",
+    "description": "Calculate circumference of a circle with radius 108 units (C = 2πr = 678.58).",
+    "path": "/tools/circumference-of-circle-radius-108-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 108 units",
+      "Circumference of Circle (Radius 108 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 109 Units)",
+    "description": "Calculate circumference of a circle with radius 109 units (C = 2πr = 684.87).",
+    "path": "/tools/circumference-of-circle-radius-109-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 109 units",
+      "Circumference of Circle (Radius 109 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 11 Units)",
+    "description": "Calculate circumference of a circle with radius 11 units (C = 2πr = 69.12).",
+    "path": "/tools/circumference-of-circle-radius-11-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 11 units",
+      "Circumference of Circle (Radius 11 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 110 Units)",
+    "description": "Calculate circumference of a circle with radius 110 units (C = 2πr = 691.15).",
+    "path": "/tools/circumference-of-circle-radius-110-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 110 units",
+      "Circumference of Circle (Radius 110 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 111 Units)",
+    "description": "Calculate circumference of a circle with radius 111 units (C = 2πr = 697.43).",
+    "path": "/tools/circumference-of-circle-radius-111-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 111 units",
+      "Circumference of Circle (Radius 111 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 112 Units)",
+    "description": "Calculate circumference of a circle with radius 112 units (C = 2πr = 703.72).",
+    "path": "/tools/circumference-of-circle-radius-112-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 112 units",
+      "Circumference of Circle (Radius 112 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 113 Units)",
+    "description": "Calculate circumference of a circle with radius 113 units (C = 2πr = 710.00).",
+    "path": "/tools/circumference-of-circle-radius-113-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 113 units",
+      "Circumference of Circle (Radius 113 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 114 Units)",
+    "description": "Calculate circumference of a circle with radius 114 units (C = 2πr = 716.28).",
+    "path": "/tools/circumference-of-circle-radius-114-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 114 units",
+      "Circumference of Circle (Radius 114 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Circumference of Circle (Radius 115 Units)",
+    "description": "Calculate circumference of a circle with radius 115 units (C = 2πr = 722.57).",
+    "path": "/tools/circumference-of-circle-radius-115-units/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "circumference of circle radius 115 units",
+      "Circumference of Circle (Radius 115 Units)",
+      "online tool",
+      "free converter",
+      "niktool"
+    ]
+  }
+]

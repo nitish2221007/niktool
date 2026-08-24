@@ -1,0 +1,15 @@
+{
+  "name": "CNC Milling Feed Rate (IPM / mm/min) & Spindle Speed Calculator",
+  "description": "Calculate CNC milling table feed rate (Feed = RPM · Flutes · FPT) in inches per minute (IPM) and mm/min, spindle RPM, and chip load per tooth.",
+  "path": "/tools/cnc-milling-feed-rate-ipt-ipm-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cnc milling feed rate calculator",
+    "spindle speed rpm formula sfm over diameter",
+    "feed rate ipm rpm flutes fpt calculator",
+    "chip load per tooth milling calculator online",
+    "speeds and feeds cnc machining online"
+  ],
+  "order": 569
+}

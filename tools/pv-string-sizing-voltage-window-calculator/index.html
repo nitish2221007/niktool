@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PV String Sizing & Cold Weather Voc Voltage Window Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate maximum series solar panel string size and coldest record winter open-circuit voltage (V_oc(cold) = V_oc · [1 + β_v · (T_min - 25°C)]) to prevent damaging MPPT inverter limits.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/pv-string-sizing-voltage-window-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PV String Sizing & Cold Weather Voc Voltage Window Calculator | NikTool">
+  <meta property="og:description" content="Calculate maximum series solar panel string size and coldest record winter open-circuit voltage (V_oc(cold) = V_oc · [1 + β_v · (T_min - 25°C)]) to prevent damaging MPPT inverter limits.">
+  <meta property="og:url" content="https://niktool.in/tools/pv-string-sizing-voltage-window-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "PV String Sizing & Cold Weather Voc Voltage Window Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/pv-string-sizing-voltage-window-calculator/",
+        "description": "Calculate maximum series solar panel string size and coldest record winter open-circuit voltage (V_oc(cold) = V_oc · [1 + β_v · (T_min - 25°C)]) to prevent damaging MPPT inverter limits.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is V_oc higher in cold temperatures?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Lower temperatures reduce thermal recombination of charge carriers, increasing the internal built-in potential barrier and boosting cell voltage."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>PV String Sizing & Cold Weather Voc Voltage Window Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>PV String Sizing & Cold Weather Voc Voltage Window Calculator</h1>
+      <p>Calculate maximum series solar panel string size and coldest record winter open-circuit voltage (V_oc(cold) = V_oc · [1 + β_v · (T_min - 25°C)]) to prevent damaging MPPT inverter limits.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Panel V_oc (V), Temp Coeff β_v (%/°C), Record Cold T_min (°C) & Max Inverter V_max (V)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="str-voc">Panel V_oc (STC)</label>
+          <input class="tool-textarea" id="str-voc" type="number" step="any" value="49.5" placeholder="49.5 V" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="str-beta">V_oc Coeff β_v (%/°C)</label>
+          <input class="tool-textarea" id="str-beta" type="number" step="0.01" value="-0.27" placeholder="-0.27 %/°C" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="str-tmin">Record Cold T_min (°C)</label>
+          <input class="tool-textarea" id="str-tmin" type="number" step="any" value="-15.0" placeholder="-15.0 °C Winter Low" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="str-vmax">Inverter Max V_max (V)</label>
+          <input class="tool-textarea" id="str-vmax" type="number" step="any" value="600.0" placeholder="600.0 V (Residential Limit)" />
+        </div>
+      </div>
+      <div id="str-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="str-res-maxp" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">10 Modules Max</span>
+            <span class="stat-label">Maximum Series Modules per MPPT String</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="str-res-voc" style="font-weight:700;">54.8 V Cold V_oc / Module (String Max: 548.5 V)</span>
+            <span class="stat-label">Worst-Case Winter Open Circuit Voltage</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use PV String Sizing & Cold Weather Voc Voltage Window Calculator</h2>
+      <ol>
+        <li>Enter solar panel open-circuit voltage V_oc at Standard Test Conditions (25°C).</li>
+        <li>Enter temperature coefficient of open-circuit voltage beta_v in %/°C (negative value, e.g. -0.27%/°C).</li>
+        <li>Enter local historical record minimum winter morning temperature in Celsius.</li>
+        <li>Enter inverter maximum allowable DC input voltage limit (600V for residential, 1000V/1500V for commercial).</li>
+        <li>Inspect maximum safe series modules per string to guarantee the inverter never suffers catastrophic overvoltage.</li>
+      </ol>
+
+      <h2>NEC Article 690 Cold Weather Overvoltage Compliance</h2>
+      <p>On freezing, crystal-clear winter mornings, solar module voltages rise significantly above their nameplate 25°C ratings; calculating worst-case cold open-circuit voltage prevents catastrophic destruction of inverter input bridge capacitors.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is V_oc higher in cold temperatures?</summary>
+        <p>Lower temperatures reduce thermal recombination of charge carriers, increasing the internal built-in potential barrier and boosting cell voltage.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/pv-string-sizing-voltage-window-calculator/tool.js"></script>
+</body>
+</html>

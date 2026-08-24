@@ -1,0 +1,15 @@
+{
+  "name": "Ackermann Steering Geometry Inner & Outer Wheel Angles Calculator",
+  "description": "Calculate 100% true Ackermann steering geometry (cot δ_outer - cot δ_inner = w / L) for slip-free vehicle turning to prevent front tire scrubbing.",
+  "path": "/tools/ackermann-steering-geometry-inner-outer-wheel-angle-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ackermann steering calculator",
+    "ackermann geometry formula cot delta outer minus cot delta inner equals w over l",
+    "inner outer wheel steering angle calculator online",
+    "automotive suspension tire scrubbing ackermann calculator",
+    "vehicle dynamics ackermann turning geometry online"
+  ],
+  "order": 754
+}

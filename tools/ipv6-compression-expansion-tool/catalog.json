@@ -1,0 +1,15 @@
+{
+  "name": "IPv6 Address Compression & Expansion Tool",
+  "description": "Compress IPv6 addresses into standard canonical RFC 5952 format with :: zero-suppression or fully expand into 8 complete 4-hex groups.",
+  "path": "/tools/ipv6-compression-expansion-tool/",
+  "category": "Developer",
+  "icon": "code",
+  "keywords": [
+    "ipv6 compression tool",
+    "ipv6 expander online",
+    "ipv6 canonical form rfc 5952",
+    "compress ipv6 address online",
+    "expand ipv6 to 8 blocks"
+  ],
+  "order": 290
+}

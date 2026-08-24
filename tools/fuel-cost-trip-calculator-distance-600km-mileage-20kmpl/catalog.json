@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (600 km Distance, 20 km/l Mileage)",
+  "description": "Calculate fuel needed (30.0 L) and cost (₹2895) for 600 km trip at 20 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-600km-mileage-20kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 600km mileage 20kmpl",
+    "Fuel Cost Trip Calculator (600 km Distance, 20 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

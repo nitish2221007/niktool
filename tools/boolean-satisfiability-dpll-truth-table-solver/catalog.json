@@ -1,0 +1,15 @@
+{
+  "name": "Boolean Logic Satisfiability (SAT Truth Table & Valid Assignment) Calculator",
+  "description": "Evaluate Boolean logic expressions (AND, OR, NOT, XOR, IMPLIES), generate complete 2^n truth tables, and determine formula Satisfiability (SAT vs UNSAT) and Tautology status for computer science.",
+  "path": "/tools/boolean-satisfiability-dpll-truth-table-solver/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "boolean satisfiability calculator",
+    "sat solver truth table 3 variables online",
+    "boolean logic tautology satisfiable unsat calculator",
+    "propositional logic truth table generator calculator",
+    "discrete math computer science sat solver online"
+  ],
+  "order": 1103
+}

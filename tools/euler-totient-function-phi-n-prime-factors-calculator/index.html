@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Euler's phi totient function (φ(n) = n · ∏ (1 - 1/p)) counting positive integers up to n that are coprime to n, prime factorization prime factors, and divisor count for number theory.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/euler-totient-function-phi-n-prime-factors-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator | NikTool">
+  <meta property="og:description" content="Calculate Euler's phi totient function (φ(n) = n · ∏ (1 - 1/p)) counting positive integers up to n that are coprime to n, prime factorization prime factors, and divisor count for number theory.">
+  <meta property="og:url" content="https://niktool.in/tools/euler-totient-function-phi-n-prime-factors-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/euler-totient-function-phi-n-prime-factors-calculator/",
+        "description": "Calculate Euler's phi totient function (φ(n) = n · ∏ (1 - 1/p)) counting positive integers up to n that are coprime to n, prime factorization prime factors, and divisor count for number theory.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is φ(p) if p is a prime number?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For any prime number p, all $p-1$ positive integers below p are coprime to p, so $phi(p) = p - 1$."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator</h1>
+      <p>Calculate Euler's phi totient function (φ(n) = n · ∏ (1 - 1/p)) counting positive integers up to n that are coprime to n, prime factorization prime factors, and divisor count for number theory.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Positive Integer n (e.g. 360, 1000, 3120)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="phi-n">Integer n</label>
+        <input class="tool-textarea" id="phi-n" type="number" step="1" min="1" max="10000000" value="360" placeholder="360" />
+      </div>
+      <div id="phi-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="phi-res-val" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">φ(360) = 96</span>
+            <span class="stat-label">Euler's Totient Value (96 numbers ≤ 360 are coprime to 360)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="phi-res-fact" style="color:var(--green-dark); font-weight:700;">Prime Factors: 2³ × 3² × 5¹ | Formula: 360 · (1 - ½) · (1 - ⅓) · (1 - ⅕) = 96</span>
+            <span class="stat-label">Unique Prime Factorization & Euler Product Formula</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Euler's Totient Function φ(n) & Prime Factorization (φ(n) = n·∏(1 - 1/p)) Calculator</h2>
+      <ol>
+        <li>Enter any positive integer n.</li>
+        <li>Inspect Euler Totient value $phi(n)$ representing the count of integers $k in [1, n]$ where $gcd(k, n) = 1$.</li>
+        <li>Inspect prime decomposition and Euler product formula step-by-step breakdown.</li>
+      </ol>
+
+      <h2>Leonhard Euler 1763 Totient Function & Euler's Theorem</h2>
+      <p>Euler generalized Fermat's Little Theorem into Euler's Theorem ($a^{phi(n)} equiv 1 pmod n$ for $gcd(a, n)=1$), which proves why RSA decryption successfully reconstructs the original message ($m^{e d} equiv m^{1 + kphi(n)} equiv m pmod n$).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is φ(p) if p is a prime number?</summary>
+        <p>For any prime number p, all $p-1$ positive integers below p are coprime to p, so $phi(p) = p - 1$.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/euler-totient-function-phi-n-prime-factors-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 8 x Height 10)",
+  "description": "Calculate volume of a cylinder with radius 8 and height 10 (V = πr²h = 2010.62).",
+  "path": "/tools/volume-of-cylinder-radius-8-height-10-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 8 height 10 units",
+    "Volume of Cylinder (Radius 8 x Height 10)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

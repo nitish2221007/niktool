@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Sound Intensity Level (dB = 10·log₁₀(I / I₀)) & Distance Inverse Square Law Calculator",
+    "description": "Calculate acoustic sound pressure/intensity level in decibels (L_p = 10 · log₁₀(I / 10⁻¹²) dB) and calculate geometric sound level attenuation over distance (L₂ = L₁ - 20·log₁₀(r₂ / r₁)) using the inverse-square law.",
+    "path": "/tools/sound-intensity-level-decibels-inverse-square-law-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "sound decibel calculator",
+      "sound intensity level formula 10 log i over i0 online",
+      "inverse square law sound distance attenuation calculator db",
+      "decibels to watts per meter squared sound calculator",
+      "acoustics noise level distance calculator online"
+    ]
+  },
+  {
+    "name": "Standing Wave Harmonics (String & Open/Closed Pipe Resonance) Calculator",
+    "description": "Calculate standing wave resonant harmonic frequencies (Open Pipe / Stretched String f_n = n·v / (2L), Closed Pipe f_n = n·v / (4L) for odd n) and wavelength nodes for acoustics and musical physics.",
+    "path": "/tools/standing-waves-harmonics-open-closed-pipe-string-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "standing waves calculator",
+      "harmonics open closed pipe formula f equals n v over 2l online",
+      "stretched string fundamental frequency resonant harmonics calculator",
+      "acoustics musical pitch harmonics calculator",
+      "physics standing waves nodes antinodes online"
+    ]
+  },
+  {
+    "name": "Snell's Law of Refraction (n₁·sin θ₁ = n₂·sin θ₂) & Critical Angle Calculator",
+    "description": "Calculate optical light refraction angle (θ₂ = arcsin[(n₁/n₂)·sin θ₁]), critical angle for Total Internal Reflection (θ_c = arcsin(n₂ / n₁)), and Brewster's polarization angle for optics and fiber telecommunications.",
+    "path": "/tools/snells-law-light-refraction-critical-angle-tir-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "snells law calculator",
+      "refraction formula n1 sin theta1 equals n2 sin theta2 online",
+      "critical angle total internal reflection fiber optics calculator",
+      "brewsters angle polarization calculator optics",
+      "physics light refraction index of refraction online"
+    ]
+  },
+  {
+    "name": "Thin Lens & Spherical Mirror (1/f = 1/d_o + 1/d_i) & Magnification Calculator",
+    "description": "Calculate optical focal length, image distance (1/d_i = 1/f - 1/d_o), lateral magnification (m = -d_i / d_o), and image properties (Real vs Virtual, Inverted vs Upright) for convex and concave lenses/mirrors.",
+    "path": "/tools/thin-lens-mirror-magnification-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thin lens equation calculator",
+      "lens formula 1 over f equals 1 over do plus 1 over di online",
+      "concave convex mirror magnification calculator",
+      "real virtual image distance thin lens calculator",
+      "geometrical optics focal length magnification online"
+    ]
+  },
+  {
+    "name": "Young's Double-Slit Interference (y = m·λ·L / d) & Fringe Width (β = λ·L / d) Calculator",
+    "description": "Calculate double-slit wave interference bright fringe position (y_m = m · λ · L / d) in mm, dark fringe minima, and uniform fringe spacing width (β = λ · L / d) for wave optics physics.",
+    "path": "/tools/young-double-slit-interference-fringe-width-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "youngs double slit calculator",
+      "interference fringe width formula beta equals lambda L over d online",
+      "double slit bright dark fringes position calculator",
+      "optical wavelength slit separation interference calculator",
+      "wave optics double slit experiment online"
+    ]
+  },
+  {
+    "name": "Single-Slit Fraunhofer Diffraction (a·sin θ = m·λ) & Central Maximum Width Calculator",
+    "description": "Calculate single-slit diffraction minima angles (sin θ = m·λ / a) and linear width of the central diffraction maximum (W = 2·λ·L / a) in mm for wave optics physics.",
+    "path": "/tools/single-slit-diffraction-central-maximum-width-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "single slit diffraction calculator",
+      "central maximum width formula w equals 2 lambda L over a online",
+      "fraunhofer diffraction single slit minima calculator",
+      "slit width airy disk wave optics calculator",
+      "optics single slit diffraction solver online"
+    ]
+  },
+  {
+    "name": "Polarization & Malus's Law (I = I₀·cos² θ) Transmitted Intensity Calculator",
+    "description": "Calculate polarized light intensity transmission through polarizing filters (I = I₀ · cos² θ) and multi-filter polarizers (e.g. 3-filter quantum eraser paradox) for wave optics physics.",
+    "path": "/tools/polarization-malus-law-light-intensity-transmission-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "malus law calculator",
+      "polarization intensity formula i equals i0 cos squared theta online",
+      "polarizer angle light transmission calculator",
+      "crossed polarizers three polarizer paradox calculator",
+      "wave optics light polarization online"
+    ]
+  },
+  {
+    "name": "Coulomb's Law Electrostatic Force (F = k_e·|q₁·q₂| / r²) Calculator",
+    "description": "Calculate electrostatic Coulomb force (F = k_e · |q₁ · q₂| / r²) in Newtons between two electric point charges in microcoulombs (μC) and separation distance r in physics.",
+    "path": "/tools/coulombs-law-electrostatic-force-two-point-charges-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "coulombs law calculator",
+      "electrostatic force formula f equals k q1 q2 over r squared online",
+      "point charge electric repulsion attraction calculator",
+      "coulomb constant ke physics force calculator",
+      "electrostatics coulombs law online"
+    ]
+  },
+  {
+    "name": "Point Charge Electric Field (E = k_e·q / r²) & Electric Potential (V = k_e·q / r) Calculator",
+    "description": "Calculate electrostatic Electric Field strength (E = k_e · q / r²) in N/C (or V/m) and absolute Electric Potential (V = k_e · q / r) in Volts generated by a point charge q at radial distance r.",
+    "path": "/tools/electric-field-electric-potential-point-charge-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "electric field point charge calculator",
+      "electric potential formula v equals k q over r online",
+      "electric field strength n per c volts per meter calculator",
+      "electrostatic potential energy point charge calculator",
+      "physics electrostatics electric field online"
+    ]
+  },
+  {
+    "name": "Parallel-Plate Capacitor Capacitance (C = κ·ε₀·A / d) & Stored Energy (U = ½·C·V²) Calculator",
+    "description": "Calculate parallel-plate electrostatic capacitance (C = κ · ε₀ · A / d) in pF/nF, stored electrical potential energy (U = ½ · C · V²) in Joules, and uniform electric field (E = V / d) in kV/m.",
+    "path": "/tools/parallel-plate-capacitor-capacitance-stored-energy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "capacitor capacitance calculator",
+      "parallel plate capacitor formula c equals kappa epsilon0 a over d online",
+      "stored electrical energy half c v squared calculator",
+      "dielectric constant capacitance voltage calculator",
+      "electronics electrostatic capacitor online"
+    ]
+  },
+  {
+    "name": "RC Circuit Time Constant (τ = R·C) Charging & Discharging Voltage Calculator",
+    "description": "Calculate resistor-capacitor (RC) circuit time constant (τ = R · C) in ms/seconds, instantaneous charging voltage (V(t) = V₀·(1 - e^(-t/τ))), and discharging voltage decay curve.",
+    "path": "/tools/rc-circuit-charging-discharging-time-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rc circuit calculator",
+      "time constant tau equals r c formula online",
+      "capacitor charging discharging voltage calculator",
+      "rc transient response exponential decay calculator",
+      "electronics rc circuit timing online"
+    ]
+  },
+  {
+    "name": "RLC Resonant Circuit (f₀ = 1 / (2π·√(LC))) & Quality Factor (Q) Calculator",
+    "description": "Calculate series/parallel RLC circuit resonant frequency (f₀ = 1 / (2π·√(LC))) in kHz/MHz, Quality Factor (Q = (1/R)·√(L/C)), and -3dB bandwidth (BW = f₀ / Q) for radio frequency tuning.",
+    "path": "/tools/rlc-resonant-frequency-quality-factor-bandwidth-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rlc resonance calculator",
+      "resonant frequency formula f0 equals 1 over 2 pi sqrt lc online",
+      "quality factor q factor rlc bandwidth calculator",
+      "series parallel rlc tank circuit tuner calculator",
+      "rf radio tuning resonant frequency online"
+    ]
+  },
+  {
+    "name": "Lorentz Magnetic Force (F = q·v·B·sin θ) & Cyclotron Gyro-Radius (r = m·v / q·B) Calculator",
+    "description": "Calculate magnetic deflecting force on a moving charge (F = q · v · B · sin θ) in Newtons, circular trajectory cyclotron radius (r = m·v / (q·B)), and cyclotron frequency (f_c = q·B / (2π·m)) for particle accelerators.",
+    "path": "/tools/lorentz-magnetic-force-charged-particle-cyclotron-radius-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "lorentz force calculator",
+      "magnetic force on charged particle formula f equals q v b sin theta online",
+      "cyclotron radius gyro radius calculator r equals m v over q b",
+      "cyclotron frequency particle accelerator calculator",
+      "physics electromagnetism lorentz force online"
+    ]
+  },
+  {
+    "name": "AC Circuits Reactance (X_L = 2π·f·L, X_C = 1 / (2π·f·C)) & Total Impedance (Z) Calculator",
+    "description": "Calculate AC alternating current inductive reactance (X_L = 2π·f·L), capacitive reactance (X_C = 1 / (2π·f·C)), total series impedance (Z = √(R² + (X_L - X_C)²)), and phase angle φ in degrees.",
+    "path": "/tools/ac-circuits-inductive-capacitive-reactance-impedance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ac impedance calculator",
+      "inductive capacitive reactance formula xl xc online",
+      "rlc series impedance z equals sqrt r squared plus xl minus xc squared calculator",
+      "ac circuit phase angle phi power factor calculator",
+      "electrical engineering ac circuit analysis online"
+    ]
+  },
+  {
+    "name": "AC Power Triangle & Power Factor (P = S·cos φ, Q = S·sin φ, S = V·I) Calculator",
+    "description": "Calculate AC electrical power triangle components: Real Active Power (P in kW = S · cos φ), Reactive Magnetizing Power (Q in kVAR = S · sin φ), Apparent Power (S in kVA = V · I), and Power Factor (PF = cos φ).",
+    "path": "/tools/power-factor-apparent-real-reactive-power-triangle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "power factor calculator",
+      "power triangle formula real reactive apparent power online",
+      "kw kva kvar power factor correction calculator",
+      "cos phi true power apparent power calculator",
+      "electrical engineering industrial power factor online"
+    ]
+  },
+  {
+    "name": "Circular Motion Centripetal Acceleration (a_c = v² / r) & Centripetal Force (F_c = m·v² / r) Calculator",
+    "description": "Calculate circular motion centripetal acceleration (a_c = v² / r = ω²·r) in m/s² and g-force, centripetal force (F_c = m·v² / r) in Newtons, and banking angle (tan θ = v² / (g·r)) for highway curves and roller coasters.",
+    "path": "/tools/centripetal-acceleration-centripetal-force-curved-motion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "centripetal acceleration calculator",
+      "centripetal force formula f equals m v squared over r online",
+      "g force circular motion curve calculator",
+      "banked curve roadway angle centripetal calculator",
+      "classical mechanics circular motion physics online"
+    ]
+  },
+  {
+    "name": "Rotational Dynamics (K_rot = ½·I·ω², L = I·ω) & Moment of Inertia Calculator",
+    "description": "Calculate rotational kinetic energy (K_rot = ½ · I · ω²) in Joules, angular momentum (L = I · ω) in kg·m²/s, and moment of inertia I for solid cylinders (½·m·r²), spheres (⅖·m·r²), and thin rods (1/12·m·L²).",
+    "path": "/tools/rotational-kinetic-energy-moment-of-inertia-angular-momentum-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rotational kinetic energy calculator",
+      "moment of inertia formula half m r squared online",
+      "angular momentum l equals i omega calculator",
+      "flywheel kinetic energy storage rotational dynamics calculator",
+      "classical mechanics rotational physics online"
+    ]
+  },
+  {
+    "name": "Torque Lever Arm (τ = r·F·sin θ) & Static Rotational Equilibrium (Στ = 0) Calculator",
+    "description": "Calculate mechanical torque moment (τ = r · F · sin θ) in N·m, mechanical advantage of levers, and solve static equilibrium balance equations (Στ = 0) for mechanical engineering.",
+    "path": "/tools/torque-lever-arm-rotational-equilibrium-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "torque calculator",
+      "lever arm torque formula tau equals r f sin theta online",
+      "mechanical advantage lever rotational equilibrium calculator",
+      "moment of force newton meters calculator",
+      "physics statics torque balance online"
+    ]
+  },
+  {
+    "name": "Simple Pendulum Period (T = 2π·√(L / g)) Small Angle Harmonic Motion Calculator",
+    "description": "Calculate gravitational simple pendulum period of oscillation (T = 2π · √(L / g)) in seconds and frequency f in Hz from pendulum length L and gravitational acceleration g on Earth, Moon, and Mars.",
+    "path": "/tools/simple-pendulum-period-small-angle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "simple pendulum calculator",
+      "pendulum period formula t equals 2 pi sqrt l over g online",
+      "simple harmonic motion pendulum frequency calculator",
+      "pendulum length gravity time period calculator",
+      "physics simple pendulum oscillation online"
+    ]
+  },
+  {
+    "name": "Mass-Spring Harmonic Oscillator Period (T = 2π·√(m / k)) & Frequency Calculator",
+    "description": "Calculate simple harmonic motion (SHM) mass-spring oscillation period (T = 2π · √(m / k)) in seconds, angular frequency (ω = √(k / m)), and spring potential energy (U = ½·k·x²) from spring constant k and mass m.",
+    "path": "/tools/mass-spring-simple-harmonic-motion-period-frequency-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mass spring calculator",
+      "simple harmonic motion shm period formula t equals 2 pi sqrt m over k online",
+      "spring constant oscillation frequency calculator",
+      "harmonic oscillator angular frequency omega calculator",
+      "physics simple harmonic motion spring online"
+    ]
+  },
+  {
+    "name": "Magnetic Force on Current-Carrying Wire (F = I·L·B·sin θ) Calculator",
+    "description": "Calculate magnetic Laplace force on a straight electrical wire (F = I · L · B · sin θ) in Newtons from current I in Amperes, wire length L in meters, magnetic field B in Tesla, and angle θ for electric motor physics.",
+    "path": "/tools/magnetic-force-current-carrying-conductor-wire-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magnetic force on wire calculator",
+      "laplace force formula f equals i l b sin theta online",
+      "current carrying conductor magnetic force calculator",
+      "electric motor torque wire magnetic force calculator",
+      "physics electromagnetism magnetic force on conductor online"
+    ]
+  },
+  {
+    "name": "Biot-Savart Law Magnetic Field (Wire B = μ₀·I / 2π·r & Solenoid B = μ₀·n·I) Calculator",
+    "description": "Calculate magnetic field B in microtesla (μT) and Gauss produced by long straight electrical wires (B = μ₀·I / 2π·r), circular loops, and multi-turn solenoids (B = μ₀ · n · I) in physics.",
+    "path": "/tools/biot-savart-law-magnetic-field-straight-wire-loop-solenoid-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "biot savart law calculator",
+      "magnetic field straight wire formula b equals mu0 i over 2 pi r online",
+      "solenoid magnetic field b equals mu0 n i calculator",
+      "electromagnet coil magnetic field calculator tesla",
+      "physics electromagnetism magnetic field online"
+    ]
+  },
+  {
+    "name": "Faraday's Law of Electromagnetic Induction (EMF = -N·(ΔΦ / Δt)) Calculator",
+    "description": "Calculate electromagnetic induced electromotive force voltage (EMF = -N · (ΔΦ / Δt)) in Volts, rate of magnetic flux change (ΔΦ/Δt in Webers/s), and Lenz's Law opposing polarity for electrical generators.",
+    "path": "/tools/faraday-law-electromagnetic-induction-induced-emf-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "faradays law induction calculator",
+      "induced emf formula emf equals minus n delta phi over delta t online",
+      "magnetic flux change rate webers per second calculator",
+      "lenzs law electromagnetic induction calculator volts",
+      "physics electric generator induction online"
+    ]
+  },
+  {
+    "name": "RL Circuit Time Constant (τ = L / R) Current Growth & Decay Calculator",
+    "description": "Calculate resistor-inductor (RL) circuit inductive time constant (τ = L / R) in ms, transient current growth (I(t) = I₀·(1 - e^(-t/τ))), stored magnetic energy (U = ½·L·I²), and inductive flyback voltage.",
+    "path": "/tools/rl-circuit-current-growth-decay-time-constant-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rl circuit calculator",
+      "time constant tau equals l over r formula online",
+      "inductor current growth decay transient calculator",
+      "rl circuit stored magnetic energy calculator",
+      "electronics rl circuit time constant online"
+    ]
+  }
+]

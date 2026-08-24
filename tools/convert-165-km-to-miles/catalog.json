@@ -1,0 +1,15 @@
+{
+  "name": "Convert 165 KM to Miles",
+  "description": "Convert 165 kilometers to miles (102.53 miles). 100% free and local.",
+  "path": "/tools/convert-165-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 165 km to miles",
+    "Convert 165 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Polarization & Malus's Law (I = I₀·cos² θ) Transmitted Intensity Calculator",
+  "description": "Calculate polarized light intensity transmission through polarizing filters (I = I₀ · cos² θ) and multi-filter polarizers (e.g. 3-filter quantum eraser paradox) for wave optics physics.",
+  "path": "/tools/polarization-malus-law-light-intensity-transmission-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "malus law calculator",
+    "polarization intensity formula i equals i0 cos squared theta online",
+    "polarizer angle light transmission calculator",
+    "crossed polarizers three polarizer paradox calculator",
+    "wave optics light polarization online"
+  ],
+  "order": 1039
+}

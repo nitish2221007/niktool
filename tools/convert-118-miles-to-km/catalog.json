@@ -1,0 +1,15 @@
+{
+  "name": "Convert 118 Miles to KM",
+  "description": "Convert 118 miles to kilometers (189.90 km). 100% free and local.",
+  "path": "/tools/convert-118-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 118 miles to km",
+    "Convert 118 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

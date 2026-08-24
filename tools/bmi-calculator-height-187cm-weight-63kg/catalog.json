@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 187cm, Weight 63kg)",
+  "description": "Calculate Body Mass Index (BMI 18.0) for height 187 cm and weight 63 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-187cm-weight-63kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 187cm weight 63kg",
+    "BMI Calculator (Height 187cm, Weight 63kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

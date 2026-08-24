@@ -1,0 +1,15 @@
+{
+  "name": "Molarity (M) to Molality (m) & Density Converter",
+  "description": "Convert between Molarity (mol/L solution) and Molality (mol/kg solvent) using solution density (d in g/mL) and solute molecular weight (MW in g/mol).",
+  "path": "/tools/molarity-to-molality-density-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "molarity to molality calculator",
+    "molality to molarity formula",
+    "convert molar to molal online",
+    "molarity density molecular weight molality",
+    "solution concentration converter chemistry"
+  ],
+  "order": 420
+}

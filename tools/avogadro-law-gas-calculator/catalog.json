@@ -1,0 +1,15 @@
+{
+  "name": "Avogadro's Gas Law Calculator",
+  "description": "Calculate gas volume or molar quantity changes at constant temperature and pressure using Avogadro's Law V₁ / n₁ = V₂ / n₂.",
+  "path": "/tools/avogadro-law-gas-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "avogadros law calculator",
+    "v1 n1 v2 n2 calculator",
+    "gas volume moles relationship",
+    "avogadro molar volume calculator",
+    "chemistry avogadro law online"
+  ],
+  "order": 170
+}

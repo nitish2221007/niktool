@@ -1,0 +1,15 @@
+{
+  "name": "Convert 93 KM/H to MPH Speed",
+  "description": "Convert 93 kilometers per hour (km/h) to miles per hour (57.79 mph).",
+  "path": "/tools/convert-93-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 93 kmh to mph speed",
+    "Convert 93 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 46 Miles to KM",
+  "description": "Convert 46 miles to kilometers (74.03 km). 100% free and local.",
+  "path": "/tools/convert-46-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 46 miles to km",
+    "Convert 46 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

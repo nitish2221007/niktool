@@ -1,0 +1,15 @@
+{
+  "name": "Body Surface Area (BSA Mosteller Formula BSA = √(W·H / 3600)) Calculator",
+  "description": "Calculate patient total Body Surface Area (BSA = √(Weight · Height / 3600)) in m² using the Mosteller, Du Bois, and Haycock formulas for chemotherapy dosing, burn assessment, and cardiac index.",
+  "path": "/tools/body-surface-area-mosteller-du-bois-chemotherapy-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "body surface area calculator",
+    "mosteller bsa formula square root w h over 3600 online",
+    "chemotherapy drug dosing bsa calculator m2",
+    "du bois body surface area calculator height weight",
+    "clinical pharmacology oncology bsa online"
+  ],
+  "order": 1137
+}

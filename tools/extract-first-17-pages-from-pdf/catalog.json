@@ -1,0 +1,16 @@
+{
+  "name": "Extract First 17 Pages From PDF",
+  "description": "Extract the first 17 pages of any PDF document into a clean file. 100% free and local.",
+  "path": "/tools/extract-first-17-pages-from-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "extract first 17 pages from pdf",
+    "Extract First 17 Pages From PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

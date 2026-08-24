@@ -1,0 +1,15 @@
+{
+  "name": "Prandtl-Meyer Supersonic Expansion Fan Function (ν(M)) Calculator",
+  "description": "Calculate supersonic Prandtl-Meyer expansion angle ν(M) in degrees (ν(M) = √((γ+1)/(γ-1)) · arctan√(((γ-1)/(γ+1))·(M²-1)) - arctan√(M²-1)) and post-turn expanded Mach number M₂.",
+  "path": "/tools/prandtl-meyer-expansion-fan-angle-mach-number-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "prandtl meyer expansion calculator",
+    "prandtl meyer function nu of m formula online",
+    "supersonic expansion fan corner turn calculator",
+    "post expansion mach number temperature drop calculator",
+    "aerodynamics compressible flow supersonic aircraft online"
+  ],
+  "order": 1417
+}

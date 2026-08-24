@@ -1,0 +1,15 @@
+{
+  "name": "Dendritic Cable Theory Space Constant (λ) & Membrane Time Constant (τ_m) Calculator",
+  "description": "Calculate neuron dendritic passive electrotonic signal decay length space constant (λ = √(r_m / r_i) = √(d·R_m / (4·R_i))) in μm/mm and membrane time constant (τ_m = R_m · C_m) in ms.",
+  "path": "/tools/cable-theory-length-time-constant-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cable theory calculator",
+    "neuron length constant lambda space constant formula online",
+    "membrane time constant tau m calculator online",
+    "dendritic electrotonic signal attenuation calculator",
+    "synaptic potential cable theory online"
+  ],
+  "order": 763
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Corrected Calcium in Hypoalbuminemia (Payne Formula Ca_corr = Ca_meas + 0.8·(4.0 - Alb)) Calculator",
+  "description": "Calculate serum total calcium corrected for hypoalbuminemia (Ca_corr = Ca_meas + 0.8 · (4.0 - Albumin)) in mg/dL and mmol/L to prevent misdiagnosing hypocalcemia in malnourished or ICU patients.",
+  "path": "/tools/corrected-calcium-hypoalbuminemia-payne-formula-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "corrected calcium calculator",
+    "hypoalbuminemia calcium correction payne formula online",
+    "albumin corrected total calcium calculator mg dl mmol l",
+    "ionized calcium pseudohypocalcemia calculator",
+    "clinical biochemistry calcium homeostasis online"
+  ],
+  "order": 1146
+}

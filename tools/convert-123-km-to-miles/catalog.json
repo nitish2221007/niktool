@@ -1,0 +1,15 @@
+{
+  "name": "Convert 123 KM to Miles",
+  "description": "Convert 123 kilometers to miles (76.43 miles). 100% free and local.",
+  "path": "/tools/convert-123-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 123 km to miles",
+    "Convert 123 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

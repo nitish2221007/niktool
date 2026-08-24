@@ -1,0 +1,15 @@
+{
+  "name": "Convert 74 EM to PX Value",
+  "description": "Convert 74 EM units to pixels (1184 px) based on 16px font context.",
+  "path": "/tools/convert-74-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 74 em to px value",
+    "Convert 74 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

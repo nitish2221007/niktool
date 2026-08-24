@@ -1,0 +1,15 @@
+{
+  "name": "Convert 4.5 REM to PX",
+  "description": "Convert 4.5 REM units to pixels (px) based on 16px root font size (72px).",
+  "path": "/tools/convert-4.5rem-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 4.5rem to px",
+    "Convert 4.5 REM to PX",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

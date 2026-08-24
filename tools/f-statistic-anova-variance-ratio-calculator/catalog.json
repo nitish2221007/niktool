@@ -1,0 +1,15 @@
+{
+  "name": "F-Statistic & Variance Ratio Test Calculator",
+  "description": "Calculate Fisher-Snedecor F-statistic (F = s₁² / s₂²) and degrees of freedom to compare variance equality across two independent populations for ANOVA.",
+  "path": "/tools/f-statistic-anova-variance-ratio-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "f statistic calculator",
+    "f test variance ratio calculator",
+    "anova f value calculator online",
+    "fisher snedecor f distribution",
+    "variance ratio hypothesis test"
+  ],
+  "order": 318
+}

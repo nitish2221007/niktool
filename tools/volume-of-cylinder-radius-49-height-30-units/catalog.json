@@ -1,0 +1,15 @@
+{
+  "name": "Volume of Cylinder (Radius 49 x Height 30)",
+  "description": "Calculate volume of a cylinder with radius 49 and height 30 (V = πr²h = 226288.92).",
+  "path": "/tools/volume-of-cylinder-radius-49-height-30-units/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "volume of cylinder radius 49 height 30 units",
+    "Volume of Cylinder (Radius 49 x Height 30)",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Photon Momentum & Radiation Pressure Calculator",
+  "description": "Calculate photon momentum (p = h / λ), radiation pressure (P = 2·I/c for perfect reflection), and solar sail propulsive thrust in space.",
+  "path": "/tools/photon-momentum-radiation-pressure-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "radiation pressure calculator",
+    "photon momentum formula calculator",
+    "solar sail thrust calculator online",
+    "pressure of light p 2i over c",
+    "optomechanical radiation pressure online"
+  ],
+  "order": 367
+}

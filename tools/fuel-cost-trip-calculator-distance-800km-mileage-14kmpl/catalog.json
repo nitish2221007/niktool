@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (800 km Distance, 14 km/l Mileage)",
+  "description": "Calculate fuel needed (57.1 L) and cost (₹5510) for 800 km trip at 14 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-800km-mileage-14kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 800km mileage 14kmpl",
+    "Fuel Cost Trip Calculator (800 km Distance, 14 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

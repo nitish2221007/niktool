@@ -1,0 +1,15 @@
+{
+  "name": "Euler Critical Column Buckling Load (P_cr) Calculator",
+  "description": "Calculate theoretical Euler elastic buckling compressive load (P_cr = (π² · E · I) / (K · L)²) and critical buckling stress (σ_cr = π² · E / (KL/r)²) for structural columns.",
+  "path": "/tools/euler-critical-buckling-load-column-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "euler buckling calculator",
+    "critical buckling load formula online",
+    "column buckling pi squared e i over kl squared",
+    "euler column critical stress calculator",
+    "structural steel column buckling online"
+  ],
+  "order": 453
+}

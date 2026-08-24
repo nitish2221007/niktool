@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color Contrast Checker - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate WCAG 2.1 color contrast ratios for foreground and background colors with pass/fail compliance ratings for AA and AAA levels.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/color-contrast-checker/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Color Contrast Checker | NikTool">
+  <meta property="og:description" content="Calculate WCAG 2.1 color contrast ratios for foreground and background colors with pass/fail compliance ratings for AA and AAA levels.">
+  <meta property="og:url" content="https://niktool.in/tools/color-contrast-checker/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Color Contrast Checker",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/color-contrast-checker/",
+        "description": "Calculate WCAG 2.1 color contrast ratios for foreground and background colors with pass/fail compliance ratings for AA and AAA levels.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is WCAG AA threshold?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Level AA requires a contrast ratio of at least 4.5:1 for regular text and 3:1 for large text (18pt+ or 14pt+ bold)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Color Contrast Checker</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Color Contrast Checker</h1>
+      <p>Calculate WCAG 2.1 color contrast ratios for foreground and background colors with pass/fail compliance ratings for AA and AAA levels.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Color Contrast Analyzer</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1.25rem;">
+        <div class="control-group">
+          <label class="control-label" for="contrast-fg">Foreground (Text) Color</label>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <input type="color" id="contrast-fg-picker" value="#18211d" style="width:48px; height:42px; border:none; border-radius:8px; cursor:pointer;" />
+            <input class="tool-textarea" id="contrast-fg" type="text" value="#18211d" placeholder="#18211d" />
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="contrast-bg">Background Color</label>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <input type="color" id="contrast-bg-picker" value="#ffffff" style="width:48px; height:42px; border:none; border-radius:8px; cursor:pointer;" />
+            <input class="tool-textarea" id="contrast-bg" type="text" value="#ffffff" placeholder="#ffffff" />
+          </div>
+        </div>
+      </div>
+      <div id="contrast-preview-card" style="margin-top:1.5rem; padding:2rem; border-radius:14px; text-align:center; border:1px solid var(--line);">
+        <h3 style="margin:0 0 0.5rem; font-size:1.4rem;">Sample Heading Preview</h3>
+        <p style="margin:0; font-size:1rem;">This text demonstrates how your chosen color combination renders for standard readability and visual contrast.</p>
+      </div>
+      <div id="contrast-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:1rem;">
+          <div class="stat">
+            <span class="stat-value" id="contrast-ratio-val" style="font-size:1.4rem; font-weight:800; color:var(--green-dark);">-</span>
+            <span class="stat-label">Contrast Ratio</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="contrast-aa-normal" style="font-weight:700;">-</span>
+            <span class="stat-label">WCAG AA Normal</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="contrast-aa-large" style="font-weight:700;">-</span>
+            <span class="stat-label">WCAG AA Large</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="contrast-aaa-normal" style="font-weight:700;">-</span>
+            <span class="stat-label">WCAG AAA Normal</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Color Contrast Checker</h2>
+      <ol>
+        <li>Enter or pick your Foreground (Text) and Background colors in HEX format.</li>
+        <li>Check the live preview card.</li>
+        <li>Evaluate your score against WCAG AA (4.5:1 for normal text) and AAA (7:1) guidelines.</li>
+      </ol>
+
+      <h2>WCAG 2.1 Contrast Standards</h2>
+      <p>Accessible color contrast ensures readability for users with visual impairments or color blindness. The Web Content Accessibility Guidelines (WCAG) Level AA requires a minimum ratio of 4.5:1 for standard text and 3:1 for large headings.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is WCAG AA threshold?</summary>
+        <p>Level AA requires a contrast ratio of at least 4.5:1 for regular text and 3:1 for large text (18pt+ or 14pt+ bold).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/color-contrast-checker/tool.js"></script>
+</body>
+</html>

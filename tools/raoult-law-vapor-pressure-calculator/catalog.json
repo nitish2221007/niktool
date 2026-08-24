@@ -1,0 +1,15 @@
+{
+  "name": "Raoult's Law Ideal Solution Vapor Pressure Calculator",
+  "description": "Calculate total and partial vapor pressure (P = χ_A · P_A° + χ_B · P_B°) of volatile binary liquid mixtures for distillation columns.",
+  "path": "/tools/raoult-law-vapor-pressure-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "raoults law calculator",
+    "vapor pressure binary mixture calculator",
+    "mole fraction vapor pressure formula",
+    "distillation vapor liquid equilibrium",
+    "ideal solution raoult law online"
+  ],
+  "order": 242
+}

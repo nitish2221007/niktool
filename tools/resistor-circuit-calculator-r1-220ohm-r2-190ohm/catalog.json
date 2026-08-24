@@ -1,0 +1,15 @@
+{
+  "name": "Resistor Circuit Calculator (R1=220Ω, R2=190Ω)",
+  "description": "Calculate Series Equivalent (410 Ω) and Parallel Equivalent (101.95 Ω) for resistors R1=220Ω and R2=190Ω.",
+  "path": "/tools/resistor-circuit-calculator-r1-220ohm-r2-190ohm/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "resistor circuit calculator r1 220ohm r2 190ohm",
+    "Resistor Circuit Calculator (R1=220Ω, R2=190Ω)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

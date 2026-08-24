@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 162cm, Weight 56kg)",
+  "description": "Calculate Body Mass Index (BMI 21.3) for height 162 cm and weight 56 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-162cm-weight-56kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 162cm weight 56kg",
+    "BMI Calculator (Height 162cm, Weight 56kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

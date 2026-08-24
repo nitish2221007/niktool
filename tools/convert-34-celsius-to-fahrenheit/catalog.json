@@ -1,0 +1,15 @@
+{
+  "name": "Convert 34°C Celsius to Fahrenheit",
+  "description": "Convert 34 degrees Celsius (°C) to Fahrenheit (93.2°F).",
+  "path": "/tools/convert-34-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 34 celsius to fahrenheit",
+    "Convert 34°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

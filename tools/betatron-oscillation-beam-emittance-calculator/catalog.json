@@ -1,0 +1,15 @@
+{
+  "name": "Betatron Oscillation & Transverse Beam Emittance (ε) Calculator",
+  "description": "Calculate particle accelerator transverse beam envelope size (σ_x = √(ε · β_x)), betatron oscillation wavelength (λ_β = 2 · π · β_x), and normalized emittance (ε_n = γ · β_rel · ε).",
+  "path": "/tools/betatron-oscillation-beam-emittance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "beam emittance calculator",
+    "betatron oscillation formula accelerator",
+    "sigma x sqrt epsilon beta calculator",
+    "normalized emittance gamma beta online",
+    "courant snyder twiss parameter calculator"
+  ],
+  "order": 547
+}

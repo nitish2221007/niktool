@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Electrical Energy Calculator",
+    "description": "Calculate electrical energy in joules and kWh from power and time with clear unit conversion. Free, fast, and fully private.",
+    "path": "/tools/electrical-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electrical energy calculator",
+      "energy calculator physics",
+      "kWh calculator",
+      "joules calculator",
+      "class 10 electrical energy",
+      "power time energy calculator",
+      "electric energy formula calculator",
+      "physics energy tool"
+    ]
+  },
+  {
+    "name": "Electricity Bill Calculator",
+    "description": "Estimate an electricity bill from units consumed, rate per unit, and fixed charge with an editable tariff. Free and private.",
+    "path": "/tools/electricity-bill-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "electricity bill calculator",
+      "electric bill calculator",
+      "power bill calculator",
+      "electricity bill calculator India",
+      "kWh bill calculator",
+      "electricity cost calculator",
+      "unit electricity bill calculator",
+      "home electricity calculator"
+    ]
+  },
+  {
+    "name": "Sorting Visualizer",
+    "description": "Animate Bubble, Selection, Insertion, Merge and Quick Sort step by step.",
+    "path": "/tools/sorting-visualizer/",
+    "category": "DSA",
+    "icon": "bar-chart",
+    "keywords": [
+      "sorting",
+      "bubble sort",
+      "merge sort",
+      "quick sort",
+      "visualizer",
+      "dsa"
+    ]
+  },
+  {
+    "name": "Searching Visualizer",
+    "description": "Animate Linear Search and Binary Search step by step.",
+    "path": "/tools/searching-visualizer/",
+    "category": "DSA",
+    "icon": "search",
+    "keywords": [
+      "linear search",
+      "binary search",
+      "searching algorithm",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Series Resistance Calculator",
+    "description": "Calculate the equivalent resistance of resistors in series by summing all values. Free, fast, and fully private browser tool.",
+    "path": "/tools/series-resistance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "series resistance calculator",
+      "resistors in series calculator",
+      "series resistor calculator",
+      "equivalent resistance series",
+      "class 10 series resistance",
+      "physics series circuit calculator",
+      "resistance series formula",
+      "school resistor calculator"
+    ]
+  },
+  {
+    "name": "Parallel Resistance Calculator",
+    "description": "Calculate the equivalent resistance of resistors in parallel using the reciprocal formula. Free, fast, and fully private.",
+    "path": "/tools/parallel-resistance-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "parallel resistance calculator",
+      "resistors in parallel calculator",
+      "parallel resistor calculator",
+      "equivalent resistance parallel",
+      "class 10 parallel resistance",
+      "physics parallel circuit calculator",
+      "parallel resistance formula",
+      "school resistor calculator"
+    ]
+  },
+  {
+    "name": "Stack Visualizer",
+    "description": "Push and pop elements on an interactive visual stack (LIFO).",
+    "path": "/tools/stack-visualizer/",
+    "category": "DSA",
+    "icon": "layers",
+    "keywords": [
+      "stack",
+      "lifo",
+      "push",
+      "pop",
+      "data structure",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Lens Formula Calculator",
+    "description": "Solve the lens formula 1/f = 1/v - 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/lens-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "lens formula calculator",
+      "lens equation calculator",
+      "class 10 lens formula",
+      "focal length calculator lens",
+      "u v f calculator lens",
+      "magnification lens calculator",
+      "school optics calculator",
+      "ray optics lens calculator"
+    ]
+  },
+  {
+    "name": "PDF Merger",
+    "description": "Merge multiple PDF files into one document securely in your browser.",
+    "path": "/tools/pdf-merger/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf",
+      "merge",
+      "combine",
+      "join",
+      "document"
+    ]
+  },
+  {
+    "name": "Queue Visualizer",
+    "description": "Enqueue and dequeue elements on an interactive visual queue (FIFO).",
+    "path": "/tools/queue-visualizer/",
+    "category": "DSA",
+    "icon": "list",
+    "keywords": [
+      "queue",
+      "fifo",
+      "enqueue",
+      "dequeue",
+      "data structure"
+    ]
+  },
+  {
+    "name": "Linked List Visualizer",
+    "description": "Add, delete and reverse nodes in an animated linked list.",
+    "path": "/tools/linked-list-visualizer/",
+    "category": "DSA",
+    "icon": "link",
+    "keywords": [
+      "linked list",
+      "nodes",
+      "pointers",
+      "reverse",
+      "data structure"
+    ]
+  },
+  {
+    "name": "Mirror Formula Calculator",
+    "description": "Solve the mirror formula 1/f = 1/v + 1/u for focal length, image distance or object distance with magnification. Free and private.",
+    "path": "/tools/mirror-formula-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mirror formula calculator",
+      "mirror equation calculator",
+      "class 10 mirror formula",
+      "focal length mirror calculator",
+      "u v f mirror calculator",
+      "magnification mirror calculator",
+      "school optics calculator",
+      "ray optics mirror calculator"
+    ]
+  },
+  {
+    "name": "Binary Tree Visualizer",
+    "description": "Build a BST and animate Inorder, Preorder, Postorder, and Level-order traversals.",
+    "path": "/tools/binary-tree-visualizer/",
+    "category": "DSA",
+    "icon": "git-branch",
+    "keywords": [
+      "binary tree",
+      "bst",
+      "traversal",
+      "inorder",
+      "preorder",
+      "postorder"
+    ]
+  },
+  {
+    "name": "Power of Lens Calculator",
+    "description": "Calculate lens power in diopters from focal length with automatic unit conversion and correct sign convention. Free and private.",
+    "path": "/tools/power-of-lens-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "power of lens calculator",
+      "lens power calculator",
+      "diopter calculator",
+      "focal length to power",
+      "power of lens class 10",
+      "dioptre calculator",
+      "lens focal length calculator",
+      "school optics tool"
+    ]
+  },
+  {
+    "name": "Remove First Five Pages from PDF",
+    "description": "Instantly strip the first 5 pages from any PDF file. 100% browser-based, private, and free.",
+    "path": "/tools/pdf-remove-first-five-pages/",
+    "category": "PDF",
+    "icon": "shield",
+    "keywords": [
+      "pdf",
+      "remove pages",
+      "trim pdf",
+      "delete first pages",
+      "pdf cutter",
+      "remove first 5 pages",
+      "pdf editor"
+    ]
+  },
+  {
+    "name": "B.Tech CGPA Calculator",
+    "description": "Calculate your overall B.Tech CGPA and equivalent percentage across all 8 semesters. Free, instant, and 100% private.",
+    "path": "/tools/btech-cgpa-calculator/",
+    "category": "Education",
+    "icon": "graduation-cap",
+    "keywords": [
+      "cgpa calculator",
+      "btech cgpa",
+      "sgpa to cgpa",
+      "engineering calculator",
+      "cgpa to percentage",
+      "semester calculator"
+    ]
+  },
+  {
+    "name": "Graph Visualizer",
+    "description": "Create nodes and edges interactively, then animate BFS and DFS traversal.",
+    "path": "/tools/graph-visualizer/",
+    "category": "DSA",
+    "icon": "share-2",
+    "keywords": [
+      "graph",
+      "nodes",
+      "edges",
+      "bfs",
+      "dfs",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Wave Speed Calculator",
+    "description": "Calculate wave speed, frequency, or wavelength using v = f lambda with division safety. Free, fast, and fully private.",
+    "path": "/tools/wave-speed-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "wave speed calculator",
+      "speed frequency wavelength calculator",
+      "v f lambda calculator",
+      "wave equation calculator",
+      "physics wave calculator",
+      "frequency wavelength speed",
+      "wavelength calculator",
+      "frequency calculator"
+    ]
+  },
+  {
+    "name": "BFS/DFS Grid Visualizer",
+    "description": "Watch BFS and DFS explore a grid step by step with walls and pathfinding.",
+    "path": "/tools/bfs-dfs-visualizer/",
+    "category": "DSA",
+    "icon": "grid",
+    "keywords": [
+      "bfs",
+      "dfs",
+      "grid",
+      "traversal",
+      "pathfinding",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Density Calculator",
+    "description": "Calculate density, mass, or volume using rho = m/V with division safety and clear units. Free, fast, and fully private.",
+    "path": "/tools/density-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "density calculator",
+      "density mass volume calculator",
+      "density formula calculator",
+      "class 10 density calculator",
+      "mass volume calculator",
+      "physics density solver",
+      "science density calculator",
+      "density online"
+    ]
+  },
+  {
+    "name": "CAGR Calculator",
+    "description": "Calculate Compound Annual Growth Rate (CAGR), absolute return, and investment doubling time with annualized growth breakdown.",
+    "path": "/tools/cagr-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "cagr calculator",
+      "compound annual growth rate",
+      "annualized return calculator",
+      "investment cagr",
+      "mutual fund cagr",
+      "cagr formula online"
+    ]
+  },
+  {
+    "name": "Pathfinding Visualizer",
+    "description": "Visualize BFS, DFS, Dijkstra and A* pathfinding on an interactive grid.",
+    "path": "/tools/pathfinding-visualizer/",
+    "category": "DSA",
+    "icon": "map",
+    "keywords": [
+      "pathfinding",
+      "dijkstra",
+      "a*",
+      "bfs",
+      "dfs",
+      "grid",
+      "visualizer"
+    ]
+  },
+  {
+    "name": "Work Energy Power Calculator",
+    "description": "Solve work, kinetic energy, potential energy, and power numericals in one place with formulas shown. Free and private.",
+    "path": "/tools/work-energy-power-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "work energy power calculator",
+      "physics work calculator",
+      "power calculator physics",
+      "energy calculator physics",
+      "work formula calculator",
+      "class 10 physics calculator",
+      "kinetic potential energy calculator",
+      "WEP calculator"
+    ]
+  },
+  {
+    "name": "Kinetic Energy Calculator",
+    "description": "Calculate kinetic energy from mass and velocity using KE = half mv squared with formula shown. Free, fast, and fully private.",
+    "path": "/tools/kinetic-energy-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "kinetic energy calculator",
+      "KE calculator",
+      "kinetic energy formula calculator",
+      "class 10 kinetic energy",
+      "mass velocity energy calculator",
+      "school kinetic energy tool",
+      "10th physics energy calculator",
+      "KE formula online"
+    ]
+  }
+]

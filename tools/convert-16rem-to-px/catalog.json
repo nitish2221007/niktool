@@ -1,0 +1,15 @@
+{
+  "name": "Convert 16 REM to PX",
+  "description": "Convert 16 REM units to pixels (px) based on 16px root font size (256px).",
+  "path": "/tools/convert-16rem-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 16rem to px",
+    "Convert 16 REM to PX",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

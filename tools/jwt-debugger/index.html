@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JWT Debugger &amp; Decoder - Free Online Tool | NikTool</title>
+  <meta name="description" content="Decode and inspect JSON Web Tokens (JWT) safely in your browser. View header, payload claims, expiration time, and validity status with 100% privacy.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/jwt-debugger/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JWT Debugger &amp; Decoder | NikTool">
+  <meta property="og:description" content="Decode and inspect JSON Web Tokens (JWT) safely in your browser. View header, payload claims, expiration time, and validity status with 100% privacy.">
+  <meta property="og:url" content="https://niktool.in/tools/jwt-debugger/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "JWT Debugger & Decoder",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/jwt-debugger/",
+        "description": "Decode and inspect JSON Web Tokens (JWT) safely in your browser. View header, payload claims, expiration time, and validity status with 100% privacy.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is my JWT token sent to any server?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. All decoding and parsing happens entirely inside your web browser using client-side JavaScript. No tokens or data are transmitted over the internet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can this tool decode encrypted tokens (JWE)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This tool decodes standard signed JSON Web Tokens (JWS). Encrypted JWTs (JWE) require the private decryption key and cannot be decoded solely in plaintext."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does expiration checking work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The tool reads the standard 'exp' (expiration time) unix timestamp claim in the JWT payload and compares it to your local system clock."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I decode a token with non-ASCII or UTF-8 characters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, our decoder properly handles UTF-8 character encoding in both the header and payload claims."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>JWT Debugger &amp; Decoder</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5c0 4.6 2.9 8 7 10 4.1-2 7-5.4 7-10V6l-7-3Z"/><path d="m9.5 12 1.6 1.6 3.6-3.8"/></svg>
+      </span>
+      <h1>JWT Debugger &amp; Decoder</h1>
+      <p>Decode, inspect, and verify JSON Web Token claims, timestamps, and signature structure safely in your browser.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">JWT Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="jwt-input">Encoded Token (Header.Payload.Signature)</label>
+        <textarea class="tool-textarea" id="jwt-input" rows="4" placeholder="Paste your JWT token here (e.g. eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...)"></textarea>
+      </div>
+
+      <div class="toolbar">
+        <button class="button" id="primary-action-btn" type="button">Decode Token</button>
+        <button class="button secondary" id="sample-token-btn" type="button">Load Sample Token</button>
+        <button class="button secondary" id="clear-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="jwt-message" role="status" aria-live="polite">Ready. Paste a JWT token above and click Decode.</p>
+
+      <div id="jwt-details-card" style="margin-top: 1.5rem; display: none;">
+        <div class="stats-grid" style="margin-bottom: 1.25rem;">
+          <div class="stat">
+            <span class="stat-value" id="jwt-status-badge" style="font-size: 1.1rem; font-weight: 700;">-</span>
+            <span class="stat-label">Token Status</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="jwt-alg-badge" style="font-size: 1.1rem; font-weight: 700;">-</span>
+            <span class="stat-label">Algorithm</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="jwt-exp-badge" style="font-size: 1.1rem; font-weight: 700;">-</span>
+            <span class="stat-label">Expiration</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="jwt-iat-badge" style="font-size: 1.1rem; font-weight: 700;">-</span>
+            <span class="stat-label">Issued At</span>
+          </div>
+        </div>
+
+        <div class="json-layout">
+          <div class="editor-panel">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <label class="control-label" for="jwt-header-output" style="margin-bottom: 0;">Decoded Header</label>
+              <button class="button secondary" id="copy-header-btn" type="button" style="padding: 0.25rem 0.6rem; font-size: 0.8rem;">Copy Header</button>
+            </div>
+            <textarea class="tool-textarea" id="jwt-header-output" rows="8" readonly></textarea>
+          </div>
+          <div class="editor-panel">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <label class="control-label" for="jwt-payload-output" style="margin-bottom: 0;">Decoded Payload</label>
+              <button class="button secondary" id="copy-payload-btn" type="button" style="padding: 0.25rem 0.6rem; font-size: 0.8rem;">Copy Payload</button>
+            </div>
+            <textarea class="tool-textarea" id="jwt-payload-output" rows="8" readonly></textarea>
+          </div>
+        </div>
+
+        <div class="control-group" style="margin-top: 1rem;">
+          <label class="control-label" for="jwt-signature-output">Signature (Raw Base64URL)</label>
+          <input class="tool-textarea" id="jwt-signature-output" type="text" readonly style="font-family: monospace; font-size: 0.85rem;" />
+        </div>
+      </div>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to decode a JWT token</h2>
+      <ol>
+        <li>Paste your JSON Web Token string into the input area.</li>
+        <li>Click <strong>Decode Token</strong> (or token decodes automatically as you type).</li>
+        <li>Inspect the parsed <strong>Header</strong>, <strong>Payload</strong> claims, and expiration details.</li>
+        <li>Use the copy buttons to copy formatted JSON data to your clipboard.</li>
+      </ol>
+
+      <h2>Understanding JSON Web Tokens (JWT)</h2>
+      <p>A JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. A token consists of three parts separated by dots (<code>.</code>):</p>
+      <ul>
+        <li><strong>Header:</strong> Specifies the token type (JWT) and the signing algorithm (e.g., HS256, RS256).</li>
+        <li><strong>Payload:</strong> Contains the claims (statements about an entity such as user ID, role, issued at timestamp, and expiration timestamp).</li>
+        <li><strong>Signature:</strong> Used to verify that the sender of the JWT is who it says it is and to ensure that the message was not changed along the way.</li>
+      </ul>
+
+      <h2>Private browser-based debugging</h2>
+      <p>Security and token privacy are paramount when debugging authentication tokens. This tool performs 100% client-side decoding using native browser APIs. Your tokens, credentials, and payload data are never uploaded to any remote server or stored in cookies.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Is my JWT token sent to any server?</summary>
+        <p>No. All decoding and parsing happens entirely inside your web browser using client-side JavaScript. No tokens or data are transmitted over the internet.</p>
+      </details>
+      <details>
+        <summary>Can this tool decode encrypted tokens (JWE)?</summary>
+        <p>This tool decodes standard signed JSON Web Tokens (JWS). Encrypted JWTs (JWE) require the private decryption key and cannot be decoded solely in plaintext.</p>
+      </details>
+      <details>
+        <summary>How does expiration checking work?</summary>
+        <p>The tool reads the standard 'exp' (expiration time) unix timestamp claim in the JWT payload and compares it to your local system clock.</p>
+      </details>
+      <details>
+        <summary>Can I decode a token with non-ASCII or UTF-8 characters?</summary>
+        <p>Yes, our decoder properly handles UTF-8 character encoding in both the header and payload claims.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/jwt-debugger/tool.js"></script>
+</body>
+</html>

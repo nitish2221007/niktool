@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hadamard Quantum Gate (H) Superposition Matrix Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate Hadamard quantum gate unitary matrix transformations (H|0⟩ = |+⟩, H|1⟩ = |-⟩) and output state vector probability amplitudes.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/hadamard-quantum-gate-superposition-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hadamard Quantum Gate (H) Superposition Matrix Calculator | NikTool">
+  <meta property="og:description" content="Calculate Hadamard quantum gate unitary matrix transformations (H|0⟩ = |+⟩, H|1⟩ = |-⟩) and output state vector probability amplitudes.">
+  <meta property="og:url" content="https://niktool.in/tools/hadamard-quantum-gate-superposition-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hadamard Quantum Gate (H) Superposition Matrix Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/hadamard-quantum-gate-superposition-calculator/",
+        "description": "Calculate Hadamard quantum gate unitary matrix transformations (H|0⟩ = |+⟩, H|1⟩ = |-⟩) and output state vector probability amplitudes.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What happens when you apply two Hadamard gates in a row?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because H² = I (Identity matrix), applying two consecutive Hadamard gates reverses the superposition and returns the qubit to its original state."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Hadamard Quantum Gate (H) Superposition Matrix Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Hadamard Quantum Gate (H) Superposition Matrix Calculator</h1>
+      <p>Calculate Hadamard quantum gate unitary matrix transformations (H|0⟩ = |+⟩, H|1⟩ = |-⟩) and output state vector probability amplitudes.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Input Pure Qubit State (|0⟩, |1⟩, |+⟩, |-⟩ or Custom Amplitudes)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="hd-state">Input Qubit State</label>
+          <select class="tool-textarea" id="hd-state">
+            <option value="0" selected>Base State |0⟩ [α=1, β=0]</option>
+            <option value="1">Base State |1⟩ [α=0, β=1]</option>
+            <option value="plus">Superposition |+⟩ [α=1/√2, β=1/√2]</option>
+            <option value="minus">Superposition |-⟩ [α=1/√2, β=-1/√2]</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="hd-pass">Number of H Gates</label>
+          <select class="tool-textarea" id="hd-pass">
+            <option value="1" selected>Single H Gate (Create Superposition)</option>
+            <option value="2">Two Consecutive H Gates (H² = I Identity)</option>
+          </select>
+        </div>
+      </div>
+      <div id="hd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="hd-res-out" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">|+⟩ = 0.707|0⟩ + 0.707|1⟩</span>
+            <span class="stat-label">Transformed Output Quantum State</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="hd-res-prob" style="font-weight:700;">50% |0⟩ | 50% |1⟩ (Equal Probability Superposition)</span>
+            <span class="stat-label">Measurement Outcome Probabilities</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Hadamard Quantum Gate (H) Superposition Matrix Calculator</h2>
+      <ol>
+        <li>Select initial input qubit state (|0⟩, |1⟩, |+⟩, |-⟩).</li>
+        <li>Select number of sequential Hadamard gate operations.</li>
+        <li>Inspect transformed quantum state vector amplitudes and measurement outcome probability collapse.</li>
+      </ol>
+
+      <h2>The Fundamental Equal Superposition Creator</h2>
+      <p>The Hadamard gate is an involuntary self-inverse unitary operator; applying H to ground state |0⟩ rotates it into equal 50/50 superposition, forming the opening step of Grover and Shor algorithms.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What happens when you apply two Hadamard gates in a row?</summary>
+        <p>Because H² = I (Identity matrix), applying two consecutive Hadamard gates reverses the superposition and returns the qubit to its original state.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/hadamard-quantum-gate-superposition-calculator/tool.js"></script>
+</body>
+</html>

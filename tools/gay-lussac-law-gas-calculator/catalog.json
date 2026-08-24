@@ -1,0 +1,15 @@
+{
+  "name": "Gay-Lussac's Gas Law Calculator",
+  "description": "Calculate pressure or absolute temperature changes in isochoric rigid gas containers using Gay-Lussac's Law P₁ / T₁ = P₂ / T₂.",
+  "path": "/tools/gay-lussac-law-gas-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gay lussacs law calculator",
+    "p1 t1 p2 t2 calculator",
+    "gas pressure temperature relationship",
+    "isochoric gas calculator",
+    "gay lussac formula online"
+  ],
+  "order": 169
+}

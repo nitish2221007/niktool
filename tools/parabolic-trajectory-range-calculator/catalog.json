@@ -1,0 +1,15 @@
+{
+  "name": "Parabolic Ballistic Trajectory Range Calculator",
+  "description": "Calculate horizontal ballistic range (R = (v₀² · sin(2θ)) / g), total hangtime, and trajectory apex for projectiles on level ground.",
+  "path": "/tools/parabolic-trajectory-range-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "projectile range calculator",
+    "ballistic range trajectory formula",
+    "maximum distance launch angle 45",
+    "projectile hang time calculator",
+    "physics projectile motion range"
+  ],
+  "order": 203
+}

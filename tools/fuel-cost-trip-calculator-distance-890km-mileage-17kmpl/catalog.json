@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (890 km Distance, 17 km/l Mileage)",
+  "description": "Calculate fuel needed (52.4 L) and cost (₹5057) for 890 km trip at 17 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-890km-mileage-17kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 890km mileage 17kmpl",
+    "Fuel Cost Trip Calculator (890 km Distance, 17 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

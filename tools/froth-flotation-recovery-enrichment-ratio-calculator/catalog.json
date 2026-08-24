@@ -1,0 +1,15 @@
+{
+  "name": "Froth Flotation Recovery & Enrichment Ratio Calculator",
+  "description": "Calculate mineral froth flotation metallurgical recovery (R = (c · (f - t)) / (f · (c - t)) · 100%), enrichment ratio (c / f), and concentrate yield from assay grades.",
+  "path": "/tools/froth-flotation-recovery-enrichment-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "froth flotation recovery calculator",
+    "mineral recovery formula c times f minus t online",
+    "flotation enrichment ratio calculator online",
+    "copper gold mineral processing recovery calculator",
+    "mining metallurgy mass balance online"
+  ],
+  "order": 662
+}

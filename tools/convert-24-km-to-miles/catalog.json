@@ -1,0 +1,15 @@
+{
+  "name": "Convert 24 KM to Miles",
+  "description": "Convert 24 kilometers to miles (14.91 miles). 100% free and local.",
+  "path": "/tools/convert-24-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 24 km to miles",
+    "Convert 24 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

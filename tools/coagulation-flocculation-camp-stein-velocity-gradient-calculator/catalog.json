@@ -1,0 +1,15 @@
+{
+  "name": "Water Coagulation & Flocculation Camp-Stein Velocity Gradient (G) Calculator",
+  "description": "Calculate water treatment flash mixing and flocculation velocity gradient (G = √(P / (μ·V))) in s⁻¹ and dimensionless Camp number (G·t) from impeller power P and tank volume V.",
+  "path": "/tools/coagulation-flocculation-camp-stein-velocity-gradient-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "camp stein velocity gradient calculator",
+    "flocculation velocity gradient g formula sqrt p over mu v",
+    "camp number g times t flocculator calculator online",
+    "water treatment coagulation rapid mix calculator",
+    "water clarification paddle flocculator online"
+  ],
+  "order": 734
+}

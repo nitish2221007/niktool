@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 290V, Current 8A)",
+  "description": "Calculate Resistance (36.25 Ω) and Electric Power (2320.0 W) for 290V voltage and 8A current.",
+  "path": "/tools/ohms-law-calculator-voltage-290v-current-8a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 290v current 8a",
+    "Ohm's Law Calculator (Voltage 290V, Current 8A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

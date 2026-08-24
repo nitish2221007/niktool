@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate McCabe-Thiele binary distillation column Rectifying line (y = (R/(R+1))·x + x_D/(R+1)), Stripping line, and thermal feed q-line slope (m_q = q / (q - 1)).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/mccabe-thiele-reflux-ratio-feed-q-line-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator | NikTool">
+  <meta property="og:description" content="Calculate McCabe-Thiele binary distillation column Rectifying line (y = (R/(R+1))·x + x_D/(R+1)), Stripping line, and thermal feed q-line slope (m_q = q / (q - 1)).">
+  <meta property="og:url" content="https://niktool.in/tools/mccabe-thiele-reflux-ratio-feed-q-line-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/mccabe-thiele-reflux-ratio-feed-q-line-calculator/",
+        "description": "Calculate McCabe-Thiele binary distillation column Rectifying line (y = (R/(R+1))·x + x_D/(R+1)), Stripping line, and thermal feed q-line slope (m_q = q / (q - 1)).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the physical meaning of feed parameter q?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "q represents the moles of liquid entering the stripping section per mole of total feed ($q = 1.0$ means the feed is liquid at its boiling bubble point)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator</h1>
+      <p>Calculate McCabe-Thiele binary distillation column Rectifying line (y = (R/(R+1))·x + x_D/(R+1)), Stripping line, and thermal feed q-line slope (m_q = q / (q - 1)).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Reflux Ratio R, Distillate x_D, Feed x_F, Bottoms x_B & Feed Thermal State q</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="mct-r">Reflux Ratio R</label>
+          <input class="tool-textarea" id="mct-r" type="number" step="0.1" value="2.0" placeholder="2.0 (L / D)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mct-xd">Distillate x_D</label>
+          <input class="tool-textarea" id="mct-xd" type="number" step="0.05" value="0.95" placeholder="0.95" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mct-xf">Feed x_F</label>
+          <input class="tool-textarea" id="mct-xf" type="number" step="0.05" value="0.45" placeholder="0.45" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="mct-q">Feed State (q)</label>
+          <select class="tool-textarea" id="mct-q">
+            <option value="1.0" selected>Saturated Liquid (q = 1.0: Vertical q-line)</option>
+            <option value="1.2">Subcooled Cold Liquid (q = 1.2: Positive Slope)</option>
+            <option value="0.5">Saturated Liquid-Vapor Mix (q = 0.5: Negative Slope)</option>
+            <option value="0.0">Saturated Vapor (q = 0.0: Horizontal q-line)</option>
+          </select>
+        </div>
+      </div>
+      <div id="mct-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="mct-res-rol" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">y = 0.667·x + 0.317</span>
+            <span class="stat-label">Rectifying Section Operating Line (ROL)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="mct-res-qline" style="font-weight:700;">Feed q-Line: x = 0.450 (Vertical Saturated Liquid Feed | q = 1.0)</span>
+            <span class="stat-label">Feed Line Equation & Thermal Quality</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator</h2>
+      <ol>
+        <li>Enter external reflux ratio $R = L/D$.</li>
+        <li>Enter target distillate top product purity $x_D$.</li>
+        <li>Enter raw feed liquid mole fraction $x_F$.</li>
+        <li>Select thermal quality state of the feed stream (Saturated Liquid $q=1$, Saturated Vapor $q=0$, or Cold Subcooled Liquid $q>1$).</li>
+        <li>Inspect Rectifying Operating Line (ROL) slope/intercept and feed q-line equation ready for graphical McCabe-Thiele stepping.</li>
+      </ol>
+
+      <h2>Warren McCabe & Ernest Thiele 1925 Graphical Method</h2>
+      <p>McCabe-Thiele assumes Constant Molar Overflow (CMO) to convert complex non-linear vapor-liquid equilibrium into straight operating lines on an x-y diagram, allowing visual step-by-step determination of exact feed tray location and column stages.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the physical meaning of feed parameter q?</summary>
+        <p>q represents the moles of liquid entering the stripping section per mole of total feed ($q = 1.0$ means the feed is liquid at its boiling bubble point).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/mccabe-thiele-reflux-ratio-feed-q-line-calculator/tool.js"></script>
+</body>
+</html>

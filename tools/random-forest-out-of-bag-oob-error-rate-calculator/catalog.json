@@ -1,0 +1,15 @@
+{
+  "name": "Random Forest Out-of-Bag (OOB Error = 1 / e ≈ 36.8% Unsampled) Calculator",
+  "description": "Calculate Bootstrap Aggregation (Bagging) sample probability ((1 - 1/N)^N ≈ 1/e = 36.8% OOB sample rate), number of out-of-bag validation evaluations, and Random Forest ensemble generalization error.",
+  "path": "/tools/random-forest-out-of-bag-oob-error-rate-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "random forest oob error calculator",
+    "out of bag error rate formula bootstrap bagging online",
+    "bootstrap aggregation 1 over e probability calculator",
+    "random forest validation ensemble error calculator",
+    "machine learning random forest bagging online"
+  ],
+  "order": 1223
+}

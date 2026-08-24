@@ -1,0 +1,15 @@
+{
+  "name": "Gaussian Laser Beam Waist, Divergence & Rayleigh Range (z_R) Calculator",
+  "description": "Calculate fundamental TEM₀₀ Gaussian laser beam Rayleigh range (z_R = (π · w₀²) / λ), far-field divergence half-angle (θ = λ / (π · w₀)), and spot size w(z).",
+  "path": "/tools/laser-beam-waist-divergence-rayleigh-range-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "gaussian beam calculator",
+    "laser beam waist rayleigh range formula",
+    "laser divergence theta lambda over pi w0",
+    "tem00 laser spot size at distance z online",
+    "photonics gaussian beam propagation calculator"
+  ],
+  "order": 526
+}

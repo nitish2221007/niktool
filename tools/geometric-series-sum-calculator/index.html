@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geometric Series & Infinite Sum Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate the nth term, finite geometric series sum (Sn), and convergent infinite geometric series sum (S∞ = a / (1 - r)).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/geometric-series-sum-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geometric Series & Infinite Sum Calculator | NikTool">
+  <meta property="og:description" content="Calculate the nth term, finite geometric series sum (Sn), and convergent infinite geometric series sum (S∞ = a / (1 - r)).">
+  <meta property="og:url" content="https://niktool.in/tools/geometric-series-sum-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Geometric Series & Infinite Sum Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/geometric-series-sum-calculator/",
+        "description": "Calculate the nth term, finite geometric series sum (Sn), and convergent infinite geometric series sum (S∞ = a / (1 - r)).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is 1/2 + 1/4 + 1/8 + 1/16 + ... ?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With a = 0.5 and r = 0.5, S∞ = 0.5 / (1 - 0.5) = 1.0 exactly."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Geometric Series & Infinite Sum Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Geometric Series & Infinite Sum Calculator</h1>
+      <p>Calculate the nth term, finite geometric series sum (Sn), and convergent infinite geometric series sum (S∞ = a / (1 - r)).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Geometric Progression Inputs</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="gp-a">First Term (a₁)</label>
+          <input class="tool-textarea" id="gp-a" type="number" step="any" value="1" placeholder="e.g. 1" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gp-r">Common Ratio (r)</label>
+          <input class="tool-textarea" id="gp-r" type="number" step="any" value="0.5" placeholder="e.g. 0.5" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="gp-n">Number of Terms (n)</label>
+          <input class="tool-textarea" id="gp-n" type="number" min="1" step="1" value="10" placeholder="e.g. 10" />
+        </div>
+      </div>
+      <div id="gp-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="gp-res-sum" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">-</span>
+            <span class="stat-label">Finite Sum of n Terms (Sₙ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gp-res-inf" style="font-weight:700;">-</span>
+            <span class="stat-label">Infinite Sum (S∞)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="gp-res-last">-</span>
+            <span class="stat-label">Nth Term (aₙ)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Geometric Series & Infinite Sum Calculator</h2>
+      <ol>
+        <li>Enter the initial term (a₁).</li>
+        <li>Enter the multiplier common ratio (r).</li>
+        <li>Enter the number of terms (n).</li>
+        <li>Click <strong>Calculate</strong> to inspect both finite series sum and convergent infinite sum.</li>
+      </ol>
+
+      <h2>Convergence of Infinite Geometric Series</h2>
+      <p>An infinite geometric series converges to a finite limit S∞ = a / (1 - r) if and only if the absolute common ratio is strictly less than 1 (|r| < 1). If |r| ≥ 1, the series diverges toward infinity.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is 1/2 + 1/4 + 1/8 + 1/16 + ... ?</summary>
+        <p>With a = 0.5 and r = 0.5, S∞ = 0.5 / (1 - 0.5) = 1.0 exactly.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/geometric-series-sum-calculator/tool.js"></script>
+</body>
+</html>

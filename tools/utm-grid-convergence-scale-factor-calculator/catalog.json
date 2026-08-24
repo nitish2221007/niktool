@@ -1,0 +1,15 @@
+{
+  "name": "UTM Grid Convergence Angle & Point Scale Factor Calculator",
+  "description": "Calculate Universal Transverse Mercator (UTM) Grid Convergence angle (γ = Δλ · sin φ) and Transverse Mercator point scale distortion factor k.",
+  "path": "/tools/utm-grid-convergence-scale-factor-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "utm grid convergence calculator",
+    "utm scale factor calculator",
+    "transverse mercator grid angle formula",
+    "utm central meridian convergence online",
+    "land surveying utm distortion calculator"
+  ],
+  "order": 496
+}

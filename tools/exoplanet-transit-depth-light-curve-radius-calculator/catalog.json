@@ -1,0 +1,15 @@
+{
+  "name": "Exoplanet Transit Photometric Depth (ΔF / F = (R_p / R*)²) Calculator",
+  "description": "Calculate exoplanet transit light curve photometric dip depth (ΔF / F = (R_p / R*)²) in parts-per-thousand (ppt) and parts-per-million (ppm), and determine exoplanet radius R_p in Earth and Jupiter radii from Kepler/TESS transit data.",
+  "path": "/tools/exoplanet-transit-depth-light-curve-radius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "exoplanet transit depth calculator",
+    "transit photometry light curve formula delta f over f online",
+    "kepler tess planet radius calculator earth jupiter",
+    "exoplanet transit dip depth ppm calculator",
+    "astrophysics exoplanet detection transit method online"
+  ],
+  "order": 1174
+}

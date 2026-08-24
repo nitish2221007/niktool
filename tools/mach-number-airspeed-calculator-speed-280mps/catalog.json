@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number Airspeed Calculator (Velocity 280 m/s)",
+  "description": "Calculate flight Mach number (Mach 0.82 - Transonic) for airspeed velocity of 280 m/s.",
+  "path": "/tools/mach-number-airspeed-calculator-speed-280mps/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "mach number airspeed calculator speed 280mps",
+    "Mach Number Airspeed Calculator (Velocity 280 m/s)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

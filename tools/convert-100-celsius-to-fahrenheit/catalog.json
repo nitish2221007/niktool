@@ -1,0 +1,15 @@
+{
+  "name": "Convert 100°C Celsius to Fahrenheit",
+  "description": "Convert 100 degrees Celsius (°C) to Fahrenheit (212.0°F).",
+  "path": "/tools/convert-100-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 100 celsius to fahrenheit",
+    "Convert 100°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

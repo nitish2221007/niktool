@@ -1,0 +1,15 @@
+{
+  "name": "Reynolds Number Flow Calculator (Velocity 41m/s, Pipe 70mm)",
+  "description": "Calculate fluid Reynolds Number (Re = 28,70,000 - Turbulent Flow) for 41 m/s in 70mm pipe.",
+  "path": "/tools/reynolds-number-fluid-flow-calculator-velocity-41mps-diameter-70mm/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "reynolds number fluid flow calculator velocity 41mps diameter 70mm",
+    "Reynolds Number Flow Calculator (Velocity 41m/s, Pipe 70mm)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

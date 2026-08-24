@@ -1,0 +1,15 @@
+{
+  "name": "Miller-Rabin Primality Test (n-1 = 2^s·d & a^d mod n) Calculator",
+  "description": "Determine if an integer n is prime or composite using the Miller-Rabin probabilistic primality test (decomposing n - 1 = 2^s · d and computing modular powers a^d mod n) for cryptography.",
+  "path": "/tools/miller-rabin-primality-test-probabilistic-composite-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "miller rabin primality test calculator",
+    "miller rabin test formula a to d mod n online",
+    "probabilistic prime composite witness calculator",
+    "rsa prime generation primality test calculator",
+    "cryptography number theory prime testing online"
+  ],
+  "order": 1102
+}

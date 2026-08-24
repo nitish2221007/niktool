@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 215V, Current 9A)",
+  "description": "Calculate Resistance (23.89 Ω) and Electric Power (1935.0 W) for 215V voltage and 9A current.",
+  "path": "/tools/ohms-law-calculator-voltage-215v-current-9a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 215v current 9a",
+    "Ohm's Law Calculator (Voltage 215V, Current 9A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

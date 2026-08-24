@@ -1,0 +1,15 @@
+{
+  "name": "BMR Calorie Calculator (Age 15, Weight 44kg)",
+  "description": "Calculate Basal Metabolic Rate (BMR ~1433 kcal/day) for 15-year-old weighing 44 kg.",
+  "path": "/tools/bmr-calorie-calculator-age-15-weight-44kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmr calorie calculator age 15 weight 44kg",
+    "BMR Calorie Calculator (Age 15, Weight 44kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

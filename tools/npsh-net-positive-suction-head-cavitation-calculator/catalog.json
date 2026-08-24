@@ -1,0 +1,15 @@
+{
+  "name": "Net Positive Suction Head Available (NPSHA) Cavitation Calculator",
+  "description": "Calculate pump suction margin (NPSHA = H_atm + H_s - H_f - H_vp) in feet and meters to prevent destructive impeller cavitation pitting.",
+  "path": "/tools/npsh-net-positive-suction-head-cavitation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "npsha calculator",
+    "net positive suction head formula",
+    "pump cavitation safety margin calculator",
+    "npsh available vs required online",
+    "suction pipe head loss cavitation calculator"
+  ],
+  "order": 437
+}

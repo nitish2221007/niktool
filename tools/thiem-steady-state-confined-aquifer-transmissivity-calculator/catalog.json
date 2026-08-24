@@ -1,0 +1,15 @@
+{
+  "name": "Thiem Confined Aquifer Steady-State Transmissivity (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) Calculator",
+  "description": "Calculate confined aquifer hydraulic transmissivity T in m²/day (T = Q / (2π·(h₂ - h₁)) · ln(r₂ / r₁)) and hydraulic conductivity K from equilibrium two-well pumping test drawdown measurements.",
+  "path": "/tools/thiem-steady-state-confined-aquifer-transmissivity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "thiem equation calculator",
+    "steady state confined aquifer transmissivity formula online",
+    "aquifer pumping test thiem method calculator",
+    "drawdown two observation wells permeability calculator",
+    "hydrogeology groundwater hydrology online"
+  ],
+  "order": 1295
+}

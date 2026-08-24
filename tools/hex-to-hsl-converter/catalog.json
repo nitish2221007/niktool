@@ -1,0 +1,15 @@
+{
+  "name": "Convert HEX Color to HSL",
+  "description": "Convert HEX color code to HSL(hue, saturation, lightness) values.",
+  "path": "/tools/hex-to-hsl-converter/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "hex to hsl converter",
+    "Convert HEX Color to HSL",
+    "online converter",
+    "free converter",
+    "browser tool"
+  ],
+  "order": 5
+}

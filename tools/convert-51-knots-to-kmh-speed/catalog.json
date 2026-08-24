@@ -1,0 +1,15 @@
+{
+  "name": "Convert 51 Knots to KM/H Speed",
+  "description": "Convert 51 knots speed to kilometers per hour (94.45 km/h).",
+  "path": "/tools/convert-51-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 51 knots to kmh speed",
+    "Convert 51 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

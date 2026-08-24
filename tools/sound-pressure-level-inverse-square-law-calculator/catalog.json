@@ -1,0 +1,15 @@
+{
+  "name": "Sound Pressure Level (SPL) Inverse Square Law Distance Calculator",
+  "description": "Calculate acoustic sound pressure level drop over distance (L_p2 = L_p1 - 20 · log₁₀(r₂ / r₁)) in dB SPL, acoustic power in Watts, and safe exposure durations.",
+  "path": "/tools/sound-pressure-level-inverse-square-law-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "sound pressure level calculator",
+    "spl inverse square law formula 20 log r2 over r1",
+    "decibel drop with distance calculator online",
+    "audio acoustic distance attenuation calculator",
+    "db spl distance drop calculator"
+  ],
+  "order": 640
+}

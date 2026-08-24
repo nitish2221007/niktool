@@ -1,0 +1,15 @@
+{
+  "name": "International Morse Code Translator & Audio Generator",
+  "description": "Translate text to/from standard International Morse Code (dots and dashes) and play audio beeps using Web Audio API synthesis.",
+  "path": "/tools/morse-code-audio-visual-translator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "morse code translator",
+    "morse code audio generator online",
+    "text to morse code converter",
+    "sos morse code translator",
+    "dots and dashes morse code online"
+  ],
+  "order": 415
+}

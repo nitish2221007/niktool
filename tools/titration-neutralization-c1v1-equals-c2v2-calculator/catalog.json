@@ -1,0 +1,15 @@
+{
+  "name": "Acid-Base Titration Neutralization (C₁·V₁ / n₁ = C₂·V₂ / n₂) Equivalence Calculator",
+  "description": "Calculate unknown acid/base concentration or equivalence endpoint volume (C_acid · V_acid / n_acid = C_base · V_base / n_base) for monoprotic, diprotic (H₂SO₄), and triprotic (H₃PO₄) neutralizations.",
+  "path": "/tools/titration-neutralization-c1v1-equals-c2v2-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "titration calculator",
+    "neutralization formula c1 v1 over n1 equals c2 v2 over n2 online",
+    "acid base titration equivalence point calculator",
+    "unknown acid concentration buret volume calculator",
+    "hcl naoh titration stoichiometry online"
+  ],
+  "order": 941
+}

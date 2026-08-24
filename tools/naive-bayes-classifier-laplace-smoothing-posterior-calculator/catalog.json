@@ -1,0 +1,15 @@
+{
+  "name": "Naive Bayes Classifier (P(C|X) ∝ P(C)·∏ P(x_i|C)) & Laplace Smoothing Calculator",
+  "description": "Calculate Naive Bayes posterior classification probability (P(C|X) ∝ P(C) · ∏ P(x_i|C)) with Laplace (+1) additive smoothing to prevent zero-frequency probability multiplication errors in spam filtering.",
+  "path": "/tools/naive-bayes-classifier-laplace-smoothing-posterior-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "naive bayes calculator",
+    "bayes theorem spam filter formula online",
+    "laplace smoothing naive bayes probability calculator",
+    "conditional probability posterior naive bayes calculator",
+    "machine learning natural language processing spam detection online"
+  ],
+  "order": 1222
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Tsiolkovsky Rocket Equation & Propellant Mass Calculator",
+  "description": "Calculate rocket velocity change capability (Δv = I_sp · g₀ · ln(m₀ / m_f)) and required propellant mass fraction from specific impulse (I_sp).",
+  "path": "/tools/tsiolkovsky-rocket-equation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "tsiolkovsky rocket equation calculator",
+    "rocket delta v calculator",
+    "specific impulse propellant mass fraction",
+    "ideal rocket equation isp g0 ln m0 mf",
+    "spacecraft propulsion calculator online"
+  ],
+  "order": 387
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Centrifugal Pump Affinity Laws (Q ∝ N, H ∝ N², P ∝ N³) Scaling Calculator",
+  "description": "Calculate centrifugal pump scaling under variable frequency drive (VFD) speed changes using Affinity Laws: Flow Rate (Q₂/Q₁ = N₂/N₁), Total Dynamic Head (H₂/H₁ = (N₂/N₁)²), and Shaft Power (P₂/P₁ = (N₂/N₁)³).",
+  "path": "/tools/centrifugal-pump-affinity-laws-flow-head-power-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "pump affinity laws calculator",
+    "centrifugal pump speed scaling formula q h p online",
+    "vfd pump energy savings cubic power law calculator",
+    "impeller diameter speed pump scaling affinity calculator",
+    "fluid mechanical pumping systems online"
+  ],
+  "order": 1027
+}

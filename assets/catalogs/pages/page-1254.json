@@ -1,0 +1,343 @@
+[
+  {
+    "name": "MRI Bloch Equations T1/T2 Relaxation & Spin-Echo Signal Intensity Calculator",
+    "description": "Calculate MRI tissue contrast signal intensity S in Spin-Echo sequences (Bloch Equations: S = ρ_H · (1 - e^(-TR / T₁)) · e^(-TE / T₂)) from repetition time TR, echo time TE, longitudinal relaxation T₁, and transverse relaxation T₂.",
+    "path": "/tools/mri-t1-t2-relaxation-bloch-equations-signal-intensity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "mri bloch equations calculator",
+      "spin echo signal intensity formula t1 t2 tr te online",
+      "longitudinal transverse relaxation time calculator",
+      "mri image weighting t1 weighted t2 weighted pd calculator",
+      "magnetic resonance imaging radiology medical physics online"
+    ]
+  },
+  {
+    "name": "Computed Tomography (CT) Hounsfield Unit (HU) Radiodensity Calculator",
+    "description": "Calculate diagnostic X-ray Computed Tomography radiodensity Hounsfield Units HU (Sir Godfrey Hounsfield Scale: HU = 1000 · (μ_tissue - μ_water) / (μ_water - μ_air)) and display tissue classification (Air, Fat, Water, Soft Tissue, Bone).",
+    "path": "/tools/computed-tomography-ct-hounsfield-unit-attenuation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ct hounsfield unit calculator",
+      "hu attenuation scale formula online",
+      "computed tomography radiodensity water bone fat calculator",
+      "xray linear attenuation coefficient mu hu calculator",
+      "medical imaging radiology ct scan physics online"
+    ]
+  },
+  {
+    "name": "Medical Ultrasound Acoustic Impedance (Z = ρ·c) & Reflection Coefficient Calculator",
+    "description": "Calculate medical ultrasound tissue Acoustic Impedance Z in MRayl (Z = ρ · c), sound wave Intensity Reflection Coefficient R = ((Z₂ - Z₁) / (Z₂ + Z₁))², Transmitted Intensity T = 1 - R, and echo signal amplitude.",
+    "path": "/tools/medical-ultrasound-acoustic-impedance-reflection-coefficient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ultrasound acoustic impedance calculator",
+      "reflection coefficient formula r equals z2 minus z1 online",
+      "ultrasound gel acoustic matching calculator",
+      "soft tissue bone air acoustic boundary calculator",
+      "medical ultrasound imaging biomedical engineering physics online"
+    ]
+  },
+  {
+    "name": "Body Surface Area (BSA Mosteller & Du Bois Formula) Drug Dosage Calculator",
+    "description": "Calculate clinical Body Surface Area BSA in m² (Mosteller Formula: BSA = √(Height(cm) · Weight(kg) / 3600), Du Bois Formula: BSA = 0.007184 · W^0.425 · H^0.725) for chemotherapy dosing and cardiac index normalization.",
+    "path": "/tools/body-surface-area-mosteller-du-bois-drug-dosage-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "body surface area calculator",
+      "bsa mosteller formula online",
+      "du bois body surface area chemotherapy dosage calculator",
+      "cardiac index bsa normalization calculator",
+      "oncology clinical pharmacology biomedical medicine online"
+    ]
+  },
+  {
+    "name": "Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator",
+    "description": "Calculate alveolar oxygen partial pressure P_A O₂ in mmHg (Alveolar Gas Equation: P_A O₂ = FiO₂ · (P_atm - 47) - (PaCO₂ / R)), Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂), and age-adjusted gradient.",
+    "path": "/tools/alveolar-gas-equation-arterial-oxygen-gradient-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "alveolar gas equation calculator",
+      "a-a gradient oxygen partial pressure formula online",
+      "alveolar arterial gradient hypoxia calculator",
+      "fio2 patm paco2 pao2 abg calculator",
+      "pulmonology critical care arterial blood gas abg online"
+    ]
+  },
+  {
+    "name": "Henderson-Hasselbalch Blood pH & Arterial Bicarbonate Acid-Base Calculator",
+    "description": "Calculate human arterial blood pH (Henderson-Hasselbalch Equation: pH = 6.10 + log₁₀([HCO₃⁻] / (0.0307 · PaCO₂))), evaluate metabolic vs respiratory acidosis and alkalosis, and calculate expected compensation.",
+    "path": "/tools/henderson-hasselbalch-blood-ph-bicarbonate-acid-base-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "henderson hasselbalch blood ph calculator",
+      "arterial blood gas abg formula online",
+      "bicarbonate hco3 paco2 acid base calculator",
+      "metabolic respiratory acidosis alkalosis calculator",
+      "clinical medicine nephrology intensive care physiology online"
+    ]
+  },
+  {
+    "name": "Serum Anion Gap & Serum Osmolality / Osmolar Gap Calculator",
+    "description": "Calculate clinical Serum Anion Gap in mEq/L (Anion Gap = [Na⁺] - ([Cl⁻] + [HCO₃⁻])), Serum Osmolality in mOsm/kg (2·[Na⁺] + Glucose/18 + BUN/2.8), and Osmolar Gap to diagnose toxic alcohol ingestion.",
+    "path": "/tools/plasma-anion-gap-serum-osmolality-osmolar-gap-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "serum anion gap calculator",
+      "osmolar gap formula methanol ethylene glycol online",
+      "high anion gap metabolic acidosis mudpiles calculator",
+      "serum osmolality formula online",
+      "toxicology nephrology emergency medicine clinical biochemistry online"
+    ]
+  },
+  {
+    "name": "Creatinine Clearance Cockcroft-Gault Kidney GFR Dosage Adjustment Calculator",
+    "description": "Calculate renal drug clearance Creatinine Clearance CrCl in mL/min (Cockcroft-Gault Formula: CrCl = (140 - Age) · Weight(kg) / (72 · SCr) · (0.85 if Female)) for FDA drug dosing adjustments and kidney function.",
+    "path": "/tools/creatinine-clearance-cockcroft-gault-formula-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "creatinine clearance calculator",
+      "cockcroft gault formula online",
+      "crcl renal drug dosage adjustment calculator",
+      "serum creatinine kidney function gfr calculator",
+      "clinical pharmacology pharmacy nephrology online"
+    ]
+  },
+  {
+    "name": "Fick Principle Cardiac Output (CO = VO₂ / (CaO₂ - CvO₂)) & Stroke Index Calculator",
+    "description": "Calculate clinical hemodynamic Cardiac Output CO in L/min (Adolf Fick Direct Principle: CO = VO₂ / (CaO₂ - CvO₂) = VO₂ / (13.4 · Hb · (SaO₂ - SvO₂))), Cardiac Index CI in L/min/m², and Stroke Volume.",
+    "path": "/tools/cardiac-output-fick-principle-oxygen-consumption-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "fick principle cardiac output calculator",
+      "cardiac output formula vo2 over cao2 minus cvo2 online",
+      "cardiac index stroke volume hemodynamic calculator",
+      "pulmonary artery catheter swan ganz gold standard calculator",
+      "cardiology intensive care hemodynamics physiology online"
+    ]
+  },
+  {
+    "name": "Hagen-Poiseuille Vascular Resistance (R = 8ηL / πr⁴) & Blood Flow Calculator",
+    "description": "Calculate cardiovascular hemodynamic laminar blood flow resistance R (Hagen-Poiseuille Law: R = 8 · η · L / (π · r⁴)), volumetric blood flow rate Q = ΔP / R in mL/min, and demonstrate 4th-power vessel radius sensitivity.",
+    "path": "/tools/poiseuille-vascular-resistance-blood-flow-viscosity-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "poiseuille vascular resistance calculator",
+      "hagen poiseuille blood flow formula online",
+      "vessel radius fourth power resistance calculator",
+      "arterial vasoconstriction blood pressure calculator",
+      "hemodynamics physiology biomedical engineering cardiology online"
+    ]
+  },
+  {
+    "name": "Orthopedic Prosthetic Hip Joint Hertzian Contact Stress & Wear Calculator",
+    "description": "Calculate biomedical orthopedic total hip replacement artificial joint peak contact stress σ_max in MPa (Hertzian Spherical Contact Mechanics: σ_max = 3·F / (2·π·a²)) on UHMWPE polyethylene / ceramic liners and predict wear risk.",
+    "path": "/tools/prosthetic-joint-contact-stress-hertzian-contact-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "prosthetic joint contact stress calculator",
+      "hertzian contact mechanics orthopedic hip formula online",
+      "uhmwpe polyethylene wear peak stress mpa calculator",
+      "total hip arthroplasty contact area radius calculator",
+      "biomechanics orthopedic biomedical engineering materials online"
+    ]
+  },
+  {
+    "name": "Archibald Hill Muscle Force-Velocity Hyperbolic Relation & Peak Power Calculator",
+    "description": "Calculate skeletal muscle contraction biomechanics (A.V. Hill Hyperbolic Equation: (F + a)·(v + b) = (F_0 + a)·b), shortening velocity v at load F, instantaneous mechanical power output P = F · v in Watts, and optimal velocity for peak power (v_opt ≈ 0.31 v_max).",
+    "path": "/tools/human-skeletal-muscle-hill-force-velocity-relation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hill muscle force velocity calculator",
+      "muscle contraction power output formula online",
+      "isometric tetanic force f0 hill hyperbolic curve calculator",
+      "maximum shortening velocity vmax peak power calculator",
+      "biomechanics exercise physiology muscle mechanics online"
+    ]
+  },
+  {
+    "name": "Hemodialysis Urea Kinetic Modeling (Single-Pool Daugirdas Kt/V Adequacy) Calculator",
+    "description": "Calculate end-stage renal disease hemodialysis adequacy Kt/V (Second Generation Daugirdas Single-Pool spKt/V: Kt/V = -ln(R - 0.008·t) + (4 - 3.5·R) · (UF / W)), Urea Reduction Ratio URR%, and target adequacy validation.",
+    "path": "/tools/dialysis-urea-kinetic-modeling-kt-v-adequacy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dialysis kt over v calculator",
+      "daugirdas single pool spkt v formula online",
+      "hemodialysis adequacy urea reduction ratio urr calculator",
+      "esrd dialysis dose ultrafiltration volume calculator",
+      "nephrology kidney dialysis biomedical medicine online"
+    ]
+  },
+  {
+    "name": "PET Scan Standardized Uptake Value (SUV_bw) Tumor Metabolic Activity Calculator",
+    "description": "Calculate Positron Emission Tomography (PET) diagnostic tumor metabolic FDG radiotracer avidity Standardized Uptake Value SUV_bw (SUV = Tissue Activity Concentration (kBq/mL) / (Decayed Injected Dose (MBq) / Patient Body Weight (kg))).",
+    "path": "/tools/pet-scan-standardized-uptake-value-suv-tumor-metabolism-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pet scan suv calculator",
+      "standardized uptake value formula suv bw online",
+      "pet ct 18f fdg tumor metabolism calculator",
+      "radiotracer tissue activity concentration calculator",
+      "nuclear medicine oncology radiology medical physics online"
+    ]
+  },
+  {
+    "name": "ECG Corrected QT Interval (Bazett & Fridericia QTc Formula) Calculator",
+    "description": "Calculate electrocardiogram (ECG) heart rate-corrected QT interval QTc in milliseconds (Bazett Formula: QTc = QT / √RR, Fridericia Formula: QTc = QT / RR^(1/3), Framingham, Hodges) to diagnose Long QT Syndrome and arrhythmia risk.",
+    "path": "/tools/electrocardiogram-ecg-corrected-qt-interval-bazett-fridericia-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "ecg corrected qt interval calculator",
+      "qtc bazett fridericia formula online",
+      "long qt syndrome torsades de pointes calculator",
+      "rr interval heart rate ecg calculator",
+      "cardiology electrophysiology medicine pharmacology online"
+    ]
+  },
+  {
+    "name": "Goldmann Applanation Tonometry Intraocular Pressure (IOP CCT Adjustment) Calculator",
+    "description": "Calculate ophthalmology clinical Intraocular Pressure IOP in mmHg (Imbert-Fick Law: P = F / A) with Central Corneal Thickness CCT pachymetry adjustment (Dresdner / Ehlers Correction) for glaucoma screening.",
+    "path": "/tools/intraocular-pressure-goldmann-applanation-tonometry-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "goldmann tonometry iop calculator",
+      "intraocular pressure cct corneal thickness adjustment online",
+      "glaucoma eye pressure imbert fick formula calculator",
+      "pachymetry corrected iop mmhg calculator",
+      "ophthalmology optometry biomedical vision science online"
+    ]
+  },
+  {
+    "name": "Pulmonary Function Spirometry FEV1 / FVC Ratio & Lung Obstruction Calculator",
+    "description": "Calculate respiratory diagnostic Spirometry Forced Expiratory Volume FEV₁ / FVC ratio percentage (Tiffeneau-Pinelli Index: FEV₁ / FVC · 100%), percent predicted values, and classify Obstructive (COPD/Asthma) vs Restrictive lung disease.",
+    "path": "/tools/spirometry-forced-vital-capacity-fev1-fev1-fvc-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "spirometry fev1 fvc ratio calculator",
+      "forced vital capacity tiffeneau index online",
+      "copd asthma obstructive restrictive spirometry calculator",
+      "percent predicted fev1 gold criteria calculator",
+      "pulmonology respiratory medicine physiology online"
+    ]
+  },
+  {
+    "name": "DEXA Bone Mineral Density T-Score & Z-Score Osteoporosis Stage Calculator",
+    "description": "Calculate Dual-Energy X-ray Absorptiometry (DEXA) Bone Mineral Density (BMD) T-score (T = (BMD - BMD_young) / SD_young) and Z-score (Z = (BMD - BMD_age) / SD_age) to classify Normal, Osteopenia, and Osteoporosis (WHO Criteria).",
+    "path": "/tools/bone-mineral-density-dexa-t-score-z-score-osteoporosis-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "dexa bone mineral density calculator",
+      "t score z score osteoporosis formula online",
+      "who osteopenia osteoporosis bmd calculator",
+      "dual energy xray absorptiometry t score calculator",
+      "endocrinology rheumatology geriatrics medical physics online"
+    ]
+  },
+  {
+    "name": "Pharmacokinetics One-Compartment IV Elimination Rate & Half-Life (t_1/2) Calculator",
+    "description": "Calculate clinical pharmacokinetics one-compartment IV bolus drug concentration decay C(t) = C_0 · e^(-k_e · t), elimination half-life t_1/2 = 0.693 / k_e, Volume of Distribution V_d = Dose / C_0, Total Body Clearance CL = k_e · V_d, and AUC.",
+    "path": "/tools/pharmacokinetics-one-compartment-elimination-half-life-auc-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pharmacokinetics calculator",
+      "one compartment elimination half life formula online",
+      "volume of distribution clearance auc calculator",
+      "drug plasma concentration decay pk calculator",
+      "clinical pharmacology pharmacy biomedical medicine online"
+    ]
+  },
+  {
+    "name": "Antenna Array Beamforming & HPBW Directivity Calculator",
+    "description": "Calculate half-power beamwidth (HPBW) and array directivity for uniform linear arrays (ULA) and phased array antenna systems.",
+    "path": "/tools/antenna-array-beamforming-half-power-beamwidth-directivity-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "antenna array beamforming half power beamwidth directivity calculator",
+      "Antenna Array Beamforming & HPBW Directivity Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "CDMA Spreading Gain & Processing Gain Calculator",
+    "description": "Calculate CDMA processing gain Gp = 10 log10(Rc/Rb), required SNR, and spreading code efficiency for wireless communications.",
+    "path": "/tools/cdma-spreading-gain-eb-n0-processing-gain-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "cdma spreading gain eb n0 processing gain calculator",
+      "CDMA Spreading Gain & Processing Gain Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Coaxial Cable Characteristic Impedance & Attenuation Calculator",
+    "description": "Calculate RF coaxial cable characteristic impedance Z0, capacitance per meter, cutoff frequency, and velocity factor from geometry.",
+    "path": "/tools/coaxial-cable-attenuation-characteristic-impedance-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "coaxial cable attenuation characteristic impedance calculator",
+      "Coaxial Cable Characteristic Impedance & Attenuation Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "Convolutional / Turbo Code Coding Gain & Code Rate Calculator",
+    "description": "Calculate FEC channel coding gain, effective Eb/N0 improvement, free distance dfree, and bandwidth expansion factor.",
+    "path": "/tools/turbo-code-convolutional-code-coding-gain-rate-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "turbo code convolutional code coding gain rate calculator",
+      "Convolutional / Turbo Code Coding Gain & Code Rate Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  },
+  {
+    "name": "dBm, dBW, Watts & Voltage RF Power Conversion Calculator",
+    "description": "Convert RF power between dBm, dBW, Watts, milliwatts, and Vrms across 50-ohm load impedance instantly.",
+    "path": "/tools/dbm-dbw-watts-voltage-rf-power-conversion-calculator/",
+    "category": "Utilities",
+    "icon": "code",
+    "keywords": [
+      "dbm dbw watts voltage rf power conversion calculator",
+      "dBm, dBW, Watts & Voltage RF Power Conversion Calculator",
+      "calculator",
+      "online tool",
+      "free tool",
+      "engineering calculator"
+    ]
+  }
+]

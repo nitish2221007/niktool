@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 135V, Current 9A)",
+  "description": "Calculate Resistance (15.00 Ω) and Electric Power (1215.0 W) for 135V voltage and 9A current.",
+  "path": "/tools/ohms-law-calculator-voltage-135v-current-9a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 135v current 9a",
+    "Ohm's Law Calculator (Voltage 135V, Current 9A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

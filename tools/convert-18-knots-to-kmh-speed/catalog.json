@@ -1,0 +1,15 @@
+{
+  "name": "Convert 18 Knots to KM/H Speed",
+  "description": "Convert 18 knots speed to kilometers per hour (33.34 km/h).",
+  "path": "/tools/convert-18-knots-to-kmh-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 18 knots to kmh speed",
+    "Convert 18 Knots to KM/H Speed",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

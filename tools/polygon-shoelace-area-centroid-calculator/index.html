@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polygon Area & Geometric Centroid (Shoelace Formula) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate arbitrary 2D polygon area (A = 1/2 · |Σ(x_i · y_{i+1} - x_{i+1} · y_i)|) and center of mass centroid coordinates (C_x, C_y) from Cartesian vertex coordinates.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/polygon-shoelace-area-centroid-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Polygon Area & Geometric Centroid (Shoelace Formula) Calculator | NikTool">
+  <meta property="og:description" content="Calculate arbitrary 2D polygon area (A = 1/2 · |Σ(x_i · y_{i+1} - x_{i+1} · y_i)|) and center of mass centroid coordinates (C_x, C_y) from Cartesian vertex coordinates.">
+  <meta property="og:url" content="https://niktool.in/tools/polygon-shoelace-area-centroid-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Polygon Area & Geometric Centroid (Shoelace Formula) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/polygon-shoelace-area-centroid-calculator/",
+        "description": "Calculate arbitrary 2D polygon area (A = 1/2 · |Σ(x_i · y_{i+1} - x_{i+1} · y_i)|) and center of mass centroid coordinates (C_x, C_y) from Cartesian vertex coordinates.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is it named the Shoelace formula?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because the pattern of multiplying cross-diagonal coordinate pairs resembles lacing up a shoe."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Polygon Area & Geometric Centroid (Shoelace Formula) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Polygon Area & Geometric Centroid (Shoelace Formula) Calculator</h1>
+      <p>Calculate arbitrary 2D polygon area (A = 1/2 · |Σ(x_i · y_{i+1} - x_{i+1} · y_i)|) and center of mass centroid coordinates (C_x, C_y) from Cartesian vertex coordinates.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Polygon Vertices (X, Y Pairs - One Point per Line in Order)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="shl-pts">Polygon Vertices (x, y)</label>
+        <textarea class="tool-textarea" id="shl-pts" rows="4" placeholder="x1, y1&#10;x2, y2&#10;x3, y3...">0, 0&#10;10, 0&#10;12, 8&#10;4, 12&#10;0, 6</textarea>
+      </div>
+      <div id="shl-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="shl-res-area" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">86.00 Sq Units</span>
+            <span class="stat-label">Enclosed Polygon Area (A)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="shl-res-cent" style="font-weight:700;">Centroid C = (5.19, 5.09) | Perimeter: 37.28</span>
+            <span class="stat-label">Center of Gravity Centroid (C_x, C_y) & Perimeter</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Polygon Area & Geometric Centroid (Shoelace Formula) Calculator</h2>
+      <ol>
+        <li>Enter polygon vertex Cartesian coordinates (X, Y) in clockwise or counterclockwise perimeter order (one pair per line).</li>
+        <li>The calculator automatically connects the final vertex back to the first vertex.</li>
+        <li>Inspect polygon enclosed planar area using Gauss Shoelace formula, true center of mass centroid, and perimeter length.</li>
+      </ol>
+
+      <h2>Carl Friedrich Gauss 1795 Shoelace Algorithm</h2>
+      <p>The Shoelace formula integrates the cross product of adjacent vertex coordinate vectors to compute the exact area of non-self-intersecting polygons of arbitrary shape and complexity.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is it named the Shoelace formula?</summary>
+        <p>Because the pattern of multiplying cross-diagonal coordinate pairs resembles lacing up a shoe.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/polygon-shoelace-area-centroid-calculator/tool.js"></script>
+</body>
+</html>

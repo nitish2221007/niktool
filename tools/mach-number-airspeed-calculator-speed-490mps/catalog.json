@@ -1,0 +1,15 @@
+{
+  "name": "Mach Number Airspeed Calculator (Velocity 490 m/s)",
+  "description": "Calculate flight Mach number (Mach 1.44 - Supersonic) for airspeed velocity of 490 m/s.",
+  "path": "/tools/mach-number-airspeed-calculator-speed-490mps/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "mach number airspeed calculator speed 490mps",
+    "Mach Number Airspeed Calculator (Velocity 490 m/s)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

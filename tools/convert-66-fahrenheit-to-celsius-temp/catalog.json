@@ -1,0 +1,15 @@
+{
+  "name": "Convert 66°F Fahrenheit to Celsius Temp",
+  "description": "Convert 66 degrees Fahrenheit (°F) to Celsius (18.9°C) instantly.",
+  "path": "/tools/convert-66-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 66 fahrenheit to celsius temp",
+    "Convert 66°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

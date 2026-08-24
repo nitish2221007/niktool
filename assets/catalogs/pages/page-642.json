@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Data Download Time Calculator (7 GB File, 10 Mbps Speed)",
+    "description": "Calculate file transfer download time (~95.6 minutes / 5734s) for 7 GB file at 10 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-10mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 10mbps",
+      "Data Download Time Calculator (7 GB File, 10 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 100 Mbps Speed)",
+    "description": "Calculate file transfer download time (~9.6 minutes / 573s) for 7 GB file at 100 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-100mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 100mbps",
+      "Data Download Time Calculator (7 GB File, 100 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 1000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.9 minutes / 57s) for 7 GB file at 1000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-1000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 1000mbps",
+      "Data Download Time Calculator (7 GB File, 1000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 10000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.1 minutes / 6s) for 7 GB file at 10000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-10000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 10000mbps",
+      "Data Download Time Calculator (7 GB File, 10000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 2000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.5 minutes / 29s) for 7 GB file at 2000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-2000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 2000mbps",
+      "Data Download Time Calculator (7 GB File, 2000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 25 Mbps Speed)",
+    "description": "Calculate file transfer download time (~38.2 minutes / 2294s) for 7 GB file at 25 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-25mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 25mbps",
+      "Data Download Time Calculator (7 GB File, 25 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 250 Mbps Speed)",
+    "description": "Calculate file transfer download time (~3.8 minutes / 229s) for 7 GB file at 250 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-250mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 250mbps",
+      "Data Download Time Calculator (7 GB File, 250 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 50 Mbps Speed)",
+    "description": "Calculate file transfer download time (~19.1 minutes / 1147s) for 7 GB file at 50 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-50mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 50mbps",
+      "Data Download Time Calculator (7 GB File, 50 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 500 Mbps Speed)",
+    "description": "Calculate file transfer download time (~1.9 minutes / 115s) for 7 GB file at 500 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-500mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 500mbps",
+      "Data Download Time Calculator (7 GB File, 500 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (7 GB File, 5000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~0.2 minutes / 11s) for 7 GB file at 5000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-7gb-speed-5000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 7gb speed 5000mbps",
+      "Data Download Time Calculator (7 GB File, 5000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (70 GB File, 100 Mbps Speed)",
+    "description": "Calculate file transfer download time (~95.6 minutes / 5734s) for 70 GB file at 100 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-70gb-speed-100mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 70gb speed 100mbps",
+      "Data Download Time Calculator (70 GB File, 100 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (70 GB File, 1000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~9.6 minutes / 573s) for 70 GB file at 1000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-70gb-speed-1000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 70gb speed 1000mbps",
+      "Data Download Time Calculator (70 GB File, 1000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (70 GB File, 250 Mbps Speed)",
+    "description": "Calculate file transfer download time (~38.2 minutes / 2294s) for 70 GB file at 250 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-70gb-speed-250mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 70gb speed 250mbps",
+      "Data Download Time Calculator (70 GB File, 250 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (70 GB File, 2500 Mbps Speed)",
+    "description": "Calculate file transfer download time (~3.8 minutes / 229s) for 70 GB file at 2500 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-70gb-speed-2500mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 70gb speed 2500mbps",
+      "Data Download Time Calculator (70 GB File, 2500 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (70 GB File, 500 Mbps Speed)",
+    "description": "Calculate file transfer download time (~19.1 minutes / 1147s) for 70 GB file at 500 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-70gb-speed-500mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 70gb speed 500mbps",
+      "Data Download Time Calculator (70 GB File, 500 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (70 GB File, 5000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~1.9 minutes / 115s) for 70 GB file at 5000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-70gb-speed-5000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 70gb speed 5000mbps",
+      "Data Download Time Calculator (70 GB File, 5000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (71 GB File, 100 Mbps Speed)",
+    "description": "Calculate file transfer download time (~96.9 minutes / 5816s) for 71 GB file at 100 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-71gb-speed-100mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 71gb speed 100mbps",
+      "Data Download Time Calculator (71 GB File, 100 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (71 GB File, 1000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~9.7 minutes / 582s) for 71 GB file at 1000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-71gb-speed-1000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 71gb speed 1000mbps",
+      "Data Download Time Calculator (71 GB File, 1000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (71 GB File, 250 Mbps Speed)",
+    "description": "Calculate file transfer download time (~38.8 minutes / 2327s) for 71 GB file at 250 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-71gb-speed-250mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 71gb speed 250mbps",
+      "Data Download Time Calculator (71 GB File, 250 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (71 GB File, 2500 Mbps Speed)",
+    "description": "Calculate file transfer download time (~3.9 minutes / 233s) for 71 GB file at 2500 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-71gb-speed-2500mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 71gb speed 2500mbps",
+      "Data Download Time Calculator (71 GB File, 2500 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (71 GB File, 500 Mbps Speed)",
+    "description": "Calculate file transfer download time (~19.4 minutes / 1163s) for 71 GB file at 500 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-71gb-speed-500mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 71gb speed 500mbps",
+      "Data Download Time Calculator (71 GB File, 500 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (71 GB File, 5000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~1.9 minutes / 116s) for 71 GB file at 5000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-71gb-speed-5000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 71gb speed 5000mbps",
+      "Data Download Time Calculator (71 GB File, 5000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (72 GB File, 100 Mbps Speed)",
+    "description": "Calculate file transfer download time (~98.3 minutes / 5898s) for 72 GB file at 100 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-72gb-speed-100mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 72gb speed 100mbps",
+      "Data Download Time Calculator (72 GB File, 100 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Data Download Time Calculator (72 GB File, 1000 Mbps Speed)",
+    "description": "Calculate file transfer download time (~9.8 minutes / 590s) for 72 GB file at 1000 Mbps bandwidth.",
+    "path": "/tools/data-download-time-calculator-filesize-72gb-speed-1000mbps/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "data download time calculator filesize 72gb speed 1000mbps",
+      "Data Download Time Calculator (72 GB File, 1000 Mbps Speed)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "RC High-Pass Filter Cutoff Frequency Calculator",
+  "description": "Calculate cutoff frequency (f_c = 1 / (2π·R·C)) and DC blocking behavior for passive RC high-pass filters in audio AC coupling stages.",
+  "path": "/tools/rc-high-pass-filter-cutoff-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rc high pass filter calculator",
+    "ac coupling capacitor calculator",
+    "high pass filter cutoff formula",
+    "dc blocking filter frequency online",
+    "passive high pass rc circuit"
+  ],
+  "order": 245
+}

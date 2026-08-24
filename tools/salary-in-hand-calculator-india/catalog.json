@@ -1,0 +1,15 @@
+{
+  "name": "Salary In-Hand Take Home Calculator",
+  "description": "Calculate take-home monthly salary after PF, ESI, and tax deductions.",
+  "path": "/tools/salary-in-hand-calculator-india/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "salary in hand calculator india",
+    "Salary In-Hand Take Home Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

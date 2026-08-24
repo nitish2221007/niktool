@@ -1,0 +1,15 @@
+{
+  "name": "Convert 45°F Fahrenheit to Celsius Temp",
+  "description": "Convert 45 degrees Fahrenheit (°F) to Celsius (7.2°C) instantly.",
+  "path": "/tools/convert-45-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 45 fahrenheit to celsius temp",
+    "Convert 45°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

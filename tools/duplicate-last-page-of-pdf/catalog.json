@@ -1,0 +1,16 @@
+{
+  "name": "Duplicate Last Page Of PDF",
+  "description": "Duplicate the last page of a PDF document at the end.",
+  "path": "/tools/duplicate-last-page-of-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "duplicate last page of pdf",
+    "Duplicate Last Page Of PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate nucleotide Guanine-Cytosine GC percentage (%GC), molecular weight, and PCR primer annealing melting temperature (Tm) using the Marmur-Doty and Nearest-Neighbor formulas.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/dna-gc-content-melting-temp-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator | NikTool">
+  <meta property="og:description" content="Calculate nucleotide Guanine-Cytosine GC percentage (%GC), molecular weight, and PCR primer annealing melting temperature (Tm) using the Marmur-Doty and Nearest-Neighbor formulas.">
+  <meta property="og:url" content="https://niktool.in/tools/dna-gc-content-melting-temp-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/dna-gc-content-melting-temp-calculator/",
+        "description": "Calculate nucleotide Guanine-Cytosine GC percentage (%GC), molecular weight, and PCR primer annealing melting temperature (Tm) using the Marmur-Doty and Nearest-Neighbor formulas.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the optimal PCR annealing temperature?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The PCR annealing temperature is typically set 3°C to 5°C below the lower melting temperature (Tₘ) of the primer pair."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator</h1>
+      <p>Calculate nucleotide Guanine-Cytosine GC percentage (%GC), molecular weight, and PCR primer annealing melting temperature (Tm) using the Marmur-Doty and Nearest-Neighbor formulas.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">5' to 3' DNA Oligonucleotide Sequence</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="dna-seq">Enter DNA Sequence (A, T, G, C)</label>
+        <textarea class="tool-textarea" id="dna-seq" rows="3" placeholder="ATGCGATCGATCGATCGATCGATCGATC" style="font-family:monospace; text-transform:uppercase;"></textarea>
+      </div>
+      <div id="dna-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="dna-res-tm" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">64.2 °C</span>
+            <span class="stat-label">Primer Melting Temperature (Tₘ)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dna-res-gc" style="color:#2563eb; font-weight:700;">50.0% GC</span>
+            <span class="stat-label">GC Content</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dna-res-len">28 bp</span>
+            <span class="stat-label">Sequence Length</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use DNA GC-Content & PCR Primer Melting Temperature (Tm) Calculator</h2>
+      <ol>
+        <li>Paste DNA primer oligonucleotide sequence in 5' to 3' direction.</li>
+        <li>Inspect base composition, Guanine-Cytosine (GC%) ratio, and calculated melting temperature (Tₘ).</li>
+      </ol>
+
+      <h2>PCR Primer Design Rules (3 Hydrogen Bonds in G-C)</h2>
+      <p>G-C base pairs form 3 hydrogen bonds compared to only 2 in A-T pairs, conferring higher thermal stability. Ideal PCR primers possess 40-60% GC content with a Tₘ between 55°C and 65°C.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the optimal PCR annealing temperature?</summary>
+        <p>The PCR annealing temperature is typically set 3°C to 5°C below the lower melting temperature (Tₘ) of the primer pair.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/dna-gc-content-melting-temp-calculator/tool.js"></script>
+</body>
+</html>

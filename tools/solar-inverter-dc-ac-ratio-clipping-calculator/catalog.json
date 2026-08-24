@@ -1,0 +1,15 @@
+{
+  "name": "Solar Inverter DC-to-AC Ratio (ILR) & Clipping Calculator",
+  "description": "Calculate solar photovoltaic Inverter Loading Ratio (ILR = DC_Array_kW / AC_Inverter_kW) and evaluate clipping losses vs inverter capital cost optimization.",
+  "path": "/tools/solar-inverter-dc-ac-ratio-clipping-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "solar inverter dc ac ratio calculator",
+    "inverter loading ratio ilr formula",
+    "solar clipping loss percentage calculator online",
+    "oversizing solar array dc ac ratio calculator",
+    "pv inverter sizing optimizer online"
+  ],
+  "order": 585
+}

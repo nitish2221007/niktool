@@ -1,0 +1,15 @@
+{
+  "name": "Daily Water Intake Calculator",
+  "description": "Calculate your optimal daily water hydration goal in Liters and fluid ounces based on body weight, daily workout intensity, and climate.",
+  "path": "/tools/water-intake-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "water intake calculator",
+    "daily hydration calculator",
+    "how much water should i drink",
+    "hydration goal calculator",
+    "water requirements by weight"
+  ],
+  "order": 66
+}

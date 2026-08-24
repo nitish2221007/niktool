@@ -1,0 +1,15 @@
+{
+  "name": "Electric Field Strength (Coulomb's Law) Calculator",
+  "description": "Calculate electrostatic electric field strength (E = (k · |q|) / r²) in Newtons per Coulomb (N/C) and Volts per meter (V/m) from point charge magnitude and distance.",
+  "path": "/tools/coulomb-law-electric-field-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "electric field calculator",
+    "coulomb law electric field formula",
+    "point charge electric field strength",
+    "electrostatic field intensity n c online",
+    "electric field distance calculator"
+  ],
+  "order": 354
+}

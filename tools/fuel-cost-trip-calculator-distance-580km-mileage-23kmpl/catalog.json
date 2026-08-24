@@ -1,0 +1,15 @@
+{
+  "name": "Fuel Cost Trip Calculator (580 km Distance, 23 km/l Mileage)",
+  "description": "Calculate fuel needed (25.2 L) and cost (₹2432) for 580 km trip at 23 km/l.",
+  "path": "/tools/fuel-cost-trip-calculator-distance-580km-mileage-23kmpl/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "fuel cost trip calculator distance 580km mileage 23kmpl",
+    "Fuel Cost Trip Calculator (580 km Distance, 23 km/l Mileage)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

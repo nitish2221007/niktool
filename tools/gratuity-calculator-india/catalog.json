@@ -1,0 +1,15 @@
+{
+  "name": "Gratuity Calculator India",
+  "description": "Calculate gratuity payout based on monthly basic salary and service years.",
+  "path": "/tools/gratuity-calculator-india/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "gratuity calculator india",
+    "Gratuity Calculator India",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

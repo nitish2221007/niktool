@@ -1,0 +1,15 @@
+{
+  "name": "Convert 40°C Celsius to Fahrenheit",
+  "description": "Convert 40 degrees Celsius (°C) to Fahrenheit (104.0°F).",
+  "path": "/tools/convert-40-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 40 celsius to fahrenheit",
+    "Convert 40°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

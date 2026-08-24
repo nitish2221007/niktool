@@ -1,0 +1,15 @@
+{
+  "name": "Convert 73°F Fahrenheit to Celsius Temp",
+  "description": "Convert 73 degrees Fahrenheit (°F) to Celsius (22.8°C) instantly.",
+  "path": "/tools/convert-73-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 73 fahrenheit to celsius temp",
+    "Convert 73°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

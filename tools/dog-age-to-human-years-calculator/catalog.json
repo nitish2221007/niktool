@@ -1,0 +1,15 @@
+{
+  "name": "Scientific Dog Age to Human Years Calculator",
+  "description": "Calculate your dog's true biological age in human years using the UCSD epigenetic DNA methylation logarithmic formula (Human Age = 16 · ln(Dog Age) + 31).",
+  "path": "/tools/dog-age-to-human-years-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "dog age calculator",
+    "dog years to human years",
+    "scientific dog age formula",
+    "epigenetic dog age calculator",
+    "ucsd dog dna methylation calculator"
+  ],
+  "order": 214
+}

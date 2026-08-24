@@ -1,0 +1,15 @@
+{
+  "name": "Convert 32 KM to Miles",
+  "description": "Convert 32 kilometers to miles (19.88 miles). 100% free and local.",
+  "path": "/tools/convert-32-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 32 km to miles",
+    "Convert 32 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

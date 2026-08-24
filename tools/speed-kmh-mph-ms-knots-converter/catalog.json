@@ -1,0 +1,15 @@
+{
+  "name": "Speed & Velocity Converter (km/h, mph, m/s, knots)",
+  "description": "Convert speeds and velocities across kilometers per hour (km/h), miles per hour (mph), meters per second (m/s), and nautical knots.",
+  "path": "/tools/speed-kmh-mph-ms-knots-converter/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "speed converter",
+    "kmh to mph converter",
+    "mph to kmh calculator",
+    "ms to kmh converter",
+    "knots to mph speed calculator"
+  ],
+  "order": 132
+}

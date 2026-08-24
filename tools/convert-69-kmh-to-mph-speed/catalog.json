@@ -1,0 +1,15 @@
+{
+  "name": "Convert 69 KM/H to MPH Speed",
+  "description": "Convert 69 kilometers per hour (km/h) to miles per hour (42.87 mph).",
+  "path": "/tools/convert-69-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 69 kmh to mph speed",
+    "Convert 69 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Structural Fillet Weld Throat Size & LRFD Strength Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate effective throat dimension (t_e = 0.707 · w) and design shear strength (ϕR_n = 0.75 · 0.60 · F_EXX · t_e · L) for E70XX and E80XX fillet welds.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/fillet-weld-throat-strength-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Structural Fillet Weld Throat Size & LRFD Strength Calculator | NikTool">
+  <meta property="og:description" content="Calculate effective throat dimension (t_e = 0.707 · w) and design shear strength (ϕR_n = 0.75 · 0.60 · F_EXX · t_e · L) for E70XX and E80XX fillet welds.">
+  <meta property="og:url" content="https://niktool.in/tools/fillet-weld-throat-strength-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Structural Fillet Weld Throat Size & LRFD Strength Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/fillet-weld-throat-strength-calculator/",
+        "description": "Calculate effective throat dimension (t_e = 0.707 · w) and design shear strength (ϕR_n = 0.75 · 0.60 · F_EXX · t_e · L) for E70XX and E80XX fillet welds.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the strength of a 1/4\" (4/16\") E70XX fillet weld per inch?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ϕR_n = 4 sixteenths × 1.392 kips/in = exactly 5.568 kips per linear inch."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Structural Fillet Weld Throat Size & LRFD Strength Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Structural Fillet Weld Throat Size & LRFD Strength Calculator</h1>
+      <p>Calculate effective throat dimension (t_e = 0.707 · w) and design shear strength (ϕR_n = 0.75 · 0.60 · F_EXX · t_e · L) for E70XX and E80XX fillet welds.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Weld Leg Size w (Inches), Length (Inches) & Electrode (E70 / E80)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="wld-leg">Weld Leg Size w (in)</label>
+          <select class="tool-textarea" id="wld-leg">
+            <option value="0.1875">3/16" (0.1875 in)</option>
+            <option value="0.25" selected>1/4" (0.250 in)</option>
+            <option value="0.3125">5/16" (0.3125 in)</option>
+            <option value="0.375">3/8" (0.375 in)</option>
+            <option value="0.50">1/2" (0.500 in)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wld-len">Weld Length L (in)</label>
+          <input class="tool-textarea" id="wld-len" type="number" step="any" value="6.0" placeholder="6.0 in" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="wld-elec">Electrode Rating</label>
+          <select class="tool-textarea" id="wld-elec">
+            <option value="70" selected>E70XX (F_EXX = 70 ksi - Standard)</option>
+            <option value="80">E80XX (F_EXX = 80 ksi)</option>
+          </select>
+        </div>
+      </div>
+      <div id="wld-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="wld-res-tot" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">33.40 kips (148.6 kN)</span>
+            <span class="stat-label">Total Design Weld Strength (ϕR_n)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="wld-res-unit" style="font-weight:700;">5.57 kips / linear inch</span>
+            <span class="stat-label">Capacity per Linear Inch (0.75 · 0.6 · F_EXX · 0.707w)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Structural Fillet Weld Throat Size & LRFD Strength Calculator</h2>
+      <ol>
+        <li>Select fillet weld leg size w in inches (e.g. 1/4", 5/16", 3/8").</li>
+        <li>Enter total continuous weld length L in inches.</li>
+        <li>Select welding electrode classification (E70XX 70 ksi standard).</li>
+        <li>Inspect total AISC LRFD design shear capacity in kips / kN and unit strength per linear inch.</li>
+      </ol>
+
+      <h2>0.707 Throat Dimension Geometry</h2>
+      <p>For a standard 45° equal-leg fillet weld, failure occurs along the minimum root-to-face throat dimension (t_e = w · cos(45°) = 0.707 · w); E70XX weld metal delivers 1.392 kips/inch for every 1/16th inch of leg size.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the strength of a 1/4" (4/16") E70XX fillet weld per inch?</summary>
+        <p>ϕR_n = 4 sixteenths × 1.392 kips/in = exactly 5.568 kips per linear inch.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/fillet-weld-throat-strength-calculator/tool.js"></script>
+</body>
+</html>

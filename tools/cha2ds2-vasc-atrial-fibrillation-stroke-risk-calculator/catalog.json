@@ -1,0 +1,15 @@
+{
+  "name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk Calculator",
+  "description": "Calculate CHA₂DS₂-VASc thromboembolic stroke risk score (0 to 9) in non-valvular atrial fibrillation to guide oral anticoagulation therapy (DOACs / Warfarin) per ACC/AHA/ESC guidelines.",
+  "path": "/tools/cha2ds2-vasc-atrial-fibrillation-stroke-risk-calculator/",
+  "category": "Health",
+  "icon": "text",
+  "keywords": [
+    "cha2ds2 vasc calculator",
+    "atrial fibrillation stroke risk score formula online",
+    "afib oral anticoagulation doac indication calculator",
+    "stroke risk annual percentage cha2ds2 vasc calculator",
+    "cardiology electrophysiology stroke prevention online"
+  ],
+  "order": 1151
+}

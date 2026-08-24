@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text Duplicate Line Remover - Free Online Tool | NikTool</title>
+  <meta name="description" content="Remove duplicate lines from text lists, trim whitespace, sort alphabetically (A-Z or Z-A), and count unique entries instantly.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/text-duplicate-remover/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Text Duplicate Line Remover | NikTool">
+  <meta property="og:description" content="Remove duplicate lines from text lists, trim whitespace, sort alphabetically (A-Z or Z-A), and count unique entries instantly.">
+  <meta property="og:url" content="https://niktool.in/tools/text-duplicate-remover/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Text Duplicate Line Remover",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/text-duplicate-remover/",
+        "description": "Remove duplicate lines from text lists, trim whitespace, sort alphabetically (A-Z or Z-A), and count unique entries instantly.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Can this tool process thousands of lines?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, using JavaScript Set collections enables instant O(n) deduplication of lists with tens of thousands of lines in milliseconds."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Text Duplicate Line Remover</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Text Duplicate Line Remover</h1>
+      <p>Remove duplicate lines from text lists, trim whitespace, sort alphabetically (A-Z or Z-A), and count unique entries instantly.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Text List Deduplication</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="dup-input">Input List (One entry per line)</label>
+        <textarea class="tool-textarea" id="dup-input" rows="6" placeholder="Apple&#10;Banana&#10;Apple&#10;Orange&#10;Banana&#10;Grape"></textarea>
+      </div>
+      <div style="display:flex; gap:1.25rem; flex-wrap:wrap; margin-bottom:1rem; font-size:0.9rem;">
+        <label style="display:flex; align-items:center; gap:0.4rem; cursor:pointer;">
+          <input type="checkbox" id="dup-case-sensitive" />
+          <span>Case Sensitive</span>
+        </label>
+        <label style="display:flex; align-items:center; gap:0.4rem; cursor:pointer;">
+          <input type="checkbox" id="dup-sort-az" checked />
+          <span>Sort Alphabetically (A-Z)</span>
+        </label>
+        <label style="display:flex; align-items:center; gap:0.4rem; cursor:pointer;">
+          <input type="checkbox" id="dup-trim-ws" checked />
+          <span>Trim Whitespace</span>
+        </label>
+      </div>
+      <div id="dup-res-card" style="display:none; margin-top:1.25rem;">
+        <div class="stats-grid" style="margin-bottom:1rem;">
+          <div class="stat">
+            <span class="stat-value" id="dup-stat-orig">-</span>
+            <span class="stat-label">Original Lines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dup-stat-unique" style="color:var(--green-dark); font-weight:800;">-</span>
+            <span class="stat-label">Unique Lines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="dup-stat-removed" style="color:#c53030;">-</span>
+            <span class="stat-label">Duplicates Removed</span>
+          </div>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+          <label class="control-label" style="margin-bottom:0;">Clean Deduplicated Output</label>
+          <button class="button secondary" id="copy-dup-btn" type="button" style="padding:0.25rem 0.6rem; font-size:0.8rem;">Copy List</button>
+        </div>
+        <textarea class="tool-textarea" id="dup-output" rows="6" readonly></textarea>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Text Duplicate Line Remover</h2>
+      <ol>
+        <li>Paste your list of items (emails, keywords, names, numbers) with one item per line.</li>
+        <li>Configure options: Case Sensitive matching, Alphabetical sorting, and Whitespace trimming.</li>
+        <li>Click <strong>Calculate</strong> to inspect unique entries and duplicate removal stats.</li>
+      </ol>
+
+      <h2>Fast List Cleanup for Large Datasets</h2>
+      <p>Deduplicating text entries locally eliminates duplicate records from CSV exports, keyword lists, and contact rosters without risking data exposure to third-party cloud servers.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Can this tool process thousands of lines?</summary>
+        <p>Yes, using JavaScript Set collections enables instant O(n) deduplication of lists with tens of thousands of lines in milliseconds.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/text-duplicate-remover/tool.js"></script>
+</body>
+</html>

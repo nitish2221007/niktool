@@ -1,0 +1,15 @@
+{
+  "name": "BMI Calculator (Height 199cm, Weight 64kg)",
+  "description": "Calculate Body Mass Index (BMI 16.2) for height 199 cm and weight 64 kg. 100% free and local.",
+  "path": "/tools/bmi-calculator-height-199cm-weight-64kg/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "bmi calculator height 199cm weight 64kg",
+    "BMI Calculator (Height 199cm, Weight 64kg)",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

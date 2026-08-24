@@ -1,0 +1,15 @@
+{
+  "name": "Van der Waals Equation of State ((P + a/V_m²)·(V_m - b) = RT) Calculator",
+  "description": "Calculate real gas pressure P, molar volume V_m, molecular attraction parameter a, co-volume b, and compressibility factor Z using the Van der Waals non-ideal gas equation of state.",
+  "path": "/tools/van-der-waals-real-gas-equation-state-compressibility-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "van der waals calculator",
+    "real gas equation of state formula p plus a over v squared online",
+    "van der waals constants a and b calculator",
+    "compressibility factor z real gas calculator",
+    "thermodynamics physical chemistry chemical engineering online"
+  ],
+  "order": 1248
+}

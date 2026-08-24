@@ -1,0 +1,15 @@
+{
+  "name": "Income Elasticity of Demand (YED) Calculator",
+  "description": "Calculate Income Elasticity of Demand (YED = (% ΔQuantity) / (% ΔIncome)) to classify consumer goods as Normal Necessities (YED between 0 and 1), Luxuries (YED above 1), or Inferior goods (negative YED).",
+  "path": "/tools/income-elasticity-of-demand-yed-calculator/",
+  "category": "Finance",
+  "icon": "chart",
+  "keywords": [
+    "income elasticity of demand calculator",
+    "yed formula normal luxury inferior",
+    "income elasticity calculator online",
+    "engel curve income elasticity",
+    "economic good classification yed online"
+  ],
+  "order": 490
+}

@@ -1,0 +1,403 @@
+[
+  {
+    "name": "Electricity Units Converter",
+    "description": "Convert between watts, kilowatts, joules, and kWh with power/energy type validation. Free, fast, and fully private.",
+    "path": "/tools/electricity-units-converter/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "electricity units converter",
+      "kWh to joules",
+      "joules to kWh",
+      "watts to kilowatts",
+      "electricity unit conversion",
+      "class 10 electricity units",
+      "physics unit converter electricity",
+      "school electricity calculator",
+      "energy conversion calculator",
+      "power unit converter"
+    ]
+  },
+  {
+    "name": "Expense Tracker",
+    "description": "Track your daily expenses, categorize spending, and view summaries locally. A 100% free, secure, and private browser-based expense tracker.",
+    "path": "/tools/expense-tracker/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "expense tracker",
+      "budget app",
+      "spending log",
+      "personal finance",
+      "daily expenses",
+      "money tracker",
+      "local storage app",
+      "free budget tool"
+    ]
+  },
+  {
+    "name": "Focal Length Calculator",
+    "description": "Calculate focal length from object and image distances for lenses and mirrors with sign convention support. Free and private.",
+    "path": "/tools/focal-length-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "focal length calculator",
+      "lens focal length calculator",
+      "mirror focal length calculator",
+      "class 10 focal length",
+      "10th physics optics calculator",
+      "u v focal length",
+      "school optics solver",
+      "focal length online",
+      "physics lens mirror tool"
+    ]
+  },
+  {
+    "name": "SQL Query Formatter & Beautifier",
+    "description": "Format, indent, and uppercase keywords in SQL queries (SELECT, INSERT, UPDATE, JOIN) or minify SQL statements into single-line queries.",
+    "path": "/tools/sql-query-formatter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "sql query formatter",
+      "sql beautifier online",
+      "format sql statement",
+      "sql minify online",
+      "sql syntax prettifier",
+      "capitalize sql keywords"
+    ]
+  },
+  {
+    "name": "Bulk UUID v4 & v7 Generator",
+    "description": "Generate batches of cryptographically random UUID v4 and timestamp-ordered UUID v7 identifiers in uppercase or lowercase.",
+    "path": "/tools/uuid-v4-v7-bulk-generator/",
+    "category": "Developer",
+    "icon": "shield",
+    "keywords": [
+      "uuid bulk generator",
+      "uuid v7 generator online",
+      "generate 100 uuids",
+      "batch guid generator",
+      "crypto random uuid generator"
+    ]
+  },
+  {
+    "name": "Expense Splitter",
+    "description": "Split bills and calculate who owes whom instantly. A 100% free, secure, and private browser-based expense splitter for friends and roommates.",
+    "path": "/tools/expense-splitter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "expense splitter",
+      "splitwise alternative",
+      "bill splitter",
+      "group budget",
+      "shared expenses",
+      "roommate calculator",
+      "trip expense split",
+      "free splitter tool"
+    ]
+  },
+  {
+    "name": "Magnification Calculator",
+    "description": "Calculate magnification, image height, or object height for lenses and mirrors with image nature explanation. Free and private.",
+    "path": "/tools/magnification-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "magnification calculator",
+      "magnification formula calculator",
+      "lens magnification calculator",
+      "mirror magnification calculator",
+      "class 10 magnification",
+      "10th physics magnification",
+      "image height calculator",
+      "object height magnification",
+      "school optics calculator",
+      "physics magnification tool"
+    ]
+  },
+  {
+    "name": "Electricity Consumption Calculator",
+    "description": "Calculate appliance energy consumption in kWh and estimate electricity costs based on your tariff. Free and fully private.",
+    "path": "/tools/electricity-consumption-calculator/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "electricity consumption calculator",
+      "electricity usage calculator",
+      "appliance electricity calculator",
+      "power consumption calculator",
+      "kWh consumption calculator",
+      "electricity units calculator",
+      "home energy calculator",
+      "class 10 electricity project",
+      "watt to kWh calculator",
+      "energy usage calculator"
+    ]
+  },
+  {
+    "name": "IPv4 Subnet & CIDR Calculator",
+    "description": "Calculate subnet mask, network address, broadcast IP, usable host range, and total host capacity from any IPv4 address and CIDR prefix.",
+    "path": "/tools/subnet-ipv4-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "ipv4 subnet calculator",
+      "cidr calculator online",
+      "subnet mask calculator",
+      "usable ip range calculator",
+      "network broadcast address calculator"
+    ]
+  },
+  {
+    "name": "Trip Budget Planner",
+    "description": "Plan your travel budget, calculate total and per-person costs instantly. A 100% free, secure, and private browser-based trip budget planner.",
+    "path": "/tools/trip-budget-planner/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "trip budget planner",
+      "travel cost calculator",
+      "vacation budget",
+      "trip expense estimator",
+      "per person travel cost",
+      "holiday budget",
+      "group trip calculator",
+      "free travel planner"
+    ]
+  },
+  {
+    "name": "Chemical Formula Builder",
+    "description": "Build ionic chemical formulas using the cross-over valency method with automatic simplification. Free, fast, and fully private.",
+    "path": "/tools/chemical-formula-builder/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "chemical formula calculator",
+      "chemical formula builder",
+      "formula from valency",
+      "chemical formula using valency",
+      "class 10 chemical formula",
+      "chemistry formula generator",
+      "ionic compound formula",
+      "school chemistry formula tool",
+      "valency formula calculator",
+      "chemical formula maker"
+    ]
+  },
+  {
+    "name": "College Resource Manager",
+    "description": "Save and organize college links, notes, and resources locally. A 100% free, secure, and private browser-based tool for students and academics.",
+    "path": "/tools/college-resource-manager/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "college resource manager",
+      "student link saver",
+      "study notes organizer",
+      "academic resource tracker",
+      "project reference manager",
+      "student dashboard tool",
+      "local storage notes",
+      "free student app"
+    ]
+  },
+  {
+    "name": "Readability Score Calculator",
+    "description": "Calculate Flesch Reading Ease score, Flesch-Kincaid Grade Level, reading time, and syllable statistics for articles and essays.",
+    "path": "/tools/readability-score-calculator/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "readability score calculator",
+      "flesch reading ease calculator",
+      "flesch kincaid grade level",
+      "text readability tester",
+      "essay reading grade level"
+    ]
+  },
+  {
+    "name": "B.Tech Student Dashboard",
+    "description": "Track your CGPA, attendance, assignments, and study goals locally. A 100% free, secure, and private browser-based dashboard for engineering students.",
+    "path": "/tools/btech-student-dashboard/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "btech student dashboard",
+      "engineering cgpa tracker",
+      "college attendance app",
+      "student assignment tracker",
+      "academic progress hub",
+      "btech study planner",
+      "engineering student tool",
+      "local student dashboard"
+    ]
+  },
+  {
+    "name": "Molarity Calculator",
+    "description": "Calculate molarity, moles, or volume of a solution using the standard concentration formula. Free and fully private.",
+    "path": "/tools/molarity-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "molarity calculator",
+      "molar concentration calculator",
+      "moles volume molarity",
+      "chemistry molarity calculator",
+      "class 10 chemistry concentration",
+      "molarity formula",
+      "solution concentration calculator",
+      "school chemistry calculator",
+      "molarity online",
+      "chemistry concentration tool"
+    ]
+  },
+  {
+    "name": "Physics Torque & Rotational Power Calculator",
+    "description": "Calculate mechanical torque (τ = F · r · sin θ), lever arm moment, rotational power (Watts / Horsepower), and RPM torque conversion.",
+    "path": "/tools/torque-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "torque calculator",
+      "rotational torque formula",
+      "torque to horsepower calculator",
+      "lever arm torque calculator",
+      "physics moment of force"
+    ]
+  },
+  {
+    "name": "Mole Calculator",
+    "description": "Calculate moles, mass, or molar mass using the mole concept formula with Avogadro's number. Free and fully private.",
+    "path": "/tools/mole-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "mole calculator",
+      "moles calculator",
+      "mass to moles calculator",
+      "moles from mass",
+      "chemistry mole calculator",
+      "class 10 mole concept",
+      "molar mass moles calculator",
+      "school chemistry mole tool",
+      "mole formula calculator",
+      "chemistry calculation"
+    ]
+  },
+  {
+    "name": "U.S. Navy Body Fat Calculator",
+    "description": "Estimate body fat percentage, fat mass, and lean body mass using the scientifically validated U.S. Navy circumference tape method.",
+    "path": "/tools/body-fat-percentage-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "body fat percentage calculator",
+      "navy body fat calculator",
+      "body fat tape measure calculator",
+      "calculate body fat online",
+      "lean body mass calculator"
+    ]
+  },
+  {
+    "name": "Atomic Mass Lookup",
+    "description": "Quickly search atomic masses, symbols, and atomic numbers for common school chemistry elements. Free and fully private.",
+    "path": "/tools/atomic-mass-lookup/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "atomic mass calculator",
+      "atomic mass of elements",
+      "atomic mass table",
+      "periodic table atomic mass",
+      "class 10 atomic mass",
+      "chemistry atomic mass",
+      "element atomic weights",
+      "school chemistry periodic table",
+      "atomic mass lookup",
+      "chemistry reference tool"
+    ]
+  },
+  {
+    "name": "JSON Minifier & One-Liner Escaper",
+    "description": "Compress, minify, and strip whitespace from JSON payloads, or escape JSON into single-line strings for environment variables and CLI parameters.",
+    "path": "/tools/json-minifier-one-liner/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "json minifier online",
+      "minify json",
+      "json one liner converter",
+      "escape json string",
+      "compress json payload"
+    ]
+  },
+  {
+    "name": "JavaScript Keycode & Event Inspector",
+    "description": "Press any keyboard key to instantly inspect its modern event.key, event.code, keyCode, location, and modifier states in real time.",
+    "path": "/tools/javascript-keycode-inspector/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "javascript keycode inspector",
+      "js keycode tool",
+      "event key code lookup",
+      "keyboard event inspector",
+      "javascript keycode table online"
+    ]
+  },
+  {
+    "name": "Reading Time Calculator",
+    "description": "Estimate how long it takes to read text based on word count and adjustable WPM. Free, fast, and fully private.",
+    "path": "/tools/reading-time-calculator/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "reading time calculator",
+      "reading time estimator",
+      "how long to read text",
+      "text reading time calculator",
+      "student reading time",
+      "article reading time",
+      "words per minute calculator",
+      "WPM reading calculator",
+      "study reading time",
+      "reading speed calculator"
+    ]
+  },
+  {
+    "name": "Kinetic Friction Calculator",
+    "description": "Calculate kinetic friction force (fk = μk · N), normal force, and coefficient of kinetic friction from object mass and surface properties.",
+    "path": "/tools/kinetic-friction-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "kinetic friction calculator",
+      "friction force calculator",
+      "coefficient of kinetic friction",
+      "normal force friction",
+      "physics friction online"
+    ]
+  },
+  {
+    "name": "Sentence Counter",
+    "description": "Count sentences, words, and average sentence length in your text instantly. Free, fast, and fully private browser tool.",
+    "path": "/tools/sentence-counter/",
+    "category": "Text",
+    "icon": "text",
+    "keywords": [
+      "sentence counter",
+      "sentence count calculator",
+      "count sentences online",
+      "essay sentence counter",
+      "paragraph sentence counter",
+      "student sentence counter",
+      "class 10 sentence counter",
+      "writing sentence count",
+      "text sentence counter",
+      "free sentence counter"
+    ]
+  }
+]

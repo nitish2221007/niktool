@@ -1,0 +1,15 @@
+{
+  "name": "UK UCAS Tariff Points University Admission Calculator (A-Levels, BTEC & IB)",
+  "description": "Calculate total official UK UCAS Tariff Points from A-Level grades (A* = 56, A = 48, B = 40, C = 32, D = 24, E = 16), BTEC Nationals, and T-Levels for British university admissions.",
+  "path": "/tools/ucas-tariff-points-university-admission-calculator/",
+  "category": "Education",
+  "icon": "calculator",
+  "keywords": [
+    "ucas tariff calculator",
+    "ucas points calculator a levels btec online",
+    "uk university entry requirements ucas tariff points calculator",
+    "a level grades to ucas points converter",
+    "ucas tariff table a* a b c d e online"
+  ],
+  "order": 888
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Korean Military Discharge D-Day Calculator (Army (육군))",
+  "description": "Calculate exact discharge date and D-Day countdown for Army (육군) (18 months service).",
+  "path": "/tools/korean-military-discharge-dday-calculator-army/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "korean military discharge dday calculator army",
+    "Korean Military Discharge D-Day Calculator (Army (육군))",
+    "korean tool",
+    "korea online converter",
+    "niktool"
+  ],
+  "order": 10
+}

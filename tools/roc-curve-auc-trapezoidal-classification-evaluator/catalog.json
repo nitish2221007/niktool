@@ -1,0 +1,15 @@
+{
+  "name": "ROC Curve & Area Under the Curve (AUC / c-Statistic) Trapezoidal Evaluator",
+  "description": "Calculate classification Receiver Operating Characteristic Area Under the Curve (ROC-AUC / c-statistic) using the numerical trapezoidal rule from True Positive Rate (TPR) and False Positive Rate (FPR) threshold coordinates.",
+  "path": "/tools/roc-curve-auc-trapezoidal-classification-evaluator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "roc auc calculator",
+    "area under curve trapezoidal rule classification calculator",
+    "c statistic roc curve evaluator machine learning",
+    "tpr fpr false positive rate roc calculator",
+    "data science machine learning model evaluation online"
+  ],
+  "order": 1211
+}

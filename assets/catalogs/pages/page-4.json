@@ -1,370 +1,338 @@
 [
   {
-    "name": "English Name Generator for Students",
-    "description": "Generate meaningful and professional English names for Chinese students studying abroad, IELTS/TOEFL exams, and international careers. Find your perfect name instantly.",
-    "path": "/tools/english-name-generator/",
+    "name": "Convert JSON to CSV Online",
+    "description": "Flatten JSON arrays into CSV spreadsheet file format.",
+    "path": "/tools/json-to-csv-converter/",
     "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "english name generator",
-      "english name generator for students",
-      "online tool",
-      "free tool",
-      "niktool"
+      "json to csv converter",
+      "Convert JSON to CSV Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "ER Diagram Maker",
-    "description": "Create entity-relationship diagrams visually by defining tables and attributes. Generate clean DBML or Mermaid syntax for your database schemas.",
-    "path": "/tools/er-diagram-maker/",
+    "name": "Convert JSON to PDF Online",
+    "description": "Format and export JSON data into a clean PDF document.",
+    "path": "/tools/json-to-pdf-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "json to pdf converter online",
+      "Convert JSON to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert JSON to XML Online",
+    "description": "Serialize JSON objects into structured XML document tags.",
+    "path": "/tools/json-to-xml-converter/",
     "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "er diagram maker",
-      "er diagram maker",
-      "online tool",
-      "free tool",
-      "niktool"
+      "json to xml converter",
+      "Convert JSON to XML Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Flowchart Maker",
-    "description": "Build flowcharts by connecting shapes and steps. Generate standard Mermaid flowchart syntax from simple text inputs for easy documentation.",
-    "path": "/tools/flowchart-maker/",
+    "name": "Convert JSON to YAML Online",
+    "description": "Convert JSON data into clean YAML configuration format.",
+    "path": "/tools/json-to-yaml-converter/",
     "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "flowchart maker",
-      "flowchart maker",
-      "online tool",
-      "free tool",
-      "niktool"
+      "json to yaml converter",
+      "Convert JSON to YAML Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Height and Distance Calculator",
-    "description": "Solve height and distance word problems using the tangent ratio with angle and known side. Free, fast, and fully private.",
-    "path": "/tools/height-and-distance-calculator/",
-    "category": "Math",
+    "name": "Convert Markdown to HTML Online",
+    "description": "Convert Markdown text syntax (.md) into clean HTML web code.",
+    "path": "/tools/markdown-to-html-converter/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "height and distance calculator",
-      "class 10 height and distance",
-      "height distance trigonometry calculator",
-      "angle height distance calculator",
-      "tower height calculator",
-      "trigonometry height calculator",
-      "school height distance calculator",
-      "10th trigonometry word problem"
+      "markdown to html converter",
+      "Convert Markdown to HTML Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "JSON Formatter & Validator",
-    "description": "Format, validate, and beautify your JSON data instantly online.",
-    "path": "/tools/json-formatter/",
+    "name": "Convert Markdown to PDF Online",
+    "description": "Convert Markdown (.md) documents into beautifully styled PDF files.",
+    "path": "/tools/markdown-to-pdf-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "markdown to pdf converter online",
+      "Convert Markdown to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF First Page to JPG",
+    "description": "Extract and convert the first cover page of a PDF document to JPG image.",
+    "path": "/tools/pdf-first-page-to-jpg/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf first page to jpg",
+      "Convert PDF First Page to JPG",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF First Page to PNG",
+    "description": "Extract and convert the first page of a PDF file to high-resolution PNG image.",
+    "path": "/tools/pdf-first-page-to-png/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf first page to png",
+      "Convert PDF First Page to PNG",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to CSV / Excel Online",
+    "description": "Extract tabular text data from PDF documents into CSV spreadsheet format.",
+    "path": "/tools/pdf-to-csv-excel-converter/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to csv excel converter",
+      "Convert PDF to CSV / Excel Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to HTML Online",
+    "description": "Convert PDF document content into clean HTML web code. 100% free and local.",
+    "path": "/tools/pdf-to-html-converter/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to html converter",
+      "Convert PDF to HTML Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to JPG Online",
+    "description": "Convert PDF pages to high quality JPG images in your browser. 100% free and local.",
+    "path": "/tools/pdf-to-jpg-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to jpg converter online",
+      "Convert PDF to JPG Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to Markdown Online",
+    "description": "Convert PDF document text and headings to Markdown (.md) format.",
+    "path": "/tools/pdf-to-markdown-converter/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to markdown converter",
+      "Convert PDF to Markdown Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to PNG Online",
+    "description": "Convert PDF pages to transparent PNG images instantly. 100% free, private, and local.",
+    "path": "/tools/pdf-to-png-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to png converter online",
+      "Convert PDF to PNG Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to Text Online",
+    "description": "Extract raw text from PDF files into plain text (.txt) format. 100% free and local.",
+    "path": "/tools/pdf-to-text-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to text converter online",
+      "Convert PDF to Text Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to WebP Online",
+    "description": "Convert PDF pages to lightweight WebP images in your browser. 100% free and local.",
+    "path": "/tools/pdf-to-webp-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to webp converter online",
+      "Convert PDF to WebP Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PDF to Word Online",
+    "description": "Convert PDF document text to editable Word (.docx) document format.",
+    "path": "/tools/pdf-to-word-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "pdf to word converter online",
+      "Convert PDF to Word Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert PNG to PDF Online",
+    "description": "Convert PNG files into a high-quality PDF document. 100% free and private.",
+    "path": "/tools/png-to-pdf-converter-online/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "png to pdf converter online",
+      "Convert PNG to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert RGB Color to HEX",
+    "description": "Convert RGB(r, g, b) color values to HEX color code.",
+    "path": "/tools/rgb-to-hex-converter/",
     "category": "Developer",
-    "icon": "code",
+    "icon": "text",
     "keywords": [
-      "json formatter",
-      "json validator",
-      "beautify json",
-      "format json",
-      "json parser"
+      "rgb to hex converter",
+      "Convert RGB Color to HEX",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Project Cost Calculator",
-    "description": "Estimate your project expenses quickly with our free Project Cost Calculator. Add tasks, assign costs, and get instant budget totals locally.",
-    "path": "/tools/project-cost-calculator/",
+    "name": "Convert RGB Color to HSL",
+    "description": "Convert RGB color values to HSL color representation.",
+    "path": "/tools/rgb-to-hsl-converter/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "rgb to hsl converter",
+      "Convert RGB Color to HSL",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert Scanned Photos to PDF",
+    "description": "Combine scanned document photos into a single PDF document online.",
+    "path": "/tools/scanned-photos-to-pdf/",
+    "category": "PDF",
+    "icon": "text",
+    "keywords": [
+      "scanned photos to pdf",
+      "Convert Scanned Photos to PDF",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert Text to Base64 Online",
+    "description": "Encode plain text string into Base64 format.",
+    "path": "/tools/text-to-base64-converter/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "text to base64 converter",
+      "Convert Text to Base64 Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert Text to Binary (01)",
+    "description": "Encode text string into 8-bit binary representation.",
+    "path": "/tools/text-to-binary-converter/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "text to binary converter",
+      "Convert Text to Binary (01)",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert TSV to CSV Online",
+    "description": "Convert tab-separated values (TSV) to comma-separated values (CSV).",
+    "path": "/tools/tsv-to-csv-converter/",
     "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "project cost calculator",
-      "project cost calculator",
-      "online tool",
-      "free tool",
-      "niktool"
+      "tsv to csv converter",
+      "Convert TSV to CSV Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Project Idea Generator",
-    "description": "Discover unique project ideas filtered by branch, technology, and difficulty. Get inspired for your next coding or engineering project instantly.",
-    "path": "/tools/project-idea-generator/",
-    "category": "Utilities",
+    "name": "Convert TXT to PDF Online",
+    "description": "Convert plain text (.txt) files into clean PDF documents.",
+    "path": "/tools/txt-to-pdf-converter-online/",
+    "category": "PDF",
     "icon": "text",
     "keywords": [
-      "project idea generator",
-      "project idea generator",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "Project Planner",
-    "description": "Create structured project milestones and tasks, and save your plans locally. Organize your workflow efficiently with our free project planning tool.",
-    "path": "/tools/project-planner/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "project planner",
-      "project planner",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "Project Presentation Planner",
-    "description": "Build slide-by-slide presentation structures. Organize your titles and bullet points to create a compelling outline for your next pitch.",
-    "path": "/tools/project-presentation-planner/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "project presentation planner",
-      "project presentation planner",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "Project Report Builder",
-    "description": "Fill in your project information and generate structured, professional report content. Perfect for executive summaries and status updates.",
-    "path": "/tools/project-report-builder/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "project report builder",
-      "project report builder",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "Project Team Task Board",
-    "description": "Create a local Kanban board to track team tasks. Categorize tasks into To Do, In Progress, and Done instantly without any server uploads.",
-    "path": "/tools/project-team-task-board/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "project team task board",
-      "project team task board",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "Project Timeline Generator",
-    "description": "Generate visual text-based project timelines by entering start dates, end dates, and key milestones. Perfect for quick roadmaps.",
-    "path": "/tools/project-timeline-generator/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "project timeline generator",
-      "project timeline generator",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "README Generator",
-    "description": "Fill in your project details and generate a clean, structured Markdown README file. Perfect for GitHub repositories and open-source projects.",
-    "path": "/tools/readme-generator/",
-    "category": "Utilities",
-    "icon": "text",
-    "keywords": [
-      "readme generator",
-      "readme generator",
-      "online tool",
-      "free tool",
-      "niktool"
-    ]
-  },
-  {
-    "name": "USD to INR Converter",
-    "description": "Convert US Dollars to Indian Rupees instantly. Free, private, and browser-based.",
-    "path": "/tools/usd-to-inr-converter/",
-    "category": "Finance",
-    "icon": "dollar-sign",
-    "keywords": [
-      "usd to inr",
-      "dollar to rupee",
-      "currency converter",
-      "us dollar",
-      "indian rupee",
-      "forex"
-    ]
-  },
-  {
-    "name": "Coordinate Geometry Calculator",
-    "description": "Calculate distance, midpoint, and section formula for Class 10 coordinate geometry in one hub tool. Free and fully private.",
-    "path": "/tools/coordinate-geometry-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "coordinate geometry calculator",
-      "class 10 coordinate geometry calculator",
-      "distance midpoint section formula",
-      "coordinate calculator",
-      "10th coordinate geometry",
-      "school coordinate geometry tool",
-      "coordinate formula calculator",
-      "coordinate geometry online"
-    ]
-  },
-  {
-    "name": "INR to CNY Converter",
-    "description": "Convert Indian Rupees to Chinese Yuan instantly. Free, private, and browser-based.",
-    "path": "/tools/inr-to-cny-converter/",
-    "category": "Finance",
-    "icon": "yen-sign",
-    "keywords": [
-      "inr to cny",
-      "rupee to yuan",
-      "indian rupee",
-      "chinese yuan",
-      "renminbi",
-      "currency converter"
-    ]
-  },
-  {
-    "name": "Percentage Change Calculator",
-    "description": "Calculate percentage increase or decrease between old and new values with direction labelled. Free, fast, and fully private.",
-    "path": "/tools/percentage-change-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "percentage change calculator",
-      "percentage increase calculator",
-      "percentage decrease calculator",
-      "percent change formula",
-      "increase decrease calculator",
-      "class 10 percentage change",
-      "price increase percentage",
-      "percentage difference calculator"
-    ]
-  },
-  {
-    "name": "Pythagoras Calculator",
-    "description": "Find a missing side of a right triangle using the Pythagorean theorem with validation. Free, fast, and fully private browser tool.",
-    "path": "/tools/pythagoras-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "Pythagoras calculator",
-      "Pythagorean theorem calculator",
-      "right triangle calculator",
-      "hypotenuse calculator",
-      "missing side triangle calculator",
-      "class 10 Pythagoras",
-      "school triangle calculator",
-      "Pythagorean theorem online"
-    ]
-  },
-  {
-    "name": "Scientific Notation Calculator",
-    "description": "Convert numbers to and from scientific notation with coefficient, exponent and e-notation shown. Free, fast, and fully private.",
-    "path": "/tools/scientific-notation-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "scientific notation calculator",
-      "standard form calculator",
-      "scientific notation converter",
-      "class 10 scientific notation",
-      "physics scientific notation",
-      "exponent notation calculator",
-      "number to scientific notation",
-      "scientific form calculator"
-    ]
-  },
-  {
-    "name": "Significant Figures Calculator",
-    "description": "Count significant figures and round to N sig figs with the zero rules explained. Free, fast, and fully private browser tool.",
-    "path": "/tools/significant-figures-calculator/",
-    "category": "Math",
-    "icon": "text",
-    "keywords": [
-      "significant figures calculator",
-      "sig fig calculator",
-      "significant figures counter",
-      "round to significant figures",
-      "class 10 significant figures",
-      "science significant figures",
-      "physics sig figs",
-      "significant digits calculator"
-    ]
-  },
-  {
-    "name": "Word Counter",
-    "description": "Count words, characters, sentences, paragraphs, and reading time instantly. Free, fast, and fully private browser-based text tool.",
-    "path": "/tools/word-counter/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "word counter",
-      "word count tool",
-      "online word counter",
-      "character counter",
-      "sentence counter",
-      "paragraph counter",
-      "reading time calculator",
-      "essay word counter"
-    ]
-  },
-  {
-    "name": "Essay Word Counter",
-    "description": "Count words in your essay and track your progress against a target word limit. Free, fast, and fully private browser tool.",
-    "path": "/tools/essay-word-counter/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "essay word counter",
-      "essay word count",
-      "word limit checker",
-      "assignment word counter",
-      "student essay checker",
-      "writing word limit",
-      "essay length checker",
-      "word count target"
-    ]
-  },
-  {
-    "name": "Notice Word Counter",
-    "description": "Check the word count of your notice draft against the standard 50-word limit. Free, fast, and fully private browser tool.",
-    "path": "/tools/notice-word-counter/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "notice word counter",
-      "notice writing word count",
-      "CBSE notice word limit",
-      "notice format word count",
-      "class 10 notice counter",
-      "notice writing checker",
-      "50 words notice",
-      "school notice word count"
-    ]
-  },
-  {
-    "name": "Notice Format Checker",
-    "description": "Check your notice writing format for essential elements like date, heading, and sign-off. Free, fast, and fully private.",
-    "path": "/tools/notice-format-checker/",
-    "category": "Text",
-    "icon": "text",
-    "keywords": [
-      "notice format checker",
-      "notice writing checker",
-      "CBSE notice format",
-      "notice format class 10",
-      "notice writing tool",
-      "check notice format",
-      "notice structure checker",
-      "school notice checker"
+      "txt to pdf converter online",
+      "Convert TXT to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   }
 ]

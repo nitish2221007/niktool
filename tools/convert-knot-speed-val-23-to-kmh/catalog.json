@@ -1,0 +1,15 @@
+{
+  "name": "Convert 23 Knots Speed Val to KM/H",
+  "description": "Convert 23 knots speed to kilometers per hour (42.60 km/h).",
+  "path": "/tools/convert-knot-speed-val-23-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 23 to kmh",
+    "Convert 23 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

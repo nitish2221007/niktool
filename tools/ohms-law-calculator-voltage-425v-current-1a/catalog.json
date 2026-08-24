@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 425V, Current 1A)",
+  "description": "Calculate Resistance (425.00 Ω) and Electric Power (425.0 W) for 425V voltage and 1A current.",
+  "path": "/tools/ohms-law-calculator-voltage-425v-current-1a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 425v current 1a",
+    "Ohm's Law Calculator (Voltage 425V, Current 1A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

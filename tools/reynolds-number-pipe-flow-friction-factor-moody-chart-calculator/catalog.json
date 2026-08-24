@@ -1,0 +1,15 @@
+{
+  "name": "Reynolds Number (Re) & Moody Chart Darcy Friction Factor (f) Calculator",
+  "description": "Calculate pipe flow Reynolds Number (Re = ρ·v·D / μ), identify flow regime (Laminar Re less than 2300, Transitional, Turbulent Re exceeding 4000), and compute Darcy friction factor f using Colebrook / Swamee-Jain equations.",
+  "path": "/tools/reynolds-number-pipe-flow-friction-factor-moody-chart-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "reynolds number calculator",
+    "darcy friction factor formula moody chart online",
+    "laminar turbulent flow reynolds number calculator pipe",
+    "swamee jain friction factor colebrook calculator",
+    "fluid dynamics pipe head loss reynolds calculator"
+  ],
+  "order": 977
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Combustion Stoichiometry Air-Fuel Ratio (AFR) & Lambda Equivalence Ratio (λ) Calculator",
+  "description": "Calculate stoichiometric Air-Fuel Ratio (AFR_stoich = (137.28·(n + m/4)) / (12.011·n + 1.008·m)) for hydrocarbons (C_n H_m), actual AFR, and combustion Lambda Equivalence Ratio (λ = AFR_actual / AFR_stoich).",
+  "path": "/tools/combustion-stoichiometry-air-fuel-ratio-equivalence-ratio-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "air fuel ratio calculator",
+    "lambda equivalence ratio combustion stoichiometry formula online",
+    "stoichiometric afr gasoline diesel methane calculator",
+    "lean rich fuel air combustion lambda calculator",
+    "internal combustion engine stoichiometry online"
+  ],
+  "order": 1023
+}

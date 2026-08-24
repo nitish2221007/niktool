@@ -1,0 +1,15 @@
+{
+  "name": "Convert 7 KM/H to MPH Speed",
+  "description": "Convert 7 kilometers per hour (km/h) to miles per hour (4.35 mph).",
+  "path": "/tools/convert-7-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 7 kmh to mph speed",
+    "Convert 7 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

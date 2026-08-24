@@ -1,0 +1,15 @@
+{
+  "name": "Hypergeometric Distribution (Sampling Without Replacement) Calculator",
+  "description": "Calculate hypergeometric probability (P(X = k) = C(K, k) · C(N - K, n - k) / C(N, n)) for lottery draws and card games sampled without replacement.",
+  "path": "/tools/hypergeometric-distribution-probability-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "hypergeometric distribution calculator",
+    "sampling without replacement probability",
+    "card deck hypergeometric calculator",
+    "lottery probability formula online",
+    "finite population sampling calculator"
+  ],
+  "order": 429
+}

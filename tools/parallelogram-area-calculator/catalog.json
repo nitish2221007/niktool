@@ -1,0 +1,15 @@
+{
+  "name": "Parallelogram Area & Geometry Calculator",
+  "description": "Calculate parallelogram area using base and height (A = b · h) or side lengths and angle θ (A = a · b · sin θ) with diagonal lengths.",
+  "path": "/tools/parallelogram-area-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "parallelogram area calculator",
+    "area of parallelogram online",
+    "parallelogram diagonals calculator",
+    "base height parallelogram formula",
+    "geometry parallelogram solver"
+  ],
+  "order": 140
+}

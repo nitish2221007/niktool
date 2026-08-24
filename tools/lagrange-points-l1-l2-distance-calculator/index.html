@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lagrange Equilibrium Points (L1 & L2) Distance Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate distance from the secondary body to collinear Lagrange equilibrium libration points (r_L1, r_L2 ≈ R · (M₂ / (3·M₁))^(1/3)) in three-body orbital systems.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/lagrange-points-l1-l2-distance-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lagrange Equilibrium Points (L1 & L2) Distance Calculator | NikTool">
+  <meta property="og:description" content="Calculate distance from the secondary body to collinear Lagrange equilibrium libration points (r_L1, r_L2 ≈ R · (M₂ / (3·M₁))^(1/3)) in three-body orbital systems.">
+  <meta property="og:url" content="https://niktool.in/tools/lagrange-points-l1-l2-distance-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Lagrange Equilibrium Points (L1 & L2) Distance Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/lagrange-points-l1-l2-distance-calculator/",
+        "description": "Calculate distance from the secondary body to collinear Lagrange equilibrium libration points (r_L1, r_L2 ≈ R · (M₂ / (3·M₁))^(1/3)) in three-body orbital systems.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Where is the James Webb Space Telescope located?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JWST orbits the Sun-Earth L2 Lagrange point, approximately 1.5 million kilometers (1 million miles) directly behind Earth away from the Sun."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Lagrange Equilibrium Points (L1 & L2) Distance Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Lagrange Equilibrium Points (L1 & L2) Distance Calculator</h1>
+      <p>Calculate distance from the secondary body to collinear Lagrange equilibrium libration points (r_L1, r_L2 ≈ R · (M₂ / (3·M₁))^(1/3)) in three-body orbital systems.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Three-Body Gravitational System Preset</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="lag-sys">Select Celestial System</label>
+        <select class="tool-textarea" id="lag-sys">
+          <option value="149597870.7,1.989e30,5.972e24,JWST" selected>Sun - Earth System (JWST & DSCOVR Orbit)</option>
+          <option value="384400,5.972e24,7.342e22,Artemis">Earth - Moon System (Gateway Space Station)</option>
+          <option value="227939200,1.989e30,6.417e23,Mars">Sun - Mars System</option>
+          <option value="778570000,1.989e30,1.898e27,Jupiter">Sun - Jupiter System (Trojan Asteroids)</option>
+        </select>
+      </div>
+      <div id="lag-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="lag-res-dist" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">1,496,500 km</span>
+            <span class="stat-label">L1 / L2 Distance from Earth</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="lag-res-jwst" style="color:#2563eb; font-weight:700;">James Webb Space Telescope (JWST) at L2</span>
+            <span class="stat-label">Mission Utilization</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Lagrange Equilibrium Points (L1 & L2) Distance Calculator</h2>
+      <ol>
+        <li>Select three-body gravitational system (Sun-Earth, Earth-Moon, Sun-Jupiter).</li>
+        <li>Inspect exact distance from the smaller celestial body to the L1 (inward) and L2 (outward) gravitational equilibrium points in kilometers.</li>
+      </ol>
+
+      <h2>Joseph-Louis Lagrange's 1772 Libration Solution</h2>
+      <p>At Lagrange points, the combined gravitational pull of the two large masses matches the orbital centripetal acceleration required to move with them, allowing satellites like the James Webb Space Telescope (JWST) to stay stationary relative to Earth with minimal station-keeping propellant.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Where is the James Webb Space Telescope located?</summary>
+        <p>JWST orbits the Sun-Earth L2 Lagrange point, approximately 1.5 million kilometers (1 million miles) directly behind Earth away from the Sun.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/lagrange-points-l1-l2-distance-calculator/tool.js"></script>
+</body>
+</html>

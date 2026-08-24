@@ -1,0 +1,15 @@
+{
+  "name": "Open Channel Hydraulic Jump Sequent Depth (y₂/y₁ = ½·(√(1 + 8·Fr₁²) - 1)) Calculator",
+  "description": "Calculate open channel hydraulic jump sequent post-jump water depth (y₂/y₁ = ½ · (√(1 + 8·Fr₁²) - 1)), upstream Froude number (Fr₁ = v₁ / √(g·y₁)), and total turbulence energy head dissipation (ΔE) for dam stilling basins.",
+  "path": "/tools/open-channel-hydraulic-jump-sequent-depth-energy-loss-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hydraulic jump calculator",
+    "sequent depth formula y2 over y1 equals half sqrt 1 plus 8 fr squared minus 1 online",
+    "froude number supercritical subcritical flow calculator",
+    "stilling basin energy dissipation hydraulic jump calculator",
+    "civil hydraulic open channel flow online"
+  ],
+  "order": 1068
+}

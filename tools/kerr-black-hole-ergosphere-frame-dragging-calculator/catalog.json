@@ -1,0 +1,15 @@
+{
+  "name": "Kerr Rotating Black Hole Ergosphere (r_E) & Frame-Dragging (Lense-Thirring) Calculator",
+  "description": "Calculate Kerr rotating black hole outer Event Horizon (r_+ = G·M/c² · [1 + √(1 - a*²)]) and oblate Ergosphere boundary radius (r_E(θ) = G·M/c² · [1 + √(1 - a*²·cos² θ)]) for energy extraction via the Penrose Process.",
+  "path": "/tools/kerr-black-hole-ergosphere-frame-dragging-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "kerr black hole calculator",
+    "ergosphere radius formula re equals gm over c squared 1 plus sqrt 1 minus a squared online",
+    "frame dragging lense thirring angular velocity calculator",
+    "penrose process black hole energy extraction calculator",
+    "spinning kerr metric event horizon online"
+  ],
+  "order": 865
+}

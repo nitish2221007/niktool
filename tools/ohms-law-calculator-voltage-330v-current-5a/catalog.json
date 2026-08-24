@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 330V, Current 5A)",
+  "description": "Calculate Resistance (66.00 Ω) and Electric Power (1650.0 W) for 330V voltage and 5A current.",
+  "path": "/tools/ohms-law-calculator-voltage-330v-current-5a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 330v current 5a",
+    "Ohm's Law Calculator (Voltage 330V, Current 5A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Line Slope, Angle of Inclination & Intercept Calculator",
+    "description": "Calculate line slope (m = Δy / Δx), angle of inclination (θ = arctan(m)), perpendicular slope (-1/m), and standard linear equation from two points.",
+    "path": "/tools/line-slope-angle-of-inclination-calculator/",
+    "category": "Math",
+    "icon": "text",
+    "keywords": [
+      "line slope calculator",
+      "angle of inclination calculator",
+      "perpendicular slope calculator online",
+      "delta y over delta x slope formula",
+      "slope intercept equation from two points"
+    ]
+  },
+  {
+    "name": "UART Baud Rate & Serial Frame Transmission Calculator",
+    "description": "Calculate bit time duration, maximum bytes per second throughput, and transmission latency for standard UART 8N1 serial frames.",
+    "path": "/tools/uart-baud-rate-frame-time-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "uart baud rate calculator",
+      "serial frame transmission time calculator",
+      "8n1 bit time calculator",
+      "uart throughput bytes per second",
+      "rs232 baud rate frame latency"
+    ]
+  },
+  {
+    "name": "I2C Bus Pull-Up Resistor Calculator",
+    "description": "Calculate minimum and maximum pull-up resistor values (R_min, R_max) and bus rise time for Standard (100kHz), Fast (400kHz), and Fast-Plus (1MHz) I2C buses based on bus capacitance.",
+    "path": "/tools/i2c-pullup-resistor-bus-capacitance-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "i2c pull up resistor calculator",
+      "i2c bus capacitance rise time",
+      "i2c rmin rmax formula",
+      "sda scl pullup calculator online",
+      "i2c 400khz pull up resistor sizing"
+    ]
+  },
+  {
+    "name": "PWM Duty Cycle & Average DC Voltage Calculator",
+    "description": "Calculate average output DC voltage (V_avg = V_peak · (Duty Cycle / 100)), pulse ON/OFF times, and RC low-pass DAC smoothed ripple voltage.",
+    "path": "/tools/pwm-duty-cycle-average-voltage-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "pwm duty cycle calculator",
+      "pwm to dc voltage calculator",
+      "pulse width modulation voltage formula",
+      "pwm average voltage calculator online",
+      "arduino pwm analog output voltage"
+    ]
+  },
+  {
+    "name": "IEEE-754 32-Bit Floating-Point Binary Converter",
+    "description": "Convert decimal numbers into standard IEEE-754 32-bit single-precision floating point binary layout (1 sign bit, 8 exponent bits, 23 mantissa bits) and hex representation.",
+    "path": "/tools/ieee-754-floating-point-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "ieee 754 floating point converter",
+      "float to binary 32 bit converter",
+      "ieee 754 hex calculator online",
+      "single precision float bit layout",
+      "floating point representation online"
+    ]
+  },
+  {
+    "name": "CRC-32 & CRC-16 Cyclic Redundancy Check Calculator",
+    "description": "Calculate standard CRC-32 (Ethernet/ZIP ISO 3309) and CRC-16 error-detecting checksum hashes locally in pure browser JavaScript.",
+    "path": "/tools/crc-checksum-polynomial-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "crc32 checksum calculator",
+      "crc 32 online generator",
+      "crc16 checksum calculator",
+      "cyclic redundancy check generator",
+      "iso 3309 crc32 hash online"
+    ]
+  },
+  {
+    "name": "CIDR to Subnet Mask & Usable Hosts Calculator",
+    "description": "Convert CIDR slash prefixes (/0 to /32) to dotted-decimal IPv4 subnet masks, wildcard masks, and calculate total usable host IP capacities.",
+    "path": "/tools/cidr-subnet-mask-ipv4-converter/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "cidr to subnet mask calculator",
+      "cidr notation converter",
+      "usable hosts per subnet calculator",
+      "wildcard mask calculator online",
+      "ipv4 slash prefix converter"
+    ]
+  },
+  {
+    "name": "IPv6 Address Compression & Expansion Tool",
+    "description": "Compress IPv6 addresses into standard canonical RFC 5952 format with :: zero-suppression or fully expand into 8 complete 4-hex groups.",
+    "path": "/tools/ipv6-compression-expansion-tool/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "ipv6 compression tool",
+      "ipv6 expander online",
+      "ipv6 canonical form rfc 5952",
+      "compress ipv6 address online",
+      "expand ipv6 to 8 blocks"
+    ]
+  },
+  {
+    "name": "MAC Address Formatter & OUI Parser",
+    "description": "Format MAC hardware addresses into Colon (00:1A:2B:3C:4D:5E), Hyphen (00-1A-2B-3C-4D-5E), Cisco Dot (001a.2b3c.4d5e), and Bare Hex notations.",
+    "path": "/tools/mac-address-formatter-lookup/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "mac address formatter",
+      "mac address converter",
+      "cisco mac address format",
+      "mac oui prefix lookup online",
+      "network hardware mac address cleaner"
+    ]
+  },
+  {
+    "name": "URL Search Query Parameters Parser to JSON",
+    "description": "Parse URL search queries (e.g. ?id=10&tab=profile&utm_source=google) into decoded JSON key-value objects and formatted query strings.",
+    "path": "/tools/url-query-parameter-parser/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "url query parameter parser",
+      "parse url search params online",
+      "url query string to json converter",
+      "extract url parameters tool",
+      "decode url query string online"
+    ]
+  },
+  {
+    "name": "HTTP Status Code Reference & Response Inspector",
+    "description": "Lookup HTTP REST API response status codes (200, 201, 301, 400, 401, 403, 404, 500, 503) with RFC specifications, caching rules, and browser behaviors.",
+    "path": "/tools/http-status-code-checker/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "http status code checker",
+      "http status codes reference",
+      "rest api response codes guide",
+      "404 500 301 http code meaning",
+      "http status code lookup online"
+    ]
+  },
+  {
+    "name": "Rental Property Capitalization Rate (Cap Rate) Calculator",
+    "description": "Calculate real estate Capitalization Rate (Cap Rate = (Net Operating Income NOI / Property Value) · 100) and gross yield for commercial and residential investment properties.",
+    "path": "/tools/rental-property-cap-rate-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "cap rate calculator real estate",
+      "capitalization rate formula",
+      "net operating income noi calculator",
+      "rental property return calculator",
+      "commercial real estate cap rate online"
+    ]
+  },
+  {
+    "name": "Gross Rent Multiplier (GRM) Real Estate Calculator",
+    "description": "Calculate Gross Rent Multiplier (GRM = Property Price / Annual Gross Rent) and estimate property fair market value from rental income.",
+    "path": "/tools/gross-rent-multiplier-grm-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "gross rent multiplier calculator",
+      "grm calculator real estate",
+      "property valuation grm formula",
+      "annual gross rent multiplier online",
+      "rental property grm comparison"
+    ]
+  },
+  {
+    "name": "Bi-Weekly Mortgage Accelerator & Interest Savings Calculator",
+    "description": "Calculate interest savings and years shaved off your home loan by switching from standard monthly payments to accelerated bi-weekly payments (26 half-payments per year).",
+    "path": "/tools/mortgage-biweekly-payoff-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "biweekly mortgage calculator",
+      "accelerated biweekly payoff calculator",
+      "mortgage interest savings biweekly",
+      "pay off 30 year mortgage faster",
+      "biweekly loan amortization online"
+    ]
+  },
+  {
+    "name": "Inflation-Adjusted Purchasing Power & Real Value Calculator",
+    "description": "Calculate the real purchasing power of future cash and retirement savings after factoring in annual inflation rate compounding.",
+    "path": "/tools/inflation-adjusted-future-value-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "inflation adjusted future value calculator",
+      "purchasing power inflation calculator",
+      "real value of money calculator online",
+      "inflation depreciation formula",
+      "future purchasing power calculator"
+    ]
+  },
+  {
+    "name": "Property Tax & Millage Rate Calculator",
+    "description": "Calculate annual real estate property tax (Property Tax = Assessed Value × (Millage Rate / 1000)), monthly tax escrow, and effective tax rate.",
+    "path": "/tools/property-tax-millage-rate-calculator/",
+    "category": "Finance",
+    "icon": "text",
+    "keywords": [
+      "property tax calculator",
+      "millage rate property tax calculator",
+      "monthly property tax escrow calculator",
+      "assessed value property tax formula",
+      "real estate tax mill rate online"
+    ]
+  },
+  {
+    "name": "Running Pace to Speed (km/h & mph) Converter",
+    "description": "Convert running pace (minutes and seconds per km or mile) into speed in Kilometers per Hour (km/h), Miles per Hour (mph), and treadmill settings in real time.",
+    "path": "/tools/running-pace-to-speed-mph-kmh-converter/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "running pace to speed converter",
+      "pace to kmh converter",
+      "min per mile to mph calculator",
+      "treadmill speed pace chart online",
+      "running pace speed matrix calculator"
+    ]
+  },
+  {
+    "name": "Wilks Coefficient Powerlifting Score Calculator",
+    "description": "Calculate official Wilks powerlifting score from total weight lifted (Squat + Bench + Deadlift) and bodyweight to determine pound-for-pound relative strength.",
+    "path": "/tools/wilks-score-powerlifting-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "wilks score calculator",
+      "powerlifting wilks calculator online",
+      "relative strength powerlifting formula",
+      "squat bench deadlift wilks points",
+      "ipf powerlifting score calculator"
+    ]
+  },
+  {
+    "name": "Cooper 12-Minute Run Test VO2 Max Calculator",
+    "description": "Calculate cardiovascular aerobic VO2 Max (VO2 = (Distance_meters - 504.9) / 44.73) from Kenneth Cooper's 12-minute maximal running test.",
+    "path": "/tools/cooper-12-minute-run-test-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "cooper run test calculator",
+      "cooper 12 minute run vo2 max",
+      "12 minute run test fitness rating",
+      "military cooper test calculator online",
+      "aerobic capacity cooper test formula"
+    ]
+  },
+  {
+    "name": "Workout Sweat Rate & Athletic Hydration Calculator",
+    "description": "Calculate hourly sweat rate (Liters / hour = (Pre Weight - Post Weight + Fluid Drank) / Hours) and dehydration percentage for endurance training.",
+    "path": "/tools/sweat-rate-hydration-loss-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "sweat rate calculator",
+      "hydration loss calculator endurance",
+      "hourly sweat rate formula",
+      "athlete dehydration percentage calculator",
+      "marathon hydration sweat loss online"
+    ]
+  },
+  {
+    "name": "Creatine Monohydrate Dosage & Loading Calculator",
+    "description": "Calculate daily creatine monohydrate loading phase (0.3g/kg for 5-7 days) and maintenance dosage (0.03g to 0.05g/kg or 3-5g/day) based on body mass.",
+    "path": "/tools/creatine-loading-maintenance-dosage-calculator/",
+    "category": "Health",
+    "icon": "text",
+    "keywords": [
+      "creatine dosage calculator",
+      "creatine loading phase calculator",
+      "how much creatine to take daily",
+      "creatine monohydrate grams per kg",
+      "creatine maintenance dose calculator"
+    ]
+  },
+  {
+    "name": "Lux to Foot-Candles Illuminance Converter",
+    "description": "Convert surface illumination light levels across Lux (lx, Lumens/m²), Foot-Candles (fc, Lumens/ft²), and Watts/m² for architectural lighting design.",
+    "path": "/tools/lux-to-foot-candles-lumens-converter/",
+    "category": "Daily",
+    "icon": "text",
+    "keywords": [
+      "lux to foot candles converter",
+      "foot candles to lux calculator",
+      "illuminance converter online",
+      "lumens per square foot to lux",
+      "office lighting lux standards"
+    ]
+  },
+  {
+    "name": "Sabine Reverberation Time (RT60) Acoustics Calculator",
+    "description": "Calculate acoustic reverberation decay time (RT60 = 0.161 · V / A) in seconds from room volume and total Sabin absorption coefficients.",
+    "path": "/tools/reverberation-time-rt60-sabine-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rt60 calculator",
+      "reverberation time calculator acoustics",
+      "sabine formula rt60 online",
+      "recording studio acoustics calculator",
+      "room echo absorption rt60"
+    ]
+  },
+  {
+    "name": "Audio Bitrate & Uncompressed File Size Calculator",
+    "description": "Calculate raw audio data bitrate (kbps) and file size (MB/GB) from Sample Rate (44.1kHz, 48kHz, 96kHz, 192kHz), Bit Depth (16b, 24b, 32b), and channel count.",
+    "path": "/tools/audio-sample-rate-file-size-calculator/",
+    "category": "Developer",
+    "icon": "code",
+    "keywords": [
+      "audio file size calculator",
+      "pcm audio bitrate calculator",
+      "wav file size sample rate formula",
+      "24 bit 96khz file size calculator",
+      "uncompressed audio storage calculator online"
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 5m, Load 85kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 265.63 kN·m) for simply supported beam of 5m span under 85 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-5m-load-85knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 5m load 85knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 5m, Load 85kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 5m, Load 90kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 281.25 kN·m) for simply supported beam of 5m span under 90 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-5m-load-90knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 5m load 90knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 5m, Load 90kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 5m, Load 95kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 296.88 kN·m) for simply supported beam of 5m span under 95 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-5m-load-95knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 5m load 95knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 5m, Load 95kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 100kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 450.00 kN·m) for simply supported beam of 6m span under 100 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-100knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 100knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 100kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 105kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 472.50 kN·m) for simply supported beam of 6m span under 105 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-105knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 105knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 105kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 10kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 45.00 kN·m) for simply supported beam of 6m span under 10 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-10knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 10knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 10kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 110kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 495.00 kN·m) for simply supported beam of 6m span under 110 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-110knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 110knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 110kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 115kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 517.50 kN·m) for simply supported beam of 6m span under 115 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-115knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 115knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 115kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 120kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 540.00 kN·m) for simply supported beam of 6m span under 120 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-120knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 120knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 120kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 125kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 562.50 kN·m) for simply supported beam of 6m span under 125 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-125knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 125knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 125kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 15kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 67.50 kN·m) for simply supported beam of 6m span under 15 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-15knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 15knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 15kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 20kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 90.00 kN·m) for simply supported beam of 6m span under 20 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-20knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 20knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 20kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 25kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 112.50 kN·m) for simply supported beam of 6m span under 25 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-25knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 25knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 25kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 30kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 135.00 kN·m) for simply supported beam of 6m span under 30 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-30knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 30knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 30kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 35kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 157.50 kN·m) for simply supported beam of 6m span under 35 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-35knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 35knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 35kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 40kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 180.00 kN·m) for simply supported beam of 6m span under 40 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-40knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 40knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 40kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 45kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 202.50 kN·m) for simply supported beam of 6m span under 45 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-45knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 45knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 45kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 50kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 225.00 kN·m) for simply supported beam of 6m span under 50 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-50knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 50knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 50kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 55kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 247.50 kN·m) for simply supported beam of 6m span under 55 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-55knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 55knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 55kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 5kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 22.50 kN·m) for simply supported beam of 6m span under 5 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-5knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 5knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 5kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 60kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 270.00 kN·m) for simply supported beam of 6m span under 60 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-60knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 60knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 60kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 65kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 292.50 kN·m) for simply supported beam of 6m span under 65 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-65knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 65knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 65kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 70kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 315.00 kN·m) for simply supported beam of 6m span under 70 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-70knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 70knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 70kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 75kN/m)",
+    "description": "Calculate maximum bending moment (Mmax = 337.50 kN·m) for simply supported beam of 6m span under 75 kN/m load.",
+    "path": "/tools/simple-beam-bending-moment-calculator-span-6m-load-75knm/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "simple beam bending moment calculator span 6m load 75knm",
+      "Simply Supported Beam Bending Moment Calculator (Span 6m, Load 75kN/m)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Compound Interest & Future Value (A = P·(1 + r/n)^(n·t)) Savings Calculator",
+  "description": "Calculate compound interest accumulated balance (A = P·(1 + r/n)^(n·t)) and total interest earned with monthly, quarterly, or annual compounding frequencies for financial literacy education.",
+  "path": "/tools/compound-interest-future-value-savings-a-equals-p-1-plus-r-over-n-nt-calculator/",
+  "category": "Finance",
+  "icon": "calculator",
+  "keywords": [
+    "compound interest calculator",
+    "compound interest formula a equals p 1 plus r over n to the nt online",
+    "future value savings investment calculator",
+    "monthly compounding interest calculator online",
+    "financial literacy compound growth calculator"
+  ],
+  "order": 951
+}

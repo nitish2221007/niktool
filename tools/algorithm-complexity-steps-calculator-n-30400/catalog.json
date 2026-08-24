@@ -1,0 +1,15 @@
+{
+  "name": "Algorithm Complexity Operations Calculator (N=30,400 Items)",
+  "description": "Calculate execution operations for N=30,400 array items: O(N)=30,400, O(N log N)=4,52,710.",
+  "path": "/tools/algorithm-complexity-steps-calculator-n-30400/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "algorithm complexity steps calculator n 30400",
+    "Algorithm Complexity Operations Calculator (N=30,400 Items)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

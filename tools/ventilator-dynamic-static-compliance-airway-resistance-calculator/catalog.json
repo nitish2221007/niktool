@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Ventilator Dynamic & Static Lung Compliance (C_stat) Calculator",
+  "description": "Calculate intensive care mechanical ventilation respiratory mechanics: Static Respiratory Compliance C_stat in mL/cmH₂O (C_stat = V_t / (P_plat - PEEP)), Dynamic Compliance C_dyn, and Airway Resistance R_aw.",
+  "path": "/tools/ventilator-dynamic-static-compliance-airway-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ventilator compliance calculator",
+    "static lung compliance formula cstat online",
+    "plateau pressure peep airway resistance calculator",
+    "ards respiratory mechanics tidal volume calculator",
+    "critical care intensive care pulmonology biomedical online"
+  ],
+  "order": 1439
+}

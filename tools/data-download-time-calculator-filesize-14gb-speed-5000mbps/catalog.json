@@ -1,0 +1,15 @@
+{
+  "name": "Data Download Time Calculator (14 GB File, 5000 Mbps Speed)",
+  "description": "Calculate file transfer download time (~0.4 minutes / 23s) for 14 GB file at 5000 Mbps bandwidth.",
+  "path": "/tools/data-download-time-calculator-filesize-14gb-speed-5000mbps/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "data download time calculator filesize 14gb speed 5000mbps",
+    "Data Download Time Calculator (14 GB File, 5000 Mbps Speed)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

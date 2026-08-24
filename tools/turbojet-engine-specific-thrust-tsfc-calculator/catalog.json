@@ -1,0 +1,15 @@
+{
+  "name": "Turbojet Engine Net Thrust (F_n = ṁ·(v_e - v₀)) & TSFC Calculator",
+  "description": "Calculate turbojet/turbofan engine net thrust force (F_n = ṁ · (v_e - v₀)), Thrust Specific Fuel Consumption (TSFC in g/(kN·s) and lb/(lbf·hr)), and propulsive efficiency for jet engine performance.",
+  "path": "/tools/turbojet-engine-specific-thrust-tsfc-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "turbojet thrust calculator",
+    "net thrust formula fn equals m dot ve minus v0 online",
+    "thrust specific fuel consumption tsfc calculator",
+    "jet engine mass flow exhaust velocity calculator",
+    "aerospace propulsion jet engine performance online"
+  ],
+  "order": 1126
+}

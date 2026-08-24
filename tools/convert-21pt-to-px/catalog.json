@@ -1,0 +1,15 @@
+{
+  "name": "Convert 21pt to PX",
+  "description": "Convert 21 points (pt) to pixels (28.00 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-21pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 21pt to px",
+    "Convert 21pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

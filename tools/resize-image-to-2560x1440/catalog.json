@@ -1,0 +1,15 @@
+{
+  "name": "Resize Image to 2560x1440 Pixels",
+  "description": "Resize any JPG, PNG, or WebP photo to exact 2560x1440 pixel dimensions instantly. 100% free and local.",
+  "path": "/tools/resize-image-to-2560x1440/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image to 2560x1440",
+    "Resize Image to 2560x1440 Pixels",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

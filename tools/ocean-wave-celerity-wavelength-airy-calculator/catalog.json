@@ -1,0 +1,15 @@
+{
+  "name": "Ocean Wave Celerity & Wavelength (Airy Linear Wave Theory) Calculator",
+  "description": "Calculate ocean wave phase speed celerity (c = √(g · L / 2π · tanh(2πd / L))) in m/s and wavelength L across deep water (d over L greater than 0.5) and shallow water (d over L less than 0.05).",
+  "path": "/tools/ocean-wave-celerity-wavelength-airy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "ocean wave celerity calculator",
+    "airy linear wave theory wavelength formula",
+    "shallow deep water wave phase speed calculator",
+    "ocean wave period wavelength tanh online",
+    "coastal oceanography wave celerity online"
+  ],
+  "order": 599
+}

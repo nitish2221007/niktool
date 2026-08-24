@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 360V, Current 4A)",
+  "description": "Calculate Resistance (90.00 Ω) and Electric Power (1440.0 W) for 360V voltage and 4A current.",
+  "path": "/tools/ohms-law-calculator-voltage-360v-current-4a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 360v current 4a",
+    "Ohm's Law Calculator (Voltage 360V, Current 4A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

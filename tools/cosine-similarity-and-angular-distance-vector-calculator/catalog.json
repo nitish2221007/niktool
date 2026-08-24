@@ -1,0 +1,15 @@
+{
+  "name": "Vector Cosine Similarity (cos θ = u·v / (‖u‖·‖v‖)) & Angular Distance Calculator",
+  "description": "Calculate high-dimensional vector Cosine Similarity (cos θ = u · v / (‖u‖ · ‖v‖)), Cosine Distance (1 - cos θ), Euclidean distance, and Angular Distance (θ in degrees) for NLP embeddings and vector databases (Pinecone, Chroma).",
+  "path": "/tools/cosine-similarity-and-angular-distance-vector-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "cosine similarity calculator",
+    "vector cosine similarity formula dot product online",
+    "cosine distance angular distance embeddings calculator",
+    "vector database search cosine similarity calculator",
+    "nlp machine learning embeddings similarity online"
+  ],
+  "order": 1214
+}

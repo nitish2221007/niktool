@@ -1,0 +1,15 @@
+{
+  "name": "Dubins Car Minimum Turning Radius (R_min) & Shortest Path Length Calculator",
+  "description": "Calculate non-holonomic Dubins vehicle kinematic minimum turning radius (R_min = v / ω_max = L / tan(δ_max)) and evaluate optimal CSC (LSL, RSR, LSR, RSL) path segments.",
+  "path": "/tools/dubins-car-minimum-turning-radius-path-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "dubins car calculator",
+    "minimum turning radius formula r equals v over omega max online",
+    "dubins path length csc curve straight curve calculator",
+    "non holonomic vehicle motion planning dubins online",
+    "robotics autonomous vehicle dubins path online"
+  ],
+  "order": 753
+}

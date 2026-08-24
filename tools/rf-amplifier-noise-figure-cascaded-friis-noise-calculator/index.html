@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RF Amplifier Noise Figure & Cascaded Friis Noise Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate total cascaded noise figure NFtotal, noise factor, and overall gain for multi-stage RF receiver front-ends.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RF Amplifier Noise Figure & Cascaded Friis Noise Calculator | NikTool">
+  <meta property="og:description" content="Calculate total cascaded noise figure NFtotal, noise factor, and overall gain for multi-stage RF receiver front-ends.">
+  <meta property="og:url" content="https://niktool.in/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3039559152735742" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJB9MSVTRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HJB9MSVTRN');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "RF Amplifier Noise Figure & Cascaded Friis Noise Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/",
+        "description": "Calculate total cascaded noise figure NFtotal, noise factor, and overall gain for multi-stage RF receiver front-ends.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://niktool.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Utilities", "item": "https://niktool.in/#tools" },
+          { "@type": "ListItem", "position": 3, "name": "RF Amplifier Noise Figure & Cascaded Friis Noise Calculator", "item": "https://niktool.in/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is the first amplifier stage (LNA) critical in RF design?",
+            "acceptedAnswer": { "@type": "Answer", "text": "As shown by Friis formula, the first stage gain G1 divides subsequent noise contributions, making stage 1 Noise Figure dominate total system noise." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Noise Factor and Noise Figure?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Noise factor F is linear ratio F = SNRin / SNRout; Noise figure NF is expressed in decibels NF = 10 log10(F)." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can attenuators be included in Friis noise calculation?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, an attenuator of X dB has a negative gain (-X dB) and a Noise Figure equal to its loss (+X dB)." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this calculation free and private?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, 100% free and private." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links">
+        <a class="home-link" href="/">Home</a>
+        <a href="/#tools">All tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <a href="/#tools">Utilities</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>RF Amplifier Noise Figure & Cascaded Friis Noise Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <h1>RF Amplifier Noise Figure & Cascaded Friis Noise Calculator</h1>
+      <p>Calculate total cascaded noise figure NFtotal, noise factor, and overall gain for multi-stage RF receiver front-ends.</p>
+    </section>
+
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="json-layout">
+        <div class="editor-panel">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-g1-db">Stage 1 Gain G1 (dB)</label>
+          <input type="number" class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-g1-db" placeholder="e.g. 15" value="15" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-nf1-db">Stage 1 Noise Figure NF1 (dB)</label>
+          <input type="number" class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-nf1-db" placeholder="e.g. 1.5" value="1.5" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-g2-db">Stage 2 Gain G2 (dB)</label>
+          <input type="number" class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-g2-db" placeholder="e.g. 10" value="10" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-nf2-db">Stage 2 Noise Figure NF2 (dB)</label>
+          <input type="number" class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-nf2-db" placeholder="e.g. 4.0" value="4.0" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-g3-db">Stage 3 Gain G3 (dB)</label>
+          <input type="number" class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-g3-db" placeholder="e.g. 20" value="20" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-nf3-db">Stage 3 Noise Figure NF3 (dB)</label>
+          <input type="number" class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-nf3-db" placeholder="e.g. 8.0" value="8.0" step="any" style="height: auto; padding: 0.5rem;">
+        </div>
+        <div class="editor-panel">
+          <label class="editor-label" for="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-output">Result</label>
+          <textarea class="tool-textarea" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-output" placeholder="Result will appear here..." readonly></textarea>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button class="button" id="primary-action-btn" type="button">Process</button>
+        <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
+        <button class="button secondary" id="clear-text" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="rf-amplifier-noise-figure-cascaded-friis-noise-calculator-message" role="status">Ready. Enter input above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use RF Amplifier Noise Figure & Cascaded Friis Noise Calculator</h2>
+      <ol>
+        <li>Enter gain (dB) and noise figure (dB) for stage 1 (Low-Noise Amplifier LNA).</li>
+        <li>Enter gain (dB) and noise figure (dB) for stage 2 (RF Filter / Mixer).</li>
+        <li>Enter gain (dB) and noise figure (dB) for stage 3 (IF Amplifier).</li>
+        <li>Click Process to compute total cascaded noise figure and system gain.</li>
+      </ol>
+
+      <h2>Mathematical &amp; Theoretical Formulas</h2>
+      <p>This calculator evaluates performance using the following core formulas:</p>
+      <p>$$\displaystyle F_{\text{sys}} = F_1 + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 G_2}, \quad \text{NF}_{\text{sys}} = 10 \log_{10}(F_{\text{sys}})$$</p>
+
+      <h2>Worked Example</h2>
+      <p>Stage 1 (LNA: G1=15dB, NF1=1.5dB), Stage 2 (Mixer: G2=10dB, NF2=4dB), Stage 3 (IF: G3=20dB, NF3=8dB) yields total NF = 1.62 dB.</p>
+
+      <h2>Key Features &amp; Privacy</h2>
+      <p>Fast, client-side processing with zero server calls. All calculations happen locally inside your browser for maximum privacy and instant performance.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is the first amplifier stage (LNA) critical in RF design?</summary>
+        <p>As shown by Friis formula, the first stage gain G1 divides subsequent noise contributions, making stage 1 Noise Figure dominate total system noise.</p>
+      </details>
+      <details>
+        <summary>What is the difference between Noise Factor and Noise Figure?</summary>
+        <p>Noise factor F is linear ratio F = SNRin / SNRout; Noise figure NF is expressed in decibels NF = 10 log10(F).</p>
+      </details>
+      <details>
+        <summary>Can attenuators be included in Friis noise calculation?</summary>
+        <p>Yes, an attenuator of X dB has a negative gain (-X dB) and a Noise Figure equal to its loss (+X dB).</p>
+      </details>
+      <details>
+        <summary>Is this calculation free and private?</summary>
+        <p>Yes, 100% free and private.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/rf-amplifier-noise-figure-cascaded-friis-noise-calculator/tool.js"></script>
+</body>
+</html>

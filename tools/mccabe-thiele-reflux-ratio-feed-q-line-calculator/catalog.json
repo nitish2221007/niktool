@@ -1,0 +1,15 @@
+{
+  "name": "McCabe-Thiele Distillation Operating Lines & Feed q-Line Slope Calculator",
+  "description": "Calculate McCabe-Thiele binary distillation column Rectifying line (y = (R/(R+1))·x + x_D/(R+1)), Stripping line, and thermal feed q-line slope (m_q = q / (q - 1)).",
+  "path": "/tools/mccabe-thiele-reflux-ratio-feed-q-line-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mccabe thiele calculator",
+    "distillation q line slope formula q over q minus 1 online",
+    "rectifying stripping operating line mccabe thiele calculator",
+    "reflux ratio mccabe thiele step by step online",
+    "chemical engineering binary distillation mccabe thiele"
+  ],
+  "order": 767
+}

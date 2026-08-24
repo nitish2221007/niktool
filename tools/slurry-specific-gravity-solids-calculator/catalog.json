@@ -1,0 +1,15 @@
+{
+  "name": "Mineral Slurry Specific Gravity & Percent Solids Calculator",
+  "description": "Calculate slurry pulp density (SG_slurry = 100 / (C_w / SG_solids + (100 - C_w) / 1.0)), volume percent solids (C_v), and dry solid tonnage in mineral pipelines.",
+  "path": "/tools/slurry-specific-gravity-solids-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "slurry specific gravity calculator",
+    "pulp density percent solids formula",
+    "slurry weight solids to volume solids",
+    "marcy scale pulp density online",
+    "mineral processing slurry sg calculator"
+  ],
+  "order": 449
+}

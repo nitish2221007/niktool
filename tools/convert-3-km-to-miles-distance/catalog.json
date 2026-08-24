@@ -1,0 +1,15 @@
+{
+  "name": "Convert 3 KM to Miles Distance",
+  "description": "Convert 3 kilometers (3 km) to miles (1.86 miles) instantly. 100% free and local.",
+  "path": "/tools/convert-3-km-to-miles-distance/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 3 km to miles distance",
+    "Convert 3 KM to Miles Distance",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

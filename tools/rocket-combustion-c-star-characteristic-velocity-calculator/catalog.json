@@ -1,0 +1,15 @@
+{
+  "name": "Rocket Engine Characteristic Exhaust Velocity (c*) Combustion Efficiency Calculator",
+  "description": "Calculate rocket combustion chamber performance characteristic velocity (c* = (p_c · A_t) / ṁ = √(γ·R·T_c) / (γ · √[2/(γ+1)]^((γ+1)/(γ-1)))) in m/s and evaluate c* combustion efficiency (η_c*).",
+  "path": "/tools/rocket-combustion-c-star-characteristic-velocity-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "rocket c star calculator",
+    "characteristic velocity formula c star equals pc at over m dot online",
+    "rocket combustion efficiency eta c star calculator",
+    "propulsion chamber c star specific heat ratio gamma calculator",
+    "liquid rocket propellant c star online"
+  ],
+  "order": 791
+}

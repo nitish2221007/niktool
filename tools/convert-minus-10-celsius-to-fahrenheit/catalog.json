@@ -1,0 +1,15 @@
+{
+  "name": "Convert -10°C Celsius to Fahrenheit",
+  "description": "Convert -10 degrees Celsius (°C) to Fahrenheit (14.0°F).",
+  "path": "/tools/convert-minus-10-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert minus 10 celsius to fahrenheit",
+    "Convert -10°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

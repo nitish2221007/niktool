@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GSM / LTE Cellular Link Budget & Coverage Range Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Compute maximum allowable path loss (MAPL) and cell coverage radius for GSM, 4G LTE, and 5G cellular network deployment.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/gsm-lte-link-budget-indoor-outdoor-coverage-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GSM / LTE Cellular Link Budget & Coverage Range Calculator | NikTool">
+  <meta property="og:description" content="Compute maximum allowable path loss (MAPL) and cell coverage radius for GSM, 4G LTE, and 5G cellular network deployment.">
+  <meta property="og:url" content="https://niktool.in/tools/gsm-lte-link-budget-indoor-outdoor-coverage-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <!-- Google AdSense Auto Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3039559152735742" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJB9MSVTRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HJB9MSVTRN');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "GSM / LTE Cellular Link Budget & Coverage Range Calculator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/gsm-lte-link-budget-indoor-outdoor-coverage-calculator/",
+        "description": "Compute maximum allowable path loss (MAPL) and cell coverage radius for GSM, 4G LTE, and 5G cellular network deployment.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://niktool.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Utilities", "item": "https://niktool.in/#tools" },
+          { "@type": "ListItem", "position": 3, "name": "GSM / LTE Cellular Link Budget & Coverage Range Calculator", "item": "https://niktool.in/tools/gsm-lte-link-budget-indoor-outdoor-coverage-calculator/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is MAPL in cellular engineering?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Maximum Allowable Path Loss (MAPL) defines the total attenuation a radio signal can sustain before dropping below receiver sensitivity." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does frequency impact cellular cell size?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Lower frequencies (e.g., 700 MHz) propagate much further with lower path loss than high frequencies (e.g., 3.5 GHz)." }
+          },
+          {
+            "@type": "Question",
+            "name": "What fade margin is recommended for cellular links?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A log-normal shadow fading margin of 8 dB to 15 dB is typically added for 90-95% cell coverage reliability." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my data kept private?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, no calculations leave your device." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links">
+        <a class="home-link" href="/">Home</a>
+        <a href="/#tools">All tools</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <a href="/#tools">Utilities</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>GSM / LTE Cellular Link Budget & Coverage Range Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <h1>GSM / LTE Cellular Link Budget & Coverage Range Calculator</h1>
+      <p>Compute maximum allowable path loss (MAPL) and cell coverage radius for GSM, 4G LTE, and 5G cellular network deployment.</p>
+    </section>
+
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="json-layout">
+        <div class="editor-panel">
+          <label class="editor-label" for="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-tx-power-dbm">Base Station Tx Power (dBm)</label>
+          <input type="number" class="tool-textarea" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-tx-power-dbm" placeholder="e.g. 43" value="43" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-tx-gain-dbi">BS Antenna Gain (dBi)</label>
+          <input type="number" class="tool-textarea" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-tx-gain-dbi" placeholder="e.g. 18" value="18" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-rx-gain-dbi">Mobile Antenna Gain (dBi)</label>
+          <input type="number" class="tool-textarea" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-rx-gain-dbi" placeholder="e.g. 0" value="0" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-rx-sens-dbm">Receiver Sensitivity (dBm)</label>
+          <input type="number" class="tool-textarea" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-rx-sens-dbm" placeholder="e.g. -104" value=" -104" step="any" style="height: auto; padding: 0.5rem;">
+          <label class="editor-label" for="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-freq-mhz">Carrier Frequency (MHz)</label>
+          <input type="number" class="tool-textarea" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-freq-mhz" placeholder="e.g. 1800" value="1800" step="any" style="height: auto; padding: 0.5rem;">
+        </div>
+        <div class="editor-panel">
+          <label class="editor-label" for="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-output">Result</label>
+          <textarea class="tool-textarea" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-output" placeholder="Result will appear here..." readonly></textarea>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button class="button" id="primary-action-btn" type="button">Process</button>
+        <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
+        <button class="button secondary" id="clear-text" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="gsm-lte-link-budget-indoor-outdoor-coverage-calculator-message" role="status">Ready. Enter input above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use GSM / LTE Cellular Link Budget & Coverage Range Calculator</h2>
+      <ol>
+        <li>Enter base station transmit power in dBm (e.g., 43 dBm = 20W).</li>
+        <li>Enter base station antenna gain in dBi.</li>
+        <li>Enter mobile device receiver sensitivity in dBm (e.g., -104 dBm).</li>
+        <li>Enter cellular carrier frequency in MHz.</li>
+        <li>Click Process to compute MAPL and maximum cell coverage radius.</li>
+      </ol>
+
+      <h2>Mathematical &amp; Theoretical Formulas</h2>
+      <p>This calculator evaluates performance using the following core formulas:</p>
+      <p>$$\displaystyle \text{MAPL} = P_t + G_t + G_r - P_{\text{sensitivity}}$$</p>
+
+      <h2>Worked Example</h2>
+      <p>For BS Tx = 43 dBm, Gt = 18 dBi, Sensitivity = -104 dBm: MAPL = 165 dB.</p>
+
+      <h2>Key Features &amp; Privacy</h2>
+      <p>Fast, client-side processing with zero server calls. All calculations happen locally inside your browser for maximum privacy and instant performance.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is MAPL in cellular engineering?</summary>
+        <p>Maximum Allowable Path Loss (MAPL) defines the total attenuation a radio signal can sustain before dropping below receiver sensitivity.</p>
+      </details>
+      <details>
+        <summary>How does frequency impact cellular cell size?</summary>
+        <p>Lower frequencies (e.g., 700 MHz) propagate much further with lower path loss than high frequencies (e.g., 3.5 GHz).</p>
+      </details>
+      <details>
+        <summary>What fade margin is recommended for cellular links?</summary>
+        <p>A log-normal shadow fading margin of 8 dB to 15 dB is typically added for 90-95% cell coverage reliability.</p>
+      </details>
+      <details>
+        <summary>Is my data kept private?</summary>
+        <p>Yes, no calculations leave your device.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links"><a href="/">Home</a><a href="/#tools">All tools</a></div>
+    </div>
+  </footer>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/gsm-lte-link-budget-indoor-outdoor-coverage-calculator/tool.js"></script>
+</body>
+</html>

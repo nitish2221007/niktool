@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Continuous Stirred-Tank Reactor (CSTR) Volume & Conversion Calculator",
+    "description": "Calculate chemical engineering CSTR reactor vessel volume (V = F_A0 · X / (-r_A)) and space time τ from molar inlet feed rate, fractional conversion X, and reaction rate kinetics.",
+    "path": "/tools/cstr-continuous-stirred-tank-reactor-conversion-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "cstr volume calculator",
+      "continuous stirred tank reactor design formula v equals fa0 x over minus ra",
+      "chemical reactor space time tau calculator",
+      "cstr conversion kinetics calculator online",
+      "chemical engineering cstr sizing online"
+    ]
+  },
+  {
+    "name": "Plug Flow Reactor (PFR / Tubular Reactor) Volume & Conversion Calculator",
+    "description": "Calculate tubular Plug Flow Reactor (PFR) volume (V = (F_A0 / (k·C_A0)) · ln(1 / (1 - X))) in Liters and compare volume savings over CSTR.",
+    "path": "/tools/pfr-plug-flow-reactor-volume-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pfr volume calculator",
+      "plug flow reactor design equation formula",
+      "tubular reactor space time pfr calculator online",
+      "pfr vs cstr volume comparison calculator",
+      "chemical reaction engineering pfr online"
+    ]
+  },
+  {
+    "name": "Thiele Modulus (ϕ) & Catalyst Pellet Effectiveness Factor (η) Calculator",
+    "description": "Calculate heterogeneous catalysis Thiele modulus (ϕ = L · √(k / D_eff)) and internal pore diffusion effectiveness factor (η = tanh(ϕ) / ϕ) for industrial chemical catalysts.",
+    "path": "/tools/thiele-modulus-catalyst-effectiveness-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thiele modulus calculator",
+      "catalyst effectiveness factor eta formula tanh phi over phi",
+      "pore diffusion limitation catalyst pellet calculator",
+      "heterogeneous catalysis chemical engineering online",
+      "weisz prater criterion thiele modulus calculator"
+    ]
+  },
+  {
+    "name": "Seismic P-Wave & S-Wave Earthquake Epicenter Distance Calculator",
+    "description": "Calculate earthquake epicenter distance (d = Δt / (1/v_s - 1/v_p)) in kilometers from primary P-wave and secondary S-wave seismogram arrival time differential.",
+    "path": "/tools/seismic-wave-travel-time-epicenter-distance-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "seismic wave epicenter calculator",
+      "p wave s wave travel time difference formula",
+      "earthquake epicenter distance calculator online",
+      "seismology p s wave arrival time calculator",
+      "geophysics earthquake triangulation online"
+    ]
+  },
+  {
+    "name": "Airy Isostasy Mountain Crustal Root & Moho Depth Calculator",
+    "description": "Calculate mountain isostatic buoyant crustal root depth (b = h · ρ_c / (ρ_m - ρ_c)) in kilometers and total depth to the Mohorovičić (Moho) seismic discontinuity.",
+    "path": "/tools/moho-crustal-depth-airy-isostasy-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "airy isostasy calculator",
+      "mountain crustal root depth formula moho",
+      "mohorovicic discontinuity depth calculator online",
+      "geophysics isostatic equilibrium calculator",
+      "crust mantle density buoyancy calculator"
+    ]
+  },
+  {
+    "name": "Magma Viscosity vs Silica Content & Temperature Calculator",
+    "description": "Calculate volcanic magma viscosity in Pascal-seconds (Pa·s) from SiO₂ silica weight percentage (Basalt 50% vs Rhyolite 75%) and magma temperature.",
+    "path": "/tools/magma-viscosity-silica-content-temperature-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "magma viscosity calculator",
+      "volcano silica content viscosity formula",
+      "basalt vs rhyolite magma viscosity calculator online",
+      "volcanology explosive eruption viscosity online",
+      "magma temperature viscosity giordano calculator"
+    ]
+  },
+  {
+    "name": "Theis Confined Aquifer Groundwater Well Drawdown Calculator",
+    "description": "Calculate groundwater pumping well drawdown (s = (Q / 4π·T) · W(u)) in meters from pumping discharge rate Q, transmissivity T, storativity S, and distance r.",
+    "path": "/tools/ground-water-drawdown-theis-well-equation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "theis groundwater drawdown calculator",
+      "confined aquifer well drawdown formula w of u",
+      "theis well function calculator online",
+      "hydrogeology well pumping drawdown calculator",
+      "groundwater aquifer transmissivity storativity online"
+    ]
+  },
+  {
+    "name": "Rock Quality Designation (RQD) Core Recovery & Geomechanics Calculator",
+    "description": "Calculate geotechnical Rock Quality Designation (RQD = (Σ L_pieces≥10cm / L_total) · 100%) and determine Deere rock mass quality classification for tunnel and mining engineering.",
+    "path": "/tools/rock-quality-designation-rqd-geomechanics-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rqd calculator",
+      "rock quality designation formula deere online",
+      "geotechnical rock mass quality rqd calculator",
+      "core recovery rqd mining calculator online",
+      "tunnel rock mass classification rqd online"
+    ]
+  },
+  {
+    "name": "Pneumatic Air Cylinder Thrust Force & CFM Consumption Calculator",
+    "description": "Calculate pneumatic air cylinder extension/retraction force (F = P · A) in Newtons/lbf and compressed air consumption rate in SCFM and L/min from bore and stroke.",
+    "path": "/tools/pneumatic-cylinder-thrust-force-air-consumption-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "pneumatic cylinder force calculator",
+      "pneumatic thrust force formula f equals p times a",
+      "air cylinder cfm air consumption calculator online",
+      "double acting pneumatic cylinder sizing calculator",
+      "industrial automation pneumatic actuator online"
+    ]
+  },
+  {
+    "name": "Hydraulic Pump Flow Rate & Drive Motor Power Calculator",
+    "description": "Calculate hydraulic fluid pump flow rate (Q = (V_d · n · η_v) / 1000) in L/min and electric motor drive power (P = (Q · p) / (600 · η_total)) in kW and Horsepower.",
+    "path": "/tools/hydraulic-pump-flow-power-displacement-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydraulic pump power calculator",
+      "hydraulic pump flow rate formula displacement rpm",
+      "hydraulic motor drive power kw hp calculator",
+      "hydraulic pressure flow power calculator online",
+      "fluid power hydraulic pump sizing calculator"
+    ]
+  },
+  {
+    "name": "PLC Scan Time & Program Execution Cycle Latency Calculator",
+    "description": "Calculate Programmable Logic Controller (PLC) scan cycle time (T_scan = T_input + T_program + T_output + T_comm) in ms and maximum detectable digital pulse frequency.",
+    "path": "/tools/plc-scan-time-execution-cycle-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "plc scan time calculator",
+      "plc execution cycle latency formula ms",
+      "plc ladder logic execution time calculator online",
+      "maximum input frequency plc scan time calculator",
+      "industrial automation plc scan cycle online"
+    ]
+  },
+  {
+    "name": "Industrial Robot Tool Payload & Inertia Margin Calculator",
+    "description": "Calculate 6-axis industrial robot wrist center of gravity offset (d) and total rotational mass moment of inertia (J = J_cg + m·d²) in kg·m² to prevent axis servo gearbox over-torque.",
+    "path": "/tools/industrial-robot-payload-inertia-margin-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "robot payload inertia calculator",
+      "robot wrist moment of inertia formula parallel axis",
+      "fanuc abb kuka robot payload margin calculator",
+      "end effector center of gravity inertia calculator",
+      "robotics tool load inertia online"
+    ]
+  },
+  {
+    "name": "Industrial Conveyor Belt Motor Power & Effective Tension (CEMA) Calculator",
+    "description": "Calculate material handling conveyor belt effective drive tension (T_e = T_empty + T_material + T_lift) in Newtons and required motor drive power in kW and Horsepower.",
+    "path": "/tools/conveyor-belt-motor-power-tension-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "conveyor belt power calculator",
+      "cema conveyor belt tension formula te",
+      "conveyor motor power kw hp calculator online",
+      "bulk material handling conveyor power calculator",
+      "conveyor belt sizing online"
+    ]
+  },
+  {
+    "name": "Bond Work Index (W_i) Ball Mill Grinding Power & Energy Calculator",
+    "description": "Calculate mineral ore grinding energy consumption (W = 10 · W_i · (1/√P₈₀ - 1/√F₈₀)) in kWh/tonne and ball mill electric drive motor power from Bond Work Index.",
+    "path": "/tools/bond-work-index-ball-mill-grinding-power-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bond work index calculator",
+      "ball mill grinding energy formula w equals 10 wi",
+      "mineral processing grinding power calculator online",
+      "f80 p80 comminution energy calculator",
+      "mining ball mill motor power online"
+    ]
+  },
+  {
+    "name": "Hydrocyclone Classification d₅₀ Cut Size (Plitt Model) Calculator",
+    "description": "Calculate mineral slurry hydrocyclone particle separation cut size (d₅₀ in μm) from cyclone barrel diameter, vortex finder diameter, apex diameter, and feed pressure.",
+    "path": "/tools/hydrocyclone-d50-cut-size-separation-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydrocyclone cut size calculator",
+      "plitt hydrocyclone d50 formula online",
+      "mineral classification hydrocyclone d50 calculator",
+      "vortex finder apex hydrocyclone sizing online",
+      "mining slurry cyclone separation calculator"
+    ]
+  },
+  {
+    "name": "Froth Flotation Recovery & Enrichment Ratio Calculator",
+    "description": "Calculate mineral froth flotation metallurgical recovery (R = (c · (f - t)) / (f · (c - t)) · 100%), enrichment ratio (c / f), and concentrate yield from assay grades.",
+    "path": "/tools/froth-flotation-recovery-enrichment-ratio-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "froth flotation recovery calculator",
+      "mineral recovery formula c times f minus t online",
+      "flotation enrichment ratio calculator online",
+      "copper gold mineral processing recovery calculator",
+      "mining metallurgy mass balance online"
+    ]
+  },
+  {
+    "name": "Jaw & Cone Crusher Reduction Ratio & Throughput (TPH) Calculator",
+    "description": "Calculate primary/secondary mining rock crusher reduction ratio (R_r = F₈₀ / P₈₀) and hourly tonnage capacity from Closed Side Setting (CSS) and gape dimensions.",
+    "path": "/tools/jaw-crusher-reduction-ratio-throughput-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "jaw crusher reduction ratio calculator",
+      "crusher reduction ratio formula f80 over p80",
+      "cone crusher closed side setting css capacity calculator",
+      "mining rock crusher throughput tph online",
+      "quarry aggregate crusher sizing online"
+    ]
+  },
+  {
+    "name": "Mineral Thickener Basin Area & Settling Flux (Talmage-Fitch) Calculator",
+    "description": "Calculate industrial tailings/concentrate thickener basin surface area (A = Q · (C_i - C_u) / (v · C_u)) in m² and unit settling area flux (m²/TPD) from slurry settling rates.",
+    "path": "/tools/thickener-settling-area-talmage-fitch-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "thickener settling area calculator",
+      "talmage fitch thickener formula online",
+      "mineral thickener basin diameter calculator",
+      "tailings thickener unit area m2 per tpd calculator",
+      "slurry dewatering thickener sizing online"
+    ]
+  },
+  {
+    "name": "Darcy Steady-State Radial Flow Oil Well Inflow (IPR) Calculator",
+    "description": "Calculate petroleum reservoir oil well production flow rate (q = 2π·k·h·(P_e - P_w) / (μ·B_o·ln(r_e / r_w))) in STB/day and Productivity Index (PI).",
+    "path": "/tools/darcy-radial-flow-oil-well-production-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "darcy radial flow calculator",
+      "oil well production rate formula q equals 2 pi k h delta p",
+      "inflow performance relationship ipr calculator online",
+      "petroleum reservoir productivity index pi calculator",
+      "reservoir permeability flow rate online"
+    ]
+  },
+  {
+    "name": "Standing Correlation Bubble Point Pressure (P_b) & Solution GOR Calculator",
+    "description": "Calculate petroleum reservoir crude oil bubble point pressure P_b (Standing 1947 correlation: P_b = 18.2 · [(R_sb / γ_g)^0.83 · 10^(0.00091·T - 0.0125·API) - 1.4]) in psi.",
+    "path": "/tools/oil-gas-ratio-gor-bubble-point-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "bubble point pressure calculator",
+      "standing correlation pb formula online",
+      "solution gas oil ratio gor bubble point calculator",
+      "reservoir pvt analysis bubble point online",
+      "petroleum crude oil standing pvt calculator"
+    ]
+  },
+  {
+    "name": "Natural Gas Compressibility Z-Factor (Hall-Yarborough) Calculator",
+    "description": "Calculate real natural gas supercompressibility Z-factor (P·V = Z·n·R·T) from pseudo-reduced pressure P_pr and pseudo-reduced temperature T_pr.",
+    "path": "/tools/gas-compressibility-z-factor-hall-yarborough-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "gas compressibility z factor calculator",
+      "hall yarborough z factor formula online",
+      "natural gas supercompressibility calculator",
+      "pseudo reduced pressure temperature z factor online",
+      "petroleum natural gas pvt z factor calculator"
+    ]
+  },
+  {
+    "name": "Wellbore Hydrostatic Pressure & Kill Mud Weight (PPG) Calculator",
+    "description": "Calculate drilling wellbore hydrostatic bottomhole pressure (P_hyd = 0.052 · MW · TVD) in psi and kill mud weight required to control gas kicks.",
+    "path": "/tools/wellbore-hydrostatic-mud-weight-kill-pressure-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "hydrostatic pressure drilling calculator",
+      "mud weight ppg to psi formula 0.052 mw tvd",
+      "kill mud weight calculator online",
+      "oil drilling well control kick pressure calculator",
+      "petroleum drilling engineering hydrostatic pressure online"
+    ]
+  },
+  {
+    "name": "Petroleum Reservoir Drive Mechanism & Recovery Factor (RF) Calculator",
+    "description": "Calculate primary hydrocarbon recovery factor (RF %) and Original Oil in Place (OOIP) recoverable reserves across Dissolved Gas Drive, Gas Cap Expansion, and Water Drive.",
+    "path": "/tools/reservoir-drive-mechanism-recovery-factor-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "reservoir recovery factor calculator",
+      "drive mechanism recovery factor oil gas online",
+      "ooip recoverable reserves calculator",
+      "water drive vs solution gas recovery factor online",
+      "petroleum reservoir engineering recovery online"
+    ]
+  },
+  {
+    "name": "Rayleigh Optical Lithography Resolution (CD = k₁·λ / NA) & Depth of Focus Calculator",
+    "description": "Calculate semiconductor photolithography Critical Dimension resolution (CD = k₁ · λ / NA) in nanometers and Depth of Focus (DOF = k₂ · λ / NA²) for DUV (193nm) and EUV (13.5nm) scanners.",
+    "path": "/tools/rayleigh-optical-lithography-resolution-calculator/",
+    "category": "Science",
+    "icon": "text",
+    "keywords": [
+      "rayleigh lithography resolution calculator",
+      "critical dimension cd formula k1 lambda over na",
+      "depth of focus dof lithography calculator online",
+      "asml euv vs duv resolution calculator",
+      "semiconductor photolithography rayleigh criterion online"
+    ]
+  }
+]

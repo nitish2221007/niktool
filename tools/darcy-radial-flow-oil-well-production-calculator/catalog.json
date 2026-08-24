@@ -1,0 +1,15 @@
+{
+  "name": "Darcy Steady-State Radial Flow Oil Well Inflow (IPR) Calculator",
+  "description": "Calculate petroleum reservoir oil well production flow rate (q = 2π·k·h·(P_e - P_w) / (μ·B_o·ln(r_e / r_w))) in STB/day and Productivity Index (PI).",
+  "path": "/tools/darcy-radial-flow-oil-well-production-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "darcy radial flow calculator",
+    "oil well production rate formula q equals 2 pi k h delta p",
+    "inflow performance relationship ipr calculator online",
+    "petroleum reservoir productivity index pi calculator",
+    "reservoir permeability flow rate online"
+  ],
+  "order": 665
+}

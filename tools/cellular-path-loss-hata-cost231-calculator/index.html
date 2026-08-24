@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Urban Cellular Path Loss (Okumura-Hata Model) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 4G/5G mobile cellular empirical propagation path loss in dB (PL = 69.55 + 26.16·log₁₀f - 13.82·log₁₀h_b - a(h_m) + (44.9 - 6.55·log₁₀h_b)·log₁₀d) across urban, suburban, and open rural areas.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/cellular-path-loss-hata-cost231-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Urban Cellular Path Loss (Okumura-Hata Model) Calculator | NikTool">
+  <meta property="og:description" content="Calculate 4G/5G mobile cellular empirical propagation path loss in dB (PL = 69.55 + 26.16·log₁₀f - 13.82·log₁₀h_b - a(h_m) + (44.9 - 6.55·log₁₀h_b)·log₁₀d) across urban, suburban, and open rural areas.">
+  <meta property="og:url" content="https://niktool.in/tools/cellular-path-loss-hata-cost231-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Urban Cellular Path Loss (Okumura-Hata Model) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/cellular-path-loss-hata-cost231-calculator/",
+        "description": "Calculate 4G/5G mobile cellular empirical propagation path loss in dB (PL = 69.55 + 26.16·log₁₀f - 13.82·log₁₀h_b - a(h_m) + (44.9 - 6.55·log₁₀h_b)·log₁₀d) across urban, suburban, and open rural areas.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is path loss significantly lower in rural areas?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Open rural areas lack dense multi-story concrete structures, reducing destructive multipath fading and shadowing losses by ~25 to 30 dB."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Urban Cellular Path Loss (Okumura-Hata Model) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Urban Cellular Path Loss (Okumura-Hata Model) Calculator</h1>
+      <p>Calculate 4G/5G mobile cellular empirical propagation path loss in dB (PL = 69.55 + 26.16·log₁₀f - 13.82·log₁₀h_b - a(h_m) + (44.9 - 6.55·log₁₀h_b)·log₁₀d) across urban, suburban, and open rural areas.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Frequency f (150-1500 MHz), Base Station Height h_b (m), Mobile Height h_m (m) & Distance d (km)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ht-f">Carrier Freq (MHz)</label>
+          <input class="tool-textarea" id="ht-f" type="number" step="any" value="900" placeholder="900 MHz (Cellular Band)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ht-hb">Tower Height h_b (m)</label>
+          <input class="tool-textarea" id="ht-hb" type="number" step="any" value="30.0" placeholder="30.0 m Tower" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ht-hm">Mobile Height h_m (m)</label>
+          <input class="tool-textarea" id="ht-hm" type="number" step="any" value="1.5" placeholder="1.5 m Handheld" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ht-d">Distance d (km)</label>
+          <input class="tool-textarea" id="ht-d" type="number" step="any" value="3.0" placeholder="3.0 km Cell Radius" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ht-env">Environment</label>
+          <select class="tool-textarea" id="ht-env">
+            <option value="urban_medium" selected>Urban Medium City</option>
+            <option value="suburban">Suburban Area (-10 dB Path Loss)</option>
+            <option value="rural">Open Rural Area (-28 dB Path Loss)</option>
+          </select>
+        </div>
+      </div>
+      <div id="ht-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ht-res-pl" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">PL = 138.8 dB Path Loss</span>
+            <span class="stat-label">Total Empirical RF Propagation Path Loss (PL)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ht-res-sub" style="font-weight:700;">Urban Medium Model (Suburban: 128.9 dB | Rural: 110.4 dB)</span>
+            <span class="stat-label">Comparative Environmental Propagation Losses</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Urban Cellular Path Loss (Okumura-Hata Model) Calculator</h2>
+      <ol>
+        <li>Enter carrier frequency in MHz (150 MHz to 1,500 MHz).</li>
+        <li>Enter cellular base station tower height h_b in meters (typically 20m to 50m).</li>
+        <li>Enter mobile user handset antenna height h_m in meters (typically 1.5m).</li>
+        <li>Enter cell site radius distance d in kilometers.</li>
+        <li>Select clutter environment (Urban, Suburban, or Rural) and inspect total empirical propagation path loss in dB.</li>
+      </ol>
+
+      <h2>Yoshihisa Okumura 1968 & Masaharu Hata 1980 Empirical Model</h2>
+      <p>The Okumura-Hata model fits extensive Tokyo field measurements into closed-form equations, accounting for multi-path building clutter reflections and diffraction over urban rooftops.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is path loss significantly lower in rural areas?</summary>
+        <p>Open rural areas lack dense multi-story concrete structures, reducing destructive multipath fading and shadowing losses by ~25 to 30 dB.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/cellular-path-loss-hata-cost231-calculator/tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 150V, Current 3A)",
+  "description": "Calculate Resistance (50.00 Ω) and Electric Power (450.0 W) for 150V voltage and 3A current.",
+  "path": "/tools/ohms-law-calculator-voltage-150v-current-3a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 150v current 3a",
+    "Ohm's Law Calculator (Voltage 150V, Current 3A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

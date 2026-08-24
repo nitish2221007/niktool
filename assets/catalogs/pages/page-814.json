@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 47 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 44.30 Ω) for 150 Hz frequency and 47 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-47mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 47mh",
+      "Inductive Reactance Calculator (150 Hz, 47 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 48 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 45.24 Ω) for 150 Hz frequency and 48 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-48mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 48mh",
+      "Inductive Reactance Calculator (150 Hz, 48 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 49 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 46.18 Ω) for 150 Hz frequency and 49 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-49mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 49mh",
+      "Inductive Reactance Calculator (150 Hz, 49 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 5 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 4.71 Ω) for 150 Hz frequency and 5 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-5mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 5mh",
+      "Inductive Reactance Calculator (150 Hz, 5 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 50 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 47.12 Ω) for 150 Hz frequency and 50 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-50mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 50mh",
+      "Inductive Reactance Calculator (150 Hz, 50 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 6 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 5.65 Ω) for 150 Hz frequency and 6 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-6mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 6mh",
+      "Inductive Reactance Calculator (150 Hz, 6 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 7 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 6.60 Ω) for 150 Hz frequency and 7 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-7mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 7mh",
+      "Inductive Reactance Calculator (150 Hz, 7 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 8 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 7.54 Ω) for 150 Hz frequency and 8 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-8mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 8mh",
+      "Inductive Reactance Calculator (150 Hz, 8 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (150 Hz, 9 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 8.48 Ω) for 150 Hz frequency and 9 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-150hz-inductor-9mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 150hz inductor 9mh",
+      "Inductive Reactance Calculator (150 Hz, 9 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 1 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 1.26 Ω) for 200 Hz frequency and 1 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-1mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 1mh",
+      "Inductive Reactance Calculator (200 Hz, 1 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 10 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 12.57 Ω) for 200 Hz frequency and 10 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-10mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 10mh",
+      "Inductive Reactance Calculator (200 Hz, 10 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 11 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 13.82 Ω) for 200 Hz frequency and 11 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-11mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 11mh",
+      "Inductive Reactance Calculator (200 Hz, 11 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 12 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 15.08 Ω) for 200 Hz frequency and 12 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-12mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 12mh",
+      "Inductive Reactance Calculator (200 Hz, 12 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 13 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 16.34 Ω) for 200 Hz frequency and 13 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-13mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 13mh",
+      "Inductive Reactance Calculator (200 Hz, 13 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 14 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 17.59 Ω) for 200 Hz frequency and 14 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-14mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 14mh",
+      "Inductive Reactance Calculator (200 Hz, 14 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 15 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 18.85 Ω) for 200 Hz frequency and 15 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-15mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 15mh",
+      "Inductive Reactance Calculator (200 Hz, 15 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 16 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 20.11 Ω) for 200 Hz frequency and 16 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-16mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 16mh",
+      "Inductive Reactance Calculator (200 Hz, 16 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 17 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 21.36 Ω) for 200 Hz frequency and 17 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-17mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 17mh",
+      "Inductive Reactance Calculator (200 Hz, 17 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 18 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 22.62 Ω) for 200 Hz frequency and 18 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-18mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 18mh",
+      "Inductive Reactance Calculator (200 Hz, 18 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 19 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 23.88 Ω) for 200 Hz frequency and 19 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-19mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 19mh",
+      "Inductive Reactance Calculator (200 Hz, 19 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 2 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 2.51 Ω) for 200 Hz frequency and 2 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-2mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 2mh",
+      "Inductive Reactance Calculator (200 Hz, 2 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 20 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 25.13 Ω) for 200 Hz frequency and 20 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-20mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 20mh",
+      "Inductive Reactance Calculator (200 Hz, 20 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 21 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 26.39 Ω) for 200 Hz frequency and 21 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-21mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 21mh",
+      "Inductive Reactance Calculator (200 Hz, 21 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  },
+  {
+    "name": "Inductive Reactance Calculator (200 Hz, 22 mH)",
+    "description": "Calculate Inductive Reactance (Xl = 27.65 Ω) for 200 Hz frequency and 22 mH inductor.",
+    "path": "/tools/inductive-reactance-calculator-frequency-200hz-inductor-22mh/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "inductive reactance calculator frequency 200hz inductor 22mh",
+      "Inductive Reactance Calculator (200 Hz, 22 mH)",
+      "engineering tool",
+      "online calculator",
+      "niktool"
+    ]
+  }
+]

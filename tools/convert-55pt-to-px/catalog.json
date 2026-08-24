@@ -1,0 +1,15 @@
+{
+  "name": "Convert 55pt to PX",
+  "description": "Convert 55 points (pt) to pixels (73.33 px) based on standard 96 DPI screen renderer.",
+  "path": "/tools/convert-55pt-to-px/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 55pt to px",
+    "Convert 55pt to PX",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

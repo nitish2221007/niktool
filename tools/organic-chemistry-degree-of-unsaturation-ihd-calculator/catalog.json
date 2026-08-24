@@ -1,0 +1,15 @@
+{
+  "name": "Organic Chemistry Degree of Unsaturation & Index of Hydrogen Deficiency (IHD) Calculator",
+  "description": "Calculate molecular formula Degree of Unsaturation / Index of Hydrogen Deficiency (DoU / IHD = C + 1 - H/2 - X/2 + N/2) to determine the exact total number of pi bonds (double/triple bonds) and rings in unknown chemical structures.",
+  "path": "/tools/organic-chemistry-degree-of-unsaturation-ihd-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "degree of unsaturation calculator",
+    "ihd formula c plus 1 minus h over 2 online",
+    "index of hydrogen deficiency organic chemistry calculator",
+    "pi bonds and rings calculator chemical formula",
+    "nmr spectrometry structural elucidation ihd online"
+  ],
+  "order": 897
+}

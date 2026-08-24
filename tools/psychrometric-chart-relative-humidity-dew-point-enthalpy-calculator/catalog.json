@@ -1,0 +1,15 @@
+{
+  "name": "Psychrometric Chart Properties (Relative Humidity, Dew Point & Humidity Ratio) Calculator",
+  "description": "Calculate moist air thermodynamic properties: Dew Point Temperature (T_dp in °C), Humidity Ratio / Absolute Moisture (ω in g_H2O / kg_dry_air), and Enthalpy (h in kJ/kg) from Dry-Bulb Temperature (T_db) and Relative Humidity (%RH).",
+  "path": "/tools/psychrometric-chart-relative-humidity-dew-point-enthalpy-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "psychrometric calculator",
+    "dew point formula magnus tetens relative humidity online",
+    "humidity ratio omega grams moisture per kg dry air calculator",
+    "moist air enthalpy hvac psychrometric chart calculator",
+    "dry bulb wet bulb dew point psychrometric solver online"
+  ],
+  "order": 975
+}

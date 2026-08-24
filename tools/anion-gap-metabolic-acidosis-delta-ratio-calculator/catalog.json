@@ -1,0 +1,15 @@
+{
+  "name": "Serum Anion Gap & Delta Ratio (High Anion Gap Metabolic Acidosis) Calculator",
+  "description": "Calculate serum Anion Gap (AG = [Na⁺] - ([Cl⁻] + [HCO₃⁻])) in mEq/L and Delta-Delta Ratio (ΔAG / ΔHCO₃⁻) to identify mixed metabolic acidosis and alkalosis disorders in emergency medicine.",
+  "path": "/tools/anion-gap-metabolic-acidosis-delta-ratio-calculator/",
+  "category": "Health",
+  "icon": "calculator",
+  "keywords": [
+    "anion gap calculator",
+    "serum anion gap formula na minus cl plus hco3 online",
+    "delta ratio delta delta metabolic acidosis calculator",
+    "high anion gap metabolic acidosis mudpiles calculator",
+    "icu arterial blood gas anion gap online"
+  ],
+  "order": 926
+}

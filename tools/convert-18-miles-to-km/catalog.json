@@ -1,0 +1,15 @@
+{
+  "name": "Convert 18 Miles to KM",
+  "description": "Convert 18 miles to kilometers (28.97 km). 100% free and local.",
+  "path": "/tools/convert-18-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 18 miles to km",
+    "Convert 18 Miles to KM",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

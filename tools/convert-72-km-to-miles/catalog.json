@@ -1,0 +1,15 @@
+{
+  "name": "Convert 72 KM to Miles",
+  "description": "Convert 72 kilometers to miles (44.74 miles). 100% free and local.",
+  "path": "/tools/convert-72-km-to-miles/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 72 km to miles",
+    "Convert 72 KM to Miles",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

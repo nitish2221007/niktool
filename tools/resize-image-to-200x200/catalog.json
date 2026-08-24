@@ -1,0 +1,16 @@
+{
+  "name": "Resize Image to 200x200 Pixels",
+  "description": "Resize any JPG, PNG, or WebP photo to exact 200x200 pixel dimensions instantly. 100% free and browser-processed.",
+  "path": "/tools/resize-image-to-200x200/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "resize image to 200x200",
+    "Resize Image to 200x200 Pixels",
+    "image tool",
+    "online photo utility",
+    "free image converter",
+    "browser image editor"
+  ],
+  "order": 3
+}

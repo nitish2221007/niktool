@@ -1,0 +1,15 @@
+{
+  "name": "Western Blot Densitometry Normalization (Target / Housekeeping Control) Calculator",
+  "description": "Calculate normalized Western blot protein expression fold-changes from raw densitometric band optical densities (OD) normalized to housekeeping loading controls (GAPDH, β-Actin, α-Tubulin).",
+  "path": "/tools/western-blot-densitometry-normalization-housekeeping-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "western blot densitometry calculator",
+    "western blot normalization fold change formula online",
+    "gapdh beta actin loading control densitometry calculator",
+    "imagej western blot band intensity calculator",
+    "molecular biology protein expression western blot online"
+  ],
+  "order": 1200
+}

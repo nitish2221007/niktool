@@ -1,0 +1,15 @@
+{
+  "name": "Convert 327 Knots Speed Val to KM/H",
+  "description": "Convert 327 knots speed to kilometers per hour (605.60 km/h).",
+  "path": "/tools/convert-knot-speed-val-327-to-kmh/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert knot speed val 327 to kmh",
+    "Convert 327 Knots Speed Val to KM/H",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

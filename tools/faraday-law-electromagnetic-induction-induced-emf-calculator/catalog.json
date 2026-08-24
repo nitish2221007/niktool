@@ -1,0 +1,15 @@
+{
+  "name": "Faraday's Law of Electromagnetic Induction (EMF = -N·(ΔΦ / Δt)) Calculator",
+  "description": "Calculate electromagnetic induced electromotive force voltage (EMF = -N · (ΔΦ / Δt)) in Volts, rate of magnetic flux change (ΔΦ/Δt in Webers/s), and Lenz's Law opposing polarity for electrical generators.",
+  "path": "/tools/faraday-law-electromagnetic-induction-induced-emf-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "faradays law induction calculator",
+    "induced emf formula emf equals minus n delta phi over delta t online",
+    "magnetic flux change rate webers per second calculator",
+    "lenzs law electromagnetic induction calculator volts",
+    "physics electric generator induction online"
+  ],
+  "order": 1055
+}

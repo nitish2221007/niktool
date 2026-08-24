@@ -1,0 +1,15 @@
+{
+  "name": "Hydrocyclone Classification d₅₀ Cut Size (Plitt Model) Calculator",
+  "description": "Calculate mineral slurry hydrocyclone particle separation cut size (d₅₀ in μm) from cyclone barrel diameter, vortex finder diameter, apex diameter, and feed pressure.",
+  "path": "/tools/hydrocyclone-d50-cut-size-separation-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hydrocyclone cut size calculator",
+    "plitt hydrocyclone d50 formula online",
+    "mineral classification hydrocyclone d50 calculator",
+    "vortex finder apex hydrocyclone sizing online",
+    "mining slurry cyclone separation calculator"
+  ],
+  "order": 661
+}

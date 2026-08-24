@@ -1,0 +1,15 @@
+{
+  "name": "Hill Equation Hemoglobin Oxygen-Binding & Allosteric Cooperativity Calculator",
+  "description": "Calculate allosteric protein ligand binding fractional saturation θ (Hill Equation: θ = [L]^n / (K_d + [L]^n) = pO₂^n / (P₅₀^n + pO₂^n)), Hill cooperativity coefficient n, and evaluate positive vs negative cooperativity.",
+  "path": "/tools/hill-equation-cooperativity-hemoglobin-oxygen-binding-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "hill equation calculator",
+    "hemoglobin oxygen binding curve formula online",
+    "allosteric cooperativity hill coefficient n calculator",
+    "p50 oxygen saturation fraction calculator",
+    "biochemistry physiology hematology medical pharmacology online"
+  ],
+  "order": 1436
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Convert 25 GB to MB",
+  "description": "Convert 25 Gigabytes (GB) to Megabytes (25600 MB). 100% free and local.",
+  "path": "/tools/convert-25-gb-to-mb/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 25 gb to mb",
+    "Convert 25 GB to MB",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

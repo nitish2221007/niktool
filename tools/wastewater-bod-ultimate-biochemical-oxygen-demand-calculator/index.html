@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate 5-day Biochemical Oxygen Demand (BOD₅) in mg/L, Ultimate carbonaceous oxygen demand BOD_u (BOD_u = BOD₅ / (1 - e^(-5k))), and temperature-adjusted reaction rates k_T = k₂₀·θ^(T-20).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/wastewater-bod-ultimate-biochemical-oxygen-demand-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator | NikTool">
+  <meta property="og:description" content="Calculate 5-day Biochemical Oxygen Demand (BOD₅) in mg/L, Ultimate carbonaceous oxygen demand BOD_u (BOD_u = BOD₅ / (1 - e^(-5k))), and temperature-adjusted reaction rates k_T = k₂₀·θ^(T-20).">
+  <meta property="og:url" content="https://niktool.in/tools/wastewater-bod-ultimate-biochemical-oxygen-demand-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/wastewater-bod-ultimate-biochemical-oxygen-demand-calculator/",
+        "description": "Calculate 5-day Biochemical Oxygen Demand (BOD₅) in mg/L, Ultimate carbonaceous oxygen demand BOD_u (BOD_u = BOD₅ / (1 - e^(-5k))), and temperature-adjusted reaction rates k_T = k₂₀·θ^(T-20).",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why is 5 days standard for the BOD test?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "By 5 days, carbonaceous degradation is roughly $70%$ complete, before autotrophic nitrifying bacteria begin exerting interference nitrogenous demand (NBOD)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator</h1>
+      <p>Calculate 5-day Biochemical Oxygen Demand (BOD₅) in mg/L, Ultimate carbonaceous oxygen demand BOD_u (BOD_u = BOD₅ / (1 - e^(-5k))), and temperature-adjusted reaction rates k_T = k₂₀·θ^(T-20).</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">5-Day BOD₅ Test Result (mg/L), Reaction Rate k₂₀ (day⁻¹) & Water Temperature T (°C)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bd-bod5">BOD₅ (mg/L)</label>
+          <input class="tool-textarea" id="bd-bod5" type="number" step="25" value="200.0" placeholder="200.0 mg/L (Municipal Raw)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bd-k20">Rate k₂₀ (day⁻¹)</label>
+          <input class="tool-textarea" id="bd-k20" type="number" step="0.02" value="0.23" placeholder="0.23 day⁻¹ (Base e @ 20°C)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bd-temp">Temp T (°C)</label>
+          <input class="tool-textarea" id="bd-temp" type="number" step="2" value="20" placeholder="20 °C" />
+        </div>
+      </div>
+      <div id="bd-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bd-res-bodu" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">Ultimate BOD_u = 292.6 mg / L</span>
+            <span class="stat-label">Ultimate Carbonaceous Oxygen Demand (BOD_u = BOD₅ / (1 - e^(-5k)))</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bd-res-rate" style="color:var(--green-dark); font-weight:700;">Rate k_T = 0.230 day⁻¹ | BOD₅ represents 68.3% of total carbonaceous oxygen demand</span>
+            <span class="stat-label">Temperature-Adjusted Kinetic Rate (k_T = k₂₀·1.047^(T-20))</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Wastewater Biochemical Oxygen Demand Kinetics (BOD_t = BOD_u·(1 - e^(-k·t))) Calculator</h2>
+      <ol>
+        <li>Enter standard 5-day Biochemical Oxygen Demand ($	ext{BOD}_5$) laboratory measurement in mg/L.</li>
+        <li>Enter wastewater first-order organic degradation reaction constant $k_{20}$ in $	ext{day}^{-1}$ (base e).</li>
+        <li>Enter water temperature in $^circ	ext{C}$.</li>
+        <li>Inspect Ultimate carbonaceous oxygen demand $	ext{BOD}_u$ and temperature-adjusted degradation rate $k_T$.</li>
+      </ol>
+
+      <h2>Standard Organic Loading Characterization</h2>
+      <p>Quantifies the total bioavailable dissolved organic carbon pollution load requiring biological oxidation in municipal sewage and industrial brewery effluents.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why is 5 days standard for the BOD test?</summary>
+        <p>By 5 days, carbonaceous degradation is roughly $70%$ complete, before autotrophic nitrifying bacteria begin exerting interference nitrogenous demand (NBOD).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/wastewater-bod-ultimate-biochemical-oxygen-demand-calculator/tool.js"></script>
+</body>
+</html>

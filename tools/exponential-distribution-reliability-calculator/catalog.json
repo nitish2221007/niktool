@@ -1,0 +1,15 @@
+{
+  "name": "Exponential Distribution Reliability & MTBF Calculator",
+  "description": "Calculate component survival reliability (R(t) = e^(-λ · t) = e^(-t / MTBF)), cumulative failure probability (F(t) = 1 - e^(-λt)), and failure rate (λ).",
+  "path": "/tools/exponential-distribution-reliability-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "exponential distribution calculator",
+    "reliability function r t formula",
+    "mtbf failure rate calculator online",
+    "mean time between failures exponential",
+    "component survival probability calculator"
+  ],
+  "order": 430
+}

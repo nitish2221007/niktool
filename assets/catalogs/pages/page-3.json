@@ -1,378 +1,346 @@
 [
   {
-    "name": "Lens Formula Calculator",
-    "description": "Solve the lens formula 1/f = 1/v - 1/u for focal length, image distance or object distance with magnification. Free and private.",
-    "path": "/tools/lens-formula-calculator/",
-    "category": "Math",
+    "name": "Resize Image to 300x300 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 300x300 pixel dimensions instantly. 100% free and browser-processed.",
+    "path": "/tools/resize-image-to-300x300/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "lens formula calculator",
-      "lens equation calculator",
-      "class 10 lens formula",
-      "focal length calculator lens",
-      "u v f calculator lens",
-      "magnification lens calculator",
-      "school optics calculator",
-      "ray optics lens calculator"
+      "resize image to 300x300",
+      "Resize Image to 300x300 Pixels",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
     ]
   },
   {
-    "name": "PDF Merger",
-    "description": "Merge multiple PDF files into one document securely in your browser.",
-    "path": "/tools/pdf-merger/",
+    "name": "Resize Image to 500KB Online",
+    "description": "Reduce image file size to 500KB for online forms, job applications, and portal submissions. Fast and 100% private.",
+    "path": "/tools/resize-image-to-500kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 500kb",
+      "Resize Image to 500KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
+    ]
+  },
+  {
+    "name": "Resize Image to 500x500 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 500x500 pixel dimensions instantly. 100% free and browser-processed.",
+    "path": "/tools/resize-image-to-500x500/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 500x500",
+      "Resize Image to 500x500 Pixels",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
+    ]
+  },
+  {
+    "name": "Resize Image to 50KB Online",
+    "description": "Reduce image file size to 50KB for online forms, job applications, and portal submissions. Fast and 100% private.",
+    "path": "/tools/resize-image-to-50kb/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 50kb",
+      "Resize Image to 50KB Online",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
+    ]
+  },
+  {
+    "name": "Resize Image to 600x600 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 600x600 pixel dimensions instantly. 100% free and browser-processed.",
+    "path": "/tools/resize-image-to-600x600/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 600x600",
+      "Resize Image to 600x600 Pixels",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
+    ]
+  },
+  {
+    "name": "Resize Image to 800x600 Pixels",
+    "description": "Resize any JPG, PNG, or WebP photo to exact 800x600 pixel dimensions instantly. 100% free and browser-processed.",
+    "path": "/tools/resize-image-to-800x600/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "resize image to 800x600",
+      "Resize Image to 800x600 Pixels",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
+    ]
+  },
+  {
+    "name": "Rotate Image 90 Degrees Clockwise",
+    "description": "Rotate photo 90 degrees clockwise online.",
+    "path": "/tools/rotate-image-90-degrees-clockwise/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "rotate image 90 degrees clockwise",
+      "Rotate Image 90 Degrees Clockwise",
+      "image tool",
+      "online photo utility",
+      "free image converter",
+      "browser image editor"
+    ]
+  },
+  {
+    "name": "Marks Needed Calculator",
+    "description": "Calculate how many marks you need to achieve your target percentage. Free, fast, and 100% private browser-based calculator.",
+    "path": "/tools/marks-needed-calculator/",
+    "category": "Math",
+    "icon": "calculator",
+    "keywords": [
+      "marks needed calculator",
+      "marks required calculator",
+      "marks needed for 90 percent",
+      "target marks calculator",
+      "exam target calculator",
+      "student marks planner"
+    ]
+  },
+  {
+    "name": "Color Contrast Checker (WCAG 2.1)",
+    "description": "Check foreground and background color contrast ratio against WCAG AA & AAA guidelines.",
+    "path": "/tools/color-contrast-checker-wcag/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "color contrast checker wcag",
+      "Color Contrast Checker (WCAG 2.1)",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Combine Multiple Images to PDF",
+    "description": "Merge multiple JPG, PNG, and WebP images into one single PDF document.",
+    "path": "/tools/multiple-images-to-pdf/",
     "category": "PDF",
     "icon": "text",
     "keywords": [
-      "pdf",
-      "merge",
-      "combine",
-      "join",
-      "document"
+      "multiple images to pdf",
+      "Combine Multiple Images to PDF",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Queue Visualizer",
-    "description": "Enqueue and dequeue elements on an interactive visual queue (FIFO).",
-    "path": "/tools/queue-visualizer/",
-    "category": "DSA",
-    "icon": "list",
-    "keywords": [
-      "queue",
-      "fifo",
-      "enqueue",
-      "dequeue",
-      "data structure"
-    ]
-  },
-  {
-    "name": "Linked List Visualizer",
-    "description": "Add, delete and reverse nodes in an animated linked list.",
-    "path": "/tools/linked-list-visualizer/",
-    "category": "DSA",
-    "icon": "link",
-    "keywords": [
-      "linked list",
-      "nodes",
-      "pointers",
-      "reverse",
-      "data structure"
-    ]
-  },
-  {
-    "name": "Mirror Formula Calculator",
-    "description": "Solve the mirror formula 1/f = 1/v + 1/u for focal length, image distance or object distance with magnification. Free and private.",
-    "path": "/tools/mirror-formula-calculator/",
-    "category": "Math",
+    "name": "Convert Base64 String to Image",
+    "description": "Decode Base64 Data URI string into a downloadable image file.",
+    "path": "/tools/base64-to-image-converter/",
+    "category": "Developer",
     "icon": "text",
     "keywords": [
-      "mirror formula calculator",
-      "mirror equation calculator",
-      "class 10 mirror formula",
-      "focal length mirror calculator",
-      "u v f mirror calculator",
-      "magnification mirror calculator",
-      "school optics calculator",
-      "ray optics mirror calculator"
+      "base64 to image converter",
+      "Convert Base64 String to Image",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Binary Tree Visualizer",
-    "description": "Build a BST and animate Inorder, Preorder, Postorder, and Level-order traversals.",
-    "path": "/tools/binary-tree-visualizer/",
-    "category": "DSA",
-    "icon": "git-branch",
-    "keywords": [
-      "binary tree",
-      "bst",
-      "traversal",
-      "inorder",
-      "preorder",
-      "postorder"
-    ]
-  },
-  {
-    "name": "Power of Lens Calculator",
-    "description": "Calculate lens power in diopters from focal length with automatic unit conversion and correct sign convention. Free and private.",
-    "path": "/tools/power-of-lens-calculator/",
-    "category": "Math",
+    "name": "Convert Base64 to Text Online",
+    "description": "Decode Base64 string back to original plain text.",
+    "path": "/tools/base64-to-text-converter/",
+    "category": "Developer",
     "icon": "text",
     "keywords": [
-      "power of lens calculator",
-      "lens power calculator",
-      "diopter calculator",
-      "focal length to power",
-      "power of lens class 10",
-      "dioptre calculator",
-      "lens focal length calculator",
-      "school optics tool"
+      "base64 to text converter",
+      "Convert Base64 to Text Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Remove First Five Pages from PDF",
-    "description": "Instantly strip the first 5 pages from any PDF file. 100% browser-based, private, and free.",
-    "path": "/tools/pdf-remove-first-five-pages/",
+    "name": "Convert Binary (01) to Text",
+    "description": "Decode 8-bit binary numbers into ASCII text.",
+    "path": "/tools/binary-to-text-converter/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "binary to text converter",
+      "Convert Binary (01) to Text",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert CMYK Color to RGB",
+    "description": "Convert print CMYK color values to digital screen RGB values.",
+    "path": "/tools/cmyk-to-rgb-converter/",
+    "category": "Developer",
+    "icon": "text",
+    "keywords": [
+      "cmyk to rgb converter",
+      "Convert CMYK Color to RGB",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert CSV to JSON Online",
+    "description": "Convert CSV spreadsheet data to structured JSON array or object format.",
+    "path": "/tools/csv-to-json-converter/",
+    "category": "Utilities",
+    "icon": "text",
+    "keywords": [
+      "csv to json converter",
+      "Convert CSV to JSON Online",
+      "online converter",
+      "free converter",
+      "browser tool"
+    ]
+  },
+  {
+    "name": "Convert CSV to PDF Table Online",
+    "description": "Convert CSV spreadsheet data into a styled PDF table document.",
+    "path": "/tools/csv-to-pdf-converter-online/",
     "category": "PDF",
-    "icon": "shield",
-    "keywords": [
-      "pdf",
-      "remove pages",
-      "trim pdf",
-      "delete first pages",
-      "pdf cutter",
-      "remove first 5 pages",
-      "pdf editor"
-    ]
-  },
-  {
-    "name": "B.Tech CGPA Calculator",
-    "description": "Calculate your overall B.Tech CGPA and equivalent percentage across all 8 semesters. Free, instant, and 100% private.",
-    "path": "/tools/btech-cgpa-calculator/",
-    "category": "Education",
-    "icon": "graduation-cap",
-    "keywords": [
-      "cgpa calculator",
-      "btech cgpa",
-      "sgpa to cgpa",
-      "engineering calculator",
-      "cgpa to percentage",
-      "semester calculator"
-    ]
-  },
-  {
-    "name": "Graph Visualizer",
-    "description": "Create nodes and edges interactively, then animate BFS and DFS traversal.",
-    "path": "/tools/graph-visualizer/",
-    "category": "DSA",
-    "icon": "share-2",
-    "keywords": [
-      "graph",
-      "nodes",
-      "edges",
-      "bfs",
-      "dfs",
-      "visualizer"
-    ]
-  },
-  {
-    "name": "Wave Speed Calculator",
-    "description": "Calculate wave speed, frequency, or wavelength using v = f lambda with division safety. Free, fast, and fully private.",
-    "path": "/tools/wave-speed-calculator/",
-    "category": "Math",
     "icon": "text",
     "keywords": [
-      "wave speed calculator",
-      "speed frequency wavelength calculator",
-      "v f lambda calculator",
-      "wave equation calculator",
-      "physics wave calculator",
-      "frequency wavelength speed",
-      "wavelength calculator",
-      "frequency calculator"
+      "csv to pdf converter online",
+      "Convert CSV to PDF Table Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "BFS/DFS Grid Visualizer",
-    "description": "Watch BFS and DFS explore a grid step by step with walls and pathfinding.",
-    "path": "/tools/bfs-dfs-visualizer/",
-    "category": "DSA",
-    "icon": "grid",
-    "keywords": [
-      "bfs",
-      "dfs",
-      "grid",
-      "traversal",
-      "pathfinding",
-      "visualizer"
-    ]
-  },
-  {
-    "name": "Density Calculator",
-    "description": "Calculate density, mass, or volume using rho = m/V with division safety and clear units. Free, fast, and fully private.",
-    "path": "/tools/density-calculator/",
-    "category": "Math",
+    "name": "Convert CSV to SQL INSERT Statements",
+    "description": "Convert CSV rows into SQL INSERT database queries.",
+    "path": "/tools/csv-to-sql-insert-statement-converter/",
+    "category": "Developer",
     "icon": "text",
     "keywords": [
-      "density calculator",
-      "density mass volume calculator",
-      "density formula calculator",
-      "class 10 density calculator",
-      "mass volume calculator",
-      "physics density solver",
-      "science density calculator",
-      "density online"
+      "csv to sql insert statement converter",
+      "Convert CSV to SQL INSERT Statements",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Pathfinding Visualizer",
-    "description": "Visualize BFS, DFS, Dijkstra and A* pathfinding on an interactive grid.",
-    "path": "/tools/pathfinding-visualizer/",
-    "category": "DSA",
-    "icon": "map",
-    "keywords": [
-      "pathfinding",
-      "dijkstra",
-      "a*",
-      "bfs",
-      "dfs",
-      "grid",
-      "visualizer"
-    ]
-  },
-  {
-    "name": "Work Energy Power Calculator",
-    "description": "Solve work, kinetic energy, potential energy, and power numericals in one place with formulas shown. Free and private.",
-    "path": "/tools/work-energy-power-calculator/",
-    "category": "Math",
+    "name": "Convert HEX Color to HSL",
+    "description": "Convert HEX color code to HSL(hue, saturation, lightness) values.",
+    "path": "/tools/hex-to-hsl-converter/",
+    "category": "Developer",
     "icon": "text",
     "keywords": [
-      "work energy power calculator",
-      "physics work calculator",
-      "power calculator physics",
-      "energy calculator physics",
-      "work formula calculator",
-      "class 10 physics calculator",
-      "kinetic potential energy calculator",
-      "WEP calculator"
+      "hex to hsl converter",
+      "Convert HEX Color to HSL",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Kinetic Energy Calculator",
-    "description": "Calculate kinetic energy from mass and velocity using KE = half mv squared with formula shown. Free, fast, and fully private.",
-    "path": "/tools/kinetic-energy-calculator/",
-    "category": "Math",
+    "name": "Convert HEX Color to RGB",
+    "description": "Convert 6-digit HEX color code (#176B4D) to RGB(r, g, b) values.",
+    "path": "/tools/hex-to-rgb-converter/",
+    "category": "Developer",
     "icon": "text",
     "keywords": [
-      "kinetic energy calculator",
-      "KE calculator",
-      "kinetic energy formula calculator",
-      "class 10 kinetic energy",
-      "mass velocity energy calculator",
-      "school kinetic energy tool",
-      "10th physics energy calculator",
-      "KE formula online"
+      "hex to rgb converter",
+      "Convert HEX Color to RGB",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Recursion Visualizer",
-    "description": "Display recursive calls as an animated tree for Fibonacci, Factorial and Power.",
-    "path": "/tools/recursion-visualizer/",
-    "category": "DSA",
-    "icon": "git-branch",
-    "keywords": [
-      "recursion",
-      "call tree",
-      "fibonacci",
-      "factorial",
-      "visualizer"
-    ]
-  },
-  {
-    "name": "DSA Progress Tracker",
-    "description": "Track DSA topics and problems completed with LocalStorage persistence.",
-    "path": "/tools/dsa-progress-tracker/",
-    "category": "DSA",
-    "icon": "check-circle",
-    "keywords": [
-      "dsa",
-      "progress",
-      "tracker",
-      "roadmap",
-      "leetcode",
-      "interview prep"
-    ]
-  },
-  {
-    "name": "Potential Energy Calculator",
-    "description": "Calculate gravitational potential energy from mass, gravity and height using PE = mgh. Free, fast, and fully private browser tool.",
-    "path": "/tools/potential-energy-calculator/",
-    "category": "Math",
+    "name": "Convert HSL Color to HEX",
+    "description": "Convert HSL color values to 6-digit HEX color code.",
+    "path": "/tools/hsl-to-hex-converter/",
+    "category": "Developer",
     "icon": "text",
     "keywords": [
-      "potential energy calculator",
-      "PE calculator",
-      "gravitational potential energy calculator",
-      "mgh calculator",
-      "class 10 potential energy",
-      "mass height energy calculator",
-      "school potential energy tool",
-      "PE formula calculator"
+      "hsl to hex converter",
+      "Convert HSL Color to HEX",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "DSA Random Question Picker",
-    "description": "Get a random DSA practice question by topic and difficulty.",
-    "path": "/tools/dsa-random-question-picker/",
-    "category": "DSA",
-    "icon": "shuffle",
-    "keywords": [
-      "dsa",
-      "random question",
-      "interview prep",
-      "leetcode",
-      "practice"
-    ]
-  },
-  {
-    "name": "Molar Mass Calculator",
-    "description": "Calculate molar mass from a chemical formula with element-by-element breakdown and parenthesis support. Free and fully private.",
-    "path": "/tools/molar-mass-calculator/",
-    "category": "Math",
+    "name": "Convert HTML to Markdown Online",
+    "description": "Convert HTML webpage elements into Markdown format.",
+    "path": "/tools/html-to-markdown-converter/",
+    "category": "Utilities",
     "icon": "text",
     "keywords": [
-      "molar mass calculator",
-      "molecular mass calculator",
-      "molar mass from formula",
-      "chemical formula molar mass",
-      "class 10 molar mass",
-      "chemistry molar mass calculator",
-      "molecular weight calculator",
-      "formula mass calculator"
+      "html to markdown converter",
+      "Convert HTML to Markdown Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Chemical Equation Balancer",
-    "description": "Balance common Class 10 chemical equations locally with atom count verification shown. Free, fast, and fully private browser tool.",
-    "path": "/tools/chemical-equation-balancer/",
-    "category": "Math",
+    "name": "Convert HTML to PDF Online",
+    "description": "Render and save HTML code or webpage content into PDF format.",
+    "path": "/tools/html-to-pdf-converter-online/",
+    "category": "PDF",
     "icon": "text",
     "keywords": [
-      "chemical equation balancer",
-      "balance chemical equations",
-      "equation balancer",
-      "class 10 chemical equation balancer",
-      "chemistry equation solver",
-      "balancing equations online",
-      "school chemistry tool",
-      "chemical reaction balancer"
+      "html to pdf converter online",
+      "Convert HTML to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Data Structure Cheat Sheet",
-    "description": "Interactive reference for common data structures with complexity tables.",
-    "path": "/tools/data-structure-cheat-sheet/",
-    "category": "DSA",
-    "icon": "book",
+    "name": "Convert Image to Base64 String",
+    "description": "Convert JPG, PNG, and WebP images to Data URI Base64 string.",
+    "path": "/tools/image-to-base64-converter/",
+    "category": "Developer",
+    "icon": "text",
     "keywords": [
-      "data structures",
-      "cheat sheet",
-      "complexity",
-      "reference",
-      "interview"
+      "image to base64 converter",
+      "Convert Image to Base64 String",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   },
   {
-    "name": "Algorithm Cheat Sheet",
-    "description": "Searchable reference of algorithms with time and space complexity.",
-    "path": "/tools/algorithm-cheat-sheet/",
-    "category": "DSA",
-    "icon": "book-open",
+    "name": "Convert JPG to PDF Online",
+    "description": "Convert JPG images into a clean PDF document. 100% free and processed locally.",
+    "path": "/tools/jpg-to-pdf-converter-online/",
+    "category": "PDF",
+    "icon": "text",
     "keywords": [
-      "algorithms",
-      "cheat sheet",
-      "complexity",
-      "sorting",
-      "graph",
-      "dp"
+      "jpg to pdf converter online",
+      "Convert JPG to PDF Online",
+      "online converter",
+      "free converter",
+      "browser tool"
     ]
   }
 ]

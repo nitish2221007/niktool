@@ -1,0 +1,15 @@
+{
+  "name": "Second-Order System Damping Ratio (ζ), Natural Frequency (ω_n) & Step Response Calculator",
+  "description": "Calculate second-order dynamic control system response parameters (s² + 2ζω_n·s + ω_n² = 0), damping ratio ζ, undamped natural frequency ω_n, percentage overshoot (%OS = e^(-πζ/√(1-ζ²)) · 100), and settling time (t_s ≈ 4 / (ζω_n)).",
+  "path": "/tools/second-order-ode-damping-ratio-natural-frequency-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "second order system calculator",
+    "damping ratio zeta natural frequency omega n calculator online",
+    "percentage overshoot formula step response control systems",
+    "settling time peak time second order transfer function calculator",
+    "underdamped critically damped overdamped solver online"
+  ],
+  "order": 959
+}

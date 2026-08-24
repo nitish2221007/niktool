@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate alveolar oxygen partial pressure P_A O₂ in mmHg (Alveolar Gas Equation: P_A O₂ = FiO₂ · (P_atm - 47) - (PaCO₂ / R)), Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂), and age-adjusted gradient.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/alveolar-gas-equation-arterial-oxygen-gradient-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator | NikTool">
+  <meta property="og:description" content="Calculate alveolar oxygen partial pressure P_A O₂ in mmHg (Alveolar Gas Equation: P_A O₂ = FiO₂ · (P_atm - 47) - (PaCO₂ / R)), Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂), and age-adjusted gradient.">
+  <meta property="og:url" content="https://niktool.in/tools/alveolar-gas-equation-arterial-oxygen-gradient-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/alveolar-gas-equation-arterial-oxygen-gradient-calculator/",
+        "description": "Calculate alveolar oxygen partial pressure P_A O₂ in mmHg (Alveolar Gas Equation: P_A O₂ = FiO₂ · (P_atm - 47) - (PaCO₂ / R)), Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂), and age-adjusted gradient.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Why does the A-a gradient increase with age?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Normal physiological lung aging increases closing volume and minor ventilation-perfusion ($V/Q$) mismatch, gradually widening normal A-a from $sim 8\text{ mmHg}$ at age 20 to $sim 24\text{ mmHg}$ at age 80."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator</h1>
+      <p>Calculate alveolar oxygen partial pressure P_A O₂ in mmHg (Alveolar Gas Equation: P_A O₂ = FiO₂ · (P_atm - 47) - (PaCO₂ / R)), Alveolar-Arterial (A-a) Oxygen Gradient (P_A O₂ - PaO₂), and age-adjusted gradient.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">FiO₂ (e.g. 0.21 Room Air), PaO₂ (mmHg), PaCO₂ (mmHg) & Patient Age (Years)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="ag-fio2">FiO₂ (0.21 - 1.0)</label>
+          <input class="tool-textarea" id="ag-fio2" type="number" step="0.05" value="0.21" placeholder="0.21 (Room Air)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ag-pao2">PaO₂ (mmHg)</label>
+          <input class="tool-textarea" id="ag-pao2" type="number" step="5" value="85.0" placeholder="85.0 mmHg (Arterial)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ag-paco2">PaCO₂ (mmHg)</label>
+          <input class="tool-textarea" id="ag-paco2" type="number" step="2" value="40.0" placeholder="40.0 mmHg (Normal CO₂)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="ag-age">Age (Years)</label>
+          <input class="tool-textarea" id="ag-age" type="number" step="5" value="45" placeholder="45 Years Old" />
+        </div>
+      </div>
+      <div id="ag-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="ag-res-grad" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">A-a Gradient = 14.7 mmHg (NORMAL INTRAPULMONARY GAS EXCHANGE)</span>
+            <span class="stat-label">Alveolar-Arterial Gradient (A-a = P_A O₂ - PaO₂)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="ag-res-pao2" style="color:var(--green-dark); font-weight:700;">Alveolar P_A O₂ = 99.7 mmHg | Expected Normal A-a ≤ 15.3 mmHg (Age/4 + 4)</span>
+            <span class="stat-label">Alveolar Gas Equation (P_A O₂ = FiO₂·(760-47) - PaCO₂/0.8)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Alveolar Gas Equation & Alveolar-Arterial (A-a) Oxygen Gradient Calculator</h2>
+      <ol>
+        <li>Enter inspired oxygen fraction $	ext{FiO}_2$ (0.21 room air, 0.40 for 40% mask, 1.0 for pure oxygen).</li>
+        <li>Enter arterial oxygen partial pressure $	ext{PaO}_2$ in mmHg from an Arterial Blood Gas (ABG).</li>
+        <li>Enter arterial carbon dioxide partial pressure $	ext{PaCO}_2$ in mmHg from ABG.</li>
+        <li>Enter patient age in years to compute age-adjusted gradient threshold ($(	ext{Age}/4) + 4$).</li>
+        <li>Inspect Alveolar oxygen tension $P_A	ext{O}_2$, A-a gradient, and diagnostic etiology of hypoxia.</li>
+      </ol>
+
+      <h2>Alveolar Gas Equation Clinical Diagnostic Standard</h2>
+      <p>Differentiates intrinsic lung disease (pulmonary embolism, pneumonia, ARDS with high A-a gradient) from extrinsic central respiratory depression (opioid overdose, COPD hypoventilation with normal A-a gradient).</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Why does the A-a gradient increase with age?</summary>
+        <p>Normal physiological lung aging increases closing volume and minor ventilation-perfusion ($V/Q$) mismatch, gradually widening normal A-a from $sim 8	ext{ mmHg}$ at age 20 to $sim 24	ext{ mmHg}$ at age 80.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/alveolar-gas-equation-arterial-oxygen-gradient-calculator/tool.js"></script>
+</body>
+</html>

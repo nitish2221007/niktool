@@ -1,0 +1,15 @@
+{
+  "name": "Convert 11px to REM",
+  "description": "Convert 11 pixels (px) to REM units based on 16px root font size (0.6875rem).",
+  "path": "/tools/convert-11px-to-rem/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 11px to rem",
+    "Convert 11px to REM",
+    "online tool",
+    "free tool",
+    "browser tool"
+  ],
+  "order": 10
+}

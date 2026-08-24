@@ -1,0 +1,15 @@
+{
+  "name": "Acoustic Doppler Effect Frequency Shift (f' = f₀·(v ± v_o)/(v ∓ v_s)) Calculator",
+  "description": "Calculate acoustic Doppler frequency shift and perceived audio pitch from moving sound sources (sirens, vehicles, trains) and moving listeners.",
+  "path": "/tools/doppler-effect-moving-source-observer-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "doppler effect calculator",
+    "acoustic doppler shift formula moving source observer",
+    "siren frequency pitch shift calculator online",
+    "sound speed doppler effect online",
+    "physics wave doppler shift calculator"
+  ],
+  "order": 642
+}

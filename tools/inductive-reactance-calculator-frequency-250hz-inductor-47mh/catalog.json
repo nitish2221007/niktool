@@ -1,0 +1,15 @@
+{
+  "name": "Inductive Reactance Calculator (250 Hz, 47 mH)",
+  "description": "Calculate Inductive Reactance (Xl = 73.83 Ω) for 250 Hz frequency and 47 mH inductor.",
+  "path": "/tools/inductive-reactance-calculator-frequency-250hz-inductor-47mh/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "inductive reactance calculator frequency 250hz inductor 47mh",
+    "Inductive Reactance Calculator (250 Hz, 47 mH)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

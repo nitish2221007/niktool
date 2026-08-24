@@ -1,0 +1,15 @@
+{
+  "name": "Convert 24 Nautical Miles to KM",
+  "description": "Convert 24 nautical miles (NM) to kilometers (44.45 km). 100% free and local.",
+  "path": "/tools/convert-24-nautical-miles-to-km/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 24 nautical miles to km",
+    "Convert 24 Nautical Miles to KM",
+    "online tool",
+    "free tool",
+    "niktool"
+  ],
+  "order": 10
+}

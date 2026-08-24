@@ -1,0 +1,15 @@
+{
+  "name": "Convert 33 KM/H to MPH Speed",
+  "description": "Convert 33 kilometers per hour (km/h) to miles per hour (20.51 mph).",
+  "path": "/tools/convert-33-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 33 kmh to mph speed",
+    "Convert 33 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pipe Internal Burst Pressure (Barlow's Formula) Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate pipe internal burst yield pressure (P = (2 · S · t) / D) and maximum allowable operating pressure (MAOP) per ASME B31.3 and B31.8 pipeline standards.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/pipe-burst-pressure-barlow-formula-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pipe Internal Burst Pressure (Barlow's Formula) Calculator | NikTool">
+  <meta property="og:description" content="Calculate pipe internal burst yield pressure (P = (2 · S · t) / D) and maximum allowable operating pressure (MAOP) per ASME B31.3 and B31.8 pipeline standards.">
+  <meta property="og:url" content="https://niktool.in/tools/pipe-burst-pressure-barlow-formula-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pipe Internal Burst Pressure (Barlow's Formula) Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/pipe-burst-pressure-barlow-formula-calculator/",
+        "description": "Calculate pipe internal burst yield pressure (P = (2 · S · t) / D) and maximum allowable operating pressure (MAOP) per ASME B31.3 and B31.8 pipeline standards.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is Barlow's formula for pipe burst pressure?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "P = (2 · S · t) / D, where S is yield strength, t is wall thickness, and D is outside diameter."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>Pipe Internal Burst Pressure (Barlow's Formula) Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>Pipe Internal Burst Pressure (Barlow's Formula) Calculator</h1>
+      <p>Calculate pipe internal burst yield pressure (P = (2 · S · t) / D) and maximum allowable operating pressure (MAOP) per ASME B31.3 and B31.8 pipeline standards.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Material Yield S (psi / MPa), Wall Thickness t (in) & Outer Diameter D (in)</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="bp-s">Yield Strength S (psi)</label>
+          <input class="tool-textarea" id="bp-s" type="number" step="any" value="52000" placeholder="52,000 psi (API 5L X52)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bp-t">Wall Thickness t (in)</label>
+          <input class="tool-textarea" id="bp-t" type="number" step="any" value="0.375" placeholder="0.375 in (3/8 in)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bp-d">Outer Diameter D (in)</label>
+          <input class="tool-textarea" id="bp-d" type="number" step="any" value="12.75" placeholder="12.75 in (12-inch Pipe)" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="bp-df">Design Factor (F)</label>
+          <select class="tool-textarea" id="bp-df">
+            <option value="0.72" selected>0.72 (ASME B31.8 Class 1 Rural Pipeline)</option>
+            <option value="0.60">0.60 (Class 2 Commercial)</option>
+            <option value="0.50">0.50 (Class 3 Residential Area)</option>
+          </select>
+        </div>
+      </div>
+      <div id="bp-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="bp-res-burst" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">3,059 psi (210.9 bar)</span>
+            <span class="stat-label">Theoretical Burst Pressure (100% SMYS)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="bp-res-maop" style="font-weight:700;">2,202 psi MAOP</span>
+            <span class="stat-label">Max Operating Pressure (F · P_burst)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use Pipe Internal Burst Pressure (Barlow's Formula) Calculator</h2>
+      <ol>
+        <li>Enter pipe Specified Minimum Yield Strength (SMYS) in psi (e.g. 35,000 for A53 Gr B, 52,000 for X52, 70,000 for X70).</li>
+        <li>Enter nominal pipe wall thickness t and outer diameter D in inches.</li>
+        <li>Select ASME B31 design safety factor F (0.72 rural, 0.50 urban).</li>
+        <li>Inspect theoretical hoop stress yield burst pressure and Maximum Allowable Operating Pressure (MAOP).</li>
+      </ol>
+
+      <h2>Peter Barlow's 1836 Thin-Walled Cylinder Law</h2>
+      <p>Barlow's formula relates internal hydrostatic pressure to circumferential hoop stress (P = 2·S·t/D), establishing the worldwide code standard for pressurized oil, gas, and steam piping design.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is Barlow's formula for pipe burst pressure?</summary>
+        <p>P = (2 · S · t) / D, where S is yield strength, t is wall thickness, and D is outside diameter.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/pipe-burst-pressure-barlow-formula-calculator/tool.js"></script>
+</body>
+</html>

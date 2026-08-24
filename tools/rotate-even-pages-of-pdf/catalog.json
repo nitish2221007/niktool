@@ -1,0 +1,16 @@
+{
+  "name": "Rotate Even Pages Of PDF",
+  "description": "Rotate all even pages (2, 4, 6...) in a PDF document by 90 degrees.",
+  "path": "/tools/rotate-even-pages-of-pdf/",
+  "category": "PDF",
+  "icon": "text",
+  "keywords": [
+    "rotate even pages of pdf",
+    "Rotate Even Pages Of PDF",
+    "pdf tool",
+    "online pdf utility",
+    "free pdf tool",
+    "browser pdf editor"
+  ],
+  "order": 5
+}

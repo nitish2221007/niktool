@@ -1,0 +1,15 @@
+{
+  "name": "Recurring Deposit (RD) Calculator",
+  "description": "Calculate RD interest returns on monthly deposits.",
+  "path": "/tools/rd-calculator-online/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "rd calculator online",
+    "Recurring Deposit (RD) Calculator",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

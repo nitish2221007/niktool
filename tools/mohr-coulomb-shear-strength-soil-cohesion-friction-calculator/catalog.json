@@ -1,0 +1,15 @@
+{
+  "name": "Mohr-Coulomb Soil Shear Strength (τ_f = c' + σ'·tan φ') Calculator",
+  "description": "Calculate soil shear strength failure envelope τ_f in kPa (τ_f = c' + σ' · tan φ'), effective normal stress σ' (σ - u), and factor of safety against slope shear failure.",
+  "path": "/tools/mohr-coulomb-shear-strength-soil-cohesion-friction-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "mohr coulomb calculator",
+    "soil shear strength formula tau f equals c plus sigma tan phi online",
+    "effective stress pore water pressure shear strength calculator",
+    "soil cohesion internal friction angle calculator",
+    "geotechnical engineering soil mechanics slope stability online"
+  ],
+  "order": 1290
+}

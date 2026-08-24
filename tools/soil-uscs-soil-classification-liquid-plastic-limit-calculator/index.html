@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator - Free Online Tool | NikTool</title>
+  <meta name="description" content="Calculate soil Plasticity Index (PI = LL - PL), determine A-Line boundary equation (PI = 0.73·(LL - 20)), and classify fine-grained cohesive soils (CL, CH, ML, MH) on the Casagrande plasticity chart under ASTM D2487.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://niktool.in/tools/soil-uscs-soil-classification-liquid-plastic-limit-calculator/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator | NikTool">
+  <meta property="og:description" content="Calculate soil Plasticity Index (PI = LL - PL), determine A-Line boundary equation (PI = 0.73·(LL - 20)), and classify fine-grained cohesive soils (CL, CH, ML, MH) on the Casagrande plasticity chart under ASTM D2487.">
+  <meta property="og:url" content="https://niktool.in/tools/soil-uscs-soil-classification-liquid-plastic-limit-calculator/">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#176b4d">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "url": "https://niktool.in/tools/soil-uscs-soil-classification-liquid-plastic-limit-calculator/",
+        "description": "Calculate soil Plasticity Index (PI = LL - PL), determine A-Line boundary equation (PI = 0.73·(LL - 20)), and classify fine-grained cohesive soils (CL, CH, ML, MH) on the Casagrande plasticity chart under ASTM D2487.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "What is the Casagrande A-Line?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The A-line ($PI = 0.73(LL - 20)$) empirically separates inorganic clays (above the line) from silts and organic soils (below the line)."
+    }
+  }
+]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="NikTool home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+        </span>
+        <span class="brand-text">NikTool</span>
+      </a>
+      <div class="nav-links"><a class="home-link" href="/">Home</a><a href="/#tools">All tools</a></div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <span>USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator</span>
+    </div>
+
+    <section class="tool-hero">
+      <span class="tool-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 10h10M4 14h16M4 18h8"/></svg>
+      </span>
+      <h1>USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator</h1>
+      <p>Calculate soil Plasticity Index (PI = LL - PL), determine A-Line boundary equation (PI = 0.73·(LL - 20)), and classify fine-grained cohesive soils (CL, CH, ML, MH) on the Casagrande plasticity chart under ASTM D2487.</p>
+    </section>
+
+    <section class="tool-workspace" aria-labelledby="workspace-title">
+      <div class="workspace-header">
+        <h2 id="workspace-title">Soil Liquid Limit LL (%) & Plastic Limit PL (%) from Atterberg Lab Tests</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="control-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="control-group">
+          <label class="control-label" for="sc-ll">Liquid Limit LL (%)</label>
+          <input class="tool-textarea" id="sc-ll" type="number" step="1" value="42.0" placeholder="42.0%" />
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="sc-pl">Plastic Limit PL (%)</label>
+          <input class="tool-textarea" id="sc-pl" type="number" step="1" value="18.0" placeholder="18.0%" />
+        </div>
+      </div>
+      <div id="sc-res-card" style="margin-top:1.25rem;">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-value" id="sc-res-uscs" style="color:var(--green-dark); font-weight:800; font-size:1.6rem;">CL - LEAN CLAY (Low Plasticity)</span>
+            <span class="stat-label">ASTM USCS Group Symbol & Soil Classification</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="sc-res-pi" style="color:var(--green-dark); font-weight:700;">Plasticity Index PI = 24.0% | A-Line Cutoff = 16.06% (Point lies above A-Line: Clayey)</span>
+            <span class="stat-label">Plasticity Index (PI = LL - PL) & Casagrande A-Line Position</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar" style="margin-top: 1.25rem;">
+        <button class="button" id="primary-action-btn" type="button">Calculate</button>
+        <button class="button secondary" id="copy-result-btn" type="button" style="display: none;">Copy Result</button>
+        <button class="button secondary" id="clear-action-btn" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="tool-message" role="status" aria-live="polite">Ready. Enter parameters above.</p>
+    </section>
+
+    <article class="seo-content">
+      <h2>How to use USCS Soil Classification & Plasticity Index (PI = LL - PL) Casagrande Chart Calculator</h2>
+      <ol>
+        <li>Enter soil Liquid Limit (LL %) determined via Casagrande cup or fall cone test.</li>
+        <li>Enter soil Plastic Limit (PL %) determined by rolling 3.2 mm soil threads.</li>
+        <li>Inspect Plasticity Index ($PI = LL - PL$), Casagrande A-Line cutoff, and official ASTM USCS soil group code (CL, CH, ML, MH).</li>
+      </ol>
+
+      <h2>Arthur Casagrande 1948 Geotechnical Classification</h2>
+      <p>Atterberg consistency limits distinguish cohesive clays from non-plastic silts; identifying highly expansive "Fat Clays" (CH with $LL > 50$) prevents catastrophic foundation shifting and slope landslides.</p>
+
+      <h2>Private browser-based processing</h2>
+      <p>All calculations and conversions run 100% locally in your browser. No personal data or numbers are ever transmitted or saved to external servers.</p>
+
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What is the Casagrande A-Line?</summary>
+        <p>The A-line ($PI = 0.73(LL - 20)$) empirically separates inorganic clays (above the line) from silts and organic soils (below the line).</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <p>&copy; <span data-year></span> NikTool.</p>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/#tools">All tools</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This tool requires JavaScript to work.</p>
+  </noscript>
+
+  <script src="/assets/shared.js"></script>
+  <script src="/tools/soil-uscs-soil-classification-liquid-plastic-limit-calculator/tool.js"></script>
+</body>
+</html>

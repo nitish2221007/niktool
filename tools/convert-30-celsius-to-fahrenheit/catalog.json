@@ -1,0 +1,15 @@
+{
+  "name": "Convert 30°C Celsius to Fahrenheit",
+  "description": "Convert 30 degrees Celsius (°C) to Fahrenheit (86.0°F).",
+  "path": "/tools/convert-30-celsius-to-fahrenheit/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 30 celsius to fahrenheit",
+    "Convert 30°C Celsius to Fahrenheit",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

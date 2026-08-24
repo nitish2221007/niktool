@@ -1,0 +1,15 @@
+{
+  "name": "Microfluidic Rectangular Channel Hydraulic Resistance (R_h) & Flow Calculator",
+  "description": "Calculate microfluidic rectangular channel laminar hydraulic resistance (R_h ≈ 12·μ·L / (w·h³ · (1 - 0.63·h/w))) in Pa·s/m³ and pressure drop ΔP across Lab-on-a-Chip channels.",
+  "path": "/tools/microfluidic-rectangular-channel-hydraulic-resistance-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "microfluidic hydraulic resistance calculator",
+    "rectangular channel flow resistance formula online",
+    "lab on a chip pressure drop calculator online",
+    "poiseuille flow rectangular microchannel calculator",
+    "microfluidics flow rate pressure drop online"
+  ],
+  "order": 696
+}

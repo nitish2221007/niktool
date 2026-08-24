@@ -1,0 +1,15 @@
+{
+  "name": "Convert 7 EM to PX Value",
+  "description": "Convert 7 EM units to pixels (112 px) based on 16px font context.",
+  "path": "/tools/convert-7-em-to-px-value/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "convert 7 em to px value",
+    "Convert 7 EM to PX Value",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

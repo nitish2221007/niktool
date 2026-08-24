@@ -1,0 +1,15 @@
+{
+  "name": "Ohm's Law Calculator (Voltage 435V, Current 10A)",
+  "description": "Calculate Resistance (43.50 Ω) and Electric Power (4350.0 W) for 435V voltage and 10A current.",
+  "path": "/tools/ohms-law-calculator-voltage-435v-current-10a/",
+  "category": "Developer",
+  "icon": "text",
+  "keywords": [
+    "ohms law calculator voltage 435v current 10a",
+    "Ohm's Law Calculator (Voltage 435V, Current 10A)",
+    "engineering tool",
+    "online calculator",
+    "niktool"
+  ],
+  "order": 10
+}

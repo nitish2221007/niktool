@@ -1,0 +1,15 @@
+{
+  "name": "Convert 25 KM/H to MPH Speed",
+  "description": "Convert 25 kilometers per hour (km/h) to miles per hour (15.53 mph).",
+  "path": "/tools/convert-25-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 25 kmh to mph speed",
+    "Convert 25 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Modular Multiplicative Inverse Calculator",
+  "description": "Calculate the modular multiplicative inverse (a⁻¹ mod m) such that (a · x) ≡ 1 (mod m) using the Extended Euclidean Algorithm for RSA cryptography.",
+  "path": "/tools/modulo-inverse-calculator/",
+  "category": "Math",
+  "icon": "text",
+  "keywords": [
+    "modulo inverse calculator",
+    "modular multiplicative inverse online",
+    "extended euclidean algorithm calculator",
+    "rsa crypto modular inverse",
+    "a mod m inverse solver"
+  ],
+  "order": 208
+}

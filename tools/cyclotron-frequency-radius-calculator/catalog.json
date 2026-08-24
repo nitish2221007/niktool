@@ -1,0 +1,15 @@
+{
+  "name": "Cyclotron Resonance Frequency & Gyroradius Calculator",
+  "description": "Calculate charged particle cyclotron frequency (f_c = (q · B) / (2 · π · m)) and orbital gyroradius (r_L = (m · v) / (q · B)) in uniform magnetic fields.",
+  "path": "/tools/cyclotron-frequency-radius-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "cyclotron frequency calculator",
+    "larmor radius calculator",
+    "gyroradius particle in magnetic field",
+    "cyclotron resonance formula online",
+    "magnetic lorentz force orbit radius"
+  ],
+  "order": 356
+}

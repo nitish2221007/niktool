@@ -1,0 +1,15 @@
+{
+  "name": "Discrete Cosine Transform (DCT-II) 8x8 Block Matrix Calculator",
+  "description": "Calculate 2D Discrete Cosine Transform (DCT-II) spatial frequency energy compaction coefficients used in JPEG image compression and MP3/AAC audio coding.",
+  "path": "/tools/discrete-cosine-transform-dct2-matrix-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "discrete cosine transform calculator",
+    "dct ii jpeg compression matrix formula",
+    "dct energy compaction 8x8 block calculator",
+    "image compression transform dct online",
+    "dsp orthogonal basis dct2 calculator"
+  ],
+  "order": 614
+}

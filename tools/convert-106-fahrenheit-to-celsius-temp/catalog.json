@@ -1,0 +1,15 @@
+{
+  "name": "Convert 106°F Fahrenheit to Celsius Temp",
+  "description": "Convert 106 degrees Fahrenheit (°F) to Celsius (41.1°C) instantly.",
+  "path": "/tools/convert-106-fahrenheit-to-celsius-temp/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 106 fahrenheit to celsius temp",
+    "Convert 106°F Fahrenheit to Celsius Temp",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

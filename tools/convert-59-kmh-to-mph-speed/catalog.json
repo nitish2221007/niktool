@@ -1,0 +1,15 @@
+{
+  "name": "Convert 59 KM/H to MPH Speed",
+  "description": "Convert 59 kilometers per hour (km/h) to miles per hour (36.66 mph).",
+  "path": "/tools/convert-59-kmh-to-mph-speed/",
+  "category": "Utilities",
+  "icon": "text",
+  "keywords": [
+    "convert 59 kmh to mph speed",
+    "Convert 59 KM/H to MPH Speed",
+    "online tool",
+    "free converter",
+    "niktool"
+  ],
+  "order": 10
+}

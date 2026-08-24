@@ -1,0 +1,15 @@
+{
+  "name": "Coffee Brew Ratio & Grams Calculator",
+  "description": "Calculate coffee grounds to water ratio (1:15 to 1:18) for Pour Over (V60, Chemex), French Press, AeroPress, and Espresso.",
+  "path": "/tools/coffee-brew-ratio-calculator/",
+  "category": "Daily",
+  "icon": "text",
+  "keywords": [
+    "coffee brew ratio calculator",
+    "coffee to water ratio calculator",
+    "v60 coffee ratio",
+    "french press ratio calculator",
+    "golden cup coffee formula"
+  ],
+  "order": 177
+}

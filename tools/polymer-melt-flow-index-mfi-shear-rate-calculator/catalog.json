@@ -1,0 +1,15 @@
+{
+  "name": "Polymer Melt Flow Index (MFI / MFR) & Capillary Shear Rate Calculator",
+  "description": "Calculate standard ASTM D1238 polymer Melt Flow Index (MFI in g/10min), volumetric extrusion rate Q, and apparent capillary die wall shear rate (γ̇_w = 4·Q / (π·R³)).",
+  "path": "/tools/polymer-melt-flow-index-mfi-shear-rate-calculator/",
+  "category": "Science",
+  "icon": "text",
+  "keywords": [
+    "melt flow index calculator",
+    "mfi mfr formula astm d1238 online",
+    "capillary wall shear rate mfi calculator online",
+    "polymer rheometer melt flow rate calculator",
+    "polyethylene melt flow index viscosity online"
+  ],
+  "order": 695
+}
