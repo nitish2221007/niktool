@@ -275,7 +275,7 @@ function renderToolJs(slug) {
           result += '\\nTarget Words: ' + target + '\\nStatus: ' + (words.length === target ? 'MATCHED' : (words.length > target ? (words.length - target) + ' words over limit' : (target - words.length) + ' words remaining'));
         }
       } else if (lowerSlug.includes('age-calculator')) {
-        const match = lowerSlug.match(/born-in-(\d{4})/);
+        const match = lowerSlug.match(/born-in-(\\d{4})/);
         if (match) {
           const birthYear = parseInt(match[1], 10);
           const currentYear = new Date().getFullYear();
@@ -328,60 +328,60 @@ export async function onRequest(context) {
   const request = context.request;
   const url = new URL(request.url);
 
-  // 1. Intercept /tools/* URLs FIRST
-  if (url.pathname.startsWith('/tools/')) {
-    const parts = url.pathname.split('/').filter(Boolean); // ['tools', 'slug', 'file']
-    const slug = parts[1];
-    const file = parts[2] || 'index.html';
+  // In functions/tools/[[path]].js:
+  // params.path is an array of path segments after /tools/
+  const params = context.params.path || [];
+  const slug = params[0];
+  const file = params[1] || 'index.html';
 
-    if (slug && slug.length > 0) {
-      const name = slugToTitle(slug);
-      const category = slugToCategory(slug);
-      const description = slugToDescription(slug, name);
+  if (slug && slug.length > 0) {
+    const name = slugToTitle(slug);
+    const category = slugToCategory(slug);
+    const description = slugToDescription(slug, name);
 
-      if (file === 'index.html' || file === '') {
-        const html = renderToolHtml(slug);
-        return new Response(html, {
-          status: 200,
-          headers: {
-            'content-type': 'text/html; charset=utf-8',
-            'cache-control': 'public, max-age=86400',
-          },
-        });
-      }
+    if (file === 'index.html' || file === '') {
+      const html = renderToolHtml(slug);
+      return new Response(html, {
+        status: 200,
+        headers: {
+          'content-type': 'text/html; charset=utf-8',
+          'cache-control': 'public, max-age=86400',
+        },
+      });
+    }
 
-      if (file === 'tool.js') {
-        const js = renderToolJs(slug);
-        return new Response(js, {
-          status: 200,
-          headers: {
-            'content-type': 'application/javascript; charset=utf-8',
-            'cache-control': 'public, max-age=86400',
-          },
-        });
-      }
+    if (file === 'tool.js') {
+      const js = renderToolJs(slug);
+      return new Response(js, {
+        status: 200,
+        headers: {
+          'content-type': 'application/javascript; charset=utf-8',
+          'cache-control': 'public, max-age=86400',
+        },
+      });
+    }
 
-      if (file === 'catalog.json') {
-        const json = JSON.stringify({
-          name,
-          description,
-          path: `/tools/${slug}/`,
-          category: category || 'Utilities',
-          icon: 'text',
-          keywords: [name.toLowerCase(), (category || '').toLowerCase()],
-          order: 50
-        });
-        return new Response(json, {
-          status: 200,
-          headers: {
-            'content-type': 'application/json; charset=utf-8',
-            'cache-control': 'public, max-age=86400',
-          },
-        });
-      }
+    if (file === 'catalog.json') {
+      const json = JSON.stringify({
+        name,
+        description,
+        path: `/tools/${slug}/`,
+        category: category || 'Utilities',
+        icon: 'text',
+        keywords: [name.toLowerCase(), (category || '').toLowerCase()],
+        order: 50
+      });
+      return new Response(json, {
+        status: 200,
+        headers: {
+          'content-type': 'application/json; charset=utf-8',
+          'cache-control': 'public, max-age=86400',
+        },
+      });
+    }
 
-      if (file === 'sitemap.xml') {
-        const xml = `<?xml version="1.0" encoding="UTF-8"?>
+    if (file === 'sitemap.xml') {
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://niktool.in/tools/${slug}/</loc>
@@ -389,17 +389,15 @@ export async function onRequest(context) {
     <priority>0.8</priority>
   </url>
 </urlset>`;
-        return new Response(xml, {
-          status: 200,
-          headers: {
-            'content-type': 'application/xml; charset=utf-8',
-            'cache-control': 'public, max-age=86400',
-          },
-        });
-      }
+      return new Response(xml, {
+        status: 200,
+        headers: {
+          'content-type': 'application/xml; charset=utf-8',
+          'cache-control': 'public, max-age=86400',
+        },
+      });
     }
   }
 
-  // 2. Fallback to static assets for all other routes
   return await context.next();
 }
