@@ -328,18 +328,7 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    // 1. Try static assets first (Home, About, Privacy, assets/, existing tools)
-    let assetResponse;
-    try {
-      assetResponse = await env.ASSETS.fetch(request);
-      if (assetResponse.status !== 404) {
-        return assetResponse;
-      }
-    } catch (e) {
-      // Continue to fallback dynamic rendering if ASSETS fetch errors or returns 404
-    }
-
-    // 2. Fallback for /tools/* URLs when static asset doesn't exist
+    // 1. Intercept /tools/* URLs FIRST
     if (url.pathname.startsWith('/tools/')) {
       const parts = url.pathname.split('/').filter(Boolean); // ['tools', 'slug', 'file']
       const slug = parts[1];
@@ -411,6 +400,11 @@ export default {
       }
     }
 
-    return assetResponse || new Response('Not Found', { status: 404 });
+    // 2. Fallback to static assets for all other pages (Home, About, Privacy, assets/, catalog.json, sitemap.xml)
+    try {
+      return await env.ASSETS.fetch(request);
+    } catch (e) {
+      return new Response('Not Found', { status: 404 });
+    }
   }
 };
