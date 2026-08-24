@@ -1,0 +1,16 @@
+# Node & Temp
+node_modules/
+*.log
+scratch/
+tools.zip
+.env
+
+# AI Tool Builder & Python
+ai-tool-builder/
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
