@@ -325,16 +325,13 @@ function renderToolJs(slug) {
 }
 
 export async function onRequest(context) {
-  const request = context.request;
-  const url = new URL(request.url);
+  const url = new URL(context.request.url);
+  const parts = url.pathname.split('/').filter(Boolean); // ['tools', 'slug', 'file']
 
-  // In functions/tools/[[path]].js:
-  // params.path is an array of path segments after /tools/
-  const params = context.params.path || [];
-  const slug = params[0];
-  const file = params[1] || 'index.html';
+  if (parts[0] === 'tools' && parts[1]) {
+    const slug = parts[1];
+    const file = parts[2] || 'index.html';
 
-  if (slug && slug.length > 0) {
     const name = slugToTitle(slug);
     const category = slugToCategory(slug);
     const description = slugToDescription(slug, name);
@@ -399,5 +396,5 @@ export async function onRequest(context) {
     }
   }
 
-  return await context.next();
+  return context.next();
 }
