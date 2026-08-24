@@ -5,6 +5,9 @@ scratch/
 tools.zip
 .env
 
+# Ignored tool static builds (served dynamically via _worker.js)
+tools/
+
 # AI Tool Builder & Python
 ai-tool-builder/
 .venv/
