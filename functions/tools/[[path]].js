@@ -15,6 +15,7 @@ function formatToolTitle(slug) {
   if (slug === 'crop-image-to-16-9') return 'Crop Image to 16:9 Aspect Ratio';
   if (slug === 'crop-image-to-9-16-vertical') return 'Crop Image to 9:16 Vertical Aspect Ratio';
   if (slug === 'crop-image-to-1-1-square') return 'Crop Image to 1:1 Square';
+  if (slug === 'resize-image-for-youtube-thumbnail') return 'Resize Image for YouTube Thumbnail';
 
   const acronyms = {
     'pdf': 'PDF', 'json': 'JSON', 'xml': 'XML', 'yaml': 'YAML', 'csv': 'CSV',
@@ -24,7 +25,9 @@ function formatToolTitle(slug) {
     'srt': 'SRT', 'ytm': 'YTM', 'cdf': 'CDF', 'ct': 'CT', 'hu': 'HU',
     'gpa': 'GPA', 'bmi': 'BMI', 'emi': 'EMI', 'gst': 'GST', 'vat': 'VAT',
     'sip': 'SIP', 'fd': 'FD', 'rd': 'RD', 'epf': 'EPF', 'ppf': 'PPF',
-    'nps': 'NPS', 'hvac': 'HVAC', 'suvat': 'SUVAT', 'voc': 'VOC', 'qr': 'QR'
+    'nps': 'NPS', 'hvac': 'HVAC', 'suvat': 'SUVAT', 'voc': 'VOC', 'qr': 'QR',
+    'youtube': 'YouTube', 'tiktok': 'TikTok', 'instagram': 'Instagram',
+    'facebook': 'Facebook', 'twitter': 'Twitter', 'linkedin': 'LinkedIn'
   };
 
   const words = slug.split('-').filter(Boolean);
@@ -73,12 +76,17 @@ function slugToCategory(slug) {
 
 function slugToDescription(slug, name) {
   const s = slug.toLowerCase();
+  if (s.includes('youtube-thumbnail')) return 'Resize image to exact 1280x720 YouTube thumbnail size online. Free, fast, and high quality with no sign-up.';
   if (s.includes('best-of-five')) return 'Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.';
   if (s.includes('best-of-four')) return 'Calculate your best 4 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.';
   if (s.includes('crop-image-to-4-3')) return 'Crop photo to standard 4:3 aspect ratio for tablets and monitors.';
   if (s.includes('crop-image-to-16-9')) return 'Crop photo to standard 16:9 widescreen aspect ratio for YouTube and desktop displays.';
   if (s.includes('crop-image-to-9-16')) return 'Crop photo to vertical 9:16 aspect ratio for Instagram Stories, TikTok, and YouTube Shorts.';
   if (s.includes('crop-image-to-1-1')) return 'Crop photo to 1:1 square aspect ratio for Instagram and profile avatars.';
+  if (s.includes('compress-image-to')) {
+    const match = s.match(/compress-image-to-(\d+)(kb|mb)/);
+    if (match) return `Compress image file size to exact ${match[1]}${match[2].toUpperCase()} online. Free, fast, 100% private in-browser image compressor.`;
+  }
   if (s.includes('word-length') || s.includes('words-count')) {
     const match = s.match(/(\d+)-words-count/);
     if (match) {
@@ -104,7 +112,16 @@ function getRelatedTools(slug, category) {
   const s = slug.toLowerCase();
   const list = [];
 
-  if (s.includes('best-of') || s.includes('marks') || s.includes('gpa') || s.includes('grade')) {
+  if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize') || s.includes('thumbnail')) {
+    list.push(
+      { slug: 'resize-image-for-youtube-thumbnail', name: 'Resize Image for YouTube Thumbnail', desc: 'Resize image to 1280x720 YouTube size.' },
+      { slug: 'compress-image-to-100kb', name: 'Compress Image to 100KB', desc: 'Compress image file size down to 100KB.' },
+      { slug: 'crop-image-to-16-9', name: 'Crop Image to 16:9 Aspect Ratio', desc: 'Crop photo to 16:9 widescreen ratio.' },
+      { slug: 'crop-image-to-4-3', name: 'Crop Image to 4:3 Aspect Ratio', desc: 'Crop photo to standard 4:3 aspect ratio.' },
+      { slug: 'crop-image-to-1-1-square', name: 'Crop Image to 1:1 Square', desc: 'Crop photo to 1:1 square for profile pictures.' },
+      { slug: 'compress-image-to-50kb', name: 'Compress Image to 50KB', desc: 'Compress image file size down to 50KB.' }
+    );
+  } else if (s.includes('best-of') || s.includes('marks') || s.includes('gpa') || s.includes('grade')) {
     list.push(
       { slug: 'best-of-five-calculator', name: 'Best of Five Calculator', desc: 'Calculate top 5 marks and percentage.' },
       { slug: 'percentage-calculator', name: 'Percentage Calculator', desc: 'Quick percentage calculation tool.' },
@@ -112,15 +129,6 @@ function getRelatedTools(slug, category) {
       { slug: 'scientific-calculator', name: 'Scientific Calculator', desc: 'Advanced scientific math functions.' },
       { slug: 'days-between-dates-calculator', name: 'Days Between Dates', desc: 'Calculate duration between dates.' },
       { slug: 'word-counter', name: 'Word Counter', desc: 'Count words, characters, and reading time.' }
-    );
-  } else if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize')) {
-    list.push(
-      { slug: 'crop-image-to-4-3', name: 'Crop Image to 4:3 Aspect Ratio', desc: 'Crop photo to standard 4:3 aspect ratio.' },
-      { slug: 'crop-image-to-16-9', name: 'Crop Image to 16:9 Aspect Ratio', desc: 'Crop photo to 16:9 widescreen ratio.' },
-      { slug: 'crop-image-to-1-1-square', name: 'Crop Image to 1:1 Square', desc: 'Crop photo to 1:1 square for profile pictures.' },
-      { slug: 'crop-image-to-9-16-vertical', name: 'Crop Image to 9:16 Vertical', desc: 'Crop photo for vertical reels and stories.' },
-      { slug: 'compress-image-to-100kb', name: 'Compress Image to 100KB', desc: 'Compress image file size down to 100KB.' },
-      { slug: 'compress-image-to-50kb', name: 'Compress Image to 50KB', desc: 'Compress image file size down to 50KB.' }
     );
   } else if (s.includes('word-count') || s.includes('words-count') || s.includes('word-length')) {
     const match = s.match(/(\d+)-words-count/);
@@ -212,7 +220,7 @@ function renderToolHtml(slug) {
   const lowerSlug = slug.toLowerCase();
 
   const isPdf = category === 'PDF' || lowerSlug.includes('pdf');
-  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png');
+  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail');
   const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
   const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
   const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
@@ -248,6 +256,14 @@ function renderToolHtml(slug) {
       <p class="message" id="${slug}-message" role="status">Ready. Enter subject marks above.</p>
     </section>`;
   } else if (isImage) {
+    let subTitle = 'Quality / Compression Target';
+    if (lowerSlug.includes('youtube-thumbnail')) subTitle = 'Target: 1280 x 720 px (YouTube Thumbnail Standard)';
+    else if (lowerSlug.includes('instagram-post')) subTitle = 'Target: 1080 x 1080 px (Instagram Square)';
+    else if (lowerSlug.includes('compress-image-to')) {
+      const match = lowerSlug.match(/compress-image-to-(\d+)(kb|mb)/);
+      if (match) subTitle = `Target File Size: ${match[1]}${match[2].toUpperCase()}`;
+    }
+
     workspaceHtml = `
     <section class="tool-workspace">
       <div class="workspace-header">
@@ -289,7 +305,7 @@ function renderToolHtml(slug) {
         </div>
 
         <div class="controls-group" id="controls-box" style="margin-top: 1rem; background: #fafbf8; padding: 1rem; border-radius: 14px; border: 1px solid var(--line);">
-          <label for="img-quality-slider" style="display: block; font-weight: 700; font-size: 0.85rem; color: #46544c; margin-bottom: 0.4rem;">Quality / Processing Target</label>
+          <label for="img-quality-slider" style="display: block; font-weight: 700; font-size: 0.85rem; color: #46544c; margin-bottom: 0.4rem;">${escapeHtml(subTitle)}</label>
           <input type="range" id="img-quality-slider" min="10" max="100" value="85" style="width:100%;">
           <div style="font-size:0.8rem; color:#5b6861; margin-top:0.3rem;" id="img-quality-txt">Quality Target: 85%</div>
         </div>
@@ -323,7 +339,7 @@ function renderToolHtml(slug) {
           </svg>
         </div>
         <button class="button" type="button" id="btn-select-pdf" style="min-height: 52px; padding: 0.8rem 2.2rem; font-size: 1.05rem; border-radius: 14px; background: #e53935; color: white; border: 0; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 0.6rem; box-shadow: 0 8px 24px rgba(229, 57, 53, 0.3);">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
           Select PDF file
         </button>
         <div class="drop-hint" style="margin-top: 0.85rem; color: #66736c; font-size: 0.92rem; font-weight: 500;">or drop PDF file here</div>
@@ -649,7 +665,7 @@ function renderToolJs(slug) {
   const lowerSlug = slug.toLowerCase();
 
   const isPdf = lowerSlug.includes('pdf');
-  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png');
+  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail');
   const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
   const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
   const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
@@ -815,7 +831,7 @@ function renderToolJs(slug) {
     reader.readAsDataURL(file);
   }
 
-  processBtn.addEventListener('click', () => {
+  processBtn.addEventListener('click', async () => {
     if (!currentFile || !imageObj.width) {
       setMsg('No image loaded.', true);
       return;
@@ -825,22 +841,62 @@ function renderToolJs(slug) {
       setMsg('Processing image...');
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
-      const lowerSlug = slug.toLowerCase();
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
 
+      const lowerSlug = slug.toLowerCase();
       let targetWidth = imageObj.width;
       let targetHeight = imageObj.height;
-      const exportQuality = parseFloat(qualitySlider ? qualitySlider.value : 85) / 100;
+      let exportQuality = parseFloat(qualitySlider ? qualitySlider.value : 85) / 100;
       let exportFormat = currentFile.type || 'image/jpeg';
       let ext = currentFile.name.split('.').pop() || 'jpg';
       let suffix = '-processed.' + ext;
 
-      if (lowerSlug.includes('crop-image-to-4-3')) {
+      // 1. YouTube Thumbnail (1280x720)
+      if (lowerSlug.includes('youtube-thumbnail') || lowerSlug.includes('1280x720')) {
+        targetWidth = 1280;
+        targetHeight = 720;
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-youtube-thumbnail.jpg';
+        exportFormat = 'image/jpeg';
+      }
+      // 2. Instagram Post (1080x1080)
+      else if (lowerSlug.includes('instagram-post') || lowerSlug.includes('1080x1080')) {
+        targetWidth = 1080;
+        targetHeight = 1080;
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-instagram-post.jpg';
+        exportFormat = 'image/jpeg';
+      }
+      // 3. Facebook Cover (1200x630)
+      else if (lowerSlug.includes('facebook-cover') || lowerSlug.includes('1200x630')) {
+        targetWidth = 1200;
+        targetHeight = 630;
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-facebook-cover.jpg';
+        exportFormat = 'image/jpeg';
+      }
+      // 4. Custom Dimension Resize (WxH)
+      else if (lowerSlug.match(/resize-image-to-(\\d+)x(\\d+)/)) {
+        const dMatch = lowerSlug.match(/resize-image-to-(\\d+)x(\\d+)/);
+        targetWidth = parseInt(dMatch[1], 10);
+        targetHeight = parseInt(dMatch[2], 10);
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-' + targetWidth + 'x' + targetHeight + '.' + ext;
+      }
+      // 5. Crop Ratios (4:3, 16:9, 1:1, 9:16)
+      else if (lowerSlug.includes('crop-image-to-4-3')) {
         const ratio = 4 / 3;
         const currentRatio = imageObj.width / imageObj.height;
-        let cropW = imageObj.width;
-        let cropH = imageObj.height;
-        let startX = 0, startY = 0;
-
+        let cropW = imageObj.width, cropH = imageObj.height, startX = 0, startY = 0;
         if (currentRatio > ratio) {
           cropW = imageObj.height * ratio;
           startX = (imageObj.width - cropW) / 2;
@@ -896,6 +952,53 @@ function renderToolJs(slug) {
         ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
       }
 
+      // 6. Target KB Compression Logic
+      const kbMatch = lowerSlug.match(/compress-image-to-(\\d+)kb/) || lowerSlug.match(/resize-image-to-(\\d+)kb/);
+      if (kbMatch) {
+        const targetKB = parseInt(kbMatch[1], 10);
+        exportFormat = 'image/jpeg';
+        suffix = '-compressed-' + targetKB + 'kb.jpg';
+        
+        let minQ = 0.05, maxQ = 0.95, bestBlob = null;
+        let q = exportQuality;
+
+        for (let i = 0; i < 7; i++) {
+          const b = await new Promise(r => canvas.toBlob(r, exportFormat, q));
+          if (!b) break;
+          bestBlob = b;
+          const kb = b.size / 1024;
+          if (kb <= targetKB && kb >= targetKB * 0.85) break;
+          if (kb > targetKB) { maxQ = q; q = (minQ + maxQ) / 2; }
+          else { minQ = q; q = (minQ + maxQ) / 2; }
+        }
+
+        // If still exceeds target KB, scale resolution down
+        if (bestBlob && (bestBlob.size / 1024) > targetKB) {
+          const scale = Math.sqrt(targetKB / (bestBlob.size / 1024));
+          const sCanvas = document.createElement('canvas');
+          sCanvas.width = Math.max(100, Math.floor(canvas.width * scale));
+          sCanvas.height = Math.max(100, Math.floor(canvas.height * scale));
+          const sCtx = sCanvas.getContext('2d');
+          sCtx.imageSmoothingEnabled = true;
+          sCtx.imageSmoothingQuality = 'high';
+          sCtx.drawImage(canvas, 0, 0, sCanvas.width, sCanvas.height);
+          bestBlob = await new Promise(r => sCanvas.toBlob(r, exportFormat, 0.7));
+        }
+
+        if (bestBlob) {
+          const url = URL.createObjectURL(bestBlob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = currentFile.name.replace(/\\.[^/.]+$/, '') + suffix;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          setMsg('Success! Compressed to ' + formatBytes(bestBlob.size) + ' (Target: ' + targetKB + ' KB). Downloaded!');
+          return;
+        }
+      }
+
+      // Default export download
       canvas.toBlob((blob) => {
         if (!blob) { setMsg('Error exporting image.', true); return; }
         const url = URL.createObjectURL(blob);
@@ -905,7 +1008,7 @@ function renderToolJs(slug) {
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        setMsg('Success! Image downloaded as "' + a.download + '" (' + formatBytes(blob.size) + ')');
+        setMsg('Success! Image processed to (' + canvas.width + 'x' + canvas.height + ' px, ' + formatBytes(blob.size) + ') & downloaded!');
       }, exportFormat, exportQuality);
 
     } catch (err) {
