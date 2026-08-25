@@ -1046,36 +1046,67 @@ function renderToolJs(slug) {
         ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
       }
 
-      // 6. Target KB Compression Logic
-      const kbMatch = lowerSlug.match(/compress-image-to-(\\\\d+)kb/) || lowerSlug.match(/resize-image-to-(\\\\d+)kb/);
+      // 6. Guaranteed Target KB Compression Logic
+      const kbMatch = lowerSlug.match(/(?:compress|resize)-image-to-(\\\\d+)(kb|mb)/);
       if (kbMatch) {
-        const targetKB = parseInt(kbMatch[1], 10);
+        let targetKB = parseInt(kbMatch[1], 10);
+        if (kbMatch[2].toLowerCase() === 'mb') targetKB *= 1024;
+        
         exportFormat = 'image/jpeg';
         suffix = '-compressed-' + targetKB + 'kb.jpg';
-        
-        let minQ = 0.05, maxQ = 0.95, bestBlob = null;
-        let q = exportQuality;
 
-        for (let i = 0; i < 7; i++) {
-          const b = await new Promise(r => canvas.toBlob(r, exportFormat, q));
-          if (!b) break;
-          bestBlob = b;
-          const kb = b.size / 1024;
-          if (kb <= targetKB && kb >= targetKB * 0.85) break;
-          if (kb > targetKB) { maxQ = q; q = (minQ + maxQ) / 2; }
-          else { minQ = q; q = (minQ + maxQ) / 2; }
+        let currentCanvas = canvas;
+        let bestBlob = null;
+        
+        // Iteratively adjust quality and downscale resolution until strictly under targetKB
+        for (let resizeIter = 0; resizeIter < 10; resizeIter++) {
+          let minQ = 0.02;
+          let maxQ = 0.92;
+          
+          for (let qIter = 0; qIter < 8; qIter++) {
+            const q = (minQ + maxQ) / 2;
+            const b = await new Promise(r => currentCanvas.toBlob(r, exportFormat, q));
+            if (!b) break;
+            const sizeKB = b.size / 1024;
+            
+            if (sizeKB <= targetKB) {
+              bestBlob = b;
+              if (sizeKB >= targetKB * 0.88) break;
+              minQ = q;
+            } else {
+              maxQ = q;
+            }
+          }
+          
+          if (bestBlob && (bestBlob.size / 1024) <= targetKB) {
+            break;
+          }
+          
+          // Downscale resolution and retry
+          const nextCanvas = document.createElement('canvas');
+          const factor = 0.75;
+          nextCanvas.width = Math.max(80, Math.floor(currentCanvas.width * factor));
+          nextCanvas.height = Math.max(80, Math.floor(currentCanvas.height * factor));
+          const nCtx = nextCanvas.getContext('2d');
+          nCtx.fillStyle = '#ffffff';
+          nCtx.fillRect(0, 0, nextCanvas.width, nextCanvas.height);
+          nCtx.imageSmoothingEnabled = true;
+          nCtx.imageSmoothingQuality = 'high';
+          nCtx.drawImage(currentCanvas, 0, 0, nextCanvas.width, nextCanvas.height);
+          currentCanvas = nextCanvas;
         }
 
-        if (bestBlob && (bestBlob.size / 1024) > targetKB) {
-          const scale = Math.sqrt(targetKB / (bestBlob.size / 1024));
-          const sCanvas = document.createElement('canvas');
-          sCanvas.width = Math.max(100, Math.floor(canvas.width * scale));
-          sCanvas.height = Math.max(100, Math.floor(canvas.height * scale));
-          const sCtx = sCanvas.getContext('2d');
-          sCtx.imageSmoothingEnabled = true;
-          sCtx.imageSmoothingQuality = 'high';
-          sCtx.drawImage(canvas, 0, 0, sCanvas.width, sCanvas.height);
-          bestBlob = await new Promise(r => sCanvas.toBlob(r, exportFormat, 0.7));
+        // Hard safety check
+        while (bestBlob && (bestBlob.size / 1024) > targetKB && currentCanvas.width > 50) {
+          const nextCanvas = document.createElement('canvas');
+          nextCanvas.width = Math.floor(currentCanvas.width * 0.7);
+          nextCanvas.height = Math.floor(currentCanvas.height * 0.7);
+          const nCtx = nextCanvas.getContext('2d');
+          nCtx.fillStyle = '#ffffff';
+          nCtx.fillRect(0, 0, nextCanvas.width, nextCanvas.height);
+          nCtx.drawImage(currentCanvas, 0, 0, nextCanvas.width, nextCanvas.height);
+          currentCanvas = nextCanvas;
+          bestBlob = await new Promise(r => currentCanvas.toBlob(r, exportFormat, 0.5));
         }
 
         if (bestBlob) {
