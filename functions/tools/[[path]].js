@@ -16,6 +16,7 @@ function formatToolTitle(slug) {
   if (slug === 'crop-image-to-9-16-vertical') return 'Crop Image to 9:16 Vertical Aspect Ratio';
   if (slug === 'crop-image-to-1-1-square') return 'Crop Image to 1:1 Square';
   if (slug === 'resize-image-for-youtube-thumbnail') return 'Resize Image for YouTube Thumbnail';
+  if (slug === 'kakaotalk-profile-image-resizer-online') return 'KakaoTalk Profile Image Resizer Online';
 
   const acronyms = {
     'pdf': 'PDF', 'json': 'JSON', 'xml': 'XML', 'yaml': 'YAML', 'csv': 'CSV',
@@ -27,7 +28,9 @@ function formatToolTitle(slug) {
     'sip': 'SIP', 'fd': 'FD', 'rd': 'RD', 'epf': 'EPF', 'ppf': 'PPF',
     'nps': 'NPS', 'hvac': 'HVAC', 'suvat': 'SUVAT', 'voc': 'VOC', 'qr': 'QR',
     'youtube': 'YouTube', 'tiktok': 'TikTok', 'instagram': 'Instagram',
-    'facebook': 'Facebook', 'twitter': 'Twitter', 'linkedin': 'LinkedIn'
+    'facebook': 'Facebook', 'twitter': 'Twitter', 'linkedin': 'LinkedIn',
+    'jpg': 'JPG', 'jpeg': 'JPEG', 'png': 'PNG', 'webp': 'WebP', 'gif': 'GIF',
+    'svg': 'SVG', 'hd': 'HD', '4k': '4K', '2k': '2K'
   };
 
   const words = slug.split('-').filter(Boolean);
@@ -48,6 +51,11 @@ function formatToolTitle(slug) {
       formatted.push(match[1] + match[2].toUpperCase());
       continue;
     }
+    if (/^(\d+)x(\d+)$/i.test(w)) {
+      const match = w.match(/^(\d+)x(\d+)$/i);
+      formatted.push(match[1] + 'x' + match[2]);
+      continue;
+    }
     if (prev === 'to' && /^\d+$/.test(w) && /^\d+$/.test(next)) {
       formatted.push(w + ':' + next);
       i += 1;
@@ -65,7 +73,7 @@ function formatToolTitle(slug) {
 
 function slugToCategory(slug) {
   const s = slug.toLowerCase();
-  if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize') || s.includes('compress-jpg') || s.includes('compress-image') || s.includes('png') || s.includes('webp') || s.includes('svg')) return 'Utilities';
+  if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize') || s.includes('compress-jpg') || s.includes('compress-image') || s.includes('png') || s.includes('webp') || s.includes('svg') || s.includes('thumbnail') || s.includes('kakaotalk') || s.includes('flip-image') || s.includes('rotate-image') || s.includes('grayscale') || s.includes('invert-image')) return 'Utilities';
   if (s.includes('pdf')) return 'PDF';
   if (s.includes('calc') || s.includes('math') || s.includes('percentage') || s.includes('ratio') || s.includes('formula') || s.includes('angle') || s.includes('frequency') || s.includes('impedance') || s.includes('power') || s.includes('loan') || s.includes('emi') || s.includes('interest') || s.includes('born-in') || s.includes('age-calc') || s.includes('best-of')) return 'Math';
   if (s.includes('text') || s.includes('word') || s.includes('string') || s.includes('convert') || s.includes('case') || s.includes('line') || s.includes('voice')) return 'Text';
@@ -77,27 +85,35 @@ function slugToCategory(slug) {
 function slugToDescription(slug, name) {
   const s = slug.toLowerCase();
   if (s.includes('youtube-thumbnail')) return 'Resize image to exact 1280x720 YouTube thumbnail size online. Free, fast, and high quality with no sign-up.';
+  if (s.includes('facebook-cover')) return 'Resize photo to exact 1200x630 Facebook cover size online. Free and high quality.';
+  if (s.includes('instagram-post')) return 'Resize photo to exact 1080x1080 Instagram post square size online. Free and fast.';
+  if (s.includes('twitter-header')) return 'Resize photo to exact 1500x500 Twitter header banner size online.';
+  if (s.includes('linkedin-banner')) return 'Resize image to exact 1584x396 LinkedIn banner size online.';
+  if (s.includes('tiktok-video')) return 'Resize photo to exact 1080x1920 9:16 vertical size for TikTok and Instagram Reels.';
+  if (s.includes('passport-photo')) return 'Resize photo to standard 600x600 2x2 inch passport photo format online.';
+  if (s.includes('signature-online')) return 'Resize online signature image to 300x100 for official documents and online applications.';
+  if (s.includes('kakaotalk-profile')) return 'Resize profile avatar to 500x500 for KakaoTalk online.';
   if (s.includes('best-of-five')) return 'Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.';
   if (s.includes('best-of-four')) return 'Calculate your best 4 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.';
   if (s.includes('crop-image-to-4-3')) return 'Crop photo to standard 4:3 aspect ratio for tablets and monitors.';
   if (s.includes('crop-image-to-16-9')) return 'Crop photo to standard 16:9 widescreen aspect ratio for YouTube and desktop displays.';
   if (s.includes('crop-image-to-9-16')) return 'Crop photo to vertical 9:16 aspect ratio for Instagram Stories, TikTok, and YouTube Shorts.';
   if (s.includes('crop-image-to-1-1')) return 'Crop photo to 1:1 square aspect ratio for Instagram and profile avatars.';
-  if (s.includes('compress-image-to')) {
-    const match = s.match(/compress-image-to-(\d+)(kb|mb)/);
+  if (s.includes('compress-image-to') || s.includes('resize-image-to-') && s.includes('kb')) {
+    const match = s.match(/(?:compress|resize)-image-to-(\d+)(kb|mb)/);
     if (match) return `Compress image file size to exact ${match[1]}${match[2].toUpperCase()} online. Free, fast, 100% private in-browser image compressor.`;
+  }
+  if (s.match(/resize-image-to-(\d+)x(\d+)/)) {
+    const match = s.match(/resize-image-to-(\d+)x(\d+)/);
+    return `Resize image to exact ${match[1]}x${match[2]} pixels online. Fast, high-quality, 100% private browser-based image resizer.`;
   }
   if (s.includes('word-length') || s.includes('words-count')) {
     const match = s.match(/(\d+)-words-count/);
-    if (match) {
-      return `Check if your text meets the exact ${match[1]} words count limit online. Free, fast, and 100% private browser-based word counter.`;
-    }
+    if (match) return `Check if your text meets the exact ${match[1]} words count limit online. Free, fast, and 100% private browser-based word counter.`;
   }
   if (s.includes('age-calculator-born-in')) {
     const match = s.match(/born-in-(\d{4})/);
-    if (match) {
-      return `Calculate exact age in years, months, and days for someone born in year ${match[1]}. Free online age calculator.`;
-    }
+    if (match) return `Calculate exact age in years, months, and days for someone born in year ${match[1]}. Free online age calculator.`;
   }
   if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize')) {
     return `Free online ${name} tool by NikTool. Process, crop, and optimize images 100% privately in your browser.`;
@@ -112,14 +128,14 @@ function getRelatedTools(slug, category) {
   const s = slug.toLowerCase();
   const list = [];
 
-  if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize') || s.includes('thumbnail')) {
+  if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize') || s.includes('thumbnail') || s.includes('kakaotalk') || s.includes('flip-image') || s.includes('rotate') || s.includes('grayscale') || s.includes('invert')) {
     list.push(
       { slug: 'resize-image-for-youtube-thumbnail', name: 'Resize Image for YouTube Thumbnail', desc: 'Resize image to 1280x720 YouTube size.' },
+      { slug: 'resize-image-for-instagram-post', name: 'Resize Image for Instagram Post', desc: 'Resize photo to 1080x1080 Instagram square.' },
+      { slug: 'resize-image-for-facebook-cover', name: 'Resize Image for Facebook Cover', desc: 'Resize image to 1200x630 Facebook cover.' },
       { slug: 'compress-image-to-100kb', name: 'Compress Image to 100KB', desc: 'Compress image file size down to 100KB.' },
       { slug: 'crop-image-to-16-9', name: 'Crop Image to 16:9 Aspect Ratio', desc: 'Crop photo to 16:9 widescreen ratio.' },
-      { slug: 'crop-image-to-4-3', name: 'Crop Image to 4:3 Aspect Ratio', desc: 'Crop photo to standard 4:3 aspect ratio.' },
-      { slug: 'crop-image-to-1-1-square', name: 'Crop Image to 1:1 Square', desc: 'Crop photo to 1:1 square for profile pictures.' },
-      { slug: 'compress-image-to-50kb', name: 'Compress Image to 50KB', desc: 'Compress image file size down to 50KB.' }
+      { slug: 'crop-image-to-4-3', name: 'Crop Image to 4:3 Aspect Ratio', desc: 'Crop photo to standard 4:3 aspect ratio.' }
     );
   } else if (s.includes('best-of') || s.includes('marks') || s.includes('gpa') || s.includes('grade')) {
     list.push(
@@ -220,7 +236,7 @@ function renderToolHtml(slug) {
   const lowerSlug = slug.toLowerCase();
 
   const isPdf = category === 'PDF' || lowerSlug.includes('pdf');
-  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail');
+  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail') || lowerSlug.includes('kakaotalk') || lowerSlug.includes('flip-image') || lowerSlug.includes('rotate-image') || lowerSlug.includes('grayscale') || lowerSlug.includes('invert-image');
   const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
   const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
   const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
@@ -259,10 +275,24 @@ function renderToolHtml(slug) {
     let subTitle = 'Quality / Compression Target';
     if (lowerSlug.includes('youtube-thumbnail')) subTitle = 'Target: 1280 x 720 px (YouTube Thumbnail Standard)';
     else if (lowerSlug.includes('instagram-post')) subTitle = 'Target: 1080 x 1080 px (Instagram Square)';
-    else if (lowerSlug.includes('compress-image-to')) {
-      const match = lowerSlug.match(/compress-image-to-(\d+)(kb|mb)/);
+    else if (lowerSlug.includes('facebook-cover')) subTitle = 'Target: 1200 x 630 px (Facebook Cover)';
+    else if (lowerSlug.includes('twitter-header')) subTitle = 'Target: 1500 x 500 px (Twitter Header)';
+    else if (lowerSlug.includes('linkedin-banner')) subTitle = 'Target: 1584 x 396 px (LinkedIn Banner)';
+    else if (lowerSlug.includes('tiktok-video')) subTitle = 'Target: 1080 x 1920 px (TikTok / Reels 9:16)';
+    else if (lowerSlug.includes('passport-photo')) subTitle = 'Target: 600 x 600 px (Passport Photo)';
+    else if (lowerSlug.includes('signature-online')) subTitle = 'Target: 300 x 100 px (Signature)';
+    else if (lowerSlug.includes('kakaotalk-profile')) subTitle = 'Target: 500 x 500 px (KakaoTalk Profile)';
+    else if (lowerSlug.match(/resize-image-to-(\d+)x(\d+)/)) {
+      const dm = lowerSlug.match(/resize-image-to-(\d+)x(\d+)/);
+      subTitle = `Target Dimensions: ${dm[1]} x ${dm[2]} px`;
+    } else if (lowerSlug.includes('compress-image-to') || lowerSlug.includes('resize-image-to-') && lowerSlug.includes('kb')) {
+      const match = lowerSlug.match(/(?:compress|resize)-image-to-(\d+)(kb|mb)/);
       if (match) subTitle = `Target File Size: ${match[1]}${match[2].toUpperCase()}`;
-    }
+    } else if (lowerSlug.includes('flip-image-horizontally')) subTitle = 'Effect: Flip Horizontally (Mirror)';
+    else if (lowerSlug.includes('flip-image-vertically')) subTitle = 'Effect: Flip Vertically';
+    else if (lowerSlug.includes('rotate-image-90')) subTitle = 'Effect: Rotate 90° Clockwise';
+    else if (lowerSlug.includes('grayscale-image')) subTitle = 'Filter: Grayscale (Black & White)';
+    else if (lowerSlug.includes('invert-image')) subTitle = 'Filter: Invert Colors (Negative)';
 
     workspaceHtml = `
     <section class="tool-workspace">
@@ -339,7 +369,7 @@ function renderToolHtml(slug) {
           </svg>
         </div>
         <button class="button" type="button" id="btn-select-pdf" style="min-height: 52px; padding: 0.8rem 2.2rem; font-size: 1.05rem; border-radius: 14px; background: #e53935; color: white; border: 0; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 0.6rem; box-shadow: 0 8px 24px rgba(229, 57, 53, 0.3);">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
           Select PDF file
         </button>
         <div class="drop-hint" style="margin-top: 0.85rem; color: #66736c; font-size: 0.92rem; font-weight: 500;">or drop PDF file here</div>
@@ -665,7 +695,7 @@ function renderToolJs(slug) {
   const lowerSlug = slug.toLowerCase();
 
   const isPdf = lowerSlug.includes('pdf');
-  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail');
+  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail') || lowerSlug.includes('kakaotalk') || lowerSlug.includes('flip-image') || lowerSlug.includes('rotate-image') || lowerSlug.includes('grayscale') || lowerSlug.includes('invert-image');
   const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
   const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
   const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
@@ -852,60 +882,83 @@ function renderToolJs(slug) {
       let ext = currentFile.name.split('.').pop() || 'jpg';
       let suffix = '-processed.' + ext;
 
-      // 1. YouTube Thumbnail (1280x720)
-      if (lowerSlug.includes('youtube-thumbnail') || lowerSlug.includes('1280x720')) {
-        targetWidth = 1280;
-        targetHeight = 720;
-        canvas.width = targetWidth;
-        canvas.height = targetHeight;
-        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
-        suffix = '-youtube-thumbnail.jpg';
-        exportFormat = 'image/jpeg';
+      // 1. Specific Platform Dimensions
+      if (lowerSlug.includes('youtube-thumbnail')) {
+        targetWidth = 1280; targetHeight = 720; exportFormat = 'image/jpeg'; suffix = '-youtube-thumbnail.jpg';
+      } else if (lowerSlug.includes('instagram-post')) {
+        targetWidth = 1080; targetHeight = 1080; exportFormat = 'image/jpeg'; suffix = '-instagram-post.jpg';
+      } else if (lowerSlug.includes('facebook-cover')) {
+        targetWidth = 1200; targetHeight = 630; exportFormat = 'image/jpeg'; suffix = '-facebook-cover.jpg';
+      } else if (lowerSlug.includes('twitter-header')) {
+        targetWidth = 1500; targetHeight = 500; exportFormat = 'image/jpeg'; suffix = '-twitter-header.jpg';
+      } else if (lowerSlug.includes('linkedin-banner')) {
+        targetWidth = 1584; targetHeight = 396; exportFormat = 'image/jpeg'; suffix = '-linkedin-banner.jpg';
+      } else if (lowerSlug.includes('tiktok-video')) {
+        targetWidth = 1080; targetHeight = 1920; exportFormat = 'image/jpeg'; suffix = '-tiktok-video.jpg';
+      } else if (lowerSlug.includes('passport-photo')) {
+        targetWidth = 600; targetHeight = 600; exportFormat = 'image/jpeg'; suffix = '-passport-photo.jpg';
+      } else if (lowerSlug.includes('signature-online')) {
+        targetWidth = 300; targetHeight = 100; exportFormat = 'image/png'; suffix = '-signature.png';
+      } else if (lowerSlug.includes('kakaotalk-profile')) {
+        targetWidth = 500; targetHeight = 500; exportFormat = 'image/jpeg'; suffix = '-kakaotalk-profile.jpg';
       }
-      // 2. Instagram Post (1080x1080)
-      else if (lowerSlug.includes('instagram-post') || lowerSlug.includes('1080x1080')) {
-        targetWidth = 1080;
-        targetHeight = 1080;
-        canvas.width = targetWidth;
-        canvas.height = targetHeight;
-        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
-        suffix = '-instagram-post.jpg';
-        exportFormat = 'image/jpeg';
-      }
-      // 3. Facebook Cover (1200x630)
-      else if (lowerSlug.includes('facebook-cover') || lowerSlug.includes('1200x630')) {
-        targetWidth = 1200;
-        targetHeight = 630;
-        canvas.width = targetWidth;
-        canvas.height = targetHeight;
-        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
-        suffix = '-facebook-cover.jpg';
-        exportFormat = 'image/jpeg';
-      }
-      // 4. Custom Dimension Resize (WxH)
+      // 2. Numeric Dimension Resizers (WxH)
       else if (lowerSlug.match(/resize-image-to-(\\d+)x(\\d+)/)) {
         const dMatch = lowerSlug.match(/resize-image-to-(\\d+)x(\\d+)/);
         targetWidth = parseInt(dMatch[1], 10);
         targetHeight = parseInt(dMatch[2], 10);
-        canvas.width = targetWidth;
-        canvas.height = targetHeight;
-        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
         suffix = '-' + targetWidth + 'x' + targetHeight + '.' + ext;
       }
-      // 5. Crop Ratios (4:3, 16:9, 1:1, 9:16)
+      // 3. Format Converters
+      else if (lowerSlug.includes('convert-jpg-to-png') || lowerSlug.includes('convert-webp-to-png')) {
+        exportFormat = 'image/png'; ext = 'png'; suffix = '-converted.png';
+      } else if (lowerSlug.includes('convert-jpg-to-webp') || lowerSlug.includes('convert-png-to-webp')) {
+        exportFormat = 'image/webp'; ext = 'webp'; suffix = '-converted.webp';
+      } else if (lowerSlug.includes('convert-png-to-jpg') || lowerSlug.includes('convert-webp-to-jpg')) {
+        exportFormat = 'image/jpeg'; ext = 'jpg'; suffix = '-converted.jpg';
+      }
+
+      // 4. Transforms & Filters
+      if (lowerSlug.includes('flip-image-horizontally')) {
+        canvas.width = targetWidth; canvas.height = targetHeight;
+        ctx.translate(targetWidth, 0);
+        ctx.scale(-1, 1);
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-flipped-horizontal.' + ext;
+      } else if (lowerSlug.includes('flip-image-vertically')) {
+        canvas.width = targetWidth; canvas.height = targetHeight;
+        ctx.translate(0, targetHeight);
+        ctx.scale(1, -1);
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-flipped-vertical.' + ext;
+      } else if (lowerSlug.includes('rotate-image-90')) {
+        canvas.width = targetHeight; canvas.height = targetWidth;
+        ctx.translate(canvas.width, 0);
+        ctx.rotate(90 * Math.PI / 180);
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-rotated-90.' + ext;
+      } else if (lowerSlug.includes('grayscale-image')) {
+        canvas.width = targetWidth; canvas.height = targetHeight;
+        ctx.filter = 'grayscale(100%)';
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-grayscale.' + ext;
+      } else if (lowerSlug.includes('invert-image')) {
+        canvas.width = targetWidth; canvas.height = targetHeight;
+        ctx.filter = 'invert(100%)';
+        ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
+        suffix = '-inverted.' + ext;
+      }
+      // 5. Crop Aspect Ratios
       else if (lowerSlug.includes('crop-image-to-4-3')) {
         const ratio = 4 / 3;
         const currentRatio = imageObj.width / imageObj.height;
         let cropW = imageObj.width, cropH = imageObj.height, startX = 0, startY = 0;
         if (currentRatio > ratio) {
-          cropW = imageObj.height * ratio;
-          startX = (imageObj.width - cropW) / 2;
+          cropW = imageObj.height * ratio; startX = (imageObj.width - cropW) / 2;
         } else {
-          cropH = imageObj.width / ratio;
-          startY = (imageObj.height - cropH) / 2;
+          cropH = imageObj.width / ratio; startY = (imageObj.height - cropH) / 2;
         }
-        canvas.width = cropW;
-        canvas.height = cropH;
+        canvas.width = cropW; canvas.height = cropH;
         ctx.drawImage(imageObj, startX, startY, cropW, cropH, 0, 0, cropW, cropH);
         suffix = '-cropped-4-3.' + ext;
       } else if (lowerSlug.includes('crop-image-to-16-9')) {
@@ -913,22 +966,18 @@ function renderToolJs(slug) {
         const currentRatio = imageObj.width / imageObj.height;
         let cropW = imageObj.width, cropH = imageObj.height, startX = 0, startY = 0;
         if (currentRatio > ratio) {
-          cropW = imageObj.height * ratio;
-          startX = (imageObj.width - cropW) / 2;
+          cropW = imageObj.height * ratio; startX = (imageObj.width - cropW) / 2;
         } else {
-          cropH = imageObj.width / ratio;
-          startY = (imageObj.height - cropH) / 2;
+          cropH = imageObj.width / ratio; startY = (imageObj.height - cropH) / 2;
         }
-        canvas.width = cropW;
-        canvas.height = cropH;
+        canvas.width = cropW; canvas.height = cropH;
         ctx.drawImage(imageObj, startX, startY, cropW, cropH, 0, 0, cropW, cropH);
         suffix = '-cropped-16-9.' + ext;
       } else if (lowerSlug.includes('crop-image-to-1-1')) {
         const size = Math.min(imageObj.width, imageObj.height);
         const startX = (imageObj.width - size) / 2;
         const startY = (imageObj.height - size) / 2;
-        canvas.width = size;
-        canvas.height = size;
+        canvas.width = size; canvas.height = size;
         ctx.drawImage(imageObj, startX, startY, size, size, 0, 0, size, size);
         suffix = '-cropped-1-1.' + ext;
       } else if (lowerSlug.includes('crop-image-to-9-16')) {
@@ -936,19 +985,19 @@ function renderToolJs(slug) {
         const currentRatio = imageObj.width / imageObj.height;
         let cropW = imageObj.width, cropH = imageObj.height, startX = 0, startY = 0;
         if (currentRatio > ratio) {
-          cropW = imageObj.height * ratio;
-          startX = (imageObj.width - cropW) / 2;
+          cropW = imageObj.height * ratio; startX = (imageObj.width - cropW) / 2;
         } else {
-          cropH = imageObj.width / ratio;
-          startY = (imageObj.height - cropH) / 2;
+          cropH = imageObj.width / ratio; startY = (imageObj.height - cropH) / 2;
         }
-        canvas.width = cropW;
-        canvas.height = cropH;
+        canvas.width = cropW; canvas.height = cropH;
         ctx.drawImage(imageObj, startX, startY, cropW, cropH, 0, 0, cropW, cropH);
         suffix = '-cropped-9-16.' + ext;
       } else {
-        canvas.width = targetWidth;
-        canvas.height = targetHeight;
+        canvas.width = targetWidth; canvas.height = targetHeight;
+        if (exportFormat === 'image/jpeg') {
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, targetWidth, targetHeight);
+        }
         ctx.drawImage(imageObj, 0, 0, targetWidth, targetHeight);
       }
 
@@ -972,7 +1021,6 @@ function renderToolJs(slug) {
           else { minQ = q; q = (minQ + maxQ) / 2; }
         }
 
-        // If still exceeds target KB, scale resolution down
         if (bestBlob && (bestBlob.size / 1024) > targetKB) {
           const scale = Math.sqrt(targetKB / (bestBlob.size / 1024));
           const sCanvas = document.createElement('canvas');
@@ -1008,7 +1056,7 @@ function renderToolJs(slug) {
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        setMsg('Success! Image processed to (' + canvas.width + 'x' + canvas.height + ' px, ' + formatBytes(blob.size) + ') & downloaded!');
+        setMsg('Success! Processed to (' + canvas.width + 'x' + canvas.height + ' px, ' + formatBytes(blob.size) + ') & downloaded!');
       }, exportFormat, exportQuality);
 
     } catch (err) {
