@@ -40,6 +40,9 @@ function slugToDescription(slug, name) {
       return `Calculate exact age in years, months, and days for someone born in year ${match[1]}. Free online age calculator.`;
     }
   }
+  if (s.includes('pdf')) {
+    return `Free online ${name} tool by NikTool. Process, extract, and convert PDF documents 100% privately in your browser.`;
+  }
   return `Free online ${name} tool by NikTool. Fast, browser-based, 100% private processing with no sign-up or installation required.`;
 }
 
@@ -83,14 +86,14 @@ function getRelatedTools(slug, category) {
       { slug: 'age-calculator', name: 'General Age Calculator', desc: 'Calculate exact age from date of birth.' },
       { slug: 'days-between-dates-calculator', name: 'Days Between Dates', desc: 'Calculate duration between two dates.' }
     );
-  } else if (category === 'PDF') {
+  } else if (category === 'PDF' || s.includes('pdf')) {
     list.push(
-      { slug: 'merge-pdf', name: 'Merge PDF Online', desc: 'Combine multiple PDF files into a single document.' },
-      { slug: 'split-pdf', name: 'Split PDF Online', desc: 'Extract pages from your PDF documents.' },
-      { slug: 'compress-pdf', name: 'Compress PDF', desc: 'Reduce PDF file size without quality loss.' },
-      { slug: 'pdf-to-jpg-converter', name: 'PDF to JPG Converter', desc: 'Convert PDF document pages to JPG images.' },
-      { slug: 'pdf-page-rotator', name: 'Rotate PDF Pages', desc: 'Rotate PDF pages permanently online.' },
-      { slug: 'pdf-text-extractor', name: 'Extract Text From PDF', desc: 'Extract plain text from PDF files.' }
+      { slug: 'extract-first-page-from-pdf', name: 'Extract First Page From PDF', desc: 'Extract and save only page 1 as a single-page PDF.' },
+      { slug: 'extract-last-page-from-pdf', name: 'Extract Last Page From PDF', desc: 'Extract and save only the last page of a PDF.' },
+      { slug: 'extract-even-pages-from-pdf', name: 'Extract Even Pages From PDF', desc: 'Extract all even-numbered pages from PDF.' },
+      { slug: 'extract-odd-pages-from-pdf', name: 'Extract Odd Pages From PDF', desc: 'Extract all odd-numbered pages from PDF.' },
+      { slug: 'reverse-page-order-in-pdf', name: 'Reverse PDF Page Order', desc: 'Reverse the sequence of pages in any PDF.' },
+      { slug: 'remove-first-page-from-pdf', name: 'Remove First Page From PDF', desc: 'Delete page 1 from your PDF document.' }
     );
   } else if (category === 'Math') {
     list.push(
@@ -134,6 +137,83 @@ function renderToolHtml(slug) {
   const safeDesc = escapeHtml(description);
   const safeCat = escapeHtml(category);
   const url = `https://niktool.in/tools/${slug}/`;
+  const isPdf = category === 'PDF' || slug.toLowerCase().includes('pdf');
+
+  let workspaceHtml = '';
+
+  if (isPdf) {
+    workspaceHtml = `
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>PDF Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed 100% locally in browser</span>
+      </div>
+
+      <div class="pdf-hero-box" id="pdf-dropzone" style="text-align: center; padding: 2.5rem 1.5rem; border: 2px dashed #b5cdbf; border-radius: 24px; background: linear-gradient(180deg, rgba(247, 248, 244, 0.6) 0%, rgba(223, 245, 233, 0.3) 100%); cursor: pointer; margin-bottom: 1.5rem;">
+        <div class="pdf-hero-icon" style="width: 64px; height: 64px; margin: 0 auto 1rem; display: grid; place-items: center; border-radius: 18px; background: var(--green); color: white; box-shadow: 0 8px 20px rgba(23, 107, 77, 0.25);">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="12" y1="18" x2="12" y2="12"></line>
+            <polyline points="9 15 12 12 15 15"></polyline>
+          </svg>
+        </div>
+        <button class="button" type="button" id="btn-select-pdf" style="min-height: 52px; padding: 0.8rem 2.2rem; font-size: 1.05rem; border-radius: 14px; background: #e53935; color: white; border: 0; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 0.6rem; box-shadow: 0 8px 24px rgba(229, 57, 53, 0.3);">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          Select PDF file
+        </button>
+        <div class="drop-hint" style="margin-top: 0.85rem; color: #66736c; font-size: 0.92rem; font-weight: 500;">or drop PDF file here</div>
+        <input type="file" id="pdf-file-input" accept="application/pdf" style="display:none;">
+      </div>
+
+      <div class="pdf-file-details" id="pdf-details-panel" style="display: none; background: #ffffff; border: 1px solid var(--line); border-radius: 18px; padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: var(--shadow);">
+        <div class="pdf-file-header" style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); margin-bottom: 1rem;">
+          <div class="pdf-file-title" id="pdf-file-name" style="font-family: 'Manrope', sans-serif; font-size: 1.1rem; font-weight: 800; color: var(--ink); display: flex; align-items: center; gap: 0.5rem;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e53935" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            document.pdf
+          </div>
+          <div class="pdf-file-badge" id="pdf-file-info" style="background: var(--mint); color: var(--green-dark); padding: 0.25rem 0.65rem; border-radius: 8px; font-size: 0.82rem; font-weight: 700;">Loading...</div>
+        </div>
+
+        <div class="download-action-bar" style="margin-top: 1.25rem; display: flex; align-items: center; gap: 0.85rem;">
+          <button class="button" id="btn-process-download" type="button" style="min-height: 48px; padding: 0.8rem 1.6rem; font-size: 1rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Process &amp; Download PDF
+          </button>
+          <button class="button secondary" id="btn-reset-file" type="button">Select Another File</button>
+        </div>
+      </div>
+
+      <p class="message" id="${slug}-message" role="status">Ready. Select a PDF file above to get started.</p>
+    </section>`;
+  } else {
+    workspaceHtml = `
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="json-layout">
+        <div class="editor-panel">
+          <label class="editor-label" for="${slug}-input">Input</label>
+          <textarea class="tool-textarea" id="${slug}-input" placeholder="Type or paste input here..."></textarea>
+        </div>
+        <div class="editor-panel">
+          <label class="editor-label" for="${slug}-output">Result</label>
+          <textarea class="tool-textarea" id="${slug}-output" placeholder="Result will appear here..." readonly></textarea>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button class="button" id="primary-action-btn" type="button">Process</button>
+        <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
+        <button class="button secondary" id="clear-text" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="${slug}-message" role="status">Ready. Enter input above.</p>
+    </section>`;
+  }
 
   return `<!doctype html>
 <html lang="en">
@@ -153,6 +233,7 @@ function renderToolHtml(slug) {
   <meta name="msvalidate.01" content="70B4C5E15DD17C7431205113F321611F">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/styles.css">
+  ${isPdf ? '<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>' : ''}
   <!-- Google AdSense Auto Ads -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3039559152735742" crossorigin="anonymous"></script>
   <!-- Google tag (gtag.js) -->
@@ -170,7 +251,7 @@ function renderToolHtml(slug) {
       {
         "@type": "SoftwareApplication",
         "name": "${safeName}",
-        "applicationCategory": "UtilitiesApplication",
+        "applicationCategory": "${isPdf ? 'UtilitiesApplication' : (safeCat === 'Math' ? 'CalculatorApplication' : 'UtilitiesApplication')}",
         "operatingSystem": "Any",
         "url": "${url}",
         "description": "${safeDesc}",
@@ -190,7 +271,7 @@ function renderToolHtml(slug) {
           {
             "@type": "Question",
             "name": "How do I use ${safeName}?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Simply enter your text or numerical values into the workspace input field, then click Process to get instant results." }
+            "acceptedAnswer": { "@type": "Answer", "text": "${isPdf ? 'Upload your PDF document in the workspace above and click Process & Download to save your modified file instantly.' : 'Simply enter your text or numerical values into the workspace input field, then click Process to get instant results.'}" }
           },
           {
             "@type": "Question",
@@ -248,38 +329,14 @@ function renderToolHtml(slug) {
       <p>${safeDesc}</p>
     </section>
 
-    <section class="tool-workspace">
-      <div class="workspace-header">
-        <h2>Workspace</h2>
-        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
-      </div>
-
-      <div class="json-layout">
-        <div class="editor-panel">
-          <label class="editor-label" for="${slug}-input">Input</label>
-          <textarea class="tool-textarea" id="${slug}-input" placeholder="Type or paste input here..."></textarea>
-        </div>
-        <div class="editor-panel">
-          <label class="editor-label" for="${slug}-output">Result</label>
-          <textarea class="tool-textarea" id="${slug}-output" placeholder="Result will appear here..." readonly></textarea>
-        </div>
-      </div>
-
-      <div class="toolbar">
-        <button class="button" id="primary-action-btn" type="button">Process</button>
-        <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
-        <button class="button secondary" id="clear-text" type="button">Clear</button>
-      </div>
-
-      <p class="message" id="${slug}-message" role="status">Ready. Enter input above.</p>
-    </section>
+    ${workspaceHtml}
 
     <article class="seo-content">
       <h2>How to use ${safeName}</h2>
       <ol>
-        <li>Enter or paste your text or values in the input field above.</li>
-        <li>Click the <strong>Process</strong> button to calculate results instantly.</li>
-        <li>Click <strong>Copy result</strong> to copy the output to your clipboard.</li>
+        <li>${isPdf ? 'Select or drop your PDF document into the workspace above.' : 'Enter or paste your text or values in the input field above.'}</li>
+        <li>${isPdf ? 'Click the **Process & Download PDF** button.' : 'Click the **Process** button to calculate results instantly.'}</li>
+        <li>${isPdf ? 'Your processed PDF document will download directly to your device.' : 'Click **Copy result** to copy the output to your clipboard.'}</li>
       </ol>
 
       <h2>Key Features & Privacy</h2>
@@ -291,11 +348,11 @@ function renderToolHtml(slug) {
       <h2>Frequently asked questions</h2>
       <details>
         <summary>How do I use this tool?</summary>
-        <p>Simply paste or type your input in the input area, click Process, and copy your result.</p>
+        <p>${isPdf ? 'Simply select or drop your PDF file in the upload box above and click Process & Download PDF.' : 'Simply paste or type your input in the input area, click Process, and copy your result.'}</p>
       </details>
       <details>
         <summary>Is my data secure?</summary>
-        <p>Yes, all calculations happen locally in your browser without server uploads.</p>
+        <p>Yes, all calculations and file processing happen locally in your browser without server uploads.</p>
       </details>
       <details>
         <summary>Is this tool free to use?</summary>
@@ -349,6 +406,165 @@ function renderToolHtml(slug) {
 
 function renderToolJs(slug) {
   const name = slugToTitle(slug);
+  const isPdf = slug.toLowerCase().includes('pdf');
+
+  if (isPdf) {
+    return `(function() {
+  'use strict';
+  const slug = '${slug}';
+  const dropzone = document.getElementById('pdf-dropzone');
+  const fileInput = document.getElementById('pdf-file-input');
+  const selectBtn = document.getElementById('btn-select-pdf');
+  const detailsPanel = document.getElementById('pdf-details-panel');
+  const fileNameEl = document.getElementById('pdf-file-name');
+  const fileInfoEl = document.getElementById('pdf-file-info');
+  const processBtn = document.getElementById('btn-process-download');
+  const resetBtn = document.getElementById('btn-reset-file');
+  const msgEl = document.getElementById(slug + '-message');
+
+  if (!dropzone || !fileInput) return;
+
+  let currentFile = null;
+  let currentArrayBuffer = null;
+  let totalPagesCount = 0;
+
+  function setMsg(txt, err) {
+    if (!msgEl) return;
+    msgEl.textContent = txt;
+    msgEl.classList.toggle('is-error', !!err);
+  }
+
+  function formatBytes(bytes) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+  }
+
+  if (selectBtn) selectBtn.addEventListener('click', (e) => { e.stopPropagation(); fileInput.click(); });
+  dropzone.addEventListener('click', () => fileInput.click());
+  dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
+  dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
+  dropzone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropzone.classList.remove('dragover');
+    if (e.dataTransfer.files && e.dataTransfer.files.length > 0) handleFile(e.dataTransfer.files[0]);
+  });
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files && fileInput.files.length > 0) handleFile(fileInput.files[0]);
+  });
+
+  function handleFile(file) {
+    if (!file || file.type !== 'application/pdf') {
+      setMsg('Please select a valid PDF document (.pdf)', true);
+      return;
+    }
+    currentFile = file;
+    setMsg('Loading PDF file...');
+
+    const reader = new FileReader();
+    reader.onload = async (evt) => {
+      currentArrayBuffer = evt.target.result;
+      try {
+        if (!window.PDFLib) {
+          setMsg('PDF engine loading, please try again.', true);
+          return;
+        }
+        const pdfDoc = await PDFLib.PDFDocument.load(currentArrayBuffer, { ignoreEncryption: true });
+        totalPagesCount = pdfDoc.getPageCount();
+        if (totalPagesCount === 0) {
+          setMsg('The selected PDF has no pages.', true);
+          return;
+        }
+
+        dropzone.style.display = 'none';
+        detailsPanel.style.display = 'block';
+        fileNameEl.childNodes[2].textContent = ' ' + file.name;
+        fileInfoEl.textContent = totalPagesCount + ' Pages | ' + formatBytes(file.size);
+        setMsg('PDF loaded successfully. Click Process & Download to get your result.');
+      } catch (err) {
+        setMsg('Failed to load PDF: ' + err.message, true);
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  processBtn.addEventListener('click', async () => {
+    if (!currentArrayBuffer || totalPagesCount === 0) {
+      setMsg('No PDF loaded.', true);
+      return;
+    }
+
+    try {
+      setMsg('Processing PDF...');
+      const srcDoc = await PDFLib.PDFDocument.load(currentArrayBuffer, { ignoreEncryption: true });
+      const newDoc = await PDFLib.PDFDocument.create();
+      const lowerSlug = slug.toLowerCase();
+
+      let indicesToKeep = [];
+      let suffix = '-processed.pdf';
+
+      if (lowerSlug.includes('extract-first-page') || lowerSlug.includes('first1')) {
+        indicesToKeep = [0];
+        suffix = '-first-page.pdf';
+      } else if (lowerSlug.includes('extract-last-page')) {
+        indicesToKeep = [totalPagesCount - 1];
+        suffix = '-last-page.pdf';
+      } else if (lowerSlug.includes('extract-even-pages')) {
+        for (let i = 1; i < totalPagesCount; i += 2) indicesToKeep.push(i);
+        suffix = '-even-pages.pdf';
+      } else if (lowerSlug.includes('extract-odd-pages')) {
+        for (let i = 0; i < totalPagesCount; i += 2) indicesToKeep.push(i);
+        suffix = '-odd-pages.pdf';
+      } else if (lowerSlug.includes('remove-first-page')) {
+        for (let i = 1; i < totalPagesCount; i++) indicesToKeep.push(i);
+        suffix = '-no-first-page.pdf';
+      } else if (lowerSlug.includes('reverse')) {
+        for (let i = totalPagesCount - 1; i >= 0; i--) indicesToKeep.push(i);
+        suffix = '-reversed.pdf';
+      } else {
+        for (let i = 0; i < totalPagesCount; i++) indicesToKeep.push(i);
+      }
+
+      if (indicesToKeep.length === 0) {
+        setMsg('No pages selected for extraction.', true);
+        return;
+      }
+
+      const copiedPages = await newDoc.copyPages(srcDoc, indicesToKeep);
+      copiedPages.forEach(p => newDoc.addPage(p));
+
+      const pdfBytes = await newDoc.save();
+      const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+      const dlUrl = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = dlUrl;
+      a.download = (currentFile.name || 'document').replace(/\\.pdf$/i, '') + suffix;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setMsg('Success! File processed and downloaded.');
+    } catch (err) {
+      setMsg('Error processing PDF: ' + err.message, true);
+    }
+  });
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      currentFile = null;
+      currentArrayBuffer = null;
+      totalPagesCount = 0;
+      fileInput.value = '';
+      detailsPanel.style.display = 'none';
+      dropzone.style.display = 'block';
+      setMsg('Ready. Select a PDF file above.');
+    });
+  }
+})();`;
+  }
+
+  // General Text / Calculation tools
   return `(function() {
   'use strict';
   const inputEl = document.getElementById('${slug}-input');
@@ -389,7 +605,7 @@ function renderToolJs(slug) {
           const birthYear = parseInt(match[1], 10);
           const currentYear = new Date().getFullYear();
           const age = currentYear - birthYear;
-          result = 'Birth Year: ' + birthYear + '\\nCurrent Year: ' + currentYear + '\\nAge: ' + age + ' years old (or ' + (age - 1) + ' depending on month)';
+          result = 'Birth Year: ' + birthYear + '\\nCurrent Year: ' + currentYear + '\\nAge: ' + age + ' years old (or ' + (age - 1) + ' depending on birth month)';
         } else {
           result = 'Processed: ' + val;
         }
