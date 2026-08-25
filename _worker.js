@@ -9,6 +9,8 @@ function escapeHtml(str) {
 }
 
 function formatToolTitle(slug) {
+  if (slug === 'best-of-five-calculator') return 'Best of Five Calculator';
+  if (slug === 'best-of-four-calculator') return 'Best of Four Calculator';
   if (slug === 'crop-image-to-4-3') return 'Crop Image to 4:3 Aspect Ratio';
   if (slug === 'crop-image-to-16-9') return 'Crop Image to 16:9 Aspect Ratio';
   if (slug === 'crop-image-to-9-16-vertical') return 'Crop Image to 9:16 Vertical Aspect Ratio';
@@ -62,7 +64,7 @@ function slugToCategory(slug) {
   const s = slug.toLowerCase();
   if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize') || s.includes('compress-jpg') || s.includes('compress-image') || s.includes('png') || s.includes('webp') || s.includes('svg')) return 'Utilities';
   if (s.includes('pdf')) return 'PDF';
-  if (s.includes('calc') || s.includes('math') || s.includes('percentage') || s.includes('ratio') || s.includes('formula') || s.includes('angle') || s.includes('frequency') || s.includes('impedance') || s.includes('power') || s.includes('loan') || s.includes('emi') || s.includes('interest') || s.includes('born-in') || s.includes('age-calc')) return 'Math';
+  if (s.includes('calc') || s.includes('math') || s.includes('percentage') || s.includes('ratio') || s.includes('formula') || s.includes('angle') || s.includes('frequency') || s.includes('impedance') || s.includes('power') || s.includes('loan') || s.includes('emi') || s.includes('interest') || s.includes('born-in') || s.includes('age-calc') || s.includes('best-of')) return 'Math';
   if (s.includes('text') || s.includes('word') || s.includes('string') || s.includes('convert') || s.includes('case') || s.includes('line') || s.includes('voice')) return 'Text';
   if (s.includes('json') || s.includes('xml') || s.includes('yaml') || s.includes('code') || s.includes('format') || s.includes('base64') || s.includes('sql') || s.includes('html') || s.includes('css')) return 'Developer';
   if (s.includes('password') || s.includes('hash') || s.includes('encode') || s.includes('encrypt') || s.includes('shield')) return 'Security';
@@ -71,6 +73,8 @@ function slugToCategory(slug) {
 
 function slugToDescription(slug, name) {
   const s = slug.toLowerCase();
+  if (s.includes('best-of-five')) return 'Calculate your best 5 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.';
+  if (s.includes('best-of-four')) return 'Calculate your best 4 subject marks and percentage automatically. Free, fast, and 100% private browser-based calculator.';
   if (s.includes('crop-image-to-4-3')) return 'Crop photo to standard 4:3 aspect ratio for tablets and monitors.';
   if (s.includes('crop-image-to-16-9')) return 'Crop photo to standard 16:9 widescreen aspect ratio for YouTube and desktop displays.';
   if (s.includes('crop-image-to-9-16')) return 'Crop photo to vertical 9:16 aspect ratio for Instagram Stories, TikTok, and YouTube Shorts.';
@@ -100,7 +104,16 @@ function getRelatedTools(slug, category) {
   const s = slug.toLowerCase();
   const list = [];
 
-  if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize')) {
+  if (s.includes('best-of') || s.includes('marks') || s.includes('gpa') || s.includes('grade')) {
+    list.push(
+      { slug: 'best-of-five-calculator', name: 'Best of Five Calculator', desc: 'Calculate top 5 marks and percentage.' },
+      { slug: 'percentage-calculator', name: 'Percentage Calculator', desc: 'Quick percentage calculation tool.' },
+      { slug: 'gpa-calculator', name: 'GPA Calculator', desc: 'Calculate grade point average online.' },
+      { slug: 'scientific-calculator', name: 'Scientific Calculator', desc: 'Advanced scientific math functions.' },
+      { slug: 'days-between-dates-calculator', name: 'Days Between Dates', desc: 'Calculate duration between dates.' },
+      { slug: 'word-counter', name: 'Word Counter', desc: 'Count words, characters, and reading time.' }
+    );
+  } else if (s.includes('image') || s.includes('photo') || s.includes('crop') || s.includes('resize')) {
     list.push(
       { slug: 'crop-image-to-4-3', name: 'Crop Image to 4:3 Aspect Ratio', desc: 'Crop photo to standard 4:3 aspect ratio.' },
       { slug: 'crop-image-to-16-9', name: 'Crop Image to 16:9 Aspect Ratio', desc: 'Crop photo to 16:9 widescreen ratio.' },
@@ -196,14 +209,45 @@ function renderToolHtml(slug) {
   const safeDesc = escapeHtml(description);
   const safeCat = escapeHtml(category);
   const url = `https://niktool.in/tools/${slug}/`;
-  const isPdf = category === 'PDF' || slug.toLowerCase().includes('pdf');
-  const isImage = slug.toLowerCase().includes('image') || slug.toLowerCase().includes('photo') || slug.toLowerCase().includes('crop') || slug.toLowerCase().includes('resize') || slug.toLowerCase().includes('compress-jpg') || slug.toLowerCase().includes('compress-image') || slug.toLowerCase().includes('webp') || slug.toLowerCase().includes('png');
-  const isWordCount = slug.toLowerCase().includes('word-count') || slug.toLowerCase().includes('words-count') || slug.toLowerCase().includes('word-length');
-  const isAge = slug.toLowerCase().includes('age-calculator') || slug.toLowerCase().includes('born-in');
+  const lowerSlug = slug.toLowerCase();
+
+  const isPdf = category === 'PDF' || lowerSlug.includes('pdf');
+  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png');
+  const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
+  const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
+  const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
 
   let workspaceHtml = '';
 
-  if (isImage) {
+  if (isMarksCalc) {
+    const isBest4 = lowerSlug.includes('best-of-four');
+    workspaceHtml = `
+    <section class="tool-workspace">
+      <div class="workspace-header">
+        <h2>Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+      </div>
+
+      <div class="json-layout">
+        <div class="editor-panel">
+          <label class="editor-label" for="${slug}-input">Enter All Subject Marks</label>
+          <textarea class="tool-textarea" id="${slug}-input" placeholder="Enter marks separated by commas or newlines&#10;Example: 85, 92, 78, 88, 95, 80"></textarea>
+        </div>
+        <div class="editor-panel">
+          <label class="editor-label" for="${slug}-output">Result</label>
+          <textarea class="tool-textarea" id="${slug}-output" placeholder="${isBest4 ? 'Best 4' : 'Best 5'} calculation will appear here..." readonly></textarea>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button class="button" id="primary-action-btn" type="button">${isBest4 ? 'Calculate Best 4' : 'Calculate Best 5'}</button>
+        <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
+        <button class="button secondary" id="clear-text" type="button">Clear</button>
+      </div>
+
+      <p class="message" id="${slug}-message" role="status">Ready. Enter subject marks above.</p>
+    </section>`;
+  } else if (isImage) {
     workspaceHtml = `
     <section class="tool-workspace">
       <div class="workspace-header">
@@ -467,7 +511,7 @@ function renderToolHtml(slug) {
           {
             "@type": "Question",
             "name": "How do I use ${safeName}?",
-            "acceptedAnswer": { "@type": "Answer", "text": "${isImage ? 'Select or drop your image file in the green dropzone above, customize quality or parameters, and click Process & Download Image.' : (isPdf ? 'Upload your PDF document in the workspace above and click Process & Download to save your modified file instantly.' : 'Simply enter your text or numerical values into the workspace input field, then click Process to get instant results.')}" }
+            "acceptedAnswer": { "@type": "Answer", "text": "${isMarksCalc ? 'Enter marks for your subjects separated by commas or newlines, then click Calculate Best to see your top scores and percentage.' : (isImage ? 'Select or drop your image file in the green dropzone above, customize quality or parameters, and click Process & Download Image.' : (isPdf ? 'Upload your PDF document in the workspace above and click Process & Download to save your modified file instantly.' : 'Simply enter your text or numerical values into the workspace input field, then click Process to get instant results.'))}" }
           },
           {
             "@type": "Question",
@@ -530,8 +574,8 @@ function renderToolHtml(slug) {
     <article class="seo-content">
       <h2>How to use ${safeName}</h2>
       <ol>
-        <li>${isImage ? 'Click Select Image File or drop your image into the workspace above.' : (isPdf ? 'Select or drop your PDF document into the workspace above.' : 'Enter or paste your text or values in the input field above.')}</li>
-        <li>${isImage ? 'Review image specifications and click Process & Download Image.' : (isPdf ? 'Click the **Process & Download PDF** button.' : 'Click the **Process** button to calculate results instantly.')}</li>
+        <li>${isMarksCalc ? 'Enter marks for all your subjects (separated by commas or newlines).' : (isImage ? 'Click Select Image File or drop your image into the workspace above.' : (isPdf ? 'Select or drop your PDF document into the workspace above.' : 'Enter or paste your text or values in the input field above.'))}</li>
+        <li>${isMarksCalc ? 'Click Calculate to automatically select your highest scores and percentage.' : (isImage ? 'Review image specifications and click Process & Download Image.' : (isPdf ? 'Click the **Process & Download PDF** button.' : 'Click the **Process** button to calculate results instantly.'))}</li>
         <li>${isImage || isPdf ? 'Your processed file will download directly to your device.' : 'Click **Copy result** to copy the output to your clipboard.'}</li>
       </ol>
 
@@ -544,7 +588,7 @@ function renderToolHtml(slug) {
       <h2>Frequently asked questions</h2>
       <details>
         <summary>How do I use this tool?</summary>
-        <p>${isImage ? 'Simply select or drop your image file in the upload box above and click Process & Download Image.' : (isPdf ? 'Simply select or drop your PDF file in the upload box above and click Process & Download PDF.' : 'Simply paste or type your input in the input area, click Process, and copy your result.')}</p>
+        <p>${isMarksCalc ? 'Enter marks for your subjects, click Calculate, and view your top scores with percentage.' : (isImage ? 'Simply select or drop your image file in the upload box above and click Process & Download Image.' : (isPdf ? 'Simply select or drop your PDF file in the upload box above and click Process & Download PDF.' : 'Simply paste or type your input in the input area, click Process, and copy your result.'))}</p>
       </details>
       <details>
         <summary>Is my data secure?</summary>
@@ -602,10 +646,87 @@ function renderToolHtml(slug) {
 
 function renderToolJs(slug) {
   const name = formatToolTitle(slug);
-  const isPdf = slug.toLowerCase().includes('pdf');
-  const isImage = slug.toLowerCase().includes('image') || slug.toLowerCase().includes('photo') || slug.toLowerCase().includes('crop') || slug.toLowerCase().includes('resize') || slug.toLowerCase().includes('compress-jpg') || slug.toLowerCase().includes('compress-image') || slug.toLowerCase().includes('webp') || slug.toLowerCase().includes('png');
-  const isWordCount = slug.toLowerCase().includes('word-count') || slug.toLowerCase().includes('words-count') || slug.toLowerCase().includes('word-length');
-  const isAge = slug.toLowerCase().includes('age-calculator') || slug.toLowerCase().includes('born-in');
+  const lowerSlug = slug.toLowerCase();
+
+  const isPdf = lowerSlug.includes('pdf');
+  const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png');
+  const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
+  const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
+  const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
+
+  if (isMarksCalc) {
+    const isBest4 = lowerSlug.includes('best-of-four');
+    const topCount = isBest4 ? 4 : 5;
+    return `(function() {
+  'use strict';
+  const inputEl = document.getElementById('${slug}-input');
+  const outputEl = document.getElementById('${slug}-output');
+  const primaryBtn = document.getElementById('primary-action-btn');
+  const copyBtn = document.getElementById('copy-output');
+  const clearBtn = document.getElementById('clear-text');
+  const msgEl = document.getElementById('${slug}-message');
+
+  if (!inputEl || !outputEl || !primaryBtn) return;
+
+  primaryBtn.addEventListener('click', function() {
+    const text = inputEl.value.trim();
+    if (!text) {
+      msgEl.textContent = 'Please enter marks for at least ${topCount} subjects.';
+      msgEl.classList.add('is-error');
+      return;
+    }
+    
+    const marks = text.split(/[\\s,]+/).map(s => parseFloat(s.trim())).filter(n => !isNaN(n) && n >= 0);
+    
+    if (marks.length < ${topCount}) {
+      msgEl.textContent = 'Please enter marks for at least ${topCount} subjects.';
+      msgEl.classList.add('is-error');
+      return;
+    }
+    
+    const sorted = [...marks].sort((a, b) => b - a);
+    const best = sorted.slice(0, ${topCount});
+    const excluded = sorted.slice(${topCount});
+    const total = best.reduce((sum, m) => sum + m, 0);
+    const maxMarks = ${topCount * 100};
+    const percentage = (total / maxMarks) * 100;
+    
+    let result = 'Best ${topCount} Marks: ' + best.join(', ') + '\\n';
+    result += 'Total Marks: ' + total + ' / ' + maxMarks + '\\n';
+    result += 'Calculated Percentage: ' + percentage.toFixed(2) + '%\\n';
+    if (excluded.length > 0) {
+      result += '\\nExcluded Subjects: ' + excluded.join(', ');
+    }
+    
+    outputEl.value = result;
+    if (copyBtn) copyBtn.disabled = false;
+    msgEl.textContent = 'Best ${topCount} marks calculated successfully!';
+    msgEl.classList.remove('is-error');
+  });
+
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function() {
+      if (window.NikTool && typeof window.NikTool.copy === 'function') {
+        window.NikTool.copy(outputEl.value, copyBtn);
+      } else {
+        navigator.clipboard.writeText(outputEl.value);
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => copyBtn.textContent = 'Copy result', 2000);
+      }
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function() {
+      inputEl.value = '';
+      outputEl.value = '';
+      if (copyBtn) copyBtn.disabled = true;
+      msgEl.textContent = 'Ready. Enter input above.';
+      msgEl.classList.remove('is-error');
+    });
+  }
+})();`;
+  }
 
   if (isImage) {
     return `(function() {
