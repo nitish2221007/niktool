@@ -150,6 +150,7 @@ function renderToolHtml(slug) {
   <meta property="og:url" content="${url}">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#176b4d">
+  <meta name="msvalidate.01" content="70B4C5E15DD17C7431205113F321611F">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/styles.css">
   <!-- Google AdSense Auto Ads -->
