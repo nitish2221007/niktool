@@ -240,8 +240,8 @@ function renderToolHtml(slug) {
   const isPdf = category === 'PDF' || lowerSlug.includes('pdf');
   const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail') || lowerSlug.includes('kakaotalk') || lowerSlug.includes('flip-image') || lowerSlug.includes('rotate-image') || lowerSlug.includes('grayscale') || lowerSlug.includes('invert-image');
   const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
-  const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
-  const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
+  const isAge = (lowerSlug.startsWith('age-calculator') || lowerSlug.includes('-age-calculator') || lowerSlug.includes('born-in')) && !lowerSlug.includes('percent');
+  const isMarksCalc = lowerSlug.includes('best-of') || lowerSlug.includes('percentage') || lowerSlug.includes('class-10') || lowerSlug.includes('class-12') || lowerSlug.includes('marks') || lowerSlug.includes('board-percentage') || lowerSlug.includes('cbse') || lowerSlug.includes('icse') || lowerSlug.includes('grade') || lowerSlug.includes('cgpa');
   const chunkId = TOOLS_INDEX[slug];
   const isHandcrafted = (chunkId !== undefined);
 
@@ -260,31 +260,32 @@ function renderToolHtml(slug) {
     </section>`;
   } else if (isMarksCalc) {
     const isBest4 = lowerSlug.includes('best-of-four');
+    const isBest5 = lowerSlug.includes('best-of-five');
     workspaceHtml = `
     <section class="tool-workspace">
       <div class="workspace-header">
-        <h2>Workspace</h2>
-        <span class="workspace-status"><span class="status-dot"></span>Processed locally</span>
+        <h2>${safeName} Workspace</h2>
+        <span class="workspace-status"><span class="status-dot"></span>Processed locally in browser</span>
       </div>
 
       <div class="json-layout">
         <div class="editor-panel">
-          <label class="editor-label" for="${slug}-input">Enter All Subject Marks</label>
-          <textarea class="tool-textarea" id="${slug}-input" placeholder="Enter marks separated by commas or newlines&#10;Example: 85, 92, 78, 88, 95, 80"></textarea>
+          <label class="editor-label" for="${slug}-input">Enter Subject Marks or Total Score</label>
+          <textarea class="tool-textarea" id="${slug}-input" placeholder="Enter subject marks separated by commas, spaces, or newlines&#10;Example: 88, 92, 79, 85, 95&#10;Or enter total score: 439 / 500&#10;Or enter CGPA: 8.8"></textarea>
         </div>
         <div class="editor-panel">
-          <label class="editor-label" for="${slug}-output">Result</label>
-          <textarea class="tool-textarea" id="${slug}-output" placeholder="${isBest4 ? 'Best 4' : 'Best 5'} calculation will appear here..." readonly></textarea>
+          <label class="editor-label" for="${slug}-output">Calculated Result &amp; Grade</label>
+          <textarea class="tool-textarea" id="${slug}-output" placeholder="Percentage, total marks, and grade breakdown will appear here..." readonly></textarea>
         </div>
       </div>
 
       <div class="toolbar">
-        <button class="button" id="primary-action-btn" type="button">${isBest4 ? 'Calculate Best 4' : 'Calculate Best 5'}</button>
+        <button class="button" id="primary-action-btn" type="button">${isBest4 ? 'Calculate Best 4' : (isBest5 ? 'Calculate Best 5' : 'Calculate Percentage')}</button>
         <button class="button secondary" id="copy-output" type="button" disabled>Copy result</button>
         <button class="button secondary" id="clear-text" type="button">Clear</button>
       </div>
 
-      <p class="message" id="${slug}-message" role="status">Ready. Enter subject marks above.</p>
+      <p class="message" id="${slug}-message" role="status">Ready. Enter marks or scores above.</p>
     </section>`;
   } else if (isImage) {
     let subTitle = 'Quality / Compression Target';
@@ -738,12 +739,14 @@ function renderToolJs(slug) {
   const isPdf = lowerSlug.includes('pdf');
   const isImage = lowerSlug.includes('image') || lowerSlug.includes('photo') || lowerSlug.includes('crop') || lowerSlug.includes('resize') || lowerSlug.includes('compress-jpg') || lowerSlug.includes('compress-image') || lowerSlug.includes('webp') || lowerSlug.includes('png') || lowerSlug.includes('thumbnail') || lowerSlug.includes('kakaotalk') || lowerSlug.includes('flip-image') || lowerSlug.includes('rotate-image') || lowerSlug.includes('grayscale') || lowerSlug.includes('invert-image');
   const isWordCount = lowerSlug.includes('word-count') || lowerSlug.includes('words-count') || lowerSlug.includes('word-length');
-  const isAge = lowerSlug.includes('age-calculator') || lowerSlug.includes('born-in');
-  const isMarksCalc = lowerSlug.includes('best-of-five') || lowerSlug.includes('best-of-four') || lowerSlug.includes('marks-calculator') || lowerSlug.includes('board-percentage');
+  const isMarksCalc = lowerSlug.includes('best-of') || lowerSlug.includes('percentage') || lowerSlug.includes('class-10') || lowerSlug.includes('class-12') || lowerSlug.includes('marks') || lowerSlug.includes('board-percentage') || lowerSlug.includes('cbse') || lowerSlug.includes('icse') || lowerSlug.includes('grade') || lowerSlug.includes('cgpa');
 
   if (isMarksCalc) {
     const isBest4 = lowerSlug.includes('best-of-four');
-    const topCount = isBest4 ? 4 : 5;
+    const isBest5 = lowerSlug.includes('best-of-five');
+    const isCGPA = lowerSlug.includes('cgpa');
+    const isMarksToPerc = lowerSlug.includes('marks-to-percentage');
+    
     return `(function() {
   'use strict';
   const inputEl = document.getElementById('${slug}-input');
@@ -758,36 +761,117 @@ function renderToolJs(slug) {
   primaryBtn.addEventListener('click', function() {
     const text = inputEl.value.trim();
     if (!text) {
-      msgEl.textContent = 'Please enter marks for at least ${topCount} subjects.';
+      msgEl.textContent = 'Please enter your subject marks or score values above.';
       msgEl.classList.add('is-error');
       return;
     }
     
+    // Check if input is CGPA
+    if (${isCGPA}) {
+      const cgpa = parseFloat(text);
+      if (isNaN(cgpa) || cgpa < 0) {
+        msgEl.textContent = 'Please enter a valid CGPA value.';
+        msgEl.classList.add('is-error');
+        return;
+      }
+      const perc = cgpa * 9.5;
+      let res = 'CGPA: ' + cgpa + '\\n';
+      res += 'Calculated Percentage: ' + perc.toFixed(2) + '%\\n';
+      res += 'Formula: CGPA × 9.5 (CBSE Standard)';
+      outputEl.value = res;
+      if (copyBtn) copyBtn.disabled = false;
+      msgEl.textContent = 'CGPA converted to percentage successfully!';
+      msgEl.classList.remove('is-error');
+      return;
+    }
+    
+    // Check if input is Obtained / Total format (e.g. 435 / 500 or 435, 500)
+    if (${isMarksToPerc} || text.includes('/')) {
+      const parts = text.split(/[\\/\\s,]+/).filter(Boolean);
+      if (parts.length === 2) {
+        const obtained = parseFloat(parts[0]);
+        const total = parseFloat(parts[1]);
+        if (!isNaN(obtained) && !isNaN(total) && total > 0) {
+          const perc = (obtained / total) * 100;
+          let res = 'Marks Obtained: ' + obtained + '\\n';
+          res += 'Total Maximum Marks: ' + total + '\\n';
+          res += 'Calculated Percentage: ' + perc.toFixed(2) + '%\\n';
+          res += 'Formula: (' + obtained + ' / ' + total + ') × 100';
+          outputEl.value = res;
+          if (copyBtn) copyBtn.disabled = false;
+          msgEl.textContent = 'Percentage calculated successfully!';
+          msgEl.classList.remove('is-error');
+          return;
+        }
+      }
+    }
+    
+    // Standard subject-wise marks input (e.g. 85, 92, 78, 88, 95, 80)
     const marks = text.split(/[\\s,]+/).map(s => parseFloat(s.trim())).filter(n => !isNaN(n) && n >= 0);
     
-    if (marks.length < ${topCount}) {
-      msgEl.textContent = 'Please enter marks for at least ${topCount} subjects.';
+    if (marks.length === 0) {
+      msgEl.textContent = 'Please enter valid subject marks (e.g. 85, 92, 78, 88, 95).';
       msgEl.classList.add('is-error');
       return;
     }
     
-    const sorted = [...marks].sort((a, b) => b - a);
-    const best = sorted.slice(0, ${topCount});
-    const excluded = sorted.slice(${topCount});
-    const total = best.reduce((sum, m) => sum + m, 0);
-    const maxMarks = ${topCount * 100};
-    const percentage = (total / maxMarks) * 100;
+    if (${isBest4} && marks.length < 4) {
+      msgEl.textContent = 'Please enter marks for at least 4 subjects.';
+      msgEl.classList.add('is-error');
+      return;
+    }
     
-    let result = 'Best ${topCount} Marks: ' + best.join(', ') + '\\n';
-    result += 'Total Marks: ' + total + ' / ' + maxMarks + '\\n';
-    result += 'Calculated Percentage: ' + percentage.toFixed(2) + '%\\n';
+    if (${isBest5} && marks.length < 5) {
+      msgEl.textContent = 'Please enter marks for at least 5 subjects.';
+      msgEl.classList.add('is-error');
+      return;
+    }
+    
+    let activeMarks = marks;
+    let excluded = [];
+    
+    if (${isBest4}) {
+      const sorted = [...marks].sort((a, b) => b - a);
+      activeMarks = sorted.slice(0, 4);
+      excluded = sorted.slice(4);
+    } else if (${isBest5}) {
+      const sorted = [...marks].sort((a, b) => b - a);
+      activeMarks = sorted.slice(0, 5);
+      excluded = sorted.slice(5);
+    }
+    
+    const totalObtained = activeMarks.reduce((sum, m) => sum + m, 0);
+    const maxMarks = activeMarks.length * 100;
+    const percentage = (totalObtained / maxMarks) * 100;
+    const cgpaEquiv = percentage / 9.5;
+    
+    let grade = 'Pass';
+    if (percentage >= 91) grade = 'A1 (Outstanding)';
+    else if (percentage >= 81) grade = 'A2 (Excellent)';
+    else if (percentage >= 71) grade = 'B1 (Very Good)';
+    else if (percentage >= 61) grade = 'B2 (Good)';
+    else if (percentage >= 51) grade = 'C1 (Above Average)';
+    else if (percentage >= 41) grade = 'C2 (Average)';
+    else if (percentage >= 33) grade = 'D (Pass)';
+    else grade = 'E (Needs Improvement)';
+    
+    let result = '========================================\\n';
+    result += '      BOARD PERCENTAGE REPORT           \\n';
+    result += '========================================\\n';
+    result += 'Subjects Evaluated: ' + activeMarks.length + '\\n';
+    result += 'Marks Counted: ' + activeMarks.join(', ') + '\\n';
+    result += 'Total Marks: ' + totalObtained + ' / ' + maxMarks + '\\n';
+    result += 'Percentage: ' + percentage.toFixed(2) + '%\\n';
+    result += 'CGPA Equivalent: ' + cgpaEquiv.toFixed(2) + ' / 10\\n';
+    result += 'Board Grade: ' + grade + '\\n';
+    
     if (excluded.length > 0) {
-      result += '\\nExcluded Subjects: ' + excluded.join(', ');
+      result += 'Excluded Additional Marks: ' + excluded.join(', ') + '\\n';
     }
     
     outputEl.value = result;
     if (copyBtn) copyBtn.disabled = false;
-    msgEl.textContent = 'Best ${topCount} marks calculated successfully!';
+    msgEl.textContent = 'Class 10 percentage calculated successfully!';
     msgEl.classList.remove('is-error');
   });
 
