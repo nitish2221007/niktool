@@ -19,7 +19,7 @@ function slugToTitle(slug) {
 function slugToCategory(slug) {
   const s = slug.toLowerCase();
   if (s.includes('pdf')) return 'PDF';
-  if (s.includes('calc') || s.includes('math') || s.includes('percentage') || s.includes('ratio') || s.includes('formula') || s.includes('angle') || s.includes('frequency') || s.includes('impedance') || s.includes('power')) return 'Math';
+  if (s.includes('calc') || s.includes('math') || s.includes('percentage') || s.includes('ratio') || s.includes('formula') || s.includes('angle') || s.includes('frequency') || s.includes('impedance') || s.includes('power') || s.includes('loan') || s.includes('emi') || s.includes('interest')) return 'Math';
   if (s.includes('text') || s.includes('word') || s.includes('string') || s.includes('convert') || s.includes('case') || s.includes('line') || s.includes('voice')) return 'Text';
   if (s.includes('json') || s.includes('xml') || s.includes('yaml') || s.includes('code') || s.includes('format')) return 'Developer';
   if (s.includes('password') || s.includes('hash') || s.includes('encode') || s.includes('encrypt') || s.includes('shield')) return 'Security';
@@ -43,10 +43,92 @@ function slugToDescription(slug, name) {
   return `Free online ${name} tool by NikTool. Fast, browser-based, 100% private processing with no sign-up or installation required.`;
 }
 
+function getRelatedTools(slug, category) {
+  const s = slug.toLowerCase();
+  const list = [];
+
+  if (s.includes('word-count') || s.includes('words-count') || s.includes('word-length')) {
+    const match = s.match(/(\d+)-words-count/);
+    const count = match ? parseInt(match[1], 10) : 50;
+    const offsets = [-20, -10, -5, 5, 10, 20, 50, 100];
+    offsets.forEach(off => {
+      const target = count + off;
+      if (target > 0 && target <= 5000 && target !== count) {
+        list.push({
+          slug: `word-length-checker-${target}-words-count`,
+          name: `Word Length Checker (${target} Words Count)`,
+          desc: `Check if your text meets the exact ${target} words count limit.`
+        });
+      }
+    });
+    list.push(
+      { slug: 'word-counter', name: 'Word Counter', desc: 'Count words, characters, sentences, and reading time.' },
+      { slug: 'character-counter', name: 'Character Counter', desc: 'Count total characters with and without spaces.' }
+    );
+  } else if (s.includes('age-calculator') || s.includes('born-in')) {
+    const match = s.match(/born-in-(\d{4})/);
+    const year = match ? parseInt(match[1], 10) : 1990;
+    const offsets = [-15, -10, -5, -1, 1, 5, 10, 15];
+    offsets.forEach(off => {
+      const y = year + off;
+      if (y >= 1900 && y <= 2026 && y !== year) {
+        list.push({
+          slug: `age-calculator-born-in-${y}`,
+          name: `Age Calculator Born In ${y}`,
+          desc: `Calculate exact age in years, months, and days for year ${y}.`
+        });
+      }
+    });
+    list.push(
+      { slug: 'age-calculator', name: 'General Age Calculator', desc: 'Calculate exact age from date of birth.' },
+      { slug: 'days-between-dates-calculator', name: 'Days Between Dates', desc: 'Calculate duration between two dates.' }
+    );
+  } else if (category === 'PDF') {
+    list.push(
+      { slug: 'merge-pdf', name: 'Merge PDF Online', desc: 'Combine multiple PDF files into a single document.' },
+      { slug: 'split-pdf', name: 'Split PDF Online', desc: 'Extract pages from your PDF documents.' },
+      { slug: 'compress-pdf', name: 'Compress PDF', desc: 'Reduce PDF file size without quality loss.' },
+      { slug: 'pdf-to-jpg-converter', name: 'PDF to JPG Converter', desc: 'Convert PDF document pages to JPG images.' },
+      { slug: 'pdf-page-rotator', name: 'Rotate PDF Pages', desc: 'Rotate PDF pages permanently online.' },
+      { slug: 'pdf-text-extractor', name: 'Extract Text From PDF', desc: 'Extract plain text from PDF files.' }
+    );
+  } else if (category === 'Math') {
+    list.push(
+      { slug: 'percentage-calculator', name: 'Percentage Calculator', desc: 'Quick percentage calculation tool.' },
+      { slug: 'scientific-calculator', name: 'Scientific Calculator', desc: 'Advanced scientific math functions.' },
+      { slug: 'home-loan-emi-calculator-20-lakhs-tenure-15-years', name: 'Home Loan EMI Calculator', desc: 'Calculate monthly home loan EMIs and interest.' },
+      { slug: 'gpa-calculator', name: 'GPA Calculator', desc: 'Calculate grade point average online.' },
+      { slug: 'simple-interest-calculator', name: 'Simple Interest Calculator', desc: 'Calculate simple interest and maturity.' },
+      { slug: 'compound-interest-calculator', name: 'Compound Interest Calculator', desc: 'Calculate compound interest growth.' }
+    );
+  } else if (category === 'Developer') {
+    list.push(
+      { slug: 'json-formatter', name: 'JSON Formatter & Validator', desc: 'Format, validate, and beautify JSON.' },
+      { slug: 'xml-to-json-converter', name: 'XML to JSON Converter', desc: 'Convert XML structure to JSON format.' },
+      { slug: 'yaml-to-json-converter', name: 'YAML to JSON Converter', desc: 'Convert YAML configuration to JSON.' },
+      { slug: 'base64-encode-decode', name: 'Base64 Encoder / Decoder', desc: 'Encode and decode Base64 strings.' },
+      { slug: 'url-encoder-decoder', name: 'URL Encoder / Decoder', desc: 'Encode and decode URL parameters.' },
+      { slug: 'sql-formatter', name: 'SQL Formatter', desc: 'Format and beautify SQL database queries.' }
+    );
+  } else {
+    list.push(
+      { slug: 'word-counter', name: 'Word Counter', desc: 'Count words, characters, and reading time.' },
+      { slug: 'percentage-calculator', name: 'Percentage Calculator', desc: 'Fast percentage calculation tool.' },
+      { slug: 'random-password-generator', name: 'Password Generator', desc: 'Generate strong secure passwords.' },
+      { slug: 'case-converter', name: 'Case Converter', desc: 'Convert text between uppercase, lowercase, title case.' },
+      { slug: 'lorem-ipsum-generator', name: 'Lorem Ipsum Generator', desc: 'Generate placeholder text for designs.' },
+      { slug: 'qr-code-generator', name: 'QR Code Generator', desc: 'Generate high-res custom QR codes.' }
+    );
+  }
+
+  return list.slice(0, 6);
+}
+
 function renderToolHtml(slug) {
   const name = slugToTitle(slug);
   const description = slugToDescription(slug, name);
   const category = slugToCategory(slug);
+  const relatedTools = getRelatedTools(slug, category);
 
   const safeName = escapeHtml(name);
   const safeDesc = escapeHtml(description);
@@ -223,6 +305,32 @@ function renderToolHtml(slug) {
         <p>Yes, once loaded, the tool works completely offline in your browser.</p>
       </details>
     </article>
+
+    <section class="catalog-section" style="margin-top: 3.5rem; margin-bottom: 2rem;">
+      <div class="section-heading">
+        <div>
+          <h2>Related Tools</h2>
+          <p>Explore more free online tools in ${safeCat}</p>
+        </div>
+      </div>
+      <div class="tool-grid">
+        ${relatedTools.map(t => `
+          <a class="tool-card" href="/tools/${t.slug}/">
+            <div class="tool-card-top">
+              <span class="tool-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7h14M8 12h8m-5 5h2"/></svg>
+              </span>
+              <span class="tool-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+              </span>
+            </div>
+            <h3>${escapeHtml(t.name)}</h3>
+            <p>${escapeHtml(t.desc)}</p>
+            <span class="tool-category">${safeCat}</span>
+          </a>
+        `).join('')}
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
